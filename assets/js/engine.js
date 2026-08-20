@@ -553,6 +553,17 @@ function pfadSetzen(p, stand, ziel) {
                       Aufgabe zurück, ohne den Fortschritt zu verlieren. */
 const NIVEAU = { A: 'Basis', B: 'Standard', C: 'Vertiefung' };
 
+function lernphaseSetzen(phase) {
+  const reise = document.querySelector('#lernreise');
+  if (!reise) return;
+  reise.querySelectorAll('[data-phase]').forEach(schritt => {
+    const aktiv = schritt.dataset.phase === phase;
+    schritt.classList.toggle('ist-aktiv', aktiv);
+    if (aktiv) schritt.setAttribute('aria-current', 'step');
+    else schritt.removeAttribute('aria-current');
+  });
+}
+
 function lernkarteZeigen(modus, ziel) {
   const lk = S.daten.lernkarten && S.daten.lernkarten[S.pfad];
   if (!lk) {
@@ -560,6 +571,7 @@ function lernkarteZeigen(modus, ziel) {
     return;
   }
   const sprungziele = {};
+  lernphaseSetzen('verstehen');
 
   const b = $('#buehne');
   if (modus === 'wieder') aufgabeParken();
@@ -846,6 +858,7 @@ function streifenAktualisieren() {
 
 /* ---------- Aufgabe rendern ---------- */
 function aufgabeZeigen() {
+  lernphaseSetzen('ueben');
   geparkteAufgabeVerwerfen();
   const b = $('#buehne');
   buehneLeeren(b);
@@ -1538,6 +1551,7 @@ function einstufungStarten(pfad) {
 
 /* ---------- Abschluss ---------- */
 function abschluss() {
+  lernphaseSetzen('sichern');
   const b = $('#buehne');
   const karte = el('div', 'karte');
 
@@ -2631,3 +2645,4 @@ document.addEventListener('focusout', () => {
    nachgeladen wurde — der Prüfungstrainer lädt engine.js dynamisch. */
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start);
 else start();
+
