@@ -253,3 +253,66 @@ html.buch-toc-offen, html.buch-toc-offen body { overflow: hidden; }
   .buch-nav, .buch-toc, .buch-kopf-tools { display: none !important; }
   html.buch-aktiv body { padding-bottom: 0; }
 }
+
+/* ============================================================
+   Responsive untere Werkzeuge
+   Desktop und Tablet bekommen kompakte Schubladen statt zwei Leisten
+   über die gesamte Bildschirmbreite.
+   ============================================================ */
+
+.buch-tool { color: var(--kopf-text); }
+
+@media (min-width: 1024px) {
+  html.buch-aktiv body { padding-bottom: 94px; }
+  html.buch-aktiv .formelkarte {
+    left: max(24px, calc((100vw - 1120px) / 2));
+    right: auto;
+    bottom: 18px;
+    width: 292px;
+    border-radius: 14px;
+    z-index: 31;
+  }
+  .buch-nav {
+    left: auto;
+    right: max(24px, calc((100vw - 1120px) / 2));
+    bottom: 18px;
+    width: min(800px, calc(100vw - 364px));
+    border: 1px solid var(--linie);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 28px -14px rgba(21,35,58,.5);
+  }
+  .buch-nav-zeile { max-width: none; }
+}
+
+@media (min-width: 700px) and (max-width: 1023px) {
+  html.buch-aktiv body { padding-bottom: calc(var(--buch-nav-total) + 28px); }
+  html.buch-aktiv .formelkarte {
+    left: 18px;
+    right: auto;
+    bottom: calc(var(--buch-nav-total) + 12px);
+    width: 270px;
+    border-radius: 14px;
+  }
+  html.buch-aktiv .formelkarte[open] { width: min(520px, calc(100vw - 36px)); }
+}
+
+@media (max-width: 699px) {
+  :root { --buch-nav-h: 58px; }
+  html.buch-aktiv body { padding-bottom: calc(var(--buch-nav-total) + 66px); }
+  html.buch-aktiv .formelkarte {
+    left: 10px;
+    right: auto;
+    bottom: calc(var(--buch-nav-total) + 8px);
+    width: 210px;
+    border-radius: 13px;
+  }
+  html.buch-aktiv .formelkarte[open] { width: calc(100vw - 20px); }
+  .formelkarte summary { height: 46px; padding: 0 13px; font-size: 13px; }
+  .formel-inhalt { max-height: calc(72vh - 46px); }
+  .buch-nav-zeile { height: var(--buch-nav-h); padding: 0 8px; gap: 6px; }
+  .buch-btn, .buch-mitte { height: 44px; }
+  .buch-btn { font-size: 14px; }
+  .buch-mitte { flex: .9 1 0; }
+}
+
