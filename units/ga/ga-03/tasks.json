@@ -1,0 +1,699 @@
+{
+  "unit": "GA-03",
+  "title": "Elektronenpaarbindung und Oktettregel",
+  "leitidee": "B2",
+  "standards": [
+    "K1",
+    "K2.3",
+    "K3.4"
+  ],
+  "klasse": 7,
+  "wortspeicher": [
+    "die Elektronenpaarbindung",
+    "die Atombindung",
+    "das bindende Elektronenpaar",
+    "das freie Elektronenpaar",
+    "die Oktettregel",
+    "die Lewis-Formel",
+    "das Molekül"
+  ],
+  "worterklaerungen": {
+    "Elektronenpaarbindung": "Zwei Atome teilen sich ein Elektronenpaar. Beide zählen es mit.",
+    "Oktettregel": "Atome streben acht Außenelektronen an. Wasserstoff nur zwei.",
+    "Lewis-Formel": "Eine Schreibweise mit Strichen für Elektronenpaare."
+  },
+  "can_do": {
+    "A": "Ich weiß, dass zwei Nichtmetallatome sich Elektronen teilen, und erkenne einen Bindungsstrich.",
+    "B": "Ich zeichne Lewis-Formeln einfacher Moleküle und wende die Oktettregel an.",
+    "C": "Ich leite aus der Zahl der Außenelektronen die Zahl der Bindungen ab und begründe Mehrfachbindungen."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Teilen statt abgeben",
+      "hinfuehrung": "Zwei Nichtmetallatome geben keine Elektronen ab.",
+      "erklaerung": [
+        "Sie teilen sich ein Paar.",
+        "Der Strich in der Formel ist dieses Paar."
+      ],
+      "merke": "Ein Strich = ein gemeinsames Elektronenpaar.",
+      "beispiel": {
+        "titel": "Wasserstoff",
+        "aufgabe": "Zwei H-Atome kommen zusammen.",
+        "schritte": [
+          "Jedes bringt ein Elektron mit.",
+          "Zusammen ein Paar.",
+          "Fertig ist H₂."
+        ],
+        "ergebnis": "H–H"
+      },
+      "visual": {
+        "type": "animation",
+        "name": "oktettregel",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Die Oktettregel anwenden",
+      "hinfuehrung": "Ein Atom bildet so viele Bindungen, wie ihm zur vollen Außenschale fehlen. Diese eine Regel erklärt fast alle Molekülformeln der Mittelstufe.",
+      "erklaerung": [
+        "Fehlende Elektronen = 8 minus Außenelektronen. Bei Wasserstoff: 2 minus 1.",
+        "Sauerstoff hat 6 Außenelektronen, ihm fehlen 2 — er bildet zwei Bindungen. Deshalb H₂O.",
+        "Stickstoff hat 5, ihm fehlen 3 — er bildet drei Bindungen. Deshalb NH₃.",
+        "Kohlenstoff hat 4, ihm fehlen 4 — er bildet vier Bindungen. Deshalb CH₄.",
+        "Elektronenpaare, die nicht an einer Bindung beteiligt sind, heißen freie Elektronenpaare."
+      ],
+      "merke": "Zahl der Bindungen = 8 − Außenelektronen (bei Wasserstoff: 2 − 1).",
+      "visual": {
+        "type": "lewis",
+        "molekuel": "h2o",
+        "formel": "H2O",
+        "alt": "Lewis-Formel von Wasser mit zwei bindenden und zwei freien Elektronenpaaren."
+      }
+    },
+    "C": {
+      "titel": "Wenn ein Paar nicht reicht",
+      "hinfuehrung": "Manchmal genügt ein gemeinsames Elektronenpaar nicht, um beide Atome auf acht zu bringen. Dann werden zwei oder drei Paare geteilt.",
+      "erklaerung": [
+        "Sauerstoff fehlen je zwei Elektronen. Zwei Sauerstoffatome teilen deshalb zwei Paare — eine Doppelbindung, O₂.",
+        "Stickstoff fehlen je drei. N₂ hat eine Dreifachbindung. Sie ist sehr stabil — deshalb ist Stickstoff so reaktionsträge und macht 78 % der Luft aus, ohne mit irgendetwas zu reagieren.",
+        "Je mehr Paare geteilt werden, desto kürzer und fester ist die Bindung.",
+        "Edelgase bilden gar keine Bindungen: Ihre Schale ist bereits voll."
+      ],
+      "merke": "Eine Mehrfachbindung entsteht, wenn ein geteiltes Paar nicht ausreicht.",
+      "visual": {
+        "type": "lewis",
+        "molekuel": "n2",
+        "formel": "N2",
+        "alt": "Lewis-Formel von Stickstoff mit einer Dreifachbindung."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Zahl der Bindungen = 8 − Außenelektronen",
+      "H₂ · O₂ · N₂ · H₂O · NH₃ · CH₄ · CO₂"
+    ],
+    "saetze": [
+      "Ein Strich = ein gemeinsames Elektronenpaar.",
+      "Oktettregel: acht Außenelektronen, bei Wasserstoff zwei.",
+      "Bindungen: H 1 · O 2 · N 3 · C 4.",
+      "Freie Elektronenpaare gehören nur einem Atom."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Elektronenpaarbindung — die kovalente Bindung",
+      "url": "https://www.youtube.com/watch?v=IYjMICnDK50",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/L6DQrF",
+      "embed": "https://app.lumi.education/api/v1/run/L6DQrF/embed",
+      "stufe": "B",
+      "dauer_s": 289
+    },
+    {
+      "titel": "Oktettregel und Edelgaskonfiguration",
+      "url": "https://www.youtube.com/watch?v=4LAKxGIC8UQ",
+      "quelle": "musstewissen Chemie",
+      "lumi": "https://app.lumi.education/run/5FOYBz",
+      "embed": "https://app.lumi.education/api/v1/run/5FOYBz/embed",
+      "stufe": "B",
+      "dauer_s": 400
+    },
+    {
+      "titel": "Valenzstrichformeln aufstellen — Tipps",
+      "url": "https://www.youtube.com/watch?v=2sHRQIMdbJA",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/YU7Ty6",
+      "embed": "https://app.lumi.education/api/v1/run/YU7Ty6/embed",
+      "stufe": "A",
+      "dauer_s": 709
+    }
+  ],
+  "tasks": [
+    {
+      "id": "GA03-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Was bedeutet der Strich zwischen zwei Atomen in H–H?",
+      "options": [
+        "Ein gemeinsames Elektronenpaar",
+        "Ein Elektron",
+        "Ein Abstand"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "oktettregel",
+        "stufe": "A"
+      },
+      "hints": [
+        "Der Strich steht für Elektronen.",
+        "Es sind zwei.",
+        "Ein Paar."
+      ],
+      "solution": "Ein Strich steht für ein gemeinsames Elektronenpaar — zwei Elektronen, die beiden Atomen gehören.",
+      "misconceptions": [
+        {
+          "id": "strich_als_elektron",
+          "value": 1,
+          "feedback": "Ein Strich sind zwei Elektronen, nicht eines.",
+          "konzeptfehler": "bindungsart_verwechselt"
+        }
+      ],
+      "tags": [
+        "bindung"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "GA03-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Wie viele Außenelektronen hat Sauerstoff?",
+      "answer": 6,
+      "tolerance": 0,
+      "hints": [
+        "Sauerstoff steht in Hauptgruppe VI.",
+        "Die Gruppennummer gibt die Außenelektronen.",
+        "6."
+      ],
+      "solution": "Sauerstoff steht in Hauptgruppe VI und hat 6 Außenelektronen.",
+      "tags": [
+        "bindung"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "GA03-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie viele Elektronen fehlen dem Sauerstoff zur vollen Schale?",
+      "answer": 2,
+      "tolerance": 0,
+      "hints": [
+        "Voll heißt 8.",
+        "8 − 6.",
+        "2."
+      ],
+      "solution": "8 − 6 = 2. Sauerstoff bildet deshalb zwei Bindungen.",
+      "misconceptions": [
+        {
+          "id": "ladung_falsch_herum",
+          "value": 6,
+          "feedback": "Das ist die Zahl der vorhandenen Außenelektronen. Gefragt war, wie viele fehlen.",
+          "konzeptfehler": "ladung_unvollstaendig"
+        }
+      ],
+      "tags": [
+        "bindung"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "GA03-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum bildet Wasser die Formel H₂O und nicht HO?",
+      "options": [
+        "Sauerstoff braucht zwei Bindungen, also zwei H-Atome.",
+        "Weil Wasser leichter ist.",
+        "Zufall."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "lewis",
+        "molekuel": "h2o",
+        "alt": "Lewis-Formel von Wasser."
+      },
+      "hints": [
+        "Wie viele Bindungen bildet Sauerstoff?",
+        "Zwei.",
+        "Also zwei Wasserstoffatome."
+      ],
+      "solution": "Sauerstoff fehlen zwei Elektronen, er bildet zwei Bindungen. Jedes Wasserstoffatom liefert eine — also H₂O.",
+      "tags": [
+        "bindung"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "GA03-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "assign",
+      "prompt": "Ordne jedem Atom die Zahl seiner Bindungen zu.",
+      "slots": [
+        "Wasserstoff",
+        "Sauerstoff",
+        "Stickstoff"
+      ],
+      "values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "8 minus Außenelektronen — außer bei Wasserstoff.",
+        "Sauerstoff hat 6 Außenelektronen.",
+        "Stickstoff hat 5."
+      ],
+      "solution": "Wasserstoff: 2 − 1 = 1 Bindung.\nSauerstoff: 8 − 6 = 2.\nStickstoff: 8 − 5 = 3.",
+      "tags": [
+        "bindung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "GA03-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Wie viele Wasserstoffatome bindet ein Kohlenstoffatom?",
+      "answer": 4,
+      "tolerance": 0,
+      "visual": {
+        "type": "lewis",
+        "molekuel": "ch4",
+        "alt": "Lewis-Formel von Methan."
+      },
+      "hints": [
+        "Kohlenstoff hat 4 Außenelektronen.",
+        "8 − 4 = 4.",
+        "Also vier H-Atome."
+      ],
+      "solution": "Kohlenstoff fehlen 4 Elektronen und bildet 4 Bindungen: CH₄, das Methan.",
+      "misconceptions": [
+        {
+          "id": "formel_ohne_plus_zwei",
+          "value": 2,
+          "feedback": "Kohlenstoff bildet vier Bindungen, nicht zwei.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "bindung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "GA03-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Was ist ein freies Elektronenpaar?",
+      "options": [
+        "Ein Paar, das nur einem Atom gehört und keine Bindung bildet.",
+        "Ein Paar, das zwischen zwei Atomen liegt.",
+        "Ein Elektron ohne Partner."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "lewis",
+        "molekuel": "nh3",
+        "alt": "Lewis-Formel von Ammoniak."
+      },
+      "hints": [
+        "Nicht jedes Paar bildet eine Bindung.",
+        "Manche gehören nur einem Atom.",
+        "Die heißen frei."
+      ],
+      "solution": "Ein freies Elektronenpaar gehört nur einem Atom und ist an keiner Bindung beteiligt. In der Lewis-Formel steht es als Strich am Atom, nicht zwischen zwei Atomen.",
+      "tags": [
+        "bindung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "GA03-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum hat Sauerstoff im O₂-Molekül eine Doppelbindung?",
+      "options": [
+        "Jedem Atom fehlen zwei Elektronen; ein geteiltes Paar reicht nicht.",
+        "Weil Sauerstoff schwer ist.",
+        "Damit das Molekül stabiler aussieht."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "lewis",
+        "molekuel": "o2",
+        "alt": "Lewis-Formel von Sauerstoff mit Doppelbindung."
+      },
+      "hints": [
+        "Wie viele Elektronen fehlen jedem Sauerstoffatom?",
+        "Zwei.",
+        "Ein Paar bringt nur eines pro Atom."
+      ],
+      "solution": "Jedem Sauerstoffatom fehlen zwei Elektronen. Ein einzelnes geteiltes Paar würde nur eines liefern — deshalb werden zwei Paare geteilt: eine Doppelbindung.",
+      "tags": [
+        "bindung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "GA03-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie viele bindende Elektronenpaare enthält ein Methanmolekül CH₄?",
+      "answer": 4,
+      "tolerance": 0,
+      "hints": [
+        "Jede Bindung ist ein Paar.",
+        "Kohlenstoff bildet vier Bindungen.",
+        "4."
+      ],
+      "solution": "Vier Bindungen, also vier bindende Elektronenpaare. Freie Elektronenpaare hat Methan keine.",
+      "tags": [
+        "bindung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "GA03-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum bilden Edelgase keine Moleküle?",
+      "options": [
+        "Ihre Außenschale ist bereits voll — es fehlt nichts.",
+        "Sie sind zu schwer.",
+        "Sie sind zu selten."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wann bildet ein Atom eine Bindung?",
+        "Wenn ihm Elektronen fehlen.",
+        "Edelgasen fehlt nichts."
+      ],
+      "solution": "Edelgase haben bereits acht Außenelektronen. Es fehlt ihnen nichts, also bilden sie keine Bindungen und kommen als einzelne Atome vor.",
+      "tags": [
+        "bindung",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "GA03-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum ist Stickstoff so reaktionsträge, obwohl er 78 % der Luft ausmacht?",
+      "options": [
+        "Die Dreifachbindung im N₂-Molekül ist sehr stabil und muss erst gebrochen werden.",
+        "Stickstoff ist zu leicht.",
+        "Stickstoff ist ein Edelgas."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "lewis",
+        "molekuel": "n2",
+        "alt": "Lewis-Formel von Stickstoff."
+      },
+      "hints": [
+        "Wie viele Paare teilen sich zwei Stickstoffatome?",
+        "Drei.",
+        "Diese Bindung ist sehr fest."
+      ],
+      "solution": "Zwei Stickstoffatome teilen sich drei Elektronenpaare. Diese Dreifachbindung ist außerordentlich stabil — sie zu brechen kostet viel Energie. Deshalb reagiert Stickstoff kaum, obwohl er überall ist.",
+      "misconceptions": [
+        {
+          "id": "edelgas_verwechselt",
+          "value": 2,
+          "feedback": "Stickstoff ist kein Edelgas. Seine Trägheit kommt von der Dreifachbindung.",
+          "konzeptfehler": "bindungsart_verwechselt"
+        }
+      ],
+      "tags": [
+        "bindung",
+        "erklaeren",
+        "msa"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "GA03-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Betrachte das Kohlenstoffdioxid-Molekül CO₂.",
+      "fields": [
+        {
+          "label": "Zahl der Bindungen des Kohlenstoffatoms",
+          "answer": 4,
+          "tolerance": 0
+        },
+        {
+          "label": "Zahl der Doppelbindungen im Molekül",
+          "answer": 2,
+          "tolerance": 0
+        },
+        {
+          "label": "Zahl der freien Elektronenpaare insgesamt",
+          "answer": 4,
+          "tolerance": 0
+        }
+      ],
+      "visual": {
+        "type": "lewis",
+        "molekuel": "co2",
+        "alt": "Lewis-Formel von Kohlenstoffdioxid."
+      },
+      "hints": [
+        "Kohlenstoff bildet immer vier Bindungen.",
+        "Zwei Sauerstoffatome mit je zwei Bindungen.",
+        "Jedes Sauerstoffatom trägt zwei freie Paare."
+      ],
+      "solution": "C bildet 4 Bindungen, verteilt auf zwei Doppelbindungen (O=C=O).\nJedes O-Atom trägt zwei freie Elektronenpaare, zusammen 4.",
+      "tags": [
+        "bindung",
+        "msa"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "GA03-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Ein Schüler zeichnet H–O–H mit einem zusätzlichen Strich zwischen den beiden H-Atomen. Was ist falsch?",
+      "options": [
+        "Wasserstoff kann nur eine Bindung bilden — er hat nur ein Elektron beizusteuern.",
+        "Nichts, die Formel ist richtig.",
+        "Der Sauerstoff müsste vier Bindungen haben."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie viele Bindungen bildet Wasserstoff?",
+        "Genau eine.",
+        "Für eine zweite fehlt ihm das Elektron."
+      ],
+      "solution": "Wasserstoff hat ein Außenelektron und erreicht mit einer Bindung bereits die volle Schale von zwei. Eine zweite Bindung ist ihm nicht möglich.",
+      "misconceptions": [
+        {
+          "id": "oktett_auf_wasserstoff",
+          "value": 2,
+          "feedback": "Sauerstoff bildet zwei Bindungen. Der Fehler liegt beim Wasserstoff.",
+          "konzeptfehler": "bindungsart_verwechselt"
+        }
+      ],
+      "tags": [
+        "bindung",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "GA03-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum gilt die Oktettregel für Wasserstoff nicht?",
+      "options": [
+        "Seine erste Schale fasst nur zwei Elektronen — mehr passen nicht hinein.",
+        "Wasserstoff ist eine Ausnahme ohne Grund.",
+        "Wasserstoff hat gar keine Elektronen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie viele Elektronen fasst die erste Schale?",
+        "Zwei.",
+        "Voll ist bei Wasserstoff also schon bei zwei erreicht."
+      ],
+      "solution": "Die Oktettregel beschreibt eine volle Außenschale. Bei Wasserstoff ist die äußerste Schale die erste, und die fasst nur zwei Elektronen. Die Regel ist also nicht durchbrochen, sondern richtig angewendet.",
+      "tags": [
+        "bindung",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 10,
+      "aufgaben": 19,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 7,
+      "aufgaben": 20,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 7,
+      "aufgaben": 17,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Die Elektronenpaarbindung",
+      "url": "https://learningapps.org/view10070124",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Oktettregel 2",
+      "url": "https://learningapps.org/view9901388",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Chemische Bindungen — Quiz Klasse 8",
+      "url": "https://www.schlaukopf.de/realschule/klasse8/chemie/chemischebindungen",
+      "typ": "app",
+      "quelle": "Schlaukopf"
+    },
+    {
+      "titel": "Aufgaben zu chemischen Bindungen",
+      "url": "https://de.serlo.org/chemie/155751/aufgaben-zu-chemischen-bindungen",
+      "typ": "app",
+      "quelle": "Serlo"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 9,
+    "titel": "Chemische Bindungen",
+    "seiten_von": 109,
+    "seiten_bis": 114,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Elektronenpaarbindung"
+  }
+}

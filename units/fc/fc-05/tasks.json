@@ -1,0 +1,739 @@
+{
+  "unit": "FC-05",
+  "title": "Chemische Reaktion erkennen",
+  "leitidee": "B3",
+  "standards": [
+    "K1",
+    "K2.1",
+    "K3.3"
+  ],
+  "klasse": 7,
+  "wortspeicher": [
+    "die chemische Reaktion",
+    "der Ausgangsstoff",
+    "das Edukt",
+    "das Produkt",
+    "die Stoffumwandlung",
+    "exotherm",
+    "endotherm",
+    "umkehrbar"
+  ],
+  "worterklaerungen": {
+    "chemische Reaktion": "Aus alten Stoffen werden neue Stoffe. Die neuen Stoffe haben andere Eigenschaften.",
+    "Edukt": "Ein Stoff, der am Anfang da ist.",
+    "Produkt": "Ein Stoff, der neu entsteht.",
+    "exotherm": "Bei der Reaktion wird Energie frei. Es wird warm.",
+    "endotherm": "Für die Reaktion wird Energie gebraucht. Es wird kalt oder man muss heizen."
+  },
+  "can_do": {
+    "A": "Ich erkenne an den Eigenschaften, ob ein neuer Stoff entstanden ist.",
+    "B": "Ich unterscheide chemische Reaktion und Zustandsänderung und benenne Edukte und Produkte.",
+    "C": "Ich begründe die Einordnung eines Vorgangs über Stoffeigenschaften und Energiebilanz."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Ist ein neuer Stoff da?",
+      "hinfuehrung": "Bei einer chemischen Reaktion entsteht ein neuer Stoff.",
+      "erklaerung": [
+        "Der neue Stoff sieht anders aus.",
+        "Er hat andere Eigenschaften."
+      ],
+      "merke": "Neuer Stoff = chemische Reaktion.",
+      "beispiel": {
+        "titel": "Ein Beispiel",
+        "aufgabe": "Eisenwolle wird verbrannt.",
+        "schritte": [
+          "Vorher: grau, biegsam, magnetisch.",
+          "Nachher: schwarz, brüchig.",
+          "Die Eigenschaften sind anders."
+        ],
+        "ergebnis": "Ein neuer Stoff ist entstanden."
+      },
+      "visual": {
+        "type": "energie",
+        "verlauf": "exotherm",
+        "alt": "Energiediagramm einer exothermen Reaktion: die Produkte liegen tiefer als die Edukte."
+      }
+    },
+    "B": {
+      "titel": "Reaktion oder nur Zustandswechsel",
+      "hinfuehrung": "Schmelzen, Lösen und Verdampfen sehen manchmal dramatisch aus — und sind trotzdem keine chemischen Reaktionen. Der Unterschied liegt nicht im Aussehen, sondern darin, ob ein neuer Stoff da ist.",
+      "erklaerung": [
+        "Bei einer chemischen Reaktion entstehen Stoffe mit anderen Eigenschaften: andere Farbe, andere Dichte, anderer Schmelzpunkt.",
+        "Bei einer Zustandsänderung bleibt der Stoff derselbe. Wasser, Eis und Wasserdampf sind alle Wasser.",
+        "Eine chemische Reaktion lässt sich nicht durch Abkühlen rückgängig machen — Eis dagegen entsteht aus Wasser einfach wieder."
+      ],
+      "merke": "Frage nicht „sieht es anders aus?“, sondern „ist es ein anderer Stoff?“",
+      "visual": {
+        "type": "animation",
+        "name": "aggregat",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Stoffumwandlung und Energieumsatz",
+      "hinfuehrung": "Jede chemische Reaktion ist zweierlei zugleich: eine Stoffumwandlung und ein Energieumsatz. Beides gehört zur Beschreibung, und beides lässt sich messen.",
+      "erklaerung": [
+        "Exotherm: Die Produkte liegen energetisch tiefer als die Edukte, die Differenz wird als Wärme frei. Verbrennungen sind der Regelfall.",
+        "Endotherm: Die Produkte liegen höher, Energie muss dauerhaft zugeführt werden. Die Reaktion hört auf, sobald man aufhört zu heizen.",
+        "Die Aktivierungsenergie ist davon unabhängig: Auch eine stark exotherme Reaktion braucht einen Anstoß — sonst würde Papier bei Zimmertemperatur brennen."
+      ],
+      "merke": "Exotherm oder endotherm sagt, wohin die Energie geht. Die Aktivierungsenergie sagt, was zum Start nötig ist.",
+      "visual": {
+        "type": "energie",
+        "verlauf": "endotherm",
+        "katalysator": true,
+        "alt": "Energiediagramm einer endothermen Reaktion mit und ohne Katalysator."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Edukte → Produkte"
+    ],
+    "saetze": [
+      "Neuer Stoff mit neuen Eigenschaften = chemische Reaktion.",
+      "Zustandsänderung: derselbe Stoff, andere Anordnung der Teilchen.",
+      "Exotherm: Energie wird frei. Endotherm: Energie wird gebraucht.",
+      "Jede Reaktion braucht Aktivierungsenergie zum Start."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Chemische Reaktion oder physikalischer Vorgang?",
+      "url": "https://www.youtube.com/watch?v=iExhWsDXg9o",
+      "quelle": "musstewissen Chemie",
+      "lumi": "https://app.lumi.education/run/9j6gB9",
+      "embed": "https://app.lumi.education/api/v1/run/9j6gB9/embed",
+      "stufe": "B",
+      "dauer_s": 276
+    },
+    {
+      "titel": "Eisen und Schwefel reagieren — Kennzeichen einer chemischen Reaktion",
+      "url": "https://www.youtube.com/watch?v=sB3R2c0l7z8",
+      "quelle": "Biologie und Chemie Schule",
+      "lumi": "https://app.lumi.education/run/t7bOKx",
+      "embed": "https://app.lumi.education/api/v1/run/t7bOKx/embed",
+      "stufe": "A",
+      "dauer_s": 395
+    }
+  ],
+  "tasks": [
+    {
+      "id": "FC05-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Eisenwolle wird verbrannt. Vorher ist sie grau und biegsam, nachher schwarz und brüchig. Was ist passiert?",
+      "options": [
+        "Ein neuer Stoff ist entstanden.",
+        "Das Eisen ist nur schmutzig geworden.",
+        "Das Eisen ist geschmolzen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Vergleiche die Eigenschaften vorher und nachher.",
+        "Grau und biegsam gegen schwarz und brüchig.",
+        "Andere Eigenschaften heißt: anderer Stoff."
+      ],
+      "solution": "Die Eigenschaften haben sich vollständig geändert. Es ist ein neuer Stoff entstanden — eine chemische Reaktion.",
+      "misconceptions": [
+        {
+          "id": "reaktion_und_zustandsaenderung_verwechselt",
+          "value": 2,
+          "feedback": "Beim Schmelzen bliebe das Eisen grau und würde beim Abkühlen wieder fest. Hier ist ein neuer Stoff da.",
+          "konzeptfehler": "reaktion_und_zustandsaenderung_verwechselt",
+          "verweis": {
+            "absatz": 1
+          }
+        }
+      ],
+      "tags": [
+        "reaktion"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC05-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "assign",
+      "prompt": "Ordne zu: chemische Reaktion oder Zustandsänderung?",
+      "slots": [
+        "Eis schmilzt",
+        "Holz verbrennt",
+        "Wasser verdampft"
+      ],
+      "values": [
+        "Zustandsänderung",
+        "chemische Reaktion",
+        "Zustandsänderung (zweite Zeile)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Frage bei jedem: Ist danach ein anderer Stoff da?",
+        "Eis und Wasser sind derselbe Stoff.",
+        "Aus Holz wird Asche und Gas — das ist etwas anderes."
+      ],
+      "solution": "Eis schmilzt → Zustandsänderung (immer noch Wasser).\nHolz verbrennt → chemische Reaktion (Asche, Gase).\nWasser verdampft → Zustandsänderung.",
+      "tags": [
+        "reaktion"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC05-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Bei einer Reaktion wird das Reagenzglas warm. Wie nennt man das?",
+      "options": [
+        "exotherm",
+        "endotherm",
+        "neutral"
+      ],
+      "answer": 0,
+      "hints": [
+        "Wird Energie frei oder gebraucht?",
+        "Es wird warm, also wird Energie frei.",
+        "Das heißt exotherm."
+      ],
+      "solution": "Wird es warm, gibt die Reaktion Energie ab. Sie ist exotherm.",
+      "misconceptions": [
+        {
+          "id": "exo_endo_vertauscht",
+          "value": 1,
+          "feedback": "Endotherm wäre es, wenn es kalt würde. Warm heißt exotherm."
+        }
+      ],
+      "tags": [
+        "reaktion",
+        "energie"
+      ]
+    },
+    {
+      "id": "FC05-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Zucker wird in Wasser gerührt und verschwindet. Ist das eine chemische Reaktion?",
+      "options": [
+        "Nein — der Zucker ist noch da, nur verteilt.",
+        "Ja — der Zucker ist weg.",
+        "Ja — Wasser und Zucker werden zu etwas Neuem."
+      ],
+      "answer": 0,
+      "hints": [
+        "Schmeckt das Wasser danach süß?",
+        "Ja — der Zucker ist also noch da.",
+        "Beim Eindampfen kommt er zurück."
+      ],
+      "solution": "Der Zucker ist nicht verschwunden, sondern gelöst. Beim Eindampfen erhält man ihn zurück — es ist keine chemische Reaktion.",
+      "misconceptions": [
+        {
+          "id": "loesen_als_reaktion",
+          "value": 1,
+          "feedback": "Gelöst heißt nicht verschwunden. Das Wasser schmeckt süß, und beim Eindampfen kommt der Zucker zurück.",
+          "konzeptfehler": "reaktion_und_zustandsaenderung_verwechselt",
+          "verweis": {
+            "absatz": 1
+          }
+        }
+      ],
+      "tags": [
+        "reaktion"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC05-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "assign",
+      "prompt": "Ordne die Begriffe der Reaktion Eisen + Schwefel → Eisensulfid zu.",
+      "slots": [
+        "Eisen",
+        "Schwefel",
+        "Eisensulfid"
+      ],
+      "values": [
+        "Edukt",
+        "Edukt (zweites)",
+        "Produkt"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Was steht links vom Pfeil, was rechts?",
+        "Links stehen die Edukte.",
+        "Rechts steht das Produkt."
+      ],
+      "solution": "Eisen und Schwefel sind die Edukte (Ausgangsstoffe), Eisensulfid ist das Produkt.",
+      "misconceptions": [
+        {
+          "id": "edukt_produkt_vertauscht",
+          "value": 2,
+          "feedback": "Edukte stehen links vom Pfeil, Produkte rechts.",
+          "konzeptfehler": "edukt_produkt_vertauscht"
+        }
+      ],
+      "tags": [
+        "reaktion",
+        "fachsprache"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "FC05-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Woran erkennst du zuverlässig, dass eine chemische Reaktion stattgefunden hat?",
+      "options": [
+        "Es liegt ein Stoff mit anderen Eigenschaften vor.",
+        "Es hat sich etwas bewegt.",
+        "Es ist warm geworden."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wärme entsteht auch beim Lösen von Salz.",
+        "Entscheidend ist der Stoff, nicht die Begleiterscheinung.",
+        "Andere Eigenschaften = anderer Stoff."
+      ],
+      "solution": "Wärme allein reicht nicht — auch das Lösen von Salz kann Wärme freisetzen oder verbrauchen. Beweisend ist ein Stoff mit anderen Eigenschaften.",
+      "misconceptions": [
+        {
+          "id": "waerme_als_beweis",
+          "value": 2,
+          "feedback": "Wärme begleitet fast jede Reaktion, ist aber kein Beweis: Auch Lösen kann wärmen oder kühlen.",
+          "konzeptfehler": "reaktion_und_zustandsaenderung_verwechselt",
+          "verweis": {
+            "absatz": 0
+          }
+        }
+      ],
+      "tags": [
+        "reaktion",
+        "bbr"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC05-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "In einem Beutel mit Wasser und Backpulver wird es deutlich kalt. Wie ist die Reaktion einzuordnen?",
+      "options": [
+        "endotherm — sie nimmt Energie aus der Umgebung auf.",
+        "exotherm — es entsteht ein Gas.",
+        "gar keine Reaktion — es wird nur kalt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wird Energie frei oder aufgenommen?",
+        "Es wird kalt, die Umgebung verliert also Energie.",
+        "Das heißt endotherm."
+      ],
+      "solution": "Die Umgebung wird kälter, weil die Reaktion ihr Energie entzieht. Das ist endotherm. Dass zugleich Gas entsteht, zeigt: Es ist sehr wohl eine Reaktion.",
+      "misconceptions": [
+        {
+          "id": "exo_endo_vertauscht",
+          "value": 1,
+          "feedback": "Exotherm hieße: Es wird warm. Hier wird es kalt."
+        }
+      ],
+      "tags": [
+        "reaktion",
+        "energie",
+        "bbr"
+      ]
+    },
+    {
+      "id": "FC05-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Ein Nagel rostet über Wochen. Handelt es sich um eine chemische Reaktion?",
+      "options": [
+        "Ja — Rost hat andere Eigenschaften als Eisen.",
+        "Nein — es geht viel zu langsam.",
+        "Nein — der Nagel ist noch da."
+      ],
+      "answer": 0,
+      "hints": [
+        "Spielt die Geschwindigkeit eine Rolle für die Einordnung?",
+        "Nein — nur der Stoff zählt.",
+        "Rost ist brüchig, nicht magnetisch und braun."
+      ],
+      "solution": "Rost ist ein anderer Stoff als Eisen: braun, brüchig, nicht magnetisch. Wie lange eine Reaktion dauert, ändert nichts an ihrer Einordnung.",
+      "misconceptions": [
+        {
+          "id": "geschwindigkeit_als_kriterium",
+          "value": 1,
+          "feedback": "Die Dauer ist kein Kriterium. Auch eine Reaktion über Wochen ist eine chemische Reaktion.",
+          "konzeptfehler": "reaktion_und_zustandsaenderung_verwechselt"
+        }
+      ],
+      "tags": [
+        "reaktion",
+        "bbr"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC05-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Bei einer exothermen Reaktion steigt die Temperatur von 21 °C auf 68 °C. Um wie viel Kelvin ist das?",
+      "answer": 47,
+      "unit_label": "K",
+      "tolerance": 0,
+      "hints": [
+        "Eine Temperaturdifferenz ist in °C und K zahlengleich.",
+        "68 − 21.",
+        "47 K."
+      ],
+      "solution": "68 °C − 21 °C = 47 K. Eine Differenz von 1 °C entspricht genau 1 K.",
+      "misconceptions": [
+        {
+          "id": "kelvin_subtrahiert",
+          "value": 273,
+          "feedback": "Die 273 gehören zur Umrechnung eines Temperaturwertes, nicht einer Differenz.",
+          "konzeptfehler": "groesse_und_einheit_verwechselt"
+        }
+      ],
+      "tags": [
+        "reaktion",
+        "rechnen"
+      ],
+      "spiral": [
+        "W-EINH"
+      ]
+    },
+    {
+      "id": "FC05-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum brennt Papier nicht schon bei Zimmertemperatur, obwohl die Verbrennung exotherm ist?",
+      "options": [
+        "Weil zuerst Aktivierungsenergie zugeführt werden muss.",
+        "Weil Papier bei Zimmertemperatur nicht exotherm reagiert.",
+        "Weil bei Zimmertemperatur kein Sauerstoff da ist."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was braucht jede Reaktion zum Start?",
+        "Einen Anstoß.",
+        "Der heißt Aktivierungsenergie."
+      ],
+      "solution": "Exotherm sagt nur, dass am Ende Energie frei wird. Zum Start braucht jede Reaktion Aktivierungsenergie — beim Papier ein Streichholz.",
+      "misconceptions": [
+        {
+          "id": "aktivierung_vergessen",
+          "value": 1,
+          "feedback": "Die Reaktion ist exotherm, auch bei Zimmertemperatur. Sie startet nur nicht von selbst."
+        }
+      ],
+      "tags": [
+        "reaktion",
+        "energie",
+        "msa"
+      ]
+    },
+    {
+      "id": "FC05-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Beim Verdampfen von Wasser wird das Wasser zerstört.“ Was ist daran falsch?",
+      "options": [
+        "Die Wassermoleküle bleiben unverändert; nur ihr Abstand wird größer.",
+        "Nichts — Wasserdampf ist tatsächlich ein anderer Stoff.",
+        "Wasser wird beim Verdampfen zu Wasserstoff und Sauerstoff."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert beim Verdampfen mit den Teilchen?",
+        "Sie bleiben dieselben.",
+        "Nur der Abstand ändert sich."
+      ],
+      "solution": "Beim Verdampfen bleiben die Wassermoleküle vollständig erhalten. Erst die Elektrolyse zerlegt Wasser in Wasserstoff und Sauerstoff — das ist eine chemische Reaktion, das Verdampfen nicht.",
+      "misconceptions": [
+        {
+          "id": "verdampfen_als_zerlegung",
+          "value": 2,
+          "feedback": "Das wäre die Elektrolyse. Beim Verdampfen bleibt jedes Wassermolekül ganz.",
+          "konzeptfehler": "reaktion_und_zustandsaenderung_verwechselt",
+          "verweis": {
+            "absatz": 1
+          }
+        }
+      ],
+      "tags": [
+        "reaktion",
+        "teilchen",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC05-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Eine Reaktion läuft nur, solange der Brenner darunter steht. Was folgt daraus?",
+      "options": [
+        "Sie ist endotherm — sie braucht dauerhaft Energiezufuhr.",
+        "Sie ist exotherm — der Brenner liefert nur die Aktivierungsenergie.",
+        "Daraus lässt sich nichts folgern."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert, wenn du den Brenner wegnimmst?",
+        "Die Reaktion hört auf.",
+        "Eine exotherme Reaktion liefe von allein weiter."
+      ],
+      "solution": "Eine exotherme Reaktion trägt sich nach dem Start selbst — die frei werdende Wärme hält sie in Gang. Hört die Reaktion ohne Brenner auf, braucht sie ständig Energie: Sie ist endotherm.",
+      "misconceptions": [
+        {
+          "id": "aktivierung_mit_endotherm_verwechselt",
+          "value": 1,
+          "feedback": "Aktivierungsenergie wird nur einmal zum Start gebraucht. Hier wird dauerhaft geheizt — das unterscheidet endotherm von exotherm."
+        }
+      ],
+      "tags": [
+        "reaktion",
+        "energie",
+        "msa"
+      ]
+    },
+    {
+      "id": "FC05-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "5,6 g Eisen reagieren vollständig mit 3,2 g Schwefel zu Eisensulfid. Dabei wird das Reagenzglas glühend heiß.",
+      "fields": [
+        {
+          "label": "Masse des Produkts",
+          "answer": 8.8,
+          "unit_label": "g",
+          "tolerance": 0.01,
+          "misconceptions": [
+            {
+              "id": "masse_verschwindet",
+              "value": 2.4,
+              "feedback": "Du hast subtrahiert. Bei einer Vereinigung addieren sich die Massen der Edukte.",
+              "konzeptfehler": "masse_verschwindet"
+            }
+          ]
+        },
+        {
+          "label": "Massenanteil des Eisens im Produkt in Prozent",
+          "answer": 63.64,
+          "unit_label": "%",
+          "tolerance": 0.1
+        }
+      ],
+      "hints": [
+        "Es geht keine Masse verloren.",
+        "5,6 g + 3,2 g = 8,8 g.",
+        "Anteil = 5,6 : 8,8 · 100 %."
+      ],
+      "solution": "m(Produkt) = 5,6 g + 3,2 g = 8,8 g\nw(Fe) = 5,6 g : 8,8 g = 0,6364 → 63,64 %\nDass es heiß wird, zeigt zusätzlich: Die Reaktion ist exotherm.",
+      "tags": [
+        "reaktion",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "FC05-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Beim Lösen von Kochsalz in Wasser kühlt die Lösung leicht ab. Ein Schüler schließt: „Also ist Lösen eine chemische Reaktion.“ Wie bewertest du das?",
+      "options": [
+        "Der Schluss ist falsch: Ein Energieumsatz allein macht noch keine chemische Reaktion.",
+        "Der Schluss ist richtig: Energieumsatz beweist eine Reaktion.",
+        "Der Schluss ist richtig, weil Ionen entstehen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ist das Kriterium für eine chemische Reaktion?",
+        "Ein neuer Stoff mit neuen Eigenschaften.",
+        "Beim Eindampfen kommt dasselbe Salz zurück."
+      ],
+      "solution": "Auch physikalische Vorgänge setzen Energie um. Entscheidend ist, ob ein neuer Stoff vorliegt — beim Eindampfen erhält man dasselbe Kochsalz zurück. Dass die Ionen in Lösung getrennt vorliegen, ändert daran nichts.",
+      "misconceptions": [
+        {
+          "id": "waerme_als_beweis",
+          "value": 1,
+          "feedback": "Ein Energieumsatz begleitet auch das Lösen und Schmelzen. Beweisend ist nur ein neuer Stoff.",
+          "konzeptfehler": "reaktion_und_zustandsaenderung_verwechselt",
+          "verweis": {
+            "absatz": 0
+          }
+        }
+      ],
+      "tags": [
+        "reaktion",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 10,
+      "aufgaben": 19,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 7,
+      "aufgaben": 20,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 7,
+      "aufgaben": 17,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Physikalischer Vorgang oder chemische Reaktion?",
+      "url": "https://learningapps.org/view11984078",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Zentrale Merkmale der chemische Reaktion",
+      "url": "https://learningapps.org/view13091408",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Chemische Reaktion — Quiz Klasse 8",
+      "url": "https://www.schlaukopf.de/realschule/klasse8/chemie/chemischereaktion",
+      "typ": "app",
+      "quelle": "Schlaukopf"
+    },
+    {
+      "titel": "Aufgaben zu chemischen Reaktionen",
+      "url": "https://de.serlo.org/chemie/243879/aufgabengruppe",
+      "typ": "app",
+      "quelle": "Serlo"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 5,
+    "titel": "Die chemische Reaktion",
+    "seiten_von": 58,
+    "seiten_bis": 65,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "chemische Reaktion"
+  }
+}

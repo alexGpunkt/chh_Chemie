@@ -1,0 +1,686 @@
+{
+  "unit": "GA-04",
+  "title": "Treibhausgase, Luftschadstoffe, Edelgase",
+  "leitidee": "B3",
+  "standards": [
+    "K1",
+    "K3.3",
+    "K4.1",
+    "K4.3"
+  ],
+  "klasse": 7,
+  "wortspeicher": [
+    "das Treibhausgas",
+    "der Treibhauseffekt",
+    "das Stickoxid",
+    "der Katalysator",
+    "das Edelgas",
+    "der Feinstaub"
+  ],
+  "worterklaerungen": {
+    "Treibhausgas": "Ein Gas, das Wärmestrahlung von der Erde zurückhält.",
+    "Katalysator": "Ein Stoff, der eine Reaktion beschleunigt und dabei selbst erhalten bleibt.",
+    "Stickoxid": "Eine Verbindung aus Stickstoff und Sauerstoff. Entsteht bei hohen Verbrennungstemperaturen."
+  },
+  "can_do": {
+    "A": "Ich nenne Treibhausgase und eine Maßnahme zu ihrer Verringerung.",
+    "B": "Ich erkläre den Treibhauseffekt und die Wirkung eines Katalysators.",
+    "C": "Ich bewerte Maßnahmen zur Luftreinhaltung und begründe meine Einschätzung."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Gase, die die Erde wärmen",
+      "hinfuehrung": "Manche Gase halten Wärme zurück.",
+      "erklaerung": [
+        "Kohlenstoffdioxid ist eines davon.",
+        "Es entsteht beim Verbrennen."
+      ],
+      "merke": "Weniger verbrennen heißt weniger Treibhausgas.",
+      "beispiel": {
+        "titel": "Woher CO₂ kommt",
+        "aufgabe": "Wobei entsteht Kohlenstoffdioxid?",
+        "schritte": [
+          "Beim Verbrennen von Holz, Kohle, Öl und Gas.",
+          "Beim Atmen.",
+          "In Kraftwerken und Motoren."
+        ],
+        "ergebnis": "Überall, wo Kohlenstoff verbrennt."
+      },
+      "visual": {
+        "type": "anteil",
+        "titel": "Treibhausgase im Vergleich",
+        "segmente": [
+          {
+            "anteil": 76,
+            "label": "CO₂"
+          },
+          {
+            "anteil": 16,
+            "label": "CH₄"
+          },
+          {
+            "anteil": 8,
+            "label": "andere"
+          }
+        ],
+        "alt": "Anteile der Treibhausgase am menschengemachten Treibhauseffekt."
+      }
+    },
+    "B": {
+      "titel": "Treibhauseffekt und Katalysator",
+      "hinfuehrung": "Zwei Wirkungen, die oft verwechselt werden: Das eine betrifft das Klima, das andere die Abgasreinigung.",
+      "erklaerung": [
+        "Sonnenlicht erwärmt den Boden. Der Boden gibt Wärmestrahlung ab. Treibhausgase halten einen Teil davon zurück — ohne sie wäre die Erde rund 33 °C kälter.",
+        "Problematisch ist die Verstärkung durch zusätzliche Gase aus Verbrennungsprozessen.",
+        "Der Autokatalysator wandelt schädliche Abgase um: Stickoxide werden zu Stickstoff reduziert, Kohlenstoffmonoxid zu Kohlenstoffdioxid oxidiert.",
+        "Der Katalysator wird dabei nicht verbraucht — er beschleunigt nur. Am Kohlenstoffdioxid ändert er nichts."
+      ],
+      "merke": "Der Katalysator reinigt Abgase. Gegen Kohlenstoffdioxid hilft er nicht.",
+      "visual": {
+        "type": "energie",
+        "verlauf": "exotherm",
+        "katalysator": true,
+        "alt": "Energiediagramm mit und ohne Katalysator."
+      }
+    },
+    "C": {
+      "titel": "Maßnahmen beurteilen",
+      "hinfuehrung": "Eine Bewertung braucht ein Kriterium. Ohne Kriterium ist „gut“ oder „schlecht“ nur eine Meinung — und dann ist auch die Note für die Antwort eine Meinung.",
+      "erklaerung": [
+        "Wirksamkeit: Um wie viel sinkt der Ausstoß tatsächlich? Ein Katalysator senkt Stickoxide stark, Kohlenstoffdioxid gar nicht.",
+        "Reichweite: Betrifft die Maßnahme die Ursache oder nur die Folge? Filter behandeln Folgen, Verbrauchssenkung die Ursache.",
+        "Nebenwirkungen und Kosten: Wer trägt sie, und stehen sie im Verhältnis?",
+        "Eine gute Antwort nennt das Kriterium, wendet es an und kommt dann zu einem Urteil — in dieser Reihenfolge."
+      ],
+      "merke": "Erst das Kriterium nennen, dann bewerten.",
+      "visual": {
+        "type": "animation",
+        "name": "signalwoerter",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "2 CO + O₂ → 2 CO₂",
+      "2 NO → N₂ + O₂  (am Katalysator)"
+    ],
+    "saetze": [
+      "Treibhausgase: CO₂, Methan, Lachgas, Wasserdampf.",
+      "Ohne natürlichen Treibhauseffekt wäre die Erde rund 33 °C kälter.",
+      "Der Katalysator wird nicht verbraucht.",
+      "Edelgase: reaktionsträge, volle Außenschale.",
+      "Bewerten heißt: Kriterium nennen, anwenden, urteilen."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Kohlenstoffdioxid und die Erderwärmung",
+      "url": "https://www.youtube.com/watch?v=1kVenn4Cars",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/AEgb9x",
+      "embed": "https://app.lumi.education/api/v1/run/AEgb9x/embed",
+      "stufe": "A",
+      "dauer_s": 208
+    },
+    {
+      "titel": "Kohlenstoffmonoxid — das unsichtbare Giftgas",
+      "url": "https://www.youtube.com/watch?v=63VTMVkjLuk",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/ONhDf7",
+      "embed": "https://app.lumi.education/api/v1/run/ONhDf7/embed",
+      "stufe": "C",
+      "dauer_s": 171
+    },
+    {
+      "titel": "Stickstoffdioxid aus Autoabgasen",
+      "url": "https://www.youtube.com/watch?v=wXZts9ZHxQg",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/TjdKPL",
+      "embed": "https://app.lumi.education/api/v1/run/TjdKPL/embed",
+      "stufe": "B",
+      "dauer_s": 135
+    }
+  ],
+  "tasks": [
+    {
+      "id": "GA04-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welches Gas ist das wichtigste vom Menschen verursachte Treibhausgas?",
+      "options": [
+        "Kohlenstoffdioxid",
+        "Stickstoff",
+        "Argon"
+      ],
+      "answer": 0,
+      "hints": [
+        "Es entsteht beim Verbrennen.",
+        "Es ist in der Luft nur zu 0,04 % enthalten.",
+        "Kohlenstoffdioxid."
+      ],
+      "solution": "Kohlenstoffdioxid ist das wichtigste vom Menschen verursachte Treibhausgas. Stickstoff und Argon wirken nicht als Treibhausgase.",
+      "tags": [
+        "umwelt"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "GA04-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Wobei entsteht Kohlenstoffdioxid?",
+      "options": [
+        "Beim Verbrennen von Holz, Kohle, Öl und Gas",
+        "Beim Schmelzen von Eis",
+        "Beim Lösen von Salz"
+      ],
+      "answer": 0,
+      "hints": [
+        "Es geht um eine chemische Reaktion.",
+        "Kohlenstoff reagiert mit Sauerstoff.",
+        "Beim Verbrennen."
+      ],
+      "solution": "Kohlenstoffdioxid entsteht bei jeder Verbrennung kohlenstoffhaltiger Stoffe.",
+      "tags": [
+        "umwelt"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "GA04-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Was tut ein Katalysator im Auto?",
+      "options": [
+        "Er wandelt schädliche Abgase in weniger schädliche um.",
+        "Er verbraucht weniger Benzin.",
+        "Er kühlt den Motor."
+      ],
+      "answer": 0,
+      "hints": [
+        "Der Katalysator sitzt im Abgasstrang.",
+        "Er verändert die Abgase.",
+        "Er macht sie weniger schädlich."
+      ],
+      "solution": "Der Katalysator wandelt Stickoxide und Kohlenstoffmonoxid in Stickstoff und Kohlenstoffdioxid um.",
+      "tags": [
+        "umwelt"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "GA04-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum werden Edelgase in Glühlampen und Luftballons verwendet?",
+      "options": [
+        "Sie reagieren nicht.",
+        "Sie sind besonders billig.",
+        "Sie leuchten von selbst."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ist typisch für Edelgase?",
+        "Sie reagieren kaum.",
+        "Deshalb sind sie sicher."
+      ],
+      "solution": "Edelgase reagieren nicht. In der Glühlampe verhindern sie das Verbrennen des Drahts, im Ballon können sie sich nicht entzünden — anders als Wasserstoff.",
+      "tags": [
+        "umwelt",
+        "edelgase"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "GA04-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Wie wirkt der Treibhauseffekt?",
+      "options": [
+        "Treibhausgase halten einen Teil der von der Erde abgestrahlten Wärme zurück.",
+        "Treibhausgase erwärmen sich in der Sonne und heizen die Luft.",
+        "Treibhausgase lassen mehr Sonnenlicht durch."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert mit der Wärme, die die Erde abgibt?",
+        "Ein Teil wird zurückgehalten.",
+        "Sonnenlicht kommt hinein, Wärmestrahlung kommt schlechter hinaus."
+      ],
+      "solution": "Sonnenlicht erreicht den Boden und erwärmt ihn. Der Boden strahlt Wärme ab, und Treibhausgase halten einen Teil davon zurück. Ohne diesen natürlichen Effekt wäre die Erde rund 33 °C kälter.",
+      "misconceptions": [
+        {
+          "id": "gas_erwaermt_sich",
+          "value": 1,
+          "feedback": "Die Gase heizen nicht selbst. Sie halten die von der Erde abgestrahlte Wärme zurück."
+        }
+      ],
+      "tags": [
+        "umwelt",
+        "bbr"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "GA04-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Ein Katalysator wird bei der Reaktion nicht verbraucht. Was folgt daraus?",
+      "options": [
+        "Eine kleine Menge genügt für sehr viele Reaktionen.",
+        "Er muss ständig nachgefüllt werden.",
+        "Er verändert die Produkte."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was heißt „nicht verbraucht“?",
+        "Er liegt nach der Reaktion unverändert vor.",
+        "Also kann er wieder wirken."
+      ],
+      "solution": "Der Katalysator liegt nach der Reaktion unverändert vor und kann erneut wirken. Deshalb reicht eine kleine Menge — im Autokatalysator wenige Gramm Edelmetall.",
+      "tags": [
+        "umwelt",
+        "katalysator",
+        "bbr"
+      ]
+    },
+    {
+      "id": "GA04-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum entstehen Stickoxide gerade im Motor, obwohl Stickstoff sonst kaum reagiert?",
+      "options": [
+        "Bei den hohen Temperaturen im Motor wird die stabile Dreifachbindung aufgebrochen.",
+        "Weil Benzin Stickstoff enthält.",
+        "Weil der Katalysator sie erzeugt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was macht Stickstoff normalerweise reaktionsträge?",
+        "Die Dreifachbindung.",
+        "Bei sehr hoher Temperatur bricht sie auf."
+      ],
+      "solution": "Stickstoff ist wegen seiner Dreifachbindung träge. Bei über 1000 °C im Motor reicht die Energie, sie aufzubrechen — dann reagiert der Luftstickstoff mit dem Luftsauerstoff zu Stickoxiden.",
+      "misconceptions": [
+        {
+          "id": "brennstoff_als_quelle",
+          "value": 1,
+          "feedback": "Der Stickstoff stammt aus der Luft, nicht aus dem Kraftstoff."
+        }
+      ],
+      "tags": [
+        "umwelt",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "GA04-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Ein Auto stößt 120 g CO₂ je Kilometer aus. Wie viele Kilogramm sind das auf 1000 km?",
+      "answer": 120,
+      "unit_label": "kg",
+      "tolerance": 1,
+      "hints": [
+        "120 g mal 1000 km.",
+        "Das sind 120 000 g.",
+        "In Kilogramm: durch 1000."
+      ],
+      "solution": "120 g/km · 1000 km = 120 000 g = 120 kg",
+      "misconceptions": [
+        {
+          "id": "faktor_falsch",
+          "value": 120000,
+          "feedback": "Gefragt war in Kilogramm. 120 000 g sind 120 kg.",
+          "konzeptfehler": "groesse_und_einheit_verwechselt"
+        }
+      ],
+      "tags": [
+        "umwelt",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-EINH"
+      ]
+    },
+    {
+      "id": "GA04-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Welche Maßnahme senkt den Kohlenstoffdioxid-Ausstoß eines Autos tatsächlich?",
+      "options": [
+        "Weniger fahren oder weniger Kraftstoff verbrauchen.",
+        "Ein besserer Katalysator.",
+        "Ein Rußpartikelfilter."
+      ],
+      "answer": 0,
+      "hints": [
+        "Woraus entsteht CO₂?",
+        "Aus dem verbrannten Kraftstoff.",
+        "Der Katalysator ändert daran nichts."
+      ],
+      "solution": "Kohlenstoffdioxid entsteht zwangsläufig aus dem verbrannten Kohlenstoff. Katalysator und Partikelfilter reinigen andere Bestandteile, am CO₂ ändern sie nichts. Nur weniger Kraftstoff bedeutet weniger CO₂.",
+      "misconceptions": [
+        {
+          "id": "katalysator_gegen_co2",
+          "value": 1,
+          "feedback": "Der Katalysator wandelt CO sogar <b>zu</b> CO₂ um. Er verringert es nicht."
+        }
+      ],
+      "tags": [
+        "umwelt",
+        "bewerten",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "GA04-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum werden Heliumballons statt Wasserstoffballons verwendet, obwohl Wasserstoff leichter ist?",
+      "options": [
+        "Helium ist ein Edelgas und nicht brennbar.",
+        "Helium ist billiger.",
+        "Wasserstoff steigt nicht auf."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ist an Wasserstoff gefährlich?",
+        "Er ist brennbar.",
+        "Helium reagiert gar nicht."
+      ],
+      "solution": "Wasserstoff ist leichter, aber brennbar — die Hindenburg-Katastrophe zeigte die Folgen. Helium hat eine volle Außenschale, reagiert nicht und ist deshalb sicher.",
+      "tags": [
+        "umwelt",
+        "edelgase",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "GA04-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum ist der natürliche Treibhauseffekt kein Problem, seine Verstärkung aber schon?",
+      "options": [
+        "Ohne ihn wäre die Erde unbewohnbar kalt; problematisch ist die zusätzliche Erwärmung durch mehr Treibhausgase.",
+        "Der natürliche Treibhauseffekt existiert nicht.",
+        "Beide sind gleich problematisch."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie warm wäre die Erde ohne Treibhausgase?",
+        "Rund 33 °C kälter.",
+        "Das Problem ist die Zunahme, nicht der Effekt selbst."
+      ],
+      "solution": "Ohne natürlichen Treibhauseffekt läge die Durchschnittstemperatur bei rund −18 °C. Problematisch ist nicht der Effekt, sondern seine rasche Verstärkung durch zusätzlich freigesetzte Gase.",
+      "tags": [
+        "umwelt",
+        "bewerten",
+        "msa"
+      ]
+    },
+    {
+      "id": "GA04-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Ein Haushalt verbraucht im Jahr 1800 m³ Erdgas. Je Kubikmeter entstehen rund 2,0 kg CO₂.",
+      "fields": [
+        {
+          "label": "CO₂-Ausstoß in Tonnen",
+          "answer": 3.6,
+          "unit_label": "t",
+          "tolerance": 0.05
+        },
+        {
+          "label": "Ausstoß nach einer Verbrauchssenkung um 25 %, in Tonnen",
+          "answer": 2.7,
+          "unit_label": "t",
+          "tolerance": 0.05
+        }
+      ],
+      "hints": [
+        "1800 · 2,0 kg.",
+        "3600 kg = 3,6 t.",
+        "25 % weniger heißt · 0,75."
+      ],
+      "solution": "1800 m³ · 2,0 kg = 3600 kg = 3,6 t\nnach Senkung: 3,6 t · 0,75 = 2,7 t",
+      "tags": [
+        "umwelt",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-EINH",
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "GA04-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Bewerte: „Ein Elektroauto ist immer klimafreundlicher als ein Verbrenner.“",
+      "options": [
+        "Die Aussage braucht ein Kriterium — entscheidend sind Strommix und Herstellung, nicht nur der Betrieb.",
+        "Die Aussage ist uneingeschränkt richtig.",
+        "Die Aussage ist uneingeschränkt falsch."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wo entsteht beim Elektroauto CO₂?",
+        "Bei der Stromerzeugung und der Herstellung.",
+        "Also hängt es davon ab, woher der Strom kommt."
+      ],
+      "solution": "Im Betrieb stößt ein Elektroauto kein CO₂ aus. Ob es insgesamt klimafreundlicher ist, hängt vom Strommix und vom Aufwand der Batterieherstellung ab. Eine Bewertung ohne Bilanzgrenze ist keine.",
+      "misconceptions": [
+        {
+          "id": "bilanzgrenze_zu_eng",
+          "value": 1,
+          "feedback": "Nur den Betrieb zu betrachten, zieht die Bilanzgrenze zu eng — genau wie beim Wiegen im offenen Gefäß.",
+          "konzeptfehler": "masse_verschwindet"
+        }
+      ],
+      "tags": [
+        "umwelt",
+        "bewerten",
+        "msa"
+      ]
+    },
+    {
+      "id": "GA04-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Welche Antwort auf „Beurteile den Nutzen eines Autokatalysators“ ist am besten?",
+      "options": [
+        "Er senkt Stickoxide und Kohlenstoffmonoxid deutlich, ändert am CO₂ aber nichts — gemessen an der Luftqualität ist er wirksam, gemessen am Klimaschutz nicht.",
+        "Er ist gut, weil er die Abgase reinigt.",
+        "Er ist schlecht, weil er teuer ist."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was verlangt „Beurteile“?",
+        "Ein Kriterium, seine Anwendung und ein Urteil.",
+        "Und die Antwort darf differenzieren."
+      ],
+      "solution": "Eine Beurteilung nennt das Kriterium und wendet es an. Antwort 1 unterscheidet zwei Kriterien — Luftqualität und Klimaschutz — und kommt zu einem differenzierten Urteil. Die anderen behaupten nur.",
+      "tags": [
+        "umwelt",
+        "operatoren",
+        "msa"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 6,
+      "aufgaben": 23,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 4,
+      "aufgaben": 23,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 5,
+      "aufgaben": 19,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Treibhauseffekt",
+      "url": "https://learningapps.org/view16852904",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Luft und Luftschadstoffe",
+      "url": "https://learningapps.org/view28165007",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Element Neon — Auswahl",
+      "url": "https://allgemeinbildung.ch/fach=che/Element_Neon_04a.htm",
+      "typ": "app",
+      "quelle": "allgemeinbildung.ch"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Ein Katalysator im Versuch",
+      "url": "https://www.youtube.com/watch?v=IY_-0E1VjrQ",
+      "quelle": "Rugby School Chemistry",
+      "stufe": "B",
+      "rolle": "Demonstration zum Katalysator im Autoabgas",
+      "lumi": "https://app.lumi.education/run/MloJWO",
+      "embed": "https://app.lumi.education/api/v1/run/MloJWO/embed",
+      "protokoll": true
+    },
+    {
+      "titel": "Kohlenstoffmonoxid im Labor",
+      "url": "https://www.youtube.com/watch?v=L18KVwWUQeM",
+      "quelle": "Rugby School Chemistry",
+      "stufe": "C",
+      "rolle": "Vertiefung zu Luftschadstoffen",
+      "lumi": "https://app.lumi.education/run/Jfw7mI",
+      "embed": "https://app.lumi.education/api/v1/run/Jfw7mI/embed",
+      "protokoll": true
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 4,
+    "titel": "Luft und Verbrennungen",
+    "seiten_von": 38,
+    "seiten_bis": 57,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Treibhausgas"
+  }
+}

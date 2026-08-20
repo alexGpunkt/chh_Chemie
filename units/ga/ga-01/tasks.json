@@ -1,0 +1,711 @@
+{
+  "unit": "GA-01",
+  "title": "Luft ist ein Gasgemisch",
+  "leitidee": "B1",
+  "standards": [
+    "K1",
+    "K2.2",
+    "K2.4"
+  ],
+  "klasse": 7,
+  "wortspeicher": [
+    "das Gasgemisch",
+    "der Stickstoff",
+    "der Sauerstoff",
+    "das Edelgas",
+    "das Kohlenstoffdioxid",
+    "der Volumenanteil"
+  ],
+  "worterklaerungen": {
+    "Gasgemisch": "Mehrere Gase liegen nebeneinander vor. Sie sind nicht miteinander verbunden.",
+    "Volumenanteil": "Wie viel Prozent des Volumens auf ein Gas entfallen."
+  },
+  "can_do": {
+    "A": "Ich nenne die Hauptbestandteile der Luft und ihre ungefähren Anteile.",
+    "B": "Ich rechne mit Volumenanteilen und beschreibe den Versuch zur Sauerstoffbestimmung.",
+    "C": "Ich begründe, warum Luft ein Gemisch und keine Verbindung ist."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Woraus Luft besteht",
+      "hinfuehrung": "Luft ist kein einzelner Stoff.",
+      "erklaerung": [
+        "Etwa 78 % sind Stickstoff.",
+        "Etwa 21 % sind Sauerstoff.",
+        "Der Rest ist sehr wenig."
+      ],
+      "merke": "Luft ist ein Gemisch aus mehreren Gasen.",
+      "beispiel": {
+        "titel": "Wie viel Sauerstoff?",
+        "aufgabe": "In 100 L Luft — wie viel Liter Sauerstoff?",
+        "schritte": [
+          "21 % von 100 L",
+          "= 21 L"
+        ],
+        "ergebnis": "21 L Sauerstoff.",
+        "luecke": {
+          "schritt": 1,
+          "wert": 21,
+          "einheit": "L"
+        }
+      },
+      "visual": {
+        "type": "anteil",
+        "titel": "Zusammensetzung der Luft",
+        "segmente": [
+          {
+            "anteil": 78,
+            "label": "N₂"
+          },
+          {
+            "anteil": 21,
+            "label": "O₂"
+          },
+          {
+            "anteil": 1,
+            "label": "Ar u. a."
+          }
+        ],
+        "alt": "Balken mit den Volumenanteilen der Luft: 78 % Stickstoff, 21 % Sauerstoff, 1 % Rest."
+      }
+    },
+    "B": {
+      "titel": "Anteile und ihre Messung",
+      "hinfuehrung": "Die Zusammensetzung der Luft ist keine Schätzung, sondern messbar — und der Versuch dazu ist einfach.",
+      "erklaerung": [
+        "Stickstoff 78 %, Sauerstoff 21 %, Edelgase rund 0,9 %, Kohlenstoffdioxid rund 0,04 %.",
+        "Zur Messung lässt man in einem abgeschlossenen Luftvolumen etwas verbrennen, das nur mit Sauerstoff reagiert — etwa Eisenwolle oder eine Kerze.",
+        "Der verbrauchte Sauerstoff wird gebunden, Wasser steigt nach: rund ein Fünftel des Volumens.",
+        "Das übrige Gas lässt einen Glimmspan erlöschen — es ist überwiegend Stickstoff."
+      ],
+      "merke": "Rund ein Fünftel der Luft ist Sauerstoff. Das ist messbar, nicht geraten.",
+      "visual": {
+        "type": "apparatur",
+        "aufbau": "pneumatisch",
+        "alt": "Pneumatische Wanne mit einem über Wasser aufgefangenen Gas."
+      }
+    },
+    "C": {
+      "titel": "Gemisch, nicht Verbindung",
+      "hinfuehrung": "Dass Luft ein Gemisch ist und keine Verbindung, folgt aus mehreren voneinander unabhängigen Befunden. Ein einzelner davon würde nicht genügen.",
+      "erklaerung": [
+        "Die Anteile sind nicht konstant: In großer Höhe, in einem geschlossenen Raum oder über einem Wald sind sie messbar verschieden. Eine Verbindung hätte feste Zahlenverhältnisse.",
+        "Die Bestandteile behalten ihre Eigenschaften: Sauerstoff unterhält die Verbrennung, ob rein oder in Luft.",
+        "Die Trennung gelingt physikalisch — durch Verflüssigen und fraktionierte Destillation, ohne chemische Reaktion.",
+        "Luft hat deshalb auch keinen festen Siedepunkt, sondern einen Siedebereich."
+      ],
+      "merke": "Feste Verhältnisse, erhaltene Eigenschaften, physikalische Trennbarkeit — daran erkennt man ein Gemisch.",
+      "visual": {
+        "type": "anteil",
+        "titel": "Volumenanteile der trockenen Luft",
+        "segmente": [
+          {
+            "anteil": 78.08,
+            "label": "N₂"
+          },
+          {
+            "anteil": 20.95,
+            "label": "O₂"
+          },
+          {
+            "anteil": 0.93,
+            "label": "Ar"
+          },
+          {
+            "anteil": 0.04,
+            "label": "CO₂"
+          }
+        ],
+        "alt": "Genaue Volumenanteile der trockenen Luft."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Volumenanteil = V(Gas) : V(Luft) · 100 %"
+    ],
+    "saetze": [
+      "Luft: 78 % Stickstoff, 21 % Sauerstoff, rund 1 % Edelgase, 0,04 % CO₂.",
+      "Ein Fünftel der Luft ist Sauerstoff.",
+      "Gemisch: Bestandteile behalten ihre Eigenschaften und sind physikalisch trennbar."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Zusammensetzung der Luft",
+      "url": "https://www.youtube.com/watch?v=ySBV5DBap5A",
+      "quelle": "musstewissen Chemie",
+      "lumi": "https://app.lumi.education/run/VW3WLg",
+      "embed": "https://app.lumi.education/api/v1/run/VW3WLg/embed",
+      "stufe": "A",
+      "dauer_s": 372
+    },
+    {
+      "titel": "Luft — woraus sie besteht",
+      "url": "https://www.youtube.com/watch?v=G9OuwPRo8MM",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/0aYql-",
+      "embed": "https://app.lumi.education/api/v1/run/0aYql-/embed",
+      "stufe": "B",
+      "dauer_s": 220
+    }
+  ],
+  "tasks": [
+    {
+      "id": "GA01-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welches Gas ist in der Luft am häufigsten?",
+      "options": [
+        "Stickstoff",
+        "Sauerstoff",
+        "Kohlenstoffdioxid"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "anteil",
+        "segmente": [
+          {
+            "anteil": 78,
+            "label": "N₂"
+          },
+          {
+            "anteil": 21,
+            "label": "O₂"
+          },
+          {
+            "anteil": 1,
+            "label": "Rest"
+          }
+        ],
+        "alt": "Balken mit den Anteilen der Luft."
+      },
+      "hints": [
+        "Sieh dir den Balken an.",
+        "Der größte Teil ist blau.",
+        "Das ist Stickstoff."
+      ],
+      "solution": "Rund 78 % der Luft sind Stickstoff — deutlich mehr als Sauerstoff.",
+      "misconceptions": [
+        {
+          "id": "sauerstoff_als_hauptbestandteil",
+          "value": 1,
+          "feedback": "Sauerstoff macht nur etwa 21 % aus. Der Hauptbestandteil ist Stickstoff."
+        }
+      ],
+      "tags": [
+        "luft"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "GA01-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Wie viel Prozent der Luft sind Sauerstoff?",
+      "answer": 21,
+      "unit_label": "%",
+      "tolerance": 1,
+      "hints": [
+        "Etwa ein Fünftel.",
+        "Ein Fünftel sind 20 %.",
+        "Genauer: 21 %."
+      ],
+      "solution": "Rund 21 % der Luft sind Sauerstoff — etwa ein Fünftel.",
+      "tags": [
+        "luft"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "GA01-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie viele Liter Sauerstoff stecken in 200 L Luft?",
+      "answer": 42,
+      "unit_label": "L",
+      "tolerance": 1,
+      "hints": [
+        "21 % von 200 L.",
+        "1 % sind 2 L.",
+        "21 · 2 L."
+      ],
+      "solution": "1 % von 200 L = 2 L → 21 % = 42 L",
+      "misconceptions": [
+        {
+          "id": "anteil_umgedreht",
+          "value": 9.52,
+          "feedback": "Du hast geteilt. 21 % von 200 L heißt 200 · 0,21."
+        }
+      ],
+      "tags": [
+        "luft",
+        "rechnen"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "GA01-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum erlischt eine Kerze in einem geschlossenen Glas?",
+      "options": [
+        "Der Sauerstoff im Glas ist verbraucht.",
+        "Der Stickstoff ist verbraucht.",
+        "Es wird zu warm."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welches Gas braucht die Verbrennung?",
+        "Sauerstoff.",
+        "Und im Glas ist nur wenig davon."
+      ],
+      "solution": "Nur der Sauerstoff wird bei der Verbrennung verbraucht. Ist er aufgebraucht, erlischt die Flamme — der Stickstoff bleibt übrig.",
+      "tags": [
+        "luft"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "GA01-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "In einem abgeschlossenen Luftvolumen verbrennt Eisenwolle. Um welchen Anteil steigt das Wasser nach?",
+      "options": [
+        "um etwa ein Fünftel",
+        "um etwa die Hälfte",
+        "gar nicht"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "apparatur",
+        "aufbau": "pneumatisch",
+        "alt": "Über Wasser abgeschlossenes Luftvolumen."
+      },
+      "hints": [
+        "Welcher Anteil der Luft wird gebunden?",
+        "Der Sauerstoff.",
+        "Das ist etwa ein Fünftel."
+      ],
+      "solution": "Die Eisenwolle bindet den Sauerstoff — rund ein Fünftel des Volumens. Genau um diesen Anteil steigt das Wasser nach.",
+      "tags": [
+        "luft",
+        "versuch",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "GA01-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Ein Zimmer hat 60 m³ Luft. Wie viele Kubikmeter Sauerstoff sind darin?",
+      "answer": 12.6,
+      "unit_label": "m³",
+      "tolerance": 0.2,
+      "hints": [
+        "21 % von 60 m³.",
+        "1 % sind 0,6 m³.",
+        "21 · 0,6 m³."
+      ],
+      "solution": "60 m³ · 0,21 = 12,6 m³ Sauerstoff",
+      "tags": [
+        "luft",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES",
+        "W-EINH"
+      ]
+    },
+    {
+      "id": "GA01-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Nach dem Versuch lässt das Restgas einen Glimmspan erlöschen. Was folgt daraus?",
+      "options": [
+        "Der Sauerstoff ist verbraucht; übrig ist überwiegend Stickstoff.",
+        "Das Restgas ist Kohlenstoffdioxid.",
+        "Der Versuch ist misslungen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was zeigt der Glimmspan an?",
+        "Sauerstoff — wenn er aufflammt.",
+        "Er erlischt, also fehlt Sauerstoff."
+      ],
+      "solution": "Ein erlöschender Glimmspan zeigt, dass kein Sauerstoff mehr da ist. Das Restgas ist überwiegend Stickstoff — er unterhält die Verbrennung nicht.",
+      "misconceptions": [
+        {
+          "id": "nachweis_verwechselt",
+          "value": 1,
+          "feedback": "Kohlenstoffdioxid wiese man mit Kalkwasser nach. Der Glimmspan prüft auf Sauerstoff.",
+          "konzeptfehler": "nachweis_verwechselt"
+        }
+      ],
+      "tags": [
+        "luft",
+        "versuch",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "GA01-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Ein Kolben enthält 500 mL Luft.",
+      "fields": [
+        {
+          "label": "Volumen des Stickstoffs",
+          "answer": 390,
+          "unit_label": "mL",
+          "tolerance": 5
+        },
+        {
+          "label": "Volumen des Sauerstoffs",
+          "answer": 105,
+          "unit_label": "mL",
+          "tolerance": 5
+        },
+        {
+          "label": "Volumen des Restes",
+          "answer": 5,
+          "unit_label": "mL",
+          "tolerance": 2
+        }
+      ],
+      "hints": [
+        "78 %, 21 % und 1 % von 500 mL.",
+        "1 % sind 5 mL.",
+        "78 · 5 = 390 mL."
+      ],
+      "solution": "N₂: 500 · 0,78 = 390 mL\nO₂: 500 · 0,21 = 105 mL\nRest: 500 · 0,01 = 5 mL",
+      "tags": [
+        "luft",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "GA01-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum eignet sich eine Kerze schlechter als Eisenwolle für die Bestimmung des Sauerstoffanteils?",
+      "options": [
+        "Bei der Kerze entsteht Kohlenstoffdioxid als Gas, das den Volumenverlust teilweise ausgleicht.",
+        "Die Kerze brennt zu hell.",
+        "Eisenwolle brennt länger."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was entsteht bei der Verbrennung von Wachs?",
+        "Kohlenstoffdioxid und Wasserdampf.",
+        "Ein Gas nimmt wieder Volumen ein."
+      ],
+      "solution": "Eisenwolle bindet Sauerstoff zu festem Eisenoxid — das Volumen sinkt vollständig. Bei der Kerze entsteht gasförmiges Kohlenstoffdioxid, das einen Teil des Volumens wieder einnimmt. Deshalb misst man mit der Kerze zu wenig.",
+      "tags": [
+        "luft",
+        "planen",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "GA01-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum ist Luft ein Gemisch und keine Verbindung?",
+      "options": [
+        "Die Anteile sind nicht überall gleich, und die Bestandteile behalten ihre Eigenschaften.",
+        "Weil Luft unsichtbar ist.",
+        "Weil Luft ein Gas ist."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was gilt für eine Verbindung?",
+        "Feste Zahlenverhältnisse und neue Eigenschaften.",
+        "Beides trifft auf Luft nicht zu."
+      ],
+      "solution": "Eine Verbindung hat feste Massenverhältnisse und neue Eigenschaften. Bei Luft schwanken die Anteile, und Sauerstoff unterhält die Verbrennung auch in der Luft — die Bestandteile behalten ihre Eigenschaften.",
+      "misconceptions": [
+        {
+          "id": "aggregatzustand_als_kriterium",
+          "value": 2,
+          "feedback": "Ob etwas Gas ist, sagt nichts über Gemisch oder Verbindung. Wasserdampf ist ein Gas und eine Verbindung.",
+          "konzeptfehler": "reaktion_und_zustandsaenderung_verwechselt"
+        }
+      ],
+      "tags": [
+        "luft",
+        "bbr"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "GA01-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Wie wird Stickstoff technisch aus der Luft gewonnen?",
+      "options": [
+        "Durch Verflüssigen und fraktionierte Destillation — die Siedepunkte unterscheiden sich.",
+        "Durch Filtrieren der Luft.",
+        "Durch chemische Zerlegung der Luft."
+      ],
+      "answer": 0,
+      "hints": [
+        "Luft ist ein Gemisch, also physikalisch trennbar.",
+        "Welches Verfahren trennt über Siedepunkte?",
+        "Die Destillation."
+      ],
+      "solution": "Luft wird verflüssigt und dann destilliert. Stickstoff siedet bei −196 °C, Sauerstoff erst bei −183 °C. Weil es ein Gemisch ist, genügt ein physikalisches Verfahren.",
+      "misconceptions": [
+        {
+          "id": "geloestes_filtrierbar",
+          "value": 1,
+          "feedback": "Ein Filter trennt nach Größe. Gasteilchen sind viel kleiner als jede Pore.",
+          "konzeptfehler": "trennverfahren_verwechselt"
+        }
+      ],
+      "tags": [
+        "luft",
+        "technik",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "GA01-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "In einem Versuch werden 250 mL Luft eingeschlossen. Nach dem Verbrennen von Eisenwolle bleiben 199 mL Gas übrig.",
+      "fields": [
+        {
+          "label": "verbrauchtes Sauerstoffvolumen",
+          "answer": 51,
+          "unit_label": "mL",
+          "tolerance": 1
+        },
+        {
+          "label": "gemessener Sauerstoffanteil in Prozent",
+          "answer": 20.4,
+          "unit_label": "%",
+          "tolerance": 0.3
+        }
+      ],
+      "hints": [
+        "Verbraucht = vorher − nachher.",
+        "250 − 199 = 51 mL.",
+        "Anteil = 51 : 250 · 100 %."
+      ],
+      "solution": "verbraucht: 250 mL − 199 mL = 51 mL\nAnteil: 51 : 250 = 0,204 → 20,4 %\nDas liegt sehr nahe am Literaturwert von 20,95 %.",
+      "tags": [
+        "luft",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "GA01-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Ein Versuch ergibt einen Sauerstoffanteil von 17 % statt 21 %. Welche Erklärung ist am plausibelsten?",
+      "options": [
+        "Die Reaktion war unvollständig — nicht aller Sauerstoff wurde gebunden.",
+        "Die Luft im Raum enthielt tatsächlich weniger Sauerstoff.",
+        "Der Messzylinder war zu groß."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welche Fehlerquelle liegt im Versuch selbst?",
+        "Wird wirklich aller Sauerstoff verbraucht?",
+        "Meist bleibt ein Rest."
+      ],
+      "solution": "Bleibt Sauerstoff ungebunden, sinkt das Volumen zu wenig und der gemessene Anteil fällt zu klein aus. Die Zusammensetzung der Raumluft schwankt dagegen nur um Bruchteile eines Prozents.",
+      "tags": [
+        "luft",
+        "fehler",
+        "msa"
+      ]
+    },
+    {
+      "id": "GA01-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Kohlenstoffdioxid macht nur 0,04 % der Luft aus. Ein Schüler folgert: „So wenig kann keine Wirkung haben.“ Wie bewertest du das?",
+      "options": [
+        "Der Schluss ist unzulässig — die Wirkung eines Stoffes hängt nicht allein von seinem Anteil ab.",
+        "Richtig — 0,04 % sind vernachlässigbar.",
+        "Falsch — CO₂ macht in Wirklichkeit 4 % aus."
+      ],
+      "answer": 0,
+      "hints": [
+        "Gibt es Stoffe, die in kleinsten Mengen stark wirken?",
+        "Ja, viele.",
+        "Der Anteil allein sagt nichts über die Wirkung."
+      ],
+      "solution": "Ein kleiner Anteil bedeutet keine kleine Wirkung: Kohlenstoffdioxid absorbiert Wärmestrahlung sehr wirksam, Stickstoff und Sauerstoff dagegen kaum. Von der Menge auf die Wirkung zu schließen, ist ein häufiger Fehlschluss.",
+      "tags": [
+        "luft",
+        "bewerten",
+        "msa"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 9,
+      "aufgaben": 20,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 6,
+      "aufgaben": 21,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 6,
+      "aufgaben": 18,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Lückentext - Zusammensetzung der Luft",
+      "url": "https://learningapps.org/view17071511",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Zusammensetzung der Luft",
+      "url": "https://learningapps.org/view1728111",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Luft als Gasgemisch — Quiz Klasse 8",
+      "url": "https://www.schlaukopf.de/realschule/klasse8/chemie/luft",
+      "typ": "app",
+      "quelle": "Schlaukopf"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 4,
+    "titel": "Luft und Verbrennungen",
+    "seiten_von": 38,
+    "seiten_bis": 57,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Gasgemisch"
+  }
+}

@@ -1,0 +1,766 @@
+{
+  "unit": "FC-04",
+  "title": "Reinstoff, Gemisch und Trennverfahren",
+  "leitidee": "B1",
+  "standards": [
+    "K1",
+    "K2.2",
+    "K3.2"
+  ],
+  "klasse": 7,
+  "wortspeicher": [
+    "der Reinstoff",
+    "das Gemisch",
+    "die Lösung",
+    "das Filtrieren",
+    "das Eindampfen",
+    "die Destillation",
+    "der Rückstand",
+    "das Filtrat"
+  ],
+  "worterklaerungen": {
+    "Reinstoff": "Ein Stoff, der aus nur einer Sorte Teilchen besteht.",
+    "Gemisch": "Zwei oder mehr Stoffe liegen nebeneinander vor.",
+    "Filtrieren": "Feste Teilchen bleiben im Filter zurück, die Flüssigkeit läuft durch.",
+    "Eindampfen": "Die Flüssigkeit verdampft, der gelöste Stoff bleibt zurück.",
+    "Destillation": "Trennen über verschiedene Siedetemperaturen. Der Dampf wird aufgefangen und gekühlt."
+  },
+  "can_do": {
+    "A": "Ich unterscheide Reinstoff und Gemisch und nenne zu einem Gemisch ein passendes Trennverfahren.",
+    "B": "Ich wähle ein Trennverfahren begründet aus und benenne die Teile des Aufbaus.",
+    "C": "Ich begründe die Wahl eines Trennverfahrens über die Stoffeigenschaften und plane eine Trennfolge."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Ein Stoff oder mehrere",
+      "hinfuehrung": "In einem Gemisch sind mehrere Stoffe.",
+      "erklaerung": [
+        "Sand im Wasser ist ein Gemisch.",
+        "Man kann die Stoffe wieder trennen."
+      ],
+      "merke": "Gemisch heißt: mehrere Stoffe nebeneinander.",
+      "beispiel": {
+        "titel": "Sand aus Wasser holen",
+        "aufgabe": "Sand liegt im Wasser.",
+        "schritte": [
+          "Filterpapier in den Trichter.",
+          "Das Gemisch hineingießen.",
+          "Der Sand bleibt im Filter."
+        ],
+        "ergebnis": "Sand im Filter, klares Wasser darunter."
+      },
+      "visual": {
+        "type": "apparatur",
+        "aufbau": "filtration",
+        "alt": "Ein Trichter mit Filterpapier über einem Becherglas."
+      }
+    },
+    "B": {
+      "titel": "Das passende Verfahren wählen",
+      "hinfuehrung": "Jedes Trennverfahren nutzt einen Unterschied zwischen den Stoffen. Welchen Unterschied es nutzt, entscheidet darüber, wann es funktioniert.",
+      "erklaerung": [
+        "Filtrieren nutzt die Teilchengröße: Ungelöste Feststoffe bleiben zurück, gelöste laufen mit durch.",
+        "Eindampfen nutzt die Siedetemperatur: Das Lösungsmittel verdampft, der gelöste Stoff bleibt.",
+        "Destillieren nutzt ebenfalls die Siedetemperatur — hier wird aber der Dampf aufgefangen und wieder verflüssigt.",
+        "Gelöstes Salz lässt sich deshalb nicht abfiltrieren: Die Ionen sind viel kleiner als die Poren des Filters."
+      ],
+      "merke": "Erst fragen, worin sich die Stoffe unterscheiden. Dann das Verfahren wählen.",
+      "visual": {
+        "type": "apparatur",
+        "aufbau": "destillation",
+        "alt": "Destillationsapparatur mit Kolben, Kühler und Vorlage."
+      }
+    },
+    "C": {
+      "titel": "Trennfolgen planen",
+      "hinfuehrung": "Reale Gemische enthalten mehr als zwei Bestandteile. Dann wird nicht ein Verfahren gewählt, sondern eine Reihenfolge — und die Reihenfolge ist selten beliebig.",
+      "erklaerung": [
+        "Zuerst wird abgetrennt, was ungelöst vorliegt: filtrieren. Wer zuerst eindampft, bekommt Salz und Sand gemeinsam als Rückstand und hat nichts gewonnen.",
+        "Danach werden die gelösten Bestandteile getrennt: eindampfen, wenn nur der Feststoff interessiert, destillieren, wenn auch das Lösungsmittel gebraucht wird.",
+        "Bei zwei mischbaren Flüssigkeiten entscheidet der Abstand der Siedetemperaturen, ob eine einfache Destillation reicht."
+      ],
+      "merke": "Erst das Ungelöste, dann das Gelöste — sonst trennt der zweite Schritt nichts mehr.",
+      "visual": {
+        "type": "apparatur",
+        "aufbau": "destillation",
+        "alt": "Destillationsapparatur mit Kolben, Kühler und Vorlage."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [],
+    "saetze": [
+      "Filtrieren: trennt ungelöste Feststoffe von Flüssigkeit.",
+      "Eindampfen: der gelöste Feststoff bleibt zurück, das Lösungsmittel geht verloren.",
+      "Destillieren: der Dampf wird gekühlt und aufgefangen — beide Stoffe bleiben erhalten.",
+      "Gelöstes lässt sich nicht abfiltrieren.",
+      "Reinstoff: feste Schmelz- und Siedetemperatur. Gemisch: Bereiche statt fester Werte."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Reinstoffe und Stoffgemische unterscheiden",
+      "url": "https://www.youtube.com/watch?v=-q5BkTzBybE",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/qqeZKK",
+      "embed": "https://app.lumi.education/api/v1/run/qqeZKK/embed",
+      "stufe": "A",
+      "dauer_s": 166
+    },
+    {
+      "titel": "Homogene und heterogene Gemische",
+      "url": "https://www.youtube.com/watch?v=YqkNPKxKV9I",
+      "quelle": "Studyflix",
+      "lumi": "https://app.lumi.education/run/-G-gkP",
+      "embed": "https://app.lumi.education/api/v1/run/-G-gkP/embed",
+      "stufe": "B",
+      "dauer_s": 305
+    },
+    {
+      "titel": "Trennverfahren im Überblick",
+      "url": "https://www.youtube.com/watch?v=Euhwe0QhNxs",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/qwOX-l",
+      "embed": "https://app.lumi.education/api/v1/run/qwOX-l/embed",
+      "stufe": "B",
+      "dauer_s": 220
+    }
+  ],
+  "tasks": [
+    {
+      "id": "FC04-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Was ist ein Gemisch?",
+      "options": [
+        "Sand in Wasser",
+        "reines Wasser",
+        "reines Kupfer"
+      ],
+      "answer": 0,
+      "hints": [
+        "In einem Gemisch sind mehrere Stoffe.",
+        "Wo siehst du zwei Stoffe?",
+        "Sand und Wasser sind zwei Stoffe."
+      ],
+      "solution": "Sand in Wasser sind zwei Stoffe nebeneinander — ein Gemisch. Reines Wasser und reines Kupfer sind Reinstoffe.",
+      "tags": [
+        "gemische"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC04-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "assign",
+      "prompt": "Ordne jedem Gemisch das passende Trennverfahren zu.",
+      "slots": [
+        "Sand in Wasser",
+        "Salz in Wasser",
+        "Alkohol in Wasser"
+      ],
+      "values": [
+        "Filtrieren",
+        "Eindampfen",
+        "Destillieren"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Sand ist nicht gelöst.",
+        "Salz ist gelöst und bleibt beim Eindampfen zurück.",
+        "Zwei Flüssigkeiten trennt man über die Siedetemperatur."
+      ],
+      "solution": "Sand in Wasser → Filtrieren (Sand ist ungelöst).\nSalz in Wasser → Eindampfen.\nAlkohol in Wasser → Destillieren.",
+      "misconceptions": [
+        {
+          "id": "trennverfahren_verwechselt",
+          "value": 0,
+          "feedback": "Gelöstes Salz geht durch jeden Filter hindurch — es ist in Ionen zerlegt und viel kleiner als die Poren.",
+          "konzeptfehler": "trennverfahren_verwechselt",
+          "verweis": {
+            "absatz": 1
+          }
+        }
+      ],
+      "tags": [
+        "gemische",
+        "trennverfahren"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC04-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Du filtrierst Salzwasser. Was ist im Filterpapier?",
+      "options": [
+        "nichts",
+        "das Salz",
+        "das Wasser"
+      ],
+      "answer": 0,
+      "hints": [
+        "Ist das Salz gelöst oder ungelöst?",
+        "Gelöstes geht durch den Filter.",
+        "Es bleibt nichts zurück."
+      ],
+      "solution": "Salz ist im Wasser gelöst. Es läuft mit durch den Filter — im Filterpapier bleibt nichts.",
+      "misconceptions": [
+        {
+          "id": "geloestes_filtrierbar",
+          "value": 1,
+          "feedback": "Gelöstes Salz lässt sich nicht abfiltrieren. Zum Trennen musst du eindampfen.",
+          "konzeptfehler": "trennverfahren_verwechselt"
+        }
+      ],
+      "tags": [
+        "gemische",
+        "trennverfahren"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC04-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "numeric",
+      "prompt": "100 g Salzwasser enthalten 8 g Salz. Wie viel Salz bleibt nach dem vollständigen Eindampfen übrig?",
+      "answer": 8,
+      "unit_label": "g",
+      "tolerance": 0,
+      "hints": [
+        "Was verdampft und was bleibt?",
+        "Das Wasser verdampft, das Salz bleibt.",
+        "8 g."
+      ],
+      "solution": "Beim Eindampfen verdampft nur das Wasser. Das Salz bleibt vollständig zurück: 8 g.",
+      "misconceptions": [
+        {
+          "id": "salz_mit_verdampft",
+          "value": 0,
+          "feedback": "Salz verdampft nicht. Es bleibt vollständig als Rückstand zurück.",
+          "konzeptfehler": "trennverfahren_verwechselt"
+        }
+      ],
+      "tags": [
+        "gemische",
+        "rechnen"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "FC04-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "assign",
+      "prompt": "Ordne den Teilen der Destillationsapparatur ihre Aufgabe zu.",
+      "slots": [
+        "Kolben",
+        "Kühler",
+        "Vorlage"
+      ],
+      "values": [
+        "Hier wird das Gemisch erhitzt",
+        "Hier wird der Dampf wieder flüssig",
+        "Hier sammelt sich das Destillat"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "visual": {
+        "type": "apparatur",
+        "aufbau": "destillation",
+        "alt": "Destillationsapparatur mit Kolben, Kühler und Vorlage."
+      },
+      "hints": [
+        "Der Weg des Stoffes ist: erhitzen, kühlen, auffangen.",
+        "Der Kühler ist das schräge Rohr mit Mantel.",
+        "Die Vorlage steht am Ende."
+      ],
+      "solution": "Kolben → erhitzen.\nKühler → Dampf verflüssigen.\nVorlage → Destillat auffangen.",
+      "tags": [
+        "gemische",
+        "geraete"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC04-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Worin unterscheiden sich Eindampfen und Destillieren?",
+      "options": [
+        "Beim Destillieren wird der Dampf aufgefangen, beim Eindampfen geht er verloren.",
+        "Beim Destillieren wird nicht erhitzt.",
+        "Es ist dasselbe Verfahren mit zwei Namen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert mit dem verdampften Lösungsmittel?",
+        "Beim Eindampfen entweicht es.",
+        "Beim Destillieren wird es gekühlt und aufgefangen."
+      ],
+      "solution": "Beide erhitzen. Beim Eindampfen entweicht der Dampf und nur der Rückstand bleibt. Beim Destillieren wird der Dampf gekühlt und als Destillat aufgefangen — man erhält also beide Stoffe.",
+      "misconceptions": [
+        {
+          "id": "verfahren_gleichgesetzt",
+          "value": 2,
+          "feedback": "Der Unterschied ist wesentlich: Beim Destillieren gewinnst du auch das Lösungsmittel zurück.",
+          "konzeptfehler": "trennverfahren_verwechselt",
+          "verweis": {
+            "absatz": 2
+          }
+        }
+      ],
+      "tags": [
+        "gemische",
+        "trennverfahren",
+        "bbr"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC04-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Ein Reinstoff siedet bei einer festen Temperatur, ein Gemisch über einen Bereich. Wie erkennst du daran, ob eine Flüssigkeit rein ist?",
+      "options": [
+        "Die Temperatur bleibt beim Sieden konstant.",
+        "Die Flüssigkeit ist farblos.",
+        "Sie siedet besonders schnell."
+      ],
+      "answer": 0,
+      "hints": [
+        "Miss die Temperatur während des Siedens.",
+        "Bleibt sie stehen oder steigt sie?",
+        "Konstante Siedetemperatur = Reinstoff."
+      ],
+      "solution": "Ein Reinstoff siedet bei konstanter Temperatur. Steigt die Temperatur während des Siedens, handelt es sich um ein Gemisch. Farbe und Geschwindigkeit sagen darüber nichts aus.",
+      "tags": [
+        "gemische",
+        "reinstoff",
+        "bbr"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC04-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Aus 250 g Meerwasser bleiben nach dem Eindampfen 8,75 g Salz. Wie viel Prozent Salz enthält das Meerwasser?",
+      "answer": 3.5,
+      "unit_label": "%",
+      "tolerance": 0.05,
+      "hints": [
+        "Anteil = Teil : Ganzes.",
+        "8,75 : 250.",
+        "Ergebnis mal 100."
+      ],
+      "solution": "8,75 g : 250 g = 0,035 → 3,5 %",
+      "misconceptions": [
+        {
+          "id": "anteil_umgedreht",
+          "value": 2857,
+          "feedback": "Du hast das Ganze durch den Teil geteilt. Der Anteil ist Teil : Ganzes."
+        }
+      ],
+      "tags": [
+        "gemische",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "FC04-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Ein Gemisch aus Sand, Salz und Wasser soll vollständig getrennt werden. Womit beginnst du?",
+      "options": [
+        "Filtrieren, um den Sand abzutrennen",
+        "Eindampfen, um das Wasser loszuwerden",
+        "Destillieren, um alles auf einmal zu trennen"
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert, wenn du zuerst eindampfst?",
+        "Dann liegen Sand und Salz gemeinsam als Rückstand vor.",
+        "Erst das Ungelöste abtrennen."
+      ],
+      "solution": "Zuerst wird filtriert: Der Sand bleibt im Filter, Salzwasser läuft durch. Danach lässt sich das Salz durch Eindampfen gewinnen. Wer zuerst eindampft, hat Sand und Salz gemeinsam im Rückstand.",
+      "misconceptions": [
+        {
+          "id": "reihenfolge_trennung",
+          "value": 1,
+          "feedback": "Dann liegen Sand und Salz gemeinsam vor und du musst noch einmal von vorn anfangen. Erst das Ungelöste abtrennen.",
+          "konzeptfehler": "trennverfahren_verwechselt"
+        }
+      ],
+      "tags": [
+        "gemische",
+        "planen",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC04-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum lässt sich Alkohol aus Wein durch Destillation abtrennen?",
+      "options": [
+        "Alkohol siedet bei 78 °C, Wasser erst bei 100 °C.",
+        "Alkohol ist leichter als Wasser und schwimmt oben.",
+        "Alkohol ist im Wasser nicht gelöst."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welcher Unterschied wird bei der Destillation genutzt?",
+        "Die Siedetemperatur.",
+        "78 °C gegen 100 °C."
+      ],
+      "solution": "Die Destillation nutzt den Unterschied der Siedetemperaturen. Alkohol siedet bei 78 °C und geht deshalb zuerst in den Dampf über; im Kühler wird er wieder flüssig.",
+      "misconceptions": [
+        {
+          "id": "dichte_als_grund",
+          "value": 1,
+          "feedback": "Die Dichte spielt bei der Destillation keine Rolle. Alkohol und Wasser mischen sich vollständig.",
+          "konzeptfehler": "trennverfahren_verwechselt"
+        }
+      ],
+      "tags": [
+        "gemische",
+        "trennverfahren",
+        "bbr"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC04-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum lässt sich gelöstes Salz nicht abfiltrieren, feiner Sand aber schon?",
+      "options": [
+        "Gelöste Ionen sind viel kleiner als die Poren des Filters, Sandkörner sind größer.",
+        "Salz löst das Filterpapier auf.",
+        "Sand ist schwerer als Salz."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was macht der Filter überhaupt?",
+        "Er hält alles zurück, was größer ist als seine Poren.",
+        "Gelöste Teilchen sind winzig."
+      ],
+      "solution": "Ein Filter trennt nach Größe. Sandkörner sind größer als die Poren und bleiben liegen. Gelöstes Salz liegt als einzelne Ionen vor — viel kleiner als jede Pore — und läuft mit durch.",
+      "misconceptions": [
+        {
+          "id": "masse_als_kriterium",
+          "value": 2,
+          "feedback": "Der Filter trennt nach Größe, nicht nach Masse.",
+          "konzeptfehler": "trennverfahren_verwechselt",
+          "verweis": {
+            "absatz": 2
+          }
+        }
+      ],
+      "tags": [
+        "gemische",
+        "erklaeren",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC04-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "400 g eines Gemischs aus Sand und Salzwasser werden getrennt. Im Filter bleiben 55 g feuchter Sand, nach dem Trocknen 48 g. Aus dem Filtrat werden 12 g Salz gewonnen.",
+      "fields": [
+        {
+          "label": "Masse des trockenen Sandes",
+          "answer": 48,
+          "unit_label": "g",
+          "tolerance": 0.01
+        },
+        {
+          "label": "Masse des Wassers",
+          "answer": 340,
+          "unit_label": "g",
+          "tolerance": 0.01
+        },
+        {
+          "label": "Salzanteil im Salzwasser",
+          "answer": 3.41,
+          "unit_label": "%",
+          "tolerance": 0.05
+        }
+      ],
+      "hints": [
+        "Sand trocken: 48 g.",
+        "Wasser = 400 g − 48 g Sand − 12 g Salz.",
+        "Salzanteil = 12 g : (12 g + 340 g) · 100 %."
+      ],
+      "solution": "Sand trocken: 48 g\nWasser: 400 − 48 − 12 = 340 g\nSalzwasser: 12 + 340 = 352 g\nAnteil: 12 : 352 = 0,0341 → 3,41 %",
+      "tags": [
+        "gemische",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "FC04-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Zwei Flüssigkeiten sieden bei 78 °C und 80 °C. Warum ist eine einfache Destillation hier problematisch?",
+      "options": [
+        "Die Siedetemperaturen liegen zu dicht beieinander; beide Stoffe gehen gemeinsam in den Dampf.",
+        "Bei so niedrigen Temperaturen verdampft gar nichts.",
+        "Zwei Flüssigkeiten lassen sich grundsätzlich nicht destillieren."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie weit liegen 78 °C und 80 °C auseinander?",
+        "Nur 2 °C.",
+        "Dann ist die Trennung unvollständig."
+      ],
+      "solution": "Bei nur 2 °C Unterschied enthält der Dampf beide Stoffe in nennenswerter Menge — das Destillat ist wieder ein Gemisch. Für solche Fälle braucht es eine Kolonne, die den Vorgang vielfach wiederholt.",
+      "tags": [
+        "gemische",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC04-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Aus Meerwasser soll Trinkwasser gewonnen werden. Welches Verfahren ist geeignet und warum?",
+      "options": [
+        "Destillation — sie liefert das Wasser zurück, das Eindampfen verlieren würde.",
+        "Eindampfen — es ist einfacher.",
+        "Filtrieren — der Filter hält das Salz zurück."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ist das gewünschte Produkt: der Rückstand oder die Flüssigkeit?",
+        "Gesucht ist das Wasser, nicht das Salz.",
+        "Nur die Destillation fängt das Wasser auf."
+      ],
+      "solution": "Gesucht ist das Wasser. Beim Eindampfen entweicht genau das, was man haben will. Die Destillation kühlt den Dampf und fängt ihn auf — man erhält salzfreies Wasser. Filtrieren scheidet aus, weil gelöstes Salz durch jeden Filter geht.",
+      "misconceptions": [
+        {
+          "id": "produkt_verwechselt",
+          "value": 1,
+          "feedback": "Beim Eindampfen bleibt das Salz — das Wasser entweicht. Gesucht war aber das Wasser.",
+          "konzeptfehler": "trennverfahren_verwechselt"
+        },
+        {
+          "id": "geloestes_filtrierbar",
+          "value": 2,
+          "feedback": "Gelöstes Salz lässt sich nicht abfiltrieren.",
+          "konzeptfehler": "trennverfahren_verwechselt"
+        }
+      ],
+      "tags": [
+        "gemische",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 5,
+      "aufgaben": 24,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 8,
+      "aufgaben": 19,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 8,
+      "aufgaben": 16,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Gemisch oder Reinstoff",
+      "url": "https://learningapps.org/view1710567",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Trennverfahren",
+      "url": "https://learningapps.org/view1407786",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Mischen und Trennen von Stoffen — Quiz Klasse 8",
+      "url": "https://www.schlaukopf.de/realschule/klasse8/chemie/trennverfahren",
+      "typ": "app",
+      "quelle": "Schlaukopf"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Filtrieren — der Aufbau Schritt für Schritt",
+      "url": "https://www.youtube.com/watch?v=cQT9U-EJU4o",
+      "quelle": "Rugby School Chemistry",
+      "stufe": "A",
+      "rolle": "Demonstration zum Trennverfahren Filtrieren",
+      "lumi": "https://app.lumi.education/run/bn2MDO",
+      "embed": "https://app.lumi.education/api/v1/run/bn2MDO/embed",
+      "protokoll": true
+    },
+    {
+      "titel": "Destillation einer Ethanol-Wasser-Mischung",
+      "url": "https://www.youtube.com/watch?v=a31rVmceJi4",
+      "quelle": "Rugby School Chemistry",
+      "stufe": "B",
+      "rolle": "Demonstration zum Trennverfahren Destillation",
+      "lumi": "https://app.lumi.education/run/IkTMeg",
+      "embed": "https://app.lumi.education/api/v1/run/IkTMeg/embed",
+      "protokoll": true
+    },
+    {
+      "titel": "Chromatographie — Farbstoffe trennen",
+      "url": "https://www.youtube.com/watch?v=CH8K-wJEbgo",
+      "quelle": "Pdst Chemistry",
+      "stufe": "C",
+      "rolle": "Vertiefung: viertes Trennverfahren neben Filtrieren und Destillieren",
+      "lumi": "https://app.lumi.education/run/8YhYlF",
+      "embed": "https://app.lumi.education/api/v1/run/8YhYlF/embed",
+      "protokoll": true
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 3,
+    "titel": "Gemische und Trennverfahren",
+    "seiten_von": 28,
+    "seiten_bis": 37,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Reinstoff"
+  }
+}

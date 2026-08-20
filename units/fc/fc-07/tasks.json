@@ -1,0 +1,760 @@
+{
+  "unit": "FC-07",
+  "title": "Oxidation: Verbrennungsprodukte sind Oxide",
+  "leitidee": "B3",
+  "standards": [
+    "K1",
+    "K2.2",
+    "K3.4"
+  ],
+  "klasse": 7,
+  "wortspeicher": [
+    "die Oxidation",
+    "das Oxid",
+    "der Sauerstoff",
+    "die Verbrennung",
+    "die Wortgleichung",
+    "das Metalloxid",
+    "das Nichtmetalloxid"
+  ],
+  "worterklaerungen": {
+    "Oxidation": "Ein Stoff reagiert mit Sauerstoff.",
+    "Oxid": "Ein Stoff, der Sauerstoff enthält. Er entsteht bei der Oxidation.",
+    "Wortgleichung": "Die Reaktion in Worten: Edukte, Pfeil, Produkte."
+  },
+  "can_do": {
+    "A": "Ich benenne das Produkt einer Verbrennung als Oxid und lese eine Wortgleichung.",
+    "B": "Ich stelle Wortgleichungen für Verbrennungen auf und benenne die Oxide korrekt.",
+    "C": "Ich ordne Oxide als Metall- oder Nichtmetalloxid ein und leite ihr Verhalten in Wasser ab."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Was beim Verbrennen entsteht",
+      "hinfuehrung": "Beim Verbrennen reagiert ein Stoff mit Sauerstoff.",
+      "erklaerung": [
+        "Das neue Produkt heißt Oxid.",
+        "Der Name sagt: Der Stoff enthält Sauerstoff."
+      ],
+      "merke": "Verbrennen heißt: Reaktion mit Sauerstoff. Es entsteht ein Oxid.",
+      "beispiel": {
+        "titel": "Magnesium verbrennt",
+        "aufgabe": "Magnesium brennt an der Luft.",
+        "schritte": [
+          "Magnesium reagiert mit Sauerstoff.",
+          "Es entsteht ein weißes Pulver.",
+          "Das Pulver heißt Magnesiumoxid."
+        ],
+        "ergebnis": "Magnesium + Sauerstoff → Magnesiumoxid"
+      }
+    },
+    "B": {
+      "titel": "Wortgleichungen aufstellen",
+      "hinfuehrung": "Eine Wortgleichung ist der kürzeste ehrliche Bericht über eine Reaktion: links das, was da war, rechts das, was entstanden ist, dazwischen ein Pfeil.",
+      "erklaerung": [
+        "Der Pfeil bedeutet „reagiert zu“, nicht „ist gleich“. Er hat eine Richtung.",
+        "Der Name des Oxids setzt sich zusammen: Element + „oxid“, also Kupferoxid, Schwefeldioxid, Kohlenstoffdioxid.",
+        "Vorsilben wie „di“ oder „tri“ sagen, wie viele Sauerstoffatome gebunden sind — Kohlenstoffdioxid enthält zwei."
+      ],
+      "merke": "Links Edukte, rechts Produkte, dazwischen der Pfeil mit Richtung.",
+      "visual": {
+        "type": "animation",
+        "name": "nachweise",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Metalloxide und Nichtmetalloxide",
+      "hinfuehrung": "Alle Oxide enthalten Sauerstoff — und verhalten sich trotzdem gegensätzlich, sobald sie ins Wasser kommen. Die Einteilung nach Metall und Nichtmetall sagt das voraus.",
+      "erklaerung": [
+        "Metalloxide (Magnesiumoxid, Calciumoxid) bilden mit Wasser Laugen. Der Indikator wird blau.",
+        "Nichtmetalloxide (Schwefeldioxid, Kohlenstoffdioxid) bilden mit Wasser Säuren. Der Indikator wird rot.",
+        "Damit erklärt sich der saure Regen: Schwefeldioxid aus Verbrennungsprozessen bildet mit Regenwasser schweflige Säure."
+      ],
+      "merke": "Metalloxid + Wasser → Lauge. Nichtmetalloxid + Wasser → Säure.",
+      "visual": {
+        "type": "phskala",
+        "marken": [
+          {
+            "wert": 4,
+            "stoff": "SO₂ in Wasser"
+          },
+          {
+            "wert": 11,
+            "stoff": "CaO in Wasser"
+          }
+        ],
+        "alt": "pH-Skala mit einer sauren und einer alkalischen Marke."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Stoff + Sauerstoff → Oxid",
+      "Magnesium + Sauerstoff → Magnesiumoxid",
+      "Kohlenstoff + Sauerstoff → Kohlenstoffdioxid"
+    ],
+    "saetze": [
+      "Oxidation = Reaktion mit Sauerstoff.",
+      "Der Pfeil bedeutet „reagiert zu“ und hat eine Richtung.",
+      "Metalloxid + Wasser → Lauge.",
+      "Nichtmetalloxid + Wasser → Säure."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Sauerstoff und Verbrennungen",
+      "url": "https://www.youtube.com/watch?v=ULdZHgOkDFw",
+      "quelle": "musstewissen Chemie",
+      "lumi": "https://app.lumi.education/run/kYjNDW",
+      "embed": "https://app.lumi.education/api/v1/run/kYjNDW/embed",
+      "stufe": "A",
+      "dauer_s": 431
+    },
+    {
+      "titel": "Oxidation im Alltag",
+      "url": "https://www.youtube.com/watch?v=5xOr1ri-XK8",
+      "quelle": "musstewissen Chemie",
+      "lumi": "https://app.lumi.education/run/V-iFYw",
+      "embed": "https://app.lumi.education/api/v1/run/V-iFYw/embed",
+      "stufe": "B",
+      "dauer_s": 252
+    },
+    {
+      "titel": "Metall wird verbrannt — Wortgleichung aufstellen",
+      "url": "https://www.youtube.com/watch?v=R40eo1HjsOI",
+      "quelle": "Biologie und Chemie Schule",
+      "lumi": "https://app.lumi.education/run/m8zHyp",
+      "embed": "https://app.lumi.education/api/v1/run/m8zHyp/embed",
+      "stufe": "B",
+      "dauer_s": 154
+    }
+  ],
+  "tasks": [
+    {
+      "id": "FC07-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Magnesium verbrennt an der Luft. Wie heißt das Produkt?",
+      "options": [
+        "Magnesiumoxid",
+        "Magnesiumsulfid",
+        "Magnesiumchlorid"
+      ],
+      "answer": 0,
+      "hints": [
+        "Womit reagiert der Stoff beim Verbrennen?",
+        "Mit Sauerstoff.",
+        "Das Produkt heißt Oxid."
+      ],
+      "solution": "Beim Verbrennen reagiert Magnesium mit Sauerstoff. Das Produkt ist Magnesiumoxid.",
+      "tags": [
+        "oxidation"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "FC07-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Was bedeutet der Pfeil in „Eisen + Sauerstoff → Eisenoxid“?",
+      "options": [
+        "reagiert zu",
+        "ist gleich",
+        "ist ungefähr"
+      ],
+      "answer": 0,
+      "hints": [
+        "Der Pfeil zeigt in eine Richtung.",
+        "Er ist kein Gleichheitszeichen.",
+        "Er heißt „reagiert zu“."
+      ],
+      "solution": "Der Pfeil bedeutet „reagiert zu“. Er hat eine Richtung: links stehen die Ausgangsstoffe, rechts das Produkt.",
+      "misconceptions": [
+        {
+          "id": "pfeil_als_gleichheitszeichen",
+          "value": 1,
+          "feedback": "Der Pfeil ist kein Gleichheitszeichen. Er zeigt eine Richtung an.",
+          "konzeptfehler": "edukt_produkt_vertauscht"
+        }
+      ],
+      "tags": [
+        "oxidation",
+        "fachsprache"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "FC07-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "assign",
+      "prompt": "Ordne jedem Stoff sein Verbrennungsprodukt zu.",
+      "slots": [
+        "Kohlenstoff",
+        "Schwefel",
+        "Kupfer"
+      ],
+      "values": [
+        "Kohlenstoffdioxid",
+        "Schwefeldioxid",
+        "Kupferoxid"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Der Name des Produkts enthält den Namen des Stoffes.",
+        "Und dazu „oxid“.",
+        "Kohlenstoff → Kohlenstoffdioxid."
+      ],
+      "solution": "Kohlenstoff → Kohlenstoffdioxid.\nSchwefel → Schwefeldioxid.\nKupfer → Kupferoxid.",
+      "tags": [
+        "oxidation"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "FC07-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Eine Kerze brennt in einem geschlossenen Glas und geht nach einiger Zeit aus. Warum?",
+      "options": [
+        "Der Sauerstoff ist verbraucht.",
+        "Das Wachs ist alle.",
+        "Es ist zu kalt geworden."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was braucht die Verbrennung außer Wachs?",
+        "Sauerstoff.",
+        "Im Glas ist nur wenig davon."
+      ],
+      "solution": "Im geschlossenen Glas ist die Sauerstoffmenge begrenzt. Ist er verbraucht, erlischt die Flamme — obwohl noch Wachs da ist.",
+      "tags": [
+        "oxidation"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "FC07-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welche Wortgleichung ist richtig aufgestellt?",
+      "options": [
+        "Eisen + Sauerstoff → Eisenoxid",
+        "Eisenoxid → Eisen + Sauerstoff (bei der Verbrennung)",
+        "Eisen → Eisenoxid + Sauerstoff"
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ist am Anfang da, was entsteht?",
+        "Eisen und Sauerstoff sind die Edukte.",
+        "Eisenoxid entsteht."
+      ],
+      "solution": "Bei der Verbrennung sind Eisen und Sauerstoff die Edukte, Eisenoxid ist das Produkt.",
+      "misconceptions": [
+        {
+          "id": "edukt_produkt_vertauscht",
+          "value": 1,
+          "feedback": "Das ist die Rückreaktion (Reduktion). Bei der Verbrennung entsteht das Oxid.",
+          "konzeptfehler": "edukt_produkt_vertauscht",
+          "verweis": {
+            "absatz": 0
+          }
+        }
+      ],
+      "tags": [
+        "oxidation",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "FC07-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Eisenwolle wird verbrannt und auf einer Waage gewogen. Was zeigt die Waage danach?",
+      "options": [
+        "mehr als vorher — der gebundene Sauerstoff wird mitgewogen",
+        "weniger als vorher — etwas ist verbrannt",
+        "genau dasselbe"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "massenerhaltung",
+        "stufe": "B"
+      },
+      "hints": [
+        "Woher kommt der Sauerstoff im Oxid?",
+        "Aus der Luft.",
+        "Er wird jetzt mitgewogen."
+      ],
+      "solution": "Der Sauerstoff aus der Luft wird im Oxid gebunden und liegt danach mit auf der Waage. Die Masse nimmt deshalb zu.",
+      "misconceptions": [
+        {
+          "id": "masse_verschwindet",
+          "value": 1,
+          "feedback": "„Verbrannt“ heißt nicht „verschwunden“. Der gebundene Sauerstoff kommt hinzu.",
+          "konzeptfehler": "masse_verschwindet"
+        }
+      ],
+      "tags": [
+        "oxidation",
+        "masse",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "FC07-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Eine Kerze verbrennt offen auf einer Waage. Die Anzeige sinkt. Widerspricht das dem Gesetz von der Erhaltung der Masse?",
+      "options": [
+        "Nein — die entstehenden Gase entweichen und werden nicht mitgewogen.",
+        "Ja — hier geht Masse verloren.",
+        "Nein — Kerzenwachs hat keine Masse."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was entsteht bei der Verbrennung von Wachs?",
+        "Kohlenstoffdioxid und Wasserdampf.",
+        "Beide sind gasförmig und entweichen."
+      ],
+      "solution": "Es entstehen Kohlenstoffdioxid und Wasserdampf. Beide entweichen und liegen nicht mehr auf der Waage. Im geschlossenen Gefäß bliebe die Masse konstant.",
+      "misconceptions": [
+        {
+          "id": "masse_verschwindet",
+          "value": 1,
+          "feedback": "Die Masse geht nicht verloren, sie verlässt nur die Waage. Im geschlossenen Gefäß bliebe sie gleich.",
+          "konzeptfehler": "masse_verschwindet",
+          "verweis": {
+            "absatz": 1
+          }
+        }
+      ],
+      "tags": [
+        "oxidation",
+        "masse",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "FC07-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "24 g Magnesium reagieren mit 16 g Sauerstoff. Wie viel Gramm Magnesiumoxid entstehen?",
+      "answer": 40,
+      "unit_label": "g",
+      "tolerance": 0,
+      "hints": [
+        "Es geht keine Masse verloren.",
+        "24 + 16.",
+        "40 g."
+      ],
+      "solution": "24 g + 16 g = 40 g Magnesiumoxid. Die Masse der Edukte ist gleich der Masse des Produkts.",
+      "misconceptions": [
+        {
+          "id": "masse_verschwindet",
+          "value": 8,
+          "feedback": "Du hast subtrahiert. Bei einer Vereinigung addieren sich die Massen.",
+          "konzeptfehler": "masse_verschwindet"
+        }
+      ],
+      "tags": [
+        "oxidation",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "FC07-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Aus 32 g Kupfer entstehen 40 g Kupferoxid. Wie viel Gramm Sauerstoff wurden gebunden?",
+      "answer": 8,
+      "unit_label": "g",
+      "tolerance": 0,
+      "hints": [
+        "Die Massen der Edukte ergeben zusammen das Produkt.",
+        "40 − 32.",
+        "8 g."
+      ],
+      "solution": "40 g − 32 g = 8 g Sauerstoff wurden aus der Luft gebunden.",
+      "misconceptions": [
+        {
+          "id": "masse_verschwindet",
+          "value": 72,
+          "feedback": "Du hast addiert. Der Sauerstoff ist der fehlende Teil zwischen Kupfer und Kupferoxid.",
+          "konzeptfehler": "masse_verschwindet"
+        }
+      ],
+      "tags": [
+        "oxidation",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "FC07-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "assign",
+      "prompt": "Ordne jedes Oxid seiner Gruppe zu.",
+      "slots": [
+        "Magnesiumoxid",
+        "Schwefeldioxid",
+        "Calciumoxid"
+      ],
+      "values": [
+        "Metalloxid",
+        "Nichtmetalloxid",
+        "Metalloxid (zweites)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Ist der Partner des Sauerstoffs ein Metall?",
+        "Magnesium und Calcium sind Metalle.",
+        "Schwefel ist ein Nichtmetall."
+      ],
+      "solution": "Magnesiumoxid und Calciumoxid sind Metalloxide, Schwefeldioxid ist ein Nichtmetalloxid.",
+      "tags": [
+        "oxidation",
+        "einordnen"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "FC07-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Calciumoxid wird in Wasser gegeben, dann wird Universalindikator zugesetzt. Welche Farbe erwartest du?",
+      "options": [
+        "blau — es entsteht eine Lauge",
+        "rot — es entsteht eine Säure",
+        "grün — die Lösung bleibt neutral"
+      ],
+      "answer": 0,
+      "hints": [
+        "Ist Calcium ein Metall oder ein Nichtmetall?",
+        "Ein Metall.",
+        "Metalloxid + Wasser → Lauge."
+      ],
+      "solution": "Calcium ist ein Metall, Calciumoxid also ein Metalloxid. Mit Wasser bildet es Calciumhydroxid — eine Lauge. Der Indikator wird blau.",
+      "misconceptions": [
+        {
+          "id": "saeure_lauge_vertauscht",
+          "value": 1,
+          "feedback": "Rot ergäbe ein Nichtmetalloxid. Metalloxide bilden Laugen.",
+          "konzeptfehler": "saeure_lauge_vertauscht",
+          "verweis": {
+            "absatz": 0
+          }
+        }
+      ],
+      "tags": [
+        "oxidation",
+        "einordnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "FC07-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Beim Verbrennen schwefelhaltiger Kohle entsteht Schwefeldioxid. Wie hängt das mit saurem Regen zusammen?",
+      "options": [
+        "Schwefeldioxid ist ein Nichtmetalloxid und bildet mit Regenwasser eine Säure.",
+        "Schwefeldioxid löst den Kalk aus dem Regen.",
+        "Schwefeldioxid kühlt den Regen ab."
+      ],
+      "answer": 0,
+      "hints": [
+        "Zu welcher Gruppe gehört Schwefeldioxid?",
+        "Schwefel ist ein Nichtmetall.",
+        "Nichtmetalloxid + Wasser → Säure."
+      ],
+      "solution": "Schwefel ist ein Nichtmetall. Schwefeldioxid reagiert mit Regenwasser zu schwefliger Säure — der Regen wird sauer und greift Bauwerke und Böden an.",
+      "tags": [
+        "oxidation",
+        "umwelt",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "FC07-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Bei der Verbrennung von 12 g Kohlenstoff entstehen 44 g Kohlenstoffdioxid.",
+      "fields": [
+        {
+          "label": "gebundene Sauerstoffmasse",
+          "answer": 32,
+          "unit_label": "g",
+          "tolerance": 0.01,
+          "misconceptions": [
+            {
+              "id": "masse_verschwindet",
+              "value": 56,
+              "feedback": "Du hast addiert. Der Sauerstoff ist die Differenz zwischen Produkt und Kohlenstoff.",
+              "konzeptfehler": "masse_verschwindet"
+            }
+          ]
+        },
+        {
+          "label": "Massenanteil des Kohlenstoffs im Produkt in Prozent",
+          "answer": 27.27,
+          "unit_label": "%",
+          "tolerance": 0.1
+        }
+      ],
+      "hints": [
+        "Sauerstoff = Produktmasse − Kohlenstoffmasse.",
+        "44 − 12 = 32 g.",
+        "Anteil = 12 : 44 · 100 %."
+      ],
+      "solution": "m(O) = 44 g − 12 g = 32 g\nw(C) = 12 g : 44 g = 0,2727 → 27,27 %",
+      "tags": [
+        "oxidation",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI",
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "FC07-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler behauptet: „Beim Verbrennen wird Masse in Energie umgewandelt, deshalb wird die Kerze leichter.“ Wie bewertest du das?",
+      "options": [
+        "Falsch — die Massenabnahme erklärt sich vollständig durch entweichende Gase.",
+        "Richtig — Energie und Masse sind dasselbe.",
+        "Falsch — die Kerze wird gar nicht leichter."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wohin gehen Kohlenstoffdioxid und Wasserdampf?",
+        "In die Luft.",
+        "Im geschlossenen Gefäß bliebe die Masse gleich."
+      ],
+      "solution": "Die Massenabnahme lässt sich vollständig durch die entweichenden Gase erklären. Der Beweis: Im geschlossenen Gefäß bleibt die Masse konstant. Eine messbare Umwandlung von Masse in Energie gibt es bei chemischen Reaktionen nicht.",
+      "misconceptions": [
+        {
+          "id": "masse_verschwindet",
+          "value": 1,
+          "feedback": "Bei chemischen Reaktionen bleibt die Masse erhalten. Der geschlossene Versuch zeigt es.",
+          "konzeptfehler": "masse_verschwindet",
+          "verweis": {
+            "absatz": 1
+          }
+        }
+      ],
+      "tags": [
+        "oxidation",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 10,
+      "aufgaben": 19,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 7,
+      "aufgaben": 20,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 7,
+      "aufgaben": 17,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Metalle reagieren mit Sauerstoff (Oxidation von Metallen )",
+      "url": "https://learningapps.org/view21237132",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Verbrennung von Metallen: Neue Fachbegriffe (Oxid, Oxidation, Reinstoff, Element, Verbindung, Produkt, Edukt)",
+      "url": "https://learningapps.org/view16492305",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Oxidation und Reduktion — Quiz Klasse 8",
+      "url": "https://www.schlaukopf.de/realschule/klasse8/chemie/oxidationreduktion",
+      "typ": "app",
+      "quelle": "Schlaukopf"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Magnesium verbrennt zu Magnesiumoxid",
+      "url": "https://www.youtube.com/watch?v=J6JxiNwN2D0",
+      "quelle": "Chemistry and Biochemistry Demo lab at OSU",
+      "stufe": "A",
+      "rolle": "Demonstration zur Oxidation eines Metalls",
+      "embed": "https://www.youtube-nocookie.com/embed/J6JxiNwN2D0",
+      "protokoll": false,
+      "beobachtung": {
+        "A": "Schreibe die Wortgleichung der Reaktion ins Heft: Magnesium + Sauerstoff → …",
+        "B": "Beschreibe die Beobachtung (Licht, Farbe des Produkts) und erkläre, warum das Produkt ein Oxid ist.",
+        "C": "Begründe anhand der Massenerhaltung, warum das weiße Pulver schwerer sein muss als das eingesetzte Magnesium."
+      }
+    },
+    {
+      "titel": "Eisen und Magnesium im Vergleich verbrannt",
+      "url": "https://www.youtube.com/watch?v=csdiBIIEkWA",
+      "quelle": "Chemistry and Biochemistry Demo lab at OSU",
+      "stufe": "B",
+      "rolle": "Demonstration: unterschiedlich heftige Oxidation",
+      "embed": "https://www.youtube-nocookie.com/embed/csdiBIIEkWA",
+      "protokoll": false,
+      "beobachtung": {
+        "A": "Notiere, welches der beiden Metalle heftiger reagiert.",
+        "B": "Vergleiche beide Verbrennungen in einer Tabelle: Flamme, Geschwindigkeit, Produkt.",
+        "C": "Begründe den Unterschied mit der Reaktionsfähigkeit der beiden Metalle."
+      }
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 4,
+    "titel": "Luft und Verbrennungen",
+    "seiten_von": 38,
+    "seiten_bis": 57,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Oxidation"
+  }
+}

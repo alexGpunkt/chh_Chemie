@@ -1,0 +1,681 @@
+{
+  "unit": "FC-06",
+  "title": "Das Feuerdreieck: Brennen und Löschen",
+  "leitidee": "B4",
+  "standards": [
+    "K1",
+    "K2.1",
+    "K4.1"
+  ],
+  "klasse": 7,
+  "sicherheit": [
+    "Löschversuche werden nur mit kleinen Mengen und auf Anweisung durchgeführt.",
+    "Brennendes Fett und brennende Metalle werden niemals mit Wasser gelöscht."
+  ],
+  "wortspeicher": [
+    "das Feuerdreieck",
+    "der Brennstoff",
+    "die Zündtemperatur",
+    "der Zerteilungsgrad",
+    "die Verbrennung",
+    "das Löschen",
+    "ersticken",
+    "kühlen"
+  ],
+  "worterklaerungen": {
+    "Feuerdreieck": "Drei Dinge müssen zusammenkommen: Brennstoff, Sauerstoff und Wärme.",
+    "Zündtemperatur": "Die Temperatur, ab der ein Stoff von selbst weiterbrennt.",
+    "Zerteilungsgrad": "Wie fein ein Stoff verteilt ist. Feiner Staub brennt schneller als ein Klotz."
+  },
+  "can_do": {
+    "A": "Ich nenne die drei Bedingungen für eine Verbrennung und ein passendes Löschmittel.",
+    "B": "Ich erkläre Löschmethoden über das Feuerdreieck und nenne die Rolle des Zerteilungsgrades.",
+    "C": "Ich bewerte Löschmittel für konkrete Brände und begründe Ausnahmen wie den Fettbrand."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Drei Dinge zum Brennen",
+      "hinfuehrung": "Feuer braucht drei Dinge.",
+      "erklaerung": [
+        "Brennstoff, Sauerstoff und Wärme.",
+        "Fehlt eines, geht das Feuer aus."
+      ],
+      "merke": "Nimm eines weg, und es brennt nicht mehr.",
+      "beispiel": {
+        "titel": "Kerze löschen",
+        "aufgabe": "Du stülpst ein Glas über eine Kerze.",
+        "schritte": [
+          "Der Sauerstoff wird knapp.",
+          "Die Flamme wird kleiner.",
+          "Sie geht aus."
+        ],
+        "ergebnis": "Ohne Sauerstoff kein Feuer."
+      },
+      "visual": {
+        "type": "animation",
+        "name": "feuerdreieck",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Jede Löschmethode nimmt eine Seite weg",
+      "hinfuehrung": "Löschen heißt nicht „Wasser drauf“, sondern: eine der drei Bedingungen entfernen. Welche das ist, entscheidet über das richtige Mittel.",
+      "erklaerung": [
+        "Ersticken entfernt den Sauerstoff: Löschdecke, Sand, Kohlenstoffdioxid.",
+        "Kühlen entfernt die Wärme: Wasser bringt den Stoff unter die Zündtemperatur.",
+        "Entfernen des Brennstoffs: Gashahn zudrehen, brennbares Material wegräumen.",
+        "Wie schnell etwas brennt, hängt am Zerteilungsgrad: Mehlstaub in der Luft kann explodieren, ein Mehlsack nicht."
+      ],
+      "merke": "Erst fragen: Welche Seite des Dreiecks kann ich hier wegnehmen?",
+      "visual": {
+        "type": "animation",
+        "name": "feuerdreieck",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Wenn Wasser das Falsche ist",
+      "hinfuehrung": "Wasser kühlt gut und ist fast immer richtig — aber „fast immer“ ist in der Chemie eine Warnung.",
+      "erklaerung": [
+        "Fettbrand: Brennendes Fett ist über 300 °C heiß. Wasser verdampft schlagartig, dehnt sich auf das Tausendfache aus und reißt brennendes Fett mit — eine Stichflamme. Richtig ist Ersticken mit dem Topfdeckel.",
+        "Metallbrand: Brennendes Magnesium entzieht dem Wasser den Sauerstoff und setzt Wasserstoff frei. Richtig ist trockener Sand.",
+        "Elektrische Anlagen: Wasser leitet. Erst spannungsfrei schalten, dann löschen."
+      ],
+      "merke": "Wasser kühlt — aber nur dort, wo es nicht selbst zum Problem wird.",
+      "visual": {
+        "type": "animation",
+        "name": "feuerdreieck",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Brennstoff + Sauerstoff → Oxide + Energie"
+    ],
+    "saetze": [
+      "Feuerdreieck: Brennstoff, Sauerstoff, Zündtemperatur.",
+      "Löschen = eine Seite des Dreiecks entfernen.",
+      "Fettbrand und Metallbrand niemals mit Wasser.",
+      "Je feiner verteilt, desto schneller die Verbrennung."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Löschmethoden — wie man ein Feuer richtig löscht",
+      "url": "https://www.youtube.com/watch?v=gjZAOBeUHxQ",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/hOTa9-",
+      "embed": "https://app.lumi.education/api/v1/run/hOTa9-/embed",
+      "stufe": "A",
+      "dauer_s": 254
+    },
+    {
+      "titel": "Die Kerzenflamme — was dort verbrennt",
+      "url": "https://www.youtube.com/watch?v=9OE978pQjiA",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/gepxzM",
+      "embed": "https://app.lumi.education/api/v1/run/gepxzM/embed",
+      "stufe": "B",
+      "dauer_s": 161
+    }
+  ],
+  "tasks": [
+    {
+      "id": "FC06-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welche drei Dinge braucht ein Feuer?",
+      "options": [
+        "Brennstoff, Sauerstoff, Wärme",
+        "Brennstoff, Wasser, Wärme",
+        "Sauerstoff, Wasser, Licht"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "feuerdreieck",
+        "stufe": "A"
+      },
+      "hints": [
+        "Sieh dir das Feuerdreieck an.",
+        "Eine Ecke ist der Brennstoff.",
+        "Die anderen sind Sauerstoff und Wärme."
+      ],
+      "solution": "Das Feuerdreieck: Brennstoff, Sauerstoff und Wärme. Fehlt eines, brennt es nicht.",
+      "tags": [
+        "feuer"
+      ]
+    },
+    {
+      "id": "FC06-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "assign",
+      "prompt": "Ordne jeder Löschmethode zu, was sie wegnimmt.",
+      "slots": [
+        "Glas über die Kerze stülpen",
+        "Wasser auf brennendes Holz",
+        "Gashahn zudrehen"
+      ],
+      "values": [
+        "den Sauerstoff",
+        "die Wärme",
+        "den Brennstoff"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Jede Methode nimmt eine Ecke weg.",
+        "Ein Glas lässt keine Luft durch.",
+        "Wasser kühlt."
+      ],
+      "solution": "Glas → Sauerstoff weg.\nWasser → Wärme weg.\nGashahn → Brennstoff weg.",
+      "tags": [
+        "feuer",
+        "loeschen"
+      ]
+    },
+    {
+      "id": "FC06-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Was passiert, wenn du eine brennende Kerze mit einem Glas abdeckst?",
+      "options": [
+        "Sie geht aus, weil der Sauerstoff aufgebraucht wird.",
+        "Sie brennt heller.",
+        "Nichts."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ist unter dem Glas begrenzt?",
+        "Die Luft und damit der Sauerstoff.",
+        "Ohne Sauerstoff erlischt die Flamme."
+      ],
+      "solution": "Unter dem Glas ist nur wenig Sauerstoff. Ist er verbraucht, erlischt die Flamme.",
+      "tags": [
+        "feuer"
+      ]
+    },
+    {
+      "id": "FC06-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "In der Küche brennt Fett in einer Pfanne. Was tust du?",
+      "options": [
+        "Deckel drauf",
+        "Wasser drauf",
+        "Pfanne nach draußen tragen"
+      ],
+      "answer": 0,
+      "hints": [
+        "Wasser und heißes Fett vertragen sich nicht.",
+        "Der Deckel nimmt den Sauerstoff weg.",
+        "Deckel drauf."
+      ],
+      "solution": "Der Deckel erstickt die Flamme. Wasser würde schlagartig verdampfen und brennendes Fett herausschleudern.",
+      "misconceptions": [
+        {
+          "id": "wasser_bei_fettbrand",
+          "value": 1,
+          "feedback": "Wasser ist bei einem Fettbrand lebensgefährlich: Es verdampft schlagartig und reißt brennendes Fett mit.",
+          "konzeptfehler": "sicherheitsregel_missachtet",
+          "verweis": {
+            "absatz": 0
+          }
+        }
+      ],
+      "tags": [
+        "feuer",
+        "sicherheit"
+      ]
+    },
+    {
+      "id": "FC06-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Was bedeutet Zündtemperatur?",
+      "options": [
+        "Die Temperatur, ab der ein Stoff von selbst weiterbrennt.",
+        "Die Temperatur der Flamme.",
+        "Die Temperatur, bei der ein Stoff schmilzt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Es geht um den Start der Verbrennung.",
+        "Ab wann brennt es ohne weitere Hilfe?",
+        "Das ist die Zündtemperatur."
+      ],
+      "solution": "Die Zündtemperatur ist die Temperatur, ab der ein Stoff ohne weitere Energiezufuhr weiterbrennt. Sie ist nicht die Flammentemperatur.",
+      "tags": [
+        "feuer",
+        "fachsprache"
+      ]
+    },
+    {
+      "id": "FC06-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum brennt Holzwolle schneller als ein Holzscheit gleicher Masse?",
+      "options": [
+        "Sie hat einen höheren Zerteilungsgrad, also mehr Oberfläche für den Sauerstoff.",
+        "Sie ist trockener.",
+        "Sie hat eine niedrigere Zündtemperatur."
+      ],
+      "answer": 0,
+      "hints": [
+        "Vergleiche die Oberfläche bei gleicher Masse.",
+        "Wo kann der Sauerstoff überall angreifen?",
+        "Mehr Oberfläche = schnellere Reaktion."
+      ],
+      "solution": "Bei gleicher Masse hat Holzwolle eine viel größere Oberfläche. Der Sauerstoff kann an mehr Stellen gleichzeitig angreifen — die Verbrennung läuft schneller ab.",
+      "misconceptions": [
+        {
+          "id": "zuendtemperatur_als_grund",
+          "value": 2,
+          "feedback": "Die Zündtemperatur ist eine Stoffeigenschaft und bei beiden gleich. Es geht um die Oberfläche."
+        }
+      ],
+      "tags": [
+        "feuer",
+        "bbr"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC06-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum kann Mehlstaub in einer Mühle explodieren, ein Sack Mehl aber nicht?",
+      "options": [
+        "Im Staub ist jedes Teilchen von Luft umgeben — alles reagiert fast gleichzeitig.",
+        "Mehlstaub ist chemisch etwas anderes als Mehl.",
+        "Im Sack fehlt der Brennstoff."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wo ist die Oberfläche größer?",
+        "Im Staub kann Sauerstoff überall gleichzeitig angreifen.",
+        "Deshalb läuft alles auf einmal ab."
+      ],
+      "solution": "Es ist derselbe Stoff. Im Staub ist die Oberfläche so groß und der Sauerstoffkontakt so vollständig, dass die Verbrennung praktisch gleichzeitig abläuft — das ist die Explosion.",
+      "misconceptions": [
+        {
+          "id": "teilchen_traegt_stoffeigenschaft",
+          "value": 1,
+          "feedback": "Mehlstaub ist chemisch dasselbe Mehl. Der Unterschied liegt allein im Zerteilungsgrad.",
+          "konzeptfehler": "teilchen_traegt_stoffeigenschaft"
+        }
+      ],
+      "tags": [
+        "feuer",
+        "bbr"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC06-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "assign",
+      "prompt": "Ordne jedem Brand das richtige Löschmittel zu.",
+      "slots": [
+        "brennendes Papier",
+        "Fettbrand in der Pfanne",
+        "brennendes Magnesium"
+      ],
+      "values": [
+        "Wasser",
+        "Topfdeckel",
+        "trockener Sand"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Ein Löschmittel passt nicht überall.",
+        "Fett und Wasser vertragen sich nicht.",
+        "Magnesium reagiert sogar mit Wasser."
+      ],
+      "solution": "Papier → Wasser (kühlen).\nFettbrand → Topfdeckel (ersticken).\nMagnesium → trockener Sand; Wasser würde zersetzt und Wasserstoff freigesetzt.",
+      "misconceptions": [
+        {
+          "id": "wasser_bei_fettbrand",
+          "value": 0,
+          "feedback": "Wasser ist bei Fett- und Metallbränden gefährlich. Jedes Löschmittel hat seinen Einsatzbereich.",
+          "konzeptfehler": "sicherheitsregel_missachtet"
+        }
+      ],
+      "tags": [
+        "feuer",
+        "loeschen",
+        "bbr"
+      ]
+    },
+    {
+      "id": "FC06-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Ein Liter Wasser wird beim Verdampfen etwa 1700-mal so groß. Welches Dampfvolumen in Litern ergeben 0,2 L Wasser?",
+      "answer": 340,
+      "unit_label": "L",
+      "tolerance": 1,
+      "hints": [
+        "0,2 L mal 1700.",
+        "0,2 · 1700.",
+        "340 L."
+      ],
+      "solution": "0,2 L · 1700 = 340 L. Diese schlagartige Ausdehnung ist der Grund, warum Wasser bei einem Fettbrand so gefährlich ist.",
+      "misconceptions": [
+        {
+          "id": "geteilt_statt_mal",
+          "value": 8500,
+          "feedback": "Du hast geteilt. Das Volumen wird größer, also wird multipliziert."
+        }
+      ],
+      "tags": [
+        "feuer",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-EINH"
+      ]
+    },
+    {
+      "id": "FC06-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Eine Löschdecke wird über ein brennendes Kleidungsstück gelegt. Welche Seite des Feuerdreiecks wird entfernt?",
+      "options": [
+        "der Sauerstoff",
+        "der Brennstoff",
+        "die Wärme"
+      ],
+      "answer": 0,
+      "hints": [
+        "Was hält die Decke ab?",
+        "Sie hält Luft ab.",
+        "Also den Sauerstoff."
+      ],
+      "solution": "Die Löschdecke schließt die Luft ab. Ohne Sauerstoff erlischt die Flamme — sie erstickt.",
+      "tags": [
+        "feuer",
+        "loeschen"
+      ]
+    },
+    {
+      "id": "FC06-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum darf brennendes Magnesium nicht mit Wasser gelöscht werden?",
+      "options": [
+        "Magnesium entzieht dem Wasser den Sauerstoff; dabei entsteht Wasserstoff, der explodiert.",
+        "Wasser kühlt Magnesium zu schnell ab.",
+        "Magnesium löst sich in Wasser."
+      ],
+      "answer": 0,
+      "hints": [
+        "Magnesium ist sehr reaktionsfreudig.",
+        "Es kann sogar Sauerstoff aus Verbindungen holen.",
+        "Übrig bleibt der Wasserstoff."
+      ],
+      "solution": "Brennendes Magnesium ist so heiß und so reaktionsfreudig, dass es dem Wasser den Sauerstoff entreißt. Zurück bleibt Wasserstoff — und der bildet mit Luft ein explosionsfähiges Gemisch.",
+      "misconceptions": [
+        {
+          "id": "kuehlen_als_gefahr",
+          "value": 1,
+          "feedback": "Zu schnelles Abkühlen wäre kein Sicherheitsproblem. Gefährlich ist der entstehende Wasserstoff.",
+          "konzeptfehler": "sicherheitsregel_missachtet"
+        }
+      ],
+      "tags": [
+        "feuer",
+        "erklaeren",
+        "msa"
+      ]
+    },
+    {
+      "id": "FC06-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Kohlenstoffdioxid-Löscher sind bei elektrischen Anlagen zugelassen, Wasser nicht. Warum?",
+      "options": [
+        "CO₂ leitet den Strom nicht und hinterlässt keine Rückstände.",
+        "CO₂ kühlt besser als Wasser.",
+        "Wasser reagiert mit Kupfer."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ist bei Strom das Problem an Wasser?",
+        "Wasser leitet.",
+        "CO₂ nicht."
+      ],
+      "solution": "Wasser leitet den Strom und gefährdet die löschende Person. Kohlenstoffdioxid leitet nicht, erstickt die Flamme und hinterlässt keine Rückstände in der Elektronik. Zum Kühlen taugt es dagegen kaum.",
+      "tags": [
+        "feuer",
+        "bewerten",
+        "msa"
+      ]
+    },
+    {
+      "id": "FC06-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Ein Kaminfeuer wird durch Zusammenschieben der Scheite größer, obwohl nicht mehr Holz dazukommt. Wie erklärst du das?",
+      "options": [
+        "Die Scheite strahlen sich gegenseitig Wärme zu; die Temperatur bleibt über der Zündtemperatur.",
+        "Zusammengeschoben ist mehr Sauerstoff verfügbar.",
+        "Der Zerteilungsgrad steigt beim Zusammenschieben."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welche Ecke des Dreiecks wird verstärkt?",
+        "Nicht der Brennstoff, nicht der Sauerstoff.",
+        "Die Wärme."
+      ],
+      "solution": "Eng beieinander strahlen die Scheite sich gegenseitig Wärme zu. Dadurch bleiben sie sicher über der Zündtemperatur. Auseinandergezogen kühlen sie ab und das Feuer geht aus — deshalb löscht man ein Lagerfeuer durch Auseinanderziehen.",
+      "misconceptions": [
+        {
+          "id": "sauerstoff_als_grund",
+          "value": 1,
+          "feedback": "Zusammengeschoben kommt eher <b>weniger</b> Luft dazwischen. Entscheidend ist die gegenseitige Wärmestrahlung."
+        }
+      ],
+      "tags": [
+        "feuer",
+        "erklaeren",
+        "msa"
+      ]
+    },
+    {
+      "id": "FC06-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Feuerlöscher trägt die Kennzeichnung „ABC“. Ein Schüler folgert: „Damit kann ich jeden Brand löschen.“ Wie bewertest du das?",
+      "options": [
+        "Falsch — die Klassen A, B und C decken Feststoffe, Flüssigkeiten und Gase ab, aber nicht Metallbrände (Klasse D) und nicht Fettbrände (Klasse F).",
+        "Richtig — ABC bedeutet alle Brandklassen.",
+        "Falsch — ABC-Löscher sind nur für Papier zugelassen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie viele Brandklassen gibt es?",
+        "Es gibt A, B, C, D und F.",
+        "D und F sind nicht abgedeckt."
+      ],
+      "solution": "A steht für Feststoffe, B für Flüssigkeiten, C für Gase. Metallbrände (D) und Speisefettbrände (F) verlangen eigene Löschmittel. Ein ABC-Löscher deckt also das Meiste ab, aber nicht alles.",
+      "misconceptions": [
+        {
+          "id": "kennzeichnung_ueberdehnt",
+          "value": 1,
+          "feedback": "ABC nennt genau drei Klassen. D und F fehlen — und gerade dort ist das falsche Mittel gefährlich.",
+          "konzeptfehler": "sicherheitsregel_missachtet"
+        }
+      ],
+      "tags": [
+        "feuer",
+        "bewerten",
+        "msa"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 7,
+      "aufgaben": 22,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 4,
+      "aufgaben": 23,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 4,
+      "aufgaben": 20,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Bedingungen für eine Verbrennung",
+      "url": "https://learningapps.org/view16288185",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "2. Feuer löschen mit dem Wissen über das Feuerdreieck",
+      "url": "https://learningapps.org/view16480931",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Kohlenstoffdioxid löscht — der Feuerlöscher im Versuch",
+      "url": "https://www.youtube.com/watch?v=YgYqP-uohn0",
+      "quelle": "Rugby School Chemistry",
+      "stufe": "A",
+      "rolle": "Demonstration zum Löschen: Sauerstoff entziehen",
+      "lumi": "https://app.lumi.education/run/QBAERL",
+      "embed": "https://app.lumi.education/api/v1/run/QBAERL/embed",
+      "protokoll": true
+    },
+    {
+      "titel": "Ethanol brennt als Flüssigkeit und als Dampf",
+      "url": "https://www.youtube.com/watch?v=sfzn-Ry7HSo",
+      "quelle": "Chemistry and Biochemistry Demo lab at OSU",
+      "stufe": "B",
+      "rolle": "Demonstration zum Zerteilungsgrad im Feuerdreieck",
+      "embed": "https://www.youtube-nocookie.com/embed/sfzn-Ry7HSo",
+      "protokoll": false,
+      "beobachtung": {
+        "A": "Notiere, was schneller brennt: flüssiges Ethanol oder Ethanoldampf.",
+        "B": "Erkläre den Unterschied mit dem Zerteilungsgrad. Nenne dazu die drei Bedingungen des Feuerdreiecks.",
+        "C": "Begründe, warum ein Brand mit zerteiltem Brennstoff gefährlicher ist. Beurteile, welche Löschmaßnahme hier wirkt."
+      }
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 4,
+    "titel": "Luft und Verbrennungen",
+    "seiten_von": 38,
+    "seiten_bis": 57,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Feuerdreieck"
+  }
+}

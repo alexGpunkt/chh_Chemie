@@ -1,0 +1,686 @@
+{
+  "unit": "GA-02",
+  "title": "Nachweise: Sauerstoff, Wasserstoff, Kohlenstoffdioxid",
+  "leitidee": "B3",
+  "standards": [
+    "K1",
+    "K2.2",
+    "K3.2"
+  ],
+  "klasse": 7,
+  "sicherheit": [
+    "Die Knallgasprobe wird nur mit kleinen Mengen und im Reagenzglas durchgeführt.",
+    "Beim Arbeiten mit Gasen immer Schutzbrille tragen."
+  ],
+  "wortspeicher": [
+    "der Nachweis",
+    "die Glimmspanprobe",
+    "die Knallgasprobe",
+    "das Kalkwasser",
+    "der Nachweisreagenz",
+    "eindeutig"
+  ],
+  "worterklaerungen": {
+    "Nachweis": "Ein Versuch, der zeigt, ob ein bestimmter Stoff da ist.",
+    "Glimmspanprobe": "Ein glimmender Holzspan wird ins Gas gehalten. Bei Sauerstoff flammt er auf.",
+    "Kalkwasser": "Eine klare Lösung. Mit Kohlenstoffdioxid wird sie milchig trüb."
+  },
+  "can_do": {
+    "A": "Ich ordne jedem der drei Gase seinen Nachweis zu.",
+    "B": "Ich beschreibe Durchführung und Beobachtung der drei Nachweise.",
+    "C": "Ich erkläre die Nachweisreaktionen und beurteile, wann ein Nachweis eindeutig ist."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Drei Gase, drei Proben",
+      "hinfuehrung": "Man kann Gase nicht sehen.",
+      "erklaerung": [
+        "Für jedes Gas gibt es einen eigenen Versuch.",
+        "Der Versuch heißt Nachweis."
+      ],
+      "merke": "Glimmspan → Sauerstoff. Knall → Wasserstoff. Trübung → Kohlenstoffdioxid.",
+      "beispiel": {
+        "titel": "Ein Beispiel",
+        "aufgabe": "Ein Span flammt im Gas hell auf.",
+        "schritte": [
+          "Das ist die Glimmspanprobe.",
+          "Sie zeigt Sauerstoff an."
+        ],
+        "ergebnis": "Das Gas ist Sauerstoff."
+      },
+      "visual": {
+        "type": "animation",
+        "name": "nachweise",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Durchführung und Beobachtung",
+      "hinfuehrung": "Ein Nachweis besteht immer aus drei Teilen: Was wird getan, was wird beobachtet, was folgt daraus. Ohne den dritten Teil ist es kein Nachweis, sondern nur ein Versuch.",
+      "erklaerung": [
+        "Glimmspanprobe: Ein glimmender Span wird in das Gas gehalten. Er flammt hell auf → Sauerstoff.",
+        "Knallgasprobe: Das Gas wird im Reagenzglas aufgefangen und an der Öffnung entzündet. Es knallt pfeifend → Wasserstoff.",
+        "Kalkwasserprobe: Das Gas wird in klares Kalkwasser geleitet. Es wird milchig trüb → Kohlenstoffdioxid."
+      ],
+      "merke": "Durchführung, Beobachtung, Schlussfolgerung — alle drei gehören zum Nachweis.",
+      "visual": {
+        "type": "animation",
+        "name": "nachweise",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Warum die Nachweise funktionieren",
+      "hinfuehrung": "Jeder Nachweis beruht auf einer chemischen Reaktion, die nur mit dem gesuchten Stoff abläuft. Genau das macht ihn eindeutig.",
+      "erklaerung": [
+        "Glimmspanprobe: Sauerstoff unterhält die Verbrennung. In reinem Sauerstoff verbrennt die Glut so schnell, dass der Span wieder mit Flamme brennt.",
+        "Knallgasprobe: 2 H₂ + O₂ → 2 H₂O läuft explosionsartig ab. Das pfeifende Geräusch zeigt an, dass das Gemisch nahezu rein war; ein dumpfer Knall zeigt Luftbeimischung.",
+        "Kalkwasserprobe: CO₂ + Ca(OH)₂ → CaCO₃ + H₂O. Calciumcarbonat ist schwerlöslich und fällt als feiner Feststoff aus — das ist die Trübung.",
+        "Ein Nachweis ist nur dann eindeutig, wenn kein anderer anwesender Stoff dieselbe Beobachtung erzeugt."
+      ],
+      "merke": "Ein Nachweis ist so viel wert wie seine Eindeutigkeit.",
+      "visual": {
+        "type": "animation",
+        "name": "nachweise",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "2 H₂ + O₂ → 2 H₂O",
+      "CO₂ + Ca(OH)₂ → CaCO₃ + H₂O"
+    ],
+    "saetze": [
+      "Glimmspan flammt auf → Sauerstoff.",
+      "Pfeifender Knall → Wasserstoff.",
+      "Kalkwasser wird trüb → Kohlenstoffdioxid.",
+      "Nachweis = Durchführung + Beobachtung + Schlussfolgerung."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Glimmspanprobe — Nachweis von Sauerstoff",
+      "url": "https://www.youtube.com/watch?v=uk0dL15KAZg",
+      "quelle": "Biologie und Chemie Schule",
+      "lumi": "https://app.lumi.education/run/hGRKim",
+      "embed": "https://app.lumi.education/api/v1/run/hGRKim/embed",
+      "stufe": "B",
+      "dauer_s": 79
+    },
+    {
+      "titel": "Knallgasprobe — Nachweis von Wasserstoff",
+      "url": "https://www.youtube.com/watch?v=xnO8ZGfH28E",
+      "quelle": "Biologie und Chemie Schule",
+      "lumi": "https://app.lumi.education/run/i8grEH",
+      "embed": "https://app.lumi.education/api/v1/run/i8grEH/embed",
+      "stufe": "A",
+      "dauer_s": 104
+    },
+    {
+      "titel": "Kalkwasserprobe — Nachweis von Kohlenstoffdioxid",
+      "url": "https://www.youtube.com/watch?v=upD0Wg7f3Rc",
+      "quelle": "Biologie und Chemie Schule",
+      "lumi": "https://app.lumi.education/run/FeLHF6",
+      "embed": "https://app.lumi.education/api/v1/run/FeLHF6/embed",
+      "stufe": "B",
+      "dauer_s": 89
+    }
+  ],
+  "tasks": [
+    {
+      "id": "GA02-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Ein glimmender Span flammt im Gas hell auf. Welches Gas ist es?",
+      "options": [
+        "Sauerstoff",
+        "Wasserstoff",
+        "Kohlenstoffdioxid"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "nachweise",
+        "stufe": "A"
+      },
+      "hints": [
+        "Welches Gas hilft beim Brennen?",
+        "Sauerstoff.",
+        "Der Span brennt weiter."
+      ],
+      "solution": "Sauerstoff unterhält die Verbrennung. Der glimmende Span flammt hell auf.",
+      "misconceptions": [
+        {
+          "id": "nachweis_verwechselt",
+          "value": 2,
+          "feedback": "Kohlenstoffdioxid löscht die Glut, es lässt sie nicht aufflammen.",
+          "konzeptfehler": "nachweis_verwechselt"
+        }
+      ],
+      "tags": [
+        "nachweise"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "GA02-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "assign",
+      "prompt": "Ordne jedem Gas seinen Nachweis zu.",
+      "slots": [
+        "Sauerstoff",
+        "Wasserstoff",
+        "Kohlenstoffdioxid"
+      ],
+      "values": [
+        "Glimmspanprobe",
+        "Knallgasprobe",
+        "Kalkwasserprobe"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Drei Gase, drei Proben.",
+        "Wasserstoff macht ein Geräusch.",
+        "Kalkwasser wird trüb."
+      ],
+      "solution": "Sauerstoff → Glimmspanprobe.\nWasserstoff → Knallgasprobe.\nKohlenstoffdioxid → Kalkwasserprobe.",
+      "tags": [
+        "nachweise"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "GA02-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Kalkwasser wird beim Einleiten eines Gases milchig trüb. Welches Gas war es?",
+      "options": [
+        "Kohlenstoffdioxid",
+        "Sauerstoff",
+        "Stickstoff"
+      ],
+      "answer": 0,
+      "hints": [
+        "Welche Probe ist das?",
+        "Die Kalkwasserprobe.",
+        "Sie zeigt Kohlenstoffdioxid an."
+      ],
+      "solution": "Die Trübung des Kalkwassers ist der Nachweis für Kohlenstoffdioxid.",
+      "tags": [
+        "nachweise"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "GA02-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum darf die Knallgasprobe nur mit kleinen Mengen gemacht werden?",
+      "options": [
+        "Weil die Reaktion sehr schnell abläuft.",
+        "Weil Wasserstoff giftig ist.",
+        "Weil sie sonst nicht funktioniert."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert bei der Knallgasprobe?",
+        "Es knallt.",
+        "Bei viel Gas wird es gefährlich."
+      ],
+      "solution": "Wasserstoff und Sauerstoff reagieren explosionsartig. Bei kleinen Mengen bleibt es beim Knall — bei großen wird es gefährlich.",
+      "misconceptions": [
+        {
+          "id": "wasserstoff_giftig",
+          "value": 1,
+          "feedback": "Wasserstoff ist nicht giftig. Gefährlich ist die sehr schnelle Reaktion.",
+          "konzeptfehler": "sicherheitsregel_missachtet"
+        }
+      ],
+      "tags": [
+        "nachweise",
+        "sicherheit"
+      ]
+    },
+    {
+      "id": "GA02-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Wie wird die Kalkwasserprobe richtig durchgeführt?",
+      "options": [
+        "Das Gas wird in klares Kalkwasser eingeleitet.",
+        "Kalkwasser wird in das Gas gegossen.",
+        "Kalkwasser wird erhitzt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Das Gas muss mit der Lösung in Kontakt kommen.",
+        "Man leitet es ein.",
+        "Dann kann die Reaktion ablaufen."
+      ],
+      "solution": "Das Gas wird durch ein Rohr in klares Kalkwasser eingeleitet. Nur so kommt es ausreichend mit der Lösung in Kontakt.",
+      "tags": [
+        "nachweise",
+        "arbeitstechnik",
+        "bbr"
+      ]
+    },
+    {
+      "id": "GA02-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Ein Reagenzglas mit einem Gas erzeugt beim Entzünden einen dumpfen Knall statt eines pfeifenden. Was bedeutet das?",
+      "options": [
+        "Das Gas war mit Luft vermischt.",
+        "Es war kein Wasserstoff.",
+        "Das Reagenzglas war zu klein."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wovon hängt das Geräusch ab?",
+        "Von der Reinheit des Gases.",
+        "Luftbeimischung dämpft den Knall."
+      ],
+      "solution": "Ein pfeifender Knall zeigt nahezu reinen Wasserstoff an. Ein dumpfer Knall bedeutet, dass Luft beigemischt war — das Gas war noch nicht vollständig aufgefangen.",
+      "misconceptions": [
+        {
+          "id": "nachweis_verwechselt",
+          "value": 1,
+          "feedback": "Es knallt — also ist Wasserstoff da. Nur nicht rein genug.",
+          "konzeptfehler": "nachweis_verwechselt"
+        }
+      ],
+      "tags": [
+        "nachweise",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "GA02-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum eignet sich die Glimmspanprobe nicht als Nachweis für Kohlenstoffdioxid?",
+      "options": [
+        "Auch Stickstoff und andere Gase lassen den Span erlöschen — die Beobachtung wäre nicht eindeutig.",
+        "Kohlenstoffdioxid lässt den Span aufflammen.",
+        "Der Span ist zu klein."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was tut der Span in Stickstoff?",
+        "Er erlischt ebenfalls.",
+        "Also ist die Beobachtung nicht eindeutig."
+      ],
+      "solution": "Der Span erlischt in jedem Gas, das die Verbrennung nicht unterhält — auch in Stickstoff oder Argon. Ein Nachweis muss eindeutig sein, deshalb braucht Kohlenstoffdioxid das Kalkwasser.",
+      "tags": [
+        "nachweise",
+        "bewerten",
+        "bbr"
+      ]
+    },
+    {
+      "id": "GA02-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "assign",
+      "prompt": "Ordne jeder Beobachtung die richtige Schlussfolgerung zu.",
+      "slots": [
+        "Span flammt auf",
+        "Kalkwasser bleibt klar",
+        "pfeifender Knall"
+      ],
+      "values": [
+        "Sauerstoff ist vorhanden",
+        "kein Kohlenstoffdioxid vorhanden",
+        "Wasserstoff ist vorhanden"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Auch ein negativer Befund ist ein Ergebnis.",
+        "Klares Kalkwasser heißt: kein CO₂.",
+        "Der Knall gehört zum Wasserstoff."
+      ],
+      "solution": "Span flammt auf → Sauerstoff.\nKalkwasser klar → kein Kohlenstoffdioxid.\nPfeifender Knall → Wasserstoff.",
+      "tags": [
+        "nachweise",
+        "bbr"
+      ]
+    },
+    {
+      "id": "GA02-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "In einem Gasgemisch soll geprüft werden, ob Sauerstoff und Kohlenstoffdioxid enthalten sind. Welche Reihenfolge ist sinnvoll?",
+      "options": [
+        "Erst Kalkwasser einleiten, dann den Glimmspan halten.",
+        "Erst den Glimmspan, dann das Kalkwasser.",
+        "Die Reihenfolge ist egal."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was verändert die Probe?",
+        "Der brennende Span verbraucht Sauerstoff und erzeugt CO₂.",
+        "Das würde die zweite Probe verfälschen."
+      ],
+      "solution": "Der brennende Span verbraucht Sauerstoff und erzeugt Kohlenstoffdioxid — er verfälscht die Kalkwasserprobe. Deshalb wird zuerst auf CO₂ geprüft.",
+      "tags": [
+        "nachweise",
+        "planen",
+        "msa"
+      ]
+    },
+    {
+      "id": "GA02-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum beschlägt bei der Knallgasprobe die Innenwand des Reagenzglases?",
+      "options": [
+        "Es entsteht Wasser, das an der kühleren Wand kondensiert.",
+        "Das Glas schmilzt an.",
+        "Der Wasserstoff wird flüssig."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was entsteht bei der Reaktion?",
+        "Wasser.",
+        "Es schlägt sich an der kühlen Wand nieder."
+      ],
+      "solution": "2 H₂ + O₂ → 2 H₂O. Das entstehende Wasser kondensiert an der kühleren Glaswand — ein zusätzlicher Beleg für das Produkt.",
+      "tags": [
+        "nachweise",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "GA02-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum wird das Kalkwasser bei längerem Einleiten von CO₂ wieder klar?",
+      "options": [
+        "Im Überschuss bildet sich lösliches Hydrogencarbonat, der Niederschlag löst sich wieder auf.",
+        "Das Kalkwasser ist verbraucht.",
+        "Der Versuch war fehlerhaft."
+      ],
+      "answer": 0,
+      "hints": [
+        "Der Niederschlag verschwindet, nicht das Kalkwasser.",
+        "Es entsteht eine lösliche Verbindung.",
+        "Das ist Calciumhydrogencarbonat."
+      ],
+      "solution": "Zunächst fällt schwerlösliches Calciumcarbonat aus. Bei weiterem Einleiten entsteht daraus lösliches Calciumhydrogencarbonat — die Trübung verschwindet. Deshalb wird nur kurz eingeleitet.",
+      "tags": [
+        "nachweise",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "GA02-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Ein Schüler prüft ein Gas mit dem Glimmspan; er flammt auf. Er schließt: „Das Gas ist reiner Sauerstoff.“ Was fehlt?",
+      "options": [
+        "Der Nachweis zeigt nur, dass Sauerstoff enthalten ist — über die Reinheit sagt er nichts.",
+        "Nichts, der Schluss ist vollständig.",
+        "Der Span hätte erlöschen müssen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was genau zeigt der Nachweis an?",
+        "Anwesenheit, nicht Reinheit.",
+        "Auch sauerstoffangereicherte Luft lässt den Span aufflammen."
+      ],
+      "solution": "Der Nachweis belegt die Anwesenheit von Sauerstoff. Auch ein Gemisch mit erhöhtem Sauerstoffanteil lässt den Span aufflammen. Über die Reinheit sagt die Probe nichts.",
+      "misconceptions": [
+        {
+          "id": "nachweis_ueberdehnt",
+          "value": 1,
+          "feedback": "Ein Nachweis zeigt Anwesenheit, nicht Reinheit oder Menge.",
+          "konzeptfehler": "nachweis_verwechselt"
+        }
+      ],
+      "tags": [
+        "nachweise",
+        "bewerten",
+        "msa"
+      ]
+    },
+    {
+      "id": "GA02-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Bei der Knallgasprobe reagieren Wasserstoff und Sauerstoff im Volumenverhältnis 2 : 1.",
+      "fields": [
+        {
+          "label": "Sauerstoffvolumen für 40 mL Wasserstoff",
+          "answer": 20,
+          "unit_label": "mL",
+          "tolerance": 0.5,
+          "misconceptions": [
+            {
+              "id": "verhaeltnis_umgedreht",
+              "value": 80,
+              "feedback": "Vom Sauerstoff wird die <b>Hälfte</b> gebraucht, nicht das Doppelte."
+            }
+          ]
+        },
+        {
+          "label": "Gesamtvolumen des reagierenden Gemisches",
+          "answer": 60,
+          "unit_label": "mL",
+          "tolerance": 0.5
+        }
+      ],
+      "hints": [
+        "2 Teile Wasserstoff auf 1 Teil Sauerstoff.",
+        "40 mL : 2 = 20 mL.",
+        "40 + 20 = 60 mL."
+      ],
+      "solution": "O₂: 40 mL : 2 = 20 mL\ngesamt: 40 + 20 = 60 mL",
+      "tags": [
+        "nachweise",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI",
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "GA02-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "In einem Kellerraum wird ein Gas vermutet, das Kerzen erlöschen lässt. Welche Untersuchung führt am sichersten zur Antwort?",
+      "options": [
+        "Kalkwasserprobe — sie unterscheidet Kohlenstoffdioxid eindeutig von anderen erstickenden Gasen.",
+        "Glimmspanprobe — sie zeigt an, welches Gas es ist.",
+        "Knallgasprobe — sie ist am empfindlichsten."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welche Gase lassen eine Kerze erlöschen?",
+        "Viele — Stickstoff, Argon, CO₂.",
+        "Nur ein Nachweis unterscheidet sie."
+      ],
+      "solution": "Erlöschen ist nicht eindeutig: Auch Stickstoff und Argon tun das. Nur die Kalkwasserprobe unterscheidet Kohlenstoffdioxid von anderen erstickenden Gasen. Eine Knallgasprobe wäre in einem Kellerraum zudem gefährlich.",
+      "tags": [
+        "nachweise",
+        "bewerten",
+        "msa"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 4,
+      "aufgaben": 25,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 4,
+      "aufgaben": 23,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 4,
+      "aufgaben": 20,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Nachweisreaktionen in der Chemie",
+      "url": "https://learningapps.org/view3905927",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Das Wichtigste über Kohlenstoffdioxid",
+      "url": "https://learningapps.org/view16293379",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Knallgasprobe — Zink und Salzsäure",
+      "url": "https://www.youtube.com/watch?v=C6jIXHddpp8",
+      "quelle": "Smart Culture Education",
+      "stufe": "A",
+      "rolle": "Demonstration zum Wasserstoffnachweis",
+      "lumi": "https://app.lumi.education/run/6RsLvf",
+      "embed": "https://app.lumi.education/api/v1/run/6RsLvf/embed",
+      "protokoll": true
+    },
+    {
+      "titel": "Nachweis von Wasser",
+      "url": "https://www.youtube.com/watch?v=h30h4Il8P28",
+      "quelle": "Rugby School Chemistry",
+      "stufe": "B",
+      "rolle": "Demonstration zum Wassernachweis",
+      "embed": "https://www.youtube-nocookie.com/embed/h30h4Il8P28",
+      "protokoll": false,
+      "beobachtung": {
+        "A": "Notiere, womit Wasser nachgewiesen wird und welche Farbe dabei entsteht.",
+        "B": "Beschreibe den Nachweis vollständig: Reagenz, Durchführung, Farbwechsel.",
+        "C": "Beurteile, ob der Nachweis eindeutig ist. Begründe, warum ein Nachweis eindeutig sein muss."
+      }
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 4,
+    "titel": "Luft und Verbrennungen",
+    "seiten_von": 38,
+    "seiten_bis": 57,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Nachweis"
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "unit": "GA-05",
+  "title": "Anwenden & Prüfungstraining Gase",
+  "leitidee": "B3",
+  "standards": [
+    "K1",
+    "K2.2",
+    "K3.3",
+    "K4.1"
+  ],
+  "klasse": 7,
+  "wortspeicher": [
+    "der Nachweis",
+    "das Gasgemisch",
+    "die Elektronenpaarbindung",
+    "das Treibhausgas",
+    "der Operator",
+    "die Schlussfolgerung"
+  ],
+  "worterklaerungen": {
+    "Schlussfolgerung": "Der Satz, der aus einer Beobachtung das Ergebnis zieht.",
+    "Operator": "Das Signalwort einer Aufgabe. Es sagt, welche Art Antwort verlangt wird."
+  },
+  "can_do": {
+    "A": "Ich ordne Gase, Nachweise und Eigenschaften sicher einander zu.",
+    "B": "Ich beantworte gemischte Aufgaben zu Gasen mit Beobachtung und Schlussfolgerung.",
+    "C": "Ich erkenne an der Aufgabenstellung, welche Art von Antwort verlangt ist, und begründe fachlich."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Alles auf einen Blick",
+      "hinfuehrung": "In dieser Stunde kommt alles zusammen.",
+      "erklaerung": [
+        "Luft ist ein Gemisch.",
+        "Jedes Gas hat einen eigenen Nachweis."
+      ],
+      "merke": "Erst lesen, was gefragt ist. Dann antworten.",
+      "visual": {
+        "type": "animation",
+        "name": "signalwoerter",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Beobachtung und Schluss trennen",
+      "hinfuehrung": "In Prüfungsaufgaben zu Versuchen wird fast immer beides verlangt: was zu sehen ist und was daraus folgt. Wer nur eines schreibt, bekommt die halbe Punktzahl.",
+      "erklaerung": [
+        "Beobachtung: „Der Span flammt hell auf.“ — Sie enthält keine Deutung.",
+        "Schlussfolgerung: „Also ist Sauerstoff vorhanden.“ — Sie deutet die Beobachtung.",
+        "„Das Gas ist Sauerstoff“ allein ist keine Beobachtung, sondern schon das Ergebnis."
+      ],
+      "merke": "Erst schreiben, was zu sehen war. Dann, was daraus folgt.",
+      "visual": {
+        "type": "animation",
+        "name": "nachweise",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Wissen verbinden",
+      "hinfuehrung": "Die anspruchsvollen Aufgaben verlangen, zwei Themen zusammenzubringen — etwa Bindung und Reaktionsträgheit oder Zusammensetzung und Nachweis.",
+      "erklaerung": [
+        "Warum ist Stickstoff so häufig und trotzdem so reaktionsträge? Zusammensetzung der Luft plus Dreifachbindung.",
+        "Warum wird eine Kerze im Glas gelöscht, aber die Kalkwasserprobe positiv? Sauerstoffverbrauch plus Produktbildung.",
+        "Warum hilft ein Katalysator gegen Stickoxide, nicht aber gegen Kohlenstoffdioxid? Reaktionsprodukt plus Bilanz."
+      ],
+      "merke": "Die schwierigen Aufgaben verbinden zwei Stunden miteinander.",
+      "visual": {
+        "type": "animation",
+        "name": "signalwoerter",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "2 H₂ + O₂ → 2 H₂O",
+      "CO₂ + Ca(OH)₂ → CaCO₃ + H₂O"
+    ],
+    "saetze": [
+      "Luft: 78 % N₂, 21 % O₂, rund 1 % Rest.",
+      "Glimmspan → O₂ · Knall → H₂ · Kalkwasser trüb → CO₂.",
+      "Bindungen: H 1 · O 2 · N 3 · C 4.",
+      "Beobachtung und Schlussfolgerung immer getrennt aufschreiben."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Was sind Gase und wie beschreibt man sie?",
+      "url": "https://www.youtube.com/watch?v=WWCuFzOAF4o",
+      "quelle": "musstewissen Chemie",
+      "lumi": "https://app.lumi.education/run/cDcZkz",
+      "embed": "https://app.lumi.education/api/v1/run/cDcZkz/embed",
+      "stufe": "A",
+      "dauer_s": 486
+    },
+    {
+      "titel": "Nachweisreaktionen für Kohlenstoffdioxid und Wasser",
+      "url": "https://www.youtube.com/watch?v=EuQoXNxcG2U",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/U7PrQl",
+      "embed": "https://app.lumi.education/api/v1/run/U7PrQl/embed",
+      "stufe": "B",
+      "dauer_s": 223
+    }
+  ],
+  "tasks": [
+    {
+      "id": "GA05-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "assign",
+      "prompt": "Ordne jedem Gas eine passende Aussage zu.",
+      "slots": [
+        "Stickstoff",
+        "Sauerstoff",
+        "Kohlenstoffdioxid"
+      ],
+      "values": [
+        "häufigstes Gas der Luft",
+        "lässt den Glimmspan aufflammen",
+        "trübt Kalkwasser"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Ein Gas ist am häufigsten.",
+        "Eines hilft beim Brennen.",
+        "Eines trübt Kalkwasser."
+      ],
+      "solution": "Stickstoff → häufigstes Gas.\nSauerstoff → Glimmspan.\nKohlenstoffdioxid → Kalkwasser.",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "GA05-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Was ist eine Beobachtung?",
+      "options": [
+        "Der Span flammt hell auf.",
+        "Das Gas ist Sauerstoff.",
+        "Sauerstoff hilft beim Brennen."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "signalwoerter",
+        "stufe": "A"
+      },
+      "hints": [
+        "Eine Beobachtung ist das, was man sieht.",
+        "Noch ohne Deutung.",
+        "Der Span flammt auf."
+      ],
+      "solution": "Nur „Der Span flammt hell auf“ beschreibt, was zu sehen war. Die anderen beiden sind bereits Schlussfolgerungen.",
+      "misconceptions": [
+        {
+          "id": "beschreiben_statt_erklaeren",
+          "value": 1,
+          "feedback": "Das ist die Schlussfolgerung. Die Beobachtung ist das, was du siehst."
+        }
+      ],
+      "tags": [
+        "pruefung",
+        "operatoren"
+      ]
+    },
+    {
+      "id": "GA05-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie viele Liter Sauerstoff sind in 50 L Luft?",
+      "answer": 10.5,
+      "unit_label": "L",
+      "tolerance": 0.5,
+      "hints": [
+        "21 % von 50 L.",
+        "1 % sind 0,5 L.",
+        "21 · 0,5 L."
+      ],
+      "solution": "50 L · 0,21 = 10,5 L",
+      "tags": [
+        "pruefung",
+        "rechnen"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "GA05-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Gas lässt einen glimmenden Span erlöschen und trübt Kalkwasser. Welches Gas ist es?",
+      "options": [
+        "Kohlenstoffdioxid",
+        "Sauerstoff",
+        "Wasserstoff"
+      ],
+      "answer": 0,
+      "hints": [
+        "Zwei Hinweise zusammennehmen.",
+        "Trübung heißt CO₂.",
+        "Und CO₂ unterhält keine Verbrennung."
+      ],
+      "solution": "Beide Befunde zusammen ergeben Kohlenstoffdioxid: Es unterhält die Verbrennung nicht und trübt Kalkwasser.",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "GA05-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Warum bildet Stickstoff eine Dreifachbindung?",
+      "options": [
+        "Jedem N-Atom fehlen drei Elektronen zur vollen Schale.",
+        "Weil Stickstoff schwer ist.",
+        "Weil Stickstoff ein Edelgas ist."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "lewis",
+        "molekuel": "n2",
+        "alt": "Lewis-Formel von Stickstoff."
+      },
+      "hints": [
+        "Wie viele Außenelektronen hat Stickstoff?",
+        "Fünf.",
+        "8 − 5 = 3."
+      ],
+      "solution": "Stickstoff hat 5 Außenelektronen, ihm fehlen 3. Drei geteilte Elektronenpaare ergeben die Dreifachbindung.",
+      "tags": [
+        "pruefung",
+        "bindung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "GA05-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "multi",
+      "prompt": "In 2,5 L Luft sollen die Volumenanteile bestimmt werden.",
+      "fields": [
+        {
+          "label": "Stickstoff",
+          "answer": 1.95,
+          "unit_label": "L",
+          "tolerance": 0.05
+        },
+        {
+          "label": "Sauerstoff",
+          "answer": 0.525,
+          "unit_label": "L",
+          "tolerance": 0.02
+        }
+      ],
+      "hints": [
+        "78 % und 21 % von 2,5 L.",
+        "1 % sind 0,025 L.",
+        "78 · 0,025 = 1,95 L."
+      ],
+      "solution": "N₂: 2,5 L · 0,78 = 1,95 L\nO₂: 2,5 L · 0,21 = 0,525 L",
+      "tags": [
+        "pruefung",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "GA05-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Eine Kerze brennt in einem Glas und erlischt. Danach trübt das Gas im Glas Kalkwasser. Was folgt daraus?",
+      "options": [
+        "Der Sauerstoff wurde verbraucht und dabei Kohlenstoffdioxid gebildet.",
+        "Im Glas war von Anfang an Kohlenstoffdioxid.",
+        "Das Kalkwasser war verunreinigt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert beim Verbrennen von Wachs?",
+        "Sauerstoff wird verbraucht, CO₂ entsteht.",
+        "Beide Befunde passen zusammen."
+      ],
+      "solution": "Die Flamme verbraucht den Sauerstoff und erlischt. Das dabei entstandene Kohlenstoffdioxid trübt anschließend das Kalkwasser. Beide Beobachtungen zusammen belegen die Reaktion.",
+      "tags": [
+        "pruefung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "GA05-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Welche Antwort auf „Beschreibe die Knallgasprobe“ ist vollständig?",
+      "options": [
+        "Das aufgefangene Gas wird an der Öffnung des Reagenzglases entzündet; es ertönt ein pfeifender Knall.",
+        "Es knallt.",
+        "Wasserstoff ist vorhanden."
+      ],
+      "answer": 0,
+      "hints": [
+        "„Beschreibe“ verlangt Durchführung und Beobachtung.",
+        "Nicht nur das Ergebnis.",
+        "Und in ganzen Sätzen."
+      ],
+      "solution": "„Beschreibe“ verlangt Durchführung und Beobachtung in ganzen Sätzen. Antwort 2 ist unvollständig, Antwort 3 ist bereits die Schlussfolgerung.",
+      "misconceptions": [
+        {
+          "id": "beschreiben_statt_erklaeren",
+          "value": 2,
+          "feedback": "Das ist die Schlussfolgerung, nicht die Beschreibung."
+        }
+      ],
+      "tags": [
+        "pruefung",
+        "operatoren",
+        "bbr"
+      ]
+    },
+    {
+      "id": "GA05-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie viele bindende Elektronenpaare hat ein Ammoniakmolekül NH₃?",
+      "answer": 3,
+      "tolerance": 0,
+      "visual": {
+        "type": "lewis",
+        "molekuel": "nh3",
+        "alt": "Lewis-Formel von Ammoniak."
+      },
+      "hints": [
+        "Wie viele Bindungen bildet Stickstoff?",
+        "Drei.",
+        "Also drei bindende Paare."
+      ],
+      "solution": "Stickstoff bildet drei Bindungen zu je einem Wasserstoffatom: drei bindende Elektronenpaare. Dazu kommt ein freies Elektronenpaar am Stickstoff.",
+      "tags": [
+        "pruefung",
+        "bindung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "GA05-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum ist Luft trotz 78 % Stickstoff atembar?",
+      "options": [
+        "Stickstoff ist reaktionsträge und stört nicht; die 21 % Sauerstoff genügen.",
+        "Der Körper nutzt auch den Stickstoff.",
+        "Beim Einatmen wird Stickstoff herausgefiltert."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was macht der Körper mit dem Stickstoff?",
+        "Nichts — er wird wieder ausgeatmet.",
+        "Gebraucht wird nur der Sauerstoff."
+      ],
+      "solution": "Stickstoff wird unverändert wieder ausgeatmet, er ist reaktionsträge. Die 21 % Sauerstoff genügen für die Atmung — reiner Sauerstoff wäre über längere Zeit sogar schädlich.",
+      "tags": [
+        "pruefung",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "GA05-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Ein unbekanntes Gas löscht einen Span und trübt Kalkwasser nicht. Was könnte es sein?",
+      "options": [
+        "Stickstoff oder ein Edelgas",
+        "Sauerstoff",
+        "Kohlenstoffdioxid"
+      ],
+      "answer": 0,
+      "hints": [
+        "Löschen heißt: unterhält keine Verbrennung.",
+        "Keine Trübung heißt: kein CO₂.",
+        "Übrig bleiben träge Gase."
+      ],
+      "solution": "Der Span erlischt — also kein Sauerstoff. Das Kalkwasser bleibt klar — also kein Kohlenstoffdioxid. Übrig bleiben Stickstoff und die Edelgase; für eine weitere Unterscheidung braucht es andere Verfahren.",
+      "tags": [
+        "pruefung",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "GA05-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "In einem abgeschlossenen Volumen von 400 mL Luft verbrennt Eisenwolle. Danach sind 318 mL Gas übrig.",
+      "fields": [
+        {
+          "label": "verbrauchtes Sauerstoffvolumen",
+          "answer": 82,
+          "unit_label": "mL",
+          "tolerance": 1
+        },
+        {
+          "label": "gemessener Sauerstoffanteil in Prozent",
+          "answer": 20.5,
+          "unit_label": "%",
+          "tolerance": 0.3
+        },
+        {
+          "label": "Abweichung vom Literaturwert 21 %, in Prozentpunkten",
+          "answer": 0.5,
+          "tolerance": 0.3
+        }
+      ],
+      "hints": [
+        "400 − 318 = 82 mL.",
+        "82 : 400 · 100 %.",
+        "21 − 20,5 = 0,5 Prozentpunkte."
+      ],
+      "solution": "verbraucht: 400 − 318 = 82 mL\nAnteil: 82 : 400 = 20,5 %\nAbweichung: 21 − 20,5 = 0,5 Prozentpunkte — sehr gutes Ergebnis.",
+      "tags": [
+        "pruefung",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "GA05-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum ist der Satz „Kohlenstoffdioxid ist ein Giftgas“ fachlich unpräzise?",
+      "options": [
+        "CO₂ wirkt erst in hoher Konzentration erstickend; die Wirkung hängt von der Menge ab.",
+        "CO₂ ist völlig harmlos.",
+        "CO₂ ist tatsächlich ein Giftgas."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie viel CO₂ ist in der Atemluft?",
+        "0,04 % — und ausgeatmet rund 4 %.",
+        "Die Wirkung hängt von der Konzentration ab."
+      ],
+      "solution": "Kohlenstoffdioxid ist in der Atemluft ständig vorhanden und wirkt erst in hoher Konzentration erstickend — nicht durch chemische Giftwirkung, sondern durch Verdrängung des Sauerstoffs. Ohne Angabe der Konzentration ist die Aussage nicht bewertbar.",
+      "tags": [
+        "pruefung",
+        "bewerten",
+        "msa"
+      ]
+    },
+    {
+      "id": "GA05-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Eine Prüfungsaufgabe lautet: „Erkläre, warum die Zusammensetzung der Luft weitgehend konstant bleibt.“ Welche Antwort trägt am weitesten?",
+      "options": [
+        "Verbrauch und Nachlieferung stehen im Gleichgewicht: Pflanzen setzen Sauerstoff frei, Atmung und Verbrennung verbrauchen ihn.",
+        "Weil Luft ein Gemisch ist.",
+        "Weil Stickstoff nicht reagiert."
+      ],
+      "answer": 0,
+      "hints": [
+        "Warum bleibt der Sauerstoffanteil trotz ständigen Verbrauchs gleich?",
+        "Weil er nachgeliefert wird.",
+        "Es ist ein Gleichgewicht."
+      ],
+      "solution": "„Erkläre“ verlangt eine Ursache. Antwort 2 ist eine Einordnung, Antwort 3 erklärt nur einen Bestandteil. Nur Antwort 1 nennt den Grund: ein Gleichgewicht zwischen Verbrauch und Nachlieferung.",
+      "tags": [
+        "pruefung",
+        "operatoren",
+        "msa"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 10,
+      "aufgaben": 19,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 6,
+      "aufgaben": 21,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 6,
+      "aufgaben": 18,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Welches Gas ist gemeint?",
+      "url": "https://learningapps.org/view9304669",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Chemische Reaktionen mit Sauerstoff",
+      "url": "https://learningapps.org/view13496828",
+      "typ": "sammlung",
+      "quelle": "LearningApps",
+      "pfade": [
+        "B",
+        "C"
+      ]
+    },
+    {
+      "titel": "Halogene und Edelgase — Quiz Klasse 9",
+      "url": "https://www.schlaukopf.de/realschule/klasse9/chemie/halogene",
+      "typ": "app",
+      "quelle": "Schlaukopf"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 4,
+    "titel": "Luft und Verbrennungen",
+    "seiten_von": 38,
+    "seiten_bis": 57,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Nachweis"
+  }
+}
