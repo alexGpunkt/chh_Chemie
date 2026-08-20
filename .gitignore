@@ -1,0 +1,14 @@
+# Lokale Werkzeuge und Abhängigkeiten
+.claude/
+tests/node_modules/
+tests/test-results/
+tests/playwright-report/
+
+# Betriebssystem/Editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Python-Zwischendateien
+__pycache__/
+*.py[cod]

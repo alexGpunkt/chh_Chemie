@@ -1,0 +1,25 @@
+Aufbau der Lernabschnitte — allgemeines Modell
+==============================================
+
+Uebernommen aus dem Schwesterprojekt chh_Mathe_Klasse_9. Die sechs Phasen
+sind fachunabhaengig; die dortigen Mathematikbeispiele stehen bewusst nicht
+hier. werkzeuge/aufbau-pruefen.js prueft jede Chemieeinheit gegen dieses
+Modell.
+
+0*Überschrift
+
+1*Einstieg / Erkundung.** Am Anfang steht eine motivierende Situation – ein Sachkontext, ein Bild, ein Spiel oder eine offene Erkundungsaufgabe. Ihre Funktion ist doppelt: Sie aktiviert das Vorwissen und erzeugt einen inhaltlichen „Bedarf" für das Neue, indem sie ein Problem aufwirft, das mit den bisherigen Mitteln noch nicht sauber lösbar ist. Didaktisch ist das der Kern des genetischen Prinzips – der Lernende soll die Notwendigkeit des neuen Begriffs oder Verfahrens selbst nachvollziehen. Wenn möglich eine Animation. Diese sollen stadartmäßig gestoppt und bei bedarf gestartet oder über einen schieberegler bedient werden.
+
+2*Erarbeitung.** Aus dem Einstieg heraus wird der neue Inhalt entwickelt, häufig entlang eines durchgerechneten Leitbeispiels, das exemplarisch zeigt, wie man vom konkreten Fall zur allgemeinen Einsicht kommt. Hier wirkt oft das EIS-Prinzip nach Bruner: enaktiv/anschaulich (Handlung, Material), ikonisch (Bild, Diagramm, Skizze) und symbolisch (Term, Formel) werden verknüpft, sodass die Abstraktion vorbereitet und nicht übersprungen wird. Die Aufgaben sollen, wenn möglich, mithilfe der vorheroigen animation gelöst werden können.
+
+3*Sicherung im Merkkasten.** Das Ergebnis der Erarbeitung wird verdichtet – Definition, Regel, Satz oder Formel stehen in einem farbig hervorgehobenen Kasten (Merkwissen, „Das Wichtigste"). Dieser Kasten ist bewusst das Nachschlage- und Sicherungselement des Abschnitts. Gestaltet, möglichst als drag-and-drop, zuordnung oder auswahlaufgabe
+
+4*Musterbeispiele.** Direkt anschließend zeigen ein bis mehrere durchgerechnete Beispiele die Anwendung des neuen Wissens, oft mit ausformulierten Lösungsschritten und Kommentarspalte. Sie liefern das Format, an dem die Lernenden ihr eigenes Vorgehen orientieren können. Eine Reihe statischer Übungsaufgaben welche, wenn möglich, mithilfe der animation gelöst werden können. Das einbinden eines lernvideos oder präsentationen soll an dieser stelle vorbereitet werden.
+
+5*Übungsphase.** Den größten Umfang nimmt der gestufte Aufgabenblock ein. Er ist in der Regel nach Schwierigkeit differenziert – häufig mit Symbolen (Punkte, Sterne, Farben) für Grund-, Mittel- und Erweiterungsniveau – und folgt einer Progression von reinen Übungsaufgaben (Verfahren festigen) über Verständnis- und Begründungsaufgaben bis zu Sachaufgaben. Viele Werke sortieren zudem nach Aufgabentypen und binden operative Variationen ein (verändere eine Größe, kehre die Aufgabe um). Ein Aufgabengenerator zur erzeuigung von Übungsaufgaben, entsprechend den zuvor, mit der animation gelösten Aufgaben, erzeugt. direktes feedback der aufgabe sowie ein vortschrittsbalken der den schüler anzeigt, wann genügend übungsaufgaben, richtig gelöst wurden und fortgefahren werden kann. Verlinkungen zu vergleichbaren, externen Übungsaufgaben sowie das, entsprechend dem jeweiligen niveau, erzeugtem pdf Aufgabenblatt.
+
+6*Vertiefung / Anwendung / Vernetzung.** Zum Abschluss stehen oft anspruchsvollere Anwendungs-, Modellierungs- oder Vernetzungsaufgaben, die den Inhalt mit realen Kontexten oder anderen Themen verbinden, sowie gelegentlich offene, forschende oder „Knobel"-Aufgaben. Speziell ausgewählte, den lernniveaus entsprechende Aufgabenbeispiele, gerne auch BBR Aufgaben aus den vergangenen Jahren. Nur die Aufgabenstellung und kein Eingabefeld da diese Aufgaben handscvhriftlich gelöst werden müssen.
+
+Auf der übergeordneten Kapitelebene rahmen diese Lernabschnitte weitere Elemente ein: ein Kapitelauftakt mit Überblick und Kompetenzzielen, zwischendurch Selbsteinschätzungs- oder Check-Seiten, und am Ende „Vermischte Aufgaben", eine Zusammenfassung (Rückblick) sowie ein Test zur Selbstkontrolle.
+
+Zwei durchgängige Prinzipien prägen den gesamten Aufbau: das **Spiralprinzip** (Themen werden auf höherem Niveau wieder aufgegriffen, weshalb ein Abschnitt bewusst an Vorwissen anknüpft) und die **innere Differenzierung** (gestufte Aufgaben, Hilfen, teils separate Basis- und Zusatzangebote), die gerade in heterogenen Lerngruppen tragen soll.
