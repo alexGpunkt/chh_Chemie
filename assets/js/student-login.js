@@ -258,10 +258,19 @@
     document.querySelector('.m9-user-chip')?.remove();
     const chip = document.createElement('div');
     chip.className = 'm9-user-chip';
-    chip.innerHTML = `<span>${escapeHtml(student.display_name)} · ${escapeHtml(student.class_code)}</span><button type="button">Abmelden</button>`;
+    chip.innerHTML = `<span>${escapeHtml(student.display_name)} · ${escapeHtml(student.class_code)}</span><button type="button" aria-label="Abmelden">Abmelden</button>`;
     /* Fragt nach: nur abmelden oder auch die lokalen Lernstände entfernen. */
     chip.querySelector('button').addEventListener('click', () => abmeldeDialog());
     document.body.appendChild(chip);
+    /* Auf der Einheitsseite gehört der Kontostatus in den Kopf statt über
+       Formelkarte und Seitennavigation. buch.js erzeugt die Kopfwerkzeuge
+       etwas später; der kurze zweite Versuch fängt beide Ladefolgen ab. */
+    const inKopfVerschieben = () => {
+      const kopf = document.querySelector('.buch-kopf-tools');
+      if (kopf && chip.isConnected && chip.parentElement !== kopf) kopf.prepend(chip);
+    };
+    inKopfVerschieben();
+    setTimeout(inKopfVerschieben, 120);
   }
 
   function escapeHtml(value) {
@@ -508,3 +517,4 @@
     initialize();
   }
 })();
+
