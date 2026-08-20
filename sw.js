@@ -8,7 +8,7 @@
    Sonst sehen die Geräte weiter die alte Fassung.
    ============================================================ */
 
-const VERSION = 'chemie710-v4-lernruhe';
+const VERSION = 'chemie710-v4-responsive';
 
 /* ---------- Was NICHT ins Offlinepaket gehört ----------
    Bis v2 lud jedes Schülergerät bei der Installation auch das
