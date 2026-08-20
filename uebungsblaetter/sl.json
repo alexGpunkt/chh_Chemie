@@ -1,0 +1,2233 @@
+{
+  "_hinweis": "Generatoren fuer die gedruckten Uebungsblaetter. Erzeugt von werkzeuge/uebungsblaetter_bauen.py; von Hand ergaenzte Einheiten bleiben beim erneuten Lauf erhalten.",
+  "bereich": "sl",
+  "title": "Säuren und Laugen",
+  "einheiten": {
+    "sl-01": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-SL-01-1",
+          "vars": {
+            "ph": {
+              "aus": [
+                1,
+                2,
+                3
+              ]
+            },
+            "k": {
+              "von": 1,
+              "bis": 4
+            }
+          },
+          "template": "Eine saure Lösung mit pH {ph} wird {k}-mal zehnfach verdünnt. Welchen pH-Wert hat sie danach?",
+          "answer": "min(7, ph + k)",
+          "round": 0,
+          "solution": "pH {ph} + {k} = {ergebnis} — höchstens aber 7.",
+          "misconceptions": [
+            {
+              "id": "ph_skala_falschrum",
+              "value": "ph - k",
+              "feedback": "Verdünnen macht eine saure Lösung <b>weniger</b> sauer — der pH-Wert steigt."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "k": {
+                  "von": 1,
+                  "bis": 2
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "k": {
+                  "von": 3,
+                  "bis": 4
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-SL-01-2",
+          "tabelle": [
+            {
+              "name": "Schwefelsäure",
+              "formel": "H₂SO₄",
+              "M": 98,
+              "atome": 7
+            },
+            {
+              "name": "Salpetersäure",
+              "formel": "HNO₃",
+              "M": 63,
+              "atome": 5
+            },
+            {
+              "name": "Salzsäure",
+              "formel": "HCl",
+              "M": 36.5,
+              "atome": 2
+            },
+            {
+              "name": "Kohlensäure",
+              "formel": "H₂CO₃",
+              "M": 62,
+              "atome": 6
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Kohlensäure",
+                  "formel": "H₂CO₃",
+                  "M": 62,
+                  "atome": 6
+                },
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                },
+                {
+                  "name": "Salzsäure",
+                  "formel": "HCl",
+                  "M": 36.5,
+                  "atome": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-SL-01-3",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 500,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                4,
+                5,
+                8,
+                10,
+                25
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Säure. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 300,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    4,
+                    5,
+                    8
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 300,
+                  "bis": 500,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    8,
+                    10,
+                    25
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-SL-01-4",
+          "tabelle": [
+            {
+              "name": "Schwefelsäure",
+              "formel": "H₂SO₄",
+              "M": 98,
+              "atome": 7
+            },
+            {
+              "name": "Salpetersäure",
+              "formel": "HNO₃",
+              "M": 63,
+              "atome": 5
+            },
+            {
+              "name": "Salzsäure",
+              "formel": "HCl",
+              "M": 36.5,
+              "atome": 2
+            },
+            {
+              "name": "Kohlensäure",
+              "formel": "H₂CO₃",
+              "M": 62,
+              "atome": 6
+            }
+          ],
+          "vars": {
+            "m": {
+              "aus": [
+                98,
+                196,
+                63,
+                126
+              ]
+            }
+          },
+          "bedingung": "ganz(m / M * 1000)",
+          "template": "Welche Stoffmenge sind {m} g {name$} (M = {M} g/mol)?",
+          "answer": "m / M",
+          "unit_label": "mol",
+          "round": 3,
+          "solution": "n = {m} g : {M} g/mol = {ergebnis} mol",
+          "misconceptions": [
+            {
+              "id": "mol_mal_statt_geteilt",
+              "value": "m * M",
+              "feedback": "n = m : M — hier wird geteilt, nicht multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Kohlensäure",
+                  "formel": "H₂CO₃",
+                  "M": 62,
+                  "atome": 6
+                },
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    63,
+                    98,
+                    126
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                },
+                {
+                  "name": "Salzsäure",
+                  "formel": "HCl",
+                  "M": 36.5,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    98,
+                    126,
+                    196
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sl-02": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-SL-02-1",
+          "vars": {
+            "ph": {
+              "aus": [
+                1,
+                2,
+                3
+              ]
+            },
+            "k": {
+              "von": 1,
+              "bis": 4
+            }
+          },
+          "template": "Eine saure Lösung mit pH {ph} wird {k}-mal zehnfach verdünnt. Welchen pH-Wert hat sie danach?",
+          "answer": "min(7, ph + k)",
+          "round": 0,
+          "solution": "pH {ph} + {k} = {ergebnis} — höchstens aber 7.",
+          "misconceptions": [
+            {
+              "id": "ph_skala_falschrum",
+              "value": "ph - k",
+              "feedback": "Verdünnen macht eine saure Lösung <b>weniger</b> sauer — der pH-Wert steigt."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "k": {
+                  "von": 1,
+                  "bis": 2
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "k": {
+                  "von": 3,
+                  "bis": 4
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-SL-02-2",
+          "tabelle": [
+            {
+              "name": "Schwefelsäure",
+              "formel": "H₂SO₄",
+              "M": 98,
+              "atome": 7
+            },
+            {
+              "name": "Salpetersäure",
+              "formel": "HNO₃",
+              "M": 63,
+              "atome": 5
+            },
+            {
+              "name": "Salzsäure",
+              "formel": "HCl",
+              "M": 36.5,
+              "atome": 2
+            },
+            {
+              "name": "Kohlensäure",
+              "formel": "H₂CO₃",
+              "M": 62,
+              "atome": 6
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Kohlensäure",
+                  "formel": "H₂CO₃",
+                  "M": 62,
+                  "atome": 6
+                },
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                },
+                {
+                  "name": "Salzsäure",
+                  "formel": "HCl",
+                  "M": 36.5,
+                  "atome": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-SL-02-3",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 500,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                4,
+                5,
+                8,
+                10,
+                25
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Säure. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 300,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    4,
+                    5,
+                    8
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 300,
+                  "bis": 500,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    8,
+                    10,
+                    25
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-SL-02-4",
+          "tabelle": [
+            {
+              "name": "Schwefelsäure",
+              "formel": "H₂SO₄",
+              "M": 98,
+              "atome": 7
+            },
+            {
+              "name": "Salpetersäure",
+              "formel": "HNO₃",
+              "M": 63,
+              "atome": 5
+            },
+            {
+              "name": "Salzsäure",
+              "formel": "HCl",
+              "M": 36.5,
+              "atome": 2
+            },
+            {
+              "name": "Kohlensäure",
+              "formel": "H₂CO₃",
+              "M": 62,
+              "atome": 6
+            }
+          ],
+          "vars": {
+            "m": {
+              "aus": [
+                98,
+                196,
+                63,
+                126
+              ]
+            }
+          },
+          "bedingung": "ganz(m / M * 1000)",
+          "template": "Welche Stoffmenge sind {m} g {name$} (M = {M} g/mol)?",
+          "answer": "m / M",
+          "unit_label": "mol",
+          "round": 3,
+          "solution": "n = {m} g : {M} g/mol = {ergebnis} mol",
+          "misconceptions": [
+            {
+              "id": "mol_mal_statt_geteilt",
+              "value": "m * M",
+              "feedback": "n = m : M — hier wird geteilt, nicht multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Kohlensäure",
+                  "formel": "H₂CO₃",
+                  "M": 62,
+                  "atome": 6
+                },
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    63,
+                    98,
+                    126
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                },
+                {
+                  "name": "Salzsäure",
+                  "formel": "HCl",
+                  "M": 36.5,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    98,
+                    126,
+                    196
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sl-03": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-SL-03-1",
+          "vars": {
+            "ph": {
+              "aus": [
+                1,
+                2,
+                3
+              ]
+            },
+            "k": {
+              "von": 1,
+              "bis": 4
+            }
+          },
+          "template": "Eine saure Lösung mit pH {ph} wird {k}-mal zehnfach verdünnt. Welchen pH-Wert hat sie danach?",
+          "answer": "min(7, ph + k)",
+          "round": 0,
+          "solution": "pH {ph} + {k} = {ergebnis} — höchstens aber 7.",
+          "misconceptions": [
+            {
+              "id": "ph_skala_falschrum",
+              "value": "ph - k",
+              "feedback": "Verdünnen macht eine saure Lösung <b>weniger</b> sauer — der pH-Wert steigt."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "k": {
+                  "von": 1,
+                  "bis": 2
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "k": {
+                  "von": 3,
+                  "bis": 4
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-SL-03-2",
+          "tabelle": [
+            {
+              "name": "Schwefelsäure",
+              "formel": "H₂SO₄",
+              "M": 98,
+              "atome": 7
+            },
+            {
+              "name": "Salpetersäure",
+              "formel": "HNO₃",
+              "M": 63,
+              "atome": 5
+            },
+            {
+              "name": "Salzsäure",
+              "formel": "HCl",
+              "M": 36.5,
+              "atome": 2
+            },
+            {
+              "name": "Kohlensäure",
+              "formel": "H₂CO₃",
+              "M": 62,
+              "atome": 6
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Kohlensäure",
+                  "formel": "H₂CO₃",
+                  "M": 62,
+                  "atome": 6
+                },
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                },
+                {
+                  "name": "Salzsäure",
+                  "formel": "HCl",
+                  "M": 36.5,
+                  "atome": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-SL-03-3",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 500,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                4,
+                5,
+                8,
+                10,
+                25
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Säure. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 300,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    4,
+                    5,
+                    8
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 300,
+                  "bis": 500,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    8,
+                    10,
+                    25
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-SL-03-4",
+          "tabelle": [
+            {
+              "name": "Schwefelsäure",
+              "formel": "H₂SO₄",
+              "M": 98,
+              "atome": 7
+            },
+            {
+              "name": "Salpetersäure",
+              "formel": "HNO₃",
+              "M": 63,
+              "atome": 5
+            },
+            {
+              "name": "Salzsäure",
+              "formel": "HCl",
+              "M": 36.5,
+              "atome": 2
+            },
+            {
+              "name": "Kohlensäure",
+              "formel": "H₂CO₃",
+              "M": 62,
+              "atome": 6
+            }
+          ],
+          "vars": {
+            "m": {
+              "aus": [
+                98,
+                196,
+                63,
+                126
+              ]
+            }
+          },
+          "bedingung": "ganz(m / M * 1000)",
+          "template": "Welche Stoffmenge sind {m} g {name$} (M = {M} g/mol)?",
+          "answer": "m / M",
+          "unit_label": "mol",
+          "round": 3,
+          "solution": "n = {m} g : {M} g/mol = {ergebnis} mol",
+          "misconceptions": [
+            {
+              "id": "mol_mal_statt_geteilt",
+              "value": "m * M",
+              "feedback": "n = m : M — hier wird geteilt, nicht multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Kohlensäure",
+                  "formel": "H₂CO₃",
+                  "M": 62,
+                  "atome": 6
+                },
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    63,
+                    98,
+                    126
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                },
+                {
+                  "name": "Salzsäure",
+                  "formel": "HCl",
+                  "M": 36.5,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    98,
+                    126,
+                    196
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sl-04": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-SL-04-1",
+          "vars": {
+            "ph": {
+              "aus": [
+                1,
+                2,
+                3
+              ]
+            },
+            "k": {
+              "von": 1,
+              "bis": 4
+            }
+          },
+          "template": "Eine saure Lösung mit pH {ph} wird {k}-mal zehnfach verdünnt. Welchen pH-Wert hat sie danach?",
+          "answer": "min(7, ph + k)",
+          "round": 0,
+          "solution": "pH {ph} + {k} = {ergebnis} — höchstens aber 7.",
+          "misconceptions": [
+            {
+              "id": "ph_skala_falschrum",
+              "value": "ph - k",
+              "feedback": "Verdünnen macht eine saure Lösung <b>weniger</b> sauer — der pH-Wert steigt."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "k": {
+                  "von": 1,
+                  "bis": 2
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "k": {
+                  "von": 3,
+                  "bis": 4
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-SL-04-2",
+          "tabelle": [
+            {
+              "name": "Schwefelsäure",
+              "formel": "H₂SO₄",
+              "M": 98,
+              "atome": 7
+            },
+            {
+              "name": "Salpetersäure",
+              "formel": "HNO₃",
+              "M": 63,
+              "atome": 5
+            },
+            {
+              "name": "Salzsäure",
+              "formel": "HCl",
+              "M": 36.5,
+              "atome": 2
+            },
+            {
+              "name": "Kohlensäure",
+              "formel": "H₂CO₃",
+              "M": 62,
+              "atome": 6
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Kohlensäure",
+                  "formel": "H₂CO₃",
+                  "M": 62,
+                  "atome": 6
+                },
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                },
+                {
+                  "name": "Salzsäure",
+                  "formel": "HCl",
+                  "M": 36.5,
+                  "atome": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-SL-04-3",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 500,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                4,
+                5,
+                8,
+                10,
+                25
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Säure. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 300,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    4,
+                    5,
+                    8
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 300,
+                  "bis": 500,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    8,
+                    10,
+                    25
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-SL-04-4",
+          "tabelle": [
+            {
+              "name": "Schwefelsäure",
+              "formel": "H₂SO₄",
+              "M": 98,
+              "atome": 7
+            },
+            {
+              "name": "Salpetersäure",
+              "formel": "HNO₃",
+              "M": 63,
+              "atome": 5
+            },
+            {
+              "name": "Salzsäure",
+              "formel": "HCl",
+              "M": 36.5,
+              "atome": 2
+            },
+            {
+              "name": "Kohlensäure",
+              "formel": "H₂CO₃",
+              "M": 62,
+              "atome": 6
+            }
+          ],
+          "vars": {
+            "m": {
+              "aus": [
+                98,
+                196,
+                63,
+                126
+              ]
+            }
+          },
+          "bedingung": "ganz(m / M * 1000)",
+          "template": "Welche Stoffmenge sind {m} g {name$} (M = {M} g/mol)?",
+          "answer": "m / M",
+          "unit_label": "mol",
+          "round": 3,
+          "solution": "n = {m} g : {M} g/mol = {ergebnis} mol",
+          "misconceptions": [
+            {
+              "id": "mol_mal_statt_geteilt",
+              "value": "m * M",
+              "feedback": "n = m : M — hier wird geteilt, nicht multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Kohlensäure",
+                  "formel": "H₂CO₃",
+                  "M": 62,
+                  "atome": 6
+                },
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    63,
+                    98,
+                    126
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                },
+                {
+                  "name": "Salzsäure",
+                  "formel": "HCl",
+                  "M": 36.5,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    98,
+                    126,
+                    196
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sl-05": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-SL-05-1",
+          "vars": {
+            "ph": {
+              "aus": [
+                1,
+                2,
+                3
+              ]
+            },
+            "k": {
+              "von": 1,
+              "bis": 4
+            }
+          },
+          "template": "Eine saure Lösung mit pH {ph} wird {k}-mal zehnfach verdünnt. Welchen pH-Wert hat sie danach?",
+          "answer": "min(7, ph + k)",
+          "round": 0,
+          "solution": "pH {ph} + {k} = {ergebnis} — höchstens aber 7.",
+          "misconceptions": [
+            {
+              "id": "ph_skala_falschrum",
+              "value": "ph - k",
+              "feedback": "Verdünnen macht eine saure Lösung <b>weniger</b> sauer — der pH-Wert steigt."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "k": {
+                  "von": 1,
+                  "bis": 2
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "k": {
+                  "von": 3,
+                  "bis": 4
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-SL-05-2",
+          "tabelle": [
+            {
+              "name": "Schwefelsäure",
+              "formel": "H₂SO₄",
+              "M": 98,
+              "atome": 7
+            },
+            {
+              "name": "Salpetersäure",
+              "formel": "HNO₃",
+              "M": 63,
+              "atome": 5
+            },
+            {
+              "name": "Salzsäure",
+              "formel": "HCl",
+              "M": 36.5,
+              "atome": 2
+            },
+            {
+              "name": "Kohlensäure",
+              "formel": "H₂CO₃",
+              "M": 62,
+              "atome": 6
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Kohlensäure",
+                  "formel": "H₂CO₃",
+                  "M": 62,
+                  "atome": 6
+                },
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                },
+                {
+                  "name": "Salzsäure",
+                  "formel": "HCl",
+                  "M": 36.5,
+                  "atome": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-SL-05-3",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 500,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                4,
+                5,
+                8,
+                10,
+                25
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Säure. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 300,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    4,
+                    5,
+                    8
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 300,
+                  "bis": 500,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    8,
+                    10,
+                    25
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-SL-05-4",
+          "tabelle": [
+            {
+              "name": "Schwefelsäure",
+              "formel": "H₂SO₄",
+              "M": 98,
+              "atome": 7
+            },
+            {
+              "name": "Salpetersäure",
+              "formel": "HNO₃",
+              "M": 63,
+              "atome": 5
+            },
+            {
+              "name": "Salzsäure",
+              "formel": "HCl",
+              "M": 36.5,
+              "atome": 2
+            },
+            {
+              "name": "Kohlensäure",
+              "formel": "H₂CO₃",
+              "M": 62,
+              "atome": 6
+            }
+          ],
+          "vars": {
+            "m": {
+              "aus": [
+                98,
+                196,
+                63,
+                126
+              ]
+            }
+          },
+          "bedingung": "ganz(m / M * 1000)",
+          "template": "Welche Stoffmenge sind {m} g {name$} (M = {M} g/mol)?",
+          "answer": "m / M",
+          "unit_label": "mol",
+          "round": 3,
+          "solution": "n = {m} g : {M} g/mol = {ergebnis} mol",
+          "misconceptions": [
+            {
+              "id": "mol_mal_statt_geteilt",
+              "value": "m * M",
+              "feedback": "n = m : M — hier wird geteilt, nicht multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Kohlensäure",
+                  "formel": "H₂CO₃",
+                  "M": 62,
+                  "atome": 6
+                },
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    63,
+                    98,
+                    126
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                },
+                {
+                  "name": "Salzsäure",
+                  "formel": "HCl",
+                  "M": 36.5,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    98,
+                    126,
+                    196
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sl-06": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-SL-06-1",
+          "vars": {
+            "ph": {
+              "aus": [
+                1,
+                2,
+                3
+              ]
+            },
+            "k": {
+              "von": 1,
+              "bis": 4
+            }
+          },
+          "template": "Eine saure Lösung mit pH {ph} wird {k}-mal zehnfach verdünnt. Welchen pH-Wert hat sie danach?",
+          "answer": "min(7, ph + k)",
+          "round": 0,
+          "solution": "pH {ph} + {k} = {ergebnis} — höchstens aber 7.",
+          "misconceptions": [
+            {
+              "id": "ph_skala_falschrum",
+              "value": "ph - k",
+              "feedback": "Verdünnen macht eine saure Lösung <b>weniger</b> sauer — der pH-Wert steigt."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "k": {
+                  "von": 1,
+                  "bis": 2
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "k": {
+                  "von": 3,
+                  "bis": 4
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-SL-06-2",
+          "tabelle": [
+            {
+              "name": "Schwefelsäure",
+              "formel": "H₂SO₄",
+              "M": 98,
+              "atome": 7
+            },
+            {
+              "name": "Salpetersäure",
+              "formel": "HNO₃",
+              "M": 63,
+              "atome": 5
+            },
+            {
+              "name": "Salzsäure",
+              "formel": "HCl",
+              "M": 36.5,
+              "atome": 2
+            },
+            {
+              "name": "Kohlensäure",
+              "formel": "H₂CO₃",
+              "M": 62,
+              "atome": 6
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Kohlensäure",
+                  "formel": "H₂CO₃",
+                  "M": 62,
+                  "atome": 6
+                },
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                },
+                {
+                  "name": "Salzsäure",
+                  "formel": "HCl",
+                  "M": 36.5,
+                  "atome": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-SL-06-3",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 500,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                4,
+                5,
+                8,
+                10,
+                25
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Säure. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 300,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    4,
+                    5,
+                    8
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 300,
+                  "bis": 500,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    8,
+                    10,
+                    25
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-SL-06-4",
+          "tabelle": [
+            {
+              "name": "Schwefelsäure",
+              "formel": "H₂SO₄",
+              "M": 98,
+              "atome": 7
+            },
+            {
+              "name": "Salpetersäure",
+              "formel": "HNO₃",
+              "M": 63,
+              "atome": 5
+            },
+            {
+              "name": "Salzsäure",
+              "formel": "HCl",
+              "M": 36.5,
+              "atome": 2
+            },
+            {
+              "name": "Kohlensäure",
+              "formel": "H₂CO₃",
+              "M": 62,
+              "atome": 6
+            }
+          ],
+          "vars": {
+            "m": {
+              "aus": [
+                98,
+                196,
+                63,
+                126
+              ]
+            }
+          },
+          "bedingung": "ganz(m / M * 1000)",
+          "template": "Welche Stoffmenge sind {m} g {name$} (M = {M} g/mol)?",
+          "answer": "m / M",
+          "unit_label": "mol",
+          "round": 3,
+          "solution": "n = {m} g : {M} g/mol = {ergebnis} mol",
+          "misconceptions": [
+            {
+              "id": "mol_mal_statt_geteilt",
+              "value": "m * M",
+              "feedback": "n = m : M — hier wird geteilt, nicht multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Kohlensäure",
+                  "formel": "H₂CO₃",
+                  "M": 62,
+                  "atome": 6
+                },
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    63,
+                    98,
+                    126
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                },
+                {
+                  "name": "Salzsäure",
+                  "formel": "HCl",
+                  "M": 36.5,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    98,
+                    126,
+                    196
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sl-07": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-SL-07-1",
+          "vars": {
+            "ph": {
+              "aus": [
+                1,
+                2,
+                3
+              ]
+            },
+            "k": {
+              "von": 1,
+              "bis": 4
+            }
+          },
+          "template": "Eine saure Lösung mit pH {ph} wird {k}-mal zehnfach verdünnt. Welchen pH-Wert hat sie danach?",
+          "answer": "min(7, ph + k)",
+          "round": 0,
+          "solution": "pH {ph} + {k} = {ergebnis} — höchstens aber 7.",
+          "misconceptions": [
+            {
+              "id": "ph_skala_falschrum",
+              "value": "ph - k",
+              "feedback": "Verdünnen macht eine saure Lösung <b>weniger</b> sauer — der pH-Wert steigt."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "k": {
+                  "von": 1,
+                  "bis": 2
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "k": {
+                  "von": 3,
+                  "bis": 4
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-SL-07-2",
+          "tabelle": [
+            {
+              "name": "Schwefelsäure",
+              "formel": "H₂SO₄",
+              "M": 98,
+              "atome": 7
+            },
+            {
+              "name": "Salpetersäure",
+              "formel": "HNO₃",
+              "M": 63,
+              "atome": 5
+            },
+            {
+              "name": "Salzsäure",
+              "formel": "HCl",
+              "M": 36.5,
+              "atome": 2
+            },
+            {
+              "name": "Kohlensäure",
+              "formel": "H₂CO₃",
+              "M": 62,
+              "atome": 6
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Kohlensäure",
+                  "formel": "H₂CO₃",
+                  "M": 62,
+                  "atome": 6
+                },
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                },
+                {
+                  "name": "Salzsäure",
+                  "formel": "HCl",
+                  "M": 36.5,
+                  "atome": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-SL-07-3",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 500,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                4,
+                5,
+                8,
+                10,
+                25
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Säure. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 300,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    4,
+                    5,
+                    8
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 300,
+                  "bis": 500,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    8,
+                    10,
+                    25
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-SL-07-4",
+          "tabelle": [
+            {
+              "name": "Schwefelsäure",
+              "formel": "H₂SO₄",
+              "M": 98,
+              "atome": 7
+            },
+            {
+              "name": "Salpetersäure",
+              "formel": "HNO₃",
+              "M": 63,
+              "atome": 5
+            },
+            {
+              "name": "Salzsäure",
+              "formel": "HCl",
+              "M": 36.5,
+              "atome": 2
+            },
+            {
+              "name": "Kohlensäure",
+              "formel": "H₂CO₃",
+              "M": 62,
+              "atome": 6
+            }
+          ],
+          "vars": {
+            "m": {
+              "aus": [
+                98,
+                196,
+                63,
+                126
+              ]
+            }
+          },
+          "bedingung": "ganz(m / M * 1000)",
+          "template": "Welche Stoffmenge sind {m} g {name$} (M = {M} g/mol)?",
+          "answer": "m / M",
+          "unit_label": "mol",
+          "round": 3,
+          "solution": "n = {m} g : {M} g/mol = {ergebnis} mol",
+          "misconceptions": [
+            {
+              "id": "mol_mal_statt_geteilt",
+              "value": "m * M",
+              "feedback": "n = m : M — hier wird geteilt, nicht multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Kohlensäure",
+                  "formel": "H₂CO₃",
+                  "M": 62,
+                  "atome": 6
+                },
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    63,
+                    98,
+                    126
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                },
+                {
+                  "name": "Salzsäure",
+                  "formel": "HCl",
+                  "M": 36.5,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    98,
+                    126,
+                    196
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

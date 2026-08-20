@@ -1,0 +1,602 @@
+{
+  "unit": "AL-04",
+  "title": "Mehrwertige Alkohole: Glycol und Glycerin",
+  "leitidee": "B2",
+  "standards": [
+    "K1",
+    "K2.1",
+    "K4.1"
+  ],
+  "klasse": 10,
+  "wortspeicher": [
+    "mehrwertig",
+    "das Glycol",
+    "das Glycerin",
+    "das Frostschutzmittel",
+    "hygroskopisch",
+    "der Zuckeraustauschstoff"
+  ],
+  "worterklaerungen": {
+    "mehrwertig": "Ein Alkohol mit mehr als einer OH-Gruppe.",
+    "hygroskopisch": "Zieht Wasser aus der Luft an und bindet es."
+  },
+  "can_do": {
+    "A": "Ich weiß, dass Glycerin drei OH-Gruppen hat, und nenne eine Verwendung.",
+    "B": "Ich erkläre die Eigenschaften mehrwertiger Alkohole mit der Zahl der OH-Gruppen.",
+    "C": "Ich bewerte die Verwendung von Glycol und Glycerin unter Sicherheitsaspekten."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Mehr als eine OH-Gruppe",
+      "hinfuehrung": "Manche Alkohole haben mehrere OH-Gruppen.",
+      "erklaerung": [
+        "Glycol hat zwei.",
+        "Glycerin hat drei."
+      ],
+      "merke": "Mehr OH-Gruppen: dickflüssiger und besser wasserlöslich.",
+      "beispiel": {
+        "titel": "Glycerin",
+        "aufgabe": "Wozu wird Glycerin verwendet?",
+        "schritte": [
+          "In Handcreme.",
+          "In Zahnpasta.",
+          "Es hält Feuchtigkeit."
+        ],
+        "ergebnis": "Als Feuchthaltemittel."
+      },
+      "visual": {
+        "type": "struktur",
+        "kette": 3,
+        "gruppe": "oh",
+        "name": "Glycerin (dreiwertig)",
+        "alt": "Strukturformel eines dreiwertigen Alkohols."
+      }
+    },
+    "B": {
+      "titel": "Was mehrere OH-Gruppen bewirken",
+      "hinfuehrung": "Jede zusätzliche OH-Gruppe verstärkt alle Effekte, die schon bei den einwertigen Alkoholen zu sehen waren.",
+      "erklaerung": [
+        "Mehr Wasserstoffbrücken bedeuten höhere Siedetemperatur: Ethanol 78 °C, Glycol 197 °C, Glycerin 290 °C.",
+        "Sie bedeuten auch höhere Zähigkeit — Glycerin ist sirupartig.",
+        "Und bessere Wasserlöslichkeit, weil mehr polare Gruppen zur Verfügung stehen.",
+        "Glycol wird als Frostschutzmittel eingesetzt: Es senkt den Gefrierpunkt des Kühlwassers deutlich.",
+        "Glycerin ist hygroskopisch und wird als Feuchthaltemittel in Kosmetik und Lebensmitteln verwendet."
+      ],
+      "merke": "Jede OH-Gruppe mehr: höherer Siedepunkt, zäher, besser löslich.",
+      "visual": {
+        "type": "diagramm",
+        "titel": "Siedetemperatur und Zahl der OH-Gruppen",
+        "xtitel": "Zahl der OH-Gruppen",
+        "ytitel": "Siedetemperatur in °C",
+        "punkte": [
+          [
+            1,
+            78,
+            "Ethanol"
+          ],
+          [
+            2,
+            197,
+            "Glycol"
+          ],
+          [
+            3,
+            290,
+            "Glycerin"
+          ]
+        ],
+        "ymin": 0,
+        "ymax": 320,
+        "alt": "Die Siedetemperatur steigt mit der Zahl der OH-Gruppen."
+      }
+    },
+    "C": {
+      "titel": "Zwei ähnliche Stoffe, zwei Bewertungen",
+      "hinfuehrung": "Glycol und Glycerin sind chemisch verwandt und in der Wirkung auf den Körper völlig verschieden — ein weiteres Beispiel für die Bedeutung kleiner Bauunterschiede.",
+      "erklaerung": [
+        "Glycerin ist unbedenklich und in Lebensmitteln als Zusatzstoff zugelassen.",
+        "Glycol ist giftig: Es wird im Körper zu Oxalsäure abgebaut, die in den Nieren Kristalle bildet.",
+        "Gefährlich wird das durch den süßlichen Geschmack — Kinder und Haustiere sind besonders gefährdet.",
+        "Deshalb wird Frostschutzmittel bitter vergällt und farbig eingefärbt.",
+        "Fachlich lehrreich: Verwandtschaft im Bau erlaubt keine Rückschlüsse auf die Wirkung. Das gilt auch für Methanol und Ethanol."
+      ],
+      "merke": "Ähnlicher Bau bedeutet nicht ähnliche Wirkung.",
+      "visual": {
+        "type": "struktur",
+        "kette": 2,
+        "gruppe": "oh",
+        "name": "Glycol (zweiwertig)",
+        "alt": "Strukturformel eines zweiwertigen Alkohols."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Glycol C₂H₄(OH)₂ · Glycerin C₃H₅(OH)₃"
+    ],
+    "saetze": [
+      "Mehrwertig: mehr als eine OH-Gruppe.",
+      "Siedetemperaturen: Ethanol 78 · Glycol 197 · Glycerin 290 °C.",
+      "Glycerin ist unbedenklich, Glycol giftig.",
+      "Frostschutzmittel wird bitter vergällt und eingefärbt."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Alkohole und ihre Reaktionen",
+      "url": "https://www.youtube.com/watch?v=aMKDXj6SR1M",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/_IWq7F",
+      "embed": "https://app.lumi.education/api/v1/run/_IWq7F/embed",
+      "stufe": "A",
+      "dauer_s": 281
+    }
+  ],
+  "tasks": [
+    {
+      "id": "AL04-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "Wie viele OH-Gruppen hat Glycerin?",
+      "answer": 3,
+      "tolerance": 0,
+      "hints": [
+        "Es ist ein dreiwertiger Alkohol.",
+        "Drei OH-Gruppen.",
+        "3."
+      ],
+      "solution": "Glycerin hat drei OH-Gruppen — es ist ein dreiwertiger Alkohol.",
+      "tags": [
+        "mehrwertig"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL04-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Wozu wird Glycerin in Handcreme verwendet?",
+      "options": [
+        "Es hält Feuchtigkeit in der Haut.",
+        "Es desinfiziert.",
+        "Es färbt die Creme."
+      ],
+      "answer": 0,
+      "hints": [
+        "Glycerin bindet Wasser.",
+        "Deshalb bleibt die Haut feucht.",
+        "Als Feuchthaltemittel."
+      ],
+      "solution": "Glycerin bindet Wassermoleküle über seine OH-Gruppen und hält so die Haut feucht.",
+      "tags": [
+        "mehrwertig"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "AL04-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum ist Glycerin dickflüssig?",
+      "options": [
+        "Die vielen OH-Gruppen bilden viele Wasserstoffbrücken.",
+        "Es enthält Zucker.",
+        "Es ist kalt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Drei OH-Gruppen je Molekül.",
+        "Jede bildet Brücken.",
+        "Die Moleküle halten stark zusammen."
+      ],
+      "solution": "Drei OH-Gruppen je Molekül bilden sehr viele Wasserstoffbrücken. Die Moleküle gleiten schwer aneinander vorbei — Glycerin ist sirupartig.",
+      "tags": [
+        "mehrwertig"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL04-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Wofür wird Glycol verwendet?",
+      "options": [
+        "als Frostschutzmittel",
+        "als Süßstoff",
+        "als Duftstoff"
+      ],
+      "answer": 0,
+      "hints": [
+        "Es kommt ins Kühlwasser.",
+        "Es senkt den Gefrierpunkt.",
+        "Frostschutzmittel."
+      ],
+      "solution": "Glycol senkt den Gefrierpunkt von Wasser deutlich und wird deshalb als Frostschutzmittel eingesetzt.",
+      "tags": [
+        "mehrwertig"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "AL04-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Warum siedet Glycerin (290 °C) so viel höher als Ethanol (78 °C)?",
+      "options": [
+        "Drei OH-Gruppen bilden weit mehr Wasserstoffbrücken als eine.",
+        "Glycerin ist viel schwerer.",
+        "Glycerin ist unpolar."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie viele OH-Gruppen hat jedes Molekül?",
+        "Drei gegen eine.",
+        "Mehr Brücken heißt höherer Siedepunkt."
+      ],
+      "solution": "Jede OH-Gruppe bildet Wasserstoffbrücken. Mit drei davon ist die Anziehung zwischen den Molekülen so stark, dass Glycerin erst bei 290 °C siedet.",
+      "tags": [
+        "mehrwertig",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL04-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum senkt Glycol den Gefrierpunkt von Wasser?",
+      "options": [
+        "Die gelösten Moleküle stören den Aufbau des Eisgitters.",
+        "Glycol erwärmt das Wasser.",
+        "Glycol verdampft."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert beim Gefrieren?",
+        "Ein regelmäßiges Gitter entsteht.",
+        "Fremde Moleküle stören dabei."
+      ],
+      "solution": "Gelöste Teilchen stören den regelmäßigen Aufbau des Eisgitters. Es muss stärker abgekühlt werden, bis das Gitter trotzdem entsteht — der Gefrierpunkt sinkt.",
+      "tags": [
+        "mehrwertig",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "AL04-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum ist Glycol trotz seiner Ähnlichkeit zu Glycerin giftig?",
+      "options": [
+        "Im Körper entsteht daraus Oxalsäure, die in den Nieren Kristalle bildet.",
+        "Es ist ätzend.",
+        "Es ist brennbar."
+      ],
+      "answer": 0,
+      "hints": [
+        "Beide werden im Körper abgebaut.",
+        "Verschieden ist das Abbauprodukt.",
+        "Aus Glycol entsteht Oxalsäure."
+      ],
+      "solution": "Der Körper baut Glycol zu Oxalsäure ab. Diese bildet mit Calcium schwerlösliche Kristalle, die die Nieren schädigen. Glycerin wird dagegen unbedenklich abgebaut.",
+      "tags": [
+        "mehrwertig",
+        "sicherheit",
+        "bbr"
+      ]
+    },
+    {
+      "id": "AL04-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum wird Frostschutzmittel bitter vergällt und eingefärbt?",
+      "options": [
+        "Glycol schmeckt süßlich; Bitterstoff und Farbe verhindern versehentliches Trinken.",
+        "Damit man es besser sieht.",
+        "Damit es länger haltbar ist."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie schmeckt Glycol?",
+        "Süßlich.",
+        "Das ist gefährlich, besonders für Kinder und Tiere."
+      ],
+      "solution": "Der süßliche Geschmack macht Glycol besonders gefährlich für Kinder und Haustiere. Bitterstoff und Farbe sind eine Sicherheitsmaßnahme, keine Kosmetik.",
+      "tags": [
+        "mehrwertig",
+        "sicherheit",
+        "bbr"
+      ]
+    },
+    {
+      "id": "AL04-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie groß ist die molare Masse von Glycerin C₃H₈O₃? (C = 12, H = 1, O = 16 g/mol)",
+      "answer": 92,
+      "unit_label": "g/mol",
+      "tolerance": 1,
+      "hints": [
+        "3 C, 8 H, 3 O.",
+        "36 + 8 + 48.",
+        "92 g/mol."
+      ],
+      "solution": "M = 3 · 12 + 8 · 1 + 3 · 16 = 36 + 8 + 48 = 92 g/mol",
+      "tags": [
+        "mehrwertig",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "AL04-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum ist Glycerin gut wasserlöslich, obwohl es drei C-Atome hat?",
+      "options": [
+        "Drei OH-Gruppen überwiegen die kurze Kohlenstoffkette deutlich.",
+        "Weil es dickflüssig ist.",
+        "Weil es süß schmeckt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Zähle die polaren Gruppen.",
+        "Drei OH auf drei C-Atome.",
+        "Der polare Anteil überwiegt."
+      ],
+      "solution": "Bei Propanol steht eine OH-Gruppe drei C-Atomen gegenüber. Bei Glycerin sind es drei OH-Gruppen auf drei C-Atome — der polare Anteil überwiegt klar, die Löslichkeit ist entsprechend gut.",
+      "tags": [
+        "mehrwertig",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "AL04-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum wird Glycerin auch Lebensmitteln zugesetzt?",
+      "options": [
+        "Es hält sie feucht und ist gesundheitlich unbedenklich.",
+        "Es tötet Keime ab.",
+        "Es färbt sie."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was bewirkt Glycerin mit Wasser?",
+        "Es bindet es.",
+        "Und es ist unbedenklich."
+      ],
+      "solution": "Glycerin ist hygroskopisch und hält Backwaren und Süßwaren länger feucht. Anders als Glycol ist es gesundheitlich unbedenklich und als Zusatzstoff zugelassen.",
+      "tags": [
+        "mehrwertig",
+        "bewerten",
+        "msa"
+      ]
+    },
+    {
+      "id": "AL04-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Welche Lehre lässt sich aus dem Vergleich Glycol/Glycerin und Methanol/Ethanol ziehen?",
+      "options": [
+        "Ähnlicher Bau erlaubt keine Rückschlüsse auf die Wirkung im Körper.",
+        "Alle Alkohole sind giftig.",
+        "Alle Alkohole sind unbedenklich."
+      ],
+      "answer": 0,
+      "hints": [
+        "Beide Paare sind chemisch eng verwandt.",
+        "Trotzdem wirken sie völlig verschieden.",
+        "Der Abbauweg entscheidet."
+      ],
+      "solution": "Beide Paare unterscheiden sich nur geringfügig im Bau und völlig in der Wirkung — weil die Abbauprodukte verschieden sind. Von der Struktur auf die physiologische Wirkung zu schließen, ist unzulässig.",
+      "tags": [
+        "mehrwertig",
+        "bewerten",
+        "msa"
+      ]
+    },
+    {
+      "id": "AL04-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Ein Kühlsystem fasst 6 L und wird mit 40 % Glycol befüllt. (Dichte Glycol 1,11 g/mL)",
+      "fields": [
+        {
+          "label": "Volumen des Glycols",
+          "answer": 2.4,
+          "unit_label": "L",
+          "tolerance": 0.1
+        },
+        {
+          "label": "Masse des Glycols",
+          "answer": 2664,
+          "unit_label": "g",
+          "tolerance": 30
+        }
+      ],
+      "hints": [
+        "40 % von 6 L.",
+        "2,4 L = 2400 mL.",
+        "m = 2400 · 1,11."
+      ],
+      "solution": "V = 6 L · 0,40 = 2,4 L = 2400 mL\nm = 2400 mL · 1,11 g/mL = 2664 g",
+      "tags": [
+        "mehrwertig",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES",
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "AL04-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Glycerin steht in der Zutatenliste, also ist es ein künstlicher Zusatzstoff und bedenklich.“ Wie bewertest du das?",
+      "options": [
+        "Der Schluss ist unzulässig — Glycerin kommt auch natürlich in Fetten vor und ist unbedenklich.",
+        "Richtig, Zusatzstoffe sind bedenklich.",
+        "Falsch, Glycerin ist giftig."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wo kommt Glycerin natürlich vor?",
+        "In jedem Fett.",
+        "Und natürlich heißt nicht automatisch unbedenklich, künstlich nicht automatisch bedenklich."
+      ],
+      "solution": "Glycerin ist Bestandteil aller natürlichen Fette. Ob ein Stoff bedenklich ist, entscheidet seine Wirkung und die Menge — nicht, ob er auf einer Zutatenliste steht oder synthetisch hergestellt wurde.",
+      "tags": [
+        "mehrwertig",
+        "bewerten",
+        "msa"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 7,
+      "aufgaben": 22,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 7,
+      "aufgaben": 20,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 7,
+      "aufgaben": 17,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Die Wertigkeit von Alkoholen",
+      "url": "https://learningapps.org/view23161801",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Welcher Alkohol bin ich?",
+      "url": "https://learningapps.org/view19492106",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 13,
+    "titel": "Organische Säuren",
+    "seiten_von": 163,
+    "seiten_bis": 172,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "mehrwertig"
+  }
+}

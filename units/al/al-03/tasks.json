@@ -1,0 +1,656 @@
+{
+  "unit": "AL-03",
+  "title": "Struktur und Eigenschaften der Alkohole",
+  "leitidee": "B2",
+  "standards": [
+    "K1",
+    "K2.4",
+    "K3.3"
+  ],
+  "klasse": 10,
+  "wortspeicher": [
+    "die Wasserstoffbrücke",
+    "die Löslichkeit",
+    "die Siedetemperatur",
+    "der hydrophile Teil",
+    "der hydrophobe Teil"
+  ],
+  "worterklaerungen": {
+    "hydrophil": "Wasserfreundlich. Der polare Teil eines Moleküls.",
+    "hydrophob": "Wasserabweisend. Der unpolare Teil eines Moleküls."
+  },
+  "can_do": {
+    "A": "Ich weiß, dass kurze Alkohole wasserlöslich sind und lange nicht.",
+    "B": "Ich erkläre Löslichkeit und Siedetemperatur mit den Wasserstoffbrücken.",
+    "C": "Ich sage anhand der Struktur Eigenschaften voraus und begründe die Vorhersage."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Zwei Teile im Molekül",
+      "hinfuehrung": "Ein Alkoholmolekül hat zwei Teile.",
+      "erklaerung": [
+        "Die OH-Gruppe mag Wasser.",
+        "Die Kohlenstoffkette mag Wasser nicht."
+      ],
+      "merke": "Kurze Kette: löslich. Lange Kette: unlöslich.",
+      "beispiel": {
+        "titel": "Was sich löst",
+        "aufgabe": "Methanol oder Hexanol?",
+        "schritte": [
+          "Methanol hat eine kurze Kette.",
+          "Es löst sich vollständig.",
+          "Hexanol hat eine lange Kette."
+        ],
+        "ergebnis": "Hexanol löst sich kaum."
+      },
+      "visual": {
+        "type": "struktur",
+        "kette": 4,
+        "gruppe": "oh",
+        "name": "Butan-1-ol",
+        "alt": "Strukturformel von Butanol mit langer Kette und OH-Gruppe."
+      }
+    },
+    "B": {
+      "titel": "Zwei Kräfte im Wettstreit",
+      "hinfuehrung": "In jedem Alkoholmolekül konkurrieren zwei Bereiche: der hydrophile Kopf und der hydrophobe Schwanz. Welcher überwiegt, entscheidet über die Eigenschaften.",
+      "erklaerung": [
+        "Die OH-Gruppe bildet Wasserstoffbrücken — zu anderen Alkoholmolekülen und zu Wasser.",
+        "Deshalb sieden Alkohole deutlich höher als Alkane vergleichbarer Masse: Ethanol 78 °C, Propan −42 °C.",
+        "Deshalb sind Methanol, Ethanol und Propanol mit Wasser in jedem Verhältnis mischbar.",
+        "Ab Butanol nimmt die Löslichkeit deutlich ab, ab Hexanol ist sie gering. Die unpolare Kette überwiegt.",
+        "Innerhalb der Reihe steigen die Siedetemperaturen weiter — dort addieren sich Wasserstoffbrücken und van-der-Waals-Kräfte."
+      ],
+      "merke": "Kopf und Schwanz konkurrieren — das Verhältnis entscheidet über die Löslichkeit.",
+      "visual": {
+        "type": "diagramm",
+        "titel": "Siedetemperaturen der Alkanole",
+        "xtitel": "Zahl der C-Atome",
+        "ytitel": "Siedetemperatur in °C",
+        "punkte": [
+          [
+            1,
+            65,
+            "Methanol"
+          ],
+          [
+            2,
+            78
+          ],
+          [
+            3,
+            97
+          ],
+          [
+            4,
+            118
+          ],
+          [
+            5,
+            138
+          ]
+        ],
+        "ymin": 0,
+        "ymax": 160,
+        "alt": "Siedetemperaturen der Alkanole steigen mit der Kettenlänge."
+      }
+    },
+    "C": {
+      "titel": "Eigenschaften vorhersagen",
+      "hinfuehrung": "Aus der Struktur lassen sich Eigenschaften ableiten — das ist der eigentliche Zweck des Struktur-Eigenschafts-Konzepts.",
+      "erklaerung": [
+        "Frage 1: Wie lang ist die unpolare Kette? Je länger, desto geringer die Wasserlöslichkeit und desto höher der Siedepunkt.",
+        "Frage 2: Wie viele OH-Gruppen gibt es? Mehr OH-Gruppen bedeuten mehr Wasserstoffbrücken, höhere Siedetemperatur und bessere Löslichkeit — Glycerin mit drei OH-Gruppen siedet bei 290 °C.",
+        "Frage 3: Wo sitzt die OH-Gruppe? Endständig ist sie besser zugänglich als in der Kettenmitte.",
+        "Die Vorhersage gilt für Trends, nicht für exakte Werte. Sie erlaubt aber, zwei Stoffe zuverlässig zu ordnen."
+      ],
+      "merke": "Kettenlänge, Zahl der OH-Gruppen, Position — drei Fragen genügen für eine Vorhersage.",
+      "visual": {
+        "type": "struktur",
+        "kette": 3,
+        "gruppe": "oh",
+        "name": "Propan-1-ol",
+        "alt": "Strukturformel von Propanol."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Siedetemperaturen: Methanol 65 · Ethanol 78 · Propanol 97 · Butanol 118 °C"
+    ],
+    "saetze": [
+      "Die OH-Gruppe ist hydrophil, die Kette hydrophob.",
+      "Kurzkettige Alkohole sind mit Wasser mischbar, ab Butanol nimmt es ab.",
+      "Mehr OH-Gruppen: höherer Siedepunkt, bessere Löslichkeit.",
+      "Alkohole sieden höher als Alkane vergleichbarer Masse."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Wasserstoffbrücken zwischen Alkoholmolekülen",
+      "url": "https://www.youtube.com/watch?v=En2hkTeICrc",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/ZsCXO2",
+      "embed": "https://app.lumi.education/api/v1/run/ZsCXO2/embed",
+      "stufe": "C",
+      "dauer_s": 253
+    },
+    {
+      "titel": "Organische Sauerstoffverbindungen im Überblick",
+      "url": "https://www.youtube.com/watch?v=wn5iOsH5H90",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/_ypzaS",
+      "embed": "https://app.lumi.education/api/v1/run/_ypzaS/embed",
+      "stufe": "A",
+      "dauer_s": 244
+    }
+  ],
+  "tasks": [
+    {
+      "id": "AL03-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welcher Alkohol löst sich vollständig in Wasser?",
+      "options": [
+        "Ethanol",
+        "Hexanol",
+        "Octanol"
+      ],
+      "answer": 0,
+      "hints": [
+        "Kurze Ketten lösen sich besser.",
+        "Ethanol hat zwei C-Atome.",
+        "Ethanol."
+      ],
+      "solution": "Ethanol hat eine kurze Kette und ist mit Wasser in jedem Verhältnis mischbar.",
+      "tags": [
+        "alkohole"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "AL03-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Welcher Teil des Alkoholmoleküls mag Wasser?",
+      "options": [
+        "die OH-Gruppe",
+        "die Kohlenstoffkette",
+        "beide gleich"
+      ],
+      "answer": 0,
+      "hints": [
+        "Wasser ist polar.",
+        "Welcher Teil ist auch polar?",
+        "Die OH-Gruppe."
+      ],
+      "solution": "Die polare OH-Gruppe bildet Wasserstoffbrücken zum Wasser — sie ist hydrophil.",
+      "misconceptions": [
+        {
+          "id": "polar_unpolar_vertauscht",
+          "value": 1,
+          "feedback": "Die Kohlenstoffkette ist unpolar und wasserabweisend.",
+          "konzeptfehler": "polar_unpolar_vertauscht"
+        }
+      ],
+      "tags": [
+        "alkohole"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "AL03-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Ethanol siedet bei 78 °C, Propanol bei 97 °C. Wie groß ist der Unterschied?",
+      "answer": 19,
+      "unit_label": "°C",
+      "tolerance": 1,
+      "hints": [
+        "97 − 78.",
+        "Die Differenz.",
+        "19 °C."
+      ],
+      "solution": "97 °C − 78 °C = 19 °C",
+      "tags": [
+        "alkohole",
+        "rechnen"
+      ],
+      "spiral": [
+        "W-EINH"
+      ]
+    },
+    {
+      "id": "AL03-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Was passiert mit der Siedetemperatur, wenn die Kette länger wird?",
+      "options": [
+        "Sie steigt.",
+        "Sie sinkt.",
+        "Sie bleibt gleich."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie bei den Alkanen.",
+        "Mehr Kontaktfläche.",
+        "Sie steigt."
+      ],
+      "solution": "Mit wachsender Kettenlänge nehmen die van-der-Waals-Kräfte zu — die Siedetemperatur steigt.",
+      "tags": [
+        "alkohole"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL03-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Warum siedet Ethanol (78 °C) höher als Propan (−42 °C)?",
+      "options": [
+        "Zwischen Ethanolmolekülen wirken Wasserstoffbrücken.",
+        "Ethanol ist schwerer.",
+        "Propan ist verzweigt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Beide haben ähnliche Masse.",
+        "Verschieden ist die funktionelle Gruppe.",
+        "Die OH-Gruppe bildet Brücken."
+      ],
+      "solution": "Trotz ähnlicher Masse siedet Ethanol 120 °C höher. Die Wasserstoffbrücken zwischen den OH-Gruppen sind viel stärker als die van-der-Waals-Kräfte im Propan.",
+      "tags": [
+        "alkohole",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL03-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Ab welchem Alkanol nimmt die Wasserlöslichkeit deutlich ab?",
+      "options": [
+        "ab Butanol",
+        "ab Ethanol",
+        "ab Octanol"
+      ],
+      "answer": 0,
+      "hints": [
+        "Methanol, Ethanol und Propanol mischen sich vollständig.",
+        "Beim nächsten Glied kippt es.",
+        "Butanol."
+      ],
+      "solution": "Bis Propanol sind die Alkohole mit Wasser vollständig mischbar. Ab Butanol überwiegt die unpolare Kette und die Löslichkeit nimmt deutlich ab.",
+      "tags": [
+        "alkohole",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "AL03-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum löst sich Ethanol sowohl in Wasser als auch in Benzin?",
+      "options": [
+        "Es hat einen polaren und einen unpolaren Teil.",
+        "Es ist besonders leicht.",
+        "Es ist ein Gemisch."
+      ],
+      "answer": 0,
+      "hints": [
+        "Das Molekül hat zwei Bereiche.",
+        "Einen polaren und einen unpolaren.",
+        "Deshalb vermittelt es zwischen beiden."
+      ],
+      "solution": "Die OH-Gruppe passt zum polaren Wasser, die kurze Kohlenstoffkette zum unpolaren Benzin. Deshalb ist Ethanol ein vielseitiges Lösungsmittel.",
+      "tags": [
+        "alkohole",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "AL03-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum siedet Glycerin mit drei OH-Gruppen bei 290 °C?",
+      "options": [
+        "Drei OH-Gruppen bilden sehr viele Wasserstoffbrücken.",
+        "Glycerin ist sehr schwer.",
+        "Glycerin ist unpolar."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie viele Brücken kann ein Molekül bilden?",
+        "Je OH-Gruppe mehrere.",
+        "Drei Gruppen bedeuten viele Brücken."
+      ],
+      "solution": "Jede OH-Gruppe bildet Wasserstoffbrücken. Mit drei davon ist die Anziehung zwischen den Molekülen so stark, dass Glycerin erst bei 290 °C siedet und zähflüssig ist.",
+      "tags": [
+        "alkohole",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL03-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Vergleiche Ethanol (M = 46 g/mol, Sdp. 78 °C) und Propan (M = 44 g/mol, Sdp. −42 °C).",
+      "fields": [
+        {
+          "label": "Massenunterschied",
+          "answer": 2,
+          "unit_label": "g/mol",
+          "tolerance": 0.5
+        },
+        {
+          "label": "Siedepunktunterschied",
+          "answer": 120,
+          "unit_label": "°C",
+          "tolerance": 2
+        }
+      ],
+      "hints": [
+        "46 − 44.",
+        "78 − (−42).",
+        "Auf das Vorzeichen achten."
+      ],
+      "solution": "Masse: 2 g/mol Unterschied\nSiedepunkt: 78 − (−42) = 120 °C Unterschied\nDie Masse erklärt das nicht — es sind die Wasserstoffbrücken.",
+      "tags": [
+        "alkohole",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-EINH"
+      ]
+    },
+    {
+      "id": "AL03-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum wird Ethanol als Lösungsmittel für Duftstoffe verwendet?",
+      "options": [
+        "Es löst polare und unpolare Stoffe und verdunstet rückstandsfrei.",
+        "Es riecht besonders gut.",
+        "Es ist besonders billig."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welche zwei Eigenschaften braucht ein Parfümlösungsmittel?",
+        "Gute Lösefähigkeit und Verdunsten.",
+        "Ethanol hat beides."
+      ],
+      "solution": "Ethanol löst durch seinen Doppelcharakter viele Duftstoffe und verdunstet bei 78 °C rückstandsfrei. Beides zusammen macht es zum Standardlösungsmittel in der Kosmetik.",
+      "tags": [
+        "alkohole",
+        "anwenden",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "AL03-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Ordne nach steigender Wasserlöslichkeit: Butanol, Methanol, Hexanol.",
+      "options": [
+        "Hexanol < Butanol < Methanol",
+        "Methanol < Butanol < Hexanol",
+        "alle gleich"
+      ],
+      "answer": 0,
+      "hints": [
+        "Kurze Kette heißt bessere Löslichkeit.",
+        "Methanol hat die kürzeste.",
+        "Hexanol die längste."
+      ],
+      "solution": "Je länger die unpolare Kette, desto schlechter die Löslichkeit: Hexanol < Butanol < Methanol.",
+      "misconceptions": [
+        {
+          "id": "polar_unpolar_vertauscht",
+          "value": 1,
+          "feedback": "Die Reihenfolge ist umgekehrt: Lange Ketten lösen sich schlechter.",
+          "konzeptfehler": "polar_unpolar_vertauscht"
+        }
+      ],
+      "tags": [
+        "alkohole",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "AL03-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum ist Glycerin in Kosmetika als Feuchthaltemittel geeignet?",
+      "options": [
+        "Seine drei OH-Gruppen binden Wassermoleküle über Wasserstoffbrücken.",
+        "Es ist ölig und dichtet ab.",
+        "Es tötet Bakterien ab."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was macht Glycerin mit Wasser?",
+        "Es bindet es.",
+        "Über die OH-Gruppen."
+      ],
+      "solution": "Die drei OH-Gruppen bilden Wasserstoffbrücken zu Wassermolekülen und halten sie fest. Deshalb bleibt die Haut länger feucht — Glycerin wirkt hygroskopisch.",
+      "tags": [
+        "alkohole",
+        "anwenden",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "AL03-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Ein unbekannter Alkohol hat 7 C-Atome. Welche Vorhersage triffst du?",
+      "options": [
+        "Er ist in Wasser kaum löslich und siedet über 170 °C.",
+        "Er ist gut wasserlöslich und siedet unter 100 °C.",
+        "Er ist gasförmig."
+      ],
+      "answer": 0,
+      "hints": [
+        "Sieben C-Atome sind eine lange Kette.",
+        "Der Trend geht Richtung schlecht löslich.",
+        "Und der Siedepunkt steigt mit jeder CH₂-Gruppe."
+      ],
+      "solution": "Bei sieben C-Atomen überwiegt die unpolare Kette deutlich — die Löslichkeit ist gering. Der Trend der Siedetemperaturen (65, 78, 97, 118, 138 …) führt für C₇ auf über 170 °C.",
+      "tags": [
+        "alkohole",
+        "vorhersage",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL03-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Alkohole lösen sich in Wasser, weil sie flüssig sind.“ Wie bewertest du das?",
+      "options": [
+        "Falsch — auch Benzin und Öl sind flüssig und lösen sich nicht; entscheidend ist die polare OH-Gruppe.",
+        "Richtig.",
+        "Falsch — Alkohole lösen sich gar nicht."
+      ],
+      "answer": 0,
+      "hints": [
+        "Ist jede Flüssigkeit mit Wasser mischbar?",
+        "Nein — Öl zum Beispiel nicht.",
+        "Also liegt es nicht am Aggregatzustand."
+      ],
+      "solution": "Der Aggregatzustand sagt nichts über die Löslichkeit: Benzin und Öl sind flüssig und mischen sich nicht mit Wasser. Entscheidend ist die polare OH-Gruppe und ihr Verhältnis zur unpolaren Kette.",
+      "misconceptions": [
+        {
+          "id": "reaktion_und_zustandsaenderung_verwechselt",
+          "value": 1,
+          "feedback": "Flüssig zu sein genügt nicht — Öl ist ebenfalls flüssig.",
+          "konzeptfehler": "reaktion_und_zustandsaenderung_verwechselt"
+        }
+      ],
+      "tags": [
+        "alkohole",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 6,
+      "aufgaben": 23,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 6,
+      "aufgaben": 21,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 7,
+      "aufgaben": 17,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Zwischenmolekulare Kräfte",
+      "url": "https://learningapps.org/view7698245",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Zuordnung von Alkoholen",
+      "url": "https://learningapps.org/view5722717",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 13,
+    "titel": "Organische Säuren",
+    "seiten_von": 163,
+    "seiten_bis": 172,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Wasserstoffbrücke"
+  }
+}

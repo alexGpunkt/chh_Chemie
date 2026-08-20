@@ -1,0 +1,691 @@
+{
+  "unit": "AL-06",
+  "title": "Gärung, Destillation und Promillerechnung",
+  "leitidee": "B3",
+  "standards": [
+    "K1",
+    "K2.4",
+    "K4.2",
+    "K4.3"
+  ],
+  "klasse": 10,
+  "wortspeicher": [
+    "die alkoholische Gärung",
+    "die Hefe",
+    "das Enzym",
+    "die Destillation",
+    "der Volumenanteil",
+    "der Promillewert",
+    "die Blutalkoholkonzentration"
+  ],
+  "worterklaerungen": {
+    "alkoholische Gärung": "Hefe wandelt Zucker in Ethanol und Kohlenstoffdioxid um.",
+    "Enzym": "Ein biologischer Katalysator.",
+    "Promille": "Ein Tausendstel. 1 ‰ sind 0,1 %."
+  },
+  "can_do": {
+    "A": "Ich weiß, dass bei der Gärung Alkohol und Kohlenstoffdioxid entstehen.",
+    "B": "Ich beschreibe Gärung und Destillation und rechne mit Volumenanteilen.",
+    "C": "Ich berechne Blutalkoholwerte und bewerte die Folgen."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Aus Zucker wird Alkohol",
+      "hinfuehrung": "Hefe wandelt Zucker um.",
+      "erklaerung": [
+        "Es entstehen Alkohol und Kohlenstoffdioxid.",
+        "Das nennt man Gärung."
+      ],
+      "merke": "Zucker → Alkohol + Kohlenstoffdioxid.",
+      "beispiel": {
+        "titel": "Traubensaft",
+        "aufgabe": "Was passiert bei der Gärung?",
+        "schritte": [
+          "Hefe wird zugegeben.",
+          "Es blubbert.",
+          "Das Gas ist Kohlenstoffdioxid."
+        ],
+        "ergebnis": "Es entsteht Wein."
+      },
+      "visual": {
+        "type": "apparatur",
+        "aufbau": "destillation",
+        "alt": "Destillationsapparatur zur Alkoholgewinnung."
+      }
+    },
+    "B": {
+      "titel": "Gärung und Destillation",
+      "hinfuehrung": "Zwei Verfahren, die aufeinander aufbauen: Die Gärung erzeugt den Alkohol, die Destillation konzentriert ihn.",
+      "erklaerung": [
+        "Gärung: C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂. Hefeenzyme wirken als Katalysator.",
+        "Die Gärung endet bei etwa 15 Volumenprozent — höhere Konzentrationen töten die Hefe ab.",
+        "Destillation: Ethanol siedet bei 78 °C, Wasser bei 100 °C. Der Dampf ist deshalb alkoholreicher als die Flüssigkeit.",
+        "Durch mehrfache Destillation lassen sich rund 96 Volumenprozent erreichen. Reines Ethanol geht so nicht — Wasser und Ethanol bilden bei dieser Zusammensetzung ein Gemisch mit gemeinsamem Siedepunkt.",
+        "Volumenprozent geben an, wie viel Milliliter reiner Alkohol in 100 mL Getränk stecken."
+      ],
+      "merke": "Gärung erzeugt bis 15 %, Destillation konzentriert auf bis zu 96 %.",
+      "visual": {
+        "type": "anteil",
+        "titel": "Alkoholgehalt einiger Getränke",
+        "segmente": [
+          {
+            "anteil": 5,
+            "label": "Bier"
+          },
+          {
+            "anteil": 12,
+            "label": "Wein"
+          },
+          {
+            "anteil": 40,
+            "label": "Schnaps"
+          }
+        ],
+        "einheit": "Vol.-%",
+        "alt": "Alkoholgehalt von Bier, Wein und Schnaps im Vergleich."
+      }
+    },
+    "C": {
+      "titel": "Blutalkohol berechnen",
+      "hinfuehrung": "Aus der getrunkenen Menge lässt sich der Blutalkoholwert abschätzen. Die Rechnung ist einfach — die Folgerungen daraus sind es nicht.",
+      "erklaerung": [
+        "Zuerst die Masse des reinen Alkohols: Volumen des Getränks · Volumenanteil · Dichte (0,8 g/mL).",
+        "Dann die Widmark-Formel: c = m(Alkohol) : (Körpermasse · r). Der Faktor r beträgt rund 0,7 bei Männern und 0,6 bei Frauen.",
+        "Das Ergebnis ist die Blutalkoholkonzentration in Promille.",
+        "Der Abbau beträgt rund 0,1 bis 0,15 ‰ je Stunde und lässt sich durch nichts beschleunigen — weder durch Kaffee noch durch Bewegung.",
+        "Ab 0,3 ‰ ist die Reaktionsfähigkeit messbar eingeschränkt; ab 0,5 ‰ gilt im Straßenverkehr ein Bußgeld, für Fahranfänger gilt 0,0 ‰."
+      ],
+      "merke": "Erst die Alkoholmasse, dann teilen durch Körpermasse mal r.",
+      "visual": {
+        "type": "diagramm",
+        "titel": "Abbau des Blutalkohols",
+        "xtitel": "Zeit in Stunden",
+        "ytitel": "Promille",
+        "punkte": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0.8
+          ],
+          [
+            4,
+            0.6
+          ],
+          [
+            6,
+            0.4
+          ],
+          [
+            8,
+            0.2
+          ],
+          [
+            10,
+            0
+          ]
+        ],
+        "ymin": 0,
+        "ymax": 1.2,
+        "alt": "Der Blutalkohol sinkt gleichmäßig um rund 0,1 Promille je Stunde."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂",
+      "m(Alkohol) = V(Getränk) · Vol.-% : 100 · 0,8 g/mL",
+      "c in ‰ = m(Alkohol) in g : (Körpermasse in kg · r)",
+      "r ≈ 0,7 (Mann) bzw. 0,6 (Frau)"
+    ],
+    "saetze": [
+      "Gärung endet bei etwa 15 Volumenprozent.",
+      "Ethanol siedet bei 78 °C, Wasser bei 100 °C.",
+      "Abbau: rund 0,1 bis 0,15 ‰ je Stunde — nicht beschleunigbar.",
+      "Dichte von Ethanol: 0,8 g/mL."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Wie wird Bier gebraut? — Gärung im Alltag",
+      "url": "https://www.youtube.com/watch?v=532ZU4tS-m0",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/ZIauLn",
+      "embed": "https://app.lumi.education/api/v1/run/ZIauLn/embed",
+      "stufe": "A",
+      "dauer_s": 189
+    }
+  ],
+  "tasks": [
+    {
+      "id": "AL06-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Was entsteht bei der alkoholischen Gärung?",
+      "options": [
+        "Alkohol und Kohlenstoffdioxid",
+        "nur Alkohol",
+        "Alkohol und Sauerstoff"
+      ],
+      "answer": 0,
+      "hints": [
+        "Es blubbert bei der Gärung.",
+        "Ein Gas entweicht.",
+        "Kohlenstoffdioxid."
+      ],
+      "solution": "Aus Zucker entstehen Ethanol und Kohlenstoffdioxid — das Blubbern zeigt das Gas an.",
+      "tags": [
+        "gaerung"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "AL06-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Was bewirkt die Hefe bei der Gärung?",
+      "options": [
+        "Ihre Enzyme wirken als Katalysator.",
+        "Sie liefert den Zucker.",
+        "Sie liefert den Alkohol."
+      ],
+      "answer": 0,
+      "hints": [
+        "Die Hefe wird nicht verbraucht.",
+        "Sie beschleunigt nur.",
+        "Als Katalysator."
+      ],
+      "solution": "Die Enzyme der Hefe wirken als biologische Katalysatoren. Der Alkohol entsteht aus dem Zucker, nicht aus der Hefe.",
+      "tags": [
+        "gaerung"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "AL06-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Ein Bier hat 5 Volumenprozent. Wie viele Milliliter reiner Alkohol sind in 500 mL?",
+      "answer": 25,
+      "unit_label": "mL",
+      "tolerance": 1,
+      "hints": [
+        "5 % von 500 mL.",
+        "1 % sind 5 mL.",
+        "5 · 5 mL."
+      ],
+      "solution": "500 mL · 0,05 = 25 mL reiner Alkohol.",
+      "tags": [
+        "gaerung",
+        "rechnen"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "AL06-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum lässt sich Alkohol durch Destillation von Wasser trennen?",
+      "options": [
+        "Ethanol siedet bei 78 °C, Wasser erst bei 100 °C.",
+        "Alkohol ist leichter.",
+        "Alkohol löst sich nicht in Wasser."
+      ],
+      "answer": 0,
+      "hints": [
+        "Die Destillation nutzt einen Unterschied.",
+        "Es ist die Siedetemperatur.",
+        "78 gegen 100 °C."
+      ],
+      "solution": "Ethanol siedet bei niedrigerer Temperatur und geht deshalb zuerst in den Dampf über. Im Kühler wird es wieder flüssig.",
+      "misconceptions": [
+        {
+          "id": "trennverfahren_verwechselt",
+          "value": 1,
+          "feedback": "Die Dichte spielt bei der Destillation keine Rolle — beide mischen sich vollständig.",
+          "konzeptfehler": "trennverfahren_verwechselt"
+        }
+      ],
+      "tags": [
+        "gaerung"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "AL06-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "Warum endet die Gärung bei etwa 15 Volumenprozent? Gib den Wert in Prozent an.",
+      "answer": 15,
+      "unit_label": "%",
+      "tolerance": 1,
+      "hints": [
+        "Höhere Konzentrationen wirken auf die Hefe.",
+        "Sie stirbt ab.",
+        "Bei etwa 15 %."
+      ],
+      "solution": "Ab etwa 15 Volumenprozent wirkt der Alkohol auf die Hefezellen als Zellgift — sie sterben ab und die Gärung endet. Höhere Gehalte erfordern eine Destillation.",
+      "tags": [
+        "gaerung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "AL06-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Wie viel Gramm reiner Alkohol stecken in 200 mL Wein mit 12 Volumenprozent? (Dichte 0,8 g/mL)",
+      "answer": 19.2,
+      "unit_label": "g",
+      "tolerance": 0.5,
+      "hints": [
+        "Erst das Volumen: 200 · 0,12 = 24 mL.",
+        "Dann mal die Dichte.",
+        "24 · 0,8."
+      ],
+      "solution": "V = 200 mL · 0,12 = 24 mL\nm = 24 mL · 0,8 g/mL = 19,2 g",
+      "misconceptions": [
+        {
+          "id": "dichte_geteilt_statt_mal",
+          "value": 30,
+          "feedback": "Aus Volumen und Dichte wird die Masse durch Multiplizieren."
+        }
+      ],
+      "tags": [
+        "gaerung",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES",
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "AL06-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum lässt sich durch Destillation kein reines Ethanol gewinnen?",
+      "options": [
+        "Bei rund 96 % bilden Wasser und Ethanol ein Gemisch mit gemeinsamem Siedepunkt.",
+        "Weil der Kühler zu klein ist.",
+        "Weil Ethanol zu schnell verdampft."
+      ],
+      "answer": 0,
+      "hints": [
+        "Bis zu welchem Gehalt kommt man?",
+        "Etwa 96 %.",
+        "Dann sieden beide gemeinsam."
+      ],
+      "solution": "Bei etwa 96 Volumenprozent verhalten sich Wasser und Ethanol wie ein einheitlicher Stoff und sieden gemeinsam. Weiter kommt man durch Destillation nicht — dafür braucht es andere Verfahren.",
+      "tags": [
+        "gaerung",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "AL06-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Ein Mann (80 kg, r = 0,7) trinkt 19,2 g reinen Alkohol. Welchen Promillewert erreicht er?",
+      "answer": 0.34,
+      "unit_label": "‰",
+      "tolerance": 0.03,
+      "hints": [
+        "c = m : (Körpermasse · r).",
+        "19,2 : (80 · 0,7).",
+        "19,2 : 56."
+      ],
+      "solution": "c = 19,2 g : (80 kg · 0,7) = 19,2 : 56 = 0,34 ‰",
+      "misconceptions": [
+        {
+          "id": "mol_geteilt_statt_mal",
+          "value": 1075,
+          "feedback": "Die Körpermasse mal r steht im Nenner — hier wird geteilt."
+        }
+      ],
+      "tags": [
+        "gaerung",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "AL06-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie lange dauert der Abbau von 1,0 ‰ bei 0,1 ‰ je Stunde?",
+      "answer": 10,
+      "unit_label": "h",
+      "tolerance": 0.5,
+      "hints": [
+        "1,0 geteilt durch 0,1.",
+        "10.",
+        "10 Stunden."
+      ],
+      "solution": "1,0 ‰ : 0,1 ‰/h = 10 Stunden. Der Abbau lässt sich durch nichts beschleunigen.",
+      "tags": [
+        "gaerung",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "AL06-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Was beschleunigt den Abbau von Alkohol im Blut?",
+      "options": [
+        "Nichts — der Abbau läuft mit konstanter Geschwindigkeit.",
+        "Kaffee",
+        "Bewegung an der frischen Luft"
+      ],
+      "answer": 0,
+      "hints": [
+        "Der Abbau erfolgt durch Enzyme.",
+        "Ihre Arbeitsgeschwindigkeit ist begrenzt.",
+        "Nichts beschleunigt sie."
+      ],
+      "solution": "Der Abbau erfolgt enzymatisch in der Leber mit nahezu konstanter Geschwindigkeit von 0,1 bis 0,15 ‰ je Stunde. Kaffee macht wacher, senkt aber den Blutalkohol nicht.",
+      "misconceptions": [
+        {
+          "id": "sicherheitsregel_missachtet",
+          "value": 1,
+          "feedback": "Kaffee wirkt auf die Müdigkeit, nicht auf den Blutalkohol.",
+          "konzeptfehler": "sicherheitsregel_missachtet"
+        }
+      ],
+      "tags": [
+        "gaerung",
+        "bewerten",
+        "msa"
+      ]
+    },
+    {
+      "id": "AL06-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "multi",
+      "prompt": "Eine Frau (60 kg, r = 0,6) trinkt 0,5 L Bier mit 5 Volumenprozent. (Dichte Ethanol 0,8 g/mL)",
+      "fields": [
+        {
+          "label": "Volumen des reinen Alkohols",
+          "answer": 25,
+          "unit_label": "mL",
+          "tolerance": 1
+        },
+        {
+          "label": "Masse des Alkohols",
+          "answer": 20,
+          "unit_label": "g",
+          "tolerance": 1
+        },
+        {
+          "label": "Blutalkoholkonzentration",
+          "answer": 0.56,
+          "unit_label": "‰",
+          "tolerance": 0.05
+        }
+      ],
+      "hints": [
+        "500 mL · 0,05 = 25 mL.",
+        "25 · 0,8 = 20 g.",
+        "20 : (60 · 0,6) = 20 : 36."
+      ],
+      "solution": "V = 25 mL · m = 20 g\nc = 20 : (60 · 0,6) = 20 : 36 = 0,56 ‰\nDamit läge sie bereits über der Grenze von 0,5 ‰.",
+      "tags": [
+        "gaerung",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "AL06-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Aus 180 g Traubenzucker C₆H₁₂O₆ (M = 180 g/mol) entsteht bei vollständiger Gärung Ethanol (M = 46 g/mol).",
+      "fields": [
+        {
+          "label": "Stoffmenge des Zuckers",
+          "answer": 1,
+          "unit_label": "mol",
+          "tolerance": 0.05
+        },
+        {
+          "label": "Stoffmenge des Ethanols",
+          "answer": 2,
+          "unit_label": "mol",
+          "tolerance": 0.05
+        },
+        {
+          "label": "Masse des Ethanols",
+          "answer": 92,
+          "unit_label": "g",
+          "tolerance": 2
+        }
+      ],
+      "hints": [
+        "n = 180 : 180 = 1 mol.",
+        "C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂.",
+        "m = 2 · 46 = 92 g."
+      ],
+      "solution": "n(Zucker) = 1 mol\nn(Ethanol) = 2 mol\nm(Ethanol) = 92 g — der Rest der Masse entweicht als CO₂.",
+      "tags": [
+        "gaerung",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "AL06-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum gilt für Fahranfänger die Grenze 0,0 ‰?",
+      "options": [
+        "Bereits geringe Mengen schränken die Reaktionsfähigkeit ein, und die Fahrpraxis fehlt noch.",
+        "Weil junge Menschen Alkohol schneller abbauen.",
+        "Aus rein steuerlichen Gründen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Ab wann ist die Reaktionsfähigkeit messbar eingeschränkt?",
+        "Ab etwa 0,3 ‰.",
+        "Und Fahranfängern fehlt zusätzlich die Routine."
+      ],
+      "solution": "Schon ab etwa 0,3 ‰ sind Reaktionszeit und Einschätzungsvermögen messbar eingeschränkt. Bei Fahranfängern kommt fehlende Routine hinzu — beides zusammen begründet die Nullgrenze.",
+      "tags": [
+        "gaerung",
+        "bewerten",
+        "msa"
+      ]
+    },
+    {
+      "id": "AL06-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler rechnet: „Ich habe 1,0 ‰, in zwei Stunden bin ich wieder bei null.“ Wie bewertest du das?",
+      "options": [
+        "Falsch — bei 0,1 bis 0,15 ‰ je Stunde dauert es rund 7 bis 10 Stunden.",
+        "Richtig.",
+        "Falsch — der Abbau dauert nur eine Stunde."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie schnell ist der Abbau?",
+        "0,1 bis 0,15 ‰ je Stunde.",
+        "1,0 geteilt durch 0,15 ist schon fast 7."
+      ],
+      "solution": "Bei 0,15 ‰ je Stunde dauert der Abbau von 1,0 ‰ rund 7 Stunden, bei 0,1 ‰ sogar 10. Diese Fehleinschätzung ist eine der häufigsten Ursachen für Fahrten am Morgen danach.",
+      "misconceptions": [
+        {
+          "id": "sicherheitsregel_missachtet",
+          "value": 1,
+          "feedback": "Der Abbau dauert Stunden, nicht Minuten — und lässt sich nicht beschleunigen.",
+          "konzeptfehler": "sicherheitsregel_missachtet"
+        }
+      ],
+      "tags": [
+        "gaerung",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 5,
+      "aufgaben": 24,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 5,
+      "aufgaben": 22,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 5,
+      "aufgaben": 19,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Alkoholische Gärung vs. Essiggärung",
+      "url": "https://learningapps.org/view9754673",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Destillation",
+      "url": "https://learningapps.org/view9122603",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 13,
+    "titel": "Organische Säuren",
+    "seiten_von": 163,
+    "seiten_bis": 172,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "alkoholische Gärung"
+  }
+}

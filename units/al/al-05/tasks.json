@@ -1,0 +1,704 @@
+{
+  "unit": "AL-05",
+  "title": "Primär, sekundär, tertiär — Oxidationsprodukte",
+  "leitidee": "B3",
+  "standards": [
+    "K1",
+    "K2.3",
+    "K3.4"
+  ],
+  "klasse": 10,
+  "wortspeicher": [
+    "primär",
+    "sekundär",
+    "tertiär",
+    "das Alkanal",
+    "das Alkanon",
+    "die Oxidation",
+    "die Aldehydgruppe",
+    "die Carbonylgruppe"
+  ],
+  "worterklaerungen": {
+    "primärer Alkohol": "Das C-Atom mit der OH-Gruppe hat nur einen C-Nachbarn.",
+    "sekundärer Alkohol": "Das C-Atom mit der OH-Gruppe hat zwei C-Nachbarn.",
+    "tertiärer Alkohol": "Das C-Atom mit der OH-Gruppe hat drei C-Nachbarn.",
+    "Alkanal": "Ein Aldehyd. Entsteht aus einem primären Alkohol.",
+    "Alkanon": "Ein Keton. Entsteht aus einem sekundären Alkohol."
+  },
+  "can_do": {
+    "A": "Ich weiß, dass aus Alkoholen durch Oxidation neue Stoffe entstehen.",
+    "B": "Ich unterscheide primäre, sekundäre und tertiäre Alkohole und nenne ihre Oxidationsprodukte.",
+    "C": "Ich begründe, warum tertiäre Alkohole nicht oxidierbar sind."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Aus Alkohol wird etwas Neues",
+      "hinfuehrung": "Ein Alkohol kann oxidiert werden.",
+      "erklaerung": [
+        "Dabei entsteht ein neuer Stoff.",
+        "Er hat eine andere funktionelle Gruppe."
+      ],
+      "merke": "Oxidation ändert die funktionelle Gruppe.",
+      "beispiel": {
+        "titel": "Ethanol wird oxidiert",
+        "aufgabe": "Was entsteht?",
+        "schritte": [
+          "Zuerst ein Alkanal.",
+          "Dann eine Säure."
+        ],
+        "ergebnis": "Ethanol → Ethanal → Essigsäure"
+      },
+      "visual": {
+        "type": "animation",
+        "name": "funktionellegruppe",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Drei Sorten Alkohole",
+      "hinfuehrung": "Wie ein Alkohol reagiert, entscheidet sich daran, wie viele Kohlenstoffnachbarn das Atom mit der OH-Gruppe hat.",
+      "erklaerung": [
+        "Primär: ein C-Nachbar. Die Oxidation ergibt ein Alkanal, weiter oxidiert eine Alkansäure.",
+        "Sekundär: zwei C-Nachbarn. Die Oxidation ergibt ein Alkanon — und hört dort auf.",
+        "Tertiär: drei C-Nachbarn. Es findet keine Oxidation statt.",
+        "Nachweis: Kupferoxid oder eine Kupferspirale in der Flamme. Bei primären und sekundären Alkoholen wird das schwarze Kupferoxid zu rotem Kupfer reduziert.",
+        "Ethanol → Ethanal → Essigsäure ist der Weg, der auch im Körper abläuft."
+      ],
+      "merke": "Primär → Alkanal → Säure. Sekundär → Alkanon. Tertiär → gar nichts.",
+      "visual": {
+        "type": "animation",
+        "name": "funktionellegruppe",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Warum tertiär nicht geht",
+      "hinfuehrung": "Dass tertiäre Alkohole sich nicht oxidieren lassen, folgt unmittelbar aus dem Bau — und ist ein gutes Beispiel dafür, wie Struktur Reaktionsverhalten bestimmt.",
+      "erklaerung": [
+        "Bei der Oxidation wird dem C-Atom mit der OH-Gruppe ein Wasserstoffatom entzogen; die entstehende Doppelbindung zum Sauerstoff bildet die Carbonylgruppe.",
+        "Ein primäres C-Atom trägt zwei H-Atome, ein sekundäres eines — beide können abgegeben werden.",
+        "Ein tertiäres C-Atom trägt kein Wasserstoffatom mehr: Alle drei übrigen Bindungen gehen an Kohlenstoff. Es gibt nichts zu entziehen.",
+        "Deshalb bleibt die Kupferspirale beim tertiären Alkohol schwarz — der Nachweis fällt negativ aus.",
+        "Auch der Abbau im Körper folgt diesem Weg: Ethanol ist primär, wird zu Ethanal und weiter zu Essigsäure oxidiert."
+      ],
+      "merke": "Kein Wasserstoff am C-Atom der OH-Gruppe — keine Oxidation.",
+      "visual": {
+        "type": "animation",
+        "name": "funktionellegruppe",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "primär: R–CH₂–OH → R–CHO → R–COOH",
+      "sekundär: R₂CH–OH → R₂C=O",
+      "tertiär: keine Oxidation"
+    ],
+    "saetze": [
+      "Primär: ein C-Nachbar · sekundär: zwei · tertiär: drei.",
+      "Primäre Alkohole ergeben Alkanale, dann Alkansäuren.",
+      "Sekundäre Alkohole ergeben Alkanone.",
+      "Tertiäre Alkohole lassen sich nicht oxidieren.",
+      "Nachweis mit Kupferoxid: schwarz wird rot."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Oxidation von Alkoholen zu Aldehyden oder Ketonen",
+      "url": "https://www.youtube.com/watch?v=UPuibyN7S64",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/mzQ19o",
+      "embed": "https://app.lumi.education/api/v1/run/mzQ19o/embed",
+      "stufe": "C",
+      "dauer_s": 686
+    },
+    {
+      "titel": "Alkohole oxidieren — primär, sekundär, tertiär",
+      "url": "https://www.youtube.com/watch?v=xc51MOJs1OI",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/vKI08M",
+      "embed": "https://app.lumi.education/api/v1/run/vKI08M/embed",
+      "stufe": "A",
+      "dauer_s": 225
+    },
+    {
+      "titel": "Alkanale und Alkanone — die Oxidationsprodukte",
+      "url": "https://www.youtube.com/watch?v=NINWCNvJFfg",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/QYQMJJ",
+      "embed": "https://app.lumi.education/api/v1/run/QYQMJJ/embed",
+      "stufe": "B",
+      "dauer_s": 298
+    }
+  ],
+  "tasks": [
+    {
+      "id": "AL05-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Was entsteht, wenn ein primärer Alkohol oxidiert wird?",
+      "options": [
+        "zuerst ein Alkanal",
+        "sofort eine Säure",
+        "ein Alkan"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "funktionellegruppe",
+        "stufe": "A"
+      },
+      "hints": [
+        "Es gibt zwei Schritte.",
+        "Der erste führt zum Alkanal.",
+        "Alkanal."
+      ],
+      "solution": "Ein primärer Alkohol wird zuerst zum Alkanal oxidiert, dann weiter zur Alkansäure.",
+      "tags": [
+        "oxidation"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL05-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Was entsteht aus Ethanol beim vollständigen Oxidieren?",
+      "options": [
+        "Essigsäure",
+        "Methanol",
+        "Ethan"
+      ],
+      "answer": 0,
+      "hints": [
+        "Ethanol → Ethanal → ?",
+        "Die Säure mit zwei C-Atomen.",
+        "Essigsäure."
+      ],
+      "solution": "Ethanol wird über Ethanal zu Essigsäure oxidiert. Denselben Weg geht der Abbau im Körper.",
+      "tags": [
+        "oxidation"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL05-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Was zeigt eine Kupferspirale, die von schwarz zu rot wird?",
+      "options": [
+        "Der Alkohol lässt sich oxidieren.",
+        "Der Alkohol ist tertiär.",
+        "Es ist kein Alkohol."
+      ],
+      "answer": 0,
+      "hints": [
+        "Schwarzes Kupferoxid wird zu rotem Kupfer.",
+        "Es wurde also reduziert.",
+        "Der Alkohol hat dafür Elektronen geliefert."
+      ],
+      "solution": "Das schwarze Kupferoxid wird zu rotem Kupfer reduziert. Der Alkohol wurde dabei oxidiert — er ist also primär oder sekundär.",
+      "tags": [
+        "oxidation",
+        "nachweise"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "AL05-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Welcher Alkohol lässt sich nicht oxidieren?",
+      "options": [
+        "ein tertiärer",
+        "ein primärer",
+        "ein sekundärer"
+      ],
+      "answer": 0,
+      "hints": [
+        "Bei einem fehlt das nötige Wasserstoffatom.",
+        "Beim tertiären.",
+        "Tertiär."
+      ],
+      "solution": "Ein tertiärer Alkohol trägt am C-Atom der OH-Gruppe kein Wasserstoffatom mehr — er lässt sich nicht oxidieren.",
+      "tags": [
+        "oxidation"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL05-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Wie erkennst du einen sekundären Alkohol?",
+      "options": [
+        "Das C-Atom mit der OH-Gruppe hat zwei C-Nachbarn.",
+        "Das Molekül hat zwei OH-Gruppen.",
+        "Es hat zwei C-Atome."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "struktur",
+        "kette": 3,
+        "gruppe": "oh",
+        "position": 2,
+        "alt": "Strukturformel eines sekundären Alkohols."
+      },
+      "hints": [
+        "Es geht um die Nachbarn des C-Atoms mit der OH-Gruppe.",
+        "Zwei C-Nachbarn.",
+        "Nicht um die Zahl der OH-Gruppen."
+      ],
+      "solution": "Entscheidend ist, wie viele Kohlenstoffnachbarn das C-Atom mit der OH-Gruppe hat: zwei bedeutet sekundär.",
+      "misconceptions": [
+        {
+          "id": "funktionelle_gruppe_verwechselt",
+          "value": 1,
+          "feedback": "Die Zahl der OH-Gruppen bestimmt die Wertigkeit, nicht primär/sekundär/tertiär.",
+          "konzeptfehler": "funktionelle_gruppe_verwechselt"
+        }
+      ],
+      "tags": [
+        "oxidation",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL05-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Was entsteht bei der Oxidation eines sekundären Alkohols?",
+      "options": [
+        "ein Alkanon",
+        "ein Alkanal",
+        "eine Säure"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "funktionellegruppe",
+        "stufe": "B"
+      },
+      "hints": [
+        "Alkanale entstehen aus primären Alkoholen.",
+        "Aus sekundären entsteht etwas anderes.",
+        "Ein Alkanon, auch Keton genannt."
+      ],
+      "solution": "Ein sekundärer Alkohol wird zum Alkanon oxidiert — und dort endet die Reihe. Propan-2-ol ergibt Propanon, das Aceton.",
+      "misconceptions": [
+        {
+          "id": "funktionelle_gruppe_verwechselt",
+          "value": 1,
+          "feedback": "Alkanale entstehen aus primären Alkoholen.",
+          "konzeptfehler": "funktionelle_gruppe_verwechselt"
+        }
+      ],
+      "tags": [
+        "oxidation",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL05-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "assign",
+      "prompt": "Ordne jedem Alkoholtyp sein Oxidationsprodukt zu.",
+      "slots": [
+        "primär",
+        "sekundär",
+        "tertiär"
+      ],
+      "values": [
+        "Alkanal, dann Alkansäure",
+        "Alkanon",
+        "keine Oxidation"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Primär geht zwei Schritte.",
+        "Sekundär endet nach einem.",
+        "Tertiär gar nicht."
+      ],
+      "solution": "primär → Alkanal → Alkansäure\nsekundär → Alkanon\ntertiär → keine Oxidation",
+      "tags": [
+        "oxidation",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL05-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum lässt sich ein tertiärer Alkohol nicht oxidieren?",
+      "options": [
+        "Am C-Atom der OH-Gruppe sitzt kein Wasserstoffatom mehr.",
+        "Er ist zu groß.",
+        "Er hat keine OH-Gruppe."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "funktionellegruppe",
+        "stufe": "C"
+      },
+      "hints": [
+        "Was wird bei der Oxidation entzogen?",
+        "Ein Wasserstoffatom vom C-Atom der OH-Gruppe.",
+        "Beim tertiären ist dort keines."
+      ],
+      "solution": "Bei der Oxidation wird dem C-Atom der OH-Gruppe ein H-Atom entzogen. Beim tertiären Alkohol gehen alle drei übrigen Bindungen an Kohlenstoff — es gibt kein H-Atom zu entziehen.",
+      "tags": [
+        "oxidation",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL05-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Was entsteht aus Propan-2-ol bei der Oxidation?",
+      "options": [
+        "Propanon (Aceton)",
+        "Propansäure",
+        "Propanal"
+      ],
+      "answer": 0,
+      "hints": [
+        "Wo sitzt die OH-Gruppe?",
+        "Am mittleren C-Atom — also sekundär.",
+        "Sekundär ergibt ein Alkanon."
+      ],
+      "solution": "Propan-2-ol ist ein sekundärer Alkohol. Die Oxidation ergibt Propanon — bekannt als Aceton.",
+      "misconceptions": [
+        {
+          "id": "funktionelle_gruppe_verwechselt",
+          "value": 2,
+          "feedback": "Propanal entstünde aus Propan-1-ol, einem primären Alkohol.",
+          "konzeptfehler": "funktionelle_gruppe_verwechselt"
+        }
+      ],
+      "tags": [
+        "oxidation",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL05-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum wird beim Alkoholabbau im Körper zuerst Ethanal gebildet?",
+      "options": [
+        "Ethanol ist ein primärer Alkohol; die Oxidation führt zunächst zum Alkanal.",
+        "Weil Ethanal ungiftig ist.",
+        "Weil der Körper keine Säuren bilden kann."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welcher Typ ist Ethanol?",
+        "Primär.",
+        "Primär ergibt zuerst ein Alkanal."
+      ],
+      "solution": "Ethanol ist ein primärer Alkohol. Der erste Oxidationsschritt führt zum Ethanal, das für einen Teil der Katerbeschwerden verantwortlich ist. Erst der zweite Schritt liefert Essigsäure.",
+      "tags": [
+        "oxidation",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL05-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Wie unterscheidest du experimentell einen sekundären von einem tertiären Alkohol?",
+      "options": [
+        "Mit einer glühenden Kupferspirale: Beim sekundären wird sie rot, beim tertiären bleibt sie schwarz.",
+        "Am Geruch.",
+        "An der Löslichkeit."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welcher Nachweis zeigt Oxidierbarkeit?",
+        "Die Kupferoxid-Probe.",
+        "Nur oxidierbare Alkohole reduzieren das Kupferoxid."
+      ],
+      "solution": "Nur ein oxidierbarer Alkohol reduziert das schwarze Kupferoxid zu rotem Kupfer. Der tertiäre Alkohol kann das nicht — die Spirale bleibt schwarz.",
+      "tags": [
+        "oxidation",
+        "nachweise",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "AL05-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum endet die Oxidation eines sekundären Alkohols beim Alkanon?",
+      "options": [
+        "Am Carbonyl-C-Atom sitzt kein Wasserstoff mehr, der weiter entzogen werden könnte.",
+        "Alkanone sind besonders stabil gegen Wärme.",
+        "Sekundäre Alkohole reagieren nur einmal."
+      ],
+      "answer": 0,
+      "hints": [
+        "Beim Alkanal sitzt am Carbonyl-C noch ein H-Atom.",
+        "Beim Alkanon nicht.",
+        "Ohne H keine weitere Oxidation."
+      ],
+      "solution": "Beim Alkanal trägt das Carbonyl-C-Atom noch ein Wasserstoffatom — deshalb kann es weiter zur Säure oxidiert werden. Beim Alkanon sind beide Nachbarplätze von Kohlenstoff besetzt; die Reihe endet.",
+      "tags": [
+        "oxidation",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL05-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "assign",
+      "prompt": "Ordne jeden Alkohol seinem Typ zu.",
+      "slots": [
+        "Ethanol CH₃–CH₂–OH",
+        "Propan-2-ol",
+        "2-Methylpropan-2-ol"
+      ],
+      "values": [
+        "primär",
+        "sekundär",
+        "tertiär"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Zähle die C-Nachbarn des C-Atoms mit der OH-Gruppe.",
+        "Ethanol: einer.",
+        "2-Methylpropan-2-ol: drei."
+      ],
+      "solution": "Ethanol: ein C-Nachbar → primär.\nPropan-2-ol: zwei → sekundär.\n2-Methylpropan-2-ol: drei → tertiär.",
+      "tags": [
+        "oxidation",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL05-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Alle Alkohole werden zu Säuren oxidiert.“ Wie bewertest du das?",
+      "options": [
+        "Falsch — nur primäre; sekundäre enden beim Alkanon, tertiäre reagieren gar nicht.",
+        "Richtig.",
+        "Falsch — kein Alkohol wird zu einer Säure."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert bei sekundären Alkoholen?",
+        "Sie enden beim Alkanon.",
+        "Und tertiäre reagieren nicht."
+      ],
+      "solution": "Nur primäre Alkohole durchlaufen die vollständige Reihe bis zur Säure. Sekundäre enden beim Alkanon, tertiäre lassen sich gar nicht oxidieren. Der Bau entscheidet über den Reaktionsweg.",
+      "misconceptions": [
+        {
+          "id": "verallgemeinert",
+          "value": 1,
+          "feedback": "Der Weg zur Säure gilt nur für primäre Alkohole."
+        }
+      ],
+      "tags": [
+        "oxidation",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 6,
+      "aufgaben": 23,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 8,
+      "aufgaben": 19,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 12,
+      "aufgaben": 12,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Alkohole und ihre Oxidationsprodukte",
+      "url": "https://learningapps.org/view4763958",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Namen von Oxidationsprodukten von Alkoholen",
+      "url": "https://learningapps.org/view5744771",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Alkohole durch Oxidation unterscheiden",
+      "url": "https://www.youtube.com/watch?v=aoCH-xZdvIo",
+      "quelle": "Rugby School Chemistry",
+      "stufe": "C",
+      "rolle": "Vertiefung: primär, sekundär, tertiär im Versuch",
+      "lumi": "https://app.lumi.education/run/8AIpwr",
+      "embed": "https://app.lumi.education/api/v1/run/8AIpwr/embed",
+      "protokoll": true
+    },
+    {
+      "titel": "Ein Aldehyd herstellen und abtrennen",
+      "url": "https://www.youtube.com/watch?v=BNjUoGDq4wU",
+      "quelle": "Rugby School Chemistry",
+      "stufe": "C",
+      "rolle": "Vertiefung zum Oxidationsprodukt eines primären Alkohols",
+      "lumi": "https://app.lumi.education/run/xqlT1n",
+      "embed": "https://app.lumi.education/api/v1/run/xqlT1n/embed",
+      "protokoll": true
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 13,
+    "titel": "Organische Säuren",
+    "seiten_von": 163,
+    "seiten_bis": 172,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "primär"
+  }
+}

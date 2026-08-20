@@ -1,0 +1,2202 @@
+{
+  "_hinweis": "Generatoren fuer die gedruckten Uebungsblaetter. Erzeugt von werkzeuge/uebungsblaetter_bauen.py; von Hand ergaenzte Einheiten bleiben beim erneuten Lauf erhalten.",
+  "bereich": "qb",
+  "title": "Quantitative Betrachtungen",
+  "einheiten": {
+    "qb-01": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-QB-01-1",
+          "tabelle": [
+            {
+              "name": "Schwefelsäure",
+              "formel": "H₂SO₄",
+              "M": 98,
+              "atome": 7
+            },
+            {
+              "name": "Salpetersäure",
+              "formel": "HNO₃",
+              "M": 63,
+              "atome": 5
+            },
+            {
+              "name": "Salzsäure",
+              "formel": "HCl",
+              "M": 36.5,
+              "atome": 2
+            },
+            {
+              "name": "Kohlensäure",
+              "formel": "H₂CO₃",
+              "M": 62,
+              "atome": 6
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Kohlensäure",
+                  "formel": "H₂CO₃",
+                  "M": 62,
+                  "atome": 6
+                },
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                },
+                {
+                  "name": "Salzsäure",
+                  "formel": "HCl",
+                  "M": 36.5,
+                  "atome": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-QB-01-2",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "vars": {
+            "m": {
+              "aus": [
+                32,
+                44,
+                64,
+                88,
+                96
+              ]
+            }
+          },
+          "bedingung": "ganz(m / M * 1000)",
+          "template": "Welche Stoffmenge sind {m} g {name$} (M = {M} g/mol)?",
+          "answer": "m / M",
+          "unit_label": "mol",
+          "round": 3,
+          "solution": "n = {m} g : {M} g/mol = {ergebnis} mol",
+          "misconceptions": [
+            {
+              "id": "mol_mal_statt_geteilt",
+              "value": "m * M",
+              "feedback": "n = m : M — hier wird geteilt, nicht multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    32,
+                    44,
+                    64
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    64,
+                    88,
+                    96
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-QB-01-3",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "vars": {
+            "n": {
+              "aus": [
+                0.5,
+                1,
+                2,
+                3
+              ]
+            }
+          },
+          "template": "Welche Masse haben {n} mol {name$} (M = {M} g/mol)?",
+          "answer": "n * M",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "m = {n} mol · {M} g/mol = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "mol_geteilt_statt_mal",
+              "value": "n / M",
+              "feedback": "m = n · M — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "n": {
+                  "aus": [
+                    0.5,
+                    1,
+                    2
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ],
+              "vars": {
+                "n": {
+                  "aus": [
+                    1,
+                    2,
+                    3
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-QB-01-4",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "vars": {
+            "n": {
+              "aus": [
+                0.5,
+                1,
+                2,
+                2.5
+              ]
+            }
+          },
+          "template": "Welches Volumen nehmen {n} mol {name$} bei Normbedingungen ein?",
+          "answer": "n * 22.4",
+          "unit_label": "L",
+          "round": 2,
+          "solution": "V = {n} mol · 22,4 L/mol = {ergebnis} L",
+          "misconceptions": [
+            {
+              "id": "mol_geteilt_statt_mal",
+              "value": "n / 22.4",
+              "feedback": "V = n · Vₘ — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "n": {
+                  "aus": [
+                    0.5,
+                    1,
+                    2
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ],
+              "vars": {
+                "n": {
+                  "aus": [
+                    1,
+                    2,
+                    2.5
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "qb-02": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-QB-02-1",
+          "tabelle": [
+            {
+              "name": "Schwefelsäure",
+              "formel": "H₂SO₄",
+              "M": 98,
+              "atome": 7
+            },
+            {
+              "name": "Salpetersäure",
+              "formel": "HNO₃",
+              "M": 63,
+              "atome": 5
+            },
+            {
+              "name": "Salzsäure",
+              "formel": "HCl",
+              "M": 36.5,
+              "atome": 2
+            },
+            {
+              "name": "Kohlensäure",
+              "formel": "H₂CO₃",
+              "M": 62,
+              "atome": 6
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Kohlensäure",
+                  "formel": "H₂CO₃",
+                  "M": 62,
+                  "atome": 6
+                },
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                },
+                {
+                  "name": "Salzsäure",
+                  "formel": "HCl",
+                  "M": 36.5,
+                  "atome": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-QB-02-2",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "vars": {
+            "m": {
+              "aus": [
+                32,
+                44,
+                64,
+                88,
+                96
+              ]
+            }
+          },
+          "bedingung": "ganz(m / M * 1000)",
+          "template": "Welche Stoffmenge sind {m} g {name$} (M = {M} g/mol)?",
+          "answer": "m / M",
+          "unit_label": "mol",
+          "round": 3,
+          "solution": "n = {m} g : {M} g/mol = {ergebnis} mol",
+          "misconceptions": [
+            {
+              "id": "mol_mal_statt_geteilt",
+              "value": "m * M",
+              "feedback": "n = m : M — hier wird geteilt, nicht multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    32,
+                    44,
+                    64
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    64,
+                    88,
+                    96
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-QB-02-3",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "vars": {
+            "n": {
+              "aus": [
+                0.5,
+                1,
+                2,
+                3
+              ]
+            }
+          },
+          "template": "Welche Masse haben {n} mol {name$} (M = {M} g/mol)?",
+          "answer": "n * M",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "m = {n} mol · {M} g/mol = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "mol_geteilt_statt_mal",
+              "value": "n / M",
+              "feedback": "m = n · M — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "n": {
+                  "aus": [
+                    0.5,
+                    1,
+                    2
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ],
+              "vars": {
+                "n": {
+                  "aus": [
+                    1,
+                    2,
+                    3
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-QB-02-4",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "vars": {
+            "n": {
+              "aus": [
+                0.5,
+                1,
+                2,
+                2.5
+              ]
+            }
+          },
+          "template": "Welches Volumen nehmen {n} mol {name$} bei Normbedingungen ein?",
+          "answer": "n * 22.4",
+          "unit_label": "L",
+          "round": 2,
+          "solution": "V = {n} mol · 22,4 L/mol = {ergebnis} L",
+          "misconceptions": [
+            {
+              "id": "mol_geteilt_statt_mal",
+              "value": "n / 22.4",
+              "feedback": "V = n · Vₘ — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "n": {
+                  "aus": [
+                    0.5,
+                    1,
+                    2
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ],
+              "vars": {
+                "n": {
+                  "aus": [
+                    1,
+                    2,
+                    2.5
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "qb-03": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-QB-03-1",
+          "tabelle": [
+            {
+              "name": "Schwefelsäure",
+              "formel": "H₂SO₄",
+              "M": 98,
+              "atome": 7
+            },
+            {
+              "name": "Salpetersäure",
+              "formel": "HNO₃",
+              "M": 63,
+              "atome": 5
+            },
+            {
+              "name": "Salzsäure",
+              "formel": "HCl",
+              "M": 36.5,
+              "atome": 2
+            },
+            {
+              "name": "Kohlensäure",
+              "formel": "H₂CO₃",
+              "M": 62,
+              "atome": 6
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Kohlensäure",
+                  "formel": "H₂CO₃",
+                  "M": 62,
+                  "atome": 6
+                },
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                },
+                {
+                  "name": "Salzsäure",
+                  "formel": "HCl",
+                  "M": 36.5,
+                  "atome": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-QB-03-2",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "vars": {
+            "m": {
+              "aus": [
+                32,
+                44,
+                64,
+                88,
+                96
+              ]
+            }
+          },
+          "bedingung": "ganz(m / M * 1000)",
+          "template": "Welche Stoffmenge sind {m} g {name$} (M = {M} g/mol)?",
+          "answer": "m / M",
+          "unit_label": "mol",
+          "round": 3,
+          "solution": "n = {m} g : {M} g/mol = {ergebnis} mol",
+          "misconceptions": [
+            {
+              "id": "mol_mal_statt_geteilt",
+              "value": "m * M",
+              "feedback": "n = m : M — hier wird geteilt, nicht multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    32,
+                    44,
+                    64
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    64,
+                    88,
+                    96
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-QB-03-3",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "vars": {
+            "n": {
+              "aus": [
+                0.5,
+                1,
+                2,
+                3
+              ]
+            }
+          },
+          "template": "Welche Masse haben {n} mol {name$} (M = {M} g/mol)?",
+          "answer": "n * M",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "m = {n} mol · {M} g/mol = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "mol_geteilt_statt_mal",
+              "value": "n / M",
+              "feedback": "m = n · M — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "n": {
+                  "aus": [
+                    0.5,
+                    1,
+                    2
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ],
+              "vars": {
+                "n": {
+                  "aus": [
+                    1,
+                    2,
+                    3
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-QB-03-4",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "vars": {
+            "n": {
+              "aus": [
+                0.5,
+                1,
+                2,
+                2.5
+              ]
+            }
+          },
+          "template": "Welches Volumen nehmen {n} mol {name$} bei Normbedingungen ein?",
+          "answer": "n * 22.4",
+          "unit_label": "L",
+          "round": 2,
+          "solution": "V = {n} mol · 22,4 L/mol = {ergebnis} L",
+          "misconceptions": [
+            {
+              "id": "mol_geteilt_statt_mal",
+              "value": "n / 22.4",
+              "feedback": "V = n · Vₘ — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "n": {
+                  "aus": [
+                    0.5,
+                    1,
+                    2
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ],
+              "vars": {
+                "n": {
+                  "aus": [
+                    1,
+                    2,
+                    2.5
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "qb-04": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-QB-04-1",
+          "tabelle": [
+            {
+              "name": "Schwefelsäure",
+              "formel": "H₂SO₄",
+              "M": 98,
+              "atome": 7
+            },
+            {
+              "name": "Salpetersäure",
+              "formel": "HNO₃",
+              "M": 63,
+              "atome": 5
+            },
+            {
+              "name": "Salzsäure",
+              "formel": "HCl",
+              "M": 36.5,
+              "atome": 2
+            },
+            {
+              "name": "Kohlensäure",
+              "formel": "H₂CO₃",
+              "M": 62,
+              "atome": 6
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Kohlensäure",
+                  "formel": "H₂CO₃",
+                  "M": 62,
+                  "atome": 6
+                },
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                },
+                {
+                  "name": "Salzsäure",
+                  "formel": "HCl",
+                  "M": 36.5,
+                  "atome": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-QB-04-2",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "vars": {
+            "m": {
+              "aus": [
+                32,
+                44,
+                64,
+                88,
+                96
+              ]
+            }
+          },
+          "bedingung": "ganz(m / M * 1000)",
+          "template": "Welche Stoffmenge sind {m} g {name$} (M = {M} g/mol)?",
+          "answer": "m / M",
+          "unit_label": "mol",
+          "round": 3,
+          "solution": "n = {m} g : {M} g/mol = {ergebnis} mol",
+          "misconceptions": [
+            {
+              "id": "mol_mal_statt_geteilt",
+              "value": "m * M",
+              "feedback": "n = m : M — hier wird geteilt, nicht multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    32,
+                    44,
+                    64
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    64,
+                    88,
+                    96
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-QB-04-3",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "vars": {
+            "n": {
+              "aus": [
+                0.5,
+                1,
+                2,
+                3
+              ]
+            }
+          },
+          "template": "Welche Masse haben {n} mol {name$} (M = {M} g/mol)?",
+          "answer": "n * M",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "m = {n} mol · {M} g/mol = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "mol_geteilt_statt_mal",
+              "value": "n / M",
+              "feedback": "m = n · M — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "n": {
+                  "aus": [
+                    0.5,
+                    1,
+                    2
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ],
+              "vars": {
+                "n": {
+                  "aus": [
+                    1,
+                    2,
+                    3
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-QB-04-4",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "vars": {
+            "n": {
+              "aus": [
+                0.5,
+                1,
+                2,
+                2.5
+              ]
+            }
+          },
+          "template": "Welches Volumen nehmen {n} mol {name$} bei Normbedingungen ein?",
+          "answer": "n * 22.4",
+          "unit_label": "L",
+          "round": 2,
+          "solution": "V = {n} mol · 22,4 L/mol = {ergebnis} L",
+          "misconceptions": [
+            {
+              "id": "mol_geteilt_statt_mal",
+              "value": "n / 22.4",
+              "feedback": "V = n · Vₘ — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "n": {
+                  "aus": [
+                    0.5,
+                    1,
+                    2
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ],
+              "vars": {
+                "n": {
+                  "aus": [
+                    1,
+                    2,
+                    2.5
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "qb-05": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-QB-05-1",
+          "tabelle": [
+            {
+              "name": "Schwefelsäure",
+              "formel": "H₂SO₄",
+              "M": 98,
+              "atome": 7
+            },
+            {
+              "name": "Salpetersäure",
+              "formel": "HNO₃",
+              "M": 63,
+              "atome": 5
+            },
+            {
+              "name": "Salzsäure",
+              "formel": "HCl",
+              "M": 36.5,
+              "atome": 2
+            },
+            {
+              "name": "Kohlensäure",
+              "formel": "H₂CO₃",
+              "M": 62,
+              "atome": 6
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Kohlensäure",
+                  "formel": "H₂CO₃",
+                  "M": 62,
+                  "atome": 6
+                },
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Salpetersäure",
+                  "formel": "HNO₃",
+                  "M": 63,
+                  "atome": 5
+                },
+                {
+                  "name": "Schwefelsäure",
+                  "formel": "H₂SO₄",
+                  "M": 98,
+                  "atome": 7
+                },
+                {
+                  "name": "Salzsäure",
+                  "formel": "HCl",
+                  "M": 36.5,
+                  "atome": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-QB-05-2",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "vars": {
+            "m": {
+              "aus": [
+                32,
+                44,
+                64,
+                88,
+                96
+              ]
+            }
+          },
+          "bedingung": "ganz(m / M * 1000)",
+          "template": "Welche Stoffmenge sind {m} g {name$} (M = {M} g/mol)?",
+          "answer": "m / M",
+          "unit_label": "mol",
+          "round": 3,
+          "solution": "n = {m} g : {M} g/mol = {ergebnis} mol",
+          "misconceptions": [
+            {
+              "id": "mol_mal_statt_geteilt",
+              "value": "m * M",
+              "feedback": "n = m : M — hier wird geteilt, nicht multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    32,
+                    44,
+                    64
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ],
+              "vars": {
+                "m": {
+                  "aus": [
+                    64,
+                    88,
+                    96
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-QB-05-3",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "vars": {
+            "n": {
+              "aus": [
+                0.5,
+                1,
+                2,
+                3
+              ]
+            }
+          },
+          "template": "Welche Masse haben {n} mol {name$} (M = {M} g/mol)?",
+          "answer": "n * M",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "m = {n} mol · {M} g/mol = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "mol_geteilt_statt_mal",
+              "value": "n / M",
+              "feedback": "m = n · M — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "n": {
+                  "aus": [
+                    0.5,
+                    1,
+                    2
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ],
+              "vars": {
+                "n": {
+                  "aus": [
+                    1,
+                    2,
+                    3
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-QB-05-4",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "vars": {
+            "n": {
+              "aus": [
+                0.5,
+                1,
+                2,
+                2.5
+              ]
+            }
+          },
+          "template": "Welches Volumen nehmen {n} mol {name$} bei Normbedingungen ein?",
+          "answer": "n * 22.4",
+          "unit_label": "L",
+          "round": 2,
+          "solution": "V = {n} mol · 22,4 L/mol = {ergebnis} L",
+          "misconceptions": [
+            {
+              "id": "mol_geteilt_statt_mal",
+              "value": "n / 22.4",
+              "feedback": "V = n · Vₘ — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "n": {
+                  "aus": [
+                    0.5,
+                    1,
+                    2
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ],
+              "vars": {
+                "n": {
+                  "aus": [
+                    1,
+                    2,
+                    2.5
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

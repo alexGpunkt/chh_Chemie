@@ -1,0 +1,648 @@
+{
+  "unit": "AL-02",
+  "title": "Homologe Reihe und Nomenklatur der Alkanole",
+  "leitidee": "B1",
+  "standards": [
+    "K1",
+    "K3.4"
+  ],
+  "klasse": 10,
+  "wortspeicher": [
+    "das Alkanol",
+    "die homologe Reihe",
+    "die Stellungsisomerie",
+    "die Nomenklatur",
+    "die Endung -ol"
+  ],
+  "worterklaerungen": {
+    "Alkanol": "Ein Alkan, bei dem ein H-Atom durch eine OH-Gruppe ersetzt ist.",
+    "Stellungsisomerie": "Dieselbe Gruppe sitzt an verschiedenen Stellen der Kette."
+  },
+  "can_do": {
+    "A": "Ich benenne die ersten Alkanole und gebe ihre Formeln an.",
+    "B": "Ich wende die Nomenklaturregeln an und gebe die Stellung der OH-Gruppe an.",
+    "C": "Ich unterscheide Stellungsisomere und begründe ihre verschiedenen Eigenschaften."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Eine Reihe wie bei den Alkanen",
+      "hinfuehrung": "Auch die Alkohole bilden eine homologe Reihe.",
+      "erklaerung": [
+        "Die Namen enden auf -ol.",
+        "Methanol, Ethanol, Propanol …"
+      ],
+      "merke": "Alkanname plus -ol.",
+      "beispiel": {
+        "titel": "Von Alkan zu Alkanol",
+        "aufgabe": "Aus Propan wird ein Alkohol.",
+        "schritte": [
+          "Ein H-Atom wird durch OH ersetzt.",
+          "Der Name endet jetzt auf -ol."
+        ],
+        "ergebnis": "Propan → Propanol"
+      },
+      "visual": {
+        "type": "animation",
+        "name": "homologereihe",
+        "stufe": "A",
+        "gruppe": "alkanol"
+      }
+    },
+    "B": {
+      "titel": "Namen und Formeln",
+      "hinfuehrung": "Die Nomenklatur der Alkanole folgt derselben Logik wie bei den Alkanen — mit einer Ergänzung für die Stellung der OH-Gruppe.",
+      "erklaerung": [
+        "Allgemeine Formel: CₙH₂ₙ₊₁OH.",
+        "Der Name entsteht aus dem Alkannamen und der Endung -ol: Methanol, Ethanol, Propanol, Butanol.",
+        "Ab drei C-Atomen kann die OH-Gruppe an verschiedenen Stellen sitzen. Dann wird die Position genannt: Propan-1-ol und Propan-2-ol.",
+        "Nummeriert wird so, dass die OH-Gruppe die kleinstmögliche Zahl bekommt.",
+        "Molare Massen: Methanol 32, Ethanol 46, Propanol 60 g/mol — je Glied kommen 14 g/mol dazu."
+      ],
+      "merke": "CₙH₂ₙ₊₁OH, Endung -ol, Position mit kleinster Zahl.",
+      "visual": {
+        "type": "animation",
+        "name": "homologereihe",
+        "stufe": "B",
+        "gruppe": "alkanol"
+      }
+    },
+    "C": {
+      "titel": "Stellungsisomere",
+      "hinfuehrung": "Bei den Alkanolen kommt zur Kettenisomerie eine zweite Art hinzu: Dieselbe Kette, aber die OH-Gruppe an anderer Stelle.",
+      "erklaerung": [
+        "Propan-1-ol und Propan-2-ol haben beide C₃H₈O — die Kette ist gleich, nur die Position der OH-Gruppe unterscheidet sie.",
+        "Die Eigenschaften unterscheiden sich messbar: Propan-1-ol siedet bei 97 °C, Propan-2-ol bei 82 °C.",
+        "Der Grund ist derselbe wie bei den Alkanen: Die endständige OH-Gruppe ist besser zugänglich und bildet wirksamere Wasserstoffbrücken.",
+        "Wichtiger noch: Die Stellung entscheidet über das Verhalten bei der Oxidation — primär, sekundär oder tertiär."
+      ],
+      "merke": "Gleiche Formel, andere Position der OH-Gruppe — andere Eigenschaften und anderes Reaktionsverhalten.",
+      "visual": {
+        "type": "struktur",
+        "kette": 3,
+        "gruppe": "oh",
+        "position": 2,
+        "name": "Propan-2-ol",
+        "alt": "Strukturformel von Propan-2-ol mit OH-Gruppe am mittleren C-Atom."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Alkanole: CₙH₂ₙ₊₁OH",
+      "CH₃OH 32 · C₂H₅OH 46 · C₃H₇OH 60 · C₄H₉OH 74 g/mol"
+    ],
+    "saetze": [
+      "Der Name entsteht aus dem Alkannamen plus -ol.",
+      "Ab drei C-Atomen wird die Position der OH-Gruppe genannt.",
+      "So nummerieren, dass die OH-Gruppe die kleinste Zahl bekommt.",
+      "Je Glied der Reihe kommen 14 g/mol dazu."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Benennung der Alkohole nach IUPAC",
+      "url": "https://www.youtube.com/watch?v=hnWwiDK-YYw",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/pq3299",
+      "embed": "https://app.lumi.education/api/v1/run/pq3299/embed",
+      "stufe": "B",
+      "dauer_s": 323
+    },
+    {
+      "titel": "Übung: Benennung von Alkoholen nach IUPAC",
+      "url": "https://www.youtube.com/watch?v=vXyq_HSwq3g",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/6A_qzc",
+      "embed": "https://app.lumi.education/api/v1/run/6A_qzc/embed",
+      "stufe": "A",
+      "dauer_s": 275
+    }
+  ],
+  "tasks": [
+    {
+      "id": "AL02-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Wie heißt der Alkohol mit drei C-Atomen?",
+      "options": [
+        "Propanol",
+        "Ethanol",
+        "Butanol"
+      ],
+      "answer": 0,
+      "hints": [
+        "Prop steht für 3.",
+        "Dazu die Endung -ol.",
+        "Propanol."
+      ],
+      "solution": "Drei C-Atome ergeben Propanol, C₃H₇OH.",
+      "misconceptions": [
+        {
+          "id": "nomenklatur_falsch",
+          "value": 2,
+          "feedback": "Butanol hat vier C-Atome.",
+          "konzeptfehler": "nomenklatur_falsch"
+        }
+      ],
+      "tags": [
+        "alkanole"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL02-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Auf welche Endung enden die Namen der Alkohole?",
+      "options": [
+        "-ol",
+        "-an",
+        "-säure"
+      ],
+      "answer": 0,
+      "hints": [
+        "Methanol, Ethanol, Propanol.",
+        "Alle enden gleich.",
+        "-ol."
+      ],
+      "solution": "Alkohole enden auf -ol. Die Alkane enden auf -an.",
+      "tags": [
+        "alkanole"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL02-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie viele C-Atome hat Butanol?",
+      "answer": 4,
+      "tolerance": 0,
+      "hints": [
+        "But steht für eine Zahl.",
+        "But = 4.",
+        "4."
+      ],
+      "solution": "Butanol hat vier Kohlenstoffatome: C₄H₉OH.",
+      "tags": [
+        "alkanole"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL02-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Welche Formel gehört zu Methanol?",
+      "options": [
+        "CH₃OH",
+        "C₂H₅OH",
+        "CH₄"
+      ],
+      "answer": 0,
+      "hints": [
+        "Ein C-Atom.",
+        "Dazu drei H und die OH-Gruppe.",
+        "CH₃OH."
+      ],
+      "solution": "Methanol hat ein C-Atom: CH₃OH.",
+      "tags": [
+        "alkanole"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "AL02-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "Wie groß ist die molare Masse von Propanol C₃H₇OH? (C = 12, H = 1, O = 16 g/mol)",
+      "answer": 60,
+      "unit_label": "g/mol",
+      "tolerance": 0.5,
+      "hints": [
+        "3 C, 8 H, 1 O.",
+        "36 + 8 + 16.",
+        "60 g/mol."
+      ],
+      "solution": "M = 3 · 12 + 8 · 1 + 16 = 60 g/mol. Die acht H-Atome verteilen sich auf C₃H₇ und OH.",
+      "misconceptions": [
+        {
+          "id": "summenformel_falsch_gelesen",
+          "value": 59,
+          "feedback": "Zähle alle H-Atome: sieben im Rest und eines in der OH-Gruppe.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "alkanole",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "AL02-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum heißt es Propan-2-ol und nicht einfach Propanol?",
+      "options": [
+        "Die OH-Gruppe kann an zwei verschiedenen Stellen sitzen; die Zahl macht es eindeutig.",
+        "Weil es zwei OH-Gruppen hat.",
+        "Weil es zwei C-Atome hat."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "struktur",
+        "kette": 3,
+        "gruppe": "oh",
+        "position": 2,
+        "alt": "Strukturformel von Propan-2-ol."
+      },
+      "hints": [
+        "Wo kann die OH-Gruppe bei drei C-Atomen sitzen?",
+        "Am Ende oder in der Mitte.",
+        "Deshalb die Zahl."
+      ],
+      "solution": "Bei drei C-Atomen kann die OH-Gruppe am ersten oder am mittleren Atom sitzen. Die Zahl macht den Namen eindeutig — es sind zwei verschiedene Stoffe.",
+      "misconceptions": [
+        {
+          "id": "nomenklatur_falsch",
+          "value": 1,
+          "feedback": "Die 2 nennt die Position der OH-Gruppe, nicht ihre Anzahl.",
+          "konzeptfehler": "nomenklatur_falsch"
+        }
+      ],
+      "tags": [
+        "alkanole",
+        "namen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL02-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Wie viele H-Atome hat ein Alkanol mit 4 C-Atomen? (CₙH₂ₙ₊₁OH)",
+      "answer": 10,
+      "tolerance": 0,
+      "hints": [
+        "2 · 4 + 1 = 9 im Rest.",
+        "Dazu eines in der OH-Gruppe.",
+        "10."
+      ],
+      "solution": "C₄H₉OH: neun H-Atome im Rest plus eines in der OH-Gruppe, zusammen 10. Summenformel C₄H₁₀O.",
+      "misconceptions": [
+        {
+          "id": "summenformel_falsch_gelesen",
+          "value": 9,
+          "feedback": "Das H der OH-Gruppe zählt mit.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "alkanole",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL02-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Berechne die molaren Massen. (C = 12, H = 1, O = 16 g/mol)",
+      "fields": [
+        {
+          "label": "M(Methanol CH₃OH)",
+          "answer": 32,
+          "unit_label": "g/mol",
+          "tolerance": 0.5
+        },
+        {
+          "label": "M(Ethanol C₂H₅OH)",
+          "answer": 46,
+          "unit_label": "g/mol",
+          "tolerance": 0.5
+        },
+        {
+          "label": "M(Butanol C₄H₉OH)",
+          "answer": 74,
+          "unit_label": "g/mol",
+          "tolerance": 0.5
+        }
+      ],
+      "hints": [
+        "Alle Atome einzeln zählen.",
+        "Von Glied zu Glied kommen 14 g/mol dazu.",
+        "32, 46, 60, 74."
+      ],
+      "solution": "CH₃OH = 12 + 4 + 16 = 32\nC₂H₅OH = 24 + 6 + 16 = 46\nC₄H₉OH = 48 + 10 + 16 = 74 g/mol",
+      "tags": [
+        "alkanole",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "AL02-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Propan-1-ol siedet bei 97 °C, Propan-2-ol bei 82 °C. Was folgt daraus?",
+      "options": [
+        "Stellungsisomere sind verschiedene Stoffe mit verschiedenen Eigenschaften.",
+        "Eine der Messungen ist falsch.",
+        "Beide sind derselbe Stoff."
+      ],
+      "answer": 0,
+      "hints": [
+        "Beide haben C₃H₈O.",
+        "Trotzdem sieden sie verschieden.",
+        "Also sind es verschiedene Stoffe."
+      ],
+      "solution": "Beide haben dieselbe Summenformel, unterscheiden sich aber in der Position der OH-Gruppe — und damit messbar in den Eigenschaften. Sie sind Stellungsisomere.",
+      "misconceptions": [
+        {
+          "id": "isomer_als_gleicher_stoff",
+          "value": 2,
+          "feedback": "Gleiche Summenformel heißt nicht gleicher Stoff.",
+          "konzeptfehler": "isomer_als_gleicher_stoff"
+        }
+      ],
+      "tags": [
+        "alkanole",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL02-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "numeric",
+      "prompt": "Um wie viel g/mol unterscheiden sich zwei benachbarte Glieder der Alkanolreihe?",
+      "answer": 14,
+      "tolerance": 0.5,
+      "hints": [
+        "Eine CH₂-Gruppe kommt dazu.",
+        "12 + 2 · 1.",
+        "14 g/mol."
+      ],
+      "solution": "Eine CH₂-Gruppe wiegt 12 + 2 = 14 g/mol. Deshalb: 32, 46, 60, 74 …",
+      "tags": [
+        "alkanole",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL02-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum siedet Propan-1-ol höher als Propan-2-ol?",
+      "options": [
+        "Die endständige OH-Gruppe ist besser zugänglich und bildet wirksamere Wasserstoffbrücken.",
+        "Propan-1-ol ist schwerer.",
+        "Propan-2-ol hat keine OH-Gruppe."
+      ],
+      "answer": 0,
+      "hints": [
+        "Beide haben dieselbe Masse.",
+        "Verschieden ist die Zugänglichkeit der OH-Gruppe.",
+        "Am Kettenende ist sie freier."
+      ],
+      "solution": "Bei gleicher Masse entscheidet, wie gut die OH-Gruppen einander erreichen. Am Kettenende ist sie weniger von Nachbargruppen abgeschirmt — die Wasserstoffbrücken sind wirksamer, der Siedepunkt liegt höher.",
+      "tags": [
+        "alkanole",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL02-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie viele Stellungsisomere gibt es beim Butanol (unverzweigte Kette)?",
+      "answer": 2,
+      "tolerance": 0,
+      "hints": [
+        "Die OH-Gruppe kann an Position 1 oder 2 sitzen.",
+        "Position 3 wäre dasselbe wie 2, Position 4 dasselbe wie 1.",
+        "2."
+      ],
+      "solution": "Bei unverzweigtem Butan gibt es Butan-1-ol und Butan-2-ol. Die Positionen 3 und 4 ergeben durch Umnummerierung dieselben Stoffe.",
+      "tags": [
+        "alkanole",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL02-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum wird bei der Nummerierung die kleinstmögliche Zahl gewählt?",
+      "options": [
+        "Sonst hätte derselbe Stoff je nach Zählrichtung zwei verschiedene Namen.",
+        "Damit der Name kürzer wird.",
+        "Das ist willkürlich festgelegt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Von welcher Seite lässt sich zählen?",
+        "Von beiden.",
+        "Ohne Regel wären beide Namen zulässig."
+      ],
+      "solution": "Butan-2-ol ließe sich von der anderen Seite als Butan-3-ol lesen. Damit jeder Stoff genau einen Namen hat, wird die kleinstmögliche Zahl festgelegt.",
+      "tags": [
+        "alkanole",
+        "namen",
+        "msa"
+      ]
+    },
+    {
+      "id": "AL02-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler schreibt für Ethanol die Summenformel C₂H₅O. Was fehlt?",
+      "options": [
+        "Das Wasserstoffatom der OH-Gruppe — richtig ist C₂H₆O.",
+        "Nichts, die Formel ist richtig.",
+        "Ein Kohlenstoffatom."
+      ],
+      "answer": 0,
+      "hints": [
+        "Zähle alle H-Atome.",
+        "Fünf im Rest, eines in der OH-Gruppe.",
+        "Zusammen sechs."
+      ],
+      "solution": "C₂H₅OH enthält sechs Wasserstoffatome: fünf im Rest und eines in der Hydroxylgruppe. Als Summenformel geschrieben also C₂H₆O.",
+      "misconceptions": [
+        {
+          "id": "summenformel_falsch_gelesen",
+          "value": 1,
+          "feedback": "Das H der OH-Gruppe gehört zur Summenformel.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "alkanole",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 7,
+      "aufgaben": 22,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 8,
+      "aufgaben": 19,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 8,
+      "aufgaben": 16,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Nomenklatur der Alkanole",
+      "url": "https://learningapps.org/view8644276",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Nomenklatur der Alkohole: Isomere Pentanole",
+      "url": "https://learningapps.org/view7594661",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 13,
+    "titel": "Organische Säuren",
+    "seiten_von": 163,
+    "seiten_bis": 172,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Alkanol"
+  }
+}

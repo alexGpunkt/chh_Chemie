@@ -1,0 +1,2053 @@
+{
+  "_hinweis": "Generatoren fuer die gedruckten Uebungsblaetter. Erzeugt von werkzeuge/uebungsblaetter_bauen.py; von Hand ergaenzte Einheiten bleiben beim erneuten Lauf erhalten.",
+  "bereich": "wa",
+  "title": "Wasser — eine Verbindung",
+  "einheiten": {
+    "wa-01": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-WA-01-1",
+          "tabelle": [
+            {
+              "name": "Wasser",
+              "formel": "H₂O",
+              "M": 18,
+              "atome": 3
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            },
+            {
+              "name": "Ammoniak",
+              "formel": "NH₃",
+              "M": 17,
+              "atome": 4
+            },
+            {
+              "name": "Methan",
+              "formel": "CH₄",
+              "M": 16,
+              "atome": 5
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Methan",
+                  "formel": "CH₄",
+                  "M": 16,
+                  "atome": 5
+                },
+                {
+                  "name": "Ammoniak",
+                  "formel": "NH₃",
+                  "M": 17,
+                  "atome": 4
+                },
+                {
+                  "name": "Wasser",
+                  "formel": "H₂O",
+                  "M": 18,
+                  "atome": 3
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Ammoniak",
+                  "formel": "NH₃",
+                  "M": 17,
+                  "atome": 4
+                },
+                {
+                  "name": "Wasser",
+                  "formel": "H₂O",
+                  "M": 18,
+                  "atome": 3
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-WA-01-2",
+          "vars": {
+            "m": {
+              "aus": [
+                20,
+                30,
+                48,
+                60,
+                90
+              ]
+            }
+          },
+          "template": "Bei der Elektrolyse entsteht Wasserstoff und Sauerstoff im Volumenverhältnis 2 : 1. Wie viel Sauerstoff entsteht neben {m} mL Wasserstoff?",
+          "answer": "m * 1 / 2",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "{m} g : 2 · 1 = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "verhaeltnis_umgedreht",
+              "value": "m * 2 / 1",
+              "feedback": "Verhältnis umgedreht — prüfe, welcher Stoff der größere Anteil ist."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    20,
+                    30,
+                    48
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    48,
+                    60,
+                    90
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-WA-01-3",
+          "tabelle": [
+            {
+              "name": "Aluminium",
+              "formel": "Al",
+              "dichte": 2.7,
+              "M": 27,
+              "atome": 1,
+              "schmelz": 660
+            },
+            {
+              "name": "Eisen",
+              "formel": "Fe",
+              "dichte": 7.9,
+              "M": 56,
+              "atome": 1,
+              "schmelz": 1535
+            },
+            {
+              "name": "Kupfer",
+              "formel": "Cu",
+              "dichte": 8.9,
+              "M": 64,
+              "atome": 1,
+              "schmelz": 1083
+            },
+            {
+              "name": "Blei",
+              "formel": "Pb",
+              "dichte": 11.3,
+              "M": 207,
+              "atome": 1,
+              "schmelz": 327
+            }
+          ],
+          "vars": {
+            "V": {
+              "aus": [
+                10,
+                20,
+                25,
+                50
+              ]
+            }
+          },
+          "template": "Ein Stück {name$} hat ein Volumen von {V} cm³. Welche Masse hat es? (ρ = {dichte} g/cm³)",
+          "answer": "dichte * V",
+          "unit_label": "g",
+          "round": 1,
+          "solution": "m = {dichte} g/cm³ · {V} cm³ = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "dichte_geteilt_statt_mal",
+              "value": "V / dichte",
+              "feedback": "m = ρ · V — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Blei",
+                  "formel": "Pb",
+                  "dichte": 11.3,
+                  "M": 207,
+                  "atome": 1,
+                  "schmelz": 327
+                },
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    10,
+                    20,
+                    25
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                },
+                {
+                  "name": "Eisen",
+                  "formel": "Fe",
+                  "dichte": 7.9,
+                  "M": 56,
+                  "atome": 1,
+                  "schmelz": 1535
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    20,
+                    25,
+                    50
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-WA-01-4",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 500,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                4,
+                5,
+                10,
+                20
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Salz. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 300,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    4,
+                    5,
+                    10
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 300,
+                  "bis": 500,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    5,
+                    10,
+                    20
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "wa-02": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-WA-02-1",
+          "tabelle": [
+            {
+              "name": "Wasser",
+              "formel": "H₂O",
+              "M": 18,
+              "atome": 3
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            },
+            {
+              "name": "Ammoniak",
+              "formel": "NH₃",
+              "M": 17,
+              "atome": 4
+            },
+            {
+              "name": "Methan",
+              "formel": "CH₄",
+              "M": 16,
+              "atome": 5
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Methan",
+                  "formel": "CH₄",
+                  "M": 16,
+                  "atome": 5
+                },
+                {
+                  "name": "Ammoniak",
+                  "formel": "NH₃",
+                  "M": 17,
+                  "atome": 4
+                },
+                {
+                  "name": "Wasser",
+                  "formel": "H₂O",
+                  "M": 18,
+                  "atome": 3
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Ammoniak",
+                  "formel": "NH₃",
+                  "M": 17,
+                  "atome": 4
+                },
+                {
+                  "name": "Wasser",
+                  "formel": "H₂O",
+                  "M": 18,
+                  "atome": 3
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-WA-02-2",
+          "vars": {
+            "m": {
+              "aus": [
+                20,
+                30,
+                48,
+                60,
+                90
+              ]
+            }
+          },
+          "template": "Bei der Elektrolyse entsteht Wasserstoff und Sauerstoff im Volumenverhältnis 2 : 1. Wie viel Sauerstoff entsteht neben {m} mL Wasserstoff?",
+          "answer": "m * 1 / 2",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "{m} g : 2 · 1 = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "verhaeltnis_umgedreht",
+              "value": "m * 2 / 1",
+              "feedback": "Verhältnis umgedreht — prüfe, welcher Stoff der größere Anteil ist."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    20,
+                    30,
+                    48
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    48,
+                    60,
+                    90
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-WA-02-3",
+          "tabelle": [
+            {
+              "name": "Aluminium",
+              "formel": "Al",
+              "dichte": 2.7,
+              "M": 27,
+              "atome": 1,
+              "schmelz": 660
+            },
+            {
+              "name": "Eisen",
+              "formel": "Fe",
+              "dichte": 7.9,
+              "M": 56,
+              "atome": 1,
+              "schmelz": 1535
+            },
+            {
+              "name": "Kupfer",
+              "formel": "Cu",
+              "dichte": 8.9,
+              "M": 64,
+              "atome": 1,
+              "schmelz": 1083
+            },
+            {
+              "name": "Blei",
+              "formel": "Pb",
+              "dichte": 11.3,
+              "M": 207,
+              "atome": 1,
+              "schmelz": 327
+            }
+          ],
+          "vars": {
+            "V": {
+              "aus": [
+                10,
+                20,
+                25,
+                50
+              ]
+            }
+          },
+          "template": "Ein Stück {name$} hat ein Volumen von {V} cm³. Welche Masse hat es? (ρ = {dichte} g/cm³)",
+          "answer": "dichte * V",
+          "unit_label": "g",
+          "round": 1,
+          "solution": "m = {dichte} g/cm³ · {V} cm³ = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "dichte_geteilt_statt_mal",
+              "value": "V / dichte",
+              "feedback": "m = ρ · V — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Blei",
+                  "formel": "Pb",
+                  "dichte": 11.3,
+                  "M": 207,
+                  "atome": 1,
+                  "schmelz": 327
+                },
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    10,
+                    20,
+                    25
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                },
+                {
+                  "name": "Eisen",
+                  "formel": "Fe",
+                  "dichte": 7.9,
+                  "M": 56,
+                  "atome": 1,
+                  "schmelz": 1535
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    20,
+                    25,
+                    50
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-WA-02-4",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 500,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                4,
+                5,
+                10,
+                20
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Salz. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 300,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    4,
+                    5,
+                    10
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 300,
+                  "bis": 500,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    5,
+                    10,
+                    20
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "wa-03": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-WA-03-1",
+          "tabelle": [
+            {
+              "name": "Wasser",
+              "formel": "H₂O",
+              "M": 18,
+              "atome": 3
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            },
+            {
+              "name": "Ammoniak",
+              "formel": "NH₃",
+              "M": 17,
+              "atome": 4
+            },
+            {
+              "name": "Methan",
+              "formel": "CH₄",
+              "M": 16,
+              "atome": 5
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Methan",
+                  "formel": "CH₄",
+                  "M": 16,
+                  "atome": 5
+                },
+                {
+                  "name": "Ammoniak",
+                  "formel": "NH₃",
+                  "M": 17,
+                  "atome": 4
+                },
+                {
+                  "name": "Wasser",
+                  "formel": "H₂O",
+                  "M": 18,
+                  "atome": 3
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Ammoniak",
+                  "formel": "NH₃",
+                  "M": 17,
+                  "atome": 4
+                },
+                {
+                  "name": "Wasser",
+                  "formel": "H₂O",
+                  "M": 18,
+                  "atome": 3
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-WA-03-2",
+          "vars": {
+            "m": {
+              "aus": [
+                20,
+                30,
+                48,
+                60,
+                90
+              ]
+            }
+          },
+          "template": "Bei der Elektrolyse entsteht Wasserstoff und Sauerstoff im Volumenverhältnis 2 : 1. Wie viel Sauerstoff entsteht neben {m} mL Wasserstoff?",
+          "answer": "m * 1 / 2",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "{m} g : 2 · 1 = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "verhaeltnis_umgedreht",
+              "value": "m * 2 / 1",
+              "feedback": "Verhältnis umgedreht — prüfe, welcher Stoff der größere Anteil ist."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    20,
+                    30,
+                    48
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    48,
+                    60,
+                    90
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-WA-03-3",
+          "tabelle": [
+            {
+              "name": "Aluminium",
+              "formel": "Al",
+              "dichte": 2.7,
+              "M": 27,
+              "atome": 1,
+              "schmelz": 660
+            },
+            {
+              "name": "Eisen",
+              "formel": "Fe",
+              "dichte": 7.9,
+              "M": 56,
+              "atome": 1,
+              "schmelz": 1535
+            },
+            {
+              "name": "Kupfer",
+              "formel": "Cu",
+              "dichte": 8.9,
+              "M": 64,
+              "atome": 1,
+              "schmelz": 1083
+            },
+            {
+              "name": "Blei",
+              "formel": "Pb",
+              "dichte": 11.3,
+              "M": 207,
+              "atome": 1,
+              "schmelz": 327
+            }
+          ],
+          "vars": {
+            "V": {
+              "aus": [
+                10,
+                20,
+                25,
+                50
+              ]
+            }
+          },
+          "template": "Ein Stück {name$} hat ein Volumen von {V} cm³. Welche Masse hat es? (ρ = {dichte} g/cm³)",
+          "answer": "dichte * V",
+          "unit_label": "g",
+          "round": 1,
+          "solution": "m = {dichte} g/cm³ · {V} cm³ = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "dichte_geteilt_statt_mal",
+              "value": "V / dichte",
+              "feedback": "m = ρ · V — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Blei",
+                  "formel": "Pb",
+                  "dichte": 11.3,
+                  "M": 207,
+                  "atome": 1,
+                  "schmelz": 327
+                },
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    10,
+                    20,
+                    25
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                },
+                {
+                  "name": "Eisen",
+                  "formel": "Fe",
+                  "dichte": 7.9,
+                  "M": 56,
+                  "atome": 1,
+                  "schmelz": 1535
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    20,
+                    25,
+                    50
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-WA-03-4",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 500,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                4,
+                5,
+                10,
+                20
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Salz. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 300,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    4,
+                    5,
+                    10
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 300,
+                  "bis": 500,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    5,
+                    10,
+                    20
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "wa-04": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-WA-04-1",
+          "tabelle": [
+            {
+              "name": "Wasser",
+              "formel": "H₂O",
+              "M": 18,
+              "atome": 3
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            },
+            {
+              "name": "Ammoniak",
+              "formel": "NH₃",
+              "M": 17,
+              "atome": 4
+            },
+            {
+              "name": "Methan",
+              "formel": "CH₄",
+              "M": 16,
+              "atome": 5
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Methan",
+                  "formel": "CH₄",
+                  "M": 16,
+                  "atome": 5
+                },
+                {
+                  "name": "Ammoniak",
+                  "formel": "NH₃",
+                  "M": 17,
+                  "atome": 4
+                },
+                {
+                  "name": "Wasser",
+                  "formel": "H₂O",
+                  "M": 18,
+                  "atome": 3
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Ammoniak",
+                  "formel": "NH₃",
+                  "M": 17,
+                  "atome": 4
+                },
+                {
+                  "name": "Wasser",
+                  "formel": "H₂O",
+                  "M": 18,
+                  "atome": 3
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-WA-04-2",
+          "vars": {
+            "m": {
+              "aus": [
+                20,
+                30,
+                48,
+                60,
+                90
+              ]
+            }
+          },
+          "template": "Bei der Elektrolyse entsteht Wasserstoff und Sauerstoff im Volumenverhältnis 2 : 1. Wie viel Sauerstoff entsteht neben {m} mL Wasserstoff?",
+          "answer": "m * 1 / 2",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "{m} g : 2 · 1 = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "verhaeltnis_umgedreht",
+              "value": "m * 2 / 1",
+              "feedback": "Verhältnis umgedreht — prüfe, welcher Stoff der größere Anteil ist."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    20,
+                    30,
+                    48
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    48,
+                    60,
+                    90
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-WA-04-3",
+          "tabelle": [
+            {
+              "name": "Aluminium",
+              "formel": "Al",
+              "dichte": 2.7,
+              "M": 27,
+              "atome": 1,
+              "schmelz": 660
+            },
+            {
+              "name": "Eisen",
+              "formel": "Fe",
+              "dichte": 7.9,
+              "M": 56,
+              "atome": 1,
+              "schmelz": 1535
+            },
+            {
+              "name": "Kupfer",
+              "formel": "Cu",
+              "dichte": 8.9,
+              "M": 64,
+              "atome": 1,
+              "schmelz": 1083
+            },
+            {
+              "name": "Blei",
+              "formel": "Pb",
+              "dichte": 11.3,
+              "M": 207,
+              "atome": 1,
+              "schmelz": 327
+            }
+          ],
+          "vars": {
+            "V": {
+              "aus": [
+                10,
+                20,
+                25,
+                50
+              ]
+            }
+          },
+          "template": "Ein Stück {name$} hat ein Volumen von {V} cm³. Welche Masse hat es? (ρ = {dichte} g/cm³)",
+          "answer": "dichte * V",
+          "unit_label": "g",
+          "round": 1,
+          "solution": "m = {dichte} g/cm³ · {V} cm³ = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "dichte_geteilt_statt_mal",
+              "value": "V / dichte",
+              "feedback": "m = ρ · V — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Blei",
+                  "formel": "Pb",
+                  "dichte": 11.3,
+                  "M": 207,
+                  "atome": 1,
+                  "schmelz": 327
+                },
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    10,
+                    20,
+                    25
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                },
+                {
+                  "name": "Eisen",
+                  "formel": "Fe",
+                  "dichte": 7.9,
+                  "M": 56,
+                  "atome": 1,
+                  "schmelz": 1535
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    20,
+                    25,
+                    50
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-WA-04-4",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 500,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                4,
+                5,
+                10,
+                20
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Salz. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 300,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    4,
+                    5,
+                    10
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 300,
+                  "bis": 500,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    5,
+                    10,
+                    20
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "wa-05": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-WA-05-1",
+          "tabelle": [
+            {
+              "name": "Wasser",
+              "formel": "H₂O",
+              "M": 18,
+              "atome": 3
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            },
+            {
+              "name": "Ammoniak",
+              "formel": "NH₃",
+              "M": 17,
+              "atome": 4
+            },
+            {
+              "name": "Methan",
+              "formel": "CH₄",
+              "M": 16,
+              "atome": 5
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Methan",
+                  "formel": "CH₄",
+                  "M": 16,
+                  "atome": 5
+                },
+                {
+                  "name": "Ammoniak",
+                  "formel": "NH₃",
+                  "M": 17,
+                  "atome": 4
+                },
+                {
+                  "name": "Wasser",
+                  "formel": "H₂O",
+                  "M": 18,
+                  "atome": 3
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Ammoniak",
+                  "formel": "NH₃",
+                  "M": 17,
+                  "atome": 4
+                },
+                {
+                  "name": "Wasser",
+                  "formel": "H₂O",
+                  "M": 18,
+                  "atome": 3
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-WA-05-2",
+          "vars": {
+            "m": {
+              "aus": [
+                20,
+                30,
+                48,
+                60,
+                90
+              ]
+            }
+          },
+          "template": "Bei der Elektrolyse entsteht Wasserstoff und Sauerstoff im Volumenverhältnis 2 : 1. Wie viel Sauerstoff entsteht neben {m} mL Wasserstoff?",
+          "answer": "m * 1 / 2",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "{m} g : 2 · 1 = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "verhaeltnis_umgedreht",
+              "value": "m * 2 / 1",
+              "feedback": "Verhältnis umgedreht — prüfe, welcher Stoff der größere Anteil ist."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    20,
+                    30,
+                    48
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    48,
+                    60,
+                    90
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-WA-05-3",
+          "tabelle": [
+            {
+              "name": "Aluminium",
+              "formel": "Al",
+              "dichte": 2.7,
+              "M": 27,
+              "atome": 1,
+              "schmelz": 660
+            },
+            {
+              "name": "Eisen",
+              "formel": "Fe",
+              "dichte": 7.9,
+              "M": 56,
+              "atome": 1,
+              "schmelz": 1535
+            },
+            {
+              "name": "Kupfer",
+              "formel": "Cu",
+              "dichte": 8.9,
+              "M": 64,
+              "atome": 1,
+              "schmelz": 1083
+            },
+            {
+              "name": "Blei",
+              "formel": "Pb",
+              "dichte": 11.3,
+              "M": 207,
+              "atome": 1,
+              "schmelz": 327
+            }
+          ],
+          "vars": {
+            "V": {
+              "aus": [
+                10,
+                20,
+                25,
+                50
+              ]
+            }
+          },
+          "template": "Ein Stück {name$} hat ein Volumen von {V} cm³. Welche Masse hat es? (ρ = {dichte} g/cm³)",
+          "answer": "dichte * V",
+          "unit_label": "g",
+          "round": 1,
+          "solution": "m = {dichte} g/cm³ · {V} cm³ = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "dichte_geteilt_statt_mal",
+              "value": "V / dichte",
+              "feedback": "m = ρ · V — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Blei",
+                  "formel": "Pb",
+                  "dichte": 11.3,
+                  "M": 207,
+                  "atome": 1,
+                  "schmelz": 327
+                },
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    10,
+                    20,
+                    25
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                },
+                {
+                  "name": "Eisen",
+                  "formel": "Fe",
+                  "dichte": 7.9,
+                  "M": 56,
+                  "atome": 1,
+                  "schmelz": 1535
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    20,
+                    25,
+                    50
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-WA-05-4",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 500,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                4,
+                5,
+                10,
+                20
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Salz. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 300,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    4,
+                    5,
+                    10
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 300,
+                  "bis": 500,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    5,
+                    10,
+                    20
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "wa-06": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-WA-06-1",
+          "tabelle": [
+            {
+              "name": "Wasser",
+              "formel": "H₂O",
+              "M": 18,
+              "atome": 3
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            },
+            {
+              "name": "Ammoniak",
+              "formel": "NH₃",
+              "M": 17,
+              "atome": 4
+            },
+            {
+              "name": "Methan",
+              "formel": "CH₄",
+              "M": 16,
+              "atome": 5
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Methan",
+                  "formel": "CH₄",
+                  "M": 16,
+                  "atome": 5
+                },
+                {
+                  "name": "Ammoniak",
+                  "formel": "NH₃",
+                  "M": 17,
+                  "atome": 4
+                },
+                {
+                  "name": "Wasser",
+                  "formel": "H₂O",
+                  "M": 18,
+                  "atome": 3
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Ammoniak",
+                  "formel": "NH₃",
+                  "M": 17,
+                  "atome": 4
+                },
+                {
+                  "name": "Wasser",
+                  "formel": "H₂O",
+                  "M": 18,
+                  "atome": 3
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-WA-06-2",
+          "vars": {
+            "m": {
+              "aus": [
+                20,
+                30,
+                48,
+                60,
+                90
+              ]
+            }
+          },
+          "template": "Bei der Elektrolyse entsteht Wasserstoff und Sauerstoff im Volumenverhältnis 2 : 1. Wie viel Sauerstoff entsteht neben {m} mL Wasserstoff?",
+          "answer": "m * 1 / 2",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "{m} g : 2 · 1 = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "verhaeltnis_umgedreht",
+              "value": "m * 2 / 1",
+              "feedback": "Verhältnis umgedreht — prüfe, welcher Stoff der größere Anteil ist."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    20,
+                    30,
+                    48
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    48,
+                    60,
+                    90
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-WA-06-3",
+          "tabelle": [
+            {
+              "name": "Aluminium",
+              "formel": "Al",
+              "dichte": 2.7,
+              "M": 27,
+              "atome": 1,
+              "schmelz": 660
+            },
+            {
+              "name": "Eisen",
+              "formel": "Fe",
+              "dichte": 7.9,
+              "M": 56,
+              "atome": 1,
+              "schmelz": 1535
+            },
+            {
+              "name": "Kupfer",
+              "formel": "Cu",
+              "dichte": 8.9,
+              "M": 64,
+              "atome": 1,
+              "schmelz": 1083
+            },
+            {
+              "name": "Blei",
+              "formel": "Pb",
+              "dichte": 11.3,
+              "M": 207,
+              "atome": 1,
+              "schmelz": 327
+            }
+          ],
+          "vars": {
+            "V": {
+              "aus": [
+                10,
+                20,
+                25,
+                50
+              ]
+            }
+          },
+          "template": "Ein Stück {name$} hat ein Volumen von {V} cm³. Welche Masse hat es? (ρ = {dichte} g/cm³)",
+          "answer": "dichte * V",
+          "unit_label": "g",
+          "round": 1,
+          "solution": "m = {dichte} g/cm³ · {V} cm³ = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "dichte_geteilt_statt_mal",
+              "value": "V / dichte",
+              "feedback": "m = ρ · V — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Blei",
+                  "formel": "Pb",
+                  "dichte": 11.3,
+                  "M": 207,
+                  "atome": 1,
+                  "schmelz": 327
+                },
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    10,
+                    20,
+                    25
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                },
+                {
+                  "name": "Eisen",
+                  "formel": "Fe",
+                  "dichte": 7.9,
+                  "M": 56,
+                  "atome": 1,
+                  "schmelz": 1535
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    20,
+                    25,
+                    50
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-WA-06-4",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 500,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                4,
+                5,
+                10,
+                20
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Salz. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 300,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    4,
+                    5,
+                    10
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 300,
+                  "bis": 500,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    5,
+                    10,
+                    20
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
