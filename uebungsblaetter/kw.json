@@ -1,0 +1,2464 @@
+{
+  "_hinweis": "Generatoren fuer die gedruckten Uebungsblaetter. Erzeugt von werkzeuge/uebungsblaetter_bauen.py; von Hand ergaenzte Einheiten bleiben beim erneuten Lauf erhalten.",
+  "bereich": "kw",
+  "title": "Kohlenwasserstoffe",
+  "einheiten": {
+    "kw-01": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-KW-01-1",
+          "tabelle": [
+            {
+              "name": "Methan",
+              "c": 1,
+              "h": 4,
+              "sied": -162
+            },
+            {
+              "name": "Propan",
+              "c": 3,
+              "h": 8,
+              "sied": -42
+            },
+            {
+              "name": "Pentan",
+              "c": 5,
+              "h": 12,
+              "sied": 36
+            },
+            {
+              "name": "Heptan",
+              "c": 7,
+              "h": 16,
+              "sied": 98
+            }
+          ],
+          "template": "Wie viele Wasserstoffatome hat {name$} mit {c} Kohlenstoffatomen?",
+          "answer": "2 * c + 2",
+          "round": 0,
+          "solution": "2 · {c} + 2 = {ergebnis}",
+          "misconceptions": [
+            {
+              "id": "formel_ohne_plus_zwei",
+              "value": "2 * c",
+              "feedback": "Die beiden Kettenenden tragen je ein H-Atom zusätzlich: 2n + 2."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Pentan",
+                  "c": 5,
+                  "h": 12,
+                  "sied": 36
+                },
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                },
+                {
+                  "name": "Methan",
+                  "c": 1,
+                  "h": 4,
+                  "sied": -162
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-KW-01-2",
+          "tabelle": [
+            {
+              "name": "Methan",
+              "c": 1,
+              "h": 4,
+              "sied": -162
+            },
+            {
+              "name": "Propan",
+              "c": 3,
+              "h": 8,
+              "sied": -42
+            },
+            {
+              "name": "Pentan",
+              "c": 5,
+              "h": 12,
+              "sied": 36
+            },
+            {
+              "name": "Heptan",
+              "c": 7,
+              "h": 16,
+              "sied": 98
+            }
+          ],
+          "template": "Wie viele O₂-Moleküle braucht die vollständige Verbrennung eines Moleküls {name$} (C{c}H{h})?",
+          "answer": "c + (2 * c + 2) / 4",
+          "round": 2,
+          "solution": "O-Atome rechts: 2·{c} + {c+1} = {3*c+1} → : 2 = {ergebnis} O₂",
+          "misconceptions": [
+            {
+              "id": "nur_teil_berechnet",
+              "value": "c",
+              "feedback": "Auch die Sauerstoffatome im entstehenden Wasser gehören zur Bilanz."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Pentan",
+                  "c": 5,
+                  "h": 12,
+                  "sied": 36
+                },
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                },
+                {
+                  "name": "Methan",
+                  "c": 1,
+                  "h": 4,
+                  "sied": -162
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-KW-01-3",
+          "tabelle": [
+            {
+              "name": "Methan",
+              "c": 1,
+              "h": 4,
+              "sied": -162
+            },
+            {
+              "name": "Propan",
+              "c": 3,
+              "h": 8,
+              "sied": -42
+            },
+            {
+              "name": "Pentan",
+              "c": 5,
+              "h": 12,
+              "sied": 36
+            },
+            {
+              "name": "Heptan",
+              "c": 7,
+              "h": 16,
+              "sied": 98
+            }
+          ],
+          "template": "{name$} siedet bei {sied} °C. Um wie viel Grad liegt der Siedepunkt unter 126 °C (Octan)?",
+          "answer": "126 - sied",
+          "unit_label": "°C",
+          "round": 1,
+          "solution": "126 − ({sied}) = {ergebnis} °C",
+          "misconceptions": [
+            {
+              "id": "addiert_statt_subtrahiert",
+              "value": "126 + sied",
+              "feedback": "Gefragt ist der Unterschied — also die Differenz."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Pentan",
+                  "c": 5,
+                  "h": 12,
+                  "sied": 36
+                },
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                },
+                {
+                  "name": "Methan",
+                  "c": 1,
+                  "h": 4,
+                  "sied": -162
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-KW-01-4",
+          "tabelle": [
+            {
+              "name": "Methanol",
+              "formel": "CH₃OH",
+              "M": 32,
+              "atome": 6
+            },
+            {
+              "name": "Ethanol",
+              "formel": "C₂H₅OH",
+              "M": 46,
+              "atome": 9
+            },
+            {
+              "name": "Essigsäure",
+              "formel": "CH₃COOH",
+              "M": 60,
+              "atome": 8
+            },
+            {
+              "name": "Glycerin",
+              "formel": "C₃H₈O₃",
+              "M": 92,
+              "atome": 14
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Methanol",
+                  "formel": "CH₃OH",
+                  "M": 32,
+                  "atome": 6
+                },
+                {
+                  "name": "Ethanol",
+                  "formel": "C₂H₅OH",
+                  "M": 46,
+                  "atome": 9
+                },
+                {
+                  "name": "Essigsäure",
+                  "formel": "CH₃COOH",
+                  "M": 60,
+                  "atome": 8
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Ethanol",
+                  "formel": "C₂H₅OH",
+                  "M": 46,
+                  "atome": 9
+                },
+                {
+                  "name": "Essigsäure",
+                  "formel": "CH₃COOH",
+                  "M": 60,
+                  "atome": 8
+                },
+                {
+                  "name": "Glycerin",
+                  "formel": "C₃H₈O₃",
+                  "M": 92,
+                  "atome": 14
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "kw-02": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-KW-02-1",
+          "tabelle": [
+            {
+              "name": "Methan",
+              "c": 1,
+              "h": 4,
+              "sied": -162
+            },
+            {
+              "name": "Propan",
+              "c": 3,
+              "h": 8,
+              "sied": -42
+            },
+            {
+              "name": "Pentan",
+              "c": 5,
+              "h": 12,
+              "sied": 36
+            },
+            {
+              "name": "Heptan",
+              "c": 7,
+              "h": 16,
+              "sied": 98
+            }
+          ],
+          "template": "Wie viele Wasserstoffatome hat {name$} mit {c} Kohlenstoffatomen?",
+          "answer": "2 * c + 2",
+          "round": 0,
+          "solution": "2 · {c} + 2 = {ergebnis}",
+          "misconceptions": [
+            {
+              "id": "formel_ohne_plus_zwei",
+              "value": "2 * c",
+              "feedback": "Die beiden Kettenenden tragen je ein H-Atom zusätzlich: 2n + 2."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Pentan",
+                  "c": 5,
+                  "h": 12,
+                  "sied": 36
+                },
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                },
+                {
+                  "name": "Methan",
+                  "c": 1,
+                  "h": 4,
+                  "sied": -162
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-KW-02-2",
+          "tabelle": [
+            {
+              "name": "Methan",
+              "c": 1,
+              "h": 4,
+              "sied": -162
+            },
+            {
+              "name": "Propan",
+              "c": 3,
+              "h": 8,
+              "sied": -42
+            },
+            {
+              "name": "Pentan",
+              "c": 5,
+              "h": 12,
+              "sied": 36
+            },
+            {
+              "name": "Heptan",
+              "c": 7,
+              "h": 16,
+              "sied": 98
+            }
+          ],
+          "template": "Wie viele O₂-Moleküle braucht die vollständige Verbrennung eines Moleküls {name$} (C{c}H{h})?",
+          "answer": "c + (2 * c + 2) / 4",
+          "round": 2,
+          "solution": "O-Atome rechts: 2·{c} + {c+1} = {3*c+1} → : 2 = {ergebnis} O₂",
+          "misconceptions": [
+            {
+              "id": "nur_teil_berechnet",
+              "value": "c",
+              "feedback": "Auch die Sauerstoffatome im entstehenden Wasser gehören zur Bilanz."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Pentan",
+                  "c": 5,
+                  "h": 12,
+                  "sied": 36
+                },
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                },
+                {
+                  "name": "Methan",
+                  "c": 1,
+                  "h": 4,
+                  "sied": -162
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-KW-02-3",
+          "tabelle": [
+            {
+              "name": "Methan",
+              "c": 1,
+              "h": 4,
+              "sied": -162
+            },
+            {
+              "name": "Propan",
+              "c": 3,
+              "h": 8,
+              "sied": -42
+            },
+            {
+              "name": "Pentan",
+              "c": 5,
+              "h": 12,
+              "sied": 36
+            },
+            {
+              "name": "Heptan",
+              "c": 7,
+              "h": 16,
+              "sied": 98
+            }
+          ],
+          "template": "{name$} siedet bei {sied} °C. Um wie viel Grad liegt der Siedepunkt unter 126 °C (Octan)?",
+          "answer": "126 - sied",
+          "unit_label": "°C",
+          "round": 1,
+          "solution": "126 − ({sied}) = {ergebnis} °C",
+          "misconceptions": [
+            {
+              "id": "addiert_statt_subtrahiert",
+              "value": "126 + sied",
+              "feedback": "Gefragt ist der Unterschied — also die Differenz."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Pentan",
+                  "c": 5,
+                  "h": 12,
+                  "sied": 36
+                },
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                },
+                {
+                  "name": "Methan",
+                  "c": 1,
+                  "h": 4,
+                  "sied": -162
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-KW-02-4",
+          "tabelle": [
+            {
+              "name": "Methanol",
+              "formel": "CH₃OH",
+              "M": 32,
+              "atome": 6
+            },
+            {
+              "name": "Ethanol",
+              "formel": "C₂H₅OH",
+              "M": 46,
+              "atome": 9
+            },
+            {
+              "name": "Essigsäure",
+              "formel": "CH₃COOH",
+              "M": 60,
+              "atome": 8
+            },
+            {
+              "name": "Glycerin",
+              "formel": "C₃H₈O₃",
+              "M": 92,
+              "atome": 14
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Methanol",
+                  "formel": "CH₃OH",
+                  "M": 32,
+                  "atome": 6
+                },
+                {
+                  "name": "Ethanol",
+                  "formel": "C₂H₅OH",
+                  "M": 46,
+                  "atome": 9
+                },
+                {
+                  "name": "Essigsäure",
+                  "formel": "CH₃COOH",
+                  "M": 60,
+                  "atome": 8
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Ethanol",
+                  "formel": "C₂H₅OH",
+                  "M": 46,
+                  "atome": 9
+                },
+                {
+                  "name": "Essigsäure",
+                  "formel": "CH₃COOH",
+                  "M": 60,
+                  "atome": 8
+                },
+                {
+                  "name": "Glycerin",
+                  "formel": "C₃H₈O₃",
+                  "M": 92,
+                  "atome": 14
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "kw-03": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-KW-03-1",
+          "tabelle": [
+            {
+              "name": "Methan",
+              "c": 1,
+              "h": 4,
+              "sied": -162
+            },
+            {
+              "name": "Propan",
+              "c": 3,
+              "h": 8,
+              "sied": -42
+            },
+            {
+              "name": "Pentan",
+              "c": 5,
+              "h": 12,
+              "sied": 36
+            },
+            {
+              "name": "Heptan",
+              "c": 7,
+              "h": 16,
+              "sied": 98
+            }
+          ],
+          "template": "Wie viele Wasserstoffatome hat {name$} mit {c} Kohlenstoffatomen?",
+          "answer": "2 * c + 2",
+          "round": 0,
+          "solution": "2 · {c} + 2 = {ergebnis}",
+          "misconceptions": [
+            {
+              "id": "formel_ohne_plus_zwei",
+              "value": "2 * c",
+              "feedback": "Die beiden Kettenenden tragen je ein H-Atom zusätzlich: 2n + 2."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Pentan",
+                  "c": 5,
+                  "h": 12,
+                  "sied": 36
+                },
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                },
+                {
+                  "name": "Methan",
+                  "c": 1,
+                  "h": 4,
+                  "sied": -162
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-KW-03-2",
+          "tabelle": [
+            {
+              "name": "Methan",
+              "c": 1,
+              "h": 4,
+              "sied": -162
+            },
+            {
+              "name": "Propan",
+              "c": 3,
+              "h": 8,
+              "sied": -42
+            },
+            {
+              "name": "Pentan",
+              "c": 5,
+              "h": 12,
+              "sied": 36
+            },
+            {
+              "name": "Heptan",
+              "c": 7,
+              "h": 16,
+              "sied": 98
+            }
+          ],
+          "template": "Wie viele O₂-Moleküle braucht die vollständige Verbrennung eines Moleküls {name$} (C{c}H{h})?",
+          "answer": "c + (2 * c + 2) / 4",
+          "round": 2,
+          "solution": "O-Atome rechts: 2·{c} + {c+1} = {3*c+1} → : 2 = {ergebnis} O₂",
+          "misconceptions": [
+            {
+              "id": "nur_teil_berechnet",
+              "value": "c",
+              "feedback": "Auch die Sauerstoffatome im entstehenden Wasser gehören zur Bilanz."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Pentan",
+                  "c": 5,
+                  "h": 12,
+                  "sied": 36
+                },
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                },
+                {
+                  "name": "Methan",
+                  "c": 1,
+                  "h": 4,
+                  "sied": -162
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-KW-03-3",
+          "tabelle": [
+            {
+              "name": "Methan",
+              "c": 1,
+              "h": 4,
+              "sied": -162
+            },
+            {
+              "name": "Propan",
+              "c": 3,
+              "h": 8,
+              "sied": -42
+            },
+            {
+              "name": "Pentan",
+              "c": 5,
+              "h": 12,
+              "sied": 36
+            },
+            {
+              "name": "Heptan",
+              "c": 7,
+              "h": 16,
+              "sied": 98
+            }
+          ],
+          "template": "{name$} siedet bei {sied} °C. Um wie viel Grad liegt der Siedepunkt unter 126 °C (Octan)?",
+          "answer": "126 - sied",
+          "unit_label": "°C",
+          "round": 1,
+          "solution": "126 − ({sied}) = {ergebnis} °C",
+          "misconceptions": [
+            {
+              "id": "addiert_statt_subtrahiert",
+              "value": "126 + sied",
+              "feedback": "Gefragt ist der Unterschied — also die Differenz."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Pentan",
+                  "c": 5,
+                  "h": 12,
+                  "sied": 36
+                },
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                },
+                {
+                  "name": "Methan",
+                  "c": 1,
+                  "h": 4,
+                  "sied": -162
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-KW-03-4",
+          "tabelle": [
+            {
+              "name": "Methanol",
+              "formel": "CH₃OH",
+              "M": 32,
+              "atome": 6
+            },
+            {
+              "name": "Ethanol",
+              "formel": "C₂H₅OH",
+              "M": 46,
+              "atome": 9
+            },
+            {
+              "name": "Essigsäure",
+              "formel": "CH₃COOH",
+              "M": 60,
+              "atome": 8
+            },
+            {
+              "name": "Glycerin",
+              "formel": "C₃H₈O₃",
+              "M": 92,
+              "atome": 14
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Methanol",
+                  "formel": "CH₃OH",
+                  "M": 32,
+                  "atome": 6
+                },
+                {
+                  "name": "Ethanol",
+                  "formel": "C₂H₅OH",
+                  "M": 46,
+                  "atome": 9
+                },
+                {
+                  "name": "Essigsäure",
+                  "formel": "CH₃COOH",
+                  "M": 60,
+                  "atome": 8
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Ethanol",
+                  "formel": "C₂H₅OH",
+                  "M": 46,
+                  "atome": 9
+                },
+                {
+                  "name": "Essigsäure",
+                  "formel": "CH₃COOH",
+                  "M": 60,
+                  "atome": 8
+                },
+                {
+                  "name": "Glycerin",
+                  "formel": "C₃H₈O₃",
+                  "M": 92,
+                  "atome": 14
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "kw-04": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-KW-04-1",
+          "tabelle": [
+            {
+              "name": "Methan",
+              "c": 1,
+              "h": 4,
+              "sied": -162
+            },
+            {
+              "name": "Propan",
+              "c": 3,
+              "h": 8,
+              "sied": -42
+            },
+            {
+              "name": "Pentan",
+              "c": 5,
+              "h": 12,
+              "sied": 36
+            },
+            {
+              "name": "Heptan",
+              "c": 7,
+              "h": 16,
+              "sied": 98
+            }
+          ],
+          "template": "Wie viele Wasserstoffatome hat {name$} mit {c} Kohlenstoffatomen?",
+          "answer": "2 * c + 2",
+          "round": 0,
+          "solution": "2 · {c} + 2 = {ergebnis}",
+          "misconceptions": [
+            {
+              "id": "formel_ohne_plus_zwei",
+              "value": "2 * c",
+              "feedback": "Die beiden Kettenenden tragen je ein H-Atom zusätzlich: 2n + 2."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Pentan",
+                  "c": 5,
+                  "h": 12,
+                  "sied": 36
+                },
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                },
+                {
+                  "name": "Methan",
+                  "c": 1,
+                  "h": 4,
+                  "sied": -162
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-KW-04-2",
+          "tabelle": [
+            {
+              "name": "Methan",
+              "c": 1,
+              "h": 4,
+              "sied": -162
+            },
+            {
+              "name": "Propan",
+              "c": 3,
+              "h": 8,
+              "sied": -42
+            },
+            {
+              "name": "Pentan",
+              "c": 5,
+              "h": 12,
+              "sied": 36
+            },
+            {
+              "name": "Heptan",
+              "c": 7,
+              "h": 16,
+              "sied": 98
+            }
+          ],
+          "template": "Wie viele O₂-Moleküle braucht die vollständige Verbrennung eines Moleküls {name$} (C{c}H{h})?",
+          "answer": "c + (2 * c + 2) / 4",
+          "round": 2,
+          "solution": "O-Atome rechts: 2·{c} + {c+1} = {3*c+1} → : 2 = {ergebnis} O₂",
+          "misconceptions": [
+            {
+              "id": "nur_teil_berechnet",
+              "value": "c",
+              "feedback": "Auch die Sauerstoffatome im entstehenden Wasser gehören zur Bilanz."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Pentan",
+                  "c": 5,
+                  "h": 12,
+                  "sied": 36
+                },
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                },
+                {
+                  "name": "Methan",
+                  "c": 1,
+                  "h": 4,
+                  "sied": -162
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-KW-04-3",
+          "tabelle": [
+            {
+              "name": "Methan",
+              "c": 1,
+              "h": 4,
+              "sied": -162
+            },
+            {
+              "name": "Propan",
+              "c": 3,
+              "h": 8,
+              "sied": -42
+            },
+            {
+              "name": "Pentan",
+              "c": 5,
+              "h": 12,
+              "sied": 36
+            },
+            {
+              "name": "Heptan",
+              "c": 7,
+              "h": 16,
+              "sied": 98
+            }
+          ],
+          "template": "{name$} siedet bei {sied} °C. Um wie viel Grad liegt der Siedepunkt unter 126 °C (Octan)?",
+          "answer": "126 - sied",
+          "unit_label": "°C",
+          "round": 1,
+          "solution": "126 − ({sied}) = {ergebnis} °C",
+          "misconceptions": [
+            {
+              "id": "addiert_statt_subtrahiert",
+              "value": "126 + sied",
+              "feedback": "Gefragt ist der Unterschied — also die Differenz."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Pentan",
+                  "c": 5,
+                  "h": 12,
+                  "sied": 36
+                },
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                },
+                {
+                  "name": "Methan",
+                  "c": 1,
+                  "h": 4,
+                  "sied": -162
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-KW-04-4",
+          "tabelle": [
+            {
+              "name": "Methanol",
+              "formel": "CH₃OH",
+              "M": 32,
+              "atome": 6
+            },
+            {
+              "name": "Ethanol",
+              "formel": "C₂H₅OH",
+              "M": 46,
+              "atome": 9
+            },
+            {
+              "name": "Essigsäure",
+              "formel": "CH₃COOH",
+              "M": 60,
+              "atome": 8
+            },
+            {
+              "name": "Glycerin",
+              "formel": "C₃H₈O₃",
+              "M": 92,
+              "atome": 14
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Methanol",
+                  "formel": "CH₃OH",
+                  "M": 32,
+                  "atome": 6
+                },
+                {
+                  "name": "Ethanol",
+                  "formel": "C₂H₅OH",
+                  "M": 46,
+                  "atome": 9
+                },
+                {
+                  "name": "Essigsäure",
+                  "formel": "CH₃COOH",
+                  "M": 60,
+                  "atome": 8
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Ethanol",
+                  "formel": "C₂H₅OH",
+                  "M": 46,
+                  "atome": 9
+                },
+                {
+                  "name": "Essigsäure",
+                  "formel": "CH₃COOH",
+                  "M": 60,
+                  "atome": 8
+                },
+                {
+                  "name": "Glycerin",
+                  "formel": "C₃H₈O₃",
+                  "M": 92,
+                  "atome": 14
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "kw-05": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-KW-05-1",
+          "tabelle": [
+            {
+              "name": "Methan",
+              "c": 1,
+              "h": 4,
+              "sied": -162
+            },
+            {
+              "name": "Propan",
+              "c": 3,
+              "h": 8,
+              "sied": -42
+            },
+            {
+              "name": "Pentan",
+              "c": 5,
+              "h": 12,
+              "sied": 36
+            },
+            {
+              "name": "Heptan",
+              "c": 7,
+              "h": 16,
+              "sied": 98
+            }
+          ],
+          "template": "Wie viele Wasserstoffatome hat {name$} mit {c} Kohlenstoffatomen?",
+          "answer": "2 * c + 2",
+          "round": 0,
+          "solution": "2 · {c} + 2 = {ergebnis}",
+          "misconceptions": [
+            {
+              "id": "formel_ohne_plus_zwei",
+              "value": "2 * c",
+              "feedback": "Die beiden Kettenenden tragen je ein H-Atom zusätzlich: 2n + 2."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Pentan",
+                  "c": 5,
+                  "h": 12,
+                  "sied": 36
+                },
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                },
+                {
+                  "name": "Methan",
+                  "c": 1,
+                  "h": 4,
+                  "sied": -162
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-KW-05-2",
+          "tabelle": [
+            {
+              "name": "Methan",
+              "c": 1,
+              "h": 4,
+              "sied": -162
+            },
+            {
+              "name": "Propan",
+              "c": 3,
+              "h": 8,
+              "sied": -42
+            },
+            {
+              "name": "Pentan",
+              "c": 5,
+              "h": 12,
+              "sied": 36
+            },
+            {
+              "name": "Heptan",
+              "c": 7,
+              "h": 16,
+              "sied": 98
+            }
+          ],
+          "template": "Wie viele O₂-Moleküle braucht die vollständige Verbrennung eines Moleküls {name$} (C{c}H{h})?",
+          "answer": "c + (2 * c + 2) / 4",
+          "round": 2,
+          "solution": "O-Atome rechts: 2·{c} + {c+1} = {3*c+1} → : 2 = {ergebnis} O₂",
+          "misconceptions": [
+            {
+              "id": "nur_teil_berechnet",
+              "value": "c",
+              "feedback": "Auch die Sauerstoffatome im entstehenden Wasser gehören zur Bilanz."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Pentan",
+                  "c": 5,
+                  "h": 12,
+                  "sied": 36
+                },
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                },
+                {
+                  "name": "Methan",
+                  "c": 1,
+                  "h": 4,
+                  "sied": -162
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-KW-05-3",
+          "tabelle": [
+            {
+              "name": "Methan",
+              "c": 1,
+              "h": 4,
+              "sied": -162
+            },
+            {
+              "name": "Propan",
+              "c": 3,
+              "h": 8,
+              "sied": -42
+            },
+            {
+              "name": "Pentan",
+              "c": 5,
+              "h": 12,
+              "sied": 36
+            },
+            {
+              "name": "Heptan",
+              "c": 7,
+              "h": 16,
+              "sied": 98
+            }
+          ],
+          "template": "{name$} siedet bei {sied} °C. Um wie viel Grad liegt der Siedepunkt unter 126 °C (Octan)?",
+          "answer": "126 - sied",
+          "unit_label": "°C",
+          "round": 1,
+          "solution": "126 − ({sied}) = {ergebnis} °C",
+          "misconceptions": [
+            {
+              "id": "addiert_statt_subtrahiert",
+              "value": "126 + sied",
+              "feedback": "Gefragt ist der Unterschied — also die Differenz."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Pentan",
+                  "c": 5,
+                  "h": 12,
+                  "sied": 36
+                },
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                },
+                {
+                  "name": "Methan",
+                  "c": 1,
+                  "h": 4,
+                  "sied": -162
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-KW-05-4",
+          "tabelle": [
+            {
+              "name": "Methanol",
+              "formel": "CH₃OH",
+              "M": 32,
+              "atome": 6
+            },
+            {
+              "name": "Ethanol",
+              "formel": "C₂H₅OH",
+              "M": 46,
+              "atome": 9
+            },
+            {
+              "name": "Essigsäure",
+              "formel": "CH₃COOH",
+              "M": 60,
+              "atome": 8
+            },
+            {
+              "name": "Glycerin",
+              "formel": "C₃H₈O₃",
+              "M": 92,
+              "atome": 14
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Methanol",
+                  "formel": "CH₃OH",
+                  "M": 32,
+                  "atome": 6
+                },
+                {
+                  "name": "Ethanol",
+                  "formel": "C₂H₅OH",
+                  "M": 46,
+                  "atome": 9
+                },
+                {
+                  "name": "Essigsäure",
+                  "formel": "CH₃COOH",
+                  "M": 60,
+                  "atome": 8
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Ethanol",
+                  "formel": "C₂H₅OH",
+                  "M": 46,
+                  "atome": 9
+                },
+                {
+                  "name": "Essigsäure",
+                  "formel": "CH₃COOH",
+                  "M": 60,
+                  "atome": 8
+                },
+                {
+                  "name": "Glycerin",
+                  "formel": "C₃H₈O₃",
+                  "M": 92,
+                  "atome": 14
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "kw-06": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-KW-06-1",
+          "tabelle": [
+            {
+              "name": "Methan",
+              "c": 1,
+              "h": 4,
+              "sied": -162
+            },
+            {
+              "name": "Propan",
+              "c": 3,
+              "h": 8,
+              "sied": -42
+            },
+            {
+              "name": "Pentan",
+              "c": 5,
+              "h": 12,
+              "sied": 36
+            },
+            {
+              "name": "Heptan",
+              "c": 7,
+              "h": 16,
+              "sied": 98
+            }
+          ],
+          "template": "Wie viele Wasserstoffatome hat {name$} mit {c} Kohlenstoffatomen?",
+          "answer": "2 * c + 2",
+          "round": 0,
+          "solution": "2 · {c} + 2 = {ergebnis}",
+          "misconceptions": [
+            {
+              "id": "formel_ohne_plus_zwei",
+              "value": "2 * c",
+              "feedback": "Die beiden Kettenenden tragen je ein H-Atom zusätzlich: 2n + 2."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Pentan",
+                  "c": 5,
+                  "h": 12,
+                  "sied": 36
+                },
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                },
+                {
+                  "name": "Methan",
+                  "c": 1,
+                  "h": 4,
+                  "sied": -162
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-KW-06-2",
+          "tabelle": [
+            {
+              "name": "Methan",
+              "c": 1,
+              "h": 4,
+              "sied": -162
+            },
+            {
+              "name": "Propan",
+              "c": 3,
+              "h": 8,
+              "sied": -42
+            },
+            {
+              "name": "Pentan",
+              "c": 5,
+              "h": 12,
+              "sied": 36
+            },
+            {
+              "name": "Heptan",
+              "c": 7,
+              "h": 16,
+              "sied": 98
+            }
+          ],
+          "template": "Wie viele O₂-Moleküle braucht die vollständige Verbrennung eines Moleküls {name$} (C{c}H{h})?",
+          "answer": "c + (2 * c + 2) / 4",
+          "round": 2,
+          "solution": "O-Atome rechts: 2·{c} + {c+1} = {3*c+1} → : 2 = {ergebnis} O₂",
+          "misconceptions": [
+            {
+              "id": "nur_teil_berechnet",
+              "value": "c",
+              "feedback": "Auch die Sauerstoffatome im entstehenden Wasser gehören zur Bilanz."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Pentan",
+                  "c": 5,
+                  "h": 12,
+                  "sied": 36
+                },
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                },
+                {
+                  "name": "Methan",
+                  "c": 1,
+                  "h": 4,
+                  "sied": -162
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-KW-06-3",
+          "tabelle": [
+            {
+              "name": "Methan",
+              "c": 1,
+              "h": 4,
+              "sied": -162
+            },
+            {
+              "name": "Propan",
+              "c": 3,
+              "h": 8,
+              "sied": -42
+            },
+            {
+              "name": "Pentan",
+              "c": 5,
+              "h": 12,
+              "sied": 36
+            },
+            {
+              "name": "Heptan",
+              "c": 7,
+              "h": 16,
+              "sied": 98
+            }
+          ],
+          "template": "{name$} siedet bei {sied} °C. Um wie viel Grad liegt der Siedepunkt unter 126 °C (Octan)?",
+          "answer": "126 - sied",
+          "unit_label": "°C",
+          "round": 1,
+          "solution": "126 − ({sied}) = {ergebnis} °C",
+          "misconceptions": [
+            {
+              "id": "addiert_statt_subtrahiert",
+              "value": "126 + sied",
+              "feedback": "Gefragt ist der Unterschied — also die Differenz."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Pentan",
+                  "c": 5,
+                  "h": 12,
+                  "sied": 36
+                },
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                },
+                {
+                  "name": "Methan",
+                  "c": 1,
+                  "h": 4,
+                  "sied": -162
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-KW-06-4",
+          "tabelle": [
+            {
+              "name": "Methanol",
+              "formel": "CH₃OH",
+              "M": 32,
+              "atome": 6
+            },
+            {
+              "name": "Ethanol",
+              "formel": "C₂H₅OH",
+              "M": 46,
+              "atome": 9
+            },
+            {
+              "name": "Essigsäure",
+              "formel": "CH₃COOH",
+              "M": 60,
+              "atome": 8
+            },
+            {
+              "name": "Glycerin",
+              "formel": "C₃H₈O₃",
+              "M": 92,
+              "atome": 14
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Methanol",
+                  "formel": "CH₃OH",
+                  "M": 32,
+                  "atome": 6
+                },
+                {
+                  "name": "Ethanol",
+                  "formel": "C₂H₅OH",
+                  "M": 46,
+                  "atome": 9
+                },
+                {
+                  "name": "Essigsäure",
+                  "formel": "CH₃COOH",
+                  "M": 60,
+                  "atome": 8
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Ethanol",
+                  "formel": "C₂H₅OH",
+                  "M": 46,
+                  "atome": 9
+                },
+                {
+                  "name": "Essigsäure",
+                  "formel": "CH₃COOH",
+                  "M": 60,
+                  "atome": 8
+                },
+                {
+                  "name": "Glycerin",
+                  "formel": "C₃H₈O₃",
+                  "M": 92,
+                  "atome": 14
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "kw-07": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-KW-07-1",
+          "tabelle": [
+            {
+              "name": "Methan",
+              "c": 1,
+              "h": 4,
+              "sied": -162
+            },
+            {
+              "name": "Propan",
+              "c": 3,
+              "h": 8,
+              "sied": -42
+            },
+            {
+              "name": "Pentan",
+              "c": 5,
+              "h": 12,
+              "sied": 36
+            },
+            {
+              "name": "Heptan",
+              "c": 7,
+              "h": 16,
+              "sied": 98
+            }
+          ],
+          "template": "Wie viele Wasserstoffatome hat {name$} mit {c} Kohlenstoffatomen?",
+          "answer": "2 * c + 2",
+          "round": 0,
+          "solution": "2 · {c} + 2 = {ergebnis}",
+          "misconceptions": [
+            {
+              "id": "formel_ohne_plus_zwei",
+              "value": "2 * c",
+              "feedback": "Die beiden Kettenenden tragen je ein H-Atom zusätzlich: 2n + 2."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Pentan",
+                  "c": 5,
+                  "h": 12,
+                  "sied": 36
+                },
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                },
+                {
+                  "name": "Methan",
+                  "c": 1,
+                  "h": 4,
+                  "sied": -162
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-KW-07-2",
+          "tabelle": [
+            {
+              "name": "Methan",
+              "c": 1,
+              "h": 4,
+              "sied": -162
+            },
+            {
+              "name": "Propan",
+              "c": 3,
+              "h": 8,
+              "sied": -42
+            },
+            {
+              "name": "Pentan",
+              "c": 5,
+              "h": 12,
+              "sied": 36
+            },
+            {
+              "name": "Heptan",
+              "c": 7,
+              "h": 16,
+              "sied": 98
+            }
+          ],
+          "template": "Wie viele O₂-Moleküle braucht die vollständige Verbrennung eines Moleküls {name$} (C{c}H{h})?",
+          "answer": "c + (2 * c + 2) / 4",
+          "round": 2,
+          "solution": "O-Atome rechts: 2·{c} + {c+1} = {3*c+1} → : 2 = {ergebnis} O₂",
+          "misconceptions": [
+            {
+              "id": "nur_teil_berechnet",
+              "value": "c",
+              "feedback": "Auch die Sauerstoffatome im entstehenden Wasser gehören zur Bilanz."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Pentan",
+                  "c": 5,
+                  "h": 12,
+                  "sied": 36
+                },
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                },
+                {
+                  "name": "Methan",
+                  "c": 1,
+                  "h": 4,
+                  "sied": -162
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-KW-07-3",
+          "tabelle": [
+            {
+              "name": "Methan",
+              "c": 1,
+              "h": 4,
+              "sied": -162
+            },
+            {
+              "name": "Propan",
+              "c": 3,
+              "h": 8,
+              "sied": -42
+            },
+            {
+              "name": "Pentan",
+              "c": 5,
+              "h": 12,
+              "sied": 36
+            },
+            {
+              "name": "Heptan",
+              "c": 7,
+              "h": 16,
+              "sied": 98
+            }
+          ],
+          "template": "{name$} siedet bei {sied} °C. Um wie viel Grad liegt der Siedepunkt unter 126 °C (Octan)?",
+          "answer": "126 - sied",
+          "unit_label": "°C",
+          "round": 1,
+          "solution": "126 − ({sied}) = {ergebnis} °C",
+          "misconceptions": [
+            {
+              "id": "addiert_statt_subtrahiert",
+              "value": "126 + sied",
+              "feedback": "Gefragt ist der Unterschied — also die Differenz."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Pentan",
+                  "c": 5,
+                  "h": 12,
+                  "sied": 36
+                },
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Propan",
+                  "c": 3,
+                  "h": 8,
+                  "sied": -42
+                },
+                {
+                  "name": "Heptan",
+                  "c": 7,
+                  "h": 16,
+                  "sied": 98
+                },
+                {
+                  "name": "Methan",
+                  "c": 1,
+                  "h": 4,
+                  "sied": -162
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-KW-07-4",
+          "tabelle": [
+            {
+              "name": "Methanol",
+              "formel": "CH₃OH",
+              "M": 32,
+              "atome": 6
+            },
+            {
+              "name": "Ethanol",
+              "formel": "C₂H₅OH",
+              "M": 46,
+              "atome": 9
+            },
+            {
+              "name": "Essigsäure",
+              "formel": "CH₃COOH",
+              "M": 60,
+              "atome": 8
+            },
+            {
+              "name": "Glycerin",
+              "formel": "C₃H₈O₃",
+              "M": 92,
+              "atome": 14
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Methanol",
+                  "formel": "CH₃OH",
+                  "M": 32,
+                  "atome": 6
+                },
+                {
+                  "name": "Ethanol",
+                  "formel": "C₂H₅OH",
+                  "M": 46,
+                  "atome": 9
+                },
+                {
+                  "name": "Essigsäure",
+                  "formel": "CH₃COOH",
+                  "M": 60,
+                  "atome": 8
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Ethanol",
+                  "formel": "C₂H₅OH",
+                  "M": 46,
+                  "atome": 9
+                },
+                {
+                  "name": "Essigsäure",
+                  "formel": "CH₃COOH",
+                  "M": 60,
+                  "atome": 8
+                },
+                {
+                  "name": "Glycerin",
+                  "formel": "C₃H₈O₃",
+                  "M": 92,
+                  "atome": 14
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

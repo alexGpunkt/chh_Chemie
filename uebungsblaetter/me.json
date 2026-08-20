@@ -1,0 +1,2534 @@
+{
+  "_hinweis": "Generatoren fuer die gedruckten Uebungsblaetter. Erzeugt von werkzeuge/uebungsblaetter_bauen.py; von Hand ergaenzte Einheiten bleiben beim erneuten Lauf erhalten.",
+  "bereich": "me",
+  "title": "Metalle",
+  "einheiten": {
+    "me-01": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-ME-01-1",
+          "tabelle": [
+            {
+              "name": "Aluminium",
+              "formel": "Al",
+              "dichte": 2.7,
+              "M": 27,
+              "atome": 1,
+              "schmelz": 660
+            },
+            {
+              "name": "Eisen",
+              "formel": "Fe",
+              "dichte": 7.9,
+              "M": 56,
+              "atome": 1,
+              "schmelz": 1535
+            },
+            {
+              "name": "Kupfer",
+              "formel": "Cu",
+              "dichte": 8.9,
+              "M": 64,
+              "atome": 1,
+              "schmelz": 1083
+            },
+            {
+              "name": "Blei",
+              "formel": "Pb",
+              "dichte": 11.3,
+              "M": 207,
+              "atome": 1,
+              "schmelz": 327
+            }
+          ],
+          "vars": {
+            "V": {
+              "aus": [
+                10,
+                20,
+                25,
+                50,
+                100
+              ]
+            }
+          },
+          "template": "Ein Stück {name$} hat ein Volumen von {V} cm³. Welche Masse hat es? (ρ = {dichte} g/cm³)",
+          "answer": "dichte * V",
+          "unit_label": "g",
+          "round": 1,
+          "solution": "m = {dichte} g/cm³ · {V} cm³ = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "dichte_geteilt_statt_mal",
+              "value": "V / dichte",
+              "feedback": "m = ρ · V — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Blei",
+                  "formel": "Pb",
+                  "dichte": 11.3,
+                  "M": 207,
+                  "atome": 1,
+                  "schmelz": 327
+                },
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    10,
+                    20,
+                    25
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                },
+                {
+                  "name": "Eisen",
+                  "formel": "Fe",
+                  "dichte": 7.9,
+                  "M": 56,
+                  "atome": 1,
+                  "schmelz": 1535
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    25,
+                    50,
+                    100
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-ME-01-2",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 800,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                58,
+                60,
+                63,
+                70
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Kupfer. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 450,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    58,
+                    60,
+                    63
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 450,
+                  "bis": 800,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    60,
+                    63,
+                    70
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-ME-01-3",
+          "tabelle": [
+            {
+              "name": "Aluminium",
+              "formel": "Al",
+              "dichte": 2.7,
+              "M": 27,
+              "atome": 1,
+              "schmelz": 660
+            },
+            {
+              "name": "Eisen",
+              "formel": "Fe",
+              "dichte": 7.9,
+              "M": 56,
+              "atome": 1,
+              "schmelz": 1535
+            },
+            {
+              "name": "Kupfer",
+              "formel": "Cu",
+              "dichte": 8.9,
+              "M": 64,
+              "atome": 1,
+              "schmelz": 1083
+            },
+            {
+              "name": "Blei",
+              "formel": "Pb",
+              "dichte": 11.3,
+              "M": 207,
+              "atome": 1,
+              "schmelz": 327
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Blei",
+                  "formel": "Pb",
+                  "dichte": 11.3,
+                  "M": 207,
+                  "atome": 1,
+                  "schmelz": 327
+                },
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                },
+                {
+                  "name": "Eisen",
+                  "formel": "Fe",
+                  "dichte": 7.9,
+                  "M": 56,
+                  "atome": 1,
+                  "schmelz": 1535
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-ME-01-4",
+          "vars": {
+            "m": {
+              "aus": [
+                70,
+                140,
+                210,
+                280
+              ]
+            }
+          },
+          "template": "Ein Erz enthält Eisen und Sauerstoff im Massenverhältnis 7 : 3. Wie viel Sauerstoff steckt neben {m} g Eisen darin?",
+          "answer": "m * 3 / 7",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "{m} g : 7 · 3 = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "verhaeltnis_umgedreht",
+              "value": "m * 7 / 3",
+              "feedback": "Verhältnis umgedreht — prüfe, welcher Stoff der größere Anteil ist."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    70,
+                    140,
+                    210
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    140,
+                    210,
+                    280
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "me-02": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-ME-02-1",
+          "tabelle": [
+            {
+              "name": "Aluminium",
+              "formel": "Al",
+              "dichte": 2.7,
+              "M": 27,
+              "atome": 1,
+              "schmelz": 660
+            },
+            {
+              "name": "Eisen",
+              "formel": "Fe",
+              "dichte": 7.9,
+              "M": 56,
+              "atome": 1,
+              "schmelz": 1535
+            },
+            {
+              "name": "Kupfer",
+              "formel": "Cu",
+              "dichte": 8.9,
+              "M": 64,
+              "atome": 1,
+              "schmelz": 1083
+            },
+            {
+              "name": "Blei",
+              "formel": "Pb",
+              "dichte": 11.3,
+              "M": 207,
+              "atome": 1,
+              "schmelz": 327
+            }
+          ],
+          "vars": {
+            "V": {
+              "aus": [
+                10,
+                20,
+                25,
+                50,
+                100
+              ]
+            }
+          },
+          "template": "Ein Stück {name$} hat ein Volumen von {V} cm³. Welche Masse hat es? (ρ = {dichte} g/cm³)",
+          "answer": "dichte * V",
+          "unit_label": "g",
+          "round": 1,
+          "solution": "m = {dichte} g/cm³ · {V} cm³ = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "dichte_geteilt_statt_mal",
+              "value": "V / dichte",
+              "feedback": "m = ρ · V — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Blei",
+                  "formel": "Pb",
+                  "dichte": 11.3,
+                  "M": 207,
+                  "atome": 1,
+                  "schmelz": 327
+                },
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    10,
+                    20,
+                    25
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                },
+                {
+                  "name": "Eisen",
+                  "formel": "Fe",
+                  "dichte": 7.9,
+                  "M": 56,
+                  "atome": 1,
+                  "schmelz": 1535
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    25,
+                    50,
+                    100
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-ME-02-2",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 800,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                58,
+                60,
+                63,
+                70
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Kupfer. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 450,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    58,
+                    60,
+                    63
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 450,
+                  "bis": 800,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    60,
+                    63,
+                    70
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-ME-02-3",
+          "tabelle": [
+            {
+              "name": "Aluminium",
+              "formel": "Al",
+              "dichte": 2.7,
+              "M": 27,
+              "atome": 1,
+              "schmelz": 660
+            },
+            {
+              "name": "Eisen",
+              "formel": "Fe",
+              "dichte": 7.9,
+              "M": 56,
+              "atome": 1,
+              "schmelz": 1535
+            },
+            {
+              "name": "Kupfer",
+              "formel": "Cu",
+              "dichte": 8.9,
+              "M": 64,
+              "atome": 1,
+              "schmelz": 1083
+            },
+            {
+              "name": "Blei",
+              "formel": "Pb",
+              "dichte": 11.3,
+              "M": 207,
+              "atome": 1,
+              "schmelz": 327
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Blei",
+                  "formel": "Pb",
+                  "dichte": 11.3,
+                  "M": 207,
+                  "atome": 1,
+                  "schmelz": 327
+                },
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                },
+                {
+                  "name": "Eisen",
+                  "formel": "Fe",
+                  "dichte": 7.9,
+                  "M": 56,
+                  "atome": 1,
+                  "schmelz": 1535
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-ME-02-4",
+          "vars": {
+            "m": {
+              "aus": [
+                70,
+                140,
+                210,
+                280
+              ]
+            }
+          },
+          "template": "Ein Erz enthält Eisen und Sauerstoff im Massenverhältnis 7 : 3. Wie viel Sauerstoff steckt neben {m} g Eisen darin?",
+          "answer": "m * 3 / 7",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "{m} g : 7 · 3 = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "verhaeltnis_umgedreht",
+              "value": "m * 7 / 3",
+              "feedback": "Verhältnis umgedreht — prüfe, welcher Stoff der größere Anteil ist."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    70,
+                    140,
+                    210
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    140,
+                    210,
+                    280
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "me-03": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-ME-03-1",
+          "tabelle": [
+            {
+              "name": "Aluminium",
+              "formel": "Al",
+              "dichte": 2.7,
+              "M": 27,
+              "atome": 1,
+              "schmelz": 660
+            },
+            {
+              "name": "Eisen",
+              "formel": "Fe",
+              "dichte": 7.9,
+              "M": 56,
+              "atome": 1,
+              "schmelz": 1535
+            },
+            {
+              "name": "Kupfer",
+              "formel": "Cu",
+              "dichte": 8.9,
+              "M": 64,
+              "atome": 1,
+              "schmelz": 1083
+            },
+            {
+              "name": "Blei",
+              "formel": "Pb",
+              "dichte": 11.3,
+              "M": 207,
+              "atome": 1,
+              "schmelz": 327
+            }
+          ],
+          "vars": {
+            "V": {
+              "aus": [
+                10,
+                20,
+                25,
+                50,
+                100
+              ]
+            }
+          },
+          "template": "Ein Stück {name$} hat ein Volumen von {V} cm³. Welche Masse hat es? (ρ = {dichte} g/cm³)",
+          "answer": "dichte * V",
+          "unit_label": "g",
+          "round": 1,
+          "solution": "m = {dichte} g/cm³ · {V} cm³ = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "dichte_geteilt_statt_mal",
+              "value": "V / dichte",
+              "feedback": "m = ρ · V — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Blei",
+                  "formel": "Pb",
+                  "dichte": 11.3,
+                  "M": 207,
+                  "atome": 1,
+                  "schmelz": 327
+                },
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    10,
+                    20,
+                    25
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                },
+                {
+                  "name": "Eisen",
+                  "formel": "Fe",
+                  "dichte": 7.9,
+                  "M": 56,
+                  "atome": 1,
+                  "schmelz": 1535
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    25,
+                    50,
+                    100
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-ME-03-2",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 800,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                58,
+                60,
+                63,
+                70
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Kupfer. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 450,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    58,
+                    60,
+                    63
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 450,
+                  "bis": 800,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    60,
+                    63,
+                    70
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-ME-03-3",
+          "tabelle": [
+            {
+              "name": "Aluminium",
+              "formel": "Al",
+              "dichte": 2.7,
+              "M": 27,
+              "atome": 1,
+              "schmelz": 660
+            },
+            {
+              "name": "Eisen",
+              "formel": "Fe",
+              "dichte": 7.9,
+              "M": 56,
+              "atome": 1,
+              "schmelz": 1535
+            },
+            {
+              "name": "Kupfer",
+              "formel": "Cu",
+              "dichte": 8.9,
+              "M": 64,
+              "atome": 1,
+              "schmelz": 1083
+            },
+            {
+              "name": "Blei",
+              "formel": "Pb",
+              "dichte": 11.3,
+              "M": 207,
+              "atome": 1,
+              "schmelz": 327
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Blei",
+                  "formel": "Pb",
+                  "dichte": 11.3,
+                  "M": 207,
+                  "atome": 1,
+                  "schmelz": 327
+                },
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                },
+                {
+                  "name": "Eisen",
+                  "formel": "Fe",
+                  "dichte": 7.9,
+                  "M": 56,
+                  "atome": 1,
+                  "schmelz": 1535
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-ME-03-4",
+          "vars": {
+            "m": {
+              "aus": [
+                70,
+                140,
+                210,
+                280
+              ]
+            }
+          },
+          "template": "Ein Erz enthält Eisen und Sauerstoff im Massenverhältnis 7 : 3. Wie viel Sauerstoff steckt neben {m} g Eisen darin?",
+          "answer": "m * 3 / 7",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "{m} g : 7 · 3 = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "verhaeltnis_umgedreht",
+              "value": "m * 7 / 3",
+              "feedback": "Verhältnis umgedreht — prüfe, welcher Stoff der größere Anteil ist."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    70,
+                    140,
+                    210
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    140,
+                    210,
+                    280
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "me-04": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-ME-04-1",
+          "tabelle": [
+            {
+              "name": "Aluminium",
+              "formel": "Al",
+              "dichte": 2.7,
+              "M": 27,
+              "atome": 1,
+              "schmelz": 660
+            },
+            {
+              "name": "Eisen",
+              "formel": "Fe",
+              "dichte": 7.9,
+              "M": 56,
+              "atome": 1,
+              "schmelz": 1535
+            },
+            {
+              "name": "Kupfer",
+              "formel": "Cu",
+              "dichte": 8.9,
+              "M": 64,
+              "atome": 1,
+              "schmelz": 1083
+            },
+            {
+              "name": "Blei",
+              "formel": "Pb",
+              "dichte": 11.3,
+              "M": 207,
+              "atome": 1,
+              "schmelz": 327
+            }
+          ],
+          "vars": {
+            "V": {
+              "aus": [
+                10,
+                20,
+                25,
+                50,
+                100
+              ]
+            }
+          },
+          "template": "Ein Stück {name$} hat ein Volumen von {V} cm³. Welche Masse hat es? (ρ = {dichte} g/cm³)",
+          "answer": "dichte * V",
+          "unit_label": "g",
+          "round": 1,
+          "solution": "m = {dichte} g/cm³ · {V} cm³ = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "dichte_geteilt_statt_mal",
+              "value": "V / dichte",
+              "feedback": "m = ρ · V — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Blei",
+                  "formel": "Pb",
+                  "dichte": 11.3,
+                  "M": 207,
+                  "atome": 1,
+                  "schmelz": 327
+                },
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    10,
+                    20,
+                    25
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                },
+                {
+                  "name": "Eisen",
+                  "formel": "Fe",
+                  "dichte": 7.9,
+                  "M": 56,
+                  "atome": 1,
+                  "schmelz": 1535
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    25,
+                    50,
+                    100
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-ME-04-2",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 800,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                58,
+                60,
+                63,
+                70
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Kupfer. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 450,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    58,
+                    60,
+                    63
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 450,
+                  "bis": 800,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    60,
+                    63,
+                    70
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-ME-04-3",
+          "tabelle": [
+            {
+              "name": "Aluminium",
+              "formel": "Al",
+              "dichte": 2.7,
+              "M": 27,
+              "atome": 1,
+              "schmelz": 660
+            },
+            {
+              "name": "Eisen",
+              "formel": "Fe",
+              "dichte": 7.9,
+              "M": 56,
+              "atome": 1,
+              "schmelz": 1535
+            },
+            {
+              "name": "Kupfer",
+              "formel": "Cu",
+              "dichte": 8.9,
+              "M": 64,
+              "atome": 1,
+              "schmelz": 1083
+            },
+            {
+              "name": "Blei",
+              "formel": "Pb",
+              "dichte": 11.3,
+              "M": 207,
+              "atome": 1,
+              "schmelz": 327
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Blei",
+                  "formel": "Pb",
+                  "dichte": 11.3,
+                  "M": 207,
+                  "atome": 1,
+                  "schmelz": 327
+                },
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                },
+                {
+                  "name": "Eisen",
+                  "formel": "Fe",
+                  "dichte": 7.9,
+                  "M": 56,
+                  "atome": 1,
+                  "schmelz": 1535
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-ME-04-4",
+          "vars": {
+            "m": {
+              "aus": [
+                70,
+                140,
+                210,
+                280
+              ]
+            }
+          },
+          "template": "Ein Erz enthält Eisen und Sauerstoff im Massenverhältnis 7 : 3. Wie viel Sauerstoff steckt neben {m} g Eisen darin?",
+          "answer": "m * 3 / 7",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "{m} g : 7 · 3 = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "verhaeltnis_umgedreht",
+              "value": "m * 7 / 3",
+              "feedback": "Verhältnis umgedreht — prüfe, welcher Stoff der größere Anteil ist."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    70,
+                    140,
+                    210
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    140,
+                    210,
+                    280
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "me-05": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-ME-05-1",
+          "tabelle": [
+            {
+              "name": "Aluminium",
+              "formel": "Al",
+              "dichte": 2.7,
+              "M": 27,
+              "atome": 1,
+              "schmelz": 660
+            },
+            {
+              "name": "Eisen",
+              "formel": "Fe",
+              "dichte": 7.9,
+              "M": 56,
+              "atome": 1,
+              "schmelz": 1535
+            },
+            {
+              "name": "Kupfer",
+              "formel": "Cu",
+              "dichte": 8.9,
+              "M": 64,
+              "atome": 1,
+              "schmelz": 1083
+            },
+            {
+              "name": "Blei",
+              "formel": "Pb",
+              "dichte": 11.3,
+              "M": 207,
+              "atome": 1,
+              "schmelz": 327
+            }
+          ],
+          "vars": {
+            "V": {
+              "aus": [
+                10,
+                20,
+                25,
+                50,
+                100
+              ]
+            }
+          },
+          "template": "Ein Stück {name$} hat ein Volumen von {V} cm³. Welche Masse hat es? (ρ = {dichte} g/cm³)",
+          "answer": "dichte * V",
+          "unit_label": "g",
+          "round": 1,
+          "solution": "m = {dichte} g/cm³ · {V} cm³ = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "dichte_geteilt_statt_mal",
+              "value": "V / dichte",
+              "feedback": "m = ρ · V — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Blei",
+                  "formel": "Pb",
+                  "dichte": 11.3,
+                  "M": 207,
+                  "atome": 1,
+                  "schmelz": 327
+                },
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    10,
+                    20,
+                    25
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                },
+                {
+                  "name": "Eisen",
+                  "formel": "Fe",
+                  "dichte": 7.9,
+                  "M": 56,
+                  "atome": 1,
+                  "schmelz": 1535
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    25,
+                    50,
+                    100
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-ME-05-2",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 800,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                58,
+                60,
+                63,
+                70
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Kupfer. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 450,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    58,
+                    60,
+                    63
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 450,
+                  "bis": 800,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    60,
+                    63,
+                    70
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-ME-05-3",
+          "tabelle": [
+            {
+              "name": "Aluminium",
+              "formel": "Al",
+              "dichte": 2.7,
+              "M": 27,
+              "atome": 1,
+              "schmelz": 660
+            },
+            {
+              "name": "Eisen",
+              "formel": "Fe",
+              "dichte": 7.9,
+              "M": 56,
+              "atome": 1,
+              "schmelz": 1535
+            },
+            {
+              "name": "Kupfer",
+              "formel": "Cu",
+              "dichte": 8.9,
+              "M": 64,
+              "atome": 1,
+              "schmelz": 1083
+            },
+            {
+              "name": "Blei",
+              "formel": "Pb",
+              "dichte": 11.3,
+              "M": 207,
+              "atome": 1,
+              "schmelz": 327
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Blei",
+                  "formel": "Pb",
+                  "dichte": 11.3,
+                  "M": 207,
+                  "atome": 1,
+                  "schmelz": 327
+                },
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                },
+                {
+                  "name": "Eisen",
+                  "formel": "Fe",
+                  "dichte": 7.9,
+                  "M": 56,
+                  "atome": 1,
+                  "schmelz": 1535
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-ME-05-4",
+          "vars": {
+            "m": {
+              "aus": [
+                70,
+                140,
+                210,
+                280
+              ]
+            }
+          },
+          "template": "Ein Erz enthält Eisen und Sauerstoff im Massenverhältnis 7 : 3. Wie viel Sauerstoff steckt neben {m} g Eisen darin?",
+          "answer": "m * 3 / 7",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "{m} g : 7 · 3 = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "verhaeltnis_umgedreht",
+              "value": "m * 7 / 3",
+              "feedback": "Verhältnis umgedreht — prüfe, welcher Stoff der größere Anteil ist."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    70,
+                    140,
+                    210
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    140,
+                    210,
+                    280
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "me-06": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-ME-06-1",
+          "tabelle": [
+            {
+              "name": "Aluminium",
+              "formel": "Al",
+              "dichte": 2.7,
+              "M": 27,
+              "atome": 1,
+              "schmelz": 660
+            },
+            {
+              "name": "Eisen",
+              "formel": "Fe",
+              "dichte": 7.9,
+              "M": 56,
+              "atome": 1,
+              "schmelz": 1535
+            },
+            {
+              "name": "Kupfer",
+              "formel": "Cu",
+              "dichte": 8.9,
+              "M": 64,
+              "atome": 1,
+              "schmelz": 1083
+            },
+            {
+              "name": "Blei",
+              "formel": "Pb",
+              "dichte": 11.3,
+              "M": 207,
+              "atome": 1,
+              "schmelz": 327
+            }
+          ],
+          "vars": {
+            "V": {
+              "aus": [
+                10,
+                20,
+                25,
+                50,
+                100
+              ]
+            }
+          },
+          "template": "Ein Stück {name$} hat ein Volumen von {V} cm³. Welche Masse hat es? (ρ = {dichte} g/cm³)",
+          "answer": "dichte * V",
+          "unit_label": "g",
+          "round": 1,
+          "solution": "m = {dichte} g/cm³ · {V} cm³ = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "dichte_geteilt_statt_mal",
+              "value": "V / dichte",
+              "feedback": "m = ρ · V — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Blei",
+                  "formel": "Pb",
+                  "dichte": 11.3,
+                  "M": 207,
+                  "atome": 1,
+                  "schmelz": 327
+                },
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    10,
+                    20,
+                    25
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                },
+                {
+                  "name": "Eisen",
+                  "formel": "Fe",
+                  "dichte": 7.9,
+                  "M": 56,
+                  "atome": 1,
+                  "schmelz": 1535
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    25,
+                    50,
+                    100
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-ME-06-2",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 800,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                58,
+                60,
+                63,
+                70
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Kupfer. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 450,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    58,
+                    60,
+                    63
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 450,
+                  "bis": 800,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    60,
+                    63,
+                    70
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-ME-06-3",
+          "tabelle": [
+            {
+              "name": "Aluminium",
+              "formel": "Al",
+              "dichte": 2.7,
+              "M": 27,
+              "atome": 1,
+              "schmelz": 660
+            },
+            {
+              "name": "Eisen",
+              "formel": "Fe",
+              "dichte": 7.9,
+              "M": 56,
+              "atome": 1,
+              "schmelz": 1535
+            },
+            {
+              "name": "Kupfer",
+              "formel": "Cu",
+              "dichte": 8.9,
+              "M": 64,
+              "atome": 1,
+              "schmelz": 1083
+            },
+            {
+              "name": "Blei",
+              "formel": "Pb",
+              "dichte": 11.3,
+              "M": 207,
+              "atome": 1,
+              "schmelz": 327
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Blei",
+                  "formel": "Pb",
+                  "dichte": 11.3,
+                  "M": 207,
+                  "atome": 1,
+                  "schmelz": 327
+                },
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                },
+                {
+                  "name": "Eisen",
+                  "formel": "Fe",
+                  "dichte": 7.9,
+                  "M": 56,
+                  "atome": 1,
+                  "schmelz": 1535
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-ME-06-4",
+          "vars": {
+            "m": {
+              "aus": [
+                70,
+                140,
+                210,
+                280
+              ]
+            }
+          },
+          "template": "Ein Erz enthält Eisen und Sauerstoff im Massenverhältnis 7 : 3. Wie viel Sauerstoff steckt neben {m} g Eisen darin?",
+          "answer": "m * 3 / 7",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "{m} g : 7 · 3 = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "verhaeltnis_umgedreht",
+              "value": "m * 7 / 3",
+              "feedback": "Verhältnis umgedreht — prüfe, welcher Stoff der größere Anteil ist."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    70,
+                    140,
+                    210
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    140,
+                    210,
+                    280
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "me-07": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-ME-07-1",
+          "tabelle": [
+            {
+              "name": "Aluminium",
+              "formel": "Al",
+              "dichte": 2.7,
+              "M": 27,
+              "atome": 1,
+              "schmelz": 660
+            },
+            {
+              "name": "Eisen",
+              "formel": "Fe",
+              "dichte": 7.9,
+              "M": 56,
+              "atome": 1,
+              "schmelz": 1535
+            },
+            {
+              "name": "Kupfer",
+              "formel": "Cu",
+              "dichte": 8.9,
+              "M": 64,
+              "atome": 1,
+              "schmelz": 1083
+            },
+            {
+              "name": "Blei",
+              "formel": "Pb",
+              "dichte": 11.3,
+              "M": 207,
+              "atome": 1,
+              "schmelz": 327
+            }
+          ],
+          "vars": {
+            "V": {
+              "aus": [
+                10,
+                20,
+                25,
+                50,
+                100
+              ]
+            }
+          },
+          "template": "Ein Stück {name$} hat ein Volumen von {V} cm³. Welche Masse hat es? (ρ = {dichte} g/cm³)",
+          "answer": "dichte * V",
+          "unit_label": "g",
+          "round": 1,
+          "solution": "m = {dichte} g/cm³ · {V} cm³ = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "dichte_geteilt_statt_mal",
+              "value": "V / dichte",
+              "feedback": "m = ρ · V — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Blei",
+                  "formel": "Pb",
+                  "dichte": 11.3,
+                  "M": 207,
+                  "atome": 1,
+                  "schmelz": 327
+                },
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    10,
+                    20,
+                    25
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                },
+                {
+                  "name": "Eisen",
+                  "formel": "Fe",
+                  "dichte": 7.9,
+                  "M": 56,
+                  "atome": 1,
+                  "schmelz": 1535
+                }
+              ],
+              "vars": {
+                "V": {
+                  "aus": [
+                    25,
+                    50,
+                    100
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-ME-07-2",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 800,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                58,
+                60,
+                63,
+                70
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Kupfer. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 450,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    58,
+                    60,
+                    63
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 450,
+                  "bis": 800,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    60,
+                    63,
+                    70
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-ME-07-3",
+          "tabelle": [
+            {
+              "name": "Aluminium",
+              "formel": "Al",
+              "dichte": 2.7,
+              "M": 27,
+              "atome": 1,
+              "schmelz": 660
+            },
+            {
+              "name": "Eisen",
+              "formel": "Fe",
+              "dichte": 7.9,
+              "M": 56,
+              "atome": 1,
+              "schmelz": 1535
+            },
+            {
+              "name": "Kupfer",
+              "formel": "Cu",
+              "dichte": 8.9,
+              "M": 64,
+              "atome": 1,
+              "schmelz": 1083
+            },
+            {
+              "name": "Blei",
+              "formel": "Pb",
+              "dichte": 11.3,
+              "M": 207,
+              "atome": 1,
+              "schmelz": 327
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Blei",
+                  "formel": "Pb",
+                  "dichte": 11.3,
+                  "M": 207,
+                  "atome": 1,
+                  "schmelz": 327
+                },
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                },
+                {
+                  "name": "Eisen",
+                  "formel": "Fe",
+                  "dichte": 7.9,
+                  "M": 56,
+                  "atome": 1,
+                  "schmelz": 1535
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-ME-07-4",
+          "vars": {
+            "m": {
+              "aus": [
+                70,
+                140,
+                210,
+                280
+              ]
+            }
+          },
+          "template": "Ein Erz enthält Eisen und Sauerstoff im Massenverhältnis 7 : 3. Wie viel Sauerstoff steckt neben {m} g Eisen darin?",
+          "answer": "m * 3 / 7",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "{m} g : 7 · 3 = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "verhaeltnis_umgedreht",
+              "value": "m * 7 / 3",
+              "feedback": "Verhältnis umgedreht — prüfe, welcher Stoff der größere Anteil ist."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    70,
+                    140,
+                    210
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    140,
+                    210,
+                    280
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

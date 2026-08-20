@@ -1,0 +1,2224 @@
+{
+  "_hinweis": "Generatoren fuer die gedruckten Uebungsblaetter. Erzeugt von werkzeuge/uebungsblaetter_bauen.py; von Hand ergaenzte Einheiten bleiben beim erneuten Lauf erhalten.",
+  "bereich": "fc",
+  "title": "Faszination Chemie",
+  "einheiten": {
+    "fc-01": {
+      "auftrag": "Beantworte jede Aufgabe schriftlich. Schreibe bei Rechnungen den Rechenweg dazu.",
+      "aufgaben": [
+        {
+          "id": "AB-FC-01-1",
+          "vars": {
+            "v": {
+              "aus": [
+                20,
+                40,
+                50,
+                80,
+                100
+              ]
+            },
+            "t": {
+              "aus": [
+                2,
+                4,
+                5
+              ]
+            }
+          },
+          "template": "Ein Versuch verlangt {v} mL einer ätzenden Lösung. Die Ersatzstoffprüfung ergibt, dass ein {t}-tel der Menge genügt. Wie viele Milliliter werden eingesetzt?",
+          "answer": "v / t",
+          "bedingung": "ganz(v / t)",
+          "unit_label": "mL",
+          "round": 1,
+          "solution": "{v} mL : {t} = {ergebnis} mL — weniger Stoff heißt weniger Gefahr.",
+          "misconceptions": [
+            {
+              "id": "anteil_umgedreht",
+              "value": "v * t",
+              "feedback": "Ein {t}-tel bedeutet teilen, nicht malnehmen."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "v": {
+                  "aus": [
+                    20,
+                    40,
+                    50
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "v": {
+                  "aus": [
+                    50,
+                    80,
+                    100
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-FC-01-2",
+          "vars": {
+            "min": {
+              "aus": [
+                10,
+                15
+              ]
+            },
+            "s": {
+              "aus": [
+                1,
+                2,
+                3
+              ]
+            }
+          },
+          "template": "Nach Hautkontakt mit einer ätzenden Lösung muss {min} Minuten gespült werden. Nach {s} Minuten hört jemand auf. Wie viele Minuten fehlen?",
+          "answer": "min - s",
+          "unit_label": "min",
+          "round": 0,
+          "solution": "{min} min − {s} min = {ergebnis} min fehlen. Die Regel lautet: mindestens {min} Minuten.",
+          "misconceptions": [
+            {
+              "id": "zu_kurz_gespuelt",
+              "value": "s",
+              "feedback": "Gefragt war die fehlende Zeit, nicht die schon gespülte."
+            }
+          ]
+        },
+        {
+          "id": "AB-FC-01-3",
+          "vars": {
+            "g": {
+              "von": 200,
+              "bis": 900,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                10,
+                20,
+                25,
+                50
+              ]
+            }
+          },
+          "template": "Von {g} g Chemikalienabfall sind {p} % schwermetallhaltig und gehören in den Sammelbehälter. Wie viel Gramm sind das?",
+          "answer": "g * p / 100",
+          "unit_label": "g",
+          "round": 1,
+          "solution": "1 % = {g/100} g → {p} % = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "g * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der schwermetallhaltige Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "g": {
+                  "von": 200,
+                  "bis": 550,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    10,
+                    20,
+                    25
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "g": {
+                  "von": 550,
+                  "bis": 900,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    20,
+                    25,
+                    50
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-FC-01-4",
+          "vars": {
+            "anz": {
+              "von": 3,
+              "bis": 9
+            },
+            "je": {
+              "aus": [
+                5,
+                10,
+                20,
+                25
+              ]
+            }
+          },
+          "template": "Eine Klasse arbeitet in {anz} Gruppen. Jede Gruppe braucht {je} mL einer Lösung. Wie viele Milliliter werden insgesamt gebraucht?",
+          "answer": "anz * je",
+          "unit_label": "mL",
+          "round": 0,
+          "solution": "{anz} · {je} mL = {ergebnis} mL",
+          "misconceptions": [
+            {
+              "id": "geteilt_statt_mal",
+              "value": "je / anz",
+              "feedback": "Zahl der Gruppen mal Menge je Gruppe — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "anz": {
+                  "von": 3,
+                  "bis": 6
+                },
+                "je": {
+                  "aus": [
+                    5,
+                    10,
+                    20
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "anz": {
+                  "von": 6,
+                  "bis": 9
+                },
+                "je": {
+                  "aus": [
+                    10,
+                    20,
+                    25
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "fc-02": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Einheiten immer mit.",
+      "aufgaben": [
+        {
+          "id": "AB-FC-02-1",
+          "vars": {
+            "v": {
+              "aus": [
+                0.4,
+                0.6,
+                0.8,
+                0.9
+              ]
+            },
+            "t": {
+              "aus": [
+                15,
+                20,
+                30,
+                45,
+                60,
+                90
+              ]
+            }
+          },
+          "template": "Ein Gasbrenner verbraucht {v} L Gas je Minute. Wie viele Liter sind das in {t} Minuten?",
+          "answer": "v * t",
+          "unit_label": "L",
+          "round": 1,
+          "solution": "{v} L/min · {t} min = {ergebnis} L",
+          "misconceptions": [
+            {
+              "id": "geteilt_statt_mal",
+              "value": "t / v",
+              "feedback": "Verbrauch je Minute mal Zeit — hier wird multipliziert."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "v": {
+                  "aus": [
+                    0.4,
+                    0.6,
+                    0.8
+                  ]
+                },
+                "t": {
+                  "aus": [
+                    15,
+                    20,
+                    30,
+                    45
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "v": {
+                  "aus": [
+                    0.6,
+                    0.8,
+                    0.9
+                  ]
+                },
+                "t": {
+                  "aus": [
+                    30,
+                    45,
+                    60,
+                    90
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-FC-02-2",
+          "vars": {
+            "a": {
+              "aus": [
+                1300,
+                1400,
+                1500
+              ]
+            },
+            "b": {
+              "aus": [
+                550,
+                600,
+                650
+              ]
+            }
+          },
+          "template": "Die rauschende Flamme ist etwa {a} °C heiß, die leuchtende etwa {b} °C. Um wie viel Grad ist die rauschende heißer?",
+          "answer": "a - b",
+          "unit_label": "°C",
+          "round": 0,
+          "solution": "{a} °C − {b} °C = {ergebnis} °C",
+          "misconceptions": [
+            {
+              "id": "addiert_statt_subtrahiert",
+              "value": "a + b",
+              "feedback": "Gefragt ist der Unterschied, also die Differenz."
+            }
+          ]
+        },
+        {
+          "id": "AB-FC-02-3",
+          "vars": {
+            "r": {
+              "aus": [
+                0.8,
+                0.9,
+                1
+              ]
+            },
+            "l": {
+              "aus": [
+                0.3,
+                0.4,
+                0.5
+              ]
+            },
+            "t": {
+              "aus": [
+                10,
+                12,
+                20
+              ]
+            }
+          },
+          "template": "Eine Gruppe brennt {t} Minuten rauschend ({r} L/min) statt leuchtend ({l} L/min). Wie viele Liter Gas verbraucht sie dadurch mehr?",
+          "answer": "(r - l) * t",
+          "unit_label": "L",
+          "round": 2,
+          "solution": "Mehrverbrauch je Minute: {r} − {l} = {r-l} L\nin {t} min: {r-l} · {t} = {ergebnis} L",
+          "misconceptions": [
+            {
+              "id": "nur_teil_berechnet",
+              "value": "r - l",
+              "feedback": "Das ist der Mehrverbrauch je Minute. Gefragt war der für {t} Minuten."
+            }
+          ]
+        },
+        {
+          "id": "AB-FC-02-4",
+          "vars": {
+            "t": {
+              "aus": [
+                600,
+                650,
+                700
+              ]
+            },
+            "f": {
+              "aus": [
+                2,
+                2.2,
+                2.5
+              ]
+            }
+          },
+          "template": "Die leuchtende Flamme erreicht etwa {t} °C. Die rauschende Flamme ist rund {f}-mal so heiß. Welche Temperatur erreicht sie ungefähr?",
+          "answer": "t * f",
+          "unit_label": "°C",
+          "round": 0,
+          "solution": "{t} °C · {f} = {ergebnis} °C",
+          "misconceptions": [
+            {
+              "id": "addiert_statt_subtrahiert",
+              "value": "t + f",
+              "feedback": "„{f}-mal so heiß“ heißt multiplizieren, nicht addieren."
+            }
+          ]
+        }
+      ]
+    },
+    "fc-03": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Formel, Einsetzen und Ergebnis untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-FC-03-1",
+          "vars": {
+            "m": {
+              "von": 20,
+              "bis": 400,
+              "schritt": 5
+            },
+            "V": {
+              "aus": [
+                4,
+                5,
+                8,
+                10,
+                20,
+                25
+              ]
+            }
+          },
+          "template": "Ein Metallstück wiegt {m} g und hat ein Volumen von {V} cm³. Wie groß ist seine Dichte?",
+          "answer": "m / V",
+          "bedingung": "ganz(m / V * 100)",
+          "unit_label": "g/cm³",
+          "round": 2,
+          "solution": "ρ = {m} g : {V} cm³ = {ergebnis} g/cm³",
+          "misconceptions": [
+            {
+              "id": "dichte_mal_statt_geteilt",
+              "value": "m * V",
+              "feedback": "Die Dichte ist Masse geteilt durch Volumen."
+            },
+            {
+              "id": "dichte_umgedreht",
+              "value": "V / m",
+              "feedback": "Du hast Volumen durch Masse geteilt. Es ist umgekehrt: ρ = m : V."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 20,
+                  "bis": 210,
+                  "schritt": 5
+                },
+                "V": {
+                  "aus": [
+                    4,
+                    5,
+                    8,
+                    10
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 210,
+                  "bis": 400,
+                  "schritt": 5
+                },
+                "V": {
+                  "aus": [
+                    8,
+                    10,
+                    20,
+                    25
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-FC-03-2",
+          "vars": {
+            "a": {
+              "aus": [
+                2,
+                3,
+                4,
+                5
+              ]
+            },
+            "d": {
+              "aus": [
+                2.7,
+                7.9,
+                8.9,
+                11.3
+              ]
+            }
+          },
+          "template": "Ein Würfel mit {a} cm Kantenlänge besteht aus einem Metall der Dichte {d} g/cm³. Welche Masse hat er?",
+          "answer": "d * a * a * a",
+          "unit_label": "g",
+          "round": 1,
+          "solution": "V = {a} · {a} · {a} = {a*a*a} cm³\nm = {d} g/cm³ · {a*a*a} cm³ = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "volumen_als_flaeche",
+              "value": "d * a * a",
+              "feedback": "Ein Würfel hat das Volumen a · a · a, nicht a · a."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "a": {
+                  "aus": [
+                    2,
+                    3,
+                    4
+                  ]
+                },
+                "d": {
+                  "aus": [
+                    2.7,
+                    7.9,
+                    8.9
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "a": {
+                  "aus": [
+                    3,
+                    4,
+                    5
+                  ]
+                },
+                "d": {
+                  "aus": [
+                    7.9,
+                    8.9,
+                    11.3
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-FC-03-3",
+          "vars": {
+            "v1": {
+              "aus": [
+                20,
+                25,
+                30,
+                50
+              ]
+            },
+            "d": {
+              "von": 4,
+              "bis": 25,
+              "schritt": 1
+            },
+            "m": {
+              "von": 20,
+              "bis": 300,
+              "schritt": 5
+            }
+          },
+          "template": "Im Messzylinder stehen {v1} mL Wasser. Nach dem Eintauchen eines Körpers zeigt er {v1+d} mL an. Der Körper wiegt {m} g. Wie groß ist seine Dichte?",
+          "answer": "m / d",
+          "bedingung": "ganz(m / d * 100)",
+          "unit_label": "g/cm³",
+          "round": 2,
+          "solution": "V = {v1+d} mL − {v1} mL = {d} cm³\nρ = {m} g : {d} cm³ = {ergebnis} g/cm³",
+          "misconceptions": [
+            {
+              "id": "gesamtvolumen_genommen",
+              "value": "m / (v1 + d)",
+              "feedback": "Du hast durch den Endstand geteilt. Das Volumen des Körpers ist die Differenz der Stände."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "v1": {
+                  "aus": [
+                    20,
+                    25,
+                    30
+                  ]
+                },
+                "d": {
+                  "von": 4,
+                  "bis": 14,
+                  "schritt": 1
+                },
+                "m": {
+                  "von": 20,
+                  "bis": 160,
+                  "schritt": 5
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "v1": {
+                  "aus": [
+                    25,
+                    30,
+                    50
+                  ]
+                },
+                "d": {
+                  "von": 15,
+                  "bis": 25,
+                  "schritt": 1
+                },
+                "m": {
+                  "von": 160,
+                  "bis": 300,
+                  "schritt": 5
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-FC-03-4",
+          "vars": {
+            "d": {
+              "aus": [
+                0.79,
+                0.92,
+                1,
+                1.26
+              ]
+            },
+            "V": {
+              "aus": [
+                50,
+                100,
+                200,
+                250
+              ]
+            }
+          },
+          "template": "Wie viel Gramm wiegen {V} mL einer Flüssigkeit mit der Dichte {d} g/cm³?",
+          "answer": "d * V",
+          "unit_label": "g",
+          "round": 1,
+          "solution": "m = {d} g/cm³ · {V} cm³ = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "dichte_geteilt_statt_mal",
+              "value": "V / d",
+              "feedback": "Aus Dichte und Volumen wird die Masse durch Multiplizieren: m = ρ · V."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "d": {
+                  "aus": [
+                    0.79,
+                    0.92,
+                    1
+                  ]
+                },
+                "V": {
+                  "aus": [
+                    50,
+                    100,
+                    200
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "d": {
+                  "aus": [
+                    0.92,
+                    1,
+                    1.26
+                  ]
+                },
+                "V": {
+                  "aus": [
+                    100,
+                    200,
+                    250
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "fc-04": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Nenne bei Trennaufgaben zusätzlich das Verfahren.",
+      "aufgaben": [
+        {
+          "id": "AB-FC-04-1",
+          "vars": {
+            "g": {
+              "aus": [
+                100,
+                200,
+                250,
+                400,
+                500
+              ]
+            },
+            "s": {
+              "aus": [
+                4,
+                8,
+                10,
+                20,
+                25
+              ]
+            }
+          },
+          "template": "{g} g Salzwasser enthalten {s} g Salz. Wie viel Prozent Salz sind das?",
+          "answer": "s / g * 100",
+          "bedingung": "ganz(s / g * 1000)",
+          "unit_label": "%",
+          "round": 2,
+          "solution": "{s} g : {g} g = {s/g} → {ergebnis} %",
+          "misconceptions": [
+            {
+              "id": "anteil_umgedreht",
+              "value": "g / s",
+              "feedback": "Der Anteil ist Teil geteilt durch Ganzes, nicht umgekehrt."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "g": {
+                  "aus": [
+                    100,
+                    200,
+                    250
+                  ]
+                },
+                "s": {
+                  "aus": [
+                    4,
+                    8,
+                    10
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "g": {
+                  "aus": [
+                    250,
+                    400,
+                    500
+                  ]
+                },
+                "s": {
+                  "aus": [
+                    10,
+                    20,
+                    25
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-FC-04-2",
+          "vars": {
+            "g": {
+              "aus": [
+                150,
+                200,
+                300,
+                400
+              ]
+            },
+            "p": {
+              "aus": [
+                2,
+                4,
+                5,
+                10
+              ]
+            }
+          },
+          "template": "{g} g Meerwasser enthalten {p} % Salz. Wie viel Salz bleibt beim vollständigen Eindampfen zurück?",
+          "answer": "g * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 % = {g/100} g → {p} % = {ergebnis} g. Nur das Wasser verdampft.",
+          "misconceptions": [
+            {
+              "id": "salz_mit_verdampft",
+              "value": "0",
+              "feedback": "Salz verdampft nicht. Es bleibt vollständig als Rückstand zurück."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "g": {
+                  "aus": [
+                    150,
+                    200,
+                    300
+                  ]
+                },
+                "p": {
+                  "aus": [
+                    2,
+                    4,
+                    5
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "g": {
+                  "aus": [
+                    200,
+                    300,
+                    400
+                  ]
+                },
+                "p": {
+                  "aus": [
+                    4,
+                    5,
+                    10
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-FC-04-3",
+          "vars": {
+            "ges": {
+              "aus": [
+                300,
+                400,
+                500
+              ]
+            },
+            "sand": {
+              "aus": [
+                40,
+                50,
+                60,
+                80
+              ]
+            },
+            "salz": {
+              "aus": [
+                10,
+                12,
+                20
+              ]
+            }
+          },
+          "template": "{ges} g eines Gemischs aus Sand, Salz und Wasser werden getrennt. Es fallen {sand} g trockener Sand und {salz} g Salz an. Wie viel Gramm Wasser waren enthalten?",
+          "answer": "ges - sand - salz",
+          "unit_label": "g",
+          "round": 1,
+          "solution": "{ges} g − {sand} g − {salz} g = {ergebnis} g Wasser",
+          "misconceptions": [
+            {
+              "id": "masse_verschwindet",
+              "value": "ges - sand",
+              "feedback": "Das Salz gehört auch zur Gesamtmasse — es muss ebenfalls abgezogen werden."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "sand": {
+                  "aus": [
+                    40,
+                    50,
+                    60
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "sand": {
+                  "aus": [
+                    50,
+                    60,
+                    80
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-FC-04-4",
+          "vars": {
+            "V": {
+              "aus": [
+                100,
+                200,
+                250,
+                500
+              ]
+            },
+            "c": {
+              "aus": [
+                2,
+                4,
+                5,
+                10
+              ]
+            }
+          },
+          "template": "{V} mL Salzlösung enthalten {c} g Salz je 100 mL. Wie viel Salz bleibt beim Eindampfen zurueck?",
+          "answer": "V / 100 * c",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "{V} mL : 100 · {c} g = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "anteil_umgedreht",
+              "value": "100 / V * c",
+              "feedback": "Erst auf 1 mL rechnen, dann auf {V} mL hoch."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "V": {
+                  "aus": [
+                    100,
+                    200,
+                    250
+                  ]
+                },
+                "c": {
+                  "aus": [
+                    2,
+                    4,
+                    5
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "V": {
+                  "aus": [
+                    200,
+                    250,
+                    500
+                  ]
+                },
+                "c": {
+                  "aus": [
+                    4,
+                    5,
+                    10
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "fc-05": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-FC-05-1",
+          "tabelle": [
+            {
+              "name": "Wasser",
+              "formel": "H₂O",
+              "M": 18,
+              "atome": 3
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            },
+            {
+              "name": "Ammoniak",
+              "formel": "NH₃",
+              "M": 17,
+              "atome": 4
+            },
+            {
+              "name": "Methan",
+              "formel": "CH₄",
+              "M": 16,
+              "atome": 5
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Methan",
+                  "formel": "CH₄",
+                  "M": 16,
+                  "atome": 5
+                },
+                {
+                  "name": "Ammoniak",
+                  "formel": "NH₃",
+                  "M": 17,
+                  "atome": 4
+                },
+                {
+                  "name": "Wasser",
+                  "formel": "H₂O",
+                  "M": 18,
+                  "atome": 3
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Ammoniak",
+                  "formel": "NH₃",
+                  "M": 17,
+                  "atome": 4
+                },
+                {
+                  "name": "Wasser",
+                  "formel": "H₂O",
+                  "M": 18,
+                  "atome": 3
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-FC-05-2",
+          "vars": {
+            "m": {
+              "aus": [
+                7,
+                14,
+                28,
+                35,
+                56
+              ]
+            }
+          },
+          "template": "Eisen und Schwefel reagieren im Massenverhältnis 7 : 4. Wie viel Schwefel wird für {m} g Eisen gebraucht?",
+          "answer": "m * 4 / 7",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "{m} g : 7 · 4 = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "verhaeltnis_umgedreht",
+              "value": "m * 7 / 4",
+              "feedback": "Verhältnis umgedreht — prüfe, welcher Stoff der größere Anteil ist."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    7,
+                    14,
+                    28
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    28,
+                    35,
+                    56
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-FC-05-3",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 500,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                20,
+                25,
+                40,
+                60
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Eisen. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 300,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    20,
+                    25,
+                    40
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 300,
+                  "bis": 500,
+                  "schritt": 50
+                },
+                "p": {
+                  "aus": [
+                    25,
+                    40,
+                    60
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-FC-05-4",
+          "tabelle": [
+            {
+              "name": "Aluminium",
+              "formel": "Al",
+              "dichte": 2.7,
+              "M": 27,
+              "atome": 1,
+              "schmelz": 660
+            },
+            {
+              "name": "Eisen",
+              "formel": "Fe",
+              "dichte": 7.9,
+              "M": 56,
+              "atome": 1,
+              "schmelz": 1535
+            },
+            {
+              "name": "Kupfer",
+              "formel": "Cu",
+              "dichte": 8.9,
+              "M": 64,
+              "atome": 1,
+              "schmelz": 1083
+            },
+            {
+              "name": "Blei",
+              "formel": "Pb",
+              "dichte": 11.3,
+              "M": 207,
+              "atome": 1,
+              "schmelz": 327
+            }
+          ],
+          "template": "Eine Probe wird von {schmelz} °C auf 20 °C abgekühlt. Um wie viel Grad sinkt die Temperatur?",
+          "answer": "20 - schmelz",
+          "unit_label": "°C",
+          "round": 1,
+          "solution": "20 − ({schmelz}) = {ergebnis} °C",
+          "misconceptions": [
+            {
+              "id": "addiert_statt_subtrahiert",
+              "value": "20 + schmelz",
+              "feedback": "Gefragt ist der Unterschied — also die Differenz."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Blei",
+                  "formel": "Pb",
+                  "dichte": 11.3,
+                  "M": 207,
+                  "atome": 1,
+                  "schmelz": 327
+                },
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                },
+                {
+                  "name": "Eisen",
+                  "formel": "Fe",
+                  "dichte": 7.9,
+                  "M": 56,
+                  "atome": 1,
+                  "schmelz": 1535
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "fc-06": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-FC-06-1",
+          "vars": {
+            "v": {
+              "aus": [
+                0.1,
+                0.2,
+                0.5,
+                1
+              ]
+            }
+          },
+          "template": "Beim Verdampfen wird 1 L Wasser rund 1700-mal so groß. Welches Dampfvolumen ergeben {v} L?",
+          "answer": "v * 1700",
+          "unit_label": "L",
+          "round": 4,
+          "solution": "{v} · 1700 = {ergebnis} L",
+          "misconceptions": [
+            {
+              "id": "faktor_falsch",
+              "value": "v * 100",
+              "feedback": "Prüfe den Umrechnungsfaktor genau."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "v": {
+                  "aus": [
+                    0.1,
+                    0.2,
+                    0.5
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "v": {
+                  "aus": [
+                    0.2,
+                    0.5,
+                    1
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-FC-06-2",
+          "vars": {
+            "m": {
+              "von": 200,
+              "bis": 800,
+              "schritt": 100
+            },
+            "p": {
+              "aus": [
+                10,
+                20,
+                25,
+                50
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % brennbaren Anteil. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 200,
+                  "bis": 500,
+                  "schritt": 100
+                },
+                "p": {
+                  "aus": [
+                    10,
+                    20,
+                    25
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 500,
+                  "bis": 800,
+                  "schritt": 100
+                },
+                "p": {
+                  "aus": [
+                    20,
+                    25,
+                    50
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-FC-06-3",
+          "tabelle": [
+            {
+              "name": "Wasser",
+              "formel": "H₂O",
+              "M": 18,
+              "atome": 3
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            },
+            {
+              "name": "Ammoniak",
+              "formel": "NH₃",
+              "M": 17,
+              "atome": 4
+            },
+            {
+              "name": "Methan",
+              "formel": "CH₄",
+              "M": 16,
+              "atome": 5
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Methan",
+                  "formel": "CH₄",
+                  "M": 16,
+                  "atome": 5
+                },
+                {
+                  "name": "Ammoniak",
+                  "formel": "NH₃",
+                  "M": 17,
+                  "atome": 4
+                },
+                {
+                  "name": "Wasser",
+                  "formel": "H₂O",
+                  "M": 18,
+                  "atome": 3
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Ammoniak",
+                  "formel": "NH₃",
+                  "M": 17,
+                  "atome": 4
+                },
+                {
+                  "name": "Wasser",
+                  "formel": "H₂O",
+                  "M": 18,
+                  "atome": 3
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-FC-06-4",
+          "tabelle": [
+            {
+              "name": "Aluminium",
+              "formel": "Al",
+              "dichte": 2.7,
+              "M": 27,
+              "atome": 1,
+              "schmelz": 660
+            },
+            {
+              "name": "Eisen",
+              "formel": "Fe",
+              "dichte": 7.9,
+              "M": 56,
+              "atome": 1,
+              "schmelz": 1535
+            },
+            {
+              "name": "Kupfer",
+              "formel": "Cu",
+              "dichte": 8.9,
+              "M": 64,
+              "atome": 1,
+              "schmelz": 1083
+            },
+            {
+              "name": "Blei",
+              "formel": "Pb",
+              "dichte": 11.3,
+              "M": 207,
+              "atome": 1,
+              "schmelz": 327
+            }
+          ],
+          "template": "{name$} schmilzt bei {schmelz} °C. Um wie viel Grad liegt das über 20 °C Zimmertemperatur?",
+          "answer": "20 - schmelz",
+          "unit_label": "°C",
+          "round": 1,
+          "solution": "20 − ({schmelz}) = {ergebnis} °C",
+          "misconceptions": [
+            {
+              "id": "addiert_statt_subtrahiert",
+              "value": "20 + schmelz",
+              "feedback": "Gefragt ist der Unterschied — also die Differenz."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Blei",
+                  "formel": "Pb",
+                  "dichte": 11.3,
+                  "M": 207,
+                  "atome": 1,
+                  "schmelz": 327
+                },
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Aluminium",
+                  "formel": "Al",
+                  "dichte": 2.7,
+                  "M": 27,
+                  "atome": 1,
+                  "schmelz": 660
+                },
+                {
+                  "name": "Kupfer",
+                  "formel": "Cu",
+                  "dichte": 8.9,
+                  "M": 64,
+                  "atome": 1,
+                  "schmelz": 1083
+                },
+                {
+                  "name": "Eisen",
+                  "formel": "Fe",
+                  "dichte": 7.9,
+                  "M": 56,
+                  "atome": 1,
+                  "schmelz": 1535
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "fc-07": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-FC-07-1",
+          "tabelle": [
+            {
+              "name": "Natriumchlorid",
+              "formel": "NaCl",
+              "M": 58.5,
+              "atome": 2
+            },
+            {
+              "name": "Magnesiumoxid",
+              "formel": "MgO",
+              "M": 40,
+              "atome": 2
+            },
+            {
+              "name": "Calciumcarbonat",
+              "formel": "CaCO₃",
+              "M": 100,
+              "atome": 5
+            },
+            {
+              "name": "Aluminiumoxid",
+              "formel": "Al₂O₃",
+              "M": 102,
+              "atome": 5
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Magnesiumoxid",
+                  "formel": "MgO",
+                  "M": 40,
+                  "atome": 2
+                },
+                {
+                  "name": "Calciumcarbonat",
+                  "formel": "CaCO₃",
+                  "M": 100,
+                  "atome": 5
+                },
+                {
+                  "name": "Aluminiumoxid",
+                  "formel": "Al₂O₃",
+                  "M": 102,
+                  "atome": 5
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Calciumcarbonat",
+                  "formel": "CaCO₃",
+                  "M": 100,
+                  "atome": 5
+                },
+                {
+                  "name": "Aluminiumoxid",
+                  "formel": "Al₂O₃",
+                  "M": 102,
+                  "atome": 5
+                },
+                {
+                  "name": "Natriumchlorid",
+                  "formel": "NaCl",
+                  "M": 58.5,
+                  "atome": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-FC-07-2",
+          "vars": {
+            "m": {
+              "aus": [
+                8,
+                16,
+                32,
+                64,
+                80
+              ]
+            }
+          },
+          "template": "Kupfer und Sauerstoff reagieren im Massenverhältnis 4 : 1. Wie viel Sauerstoff wird für {m} g Kupfer gebraucht?",
+          "answer": "m * 1 / 4",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "{m} g : 4 · 1 = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "verhaeltnis_umgedreht",
+              "value": "m * 4 / 1",
+              "feedback": "Verhältnis umgedreht — prüfe, welcher Stoff der größere Anteil ist."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    8,
+                    16,
+                    32
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    32,
+                    64,
+                    80
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-FC-07-3",
+          "tabelle": [
+            {
+              "name": "Natriumchlorid",
+              "formel": "NaCl",
+              "M": 58.5,
+              "atome": 2
+            },
+            {
+              "name": "Magnesiumoxid",
+              "formel": "MgO",
+              "M": 40,
+              "atome": 2
+            },
+            {
+              "name": "Calciumcarbonat",
+              "formel": "CaCO₃",
+              "M": 100,
+              "atome": 5
+            },
+            {
+              "name": "Aluminiumoxid",
+              "formel": "Al₂O₃",
+              "M": 102,
+              "atome": 5
+            }
+          ],
+          "vars": {
+            "k": {
+              "aus": [
+                2,
+                3,
+                4,
+                5
+              ]
+            }
+          },
+          "template": "Wie viele Atome insgesamt stecken in {k} {formel$}?",
+          "answer": "k * atome",
+          "round": 0,
+          "solution": "{k} · {atome} = {ergebnis} Atome",
+          "misconceptions": [
+            {
+              "id": "koeffizient_ignoriert",
+              "value": "atome",
+              "feedback": "Die Zahl vor der Formel vervielfacht das ganze Teilchen."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Magnesiumoxid",
+                  "formel": "MgO",
+                  "M": 40,
+                  "atome": 2
+                },
+                {
+                  "name": "Calciumcarbonat",
+                  "formel": "CaCO₃",
+                  "M": 100,
+                  "atome": 5
+                },
+                {
+                  "name": "Aluminiumoxid",
+                  "formel": "Al₂O₃",
+                  "M": 102,
+                  "atome": 5
+                }
+              ],
+              "vars": {
+                "k": {
+                  "aus": [
+                    2,
+                    3,
+                    4
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Calciumcarbonat",
+                  "formel": "CaCO₃",
+                  "M": 100,
+                  "atome": 5
+                },
+                {
+                  "name": "Aluminiumoxid",
+                  "formel": "Al₂O₃",
+                  "M": 102,
+                  "atome": 5
+                },
+                {
+                  "name": "Natriumchlorid",
+                  "formel": "NaCl",
+                  "M": 58.5,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "k": {
+                  "aus": [
+                    3,
+                    4,
+                    5
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-FC-07-4",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 600,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                20,
+                40,
+                80
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Kupfer. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 350,
+                  "schritt": 50
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 350,
+                  "bis": 600,
+                  "schritt": 50
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "fc-08": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-FC-08-1",
+          "vars": {
+            "m": {
+              "aus": [
+                6,
+                12,
+                24,
+                48
+              ]
+            }
+          },
+          "template": "Magnesium und Sauerstoff reagieren im Massenverhältnis 3 : 2. Wie viel Sauerstoff wird für {m} g Magnesium gebraucht?",
+          "answer": "m * 2 / 3",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "{m} g : 3 · 2 = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "verhaeltnis_umgedreht",
+              "value": "m * 3 / 2",
+              "feedback": "Verhältnis umgedreht — prüfe, welcher Stoff der größere Anteil ist."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    6,
+                    12,
+                    24
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "aus": [
+                    12,
+                    24,
+                    48
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-FC-08-2",
+          "tabelle": [
+            {
+              "name": "Natriumchlorid",
+              "formel": "NaCl",
+              "M": 58.5,
+              "atome": 2
+            },
+            {
+              "name": "Magnesiumoxid",
+              "formel": "MgO",
+              "M": 40,
+              "atome": 2
+            },
+            {
+              "name": "Calciumcarbonat",
+              "formel": "CaCO₃",
+              "M": 100,
+              "atome": 5
+            },
+            {
+              "name": "Aluminiumoxid",
+              "formel": "Al₂O₃",
+              "M": 102,
+              "atome": 5
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Magnesiumoxid",
+                  "formel": "MgO",
+                  "M": 40,
+                  "atome": 2
+                },
+                {
+                  "name": "Calciumcarbonat",
+                  "formel": "CaCO₃",
+                  "M": 100,
+                  "atome": 5
+                },
+                {
+                  "name": "Aluminiumoxid",
+                  "formel": "Al₂O₃",
+                  "M": 102,
+                  "atome": 5
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Calciumcarbonat",
+                  "formel": "CaCO₃",
+                  "M": 100,
+                  "atome": 5
+                },
+                {
+                  "name": "Aluminiumoxid",
+                  "formel": "Al₂O₃",
+                  "M": 102,
+                  "atome": 5
+                },
+                {
+                  "name": "Natriumchlorid",
+                  "formel": "NaCl",
+                  "M": 58.5,
+                  "atome": 2
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-FC-08-3",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 500,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                20,
+                25,
+                40
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Sauerstoff. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 300,
+                  "schritt": 50
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 300,
+                  "bis": 500,
+                  "schritt": 50
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-FC-08-4",
+          "tabelle": [
+            {
+              "name": "Wasser",
+              "formel": "H₂O",
+              "M": 18,
+              "atome": 3
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            },
+            {
+              "name": "Ammoniak",
+              "formel": "NH₃",
+              "M": 17,
+              "atome": 4
+            },
+            {
+              "name": "Methan",
+              "formel": "CH₄",
+              "M": 16,
+              "atome": 5
+            }
+          ],
+          "vars": {
+            "k": {
+              "aus": [
+                2,
+                3,
+                4,
+                5
+              ]
+            }
+          },
+          "template": "Wie viele Atome insgesamt stecken in {k} {formel$}?",
+          "answer": "k * atome",
+          "round": 0,
+          "solution": "{k} · {atome} = {ergebnis} Atome",
+          "misconceptions": [
+            {
+              "id": "koeffizient_ignoriert",
+              "value": "atome",
+              "feedback": "Die Zahl vor der Formel vervielfacht das ganze Teilchen."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Methan",
+                  "formel": "CH₄",
+                  "M": 16,
+                  "atome": 5
+                },
+                {
+                  "name": "Ammoniak",
+                  "formel": "NH₃",
+                  "M": 17,
+                  "atome": 4
+                },
+                {
+                  "name": "Wasser",
+                  "formel": "H₂O",
+                  "M": 18,
+                  "atome": 3
+                }
+              ],
+              "vars": {
+                "k": {
+                  "aus": [
+                    2,
+                    3,
+                    4
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Ammoniak",
+                  "formel": "NH₃",
+                  "M": 17,
+                  "atome": 4
+                },
+                {
+                  "name": "Wasser",
+                  "formel": "H₂O",
+                  "M": 18,
+                  "atome": 3
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ],
+              "vars": {
+                "k": {
+                  "aus": [
+                    3,
+                    4,
+                    5
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

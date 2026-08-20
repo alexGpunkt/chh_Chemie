@@ -1,0 +1,1532 @@
+{
+  "_hinweis": "Generatoren fuer die gedruckten Uebungsblaetter. Erzeugt von werkzeuge/uebungsblaetter_bauen.py; von Hand ergaenzte Einheiten bleiben beim erneuten Lauf erhalten.",
+  "bereich": "ga",
+  "title": "Gase",
+  "einheiten": {
+    "ga-01": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-GA-01-1",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 800,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                21,
+                25,
+                50
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Sauerstoff. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 450,
+                  "schritt": 50
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 450,
+                  "bis": 800,
+                  "schritt": 50
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-GA-01-2",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-GA-01-3",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "vars": {
+            "k": {
+              "aus": [
+                2,
+                3,
+                4,
+                5
+              ]
+            }
+          },
+          "template": "Wie viele Atome insgesamt stecken in {k} {formel$}?",
+          "answer": "k * atome",
+          "round": 0,
+          "solution": "{k} · {atome} = {ergebnis} Atome",
+          "misconceptions": [
+            {
+              "id": "koeffizient_ignoriert",
+              "value": "atome",
+              "feedback": "Die Zahl vor der Formel vervielfacht das ganze Teilchen."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "k": {
+                  "aus": [
+                    2,
+                    3,
+                    4
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ],
+              "vars": {
+                "k": {
+                  "aus": [
+                    3,
+                    4,
+                    5
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-GA-01-4",
+          "vars": {
+            "v": {
+              "aus": [
+                250,
+                500,
+                750,
+                1500,
+                2000
+              ]
+            }
+          },
+          "template": "Wie viel Liter sind {v} mL Gas?",
+          "answer": "v / 1000",
+          "unit_label": "L",
+          "round": 4,
+          "solution": "{v} : 1000 = {ergebnis} L",
+          "misconceptions": [
+            {
+              "id": "faktor_falsch",
+              "value": "v / 100",
+              "feedback": "Prüfe den Umrechnungsfaktor genau."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "v": {
+                  "aus": [
+                    250,
+                    500,
+                    750
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "v": {
+                  "aus": [
+                    750,
+                    1500,
+                    2000
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "ga-02": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-GA-02-1",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 800,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                21,
+                25,
+                50
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Sauerstoff. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 450,
+                  "schritt": 50
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 450,
+                  "bis": 800,
+                  "schritt": 50
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-GA-02-2",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-GA-02-3",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "vars": {
+            "k": {
+              "aus": [
+                2,
+                3,
+                4,
+                5
+              ]
+            }
+          },
+          "template": "Wie viele Atome insgesamt stecken in {k} {formel$}?",
+          "answer": "k * atome",
+          "round": 0,
+          "solution": "{k} · {atome} = {ergebnis} Atome",
+          "misconceptions": [
+            {
+              "id": "koeffizient_ignoriert",
+              "value": "atome",
+              "feedback": "Die Zahl vor der Formel vervielfacht das ganze Teilchen."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "k": {
+                  "aus": [
+                    2,
+                    3,
+                    4
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ],
+              "vars": {
+                "k": {
+                  "aus": [
+                    3,
+                    4,
+                    5
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-GA-02-4",
+          "vars": {
+            "v": {
+              "aus": [
+                250,
+                500,
+                750,
+                1500,
+                2000
+              ]
+            }
+          },
+          "template": "Wie viel Liter sind {v} mL Gas?",
+          "answer": "v / 1000",
+          "unit_label": "L",
+          "round": 4,
+          "solution": "{v} : 1000 = {ergebnis} L",
+          "misconceptions": [
+            {
+              "id": "faktor_falsch",
+              "value": "v / 100",
+              "feedback": "Prüfe den Umrechnungsfaktor genau."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "v": {
+                  "aus": [
+                    250,
+                    500,
+                    750
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "v": {
+                  "aus": [
+                    750,
+                    1500,
+                    2000
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "ga-03": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-GA-03-1",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 800,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                21,
+                25,
+                50
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Sauerstoff. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 450,
+                  "schritt": 50
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 450,
+                  "bis": 800,
+                  "schritt": 50
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-GA-03-2",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-GA-03-3",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "vars": {
+            "k": {
+              "aus": [
+                2,
+                3,
+                4,
+                5
+              ]
+            }
+          },
+          "template": "Wie viele Atome insgesamt stecken in {k} {formel$}?",
+          "answer": "k * atome",
+          "round": 0,
+          "solution": "{k} · {atome} = {ergebnis} Atome",
+          "misconceptions": [
+            {
+              "id": "koeffizient_ignoriert",
+              "value": "atome",
+              "feedback": "Die Zahl vor der Formel vervielfacht das ganze Teilchen."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "k": {
+                  "aus": [
+                    2,
+                    3,
+                    4
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ],
+              "vars": {
+                "k": {
+                  "aus": [
+                    3,
+                    4,
+                    5
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-GA-03-4",
+          "vars": {
+            "v": {
+              "aus": [
+                250,
+                500,
+                750,
+                1500,
+                2000
+              ]
+            }
+          },
+          "template": "Wie viel Liter sind {v} mL Gas?",
+          "answer": "v / 1000",
+          "unit_label": "L",
+          "round": 4,
+          "solution": "{v} : 1000 = {ergebnis} L",
+          "misconceptions": [
+            {
+              "id": "faktor_falsch",
+              "value": "v / 100",
+              "feedback": "Prüfe den Umrechnungsfaktor genau."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "v": {
+                  "aus": [
+                    250,
+                    500,
+                    750
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "v": {
+                  "aus": [
+                    750,
+                    1500,
+                    2000
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "ga-04": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-GA-04-1",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 800,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                21,
+                25,
+                50
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Sauerstoff. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 450,
+                  "schritt": 50
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 450,
+                  "bis": 800,
+                  "schritt": 50
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-GA-04-2",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-GA-04-3",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "vars": {
+            "k": {
+              "aus": [
+                2,
+                3,
+                4,
+                5
+              ]
+            }
+          },
+          "template": "Wie viele Atome insgesamt stecken in {k} {formel$}?",
+          "answer": "k * atome",
+          "round": 0,
+          "solution": "{k} · {atome} = {ergebnis} Atome",
+          "misconceptions": [
+            {
+              "id": "koeffizient_ignoriert",
+              "value": "atome",
+              "feedback": "Die Zahl vor der Formel vervielfacht das ganze Teilchen."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "k": {
+                  "aus": [
+                    2,
+                    3,
+                    4
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ],
+              "vars": {
+                "k": {
+                  "aus": [
+                    3,
+                    4,
+                    5
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-GA-04-4",
+          "vars": {
+            "v": {
+              "aus": [
+                250,
+                500,
+                750,
+                1500,
+                2000
+              ]
+            }
+          },
+          "template": "Wie viel Liter sind {v} mL Gas?",
+          "answer": "v / 1000",
+          "unit_label": "L",
+          "round": 4,
+          "solution": "{v} : 1000 = {ergebnis} L",
+          "misconceptions": [
+            {
+              "id": "faktor_falsch",
+              "value": "v / 100",
+              "feedback": "Prüfe den Umrechnungsfaktor genau."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "v": {
+                  "aus": [
+                    250,
+                    500,
+                    750
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "v": {
+                  "aus": [
+                    750,
+                    1500,
+                    2000
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "ga-05": {
+      "auftrag": "Rechne jede Aufgabe schriftlich. Schreibe Ansatz, Rechnung und Ergebnis mit Einheit untereinander.",
+      "aufgaben": [
+        {
+          "id": "AB-GA-05-1",
+          "vars": {
+            "m": {
+              "von": 100,
+              "bis": 800,
+              "schritt": 50
+            },
+            "p": {
+              "aus": [
+                21,
+                25,
+                50
+              ]
+            }
+          },
+          "template": "Eine Probe von {m} g enthält {p} % Sauerstoff. Wie viel Gramm sind das?",
+          "answer": "m * p / 100",
+          "unit_label": "g",
+          "round": 2,
+          "solution": "1 %% = {m/100} g → {p} %% = {ergebnis} g",
+          "misconceptions": [
+            {
+              "id": "rest_statt_anteil",
+              "value": "m * (100 - p) / 100",
+              "feedback": "Das ist der Rest. Gefragt war der genannte Anteil."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "m": {
+                  "von": 100,
+                  "bis": 450,
+                  "schritt": 50
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "m": {
+                  "von": 450,
+                  "bis": 800,
+                  "schritt": 50
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-GA-05-2",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "template": "Berechne die molare Masse von {name$} ({formel$}).",
+          "answer": "M",
+          "unit_label": "g/mol",
+          "round": 1,
+          "solution": "M({formel$}) = {M} g/mol",
+          "misconceptions": [
+            {
+              "id": "index_uebersehen",
+              "value": "M - 2",
+              "feedback": "Prüfe jeden Index einzeln — auch die kleinen Zahlen zählen mit."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ]
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "AB-GA-05-3",
+          "tabelle": [
+            {
+              "name": "Sauerstoff",
+              "formel": "O₂",
+              "M": 32,
+              "atome": 2
+            },
+            {
+              "name": "Wasserstoff",
+              "formel": "H₂",
+              "M": 2,
+              "atome": 2
+            },
+            {
+              "name": "Stickstoff",
+              "formel": "N₂",
+              "M": 28,
+              "atome": 2
+            },
+            {
+              "name": "Kohlenstoffdioxid",
+              "formel": "CO₂",
+              "M": 44,
+              "atome": 3
+            }
+          ],
+          "vars": {
+            "k": {
+              "aus": [
+                2,
+                3,
+                4,
+                5
+              ]
+            }
+          },
+          "template": "Wie viele Atome insgesamt stecken in {k} {formel$}?",
+          "answer": "k * atome",
+          "round": 0,
+          "solution": "{k} · {atome} = {ergebnis} Atome",
+          "misconceptions": [
+            {
+              "id": "koeffizient_ignoriert",
+              "value": "atome",
+              "feedback": "Die Zahl vor der Formel vervielfacht das ganze Teilchen."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "tabelle": [
+                {
+                  "name": "Wasserstoff",
+                  "formel": "H₂",
+                  "M": 2,
+                  "atome": 2
+                },
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                }
+              ],
+              "vars": {
+                "k": {
+                  "aus": [
+                    2,
+                    3,
+                    4
+                  ]
+                }
+              }
+            },
+            "C": {
+              "tabelle": [
+                {
+                  "name": "Stickstoff",
+                  "formel": "N₂",
+                  "M": 28,
+                  "atome": 2
+                },
+                {
+                  "name": "Sauerstoff",
+                  "formel": "O₂",
+                  "M": 32,
+                  "atome": 2
+                },
+                {
+                  "name": "Kohlenstoffdioxid",
+                  "formel": "CO₂",
+                  "M": 44,
+                  "atome": 3
+                }
+              ],
+              "vars": {
+                "k": {
+                  "aus": [
+                    3,
+                    4,
+                    5
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "AB-GA-05-4",
+          "vars": {
+            "v": {
+              "aus": [
+                250,
+                500,
+                750,
+                1500,
+                2000
+              ]
+            }
+          },
+          "template": "Wie viel Liter sind {v} mL Gas?",
+          "answer": "v / 1000",
+          "unit_label": "L",
+          "round": 4,
+          "solution": "{v} : 1000 = {ergebnis} L",
+          "misconceptions": [
+            {
+              "id": "faktor_falsch",
+              "value": "v / 100",
+              "feedback": "Prüfe den Umrechnungsfaktor genau."
+            }
+          ],
+          "stufen": {
+            "A": {
+              "vars": {
+                "v": {
+                  "aus": [
+                    250,
+                    500,
+                    750
+                  ]
+                }
+              }
+            },
+            "C": {
+              "vars": {
+                "v": {
+                  "aus": [
+                    750,
+                    1500,
+                    2000
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
