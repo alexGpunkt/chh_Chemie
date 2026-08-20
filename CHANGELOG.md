@@ -1,5 +1,13 @@
 # Änderungen
 
+## v4 — Ruhigere Lernoberfläche
+
+Die Einheitsseite führt jetzt sichtbar durch die drei Phasen Verstehen,
+Üben und Sichern. Größere Schrift, klarere Karten, großzügigere Touchziele
+und eine begrenzte Lesebreite erleichtern die Orientierung. Der umfangreiche
+Hefteintrag ist zunächst geschlossen und wird erst in der Sicherungsphase
+gebraucht.
+
 ## v4 — Lernvideos mit Lumi, externe Übungen, 45-Minuten-Einheit, Hefteintrag und ein Warm-up, das zählt
 
 Fünf Dinge, die zusammengehören: Die Videos verlassen die Anwendung nicht
@@ -635,3 +643,4 @@ jetzt aus `units/index.json` — zwei Wahrheiten wären eine zu viel gewesen.
   nachzuholen.
 - **Die Aufgaben sind nicht im Unterricht erprobt.** Fachliche Richtigkeit wurde
   beim Schreiben geprüft, die Passung zu einer konkreten Lerngruppe nicht.
+
