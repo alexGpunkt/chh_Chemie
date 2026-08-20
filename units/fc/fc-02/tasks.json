@@ -1,0 +1,660 @@
+{
+  "unit": "FC-02",
+  "title": "Der Gasbrenner",
+  "leitidee": "B4",
+  "standards": [
+    "K1",
+    "K2.2",
+    "K3.2"
+  ],
+  "klasse": 7,
+  "sicherheit": [
+    "Der Brenner wird nur mit aufgesetzter Schutzbrille und zusammengebundenen Haaren betrieben.",
+    "Erst das Streichholz brennt, dann wird das Gas aufgedreht — nie umgekehrt.",
+    "Beim Verlassen des Platzes wird der Brenner ausgeschaltet, nicht auf Sparflamme gestellt."
+  ],
+  "wortspeicher": [
+    "der Gasbrenner",
+    "die Luftzufuhr",
+    "die leuchtende Flamme",
+    "die rauschende Flamme",
+    "die Gaszufuhr",
+    "die Flammenzone",
+    "vollständige Verbrennung"
+  ],
+  "worterklaerungen": {
+    "Luftzufuhr": "Der drehbare Ring unten am Brennerrohr. Er lässt Luft zum Gas.",
+    "leuchtende Flamme": "Die gelbe Flamme bei geschlossener Luftzufuhr. Sie rußt und ist kühler.",
+    "rauschende Flamme": "Die blaue Flamme bei offener Luftzufuhr. Sie ist heiß und rußt nicht.",
+    "vollständige Verbrennung": "Das Gas verbrennt ganz. Es entstehen nur Kohlenstoffdioxid und Wasser."
+  },
+  "can_do": {
+    "A": "Ich zünde den Brenner nach Anweisung an und stelle die blaue Flamme ein.",
+    "B": "Ich erkläre den Aufbau des Brenners und begründe, warum die blaue Flamme heißer ist.",
+    "C": "Ich erkläre die Flammenzonen und die Farbe der Flamme über die Vollständigkeit der Verbrennung."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Gelb oder blau",
+      "hinfuehrung": "Der Brenner hat unten einen Ring.",
+      "erklaerung": [
+        "Ring zu: Die Flamme ist gelb.",
+        "Ring auf: Die Flamme ist blau. Sie ist heißer."
+      ],
+      "merke": "Blau ist heiß. Gelb ist kühl.",
+      "beispiel": {
+        "titel": "Anzünden",
+        "aufgabe": "Du sollst den Brenner anzünden.",
+        "schritte": [
+          "Streichholz anzünden.",
+          "Gas aufdrehen.",
+          "Ring öffnen: Die Flamme wird blau."
+        ],
+        "ergebnis": "Eine blaue Flamme.",
+        "luecke": {
+          "schritt": 0,
+          "wert": 1
+        }
+      },
+      "visual": {
+        "type": "animation",
+        "name": "brennerflamme",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Der Luftregler entscheidet",
+      "hinfuehrung": "Der Brenner mischt Gas und Luft. Wie viel Luft dazukommt, stellst du am Ring unten ein — und damit auch, wie heiß die Flamme wird.",
+      "erklaerung": [
+        "Geschlossene Luftzufuhr: gelbe, leuchtende Flamme, rund 600 °C. Sie rußt und schwärzt das Glas.",
+        "Geöffnete Luftzufuhr: blaue, rauschende Flamme, über 1400 °C. Sie rußt nicht.",
+        "Zum Erhitzen wird immer die rauschende Flamme genommen."
+      ],
+      "merke": "Mehr Luft → heißere Flamme, weil das Gas vollständiger verbrennt.",
+      "visual": {
+        "type": "animation",
+        "name": "brennerflamme",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Warum die gelbe Flamme leuchtet",
+      "hinfuehrung": "Farbe und Temperatur der Flamme hängen an derselben Ursache: daran, wie viel Sauerstoff das Gas beim Verbrennen zur Verfügung hat.",
+      "erklaerung": [
+        "Bei geschlossener Luftzufuhr fehlt Sauerstoff. Das Gas verbrennt unvollständig, es entstehen glühende Rußteilchen — sie leuchten gelb. Ein Teil der Energie steckt noch im unverbrannten Ruß, deshalb ist die Flamme kühler.",
+        "Bei geöffneter Luftzufuhr steht genug Sauerstoff bereit. Das Gas verbrennt vollständig zu Kohlenstoffdioxid und Wasser; die gesamte Energie wird als Wärme frei.",
+        "In der Flamme liegen mehrere Zonen: Im inneren blauen Kegel ist das Gemisch noch unverbrannt, direkt über seiner Spitze liegt die heißeste Stelle."
+      ],
+      "merke": "Gelb = unvollständig verbrannt = kühler. Blau = vollständig verbrannt = heißer.",
+      "visual": {
+        "type": "animation",
+        "name": "brennerflamme",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Erdgas (Methan) + Sauerstoff → Kohlenstoffdioxid + Wasser"
+    ],
+    "saetze": [
+      "Reihenfolge beim Anzünden: Streichholz → Gas → Luft.",
+      "Leuchtende Flamme: rund 600 °C, rußend.",
+      "Rauschende Flamme: über 1400 °C, rußfrei.",
+      "Heißeste Stelle: knapp über der Spitze des inneren blauen Kegels."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Gasbrenner sicher anzünden und bedienen",
+      "url": "https://www.youtube.com/watch?v=go69R6OyvMs",
+      "quelle": "Biologie und Chemie Schule",
+      "lumi": "https://app.lumi.education/run/KjoAQO",
+      "embed": "https://app.lumi.education/api/v1/run/KjoAQO/embed",
+      "stufe": "A",
+      "dauer_s": 315
+    }
+  ],
+  "tasks": [
+    {
+      "id": "FC02-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Die Luftzufuhr am Brenner ist geschlossen. Welche Farbe hat die Flamme?",
+      "options": [
+        "gelb",
+        "blau",
+        "grün"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "brennerflamme",
+        "stufe": "A"
+      },
+      "hints": [
+        "Sieh dir das Bild bei geschlossenem Ring an.",
+        "Ohne Luft leuchtet die Flamme.",
+        "Sie ist gelb."
+      ],
+      "solution": "Ohne Luftzufuhr verbrennt das Gas unvollständig. Die Flamme leuchtet gelb.",
+      "misconceptions": [
+        {
+          "id": "farben_vertauscht",
+          "value": 1,
+          "feedback": "Blau ist die Flamme bei <b>offener</b> Luftzufuhr. Bei geschlossenem Ring ist sie gelb."
+        }
+      ],
+      "tags": [
+        "brenner"
+      ]
+    },
+    {
+      "id": "FC02-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Womit zündest du den Brenner an? Bringe in die richtige Reihenfolge: Was kommt zuerst?",
+      "options": [
+        "Zuerst das Streichholz anzünden, dann das Gas aufdrehen",
+        "Zuerst das Gas aufdrehen, dann das Streichholz anzünden",
+        "Beides gleichzeitig"
+      ],
+      "answer": 0,
+      "hints": [
+        "Überlege, was passiert, wenn Gas ausströmt und noch keine Flamme da ist.",
+        "Ausströmendes Gas sammelt sich.",
+        "Die Flamme muss zuerst da sein."
+      ],
+      "solution": "Zuerst brennt das Streichholz, dann wird das Gas aufgedreht. Andersherum sammelt sich Gas an und verpufft beim Zünden schlagartig.",
+      "misconceptions": [
+        {
+          "id": "reihenfolge_vertauscht",
+          "value": 1,
+          "feedback": "So sammelt sich Gas an, bevor die Flamme da ist. Das kann verpuffen. Erst das Streichholz.",
+          "konzeptfehler": "sicherheitsregel_missachtet"
+        }
+      ],
+      "tags": [
+        "brenner",
+        "sicherheit"
+      ]
+    },
+    {
+      "id": "FC02-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Du willst eine Flüssigkeit schnell erhitzen. Welche Flamme nimmst du?",
+      "options": [
+        "die blaue, rauschende Flamme",
+        "die gelbe, leuchtende Flamme",
+        "beide sind gleich gut"
+      ],
+      "answer": 0,
+      "hints": [
+        "Welche Flamme ist heißer?",
+        "Blau ist heißer als gelb.",
+        "Die rauschende Flamme."
+      ],
+      "solution": "Die blaue, rauschende Flamme ist über 1400 °C heiß, die gelbe nur etwa 600 °C. Zum Erhitzen wird deshalb die blaue genommen.",
+      "tags": [
+        "brenner"
+      ]
+    },
+    {
+      "id": "FC02-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "numeric",
+      "prompt": "Die rauschende Flamme ist etwa 1400 °C heiß, die leuchtende etwa 600 °C. Um wie viel Grad ist die rauschende heißer?",
+      "answer": 800,
+      "unit_label": "°C",
+      "tolerance": 0,
+      "hints": [
+        "Der Unterschied ist eine Differenz.",
+        "1400 minus 600.",
+        "800 °C."
+      ],
+      "solution": "1400 °C − 600 °C = 800 °C",
+      "misconceptions": [
+        {
+          "id": "addiert_statt_subtrahiert",
+          "value": 2000,
+          "feedback": "Du hast addiert. Gefragt ist der Unterschied — also die Differenz."
+        }
+      ],
+      "tags": [
+        "brenner",
+        "rechnen"
+      ],
+      "spiral": [
+        "W-EINH"
+      ]
+    },
+    {
+      "id": "FC02-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "assign",
+      "prompt": "Ordne jedem Bauteil des Brenners seine Aufgabe zu.",
+      "slots": [
+        "Gasregulierung",
+        "Luftregulierung",
+        "Brennerrohr"
+      ],
+      "values": [
+        "lässt mehr oder weniger Gas durch",
+        "mischt dem Gas Luft bei",
+        "in ihm mischen sich Gas und Luft vor dem Verbrennen"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Zwei Regler, ein Rohr.",
+        "Ein Regler steuert das Gas, einer die Luft.",
+        "Im Rohr geschieht die Mischung."
+      ],
+      "solution": "Gasregulierung → Gasmenge.\nLuftregulierung → Luftbeimischung.\nBrennerrohr → Mischraum für Gas und Luft.",
+      "tags": [
+        "brenner",
+        "geraete"
+      ]
+    },
+    {
+      "id": "FC02-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum ist die rauschende Flamme heißer als die leuchtende?",
+      "options": [
+        "Weil das Gas mit mehr Sauerstoff vollständiger verbrennt.",
+        "Weil mehr Gas durch den Brenner strömt.",
+        "Weil blaue Farbe grundsätzlich heißer ist als gelbe."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ändert sich, wenn du den Luftring öffnest?",
+        "Es kommt Sauerstoff dazu.",
+        "Mehr Sauerstoff → vollständigere Verbrennung → mehr Wärme."
+      ],
+      "solution": "Mit geöffneter Luftzufuhr steht mehr Sauerstoff bereit. Das Gas verbrennt vollständiger, und die gesamte Energie wird als Wärme frei statt teilweise im Ruß zu bleiben.",
+      "misconceptions": [
+        {
+          "id": "gasmenge_als_grund",
+          "value": 1,
+          "feedback": "Die Gasmenge ist unverändert — du hast nur den Luftring gedreht. Entscheidend ist der Sauerstoff.",
+          "konzeptfehler": "reaktion_und_zustandsaenderung_verwechselt",
+          "verweis": {
+            "absatz": 0
+          }
+        },
+        {
+          "id": "farbe_als_ursache",
+          "value": 2,
+          "feedback": "Die Farbe ist die Folge, nicht die Ursache. Gelb leuchtet glühender Ruß — ein Zeichen unvollständiger Verbrennung."
+        }
+      ],
+      "tags": [
+        "brenner",
+        "energie",
+        "bbr"
+      ]
+    },
+    {
+      "id": "FC02-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Beim Erhitzen eines Reagenzglases in der leuchtenden Flamme wird das Glas schwarz. Woran liegt das?",
+      "options": [
+        "An Ruß aus der unvollständigen Verbrennung.",
+        "Das Glas verbrennt selbst.",
+        "Der Inhalt des Reagenzglases färbt das Glas."
+      ],
+      "answer": 0,
+      "hints": [
+        "Der schwarze Belag lässt sich abwischen.",
+        "Woher kommt schwarzer Staub in einer Flamme?",
+        "Es ist Ruß."
+      ],
+      "solution": "Die leuchtende Flamme verbrennt unvollständig. Der dabei entstehende Ruß schlägt sich auf dem kühleren Glas nieder. In der rauschenden Flamme passiert das nicht.",
+      "tags": [
+        "brenner",
+        "beobachten"
+      ]
+    },
+    {
+      "id": "FC02-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Ein Brenner verbraucht 0,6 L Gas je Minute. Wie viele Liter sind das in einer Doppelstunde von 90 Minuten?",
+      "answer": 54,
+      "unit_label": "L",
+      "tolerance": 0.01,
+      "hints": [
+        "Verbrauch je Minute mal Zahl der Minuten.",
+        "0,6 · 90.",
+        "54 L."
+      ],
+      "solution": "0,6 L/min · 90 min = 54 L",
+      "misconceptions": [
+        {
+          "id": "geteilt_statt_mal",
+          "value": 150,
+          "feedback": "Du hast geteilt. Aus Verbrauch je Minute und Zeit wird die Gesamtmenge durch Multiplizieren."
+        }
+      ],
+      "tags": [
+        "brenner",
+        "rechnen"
+      ],
+      "spiral": [
+        "W-EINH"
+      ]
+    },
+    {
+      "id": "FC02-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Der Brenner brennt plötzlich mit kleiner Flamme direkt am Rohrfuß und das Rohr wird heiß. Was ist passiert und was tust du?",
+      "options": [
+        "Die Flamme ist zurückgeschlagen — Gas abstellen und den Brenner abkühlen lassen.",
+        "Der Brenner arbeitet richtig — einfach weitermachen.",
+        "Es fehlt Gas — Gaszufuhr weiter aufdrehen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Normalerweise brennt die Flamme oben am Rohr.",
+        "Wenn sie unten brennt, ist etwas schiefgelaufen.",
+        "Das heißt Flammenrückschlag."
+      ],
+      "solution": "Brennt die Flamme unten im Rohr, ist sie zurückgeschlagen. Das Rohr wird sehr heiß. Richtig ist: Gas abstellen, Brenner abkühlen lassen, dann neu zünden — mit weniger Luft.",
+      "misconceptions": [
+        {
+          "id": "rueckschlag_verkannt",
+          "value": 1,
+          "feedback": "Eine Flamme am Rohrfuß ist nicht der Normalfall. Das Rohr wird sehr heiß — Gas abstellen.",
+          "konzeptfehler": "sicherheitsregel_missachtet"
+        }
+      ],
+      "tags": [
+        "brenner",
+        "sicherheit",
+        "bbr"
+      ]
+    },
+    {
+      "id": "FC02-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler stellt fest: „Wenn ich den Luftring öffne, wird die Flamme leiser.“ Stimmt das?",
+      "options": [
+        "Nein — sie wird lauter, deshalb heißt sie rauschende Flamme.",
+        "Ja — mehr Luft dämpft das Geräusch.",
+        "Das hängt vom Brennertyp ab."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie heißt die Flamme bei offener Luftzufuhr?",
+        "Der Name verrät das Geräusch.",
+        "Rauschende Flamme."
+      ],
+      "solution": "Bei geöffneter Luftzufuhr strömt das Gas-Luft-Gemisch schneller und die Flamme rauscht hörbar. Genau daher der Name.",
+      "tags": [
+        "brenner",
+        "beobachten"
+      ]
+    },
+    {
+      "id": "FC02-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum leuchtet die gelbe Flamme überhaupt?",
+      "options": [
+        "Glühende Rußteilchen senden das Licht aus.",
+        "Das Gas selbst ist gelb.",
+        "Der Sauerstoff leuchtet beim Verbrennen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was entsteht bei unvollständiger Verbrennung?",
+        "Feste Teilchen, die sehr heiß werden.",
+        "Ruß glüht."
+      ],
+      "solution": "Bei Sauerstoffmangel entsteht Ruß. Die festen Rußteilchen werden in der Flamme so heiß, dass sie glühen und gelbes Licht aussenden — wie der Draht in einer alten Glühlampe.",
+      "misconceptions": [
+        {
+          "id": "gasfarbe_als_grund",
+          "value": 1,
+          "feedback": "Erdgas ist farblos. Das Gelb stammt von glühenden Rußteilchen.",
+          "konzeptfehler": "teilchen_traegt_stoffeigenschaft",
+          "verweis": {
+            "absatz": 0
+          }
+        }
+      ],
+      "tags": [
+        "brenner",
+        "erklaeren",
+        "msa"
+      ]
+    },
+    {
+      "id": "FC02-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Ein Drahtnetz wird in die rauschende Flamme gehalten. Oberhalb des Netzes brennt es nicht weiter. Wie erklärst du das?",
+      "options": [
+        "Das Metallnetz leitet die Wärme ab; oberhalb wird die Zündtemperatur nicht mehr erreicht.",
+        "Das Netz hält den Sauerstoff zurück.",
+        "Das Netz verbraucht das Gas."
+      ],
+      "answer": 0,
+      "hints": [
+        "Metall leitet Wärme sehr gut.",
+        "Was passiert mit der Temperatur oberhalb des Netzes?",
+        "Ohne ausreichende Temperatur keine Verbrennung."
+      ],
+      "solution": "Das Drahtnetz leitet Wärme rasch ab. Oberhalb sinkt die Temperatur unter die Zündtemperatur, das Gas strömt zwar hindurch, entzündet sich dort aber nicht. Nach demselben Prinzip arbeitet die Grubenlampe von Davy.",
+      "misconceptions": [
+        {
+          "id": "sauerstoff_als_grund",
+          "value": 1,
+          "feedback": "Sauerstoff kommt durch das Netz ohne Weiteres hindurch. Entscheidend ist die abgeleitete Wärme.",
+          "konzeptfehler": "reaktion_und_zustandsaenderung_verwechselt"
+        }
+      ],
+      "tags": [
+        "brenner",
+        "erklaeren",
+        "msa"
+      ]
+    },
+    {
+      "id": "FC02-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Ein Brenner verbraucht in der leuchtenden Flamme 0,4 L/min, in der rauschenden 0,9 L/min. Eine Gruppe erhitzt 12 Minuten mit der rauschenden Flamme.",
+      "fields": [
+        {
+          "label": "Gasverbrauch der Gruppe",
+          "answer": 10.8,
+          "unit_label": "L",
+          "tolerance": 0.01
+        },
+        {
+          "label": "Verbrauch, wenn dieselbe Zeit leuchtend gebrannt würde",
+          "answer": 4.8,
+          "unit_label": "L",
+          "tolerance": 0.01
+        },
+        {
+          "label": "Mehrverbrauch in Prozent",
+          "answer": 125,
+          "unit_label": "%",
+          "tolerance": 0.5
+        }
+      ],
+      "hints": [
+        "Verbrauch je Minute mal Minuten.",
+        "Beides einzeln ausrechnen.",
+        "Mehrverbrauch = (10,8 − 4,8) : 4,8 · 100 %."
+      ],
+      "solution": "rauschend: 0,9 · 12 = 10,8 L\nleuchtend: 0,4 · 12 = 4,8 L\nMehrverbrauch: (10,8 − 4,8) : 4,8 = 1,25 → 125 %",
+      "tags": [
+        "brenner",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-EINH"
+      ]
+    },
+    {
+      "id": "FC02-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Eine Gruppe erhitzt zehn Minuten mit der leuchtenden Flamme und wundert sich, dass das Wasser nicht siedet. Welche Erklärung trifft zu?",
+      "options": [
+        "Die leuchtende Flamme ist zu kühl; ein Teil der Energie bleibt im unverbrannten Ruß.",
+        "Zehn Minuten sind grundsätzlich zu kurz.",
+        "Wasser siedet in Reagenzgläsern gar nicht."
+      ],
+      "answer": 0,
+      "hints": [
+        "Vergleiche die Temperaturen der beiden Flammen.",
+        "600 °C gegenüber 1400 °C.",
+        "Der Ruß trägt noch unverbrauchte Energie."
+      ],
+      "solution": "Die leuchtende Flamme erreicht nur etwa 600 °C und gibt weniger Wärme ab, weil ein Teil der Energie im unverbrannten Ruß steckt. Mit geöffneter Luftzufuhr siedet dieselbe Menge deutlich schneller.",
+      "tags": [
+        "brenner",
+        "transfer",
+        "msa"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 8,
+      "aufgaben": 21,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 8,
+      "aufgaben": 19,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 8,
+      "aufgaben": 16,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Bestandteile des Gasbrenners",
+      "url": "https://learningapps.org/view1196893",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Wie bedient man einen Gasbrenner?",
+      "url": "https://learningapps.org/view18175826",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 1,
+    "titel": "Sicherheit im Chemieunterricht",
+    "seiten_von": 8,
+    "seiten_bis": 12,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Gasbrenner"
+  }
+}

@@ -1,0 +1,722 @@
+{
+  "unit": "FC-01",
+  "title": "Sicher im Chemieraum",
+  "leitidee": "B1",
+  "standards": [
+    "K1",
+    "K2.2",
+    "K4.2"
+  ],
+  "klasse": 7,
+  "sicherheit": [
+    "Im Chemieraum wird nichts angefasst, gerochen oder geschmeckt, bevor die Lehrkraft es sagt.",
+    "Schutzbrille auf, sobald erhitzt wird oder eine Chemikalie offen steht — auch beim Zusehen.",
+    "Lange Haare zusammenbinden, Jacken und Taschen weg vom Arbeitsplatz."
+  ],
+  "wortspeicher": [
+    "das Gefahrensymbol",
+    "ätzend",
+    "entzündbar",
+    "gesundheitsschädlich",
+    "die Schutzbrille",
+    "die Betriebsanweisung",
+    "der Abzug",
+    "die Augendusche"
+  ],
+  "worterklaerungen": {
+    "Gefahrensymbol": "Ein rot umrandetes Bild auf der Flasche. Es sagt, welche Gefahr von dem Stoff ausgeht.",
+    "ätzend": "Der Stoff zerstört Haut und Augen. Er greift auch Metall an.",
+    "entzündbar": "Der Stoff fängt leicht Feuer.",
+    "Abzug": "Ein Glaskasten mit Absaugung. Darin bleiben giftige Dämpfe.",
+    "Betriebsanweisung": "Ein Blatt, das für einen bestimmten Stoff sagt, was zu tun und zu lassen ist."
+  },
+  "can_do": {
+    "A": "Ich erkenne die wichtigsten Gefahrensymbole und weiß, was ich dann tun muss.",
+    "B": "Ich ordne Gefahrensymbole den passenden Schutzmaßnahmen zu und begründe sie.",
+    "C": "Ich lese eine Betriebsanweisung und leite daraus das Vorgehen für einen Versuch ab."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Die Zeichen auf der Flasche",
+      "hinfuehrung": "Auf jeder Flasche steht ein Zeichen.",
+      "erklaerung": [
+        "Das Zeichen sagt dir die Gefahr.",
+        "Lies es, bevor du die Flasche anfasst."
+      ],
+      "merke": "Erst das Zeichen lesen. Dann handeln.",
+      "beispiel": {
+        "titel": "Ein Beispiel",
+        "aufgabe": "Auf einer Flasche siehst du das Zeichen für „ätzend“.",
+        "schritte": [
+          "Der Stoff greift Haut und Augen an.",
+          "Ich setze die Schutzbrille auf.",
+          "Ich ziehe Handschuhe an."
+        ],
+        "ergebnis": "Schutzbrille und Handschuhe."
+      }
+    },
+    "B": {
+      "titel": "Gefahrensymbole und was sie verlangen",
+      "hinfuehrung": "Die neun GHS-Symbole sind rot umrandete Rauten. Jedes steht für eine bestimmte Art von Gefahr, und jedes verlangt eine bestimmte Vorsichtsmaßnahme.",
+      "erklaerung": [
+        "Ätzend: Schutzbrille und Handschuhe, niemals ohne Aufsicht umfüllen.",
+        "Entzündbar: kein offenes Feuer in der Nähe, Brenner vorher ausschalten.",
+        "Gesundheitsschädlich und giftig: nur im Abzug arbeiten, nicht daran riechen."
+      ],
+      "merke": "Das Symbol nennt die Gefahr — die Schutzmaßnahme folgt daraus.",
+      "beispiel": {
+        "titel": "Vom Symbol zur Handlung",
+        "aufgabe": "Eine Flasche trägt die Symbole „entzündbar“ und „gesundheitsschädlich“.",
+        "schritte": [
+          "Entzündbar → Brenner aus, kein offenes Feuer.",
+          "Gesundheitsschädlich → im Abzug arbeiten.",
+          "Beide Maßnahmen gelten gleichzeitig."
+        ],
+        "ergebnis": "Brenner aus und im Abzug arbeiten."
+      }
+    },
+    "C": {
+      "titel": "Von der Betriebsanweisung zum Vorgehen",
+      "hinfuehrung": "Eine Betriebsanweisung nennt für einen Stoff die Gefahren, die Schutzmaßnahmen, das Verhalten im Gefahrfall und die Entsorgung. Sie ist damit die Anleitung für den ganzen Versuch — nicht nur für den Moment des Umfüllens.",
+      "erklaerung": [
+        "Vor dem Versuch: Welche Gefahren nennt sie? Welche Schutzausrüstung verlangt sie?",
+        "Während des Versuchs: Wo steht die kleinste Menge, mit der der Versuch noch gelingt? Weniger Stoff heißt weniger Gefahr — das ist der Sinn der Ersatzstoffprüfung.",
+        "Nach dem Versuch: In welchen Behälter gehört der Rest? Ausguss ist fast nie die Antwort."
+      ],
+      "merke": "Die Betriebsanweisung wird vor dem Versuch gelesen, nicht danach.",
+      "beispiel": {
+        "titel": "Eine Anweisung auswerten",
+        "aufgabe": "„Natronlauge, ätzend. Schutzbrille. Nicht in den Ausguss. Bei Hautkontakt 10 Minuten spülen.“",
+        "schritte": [
+          "Gefahr: ätzend → Brille auf, bevor die Flasche geöffnet wird.",
+          "Gefahrfall: 10 Minuten spülen — nicht 10 Sekunden.",
+          "Entsorgung: Sammelbehälter, nicht Ausguss."
+        ],
+        "ergebnis": "Brille, Spülzeit, Sammelbehälter."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [],
+    "saetze": [
+      "Erst lesen, dann handeln: Symbol → Gefahr → Schutzmaßnahme.",
+      "Bei Hautkontakt mit Ätzendem: mindestens 10 Minuten mit Wasser spülen.",
+      "Erst das Wasser, dann die Säure — sonst geschieht das Ungeheure.",
+      "Reste gehören in den Sammelbehälter, nicht in den Ausguss.",
+      "Im Zweifel: nicht anfassen, sondern fragen."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Gefahrenhinweise und Sicherheitsregeln im Labor",
+      "url": "https://www.youtube.com/watch?v=tifJa503yO4",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/pvI2BV",
+      "embed": "https://app.lumi.education/api/v1/run/pvI2BV/embed",
+      "stufe": "A",
+      "dauer_s": 347
+    },
+    {
+      "titel": "Verhalten im Chemieraum — was man nicht tun darf",
+      "url": "https://www.youtube.com/watch?v=JniUB-v6kAk",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/ejhp-8",
+      "embed": "https://app.lumi.education/api/v1/run/ejhp-8/embed",
+      "stufe": "B",
+      "dauer_s": 332
+    }
+  ],
+  "tasks": [
+    {
+      "id": "FC01-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Auf einer Flasche siehst du das Gefahrensymbol für „ätzend“. Was tust du zuerst?",
+      "options": [
+        "Schutzbrille aufsetzen",
+        "Kurz daran riechen",
+        "Die Flasche schütteln"
+      ],
+      "answer": 0,
+      "hints": [
+        "Ätzende Stoffe greifen Haut und Augen an.",
+        "Was schützt die Augen?",
+        "Die Schutzbrille kommt vor allem anderen."
+      ],
+      "solution": "Ätzend heißt: Der Stoff greift Haut und Augen an. Deshalb zuerst die Schutzbrille aufsetzen.",
+      "misconceptions": [
+        {
+          "id": "riechen_erlaubt",
+          "value": 1,
+          "feedback": "Riechen ist im Chemieraum nie der erste Schritt. Bei ätzenden Stoffen kann schon der Dampf die Atemwege schädigen.",
+          "konzeptfehler": "sicherheitsregel_missachtet",
+          "verweis": {
+            "absatz": 0
+          }
+        }
+      ],
+      "tags": [
+        "sicherheit",
+        "symbole"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC01-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "assign",
+      "prompt": "Ordne jedem Gefahrensymbol die richtige Maßnahme zu.",
+      "slots": [
+        "ätzend",
+        "entzündbar",
+        "gesundheitsschädlich"
+      ],
+      "values": [
+        "Schutzbrille und Handschuhe",
+        "kein offenes Feuer",
+        "im Abzug arbeiten"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Ätzend betrifft Haut und Augen.",
+        "Entzündbar hat mit Feuer zu tun.",
+        "Gesundheitsschädlich betrifft das Einatmen."
+      ],
+      "solution": "Ätzend → Brille und Handschuhe.\nEntzündbar → kein offenes Feuer.\nGesundheitsschädlich → im Abzug arbeiten.",
+      "tags": [
+        "sicherheit",
+        "symbole"
+      ]
+    },
+    {
+      "id": "FC01-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Du hast eine ätzende Lösung an die Hand bekommen. Wie viele Minuten musst du mindestens mit Wasser spülen?",
+      "answer": 10,
+      "unit_label": "min",
+      "tolerance": 0,
+      "hints": [
+        "Die Regel steht in der Betriebsanweisung.",
+        "Es sind deutlich mehr als ein paar Sekunden.",
+        "Zehn Minuten."
+      ],
+      "solution": "Bei Hautkontakt mit einem ätzenden Stoff wird mindestens 10 Minuten mit fließendem Wasser gespült.",
+      "misconceptions": [
+        {
+          "id": "zu_kurz_gespuelt",
+          "value": 1,
+          "feedback": "Eine Minute reicht nicht. Ein ätzender Stoff wirkt weiter, solange Reste auf der Haut sind — deshalb 10 Minuten.",
+          "konzeptfehler": "sicherheitsregel_missachtet"
+        }
+      ],
+      "tags": [
+        "sicherheit",
+        "erste_hilfe"
+      ]
+    },
+    {
+      "id": "FC01-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Im Versuch ist etwas danebengegangen. Auf dem Tisch steht eine geöffnete Flasche mit „entzündbar“, der Gasbrenner brennt noch. Was tust du zuerst?",
+      "options": [
+        "Den Brenner ausschalten",
+        "Die Flasche zumachen",
+        "Die Lehrkraft suchen gehen"
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ist die eigentliche Gefahrenquelle?",
+        "Ein entzündbarer Stoff braucht eine Zündquelle.",
+        "Die Flamme muss weg."
+      ],
+      "solution": "Ein entzündbarer Stoff wird gefährlich, sobald eine Zündquelle da ist. Zuerst kommt der Brenner aus, danach wird die Flasche geschlossen und die Lehrkraft gerufen.",
+      "misconceptions": [
+        {
+          "id": "gefahrenquelle_verkannt",
+          "value": 1,
+          "feedback": "Die Flasche zu schließen ist richtig — aber erst als Zweites. Solange die Flamme brennt, bleibt die Zündquelle da.",
+          "konzeptfehler": "sicherheitsregel_missachtet"
+        }
+      ],
+      "tags": [
+        "sicherheit",
+        "transfer"
+      ]
+    },
+    {
+      "id": "FC01-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welche Aussage über den Abzug ist richtig?",
+      "options": [
+        "Er saugt Dämpfe ab, damit sie nicht in den Raum gelangen.",
+        "Er kühlt Versuche, damit nichts zu heiß wird.",
+        "Er ist ein Schrank, in dem Chemikalien gelagert werden."
+      ],
+      "answer": 0,
+      "hints": [
+        "Sieh dir an, wo die Luft im Abzug hingeht.",
+        "Der Abzug hat eine Absaugung nach oben.",
+        "Es geht um Dämpfe, nicht um Temperatur."
+      ],
+      "solution": "Der Abzug saugt Dämpfe ab und führt sie nach draußen. Deshalb wird darin gearbeitet, wenn giftige oder stark riechende Stoffe entstehen können.",
+      "tags": [
+        "sicherheit",
+        "geraete"
+      ]
+    },
+    {
+      "id": "FC01-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "assign",
+      "prompt": "Ordne jeder Situation die richtige Sofortmaßnahme zu.",
+      "slots": [
+        "Säure ins Auge",
+        "Kleidung fängt Feuer",
+        "Chemikalie verschluckt"
+      ],
+      "values": [
+        "Augendusche, mindestens 10 Minuten spülen",
+        "Löschdecke oder Notdusche, nicht wegrennen",
+        "Lehrkraft sofort informieren, nichts zu trinken geben"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Jede Situation hat eine eigene Einrichtung im Raum.",
+        "Beim Brand macht Weglaufen die Flamme größer.",
+        "Bei Verschlucken wird nichts auf eigene Faust gegeben."
+      ],
+      "solution": "Auge → Augendusche, mindestens 10 Minuten.\nKleidung brennt → Löschdecke oder Notdusche; Rennen fächelt die Flamme an.\nVerschluckt → sofort die Lehrkraft, nichts eigenmächtig verabreichen.",
+      "misconceptions": [
+        {
+          "id": "wasser_bei_verschlucken",
+          "value": 2,
+          "feedback": "Etwas zu trinken zu geben kann die Sache verschlimmern. Bei Verschlucken gilt: sofort die Lehrkraft.",
+          "konzeptfehler": "sicherheitsregel_missachtet"
+        }
+      ],
+      "tags": [
+        "sicherheit",
+        "erste_hilfe"
+      ]
+    },
+    {
+      "id": "FC01-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum gilt beim Verdünnen von Schwefelsäure „erst das Wasser, dann die Säure“?",
+      "options": [
+        "Beim Mischen wird viel Wärme frei; in wenig Wasser kann die Säure spritzend verdampfen.",
+        "Die Säure würde sonst nicht mit dem Wasser mischen.",
+        "Wasser ist schwerer und muss deshalb unten liegen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Beim Verdünnen wird etwas frei — was?",
+        "Es geht um Wärme.",
+        "Wenig Wasser nimmt die Wärme schlecht auf."
+      ],
+      "solution": "Beim Verdünnen wird viel Wärme frei. Gibt man Wasser in konzentrierte Säure, erhitzt sich der kleine Wassertropfen schlagartig und spritzt Säure heraus. Umgekehrt verteilt sich die Wärme in der großen Wassermenge.",
+      "misconceptions": [
+        {
+          "id": "dichte_als_grund",
+          "value": 2,
+          "feedback": "Mit der Dichte hat die Regel nichts zu tun. Entscheidend ist die Wärme, die beim Verdünnen frei wird.",
+          "konzeptfehler": "sicherheitsregel_missachtet",
+          "verweis": {
+            "absatz": 1
+          }
+        }
+      ],
+      "tags": [
+        "sicherheit",
+        "saeuren",
+        "bbr"
+      ]
+    },
+    {
+      "id": "FC01-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Ein Versuch verlangt 20 mL einer Lösung. Die Ersatzstoffprüfung ergibt, dass er auch mit einem Viertel der Menge gelingt. Wie viele Milliliter werden dann eingesetzt?",
+      "answer": 5,
+      "unit_label": "mL",
+      "tolerance": 0,
+      "hints": [
+        "Ein Viertel von 20 mL.",
+        "20 : 4.",
+        "5 mL."
+      ],
+      "solution": "20 mL : 4 = 5 mL. Weniger Stoff heißt weniger Gefahr und weniger Abfall — genau darum geht es bei der Ersatzstoffprüfung.",
+      "misconceptions": [
+        {
+          "id": "anteil_umgedreht",
+          "value": 80,
+          "feedback": "Du hast mit 4 multipliziert. Ein Viertel bedeutet teilen, nicht malnehmen."
+        }
+      ],
+      "tags": [
+        "sicherheit",
+        "rechnen"
+      ],
+      "spiral": [
+        "W-EINH"
+      ]
+    },
+    {
+      "id": "FC01-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Ein Schüler will prüfen, wie ein Stoff riecht. Wie geht er richtig vor?",
+      "options": [
+        "Mit der Hand vorsichtig Luft zur Nase fächeln",
+        "Die Öffnung direkt unter die Nase halten und tief einatmen",
+        "Gar nicht riechen — das ist immer verboten"
+      ],
+      "answer": 0,
+      "hints": [
+        "Es gibt eine erlaubte Technik dafür.",
+        "Man fächelt sich die Luft zu.",
+        "Direkt einatmen ist zu viel auf einmal."
+      ],
+      "solution": "Man fächelt sich mit der Hand vorsichtig etwas Luft zu. So gelangt nur wenig Dampf an die Nase. Direktes Einatmen kann die Atemwege schädigen.",
+      "misconceptions": [
+        {
+          "id": "direkt_geschnuppert",
+          "value": 1,
+          "feedback": "Direkt einatmen bringt die volle Konzentration in die Atemwege. Gefächelt wird mit der Hand.",
+          "konzeptfehler": "sicherheitsregel_missachtet"
+        }
+      ],
+      "tags": [
+        "sicherheit",
+        "arbeitstechnik"
+      ]
+    },
+    {
+      "id": "FC01-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "assign",
+      "prompt": "Ordne jedem Abfall den richtigen Weg zu.",
+      "slots": [
+        "Reste einer Salzlösung",
+        "Schwermetallhaltige Lösung",
+        "Zerbrochenes Reagenzglas"
+      ],
+      "values": [
+        "nach Freigabe in den Ausguss",
+        "in den Sammelbehälter",
+        "in den Glasabfall, nicht in den Papierkorb"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Nicht alles darf in den Ausguss.",
+        "Schwermetalle gehören nie ins Abwasser.",
+        "Scherben verletzen, wenn sie im normalen Müll landen."
+      ],
+      "solution": "Harmlose Salzlösung → nach Freigabe in den Ausguss.\nSchwermetalle → Sammelbehälter, nie ins Abwasser.\nScherben → Glasabfall.",
+      "misconceptions": [
+        {
+          "id": "schwermetall_in_ausguss",
+          "value": 0,
+          "feedback": "Schwermetallhaltige Lösungen dürfen nie in den Ausguss — sie gelangen sonst in die Kläranlage und in die Umwelt.",
+          "konzeptfehler": "sicherheitsregel_missachtet"
+        }
+      ],
+      "tags": [
+        "sicherheit",
+        "entsorgung",
+        "bbr"
+      ]
+    },
+    {
+      "id": "FC01-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "In einer Betriebsanweisung steht: „Nur im Abzug. Bei Freisetzung Raum verlassen.“ Was folgt daraus für die Planung des Versuchs?",
+      "options": [
+        "Der Versuch wird vollständig im Abzug aufgebaut, bevor die Flasche geöffnet wird.",
+        "Der Versuch wird auf dem Tisch aufgebaut und nur zum Öffnen in den Abzug gestellt.",
+        "Es reicht, das Fenster zu öffnen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wann genau kann der Stoff freigesetzt werden?",
+        "Auch beim Umstellen kann etwas entweichen.",
+        "Der Aufbau muss vorher fertig sein."
+      ],
+      "solution": "Wird der Aufbau erst nach dem Öffnen umgestellt, entweicht schon dabei etwas. Deshalb steht der gesamte Aufbau im Abzug, bevor die Flasche geöffnet wird.",
+      "tags": [
+        "sicherheit",
+        "planung",
+        "msa"
+      ]
+    },
+    {
+      "id": "FC01-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Ein Versuch braucht 250 mL Lösung mit 8 % Massenanteil. Aus Gründen der Ersatzstoffprüfung wird auf 50 mL und 2 % heruntergegangen. (Dichte 1 g/mL)",
+      "fields": [
+        {
+          "label": "ursprünglich eingesetzte Stoffmasse",
+          "answer": 20,
+          "unit_label": "g",
+          "tolerance": 0.01,
+          "misconceptions": [
+            {
+              "id": "anteil_umgedreht",
+              "value": 3.125,
+              "feedback": "Du hast geteilt statt den Anteil zu nehmen. 8 % von 250 g sind 250 · 0,08."
+            }
+          ]
+        },
+        {
+          "label": "jetzt eingesetzte Stoffmasse",
+          "answer": 1,
+          "unit_label": "g",
+          "tolerance": 0.01
+        },
+        {
+          "label": "Einsparung in Prozent",
+          "answer": 95,
+          "unit_label": "%",
+          "tolerance": 0.1
+        }
+      ],
+      "hints": [
+        "250 mL entsprechen bei Dichte 1 g/mL genau 250 g.",
+        "8 % von 250 g und 2 % von 50 g einzeln ausrechnen.",
+        "Einsparung = (20 − 1) : 20 · 100 %."
+      ],
+      "solution": "vorher: 250 g · 0,08 = 20 g\nnachher: 50 g · 0,02 = 1 g\nEinsparung: (20 − 1) : 20 = 0,95 → 95 %",
+      "tags": [
+        "sicherheit",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES",
+        "W-EINH"
+      ]
+    },
+    {
+      "id": "FC01-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Ein Schülerversuch soll Chlorgas erzeugen. Welche Begründung spricht am stärksten für die Microscale-Variante mit wenigen Millilitern?",
+      "options": [
+        "Weniger Stoff bedeutet weniger freigesetztes Gas und damit eine kleinere Gefährdung.",
+        "Kleine Geräte sind billiger in der Anschaffung.",
+        "Der Versuch geht schneller."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ist der eigentliche Zweck der Ersatzstoffprüfung?",
+        "Es geht um die Gefährdung, nicht um Kosten oder Zeit.",
+        "Weniger Ausgangsstoff heißt weniger Produkt."
+      ],
+      "solution": "Aus weniger Ausgangsstoff entsteht weniger Chlor. Die Gefährdung sinkt unmittelbar mit der eingesetzten Menge — das ist der Kern der Ersatzstoffprüfung. Kosten und Zeit sind willkommene Nebeneffekte, aber nicht der Grund.",
+      "misconceptions": [
+        {
+          "id": "nebeneffekt_als_grund",
+          "value": 1,
+          "feedback": "Kosten sind ein Nebeneffekt. Begründet wird die Microscale-Technik mit der geringeren Gefährdung.",
+          "konzeptfehler": "sicherheitsregel_missachtet"
+        }
+      ],
+      "tags": [
+        "sicherheit",
+        "bewerten",
+        "msa"
+      ]
+    },
+    {
+      "id": "FC01-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Zwei Gruppen streiten: Gruppe 1 will einen Versuch mit konzentrierter Säure durchführen, weil er „eindrucksvoller“ aussieht. Gruppe 2 will die verdünnte Variante. Welche Begründung ist fachlich tragfähig?",
+      "options": [
+        "Gruppe 2, weil dieselbe Aussage mit geringerer Gefährdung erreichbar ist.",
+        "Gruppe 1, weil ein deutlicher Effekt wichtiger ist als die Sicherheit.",
+        "Gruppe 1, weil verdünnte Säuren gar nicht reagieren."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welche Frage soll der Versuch beantworten?",
+        "Wenn beide Varianten dieselbe Frage beantworten, entscheidet die Gefährdung.",
+        "Verdünnte Säuren reagieren durchaus, nur langsamer."
+      ],
+      "solution": "Beantworten zwei Varianten dieselbe Frage, ist die mit der geringeren Gefährdung zu wählen. Genau das verlangt die Ersatzstoffprüfung. Ein „eindrucksvollerer“ Effekt ist kein fachliches Argument.",
+      "misconceptions": [
+        {
+          "id": "effekt_vor_sicherheit",
+          "value": 1,
+          "feedback": "Ein größerer Effekt rechtfertigt keine größere Gefährdung, wenn die Frage auch anders zu beantworten ist.",
+          "konzeptfehler": "sicherheitsregel_missachtet"
+        }
+      ],
+      "tags": [
+        "sicherheit",
+        "bewerten",
+        "msa"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 9,
+      "aufgaben": 20,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 9,
+      "aufgaben": 18,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 9,
+      "aufgaben": 15,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Gefahrensymbole Chemie",
+      "url": "https://learningapps.org/view8924785",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Sicherheit im Chemieraum",
+      "url": "https://learningapps.org/view20670947",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Gefahrensymbole — Auswahl",
+      "url": "https://allgemeinbildung.ch/fach=che/Gefahrensymbole_01a.htm",
+      "typ": "app",
+      "quelle": "allgemeinbildung.ch"
+    },
+    {
+      "titel": "Gefahrensymbole — Kreuzworträtsel",
+      "url": "https://allgemeinbildung.ch/fach=che/Gefahrensymbole_02k.htm",
+      "typ": "app",
+      "quelle": "allgemeinbildung.ch"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 1,
+    "titel": "Sicherheit im Chemieunterricht",
+    "seiten_von": 8,
+    "seiten_bis": 12,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Gefahrensymbol"
+  }
+}

@@ -1,0 +1,786 @@
+{
+  "unit": "FC-03",
+  "title": "Stoffe und ihre Eigenschaften",
+  "leitidee": "B1",
+  "standards": [
+    "K1",
+    "K2.1",
+    "K2.4"
+  ],
+  "klasse": 7,
+  "wortspeicher": [
+    "die Eigenschaft",
+    "die Dichte",
+    "die Schmelztemperatur",
+    "die Siedetemperatur",
+    "der Aggregatzustand",
+    "der Reinstoff",
+    "messbar"
+  ],
+  "worterklaerungen": {
+    "Eigenschaft": "Etwas, woran man einen Stoff erkennt. Zum Beispiel die Farbe oder die Dichte.",
+    "Dichte": "Die Masse von einem Kubikzentimeter des Stoffes.",
+    "Schmelztemperatur": "Die Temperatur, bei der ein fester Stoff flüssig wird.",
+    "Aggregatzustand": "Ob ein Stoff fest, flüssig oder gasförmig ist."
+  },
+  "can_do": {
+    "A": "Ich nenne Eigenschaften eines Stoffes und lese Schmelz- und Siedetemperatur aus einer Tabelle ab.",
+    "B": "Ich bestimme die Dichte aus Masse und Volumen und ordne Stoffe über ihre Eigenschaften zu.",
+    "C": "Ich erkläre Aggregatzustände auf Teilchenebene und begründe damit Messergebnisse."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Woran man einen Stoff erkennt",
+      "hinfuehrung": "Jeder Stoff hat eigene Eigenschaften.",
+      "erklaerung": [
+        "Farbe und Geruch kann man sehen und riechen.",
+        "Dichte und Schmelztemperatur muss man messen."
+      ],
+      "merke": "Gemessene Eigenschaften sind sicherer als gesehene.",
+      "beispiel": {
+        "titel": "Ein Beispiel",
+        "aufgabe": "Ein Metall wiegt 27 g. Es hat 10 cm³ Volumen.",
+        "schritte": [
+          "Dichte = Masse : Volumen",
+          "27 g : 10 cm³",
+          "= 2,7 g/cm³"
+        ],
+        "ergebnis": "2,7 g/cm³ — das ist Aluminium.",
+        "luecke": {
+          "schritt": 2,
+          "wert": 2.7,
+          "einheit": "g/cm³"
+        }
+      },
+      "visual": {
+        "type": "animation",
+        "name": "aggregat",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Eigenschaften messen statt schätzen",
+      "hinfuehrung": "„Silbrig und schwer“ trifft auf viele Metalle zu. Erst gemessene Werte machen aus einer Vermutung eine Bestimmung.",
+      "erklaerung": [
+        "Die Dichte berechnet sich aus ρ = m : V. Sie ist für jeden Reinstoff eine feste Zahl.",
+        "Schmelz- und Siedetemperatur sind ebenfalls feste Werte. Aus ihnen folgt, in welchem Zustand ein Stoff bei Zimmertemperatur vorliegt.",
+        "Liegt 20 °C unter der Schmelztemperatur, ist der Stoff fest; liegt es über der Siedetemperatur, ist er gasförmig."
+      ],
+      "merke": "Ein Reinstoff hat feste Werte für Dichte, Schmelz- und Siedetemperatur.",
+      "visual": {
+        "type": "animation",
+        "name": "aggregat",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Eigenschaften und Teilchen",
+      "hinfuehrung": "Die messbaren Eigenschaften eines Stoffes lassen sich auf die Anordnung und die Bewegung seiner Teilchen zurückführen — und damit erklären statt nur beschreiben.",
+      "erklaerung": [
+        "Im festen Zustand sitzen die Teilchen auf festen Plätzen und schwingen dort. Deshalb hat ein Feststoff eine feste Form.",
+        "Im flüssigen Zustand liegen sie noch dicht beieinander, können aber aneinander vorbeigleiten. Deshalb ist eine Flüssigkeit formbar, aber kaum zusammendrückbar.",
+        "Im gasförmigen Zustand sind die Abstände groß. Deshalb lässt sich ein Gas zusammendrücken und füllt jeden Raum aus.",
+        "Wichtig: Die Teilchen selbst ändern sich beim Zustandswechsel nicht. Sie werden nicht größer, nicht heißer und nicht weicher — nur ihre Anordnung ändert sich."
+      ],
+      "merke": "Der Zustand steckt in der Anordnung der Teilchen, nicht in den Teilchen selbst.",
+      "visual": {
+        "type": "animation",
+        "name": "aggregat",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "ρ = m : V",
+      "m = ρ · V",
+      "V = m : ρ"
+    ],
+    "saetze": [
+      "1 cm³ = 1 mL, 1 g/cm³ = 1 kg/L.",
+      "Wasser: Schmelztemperatur 0 °C, Siedetemperatur 100 °C, Dichte 1,0 g/cm³.",
+      "Unter der Schmelztemperatur fest, darüber flüssig, über der Siedetemperatur gasförmig."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Aggregatzustände: fest, flüssig, gasförmig",
+      "url": "https://www.youtube.com/watch?v=kEFx1X5F2fU",
+      "quelle": "musstewissen Chemie",
+      "lumi": "https://app.lumi.education/run/COj8nc",
+      "embed": "https://app.lumi.education/api/v1/run/COj8nc/embed",
+      "stufe": "B",
+      "dauer_s": 268
+    },
+    {
+      "titel": "Dichte — was ist das?",
+      "url": "https://www.youtube.com/watch?v=f1fly9JUxsk",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/oZtRjD",
+      "embed": "https://app.lumi.education/api/v1/run/oZtRjD/embed",
+      "stufe": "A",
+      "dauer_s": 295
+    },
+    {
+      "titel": "Siede- und Schmelztemperatur als Stoffeigenschaft",
+      "url": "https://www.youtube.com/watch?v=1DAm0AU8Rdg",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/jfovU-",
+      "embed": "https://app.lumi.education/api/v1/run/jfovU-/embed",
+      "stufe": "B",
+      "dauer_s": 244
+    }
+  ],
+  "tasks": [
+    {
+      "id": "FC03-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welche dieser Eigenschaften muss man messen und kann man nicht einfach sehen?",
+      "options": [
+        "die Dichte",
+        "die Farbe",
+        "der Glanz"
+      ],
+      "answer": 0,
+      "hints": [
+        "Farbe und Glanz erkennt das Auge.",
+        "Für welche Eigenschaft brauchst du eine Waage?",
+        "Die Dichte."
+      ],
+      "solution": "Farbe und Glanz sieht man. Für die Dichte braucht man Waage und Messzylinder.",
+      "tags": [
+        "stoffe"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC03-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Ein Stück Eisen wiegt 79 g und hat ein Volumen von 10 cm³. Wie groß ist die Dichte?",
+      "answer": 7.9,
+      "unit_label": "g/cm³",
+      "tolerance": 0.01,
+      "hints": [
+        "Dichte = Masse : Volumen.",
+        "79 : 10.",
+        "7,9 g/cm³."
+      ],
+      "solution": "ρ = 79 g : 10 cm³ = 7,9 g/cm³",
+      "misconceptions": [
+        {
+          "id": "dichte_mal_statt_geteilt",
+          "value": 790,
+          "feedback": "Du hast multipliziert. Die Dichte ist die Masse <b>geteilt</b> durch das Volumen."
+        }
+      ],
+      "tags": [
+        "stoffe",
+        "dichte"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC03-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Ethanol schmilzt bei −114 °C und siedet bei 78 °C. In welchem Zustand ist es bei 20 °C?",
+      "options": [
+        "flüssig",
+        "fest",
+        "gasförmig"
+      ],
+      "answer": 0,
+      "hints": [
+        "Liegt 20 °C über oder unter −114 °C?",
+        "Und liegt es über oder unter 78 °C?",
+        "Zwischen Schmelz- und Siedetemperatur ist ein Stoff flüssig."
+      ],
+      "solution": "20 °C liegt über der Schmelztemperatur (−114 °C) und unter der Siedetemperatur (78 °C). Ethanol ist also flüssig.",
+      "misconceptions": [
+        {
+          "id": "zustand_falsch_abgelesen",
+          "value": 2,
+          "feedback": "Gasförmig wäre Ethanol erst über 78 °C. Bei 20 °C ist es flüssig."
+        }
+      ],
+      "tags": [
+        "stoffe",
+        "aggregatzustand"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC03-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "numeric",
+      "prompt": "Ein Würfel aus Aluminium hat 2 cm Kantenlänge. Die Dichte beträgt 2,7 g/cm³. Wie schwer ist er?",
+      "answer": 21.6,
+      "unit_label": "g",
+      "tolerance": 0.05,
+      "visual": {
+        "type": "teilchen",
+        "zustand": "fest",
+        "art": "element",
+        "alt": "Teilchenmodell eines festen Metalls: die Teilchen sitzen auf festen Plätzen."
+      },
+      "hints": [
+        "Erst das Volumen des Würfels: 2 · 2 · 2.",
+        "Das Volumen ist 8 cm³.",
+        "Masse = Dichte · Volumen = 2,7 · 8."
+      ],
+      "solution": "V = 2 cm · 2 cm · 2 cm = 8 cm³\nm = 2,7 g/cm³ · 8 cm³ = 21,6 g",
+      "misconceptions": [
+        {
+          "id": "volumen_als_flaeche",
+          "value": 10.8,
+          "feedback": "Du hast mit 4 cm² gerechnet. Ein Würfel hat das Volumen a · a · a = 8 cm³."
+        }
+      ],
+      "tags": [
+        "stoffe",
+        "dichte"
+      ],
+      "spiral": [
+        "W-STOF",
+        "W-EINH"
+      ]
+    },
+    {
+      "id": "FC03-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "assign",
+      "prompt": "Ordne jedem Aggregatzustand die passende Beschreibung auf Teilchenebene zu.",
+      "slots": [
+        "fest",
+        "flüssig",
+        "gasförmig"
+      ],
+      "values": [
+        "Teilchen auf festen Plätzen, sie schwingen nur",
+        "Teilchen dicht beieinander, aber gegeneinander verschiebbar",
+        "Teilchen weit auseinander, sie fliegen frei"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "visual": {
+        "type": "animation",
+        "name": "aggregat",
+        "stufe": "B"
+      },
+      "hints": [
+        "Denk an den Abstand der Teilchen.",
+        "Fest heißt: kein Platzwechsel.",
+        "Gasförmig heißt: große Abstände."
+      ],
+      "solution": "fest → feste Plätze, nur Schwingen.\nflüssig → dicht, aber verschiebbar.\ngasförmig → große Abstände, freie Bewegung.",
+      "tags": [
+        "stoffe",
+        "teilchen"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC03-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Ein Messzylinder enthält 50 mL Wasser. Nach dem Eintauchen eines Steins zeigt er 68 mL. Der Stein wiegt 45 g. Wie groß ist seine Dichte?",
+      "answer": 2.5,
+      "unit_label": "g/cm³",
+      "tolerance": 0.02,
+      "hints": [
+        "Das Volumen ist die Differenz der beiden Stände.",
+        "68 mL − 50 mL = 18 mL = 18 cm³.",
+        "ρ = 45 g : 18 cm³."
+      ],
+      "solution": "V = 68 mL − 50 mL = 18 mL = 18 cm³\nρ = 45 g : 18 cm³ = 2,5 g/cm³",
+      "misconceptions": [
+        {
+          "id": "gesamtvolumen_genommen",
+          "value": 0.66,
+          "feedback": "Du hast durch 68 mL geteilt. Das Volumen des Steins ist nur die <b>Differenz</b> der Stände."
+        },
+        {
+          "id": "dichte_mal_statt_geteilt",
+          "value": 810,
+          "feedback": "Du hast multipliziert. ρ = m : V."
+        }
+      ],
+      "tags": [
+        "stoffe",
+        "dichte",
+        "bbr"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC03-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Zwei Proben sehen gleich aus. Probe 1 hat die Dichte 2,7 g/cm³, Probe 2 hat 8,9 g/cm³. Was folgt daraus?",
+      "options": [
+        "Es sind verschiedene Stoffe.",
+        "Es ist derselbe Stoff, nur unterschiedlich groß.",
+        "Daraus lässt sich nichts folgern."
+      ],
+      "answer": 0,
+      "hints": [
+        "Ist die Dichte von der Probengröße abhängig?",
+        "Nein — sie ist für jeden Reinstoff fest.",
+        "Verschiedene Dichte heißt verschiedener Stoff."
+      ],
+      "solution": "Die Dichte hängt nicht von der Probengröße ab. Verschiedene Dichten bedeuten deshalb verschiedene Stoffe — hier vermutlich Aluminium und Kupfer.",
+      "misconceptions": [
+        {
+          "id": "dichte_groessenabhaengig",
+          "value": 1,
+          "feedback": "Die Dichte ist unabhängig von der Menge. Ein großes und ein kleines Stück Aluminium haben dieselbe Dichte.",
+          "konzeptfehler": "teilchen_traegt_stoffeigenschaft",
+          "verweis": {
+            "absatz": 1
+          }
+        }
+      ],
+      "tags": [
+        "stoffe",
+        "dichte"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC03-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Ein Metallblock misst 5 cm · 4 cm · 2 cm und wiegt 356 g.",
+      "fields": [
+        {
+          "label": "Volumen",
+          "answer": 40,
+          "unit_label": "cm³",
+          "tolerance": 0.01
+        },
+        {
+          "label": "Dichte",
+          "answer": 8.9,
+          "unit_label": "g/cm³",
+          "tolerance": 0.05,
+          "misconceptions": [
+            {
+              "id": "dichte_mal_statt_geteilt",
+              "value": 14240,
+              "feedback": "Du hast multipliziert. ρ = m : V."
+            }
+          ]
+        }
+      ],
+      "hints": [
+        "Volumen eines Quaders: Länge · Breite · Höhe.",
+        "5 · 4 · 2 = 40 cm³.",
+        "ρ = 356 g : 40 cm³."
+      ],
+      "solution": "V = 5 · 4 · 2 = 40 cm³\nρ = 356 g : 40 cm³ = 8,9 g/cm³ — das ist Kupfer.",
+      "tags": [
+        "stoffe",
+        "dichte",
+        "bbr"
+      ],
+      "spiral": [
+        "W-STOF",
+        "W-EINH"
+      ]
+    },
+    {
+      "id": "FC03-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Beim Erwärmen von Eis auf 0 °C bleibt die Temperatur eine Zeit lang stehen, obwohl weiter erhitzt wird. Warum?",
+      "options": [
+        "Die zugeführte Energie löst die Teilchen aus dem Gitter, statt sie schneller zu machen.",
+        "Das Thermometer ist ungenau.",
+        "Eis nimmt bei 0 °C keine Energie mehr auf."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert bei 0 °C mit dem Eis?",
+        "Es schmilzt — dafür wird Energie gebraucht.",
+        "Solange geschmolzen wird, steigt die Temperatur nicht."
+      ],
+      "solution": "Beim Schmelzen wird die zugeführte Energie gebraucht, um die Teilchen aus ihren festen Plätzen zu lösen. Erst wenn alles Eis geschmolzen ist, steigt die Temperatur weiter.",
+      "misconceptions": [
+        {
+          "id": "energie_nicht_aufgenommen",
+          "value": 2,
+          "feedback": "Eis nimmt bei 0 °C sehr wohl Energie auf — sie geht ins Schmelzen, nicht ins Erwärmen.",
+          "konzeptfehler": "reaktion_und_zustandsaenderung_verwechselt",
+          "verweis": {
+            "absatz": 2
+          }
+        }
+      ],
+      "tags": [
+        "stoffe",
+        "energie",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC03-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "numeric",
+      "prompt": "Ein Ölfleck von 12 cm³ wiegt 10,2 g. Schwimmt das Öl auf Wasser (1,0 g/cm³)? Gib die Dichte des Öls an.",
+      "answer": 0.85,
+      "unit_label": "g/cm³",
+      "tolerance": 0.02,
+      "hints": [
+        "ρ = m : V.",
+        "10,2 : 12.",
+        "0,85 g/cm³ — kleiner als 1,0, also schwimmt es."
+      ],
+      "solution": "ρ = 10,2 g : 12 cm³ = 0,85 g/cm³.\nDas ist kleiner als 1,0 g/cm³, also schwimmt das Öl auf dem Wasser.",
+      "misconceptions": [
+        {
+          "id": "dichte_umgedreht",
+          "value": 1.18,
+          "feedback": "Du hast Volumen durch Masse geteilt. ρ = m : V, also Masse durch Volumen."
+        }
+      ],
+      "tags": [
+        "stoffe",
+        "dichte",
+        "bbr"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC03-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Beim Schmelzen werden die Teilchen weicher.“ Was ist daran falsch?",
+      "options": [
+        "Die Teilchen ändern sich gar nicht — nur ihre Anordnung und Beweglichkeit ändert sich.",
+        "Nichts, die Aussage stimmt.",
+        "Die Teilchen werden nicht weicher, sondern größer."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "aggregat",
+        "stufe": "C"
+      },
+      "hints": [
+        "Was unterscheidet Eis und Wasser auf Teilchenebene?",
+        "Es sind dieselben Teilchen.",
+        "Nur Anordnung und Beweglichkeit sind verschieden."
+      ],
+      "solution": "Eigenschaften wie „weich“ oder „hart“ gehören dem Stoff, nicht dem einzelnen Teilchen. Beim Schmelzen bleiben die Teilchen unverändert; sie verlassen nur ihre festen Plätze.",
+      "misconceptions": [
+        {
+          "id": "teilchen_wird_groesser",
+          "value": 2,
+          "feedback": "Auch das nicht: Die Teilchen werden weder größer noch weicher. Nur ihr Abstand und ihre Beweglichkeit ändern sich.",
+          "konzeptfehler": "teilchen_traegt_stoffeigenschaft",
+          "verweis": {
+            "absatz": 3
+          }
+        }
+      ],
+      "tags": [
+        "stoffe",
+        "teilchen",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC03-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Eine Legierung aus 40 cm³ Kupfer (8,9 g/cm³) und 60 cm³ Zink (7,1 g/cm³) wird hergestellt. Welche mittlere Dichte hat sie? (Volumen bleibt erhalten)",
+      "answer": 7.82,
+      "unit_label": "g/cm³",
+      "tolerance": 0.02,
+      "hints": [
+        "Erst beide Massen einzeln ausrechnen.",
+        "m(Cu) = 40 · 8,9 = 356 g, m(Zn) = 60 · 7,1 = 426 g.",
+        "Gesamtmasse durch Gesamtvolumen."
+      ],
+      "solution": "m(Cu) = 40 cm³ · 8,9 g/cm³ = 356 g\nm(Zn) = 60 cm³ · 7,1 g/cm³ = 426 g\nρ = (356 + 426) g : 100 cm³ = 7,82 g/cm³",
+      "misconceptions": [
+        {
+          "id": "ungewichteter_mittelwert",
+          "value": 8,
+          "feedback": "Du hast die beiden Dichten einfach gemittelt. Die Volumen sind aber verschieden — es muss gewichtet werden."
+        }
+      ],
+      "tags": [
+        "stoffe",
+        "dichte",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC03-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Wasser hat bei 4 °C seine größte Dichte, Eis eine kleinere als flüssiges Wasser. Welche Folge hat das für einen See im Winter?",
+      "options": [
+        "Das Eis schwimmt oben; darunter bleibt flüssiges Wasser, in dem Fische überleben.",
+        "Der See friert von unten nach oben zu.",
+        "Der See friert vollständig durch."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ist leichter, Eis oder Wasser?",
+        "Eis schwimmt.",
+        "Die Eisschicht liegt oben und isoliert."
+      ],
+      "solution": "Weil Eis eine kleinere Dichte hat als flüssiges Wasser, schwimmt es oben. Die Eisdecke wirkt wie eine Isolierschicht — darunter bleibt Wasser flüssig. Diese Dichteanomalie ist der Grund, warum Seen nicht durchfrieren.",
+      "tags": [
+        "stoffe",
+        "anwenden",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "FC03-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "multi",
+      "prompt": "Eine unbekannte Probe wiegt 47,3 g. Im Messzylinder steigt der Wasserstand von 25,0 mL auf 30,5 mL.",
+      "fields": [
+        {
+          "label": "Volumen der Probe",
+          "answer": 5.5,
+          "unit_label": "cm³",
+          "tolerance": 0.05
+        },
+        {
+          "label": "Dichte der Probe",
+          "answer": 8.6,
+          "unit_label": "g/cm³",
+          "tolerance": 0.1
+        }
+      ],
+      "hints": [
+        "Das Volumen ist die Differenz der Stände.",
+        "30,5 − 25,0 = 5,5 mL.",
+        "ρ = 47,3 : 5,5."
+      ],
+      "solution": "V = 30,5 mL − 25,0 mL = 5,5 mL = 5,5 cm³\nρ = 47,3 g : 5,5 cm³ ≈ 8,6 g/cm³\nDas passt zu Messing oder Kupfer — die Farbe entscheidet.",
+      "tags": [
+        "stoffe",
+        "dichte",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF",
+        "W-EINH"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 8,
+      "aufgaben": 21,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 7,
+      "aufgaben": 20,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 7,
+      "aufgaben": 17,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Die Übergänge zwischen den Aggregatzuständen",
+      "url": "https://learningapps.org/view8482715",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Messbare oder nicht-messbare Stoffeigenschaften",
+      "url": "https://learningapps.org/view4366462",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Eigenschaften von Stoffen — Quiz Klasse 8",
+      "url": "https://www.schlaukopf.de/realschule/klasse8/chemie/stoffe",
+      "typ": "app",
+      "quelle": "Schlaukopf"
+    },
+    {
+      "titel": "Aufgaben zu Aggregatzustände",
+      "url": "https://de.serlo.org/chemie/26111/aufgaben-zu-aggregatzustaende",
+      "typ": "app",
+      "quelle": "Serlo"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Schmelztemperatur als Stoffeigenschaft — vier Stoffe im Vergleich",
+      "url": "https://www.youtube.com/watch?v=NYb2iTNFCsI",
+      "quelle": "North Carolina School of Science and Mathematics",
+      "stufe": "B",
+      "rolle": "Demonstration zur Lernkarte: Schmelztemperatur unterscheidet Stoffe",
+      "embed": "https://www.youtube-nocookie.com/embed/NYb2iTNFCsI",
+      "protokoll": false,
+      "beobachtung": {
+        "A": "Schreibe die vier Stoffe untereinander ins Heft. Notiere hinter jedem, ob er im Video geschmolzen ist oder nicht.",
+        "B": "Lege eine Tabelle mit den Spalten „Stoff“ und „Schmilzt bei schwacher Hitze?“ an. Erkläre danach in einem Satz, warum die Schmelztemperatur eine Stoffeigenschaft ist.",
+        "C": "Ordne die vier Stoffe nach steigender Schmelztemperatur. Begründe die Reihenfolge mit den Kräften zwischen den Teilchen."
+      }
+    },
+    {
+      "titel": "Dichte sichtbar gemacht — Kohlenstoffdioxid wird umgegossen",
+      "url": "https://www.youtube.com/watch?v=h3EWYrxrsns",
+      "quelle": "North Carolina School of Science and Mathematics",
+      "stufe": "B",
+      "rolle": "Demonstration zur Dichte: Gas als „schwerer“ Stoff",
+      "embed": "https://www.youtube-nocookie.com/embed/h3EWYrxrsns",
+      "protokoll": false,
+      "beobachtung": {
+        "A": "Zeichne das Becherglas mit dem Kohlenstoffdioxid und der Seifenblase. Beschrifte, wo das Gas liegt.",
+        "B": "Beschreibe, was mit der Seifenblase geschieht, und erkläre die Beobachtung mit der Dichte der beiden Gase.",
+        "C": "Begründe, warum Kohlenstoffdioxid eine größere Dichte hat als Luft. Beurteile, was das für einen Feuerlöscher bedeutet."
+      }
+    },
+    {
+      "titel": "Aggregatzustände an flüssigem Stickstoff und Trockeneis",
+      "url": "https://www.youtube.com/watch?v=4OSSeA7-X0A",
+      "quelle": "Chemistry and Biochemistry Demo lab at OSU",
+      "stufe": "C",
+      "rolle": "Vertiefung: Sublimation und Kondensation an Extrembeispielen",
+      "lumi": "https://app.lumi.education/run/XIusrL",
+      "embed": "https://app.lumi.education/api/v1/run/XIusrL/embed",
+      "protokoll": true
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 2,
+    "titel": "Stoffe und Stoffeigenschaften",
+    "seiten_von": 13,
+    "seiten_bis": 27,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Eigenschaft"
+  }
+}

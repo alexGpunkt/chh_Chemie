@@ -1,0 +1,615 @@
+{
+  "unit": "AL-07",
+  "title": "Anwenden & Prüfungstraining Alkohole",
+  "leitidee": "B2",
+  "standards": [
+    "K1",
+    "K2.4",
+    "K3.3",
+    "K4.1"
+  ],
+  "klasse": 10,
+  "wortspeicher": [
+    "die Hydroxylgruppe",
+    "die homologe Reihe",
+    "primär",
+    "sekundär",
+    "tertiär",
+    "die Wasserstoffbrücke",
+    "die Gärung"
+  ],
+  "worterklaerungen": {
+    "Struktur-Eigenschafts-Konzept": "Aus dem Bau eines Moleküls lassen sich seine Eigenschaften ableiten."
+  },
+  "can_do": {
+    "A": "Ich benenne Alkohole und erkenne die Hydroxylgruppe sicher.",
+    "B": "Ich verbinde Bau, Eigenschaften und Reaktionen der Alkohole.",
+    "C": "Ich sage Eigenschaften aus der Struktur voraus und bewerte Aussagen zu Alkohol."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Alkohole auf einen Blick",
+      "hinfuehrung": "In dieser Stunde kommt alles zusammen.",
+      "erklaerung": [
+        "–OH ist die funktionelle Gruppe.",
+        "Kurze Ketten lösen sich in Wasser."
+      ],
+      "merke": "Erst lesen, was gefragt ist. Dann antworten.",
+      "visual": {
+        "type": "animation",
+        "name": "signalwoerter",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Die drei roten Fäden",
+      "hinfuehrung": "Der ganze Bereich hängt an drei Zusammenhängen.",
+      "erklaerung": [
+        "Bau: polare OH-Gruppe plus unpolarer Rest. Ihr Verhältnis bestimmt Löslichkeit und Siedepunkt.",
+        "Reihe: CₙH₂ₙ₊₁OH, Endung -ol, ab drei C-Atomen mit Positionsangabe.",
+        "Reaktion: primär → Alkanal → Säure, sekundär → Alkanon, tertiär → nichts."
+      ],
+      "merke": "Struktur bestimmt Eigenschaften — und auch das Reaktionsverhalten.",
+      "visual": {
+        "type": "animation",
+        "name": "funktionellegruppe",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Vorhersagen und bewerten",
+      "hinfuehrung": "Die anspruchsvollen Aufgaben verlangen zweierlei: aus dem Bau Eigenschaften abzuleiten und Aussagen zu Alkohol fachlich zu beurteilen.",
+      "erklaerung": [
+        "Vorhersage: Kettenlänge, Zahl der OH-Gruppen und deren Position genügen für eine Ordnung nach Löslichkeit und Siedepunkt.",
+        "Reaktionsverhalten: Zähle die C-Nachbarn am OH-tragenden Atom — daraus folgt das Oxidationsprodukt.",
+        "Bewertung: Aussagen über die Wirkung von Alkohol brauchen Angaben zu Menge und Zeit. „Ungiftig“ oder „harmlos“ sind ohne diese Angaben keine Aussagen.",
+        "Ähnlicher Bau erlaubt keinen Schluss auf ähnliche Wirkung — Methanol und Ethanol, Glycol und Glycerin sind die Beispiele dafür."
+      ],
+      "merke": "Aus dem Bau folgen Eigenschaften — aus der Ähnlichkeit folgt keine Wirkung.",
+      "visual": {
+        "type": "animation",
+        "name": "signalwoerter",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "CₙH₂ₙ₊₁OH",
+      "primär: R–CH₂–OH → R–CHO → R–COOH",
+      "C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂",
+      "c in ‰ = m(Alkohol) : (Körpermasse · r)"
+    ],
+    "saetze": [
+      "Die OH-Gruppe bildet Wasserstoffbrücken.",
+      "Bis Propanol mit Wasser mischbar, ab Butanol abnehmend.",
+      "Primär, sekundär, tertiär: Zahl der C-Nachbarn am OH-C-Atom.",
+      "Abbau im Blut: rund 0,1 bis 0,15 ‰ je Stunde."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Alkohole und ihre Reaktionen — Überblick",
+      "url": "https://www.youtube.com/watch?v=aMKDXj6SR1M",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/_IWq7F",
+      "embed": "https://app.lumi.education/api/v1/run/_IWq7F/embed",
+      "stufe": "B",
+      "dauer_s": 281
+    },
+    {
+      "titel": "Übung: Nomenklatur der Alkohole nach IUPAC",
+      "url": "https://www.youtube.com/watch?v=2jgb4Fl2EQ4",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/lEhIMP",
+      "embed": "https://app.lumi.education/api/v1/run/lEhIMP/embed",
+      "stufe": "A",
+      "dauer_s": 220
+    }
+  ],
+  "tasks": [
+    {
+      "id": "AL07-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welche Gruppe haben alle Alkohole?",
+      "options": [
+        "–OH",
+        "–COOH",
+        "–NH₂"
+      ],
+      "answer": 0,
+      "hints": [
+        "Sie heißt Hydroxylgruppe.",
+        "O und H.",
+        "–OH."
+      ],
+      "solution": "Alle Alkohole tragen die Hydroxylgruppe –OH.",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL07-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Wie heißt der Alkohol mit zwei C-Atomen?",
+      "options": [
+        "Ethanol",
+        "Methanol",
+        "Propanol"
+      ],
+      "answer": 0,
+      "hints": [
+        "Eth steht für 2.",
+        "Dazu -ol.",
+        "Ethanol."
+      ],
+      "solution": "Zwei C-Atome ergeben Ethanol, C₂H₅OH.",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL07-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie viel reiner Alkohol steckt in 250 mL Wein mit 12 Volumenprozent?",
+      "answer": 30,
+      "unit_label": "mL",
+      "tolerance": 1,
+      "hints": [
+        "12 % von 250 mL.",
+        "1 % sind 2,5 mL.",
+        "12 · 2,5."
+      ],
+      "solution": "250 mL · 0,12 = 30 mL reiner Alkohol.",
+      "tags": [
+        "pruefung",
+        "rechnen"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "AL07-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Welcher Alkohol ist giftig und darf nicht getrunken werden?",
+      "options": [
+        "Methanol",
+        "Ethanol",
+        "beide gleich"
+      ],
+      "answer": 0,
+      "hints": [
+        "Er hat ein C-Atom.",
+        "Er führt zur Erblindung.",
+        "Methanol."
+      ],
+      "solution": "Methanol wird im Körper zu Methansäure abgebaut und schädigt den Sehnerv.",
+      "tags": [
+        "pruefung",
+        "sicherheit"
+      ]
+    },
+    {
+      "id": "AL07-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Warum sieden Alkohole höher als Alkane vergleichbarer Masse?",
+      "options": [
+        "Die OH-Gruppen bilden Wasserstoffbrücken.",
+        "Alkohole sind schwerer.",
+        "Alkohole sind verzweigt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was hat der Alkohol, was das Alkan nicht hat?",
+        "Die OH-Gruppe.",
+        "Sie bildet Brücken."
+      ],
+      "solution": "Die polare OH-Gruppe bildet Wasserstoffbrücken. Diese sind deutlich stärker als die van-der-Waals-Kräfte zwischen Alkanmolekülen.",
+      "tags": [
+        "pruefung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL07-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Was entsteht aus einem primären Alkohol bei vollständiger Oxidation?",
+      "options": [
+        "eine Alkansäure",
+        "ein Alkanon",
+        "ein Alkan"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "funktionellegruppe",
+        "stufe": "B"
+      },
+      "hints": [
+        "Zwei Schritte.",
+        "Zuerst das Alkanal.",
+        "Dann die Säure."
+      ],
+      "solution": "Ein primärer Alkohol wird über das Alkanal zur Alkansäure oxidiert.",
+      "misconceptions": [
+        {
+          "id": "funktionelle_gruppe_verwechselt",
+          "value": 1,
+          "feedback": "Alkanone entstehen aus sekundären Alkoholen.",
+          "konzeptfehler": "funktionelle_gruppe_verwechselt"
+        }
+      ],
+      "tags": [
+        "pruefung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL07-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Wie groß ist die molare Masse von Butanol C₄H₉OH? (C = 12, H = 1, O = 16 g/mol)",
+      "answer": 74,
+      "unit_label": "g/mol",
+      "tolerance": 1,
+      "hints": [
+        "4 C, 10 H, 1 O.",
+        "48 + 10 + 16.",
+        "74 g/mol."
+      ],
+      "solution": "M = 4 · 12 + 10 · 1 + 16 = 74 g/mol",
+      "tags": [
+        "pruefung",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "AL07-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Ein Mann (75 kg, r = 0,7) trinkt 0,3 L Wein mit 12 Volumenprozent. (Dichte 0,8 g/mL)",
+      "fields": [
+        {
+          "label": "Masse des Alkohols",
+          "answer": 28.8,
+          "unit_label": "g",
+          "tolerance": 1
+        },
+        {
+          "label": "Blutalkoholkonzentration",
+          "answer": 0.55,
+          "unit_label": "‰",
+          "tolerance": 0.05
+        }
+      ],
+      "hints": [
+        "300 · 0,12 = 36 mL.",
+        "36 · 0,8 = 28,8 g.",
+        "28,8 : (75 · 0,7) = 28,8 : 52,5."
+      ],
+      "solution": "V = 36 mL → m = 28,8 g\nc = 28,8 : 52,5 = 0,55 ‰",
+      "tags": [
+        "pruefung",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "AL07-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum löst sich Methanol besser in Wasser als Hexanol?",
+      "options": [
+        "Bei Methanol überwiegt die polare OH-Gruppe die kurze Kette.",
+        "Methanol ist giftiger.",
+        "Hexanol hat keine OH-Gruppe."
+      ],
+      "answer": 0,
+      "hints": [
+        "Beide haben eine OH-Gruppe.",
+        "Verschieden ist die Kettenlänge.",
+        "Lange Kette heißt mehr unpolarer Anteil."
+      ],
+      "solution": "Beide besitzen eine OH-Gruppe. Bei Methanol dominiert sie das kleine Molekül; bei Hexanol überwiegt die lange unpolare Kette.",
+      "tags": [
+        "pruefung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "AL07-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Wie lange dauert der Abbau von 0,8 ‰ bei 0,1 ‰ je Stunde?",
+      "options": [
+        "8 Stunden",
+        "2 Stunden",
+        "30 Minuten"
+      ],
+      "answer": 0,
+      "hints": [
+        "0,8 geteilt durch 0,1.",
+        "8.",
+        "8 Stunden."
+      ],
+      "solution": "0,8 ‰ : 0,1 ‰/h = 8 Stunden. Der Abbau lässt sich nicht beschleunigen.",
+      "tags": [
+        "pruefung",
+        "bewerten",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "AL07-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Ein Alkohol lässt die glühende Kupferspirale schwarz bleiben. Was folgt daraus?",
+      "options": [
+        "Er ist tertiär und lässt sich nicht oxidieren.",
+        "Er ist primär.",
+        "Es ist kein Alkohol."
+      ],
+      "answer": 0,
+      "hints": [
+        "Nur oxidierbare Alkohole reduzieren das Kupferoxid.",
+        "Bleibt es schwarz, fand keine Oxidation statt.",
+        "Also tertiär."
+      ],
+      "solution": "Bleibt das schwarze Kupferoxid unverändert, fand keine Oxidation statt. Am OH-tragenden C-Atom sitzt kein Wasserstoff mehr — der Alkohol ist tertiär.",
+      "tags": [
+        "pruefung",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "AL07-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Ordne nach steigender Siedetemperatur: Ethanol, Glycerin, Propan.",
+      "options": [
+        "Propan < Ethanol < Glycerin",
+        "Ethanol < Propan < Glycerin",
+        "Glycerin < Ethanol < Propan"
+      ],
+      "answer": 0,
+      "hints": [
+        "Propan hat keine OH-Gruppe.",
+        "Ethanol eine, Glycerin drei.",
+        "Mehr OH-Gruppen heißt höherer Siedepunkt."
+      ],
+      "solution": "Propan (−42 °C) hat keine Wasserstoffbrücken, Ethanol (78 °C) eine OH-Gruppe, Glycerin (290 °C) drei. Die Zahl der OH-Gruppen bestimmt die Reihenfolge.",
+      "tags": [
+        "pruefung",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "AL07-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "92 g Ethanol (M = 46 g/mol) werden vollständig zu Essigsäure oxidiert (M = 60 g/mol).",
+      "fields": [
+        {
+          "label": "Stoffmenge des Ethanols",
+          "answer": 2,
+          "unit_label": "mol",
+          "tolerance": 0.1
+        },
+        {
+          "label": "Masse der entstehenden Essigsäure",
+          "answer": 120,
+          "unit_label": "g",
+          "tolerance": 2
+        }
+      ],
+      "hints": [
+        "n = 92 : 46 = 2 mol.",
+        "Die Oxidation läuft 1 : 1.",
+        "m = 2 · 60."
+      ],
+      "solution": "n(Ethanol) = 2 mol → n(Essigsäure) = 2 mol → m = 120 g\nDie Massenzunahme stammt vom aufgenommenen Sauerstoff.",
+      "tags": [
+        "pruefung",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "AL07-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Glycerin und Glycol sind beide Alkohole, also beide unbedenklich.“ Wie bewertest du das?",
+      "options": [
+        "Falsch — Glycol wird zu Oxalsäure abgebaut und schädigt die Nieren; ähnlicher Bau sagt nichts über die Wirkung.",
+        "Richtig.",
+        "Falsch — beide sind giftig."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was entsteht beim Abbau von Glycol?",
+        "Oxalsäure.",
+        "Sie schädigt die Nieren."
+      ],
+      "solution": "Beide sind mehrwertige Alkohole, aber der Abbau verläuft verschieden: Glycerin unbedenklich, Glycol zu nierenschädigender Oxalsäure. Von der Struktur auf die Wirkung zu schließen, ist unzulässig — wie schon bei Methanol und Ethanol.",
+      "tags": [
+        "pruefung",
+        "bewerten",
+        "msa"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 6,
+      "aufgaben": 23,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 7,
+      "aufgaben": 20,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 7,
+      "aufgaben": 17,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "funktionelle Gruppen der Organischen Chemie",
+      "url": "https://learningapps.org/view15967647",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Funktionelle Gruppen",
+      "url": "https://learningapps.org/view27007266",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Organische Chemie",
+      "url": "https://de.serlo.org/chemie/18887/organische-chemie",
+      "typ": "sammlung",
+      "quelle": "Serlo",
+      "pfade": [
+        "B",
+        "C"
+      ]
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 13,
+    "titel": "Organische Säuren",
+    "seiten_von": 163,
+    "seiten_bis": 172,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Hydroxylgruppe"
+  }
+}

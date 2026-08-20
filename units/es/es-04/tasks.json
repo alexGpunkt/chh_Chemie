@@ -1,0 +1,648 @@
+{
+  "unit": "ES-04",
+  "title": "Verseifung und die Wirkung der Seife",
+  "leitidee": "B3",
+  "standards": [
+    "K1",
+    "K2.2",
+    "K3.3"
+  ],
+  "klasse": 10,
+  "sicherheit": [
+    "Bei der Seifenherstellung wird konzentrierte Natronlauge verwendet — stark ätzend.",
+    "Schutzbrille und Handschuhe sind Pflicht, die Mischung wird heiß."
+  ],
+  "wortspeicher": [
+    "die Verseifung",
+    "die Seife",
+    "die Micelle",
+    "hydrophil",
+    "hydrophob",
+    "die Emulsion",
+    "die Kernseife"
+  ],
+  "worterklaerungen": {
+    "Verseifung": "Die Spaltung eines Fettes mit Lauge. Es entstehen Glycerin und Seife.",
+    "Micelle": "Eine Kugel aus Seifenteilchen um einen Fetttropfen.",
+    "Emulsion": "Feine Fetttröpfchen, die im Wasser verteilt bleiben."
+  },
+  "can_do": {
+    "A": "Ich weiß, dass Seife Fett und Wasser verbindet.",
+    "B": "Ich beschreibe die Verseifung und den Bau eines Seifenteilchens.",
+    "C": "Ich erkläre die Micellbildung und die Grenzen der Seifenwirkung."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Seife verbindet Fett und Wasser",
+      "hinfuehrung": "Wasser allein löst kein Fett.",
+      "erklaerung": [
+        "Mit Seife geht es.",
+        "Das Seifenteilchen hat zwei Enden."
+      ],
+      "merke": "Ein Ende mag Wasser, das andere Fett.",
+      "beispiel": {
+        "titel": "Beim Händewaschen",
+        "aufgabe": "Was passiert mit dem Fett?",
+        "schritte": [
+          "Die Seifenteilchen umhüllen es.",
+          "Der Tropfen wird abgespült."
+        ],
+        "ergebnis": "Das Fett geht mit dem Wasser weg."
+      },
+      "visual": {
+        "type": "animation",
+        "name": "seife",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Verseifung und Bau der Seife",
+      "hinfuehrung": "Seife entsteht durch die Umkehrung der Veresterung: Ein Fett wird mit Lauge gespalten.",
+      "erklaerung": [
+        "Fett + Natronlauge → Glycerin + drei Natriumsalze der Fettsäuren. Diese Salze sind die Seife.",
+        "Ein Seifenteilchen hat zwei Bereiche: eine geladene Carboxylat-Gruppe als hydrophilen Kopf und eine lange Kohlenwasserstoffkette als hydrophoben Schwanz.",
+        "Der Kopf löst sich in Wasser, der Schwanz im Fett. Damit vermittelt das Teilchen zwischen beiden.",
+        "Bei Kalilauge entsteht Schmierseife, bei Natronlauge feste Kernseife.",
+        "Die Verseifung ist die Umkehrung der Veresterung — mit Lauge statt Wasser."
+      ],
+      "merke": "Geladener Kopf ins Wasser, langer Schwanz ins Fett.",
+      "visual": {
+        "type": "animation",
+        "name": "seife",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Micellen und Grenzen",
+      "hinfuehrung": "Wie Seife wirkt, lässt sich vollständig aus dem Bau des Teilchens ableiten — ebenso, wo sie versagt.",
+      "erklaerung": [
+        "Die Schwänze stecken im Fetttropfen, die Köpfe zeigen nach außen ins Wasser. Es entsteht eine Micelle.",
+        "Nach außen trägt der Tropfen nun gleiche Ladungen. Die Tropfen stoßen sich ab und fließen nicht wieder zusammen — eine stabile Emulsion.",
+        "Seife senkt zusätzlich die Oberflächenspannung des Wassers, sodass es besser in Gewebe eindringt.",
+        "Grenze 1 — hartes Wasser: Calcium- und Magnesium-Ionen bilden mit den Fettsäureresten schwerlösliche Kalkseife. Sie wäscht nicht und hinterlässt Ränder.",
+        "Grenze 2 — saure Lösung: Dort wird aus dem Carboxylat wieder die ungeladene Fettsäure, der hydrophile Kopf verschwindet und die Waschwirkung endet."
+      ],
+      "merke": "Micelle: Schwänze innen, geladene Köpfe außen — deshalb bleiben die Tropfen getrennt.",
+      "visual": {
+        "type": "animation",
+        "name": "seife",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Fett + 3 NaOH → Glycerin + 3 R–COONa"
+    ],
+    "saetze": [
+      "Verseifung: Spaltung eines Fettes mit Lauge.",
+      "Seife = Natriumsalz einer Fettsäure.",
+      "Hydrophiler Kopf, hydrophober Schwanz.",
+      "In hartem Wasser bildet sich unlösliche Kalkseife."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Waschmittel und Seifen — Chemie pur",
+      "url": "https://www.youtube.com/watch?v=ymStEpXwGdo",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/B5Qu1H",
+      "embed": "https://app.lumi.education/api/v1/run/B5Qu1H/embed",
+      "stufe": "A",
+      "dauer_s": 210
+    }
+  ],
+  "tasks": [
+    {
+      "id": "ES04-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Warum löst Wasser mit Seife Fett besser als Wasser allein?",
+      "options": [
+        "Seifenteilchen haben ein Ende für Wasser und eines für Fett.",
+        "Seife macht das Wasser wärmer.",
+        "Seife löst das Fett chemisch auf."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "seife",
+        "stufe": "A"
+      },
+      "hints": [
+        "Das Seifenteilchen hat zwei Enden.",
+        "Eines mag Wasser, eines Fett.",
+        "So vermittelt es."
+      ],
+      "solution": "Ein Seifenteilchen hat einen wasserfreundlichen Kopf und einen fettfreundlichen Schwanz. Damit verbindet es beides.",
+      "tags": [
+        "seife"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "ES04-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Was entsteht bei der Verseifung eines Fettes?",
+      "options": [
+        "Glycerin und Seife",
+        "nur Seife",
+        "Alkohol und Säure"
+      ],
+      "answer": 0,
+      "hints": [
+        "Das Fett wird gespalten.",
+        "Der Alkoholteil ist Glycerin.",
+        "Und die Salze sind die Seife."
+      ],
+      "solution": "Bei der Verseifung entstehen Glycerin und die Natriumsalze der Fettsäuren — die Seife.",
+      "tags": [
+        "seife"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ES04-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Welches Ende des Seifenteilchens steckt im Fetttropfen?",
+      "options": [
+        "der lange unpolare Schwanz",
+        "der geladene Kopf",
+        "beide"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "seife",
+        "stufe": "A"
+      },
+      "hints": [
+        "Fett ist unpolar.",
+        "Gleiches löst sich in Gleichem.",
+        "Also der unpolare Schwanz."
+      ],
+      "solution": "Der lange unpolare Schwanz steckt im Fett, der geladene Kopf zeigt ins Wasser.",
+      "misconceptions": [
+        {
+          "id": "polar_unpolar_vertauscht",
+          "value": 1,
+          "feedback": "Der geladene Kopf löst sich im Wasser, nicht im Fett.",
+          "konzeptfehler": "polar_unpolar_vertauscht"
+        }
+      ],
+      "tags": [
+        "seife"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "ES04-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum hinterlässt Seife in hartem Wasser Ränder?",
+      "options": [
+        "Sie bildet mit Calcium-Ionen unlösliche Kalkseife.",
+        "Sie ist zu alt.",
+        "Das Wasser ist zu warm."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ist in hartem Wasser gelöst?",
+        "Calcium- und Magnesium-Ionen.",
+        "Sie bilden mit der Seife etwas Unlösliches."
+      ],
+      "solution": "Calcium- und Magnesium-Ionen bilden mit den Fettsäureresten schwerlösliche Kalkseife. Sie wäscht nicht und setzt sich als Rand ab.",
+      "tags": [
+        "seife"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "ES04-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Was ist eine Seife chemisch?",
+      "options": [
+        "das Natriumsalz einer Fettsäure",
+        "ein Alkohol",
+        "ein Ester"
+      ],
+      "answer": 0,
+      "hints": [
+        "Sie entsteht aus einem Fett und einer Lauge.",
+        "Also durch Neutralisation.",
+        "Ein Salz."
+      ],
+      "solution": "Seife ist das Natriumsalz einer langkettigen Fettsäure — entstanden bei der Verseifung mit Natronlauge.",
+      "misconceptions": [
+        {
+          "id": "funktionelle_gruppe_verwechselt",
+          "value": 2,
+          "feedback": "Der Ester war das Fett. Bei der Verseifung wird er gespalten.",
+          "konzeptfehler": "funktionelle_gruppe_verwechselt"
+        }
+      ],
+      "tags": [
+        "seife",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "ES04-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Was ist eine Micelle?",
+      "options": [
+        "Ein Fetttropfen, umhüllt von Seifenteilchen mit den Köpfen nach außen.",
+        "Ein einzelnes Seifenteilchen.",
+        "Ein Wassertropfen im Fett."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "seife",
+        "stufe": "B"
+      },
+      "hints": [
+        "Viele Seifenteilchen umgeben einen Tropfen.",
+        "Die Schwänze zeigen nach innen.",
+        "Die Köpfe nach außen."
+      ],
+      "solution": "In einer Micelle stecken die unpolaren Schwänze im Fetttropfen, die geladenen Köpfe zeigen ins Wasser. So bleibt der Tropfen in der Schwebe.",
+      "tags": [
+        "seife",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "ES04-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum fließen die umhüllten Fetttropfen nicht wieder zusammen?",
+      "options": [
+        "Nach außen tragen sie gleiche Ladungen und stoßen sich ab.",
+        "Sie sind zu klein.",
+        "Sie sind zu schwer."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was zeigt bei der Micelle nach außen?",
+        "Die geladenen Köpfe.",
+        "Alle tragen dieselbe Ladung."
+      ],
+      "solution": "Alle Micellen tragen außen dieselbe Ladung. Gleiche Ladungen stoßen sich ab — die Tropfen bleiben getrennt. So entsteht eine stabile Emulsion.",
+      "tags": [
+        "seife",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "ES04-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum verliert Seife in saurer Lösung ihre Waschwirkung?",
+      "options": [
+        "Aus dem geladenen Carboxylat wird wieder die ungeladene Fettsäure.",
+        "Die Säure zerstört das Fett.",
+        "Die Säure löst die Seife auf."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert mit dem Carboxylat-Ion in saurer Lösung?",
+        "Es nimmt ein Proton auf.",
+        "Dann ist es nicht mehr geladen."
+      ],
+      "solution": "In saurer Lösung nimmt das Carboxylat-Ion ein Proton auf und wird zur ungeladenen Fettsäure. Der hydrophile Kopf verschwindet — das Teilchen kann nicht mehr zwischen Fett und Wasser vermitteln.",
+      "tags": [
+        "seife",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "ES04-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Welche Lauge ergibt feste Kernseife?",
+      "options": [
+        "Natronlauge",
+        "Kalilauge",
+        "Kalkwasser"
+      ],
+      "answer": 0,
+      "hints": [
+        "Kalilauge ergibt Schmierseife.",
+        "Die andere ergibt feste Seife.",
+        "Natronlauge."
+      ],
+      "solution": "Mit Natronlauge entsteht feste Kernseife, mit Kalilauge die weichere Schmierseife.",
+      "tags": [
+        "seife",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ES04-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Wie hängt die Verseifung mit der Veresterung zusammen?",
+      "options": [
+        "Sie ist die Umkehrung — der Ester wird wieder gespalten.",
+        "Sie ist dieselbe Reaktion.",
+        "Sie haben nichts miteinander zu tun."
+      ],
+      "answer": 0,
+      "hints": [
+        "Bei der Veresterung entsteht ein Ester.",
+        "Bei der Verseifung wird er gespalten.",
+        "Also die Umkehrung."
+      ],
+      "solution": "Die Veresterung verknüpft Säure und Alkohol, die Verseifung spaltet den Ester wieder. Weil mit Lauge gearbeitet wird, entsteht statt der Säure ihr Salz — und die Reaktion läuft vollständig ab statt ins Gleichgewicht.",
+      "tags": [
+        "seife",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ES04-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum läuft die Verseifung vollständig ab, die Veresterung aber nur bis zum Gleichgewicht?",
+      "options": [
+        "Die Lauge entzieht dem System die Säure als Salz; die Rückreaktion ist damit blockiert.",
+        "Die Verseifung ist schneller.",
+        "Bei der Verseifung wird stärker erhitzt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was wird bei der Verseifung aus der Säure?",
+        "Ihr Salz.",
+        "Das Salz kann nicht zurückreagieren."
+      ],
+      "solution": "Die entstehende Säure wird von der Lauge sofort in ihr Salz überführt. Damit steht sie für die Rückreaktion nicht mehr zur Verfügung — die Verseifung läuft vollständig ab.",
+      "tags": [
+        "seife",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ES04-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum senkt Seife die Oberflächenspannung des Wassers?",
+      "options": [
+        "Die Seifenteilchen lagern sich an der Oberfläche an und stören die Wasserstoffbrücken.",
+        "Seife macht das Wasser schwerer.",
+        "Seife erwärmt das Wasser."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wodurch entsteht die Oberflächenspannung?",
+        "Durch Wasserstoffbrücken zwischen den Wassermolekülen.",
+        "Die Seifenteilchen stören sie."
+      ],
+      "solution": "Die Seifenteilchen lagern sich mit den Schwänzen nach außen an der Oberfläche an und unterbrechen dort das Netz aus Wasserstoffbrücken. Das Wasser dringt dadurch besser in Gewebe ein.",
+      "tags": [
+        "seife",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "ES04-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Ein Fett (M = 806 g/mol) wird mit Natronlauge (M = 40 g/mol) verseift. Je Fettmolekül werden drei NaOH gebraucht.",
+      "fields": [
+        {
+          "label": "Stoffmenge NaOH je mol Fett",
+          "answer": 3,
+          "unit_label": "mol",
+          "tolerance": 0.1
+        },
+        {
+          "label": "Masse NaOH für 1 mol Fett",
+          "answer": 120,
+          "unit_label": "g",
+          "tolerance": 2
+        },
+        {
+          "label": "Masse NaOH für 403 g Fett",
+          "answer": 60,
+          "unit_label": "g",
+          "tolerance": 2
+        }
+      ],
+      "hints": [
+        "Drei Esterbindungen, also 3 NaOH.",
+        "3 · 40 = 120 g.",
+        "403 g sind 0,5 mol Fett."
+      ],
+      "solution": "je mol Fett: 3 mol NaOH = 120 g\n403 g Fett = 0,5 mol → 1,5 mol NaOH = 60 g",
+      "tags": [
+        "seife",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ES04-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum enthalten moderne Waschmittel meist keine klassische Seife mehr?",
+      "options": [
+        "Sie bildet in hartem Wasser Kalkseife; synthetische Tenside tun das nicht.",
+        "Seife ist zu teuer.",
+        "Seife schäumt zu wenig."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ist das Problem der Seife in hartem Wasser?",
+        "Kalkseife.",
+        "Synthetische Tenside vermeiden das."
+      ],
+      "solution": "Klassische Seife bildet mit Calcium- und Magnesium-Ionen unlösliche Kalkseife — sie wäscht dann nicht und hinterlässt Rückstände. Synthetische Tenside haben andere Kopfgruppen und bleiben auch in hartem Wasser löslich.",
+      "tags": [
+        "seife",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 6,
+      "aufgaben": 23,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 6,
+      "aufgaben": 21,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 6,
+      "aufgaben": 18,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Vom ...... zur Seife!",
+      "url": "https://learningapps.org/view2170958",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Allerlei Tenside",
+      "url": "https://learningapps.org/view24785435",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Seife herstellen",
+      "url": "https://www.youtube.com/watch?v=e8a34FiJOrE",
+      "quelle": "Pdst Chemistry",
+      "stufe": "B",
+      "rolle": "Demonstration zur Verseifung",
+      "lumi": "https://app.lumi.education/run/1NVPqe",
+      "embed": "https://app.lumi.education/api/v1/run/1NVPqe/embed",
+      "protokoll": true
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 15,
+    "titel": "Naturstoffe",
+    "seiten_von": 184,
+    "seiten_bis": 193,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Verseifung"
+  }
+}

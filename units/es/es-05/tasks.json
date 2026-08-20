@@ -1,0 +1,621 @@
+{
+  "unit": "ES-05",
+  "title": "Polyester und Makromoleküle",
+  "leitidee": "B2",
+  "standards": [
+    "K1",
+    "K2.3",
+    "K4.1"
+  ],
+  "klasse": 10,
+  "wortspeicher": [
+    "das Makromolekül",
+    "der Kunststoff",
+    "der Polyester",
+    "das Monomer",
+    "die Polykondensation",
+    "die bifunktionelle Verbindung",
+    "PET"
+  ],
+  "worterklaerungen": {
+    "Makromolekül": "Ein sehr großes Molekül aus vielen gleichen Bausteinen.",
+    "Monomer": "Der einzelne Baustein eines Makromoleküls.",
+    "bifunktionell": "Ein Molekül mit zwei funktionellen Gruppen."
+  },
+  "can_do": {
+    "A": "Ich weiß, dass Kunststoffe aus sehr vielen gleichen Bausteinen bestehen.",
+    "B": "Ich erkläre, warum für einen Polyester zwei funktionelle Gruppen je Baustein nötig sind.",
+    "C": "Ich bewerte Eigenschaften und Recycling von Polyestern."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Sehr lange Ketten",
+      "hinfuehrung": "Kunststoffe bestehen aus riesigen Molekülen.",
+      "erklaerung": [
+        "Viele gleiche Bausteine sind aneinandergehängt.",
+        "Ein solches Molekül heißt Makromolekül."
+      ],
+      "merke": "Viele Bausteine, ein Riesenmolekül.",
+      "beispiel": {
+        "titel": "PET-Flasche",
+        "aufgabe": "Woraus besteht sie?",
+        "schritte": [
+          "Aus vielen gleichen Bausteinen.",
+          "Sie sind durch Esterbindungen verknüpft."
+        ],
+        "ergebnis": "Ein Polyester."
+      },
+      "visual": {
+        "type": "struktur",
+        "kette": 6,
+        "gruppe": "ester",
+        "alt": "Ausschnitt aus einer Polyesterkette."
+      }
+    },
+    "B": {
+      "titel": "Warum zwei Gruppen nötig sind",
+      "hinfuehrung": "Aus Essigsäure und Ethanol entsteht nur ein einzelnes Estermolekül. Für eine Kette braucht es Bausteine mit zwei reaktionsfähigen Enden.",
+      "erklaerung": [
+        "Ein Baustein mit nur einer funktionellen Gruppe kann nur einmal reagieren — die Kette endet sofort.",
+        "Eine Dicarbonsäure hat zwei Carboxygruppen, ein zweiwertiger Alkohol zwei OH-Gruppen. Jeder Baustein kann an beiden Enden weiterreagieren.",
+        "So entsteht abwechselnd Säure–Alkohol–Säure–Alkohol, verknüpft über Esterbindungen — ein Polyester.",
+        "Bei jedem Verknüpfungsschritt wird Wasser abgespalten. Deshalb heißt der Vorgang Polykondensation.",
+        "PET, das Material der Getränkeflaschen, entsteht genau so."
+      ],
+      "merke": "Zwei funktionelle Gruppen je Baustein — nur so wächst die Kette weiter.",
+      "visual": {
+        "type": "animation",
+        "name": "veresterung",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Eigenschaften und Recycling",
+      "hinfuehrung": "Aus der Kettenlänge und der Bindungsart folgen sowohl die Eigenschaften des Kunststoffs als auch die Möglichkeiten seiner Wiederverwertung.",
+      "erklaerung": [
+        "Lange Ketten bedeuten viele van-der-Waals-Kontakte zwischen den Molekülen — daher Festigkeit und hohe Erweichungstemperatur.",
+        "Polyester lassen sich zu Fasern ziehen; dabei richten sich die Ketten parallel aus und die Faser wird sehr reißfest.",
+        "Werkstoffliches Recycling: Einschmelzen und neu formen. Bei jedem Durchgang werden die Ketten etwas kürzer, die Qualität sinkt.",
+        "Chemisches Recycling: Die Esterbindungen werden gespalten und die Monomere zurückgewonnen — dieselbe Reaktion wie die Verseifung, nur technisch.",
+        "Zu bedenken: Kunststoffe sind langlebig — das ist als Werkstoff ein Vorteil und als Abfall ein Problem."
+      ],
+      "merke": "Esterbindungen lassen sich spalten — deshalb ist chemisches Recycling möglich.",
+      "visual": {
+        "type": "struktur",
+        "kette": 8,
+        "gruppe": "ester",
+        "alt": "Langer Ausschnitt einer Polyesterkette."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Dicarbonsäure + zweiwertiger Alkohol → Polyester + n H₂O"
+    ],
+    "saetze": [
+      "Makromolekül: sehr viele gleiche Bausteine.",
+      "Für eine Kette braucht jeder Baustein zwei funktionelle Gruppen.",
+      "Polykondensation: Verknüpfung unter Wasserabspaltung.",
+      "PET ist ein Polyester und wird zu Flaschen und Fasern verarbeitet."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Polykondensation — so entstehen Polyester",
+      "url": "https://www.youtube.com/watch?v=28i_5DlbyC4",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/s7JyrP",
+      "embed": "https://app.lumi.education/api/v1/run/s7JyrP/embed",
+      "stufe": "B",
+      "dauer_s": 212
+    },
+    {
+      "titel": "Polymerisation — Kunststoffherstellung",
+      "url": "https://www.youtube.com/watch?v=yB_QThdMSvk",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/5tjBq8",
+      "embed": "https://app.lumi.education/api/v1/run/5tjBq8/embed",
+      "stufe": "C",
+      "dauer_s": 246
+    },
+    {
+      "titel": "Polyaddition — Kunststoffherstellung",
+      "url": "https://www.youtube.com/watch?v=bWh73rCI0O0",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/z6mx29",
+      "embed": "https://app.lumi.education/api/v1/run/z6mx29/embed",
+      "stufe": "A",
+      "dauer_s": 213
+    }
+  ],
+  "tasks": [
+    {
+      "id": "ES05-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Woraus bestehen Kunststoffe?",
+      "options": [
+        "aus sehr vielen gleichen Bausteinen",
+        "aus einem einzigen Molekül",
+        "aus Metall"
+      ],
+      "answer": 0,
+      "hints": [
+        "Der Fachbegriff ist Makromolekül.",
+        "Makro heißt groß.",
+        "Aus vielen Bausteinen."
+      ],
+      "solution": "Kunststoffe bestehen aus Makromolekülen — sehr langen Ketten aus vielen gleichen Bausteinen.",
+      "tags": [
+        "kunststoffe"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "ES05-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Wie werden die Bausteine im Polyester verknüpft?",
+      "options": [
+        "über Esterbindungen",
+        "über Ionenbindungen",
+        "über Metallbindungen"
+      ],
+      "answer": 0,
+      "hints": [
+        "Der Name sagt es.",
+        "Poly-ester.",
+        "Über Esterbindungen."
+      ],
+      "solution": "Der Name verrät es: Im Polyester sind die Bausteine über Esterbindungen verknüpft.",
+      "tags": [
+        "kunststoffe"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "ES05-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Woraus besteht eine PET-Flasche?",
+      "options": [
+        "aus einem Polyester",
+        "aus Glas",
+        "aus Metall"
+      ],
+      "answer": 0,
+      "hints": [
+        "PET steht für Polyethylenterephthalat.",
+        "Das Wort enthält „Polye…“.",
+        "Ein Polyester."
+      ],
+      "solution": "PET ist ein Polyester und wird für Getränkeflaschen und Textilfasern verwendet.",
+      "tags": [
+        "kunststoffe"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "ES05-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Was wird bei jedem Verknüpfungsschritt abgespalten?",
+      "options": [
+        "Wasser",
+        "Sauerstoff",
+        "Kohlenstoffdioxid"
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie bei der Veresterung.",
+        "Dort entsteht auch Wasser.",
+        "Wasser."
+      ],
+      "solution": "Bei jeder Esterbindung wird ein Wassermolekül abgespalten — deshalb heißt der Vorgang Polykondensation.",
+      "tags": [
+        "kunststoffe"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ES05-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Warum braucht ein Baustein für einen Polyester zwei funktionelle Gruppen?",
+      "options": [
+        "Nur dann kann er an beiden Enden weiterreagieren und die Kette wächst.",
+        "Damit er schwerer wird.",
+        "Damit er sich besser löst."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert bei nur einer Gruppe?",
+        "Die Kette endet nach einem Schritt.",
+        "Für Wachstum braucht es zwei Enden."
+      ],
+      "solution": "Mit nur einer funktionellen Gruppe endet die Kette nach der ersten Verknüpfung. Erst zwei Gruppen je Baustein erlauben ein Weiterwachsen an beiden Enden.",
+      "tags": [
+        "kunststoffe",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "ES05-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum entsteht aus Essigsäure und Ethanol kein Kunststoff?",
+      "options": [
+        "Beide haben nur eine funktionelle Gruppe; nach einer Verknüpfung ist Schluss.",
+        "Sie reagieren zu langsam.",
+        "Sie sind zu klein."
+      ],
+      "answer": 0,
+      "hints": [
+        "Zähle die funktionellen Gruppen.",
+        "Je eine.",
+        "Also nur ein Verknüpfungsschritt."
+      ],
+      "solution": "Essigsäure hat eine Carboxygruppe, Ethanol eine Hydroxylgruppe. Nach der Veresterung ist an beiden Enden nichts mehr reaktionsfähig — es entsteht ein einzelnes Estermolekül.",
+      "tags": [
+        "kunststoffe",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "ES05-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum sind Polyesterfasern besonders reißfest?",
+      "options": [
+        "Beim Ziehen richten sich die langen Ketten parallel aus.",
+        "Sie enthalten Metall.",
+        "Sie sind sehr dick."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert beim Ziehen der Faser?",
+        "Die Ketten ordnen sich.",
+        "Parallele Ketten halten besser zusammen."
+      ],
+      "solution": "Beim Verstrecken richten sich die Makromoleküle parallel zur Faserachse aus. Dadurch wirken die van-der-Waals-Kräfte über große Kontaktflächen — die Faser wird sehr reißfest.",
+      "tags": [
+        "kunststoffe",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "ES05-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum sind Kunststoffe meist fest, obwohl sie aus Molekülen bestehen?",
+      "options": [
+        "Die sehr langen Ketten haben große Kontaktflächen; die van-der-Waals-Kräfte summieren sich.",
+        "Sie enthalten Ionen.",
+        "Sie sind kristallin wie Salze."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie lang sind die Ketten?",
+        "Sehr lang.",
+        "Viel Kontaktfläche heißt starke Anziehung."
+      ],
+      "solution": "Einzelne van-der-Waals-Kräfte sind schwach, aber bei Makromolekülen wirken sie über sehr große Kontaktflächen. In der Summe halten sie den Werkstoff fest zusammen.",
+      "tags": [
+        "kunststoffe",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "ES05-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Was ist chemisches Recycling von PET?",
+      "options": [
+        "Die Esterbindungen werden gespalten und die Bausteine zurückgewonnen.",
+        "Das PET wird eingeschmolzen.",
+        "Das PET wird verbrannt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Chemisch heißt: eine Reaktion findet statt.",
+        "Die Esterbindungen werden gespalten.",
+        "Wie bei der Verseifung."
+      ],
+      "solution": "Beim chemischen Recycling werden die Esterbindungen gespalten und die ursprünglichen Bausteine zurückgewonnen. Aus ihnen lässt sich neues PET in Neuware-Qualität herstellen.",
+      "misconceptions": [
+        {
+          "id": "reaktion_und_zustandsaenderung_verwechselt",
+          "value": 1,
+          "feedback": "Einschmelzen ist werkstoffliches Recycling — eine Zustandsänderung, keine Reaktion.",
+          "konzeptfehler": "reaktion_und_zustandsaenderung_verwechselt"
+        }
+      ],
+      "tags": [
+        "kunststoffe",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ES05-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum sinkt beim Einschmelzen und Neuformen die Qualität eines Kunststoffs?",
+      "options": [
+        "Die Ketten werden bei jedem Durchgang etwas kürzer.",
+        "Es kommt Farbe hinzu.",
+        "Der Kunststoff wird schwerer."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert mit langen Ketten bei Hitze?",
+        "Sie brechen teilweise.",
+        "Kürzere Ketten heißt geringere Festigkeit."
+      ],
+      "solution": "Beim Erhitzen brechen einzelne Ketten. Kürzere Ketten haben weniger Kontaktfläche — der Werkstoff wird weniger fest. Deshalb wird recyceltes PET oft für weniger anspruchsvolle Anwendungen verwendet.",
+      "tags": [
+        "kunststoffe",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "ES05-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum lässt sich Polylactid aus Milchsäure herstellen, obwohl Milchsäure nur eine Carboxygruppe hat?",
+      "options": [
+        "Milchsäure trägt zusätzlich eine OH-Gruppe — sie ist damit bifunktionell.",
+        "Milchsäure hat zwei Carboxygruppen.",
+        "Es wird ein zweiter Baustein zugesetzt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welche Gruppen hat Milchsäure?",
+        "Eine COOH- und eine OH-Gruppe.",
+        "Beide sind reaktionsfähig."
+      ],
+      "solution": "Milchsäure ist eine Hydroxycarbonsäure: Sie trägt eine Carboxygruppe und eine Hydroxylgruppe. Beide Enden können reagieren — ein einziger Baustein genügt für die Kette.",
+      "tags": [
+        "kunststoffe",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "ES05-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum ist Polylactid unter bestimmten Bedingungen biologisch abbaubar?",
+      "options": [
+        "Die Esterbindungen lassen sich durch Wasser und Enzyme spalten.",
+        "Es besteht aus Zucker.",
+        "Es enthält keine Kohlenstoffatome."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welche Bindung verknüpft die Bausteine?",
+        "Die Esterbindung.",
+        "Sie ist spaltbar."
+      ],
+      "solution": "Esterbindungen lassen sich hydrolytisch und enzymatisch spalten. Unter geeigneten Bedingungen — Wärme und Feuchtigkeit in einer Industriekompostierung — zerfällt Polylactid deshalb. Im Gartenkompost geschieht das kaum.",
+      "tags": [
+        "kunststoffe",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ES05-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum ist die Langlebigkeit von Kunststoffen zugleich Vorteil und Problem?",
+      "options": [
+        "Als Werkstoff ist Beständigkeit erwünscht, als Abfall bedeutet sie jahrhundertelangen Verbleib.",
+        "Sie ist nur ein Vorteil.",
+        "Sie ist nur ein Problem."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wofür wird Beständigkeit gebraucht?",
+        "Für die Verwendung.",
+        "Und was bedeutet sie nach dem Wegwerfen?"
+      ],
+      "solution": "Dieselbe Eigenschaft, die einen Kunststoff als Werkstoff brauchbar macht — chemische Beständigkeit —, führt dazu, dass er als Abfall über sehr lange Zeit erhalten bleibt. Eine Bewertung muss beide Seiten nennen.",
+      "tags": [
+        "kunststoffe",
+        "bewerten",
+        "msa"
+      ]
+    },
+    {
+      "id": "ES05-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Biokunststoffe sind immer besser für die Umwelt.“ Wie bewertest du das?",
+      "options": [
+        "Zu pauschal — entscheidend sind Herstellung, Flächenverbrauch und die tatsächlichen Abbaubedingungen.",
+        "Richtig.",
+        "Falsch, Biokunststoffe sind immer schlechter."
+      ],
+      "answer": 0,
+      "hints": [
+        "Woraus werden Biokunststoffe hergestellt?",
+        "Aus Pflanzen — das braucht Fläche.",
+        "Und der Abbau gelingt nur unter bestimmten Bedingungen."
+      ],
+      "solution": "„Bio“ bezeichnet teils die Herkunft, teils die Abbaubarkeit — beides ist nicht dasselbe. Anbaufläche, Energieaufwand und die Frage, ob die Abbaubedingungen in der Praxis erreicht werden, gehören in jede Bewertung.",
+      "tags": [
+        "kunststoffe",
+        "bewerten",
+        "msa"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 6,
+      "aufgaben": 23,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 6,
+      "aufgaben": 21,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 6,
+      "aufgaben": 18,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Monomere und Polymere",
+      "url": "https://learningapps.org/view6084309",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Kunststoffe 1",
+      "url": "https://learningapps.org/view1286639",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Kunststoffe",
+      "url": "https://de.serlo.org/chemie/23270/kunststoffe",
+      "typ": "sammlung",
+      "quelle": "Serlo",
+      "pfade": [
+        "B",
+        "C"
+      ]
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 14,
+    "titel": "Kunststoffe",
+    "seiten_von": 173,
+    "seiten_bis": 183,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Makromolekül"
+  }
+}

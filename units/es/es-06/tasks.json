@@ -1,0 +1,612 @@
+{
+  "unit": "ES-06",
+  "title": "Anwenden & Prüfungstraining Ester",
+  "leitidee": "B3",
+  "standards": [
+    "K1",
+    "K2.4",
+    "K3.3",
+    "K4.1"
+  ],
+  "klasse": 10,
+  "wortspeicher": [
+    "die Veresterung",
+    "die Verseifung",
+    "das Glycerid",
+    "der Polyester",
+    "die Kondensationsreaktion",
+    "das Gleichgewicht"
+  ],
+  "worterklaerungen": {
+    "Kondensationsreaktion": "Zwei Moleküle verbinden sich unter Abspaltung eines kleinen Moleküls, meist Wasser."
+  },
+  "can_do": {
+    "A": "Ich benenne Ester und weiß, woraus sie entstehen.",
+    "B": "Ich verbinde Veresterung, Fette, Seifen und Polyester miteinander.",
+    "C": "Ich begründe Eigenschaften aus dem Bau und bewerte Anwendungen und Recycling."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Ester auf einen Blick",
+      "hinfuehrung": "In dieser Stunde kommt alles zusammen.",
+      "erklaerung": [
+        "Säure plus Alkohol ergibt Ester und Wasser.",
+        "Fette und Kunststoffe sind ebenfalls Ester."
+      ],
+      "merke": "Erst lesen, was gefragt ist. Dann antworten.",
+      "visual": {
+        "type": "animation",
+        "name": "signalwoerter",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Ein Prinzip, vier Anwendungen",
+      "hinfuehrung": "Der gesamte Bereich beruht auf einer einzigen Reaktion — der Veresterung. Alles Weitere ist ihre Anwendung in verschiedenem Maßstab.",
+      "erklaerung": [
+        "Ein Alkohol und eine Säure: Es entsteht ein einzelnes Estermolekül — ein Aromastoff oder Lösungsmittel.",
+        "Glycerin mit drei OH-Gruppen und drei Fettsäuren: Es entsteht ein Fett.",
+        "Ein Fett mit Lauge gespalten: Es entstehen Glycerin und Seife.",
+        "Bausteine mit je zwei funktionellen Gruppen: Es entsteht ein Polyester.",
+        "Immer dieselbe Bindung, immer dieselbe Wasserabspaltung — nur die Zahl der Gruppen unterscheidet sich."
+      ],
+      "merke": "Eine Reaktion, vier Maßstäbe: Aroma, Fett, Seife, Kunststoff.",
+      "visual": {
+        "type": "animation",
+        "name": "veresterung",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Der Bogen über vier Jahre",
+      "hinfuehrung": "Diese Einheit schließt nicht nur den Bereich ab, sondern das gesamte Curriculum. Dieselben Denkweisen tragen von Klasse 7 bis Klasse 10.",
+      "erklaerung": [
+        "Stoff und Teilchen: Was man sieht, wird auf der Teilchenebene gedeutet — vom Aggregatzustand bis zur Micelle.",
+        "Struktur und Eigenschaft: Der Bau bestimmt die Eigenschaften — vom Ionengitter über den Wasserdipol bis zur Kettenlänge im Polyester.",
+        "Chemische Reaktion: Es geht kein Atom verloren — von der Massenerhaltung bis zur Polykondensation.",
+        "Energie: Jede Reaktion setzt Energie um — von der Verbrennung bis zum Katalysator.",
+        "Und über allem: Eine Bewertung braucht ein Kriterium, eine Begründung eine Ursache und ein Modell die Kenntnis seiner Grenzen."
+      ],
+      "merke": "Vier Basiskonzepte, vier Jahre — und dieselben Fragen.",
+      "visual": {
+        "type": "animation",
+        "name": "signalwoerter",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "R–COOH + HO–R' ⇌ R–COO–R' + H₂O",
+      "Fett + 3 NaOH → Glycerin + 3 Seife",
+      "Dicarbonsäure + zweiwertiger Alkohol → Polyester + n H₂O"
+    ],
+    "saetze": [
+      "Veresterung: Säure + Alkohol ⇌ Ester + Wasser.",
+      "Verseifung ist ihre Umkehrung mit Lauge.",
+      "Fette sind Ester aus Glycerin und drei Fettsäuren.",
+      "Für einen Polyester braucht jeder Baustein zwei funktionelle Gruppen."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Wie werden Kunststoffe hergestellt?",
+      "url": "https://www.youtube.com/watch?v=xyyAbGpoakM",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/suS9Ge",
+      "embed": "https://app.lumi.education/api/v1/run/suS9Ge/embed",
+      "stufe": "C",
+      "dauer_s": 290
+    },
+    {
+      "titel": "Recycling von Kunststoffen",
+      "url": "https://www.youtube.com/watch?v=S4_7SAfVds0",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/np6Cgj",
+      "embed": "https://app.lumi.education/api/v1/run/np6Cgj/embed",
+      "stufe": "A",
+      "dauer_s": 319
+    },
+    {
+      "titel": "Thermoplaste — ein Kunststofftyp genauer betrachtet",
+      "url": "https://www.youtube.com/watch?v=Il6hPdAkdfA",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/uFUnA_",
+      "embed": "https://app.lumi.education/api/v1/run/uFUnA_/embed",
+      "stufe": "B",
+      "dauer_s": 213
+    }
+  ],
+  "tasks": [
+    {
+      "id": "ES06-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Woraus entsteht ein Ester?",
+      "options": [
+        "aus einer Säure und einem Alkohol",
+        "aus zwei Säuren",
+        "aus zwei Alkoholen"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "veresterung",
+        "stufe": "A"
+      },
+      "hints": [
+        "Zwei verschiedene Stoffklassen.",
+        "Säure und Alkohol.",
+        "Genau die."
+      ],
+      "solution": "Ein Ester entsteht aus einer Carbonsäure und einem Alkohol; dabei wird Wasser frei.",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "ES06-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Woraus besteht ein Fett?",
+      "options": [
+        "aus Glycerin und drei Fettsäuren",
+        "aus Zucker",
+        "aus Eiweiß"
+      ],
+      "answer": 0,
+      "hints": [
+        "Es ist ein Ester.",
+        "Der Alkohol ist Glycerin.",
+        "Dazu drei Fettsäuren."
+      ],
+      "solution": "Fette sind Ester aus Glycerin und drei Fettsäuren — deshalb heißen sie auch Glyceride.",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "ES06-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Was entsteht bei der Verseifung?",
+      "options": [
+        "Glycerin und Seife",
+        "ein Ester",
+        "ein Alkohol und eine Säure"
+      ],
+      "answer": 0,
+      "hints": [
+        "Das Fett wird mit Lauge gespalten.",
+        "Der Alkoholteil bleibt als Glycerin.",
+        "Die Säuren werden zu Salzen — der Seife."
+      ],
+      "solution": "Bei der Verseifung entstehen Glycerin und die Natriumsalze der Fettsäuren, also Seife.",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ES06-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Was hält ein Seifenteilchen an beiden Enden fest?",
+      "options": [
+        "Wasser am Kopf, Fett am Schwanz",
+        "nur Wasser",
+        "nur Fett"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "seife",
+        "stufe": "A"
+      },
+      "hints": [
+        "Zwei Enden, zwei Aufgaben.",
+        "Der Kopf ist geladen.",
+        "Der Schwanz ist unpolar."
+      ],
+      "solution": "Der geladene Kopf löst sich im Wasser, der unpolare Schwanz im Fett — so vermittelt die Seife zwischen beiden.",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "ES06-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Warum steht bei der Veresterung ein Gleichgewichtspfeil, bei der Verseifung aber nicht?",
+      "options": [
+        "Bei der Verseifung wird die Säure als Salz gebunden; die Rückreaktion ist blockiert.",
+        "Die Verseifung ist schneller.",
+        "Bei der Veresterung wird nicht erhitzt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert bei der Verseifung mit der Säure?",
+        "Sie wird zum Salz.",
+        "Ein Salz reagiert nicht zurück."
+      ],
+      "solution": "Die Lauge überführt die entstehende Säure sofort in ihr Salz. Damit steht sie für die Rückreaktion nicht mehr zur Verfügung — die Verseifung läuft vollständig ab.",
+      "tags": [
+        "pruefung",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ES06-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Wie viele Esterbindungen hat ein Fettmolekül?",
+      "answer": 3,
+      "tolerance": 0,
+      "hints": [
+        "Glycerin hat drei OH-Gruppen.",
+        "Jede bildet eine Bindung.",
+        "3."
+      ],
+      "solution": "Drei OH-Gruppen des Glycerins ergeben drei Esterbindungen.",
+      "tags": [
+        "pruefung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "ES06-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum braucht ein Polyester Bausteine mit zwei funktionellen Gruppen?",
+      "options": [
+        "Nur dann kann die Kette an beiden Enden weiterwachsen.",
+        "Damit der Kunststoff fester wird.",
+        "Damit er sich löst."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert bei nur einer Gruppe?",
+        "Die Kette endet.",
+        "Für Wachstum braucht es zwei Enden."
+      ],
+      "solution": "Mit nur einer funktionellen Gruppe endet die Kette nach der ersten Verknüpfung. Erst zwei Gruppen erlauben das Weiterwachsen.",
+      "tags": [
+        "pruefung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "ES06-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "multi",
+      "prompt": "88 g Essigsäureethylester (M = 88 g/mol) werden vollständig gespalten. Es entstehen Essigsäure (M = 60 g/mol) und Ethanol (M = 46 g/mol).",
+      "fields": [
+        {
+          "label": "Stoffmenge des Esters",
+          "answer": 1,
+          "unit_label": "mol",
+          "tolerance": 0.05
+        },
+        {
+          "label": "Masse der entstehenden Essigsäure",
+          "answer": 60,
+          "unit_label": "g",
+          "tolerance": 2
+        },
+        {
+          "label": "Masse des entstehenden Ethanols",
+          "answer": 46,
+          "unit_label": "g",
+          "tolerance": 2
+        }
+      ],
+      "hints": [
+        "n = 88 : 88 = 1 mol.",
+        "Je 1 mol Säure und Alkohol.",
+        "Beachte: 60 + 46 = 106, die Differenz ist das aufgenommene Wasser."
+      ],
+      "solution": "n = 1 mol → 60 g Essigsäure und 46 g Ethanol\nProbe: 88 g Ester + 18 g Wasser = 106 g — die Massenbilanz stimmt.",
+      "tags": [
+        "pruefung",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ES06-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum ist ein Ester flüchtiger als die Säure, aus der er stammt?",
+      "options": [
+        "Ihm fehlt die freie OH-Gruppe für Wasserstoffbrücken.",
+        "Er ist leichter.",
+        "Er ist wärmer."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was macht die Carboxygruppe?",
+        "Sie bildet Wasserstoffbrücken.",
+        "Im Ester ist sie verbraucht."
+      ],
+      "solution": "Bei der Veresterung wird die OH-Gruppe der Säure verbraucht. Ohne sie bilden die Estermoleküle untereinander keine Wasserstoffbrücken — sie verdunsten leichter und riechen deshalb.",
+      "tags": [
+        "pruefung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "ES06-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum wäscht Seife in hartem Wasser schlecht?",
+      "options": [
+        "Calcium- und Magnesium-Ionen bilden mit den Fettsäureresten unlösliche Kalkseife.",
+        "Hartes Wasser ist zu kalt.",
+        "Hartes Wasser enthält keine Ionen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ist in hartem Wasser gelöst?",
+        "Calcium- und Magnesium-Ionen.",
+        "Sie fällen die Seife aus."
+      ],
+      "solution": "Calcium- und Magnesium-Ionen bilden mit den Fettsäureresten schwerlösliche Salze. Die Seife fällt aus, steht für die Micellbildung nicht mehr zur Verfügung und hinterlässt Ränder.",
+      "tags": [
+        "pruefung",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "ES06-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Welche Gemeinsamkeit haben Veresterung, Fettbildung und Polykondensation?",
+      "options": [
+        "Bei allen wird unter Abspaltung von Wasser eine Esterbindung geknüpft.",
+        "Bei allen entsteht ein Gas.",
+        "Bei allen wird Energie frei."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welche Bindung entsteht jeweils?",
+        "Die Esterbindung.",
+        "Und immer wird Wasser abgespalten."
+      ],
+      "solution": "Alle drei sind Kondensationsreaktionen: Es entsteht eine Esterbindung, und dabei wird Wasser abgespalten. Verschieden ist nur die Zahl der beteiligten funktionellen Gruppen.",
+      "tags": [
+        "pruefung",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ES06-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum lässt sich PET chemisch recyceln, Polyethylen aber nicht auf demselben Weg?",
+      "options": [
+        "PET enthält spaltbare Esterbindungen; Polyethylen besteht nur aus stabilen C–C-Bindungen.",
+        "PET ist weicher.",
+        "Polyethylen ist kein Kunststoff."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welche Bindungen verknüpfen die Bausteine jeweils?",
+        "Bei PET Esterbindungen.",
+        "Bei Polyethylen nur C–C."
+      ],
+      "solution": "Esterbindungen lassen sich gezielt spalten — die Monomere sind zurückgewinnbar. Die C–C-Bindungen im Polyethylen sind dagegen sehr stabil und nicht selektiv spaltbar; dort bleibt nur werkstoffliches Recycling.",
+      "tags": [
+        "pruefung",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ES06-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Welche Antwort auf „Erkläre die Waschwirkung der Seife“ ist vollständig?",
+      "options": [
+        "Der unpolare Schwanz löst sich im Fett, der geladene Kopf im Wasser; es entstehen Micellen, die sich gegenseitig abstoßen und abgespült werden können.",
+        "Seife löst Fett auf.",
+        "Seife macht das Wasser sauber."
+      ],
+      "answer": 0,
+      "hints": [
+        "„Erkläre“ verlangt den Mechanismus.",
+        "Zwei Enden, Micelle, Abstoßung.",
+        "Alle drei Schritte gehören hinein."
+      ],
+      "solution": "Eine vollständige Erklärung nennt den Bau des Teilchens, die Bildung der Micelle und die Abstoßung der Tropfen. Antwort 2 und 3 beschreiben nur das Ergebnis.",
+      "tags": [
+        "pruefung",
+        "operatoren",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "ES06-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Über vier Jahre Chemie hinweg: Welche Aussage trifft den gemeinsamen Kern am besten?",
+      "options": [
+        "Der Bau der Teilchen erklärt die Eigenschaften der Stoffe — vom Ionengitter bis zum Polyester.",
+        "Chemie besteht aus Formeln, die man auswendig lernt.",
+        "Jeder Stoff verhält sich anders, Regeln gibt es nicht."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was zieht sich von Klasse 7 bis 10 durch?",
+        "Der Zusammenhang von Bau und Eigenschaften.",
+        "Das Struktur-Eigenschafts-Konzept."
+      ],
+      "solution": "Vom Teilchenmodell über das Ionengitter, den Wasserdipol und die van-der-Waals-Kräfte bis zum Makromolekül gilt derselbe Gedanke: Art, Anordnung und Wechselwirkung der Teilchen bestimmen die Eigenschaften des Stoffes. Formeln sind Werkzeuge dafür, nicht der Inhalt.",
+      "tags": [
+        "pruefung",
+        "bewerten",
+        "msa"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 8,
+      "aufgaben": 21,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 6,
+      "aufgaben": 21,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 8,
+      "aufgaben": 16,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Kunststoffe 2",
+      "url": "https://learningapps.org/view1294402",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Kunststoffe - Herstellung und Eigenschaften",
+      "url": "https://learningapps.org/view22671007",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 14,
+    "titel": "Kunststoffe",
+    "seiten_von": 173,
+    "seiten_bis": 183,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Veresterung"
+  }
+}

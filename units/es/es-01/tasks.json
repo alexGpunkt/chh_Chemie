@@ -1,0 +1,684 @@
+{
+  "unit": "ES-01",
+  "title": "Veresterung: aus Säure und Alkohol",
+  "leitidee": "B3",
+  "standards": [
+    "K1",
+    "K2.2",
+    "K3.4"
+  ],
+  "klasse": 10,
+  "sicherheit": [
+    "Konzentrierte Schwefelsäure als Katalysator ist stark ätzend — Schutzbrille und Handschuhe.",
+    "Ester sind meist leicht entzündbar; kein offenes Feuer beim Erhitzen."
+  ],
+  "wortspeicher": [
+    "die Veresterung",
+    "der Ester",
+    "die Kondensationsreaktion",
+    "der Katalysator",
+    "das Gleichgewicht",
+    "die Esterbindung"
+  ],
+  "worterklaerungen": {
+    "Veresterung": "Aus einer Säure und einem Alkohol entstehen ein Ester und Wasser.",
+    "Kondensationsreaktion": "Zwei Moleküle verbinden sich unter Abspaltung von Wasser."
+  },
+  "can_do": {
+    "A": "Ich weiß, dass aus Säure und Alkohol ein Ester und Wasser entstehen.",
+    "B": "Ich benenne Ester und stelle die Reaktionsgleichung auf.",
+    "C": "Ich erkläre die Rolle des Katalysators und das Gleichgewicht."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Zwei Stoffe werden eins",
+      "hinfuehrung": "Eine Säure und ein Alkohol reagieren miteinander.",
+      "erklaerung": [
+        "Es entsteht ein Ester.",
+        "Und ein Molekül Wasser."
+      ],
+      "merke": "Säure + Alkohol → Ester + Wasser.",
+      "beispiel": {
+        "titel": "Essigsäure und Ethanol",
+        "aufgabe": "Was entsteht?",
+        "schritte": [
+          "Die OH-Gruppe der Säure geht ab.",
+          "Das H der Alkoholgruppe auch.",
+          "Beide bilden Wasser."
+        ],
+        "ergebnis": "Essigsäureethylester und Wasser"
+      },
+      "visual": {
+        "type": "animation",
+        "name": "veresterung",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Woher das Wasser kommt",
+      "hinfuehrung": "Die Veresterung ist eine Kondensationsreaktion: Zwei Moleküle verbinden sich, und dabei wird Wasser frei. Woher genau dessen Bestandteile stammen, ist der Kern der Sache.",
+      "erklaerung": [
+        "Aus der Carboxygruppe der Säure stammt die OH-Gruppe.",
+        "Aus der Hydroxylgruppe des Alkohols stammt das Wasserstoffatom.",
+        "Beide zusammen ergeben das Wassermolekül. Die verbleibenden Reste sind über eine Esterbindung verknüpft.",
+        "Der Name folgt einer Regel: Säure zuerst, dann der Alkoholrest, dann „ester“ — Essigsäureethylester.",
+        "Allgemein: R–COOH + HO–R' ⇌ R–COO–R' + H₂O"
+      ],
+      "merke": "Die OH-Gruppe stammt aus der Säure, das H aus dem Alkohol.",
+      "visual": {
+        "type": "animation",
+        "name": "veresterung",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Gleichgewicht und Katalysator",
+      "hinfuehrung": "Die Veresterung läuft nie vollständig ab. Wer das versteht, versteht auch, warum konzentrierte Schwefelsäure zugesetzt wird.",
+      "erklaerung": [
+        "Die Reaktion ist umkehrbar: Ester und Wasser reagieren zurück zu Säure und Alkohol. Diese Rückreaktion heißt Esterspaltung oder Hydrolyse.",
+        "Es stellt sich ein Gleichgewicht ein — typischerweise bei rund zwei Dritteln Umsatz.",
+        "Konzentrierte Schwefelsäure wirkt doppelt: Sie beschleunigt die Reaktion als Katalysator und entzieht zugleich das entstehende Wasser.",
+        "Weil das Wasser aus dem Gleichgewicht entfernt wird, verschiebt es sich zur Seite des Esters. Die Ausbeute steigt.",
+        "Der Katalysator wird dabei nicht verbraucht — er liegt am Ende unverändert vor."
+      ],
+      "merke": "Der Katalysator beschleunigt und entzieht Wasser — beides erhöht die Ausbeute.",
+      "visual": {
+        "type": "animation",
+        "name": "veresterung",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "R–COOH + HO–R' ⇌ R–COO–R' + H₂O",
+      "CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O"
+    ],
+    "saetze": [
+      "Säure + Alkohol ⇌ Ester + Wasser.",
+      "Die OH-Gruppe stammt aus der Säure, das H aus dem Alkohol.",
+      "Die Reaktion ist umkehrbar und stellt ein Gleichgewicht ein.",
+      "Konzentrierte Schwefelsäure katalysiert und entzieht Wasser."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Veresterung — aus Säure und Alkohol wird Ester",
+      "url": "https://www.youtube.com/watch?v=IXm70Nk-9Z4",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/U0Ju-j",
+      "embed": "https://app.lumi.education/api/v1/run/U0Ju-j/embed",
+      "stufe": "A",
+      "dauer_s": 247
+    },
+    {
+      "titel": "Benennung der Carbonsäureester nach IUPAC",
+      "url": "https://www.youtube.com/watch?v=wb2gULwm3bY",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/jBkHlx",
+      "embed": "https://app.lumi.education/api/v1/run/jBkHlx/embed",
+      "stufe": "C",
+      "dauer_s": 634
+    }
+  ],
+  "tasks": [
+    {
+      "id": "ES01-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Was entsteht bei der Veresterung?",
+      "options": [
+        "ein Ester und Wasser",
+        "nur ein Ester",
+        "ein Salz"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "veresterung",
+        "stufe": "A"
+      },
+      "hints": [
+        "Es entstehen zwei Produkte.",
+        "Eines davon ist Wasser.",
+        "Ester und Wasser."
+      ],
+      "solution": "Aus Säure und Alkohol entstehen ein Ester und ein Molekül Wasser.",
+      "tags": [
+        "ester"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ES01-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Welche zwei Stoffe braucht man für eine Veresterung?",
+      "options": [
+        "eine Säure und einen Alkohol",
+        "zwei Säuren",
+        "zwei Alkohole"
+      ],
+      "answer": 0,
+      "hints": [
+        "Der Name Ester kommt von Essigäther.",
+        "Es sind zwei verschiedene Stoffklassen.",
+        "Säure und Alkohol."
+      ],
+      "solution": "Eine Carbonsäure und ein Alkohol reagieren zum Ester.",
+      "tags": [
+        "ester"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "ES01-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Woher stammt das Wasserstoffatom im entstehenden Wasser?",
+      "options": [
+        "aus der OH-Gruppe des Alkohols",
+        "aus der Säure",
+        "aus der Luft"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "veresterung",
+        "stufe": "A"
+      },
+      "hints": [
+        "Sieh dir die Animation an.",
+        "Der Alkohol gibt sein H ab.",
+        "Die Säure gibt die OH-Gruppe."
+      ],
+      "solution": "Das Wasserstoffatom stammt aus der Hydroxylgruppe des Alkohols, die OH-Gruppe aus der Säure.",
+      "misconceptions": [
+        {
+          "id": "edukt_produkt_vertauscht",
+          "value": 1,
+          "feedback": "Die Säure liefert die OH-Gruppe, der Alkohol das H-Atom.",
+          "konzeptfehler": "edukt_produkt_vertauscht"
+        }
+      ],
+      "tags": [
+        "ester"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ES01-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Wozu wird konzentrierte Schwefelsäure zugesetzt?",
+      "options": [
+        "Sie beschleunigt die Reaktion und entzieht Wasser.",
+        "Sie liefert den Alkohol.",
+        "Sie färbt den Ester."
+      ],
+      "answer": 0,
+      "hints": [
+        "Sie wird nicht verbraucht.",
+        "Sie wirkt als Katalysator.",
+        "Und entzieht Wasser."
+      ],
+      "solution": "Die konzentrierte Schwefelsäure wirkt als Katalysator und entzieht zugleich das entstehende Wasser — beides erhöht die Ausbeute.",
+      "tags": [
+        "ester"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ES01-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Wie heißt der Ester aus Essigsäure und Ethanol?",
+      "options": [
+        "Essigsäureethylester",
+        "Ethansäuremethylester",
+        "Ethylessigsäure"
+      ],
+      "answer": 0,
+      "hints": [
+        "Erst die Säure nennen.",
+        "Dann den Alkoholrest.",
+        "Dann „ester“."
+      ],
+      "solution": "Der Name folgt der Regel Säure + Alkoholrest + ester: Essigsäureethylester.",
+      "misconceptions": [
+        {
+          "id": "nomenklatur_falsch",
+          "value": 2,
+          "feedback": "Die Säure steht im Namen zuerst, der Alkoholrest danach.",
+          "konzeptfehler": "nomenklatur_falsch"
+        }
+      ],
+      "tags": [
+        "ester",
+        "namen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "ES01-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum steht in der Gleichung der Veresterung ein Doppelpfeil?",
+      "options": [
+        "Die Reaktion ist umkehrbar; es stellt sich ein Gleichgewicht ein.",
+        "Weil zwei Produkte entstehen.",
+        "Weil zwei Edukte beteiligt sind."
+      ],
+      "answer": 0,
+      "hints": [
+        "Können Ester und Wasser zurückreagieren?",
+        "Ja — das ist die Esterspaltung.",
+        "Deshalb der Doppelpfeil."
+      ],
+      "solution": "Ester und Wasser reagieren zurück zu Säure und Alkohol. Es stellt sich ein Gleichgewicht ein — der Doppelpfeil zeigt das an.",
+      "tags": [
+        "ester",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ES01-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum erhöht das Entziehen von Wasser die Ausbeute?",
+      "options": [
+        "Ohne Wasser kann die Rückreaktion nicht ablaufen; das Gleichgewicht verschiebt sich zum Ester.",
+        "Wasser verdünnt den Ester.",
+        "Wasser zerstört den Katalysator."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was braucht die Rückreaktion?",
+        "Ester und Wasser.",
+        "Fehlt eines, läuft sie nicht."
+      ],
+      "solution": "Die Rückreaktion benötigt Wasser. Wird es entzogen, kann sie kaum ablaufen und das Gleichgewicht verschiebt sich zugunsten des Esters.",
+      "tags": [
+        "ester",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ES01-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Welche Bindung entsteht bei der Veresterung?",
+      "options": [
+        "die Esterbindung –COO–",
+        "eine Ionenbindung",
+        "eine Wasserstoffbrücke"
+      ],
+      "answer": 0,
+      "hints": [
+        "Sie verbindet die beiden Reste.",
+        "Sie enthält zwei Sauerstoffatome.",
+        "–COO–."
+      ],
+      "solution": "Zwischen den beiden Resten entsteht die Esterbindung –COO–.",
+      "misconceptions": [
+        {
+          "id": "bindungsart_verwechselt",
+          "value": 2,
+          "feedback": "Wasserstoffbrücken wirken zwischen Molekülen, nicht als Verknüpfung im Molekül.",
+          "konzeptfehler": "bindungsart_verwechselt"
+        }
+      ],
+      "tags": [
+        "ester",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "ES01-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie groß ist die molare Masse von Essigsäureethylester CH₃COOC₂H₅? (C = 12, H = 1, O = 16 g/mol)",
+      "answer": 88,
+      "unit_label": "g/mol",
+      "tolerance": 1,
+      "hints": [
+        "4 C, 8 H, 2 O.",
+        "48 + 8 + 32.",
+        "88 g/mol."
+      ],
+      "solution": "M = 4 · 12 + 8 · 1 + 2 · 16 = 48 + 8 + 32 = 88 g/mol",
+      "tags": [
+        "ester",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "ES01-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum wird der Katalysator nicht verbraucht?",
+      "options": [
+        "Er geht aus der Reaktion unverändert hervor.",
+        "Er wird nur wenig eingesetzt.",
+        "Er verdampft."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ist die Definition eines Katalysators?",
+        "Er beschleunigt und bleibt erhalten.",
+        "Unverändert."
+      ],
+      "solution": "Ein Katalysator beschleunigt die Reaktion und liegt danach unverändert vor. Deshalb genügt eine kleine Menge für sehr viele Umsetzungen.",
+      "tags": [
+        "ester",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ES01-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum erreicht die Veresterung ohne Wasserentzug nur rund zwei Drittel Umsatz?",
+      "options": [
+        "Hin- und Rückreaktion laufen gleich schnell, sobald sich das Gleichgewicht eingestellt hat.",
+        "Der Alkohol ist verbraucht.",
+        "Der Katalysator wirkt nicht mehr."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert im Gleichgewicht?",
+        "Beide Richtungen laufen gleich schnell.",
+        "Von außen scheint sich nichts mehr zu ändern."
+      ],
+      "solution": "Im Gleichgewicht laufen Hin- und Rückreaktion gleich schnell — die Mengen ändern sich nicht mehr. Beide Stoffe sind weiterhin vorhanden, die Reaktion ist nur nicht mehr sichtbar.",
+      "tags": [
+        "ester",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ES01-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "60 g Essigsäure (M = 60 g/mol) reagieren mit Ethanol zu Essigsäureethylester (M = 88 g/mol). Die Ausbeute beträgt 65 %.",
+      "fields": [
+        {
+          "label": "Stoffmenge der Säure",
+          "answer": 1,
+          "unit_label": "mol",
+          "tolerance": 0.05
+        },
+        {
+          "label": "theoretische Estermasse",
+          "answer": 88,
+          "unit_label": "g",
+          "tolerance": 2
+        },
+        {
+          "label": "tatsächliche Estermasse",
+          "answer": 57.2,
+          "unit_label": "g",
+          "tolerance": 2
+        }
+      ],
+      "hints": [
+        "n = 60 : 60 = 1 mol.",
+        "1 : 1 zum Ester → 88 g.",
+        "88 · 0,65."
+      ],
+      "solution": "n = 1 mol → theoretisch 88 g\ntatsächlich: 88 · 0,65 = 57,2 g",
+      "tags": [
+        "ester",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ES01-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Wie ließe sich die Ausbeute außer durch Wasserentzug noch erhöhen?",
+      "options": [
+        "Einen der beiden Ausgangsstoffe im Überschuss einsetzen.",
+        "Die Temperatur senken.",
+        "Mehr Katalysator zugeben."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was verschiebt ein Gleichgewicht?",
+        "Eine Änderung der Mengen.",
+        "Ein Überschuss eines Edukts."
+      ],
+      "solution": "Ein Überschuss eines Ausgangsstoffs verschiebt das Gleichgewicht zur Produktseite. Mehr Katalysator beschleunigt nur, verschiebt aber nichts — die Gleichgewichtslage bleibt.",
+      "misconceptions": [
+        {
+          "id": "katalysator_verschiebt_gleichgewicht",
+          "value": 2,
+          "feedback": "Ein Katalysator beschleunigt beide Richtungen gleichermaßen und verschiebt das Gleichgewicht nicht."
+        }
+      ],
+      "tags": [
+        "ester",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ES01-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Das Wasser bei der Veresterung stammt aus dem Alkohol.“ Wie korrigierst du?",
+      "options": [
+        "Nur das Wasserstoffatom — die OH-Gruppe stammt aus der Säure.",
+        "Richtig, es stammt vollständig aus dem Alkohol.",
+        "Falsch, es stammt vollständig aus der Säure."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "veresterung",
+        "stufe": "C"
+      },
+      "hints": [
+        "Ein Wassermolekül besteht aus OH und H.",
+        "Beide stammen aus verschiedenen Molekülen.",
+        "OH aus der Säure, H aus dem Alkohol."
+      ],
+      "solution": "Das Wassermolekül wird aus zwei Quellen gebildet: Die OH-Gruppe stammt aus der Carboxygruppe der Säure, das Wasserstoffatom aus der Hydroxylgruppe des Alkohols. Der Nachweis gelingt mit markiertem Sauerstoff.",
+      "misconceptions": [
+        {
+          "id": "edukt_produkt_vertauscht",
+          "value": 1,
+          "feedback": "Nur das H-Atom stammt aus dem Alkohol, die OH-Gruppe aus der Säure.",
+          "konzeptfehler": "edukt_produkt_vertauscht"
+        }
+      ],
+      "tags": [
+        "ester",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 6,
+      "aufgaben": 23,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 6,
+      "aufgaben": 21,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 12,
+      "aufgaben": 12,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Ester Ausgangsstoffe",
+      "url": "https://learningapps.org/view11001545",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Ester",
+      "url": "https://learningapps.org/view16344854",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Ethylacetat herstellen — die Veresterung",
+      "url": "https://www.youtube.com/watch?v=hAKktgM4WQ8",
+      "quelle": "The Canadian Chemist",
+      "stufe": "C",
+      "rolle": "Vertiefung: Veresterung im Versuch",
+      "embed": "https://www.youtube-nocookie.com/embed/hAKktgM4WQ8",
+      "protokoll": false,
+      "beobachtung": {
+        "A": "Notiere die beiden Ausgangsstoffe und das Produkt.",
+        "B": "Stelle die Reaktionsgleichung der Veresterung auf und benenne die Rolle der Schwefelsäure.",
+        "C": "Begründe, warum ein Überschuss eines Ausgangsstoffs die Ausbeute erhöht. Beurteile das Verfahren im Hinblick auf das Gleichgewicht."
+      }
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 13,
+    "titel": "Organische Säuren",
+    "seiten_von": 163,
+    "seiten_bis": 172,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Veresterung"
+  }
+}
