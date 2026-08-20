@@ -1,0 +1,643 @@
+{
+  "unit": "QB-05",
+  "title": "Anwenden & Prüfungstraining Stöchiometrie",
+  "leitidee": "B3",
+  "standards": [
+    "K1",
+    "K2.4",
+    "K3.3"
+  ],
+  "klasse": 9,
+  "wortspeicher": [
+    "die Stöchiometrie",
+    "das Stoffmengenverhältnis",
+    "die Ausbeute",
+    "der Überschuss",
+    "die Bilanz"
+  ],
+  "worterklaerungen": {
+    "Stöchiometrie": "Das Rechnen mit Mengen in chemischen Reaktionen.",
+    "Ausbeute": "Wie viel Produkt tatsächlich gewonnen wurde, verglichen mit der Rechnung.",
+    "Überschuss": "Der Teil eines Edukts, der nicht reagieren kann, weil der Partner ausgeht."
+  },
+  "can_do": {
+    "A": "Ich rechne einfache Aufgaben mit n = m : M.",
+    "B": "Ich berechne Produktmassen über das Stoffmengenverhältnis der Gleichung.",
+    "C": "Ich berücksichtige Überschuss und Ausbeute und beurteile Ergebnisse auf Plausibilität."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Der Rechenweg",
+      "hinfuehrung": "Bei jeder Aufgabe geht es über die Stoffmenge.",
+      "erklaerung": [
+        "Erst die Masse in mol umrechnen.",
+        "Dann mit der Gleichung weiterrechnen."
+      ],
+      "merke": "Masse → Stoffmenge → Gleichung → Stoffmenge → Masse.",
+      "visual": {
+        "type": "animation",
+        "name": "mol",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Die vier Schritte",
+      "hinfuehrung": "Jede stöchiometrische Aufgabe folgt demselben Ablauf. Wer ihn einhält, verrechnet sich selten.",
+      "erklaerung": [
+        "1. Reaktionsgleichung aufstellen und ausgleichen. Ohne sie fehlt das Stoffmengenverhältnis.",
+        "2. Gegebene Masse in Stoffmenge umrechnen: n = m : M.",
+        "3. Über die Koeffizienten zur Stoffmenge des gesuchten Stoffes.",
+        "4. Zurück zur Masse oder zum Volumen: m = n · M bzw. V = n · 22,4 L/mol.",
+        "Am Ende Einheit und Größenordnung prüfen."
+      ],
+      "merke": "Ohne ausgeglichene Gleichung fehlt das Verhältnis — Schritt 1 ist nicht optional.",
+      "visual": {
+        "type": "animation",
+        "name": "ausgleichen",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Überschuss und Ausbeute",
+      "hinfuehrung": "In der Praxis reagiert selten alles vollständig. Zwei Begriffe erfassen das.",
+      "erklaerung": [
+        "Überschuss: Ist ein Edukt im Überschuss, bestimmt der andere Stoff, wie viel Produkt entstehen kann. Erst prüfen, welcher Stoff zuerst ausgeht.",
+        "Ausbeute: tatsächliche Produktmasse geteilt durch die berechnete, in Prozent. Sie liegt praktisch immer unter 100 %.",
+        "Ursachen für Verluste: unvollständige Reaktion, Rückstände im Gefäß, Nebenreaktionen.",
+        "Eine Ausbeute über 100 % ist ein Hinweis auf einen Fehler — meist auf Feuchtigkeit im Produkt."
+      ],
+      "merke": "Der Stoff, der zuerst ausgeht, begrenzt die Produktmenge.",
+      "visual": {
+        "type": "animation",
+        "name": "mol",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "n = m : M",
+      "m = n · M",
+      "V = n · 22,4 L/mol",
+      "Ausbeute = m(tatsächlich) : m(berechnet) · 100 %"
+    ],
+    "saetze": [
+      "Immer über die Stoffmenge rechnen, nie Massen direkt übertragen.",
+      "Ohne ausgeglichene Gleichung kein Stoffmengenverhältnis.",
+      "Der Stoff, der zuerst ausgeht, begrenzt die Ausbeute.",
+      "Am Ende Einheit und Größenordnung prüfen."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Stöchiometrisches Rechnen am Beispiel einer Explosion",
+      "url": "https://www.youtube.com/watch?v=K2M_rhcHs0w",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/Bn1ENl",
+      "embed": "https://app.lumi.education/api/v1/run/Bn1ENl/embed",
+      "stufe": "B",
+      "dauer_s": 391
+    },
+    {
+      "titel": "Übung: Quantitative Chemie an der Ammoniaksynthese",
+      "url": "https://www.youtube.com/watch?v=lmLvlGaw4UM",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/0_OvKT",
+      "embed": "https://app.lumi.education/api/v1/run/0_OvKT/embed",
+      "stufe": "A",
+      "dauer_s": 181
+    }
+  ],
+  "tasks": [
+    {
+      "id": "QB05-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "Wie viel mol sind 90 g Wasser? (M = 18 g/mol)",
+      "answer": 5,
+      "unit_label": "mol",
+      "tolerance": 0.05,
+      "hints": [
+        "n = m : M.",
+        "90 : 18.",
+        "5 mol."
+      ],
+      "solution": "n = 90 g : 18 g/mol = 5 mol",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB05-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Welche Masse haben 3 mol Kohlenstoffdioxid? (M = 44 g/mol)",
+      "answer": 132,
+      "unit_label": "g",
+      "tolerance": 1,
+      "hints": [
+        "m = n · M.",
+        "3 · 44.",
+        "132 g."
+      ],
+      "solution": "m = 3 mol · 44 g/mol = 132 g",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB05-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Welches Volumen haben 1,5 mol Gas bei Normbedingungen?",
+      "answer": 33.6,
+      "unit_label": "L",
+      "tolerance": 0.3,
+      "hints": [
+        "V = n · 22,4.",
+        "1,5 · 22,4.",
+        "33,6 L."
+      ],
+      "solution": "V = 1,5 mol · 22,4 L/mol = 33,6 L",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB05-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "numeric",
+      "prompt": "Berechnet wurden 40 g Produkt, gewonnen wurden 34 g. Wie hoch ist die Ausbeute?",
+      "answer": 85,
+      "unit_label": "%",
+      "tolerance": 0.5,
+      "hints": [
+        "Ausbeute = tatsächlich : berechnet.",
+        "34 : 40.",
+        "Mal 100."
+      ],
+      "solution": "34 g : 40 g = 0,85 → 85 %",
+      "misconceptions": [
+        {
+          "id": "anteil_umgedreht",
+          "value": 117.6,
+          "feedback": "Ausbeute = tatsächlich geteilt durch berechnet. Sie kann nicht über 100 % liegen."
+        }
+      ],
+      "tags": [
+        "pruefung",
+        "rechnen"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB05-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "multi",
+      "prompt": "24 g Kohlenstoff (M = 12 g/mol) verbrennen vollständig zu CO₂ (M = 44 g/mol).",
+      "fields": [
+        {
+          "label": "Stoffmenge des Kohlenstoffs",
+          "answer": 2,
+          "unit_label": "mol",
+          "tolerance": 0.05
+        },
+        {
+          "label": "Masse des entstehenden CO₂",
+          "answer": 88,
+          "unit_label": "g",
+          "tolerance": 1
+        }
+      ],
+      "hints": [
+        "n = 24 : 12 = 2 mol.",
+        "C + O₂ → CO₂ läuft 1 : 1.",
+        "m = 2 · 44."
+      ],
+      "solution": "n(C) = 2 mol → n(CO₂) = 2 mol → m = 88 g",
+      "tags": [
+        "pruefung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "QB05-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Wie viel Gramm Sauerstoff werden gebraucht, um 4,8 g Magnesium (M = 24 g/mol) vollständig zu MgO zu verbrennen? (2 Mg + O₂ → 2 MgO, M(O₂) = 32 g/mol)",
+      "answer": 3.2,
+      "unit_label": "g",
+      "tolerance": 0.1,
+      "hints": [
+        "n(Mg) = 4,8 : 24 = 0,2 mol.",
+        "Auf 2 Mg kommt 1 O₂, also 0,1 mol.",
+        "m = 0,1 · 32."
+      ],
+      "solution": "n(Mg) = 0,2 mol\nn(O₂) = 0,1 mol\nm(O₂) = 0,1 · 32 = 3,2 g",
+      "misconceptions": [
+        {
+          "id": "masse_direkt_uebertragen",
+          "value": 6.4,
+          "feedback": "Das Verhältnis 2 : 1 gilt für Stoffmengen, nicht für Massen."
+        }
+      ],
+      "tags": [
+        "pruefung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "QB05-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Welches Volumen Wasserstoff entsteht aus 6,5 g Zink (M = 65 g/mol)? (Zn + 2 HCl → ZnCl₂ + H₂)",
+      "answer": 2.24,
+      "unit_label": "L",
+      "tolerance": 0.1,
+      "hints": [
+        "n(Zn) = 6,5 : 65 = 0,1 mol.",
+        "1 : 1 zu H₂.",
+        "V = 0,1 · 22,4."
+      ],
+      "solution": "n(Zn) = 0,1 mol → n(H₂) = 0,1 mol → V = 2,24 L",
+      "tags": [
+        "pruefung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "QB05-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "multi",
+      "prompt": "50 g Calciumcarbonat CaCO₃ (M = 100 g/mol) werden erhitzt: CaCO₃ → CaO + CO₂.",
+      "fields": [
+        {
+          "label": "Stoffmenge des Carbonats",
+          "answer": 0.5,
+          "unit_label": "mol",
+          "tolerance": 0.02
+        },
+        {
+          "label": "Masse des entstehenden CaO (M = 56 g/mol)",
+          "answer": 28,
+          "unit_label": "g",
+          "tolerance": 0.5
+        },
+        {
+          "label": "Volumen des entstehenden CO₂",
+          "answer": 11.2,
+          "unit_label": "L",
+          "tolerance": 0.3
+        }
+      ],
+      "hints": [
+        "n = 50 : 100 = 0,5 mol.",
+        "Alle Verhältnisse sind 1 : 1.",
+        "V = 0,5 · 22,4."
+      ],
+      "solution": "n = 0,5 mol\nm(CaO) = 0,5 · 56 = 28 g\nV(CO₂) = 0,5 · 22,4 = 11,2 L\nProbe: 28 g + 22 g CO₂ = 50 g — die Masse bleibt erhalten.",
+      "tags": [
+        "pruefung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "QB05-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum liegt die Ausbeute in der Praxis fast immer unter 100 %?",
+      "options": [
+        "Reaktionen laufen unvollständig ab, Reste bleiben im Gefäß, Nebenreaktionen treten auf.",
+        "Weil Masse verloren geht.",
+        "Weil die Formel falsch ist."
+      ],
+      "answer": 0,
+      "hints": [
+        "Bleibt beim Umfüllen wirklich nichts zurück?",
+        "Nein.",
+        "Und nicht jede Reaktion läuft vollständig."
+      ],
+      "solution": "Die berechnete Masse ist ein Höchstwert. In der Praxis reagiert nicht alles, Reste haften am Gefäß und Nebenreaktionen verbrauchen Edukte. Masse geht dabei nicht verloren — sie landet nur nicht im Produkt.",
+      "misconceptions": [
+        {
+          "id": "masse_verschwindet",
+          "value": 1,
+          "feedback": "Masse geht nie verloren. Sie steckt in Resten und Nebenprodukten.",
+          "konzeptfehler": "masse_verschwindet"
+        }
+      ],
+      "tags": [
+        "pruefung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "QB05-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "numeric",
+      "prompt": "Berechnet wurden 12,5 g Produkt. Die Ausbeute beträgt 80 %. Wie viel wurde tatsächlich gewonnen?",
+      "answer": 10,
+      "unit_label": "g",
+      "tolerance": 0.2,
+      "hints": [
+        "80 % von 12,5 g.",
+        "12,5 · 0,8.",
+        "10 g."
+      ],
+      "solution": "12,5 g · 0,80 = 10 g",
+      "tags": [
+        "pruefung",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "QB05-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "4 g Wasserstoff und 4 g Sauerstoff werden gezündet. Welcher Stoff begrenzt die Wassermenge?",
+      "options": [
+        "Der Sauerstoff — von ihm ist zu wenig da.",
+        "Der Wasserstoff.",
+        "Beide reagieren vollständig."
+      ],
+      "answer": 0,
+      "hints": [
+        "Rechne beide Stoffmengen aus: n(H₂) = 4 : 2 = 2 mol, n(O₂) = 4 : 32 = 0,125 mol.",
+        "Gebraucht wird 1 O₂ auf 2 H₂.",
+        "Für 2 mol H₂ bräuchte es 1 mol O₂."
+      ],
+      "solution": "n(H₂) = 2 mol, n(O₂) = 0,125 mol. Für 2 mol Wasserstoff wäre 1 mol Sauerstoff nötig — vorhanden sind nur 0,125 mol. Der Sauerstoff geht zuerst aus und begrenzt die Ausbeute.",
+      "misconceptions": [
+        {
+          "id": "masse_direkt_uebertragen",
+          "value": 1,
+          "feedback": "Gleiche Massen bedeuten nicht gleiche Stoffmengen. Rechne beide in mol um."
+        }
+      ],
+      "tags": [
+        "pruefung",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "QB05-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Aus 32 g Kupfer (M = 64 g/mol) soll Kupferoxid CuO (M = 80 g/mol) hergestellt werden. Gewonnen werden 36 g.",
+      "fields": [
+        {
+          "label": "Stoffmenge des Kupfers",
+          "answer": 0.5,
+          "unit_label": "mol",
+          "tolerance": 0.02
+        },
+        {
+          "label": "berechnete Masse des Kupferoxids",
+          "answer": 40,
+          "unit_label": "g",
+          "tolerance": 0.5
+        },
+        {
+          "label": "Ausbeute in Prozent",
+          "answer": 90,
+          "unit_label": "%",
+          "tolerance": 1
+        }
+      ],
+      "hints": [
+        "n(Cu) = 32 : 64 = 0,5 mol.",
+        "2 Cu + O₂ → 2 CuO läuft 1 : 1.",
+        "36 : 40 · 100 %."
+      ],
+      "solution": "n(Cu) = 0,5 mol → n(CuO) = 0,5 mol → m = 40 g\nAusbeute: 36 : 40 = 0,90 → 90 %",
+      "tags": [
+        "pruefung",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "QB05-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Eine Rechnung ergibt eine Ausbeute von 112 %. Was folgt daraus?",
+      "options": [
+        "Es liegt ein Fehler vor — meist ist das Produkt noch feucht oder verunreinigt.",
+        "Die Reaktion lief besonders gut.",
+        "Es ist Masse entstanden."
+      ],
+      "answer": 0,
+      "hints": [
+        "Kann mehr Produkt entstehen, als die Bilanz zulässt?",
+        "Nein.",
+        "Also stimmt etwas mit der Messung nicht."
+      ],
+      "solution": "Mehr Produkt als berechnet kann nicht entstehen — sonst wäre Masse aus dem Nichts gekommen. In der Praxis ist das Produkt meist noch feucht oder enthält Verunreinigungen.",
+      "misconceptions": [
+        {
+          "id": "masse_verschwindet",
+          "value": 2,
+          "feedback": "Masse entsteht nicht. Über 100 % ist immer ein Messfehler.",
+          "konzeptfehler": "masse_verschwindet"
+        }
+      ],
+      "tags": [
+        "pruefung",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "QB05-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Welcher erste Schritt gehört an den Anfang jeder stöchiometrischen Aufgabe?",
+      "options": [
+        "Die Reaktionsgleichung aufstellen und ausgleichen.",
+        "Die Massen addieren.",
+        "Das Ergebnis schätzen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Woher kommt das Stoffmengenverhältnis?",
+        "Aus den Koeffizienten.",
+        "Die gibt es erst nach dem Ausgleichen."
+      ],
+      "solution": "Ohne ausgeglichene Gleichung fehlt das Stoffmengenverhältnis — und damit die Verbindung zwischen den beteiligten Stoffen. Alle weiteren Schritte bauen darauf auf.",
+      "tags": [
+        "pruefung",
+        "operatoren",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 5,
+      "aufgaben": 24,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 10,
+      "aufgaben": 17,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 10,
+      "aufgaben": 14,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Stoffmengenverhältnisse bei Reaktionen",
+      "url": "https://learningapps.org/view4908419",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "LüTe: Chem. Rechnen I - Formelmasse",
+      "url": "https://learningapps.org/view5353709",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 5,
+    "titel": "Die chemische Reaktion",
+    "seiten_von": 58,
+    "seiten_bis": 65,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Stöchiometrie"
+  }
+}

@@ -1,0 +1,689 @@
+{
+  "unit": "SL-04",
+  "title": "Laugen: Hydroxid-Ionen und Basen",
+  "leitidee": "B3",
+  "standards": [
+    "K1",
+    "K2.2",
+    "K3.4"
+  ],
+  "klasse": 9,
+  "sicherheit": [
+    "Natronlauge ist stark ätzend und greift besonders die Augen an. Schutzbrille ist Pflicht.",
+    "Laugenreste gehören in den Sammelbehälter, nicht in den Ausguss."
+  ],
+  "wortspeicher": [
+    "die Lauge",
+    "die Base",
+    "das Hydroxid-Ion",
+    "die Natronlauge",
+    "alkalisch",
+    "der Protonenakzeptor"
+  ],
+  "worterklaerungen": {
+    "Lauge": "Eine alkalische wässrige Lösung. Sie enthält Hydroxid-Ionen.",
+    "Base": "Ein Stoff, der Protonen aufnehmen kann.",
+    "Hydroxid-Ion": "OH⁻. Es macht eine Lösung alkalisch."
+  },
+  "can_do": {
+    "A": "Ich weiß, dass Laugen Hydroxid-Ionen enthalten, und kenne Beispiele.",
+    "B": "Ich beschreibe die Bildung einer Lauge und ihre Eigenschaften.",
+    "C": "Ich erkläre den Basenbegriff über die Protonenaufnahme und vergleiche Base und Lauge."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Das Gegenstück zur Säure",
+      "hinfuehrung": "Laugen fühlen sich seifig an und färben den Indikator blau.",
+      "erklaerung": [
+        "Sie enthalten Hydroxid-Ionen OH⁻.",
+        "Seifenlauge und Rohrreiniger sind Laugen."
+      ],
+      "merke": "OH⁻ macht eine Lösung alkalisch.",
+      "beispiel": {
+        "titel": "Natronlauge",
+        "aufgabe": "Natriumhydroxid wird in Wasser gelöst.",
+        "schritte": [
+          "Es zerfällt in Na⁺ und OH⁻.",
+          "Die OH⁻-Ionen machen die Lösung alkalisch."
+        ],
+        "ergebnis": "Eine Lauge ist entstanden."
+      },
+      "visual": {
+        "type": "phskala",
+        "marken": [
+          {
+            "wert": 10,
+            "stoff": "Seifenlauge"
+          },
+          {
+            "wert": 13,
+            "stoff": "Rohrreiniger"
+          }
+        ],
+        "alt": "pH-Skala mit alkalischen Marken."
+      }
+    },
+    "B": {
+      "titel": "Wie Laugen entstehen",
+      "hinfuehrung": "Es gibt zwei Wege zu einer Lauge, und beide enden bei denselben Teilchen.",
+      "erklaerung": [
+        "Ein Metallhydroxid wie NaOH löst sich und liefert direkt Na⁺ und OH⁻.",
+        "Ein Metalloxid wie CaO reagiert mit Wasser: CaO + H₂O → Ca(OH)₂. Auch hier entstehen Hydroxid-Ionen.",
+        "Ammoniak nimmt dagegen ein Proton aus dem Wasser auf: NH₃ + H₂O ⇌ NH₄⁺ + OH⁻. Auch dabei entsteht OH⁻.",
+        "Laugen fühlen sich seifig an, weil sie Fett der Haut in Seife umwandeln. Genau das macht sie gefährlich für die Augen."
+      ],
+      "merke": "Ob gelöst, aus Oxid gebildet oder durch Protonenaufnahme — entscheidend ist das entstehende OH⁻.",
+      "visual": {
+        "type": "animation",
+        "name": "phwert",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Base ist mehr als Lauge",
+      "hinfuehrung": "Wie bei den Säuren gibt es auch hier zwei Begriffe, die getrennt gehören.",
+      "erklaerung": [
+        "Eine Base ist ein Stoff, der Protonen aufnehmen kann — der Protonenakzeptor.",
+        "Eine Lauge ist die wässrige, alkalische Lösung einer Base.",
+        "Ammoniak ist ein Gas und eine Base. Erst in Wasser entsteht daraus eine Lauge.",
+        "Auch Wasser kann als Base wirken: Gegenüber HCl nimmt es ein Proton auf. Gegenüber Ammoniak gibt es eines ab — dann wirkt es als Säure. Ob ein Stoff Säure oder Base ist, hängt vom Partner ab."
+      ],
+      "merke": "Base = Protonenakzeptor. Lauge = ihre wässrige Lösung.",
+      "visual": {
+        "type": "animation",
+        "name": "protolyse",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "NaOH → Na⁺ + OH⁻",
+      "CaO + H₂O → Ca(OH)₂",
+      "NH₃ + H₂O ⇌ NH₄⁺ + OH⁻"
+    ],
+    "saetze": [
+      "OH⁻ macht eine Lösung alkalisch.",
+      "Base = Protonenakzeptor, Lauge = wässrige Lösung einer Base.",
+      "Metalloxid + Wasser → Lauge.",
+      "Laugen greifen besonders die Augen an."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Was sind eigentlich Basen?",
+      "url": "https://www.youtube.com/watch?v=J0-LFHwcgZs",
+      "quelle": "musstewissen Chemie",
+      "lumi": "https://app.lumi.education/run/y8vxWL",
+      "embed": "https://app.lumi.education/api/v1/run/y8vxWL/embed",
+      "stufe": "A",
+      "dauer_s": 454
+    },
+    {
+      "titel": "Autoprotolyse des Wassers — pH- und pOH-Wert",
+      "url": "https://www.youtube.com/watch?v=6L_vSyIGdMk",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/Xc_HdG",
+      "embed": "https://app.lumi.education/api/v1/run/Xc_HdG/embed",
+      "stufe": "C",
+      "dauer_s": 306
+    }
+  ],
+  "tasks": [
+    {
+      "id": "SL04-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welches Teilchen macht eine Lösung alkalisch?",
+      "options": [
+        "OH⁻",
+        "H₃O⁺",
+        "H₂O"
+      ],
+      "answer": 0,
+      "hints": [
+        "Es ist das Gegenstück zum Oxonium-Ion.",
+        "Es heißt Hydroxid-Ion.",
+        "OH⁻."
+      ],
+      "solution": "Das Hydroxid-Ion OH⁻ macht eine Lösung alkalisch.",
+      "misconceptions": [
+        {
+          "id": "saeure_lauge_vertauscht",
+          "value": 1,
+          "feedback": "H₃O⁺ macht eine Lösung sauer, nicht alkalisch.",
+          "konzeptfehler": "saeure_lauge_vertauscht"
+        }
+      ],
+      "tags": [
+        "laugen"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SL04-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Wie färbt sich Universalindikator in einer Lauge?",
+      "options": [
+        "blau",
+        "rot",
+        "gelb"
+      ],
+      "answer": 0,
+      "hints": [
+        "Alkalisch liegt rechts auf der Skala.",
+        "Dort ist die Farbe blau.",
+        "Blau."
+      ],
+      "solution": "In alkalischen Lösungen färbt sich der Indikator blau.",
+      "tags": [
+        "laugen"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL04-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Was entsteht, wenn Natriumhydroxid NaOH in Wasser gelöst wird?",
+      "options": [
+        "Na⁺ und OH⁻",
+        "Na und OH",
+        "H₃O⁺ und Cl⁻"
+      ],
+      "answer": 0,
+      "hints": [
+        "Es ist ein Salz aus zwei Ionen.",
+        "Beim Lösen werden sie frei.",
+        "Na⁺ und OH⁻."
+      ],
+      "solution": "NaOH zerfällt beim Lösen in Na⁺ und OH⁻. Die Hydroxid-Ionen machen die Lösung alkalisch.",
+      "tags": [
+        "laugen"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SL04-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum ist Natronlauge besonders für die Augen gefährlich?",
+      "options": [
+        "Sie wandelt Fett in Seife um und zerstört so das Gewebe.",
+        "Sie ist sehr kalt.",
+        "Sie leuchtet."
+      ],
+      "answer": 0,
+      "hints": [
+        "Warum fühlen sich Laugen seifig an?",
+        "Sie verseifen Fett.",
+        "Das Auge besteht aus empfindlichem Gewebe."
+      ],
+      "solution": "Laugen verseifen Fett — deshalb das seifige Gefühl auf der Haut. Im Auge zerstört das binnen Sekunden Gewebe. Deshalb ist die Schutzbrille bei Laugen besonders wichtig.",
+      "tags": [
+        "laugen",
+        "sicherheit"
+      ]
+    },
+    {
+      "id": "SL04-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Was entsteht, wenn Calciumoxid CaO in Wasser gegeben wird?",
+      "options": [
+        "Calciumhydroxid — eine Lauge",
+        "eine Säure",
+        "nichts"
+      ],
+      "answer": 0,
+      "hints": [
+        "Calcium ist ein Metall.",
+        "Metalloxid + Wasser → Lauge.",
+        "Es entsteht Ca(OH)₂."
+      ],
+      "solution": "CaO + H₂O → Ca(OH)₂. Metalloxide bilden mit Wasser Laugen — der Indikator wird blau.",
+      "misconceptions": [
+        {
+          "id": "saeure_lauge_vertauscht",
+          "value": 1,
+          "feedback": "Säuren entstehen aus Nichtmetalloxiden. Calcium ist ein Metall.",
+          "konzeptfehler": "saeure_lauge_vertauscht"
+        }
+      ],
+      "tags": [
+        "laugen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "SL04-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Ammoniak NH₃ ist ein Gas. Warum reagiert seine wässrige Lösung alkalisch?",
+      "options": [
+        "Ammoniak nimmt dem Wasser ein Proton ab; dabei entstehen OH⁻-Ionen.",
+        "Ammoniak enthält selbst OH⁻.",
+        "Ammoniak ist ein Metallhydroxid."
+      ],
+      "answer": 0,
+      "hints": [
+        "Ammoniak enthält kein OH.",
+        "Woher kommen die Hydroxid-Ionen dann?",
+        "Aus dem Wasser."
+      ],
+      "solution": "NH₃ + H₂O ⇌ NH₄⁺ + OH⁻. Ammoniak nimmt ein Proton auf, das Wasser bleibt als OH⁻ zurück. Deshalb ist es eine Base, obwohl es kein OH enthält.",
+      "misconceptions": [
+        {
+          "id": "summenformel_falsch_gelesen",
+          "value": 1,
+          "feedback": "In NH₃ steckt kein OH. Es stammt aus dem Wasser.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "laugen",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "SL04-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "assign",
+      "prompt": "Ordne jedem Stoff die entstehende Lösung zu.",
+      "slots": [
+        "Natriumoxid Na₂O",
+        "Schwefeldioxid SO₂",
+        "Natriumhydroxid NaOH"
+      ],
+      "values": [
+        "Lauge",
+        "Säure",
+        "Lauge (zweites)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Metalloxid + Wasser → Lauge.",
+        "Nichtmetalloxid + Wasser → Säure.",
+        "Schwefel ist ein Nichtmetall."
+      ],
+      "solution": "Na₂O → Lauge (Metalloxid).\nSO₂ → Säure (Nichtmetalloxid).\nNaOH → Lauge (Hydroxid).",
+      "misconceptions": [
+        {
+          "id": "saeure_lauge_vertauscht",
+          "value": 1,
+          "feedback": "Merke: Metalloxide bilden Laugen, Nichtmetalloxide bilden Säuren.",
+          "konzeptfehler": "saeure_lauge_vertauscht"
+        }
+      ],
+      "tags": [
+        "laugen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "SL04-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Was ist der Unterschied zwischen einer Base und einer Lauge?",
+      "options": [
+        "Die Base ist der Stoff, die Lauge ihre wässrige Lösung.",
+        "Es ist dasselbe.",
+        "Eine Lauge ist stärker."
+      ],
+      "answer": 0,
+      "hints": [
+        "Ist Ammoniakgas eine Lauge?",
+        "Nein, es ist ein Gas.",
+        "Erst gelöst ergibt es eine Lauge."
+      ],
+      "solution": "Ammoniak ist ein Gas und eine Base. Gelöst in Wasser entsteht daraus eine Lauge. Die Unterscheidung entspricht genau der zwischen Säure und saurer Lösung.",
+      "tags": [
+        "laugen",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL04-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Eine Natronlauge enthält 4 g NaOH (M = 40 g/mol) in 1 L. Wie groß ist die Stoffmengenkonzentration?",
+      "answer": 0.1,
+      "unit_label": "mol/L",
+      "tolerance": 0.005,
+      "hints": [
+        "Erst n = m : M.",
+        "4 : 40 = 0,1 mol.",
+        "c = n : V."
+      ],
+      "solution": "n = 4 g : 40 g/mol = 0,1 mol\nc = 0,1 mol : 1 L = 0,1 mol/L",
+      "tags": [
+        "laugen",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "SL04-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum reagiert eine Lösung von Seife leicht alkalisch?",
+      "options": [
+        "Seifen sind Salze schwacher Säuren; ihre Anionen nehmen Protonen aus dem Wasser auf.",
+        "Seife enthält Natronlauge.",
+        "Seife ist ein Metalloxid."
+      ],
+      "answer": 0,
+      "hints": [
+        "Woraus besteht Seife?",
+        "Aus dem Natriumsalz einer Fettsäure.",
+        "Das Anion einer schwachen Säure ist eine Base."
+      ],
+      "solution": "Seifen sind Natriumsalze schwacher Fettsäuren. Ihre Anionen nehmen im Wasser Protonen auf, dabei entstehen OH⁻-Ionen. Deshalb reagiert Seifenlösung alkalisch.",
+      "tags": [
+        "laugen",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL04-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Wasser reagiert mit HCl als Base, mit Ammoniak als Säure. Wie ist das möglich?",
+      "options": [
+        "Ob ein Stoff als Säure oder Base wirkt, hängt vom Reaktionspartner ab.",
+        "Wasser ist immer neutral.",
+        "Eine der beiden Reaktionen läuft nicht ab."
+      ],
+      "answer": 0,
+      "hints": [
+        "Gegenüber HCl nimmt Wasser ein Proton auf.",
+        "Gegenüber Ammoniak gibt es eines ab.",
+        "Also kommt es auf den Partner an."
+      ],
+      "solution": "Gegenüber HCl nimmt Wasser ein Proton auf und wirkt als Base. Gegenüber Ammoniak gibt es eines ab und wirkt als Säure. Säure und Base sind Rollen in einer Reaktion, keine festen Eigenschaften.",
+      "tags": [
+        "laugen",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "SL04-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "56 g Calciumoxid CaO (M = 56 g/mol) reagieren vollständig mit Wasser zu Ca(OH)₂ (M = 74 g/mol).",
+      "fields": [
+        {
+          "label": "Stoffmenge des Calciumoxids",
+          "answer": 1,
+          "unit_label": "mol",
+          "tolerance": 0.05
+        },
+        {
+          "label": "Masse des entstehenden Calciumhydroxids",
+          "answer": 74,
+          "unit_label": "g",
+          "tolerance": 1
+        },
+        {
+          "label": "Stoffmenge der Hydroxid-Ionen",
+          "answer": 2,
+          "unit_label": "mol",
+          "tolerance": 0.05
+        }
+      ],
+      "hints": [
+        "n = 56 : 56 = 1 mol.",
+        "1 : 1 zu Ca(OH)₂.",
+        "Jedes Ca(OH)₂ liefert zwei OH⁻."
+      ],
+      "solution": "n(CaO) = 1 mol → n(Ca(OH)₂) = 1 mol → m = 74 g\nJede Formeleinheit liefert 2 OH⁻ → n(OH⁻) = 2 mol",
+      "tags": [
+        "laugen",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SL04-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum ist gelöschter Kalk Ca(OH)₂ eine schwächere Lauge als Natronlauge gleicher Konzentration?",
+      "options": [
+        "Calciumhydroxid ist schwer löslich; es gelangen weniger OH⁻-Ionen in Lösung.",
+        "Es enthält weniger OH-Gruppen.",
+        "Calcium ist edler als Natrium."
+      ],
+      "answer": 0,
+      "hints": [
+        "Ca(OH)₂ hat sogar zwei OH-Gruppen.",
+        "Aber wie viel davon löst sich?",
+        "Nur wenig."
+      ],
+      "solution": "Calciumhydroxid enthält zwar zwei OH-Gruppen je Formeleinheit, ist aber schwer löslich. In Lösung gelangen deshalb weniger Hydroxid-Ionen als bei gut löslichem NaOH — Kalkwasser hat nur etwa pH 12.",
+      "tags": [
+        "laugen",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL04-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Basen enthalten immer OH-Gruppen.“ Wie bewertest du das?",
+      "options": [
+        "Falsch — Ammoniak enthält keine OH-Gruppe und ist trotzdem eine Base, weil es Protonen aufnimmt.",
+        "Richtig — ohne OH keine Base.",
+        "Falsch — Basen enthalten nie OH-Gruppen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Kennst du ein Gegenbeispiel?",
+        "Ammoniak NH₃.",
+        "Es nimmt ein Proton auf."
+      ],
+      "solution": "Der Basenbegriff ist über die Protonenaufnahme definiert, nicht über das Vorhandensein von OH. Ammoniak ist das Standardgegenbeispiel: NH₃ + H₂O ⇌ NH₄⁺ + OH⁻ — das OH stammt aus dem Wasser.",
+      "misconceptions": [
+        {
+          "id": "summenformel_falsch_gelesen",
+          "value": 1,
+          "feedback": "Ammoniak ist eine Base ohne OH-Gruppe. Entscheidend ist die Protonenaufnahme.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "laugen",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 10,
+      "aufgaben": 19,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 11,
+      "aufgaben": 16,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 8,
+      "aufgaben": 16,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Sauer, alkalisch oder neutral?",
+      "url": "https://learningapps.org/view5394584",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Säuren und Laugen Quiz",
+      "url": "https://learningapps.org/view1441655",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "W�rterpuzzle",
+      "url": "https://allgemeinbildung.ch/fach=che/Saeuren_Basen_03w.htm",
+      "typ": "app",
+      "quelle": "allgemeinbildung.ch"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Bildung eines Metallhydroxids",
+      "url": "https://www.youtube.com/watch?v=AP79_srafmE",
+      "quelle": "North Carolina School of Science and Mathematics",
+      "stufe": "B",
+      "rolle": "Demonstration zur Entstehung einer Lauge",
+      "embed": "https://www.youtube-nocookie.com/embed/AP79_srafmE",
+      "protokoll": false,
+      "beobachtung": {
+        "A": "Notiere, welcher Stoff entsteht und wie er nachgewiesen wird.",
+        "B": "Stelle die Reaktionsgleichung auf und erkläre, warum die Lösung alkalisch reagiert.",
+        "C": "Begründe, warum Metalloxide mit Wasser Laugen bilden. Beurteile, ob das für alle Metalloxide gilt."
+      }
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 10,
+    "titel": "Säuren, Laugen, Salze",
+    "seiten_von": 115,
+    "seiten_bis": 142,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Lauge"
+  }
+}

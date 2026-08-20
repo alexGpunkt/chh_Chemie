@@ -1,0 +1,652 @@
+{
+  "unit": "QB-03",
+  "title": "Rechnen mit n = m : M",
+  "leitidee": "B1",
+  "standards": [
+    "K1",
+    "K2.4"
+  ],
+  "klasse": 9,
+  "wortspeicher": [
+    "die Stoffmenge",
+    "die molare Masse",
+    "die Masse",
+    "das Umstellen",
+    "die Einheitenkontrolle"
+  ],
+  "worterklaerungen": {
+    "Einheitenkontrolle": "Die Prüfung, ob die Einheit des Ergebnisses zur gesuchten Größe passt."
+  },
+  "can_do": {
+    "A": "Ich berechne die Stoffmenge aus Masse und molarer Masse.",
+    "B": "Ich stelle die Formel nach jeder der drei Größen um.",
+    "C": "Ich löse mehrschrittige Aufgaben und prüfe das Ergebnis über die Einheiten."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Eine Formel, drei Größen",
+      "hinfuehrung": "n = m : M verbindet drei Größen.",
+      "erklaerung": [
+        "m ist die Masse in Gramm.",
+        "M ist die molare Masse in g/mol.",
+        "n ist die Stoffmenge in mol."
+      ],
+      "merke": "Zwei Größen bekannt → die dritte lässt sich ausrechnen.",
+      "beispiel": {
+        "titel": "Ein Beispiel",
+        "aufgabe": "44 g CO₂, M = 44 g/mol.",
+        "schritte": [
+          "n = m : M",
+          "n = 44 : 44",
+          "n = 1 mol"
+        ],
+        "ergebnis": "1 mol",
+        "luecke": {
+          "schritt": 2,
+          "wert": 1,
+          "einheit": "mol"
+        }
+      },
+      "visual": {
+        "type": "animation",
+        "name": "mol",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Die Formel umstellen",
+      "hinfuehrung": "Aus einer Formel werden drei, wenn man sie umstellen kann. Welche gesucht ist, verrät die Einheit in der Frage.",
+      "erklaerung": [
+        "Gesucht n (in mol): n = m : M",
+        "Gesucht m (in g): m = n · M",
+        "Gesucht M (in g/mol): M = m : n",
+        "Kontrolle über die Einheiten: g geteilt durch g/mol ergibt mol. Passt die Einheit nicht, ist die Formel falsch umgestellt."
+      ],
+      "merke": "Die Einheit der Frage sagt, welche Größe gesucht ist.",
+      "visual": {
+        "type": "animation",
+        "name": "mol",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Mehrschrittig rechnen",
+      "hinfuehrung": "Sobald zwei Stoffe beteiligt sind, führt der Weg immer über dieselben vier Schritte.",
+      "erklaerung": [
+        "1. Gegebene Masse in Stoffmenge umrechnen: n = m : M.",
+        "2. Über die Koeffizienten der Reaktionsgleichung zur Stoffmenge des gesuchten Stoffes.",
+        "3. Zurück zur Masse: m = n · M.",
+        "4. Ergebnis prüfen: Passt die Einheit? Ist die Größenordnung plausibel?",
+        "Der häufigste Fehler ist, Schritt 2 zu überspringen und Massen direkt zu übertragen — die Koeffizienten gelten aber für Teilchen, nicht für Gramm."
+      ],
+      "merke": "Masse → Stoffmenge → Gleichung → Stoffmenge → Masse.",
+      "visual": {
+        "type": "animation",
+        "name": "mol",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "n = m : M",
+      "m = n · M",
+      "M = m : n"
+    ],
+    "saetze": [
+      "Einheiten: m in g, M in g/mol, n in mol.",
+      "g : (g/mol) = mol — die Einheitenkontrolle deckt Umstellfehler auf.",
+      "Bei zwei Stoffen immer über die Stoffmenge rechnen.",
+      "Massen dürfen nie direkt über die Gleichung übertragen werden."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Rechnen mit molaren Größen",
+      "url": "https://www.youtube.com/watch?v=Mp9ss59KoWI",
+      "quelle": "musstewissen Chemie",
+      "lumi": "https://app.lumi.education/run/2pAklC",
+      "embed": "https://app.lumi.education/api/v1/run/2pAklC/embed",
+      "stufe": "B",
+      "dauer_s": 435
+    },
+    {
+      "titel": "Berechnungen in der Chemie — Stoffmenge und Konzentration",
+      "url": "https://www.youtube.com/watch?v=AZbQ7Rqg1KE",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/u_Hzgx",
+      "embed": "https://app.lumi.education/api/v1/run/u_Hzgx/embed",
+      "stufe": "C",
+      "dauer_s": 545
+    },
+    {
+      "titel": "Quantitative Chemie — Stoffmenge und Stöchiometrie",
+      "url": "https://www.youtube.com/watch?v=VBdnNdHG96k",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/MhPj9F",
+      "embed": "https://app.lumi.education/api/v1/run/MhPj9F/embed",
+      "stufe": "A",
+      "dauer_s": 680
+    }
+  ],
+  "tasks": [
+    {
+      "id": "QB03-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "Wie viel mol sind 32 g Sauerstoff O₂? (M = 32 g/mol)",
+      "answer": 1,
+      "unit_label": "mol",
+      "tolerance": 0.01,
+      "hints": [
+        "n = m : M.",
+        "32 : 32.",
+        "1 mol."
+      ],
+      "solution": "n = 32 g : 32 g/mol = 1 mol",
+      "tags": [
+        "stoffmenge"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB03-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Wie viel mol sind 54 g Wasser? (M = 18 g/mol)",
+      "answer": 3,
+      "unit_label": "mol",
+      "tolerance": 0.01,
+      "hints": [
+        "n = m : M.",
+        "54 : 18.",
+        "3 mol."
+      ],
+      "solution": "n = 54 g : 18 g/mol = 3 mol",
+      "misconceptions": [
+        {
+          "id": "mol_mal_statt_geteilt",
+          "value": 972,
+          "feedback": "n = m : M — hier wird geteilt."
+        }
+      ],
+      "tags": [
+        "stoffmenge"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB03-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Welche Masse haben 0,5 mol Kohlenstoffdioxid? (M = 44 g/mol)",
+      "answer": 22,
+      "unit_label": "g",
+      "tolerance": 0.1,
+      "hints": [
+        "m = n · M.",
+        "0,5 · 44.",
+        "22 g."
+      ],
+      "solution": "m = 0,5 mol · 44 g/mol = 22 g",
+      "tags": [
+        "stoffmenge"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB03-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "numeric",
+      "prompt": "Wie viel mol sind 100 g Calciumcarbonat? (M = 100 g/mol)",
+      "answer": 1,
+      "unit_label": "mol",
+      "tolerance": 0.01,
+      "hints": [
+        "n = m : M.",
+        "100 : 100.",
+        "1 mol."
+      ],
+      "solution": "n = 100 g : 100 g/mol = 1 mol",
+      "tags": [
+        "stoffmenge"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB03-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "0,4 mol eines Stoffes wiegen 22,4 g. Wie groß ist die molare Masse?",
+      "answer": 56,
+      "unit_label": "g/mol",
+      "tolerance": 0.5,
+      "hints": [
+        "M = m : n.",
+        "22,4 : 0,4.",
+        "56 g/mol."
+      ],
+      "solution": "M = 22,4 g : 0,4 mol = 56 g/mol",
+      "tags": [
+        "stoffmenge",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB03-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Welche Masse haben 2,5 mol Schwefelsäure? (M = 98 g/mol)",
+      "answer": 245,
+      "unit_label": "g",
+      "tolerance": 1,
+      "hints": [
+        "m = n · M.",
+        "2,5 · 98.",
+        "245 g."
+      ],
+      "solution": "m = 2,5 mol · 98 g/mol = 245 g",
+      "tags": [
+        "stoffmenge",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB03-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Wie viel mol sind 5,85 g Natriumchlorid? (M = 58,5 g/mol)",
+      "answer": 0.1,
+      "unit_label": "mol",
+      "tolerance": 0.005,
+      "hints": [
+        "n = m : M.",
+        "5,85 : 58,5.",
+        "0,1 mol."
+      ],
+      "solution": "n = 5,85 g : 58,5 g/mol = 0,1 mol",
+      "tags": [
+        "stoffmenge",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB03-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Gegeben sind 25 g Calciumcarbonat CaCO₃ (M = 100 g/mol).",
+      "fields": [
+        {
+          "label": "Stoffmenge",
+          "answer": 0.25,
+          "unit_label": "mol",
+          "tolerance": 0.01
+        },
+        {
+          "label": "Masse von 0,25 mol Calciumoxid CaO (M = 56 g/mol)",
+          "answer": 14,
+          "unit_label": "g",
+          "tolerance": 0.2
+        }
+      ],
+      "hints": [
+        "n = 25 : 100 = 0,25 mol.",
+        "Aus CaCO₃ entsteht CaO im Verhältnis 1 : 1.",
+        "m = 0,25 · 56."
+      ],
+      "solution": "n(CaCO₃) = 25 g : 100 g/mol = 0,25 mol\nn(CaO) = 0,25 mol\nm(CaO) = 0,25 · 56 = 14 g",
+      "tags": [
+        "stoffmenge",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "QB03-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Woran erkennst du, ob du n = m : M oder m = n · M brauchst?",
+      "options": [
+        "An der Einheit der gesuchten Größe.",
+        "An der Größe der Zahlen.",
+        "Das ist gleichgültig."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ist gefragt — mol oder Gramm?",
+        "Gefragt in mol heißt teilen.",
+        "Gefragt in Gramm heißt multiplizieren."
+      ],
+      "solution": "Ist eine Stoffmenge in mol gesucht, wird geteilt. Ist eine Masse in Gramm gesucht, wird multipliziert. Die Einheit der Frage entscheidet — nicht die Größe der Zahlen.",
+      "tags": [
+        "stoffmenge",
+        "bbr"
+      ],
+      "spiral": [
+        "W-EINH"
+      ]
+    },
+    {
+      "id": "QB03-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "numeric",
+      "prompt": "Wie viel Gramm wiegen 0,05 mol Kupfersulfat? (M = 160 g/mol)",
+      "answer": 8,
+      "unit_label": "g",
+      "tolerance": 0.1,
+      "hints": [
+        "m = n · M.",
+        "0,05 · 160.",
+        "8 g."
+      ],
+      "solution": "m = 0,05 mol · 160 g/mol = 8 g",
+      "misconceptions": [
+        {
+          "id": "mol_geteilt_statt_mal",
+          "value": 3200,
+          "feedback": "Aus Stoffmenge und molarer Masse wird die Masse durch Multiplizieren."
+        }
+      ],
+      "tags": [
+        "stoffmenge",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB03-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "multi",
+      "prompt": "12 g Kohlenstoff (M = 12 g/mol) verbrennen vollständig zu CO₂ (M = 44 g/mol).",
+      "fields": [
+        {
+          "label": "Stoffmenge des Kohlenstoffs",
+          "answer": 1,
+          "unit_label": "mol",
+          "tolerance": 0.02
+        },
+        {
+          "label": "Stoffmenge des entstehenden CO₂",
+          "answer": 1,
+          "unit_label": "mol",
+          "tolerance": 0.02
+        },
+        {
+          "label": "Masse des entstehenden CO₂",
+          "answer": 44,
+          "unit_label": "g",
+          "tolerance": 0.5
+        }
+      ],
+      "hints": [
+        "n(C) = 12 : 12 = 1 mol.",
+        "C + O₂ → CO₂ läuft 1 : 1.",
+        "m = 1 · 44."
+      ],
+      "solution": "n(C) = 1 mol\nn(CO₂) = 1 mol (Verhältnis 1 : 1)\nm(CO₂) = 44 g\nAus 12 g Kohlenstoff werden 44 g CO₂ — die Differenz ist der gebundene Sauerstoff.",
+      "tags": [
+        "stoffmenge",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "QB03-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie viel Gramm Magnesium (M = 24 g/mol) werden gebraucht, um 0,75 mol Magnesiumoxid zu erhalten?",
+      "answer": 18,
+      "unit_label": "g",
+      "tolerance": 0.3,
+      "hints": [
+        "2 Mg + O₂ → 2 MgO läuft für Mg und MgO 1 : 1.",
+        "n(Mg) = 0,75 mol.",
+        "m = 0,75 · 24."
+      ],
+      "solution": "n(Mg) = n(MgO) = 0,75 mol\nm = 0,75 mol · 24 g/mol = 18 g",
+      "misconceptions": [
+        {
+          "id": "masse_direkt_uebertragen",
+          "value": 0.75,
+          "feedback": "0,75 ist die Stoffmenge, nicht die Masse. Rechne mit m = n · M weiter."
+        }
+      ],
+      "tags": [
+        "stoffmenge",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "QB03-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "8 g Methan CH₄ (M = 16 g/mol) verbrennen: CH₄ + 2 O₂ → CO₂ + 2 H₂O.",
+      "fields": [
+        {
+          "label": "Stoffmenge des Methans",
+          "answer": 0.5,
+          "unit_label": "mol",
+          "tolerance": 0.02
+        },
+        {
+          "label": "benötigte Stoffmenge Sauerstoff",
+          "answer": 1,
+          "unit_label": "mol",
+          "tolerance": 0.03
+        },
+        {
+          "label": "Masse des entstehenden Wassers (M = 18 g/mol)",
+          "answer": 18,
+          "unit_label": "g",
+          "tolerance": 0.5
+        }
+      ],
+      "hints": [
+        "n(CH₄) = 8 : 16 = 0,5 mol.",
+        "Auf 1 CH₄ kommen 2 O₂, also 1 mol.",
+        "Auf 1 CH₄ kommen 2 H₂O, also 1 mol → 18 g."
+      ],
+      "solution": "n(CH₄) = 0,5 mol\nn(O₂) = 2 · 0,5 = 1 mol\nn(H₂O) = 2 · 0,5 = 1 mol → m = 18 g",
+      "tags": [
+        "stoffmenge",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "QB03-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler rechnet: „Aus 12 g Kohlenstoff entstehen 12 g CO₂, weil das Verhältnis 1 : 1 ist.“ Wo liegt der Fehler?",
+      "options": [
+        "Das Verhältnis 1 : 1 gilt für Stoffmengen, nicht für Massen — es kommt Sauerstoff hinzu.",
+        "Nichts, die Rechnung stimmt.",
+        "Das Verhältnis ist 2 : 1."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was sagt der Koeffizient aus?",
+        "Ein Teilchen auf ein Teilchen.",
+        "Ein CO₂-Molekül ist aber schwerer als ein C-Atom."
+      ],
+      "solution": "Die Koeffizienten sind Stoffmengenverhältnisse. 1 mol C ergibt 1 mol CO₂ — aber 12 g ergeben 44 g, weil der Sauerstoff hinzukommt. Massen dürfen nie direkt über die Gleichung übertragen werden.",
+      "misconceptions": [
+        {
+          "id": "masse_direkt_uebertragen",
+          "value": 1,
+          "feedback": "Die Massen sind nicht gleich — nur die Stoffmengen. Rechne über n."
+        }
+      ],
+      "tags": [
+        "stoffmenge",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-GLEI"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 10,
+      "aufgaben": 19,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 11,
+      "aufgaben": 16,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 12,
+      "aufgaben": 12,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Rechnen mit molaren Massen",
+      "url": "https://learningapps.org/view15076630",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Wir erlernen Stöchiometrisches Rechnen",
+      "url": "https://learningapps.org/view10778593",
+      "typ": "sammlung",
+      "quelle": "LearningApps",
+      "pfade": [
+        "B",
+        "C"
+      ]
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 5,
+    "titel": "Die chemische Reaktion",
+    "seiten_von": 58,
+    "seiten_bis": 65,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Stoffmenge"
+  }
+}

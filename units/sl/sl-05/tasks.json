@@ -1,0 +1,685 @@
+{
+  "unit": "SL-05",
+  "title": "Säuren und Laugen aus Oxiden",
+  "leitidee": "B3",
+  "standards": [
+    "K1",
+    "K2.2",
+    "K4.3"
+  ],
+  "klasse": 9,
+  "wortspeicher": [
+    "das Nichtmetalloxid",
+    "das Metalloxid",
+    "der saure Regen",
+    "die schweflige Säure",
+    "die Kohlensäure",
+    "das Löschen von Kalk"
+  ],
+  "worterklaerungen": {
+    "Nichtmetalloxid": "Ein Oxid eines Nichtmetalls. Es bildet mit Wasser eine Säure.",
+    "Metalloxid": "Ein Oxid eines Metalls. Es bildet mit Wasser eine Lauge.",
+    "saurer Regen": "Regen, der durch gelöste Nichtmetalloxide sauer geworden ist."
+  },
+  "can_do": {
+    "A": "Ich weiß, dass Nichtmetalloxide Säuren und Metalloxide Laugen bilden.",
+    "B": "Ich stelle die Gleichungen für die Bildung von Säuren und Laugen aus Oxiden auf.",
+    "C": "Ich erkläre den sauren Regen und bewerte Gegenmaßnahmen."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Oxide im Wasser",
+      "hinfuehrung": "Oxide reagieren mit Wasser.",
+      "erklaerung": [
+        "Metalloxide ergeben eine Lauge.",
+        "Nichtmetalloxide ergeben eine Säure."
+      ],
+      "merke": "Metall → Lauge. Nichtmetall → Säure.",
+      "beispiel": {
+        "titel": "Kohlensäure",
+        "aufgabe": "CO₂ wird in Wasser geleitet.",
+        "schritte": [
+          "Kohlenstoff ist ein Nichtmetall.",
+          "Also entsteht eine Säure.",
+          "Es ist Kohlensäure."
+        ],
+        "ergebnis": "CO₂ + H₂O → H₂CO₃"
+      },
+      "visual": {
+        "type": "phskala",
+        "marken": [
+          {
+            "wert": 4,
+            "stoff": "SO₂ in Wasser"
+          },
+          {
+            "wert": 12,
+            "stoff": "CaO in Wasser"
+          }
+        ],
+        "alt": "pH-Skala mit einer sauren und einer alkalischen Marke."
+      }
+    },
+    "B": {
+      "titel": "Die Gleichungen",
+      "hinfuehrung": "Beide Fälle folgen demselben Muster: Das Oxid nimmt Wasser auf. Was dabei entsteht, hängt allein davon ab, ob ein Metall oder ein Nichtmetall beteiligt ist.",
+      "erklaerung": [
+        "Nichtmetalloxide: CO₂ + H₂O → H₂CO₃, SO₂ + H₂O → H₂SO₃, SO₃ + H₂O → H₂SO₄.",
+        "Metalloxide: CaO + H₂O → Ca(OH)₂, Na₂O + H₂O → 2 NaOH.",
+        "Der Zusammenhang lässt sich auch rückwärts lesen: Aus der Formel einer Säure lässt sich das zugehörige Oxid bestimmen.",
+        "Deshalb ist Mineralwasser leicht sauer: Gelöstes Kohlenstoffdioxid bildet Kohlensäure."
+      ],
+      "merke": "Oxid plus Wasser — das Metall entscheidet über Säure oder Lauge.",
+      "visual": {
+        "type": "animation",
+        "name": "phwert",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Saurer Regen",
+      "hinfuehrung": "Der saure Regen ist das Musterbeispiel dafür, wie eine chemische Reaktion zu einem gesellschaftlichen Problem wird — und wie sie sich auch wieder eindämmen lässt.",
+      "erklaerung": [
+        "Beim Verbrennen schwefelhaltiger Brennstoffe entsteht Schwefeldioxid. Mit Regenwasser bildet es schweflige Säure.",
+        "Stickoxide aus Verbrennungsmotoren bilden salpetrige Säure und Salpetersäure.",
+        "Auch unbelasteter Regen ist mit pH 5,6 leicht sauer — durch gelöstes Kohlenstoffdioxid. Von saurem Regen spricht man erst deutlich darunter.",
+        "Folgen: Schäden an Wäldern, Versauerung von Seen, Auflösen von Kalkstein an Bauwerken.",
+        "Maßnahmen: Rauchgasentschwefelung, schwefelarme Kraftstoffe, Katalysatoren. Sie haben in Mitteleuropa gewirkt — die Schwefeldioxid-Belastung ist seit den 1980er Jahren stark gesunken."
+      ],
+      "merke": "Nichtmetalloxide aus Verbrennungen machen den Regen sauer.",
+      "visual": {
+        "type": "animation",
+        "name": "phwert",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "CO₂ + H₂O → H₂CO₃",
+      "SO₂ + H₂O → H₂SO₃",
+      "SO₃ + H₂O → H₂SO₄",
+      "CaO + H₂O → Ca(OH)₂",
+      "Na₂O + H₂O → 2 NaOH"
+    ],
+    "saetze": [
+      "Nichtmetalloxid + Wasser → Säure.",
+      "Metalloxid + Wasser → Lauge.",
+      "Unbelasteter Regen hat pH 5,6 durch gelöstes CO₂.",
+      "Saurer Regen: SO₂ und Stickoxide aus Verbrennungen."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Ammoniak — was ist das?",
+      "url": "https://www.youtube.com/watch?v=s1IPcb15JZQ",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/0B8S3t",
+      "embed": "https://app.lumi.education/api/v1/run/0B8S3t/embed",
+      "stufe": "A",
+      "dauer_s": 159
+    },
+    {
+      "titel": "Schwefelsäure — die stärkste Säure?",
+      "url": "https://www.youtube.com/watch?v=SV0upfBVd-Y",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/r4XFNL",
+      "embed": "https://app.lumi.education/api/v1/run/r4XFNL/embed",
+      "stufe": "B",
+      "dauer_s": 217
+    }
+  ],
+  "tasks": [
+    {
+      "id": "SL05-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Was entsteht, wenn ein Nichtmetalloxid in Wasser gelöst wird?",
+      "options": [
+        "eine Säure",
+        "eine Lauge",
+        "nichts"
+      ],
+      "answer": 0,
+      "hints": [
+        "Nichtmetall und Metall verhalten sich entgegengesetzt.",
+        "Metalloxide ergeben Laugen.",
+        "Nichtmetalloxide ergeben Säuren."
+      ],
+      "solution": "Nichtmetalloxide bilden mit Wasser Säuren — etwa CO₂ zu Kohlensäure.",
+      "misconceptions": [
+        {
+          "id": "saeure_lauge_vertauscht",
+          "value": 1,
+          "feedback": "Laugen entstehen aus Metalloxiden.",
+          "konzeptfehler": "saeure_lauge_vertauscht"
+        }
+      ],
+      "tags": [
+        "oxide"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "SL05-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Was entsteht, wenn Calciumoxid in Wasser gegeben wird?",
+      "options": [
+        "eine Lauge",
+        "eine Säure",
+        "ein Gas"
+      ],
+      "answer": 0,
+      "hints": [
+        "Calcium ist ein Metall.",
+        "Metalloxid + Wasser → Lauge.",
+        "Eine Lauge."
+      ],
+      "solution": "Calcium ist ein Metall, also entsteht eine Lauge: CaO + H₂O → Ca(OH)₂.",
+      "tags": [
+        "oxide"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "SL05-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum ist Mineralwasser leicht sauer?",
+      "options": [
+        "Gelöstes Kohlenstoffdioxid bildet Kohlensäure.",
+        "Es enthält Zitronensäure.",
+        "Es ist gekühlt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welches Gas ist im Mineralwasser gelöst?",
+        "Kohlenstoffdioxid.",
+        "Es ist ein Nichtmetalloxid."
+      ],
+      "solution": "Gelöstes CO₂ bildet mit Wasser Kohlensäure: CO₂ + H₂O → H₂CO₃. Deshalb reagiert Mineralwasser leicht sauer.",
+      "tags": [
+        "oxide"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "SL05-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "assign",
+      "prompt": "Ordne jedem Oxid die entstehende Lösung zu.",
+      "slots": [
+        "SO₂",
+        "Na₂O",
+        "CO₂"
+      ],
+      "values": [
+        "Säure",
+        "Lauge",
+        "Säure (zweites)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Schwefel und Kohlenstoff sind Nichtmetalle.",
+        "Natrium ist ein Metall.",
+        "Nichtmetall → Säure."
+      ],
+      "solution": "SO₂ und CO₂ sind Nichtmetalloxide → Säuren.\nNa₂O ist ein Metalloxid → Lauge.",
+      "tags": [
+        "oxide"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "SL05-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welche Säure entsteht aus Schwefeldioxid SO₂ und Wasser?",
+      "options": [
+        "schweflige Säure H₂SO₃",
+        "Schwefelsäure H₂SO₄",
+        "Salzsäure HCl"
+      ],
+      "answer": 0,
+      "hints": [
+        "SO₂ hat zwei Sauerstoffatome.",
+        "Mit dem Wasser kommt eines dazu.",
+        "Also H₂SO₃."
+      ],
+      "solution": "SO₂ + H₂O → H₂SO₃, die schweflige Säure. Schwefelsäure entsteht aus SO₃.",
+      "misconceptions": [
+        {
+          "id": "index_uebersehen",
+          "value": 1,
+          "feedback": "H₂SO₄ entsteht aus SO₃, nicht aus SO₂. Zähle die Sauerstoffatome.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "oxide",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI",
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SL05-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum hat auch unbelasteter Regen nur pH 5,6?",
+      "options": [
+        "Kohlenstoffdioxid aus der Luft löst sich und bildet Kohlensäure.",
+        "Regen ist immer verschmutzt.",
+        "Regen enthält Stickoxide."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welches Gas ist überall in der Luft?",
+        "Kohlenstoffdioxid.",
+        "Es löst sich im Regentropfen."
+      ],
+      "solution": "Auch ohne Schadstoffe löst sich Kohlenstoffdioxid aus der Luft im Regentropfen und bildet Kohlensäure. Deshalb liegt der natürliche pH-Wert bei 5,6, nicht bei 7.",
+      "tags": [
+        "oxide",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL05-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Woher stammt das Schwefeldioxid im sauren Regen hauptsächlich?",
+      "options": [
+        "Aus der Verbrennung schwefelhaltiger Brennstoffe.",
+        "Aus der Atmung von Pflanzen.",
+        "Aus dem Meerwasser."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wobei entsteht SO₂?",
+        "Bei Verbrennungen.",
+        "Wenn der Brennstoff Schwefel enthält."
+      ],
+      "solution": "Kohle und ungereinigte Öle enthalten Schwefel. Beim Verbrennen entsteht Schwefeldioxid, das mit Regenwasser schweflige Säure bildet.",
+      "tags": [
+        "oxide",
+        "umwelt",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "SL05-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum werden Kalksteinfiguren durch sauren Regen zerstört?",
+      "options": [
+        "Säuren lösen Kalk unter Bildung von Kohlenstoffdioxid auf.",
+        "Der Regen ist zu kalt.",
+        "Kalkstein ist wasserlöslich."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert, wenn Säure auf Kalk trifft?",
+        "Es schäumt.",
+        "Der Kalk löst sich."
+      ],
+      "solution": "Säuren setzen aus dem Carbonat Kohlensäure frei, die zu CO₂ und Wasser zerfällt. Der Kalkstein wird dabei aufgelöst — deshalb verlieren Figuren über Jahrzehnte ihre Konturen.",
+      "tags": [
+        "oxide",
+        "umwelt",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "SL05-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "assign",
+      "prompt": "Ordne jeder Säure ihr Ausgangsoxid zu.",
+      "slots": [
+        "H₂CO₃",
+        "H₂SO₃",
+        "H₂SO₄"
+      ],
+      "values": [
+        "CO₂",
+        "SO₂",
+        "SO₃"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Zieh vom Säureformel ein H₂O ab.",
+        "H₂CO₃ minus H₂O ergibt CO₂.",
+        "H₂SO₄ minus H₂O ergibt SO₃."
+      ],
+      "solution": "H₂CO₃ − H₂O = CO₂\nH₂SO₃ − H₂O = SO₂\nH₂SO₄ − H₂O = SO₃",
+      "tags": [
+        "oxide",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SL05-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Welche Maßnahme verringert den sauren Regen wirksam?",
+      "options": [
+        "Rauchgasentschwefelung in Kraftwerken.",
+        "Höhere Schornsteine.",
+        "Kalken der Wälder."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was setzt an der Ursache an?",
+        "Das Entfernen des Schwefeldioxids.",
+        "Die anderen Maßnahmen behandeln Folgen."
+      ],
+      "solution": "Die Rauchgasentschwefelung entfernt das Schwefeldioxid, bevor es in die Atmosphäre gelangt — sie setzt an der Ursache an. Höhere Schornsteine verteilen das Problem nur, Kalken behandelt eine Folge.",
+      "misconceptions": [
+        {
+          "id": "folge_statt_ursache",
+          "value": 2,
+          "feedback": "Kalken neutralisiert bereits versauerte Böden — das ist eine Folgebehandlung, keine Ursachenbekämpfung."
+        }
+      ],
+      "tags": [
+        "oxide",
+        "bewerten",
+        "msa"
+      ]
+    },
+    {
+      "id": "SL05-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum reagiert eine Lösung von Natriumoxid stärker alkalisch als eine von Calciumoxid gleicher Stoffmenge?",
+      "options": [
+        "Na₂O liefert zwei gut lösliche NaOH; Ca(OH)₂ ist dagegen schwer löslich.",
+        "Natrium ist edler als Calcium.",
+        "Calciumoxid reagiert gar nicht mit Wasser."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie viele Hydroxide entstehen jeweils?",
+        "Na₂O + H₂O → 2 NaOH.",
+        "Aber entscheidend ist die Löslichkeit."
+      ],
+      "solution": "Na₂O bildet zwei Formeleinheiten NaOH, die sich vollständig lösen. Ca(OH)₂ ist dagegen schwer löslich — es gelangen weniger OH⁻-Ionen in Lösung, obwohl je Formeleinheit zwei vorhanden wären.",
+      "tags": [
+        "oxide",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL05-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "In einem Kraftwerk entstehen je Tag 320 kg Schwefeldioxid SO₂ (M = 64 g/mol).",
+      "fields": [
+        {
+          "label": "Stoffmenge des SO₂ in kmol",
+          "answer": 5,
+          "unit_label": "kmol",
+          "tolerance": 0.2
+        },
+        {
+          "label": "Masse der daraus gebildeten H₂SO₃ (M = 82 g/mol) in kg",
+          "answer": 410,
+          "unit_label": "kg",
+          "tolerance": 5
+        }
+      ],
+      "hints": [
+        "n = 320 : 64 = 5 kmol.",
+        "SO₂ + H₂O → H₂SO₃ läuft 1 : 1.",
+        "m = 5 · 82 = 410 kg."
+      ],
+      "solution": "n(SO₂) = 320 kg : 64 kg/kmol = 5 kmol\nn(H₂SO₃) = 5 kmol → m = 5 · 82 = 410 kg",
+      "tags": [
+        "oxide",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "SL05-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum ist die Aussage „Saurer Regen ist Regen mit pH unter 7“ fachlich unpräzise?",
+      "options": [
+        "Auch unbelasteter Regen liegt bei pH 5,6; von saurem Regen spricht man erst deutlich darunter.",
+        "Regen hat immer pH 7.",
+        "Regen kann nicht sauer sein."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welchen pH-Wert hat unbelasteter Regen?",
+        "5,6.",
+        "Also liegt jeder Regen unter 7."
+      ],
+      "solution": "Durch gelöstes Kohlenstoffdioxid liegt jeder Regen unter pH 7. Die Grenze für „sauren Regen“ wird deshalb bei etwa pH 5 gezogen — der natürliche Wert ist der Bezugspunkt, nicht die 7.",
+      "tags": [
+        "oxide",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL05-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Bewerte: „Das Kalken von Wäldern löst das Problem des sauren Regens.“",
+      "options": [
+        "Es mildert eine Folge, beseitigt aber die Ursache nicht — dafür braucht es geringere Emissionen.",
+        "Richtig, damit ist das Problem gelöst.",
+        "Falsch, Kalken hat gar keine Wirkung."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was bewirkt Kalk im Boden?",
+        "Er neutralisiert die Säure.",
+        "Aber der Regen bleibt sauer."
+      ],
+      "solution": "Kalk neutralisiert bereits versauerte Böden — das wirkt, aber nur örtlich und vorübergehend. Solange Schwefeldioxid und Stickoxide freigesetzt werden, muss immer wieder gekalkt werden. Wirksam an der Ursache setzen Entschwefelung und Katalysatoren an.",
+      "tags": [
+        "oxide",
+        "bewerten",
+        "msa"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 4,
+      "aufgaben": 25,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 6,
+      "aufgaben": 21,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 6,
+      "aufgaben": 18,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Saurer Regen",
+      "url": "https://learningapps.org/view39434794",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Luftverschmutzung - Schwefeldioxid",
+      "url": "https://learningapps.org/view25408943",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Saure und basische Oxide",
+      "url": "https://www.youtube.com/watch?v=z95ATFrLue0",
+      "quelle": "Chemistry and Biochemistry Demo lab at OSU",
+      "stufe": "A",
+      "rolle": "Demonstration zum Kern der Einheit: Oxide bilden Säuren und Laugen",
+      "embed": "https://www.youtube-nocookie.com/embed/z95ATFrLue0",
+      "protokoll": false,
+      "beobachtung": {
+        "A": "Lege eine Tabelle an: Oxid — Farbe des Indikators — sauer oder basisch.",
+        "B": "Ordne die vier Oxide in Metalloxide und Nichtmetalloxide und erkläre den Zusammenhang zur Indikatorfarbe.",
+        "C": "Begründe die Regel „Nichtmetalloxide bilden Säuren, Metalloxide bilden Laugen“ und beurteile ihre Reichweite."
+      }
+    },
+    {
+      "titel": "Saurer Regen im Modellversuch",
+      "url": "https://www.youtube.com/watch?v=PPxYIRX6elo",
+      "quelle": "Rugby School Chemistry",
+      "stufe": "B",
+      "rolle": "Demonstration zur Entstehung des sauren Regens",
+      "embed": "https://www.youtube-nocookie.com/embed/PPxYIRX6elo",
+      "protokoll": false,
+      "beobachtung": {
+        "A": "Notiere, welches Gas den sauren Regen verursacht und wie sich der Indikator färbt.",
+        "B": "Stelle die Reaktionsgleichung von Stickstoffdioxid mit Wasser auf und erkläre die Entstehung des sauren Regens.",
+        "C": "Beurteile Gegenmaßnahmen gegen sauren Regen. Begründe, welche am wirksamsten ist."
+      }
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 10,
+    "titel": "Säuren, Laugen, Salze",
+    "seiten_von": 115,
+    "seiten_bis": 142,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Nichtmetalloxid"
+  }
+}

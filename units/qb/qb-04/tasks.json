@@ -1,0 +1,644 @@
+{
+  "unit": "QB-04",
+  "title": "Molares Volumen und Gasvolumina",
+  "leitidee": "B1",
+  "standards": [
+    "K1",
+    "K2.4",
+    "K3.3"
+  ],
+  "klasse": 9,
+  "wortspeicher": [
+    "das molare Volumen",
+    "die Normbedingungen",
+    "das Gasvolumen",
+    "der Satz von Avogadro",
+    "die Gasdichte"
+  ],
+  "worterklaerungen": {
+    "molares Volumen": "Das Volumen von einem Mol Gas. Bei Normbedingungen 22,4 L/mol.",
+    "Normbedingungen": "0 °C und 1013 hPa.",
+    "Satz von Avogadro": "Gleiche Gasvolumina enthalten bei gleichen Bedingungen gleich viele Teilchen."
+  },
+  "can_do": {
+    "A": "Ich berechne das Volumen einer Gasportion aus der Stoffmenge.",
+    "B": "Ich rechne zwischen Masse, Stoffmenge und Gasvolumen um.",
+    "C": "Ich begründe, warum das molare Volumen für alle Gase gleich ist."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Ein Mol Gas ist immer gleich groß",
+      "hinfuehrung": "Jedes Gas nimmt bei einem Mol dasselbe Volumen ein.",
+      "erklaerung": [
+        "Es sind 22,4 Liter.",
+        "Das gilt bei 0 °C und normalem Druck."
+      ],
+      "merke": "1 mol Gas = 22,4 L bei Normbedingungen.",
+      "beispiel": {
+        "titel": "Ein Beispiel",
+        "aufgabe": "Welches Volumen haben 2 mol Gas?",
+        "schritte": [
+          "V = n · 22,4 L/mol",
+          "V = 2 · 22,4",
+          "V = 44,8 L"
+        ],
+        "ergebnis": "44,8 L",
+        "luecke": {
+          "schritt": 2,
+          "wert": 44.8,
+          "einheit": "L"
+        }
+      },
+      "visual": {
+        "type": "apparatur",
+        "aufbau": "pneumatisch",
+        "alt": "Über Wasser aufgefangenes Gasvolumen."
+      }
+    },
+    "B": {
+      "titel": "Zwischen Masse, Stoffmenge und Volumen",
+      "hinfuehrung": "Bei Gasen gibt es einen zusätzlichen Weg: Neben der Waage lässt sich auch das Volumen messen — oft einfacher.",
+      "erklaerung": [
+        "V = n · V_m mit V_m = 22,4 L/mol bei Normbedingungen.",
+        "Umgekehrt: n = V : V_m.",
+        "Damit ist der ganze Weg möglich: Masse → Stoffmenge → Volumen und zurück.",
+        "Die Dichte eines Gases folgt daraus unmittelbar: ρ = M : V_m. Kohlenstoffdioxid mit 44 g/mol hat 1,96 g/L, Luft rund 1,29 g/L — deshalb sammelt sich CO₂ am Boden."
+      ],
+      "merke": "V = n · 22,4 L/mol. Für Gase ist das Messen des Volumens oft praktischer als das Wiegen.",
+      "visual": {
+        "type": "animation",
+        "name": "mol",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Warum 22,4 L für jedes Gas",
+      "hinfuehrung": "Dass ein Mol Wasserstoff und ein Mol Kohlenstoffdioxid dasselbe Volumen einnehmen, obwohl die Moleküle so verschieden sind, hat einen klaren Grund.",
+      "erklaerung": [
+        "In einem Gas sind die Abstände zwischen den Teilchen viel größer als die Teilchen selbst. Das Eigenvolumen der Teilchen fällt kaum ins Gewicht.",
+        "Deshalb hängt das Volumen fast nur von der Teilchenzahl ab, nicht von der Teilchengröße — das ist der Satz von Avogadro.",
+        "Bei Feststoffen und Flüssigkeiten gilt das nicht: Dort liegen die Teilchen dicht beieinander, und ihre Größe bestimmt das Volumen mit.",
+        "Das molare Volumen gilt nur bei den angegebenen Bedingungen. Bei 20 °C sind es rund 24 L/mol — die Temperatur muss immer mitgenannt werden."
+      ],
+      "merke": "Im Gas ist fast nur Zwischenraum. Deshalb zählt die Teilchenzahl, nicht die Teilchengröße.",
+      "visual": {
+        "type": "teilchen",
+        "zustand": "gas",
+        "art": "element",
+        "alt": "Teilchenmodell eines Gases mit großen Abständen."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "V = n · V_m",
+      "n = V : V_m",
+      "V_m = 22,4 L/mol (Normbedingungen)",
+      "ρ(Gas) = M : V_m"
+    ],
+    "saetze": [
+      "Normbedingungen: 0 °C und 1013 hPa.",
+      "Gleiche Gasvolumina enthalten gleich viele Teilchen.",
+      "Das molare Volumen gilt nur für Gase.",
+      "Bei 20 °C sind es rund 24 L/mol."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Molares Volumen — was ist das?",
+      "url": "https://www.youtube.com/watch?v=SDnwoQzY8-k",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/dtilD6",
+      "embed": "https://app.lumi.education/api/v1/run/dtilD6/embed",
+      "stufe": "C",
+      "dauer_s": 262
+    },
+    {
+      "titel": "Die ideale Gasgleichung",
+      "url": "https://www.youtube.com/watch?v=q2LBfTE6LI0",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/Htwezk",
+      "embed": "https://app.lumi.education/api/v1/run/Htwezk/embed",
+      "stufe": "A",
+      "dauer_s": 250
+    }
+  ],
+  "tasks": [
+    {
+      "id": "QB04-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "Welches Volumen hat 1 mol eines Gases bei Normbedingungen?",
+      "answer": 22.4,
+      "unit_label": "L",
+      "tolerance": 0.1,
+      "hints": [
+        "Der Wert gilt für jedes Gas.",
+        "Er steht auf der Formelkarte.",
+        "22,4 L."
+      ],
+      "solution": "1 mol eines Gases nimmt bei Normbedingungen 22,4 L ein.",
+      "tags": [
+        "gasvolumen"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB04-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Welches Volumen haben 2 mol Gas?",
+      "answer": 44.8,
+      "unit_label": "L",
+      "tolerance": 0.2,
+      "hints": [
+        "V = n · 22,4.",
+        "2 · 22,4.",
+        "44,8 L."
+      ],
+      "solution": "V = 2 mol · 22,4 L/mol = 44,8 L",
+      "tags": [
+        "gasvolumen"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB04-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Welches Volumen hat 0,5 mol Sauerstoff?",
+      "answer": 11.2,
+      "unit_label": "L",
+      "tolerance": 0.1,
+      "hints": [
+        "V = n · 22,4.",
+        "0,5 · 22,4.",
+        "11,2 L."
+      ],
+      "solution": "V = 0,5 mol · 22,4 L/mol = 11,2 L",
+      "misconceptions": [
+        {
+          "id": "mol_geteilt_statt_mal",
+          "value": 44.8,
+          "feedback": "V = n · V_m — hier wird multipliziert."
+        }
+      ],
+      "tags": [
+        "gasvolumen"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB04-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "1 mol Wasserstoff und 1 mol Kohlenstoffdioxid — welches Gas nimmt mehr Volumen ein?",
+      "options": [
+        "beide gleich viel",
+        "Wasserstoff",
+        "Kohlenstoffdioxid"
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie groß ist das molare Volumen bei Gasen?",
+        "Für jedes Gas gleich.",
+        "22,4 L."
+      ],
+      "solution": "Beide nehmen 22,4 L ein. Das molare Volumen ist für alle Gase gleich — verschieden ist nur die Masse.",
+      "misconceptions": [
+        {
+          "id": "teilchen_traegt_stoffeigenschaft",
+          "value": 2,
+          "feedback": "Die Teilchengröße spielt im Gas fast keine Rolle. Beide nehmen 22,4 L ein.",
+          "konzeptfehler": "teilchen_traegt_stoffeigenschaft"
+        }
+      ],
+      "tags": [
+        "gasvolumen"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB04-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "Wie viel mol sind 44,8 L eines Gases bei Normbedingungen?",
+      "answer": 2,
+      "unit_label": "mol",
+      "tolerance": 0.05,
+      "hints": [
+        "n = V : V_m.",
+        "44,8 : 22,4.",
+        "2 mol."
+      ],
+      "solution": "n = 44,8 L : 22,4 L/mol = 2 mol",
+      "tags": [
+        "gasvolumen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB04-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Welche Masse hat 11,2 L Kohlenstoffdioxid bei Normbedingungen? (M = 44 g/mol)",
+      "answer": 22,
+      "unit_label": "g",
+      "tolerance": 0.3,
+      "hints": [
+        "Erst n = 11,2 : 22,4 = 0,5 mol.",
+        "Dann m = n · M.",
+        "0,5 · 44."
+      ],
+      "solution": "n = 11,2 L : 22,4 L/mol = 0,5 mol\nm = 0,5 mol · 44 g/mol = 22 g",
+      "tags": [
+        "gasvolumen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB04-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Welches Volumen nehmen 8 g Sauerstoff O₂ ein? (M = 32 g/mol)",
+      "answer": 5.6,
+      "unit_label": "L",
+      "tolerance": 0.2,
+      "hints": [
+        "n = 8 : 32 = 0,25 mol.",
+        "V = n · 22,4.",
+        "0,25 · 22,4."
+      ],
+      "solution": "n = 8 g : 32 g/mol = 0,25 mol\nV = 0,25 · 22,4 L/mol = 5,6 L",
+      "tags": [
+        "gasvolumen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB04-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie groß ist die Dichte von Kohlenstoffdioxid bei Normbedingungen? (M = 44 g/mol)",
+      "answer": 1.96,
+      "unit_label": "g/L",
+      "tolerance": 0.05,
+      "hints": [
+        "ρ = M : V_m.",
+        "44 : 22,4.",
+        "1,96 g/L."
+      ],
+      "solution": "ρ = 44 g/mol : 22,4 L/mol = 1,96 g/L. Luft hat rund 1,29 g/L — deshalb sammelt sich CO₂ am Boden.",
+      "misconceptions": [
+        {
+          "id": "dichte_umgedreht",
+          "value": 0.51,
+          "feedback": "ρ = M : V_m — molare Masse durch molares Volumen."
+        }
+      ],
+      "tags": [
+        "gasvolumen",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB04-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum sammelt sich Kohlenstoffdioxid in Kellern und Gärkellern am Boden?",
+      "options": [
+        "Seine Dichte ist größer als die der Luft.",
+        "Es ist kälter als Luft.",
+        "Es löst sich im Boden."
+      ],
+      "answer": 0,
+      "hints": [
+        "Vergleiche die Dichten.",
+        "1,96 g/L gegen 1,29 g/L.",
+        "Das schwerere Gas sinkt."
+      ],
+      "solution": "Mit 1,96 g/L ist Kohlenstoffdioxid deutlich dichter als Luft (1,29 g/L) und sammelt sich am Boden. In Gärkellern kann das lebensgefährlich werden.",
+      "tags": [
+        "gasvolumen",
+        "sicherheit",
+        "bbr"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "QB04-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "multi",
+      "prompt": "Bei einer Reaktion entstehen 3,36 L Wasserstoff bei Normbedingungen. (M = 2 g/mol)",
+      "fields": [
+        {
+          "label": "Stoffmenge",
+          "answer": 0.15,
+          "unit_label": "mol",
+          "tolerance": 0.01
+        },
+        {
+          "label": "Masse",
+          "answer": 0.3,
+          "unit_label": "g",
+          "tolerance": 0.02
+        }
+      ],
+      "hints": [
+        "n = 3,36 : 22,4.",
+        "0,15 mol.",
+        "m = 0,15 · 2."
+      ],
+      "solution": "n = 3,36 L : 22,4 L/mol = 0,15 mol\nm = 0,15 mol · 2 g/mol = 0,3 g",
+      "tags": [
+        "gasvolumen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB04-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum ist das molare Volumen für alle Gase gleich, für Feststoffe aber nicht?",
+      "options": [
+        "Im Gas ist der Zwischenraum viel größer als die Teilchen; bei Feststoffen bestimmt die Teilchengröße das Volumen mit.",
+        "Feststoffe haben kein molares Volumen.",
+        "Gase sind alle gleich schwer."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "teilchen",
+        "zustand": "gas",
+        "art": "gemisch",
+        "alt": "Teilchenmodell eines Gases mit großen Abständen."
+      },
+      "hints": [
+        "Wie groß sind die Abstände im Gas?",
+        "Viel größer als die Teilchen selbst.",
+        "Im Feststoff berühren sie sich."
+      ],
+      "solution": "Im Gas fällt das Eigenvolumen der Teilchen kaum ins Gewicht — das Volumen hängt fast nur von der Teilchenzahl ab. Im Feststoff liegen die Teilchen dicht beieinander, dort bestimmt ihre Größe das Volumen mit.",
+      "tags": [
+        "gasvolumen",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "QB04-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Bei der Elektrolyse von Wasser entstehen 2 H₂ und 1 O₂. Es werden 6,72 L Wasserstoff aufgefangen.",
+      "fields": [
+        {
+          "label": "Stoffmenge des Wasserstoffs",
+          "answer": 0.3,
+          "unit_label": "mol",
+          "tolerance": 0.02
+        },
+        {
+          "label": "Stoffmenge des Sauerstoffs",
+          "answer": 0.15,
+          "unit_label": "mol",
+          "tolerance": 0.01
+        },
+        {
+          "label": "Volumen des Sauerstoffs",
+          "answer": 3.36,
+          "unit_label": "L",
+          "tolerance": 0.1
+        }
+      ],
+      "hints": [
+        "n(H₂) = 6,72 : 22,4.",
+        "Sauerstoff: die halbe Stoffmenge.",
+        "V = 0,15 · 22,4."
+      ],
+      "solution": "n(H₂) = 0,3 mol\nn(O₂) = 0,15 mol\nV(O₂) = 0,15 · 22,4 = 3,36 L — genau die Hälfte, wie das Verhältnis 2 : 1 erwarten lässt.",
+      "tags": [
+        "gasvolumen",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "QB04-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum muss bei Volumenangaben von Gasen immer die Temperatur mitgenannt werden?",
+      "options": [
+        "Das molare Volumen hängt von Temperatur und Druck ab — bei 20 °C sind es rund 24 L/mol.",
+        "Die Teilchenzahl ändert sich mit der Temperatur.",
+        "Das ist nur eine Formalität."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert mit einem Gas beim Erwärmen?",
+        "Es dehnt sich aus.",
+        "Also ändert sich das Volumen je Mol."
+      ],
+      "solution": "Beim Erwärmen dehnt sich ein Gas aus — dieselbe Stoffmenge nimmt mehr Raum ein. Die Teilchenzahl bleibt gleich. Ohne Angabe der Bedingungen ist ein Gasvolumen deshalb nicht auswertbar.",
+      "misconceptions": [
+        {
+          "id": "teilchen_traegt_stoffeigenschaft",
+          "value": 1,
+          "feedback": "Die Teilchenzahl ändert sich nicht. Nur der Raum je Teilchen wird größer.",
+          "konzeptfehler": "teilchen_traegt_stoffeigenschaft"
+        }
+      ],
+      "tags": [
+        "gasvolumen",
+        "msa"
+      ],
+      "spiral": [
+        "W-EINH"
+      ]
+    },
+    {
+      "id": "QB04-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "numeric",
+      "prompt": "2,4 g Magnesium (M = 24 g/mol) reagieren mit Säure: Mg + 2 HCl → MgCl₂ + H₂. Welches Wasserstoffvolumen entsteht bei Normbedingungen?",
+      "answer": 2.24,
+      "unit_label": "L",
+      "tolerance": 0.1,
+      "hints": [
+        "n(Mg) = 2,4 : 24 = 0,1 mol.",
+        "Auf 1 Mg kommt 1 H₂, also 0,1 mol.",
+        "V = 0,1 · 22,4."
+      ],
+      "solution": "n(Mg) = 2,4 g : 24 g/mol = 0,1 mol\nn(H₂) = 0,1 mol\nV = 0,1 · 22,4 L/mol = 2,24 L",
+      "misconceptions": [
+        {
+          "id": "masse_direkt_uebertragen",
+          "value": 2.4,
+          "feedback": "2,4 ist die Masse des Magnesiums. Rechne über die Stoffmenge zum Gasvolumen."
+        }
+      ],
+      "tags": [
+        "gasvolumen",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-GLEI"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 7,
+      "aufgaben": 22,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 7,
+      "aufgaben": 20,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 7,
+      "aufgaben": 17,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Stoffmenge, Masse, molare Masse und Volumen",
+      "url": "https://learningapps.org/view28492973",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Formelsalat: Quantitäts- und Umrechnungsgrößen",
+      "url": "https://learningapps.org/view19996033",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 5,
+    "titel": "Die chemische Reaktion",
+    "seiten_von": 58,
+    "seiten_bis": 65,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "molare Volumen"
+  }
+}

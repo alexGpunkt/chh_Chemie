@@ -1,0 +1,698 @@
+{
+  "unit": "SL-02",
+  "title": "Indikatoren und die pH-Skala",
+  "leitidee": "B2",
+  "standards": [
+    "K1",
+    "K2.2",
+    "K2.4"
+  ],
+  "klasse": 9,
+  "wortspeicher": [
+    "der Indikator",
+    "die pH-Skala",
+    "sauer",
+    "neutral",
+    "alkalisch",
+    "das Universalindikatorpapier",
+    "der Rotkohlsaft"
+  ],
+  "worterklaerungen": {
+    "Indikator": "Ein Stoff, der je nach pH-Wert die Farbe wechselt.",
+    "pH-Skala": "Eine Skala von 0 bis 14. Sie gibt an, wie sauer oder alkalisch eine Lösung ist."
+  },
+  "can_do": {
+    "A": "Ich ordne pH-Werte den Bereichen sauer, neutral und alkalisch zu.",
+    "B": "Ich lese pH-Werte ab und ordne Alltagsstoffe ein.",
+    "C": "Ich erkläre, dass eine pH-Stufe dem Faktor 10 entspricht, und wende das auf Verdünnungen an."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Die Farbskala",
+      "hinfuehrung": "Ein Indikator zeigt mit seiner Farbe an, wie sauer eine Lösung ist.",
+      "erklaerung": [
+        "Rot heißt sauer.",
+        "Grün heißt neutral.",
+        "Blau heißt alkalisch."
+      ],
+      "merke": "Unter 7 sauer, genau 7 neutral, über 7 alkalisch.",
+      "beispiel": {
+        "titel": "Zitronensaft",
+        "aufgabe": "Der Indikator wird rot.",
+        "schritte": [
+          "Rot heißt sauer.",
+          "Der pH-Wert liegt unter 7."
+        ],
+        "ergebnis": "Zitronensaft ist sauer, pH etwa 2."
+      },
+      "visual": {
+        "type": "animation",
+        "name": "phwert",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Werte einordnen",
+      "hinfuehrung": "Die pH-Skala macht aus einem Eindruck eine Zahl. Damit lassen sich Lösungen vergleichen, die beide „sauer“ schmecken.",
+      "erklaerung": [
+        "Magensäure liegt bei pH 1, Zitronensaft bei 2, Regenwasser bei 5,6, reines Wasser bei 7.",
+        "Seifenlauge liegt bei etwa 10, Rohrreiniger bei 13.",
+        "Universalindikatorpapier gibt einen groben Wert, ein pH-Meter einen genauen.",
+        "Rotkohlsaft ist ein natürlicher Indikator und durchläuft die ganze Farbskala von rot über violett bis grün."
+      ],
+      "merke": "Der pH-Wert macht „sauer“ vergleichbar.",
+      "visual": {
+        "type": "animation",
+        "name": "phwert",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Eine Stufe ist der Faktor 10",
+      "hinfuehrung": "Die pH-Skala ist keine gewöhnliche Skala: Zwischen zwei benachbarten Werten liegt nicht ein Schritt, sondern ein Faktor.",
+      "erklaerung": [
+        "Eine Lösung mit pH 3 enthält zehnmal mehr Oxonium-Ionen als eine mit pH 4 — und hundertmal mehr als eine mit pH 5.",
+        "Zehnfaches Verdünnen erhöht den pH-Wert um genau eine Stufe.",
+        "Über pH 7 hinaus geht das Verdünnen nicht: Aus einer Säure wird durch Wasserzugabe nie eine Lauge.",
+        "Deshalb ist der Unterschied zwischen pH 1 und pH 3 nicht „zwei Stufen“, sondern der Faktor 100 — das erklärt, warum Magensäure so viel aggressiver ist als Essig."
+      ],
+      "merke": "Eine Stufe = Faktor 10. Zwei Stufen = Faktor 100.",
+      "visual": {
+        "type": "animation",
+        "name": "phwert",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "pH < 7 sauer · pH = 7 neutral · pH > 7 alkalisch"
+    ],
+    "saetze": [
+      "Eine pH-Stufe entspricht dem Faktor 10 bei der Konzentration.",
+      "Zehnfaches Verdünnen verschiebt den pH um 1 Richtung 7 — nie darüber hinaus.",
+      "Magensäure pH 1 · Zitrone 2 · Regen 5,6 · Wasser 7 · Seifenlauge 10.",
+      "Indikator: rot sauer, grün neutral, blau alkalisch."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Was ist eigentlich ein pH-Wert?",
+      "url": "https://www.youtube.com/watch?v=bfT_OkQpyj4",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/efqcSD",
+      "embed": "https://app.lumi.education/api/v1/run/efqcSD/embed",
+      "stufe": "A",
+      "dauer_s": 265
+    },
+    {
+      "titel": "Der Rotkohlindikator — wie er funktioniert",
+      "url": "https://www.youtube.com/watch?v=RPcRGgUspRs",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/rGBgSS",
+      "embed": "https://app.lumi.education/api/v1/run/rGBgSS/embed",
+      "stufe": "B",
+      "dauer_s": 199
+    },
+    {
+      "titel": "pH-Wert experimentell bestimmen",
+      "url": "https://www.youtube.com/watch?v=ZZLuo1klIc4",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/nYJ1f4",
+      "embed": "https://app.lumi.education/api/v1/run/nYJ1f4/embed",
+      "stufe": "B",
+      "dauer_s": 274
+    }
+  ],
+  "tasks": [
+    {
+      "id": "SL02-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Eine Lösung hat pH 3. Ist sie sauer, neutral oder alkalisch?",
+      "options": [
+        "sauer",
+        "neutral",
+        "alkalisch"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "phwert",
+        "stufe": "A"
+      },
+      "hints": [
+        "Neutral ist 7.",
+        "3 liegt darunter.",
+        "Also sauer."
+      ],
+      "solution": "pH 3 liegt unter 7 — die Lösung ist sauer.",
+      "misconceptions": [
+        {
+          "id": "ph_skala_falschrum",
+          "value": 2,
+          "feedback": "Über 7 wäre alkalisch. pH 3 liegt darunter.",
+          "konzeptfehler": "ph_skala_falschrum"
+        }
+      ],
+      "tags": [
+        "ph"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL02-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Welchen pH-Wert hat eine neutrale Lösung?",
+      "answer": 7,
+      "tolerance": 0,
+      "hints": [
+        "Genau in der Mitte der Skala.",
+        "Die Skala geht von 0 bis 14.",
+        "7."
+      ],
+      "solution": "Eine neutrale Lösung hat pH 7 — genau in der Mitte der Skala.",
+      "tags": [
+        "ph"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL02-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "assign",
+      "prompt": "Ordne jedem Stoff seinen Bereich zu.",
+      "slots": [
+        "Zitronensaft (pH 2)",
+        "reines Wasser (pH 7)",
+        "Seifenlauge (pH 10)"
+      ],
+      "values": [
+        "sauer",
+        "neutral",
+        "alkalisch"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Unter 7 sauer.",
+        "Genau 7 neutral.",
+        "Über 7 alkalisch."
+      ],
+      "solution": "Zitronensaft sauer, Wasser neutral, Seifenlauge alkalisch.",
+      "tags": [
+        "ph"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL02-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Welche Farbe zeigt Universalindikator bei pH 10?",
+      "options": [
+        "blau",
+        "rot",
+        "grün"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "phwert",
+        "stufe": "A"
+      },
+      "hints": [
+        "pH 10 ist alkalisch.",
+        "Alkalisch ist rechts auf der Skala.",
+        "Dort ist es blau."
+      ],
+      "solution": "pH 10 ist alkalisch — der Indikator färbt sich blau.",
+      "misconceptions": [
+        {
+          "id": "indikator_vertauscht",
+          "value": 1,
+          "feedback": "Rot zeigt eine saure Lösung an.",
+          "konzeptfehler": "saeure_lauge_vertauscht"
+        }
+      ],
+      "tags": [
+        "ph"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL02-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welche Lösung ist stärker sauer: pH 2 oder pH 5?",
+      "options": [
+        "pH 2",
+        "pH 5",
+        "beide gleich"
+      ],
+      "answer": 0,
+      "hints": [
+        "Je kleiner der Wert, desto saurer.",
+        "2 ist kleiner als 5.",
+        "pH 2."
+      ],
+      "solution": "Je kleiner der pH-Wert, desto saurer die Lösung. pH 2 ist deutlich saurer als pH 5 — genau um den Faktor 1000.",
+      "misconceptions": [
+        {
+          "id": "ph_skala_falschrum",
+          "value": 1,
+          "feedback": "Kleinere Werte bedeuten stärker sauer, nicht schwächer.",
+          "konzeptfehler": "ph_skala_falschrum"
+        }
+      ],
+      "tags": [
+        "ph",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL02-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Eine Säure mit pH 2 wird zehnfach verdünnt. Welchen pH-Wert hat sie danach?",
+      "answer": 3,
+      "tolerance": 0,
+      "visual": {
+        "type": "animation",
+        "name": "phwert",
+        "stufe": "C"
+      },
+      "hints": [
+        "Zehnfaches Verdünnen verschiebt um eine Stufe.",
+        "Richtung 7.",
+        "2 + 1 = 3."
+      ],
+      "solution": "Zehnfaches Verdünnen verschiebt den pH-Wert um eine Stufe Richtung 7: von 2 auf 3.",
+      "misconceptions": [
+        {
+          "id": "ph_skala_falschrum",
+          "value": 1,
+          "feedback": "Verdünnen macht die Lösung <b>weniger</b> sauer — der pH-Wert steigt.",
+          "konzeptfehler": "ph_skala_falschrum"
+        }
+      ],
+      "tags": [
+        "ph",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL02-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Um welchen Faktor unterscheidet sich die Konzentration der Oxonium-Ionen bei pH 3 und pH 5?",
+      "answer": 100,
+      "tolerance": 0,
+      "hints": [
+        "Eine Stufe ist der Faktor 10.",
+        "Von 3 auf 5 sind es zwei Stufen.",
+        "10 · 10 = 100."
+      ],
+      "solution": "Zwei Stufen bedeuten den Faktor 10 · 10 = 100. Eine Lösung mit pH 3 enthält hundertmal mehr Oxonium-Ionen.",
+      "misconceptions": [
+        {
+          "id": "ph_skala_falschrum",
+          "value": 2,
+          "feedback": "Die pH-Skala ist keine gewöhnliche Zahlenskala. Jede Stufe ist ein Faktor 10.",
+          "konzeptfehler": "ph_skala_falschrum"
+        }
+      ],
+      "tags": [
+        "ph",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL02-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Eine Säure mit pH 1 wird dreimal hintereinander zehnfach verdünnt. Welchen pH-Wert hat sie?",
+      "answer": 4,
+      "tolerance": 0,
+      "hints": [
+        "Jede Verdünnung eine Stufe.",
+        "1 + 3.",
+        "4."
+      ],
+      "solution": "1 + 3 = 4. Drei zehnfache Verdünnungen entsprechen dem Faktor 1000.",
+      "tags": [
+        "ph",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL02-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum wird eine Säure durch Verdünnen nie alkalisch?",
+      "options": [
+        "Verdünnen nähert den pH-Wert nur dem Wert von Wasser an — pH 7 wird nicht überschritten.",
+        "Weil Wasser selbst leicht sauer ist.",
+        "Weil Säure sich nicht verdünnen lässt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ist der Grenzwert beim Verdünnen?",
+        "Der pH-Wert von reinem Wasser.",
+        "Also 7."
+      ],
+      "solution": "Beim Verdünnen nähert sich der pH-Wert dem von reinem Wasser an, also 7. Er überschreitet diesen Wert nicht — dafür bräuchte es eine Lauge.",
+      "tags": [
+        "ph",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL02-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum eignet sich Rotkohlsaft als Indikator?",
+      "options": [
+        "Sein Farbstoff wechselt über den ganzen pH-Bereich mehrfach die Farbe.",
+        "Er ist besonders sauer.",
+        "Er ist billig."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was macht einen guten Indikator aus?",
+        "Er muss die Farbe wechseln.",
+        "Rotkohl tut das mehrfach."
+      ],
+      "solution": "Der Farbstoff im Rotkohl durchläuft von sauer bis alkalisch mehrere Farben — von rot über violett und blau bis grün. Damit lässt sich der pH-Bereich grob ablesen.",
+      "tags": [
+        "ph",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL02-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Magensäure hat pH 1, Essig pH 3. Wie viel saurer ist die Magensäure?",
+      "options": [
+        "hundertmal",
+        "zweimal",
+        "dreimal"
+      ],
+      "answer": 0,
+      "hints": [
+        "Zwei Stufen Unterschied.",
+        "Jede Stufe ist der Faktor 10.",
+        "10 · 10."
+      ],
+      "solution": "Zwei Stufen bedeuten den Faktor 100. Die Magensäure enthält hundertmal mehr Oxonium-Ionen — deshalb wirkt sie so viel aggressiver.",
+      "misconceptions": [
+        {
+          "id": "ph_skala_falschrum",
+          "value": 1,
+          "feedback": "Der Unterschied ist kein Faktor 2. Jede pH-Stufe entspricht dem Faktor 10.",
+          "konzeptfehler": "ph_skala_falschrum"
+        }
+      ],
+      "tags": [
+        "ph",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL02-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Eine Salzsäure hat pH 1. Sie wird schrittweise zehnfach verdünnt.",
+      "fields": [
+        {
+          "label": "pH nach der ersten Verdünnung",
+          "answer": 2,
+          "tolerance": 0
+        },
+        {
+          "label": "pH nach der vierten Verdünnung",
+          "answer": 5,
+          "tolerance": 0
+        },
+        {
+          "label": "pH nach der zehnten Verdünnung",
+          "answer": 7,
+          "tolerance": 0
+        }
+      ],
+      "hints": [
+        "Jede Verdünnung eine Stufe.",
+        "1 + 4 = 5.",
+        "Ab pH 7 geht es nicht weiter."
+      ],
+      "solution": "1 → 2 → 3 → 4 → 5 …\nAb pH 7 hört die Verschiebung auf: Weiter als bis zum Wert von reinem Wasser kommt man durch Verdünnen nicht.",
+      "tags": [
+        "ph",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL02-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum reicht Universalindikatorpapier für eine genaue Messung nicht aus?",
+      "options": [
+        "Es liefert nur einen groben Farbvergleich; für genaue Werte braucht es ein pH-Meter.",
+        "Es funktioniert nur bei Säuren.",
+        "Es ist zu teuer."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie genau lässt sich eine Farbe ablesen?",
+        "Auf etwa eine halbe Stufe.",
+        "Das reicht für viele Fragen nicht."
+      ],
+      "solution": "Der Farbvergleich erlaubt eine Genauigkeit von etwa einer halben pH-Stufe. Weil eine Stufe dem Faktor 10 entspricht, ist das für genaue Aussagen zu ungenau — dafür braucht es ein pH-Meter.",
+      "tags": [
+        "ph",
+        "bewerten",
+        "msa"
+      ]
+    },
+    {
+      "id": "SL02-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „pH 6 und pH 8 sind fast gleich, beide liegen nahe bei 7.“ Wie bewertest du das?",
+      "options": [
+        "Die Werte liegen zahlenmäßig nahe, unterscheiden sich in der Konzentration aber um den Faktor 100.",
+        "Richtig, beide sind praktisch neutral.",
+        "Falsch, pH 6 ist alkalisch."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie viele Stufen liegen zwischen 6 und 8?",
+        "Zwei.",
+        "Also der Faktor 100."
+      ],
+      "solution": "Zwei Stufen bedeuten den Faktor 100. Die eine Lösung ist sauer, die andere alkalisch. Die scheinbare Nähe auf der Skala täuscht — genau das ist die Eigenart einer logarithmischen Skala.",
+      "tags": [
+        "ph",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 7,
+      "aufgaben": 22,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 5,
+      "aufgaben": 22,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 5,
+      "aufgaben": 19,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "pH-Werte zuordnen",
+      "url": "https://learningapps.org/view9636489",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "pH-Wert Quiz zur Wiederholung",
+      "url": "https://learningapps.org/view2012921",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "pH-Wert — Zuordnen",
+      "url": "https://allgemeinbildung.ch/fach=che/pH-Wert_01s.htm",
+      "typ": "app",
+      "quelle": "allgemeinbildung.ch"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Rotkohlsaft als Indikator",
+      "url": "https://www.youtube.com/watch?v=4phd0XRMKHU",
+      "quelle": "BeardedScienceGuy",
+      "stufe": "A",
+      "rolle": "Demonstration zum selbstgemachten Indikator",
+      "lumi": "https://app.lumi.education/run/7TnUZG",
+      "embed": "https://app.lumi.education/api/v1/run/7TnUZG/embed",
+      "protokoll": true
+    },
+    {
+      "titel": "Indikatoren in Säuren und Laugen",
+      "url": "https://www.youtube.com/watch?v=FeeM8R29blU",
+      "quelle": "Rugby School Chemistry",
+      "stufe": "B",
+      "rolle": "Demonstration zur Farbskala des Universalindikators",
+      "embed": "https://www.youtube-nocookie.com/embed/FeeM8R29blU",
+      "protokoll": false,
+      "beobachtung": {
+        "A": "Male die Farbskala des Universalindikators ins Heft und beschrifte sauer, neutral, alkalisch.",
+        "B": "Ordne die geprüften Lösungen nach steigendem pH-Wert und erkläre, woran du sauer und alkalisch erkennst.",
+        "C": "Beurteile, warum ein Universalindikator einem einzelnen Indikator überlegen ist. Begründe."
+      }
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 10,
+    "titel": "Säuren, Laugen, Salze",
+    "seiten_von": 115,
+    "seiten_bis": 142,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Indikator"
+  }
+}

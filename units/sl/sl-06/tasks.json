@@ -1,0 +1,692 @@
+{
+  "unit": "SL-06",
+  "title": "Neutralisation und Salzbildung",
+  "leitidee": "B3",
+  "standards": [
+    "K1",
+    "K2.2",
+    "K2.4"
+  ],
+  "klasse": 9,
+  "wortspeicher": [
+    "die Neutralisation",
+    "das Salz",
+    "die Titration",
+    "der Äquivalenzpunkt",
+    "der Indikator",
+    "die Bürette"
+  ],
+  "worterklaerungen": {
+    "Neutralisation": "Säure und Lauge reagieren zu Wasser und einem Salz.",
+    "Titration": "Ein Messverfahren: Man gibt so lange Lauge zu, bis die Säure neutralisiert ist.",
+    "Äquivalenzpunkt": "Der Punkt, an dem genau gleich viel Säure und Lauge umgesetzt sind."
+  },
+  "can_do": {
+    "A": "Ich weiß, dass bei der Neutralisation Wasser und ein Salz entstehen.",
+    "B": "Ich stelle Neutralisationsgleichungen auf und benenne das entstehende Salz.",
+    "C": "Ich werte eine Titration aus und begründe den steilen Verlauf der Kurve."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Säure trifft Lauge",
+      "hinfuehrung": "Säure und Lauge heben sich gegenseitig auf.",
+      "erklaerung": [
+        "Es entsteht Wasser.",
+        "Und ein Salz."
+      ],
+      "merke": "Säure + Lauge → Salz + Wasser.",
+      "beispiel": {
+        "titel": "Salzsäure und Natronlauge",
+        "aufgabe": "HCl trifft auf NaOH.",
+        "schritte": [
+          "Es entsteht Wasser.",
+          "Und Natriumchlorid.",
+          "Die Lösung wird neutral."
+        ],
+        "ergebnis": "HCl + NaOH → NaCl + H₂O"
+      },
+      "visual": {
+        "type": "animation",
+        "name": "neutralisation",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Welches Salz entsteht",
+      "hinfuehrung": "Das Salz setzt sich immer aus zwei Teilen zusammen: dem Metall-Ion der Lauge und dem Säurerest-Ion der Säure.",
+      "erklaerung": [
+        "Salzsäure + Natronlauge → Natriumchlorid.",
+        "Schwefelsäure + Kalilauge → Kaliumsulfat.",
+        "Salpetersäure + Natronlauge → Natriumnitrat.",
+        "Der eigentliche Vorgang ist immer derselbe: H₃O⁺ + OH⁻ → 2 H₂O. Die übrigen Ionen bleiben unverändert in Lösung und heißen deshalb Zuschauerionen."
+      ],
+      "merke": "Metall-Ion der Lauge + Säurerest-Ion der Säure = das Salz.",
+      "visual": {
+        "type": "animation",
+        "name": "neutralisation",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Die Titration auswerten",
+      "hinfuehrung": "Die Titration macht aus der Neutralisation ein Messverfahren: Aus dem verbrauchten Volumen lässt sich die unbekannte Konzentration berechnen.",
+      "erklaerung": [
+        "Zur Säure wird aus einer Bürette Lauge bekannter Konzentration zugegeben, bis der Indikator umschlägt.",
+        "Am Äquivalenzpunkt gilt n(Säure) = n(Lauge), bei einprotonigen Säuren also c₁ · V₁ = c₂ · V₂.",
+        "Die Titrationskurve verläuft dort sehr steil: Kurz vor dem Punkt sind fast alle Oxonium-Ionen verbraucht, ein Tropfen ändert die Konzentration dann um Größenordnungen.",
+        "Genau deshalb funktioniert das Verfahren so genau — und deshalb wird am Ende tropfenweise zugegeben."
+      ],
+      "merke": "Am Äquivalenzpunkt: c(Säure) · V(Säure) = c(Lauge) · V(Lauge).",
+      "visual": {
+        "type": "animation",
+        "name": "neutralisation",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Säure + Lauge → Salz + Wasser",
+      "H₃O⁺ + OH⁻ → 2 H₂O",
+      "HCl + NaOH → NaCl + H₂O",
+      "c₁ · V₁ = c₂ · V₂"
+    ],
+    "saetze": [
+      "Bei der Neutralisation entstehen immer Wasser und ein Salz.",
+      "Das Salz besteht aus Metall-Ion und Säurerest-Ion.",
+      "Am Äquivalenzpunkt sind die Stoffmengen gleich.",
+      "Die Neutralisation ist exotherm."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Was ist Neutralisation?",
+      "url": "https://www.youtube.com/watch?v=5c5SrQb2SM4",
+      "quelle": "musstewissen Chemie",
+      "lumi": "https://app.lumi.education/run/eXpI5q",
+      "embed": "https://app.lumi.education/api/v1/run/eXpI5q/embed",
+      "stufe": "A",
+      "dauer_s": 512
+    },
+    {
+      "titel": "Neutralisationsgleichungen aufstellen",
+      "url": "https://www.youtube.com/watch?v=LAoReUsaYGg",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/tkQe4y",
+      "embed": "https://app.lumi.education/api/v1/run/tkQe4y/embed",
+      "stufe": "B",
+      "dauer_s": 459
+    },
+    {
+      "titel": "Neutralisation — was neutral heißt",
+      "url": "https://www.youtube.com/watch?v=UgDq5GlucPY",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/rScOVJ",
+      "embed": "https://app.lumi.education/api/v1/run/rScOVJ/embed",
+      "stufe": "B",
+      "dauer_s": 534
+    }
+  ],
+  "tasks": [
+    {
+      "id": "SL06-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Was entsteht bei einer Neutralisation immer?",
+      "options": [
+        "Wasser",
+        "ein Gas",
+        "ein Metall"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "neutralisation",
+        "stufe": "A"
+      },
+      "hints": [
+        "H₃O⁺ und OH⁻ reagieren miteinander.",
+        "Daraus wird Wasser.",
+        "Wasser."
+      ],
+      "solution": "Bei jeder Neutralisation entsteht Wasser — dazu ein Salz aus den übrigen Ionen.",
+      "tags": [
+        "neutralisation"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "SL06-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Welches Salz entsteht aus Salzsäure und Natronlauge?",
+      "options": [
+        "Natriumchlorid",
+        "Natriumsulfat",
+        "Kaliumchlorid"
+      ],
+      "answer": 0,
+      "hints": [
+        "Das Metall stammt aus der Lauge.",
+        "Der Säurerest aus der Säure.",
+        "Natrium und Chlorid."
+      ],
+      "solution": "Aus Na⁺ der Lauge und Cl⁻ der Säure entsteht Natriumchlorid — Kochsalz.",
+      "tags": [
+        "neutralisation"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SL06-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Welchen pH-Wert hat eine vollständig neutralisierte Lösung?",
+      "options": [
+        "7",
+        "1",
+        "14"
+      ],
+      "answer": 0,
+      "hints": [
+        "Neutral liegt in der Mitte der Skala.",
+        "Die Skala geht von 0 bis 14.",
+        "7."
+      ],
+      "solution": "Nach vollständiger Neutralisation liegt der pH-Wert bei 7.",
+      "tags": [
+        "neutralisation"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL06-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum wird das Reagenzglas bei einer Neutralisation warm?",
+      "options": [
+        "Die Reaktion ist exotherm.",
+        "Die Säure war warm.",
+        "Der Indikator erwärmt sich."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wird Energie frei oder gebraucht?",
+        "Es wird warm — also frei.",
+        "Exotherm."
+      ],
+      "solution": "Die Neutralisation ist exotherm — bei der Bildung von Wasser wird Energie frei.",
+      "misconceptions": [
+        {
+          "id": "exo_endo_vertauscht",
+          "value": 1,
+          "feedback": "Die Wärme entsteht bei der Reaktion selbst, nicht durch die Ausgangsstoffe."
+        }
+      ],
+      "tags": [
+        "neutralisation",
+        "energie"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "SL06-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welches Salz entsteht aus Schwefelsäure und Kalilauge?",
+      "options": [
+        "Kaliumsulfat",
+        "Kaliumchlorid",
+        "Natriumsulfat"
+      ],
+      "answer": 0,
+      "hints": [
+        "Das Metall stammt aus der Lauge: Kalium.",
+        "Der Säurerest aus der Schwefelsäure: Sulfat.",
+        "Kaliumsulfat."
+      ],
+      "solution": "K⁺ aus der Kalilauge und SO₄²⁻ aus der Schwefelsäure ergeben Kaliumsulfat K₂SO₄.",
+      "tags": [
+        "neutralisation",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SL06-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Welche Teilchen reagieren bei jeder Neutralisation miteinander?",
+      "options": [
+        "H₃O⁺ und OH⁻",
+        "Na⁺ und Cl⁻",
+        "H₂O und NaCl"
+      ],
+      "answer": 0,
+      "hints": [
+        "Welche Ionen verschwinden aus der Lösung?",
+        "Die, die sauer und alkalisch machen.",
+        "H₃O⁺ und OH⁻."
+      ],
+      "solution": "H₃O⁺ + OH⁻ → 2 H₂O ist der eigentliche Vorgang. Na⁺ und Cl⁻ bleiben unverändert in Lösung — sie sind Zuschauerionen.",
+      "misconceptions": [
+        {
+          "id": "edukt_produkt_vertauscht",
+          "value": 1,
+          "feedback": "Na⁺ und Cl⁻ reagieren nicht miteinander — sie bleiben gelöst.",
+          "konzeptfehler": "edukt_produkt_vertauscht"
+        }
+      ],
+      "tags": [
+        "neutralisation",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "SL06-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "20 mL Salzsäure der Konzentration 0,1 mol/L werden mit Natronlauge der Konzentration 0,1 mol/L neutralisiert. Wie viel Lauge wird gebraucht?",
+      "answer": 20,
+      "unit_label": "mL",
+      "tolerance": 0.5,
+      "hints": [
+        "c₁ · V₁ = c₂ · V₂.",
+        "Beide Konzentrationen sind gleich.",
+        "Also auch die Volumen."
+      ],
+      "solution": "c₁ · V₁ = c₂ · V₂ → 0,1 · 20 = 0,1 · V₂ → V₂ = 20 mL",
+      "tags": [
+        "neutralisation",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES",
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "SL06-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "25 mL Säure unbekannter Konzentration verbrauchen 15 mL Natronlauge mit 0,2 mol/L. Wie groß ist die Säurekonzentration?",
+      "answer": 0.12,
+      "unit_label": "mol/L",
+      "tolerance": 0.005,
+      "hints": [
+        "c₁ · V₁ = c₂ · V₂.",
+        "c₁ = c₂ · V₂ : V₁.",
+        "0,2 · 15 : 25."
+      ],
+      "solution": "c(Säure) = 0,2 mol/L · 15 mL : 25 mL = 0,12 mol/L",
+      "misconceptions": [
+        {
+          "id": "verduennen_falsch_herum",
+          "value": 0.333,
+          "feedback": "Achte auf die Zuordnung: Das kleinere Laugenvolumen bedeutet eine kleinere Säurekonzentration.",
+          "konzeptfehler": "ph_skala_falschrum"
+        }
+      ],
+      "tags": [
+        "neutralisation",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL06-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Wozu dient der Indikator bei einer Titration?",
+      "options": [
+        "Er zeigt durch Farbumschlag an, wann der Äquivalenzpunkt erreicht ist.",
+        "Er beschleunigt die Reaktion.",
+        "Er neutralisiert die Säure."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie erkennt man das Ende der Titration?",
+        "An einem Farbwechsel.",
+        "Den zeigt der Indikator."
+      ],
+      "solution": "Der Indikator schlägt am Äquivalenzpunkt um und macht ihn damit sichtbar. An der Reaktion selbst nimmt er praktisch nicht teil.",
+      "tags": [
+        "neutralisation",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL06-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum wird gegen Ende der Titration nur noch tropfenweise zugegeben?",
+      "options": [
+        "Nahe dem Äquivalenzpunkt ändert schon ein Tropfen den pH-Wert stark.",
+        "Damit die Bürette länger hält.",
+        "Damit die Reaktion langsamer wird."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "neutralisation",
+        "stufe": "C"
+      },
+      "hints": [
+        "Sieh dir den Verlauf der Titrationskurve an.",
+        "Sie ist dort sehr steil.",
+        "Ein Tropfen entscheidet."
+      ],
+      "solution": "Kurz vor dem Äquivalenzpunkt sind fast alle Oxonium-Ionen verbraucht. Ein weiterer Tropfen ändert die Konzentration dann um Größenordnungen — die Kurve verläuft dort fast senkrecht.",
+      "tags": [
+        "neutralisation",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL06-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum sind Na⁺ und Cl⁻ bei der Neutralisation von HCl mit NaOH „Zuschauerionen“?",
+      "options": [
+        "Sie bleiben unverändert in Lösung und reagieren nicht miteinander.",
+        "Sie bilden sofort festes Kochsalz.",
+        "Sie verlassen die Lösung als Gas."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert mit ihnen während der Reaktion?",
+        "Nichts.",
+        "Erst beim Eindampfen bilden sie einen Kristall."
+      ],
+      "solution": "Während der Neutralisation reagieren nur H₃O⁺ und OH⁻. Na⁺ und Cl⁻ bleiben gelöst und unverändert — erst beim Eindampfen kristallisieren sie als Kochsalz aus.",
+      "tags": [
+        "neutralisation",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL06-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "20 mL Schwefelsäure werden mit 32 mL Natronlauge (0,25 mol/L) neutralisiert. Schwefelsäure ist zweiprotonig.",
+      "fields": [
+        {
+          "label": "Stoffmenge der Natronlauge in mmol",
+          "answer": 8,
+          "unit_label": "mmol",
+          "tolerance": 0.3
+        },
+        {
+          "label": "Stoffmenge der Schwefelsäure in mmol",
+          "answer": 4,
+          "unit_label": "mmol",
+          "tolerance": 0.2
+        },
+        {
+          "label": "Konzentration der Schwefelsäure",
+          "answer": 0.2,
+          "unit_label": "mol/L",
+          "tolerance": 0.01
+        }
+      ],
+      "hints": [
+        "n(NaOH) = 0,25 · 0,032 L = 8 mmol.",
+        "Ein H₂SO₄ verbraucht zwei NaOH.",
+        "c = 4 mmol : 20 mL."
+      ],
+      "solution": "n(NaOH) = 0,25 mol/L · 0,032 L = 8 mmol\nn(H₂SO₄) = 8 : 2 = 4 mmol\nc = 4 mmol : 0,020 L = 0,2 mol/L",
+      "misconceptions": [],
+      "tags": [
+        "neutralisation",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL06-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum liegt der Äquivalenzpunkt bei der Titration einer schwachen Säure mit einer starken Lauge nicht bei pH 7?",
+      "options": [
+        "Das entstehende Salz reagiert selbst leicht alkalisch, weil sein Anion Protonen aufnimmt.",
+        "Der Indikator ist ungenau.",
+        "Die Titration wurde falsch durchgeführt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was entsteht am Äquivalenzpunkt?",
+        "Das Salz der schwachen Säure.",
+        "Sein Anion ist eine Base."
+      ],
+      "solution": "Am Äquivalenzpunkt liegt das Salz der schwachen Säure vor. Sein Anion nimmt Protonen aus dem Wasser auf und setzt dabei OH⁻ frei — die Lösung reagiert leicht alkalisch. Deshalb wird der Indikator passend zur Säure gewählt.",
+      "tags": [
+        "neutralisation",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL06-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Nach der Neutralisation ist nichts mehr da — Säure und Lauge haben sich aufgehoben.“ Wie bewertest du das?",
+      "options": [
+        "Falsch — die Ionen sind weiterhin vorhanden; sie bilden Wasser und ein gelöstes Salz.",
+        "Richtig, beide sind verschwunden.",
+        "Falsch — es bleibt nur Säure übrig."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert beim Eindampfen der neutralisierten Lösung?",
+        "Ein Salz bleibt zurück.",
+        "Also war es die ganze Zeit vorhanden."
+      ],
+      "solution": "„Aufheben“ meint nur den pH-Wert. Die Teilchen sind vollständig erhalten: H₃O⁺ und OH⁻ bilden Wasser, die übrigen Ionen bleiben gelöst und lassen sich als Salz gewinnen. Masse geht nicht verloren.",
+      "misconceptions": [
+        {
+          "id": "masse_verschwindet",
+          "value": 1,
+          "feedback": "Beim Eindampfen bleibt das Salz zurück — es war die ganze Zeit da.",
+          "konzeptfehler": "masse_verschwindet"
+        }
+      ],
+      "tags": [
+        "neutralisation",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 10,
+      "aufgaben": 19,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 11,
+      "aufgaben": 16,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 12,
+      "aufgaben": 12,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Neutralisation - Beispiel: Salzsäure + Natronlauge",
+      "url": "https://learningapps.org/view16330421",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "LüTe: Gleichungen für Neutralisation 1",
+      "url": "https://learningapps.org/view6732499",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Neutralisation im Versuch",
+      "url": "https://www.youtube.com/watch?v=JuqeNjb_rqE",
+      "quelle": "Rugby School Chemistry",
+      "stufe": "A",
+      "rolle": "Demonstration zur Neutralisation",
+      "lumi": "https://app.lumi.education/run/6h0og1",
+      "embed": "https://app.lumi.education/api/v1/run/6h0og1/embed",
+      "protokoll": true
+    },
+    {
+      "titel": "Neutralisation als Farbverlauf",
+      "url": "https://www.youtube.com/watch?v=cteTmS7zPXM",
+      "quelle": "Tommy Technetium",
+      "stufe": "B",
+      "rolle": "Demonstration: der pH-Wert wandert sichtbar durch die Skala",
+      "lumi": "https://app.lumi.education/run/c6T9ey",
+      "embed": "https://app.lumi.education/api/v1/run/c6T9ey/embed",
+      "protokoll": true
+    },
+    {
+      "titel": "Eine Titration durchführen",
+      "url": "https://www.youtube.com/watch?v=RI14t0R1wMY",
+      "quelle": "Royal Society of Chemistry",
+      "stufe": "C",
+      "rolle": "Vertiefung: Bürette, Äquivalenzpunkt, Ablesen",
+      "lumi": "https://app.lumi.education/run/eb0lvd",
+      "embed": "https://app.lumi.education/api/v1/run/eb0lvd/embed",
+      "protokoll": true
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 10,
+    "titel": "Säuren, Laugen, Salze",
+    "seiten_von": 115,
+    "seiten_bis": 142,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Neutralisation"
+  }
+}

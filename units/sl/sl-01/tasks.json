@@ -1,0 +1,681 @@
+{
+  "unit": "SL-01",
+  "title": "Säuren im Alltag — Eigenschaften und Sicherheit",
+  "leitidee": "B2",
+  "standards": [
+    "K1",
+    "K2.1",
+    "K4.2"
+  ],
+  "klasse": 9,
+  "sicherheit": [
+    "Konzentrierte Säuren sind ätzend. Schutzbrille und Handschuhe sind Pflicht.",
+    "Beim Verdünnen gilt: erst das Wasser, dann die Säure.",
+    "Bei Hautkontakt mindestens 10 Minuten mit fließendem Wasser spülen."
+  ],
+  "wortspeicher": [
+    "die Säure",
+    "ätzend",
+    "die Verdünnungsregel",
+    "der Kalk",
+    "die Salzsäure",
+    "die Schwefelsäure",
+    "die Kohlensäure"
+  ],
+  "worterklaerungen": {
+    "Säure": "Ein Stoff, dessen wässrige Lösung sauer schmeckt und Indikatoren rot färbt.",
+    "Verdünnungsregel": "Erst das Wasser, dann die Säure — sonst spritzt es."
+  },
+  "can_do": {
+    "A": "Ich nenne Säuren aus dem Alltag und weiß, wie man sicher mit ihnen umgeht.",
+    "B": "Ich beschreibe die Wirkung von Säuren auf unedle Metalle und Kalk.",
+    "C": "Ich begründe Sicherheitsregeln im Umgang mit Säuren fachlich."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Säuren kennst du schon",
+      "hinfuehrung": "Säuren gibt es in jedem Haushalt.",
+      "erklaerung": [
+        "Zitronensaft und Essig sind Säuren.",
+        "Sie schmecken sauer."
+      ],
+      "merke": "Säuren im Labor werden nie geschmeckt.",
+      "beispiel": {
+        "titel": "Kalk und Essig",
+        "aufgabe": "Essig auf einen Kalkfleck.",
+        "schritte": [
+          "Es schäumt.",
+          "Ein Gas entsteht.",
+          "Der Kalk verschwindet."
+        ],
+        "ergebnis": "Säuren lösen Kalk."
+      },
+      "visual": {
+        "type": "phskala",
+        "marken": [
+          {
+            "wert": 2,
+            "stoff": "Zitronensaft"
+          },
+          {
+            "wert": 3,
+            "stoff": "Essig"
+          }
+        ],
+        "alt": "pH-Skala mit Zitronensaft bei pH 2 und Essig bei pH 3."
+      }
+    },
+    "B": {
+      "titel": "Woran man Säuren erkennt",
+      "hinfuehrung": "Säuren haben mehrere gemeinsame Wirkungen. Zusammen ergeben sie ein verlässliches Bild.",
+      "erklaerung": [
+        "Sie färben Indikatoren: Lackmus und Universalindikator werden rot.",
+        "Sie reagieren mit unedlen Metallen unter Bildung von Wasserstoff. Edle Metalle greifen sie nicht an.",
+        "Sie lösen Kalk unter Bildung von Kohlenstoffdioxid — daher der Kalkentferner im Bad.",
+        "Wichtige Säuren: Salzsäure HCl, Schwefelsäure H₂SO₄, Salpetersäure HNO₃, Kohlensäure H₂CO₃, Essigsäure."
+      ],
+      "merke": "Indikator rot, Wasserstoff mit unedlen Metallen, Kohlenstoffdioxid mit Kalk.",
+      "visual": {
+        "type": "animation",
+        "name": "phwert",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Warum die Regeln so lauten",
+      "hinfuehrung": "Die Sicherheitsregeln im Umgang mit Säuren sind keine Willkür — jede hat eine chemische Begründung.",
+      "erklaerung": [
+        "„Erst das Wasser, dann die Säure“: Beim Verdünnen wird viel Wärme frei. Gibt man Wasser in konzentrierte Säure, erhitzt sich der kleine Tropfen schlagartig und spritzt Säure heraus.",
+        "Mindestens 10 Minuten spülen: Eine ätzende Wirkung hält an, solange Reste auf der Haut sind. Kurzes Abspülen verdünnt nur.",
+        "Nicht neutralisieren, sondern spülen: Eine Neutralisation auf der Haut setzt zusätzlich Wärme frei.",
+        "Konzentrierte Schwefelsäure entzieht organischem Material das Wasser — deshalb schwärzt sie Papier und Haut."
+      ],
+      "merke": "Jede Regel hat einen Grund. Wer ihn kennt, wendet sie richtig an.",
+      "visual": {
+        "type": "energie",
+        "verlauf": "exotherm",
+        "alt": "Energiediagramm des exothermen Verdünnungsvorgangs."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Säure + unedles Metall → Salz + Wasserstoff",
+      "Säure + Kalk → Salz + Wasser + Kohlenstoffdioxid"
+    ],
+    "saetze": [
+      "Erst das Wasser, dann die Säure.",
+      "Indikator wird rot: die Lösung ist sauer.",
+      "Salzsäure HCl · Schwefelsäure H₂SO₄ · Salpetersäure HNO₃ · Kohlensäure H₂CO₃",
+      "Bei Hautkontakt mindestens 10 Minuten spülen."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Salzsäure — wirklich ätzend",
+      "url": "https://www.youtube.com/watch?v=oHEQrjBaqyM",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/7Y11uN",
+      "embed": "https://app.lumi.education/api/v1/run/7Y11uN/embed",
+      "stufe": "B",
+      "dauer_s": 176
+    },
+    {
+      "titel": "Erst das Wasser, dann die Säure — und warum",
+      "url": "https://www.youtube.com/watch?v=-U20HLo4puk",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/H7yB0o",
+      "embed": "https://app.lumi.education/api/v1/run/H7yB0o/embed",
+      "stufe": "A",
+      "dauer_s": 180
+    }
+  ],
+  "tasks": [
+    {
+      "id": "SL01-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welcher Stoff aus dem Haushalt ist eine Säure?",
+      "options": [
+        "Essig",
+        "Speisesalz",
+        "Zucker"
+      ],
+      "answer": 0,
+      "hints": [
+        "Er schmeckt sauer.",
+        "Man nimmt ihn für Salat.",
+        "Essig."
+      ],
+      "solution": "Essig ist eine Säure. Salz und Zucker sind es nicht.",
+      "tags": [
+        "saeuren"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL01-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Wie färbt sich Universalindikator in einer Säure?",
+      "options": [
+        "rot",
+        "blau",
+        "grün"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "phwert",
+        "stufe": "A"
+      },
+      "hints": [
+        "Sauer ist links auf der Skala.",
+        "Dort ist die Farbe rot.",
+        "Rot."
+      ],
+      "solution": "In sauren Lösungen färbt sich der Universalindikator rot.",
+      "misconceptions": [
+        {
+          "id": "indikator_vertauscht",
+          "value": 1,
+          "feedback": "Blau zeigt eine alkalische Lösung an. Sauer ist rot.",
+          "konzeptfehler": "saeure_lauge_vertauscht"
+        }
+      ],
+      "tags": [
+        "saeuren"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL01-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Was gilt beim Verdünnen von Säure?",
+      "options": [
+        "Erst das Wasser, dann die Säure.",
+        "Erst die Säure, dann das Wasser.",
+        "Die Reihenfolge ist egal."
+      ],
+      "answer": 0,
+      "hints": [
+        "Es gibt einen Merkspruch dazu.",
+        "„… sonst geschieht das Ungeheure.“",
+        "Erst das Wasser."
+      ],
+      "solution": "Erst das Wasser, dann die Säure — sonst geschieht das Ungeheure. Beim Verdünnen wird viel Wärme frei.",
+      "misconceptions": [
+        {
+          "id": "reihenfolge_vertauscht",
+          "value": 1,
+          "feedback": "Umgekehrt spritzt die Säure. Erst das Wasser vorlegen.",
+          "konzeptfehler": "sicherheitsregel_missachtet"
+        }
+      ],
+      "tags": [
+        "saeuren",
+        "sicherheit"
+      ]
+    },
+    {
+      "id": "SL01-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Was passiert, wenn Essig auf Kalk trifft?",
+      "options": [
+        "Es schäumt, ein Gas entsteht.",
+        "Nichts.",
+        "Der Kalk wird härter."
+      ],
+      "answer": 0,
+      "hints": [
+        "Beobachte einen Kalkentferner.",
+        "Es sprudelt.",
+        "Ein Gas entweicht."
+      ],
+      "solution": "Säuren lösen Kalk. Dabei entsteht Kohlenstoffdioxid — das Schäumen. Genau darauf beruhen Kalkentferner.",
+      "tags": [
+        "saeuren"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "SL01-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Was entsteht, wenn eine Säure auf ein unedles Metall trifft?",
+      "options": [
+        "ein Salz und Wasserstoff",
+        "ein Salz und Sauerstoff",
+        "nur Wärme"
+      ],
+      "answer": 0,
+      "hints": [
+        "Ein Gas entsteht.",
+        "Es lässt sich mit der Knallgasprobe nachweisen.",
+        "Wasserstoff."
+      ],
+      "solution": "Säure + unedles Metall → Salz + Wasserstoff. Der Wasserstoff lässt sich mit der Knallgasprobe nachweisen.",
+      "misconceptions": [
+        {
+          "id": "nachweis_verwechselt",
+          "value": 1,
+          "feedback": "Sauerstoff entsteht dabei nicht. Es ist Wasserstoff.",
+          "konzeptfehler": "nachweis_verwechselt"
+        }
+      ],
+      "tags": [
+        "saeuren",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "SL01-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum greift Salzsäure Kupfer nicht an, Zink aber schon?",
+      "options": [
+        "Kupfer ist edler als Wasserstoff, Zink unedler.",
+        "Kupfer ist härter.",
+        "Zink löst sich in jedem Wasser."
+      ],
+      "answer": 0,
+      "hints": [
+        "Denk an die Redoxreihe.",
+        "Nur unedle Metalle reagieren mit Säuren.",
+        "Kupfer steht rechts vom Wasserstoff."
+      ],
+      "solution": "Nur Metalle, die unedler sind als Wasserstoff, verdrängen ihn aus der Säure. Zink ist unedler, Kupfer edler — deshalb reagiert nur das Zink.",
+      "tags": [
+        "saeuren",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "SL01-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum wird beim Verdünnen die Säure ins Wasser gegeben und nicht umgekehrt?",
+      "options": [
+        "Die frei werdende Wärme verteilt sich in der großen Wassermenge.",
+        "Die Säure ist schwerer.",
+        "Damit man besser rühren kann."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was wird beim Verdünnen frei?",
+        "Wärme, und zwar viel.",
+        "Wenig Wasser kann sie nicht aufnehmen."
+      ],
+      "solution": "Beim Verdünnen wird viel Wärme frei. In einer großen Wassermenge verteilt sie sich. Gibt man dagegen Wasser in konzentrierte Säure, erhitzt sich der Tropfen schlagartig und spritzt Säure heraus.",
+      "misconceptions": [
+        {
+          "id": "dichte_als_grund",
+          "value": 1,
+          "feedback": "Mit der Dichte hat die Regel nichts zu tun. Entscheidend ist die Wärme.",
+          "konzeptfehler": "sicherheitsregel_missachtet"
+        }
+      ],
+      "tags": [
+        "saeuren",
+        "sicherheit",
+        "bbr"
+      ]
+    },
+    {
+      "id": "SL01-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "assign",
+      "prompt": "Ordne jeder Säure ihre Formel zu.",
+      "slots": [
+        "Salzsäure",
+        "Schwefelsäure",
+        "Salpetersäure"
+      ],
+      "values": [
+        "HCl",
+        "H₂SO₄",
+        "HNO₃"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Salzsäure ist die einfachste.",
+        "Schwefelsäure enthält Schwefel.",
+        "Salpetersäure enthält Stickstoff."
+      ],
+      "solution": "Salzsäure HCl, Schwefelsäure H₂SO₄, Salpetersäure HNO₃.",
+      "tags": [
+        "saeuren",
+        "formeln",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SL01-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum schwärzt konzentrierte Schwefelsäure Papier?",
+      "options": [
+        "Sie entzieht dem Papier das Wasser; zurück bleibt Kohlenstoff.",
+        "Sie verbrennt das Papier.",
+        "Sie färbt das Papier ein."
+      ],
+      "answer": 0,
+      "hints": [
+        "Papier besteht aus Kohlenstoff, Wasserstoff und Sauerstoff.",
+        "Was passiert, wenn H und O als Wasser entfernt werden?",
+        "Kohlenstoff bleibt übrig."
+      ],
+      "solution": "Konzentrierte Schwefelsäure wirkt stark wasserentziehend. Aus dem Papier wird Wasser herausgezogen, zurück bleibt schwarzer Kohlenstoff. Auf der Haut wirkt sie ebenso — daher die Gefährlichkeit.",
+      "tags": [
+        "saeuren",
+        "sicherheit",
+        "msa"
+      ]
+    },
+    {
+      "id": "SL01-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "numeric",
+      "prompt": "Ein Entkalker enthält 8 % Zitronensäure. Wie viel Säure stecken in 250 g?",
+      "answer": 20,
+      "unit_label": "g",
+      "tolerance": 0.5,
+      "hints": [
+        "8 % von 250 g.",
+        "1 % sind 2,5 g.",
+        "8 · 2,5 g."
+      ],
+      "solution": "250 g · 0,08 = 20 g Zitronensäure",
+      "tags": [
+        "saeuren",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL01-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum soll man Säure auf der Haut spülen und nicht mit Lauge neutralisieren?",
+      "options": [
+        "Die Neutralisation setzt zusätzlich Wärme frei und kann die Haut weiter schädigen.",
+        "Lauge ist nicht verfügbar.",
+        "Die Neutralisation dauert zu lange."
+      ],
+      "answer": 0,
+      "hints": [
+        "Ist die Neutralisation exotherm oder endotherm?",
+        "Exotherm.",
+        "Wärme auf verletzter Haut ist keine gute Idee."
+      ],
+      "solution": "Die Neutralisation ist stark exotherm. Auf der Haut käme zur Verätzung eine Verbrennung hinzu. Reichlich Wasser verdünnt und kühlt zugleich — das ist die sichere Maßnahme.",
+      "tags": [
+        "saeuren",
+        "sicherheit",
+        "msa"
+      ]
+    },
+    {
+      "id": "SL01-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum reagiert Kalk mit Säure unter Gasentwicklung?",
+      "options": [
+        "Es entsteht Kohlensäure, die sofort in Wasser und Kohlenstoffdioxid zerfällt.",
+        "Der Kalk verbrennt.",
+        "Die Säure verdampft."
+      ],
+      "answer": 0,
+      "hints": [
+        "Kalk ist Calciumcarbonat.",
+        "Aus dem Carbonat wird zunächst Kohlensäure.",
+        "Die ist nicht stabil."
+      ],
+      "solution": "Die Säure setzt aus dem Carbonat Kohlensäure frei. Diese ist instabil und zerfällt sofort in Wasser und Kohlenstoffdioxid — das aufsteigende Gas.",
+      "tags": [
+        "saeuren",
+        "erklaeren",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "SL01-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Ein Kalkentferner enthält 10 % Essigsäure. Für eine Anwendung werden 400 g der Lösung gebraucht.",
+      "fields": [
+        {
+          "label": "Masse der Essigsäure",
+          "answer": 40,
+          "unit_label": "g",
+          "tolerance": 1
+        },
+        {
+          "label": "Masse des Wassers",
+          "answer": 360,
+          "unit_label": "g",
+          "tolerance": 2
+        },
+        {
+          "label": "Säuremasse bei Verdünnung auf 4 %",
+          "answer": 40,
+          "unit_label": "g",
+          "tolerance": 1
+        }
+      ],
+      "hints": [
+        "10 % von 400 g.",
+        "Der Rest ist Wasser.",
+        "Beim Verdünnen ändert sich die Säuremasse nicht."
+      ],
+      "solution": "Säure: 400 · 0,10 = 40 g\nWasser: 360 g\nBeim Verdünnen bleibt die Säuremasse gleich — nur die Gesamtmasse wächst.",
+      "tags": [
+        "saeuren",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SL01-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Verdünnte Säure ist harmlos.“ Wie bewertest du das?",
+      "options": [
+        "Zu pauschal — die Wirkung hängt von Konzentration, Säurestärke und Einwirkzeit ab.",
+        "Richtig — verdünnt ist immer harmlos.",
+        "Falsch — verdünnte Säure ist genauso gefährlich."
+      ],
+      "answer": 0,
+      "hints": [
+        "Ist jede verdünnte Säure gleich schwach?",
+        "Nein — Konzentration und Stärke unterscheiden sich.",
+        "Und die Einwirkzeit zählt auch."
+      ],
+      "solution": "Verdünnen senkt die Gefährdung, hebt sie aber nicht auf. Entscheidend sind Konzentration, Säurestärke und wie lange die Säure einwirkt. Eine pauschale Entwarnung ist im Labor nie angebracht.",
+      "tags": [
+        "saeuren",
+        "bewerten",
+        "msa"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 5,
+      "aufgaben": 24,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 5,
+      "aufgaben": 22,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 5,
+      "aufgaben": 19,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Säuren und Basen im Alltag I",
+      "url": "https://learningapps.org/view3680812",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Formeltrichter Säuren, Säurereste",
+      "url": "https://learningapps.org/view573173",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Säuren & Basen — Auswahl",
+      "url": "https://allgemeinbildung.ch/fach=che/Saeuren_Basen_01a.htm",
+      "typ": "app",
+      "quelle": "allgemeinbildung.ch"
+    },
+    {
+      "titel": "Säuren und Laugen — Quiz Klasse 9",
+      "url": "https://www.schlaukopf.de/realschule/klasse9/chemie/saurenlaugen",
+      "typ": "app",
+      "quelle": "Schlaukopf"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Leitfähigkeit von Säuren",
+      "url": "https://www.youtube.com/watch?v=Lr4uyqLPElU",
+      "quelle": "Rugby School Chemistry",
+      "stufe": "C",
+      "rolle": "Vertiefung: Säuren leiten den Strom — Hinweis auf Ionen",
+      "lumi": "https://app.lumi.education/run/6m441X",
+      "embed": "https://app.lumi.education/api/v1/run/6m441X/embed",
+      "protokoll": true
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 10,
+    "titel": "Säuren, Laugen, Salze",
+    "seiten_von": 115,
+    "seiten_bis": 142,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Säure"
+  }
+}
