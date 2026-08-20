@@ -1,0 +1,2017 @@
+{
+ "fc-01": [
+  {
+   "seite": 9,
+   "punkte": 1.19,
+   "treffer": [
+    "gefahr",
+    "sicher"
+   ]
+  },
+  {
+   "seite": 77,
+   "punkte": 0.99,
+   "treffer": [
+    "schutzbrille",
+    "versuch"
+   ]
+  },
+  {
+   "seite": 72,
+   "punkte": 0.99,
+   "treffer": [
+    "schutzbrille",
+    "versuch"
+   ]
+  }
+ ],
+ "fc-02": [
+  {
+   "seite": 59,
+   "punkte": 1.78,
+   "treffer": [
+    "vollstandig",
+    "vollstandige"
+   ]
+  },
+  {
+   "seite": 44,
+   "punkte": 1.52,
+   "treffer": [
+    "luftzufuhr",
+    "verbrennung"
+   ]
+  },
+  {
+   "seite": 10,
+   "punkte": 1.51,
+   "treffer": [
+    "flamme",
+    "gasbrenner"
+   ]
+  }
+ ],
+ "fc-03": [
+  {
+   "seite": 25,
+   "punkte": 4.27,
+   "treffer": [
+    "eigenschaft",
+    "eigenschaften",
+    "messbar",
+    "schmelz",
+    "selbst",
+    "siedetemperatur"
+   ]
+  },
+  {
+   "seite": 24,
+   "punkte": 2.41,
+   "treffer": [
+    "aggregatzustand",
+    "teilchen",
+    "zustand"
+   ]
+  },
+  {
+   "seite": 35,
+   "punkte": 2.37,
+   "treffer": [
+    "eigenschaft",
+    "reinstoff",
+    "selbst",
+    "stoffe",
+    "teilchen"
+   ]
+  }
+ ],
+ "fc-04": [
+  {
+   "seite": 28,
+   "punkte": 2.77,
+   "treffer": [
+    "gemisch",
+    "stoffe",
+    "trennt",
+    "trennverfahren",
+    "verfahren"
+   ]
+  },
+  {
+   "seite": 35,
+   "punkte": 1.93,
+   "treffer": [
+    "losung",
+    "reinstoff",
+    "stoffe",
+    "unterscheiden"
+   ]
+  },
+  {
+   "seite": 79,
+   "punkte": 1.53,
+   "treffer": [
+    "gemisch",
+    "heisst",
+    "losung"
+   ]
+  }
+ ],
+ "fc-05": [
+  {
+   "seite": 54,
+   "punkte": 3.05,
+   "treffer": [
+    "chemische",
+    "endotherm",
+    "energie",
+    "exotherm",
+    "produkt",
+    "reaktion"
+   ]
+  },
+  {
+   "seite": 63,
+   "punkte": 2.3,
+   "treffer": [
+    "chemische",
+    "endotherm",
+    "energie",
+    "produkt",
+    "reaktion"
+   ]
+  },
+  {
+   "seite": 50,
+   "punkte": 1.8,
+   "treffer": [
+    "chemische",
+    "erkennen",
+    "produkt",
+    "reaktion"
+   ]
+  }
+ ],
+ "fc-06": [
+  {
+   "seite": 45,
+   "punkte": 2.21,
+   "treffer": [
+    "fragen",
+    "loschen",
+    "verbrennung",
+    "wasser"
+   ]
+  },
+  {
+   "seite": 47,
+   "punkte": 1.5,
+   "treffer": [
+    "brennt",
+    "fragen",
+    "wasser"
+   ]
+  },
+  {
+   "seite": 38,
+   "punkte": 1.35,
+   "treffer": [
+    "brennt",
+    "verbrennung"
+   ]
+  }
+ ],
+ "fc-07": [
+  {
+   "seite": 87,
+   "punkte": 2.08,
+   "treffer": [
+    "edukte",
+    "produkte",
+    "reaktion",
+    "sauerstoff"
+   ]
+  },
+  {
+   "seite": 50,
+   "punkte": 1.95,
+   "treffer": [
+    "edukte",
+    "reaktion",
+    "wortgleichung"
+   ]
+  },
+  {
+   "seite": 88,
+   "punkte": 1.55,
+   "treffer": [
+    "reaktion",
+    "sauerstoff",
+    "wortgleichung"
+   ]
+  }
+ ],
+ "fc-08": [
+  {
+   "seite": 101,
+   "punkte": 1.55,
+   "treffer": [
+    "innerhalb",
+    "system"
+   ]
+  },
+  {
+   "seite": 50,
+   "punkte": 1.26,
+   "treffer": [
+    "produkt",
+    "wortgleichung"
+   ]
+  },
+  {
+   "seite": 87,
+   "punkte": 1.15,
+   "treffer": [
+    "gesetz",
+    "produkt"
+   ]
+  }
+ ],
+ "ps-01": [
+  {
+   "seite": 102,
+   "punkte": 4.09,
+   "treffer": [
+    "element",
+    "gruppe",
+    "hauptgruppe",
+    "periode",
+    "perioden",
+    "periodensystem"
+   ]
+  },
+  {
+   "seite": 93,
+   "punkte": 3.23,
+   "treffer": [
+    "element",
+    "gruppe",
+    "periode",
+    "perioden",
+    "periodensystem"
+   ]
+  },
+  {
+   "seite": 52,
+   "punkte": 2.83,
+   "treffer": [
+    "element",
+    "periode",
+    "perioden",
+    "periodensystem"
+   ]
+  }
+ ],
+ "ps-02": [
+  {
+   "seite": 22,
+   "punkte": 1.94,
+   "treffer": [
+    "modell",
+    "modelle",
+    "verstehen"
+   ]
+  },
+  {
+   "seite": 136,
+   "punkte": 0.75,
+   "treffer": [
+    "zeigen"
+   ]
+  },
+  {
+   "seite": 76,
+   "punkte": 0.75,
+   "treffer": [
+    "zeigen"
+   ]
+  }
+ ],
+ "ps-03": [
+  {
+   "seite": 60,
+   "punkte": 2.77,
+   "treffer": [
+    "konstante",
+    "massenverhaltnis",
+    "massenverhaltnisse"
+   ]
+  },
+  {
+   "seite": 101,
+   "punkte": 1.47,
+   "treffer": [
+    "erklart",
+    "modell",
+    "werden"
+   ]
+  },
+  {
+   "seite": 52,
+   "punkte": 1.37,
+   "treffer": [
+    "dalton",
+    "modell"
+   ]
+  }
+ ],
+ "ps-04": [
+  {
+   "seite": 99,
+   "punkte": 1.56,
+   "treffer": [
+    "beobachtungen",
+    "modell",
+    "versuchs"
+   ]
+  },
+  {
+   "seite": 23,
+   "punkte": 0.94,
+   "treffer": [
+    "grosse",
+    "modell"
+   ]
+  },
+  {
+   "seite": 39,
+   "punkte": 0.8,
+   "treffer": [
+    "kleiner"
+   ]
+  }
+ ],
+ "ps-05": [
+  {
+   "seite": 100,
+   "punkte": 3.63,
+   "treffer": [
+    "isotop",
+    "massenzahl",
+    "neutron",
+    "neutronen"
+   ]
+  },
+  {
+   "seite": 135,
+   "punkte": 1.85,
+   "treffer": [
+    "proton",
+    "protonen"
+   ]
+  },
+  {
+   "seite": 140,
+   "punkte": 1.6,
+   "treffer": [
+    "elektron",
+    "elektronen"
+   ]
+  }
+ ],
+ "ps-06": [
+  {
+   "seite": 52,
+   "punkte": 1.66,
+   "treffer": [
+    "periodensystem",
+    "verhaltnis"
+   ]
+  },
+  {
+   "seite": 61,
+   "punkte": 1.49,
+   "treffer": [
+    "einheit",
+    "kohlenstoff"
+   ]
+  },
+  {
+   "seite": 60,
+   "punkte": 0.86,
+   "treffer": [
+    "verhaltnis"
+   ]
+  }
+ ],
+ "ps-07": [
+  {
+   "seite": 101,
+   "punkte": 2.05,
+   "treffer": [
+    "jeweils",
+    "schale",
+    "schalen"
+   ]
+  },
+  {
+   "seite": 102,
+   "punkte": 1.66,
+   "treffer": [
+    "hauptgruppe",
+    "periode"
+   ]
+  },
+  {
+   "seite": 136,
+   "punkte": 1.3,
+   "treffer": [
+    "schale",
+    "schalen"
+   ]
+  }
+ ],
+ "ps-08": [
+  {
+   "seite": 96,
+   "punkte": 2.08,
+   "treffer": [
+    "eigenschaften",
+    "gleiche",
+    "gruppe",
+    "halogene"
+   ]
+  },
+  {
+   "seite": 102,
+   "punkte": 1.2,
+   "treffer": [
+    "gruppe",
+    "periode"
+   ]
+  },
+  {
+   "seite": 93,
+   "punkte": 1.2,
+   "treffer": [
+    "gruppe",
+    "periode"
+   ]
+  }
+ ],
+ "ga-01": [
+  {
+   "seite": 60,
+   "punkte": 1.38,
+   "treffer": [
+    "sauerstoff",
+    "verhaltnisse"
+   ]
+  },
+  {
+   "seite": 79,
+   "punkte": 1.32,
+   "treffer": [
+    "gasgemisch",
+    "gemisch"
+   ]
+  },
+  {
+   "seite": 38,
+   "punkte": 1.32,
+   "treffer": [
+    "sauerstoff",
+    "stickstoff"
+   ]
+  }
+ ],
+ "ga-02": [
+  {
+   "seite": 47,
+   "punkte": 2.55,
+   "treffer": [
+    "nachweis",
+    "nachweise",
+    "trubung"
+   ]
+  },
+  {
+   "seite": 38,
+   "punkte": 1.17,
+   "treffer": [
+    "nachweis",
+    "sauerstoff"
+   ]
+  },
+  {
+   "seite": 76,
+   "punkte": 1.03,
+   "treffer": [
+    "sauerstoff",
+    "wasserstoff"
+   ]
+  }
+ ],
+ "ga-03": [
+  {
+   "seite": 108,
+   "punkte": 1.99,
+   "treffer": [
+    "atombindung",
+    "bindungen",
+    "molekul"
+   ]
+  },
+  {
+   "seite": 112,
+   "punkte": 1.73,
+   "treffer": [
+    "bindungen",
+    "formel",
+    "molekul"
+   ]
+  },
+  {
+   "seite": 162,
+   "punkte": 1.27,
+   "treffer": [
+    "formel",
+    "molekul"
+   ]
+  }
+ ],
+ "ga-04": [
+  {
+   "seite": 97,
+   "punkte": 1.85,
+   "treffer": [
+    "edelgas",
+    "edelgase"
+   ]
+  },
+  {
+   "seite": 47,
+   "punkte": 1.85,
+   "treffer": [
+    "abgase",
+    "treibhauseffekt"
+   ]
+  },
+  {
+   "seite": 40,
+   "punkte": 1.67,
+   "treffer": [
+    "feinstaub",
+    "katalysator"
+   ]
+  }
+ ],
+ "ga-05": [
+  {
+   "seite": 79,
+   "punkte": 1.59,
+   "treffer": [
+    "antworten",
+    "gasgemisch"
+   ]
+  },
+  {
+   "seite": 38,
+   "punkte": 1.13,
+   "treffer": [
+    "aufgaben",
+    "nachweis"
+   ]
+  },
+  {
+   "seite": 174,
+   "punkte": 0.92,
+   "treffer": [
+    "verbinden"
+   ]
+  }
+ ],
+ "wa-01": [
+  {
+   "seite": 25,
+   "punkte": 2.05,
+   "treffer": [
+    "eigenschaften",
+    "losungsmittel",
+    "siedetemperatur",
+    "wasser"
+   ]
+  },
+  {
+   "seite": 19,
+   "punkte": 1.19,
+   "treffer": [
+    "eigenschaften",
+    "siedetemperatur",
+    "wasser"
+   ]
+  },
+  {
+   "seite": 176,
+   "punkte": 0.92,
+   "treffer": [
+    "leichter"
+   ]
+  }
+ ],
+ "wa-02": [
+  {
+   "seite": 76,
+   "punkte": 3.46,
+   "treffer": [
+    "analyse",
+    "besteht",
+    "sauerstoff",
+    "synthese",
+    "wasser",
+    "wasserstoff"
+   ]
+  },
+  {
+   "seite": 55,
+   "punkte": 1.86,
+   "treffer": [
+    "energie",
+    "reaktion",
+    "sauerstoff",
+    "wasser",
+    "wasserstoff"
+   ]
+  },
+  {
+   "seite": 188,
+   "punkte": 1.35,
+   "treffer": [
+    "braucht",
+    "gleiche"
+   ]
+  }
+ ],
+ "wa-03": [
+  {
+   "seite": 88,
+   "punkte": 1.32,
+   "treffer": [
+    "sauerstoff",
+    "wortgleichung"
+   ]
+  },
+  {
+   "seite": 76,
+   "punkte": 1.03,
+   "treffer": [
+    "sauerstoff",
+    "wasserstoff"
+   ]
+  },
+  {
+   "seite": 55,
+   "punkte": 1.03,
+   "treffer": [
+    "sauerstoff",
+    "wasserstoff"
+   ]
+  }
+ ],
+ "wa-04": [
+  {
+   "seite": 151,
+   "punkte": 1.32,
+   "treffer": [
+    "verschieden",
+    "verschiedene",
+    "wasser"
+   ]
+  },
+  {
+   "seite": 62,
+   "punkte": 1.32,
+   "treffer": [
+    "verschieden",
+    "verschiedene",
+    "wasser"
+   ]
+  },
+  {
+   "seite": 27,
+   "punkte": 1.32,
+   "treffer": [
+    "verschieden",
+    "verschiedene",
+    "wasser"
+   ]
+  }
+ ],
+ "wa-05": [
+  {
+   "seite": 16,
+   "punkte": 1.86,
+   "treffer": [
+    "loslich",
+    "loslichkeit",
+    "wasser"
+   ]
+  },
+  {
+   "seite": 174,
+   "punkte": 1.71,
+   "treffer": [
+    "loslich",
+    "loslichkeit"
+   ]
+  },
+  {
+   "seite": 25,
+   "punkte": 1.01,
+   "treffer": [
+    "losungsmittel",
+    "wasser"
+   ]
+  }
+ ],
+ "wa-06": [
+  {
+   "seite": 45,
+   "punkte": 1.42,
+   "treffer": [
+    "antworten",
+    "dieser",
+    "wasser"
+   ]
+  },
+  {
+   "seite": 138,
+   "punkte": 0.92,
+   "treffer": [
+    "elektrolyse"
+   ]
+  },
+  {
+   "seite": 59,
+   "punkte": 0.92,
+   "treffer": [
+    "reaktionsgleichung"
+   ]
+  }
+ ],
+ "sz-01": [
+  {
+   "seite": 140,
+   "punkte": 1.55,
+   "treffer": [
+    "atomen",
+    "elektron"
+   ]
+  },
+  {
+   "seite": 25,
+   "punkte": 1.19,
+   "treffer": [
+    "eigenschaften",
+    "teilchen",
+    "werden"
+   ]
+  },
+  {
+   "seite": 14,
+   "punkte": 0.96,
+   "treffer": [
+    "eigenschaften",
+    "teilchen"
+   ]
+  }
+ ],
+ "sz-02": [
+  {
+   "seite": 25,
+   "punkte": 1.42,
+   "treffer": [
+    "bestehen",
+    "leitfahigkeit"
+   ]
+  },
+  {
+   "seite": 191,
+   "punkte": 1.09,
+   "treffer": [
+    "starke",
+    "zusammen"
+   ]
+  },
+  {
+   "seite": 63,
+   "punkte": 0.95,
+   "treffer": [
+    "bestehen",
+    "zusammen"
+   ]
+  }
+ ],
+ "sz-03": null,
+ "sz-04": [
+  {
+   "seite": 25,
+   "punkte": 1.81,
+   "treffer": [
+    "bodensatz",
+    "leitfahigkeit",
+    "losung"
+   ]
+  },
+  {
+   "seite": 16,
+   "punkte": 1.81,
+   "treffer": [
+    "leitfahigkeit",
+    "loslichkeit",
+    "losung"
+   ]
+  },
+  {
+   "seite": 190,
+   "punkte": 0.86,
+   "treffer": [
+    "gesattigte"
+   ]
+  }
+ ],
+ "sz-05": [
+  {
+   "seite": 16,
+   "punkte": 1.67,
+   "treffer": [
+    "aufbau",
+    "eigenschaft",
+    "leitfahigkeit"
+   ]
+  },
+  {
+   "seite": 25,
+   "punkte": 1.61,
+   "treffer": [
+    "eigenschaft",
+    "leitfahigkeit",
+    "metall"
+   ]
+  },
+  {
+   "seite": 111,
+   "punkte": 1.3,
+   "treffer": [
+    "leitfahigkeit",
+    "metall"
+   ]
+  }
+ ],
+ "me-01": [
+  {
+   "seite": 25,
+   "punkte": 4.13,
+   "treffer": [
+    "eigenschaft",
+    "eigenschaften",
+    "elektrische",
+    "leitfahigkeit",
+    "metall",
+    "metalle"
+   ]
+  },
+  {
+   "seite": 16,
+   "punkte": 2.15,
+   "treffer": [
+    "eigenschaft",
+    "eigenschaften",
+    "leiten",
+    "leitfahigkeit"
+   ]
+  },
+  {
+   "seite": 111,
+   "punkte": 2.05,
+   "treffer": [
+    "leiten",
+    "leitfahigkeit",
+    "metall"
+   ]
+  }
+ ],
+ "me-02": [
+  {
+   "seite": 25,
+   "punkte": 3.77,
+   "treffer": [
+    "leitfahigkeit",
+    "metall",
+    "metalle",
+    "verformbar",
+    "verformbarkeit"
+   ]
+  },
+  {
+   "seite": 111,
+   "punkte": 2.97,
+   "treffer": [
+    "leiten",
+    "leitfahigkeit",
+    "metall",
+    "metallbindung"
+   ]
+  },
+  {
+   "seite": 16,
+   "punkte": 1.5,
+   "treffer": [
+    "leiten",
+    "leitfahigkeit"
+   ]
+  }
+ ],
+ "me-03": [
+  {
+   "seite": 117,
+   "punkte": 1.84,
+   "treffer": [
+    "metall",
+    "metalle",
+    "reagiert"
+   ]
+  },
+  {
+   "seite": 83,
+   "punkte": 1.41,
+   "treffer": [
+    "metall",
+    "metalle",
+    "reaktion"
+   ]
+  },
+  {
+   "seite": 82,
+   "punkte": 1.41,
+   "treffer": [
+    "metall",
+    "metalle",
+    "reaktion"
+   ]
+  }
+ ],
+ "me-04": null,
+ "me-05": [
+  {
+   "seite": 140,
+   "punkte": 2.66,
+   "treffer": [
+    "elektronen",
+    "gleich",
+    "redoxreaktion",
+    "reduktion"
+   ]
+  },
+  {
+   "seite": 86,
+   "punkte": 1.78,
+   "treffer": [
+    "redoxreaktion",
+    "redoxreaktionen"
+   ]
+  },
+  {
+   "seite": 87,
+   "punkte": 1.63,
+   "treffer": [
+    "reduktion",
+    "reduktionsmittel"
+   ]
+  }
+ ],
+ "me-06": [
+  {
+   "seite": 87,
+   "punkte": 3.58,
+   "treffer": [
+    "kohlenstoff",
+    "reduktion",
+    "reduktionsmittel",
+    "roheisen",
+    "sauerstoff"
+   ]
+  },
+  {
+   "seite": 88,
+   "punkte": 1.95,
+   "treffer": [
+    "kohlenstoff",
+    "roheisen",
+    "sauerstoff"
+   ]
+  },
+  {
+   "seite": 25,
+   "punkte": 1.45,
+   "treffer": [
+    "bestimmt",
+    "metall",
+    "wasser"
+   ]
+  }
+ ],
+ "me-07": [
+  {
+   "seite": 83,
+   "punkte": 1.3,
+   "treffer": [
+    "metalle",
+    "reaktionen"
+   ]
+  },
+  {
+   "seite": 111,
+   "punkte": 1.27,
+   "treffer": [
+    "bindung",
+    "metallbindung"
+   ]
+  },
+  {
+   "seite": 45,
+   "punkte": 1.27,
+   "treffer": [
+    "antworten",
+    "dieser"
+   ]
+  }
+ ],
+ "qb-01": [
+  {
+   "seite": 61,
+   "punkte": 1.66,
+   "treffer": [
+    "einheit",
+    "molare"
+   ]
+  },
+  {
+   "seite": 60,
+   "punkte": 0.92,
+   "treffer": [
+    "massenverhaltnis"
+   ]
+  },
+  {
+   "seite": 62,
+   "punkte": 0.8,
+   "treffer": [
+    "molare"
+   ]
+  }
+ ],
+ "qb-02": [
+  {
+   "seite": 61,
+   "punkte": 2.65,
+   "treffer": [
+    "molare",
+    "molaren",
+    "stoffmenge"
+   ]
+  },
+  {
+   "seite": 60,
+   "punkte": 1.27,
+   "treffer": [
+    "konstante",
+    "stehen"
+   ]
+  },
+  {
+   "seite": 39,
+   "punkte": 0.97,
+   "treffer": [
+    "stehen",
+    "teilchen"
+   ]
+  }
+ ],
+ "qb-03": [
+  {
+   "seite": 61,
+   "punkte": 2.58,
+   "treffer": [
+    "einheit",
+    "molare",
+    "stoffmenge"
+   ]
+  },
+  {
+   "seite": 23,
+   "punkte": 1.6,
+   "treffer": [
+    "dritte",
+    "grosse",
+    "welche"
+   ]
+  },
+  {
+   "seite": 60,
+   "punkte": 1.55,
+   "treffer": [
+    "gleichung",
+    "rechnen"
+   ]
+  }
+ ],
+ "qb-04": [
+  {
+   "seite": 62,
+   "punkte": 3.44,
+   "treffer": [
+    "molare",
+    "molares",
+    "normbedingungen",
+    "volumen"
+   ]
+  },
+  {
+   "seite": 35,
+   "punkte": 0.92,
+   "treffer": [
+    "teilchengrosse"
+   ]
+  },
+  {
+   "seite": 194,
+   "punkte": 0.86,
+   "treffer": [
+    "wiegen"
+   ]
+  }
+ ],
+ "qb-05": [
+  {
+   "seite": 60,
+   "punkte": 1.49,
+   "treffer": [
+    "gleichung",
+    "verhaltnis"
+   ]
+  },
+  {
+   "seite": 61,
+   "punkte": 0.92,
+   "treffer": [
+    "stoffmenge"
+   ]
+  },
+  {
+   "seite": 52,
+   "punkte": 0.86,
+   "treffer": [
+    "verhaltnis"
+   ]
+  }
+ ],
+ "sl-01": [
+  {
+   "seite": 9,
+   "punkte": 1.94,
+   "treffer": [
+    "richtig",
+    "sicherheit",
+    "wendet"
+   ]
+  },
+  {
+   "seite": 121,
+   "punkte": 1.83,
+   "treffer": [
+    "kohlensaure",
+    "schwefelsaure",
+    "werden"
+   ]
+  },
+  {
+   "seite": 115,
+   "punkte": 1.79,
+   "treffer": [
+    "indikator",
+    "sauren",
+    "wendet"
+   ]
+  }
+ ],
+ "sl-02": [
+  {
+   "seite": 115,
+   "punkte": 3.52,
+   "treffer": [
+    "alkalisch",
+    "indikator",
+    "indikatoren",
+    "rotkohlsaft"
+   ]
+  },
+  {
+   "seite": 135,
+   "punkte": 0.75,
+   "treffer": [
+    "neutral"
+   ]
+  },
+  {
+   "seite": 134,
+   "punkte": 0.75,
+   "treffer": [
+    "neutral"
+   ]
+  }
+ ],
+ "sl-03": [
+  {
+   "seite": 140,
+   "punkte": 1.13,
+   "treffer": [
+    "akzeptor",
+    "losung"
+   ]
+  },
+  {
+   "seite": 159,
+   "punkte": 1.11,
+   "treffer": [
+    "entsteht",
+    "losung",
+    "losungen"
+   ]
+  },
+  {
+   "seite": 135,
+   "punkte": 0.92,
+   "treffer": [
+    "proton"
+   ]
+  }
+ ],
+ "sl-04": [
+  {
+   "seite": 115,
+   "punkte": 1.98,
+   "treffer": [
+    "alkalisch",
+    "losung",
+    "wassrige"
+   ]
+  },
+  {
+   "seite": 128,
+   "punkte": 1.85,
+   "treffer": [
+    "hydroxid",
+    "natronlauge"
+   ]
+  },
+  {
+   "seite": 157,
+   "punkte": 1.13,
+   "treffer": [
+    "gebildet",
+    "losung"
+   ]
+  }
+ ],
+ "sl-05": [
+  {
+   "seite": 45,
+   "punkte": 1.76,
+   "treffer": [
+    "loschen",
+    "verbrennungen",
+    "wasser"
+   ]
+  },
+  {
+   "seite": 118,
+   "punkte": 1.27,
+   "treffer": [
+    "laugen",
+    "sauren"
+   ]
+  },
+  {
+   "seite": 120,
+   "punkte": 0.92,
+   "treffer": [
+    "schweflige"
+   ]
+  }
+ ],
+ "sl-06": [
+  {
+   "seite": 135,
+   "punkte": 1.78,
+   "treffer": [
+    "burette",
+    "neutralisation"
+   ]
+  },
+  {
+   "seite": 134,
+   "punkte": 1.78,
+   "treffer": [
+    "neutralisation",
+    "titration"
+   ]
+  },
+  {
+   "seite": 115,
+   "punkte": 0.9,
+   "treffer": [
+    "indikator",
+    "wasser"
+   ]
+  }
+ ],
+ "sl-07": [
+  {
+   "seite": 134,
+   "punkte": 2.7,
+   "treffer": [
+    "konzentration",
+    "neutralisation",
+    "titration"
+   ]
+  },
+  {
+   "seite": 115,
+   "punkte": 1.27,
+   "treffer": [
+    "indikator",
+    "sauren"
+   ]
+  },
+  {
+   "seite": 135,
+   "punkte": 0.86,
+   "treffer": [
+    "neutralisation"
+   ]
+  }
+ ],
+ "kw-01": [
+  {
+   "seite": 157,
+   "punkte": 3.1,
+   "treffer": [
+    "bindung",
+    "bindungen",
+    "organisch",
+    "selbst",
+    "verbindungen",
+    "verbrennung"
+   ]
+  },
+  {
+   "seite": 148,
+   "punkte": 2.64,
+   "treffer": [
+    "bindung",
+    "bindungen",
+    "kohlenstoff",
+    "organisch",
+    "verbindungen"
+   ]
+  },
+  {
+   "seite": 63,
+   "punkte": 1.9,
+   "treffer": [
+    "bindung",
+    "bindungen",
+    "selbst",
+    "verbindungen"
+   ]
+  }
+ ],
+ "kw-02": [
+  {
+   "seite": 161,
+   "punkte": 1.66,
+   "treffer": [
+    "alkane",
+    "homologe"
+   ]
+  },
+  {
+   "seite": 170,
+   "punkte": 1.26,
+   "treffer": [
+    "gruppe",
+    "homologe"
+   ]
+  },
+  {
+   "seite": 166,
+   "punkte": 0.92,
+   "treffer": [
+    "summenformel"
+   ]
+  }
+ ],
+ "kw-03": [
+  {
+   "seite": 166,
+   "punkte": 1.47,
+   "treffer": [
+    "struktur",
+    "summenformel"
+   ]
+  },
+  {
+   "seite": 113,
+   "punkte": 1.35,
+   "treffer": [
+    "struktur",
+    "strukturformel"
+   ]
+  },
+  {
+   "seite": 112,
+   "punkte": 1.35,
+   "treffer": [
+    "struktur",
+    "strukturformel"
+   ]
+  }
+ ],
+ "kw-04": [
+  {
+   "seite": 13,
+   "punkte": 1.4,
+   "treffer": [
+    "benennen",
+    "suchen"
+   ]
+  },
+  {
+   "seite": 62,
+   "punkte": 1.35,
+   "treffer": [
+    "gleiche",
+    "gleicher"
+   ]
+  },
+  {
+   "seite": 73,
+   "punkte": 1.13,
+   "treffer": [
+    "gleiche",
+    "siedetemperatur"
+   ]
+  }
+ ],
+ "kw-05": [
+  {
+   "seite": 24,
+   "punkte": 3.34,
+   "treffer": [
+    "aggregatzustand",
+    "anziehung",
+    "krafte",
+    "ordnet"
+   ]
+  },
+  {
+   "seite": 47,
+   "punkte": 0.92,
+   "treffer": [
+    "hohere"
+   ]
+  },
+  {
+   "seite": 133,
+   "punkte": 0.86,
+   "treffer": [
+    "grossere"
+   ]
+  }
+ ],
+ "kw-06": [
+  {
+   "seite": 59,
+   "punkte": 1.85,
+   "treffer": [
+    "reaktionsgleichung",
+    "vollstandige"
+   ]
+  },
+  {
+   "seite": 73,
+   "punkte": 0.92,
+   "treffer": [
+    "geruchlos"
+   ]
+  },
+  {
+   "seite": 42,
+   "punkte": 0.8,
+   "treffer": [
+    "erzeugt"
+   ]
+  }
+ ],
+ "kw-07": [
+  {
+   "seite": 161,
+   "punkte": 1.66,
+   "treffer": [
+    "alkane",
+    "homologe"
+   ]
+  },
+  {
+   "seite": 157,
+   "punkte": 1.4,
+   "treffer": [
+    "alkane",
+    "verbrennung"
+   ]
+  },
+  {
+   "seite": 45,
+   "punkte": 1.27,
+   "treffer": [
+    "antworten",
+    "verbrennung"
+   ]
+  }
+ ],
+ "al-01": [
+  {
+   "seite": 170,
+   "punkte": 3.31,
+   "treffer": [
+    "alkanol",
+    "alkohol",
+    "ethanol",
+    "garung",
+    "gruppe"
+   ]
+  },
+  {
+   "seite": 159,
+   "punkte": 1.49,
+   "treffer": [
+    "alkohol",
+    "garung"
+   ]
+  },
+  {
+   "seite": 168,
+   "punkte": 1.42,
+   "treffer": [
+    "alkanol",
+    "ethanol"
+   ]
+  }
+ ],
+ "al-02": [
+  {
+   "seite": 170,
+   "punkte": 2.81,
+   "treffer": [
+    "alkanol",
+    "alkanole",
+    "gruppe",
+    "homologe"
+   ]
+  },
+  {
+   "seite": 161,
+   "punkte": 2.41,
+   "treffer": [
+    "alkanol",
+    "alkanole",
+    "homologe"
+   ]
+  },
+  {
+   "seite": 96,
+   "punkte": 1.71,
+   "treffer": [
+    "eigenschaften",
+    "endung",
+    "gleiche",
+    "gruppe"
+   ]
+  }
+ ],
+ "al-03": [
+  {
+   "seite": 16,
+   "punkte": 2.05,
+   "treffer": [
+    "eigenschaften",
+    "loslich",
+    "loslichkeit"
+   ]
+  },
+  {
+   "seite": 174,
+   "punkte": 1.71,
+   "treffer": [
+    "loslich",
+    "loslichkeit"
+   ]
+  },
+  {
+   "seite": 175,
+   "punkte": 1.48,
+   "treffer": [
+    "eigenschaften",
+    "gruppen",
+    "struktur"
+   ]
+  }
+ ],
+ "al-04": [
+  {
+   "seite": 162,
+   "punkte": 1.8,
+   "treffer": [
+    "bedeutet",
+    "gruppe",
+    "gruppen"
+   ]
+  },
+  {
+   "seite": 195,
+   "punkte": 1.0,
+   "treffer": [
+    "gruppe",
+    "gruppen"
+   ]
+  },
+  {
+   "seite": 181,
+   "punkte": 1.0,
+   "treffer": [
+    "gruppe",
+    "gruppen"
+   ]
+  }
+ ],
+ "al-05": [
+  {
+   "seite": 191,
+   "punkte": 1.32,
+   "treffer": [
+    "aldehydgruppe",
+    "gruppe"
+   ]
+  },
+  {
+   "seite": 170,
+   "punkte": 1.03,
+   "treffer": [
+    "alkohol",
+    "gruppe"
+   ]
+  },
+  {
+   "seite": 162,
+   "punkte": 1.03,
+   "treffer": [
+    "alkohol",
+    "gruppe"
+   ]
+  }
+ ],
+ "al-06": [
+  {
+   "seite": 170,
+   "punkte": 3.21,
+   "treffer": [
+    "alkohol",
+    "alkoholische",
+    "garung",
+    "promille"
+   ]
+  },
+  {
+   "seite": 159,
+   "punkte": 2.96,
+   "treffer": [
+    "alkohol",
+    "alkoholische",
+    "garung",
+    "zucker"
+   ]
+  },
+  {
+   "seite": 87,
+   "punkte": 0.8,
+   "treffer": [
+    "teilen"
+   ]
+  }
+ ],
+ "al-07": [
+  {
+   "seite": 170,
+   "punkte": 1.71,
+   "treffer": [
+    "garung",
+    "homologe"
+   ]
+  },
+  {
+   "seite": 25,
+   "punkte": 1.56,
+   "treffer": [
+    "bestimmt",
+    "eigenschaften",
+    "folgen"
+   ]
+  },
+  {
+   "seite": 188,
+   "punkte": 1.3,
+   "treffer": [
+    "struktur",
+    "wirkung"
+   ]
+  }
+ ],
+ "os-01": [
+  {
+   "seite": 116,
+   "punkte": 1.71,
+   "treffer": [
+    "citronensaure",
+    "haushalt"
+   ]
+  },
+  {
+   "seite": 164,
+   "punkte": 1.52,
+   "treffer": [
+    "essigsaure",
+    "organische"
+   ]
+  },
+  {
+   "seite": 170,
+   "punkte": 1.0,
+   "treffer": [
+    "gruppe",
+    "organische"
+   ]
+  }
+ ],
+ "os-02": [
+  {
+   "seite": 168,
+   "punkte": 2.3,
+   "treffer": [
+    "alkansaure",
+    "ethansaure",
+    "sauren"
+   ]
+  },
+  {
+   "seite": 170,
+   "punkte": 1.38,
+   "treffer": [
+    "homologe",
+    "sauren"
+   ]
+  },
+  {
+   "seite": 116,
+   "punkte": 1.07,
+   "treffer": [
+    "endung",
+    "sauren"
+   ]
+  }
+ ],
+ "os-03": [
+  {
+   "seite": 174,
+   "punkte": 2.64,
+   "treffer": [
+    "loslich",
+    "loslichkeit",
+    "molekulen"
+   ]
+  },
+  {
+   "seite": 16,
+   "punkte": 2.2,
+   "treffer": [
+    "eigenschaften",
+    "loslich",
+    "loslichkeit",
+    "wasser"
+   ]
+  },
+  {
+   "seite": 73,
+   "punkte": 1.3,
+   "treffer": [
+    "geruchlos",
+    "wasser",
+    "werden"
+   ]
+  }
+ ],
+ "os-04": [
+  {
+   "seite": 184,
+   "punkte": 2.18,
+   "treffer": [
+    "aminosaure",
+    "aminosauren",
+    "gruppe"
+   ]
+  },
+  {
+   "seite": 116,
+   "punkte": 1.78,
+   "treffer": [
+    "citronensaure",
+    "milchsaure"
+   ]
+  },
+  {
+   "seite": 162,
+   "punkte": 1.67,
+   "treffer": [
+    "gruppe",
+    "gruppen",
+    "molekul"
+   ]
+  }
+ ],
+ "os-05": [
+  {
+   "seite": 134,
+   "punkte": 1.78,
+   "treffer": [
+    "konzentration",
+    "neutralisation"
+   ]
+  },
+  {
+   "seite": 184,
+   "punkte": 1.26,
+   "treffer": [
+    "aminosaure",
+    "gruppe"
+   ]
+  },
+  {
+   "seite": 170,
+   "punkte": 1.26,
+   "treffer": [
+    "gruppe",
+    "homologe"
+   ]
+  }
+ ],
+ "es-01": [
+  {
+   "seite": 166,
+   "punkte": 1.07,
+   "treffer": [
+    "beschleunigt",
+    "wasser"
+   ]
+  },
+  {
+   "seite": 170,
+   "punkte": 1.03,
+   "treffer": [
+    "alkohol",
+    "gruppe"
+   ]
+  },
+  {
+   "seite": 162,
+   "punkte": 1.03,
+   "treffer": [
+    "alkohol",
+    "gruppe"
+   ]
+  }
+ ],
+ "es-02": [
+  {
+   "seite": 25,
+   "punkte": 1.66,
+   "treffer": [
+    "andert",
+    "losungsmittel"
+   ]
+  },
+  {
+   "seite": 168,
+   "punkte": 0.92,
+   "treffer": [
+    "aromastoff"
+   ]
+  },
+  {
+   "seite": 79,
+   "punkte": 0.92,
+   "treffer": [
+    "heisst"
+   ]
+  }
+ ],
+ "es-03": [
+  {
+   "seite": 190,
+   "punkte": 1.78,
+   "treffer": [
+    "gesattigt",
+    "glycerin"
+   ]
+  },
+  {
+   "seite": 79,
+   "punkte": 1.49,
+   "treffer": [
+    "heisst",
+    "wasserstoff"
+   ]
+  },
+  {
+   "seite": 156,
+   "punkte": 1.43,
+   "treffer": [
+    "gesattigt",
+    "wasserstoff"
+   ]
+  }
+ ],
+ "es-04": null,
+ "es-05": [
+  {
+   "seite": 179,
+   "punkte": 2.57,
+   "treffer": [
+    "baustein",
+    "bausteine",
+    "monomer"
+   ]
+  },
+  {
+   "seite": 173,
+   "punkte": 1.27,
+   "treffer": [
+    "deshalb",
+    "kunststoff"
+   ]
+  },
+  {
+   "seite": 110,
+   "punkte": 1.27,
+   "treffer": [
+    "gruppen",
+    "lassen"
+   ]
+  }
+ ],
+ "es-06": [
+  {
+   "seite": 61,
+   "punkte": 1.27,
+   "treffer": [
+    "antworten",
+    "fragen"
+   ]
+  },
+  {
+   "seite": 45,
+   "punkte": 1.27,
+   "treffer": [
+    "antworten",
+    "fragen"
+   ]
+  },
+  {
+   "seite": 79,
+   "punkte": 0.9,
+   "treffer": [
+    "antworten",
+    "reaktion"
+   ]
+  }
+ ]
+}
