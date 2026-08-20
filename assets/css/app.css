@@ -113,6 +113,175 @@ body {
   padding-bottom: 92px; /* Platz für Formelkarte */
 }
 
+/* ============================================================
+   Ruhige Lernansicht
+   Klare Hierarchie und begrenzte Lesebreite entlasten besonders dann,
+   wenn Lesen und Strukturieren gleichzeitig schwerfallen.
+   ============================================================ */
+
+body {
+  background-color: #eef3f6;
+  background-image: radial-gradient(circle at 15% 0%, rgba(32,91,156,.08), transparent 28rem);
+  background-attachment: fixed;
+}
+
+.kopf {
+  padding: 18px max(18px, calc((100vw - 760px) / 2)) 22px;
+  box-shadow: 0 8px 30px rgba(10,25,48,.18);
+}
+
+.kopf-zeile { margin-bottom: 18px; }
+.einheit-code { opacity: .82; font-size: 13px; }
+.einheit-titel { font-size: clamp(22px, 4vw, 30px); }
+
+.streifen { height: 18px; border-radius: 999px; }
+.streifen-legende { font-size: 12px; opacity: .78; }
+
+.pfadwahl { gap: 10px; }
+.pfad-btn {
+  min-height: 58px;
+  border-width: 2px;
+  font-size: 15px;
+  flex-direction: row;
+  gap: 8px;
+}
+.pfad-btn .punkt { width: 12px; height: 12px; }
+.pfad-btn[aria-pressed="true"] { box-shadow: 0 4px 14px rgba(0,0,0,.2); }
+
+.lernreise {
+  max-width: 720px;
+  margin: 18px auto 0;
+  padding: 0 16px;
+}
+.lernreise ol {
+  list-style: none;
+  margin: 0;
+  padding: 8px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  background: var(--paper-hi);
+  border: 1px solid var(--linie);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+}
+.lernreise li {
+  min-width: 0;
+  padding: 10px 8px;
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  grid-template-rows: auto auto;
+  column-gap: 8px;
+  border-radius: 10px;
+  color: var(--ink-soft);
+}
+.lernreise li > span {
+  grid-row: 1 / 3;
+  align-self: center;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  border: 2px solid var(--linie-kraeftig);
+  border-radius: 50%;
+  font: 700 14px/1 var(--f-num);
+}
+.lernreise b { font-size: 14px; line-height: 1.2; }
+.lernreise small { font-size: 11px; line-height: 1.25; color: var(--ink-faint); }
+.lernreise li.ist-aktiv {
+  color: var(--pfad);
+  background: var(--pfad-bg);
+}
+.lernreise li.ist-aktiv > span { color: #fff; background: var(--pfad); border-color: var(--pfad); }
+
+main { padding: 20px 16px; max-width: 720px; }
+.stufe-zeile { margin: 2px 2px 10px; }
+.karte {
+  padding: clamp(20px, 4vw, 30px);
+  border: 0;
+  border-top: 6px solid var(--pfad);
+  border-radius: 18px;
+  box-shadow: 0 14px 40px -24px rgba(21,35,58,.55), 0 2px 8px rgba(21,35,58,.08);
+}
+
+.lernkarte { line-height: 1.65; }
+.lk-titel { font-size: clamp(24px, 4vw, 30px); margin-bottom: 16px; }
+.lk-hin {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 16px 18px;
+  margin-bottom: 20px;
+}
+.lk-erkl {
+  max-width: 58ch;
+  font-size: 17px;
+  padding-left: 34px;
+  position: relative;
+  margin-bottom: 14px;
+}
+.lk-erkl::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: .67em;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--pfad);
+}
+.lk-beispiel { margin-top: 24px; padding: 18px; border-radius: 14px; }
+.lk-rechenweg { font-size: 16px; line-height: 1.8; padding: 14px; }
+.lk-merke { margin-top: 20px; padding: 15px 18px; font-size: 17px; }
+
+.selbstcheck { padding: 18px; margin-top: 22px; border-radius: 14px; }
+.selbstcheck-frage { font-size: 18px; }
+.selbstcheck-satz { font-size: 16px; max-width: 55ch; }
+.selbstcheck-wahl { gap: 10px; }
+.opt.selbstcheck-opt { min-height: 56px; font-size: 16px; }
+
+.frage { font-size: clamp(20px, 3.5vw, 24px); line-height: 1.45; margin-bottom: 20px; }
+.optionen { gap: 12px; }
+.opt {
+  min-height: 60px;
+  padding: 15px 18px;
+  border-radius: 14px;
+  font-size: 17px;
+}
+.opt:hover { border-color: var(--pfad); background: var(--pfad-bg); }
+.opt[aria-pressed="true"] { box-shadow: inset 5px 0 0 var(--pfad); }
+.aktionen { margin-top: 20px; gap: 10px; }
+.btn { min-height: 54px; border-radius: 12px; font-size: 17px; }
+.rueck { padding: 16px 18px; font-size: 17px; line-height: 1.55; }
+
+.blattkarte, .uebungskarte, .zeitplan {
+  border: 0;
+  border-top: 4px solid var(--pfad);
+  border-radius: 16px;
+  box-shadow: 0 12px 32px -24px rgba(21,35,58,.5), 0 2px 8px rgba(21,35,58,.07);
+}
+.uebungskarte summary { min-height: 60px; padding: 14px 18px; font-size: 16px; }
+.heftkarte { border-top-color: var(--merk-linie); }
+.heft-punkt { padding: 14px; border-radius: 12px; }
+.heft-haken input { width: 24px; height: 24px; }
+.heft-text { font-size: 16px; }
+
+@media (max-width: 560px) {
+  .lernreise li { grid-template-columns: 26px 1fr; padding: 8px 5px; column-gap: 5px; }
+  .lernreise li > span { width: 26px; height: 26px; font-size: 12px; }
+  .lernreise small { display: none; }
+  .pfad-btn { font-size: 14px; }
+  .karte { padding: 20px 17px; }
+  .lk-erkl { padding-left: 27px; }
+  .selbstcheck-wahl { grid-template-columns: 1fr; }
+  .aktionen .btn { width: 100%; }
+}
+
+@media print {
+  .lernreise { display: none; }
+  body { background: #fff; }
+  .karte, .blattkarte, .uebungskarte, .zeitplan { box-shadow: none; border: 1px solid #aaa; }
+}
+
 /* ---------- Kopf ---------- */
 
 .kopf {
@@ -1283,3 +1452,74 @@ input.zahl-feld.lk-luecke-feld { flex: 1 1 120px; height: 46px; font-size: 18px;
 }
 .lehrbuch-auftrag { font-size: 15px; line-height: 1.6; }
 .lehrbuch-quelle { margin: 9px 0 0; font-size: 12px; color: var(--ink-faint); }
+
+/* Abschließende Komponenten-Hierarchie: bewusst am Dateiende, damit die
+   ruhige Lernansicht auch ältere, komponentenspezifische Regeln überstimmt. */
+body .kopf {
+  padding: 18px max(18px, calc((100vw - 760px) / 2)) 22px;
+  box-shadow: 0 8px 30px rgba(10,25,48,.18);
+}
+body .kopf-zeile { margin-bottom: 18px; }
+body .einheit-code { opacity: .82; font-size: 13px; }
+body .einheit-titel { font-size: clamp(22px, 4vw, 30px); }
+body .streifen { height: 18px; border-radius: 999px; }
+body .streifen-legende { font-size: 12px; opacity: .78; }
+body .pfadwahl { gap: 10px; }
+body .pfad-btn { min-height: 58px; border-width: 2px; font-size: 15px; flex-direction: row; gap: 8px; }
+body .pfad-btn .punkt { width: 12px; height: 12px; }
+body main { padding: 20px 16px; max-width: 720px; }
+body .karte {
+  padding: clamp(20px, 4vw, 30px);
+  border: 0;
+  border-top: 6px solid var(--pfad);
+  border-radius: 18px;
+  box-shadow: 0 14px 40px -24px rgba(21,35,58,.55), 0 2px 8px rgba(21,35,58,.08);
+}
+body .lernkarte { line-height: 1.65; }
+body .lk-titel { font-size: clamp(24px, 4vw, 30px); margin-bottom: 16px; }
+body .lk-hin { font-size: 18px; font-weight: 700; padding: 16px 18px; margin-bottom: 20px; }
+body .lk-erkl { max-width: 58ch; font-size: 17px; padding-left: 34px; margin-bottom: 14px; }
+body .lk-beispiel { margin-top: 24px; padding: 18px; border-radius: 14px; }
+body .lk-rechenweg { font-size: 16px; line-height: 1.8; padding: 14px; }
+body .lk-merke { margin-top: 20px; padding: 15px 18px; font-size: 17px; }
+body .selbstcheck { padding: 18px; margin-top: 22px; border-radius: 14px; }
+body .selbstcheck-frage { font-size: 18px; }
+body .selbstcheck-satz { font-size: 16px; max-width: 55ch; }
+body .selbstcheck-wahl { gap: 10px; }
+body .opt.selbstcheck-opt { min-height: 56px; font-size: 16px; }
+body .frage { font-size: clamp(20px, 3.5vw, 24px); line-height: 1.45; margin-bottom: 20px; }
+body .optionen { gap: 12px; }
+body .opt { min-height: 60px; padding: 15px 18px; border-radius: 14px; font-size: 17px; }
+body .aktionen { margin-top: 20px; gap: 10px; }
+body .btn { min-height: 54px; border-radius: 12px; font-size: 17px; }
+body .rueck { padding: 16px 18px; font-size: 17px; line-height: 1.55; }
+body .blattkarte, body .uebungskarte, body .zeitplan {
+  border: 0;
+  border-top: 4px solid var(--pfad);
+  border-radius: 16px;
+  box-shadow: 0 12px 32px -24px rgba(21,35,58,.5), 0 2px 8px rgba(21,35,58,.07);
+}
+body .uebungskarte summary { min-height: 60px; padding: 14px 18px; font-size: 16px; }
+body .heftkarte { border-top-color: var(--merk-linie); }
+body .heft-punkt { padding: 14px; border-radius: 12px; }
+body .heft-haken { min-height: 44px; }
+body .heft-text { font-size: 16px; }
+
+@media (max-width: 560px) {
+  body .pfad-btn { font-size: 14px; }
+  body .karte { padding: 20px 17px; }
+  body .lk-erkl { padding-left: 27px; }
+  body .selbstcheck-wahl { grid-template-columns: 1fr; }
+  body .aktionen .btn { width: 100%; }
+  body .zeitplan { padding: 11px 14px; }
+  body .zeitplan-kopf { margin: 0; align-items: center; }
+  body .zeitplan-kopf strong::after {
+    content: " · 45 Minuten";
+    color: var(--ink-soft);
+    font-family: var(--f-body);
+    font-weight: 400;
+  }
+  body .zeitplan-kopf span,
+  body .zeitplan-leiste { display: none; }
+}
+
