@@ -6,7 +6,11 @@ Die Einheitsseite führt jetzt sichtbar durch die drei Phasen Verstehen,
 Üben und Sichern. Größere Schrift, klarere Karten, großzügigere Touchziele
 und eine begrenzte Lesebreite erleichtern die Orientierung. Der umfangreiche
 Hefteintrag ist zunächst geschlossen und wird erst in der Sicherungsphase
-gebraucht.
+gebraucht. Die responsive Arbeitsfläche nutzt am Desktop eine feste
+Orientierungsspalte, am Tablet eine kompakte Doppelübersicht und auf dem
+Smartphone eine reduzierte Fokusansicht. Kontostatus, Formelschublade,
+Rechner und Seitennavigation sind getrennt angeordnet und überdecken den
+Lerninhalt nicht mehr.
 
 ## v4 — Lernvideos mit Lumi, externe Übungen, 45-Minuten-Einheit, Hefteintrag und ein Warm-up, das zählt
 
