@@ -262,7 +262,7 @@ main { padding: 20px 16px; max-width: 720px; }
 .uebungskarte summary { min-height: 60px; padding: 14px 18px; font-size: 16px; }
 .heftkarte { border-top-color: var(--merk-linie); }
 .heft-punkt { padding: 14px; border-radius: 12px; }
-.heft-haken input { width: 24px; height: 24px; }
+.heft-haken input { width: 44px; height: 44px; }
 .heft-text { font-size: 16px; }
 
 @media (max-width: 560px) {
@@ -274,6 +274,124 @@ main { padding: 20px 16px; max-width: 720px; }
   .lk-erkl { padding-left: 27px; }
   .selbstcheck-wahl { grid-template-columns: 1fr; }
   .aktionen .btn { width: 100%; }
+}
+
+/* ============================================================
+   Responsive Arbeitsfläche V2
+   Smartphone: Fokus. Tablet: kompakte Übersicht. Desktop: Seitenleiste.
+   ============================================================ */
+
+.lernlayout {
+  width: min(100%, 1120px);
+  margin: 0 auto;
+  padding: 20px 16px 0;
+}
+.lernlayout > main { min-width: 0; }
+.lernsteuerung { min-width: 0; }
+.lernsteuerung .lernreise { margin: 0; padding: 0; }
+.lernsteuerung .zeitplan { margin: 12px 0 0; }
+
+/* Desktop: Die Orientierung bleibt neben der Aufgabe sichtbar. */
+@media (min-width: 1024px) {
+  body .kopf { padding-left: max(24px, calc((100vw - 1120px) / 2)); padding-right: max(24px, calc((100vw - 1120px) / 2)); }
+  .lernlayout {
+    display: grid;
+    grid-template-columns: 292px minmax(0, 1fr);
+    gap: 28px;
+    align-items: start;
+    padding-top: 28px;
+  }
+  .lernsteuerung { position: sticky; top: 20px; }
+  .lernreise ol { grid-template-columns: 1fr; gap: 5px; }
+  .lernreise li { padding: 11px 10px; }
+  .lernreise small { font-size: 12px; }
+  .lernsteuerung .zeitplan { padding: 14px; }
+  .lernsteuerung .zeitplan-kopf { display: block; margin-bottom: 10px; }
+  .lernsteuerung .zeitplan-kopf span { display: block; margin-top: 2px; }
+  .lernsteuerung .zeitplan-leiste { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; }
+  .lernsteuerung .zeitplan-schritt { min-height: 58px; }
+  .lernsteuerung .zeitplan-schritt:nth-child(3) { grid-column: 1 / -1; }
+  body .lernlayout > main { width: 100%; max-width: none; margin: 0; padding: 0; }
+  body .karte { min-height: 0; }
+}
+
+/* Tablet: Orientierung und Zeitbudget stehen platzsparend nebeneinander. */
+@media (min-width: 700px) and (max-width: 1023px) {
+  .lernlayout { padding: 22px 24px 0; }
+  .lernsteuerung {
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(280px, .95fr);
+    gap: 14px;
+    align-items: stretch;
+    margin-bottom: 20px;
+  }
+  .lernreise ol { height: 100%; }
+  .lernreise li { grid-template-columns: 28px 1fr; padding: 9px 7px; column-gap: 6px; }
+  .lernreise li > span { width: 28px; height: 28px; }
+  .lernsteuerung .zeitplan { margin: 0; padding: 12px 14px; }
+  .lernsteuerung .zeitplan-kopf { margin-bottom: 8px; }
+  .lernsteuerung .zeitplan-kopf span { display: none; }
+  .lernsteuerung .zeitplan-leiste { display: grid; grid-template-columns: repeat(5, 1fr); gap: 3px; }
+  .lernsteuerung .zeitplan-schritt { padding: 6px 4px; min-height: 48px; }
+  .lernsteuerung .zeitplan-phase { display: none; }
+  .lernsteuerung .zeitplan-min { text-align: center; align-self: center; }
+  body .lernlayout > main { max-width: 820px; margin: 0 auto; padding: 0; }
+}
+
+/* Smartphone: Nur die nächste Entscheidung zählt. */
+@media (max-width: 699px) {
+  body .kopf { padding: 14px 16px 18px; }
+  body .kopf-zeile { align-items: flex-start; margin-bottom: 14px; }
+  body .einheit-code { font-size: 11px; line-height: 1.45; }
+  body .einheit-titel { font-size: clamp(21px, 6.5vw, 27px); line-height: 1.1; }
+  body .streifen-wrap { margin-top: 10px; }
+  body .pfadwahl { margin-top: 12px; gap: 7px; }
+  body .pfad-btn { min-height: 52px; padding: 6px; font-size: 13px; }
+  body .pfad-btn .punkt { width: 10px; height: 10px; }
+  .lernlayout { padding: 16px 12px 0; }
+  .lernsteuerung { margin-bottom: 16px; }
+  .lernreise ol { padding: 6px; border-radius: 14px; }
+  .lernreise li { display: flex; justify-content: center; padding: 8px 4px; gap: 5px; }
+  .lernreise li > span { width: 25px; height: 25px; flex: 0 0 25px; font-size: 11px; }
+  .lernreise b { font-size: 13px; align-self: center; }
+  .lernreise small { display: none; }
+  .lernsteuerung .zeitplan { margin: 9px 0 0; border-top-width: 3px; }
+  .lernsteuerung .zeitplan-kopf strong { font-size: 14px; }
+  .lernsteuerung .zeitplan-kopf strong::after { content: " · 45 min"; }
+  body .lernlayout > main { padding: 0; }
+  body .stufe-zeile { gap: 5px; font-size: 10px; }
+  body .stufe-pill { padding: 3px 7px; }
+  body .karte { padding: 20px 16px; border-radius: 15px; border-top-width: 5px; }
+  body .lk-titel { font-size: 23px; }
+  body .lk-hin { font-size: 17px; line-height: 1.55; padding: 14px; }
+  body .lk-erkl { font-size: 16px; line-height: 1.6; }
+  body .lk-beispiel { padding: 14px; }
+  body .frage { font-size: 21px; }
+  body .opt { font-size: 16px; min-height: 58px; }
+}
+
+/* Kontostatus im Kopf statt als schwebende Überlagerung. */
+.buch-kopf-tools .m9-user-chip {
+  position: static;
+  z-index: auto;
+  box-shadow: none;
+  flex: 0 0 auto;
+  order: -1;
+}
+@media (max-width: 699px) {
+  .buch-kopf-tools { gap: 4px; }
+  .buch-kopf-tools .m9-user-chip {
+    width: 44px; height: 44px; padding: 0; justify-content: center;
+    background: transparent; border: 0;
+  }
+  .buch-kopf-tools .m9-user-chip span { display: none; }
+  .buch-kopf-tools .m9-user-chip button {
+    width: 44px; height: 44px; padding: 0; font-size: 0;
+    background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.22);
+  }
+  .buch-kopf-tools .m9-user-chip button::before { content: "↪"; font-size: 20px; color: var(--kopf-text); }
+  .formelkarte .fk-lang { display: none; }
+  .formelkarte .fk-kurz { display: inline; }
 }
 
 @media print {
@@ -616,6 +734,7 @@ button.wort-tippbar:focus-visible { outline: 3px solid var(--pfad); outline-offs
   padding: 0 16px; font-family: var(--f-display); font-weight: 700; font-size: 15px;
 }
 .formelkarte summary::-webkit-details-marker { display: none; }
+.fk-kurz { display: none; }
 .formelkarte summary::after { content: "▲"; margin-left: auto; font-size: 11px; opacity: .6; }
 .formelkarte[open] summary::after { content: "▼"; }
 .formel-inhalt {
@@ -1503,6 +1622,7 @@ body .uebungskarte summary { min-height: 60px; padding: 14px 18px; font-size: 16
 body .heftkarte { border-top-color: var(--merk-linie); }
 body .heft-punkt { padding: 14px; border-radius: 12px; }
 body .heft-haken { min-height: 44px; }
+body .heft-haken input { width: 44px; height: 44px; }
 body .heft-text { font-size: 16px; }
 
 @media (max-width: 560px) {
