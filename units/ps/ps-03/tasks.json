@@ -1,0 +1,627 @@
+{
+  "unit": "PS-03",
+  "title": "Von Demokrit zu Dalton",
+  "leitidee": "B1",
+  "standards": [
+    "K1",
+    "K2.3",
+    "K3.1"
+  ],
+  "klasse": 7,
+  "wortspeicher": [
+    "das Atom",
+    "unteilbar",
+    "das Atommodell",
+    "die Verbindung",
+    "das Massenverhältnis",
+    "die Hypothese"
+  ],
+  "worterklaerungen": {
+    "Atom": "Das kleinste Teilchen eines Elements.",
+    "unteilbar": "Man kann es nicht weiter zerlegen. Das dachte man früher vom Atom.",
+    "Hypothese": "Eine begründete Vermutung. Sie muss noch geprüft werden."
+  },
+  "can_do": {
+    "A": "Ich nenne die Grundidee von Demokrit und Dalton.",
+    "B": "Ich erkläre die Aussagen des Daltonschen Modells und wende sie auf Reaktionen an.",
+    "C": "Ich benenne die Grenzen des Daltonschen Modells und begründe, warum es dennoch trägt."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Die Idee vom kleinsten Teilchen",
+      "hinfuehrung": "Demokrit dachte vor 2400 Jahren: Alles besteht aus kleinsten Teilchen.",
+      "erklaerung": [
+        "Er nannte sie Atome — das heißt „unteilbar“.",
+        "Beweisen konnte er es nicht."
+      ],
+      "merke": "Atom heißt „unteilbar“.",
+      "beispiel": {
+        "titel": "Dalton 1808",
+        "aufgabe": "Dalton machte aus der Idee eine Theorie.",
+        "schritte": [
+          "Jedes Element hat eigene Atome.",
+          "Atome eines Elements sind gleich schwer.",
+          "Bei Reaktionen werden Atome nur neu geordnet."
+        ],
+        "ergebnis": "Damit ließen sich Massenverhältnisse erklären."
+      }
+    },
+    "B": {
+      "titel": "Was Dalton behauptete",
+      "hinfuehrung": "Dalton machte aus einer philosophischen Idee eine prüfbare Theorie — und das ist der entscheidende Schritt.",
+      "erklaerung": [
+        "Alle Stoffe bestehen aus Atomen. Atome sind unteilbar und unzerstörbar.",
+        "Atome eines Elements sind untereinander gleich, Atome verschiedener Elemente verschieden schwer.",
+        "Bei einer chemischen Reaktion werden Atome umgeordnet, nicht erzeugt oder vernichtet — daraus folgt die Erhaltung der Masse.",
+        "Verbindungen entstehen in festen Zahlenverhältnissen. Deshalb sind auch die Massenverhältnisse fest."
+      ],
+      "merke": "Atome werden umgeordnet, nicht verbraucht. Das erklärt konstante Massenverhältnisse.",
+      "visual": {
+        "type": "teilchen",
+        "zustand": "fest",
+        "art": "verbindung",
+        "alt": "Teilchenmodell einer Verbindung aus zwei Atomsorten."
+      }
+    },
+    "C": {
+      "titel": "Wo Dalton endet",
+      "hinfuehrung": "Daltons Modell erklärt die Stöchiometrie vollständig — und schweigt zu allem, was in einem Atom vorgeht. Beides gehört zusammen.",
+      "erklaerung": [
+        "Unteilbar stimmt nicht: Atome bestehen aus Protonen, Neutronen und Elektronen.",
+        "Gleich schwer stimmt nicht: Isotope desselben Elements haben verschiedene Massen.",
+        "Zur elektrischen Ladung, zu Ionen und zur Bindung sagt das Modell nichts.",
+        "Für Massenberechnungen in Reaktionsgleichungen genügt es bis heute — dort ist es nach wie vor das benutzte Modell."
+      ],
+      "merke": "Ein überholtes Modell bleibt brauchbar, solange man seine Grenze kennt.",
+      "visual": {
+        "type": "atom",
+        "z": 6,
+        "symbol": "C",
+        "neutronen": 6,
+        "alt": "Schalenmodell eines Kohlenstoffatoms."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [],
+    "saetze": [
+      "Atom heißt „unteilbar“ — das war Demokrits Idee.",
+      "Dalton: Atome werden bei Reaktionen umgeordnet, nicht verbraucht.",
+      "Daraus folgt die Erhaltung der Masse.",
+      "Grenzen: Atome sind teilbar, Isotope sind verschieden schwer."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Atome und Stoffe im Modell von John Dalton",
+      "url": "https://www.youtube.com/watch?v=kD_ClTRcQRQ",
+      "quelle": "musstewissen Chemie",
+      "lumi": "https://app.lumi.education/run/gOJ9w6",
+      "embed": "https://app.lumi.education/api/v1/run/gOJ9w6/embed",
+      "stufe": "A",
+      "dauer_s": 366
+    },
+    {
+      "titel": "Die Entwicklung der Atommodelle",
+      "url": "https://www.youtube.com/watch?v=ZD2HWNkA6WI",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/JWWwGE",
+      "embed": "https://app.lumi.education/api/v1/run/JWWwGE/embed",
+      "stufe": "B",
+      "dauer_s": 222
+    }
+  ],
+  "tasks": [
+    {
+      "id": "PS03-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Was bedeutet das Wort „Atom“?",
+      "options": [
+        "unteilbar",
+        "sehr klein",
+        "unsichtbar"
+      ],
+      "answer": 0,
+      "hints": [
+        "Das Wort kommt aus dem Griechischen.",
+        "Es beschreibt, was man nicht kann.",
+        "Man kann es nicht teilen."
+      ],
+      "solution": "„Atom“ kommt aus dem Griechischen und heißt „unteilbar“.",
+      "tags": [
+        "modelle",
+        "geschichte"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS03-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Was sagte Dalton über die Atome eines Elements?",
+      "options": [
+        "Sie sind alle gleich.",
+        "Sie sind alle verschieden.",
+        "Es gibt nur eines davon."
+      ],
+      "answer": 0,
+      "hints": [
+        "Dalton unterschied Elemente an ihren Atomen.",
+        "Innerhalb eines Elements sah er keine Unterschiede.",
+        "Sie sind alle gleich."
+      ],
+      "solution": "Dalton nahm an, alle Atome eines Elements seien gleich — insbesondere gleich schwer. Heute wissen wir: Isotope widerlegen das.",
+      "tags": [
+        "modelle"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS03-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Was passiert nach Dalton mit den Atomen bei einer chemischen Reaktion?",
+      "options": [
+        "Sie werden neu zusammengesetzt.",
+        "Sie werden zerstört.",
+        "Es entstehen neue Atome."
+      ],
+      "answer": 0,
+      "hints": [
+        "Geht bei einer Reaktion Masse verloren?",
+        "Nein.",
+        "Also bleiben die Atome erhalten."
+      ],
+      "solution": "Die Atome werden nur neu angeordnet. Keines geht verloren, keines kommt hinzu — daraus folgt die Erhaltung der Masse.",
+      "misconceptions": [
+        {
+          "id": "masse_verschwindet",
+          "value": 1,
+          "feedback": "Würden Atome zerstört, ginge Masse verloren. Das widerspricht jeder Messung.",
+          "konzeptfehler": "masse_verschwindet"
+        }
+      ],
+      "tags": [
+        "modelle"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "PS03-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum konnte Demokrit seine Idee nicht beweisen?",
+      "options": [
+        "Es gab keine Versuche und keine Messgeräte dafür.",
+        "Er hat sich nicht getraut.",
+        "Seine Idee war falsch."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie prüft man eine Idee in der Naturwissenschaft?",
+        "Mit Versuchen.",
+        "Die gab es damals nicht."
+      ],
+      "solution": "Demokrits Idee war eine philosophische Überlegung. Erst 2200 Jahre später gab es Messungen, mit denen sie prüfbar wurde.",
+      "tags": [
+        "modelle",
+        "geschichte"
+      ]
+    },
+    {
+      "id": "PS03-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welche Aussage gehört zu Daltons Atommodell?",
+      "options": [
+        "Atome verschiedener Elemente sind verschieden schwer.",
+        "Atome bestehen aus Kern und Hülle.",
+        "Atome können Elektronen abgeben."
+      ],
+      "answer": 0,
+      "hints": [
+        "Dalton wusste nichts vom Atomaufbau.",
+        "Kern und Hülle kamen erst 100 Jahre später.",
+        "Dalton sprach über Massen."
+      ],
+      "solution": "Dalton unterschied Elemente über die Masse ihrer Atome. Von Kern, Hülle und Elektronen wusste er nichts — das kam erst um 1910.",
+      "misconceptions": [
+        {
+          "id": "modelle_vermischt",
+          "value": 1,
+          "feedback": "Kern und Hülle stammen von Rutherford, rund hundert Jahre nach Dalton."
+        }
+      ],
+      "tags": [
+        "modelle",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS03-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Kupfer und Sauerstoff verbinden sich immer im Massenverhältnis 4 : 1. Wie erklärt Dalton das?",
+      "options": [
+        "Die Atome verbinden sich in einem festen Zahlenverhältnis.",
+        "Zufällig ist immer gleich viel Sauerstoff da.",
+        "Das Verhältnis hängt von der Temperatur ab."
+      ],
+      "answer": 0,
+      "hints": [
+        "Warum ist das Verhältnis immer gleich?",
+        "Weil sich immer gleich viele Atome verbinden.",
+        "Feste Atomzahl → feste Masse."
+      ],
+      "solution": "Verbinden sich immer gleich viele Atome miteinander und haben Atome fester Sorten feste Massen, dann ist auch das Massenverhältnis fest. Genau das erklärt Daltons Modell.",
+      "tags": [
+        "modelle",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "PS03-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Kupfer und Sauerstoff reagieren im Massenverhältnis 4 : 1. Wie viel Gramm Sauerstoff werden für 20 g Kupfer gebraucht?",
+      "answer": 5,
+      "unit_label": "g",
+      "tolerance": 0.01,
+      "hints": [
+        "Auf 4 Teile Kupfer kommt 1 Teil Sauerstoff.",
+        "20 : 4.",
+        "5 g."
+      ],
+      "solution": "20 g : 4 = 5 g Sauerstoff.",
+      "misconceptions": [
+        {
+          "id": "verhaeltnis_umgedreht",
+          "value": 80,
+          "feedback": "Verhältnis umgedreht: Vom Sauerstoff wird <b>weniger</b> gebraucht als vom Kupfer."
+        }
+      ],
+      "tags": [
+        "modelle",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "PS03-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Welche Beobachtung widerlegt Daltons Annahme, Atome seien unteilbar?",
+      "options": [
+        "Atome bestehen aus Protonen, Neutronen und Elektronen.",
+        "Atome sind sehr klein.",
+        "Atome bewegen sich."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was fand man später im Atom?",
+        "Kleinere Teilchen.",
+        "Damit ist es teilbar."
+      ],
+      "solution": "Die Entdeckung von Elektron, Proton und Neutron zeigte, dass Atome aus kleineren Teilchen bestehen. Daltons Annahme der Unteilbarkeit war damit widerlegt.",
+      "tags": [
+        "modelle",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS03-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Aus 8 g Kupfer und 2 g Sauerstoff entsteht Kupferoxid. Wie viel Gramm Kupferoxid sind das?",
+      "answer": 10,
+      "unit_label": "g",
+      "tolerance": 0,
+      "hints": [
+        "Nach Dalton geht kein Atom verloren.",
+        "8 + 2.",
+        "10 g."
+      ],
+      "solution": "8 g + 2 g = 10 g. Weil Atome nur umgeordnet werden, bleibt die Masse erhalten.",
+      "misconceptions": [
+        {
+          "id": "masse_verschwindet",
+          "value": 6,
+          "feedback": "Du hast subtrahiert. Beide Edukte gehen vollständig ins Produkt ein.",
+          "konzeptfehler": "masse_verschwindet"
+        }
+      ],
+      "tags": [
+        "modelle",
+        "rechnen"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "PS03-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum wird Daltons Modell im Unterricht noch benutzt, obwohl es überholt ist?",
+      "options": [
+        "Für Massenberechnungen bei Reaktionen reicht es vollkommen aus.",
+        "Weil neuere Modelle zu teuer sind.",
+        "Aus Tradition."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wofür genau braucht man es?",
+        "Für Massen und Verhältnisse.",
+        "Dafür ist es ausreichend."
+      ],
+      "solution": "Wer Massen in einer Reaktionsgleichung berechnet, braucht nur „Atome bleiben erhalten und haben feste Massen“. Genau das leistet Daltons Modell — für diese Frage ist es weiterhin das passende.",
+      "tags": [
+        "modelle",
+        "bewerten",
+        "msa"
+      ]
+    },
+    {
+      "id": "PS03-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Welche Aussage Daltons wird durch Isotope widerlegt?",
+      "options": [
+        "Alle Atome eines Elements sind gleich schwer.",
+        "Atome werden bei Reaktionen umgeordnet.",
+        "Verbindungen haben feste Zahlenverhältnisse."
+      ],
+      "answer": 0,
+      "hints": [
+        "Worin unterscheiden sich Isotope?",
+        "In der Neutronenzahl und damit in der Masse.",
+        "Also in der Masse."
+      ],
+      "solution": "Isotope desselben Elements haben gleich viele Protonen, aber verschieden viele Neutronen — und damit verschiedene Massen. Daltons Annahme gleicher Masse ist damit widerlegt; die anderen beiden Aussagen gelten weiter.",
+      "tags": [
+        "modelle",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS03-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Kupfer bildet zwei Oxide: eines mit 4 : 1, eines mit 8 : 1 Massenverhältnis. Was folgt daraus für die Atomzahlen?",
+      "options": [
+        "Im zweiten Oxid kommen doppelt so viele Kupferatome auf ein Sauerstoffatom.",
+        "Die Sauerstoffatome sind im zweiten Oxid doppelt so schwer.",
+        "Eines der beiden Verhältnisse muss falsch gemessen sein."
+      ],
+      "answer": 0,
+      "hints": [
+        "Die Atommassen ändern sich nicht.",
+        "Also muss sich die Anzahl ändern.",
+        "Doppelte Kupfermasse je Sauerstoff = doppelt so viele Kupferatome."
+      ],
+      "solution": "Atommassen sind fest. Verdoppelt sich die Kupfermasse je Sauerstoffanteil, müssen doppelt so viele Kupferatome beteiligt sein: CuO und Cu₂O. Solche einfachen Zahlenverhältnisse waren Daltons stärkstes Argument.",
+      "misconceptions": [
+        {
+          "id": "teilchen_traegt_stoffeigenschaft",
+          "value": 1,
+          "feedback": "Die Masse eines Sauerstoffatoms ist immer gleich. Ändern kann sich nur die Anzahl.",
+          "konzeptfehler": "teilchen_traegt_stoffeigenschaft"
+        }
+      ],
+      "tags": [
+        "modelle",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "PS03-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Ein Oxid enthält Kupfer und Sauerstoff im Massenverhältnis 4 : 1.",
+      "fields": [
+        {
+          "label": "Kupfermasse in 25 g Oxid",
+          "answer": 20,
+          "unit_label": "g",
+          "tolerance": 0.01
+        },
+        {
+          "label": "Sauerstoffmasse in 25 g Oxid",
+          "answer": 5,
+          "unit_label": "g",
+          "tolerance": 0.01
+        },
+        {
+          "label": "Massenanteil des Sauerstoffs in Prozent",
+          "answer": 20,
+          "unit_label": "%",
+          "tolerance": 0.1
+        }
+      ],
+      "hints": [
+        "Das Oxid besteht aus 4 + 1 = 5 Teilen.",
+        "1 Teil = 25 g : 5 = 5 g.",
+        "Kupfer sind 4 Teile."
+      ],
+      "solution": "1 Teil = 25 g : 5 = 5 g\nKupfer = 4 · 5 g = 20 g, Sauerstoff = 5 g\nAnteil O = 5 : 25 = 20 %",
+      "tags": [
+        "modelle",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "PS03-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Daltons Modell ist widerlegt, also darf man damit nicht mehr rechnen.“ Wie bewertest du das?",
+      "options": [
+        "Falsch — widerlegt ist nur die Unteilbarkeit; die Massenerhaltung gilt unverändert.",
+        "Richtig — ein widerlegtes Modell darf nicht verwendet werden.",
+        "Falsch — das Modell ist gar nicht widerlegt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welche Aussagen des Modells sind widerlegt?",
+        "Unteilbarkeit und gleiche Masse.",
+        "Die Massenerhaltung nicht."
+      ],
+      "solution": "Widerlegt sind zwei Einzelaussagen: Unteilbarkeit und gleiche Masse aller Atome eines Elements. Die Umordnung der Atome und damit die Massenerhaltung gelten unverändert — und genau darauf beruht jede stöchiometrische Rechnung.",
+      "tags": [
+        "modelle",
+        "bewerten",
+        "msa"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 9,
+      "aufgaben": 20,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 6,
+      "aufgaben": 21,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 6,
+      "aufgaben": 18,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Geschichte der Atommodelle",
+      "url": "https://learningapps.org/view1754492",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Das Atommodell von Dalton",
+      "url": "https://learningapps.org/view18008340",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 8,
+    "titel": "Atombau und Ordnung der Elemente",
+    "seiten_von": 97,
+    "seiten_bis": 108,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Atom"
+  }
+}

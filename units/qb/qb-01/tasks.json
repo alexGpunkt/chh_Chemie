@@ -1,0 +1,671 @@
+{
+  "unit": "QB-01",
+  "title": "Atommasse, Molekülmasse, molare Masse",
+  "leitidee": "B1",
+  "standards": [
+    "K1",
+    "K2.4"
+  ],
+  "klasse": 9,
+  "wortspeicher": [
+    "die Atommasse",
+    "die Molekülmasse",
+    "die molare Masse",
+    "die Formeleinheit",
+    "die Einheit g/mol"
+  ],
+  "worterklaerungen": {
+    "molare Masse": "Die Masse von einem Mol eines Stoffes, angegeben in g/mol.",
+    "Molekülmasse": "Die Summe der Atommassen aller Atome eines Moleküls."
+  },
+  "can_do": {
+    "A": "Ich lese Atommassen ab und addiere sie zur Molekülmasse.",
+    "B": "Ich berechne molare Massen auch bei Formeln mit Klammern.",
+    "C": "Ich berechne Massenanteile einzelner Elemente in einer Verbindung."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Massen zusammenzählen",
+      "hinfuehrung": "Jedes Element hat eine Atommasse.",
+      "erklaerung": [
+        "Sie steht im Periodensystem.",
+        "Für ein Molekül werden alle addiert."
+      ],
+      "merke": "Molekülmasse = Summe aller Atommassen.",
+      "beispiel": {
+        "titel": "Wasser",
+        "aufgabe": "M(H₂O) = ?",
+        "schritte": [
+          "2 · 1 = 2",
+          "1 · 16 = 16",
+          "2 + 16 = 18"
+        ],
+        "ergebnis": "18 g/mol",
+        "luecke": {
+          "schritt": 2,
+          "wert": 18
+        }
+      },
+      "visual": {
+        "type": "pse",
+        "markiert": [
+          "H",
+          "O"
+        ],
+        "perioden": 3,
+        "alt": "Periodensystem-Ausschnitt mit Wasserstoff und Sauerstoff."
+      }
+    },
+    "B": {
+      "titel": "Molare Masse berechnen",
+      "hinfuehrung": "Die molare Masse ist zahlengleich zur Molekülmasse, trägt aber die Einheit g/mol. Damit wird aus einer Verhältniszahl eine wägbare Größe.",
+      "erklaerung": [
+        "Für jedes Element die Atommasse ablesen und mit dem Index multiplizieren.",
+        "Alles addieren. Das Ergebnis ist die molare Masse in g/mol.",
+        "Bei Klammern gilt der Index für alles in der Klammer: Ca(OH)₂ = 40 + 2 · (16 + 1) = 74 g/mol.",
+        "Schulwerte: H 1 · C 12 · N 14 · O 16 · Na 23 · Mg 24 · S 32 · Cl 35,5 · Ca 40 · Fe 56 · Cu 64."
+      ],
+      "merke": "M = Summe aller Atommassen · Indizes, in g/mol.",
+      "visual": {
+        "type": "lewis",
+        "molekuel": "co2",
+        "formel": "CO2",
+        "alt": "Lewis-Formel von Kohlenstoffdioxid."
+      }
+    },
+    "C": {
+      "titel": "Massenanteile bestimmen",
+      "hinfuehrung": "Aus der molaren Masse folgt unmittelbar, welcher Anteil der Masse auf welches Element entfällt — das ist die Grundlage jeder Gehaltsangabe.",
+      "erklaerung": [
+        "Anteil eines Elements = (Zahl der Atome · Atommasse) : molare Masse · 100 %.",
+        "Beispiel Wasser: Sauerstoff 16 : 18 = 88,9 %. Obwohl zwei H-Atome enthalten sind, tragen sie nur 11,1 % der Masse.",
+        "Daraus folgt eine wichtige Unterscheidung: Das Anzahlverhältnis (2 : 1) und das Massenverhältnis (1 : 8) sind zwei verschiedene Dinge.",
+        "Umgekehrt lässt sich aus gemessenen Massenanteilen die Formel bestimmen — das Verfahren der Elementaranalyse."
+      ],
+      "merke": "Anzahlverhältnis und Massenverhältnis sind nicht dasselbe.",
+      "visual": {
+        "type": "anteil",
+        "titel": "Massenanteile im Wasser",
+        "segmente": [
+          {
+            "anteil": 88.9,
+            "label": "O"
+          },
+          {
+            "anteil": 11.1,
+            "label": "H"
+          }
+        ],
+        "alt": "Im Wasser entfallen 88,9 % der Masse auf Sauerstoff."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "M = Summe der Atommassen · Indizes",
+      "w(Element) = n · M(Element) : M(Verbindung) · 100 %"
+    ],
+    "saetze": [
+      "H 1 · C 12 · N 14 · O 16 · Na 23 · Mg 24 · S 32 · Cl 35,5 · Ca 40 · Fe 56 · Cu 64",
+      "M(H₂O) = 18 · M(CO₂) = 44 · M(H₂SO₄) = 98 g/mol",
+      "Bei Klammern gilt der Index für alles darin.",
+      "Anzahlverhältnis und Massenverhältnis sind verschieden."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Mol und molare Masse",
+      "url": "https://www.youtube.com/watch?v=k0yXRRNJDvo",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/gNYcf1",
+      "embed": "https://app.lumi.education/api/v1/run/gNYcf1/embed",
+      "stufe": "C",
+      "dauer_s": 386
+    },
+    {
+      "titel": "Molare Masse und molares Volumen",
+      "url": "https://www.youtube.com/watch?v=f0CcWMx1_ns",
+      "quelle": "musstewissen Chemie",
+      "lumi": "https://app.lumi.education/run/Cb3QmL",
+      "embed": "https://app.lumi.education/api/v1/run/Cb3QmL/embed",
+      "stufe": "A",
+      "dauer_s": 438
+    }
+  ],
+  "tasks": [
+    {
+      "id": "QB01-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "Wie groß ist die molare Masse von Wasser H₂O? (H = 1, O = 16 g/mol)",
+      "answer": 18,
+      "unit_label": "g/mol",
+      "tolerance": 0,
+      "hints": [
+        "Zwei H und ein O.",
+        "2 · 1 + 16.",
+        "18 g/mol."
+      ],
+      "solution": "M(H₂O) = 2 · 1 + 16 = 18 g/mol",
+      "misconceptions": [
+        {
+          "id": "index_uebersehen",
+          "value": 17,
+          "feedback": "Der Index 2 gilt für den Wasserstoff: 2 · 1 = 2.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "molmasse"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB01-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Wie groß ist M(CO₂)? (C = 12, O = 16 g/mol)",
+      "answer": 44,
+      "unit_label": "g/mol",
+      "tolerance": 0,
+      "hints": [
+        "Ein C und zwei O.",
+        "12 + 2 · 16.",
+        "44 g/mol."
+      ],
+      "solution": "M(CO₂) = 12 + 32 = 44 g/mol",
+      "tags": [
+        "molmasse"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB01-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie groß ist M(NaCl)? (Na = 23, Cl = 35,5 g/mol)",
+      "answer": 58.5,
+      "unit_label": "g/mol",
+      "tolerance": 0.1,
+      "hints": [
+        "Je ein Ion.",
+        "23 + 35,5.",
+        "58,5 g/mol."
+      ],
+      "solution": "M(NaCl) = 23 + 35,5 = 58,5 g/mol",
+      "tags": [
+        "molmasse"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB01-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "numeric",
+      "prompt": "Wie groß ist M(CH₄)? (C = 12, H = 1 g/mol)",
+      "answer": 16,
+      "unit_label": "g/mol",
+      "tolerance": 0,
+      "hints": [
+        "Ein C und vier H.",
+        "12 + 4 · 1.",
+        "16 g/mol."
+      ],
+      "solution": "M(CH₄) = 12 + 4 = 16 g/mol",
+      "misconceptions": [
+        {
+          "id": "index_uebersehen",
+          "value": 13,
+          "feedback": "Der Index 4 gilt für den Wasserstoff: 4 · 1 = 4.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "molmasse"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "QB01-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "Wie groß ist M(H₂SO₄)? (H = 1, S = 32, O = 16 g/mol)",
+      "answer": 98,
+      "unit_label": "g/mol",
+      "tolerance": 0,
+      "hints": [
+        "Zwei H, ein S, vier O.",
+        "2 + 32 + 64.",
+        "98 g/mol."
+      ],
+      "solution": "M(H₂SO₄) = 2 · 1 + 32 + 4 · 16 = 98 g/mol",
+      "tags": [
+        "molmasse",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB01-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Wie groß ist M(Ca(OH)₂)? (Ca = 40, O = 16, H = 1 g/mol)",
+      "answer": 74,
+      "unit_label": "g/mol",
+      "tolerance": 0,
+      "hints": [
+        "Die 2 gilt für die ganze Klammer.",
+        "40 + 2 · (16 + 1).",
+        "40 + 34."
+      ],
+      "solution": "M(Ca(OH)₂) = 40 + 2 · 17 = 74 g/mol",
+      "misconceptions": [
+        {
+          "id": "klammer_ignoriert",
+          "value": 57,
+          "feedback": "Die 2 hinter der Klammer verdoppelt O und H gemeinsam.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "molmasse",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "QB01-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Wie groß ist M(CaCO₃)? (Ca = 40, C = 12, O = 16 g/mol)",
+      "answer": 100,
+      "unit_label": "g/mol",
+      "tolerance": 0,
+      "hints": [
+        "Ein Ca, ein C, drei O.",
+        "40 + 12 + 48.",
+        "100 g/mol."
+      ],
+      "solution": "M(CaCO₃) = 40 + 12 + 3 · 16 = 100 g/mol",
+      "tags": [
+        "molmasse",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB01-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Berechne die molaren Massen. (N = 14, H = 1, O = 16, S = 32, Fe = 56 g/mol)",
+      "fields": [
+        {
+          "label": "M(NH₃)",
+          "answer": 17,
+          "unit_label": "g/mol",
+          "tolerance": 0
+        },
+        {
+          "label": "M(SO₃)",
+          "answer": 80,
+          "unit_label": "g/mol",
+          "tolerance": 0
+        },
+        {
+          "label": "M(Fe₂O₃)",
+          "answer": 160,
+          "unit_label": "g/mol",
+          "tolerance": 0
+        }
+      ],
+      "hints": [
+        "Jeden Index einzeln beachten.",
+        "SO₃ = 32 + 3 · 16.",
+        "Fe₂O₃ = 2 · 56 + 3 · 16."
+      ],
+      "solution": "NH₃ = 14 + 3 = 17\nSO₃ = 32 + 48 = 80\nFe₂O₃ = 112 + 48 = 160 g/mol",
+      "tags": [
+        "molmasse",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB01-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie viel Prozent der Masse von CO₂ entfallen auf den Kohlenstoff?",
+      "answer": 27.3,
+      "unit_label": "%",
+      "tolerance": 0.3,
+      "hints": [
+        "Kohlenstoffmasse durch Gesamtmasse.",
+        "12 : 44.",
+        "Mal 100."
+      ],
+      "solution": "12 : 44 = 0,2727 → 27,3 %",
+      "misconceptions": [
+        {
+          "id": "anteil_umgedreht",
+          "value": 72.7,
+          "feedback": "Das ist der Sauerstoffanteil. Gefragt war der Kohlenstoff."
+        }
+      ],
+      "tags": [
+        "molmasse",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB01-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "numeric",
+      "prompt": "Wie viel Prozent der Masse von Eisenoxid Fe₂O₃ (M = 160 g/mol) ist Eisen? (Fe = 56 g/mol)",
+      "answer": 70,
+      "unit_label": "%",
+      "tolerance": 0.5,
+      "hints": [
+        "Zwei Eisenatome.",
+        "2 · 56 = 112.",
+        "112 : 160."
+      ],
+      "solution": "112 : 160 = 0,70 → 70 %. Deshalb liefert 1 t Fe₂O₃ höchstens 700 kg Eisen.",
+      "tags": [
+        "molmasse",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB01-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "multi",
+      "prompt": "Betrachte Ammoniumsulfat (NH₄)₂SO₄. (N = 14, H = 1, S = 32, O = 16 g/mol)",
+      "fields": [
+        {
+          "label": "molare Masse",
+          "answer": 132,
+          "unit_label": "g/mol",
+          "tolerance": 0,
+          "misconceptions": [
+            {
+              "id": "klammer_ignoriert",
+              "value": 114,
+              "feedback": "(NH₄)₂ bedeutet 2 · (14 + 4) = 36, nicht 18.",
+              "konzeptfehler": "summenformel_falsch_gelesen"
+            }
+          ]
+        },
+        {
+          "label": "Massenanteil des Stickstoffs in Prozent",
+          "answer": 21.2,
+          "unit_label": "%",
+          "tolerance": 0.3
+        }
+      ],
+      "hints": [
+        "(NH₄)₂ = 2 · 18 = 36.",
+        "SO₄ = 32 + 64 = 96.",
+        "Stickstoff: 2 · 14 = 28."
+      ],
+      "solution": "M = 36 + 96 = 132 g/mol\nw(N) = 28 : 132 = 21,2 %",
+      "tags": [
+        "molmasse",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "QB01-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "In Wasser stehen H und O im Anzahlverhältnis 2 : 1, im Massenverhältnis aber 1 : 8. Wie passt das zusammen?",
+      "options": [
+        "Ein O-Atom ist 16-mal so schwer wie ein H-Atom; die Anzahl sagt nichts über die Masse.",
+        "Eines der beiden Verhältnisse ist falsch.",
+        "Die Verhältnisse sind immer gleich."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie schwer ist ein O-Atom im Vergleich zu einem H-Atom?",
+        "16-mal so schwer.",
+        "2 · 1 gegen 1 · 16."
+      ],
+      "solution": "Zwei H-Atome wiegen zusammen 2, ein O-Atom wiegt 16 — das Massenverhältnis ist 2 : 16 = 1 : 8. Anzahl- und Massenverhältnis sind verschiedene Aussagen über dieselbe Formel.",
+      "misconceptions": [
+        {
+          "id": "teilchen_traegt_stoffeigenschaft",
+          "value": 2,
+          "feedback": "Anzahl und Masse sind zwei verschiedene Größen. Atome verschiedener Elemente sind verschieden schwer.",
+          "konzeptfehler": "teilchen_traegt_stoffeigenschaft"
+        }
+      ],
+      "tags": [
+        "molmasse",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "QB01-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Ein Dünger enthält Ammoniumnitrat NH₄NO₃ (M = 80 g/mol). Wie viel Prozent Stickstoff enthält er? (N = 14 g/mol)",
+      "answer": 35,
+      "unit_label": "%",
+      "tolerance": 0.5,
+      "hints": [
+        "Wie viele N-Atome stecken in der Formel?",
+        "Zwei — eines im Ammonium, eines im Nitrat.",
+        "2 · 14 : 80."
+      ],
+      "solution": "2 N-Atome: 2 · 14 = 28 g/mol\n28 : 80 = 0,35 → 35 %\nDeshalb ist Ammoniumnitrat ein besonders stickstoffreicher Dünger.",
+      "misconceptions": [
+        {
+          "id": "index_uebersehen",
+          "value": 17.5,
+          "feedback": "Es sind zwei Stickstoffatome — eines im NH₄, eines im NO₃.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "molmasse",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "QB01-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler schreibt: „M(O) = 16 g“. Was ist zu korrigieren?",
+      "options": [
+        "Die Einheit ist g/mol — 16 g wäre die Masse einer bestimmten Portion, nicht die molare Masse.",
+        "Nichts, die Angabe ist richtig.",
+        "M(O) beträgt 32 g/mol."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welche Einheit hat die molare Masse?",
+        "Gramm je Mol.",
+        "32 g/mol wäre O₂."
+      ],
+      "solution": "Die molare Masse hat immer die Einheit g/mol. 16 g wäre eine konkrete Masse. Und 32 g/mol gehört zum Molekül O₂, nicht zum Atom.",
+      "misconceptions": [
+        {
+          "id": "groesse_und_einheit_verwechselt",
+          "value": 2,
+          "feedback": "32 g/mol ist die molare Masse von O₂, dem Molekül.",
+          "konzeptfehler": "groesse_und_einheit_verwechselt"
+        }
+      ],
+      "tags": [
+        "molmasse",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-EINH"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 10,
+      "aufgaben": 19,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 11,
+      "aufgaben": 16,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 10,
+      "aufgaben": 14,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Molare Masse M verschiedener Moleküle bestimmen",
+      "url": "https://learningapps.org/view18193374",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Berechnung von Molekülmassen",
+      "url": "https://learningapps.org/view18359168",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 5,
+    "titel": "Die chemische Reaktion",
+    "seiten_von": 58,
+    "seiten_bis": 65,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Atommasse"
+  }
+}

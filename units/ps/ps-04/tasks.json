@@ -1,0 +1,638 @@
+{
+  "unit": "PS-04",
+  "title": "Kern-Hülle-Modell und Streuversuch",
+  "leitidee": "B1",
+  "standards": [
+    "K1",
+    "K2.3",
+    "K3.3"
+  ],
+  "klasse": 7,
+  "wortspeicher": [
+    "der Atomkern",
+    "die Atomhülle",
+    "der Streuversuch",
+    "die Goldfolie",
+    "positiv geladen",
+    "die Kernladung"
+  ],
+  "worterklaerungen": {
+    "Atomkern": "Der winzige, schwere Bereich in der Mitte des Atoms. Er ist positiv geladen.",
+    "Atomhülle": "Der Bereich um den Kern. Dort sind die Elektronen.",
+    "Streuversuch": "Ein Versuch, bei dem kleine Teilchen auf eine dünne Folie geschossen werden."
+  },
+  "can_do": {
+    "A": "Ich benenne Kern und Hülle des Atoms und weiß, dass das Atom fast leer ist.",
+    "B": "Ich beschreibe den Streuversuch und die Beobachtungen.",
+    "C": "Ich leite aus den Beobachtungen des Streuversuchs die Aussagen des Kern-Hülle-Modells ab."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Kern und Hülle",
+      "hinfuehrung": "Ein Atom hat zwei Bereiche.",
+      "erklaerung": [
+        "In der Mitte ist der Kern. Er ist sehr klein und sehr schwer.",
+        "Um ihn herum ist die Hülle mit den Elektronen."
+      ],
+      "merke": "Kleiner Kern, große Hülle. Dazwischen ist fast nichts.",
+      "beispiel": {
+        "titel": "Wie leer ein Atom ist",
+        "aufgabe": "Wäre das Atom so groß wie ein Fußballstadion …",
+        "schritte": [
+          "… läge der Kern als Erbse im Anstoßkreis.",
+          "Der Rest wäre leer."
+        ],
+        "ergebnis": "Fast das ganze Atom ist leerer Raum."
+      },
+      "visual": {
+        "type": "animation",
+        "name": "streuversuch",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Der Versuch von Rutherford",
+      "hinfuehrung": "1911 schoss Rutherford kleine, positiv geladene Teilchen auf eine hauchdünne Goldfolie und zählte, wo sie ankamen. Die Beobachtungen waren so unerwartet, dass sie das damalige Atommodell umwarfen.",
+      "erklaerung": [
+        "Fast alle Teilchen flogen geradeaus hindurch, als wäre die Folie gar nicht da.",
+        "Wenige wurden abgelenkt.",
+        "Ganz wenige — etwa eines von 8000 — kamen zurück.",
+        "Rutherford verglich das mit einer Granate, die an einem Blatt Papier abprallt."
+      ],
+      "merke": "Drei Beobachtungen, drei Schlüsse — das ist der Kern des Versuchs.",
+      "visual": {
+        "type": "animation",
+        "name": "streuversuch",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Vom Befund zum Modell",
+      "hinfuehrung": "Der Streuversuch ist das Musterbeispiel dafür, wie aus Beobachtungen ein Modell wird. Jede der drei Beobachtungen erzwingt eine Aussage.",
+      "erklaerung": [
+        "„Fast alle fliegen durch“ → Das Atom besteht fast vollständig aus leerem Raum.",
+        "„Wenige werden abgelenkt“ → Es gibt etwas Geladenes, das die positiven Teilchen abstößt.",
+        "„Ganz wenige kommen zurück“ → Dieses Etwas ist sehr klein und sehr massereich: der Kern.",
+        "Was das Modell nicht sagt: wie die Elektronen in der Hülle angeordnet sind. Dafür brauchte es Bohrs Erweiterung."
+      ],
+      "merke": "Ein Modell wird nicht erfunden, sondern aus Beobachtungen erzwungen.",
+      "visual": {
+        "type": "animation",
+        "name": "streuversuch",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [],
+    "saetze": [
+      "Atomkern: winzig, schwer, positiv geladen.",
+      "Atomhülle: groß, fast masselos, enthält die Elektronen.",
+      "Der Kern ist rund 10 000-mal kleiner als das Atom.",
+      "Fast das gesamte Atomvolumen ist leerer Raum."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Rutherfords Streuversuch — der Kern wird entdeckt",
+      "url": "https://www.youtube.com/watch?v=81kI-gmTSrA",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/CwbNQI",
+      "embed": "https://app.lumi.education/api/v1/run/CwbNQI/embed",
+      "stufe": "B",
+      "dauer_s": 244
+    },
+    {
+      "titel": "Das Atommodell nach Niels Bohr",
+      "url": "https://www.youtube.com/watch?v=cG770N48Hzk",
+      "quelle": "musstewissen Chemie",
+      "lumi": "https://app.lumi.education/run/T7k4Su",
+      "embed": "https://app.lumi.education/api/v1/run/T7k4Su/embed",
+      "stufe": "A",
+      "dauer_s": 462
+    }
+  ],
+  "tasks": [
+    {
+      "id": "PS04-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Wo sitzt die Masse eines Atoms fast vollständig?",
+      "options": [
+        "im Kern",
+        "in der Hülle",
+        "gleichmäßig verteilt"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "streuversuch",
+        "stufe": "A"
+      },
+      "hints": [
+        "Der Kern ist klein, aber schwer.",
+        "Die Elektronen sind fast masselos.",
+        "Also im Kern."
+      ],
+      "solution": "Fast die gesamte Masse steckt im winzigen Kern. Die Elektronen der Hülle sind fast masselos.",
+      "misconceptions": [
+        {
+          "id": "masse_in_huelle",
+          "value": 1,
+          "feedback": "Elektronen sind rund 2000-mal leichter als Protonen. Die Masse steckt im Kern."
+        }
+      ],
+      "tags": [
+        "atombau"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS04-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Wie ist der Atomkern geladen?",
+      "options": [
+        "positiv",
+        "negativ",
+        "gar nicht"
+      ],
+      "answer": 0,
+      "hints": [
+        "Im Kern sitzen Protonen.",
+        "Protonen sind positiv.",
+        "Also ist der Kern positiv."
+      ],
+      "solution": "Im Kern sitzen die positiv geladenen Protonen. Der Kern ist deshalb positiv geladen.",
+      "tags": [
+        "atombau"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS04-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Was beobachtete Rutherford bei den meisten Teilchen?",
+      "options": [
+        "Sie flogen geradeaus durch die Folie.",
+        "Sie prallten zurück.",
+        "Sie blieben stecken."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "streuversuch",
+        "stufe": "A"
+      },
+      "hints": [
+        "Sieh dir die Animation an.",
+        "Die meisten Bahnen sind gerade.",
+        "Sie fliegen durch."
+      ],
+      "solution": "Fast alle Teilchen flogen geradeaus hindurch. Nur ganz wenige wurden abgelenkt oder kamen zurück.",
+      "tags": [
+        "atombau",
+        "streuversuch"
+      ]
+    },
+    {
+      "id": "PS04-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Was folgt daraus, dass fast alle Teilchen geradeaus durchfliegen?",
+      "options": [
+        "Das Atom ist fast leer.",
+        "Gold ist sehr weich.",
+        "Die Teilchen sind sehr schnell."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was müsste passieren, wenn das Atom voll wäre?",
+        "Dann würden viele abgelenkt.",
+        "Also ist es fast leer."
+      ],
+      "solution": "Wäre das Atom mit Materie gefüllt, würden viele Teilchen abgelenkt. Dass fast alle durchfliegen, zeigt: Das Atom besteht fast nur aus leerem Raum.",
+      "tags": [
+        "atombau",
+        "streuversuch"
+      ]
+    },
+    {
+      "id": "PS04-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "assign",
+      "prompt": "Ordne jeder Beobachtung im Streuversuch den passenden Schluss zu.",
+      "slots": [
+        "fast alle fliegen durch",
+        "wenige werden abgelenkt",
+        "ganz wenige kommen zurück"
+      ],
+      "values": [
+        "Das Atom ist fast leer.",
+        "Es gibt geladene Bereiche.",
+        "Der Kern ist klein und sehr schwer."
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "visual": {
+        "type": "animation",
+        "name": "streuversuch",
+        "stufe": "B"
+      },
+      "hints": [
+        "Jede Beobachtung erzwingt eine Aussage.",
+        "Durchfliegen heißt: nichts im Weg.",
+        "Zurückprallen heißt: etwas sehr Schweres im Weg."
+      ],
+      "solution": "Durchfliegen → leerer Raum.\nAblenkung → Ladung.\nZurückprallen → kleiner, schwerer Kern.",
+      "tags": [
+        "atombau",
+        "streuversuch",
+        "bbr"
+      ]
+    },
+    {
+      "id": "PS04-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum wurden einige Teilchen abgelenkt, ohne zurückzukommen?",
+      "options": [
+        "Sie flogen nahe am positiven Kern vorbei und wurden abgestoßen.",
+        "Sie trafen ein Elektron.",
+        "Sie wurden von der Folie gebremst."
+      ],
+      "answer": 0,
+      "hints": [
+        "Die Teilchen sind selbst positiv geladen.",
+        "Gleiche Ladungen stoßen sich ab.",
+        "Je näher am Kern, desto stärker die Ablenkung."
+      ],
+      "solution": "Die Teilchen sind positiv geladen wie der Kern. Fliegen sie nah vorbei, stoßen sich beide ab und die Bahn krümmt sich. Nur bei einem fast direkten Treffer kommt das Teilchen zurück.",
+      "misconceptions": [
+        {
+          "id": "elektron_als_ursache",
+          "value": 1,
+          "feedback": "Elektronen sind viel zu leicht, um ein schweres Teilchen abzulenken."
+        }
+      ],
+      "tags": [
+        "atombau",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS04-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Von 8000 Teilchen kommt etwa eines zurück. Wie viele wären das bei 40 000 Teilchen?",
+      "answer": 5,
+      "tolerance": 0,
+      "hints": [
+        "40 000 : 8 000.",
+        "Das sind 5.",
+        "5 Teilchen."
+      ],
+      "solution": "40 000 : 8 000 = 5 Teilchen. Die Zahl zeigt, wie winzig der Kern im Vergleich zum Atom ist.",
+      "tags": [
+        "atombau",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-EINH"
+      ]
+    },
+    {
+      "id": "PS04-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum musste eine sehr dünne Goldfolie verwendet werden?",
+      "options": [
+        "Bei dickerer Folie würden die Teilchen mehrfach abgelenkt und der Befund wäre nicht mehr auswertbar.",
+        "Dickere Folie wäre zu teuer gewesen.",
+        "Dickere Folie hätte die Teilchen erwärmt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert bei vielen Atomlagen hintereinander?",
+        "Mehrfachablenkung.",
+        "Dann lässt sich kein Einzelvorgang mehr erkennen."
+      ],
+      "solution": "Nur bei wenigen Atomlagen entspricht eine Ablenkung einem einzelnen Vorgang. Bei dicker Folie überlagern sich viele Ablenkungen und der Schluss auf den Kern wäre nicht möglich.",
+      "tags": [
+        "atombau",
+        "planen",
+        "msa"
+      ]
+    },
+    {
+      "id": "PS04-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Welches Atommodell wurde durch den Streuversuch abgelöst?",
+      "options": [
+        "Das Modell einer gleichmäßig verteilten Masse mit eingelagerten Elektronen.",
+        "Das Schalenmodell von Bohr.",
+        "Das Orbitalmodell."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welches Modell galt vor 1911?",
+        "Man dachte an eine gleichmäßig gefüllte Kugel.",
+        "Der Versuch zeigte: Das Atom ist fast leer."
+      ],
+      "solution": "Vor dem Streuversuch stellte man sich das Atom als gleichmäßig gefüllte Kugel vor. Diese Vorstellung ist mit den Beobachtungen nicht vereinbar. Bohrs Schalenmodell kam erst danach.",
+      "tags": [
+        "atombau",
+        "modelle",
+        "bbr"
+      ]
+    },
+    {
+      "id": "PS04-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "numeric",
+      "prompt": "Ein Atom hat einen Durchmesser von 0,1 nm, der Kern 0,00001 nm. Um welchen Faktor ist das Atom größer?",
+      "answer": 10000,
+      "tolerance": 1,
+      "hints": [
+        "0,1 : 0,00001.",
+        "Verschiebe das Komma.",
+        "10 000."
+      ],
+      "solution": "0,1 nm : 0,00001 nm = 10 000. Das Atom ist zehntausendmal größer als sein Kern.",
+      "misconceptions": [
+        {
+          "id": "faktor_falsch",
+          "value": 1000,
+          "feedback": "Zähle die Stellen genau: 0,1 : 0,00001 = 10 000.",
+          "konzeptfehler": "groesse_und_einheit_verwechselt"
+        }
+      ],
+      "tags": [
+        "atombau",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-EINH"
+      ]
+    },
+    {
+      "id": "PS04-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum ist der Vergleich „Granate prallt an Papier ab“ so treffend?",
+      "options": [
+        "Er zeigt, wie unerwartet der Befund war — etwas sehr Leichtes wirft etwas sehr Schweres zurück.",
+        "Er beschreibt die Geschwindigkeit der Teilchen.",
+        "Er beschreibt die Dicke der Goldfolie."
+      ],
+      "answer": 0,
+      "hints": [
+        "Warum war Rutherford überrascht?",
+        "Weil niemand mit Rückwärtsflug rechnete.",
+        "Es muss also etwas sehr Massereiches geben."
+      ],
+      "solution": "Nach dem damaligen Modell konnte nichts ein schnelles, schweres Teilchen zurückwerfen. Dass es geschah, erzwang die Annahme eines winzigen, sehr massereichen Kerns.",
+      "tags": [
+        "atombau",
+        "msa"
+      ]
+    },
+    {
+      "id": "PS04-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Was sagt das Kern-Hülle-Modell über die Anordnung der Elektronen?",
+      "options": [
+        "Nichts — dazu brauchte es Bohrs Erweiterung.",
+        "Dass sie auf festen Kreisbahnen laufen.",
+        "Dass sie im Kern sitzen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was konnte der Streuversuch zeigen?",
+        "Nur, dass es einen Kern gibt und die Hülle leer ist.",
+        "Über die Anordnung sagt er nichts."
+      ],
+      "solution": "Der Streuversuch belegt Kern und weitgehend leere Hülle. Wie die Elektronen darin angeordnet sind, lässt sich daraus nicht ableiten — das leistet erst das Schalenmodell.",
+      "misconceptions": [
+        {
+          "id": "modelle_vermischt",
+          "value": 1,
+          "feedback": "Die Kreisbahnen stammen von Bohr, nicht aus dem Streuversuch."
+        }
+      ],
+      "tags": [
+        "atombau",
+        "modelle",
+        "msa"
+      ]
+    },
+    {
+      "id": "PS04-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Ein Modellversuch: Ein Atom wird auf 100 m Durchmesser vergrößert.",
+      "fields": [
+        {
+          "label": "Kerndurchmesser im Modell in Zentimetern",
+          "answer": 1,
+          "unit_label": "cm",
+          "tolerance": 0.1
+        },
+        {
+          "label": "Um welchen Faktor wurde vergrößert (Atom real 0,1 nm)?",
+          "answer": 1000000000000,
+          "tolerance": 10000000000
+        }
+      ],
+      "hints": [
+        "Der Kern ist 10 000-mal kleiner als das Atom.",
+        "100 m : 10 000 = 0,01 m = 1 cm.",
+        "Faktor: 100 m : 0,1 nm = 100 : 1·10⁻¹⁰ m."
+      ],
+      "solution": "Kern im Modell: 100 m : 10 000 = 0,01 m = 1 cm\nVergrößerungsfaktor: 100 m : 10⁻¹⁰ m = 10¹² — also eine Billion.",
+      "tags": [
+        "atombau",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-EINH"
+      ]
+    },
+    {
+      "id": "PS04-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler fragt: „Wenn das Atom fast leer ist, warum falle ich dann nicht durch den Stuhl?“ Welche Antwort ist fachlich richtig?",
+      "options": [
+        "Die Elektronenhüllen stoßen sich gegenseitig elektrisch ab — Berührung ist eine Abstoßung, kein Aufeinandertreffen von Materie.",
+        "Weil die Atome des Stuhls dicht gepackt sind.",
+        "Weil der Stuhl aus Holz und nicht aus Gold besteht."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was berührt sich, wenn zwei Körper sich berühren?",
+        "Die Elektronenhüllen.",
+        "Und gleiche Ladungen stoßen sich ab."
+      ],
+      "solution": "Beim Berühren nähern sich die negativ geladenen Elektronenhüllen und stoßen sich ab. Man spürt diese Abstoßung als Festigkeit. Dass die Atome selbst fast leer sind, widerspricht dem nicht.",
+      "tags": [
+        "atombau",
+        "transfer",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 10,
+      "aufgaben": 19,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 6,
+      "aufgaben": 21,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 6,
+      "aufgaben": 18,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Rutherfordscher Streuversuch 2",
+      "url": "https://learningapps.org/view8103304",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Rutherfordscher Streuversuch 1",
+      "url": "https://learningapps.org/view8103208",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Die Kathodenstrahlröhre — wie das Elektron gefunden wurde",
+      "url": "https://www.youtube.com/watch?v=ify888882-8",
+      "quelle": "North Carolina School of Science and Mathematics",
+      "stufe": "C",
+      "rolle": "Vertiefung zur Entwicklung des Kern-Hülle-Modells",
+      "lumi": "https://app.lumi.education/run/9YYk0G",
+      "embed": "https://app.lumi.education/api/v1/run/9YYk0G/embed",
+      "protokoll": true
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 8,
+    "titel": "Atombau und Ordnung der Elemente",
+    "seiten_von": 97,
+    "seiten_bis": 108,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Atomkern"
+  }
+}

@@ -1,0 +1,706 @@
+{
+  "unit": "PS-07",
+  "title": "Schalenmodell und Außenelektronen",
+  "leitidee": "B2",
+  "standards": [
+    "K1",
+    "K2.3",
+    "K3.4"
+  ],
+  "klasse": 7,
+  "wortspeicher": [
+    "die Schale",
+    "das Außenelektron",
+    "das Valenzelektron",
+    "die Edelgaskonfiguration",
+    "die Besetzungsregel",
+    "das Schalenmodell"
+  ],
+  "worterklaerungen": {
+    "Schale": "Ein Bereich in der Atomhülle. Jede Schale fasst nur eine bestimmte Zahl Elektronen.",
+    "Außenelektron": "Ein Elektron auf der äußersten Schale. Es bestimmt, wie ein Atom reagiert.",
+    "Edelgaskonfiguration": "Eine volle Außenschale. Diesen Zustand streben Atome an."
+  },
+  "can_do": {
+    "A": "Ich verteile Elektronen auf die Schalen und lese die Zahl der Außenelektronen ab.",
+    "B": "Ich verbinde Schalenzahl mit der Periode und Außenelektronen mit der Hauptgruppe.",
+    "C": "Ich sage aus der Stellung im PSE voraus, wie viele Elektronen ein Atom abgibt oder aufnimmt."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Elektronen auf Schalen",
+      "hinfuehrung": "Die Elektronen sitzen auf Schalen.",
+      "erklaerung": [
+        "Die erste Schale fasst 2 Elektronen.",
+        "Die zweite fasst 8. Die dritte auch 8."
+      ],
+      "merke": "Erst die innere Schale füllen, dann die nächste.",
+      "beispiel": {
+        "titel": "Natrium verteilen",
+        "aufgabe": "Natrium hat 11 Elektronen.",
+        "schritte": [
+          "2 auf die erste Schale",
+          "8 auf die zweite Schale",
+          "1 bleibt für die dritte"
+        ],
+        "ergebnis": "2 · 8 · 1 — ein Außenelektron.",
+        "luecke": {
+          "schritt": 2,
+          "wert": 1
+        }
+      },
+      "visual": {
+        "type": "atom",
+        "z": 11,
+        "symbol": "Na",
+        "regler": true,
+        "alt": "Schalenmodell mit Regler für die Ordnungszahl."
+      }
+    },
+    "B": {
+      "titel": "Schalen, Perioden, Gruppen",
+      "hinfuehrung": "Das Schalenmodell erklärt den Aufbau des Periodensystems. Zwei Zusammenhänge tragen fast alles, was in Klasse 7 bis 10 gebraucht wird.",
+      "erklaerung": [
+        "Die Zahl der besetzten Schalen ist die Periodennummer. Natrium hat drei Schalen und steht in Periode 3.",
+        "Die Zahl der Außenelektronen ist die Hauptgruppennummer. Natrium hat ein Außenelektron und steht in Gruppe I.",
+        "Deshalb reagieren Elemente einer Gruppe ähnlich: Sie haben gleich viele Außenelektronen."
+      ],
+      "merke": "Periode = Zahl der Schalen. Hauptgruppe = Zahl der Außenelektronen.",
+      "visual": {
+        "type": "animation",
+        "name": "atombau",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Was ein Atom mit seinen Außenelektronen tut",
+      "hinfuehrung": "Atome streben die volle Außenschale an — die Edelgaskonfiguration. Ob sie dafür Elektronen abgeben oder aufnehmen, entscheidet allein, welcher Weg der kürzere ist.",
+      "erklaerung": [
+        "Ein bis drei Außenelektronen: Abgeben ist kürzer. Es entstehen positiv geladene Ionen. Das tun die Metalle.",
+        "Fünf bis sieben Außenelektronen: Aufnehmen ist kürzer. Es entstehen negativ geladene Ionen. Das tun die Nichtmetalle.",
+        "Acht Außenelektronen: Der Zustand ist bereits erreicht. Deshalb reagieren Edelgase kaum.",
+        "Damit ist die Ionenladung aus der Hauptgruppennummer vorhersagbar — und die Verhältnisformel eines Salzes ebenso."
+      ],
+      "merke": "Ein bis drei abgeben, fünf bis sieben aufnehmen — jeweils der kürzere Weg zur vollen Schale.",
+      "visual": {
+        "type": "animation",
+        "name": "atombau",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Schalen fassen 2, 8, 8, 2 Elektronen"
+    ],
+    "saetze": [
+      "Periode = Zahl der besetzten Schalen.",
+      "Hauptgruppe = Zahl der Außenelektronen.",
+      "1 bis 3 Außenelektronen → abgeben → positives Ion.",
+      "5 bis 7 Außenelektronen → aufnehmen → negatives Ion.",
+      "8 Außenelektronen: Edelgaskonfiguration, kaum Reaktion."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Atombau, Stellung im Periodensystem und Schalenmodell",
+      "url": "https://www.youtube.com/watch?v=OuIVWtr_kCQ",
+      "quelle": "Biologie und Chemie Schule",
+      "lumi": "https://app.lumi.education/run/TN5efk",
+      "embed": "https://app.lumi.education/api/v1/run/TN5efk/embed",
+      "stufe": "A",
+      "dauer_s": 1360
+    },
+    {
+      "titel": "Das Energiestufenmodell einfach erklärt",
+      "url": "https://www.youtube.com/watch?v=ng8do9rnrGI",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/afhX_6",
+      "embed": "https://app.lumi.education/api/v1/run/afhX_6/embed",
+      "stufe": "B",
+      "dauer_s": 694
+    }
+  ],
+  "tasks": [
+    {
+      "id": "PS07-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "Wie viele Elektronen passen auf die erste Schale?",
+      "answer": 2,
+      "tolerance": 0,
+      "hints": [
+        "Die erste Schale ist die kleinste.",
+        "Sie fasst weniger als die zweite.",
+        "2."
+      ],
+      "solution": "Die erste Schale fasst 2 Elektronen.",
+      "tags": [
+        "schalen"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS07-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Sauerstoff hat 8 Elektronen. Wie viele sitzen auf der äußersten Schale?",
+      "answer": 6,
+      "tolerance": 0,
+      "visual": {
+        "type": "atom",
+        "z": 8,
+        "symbol": "O",
+        "neutronen": 8,
+        "alt": "Schalenmodell von Sauerstoff."
+      },
+      "hints": [
+        "Erst 2 auf die erste Schale.",
+        "Es bleiben 8 − 2 = 6.",
+        "6 Außenelektronen."
+      ],
+      "solution": "2 auf die erste Schale, die restlichen 6 auf die zweite. Sauerstoff hat 6 Außenelektronen.",
+      "misconceptions": [
+        {
+          "id": "schale_falsch_gefuellt",
+          "value": 8,
+          "feedback": "Die erste Schale fasst nur 2. Die übrigen 6 sitzen außen.",
+          "konzeptfehler": "ion_und_atom_verwechselt"
+        }
+      ],
+      "tags": [
+        "schalen"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS07-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie viele Schalen sind bei Natrium (11 Elektronen) besetzt?",
+      "answer": 3,
+      "tolerance": 0,
+      "hints": [
+        "2 auf die erste, 8 auf die zweite.",
+        "Es bleibt 1 übrig.",
+        "Also drei Schalen."
+      ],
+      "solution": "2 + 8 = 10, das elfte Elektron beginnt die dritte Schale. Natrium hat drei besetzte Schalen.",
+      "tags": [
+        "schalen"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS07-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Welches Atom hat eine volle Außenschale?",
+      "options": [
+        "Neon",
+        "Natrium",
+        "Chlor"
+      ],
+      "answer": 0,
+      "hints": [
+        "Volle Außenschale haben die Edelgase.",
+        "Welches der drei ist ein Edelgas?",
+        "Neon."
+      ],
+      "solution": "Neon ist ein Edelgas und hat 8 Außenelektronen — die Schale ist voll. Deshalb reagiert es kaum.",
+      "tags": [
+        "schalen"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS07-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "multi",
+      "prompt": "Verteile die Elektronen von Chlor (17 Elektronen) auf die Schalen.",
+      "fields": [
+        {
+          "label": "1. Schale",
+          "answer": 2,
+          "tolerance": 0
+        },
+        {
+          "label": "2. Schale",
+          "answer": 8,
+          "tolerance": 0
+        },
+        {
+          "label": "3. Schale",
+          "answer": 7,
+          "tolerance": 0
+        }
+      ],
+      "visual": {
+        "type": "atom",
+        "z": 17,
+        "symbol": "Cl",
+        "neutronen": 18,
+        "alt": "Schalenmodell von Chlor."
+      },
+      "hints": [
+        "Erst die innere Schale voll machen.",
+        "2, dann 8.",
+        "17 − 2 − 8 = 7."
+      ],
+      "solution": "2 · 8 · 7 — Chlor hat 7 Außenelektronen und steht in Hauptgruppe VII.",
+      "tags": [
+        "schalen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS07-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Ein Element steht in Periode 3 und Hauptgruppe II. Wie viele Außenelektronen hat es?",
+      "options": [
+        "2",
+        "3",
+        "8"
+      ],
+      "answer": 0,
+      "hints": [
+        "Welche Zahl gibt die Außenelektronen an?",
+        "Die Hauptgruppennummer.",
+        "Also 2."
+      ],
+      "solution": "Die Hauptgruppennummer gibt die Zahl der Außenelektronen an: 2. Die Periode 3 sagt, dass drei Schalen besetzt sind — es ist Magnesium.",
+      "misconceptions": [
+        {
+          "id": "periode_gruppe_vertauscht",
+          "value": 1,
+          "feedback": "Die 3 ist die Periode, also die Zahl der Schalen. Die Außenelektronen gibt die Gruppennummer an."
+        }
+      ],
+      "tags": [
+        "schalen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS07-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum gibt Natrium beim Reagieren genau ein Elektron ab?",
+      "options": [
+        "Danach hat es die volle Schale eines Edelgases erreicht.",
+        "Weil es genau ein Elektron zu viel hat.",
+        "Weil es in Periode 3 steht."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "atombau",
+        "stufe": "B"
+      },
+      "hints": [
+        "Was passiert mit der Hülle, wenn das eine Außenelektron weg ist?",
+        "Die darunterliegende volle Schale wird zur Außenschale.",
+        "Das ist die Edelgaskonfiguration von Neon."
+      ],
+      "solution": "Gibt Natrium sein einziges Außenelektron ab, wird die darunterliegende volle Schale zur äußersten — die Konfiguration von Neon. Genau diesen Zustand streben Atome an.",
+      "tags": [
+        "schalen",
+        "ionen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS07-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie viele Elektronen nimmt Sauerstoff (6 Außenelektronen) auf, um die volle Schale zu erreichen?",
+      "answer": 2,
+      "tolerance": 0,
+      "hints": [
+        "Volle Schale heißt 8.",
+        "8 − 6.",
+        "2."
+      ],
+      "solution": "8 − 6 = 2. Sauerstoff nimmt zwei Elektronen auf und bildet das Ion O²⁻.",
+      "misconceptions": [
+        {
+          "id": "ladung_falsch_herum",
+          "value": 6,
+          "feedback": "Das ist die Zahl der vorhandenen Außenelektronen. Gefragt war, wie viele noch fehlen.",
+          "konzeptfehler": "ladung_unvollstaendig"
+        }
+      ],
+      "tags": [
+        "schalen",
+        "ionen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS07-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "assign",
+      "prompt": "Ordne jedem Atom zu, was es tut, um die volle Schale zu erreichen.",
+      "slots": [
+        "Magnesium (2 Außenelektronen)",
+        "Schwefel (6 Außenelektronen)",
+        "Argon (8 Außenelektronen)"
+      ],
+      "values": [
+        "gibt 2 Elektronen ab",
+        "nimmt 2 Elektronen auf",
+        "tut nichts"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Der kürzere Weg entscheidet.",
+        "Bei 2 Außenelektronen ist Abgeben kürzer.",
+        "Bei 8 ist der Zustand schon erreicht."
+      ],
+      "solution": "Magnesium → 2 abgeben (Mg²⁺).\nSchwefel → 2 aufnehmen (S²⁻).\nArgon → nichts, die Schale ist voll.",
+      "tags": [
+        "schalen",
+        "ionen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS07-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum reagieren Lithium, Natrium und Kalium alle heftig mit Wasser?",
+      "options": [
+        "Alle drei haben ein Außenelektron und geben es leicht ab.",
+        "Alle drei sind Metalle mit gleicher Masse.",
+        "Alle drei stehen in derselben Periode."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was haben sie gemeinsam?",
+        "Sie stehen untereinander in Gruppe I.",
+        "Also gleich viele Außenelektronen."
+      ],
+      "solution": "Alle drei stehen in Hauptgruppe I und besitzen ein Außenelektron, das leicht abgegeben wird. Gleiche Außenelektronenzahl bedeutet ähnliches Reaktionsverhalten.",
+      "tags": [
+        "schalen",
+        "gruppen",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS07-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Ein Element hat die Elektronenverteilung 2 · 8 · 3. Wo steht es im Periodensystem?",
+      "options": [
+        "Periode 3, Hauptgruppe III",
+        "Periode 2, Hauptgruppe III",
+        "Periode 3, Hauptgruppe II"
+      ],
+      "answer": 0,
+      "hints": [
+        "Zähle die besetzten Schalen.",
+        "Es sind drei.",
+        "Und außen sitzen drei Elektronen."
+      ],
+      "solution": "Drei besetzte Schalen → Periode 3. Drei Außenelektronen → Hauptgruppe III. Es ist Aluminium.",
+      "misconceptions": [
+        {
+          "id": "periode_gruppe_vertauscht",
+          "value": 1,
+          "feedback": "Die Periode ist die Zahl der Schalen, nicht die Zahl der Außenelektronen."
+        }
+      ],
+      "tags": [
+        "schalen",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS07-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Aluminium hat 13 Elektronen, Sauerstoff 8.",
+      "fields": [
+        {
+          "label": "Ladung des Aluminium-Ions",
+          "answer": 3,
+          "tolerance": 0
+        },
+        {
+          "label": "Ladung des Sauerstoff-Ions",
+          "answer": -2,
+          "tolerance": 0,
+          "misconceptions": [
+            {
+              "id": "ladung_falsch_herum",
+              "value": 2,
+              "feedback": "Sauerstoff nimmt Elektronen auf und wird dadurch <b>negativ</b>.",
+              "konzeptfehler": "ladung_unvollstaendig"
+            }
+          ]
+        },
+        {
+          "label": "Zahl der Aluminium-Ionen in der Verhältnisformel",
+          "answer": 2,
+          "tolerance": 0
+        }
+      ],
+      "hints": [
+        "Aluminium: 2 · 8 · 3, also 3 Außenelektronen zum Abgeben.",
+        "Sauerstoff: 6 Außenelektronen, nimmt 2 auf.",
+        "Ladungsausgleich: 2 · (+3) und 3 · (−2) ergeben null."
+      ],
+      "solution": "Al³⁺ und O²⁻.\nLadungsausgleich: 2 · 3 = 6 = 3 · 2 → Al₂O₃.",
+      "tags": [
+        "schalen",
+        "ionen",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL",
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "PS07-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum versagt das Schalenmodell bei den Nebengruppenelementen?",
+      "options": [
+        "Deren Elektronen füllen innere Bereiche auf, was das einfache Schalenmodell nicht abbildet.",
+        "Nebengruppenelemente haben keine Elektronen.",
+        "Nebengruppenelemente sind keine Elemente."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ändert sich bei Eisen, Kupfer, Zink von einem Element zum nächsten?",
+        "Nicht die Außenelektronenzahl.",
+        "Aufgefüllt wird eine innere Ebene."
+      ],
+      "solution": "Bei den Nebengruppen werden innere Bereiche aufgefüllt, während die Außenelektronenzahl fast gleich bleibt. Deshalb ähneln sich diese Elemente untereinander stark — mit der einfachen Regel 2, 8, 8 lässt sich das nicht darstellen. Das ist eine bekannte Modellgrenze.",
+      "tags": [
+        "schalen",
+        "modelle",
+        "msa"
+      ]
+    },
+    {
+      "id": "PS07-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler folgert: „Kalium hat 19 Elektronen, also 2 · 8 · 8 · 1. Und Calcium 2 · 8 · 8 · 2. Dann müsste das nächste Element 2 · 8 · 8 · 3 haben.“ Wie bewertest du das?",
+      "options": [
+        "Die Regel trägt bis Calcium; danach beginnt eine Nebengruppe, für die das Modell nicht gemacht ist.",
+        "Die Folgerung stimmt für alle Elemente.",
+        "Die Folgerung ist falsch, weil die dritte Schale nur 8 fasst."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welches Element folgt auf Calcium?",
+        "Scandium — ein Nebengruppenelement.",
+        "Dort greift die einfache Regel nicht mehr."
+      ],
+      "solution": "Bis Calcium ist die Fortsetzung richtig. Danach folgt Scandium, ein Nebengruppenelement: Dort wird eine innere Ebene aufgefüllt statt der Außenschale. Die Schlussfolgerung ist also nicht falsch gedacht, sondern über die Modellgrenze hinaus gezogen.",
+      "tags": [
+        "schalen",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 10,
+      "aufgaben": 19,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 11,
+      "aufgaben": 16,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 12,
+      "aufgaben": 12,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Schalenmodell: Elektronenkonfiguration und Elementsymbole",
+      "url": "https://learningapps.org/view12679168",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Domino zum Atombau (Schalenmodell)",
+      "url": "https://learningapps.org/view13591778",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Atombau — Quiz Klasse 9",
+      "url": "https://www.schlaukopf.de/realschule/klasse9/chemie/atombau",
+      "typ": "app",
+      "quelle": "Schlaukopf"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Flammenfärbung mit Beschriftung der Metallionen",
+      "url": "https://www.youtube.com/watch?v=1EXr_L7Ojqg",
+      "quelle": "North Carolina School of Science and Mathematics",
+      "stufe": "A",
+      "rolle": "Demonstration zu Außenelektronen; die Schrifteinblendungen tragen den Inhalt",
+      "lumi": "https://app.lumi.education/run/QuDn1S",
+      "embed": "https://app.lumi.education/api/v1/run/QuDn1S/embed",
+      "protokoll": true
+    },
+    {
+      "titel": "Linienspektren verschiedener Elemente",
+      "url": "https://www.youtube.com/watch?v=955snB6HLB4",
+      "quelle": "North Carolina School of Science and Mathematics",
+      "stufe": "C",
+      "rolle": "Vertiefung: warum Flammenfärbung Rückschlüsse auf die Hülle erlaubt",
+      "embed": "https://www.youtube-nocookie.com/embed/955snB6HLB4",
+      "protokoll": false,
+      "beobachtung": {
+        "A": "Notiere, welche Farben du im Spektrum siehst.",
+        "B": "Erkläre, warum jedes Element ein eigenes Linienspektrum hat.",
+        "C": "Begründe mit dem Schalenmodell, warum nur bestimmte Farben auftreten und nicht alle."
+      }
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 8,
+    "titel": "Atombau und Ordnung der Elemente",
+    "seiten_von": 97,
+    "seiten_bis": 108,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Schale"
+  }
+}

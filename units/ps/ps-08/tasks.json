@@ -1,0 +1,727 @@
+{
+  "unit": "PS-08",
+  "title": "Elementfamilien & Prüfungstraining",
+  "leitidee": "B2",
+  "standards": [
+    "K1",
+    "K2.1",
+    "K3.3",
+    "K4.1"
+  ],
+  "klasse": 7,
+  "wortspeicher": [
+    "die Alkalimetalle",
+    "die Erdalkalimetalle",
+    "die Halogene",
+    "die Edelgase",
+    "die Elementfamilie",
+    "die Reaktionsfähigkeit"
+  ],
+  "worterklaerungen": {
+    "Alkalimetalle": "Die Elemente der ersten Hauptgruppe. Sie reagieren heftig mit Wasser.",
+    "Halogene": "Die Elemente der siebten Hauptgruppe. Sie bilden Salze.",
+    "Elementfamilie": "Eine Hauptgruppe mit ähnlichen Eigenschaften."
+  },
+  "can_do": {
+    "A": "Ich ordne bekannte Elemente ihrer Familie zu und nenne eine typische Eigenschaft.",
+    "B": "Ich beschreibe Trends innerhalb einer Familie und begründe sie mit dem Atombau.",
+    "C": "Ich sage Eigenschaften eines unbekannten Elements aus seiner Stellung im PSE vorher."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Familien im Periodensystem",
+      "hinfuehrung": "Elemente einer Spalte bilden eine Familie.",
+      "erklaerung": [
+        "Alkalimetalle stehen ganz links.",
+        "Edelgase stehen ganz rechts."
+      ],
+      "merke": "Gleiche Spalte = gleiche Familie = ähnliche Eigenschaften.",
+      "beispiel": {
+        "titel": "Natrium und Wasser",
+        "aufgabe": "Natrium wird in Wasser gegeben.",
+        "schritte": [
+          "Es zischt und schmilzt zur Kugel.",
+          "Ein Gas entsteht.",
+          "Die Lösung wird alkalisch."
+        ],
+        "ergebnis": "Typisch für ein Alkalimetall."
+      },
+      "visual": {
+        "type": "pse",
+        "markiert": [
+          "Li",
+          "Na",
+          "K",
+          "F",
+          "Cl",
+          "He",
+          "Ne",
+          "Ar"
+        ],
+        "perioden": 4,
+        "alt": "Periodensystem mit hervorgehobenen Alkalimetallen, Halogenen und Edelgasen."
+      }
+    },
+    "B": {
+      "titel": "Trends in einer Familie",
+      "hinfuehrung": "Innerhalb einer Familie ändern sich Eigenschaften nicht sprunghaft, sondern regelmäßig. Diese Regelmäßigkeit macht Vorhersagen möglich.",
+      "erklaerung": [
+        "Bei den Alkalimetallen nimmt die Reaktionsfähigkeit nach unten zu: Lithium reagiert lebhaft, Kalium heftig, Caesium explosionsartig.",
+        "Grund: Je weiter außen das Außenelektron sitzt, desto schwächer hält der Kern es fest — desto leichter wird es abgegeben.",
+        "Bei den Halogenen ist es umgekehrt: Sie nehmen Elektronen auf, und das gelingt bei kleinen Atomen besser. Fluor ist deshalb reaktionsfreudiger als Iod."
+      ],
+      "merke": "Alkalimetalle: nach unten reaktiver. Halogene: nach oben reaktiver.",
+      "visual": {
+        "type": "pse",
+        "markiert": [
+          "Li",
+          "Na",
+          "K"
+        ],
+        "perioden": 4,
+        "legende": "Nach unten wächst bei den Alkalimetallen die Reaktionsfähigkeit.",
+        "alt": "Periodensystem mit hervorgehobener erster Hauptgruppe."
+      }
+    },
+    "C": {
+      "titel": "Vorhersagen treffen",
+      "hinfuehrung": "Der eigentliche Wert des Periodensystems liegt darin, dass es Aussagen über Elemente erlaubt, die man nie gesehen hat. Genau dafür wurde es gebaut.",
+      "erklaerung": [
+        "Aus der Gruppe folgt: Zahl der Außenelektronen, Ionenladung, Art der Verbindungen.",
+        "Aus der Periode folgt: Zahl der Schalen, Größe des Atoms.",
+        "Aus der Stellung innerhalb der Gruppe folgt die relative Reaktionsfähigkeit.",
+        "Ein Beispiel: Rubidium steht unter Kalium in Gruppe I. Also ein Außenelektron, Ion Rb⁺, Reaktion mit Wasser heftiger als bei Kalium."
+      ],
+      "merke": "Gruppe sagt was, Periode sagt wie groß, Stellung sagt wie heftig.",
+      "visual": {
+        "type": "animation",
+        "name": "signalwoerter",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [],
+    "saetze": [
+      "Gruppe I: Alkalimetalle, ein Außenelektron, Ion X⁺.",
+      "Gruppe II: Erdalkalimetalle, zwei Außenelektronen, Ion X²⁺.",
+      "Gruppe VII: Halogene, sieben Außenelektronen, Ion X⁻.",
+      "Gruppe VIII: Edelgase, volle Außenschale, kaum Reaktion.",
+      "Alkalimetalle werden nach unten reaktiver, Halogene nach oben."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Alkalimetalle — die 1. Hauptgruppe",
+      "url": "https://www.youtube.com/watch?v=NpgVk9leUbs",
+      "quelle": "musstewissen Chemie",
+      "lumi": "https://app.lumi.education/run/PZPUtF",
+      "embed": "https://app.lumi.education/api/v1/run/PZPUtF/embed",
+      "stufe": "A",
+      "dauer_s": 646
+    },
+    {
+      "titel": "Halogene — die 7. Hauptgruppe",
+      "url": "https://www.youtube.com/watch?v=CC1IIka6Khg",
+      "quelle": "musstewissen Chemie",
+      "lumi": "https://app.lumi.education/run/5Djuwc",
+      "embed": "https://app.lumi.education/api/v1/run/5Djuwc/embed",
+      "stufe": "B",
+      "dauer_s": 359
+    },
+    {
+      "titel": "Edelgase — die 8. Hauptgruppe",
+      "url": "https://www.youtube.com/watch?v=7lz5PD61gmo",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/14pQiD",
+      "embed": "https://app.lumi.education/api/v1/run/14pQiD/embed",
+      "stufe": "C",
+      "dauer_s": 185
+    }
+  ],
+  "tasks": [
+    {
+      "id": "PS08-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Zu welcher Familie gehört Natrium?",
+      "options": [
+        "Alkalimetalle",
+        "Halogene",
+        "Edelgase"
+      ],
+      "answer": 0,
+      "hints": [
+        "In welcher Spalte steht Natrium?",
+        "In der ersten.",
+        "Das sind die Alkalimetalle."
+      ],
+      "solution": "Natrium steht in der ersten Hauptgruppe — bei den Alkalimetallen.",
+      "tags": [
+        "familien"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS08-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "assign",
+      "prompt": "Ordne jedes Element seiner Familie zu.",
+      "slots": [
+        "Kalium",
+        "Chlor",
+        "Argon"
+      ],
+      "values": [
+        "Alkalimetalle",
+        "Halogene",
+        "Edelgase"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Kalium steht ganz links.",
+        "Argon ganz rechts.",
+        "Chlor eine Spalte davor."
+      ],
+      "solution": "Kalium → Alkalimetalle.\nChlor → Halogene.\nArgon → Edelgase.",
+      "tags": [
+        "familien"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS08-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Was passiert, wenn Natrium in Wasser gegeben wird?",
+      "options": [
+        "Es reagiert heftig und es entsteht ein Gas.",
+        "Es löst sich ruhig auf.",
+        "Es passiert nichts."
+      ],
+      "answer": 0,
+      "hints": [
+        "Alkalimetalle reagieren mit Wasser.",
+        "Und zwar heftig.",
+        "Dabei entsteht Wasserstoff."
+      ],
+      "solution": "Natrium reagiert heftig mit Wasser. Es entsteht Wasserstoff, und die Lösung wird alkalisch.",
+      "tags": [
+        "familien"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "PS08-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum reagieren Edelgase fast nicht?",
+      "options": [
+        "Ihre Außenschale ist bereits voll.",
+        "Sie sind zu leicht.",
+        "Sie sind zu selten."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was streben Atome an?",
+        "Eine volle Außenschale.",
+        "Edelgase haben sie schon."
+      ],
+      "solution": "Edelgase haben eine volle Außenschale und müssen weder abgeben noch aufnehmen. Deshalb reagieren sie kaum.",
+      "tags": [
+        "familien"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS08-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welche Ionenladung bildet ein Element der zweiten Hauptgruppe?",
+      "options": [
+        "2+",
+        "2−",
+        "1+"
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie viele Außenelektronen hat es?",
+        "Zwei.",
+        "Es gibt beide ab."
+      ],
+      "solution": "Zwei Außenelektronen werden abgegeben. Es entsteht ein zweifach positiv geladenes Ion, etwa Mg²⁺.",
+      "misconceptions": [
+        {
+          "id": "ladung_falsch_herum",
+          "value": 1,
+          "feedback": "Beim Abgeben von Elektronen wird das Ion <b>positiv</b>.",
+          "konzeptfehler": "ladung_unvollstaendig"
+        }
+      ],
+      "tags": [
+        "familien",
+        "ionen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS08-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum reagiert Kalium heftiger mit Wasser als Lithium?",
+      "options": [
+        "Sein Außenelektron sitzt weiter vom Kern entfernt und wird leichter abgegeben.",
+        "Kalium ist schwerer.",
+        "Kalium hat mehr Außenelektronen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Beide haben ein Außenelektron.",
+        "Der Unterschied liegt im Abstand zum Kern.",
+        "Weiter außen heißt schwächer gebunden."
+      ],
+      "solution": "Beide haben ein Außenelektron. Bei Kalium sitzt es auf der vierten Schale, also weiter vom Kern entfernt, und wird deshalb leichter abgegeben. Nach unten nimmt die Reaktionsfähigkeit der Alkalimetalle zu.",
+      "misconceptions": [
+        {
+          "id": "masse_als_grund",
+          "value": 1,
+          "feedback": "Die Masse ist nicht die Ursache. Entscheidend ist der Abstand des Außenelektrons vom Kern."
+        }
+      ],
+      "tags": [
+        "familien",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS08-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Fluor reagiert heftiger als Iod. Wie passt das zum Trend bei den Alkalimetallen?",
+      "options": [
+        "Es ist der umgekehrte Trend, weil Halogene Elektronen aufnehmen statt abgeben.",
+        "Es ist derselbe Trend.",
+        "Es ist ein Widerspruch im Periodensystem."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was tun Halogene mit Elektronen?",
+        "Sie nehmen auf.",
+        "Aufnehmen gelingt bei kleinen Atomen besser."
+      ],
+      "solution": "Alkalimetalle geben ab — das gelingt bei großen Atomen leichter, also nach unten besser. Halogene nehmen auf — das gelingt bei kleinen Atomen besser, also nach oben. Beide Trends folgen derselben Ursache und zeigen nur in entgegengesetzte Richtung.",
+      "tags": [
+        "familien",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS08-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "assign",
+      "prompt": "Ordne jeder Familie ihre typische Ionenladung zu.",
+      "slots": [
+        "Alkalimetalle",
+        "Erdalkalimetalle",
+        "Halogene"
+      ],
+      "values": [
+        "1+",
+        "2+",
+        "1−"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Zähle die Außenelektronen.",
+        "Bis drei wird abgegeben.",
+        "Ab fünf wird aufgenommen."
+      ],
+      "solution": "Alkalimetalle → 1+.\nErdalkalimetalle → 2+.\nHalogene → 1−.",
+      "tags": [
+        "familien",
+        "ionen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS08-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Eine Prüfungsaufgabe lautet: „Begründe, warum Natrium und Kalium ähnlich reagieren.“ Welche Antwort ist vollständig?",
+      "options": [
+        "Beide stehen in Hauptgruppe I und haben je ein Außenelektron, das sie leicht abgeben — deshalb reagieren sie ähnlich.",
+        "Beide sind Metalle.",
+        "Beide reagieren mit Wasser."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was verlangt „Begründe“?",
+        "Eine Ursache.",
+        "Die Ursache liegt in den Außenelektronen."
+      ],
+      "solution": "„Begründe“ verlangt die Ursache. Antwort 2 ist zu allgemein, Antwort 3 wiederholt die Beobachtung. Nur Antwort 1 nennt den Grund: gleiche Zahl der Außenelektronen.",
+      "misconceptions": [
+        {
+          "id": "beschreiben_statt_erklaeren",
+          "value": 2,
+          "feedback": "Das ist eine Beobachtung, keine Begründung."
+        }
+      ],
+      "tags": [
+        "familien",
+        "operatoren",
+        "bbr"
+      ]
+    },
+    {
+      "id": "PS08-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum werden Alkalimetalle unter Petroleum aufbewahrt?",
+      "options": [
+        "Sie reagieren mit Luftfeuchtigkeit und Sauerstoff; Petroleum schließt beides ab.",
+        "Petroleum kühlt sie.",
+        "Petroleum macht sie schwerer."
+      ],
+      "answer": 0,
+      "hints": [
+        "Womit reagieren Alkalimetalle?",
+        "Mit Wasser und Sauerstoff.",
+        "Beides steckt in der Luft."
+      ],
+      "solution": "Alkalimetalle reagieren bereits mit der Luftfeuchtigkeit. Petroleum hält Wasser und Sauerstoff ab. Die frische Schnittfläche zeigt den metallischen Glanz — und läuft binnen Sekunden an.",
+      "tags": [
+        "familien",
+        "sicherheit",
+        "msa"
+      ]
+    },
+    {
+      "id": "PS08-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Rubidium steht in Gruppe I unter Kalium. Was sagst du über seine Reaktion mit Wasser voraus?",
+      "options": [
+        "Noch heftiger als bei Kalium.",
+        "Weniger heftig als bei Kalium.",
+        "Gar keine Reaktion."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie ändert sich die Reaktionsfähigkeit nach unten?",
+        "Sie nimmt zu.",
+        "Rubidium steht unter Kalium."
+      ],
+      "solution": "Nach unten nimmt die Reaktionsfähigkeit der Alkalimetalle zu, weil das Außenelektron immer schwächer gebunden ist. Rubidium reagiert deshalb heftiger als Kalium.",
+      "tags": [
+        "familien",
+        "vorhersage",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS08-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Ein unbekanntes Element X steht in Periode 4, Hauptgruppe II.",
+      "fields": [
+        {
+          "label": "Zahl der Außenelektronen",
+          "answer": 2,
+          "tolerance": 0
+        },
+        {
+          "label": "Ladung seines Ions",
+          "answer": 2,
+          "tolerance": 0
+        },
+        {
+          "label": "Zahl der Chlorid-Ionen in der Verbindung mit Chlor",
+          "answer": 2,
+          "tolerance": 0
+        }
+      ],
+      "hints": [
+        "Hauptgruppe II → zwei Außenelektronen.",
+        "Beide werden abgegeben → X²⁺.",
+        "Chlorid ist einfach negativ; für den Ausgleich braucht es zwei."
+      ],
+      "solution": "2 Außenelektronen → X²⁺.\nCl⁻ ist einfach negativ, also XCl₂. Es handelt sich um Calcium.",
+      "tags": [
+        "familien",
+        "vorhersage",
+        "msa"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "PS08-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Welche Vorhersage lässt sich aus dem Periodensystem NICHT ableiten?",
+      "options": [
+        "Wie schnell eine Reaktion abläuft.",
+        "Welche Ionenladung ein Hauptgruppenelement bildet.",
+        "Wie viele Außenelektronen ein Element hat."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was steht im PSE über Zeit?",
+        "Nichts.",
+        "Geschwindigkeit hängt von Temperatur, Zerteilung und Katalysator ab."
+      ],
+      "solution": "Ionenladung und Außenelektronenzahl folgen unmittelbar aus der Stellung. Die Reaktionsgeschwindigkeit hängt dagegen von Temperatur, Zerteilungsgrad und Katalysator ab — dazu sagt das Periodensystem nichts.",
+      "tags": [
+        "familien",
+        "bewerten",
+        "msa"
+      ]
+    },
+    {
+      "id": "PS08-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler behauptet: „Weil Kalium heftiger reagiert als Natrium, ist Kalium auch ein besseres Metall.“ Wie bewertest du diese Aussage?",
+      "options": [
+        "„Besser“ ist ohne Zweck keine sinnvolle Aussage — für einen Stromleiter zählt anderes als für eine Reaktion.",
+        "Richtig — heftigere Reaktion heißt besseres Metall.",
+        "Falsch — Natrium reagiert in Wirklichkeit heftiger."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wozu soll das Metall taugen?",
+        "Das steht nicht in der Aussage.",
+        "Ohne Zweck lässt sich „besser“ nicht beurteilen."
+      ],
+      "solution": "Reaktionsfähigkeit ist eine Eigenschaft, keine Wertung. Für eine Batterie kann sie erwünscht sein, für ein Bauteil wäre sie ein Ausschlusskriterium. Bewertungen brauchen einen Zweck — das ist der Kern des Kompetenzbereichs Bewerten.",
+      "tags": [
+        "familien",
+        "bewerten",
+        "msa"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 10,
+      "aufgaben": 19,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 9,
+      "aufgaben": 18,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 5,
+      "aufgaben": 19,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Elementfamilien und Periodensystem",
+      "url": "https://learningapps.org/view12729050",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Elemente zuordnen (Alkalimetalle, Erdalkalimetalle, Halogene, Edelgase)",
+      "url": "https://learningapps.org/view1709725",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Alkalimetalle — Kreuzworträtsel",
+      "url": "https://allgemeinbildung.ch/fach=che/Alkalimetalle_01k.htm",
+      "typ": "app",
+      "quelle": "allgemeinbildung.ch"
+    },
+    {
+      "titel": "Halogene und Edelgase — Quiz Klasse 8",
+      "url": "https://www.schlaukopf.de/realschule/klasse8/chemie/elementfamilien",
+      "typ": "app",
+      "quelle": "Schlaukopf"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Lithium reagiert mit Wasser",
+      "url": "https://www.youtube.com/watch?v=Vxqe_ZOwsHs",
+      "quelle": "North Carolina School of Science and Mathematics",
+      "stufe": "A",
+      "rolle": "Demonstration zur 1. Hauptgruppe",
+      "lumi": "https://app.lumi.education/run/APzWlL",
+      "embed": "https://app.lumi.education/api/v1/run/APzWlL/embed",
+      "protokoll": true
+    },
+    {
+      "titel": "Natrium reagiert mit Wasser",
+      "url": "https://www.youtube.com/watch?v=dmcfsEEogxs",
+      "quelle": "North Carolina School of Science and Mathematics",
+      "stufe": "A",
+      "rolle": "Demonstration zur 1. Hauptgruppe — Steigerung gegenüber Lithium",
+      "lumi": "https://app.lumi.education/run/Bky16R",
+      "embed": "https://app.lumi.education/api/v1/run/Bky16R/embed",
+      "protokoll": true
+    },
+    {
+      "titel": "Kalium reagiert mit Wasser",
+      "url": "https://www.youtube.com/watch?v=oqMN3y8k9So",
+      "quelle": "North Carolina School of Science and Mathematics",
+      "stufe": "B",
+      "rolle": "Demonstration zur 1. Hauptgruppe — die Reaktivität nimmt zu",
+      "embed": "https://www.youtube-nocookie.com/embed/oqMN3y8k9So",
+      "protokoll": false,
+      "beobachtung": {
+        "A": "Notiere drei Beobachtungen: Was passiert mit dem Kalium auf dem Wasser?",
+        "B": "Vergleiche die Reaktion mit der von Natrium. Ordne Lithium, Natrium und Kalium nach steigender Reaktionsfähigkeit.",
+        "C": "Begründe die Zunahme der Reaktionsfähigkeit innerhalb der 1. Hauptgruppe mit dem Atombau."
+      }
+    },
+    {
+      "titel": "Alkalimetalle im direkten Vergleich",
+      "url": "https://www.youtube.com/watch?v=jI__JY7pqOM",
+      "quelle": "Scott Milam",
+      "stufe": "B",
+      "rolle": "Demonstration: alle drei Reaktionen nacheinander",
+      "lumi": "https://app.lumi.education/run/xaRpiy",
+      "embed": "https://app.lumi.education/api/v1/run/xaRpiy/embed",
+      "protokoll": true
+    },
+    {
+      "titel": "Halogene verdrängen einander",
+      "url": "https://www.youtube.com/watch?v=MC8kEpWMSkk",
+      "quelle": "Rugby School Chemistry",
+      "stufe": "C",
+      "rolle": "Vertiefung zur 7. Hauptgruppe",
+      "lumi": "https://app.lumi.education/run/5HUGBc",
+      "embed": "https://app.lumi.education/api/v1/run/5HUGBc/embed",
+      "protokoll": true
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 8,
+    "titel": "Atombau und Ordnung der Elemente",
+    "seiten_von": 97,
+    "seiten_bis": 108,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Alkalimetalle"
+  }
+}

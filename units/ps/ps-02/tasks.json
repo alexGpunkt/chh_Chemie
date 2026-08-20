@@ -1,0 +1,597 @@
+{
+  "unit": "PS-02",
+  "title": "Modelle in der Chemie",
+  "leitidee": "B1",
+  "standards": [
+    "K1",
+    "K2.3",
+    "K3.4"
+  ],
+  "klasse": 7,
+  "wortspeicher": [
+    "das Modell",
+    "das Anschauungsmodell",
+    "das Funktionsmodell",
+    "das Gedankenmodell",
+    "die Modellgrenze",
+    "das Original"
+  ],
+  "worterklaerungen": {
+    "Modell": "Ein vereinfachtes Abbild. Es zeigt das Wichtige und lässt anderes weg.",
+    "Modellgrenze": "Die Stelle, an der ein Modell etwas Falsches behaupten würde.",
+    "Funktionsmodell": "Ein Modell, das zeigt, wie etwas funktioniert — nicht, wie es aussieht."
+  },
+  "can_do": {
+    "A": "Ich erkenne ein Modell als vereinfachtes Abbild und nenne einen Unterschied zum Original.",
+    "B": "Ich unterscheide Anschauungs-, Funktions- und Gedankenmodelle.",
+    "C": "Ich benenne die Grenzen eines Modells und begründe, wofür es trotzdem taugt."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Ein Modell ist nicht das Original",
+      "hinfuehrung": "Ein Modell zeigt nur das Wichtige.",
+      "erklaerung": [
+        "Vieles lässt es weg.",
+        "Deshalb ist es einfacher als die Wirklichkeit."
+      ],
+      "merke": "Ein Modell hilft beim Verstehen. Es ist nicht die Wirklichkeit.",
+      "beispiel": {
+        "titel": "Kugeln als Atome",
+        "aufgabe": "Im Modell sind Atome bunte Kugeln.",
+        "schritte": [
+          "Kugeln kann man anfassen.",
+          "Atome nicht.",
+          "Atome haben auch keine Farbe."
+        ],
+        "ergebnis": "Das Modell hilft trotzdem beim Zählen."
+      }
+    },
+    "B": {
+      "titel": "Drei Arten von Modellen",
+      "hinfuehrung": "Nicht jedes Modell will dasselbe. Wer die Art kennt, weiß auch, welche Fragen es beantworten kann.",
+      "erklaerung": [
+        "Ein Anschauungsmodell zeigt den Bau: das Kalottenmodell eines Wassermoleküls.",
+        "Ein Funktionsmodell zeigt einen Vorgang: das Hochofenmodell im Kleinen.",
+        "Ein Gedankenmodell existiert nur im Kopf und in der Zeichnung: das Kern-Hülle-Modell.",
+        "Farben in Modellen sind Verabredungen. Sauerstoff ist nicht rot — er wird nur so gezeichnet."
+      ],
+      "merke": "Frage zuerst: Was soll dieses Modell zeigen?",
+      "visual": {
+        "type": "teilchen",
+        "zustand": "fest",
+        "art": "verbindung",
+        "alt": "Teilchenmodell einer Verbindung im festen Zustand."
+      }
+    },
+    "C": {
+      "titel": "Wo ein Modell aufhört",
+      "hinfuehrung": "Jedes Modell hat eine Grenze, und diese Grenze zu kennen ist wichtiger als das Modell selbst. Ein Modell jenseits seiner Grenze zu benutzen erzeugt zuverlässig falsche Vorstellungen.",
+      "erklaerung": [
+        "Das Kugelmodell erklärt Aggregatzustände gut, sagt aber nichts über chemische Bindungen.",
+        "Das Schalenmodell erklärt Ionenladungen und Hauptgruppen gut, versagt aber bei den Nebengruppen.",
+        "Kein Modell ist „richtig“ oder „falsch“ — es ist geeignet oder ungeeignet für eine bestimmte Frage. Deshalb arbeiten Chemiker mit mehreren Modellen nebeneinander."
+      ],
+      "merke": "Ein Modell wird nicht widerlegt, sondern in seiner Reichweite bestimmt.",
+      "visual": {
+        "type": "atom",
+        "z": 11,
+        "symbol": "Na",
+        "neutronen": 12,
+        "alt": "Schalenmodell von Natrium mit einem Außenelektron."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [],
+    "saetze": [
+      "Ein Modell vereinfacht und lässt weg.",
+      "Anschauungsmodell: zeigt den Bau. Funktionsmodell: zeigt den Vorgang.",
+      "Gedankenmodell: existiert nur in der Vorstellung.",
+      "Jedes Modell hat eine Grenze. Sie zu kennen gehört zum Modell."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Das Teilchenmodell einfach erklärt",
+      "url": "https://www.youtube.com/watch?v=fFxijrGXa2Y",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/cPIEth",
+      "embed": "https://app.lumi.education/api/v1/run/cPIEth/embed",
+      "stufe": "B",
+      "dauer_s": 164
+    },
+    {
+      "titel": "Was sind Teilchen? — der Teilchenbegriff",
+      "url": "https://www.youtube.com/watch?v=xOLMMm98H64",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/xkbhTC",
+      "embed": "https://app.lumi.education/api/v1/run/xkbhTC/embed",
+      "stufe": "A",
+      "dauer_s": 176
+    }
+  ],
+  "tasks": [
+    {
+      "id": "PS02-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Warum benutzt man in der Chemie Modelle?",
+      "options": [
+        "Weil Atome zu klein sind, um sie zu sehen.",
+        "Weil Modelle schöner sind.",
+        "Weil es schneller geht."
+      ],
+      "answer": 0,
+      "hints": [
+        "Kann man ein Atom mit dem Auge sehen?",
+        "Nein, es ist viel zu klein.",
+        "Ein Modell macht es vorstellbar."
+      ],
+      "solution": "Atome sind zu klein, um sie zu sehen. Ein Modell macht sie vorstellbar und besprechbar.",
+      "tags": [
+        "modelle"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS02-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Im Modell ist ein Sauerstoffatom rot. Ist ein echtes Sauerstoffatom rot?",
+      "options": [
+        "Nein — die Farbe ist nur eine Verabredung.",
+        "Ja — deshalb wird es so gezeichnet.",
+        "Nur bei tiefen Temperaturen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Kann ein einzelnes Atom überhaupt eine Farbe haben?",
+        "Farbe entsteht erst bei sehr vielen Teilchen.",
+        "Die Farbe im Modell ist eine Verabredung."
+      ],
+      "solution": "Einzelne Atome haben keine Farbe. Rot für Sauerstoff ist eine Verabredung, damit man Modelle leichter liest.",
+      "misconceptions": [
+        {
+          "id": "teilchen_traegt_stoffeigenschaft",
+          "value": 1,
+          "feedback": "Farbe ist eine Eigenschaft des Stoffes, nicht des einzelnen Atoms.",
+          "konzeptfehler": "teilchen_traegt_stoffeigenschaft",
+          "verweis": {
+            "absatz": 1
+          }
+        }
+      ],
+      "tags": [
+        "modelle"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS02-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "assign",
+      "prompt": "Ordne zu: Was zeigt jedes Modell?",
+      "slots": [
+        "Kalottenmodell eines Moleküls",
+        "Hochofenmodell im Kleinen",
+        "Kern-Hülle-Modell"
+      ],
+      "values": [
+        "den Bau",
+        "einen Vorgang",
+        "eine Vorstellung im Kopf"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Ein Modell zeigt den Bau, eines einen Ablauf, eines eine Idee.",
+        "Das Kalottenmodell kann man anfassen.",
+        "Das Kern-Hülle-Modell ist nur gezeichnet."
+      ],
+      "solution": "Kalottenmodell → Bau (Anschauungsmodell).\nHochofenmodell → Vorgang (Funktionsmodell).\nKern-Hülle-Modell → Vorstellung (Gedankenmodell).",
+      "tags": [
+        "modelle"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS02-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Was ist ein Nachteil jedes Modells?",
+      "options": [
+        "Es lässt etwas weg.",
+        "Es ist zu teuer.",
+        "Es ist zu groß."
+      ],
+      "answer": 0,
+      "hints": [
+        "Ein Modell ist einfacher als die Wirklichkeit.",
+        "Etwas fehlt also immer.",
+        "Es lässt etwas weg."
+      ],
+      "solution": "Jedes Modell vereinfacht und lässt dabei etwas weg. Genau das macht es brauchbar — und begrenzt es zugleich.",
+      "tags": [
+        "modelle"
+      ]
+    },
+    {
+      "id": "PS02-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Was ist ein Funktionsmodell?",
+      "options": [
+        "Ein Modell, das zeigt, wie ein Vorgang abläuft.",
+        "Ein Modell, das genau wie das Original aussieht.",
+        "Ein Modell, das man nur denken kann."
+      ],
+      "answer": 0,
+      "hints": [
+        "Der Name verrät es.",
+        "Es geht um die Funktion.",
+        "Also um einen Ablauf."
+      ],
+      "solution": "Ein Funktionsmodell zeigt, wie etwas abläuft — nicht, wie es aussieht. Ein Hochofenmodell im Kleinen ist ein Beispiel.",
+      "tags": [
+        "modelle",
+        "fachsprache"
+      ]
+    },
+    {
+      "id": "PS02-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Im Kugelmodell liegen die Teilchen eines Feststoffs dicht nebeneinander. Was erklärt dieses Modell gut, was nicht?",
+      "options": [
+        "Gut: Aggregatzustände. Nicht: chemische Bindungen.",
+        "Gut: chemische Bindungen. Nicht: Aggregatzustände.",
+        "Es erklärt beides gleich gut."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was sieht man im Kugelmodell?",
+        "Abstände und Anordnung.",
+        "Über Bindungen sagt es nichts."
+      ],
+      "solution": "Das Kugelmodell zeigt Abstände und Anordnung — damit erklärt es Aggregatzustände überzeugend. Warum Teilchen aneinander haften, zeigt es nicht; dafür braucht es Bindungsmodelle.",
+      "tags": [
+        "modelle",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS02-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Das Schalenmodell ist falsch, weil Elektronen nicht auf Kreisbahnen laufen.“ Wie ist das zu bewerten?",
+      "options": [
+        "Modelle sind nicht falsch oder richtig, sondern geeignet oder ungeeignet für eine Frage.",
+        "Er hat recht, das Modell gehört abgeschafft.",
+        "Er hat unrecht, Elektronen laufen auf Kreisbahnen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wozu benutzt man das Schalenmodell?",
+        "Um Ionenladungen und Gruppen zu erklären.",
+        "Dafür funktioniert es sehr gut."
+      ],
+      "solution": "Elektronen laufen tatsächlich nicht auf Kreisbahnen. Für die Frage, wie viele Elektronen ein Atom abgibt, liefert das Schalenmodell trotzdem die richtige Antwort. Modelle werden nach ihrer Eignung beurteilt, nicht nach Wahrheit.",
+      "tags": [
+        "modelle",
+        "bewerten",
+        "bbr"
+      ]
+    },
+    {
+      "id": "PS02-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "assign",
+      "prompt": "Ordne jedem Modell seine wichtigste Grenze zu.",
+      "slots": [
+        "Kugelmodell",
+        "Schalenmodell",
+        "Kalottenmodell"
+      ],
+      "values": [
+        "sagt nichts über Bindungen",
+        "versagt bei den Nebengruppen",
+        "zeigt keine Bewegung"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Jedes Modell kann etwas nicht.",
+        "Das Schalenmodell funktioniert bei den Hauptgruppen gut.",
+        "Ein Kalottenmodell steht still."
+      ],
+      "solution": "Kugelmodell → keine Bindungen.\nSchalenmodell → Nebengruppen.\nKalottenmodell → keine Bewegung.",
+      "tags": [
+        "modelle",
+        "msa"
+      ]
+    },
+    {
+      "id": "PS02-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum werden in der Chemie mehrere Atommodelle nebeneinander benutzt?",
+      "options": [
+        "Jedes beantwortet andere Fragen gut.",
+        "Weil man sich nicht einigen konnte.",
+        "Weil ältere Modelle einfacher zu zeichnen sind."
+      ],
+      "answer": 0,
+      "hints": [
+        "Jedes Modell hat eine Reichweite.",
+        "Für verschiedene Fragen taugen verschiedene Modelle.",
+        "Deshalb bleiben alte Modelle in Gebrauch."
+      ],
+      "solution": "Für die Frage nach Aggregatzuständen genügt das Kugelmodell, für Ionenladungen braucht es das Schalenmodell, für Bindungen ein weiteres. Jedes Modell wird dort eingesetzt, wo es trägt.",
+      "tags": [
+        "modelle",
+        "msa"
+      ]
+    },
+    {
+      "id": "PS02-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Modell des Sonnensystems wird für den Atombau benutzt. Wo führt der Vergleich in die Irre?",
+      "options": [
+        "Planeten ziehen sich durch Schwerkraft an, Elektronen werden elektrisch angezogen — und Elektronen haben keine festen Bahnen.",
+        "Planeten sind größer als Elektronen.",
+        "Das Sonnensystem ist älter als das Atom."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welche Kraft wirkt jeweils?",
+        "Schwerkraft gegen elektrische Anziehung.",
+        "Und Bahnen gibt es beim Atom nicht."
+      ],
+      "solution": "Der Vergleich trägt für die Vorstellung „schwerer Kern, leichte Hülle“. Er versagt bei der Art der Kraft und bei der Vorstellung fester Bahnen — Elektronen haben keine.",
+      "tags": [
+        "modelle",
+        "msa"
+      ]
+    },
+    {
+      "id": "PS02-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum ist das Kalottenmodell für Größenverhältnisse innerhalb eines Atoms ungeeignet?",
+      "options": [
+        "Es zeigt nur die Hülle; der Kern wäre darin unsichtbar klein.",
+        "Es ist nicht bunt genug.",
+        "Es zeigt zu viele Elektronen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie groß ist der Kern im Verhältnis zum Atom?",
+        "Rund zehntausendmal kleiner.",
+        "In einem Modell von 10 cm wäre er 0,01 mm groß."
+      ],
+      "solution": "Der Kern ist rund zehntausendmal kleiner als das Atom. In einem Kalottenmodell von 10 cm Durchmesser wäre er nicht mehr sichtbar. Das Modell zeigt deshalb nur die Hülle — für Größenverhältnisse im Inneren taugt es nicht.",
+      "tags": [
+        "modelle",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS02-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Welche Aussage über Modelle ist fachlich korrekt?",
+      "options": [
+        "Ein Modell wird verworfen, sobald es Beobachtungen widerspricht, die es erklären soll.",
+        "Ein Modell wird verworfen, sobald ein neueres existiert.",
+        "Ein Modell ist unabhängig von Beobachtungen gültig."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wonach wird ein Modell beurteilt?",
+        "Nach dem, was es erklären soll.",
+        "Widerspricht es dort den Beobachtungen, trägt es nicht mehr."
+      ],
+      "solution": "Das Daltonsche Modell wurde nicht abgeschafft, weil ein neueres kam, sondern weil der Streuversuch Beobachtungen lieferte, die es nicht erklären konnte. Für die Massenverhältnisse in Verbindungen genügt es bis heute.",
+      "tags": [
+        "modelle",
+        "msa"
+      ]
+    },
+    {
+      "id": "PS02-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Ein Atom hat einen Durchmesser von etwa 0,1 nm, sein Kern etwa 0,00001 nm.",
+      "fields": [
+        {
+          "label": "Wie oft passt der Kerndurchmesser in den Atomdurchmesser?",
+          "answer": 10000,
+          "tolerance": 1
+        },
+        {
+          "label": "Kerndurchmesser in einem Modell mit 10 cm Atomdurchmesser, in mm",
+          "answer": 0.01,
+          "tolerance": 0.001
+        }
+      ],
+      "hints": [
+        "0,1 : 0,00001.",
+        "Das sind 10 000.",
+        "10 cm = 100 mm; 100 mm : 10 000 = 0,01 mm."
+      ],
+      "solution": "0,1 nm : 0,00001 nm = 10 000\n100 mm : 10 000 = 0,01 mm — mit bloßem Auge nicht mehr zu sehen.",
+      "tags": [
+        "modelle",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-EINH"
+      ]
+    },
+    {
+      "id": "PS02-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Zwei Gruppen streiten, ob das Schalenmodell oder das Kugelmodell „besser“ ist. Wie löst du den Streit fachlich auf?",
+      "options": [
+        "Die Frage ist falsch gestellt — es kommt darauf an, welche Frage beantwortet werden soll.",
+        "Das Schalenmodell ist neuer und deshalb besser.",
+        "Das Kugelmodell ist einfacher und deshalb besser."
+      ],
+      "answer": 0,
+      "hints": [
+        "Kann man Modelle unabhängig von der Fragestellung vergleichen?",
+        "Nein.",
+        "Erst die Frage, dann das Modell."
+      ],
+      "solution": "Für Aggregatzustände ist das Kugelmodell geeigneter, für Ionenladungen das Schalenmodell. Modelle lassen sich nur bezogen auf eine Fragestellung vergleichen — „besser“ ohne Frage ist keine sinnvolle Aussage.",
+      "tags": [
+        "modelle",
+        "bewerten",
+        "msa"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 5,
+      "aufgaben": 24,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 4,
+      "aufgaben": 23,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 4,
+      "aufgaben": 20,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Kernaussagen zum Teilchenmodell",
+      "url": "https://learningapps.org/view11199441",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Homogene und heterogene Stoffgemische im Teilchenmodell",
+      "url": "https://learningapps.org/view15262869",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 2,
+    "titel": "Stoffe und Stoffeigenschaften",
+    "seiten_von": 13,
+    "seiten_bis": 27,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Modell"
+  }
+}

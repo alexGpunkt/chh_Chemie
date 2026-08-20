@@ -1,0 +1,700 @@
+{
+  "unit": "PS-05",
+  "title": "Proton, Neutron, Elektron — die Ordnungszahl",
+  "leitidee": "B1",
+  "standards": [
+    "K1",
+    "K2.4",
+    "K3.4"
+  ],
+  "klasse": 7,
+  "wortspeicher": [
+    "das Proton",
+    "das Neutron",
+    "das Elektron",
+    "die Ordnungszahl",
+    "die Massenzahl",
+    "das Isotop",
+    "die Kernladungszahl"
+  ],
+  "worterklaerungen": {
+    "Proton": "Ein positiv geladenes Teilchen im Kern.",
+    "Neutron": "Ein ungeladenes Teilchen im Kern.",
+    "Elektron": "Ein negativ geladenes Teilchen in der Hülle. Es ist sehr leicht.",
+    "Massenzahl": "Protonen und Neutronen zusammengezählt.",
+    "Isotop": "Atome desselben Elements mit verschiedener Neutronenzahl."
+  },
+  "can_do": {
+    "A": "Ich lese die Ordnungszahl ab und nenne die Zahl der Protonen und Elektronen.",
+    "B": "Ich berechne die Neutronenzahl aus Massenzahl und Ordnungszahl.",
+    "C": "Ich erkläre Isotope und begründe, warum die Ordnungszahl das Element bestimmt."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Drei Teilchen",
+      "hinfuehrung": "Ein Atom besteht aus drei Sorten Teilchen.",
+      "erklaerung": [
+        "Protonen sind positiv, Neutronen ungeladen. Beide sitzen im Kern.",
+        "Elektronen sind negativ. Sie sind in der Hülle."
+      ],
+      "merke": "Protonen + Neutronen im Kern, Elektronen in der Hülle.",
+      "beispiel": {
+        "titel": "Natrium",
+        "aufgabe": "Natrium hat die Ordnungszahl 11.",
+        "schritte": [
+          "Es hat 11 Protonen.",
+          "Es hat 11 Elektronen."
+        ],
+        "ergebnis": "11 Protonen, 11 Elektronen.",
+        "luecke": {
+          "schritt": 1,
+          "wert": 11
+        }
+      },
+      "visual": {
+        "type": "atom",
+        "z": 11,
+        "symbol": "Na",
+        "neutronen": 12,
+        "alt": "Schalenmodell von Natrium mit 11 Protonen und 12 Neutronen."
+      }
+    },
+    "B": {
+      "titel": "Ordnungszahl und Massenzahl",
+      "hinfuehrung": "Zwei Zahlen genügen, um ein Atom vollständig zu beschreiben — und sie stehen beide am Elementsymbol.",
+      "erklaerung": [
+        "Die Ordnungszahl Z zählt die Protonen. Im neutralen Atom sind es genauso viele Elektronen.",
+        "Die Massenzahl A zählt Protonen und Neutronen zusammen. Elektronen zählen nicht mit, sie sind rund 2000-mal leichter.",
+        "Daraus folgt: Neutronen = A − Z."
+      ],
+      "merke": "Z zählt Protonen. A zählt Kernteilchen. Neutronen = A − Z.",
+      "visual": {
+        "type": "atom",
+        "z": 17,
+        "symbol": "Cl",
+        "neutronen": 18,
+        "alt": "Schalenmodell von Chlor mit 17 Protonen und 18 Neutronen."
+      }
+    },
+    "C": {
+      "titel": "Warum die Ordnungszahl das Element bestimmt",
+      "hinfuehrung": "Die Neutronenzahl darf schwanken, ohne dass sich das Element ändert. Die Protonenzahl darf es nicht — und dafür gibt es einen guten Grund.",
+      "erklaerung": [
+        "Die Protonenzahl legt die Kernladung fest. Sie bestimmt, wie viele Elektronen ein neutrales Atom hat und wie sie verteilt sind.",
+        "Das chemische Verhalten hängt allein von den Elektronen ab. Deshalb bestimmt die Protonenzahl das Element.",
+        "Isotope unterscheiden sich nur in der Neutronenzahl. Chemisch verhalten sie sich gleich, physikalisch unterscheiden sie sich in der Masse.",
+        "Die im PSE angegebene Atommasse ist deshalb ein gewichteter Mittelwert über die natürlich vorkommenden Isotope — daher die krummen Werte wie 35,5 bei Chlor."
+      ],
+      "merke": "Protonen bestimmen das Element. Neutronen bestimmen nur die Masse.",
+      "visual": {
+        "type": "pse",
+        "markiert": [
+          "Cl"
+        ],
+        "perioden": 3,
+        "legende": "Chlor: mittlere Atommasse 35,5 — ein Mittelwert aus zwei Isotopen.",
+        "alt": "Periodensystem-Ausschnitt mit hervorgehobenem Chlor."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Protonen = Elektronen = Ordnungszahl Z",
+      "Neutronen = Massenzahl A − Ordnungszahl Z",
+      "Massenzahl A = Protonen + Neutronen"
+    ],
+    "saetze": [
+      "Elektronen zählen bei der Massenzahl nicht mit.",
+      "Isotope: gleiche Protonenzahl, verschiedene Neutronenzahl.",
+      "Die Protonenzahl bestimmt das Element."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Atome, Moleküle und Ionen — die Bausteine",
+      "url": "https://www.youtube.com/watch?v=7OfrwkiKfnw",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/c0Nx_v",
+      "embed": "https://app.lumi.education/api/v1/run/c0Nx_v/embed",
+      "stufe": "A",
+      "dauer_s": 323
+    },
+    {
+      "titel": "Symbolschreibweise und Isotope am Periodensystem",
+      "url": "https://www.youtube.com/watch?v=29-2BWLa5dQ",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/MVYOKT",
+      "embed": "https://app.lumi.education/api/v1/run/MVYOKT/embed",
+      "stufe": "B",
+      "dauer_s": 488
+    }
+  ],
+  "tasks": [
+    {
+      "id": "PS05-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "Wie viele Protonen hat ein Atom mit der Ordnungszahl 8?",
+      "answer": 8,
+      "tolerance": 0,
+      "hints": [
+        "Die Ordnungszahl zählt die Protonen.",
+        "Sie ist 8.",
+        "8 Protonen."
+      ],
+      "solution": "Die Ordnungszahl gibt die Protonenzahl an: 8 Protonen.",
+      "tags": [
+        "atombau"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS05-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Wie viele Elektronen hat ein neutrales Atom mit 12 Protonen?",
+      "answer": 12,
+      "tolerance": 0,
+      "hints": [
+        "Neutral heißt: gleich viele positive und negative Ladungen.",
+        "12 Protonen sind 12 positive Ladungen.",
+        "Also 12 Elektronen."
+      ],
+      "solution": "Im neutralen Atom sind Protonen und Elektronen gleich viele: 12.",
+      "tags": [
+        "atombau"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS05-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "assign",
+      "prompt": "Ordne jedem Teilchen seine Ladung zu.",
+      "slots": [
+        "Proton",
+        "Neutron",
+        "Elektron"
+      ],
+      "values": [
+        "positiv",
+        "keine Ladung",
+        "negativ"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Der Name des Neutrons verrät seine Ladung.",
+        "Neutron kommt von neutral.",
+        "Elektronen sind negativ."
+      ],
+      "solution": "Proton → positiv.\nNeutron → keine Ladung.\nElektron → negativ.",
+      "tags": [
+        "atombau"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS05-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "numeric",
+      "prompt": "Ein Atom hat 6 Protonen und 6 Neutronen. Wie groß ist die Massenzahl?",
+      "answer": 12,
+      "tolerance": 0,
+      "hints": [
+        "Massenzahl = Protonen + Neutronen.",
+        "6 + 6.",
+        "12."
+      ],
+      "solution": "6 + 6 = 12. Elektronen zählen nicht mit, sie sind fast masselos.",
+      "misconceptions": [
+        {
+          "id": "elektronen_mitgezaehlt",
+          "value": 18,
+          "feedback": "Elektronen zählen bei der Massenzahl nicht mit — sie sind rund 2000-mal leichter als ein Proton.",
+          "konzeptfehler": "ion_und_atom_verwechselt"
+        }
+      ],
+      "tags": [
+        "atombau",
+        "rechnen"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS05-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "Ein Atom hat die Massenzahl 23 und die Ordnungszahl 11. Wie viele Neutronen hat es?",
+      "answer": 12,
+      "tolerance": 0,
+      "hints": [
+        "Neutronen = Massenzahl − Ordnungszahl.",
+        "23 − 11.",
+        "12."
+      ],
+      "solution": "23 − 11 = 12 Neutronen. Das Atom ist Natrium.",
+      "misconceptions": [
+        {
+          "id": "massenzahl_als_neutronen",
+          "value": 23,
+          "feedback": "Die Massenzahl zählt Protonen und Neutronen zusammen. Zieh die Ordnungszahl ab.",
+          "konzeptfehler": "ion_und_atom_verwechselt"
+        }
+      ],
+      "tags": [
+        "atombau",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS05-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "multi",
+      "prompt": "Ein Atom hat die Ordnungszahl 17 und die Massenzahl 35.",
+      "fields": [
+        {
+          "label": "Protonen",
+          "answer": 17,
+          "tolerance": 0
+        },
+        {
+          "label": "Neutronen",
+          "answer": 18,
+          "tolerance": 0,
+          "misconceptions": [
+            {
+              "id": "massenzahl_als_neutronen",
+              "value": 35,
+              "feedback": "Neutronen = Massenzahl − Ordnungszahl = 35 − 17.",
+              "konzeptfehler": "ion_und_atom_verwechselt"
+            }
+          ]
+        },
+        {
+          "label": "Elektronen im neutralen Atom",
+          "answer": 17,
+          "tolerance": 0
+        }
+      ],
+      "hints": [
+        "Ordnungszahl = Protonen = Elektronen.",
+        "Neutronen = 35 − 17.",
+        "Das Element ist Chlor."
+      ],
+      "solution": "Protonen = 17, Elektronen = 17, Neutronen = 35 − 17 = 18. Es ist Chlor-35.",
+      "tags": [
+        "atombau",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS05-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Zwei Atome haben beide 17 Protonen, aber 18 bzw. 20 Neutronen. Was sind sie?",
+      "options": [
+        "Isotope desselben Elements",
+        "zwei verschiedene Elemente",
+        "ein Atom und ein Ion"
+      ],
+      "answer": 0,
+      "hints": [
+        "Was bestimmt das Element?",
+        "Die Protonenzahl.",
+        "Die ist bei beiden gleich."
+      ],
+      "solution": "Gleiche Protonenzahl heißt gleiches Element. Unterschiedliche Neutronenzahl macht sie zu Isotopen — hier Chlor-35 und Chlor-37.",
+      "misconceptions": [
+        {
+          "id": "ordnungszahl_aendert_sich",
+          "value": 1,
+          "feedback": "Verschiedene Elemente hätten verschiedene Protonenzahlen. Hier ändert sich nur die Neutronenzahl.",
+          "konzeptfehler": "ion_und_atom_verwechselt"
+        }
+      ],
+      "tags": [
+        "atombau",
+        "isotope",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS05-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Ein Teilchen hat 11 Protonen und 10 Elektronen. Welche Ladung hat es? (Gib die Zahl mit Vorzeichen an.)",
+      "answer": 1,
+      "tolerance": 0,
+      "hints": [
+        "Zähle positive und negative Ladungen.",
+        "11 positive, 10 negative.",
+        "Eine positive Ladung bleibt übrig."
+      ],
+      "solution": "11 Protonen (+) und 10 Elektronen (−) ergeben eine überschüssige positive Ladung: Na⁺.",
+      "misconceptions": [
+        {
+          "id": "ladung_falsch_herum",
+          "value": -1,
+          "feedback": "Fehlt ein Elektron, ist das Teilchen <b>positiv</b> geladen.",
+          "konzeptfehler": "ladung_unvollstaendig"
+        }
+      ],
+      "tags": [
+        "atombau",
+        "ionen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS05-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum wird die Elektronenmasse bei der Massenzahl vernachlässigt?",
+      "options": [
+        "Ein Elektron ist rund 2000-mal leichter als ein Proton.",
+        "Elektronen haben gar keine Masse.",
+        "Elektronen gehören nicht zum Atom."
+      ],
+      "answer": 0,
+      "hints": [
+        "Vergleiche die Massen.",
+        "Elektronen sind sehr viel leichter.",
+        "Etwa 1/2000 eines Protons."
+      ],
+      "solution": "Ein Elektron hat etwa 1/2000 der Masse eines Protons. Bei der Massenzahl fällt das nicht ins Gewicht — masselos ist es aber nicht.",
+      "misconceptions": [
+        {
+          "id": "elektron_masselos",
+          "value": 1,
+          "feedback": "Elektronen haben durchaus Masse, nur sehr wenig."
+        }
+      ],
+      "tags": [
+        "atombau",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS05-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Was ändert sich, wenn ein Atom ein Neutron aufnimmt?",
+      "options": [
+        "Nur die Masse — es bleibt dasselbe Element.",
+        "Es wird ein anderes Element.",
+        "Es wird zu einem Ion."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was bestimmt das Element?",
+        "Die Protonenzahl.",
+        "Die bleibt unverändert."
+      ],
+      "solution": "Ein zusätzliches Neutron erhöht die Massenzahl. Protonenzahl und Elektronenzahl bleiben gleich — es entsteht ein Isotop desselben Elements, kein Ion und kein anderes Element.",
+      "misconceptions": [
+        {
+          "id": "ordnungszahl_aendert_sich",
+          "value": 1,
+          "feedback": "Ein anderes Element entstünde nur bei einer anderen Protonenzahl.",
+          "konzeptfehler": "ion_und_atom_verwechselt"
+        }
+      ],
+      "tags": [
+        "atombau",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS05-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum steht bei Chlor im Periodensystem die Atommasse 35,5, obwohl kein Chloratom diese Masse hat?",
+      "options": [
+        "Es ist der gewichtete Mittelwert aus Chlor-35 und Chlor-37.",
+        "Es ist ein Messfehler.",
+        "Chloratome haben tatsächlich halbe Neutronen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Chlor kommt in zwei Isotopen vor.",
+        "Beide sind unterschiedlich häufig.",
+        "Der Tabellenwert mittelt beide."
+      ],
+      "solution": "Natürliches Chlor besteht zu rund 75 % aus Chlor-35 und zu 25 % aus Chlor-37. Der gewichtete Mittelwert ergibt 35,5 — ein Wert, den kein einzelnes Atom besitzt.",
+      "misconceptions": [
+        {
+          "id": "teilchen_traegt_stoffeigenschaft",
+          "value": 2,
+          "feedback": "Halbe Neutronen gibt es nicht. Der Wert ist ein Mittelwert über viele Atome.",
+          "konzeptfehler": "teilchen_traegt_stoffeigenschaft"
+        }
+      ],
+      "tags": [
+        "atombau",
+        "isotope",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS05-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Chlor besteht zu 75 % aus Chlor-35 und zu 25 % aus Chlor-37. Wie groß ist die mittlere Atommasse?",
+      "answer": 35.5,
+      "tolerance": 0.05,
+      "hints": [
+        "Gewichteter Mittelwert: jede Masse mit ihrem Anteil.",
+        "0,75 · 35 + 0,25 · 37.",
+        "26,25 + 9,25."
+      ],
+      "solution": "0,75 · 35 + 0,25 · 37 = 26,25 + 9,25 = 35,5",
+      "misconceptions": [
+        {
+          "id": "ungewichteter_mittelwert",
+          "value": 36,
+          "feedback": "Du hast einfach gemittelt. Chlor-35 kommt dreimal so häufig vor — der Mittelwert muss gewichtet werden."
+        }
+      ],
+      "tags": [
+        "atombau",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL",
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "PS05-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Ein Ion hat 16 Protonen, 16 Neutronen und 18 Elektronen.",
+      "fields": [
+        {
+          "label": "Massenzahl",
+          "answer": 32,
+          "tolerance": 0
+        },
+        {
+          "label": "Ladung (mit Vorzeichen)",
+          "answer": -2,
+          "tolerance": 0,
+          "misconceptions": [
+            {
+              "id": "ladung_falsch_herum",
+              "value": 2,
+              "feedback": "Mehr Elektronen als Protonen heißt <b>negative</b> Ladung.",
+              "konzeptfehler": "ladung_unvollstaendig"
+            }
+          ]
+        }
+      ],
+      "hints": [
+        "Massenzahl = Protonen + Neutronen.",
+        "Ladung = Protonen − Elektronen.",
+        "16 − 18 = −2. Es ist ein Sulfid-Ion."
+      ],
+      "solution": "A = 16 + 16 = 32\nLadung = 16 − 18 = −2 → S²⁻",
+      "tags": [
+        "atombau",
+        "ionen",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS05-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Isotope sind verschiedene Elemente, weil sie verschiedene Massen haben.“ Wie bewertest du das?",
+      "options": [
+        "Falsch — das Element wird durch die Protonenzahl bestimmt, nicht durch die Masse.",
+        "Richtig — verschiedene Masse heißt verschiedenes Element.",
+        "Falsch — Isotope haben gar keine verschiedenen Massen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wovon hängt das chemische Verhalten ab?",
+        "Von den Elektronen.",
+        "Und deren Zahl folgt aus der Protonenzahl."
+      ],
+      "solution": "Chemisches Verhalten hängt an der Elektronenhülle, und deren Aufbau folgt aus der Protonenzahl. Isotope verhalten sich chemisch gleich und sind deshalb dasselbe Element — trotz verschiedener Masse.",
+      "tags": [
+        "atombau",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 8,
+      "aufgaben": 21,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 11,
+      "aufgaben": 16,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 12,
+      "aufgaben": 12,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Periodensystem - Atombau (Anzahl der Elementarteilchen)",
+      "url": "https://learningapps.org/view17307588",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Der Aufbau der Atome",
+      "url": "https://learningapps.org/view14434018",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Atombau — Quiz Klasse 8",
+      "url": "https://www.schlaukopf.de/realschule/klasse8/chemie/atombau",
+      "typ": "app",
+      "quelle": "Schlaukopf"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 8,
+    "titel": "Atombau und Ordnung der Elemente",
+    "seiten_von": 97,
+    "seiten_bis": 108,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Proton"
+  }
+}

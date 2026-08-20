@@ -1,0 +1,668 @@
+{
+  "unit": "PS-06",
+  "title": "Atommasse und relative Atommasse",
+  "leitidee": "B1",
+  "standards": [
+    "K1",
+    "K2.4"
+  ],
+  "klasse": 7,
+  "wortspeicher": [
+    "die Atommasse",
+    "die relative Atommasse",
+    "die atomare Masseneinheit",
+    "das Kohlenstoff-12",
+    "die Molekülmasse"
+  ],
+  "worterklaerungen": {
+    "relative Atommasse": "Eine Verhältniszahl ohne Einheit. Sie vergleicht die Masse eines Atoms mit einer Vergleichsmasse.",
+    "atomare Masseneinheit": "Ein Zwölftel der Masse eines Kohlenstoff-12-Atoms."
+  },
+  "can_do": {
+    "A": "Ich lese die Atommasse aus dem Periodensystem ab.",
+    "B": "Ich berechne die Masse eines Moleküls aus den Atommassen.",
+    "C": "Ich erkläre, warum relative Atommassen ohne Einheit angegeben werden."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Zahlen im Periodensystem",
+      "hinfuehrung": "Unter jedem Symbol steht eine Zahl.",
+      "erklaerung": [
+        "Sie sagt, wie schwer ein Atom ist.",
+        "Man liest sie einfach ab."
+      ],
+      "merke": "Die Atommasse steht im Periodensystem.",
+      "beispiel": {
+        "titel": "Wasser wiegen",
+        "aufgabe": "Wie schwer ist ein Wassermolekül H₂O?",
+        "schritte": [
+          "2 · 1 für die zwei H",
+          "1 · 16 für das O",
+          "2 + 16 = 18"
+        ],
+        "ergebnis": "18",
+        "luecke": {
+          "schritt": 2,
+          "wert": 18
+        }
+      },
+      "visual": {
+        "type": "pse",
+        "markiert": [
+          "O",
+          "C"
+        ],
+        "perioden": 3,
+        "alt": "Periodensystem-Ausschnitt mit Kohlenstoff und Sauerstoff."
+      }
+    },
+    "B": {
+      "titel": "Massen zusammenzählen",
+      "hinfuehrung": "Die Masse eines Moleküls ist die Summe der Massen seiner Atome. Es geht keine Masse verloren, wenn Atome sich verbinden — das ist dieselbe Aussage wie die Massenerhaltung, nur auf ein Teilchen bezogen.",
+      "erklaerung": [
+        "Für jedes Elementsymbol die Atommasse aus dem PSE ablesen.",
+        "Mit dem Index multiplizieren: H₂ heißt 2 · 1.",
+        "Alles addieren. Das Ergebnis ist die Molekülmasse.",
+        "Für die Schule wird gerundet: H = 1, C = 12, N = 14, O = 16, S = 32."
+      ],
+      "merke": "Molekülmasse = Summe aller Atommassen, jede mit ihrem Index.",
+      "visual": {
+        "type": "lewis",
+        "molekuel": "h2o",
+        "formel": "H2O",
+        "alt": "Lewis-Formel von Wasser."
+      }
+    },
+    "C": {
+      "titel": "Warum ohne Einheit",
+      "hinfuehrung": "Die Masse eines einzelnen Atoms ist unvorstellbar klein — ein Wasserstoffatom wiegt rund 0,0000000000000000000000017 g. Mit solchen Zahlen lässt sich nicht arbeiten.",
+      "erklaerung": [
+        "Deshalb wird verglichen statt gewogen: Als Bezug dient ein Zwölftel der Masse eines Kohlenstoff-12-Atoms.",
+        "Ein Sauerstoffatom ist 16-mal so schwer wie diese Einheit. Seine relative Atommasse ist 16 — eine Verhältniszahl ohne Einheit.",
+        "Dieselben Zahlen erscheinen später als molare Masse in g/mol wieder. Das ist kein Zufall, sondern der eigentliche Sinn des Mol-Begriffs."
+      ],
+      "merke": "Relative Atommasse: ein Verhältnis, keine Masse. Deshalb ohne Einheit.",
+      "visual": {
+        "type": "pse",
+        "markiert": [
+          "C"
+        ],
+        "perioden": 3,
+        "legende": "Kohlenstoff-12 ist der Bezugspunkt aller Atommassen.",
+        "alt": "Periodensystem-Ausschnitt mit hervorgehobenem Kohlenstoff."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Molekülmasse = Summe der Atommassen · Indizes"
+    ],
+    "saetze": [
+      "H = 1 · C = 12 · N = 14 · O = 16 · S = 32 · Cl = 35,5",
+      "Na = 23 · Mg = 24 · Ca = 40 · Fe = 56 · Cu = 64",
+      "Relative Atommassen sind Verhältniszahlen — sie haben keine Einheit.",
+      "Bezug: ein Zwölftel der Masse eines Kohlenstoff-12-Atoms."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Relative Atommasse — warum sie keine Einheit hat",
+      "url": "https://www.youtube.com/watch?v=ESpjFUeoHd4",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/RcqhVN",
+      "embed": "https://app.lumi.education/api/v1/run/RcqhVN/embed",
+      "stufe": "B",
+      "dauer_s": 388
+    },
+    {
+      "titel": "Die Masse von Atomen",
+      "url": "https://www.youtube.com/watch?v=xQaafi2zLik",
+      "quelle": "musstewissen Chemie",
+      "lumi": "https://app.lumi.education/run/qAWkQ5",
+      "embed": "https://app.lumi.education/api/v1/run/qAWkQ5/embed",
+      "stufe": "A",
+      "dauer_s": 380
+    },
+    {
+      "titel": "Das Massenspektrometer — wie Atommassen gemessen werden",
+      "url": "https://www.youtube.com/watch?v=uErU_yQeGA0",
+      "quelle": "Studyflix",
+      "lumi": "https://app.lumi.education/run/57TZ0R",
+      "embed": "https://app.lumi.education/api/v1/run/57TZ0R/embed",
+      "stufe": "C",
+      "dauer_s": 306
+    }
+  ],
+  "tasks": [
+    {
+      "id": "PS06-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "Wie groß ist die Atommasse von Sauerstoff?",
+      "answer": 16,
+      "tolerance": 0.5,
+      "hints": [
+        "Sieh im Periodensystem nach.",
+        "Unter dem O steht die Zahl.",
+        "16."
+      ],
+      "solution": "Sauerstoff hat die (gerundete) Atommasse 16.",
+      "tags": [
+        "atommasse"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "PS06-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Ein Wasserstoffmolekül besteht aus 2 H-Atomen (je 1). Wie groß ist seine Masse?",
+      "answer": 2,
+      "tolerance": 0,
+      "hints": [
+        "Zwei Atome, jedes mit der Masse 1.",
+        "2 · 1.",
+        "2."
+      ],
+      "solution": "2 · 1 = 2",
+      "tags": [
+        "atommasse"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "PS06-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie groß ist die Masse eines Wassermoleküls H₂O? (H = 1, O = 16)",
+      "answer": 18,
+      "tolerance": 0,
+      "hints": [
+        "Zwei H und ein O.",
+        "2 · 1 + 16.",
+        "18."
+      ],
+      "solution": "2 · 1 + 1 · 16 = 18",
+      "misconceptions": [
+        {
+          "id": "index_uebersehen",
+          "value": 17,
+          "feedback": "Der Index 2 gilt für den Wasserstoff: 2 · 1, nicht 1.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "atommasse",
+        "rechnen"
+      ],
+      "spiral": [
+        "W-SYMB",
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "PS06-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "numeric",
+      "prompt": "Wie groß ist die Masse von Kohlenstoffdioxid CO₂? (C = 12, O = 16)",
+      "answer": 44,
+      "tolerance": 0,
+      "hints": [
+        "Ein C und zwei O.",
+        "12 + 2 · 16.",
+        "12 + 32."
+      ],
+      "solution": "12 + 2 · 16 = 12 + 32 = 44",
+      "misconceptions": [
+        {
+          "id": "index_uebersehen",
+          "value": 28,
+          "feedback": "Der Index 2 gilt für den Sauerstoff: 2 · 16 = 32.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "atommasse",
+        "rechnen"
+      ],
+      "spiral": [
+        "W-SYMB",
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "PS06-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "Wie groß ist die Masse von Schwefelsäure H₂SO₄? (H = 1, S = 32, O = 16)",
+      "answer": 98,
+      "tolerance": 0,
+      "hints": [
+        "Zwei H, ein S, vier O.",
+        "2 · 1 + 32 + 4 · 16.",
+        "2 + 32 + 64."
+      ],
+      "solution": "2 · 1 + 32 + 4 · 16 = 2 + 32 + 64 = 98",
+      "misconceptions": [
+        {
+          "id": "index_uebersehen",
+          "value": 50,
+          "feedback": "Der Index 4 gilt für den Sauerstoff: 4 · 16 = 64.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "atommasse",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB",
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "PS06-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Wie groß ist die Masse von Calciumcarbonat CaCO₃? (Ca = 40, C = 12, O = 16)",
+      "answer": 100,
+      "tolerance": 0,
+      "hints": [
+        "Ein Ca, ein C, drei O.",
+        "40 + 12 + 3 · 16.",
+        "40 + 12 + 48."
+      ],
+      "solution": "40 + 12 + 3 · 16 = 100",
+      "tags": [
+        "atommasse",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB",
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "PS06-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Wie groß ist die Masse von Ca(OH)₂? (Ca = 40, O = 16, H = 1)",
+      "answer": 74,
+      "tolerance": 0,
+      "hints": [
+        "Die 2 hinter der Klammer gilt für OH insgesamt.",
+        "40 + 2 · (16 + 1).",
+        "40 + 34."
+      ],
+      "solution": "40 + 2 · (16 + 1) = 40 + 34 = 74",
+      "misconceptions": [
+        {
+          "id": "klammer_ignoriert",
+          "value": 57,
+          "feedback": "Die 2 hinter der Klammer verdoppelt <b>alles</b> in der Klammer, also O und H.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "atommasse",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "PS06-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Berechne die Massen der folgenden Teilchen. (H = 1, N = 14, O = 16, S = 32)",
+      "fields": [
+        {
+          "label": "NH₃",
+          "answer": 17,
+          "tolerance": 0
+        },
+        {
+          "label": "SO₂",
+          "answer": 64,
+          "tolerance": 0
+        },
+        {
+          "label": "HNO₃",
+          "answer": 63,
+          "tolerance": 0
+        }
+      ],
+      "hints": [
+        "Jeden Index einzeln beachten.",
+        "NH₃ = 14 + 3 · 1.",
+        "HNO₃ = 1 + 14 + 3 · 16."
+      ],
+      "solution": "NH₃ = 14 + 3 = 17\nSO₂ = 32 + 2 · 16 = 64\nHNO₃ = 1 + 14 + 48 = 63",
+      "tags": [
+        "atommasse",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB",
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "PS06-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie viel Prozent der Masse von Wasser H₂O entfallen auf den Sauerstoff?",
+      "answer": 88.9,
+      "unit_label": "%",
+      "tolerance": 0.3,
+      "hints": [
+        "Masse des Sauerstoffs durch Gesamtmasse.",
+        "16 : 18.",
+        "Ergebnis mal 100."
+      ],
+      "solution": "16 : 18 = 0,889 → 88,9 %",
+      "misconceptions": [
+        {
+          "id": "anteil_umgedreht",
+          "value": 11.1,
+          "feedback": "Das ist der Wasserstoffanteil. Gefragt war der Sauerstoff."
+        }
+      ],
+      "tags": [
+        "atommasse",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "PS06-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum hat die relative Atommasse keine Einheit?",
+      "options": [
+        "Sie ist ein Verhältnis zu einer Vergleichsmasse.",
+        "Weil man die Einheit weglassen darf.",
+        "Weil Atome keine Masse haben."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was wird verglichen?",
+        "Die Atommasse mit einer Bezugsmasse.",
+        "Ein Verhältnis hat keine Einheit."
+      ],
+      "solution": "Verglichen wird mit einem Zwölftel der Masse eines Kohlenstoff-12-Atoms. Ein Verhältnis zweier Massen ist eine reine Zahl — deshalb ohne Einheit.",
+      "tags": [
+        "atommasse",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "PS06-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum wurde ausgerechnet Kohlenstoff-12 als Bezug gewählt?",
+      "options": [
+        "Es ist ein gut verfügbares, genau messbares Isotop — die Wahl ist eine Verabredung.",
+        "Kohlenstoff ist das häufigste Element.",
+        "Kohlenstoff hat die kleinste Atommasse."
+      ],
+      "answer": 0,
+      "hints": [
+        "Gibt es einen physikalischen Zwang zu dieser Wahl?",
+        "Nein.",
+        "Es ist eine praktische Verabredung."
+      ],
+      "solution": "Der Bezugspunkt ist eine Verabredung. Kohlenstoff-12 ist gut verfügbar und sehr genau messbar. Früher diente Wasserstoff als Bezug — die Zahlen verschoben sich dadurch leicht.",
+      "tags": [
+        "atommasse",
+        "msa"
+      ]
+    },
+    {
+      "id": "PS06-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Berechne für Ammoniumsulfat (NH₄)₂SO₄. (N = 14, H = 1, S = 32, O = 16)",
+      "fields": [
+        {
+          "label": "Masse des Teilchens",
+          "answer": 132,
+          "tolerance": 0,
+          "misconceptions": [
+            {
+              "id": "klammer_ignoriert",
+              "value": 114,
+              "feedback": "Die 2 hinter der Klammer verdoppelt NH₄ vollständig: 2 · 18 = 36.",
+              "konzeptfehler": "summenformel_falsch_gelesen"
+            }
+          ]
+        },
+        {
+          "label": "Zahl der Wasserstoffatome",
+          "answer": 8,
+          "tolerance": 0
+        },
+        {
+          "label": "Massenanteil des Stickstoffs in Prozent",
+          "answer": 21.2,
+          "unit_label": "%",
+          "tolerance": 0.3
+        }
+      ],
+      "hints": [
+        "(NH₄)₂ heißt 2 · (14 + 4) = 36.",
+        "Dazu SO₄ = 32 + 64 = 96.",
+        "Stickstoff: 2 · 14 = 28; 28 : 132."
+      ],
+      "solution": "(NH₄)₂ = 2 · 18 = 36\nSO₄ = 32 + 4 · 16 = 96\ngesamt = 132\nH-Atome: 2 · 4 = 8\nw(N) = 28 : 132 = 21,2 %",
+      "tags": [
+        "atommasse",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-SYMB",
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "PS06-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum entsprechen die Zahlen der relativen Atommasse später genau der molaren Masse in g/mol?",
+      "options": [
+        "Das Mol ist genau so definiert, dass diese Zahlen übereinstimmen.",
+        "Es ist ein Zufall.",
+        "Weil Gramm und atomare Masseneinheit dasselbe sind."
+      ],
+      "answer": 0,
+      "hints": [
+        "Warum wurde das Mol so festgelegt?",
+        "Damit man die Zahlen direkt übernehmen kann.",
+        "Das ist der Sinn der Definition."
+      ],
+      "solution": "Die Stoffmenge Mol ist genau so definiert, dass die relative Atommasse zahlengleich zur molaren Masse in g/mol ist. Damit lässt sich vom Periodensystem direkt in eine Wägung übersetzen — der eigentliche Nutzen des Mol-Begriffs.",
+      "tags": [
+        "atommasse",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "PS06-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler schreibt: „Die Atommasse von Sauerstoff ist 16 g.“ Was ist daran falsch?",
+      "options": [
+        "Die relative Atommasse hat keine Einheit; 16 g/mol wäre die molare Masse.",
+        "Nichts, die Angabe ist richtig.",
+        "Sauerstoff hat die Atommasse 32."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welche Einheit gehört zur relativen Atommasse?",
+        "Gar keine.",
+        "16 g/mol wäre etwas anderes."
+      ],
+      "solution": "Die relative Atommasse ist eine Verhältniszahl ohne Einheit: 16. Die molare Masse beträgt 16 g/mol — ein einzelnes Sauerstoffatom wiegt dagegen rund 2,7 · 10⁻²³ g. Die 32 gehört zum Molekül O₂.",
+      "misconceptions": [
+        {
+          "id": "groesse_und_einheit_verwechselt",
+          "value": 2,
+          "feedback": "32 ist die Masse des Moleküls O₂, nicht des Atoms.",
+          "konzeptfehler": "groesse_und_einheit_verwechselt"
+        }
+      ],
+      "tags": [
+        "atommasse",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-EINH"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 10,
+      "aufgaben": 19,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 10,
+      "aufgaben": 17,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 8,
+      "aufgaben": 16,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Atommasse und die Molekülmasse",
+      "url": "https://learningapps.org/view10799630",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Absolute Atommasse bestimmen - Aufwärmen",
+      "url": "https://learningapps.org/view17849461",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 8,
+    "titel": "Atombau und Ordnung der Elemente",
+    "seiten_von": 97,
+    "seiten_bis": 108,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Atommasse"
+  }
+}

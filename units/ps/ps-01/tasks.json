@@ -1,0 +1,690 @@
+{
+  "unit": "PS-01",
+  "title": "Aufbau des PSE: Perioden und Gruppen",
+  "leitidee": "B1",
+  "standards": [
+    "K1",
+    "K2.1",
+    "K3.1"
+  ],
+  "klasse": 7,
+  "wortspeicher": [
+    "das Periodensystem",
+    "die Periode",
+    "die Hauptgruppe",
+    "das Element",
+    "das Elementsymbol",
+    "das Metall",
+    "das Nichtmetall",
+    "die Ordnungszahl"
+  ],
+  "worterklaerungen": {
+    "Periode": "Eine Zeile im Periodensystem.",
+    "Hauptgruppe": "Eine Spalte im Periodensystem. Die Elemente darin ähneln sich.",
+    "Elementsymbol": "Die Abkürzung für ein Element. Der erste Buchstabe ist immer groß.",
+    "Ordnungszahl": "Die Nummer eines Elements im Periodensystem."
+  },
+  "can_do": {
+    "A": "Ich finde ein Element im Periodensystem und lese Symbol und Ordnungszahl ab.",
+    "B": "Ich unterscheide Perioden und Gruppen und ordne Metalle und Nichtmetalle zu.",
+    "C": "Ich begründe die Anordnung im Periodensystem über gemeinsame Eigenschaften."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Zeilen und Spalten",
+      "hinfuehrung": "Das Periodensystem ist eine Tabelle.",
+      "erklaerung": [
+        "Die Zeilen heißen Perioden.",
+        "Die Spalten heißen Gruppen."
+      ],
+      "merke": "Zeile = Periode. Spalte = Gruppe.",
+      "beispiel": {
+        "titel": "Natrium finden",
+        "aufgabe": "Wo steht Natrium?",
+        "schritte": [
+          "Das Symbol ist Na.",
+          "Es steht in Periode 3.",
+          "Es steht in Gruppe I."
+        ],
+        "ergebnis": "Periode 3, Gruppe I."
+      },
+      "visual": {
+        "type": "pse",
+        "markiert": [
+          "Na",
+          "Cl"
+        ],
+        "perioden": 3,
+        "alt": "Ausschnitt des Periodensystems, Natrium und Chlor hervorgehoben."
+      }
+    },
+    "B": {
+      "titel": "Was Zeile und Spalte bedeuten",
+      "hinfuehrung": "Die Anordnung ist keine Laune: Sie folgt der Ordnungszahl und bringt Elemente mit ähnlichen Eigenschaften untereinander.",
+      "erklaerung": [
+        "Innerhalb einer Periode steigt die Ordnungszahl von links nach rechts um jeweils eins.",
+        "Elemente einer Hauptgruppe reagieren ähnlich: Alle Alkalimetalle reagieren heftig mit Wasser, alle Edelgase reagieren fast gar nicht.",
+        "Links und in der Mitte stehen die Metalle, rechts oben die Nichtmetalle. Dazwischen verläuft eine Trennlinie."
+      ],
+      "merke": "Gleiche Spalte heißt: ähnliche Eigenschaften.",
+      "visual": {
+        "type": "pse",
+        "markiert": [
+          "Li",
+          "Na",
+          "K"
+        ],
+        "perioden": 4,
+        "legende": "Die Alkalimetalle stehen untereinander in Gruppe I.",
+        "alt": "Periodensystem-Ausschnitt mit hervorgehobener erster Hauptgruppe."
+      }
+    },
+    "C": {
+      "titel": "Warum die Ordnung trägt",
+      "hinfuehrung": "Mendelejew ordnete die Elemente nach Eigenschaften und ließ dort Lücken, wo keines passte — und sagte damit Elemente vorher, die noch niemand kannte. Das unterscheidet ein tragfähiges Ordnungssystem von einer bloßen Liste.",
+      "erklaerung": [
+        "Eine Ordnung, die Vorhersagen erlaubt, ist mehr als eine Sortierung. Mendelejews Lücken wurden später mit Gallium und Germanium gefüllt — mit fast genau den vorhergesagten Eigenschaften.",
+        "Heute erklärt der Atombau die Ordnung: Die Periode gibt die Zahl der besetzten Schalen an, die Hauptgruppennummer die Zahl der Außenelektronen.",
+        "Damit ist die Ähnlichkeit innerhalb einer Gruppe kein Zufall mehr, sondern eine Folge gleicher Außenelektronenzahl."
+      ],
+      "merke": "Die Ordnung im PSE ist kein Katalog, sondern ein Werkzeug für Vorhersagen.",
+      "visual": {
+        "type": "pse",
+        "markiert": [
+          "He",
+          "Ne",
+          "Ar"
+        ],
+        "perioden": 4,
+        "legende": "Edelgase: rechte Spalte, alle reaktionsträge.",
+        "alt": "Periodensystem-Ausschnitt mit hervorgehobenen Edelgasen."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [],
+    "saetze": [
+      "Periode = Zeile = Zahl der besetzten Schalen.",
+      "Hauptgruppe = Spalte = Zahl der Außenelektronen.",
+      "Metalle links und Mitte, Nichtmetalle rechts oben.",
+      "Gleiche Gruppe → ähnliche Reaktionen."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Wie ist das Periodensystem aufgebaut?",
+      "url": "https://www.youtube.com/watch?v=bbjGzpHTKXs",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/Fscyhf",
+      "embed": "https://app.lumi.education/api/v1/run/Fscyhf/embed",
+      "stufe": "C",
+      "dauer_s": 366
+    },
+    {
+      "titel": "Periodensystem der Elemente — Perioden und Gruppen",
+      "url": "https://www.youtube.com/watch?v=f5-W87IGLFY",
+      "quelle": "musstewissen Chemie",
+      "lumi": "https://app.lumi.education/run/Jq1Jey",
+      "embed": "https://app.lumi.education/api/v1/run/Jq1Jey/embed",
+      "stufe": "A",
+      "dauer_s": 559
+    }
+  ],
+  "tasks": [
+    {
+      "id": "PS01-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Wie heißen die Zeilen im Periodensystem?",
+      "options": [
+        "Perioden",
+        "Gruppen",
+        "Schalen"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "pse",
+        "perioden": 3,
+        "alt": "Ausschnitt des Periodensystems."
+      },
+      "hints": [
+        "Zeilen gehen von links nach rechts.",
+        "Spalten heißen Gruppen.",
+        "Zeilen heißen Perioden."
+      ],
+      "solution": "Die Zeilen heißen Perioden, die Spalten Gruppen.",
+      "misconceptions": [
+        {
+          "id": "periode_gruppe_vertauscht",
+          "value": 1,
+          "feedback": "Gruppen sind die <b>Spalten</b>. Zeilen heißen Perioden."
+        }
+      ],
+      "tags": [
+        "pse"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS01-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Welche Ordnungszahl hat Sauerstoff (O)?",
+      "answer": 8,
+      "tolerance": 0,
+      "hints": [
+        "Sieh im Periodensystem nach.",
+        "Sauerstoff steht in der zweiten Periode.",
+        "Die Ordnungszahl ist 8."
+      ],
+      "solution": "Sauerstoff hat die Ordnungszahl 8.",
+      "tags": [
+        "pse"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS01-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "assign",
+      "prompt": "Ordne jedem Element sein Symbol zu.",
+      "slots": [
+        "Natrium",
+        "Kohlenstoff",
+        "Chlor"
+      ],
+      "values": [
+        "Na",
+        "C",
+        "Cl"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Das Symbol beginnt meist mit dem ersten Buchstaben des Namens.",
+        "Natrium kommt vom lateinischen natrium.",
+        "Kohlenstoff heißt lateinisch carboneum — daher C."
+      ],
+      "solution": "Natrium → Na, Kohlenstoff → C, Chlor → Cl.",
+      "misconceptions": [
+        {
+          "id": "symbol_verwechselt",
+          "value": 1,
+          "feedback": "Symbole werden aus dem lateinischen Namen gebildet, nicht immer aus dem deutschen."
+        }
+      ],
+      "tags": [
+        "pse",
+        "symbole"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "PS01-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ist Eisen ein Metall oder ein Nichtmetall?",
+      "options": [
+        "Metall",
+        "Nichtmetall",
+        "beides"
+      ],
+      "answer": 0,
+      "hints": [
+        "Wo steht Eisen im Periodensystem?",
+        "In der Mitte links.",
+        "Dort stehen die Metalle."
+      ],
+      "solution": "Eisen steht im linken und mittleren Bereich des Periodensystems — dort stehen die Metalle. Es glänzt, leitet Strom und ist verformbar.",
+      "tags": [
+        "pse"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS01-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Was haben alle Elemente einer Hauptgruppe gemeinsam?",
+      "options": [
+        "Sie haben gleich viele Außenelektronen und reagieren ähnlich.",
+        "Sie haben gleich viele Schalen.",
+        "Sie haben dieselbe Atommasse."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ändert sich innerhalb einer Spalte, was bleibt gleich?",
+        "Die Zahl der Schalen wächst nach unten.",
+        "Die Zahl der Außenelektronen bleibt gleich."
+      ],
+      "solution": "Elemente einer Hauptgruppe haben gleich viele Außenelektronen. Deshalb reagieren sie ähnlich. Die Zahl der Schalen wächst dagegen von oben nach unten.",
+      "misconceptions": [
+        {
+          "id": "periode_gruppe_vertauscht",
+          "value": 1,
+          "feedback": "Gleich viele Schalen haben die Elemente einer <b>Periode</b>, nicht einer Gruppe."
+        }
+      ],
+      "tags": [
+        "pse",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS01-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "In welcher Periode steht Chlor (Ordnungszahl 17)?",
+      "answer": 3,
+      "tolerance": 0,
+      "hints": [
+        "Die erste Periode hat 2 Elemente, die zweite 8, die dritte 8.",
+        "2 + 8 = 10, danach beginnt die dritte Periode.",
+        "17 liegt zwischen 11 und 18."
+      ],
+      "solution": "Nach 2 + 8 = 10 Elementen beginnt die dritte Periode. Chlor mit der Ordnungszahl 17 steht dort.",
+      "tags": [
+        "pse",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS01-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Lithium, Natrium und Kalium reagieren alle heftig mit Wasser. Was erklärt das?",
+      "options": [
+        "Sie stehen in derselben Hauptgruppe und haben je ein Außenelektron.",
+        "Sie stehen in derselben Periode.",
+        "Sie haben dieselbe Atommasse."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "pse",
+        "markiert": [
+          "Li",
+          "Na",
+          "K"
+        ],
+        "perioden": 4,
+        "alt": "Periodensystem mit hervorgehobener erster Hauptgruppe."
+      },
+      "hints": [
+        "Sieh nach, ob sie unter- oder nebeneinander stehen.",
+        "Sie stehen untereinander.",
+        "Also dieselbe Gruppe."
+      ],
+      "solution": "Alle drei stehen in der ersten Hauptgruppe und besitzen ein Außenelektron, das leicht abgegeben wird. Deshalb reagieren sie ähnlich heftig.",
+      "tags": [
+        "pse",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS01-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "assign",
+      "prompt": "Ordne jedes Element seiner Gruppe zu.",
+      "slots": [
+        "Magnesium",
+        "Fluor",
+        "Neon"
+      ],
+      "values": [
+        "Erdalkalimetalle (II)",
+        "Halogene (VII)",
+        "Edelgase (VIII)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Zähle die Spalte von links.",
+        "Magnesium steht in der zweiten Spalte.",
+        "Neon steht ganz rechts."
+      ],
+      "solution": "Magnesium → Gruppe II (Erdalkalimetalle).\nFluor → Gruppe VII (Halogene).\nNeon → Gruppe VIII (Edelgase).",
+      "tags": [
+        "pse",
+        "gruppen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS01-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie viele Elemente enthält die zweite Periode?",
+      "answer": 8,
+      "tolerance": 0,
+      "hints": [
+        "Von Lithium bis Neon.",
+        "Zähle: Li, Be, B, C, N, O, F, Ne.",
+        "Das sind 8."
+      ],
+      "solution": "Die zweite Periode reicht von Lithium (3) bis Neon (10) und enthält 8 Elemente — genauso viele Elektronen fasst die zweite Schale.",
+      "tags": [
+        "pse"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS01-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum steht Wasserstoff meist über den Alkalimetallen, obwohl er ein Nichtmetall ist?",
+      "options": [
+        "Er hat wie sie ein Außenelektron.",
+        "Er ist das leichteste Metall.",
+        "Es ist nur eine Platzfrage."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wonach ist das PSE geordnet?",
+        "Nach Ordnungszahl und Außenelektronen.",
+        "Wasserstoff hat ein Elektron."
+      ],
+      "solution": "Wasserstoff besitzt ein Außenelektron und steht deshalb formal in der ersten Hauptgruppe. Seine Eigenschaften unterscheiden sich davon deutlich — ein guter Anlass, die Grenzen einer Ordnung zu besprechen.",
+      "misconceptions": [
+        {
+          "id": "wasserstoff_als_metall",
+          "value": 1,
+          "feedback": "Wasserstoff ist ein Nichtmetall. Er steht dort nur wegen seines einen Außenelektrons."
+        }
+      ],
+      "tags": [
+        "pse",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS01-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Mendelejew ließ in seinem System Lücken frei. Warum war das ein Zeichen von Stärke und nicht von Schwäche?",
+      "options": [
+        "Er sagte damit unbekannte Elemente samt Eigenschaften vorher — und behielt recht.",
+        "Er wusste nicht, wohin mit den Elementen.",
+        "Die Lücken waren Druckfehler."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passierte mit den Lücken später?",
+        "Sie wurden gefüllt.",
+        "Und zwar mit Elementen, deren Eigenschaften er vorhergesagt hatte."
+      ],
+      "solution": "Mendelejew ordnete nach Eigenschaften und ließ Plätze frei, wo kein bekanntes Element passte. Gallium und Germanium füllten sie später — mit fast genau den vorhergesagten Eigenschaften. Eine Ordnung, die Vorhersagen erlaubt, ist mehr als eine Sortierung.",
+      "tags": [
+        "pse",
+        "modelle",
+        "msa"
+      ]
+    },
+    {
+      "id": "PS01-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum reagieren Edelgase kaum mit anderen Stoffen?",
+      "options": [
+        "Ihre äußerste Schale ist vollständig besetzt.",
+        "Sie sind zu schwer.",
+        "Sie kommen zu selten vor."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "atom",
+        "z": 10,
+        "symbol": "Ne",
+        "neutronen": 10,
+        "alt": "Schalenmodell von Neon mit voll besetzter Außenschale."
+      },
+      "hints": [
+        "Sieh dir die Außenschale an.",
+        "Sie ist voll.",
+        "Ein voller Zustand wird nicht freiwillig verändert."
+      ],
+      "solution": "Edelgase haben eine vollständig besetzte Außenschale. Sie müssen weder Elektronen abgeben noch aufnehmen und reagieren deshalb kaum. Genau diesen Zustand streben andere Atome an.",
+      "tags": [
+        "pse",
+        "erklaeren",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS01-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Ein Element steht in Periode 3 und Hauptgruppe VI.",
+      "fields": [
+        {
+          "label": "Zahl der besetzten Schalen",
+          "answer": 3,
+          "tolerance": 0
+        },
+        {
+          "label": "Zahl der Außenelektronen",
+          "answer": 6,
+          "tolerance": 0
+        },
+        {
+          "label": "Ordnungszahl",
+          "answer": 16,
+          "tolerance": 0
+        }
+      ],
+      "hints": [
+        "Die Periode gibt die Schalenzahl.",
+        "Die Gruppennummer gibt die Außenelektronen.",
+        "2 + 8 + 6 = 16 — das ist Schwefel."
+      ],
+      "solution": "Periode 3 → 3 Schalen.\nGruppe VI → 6 Außenelektronen.\n2 + 8 + 6 = 16 → Schwefel.",
+      "tags": [
+        "pse",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "PS01-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler ordnet die Elemente nach der Atommasse und stellt fest, dass Argon schwerer ist als Kalium, im PSE aber davor steht. Wie ist das zu bewerten?",
+      "options": [
+        "Das PSE ist nach der Ordnungszahl geordnet, nicht nach der Masse — die Eigenschaften bestätigen die Reihenfolge.",
+        "Das PSE enthält an dieser Stelle einen Fehler.",
+        "Argon und Kalium müssten getauscht werden."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wonach ist das moderne PSE geordnet?",
+        "Nach der Ordnungszahl.",
+        "Argon ist ein Edelgas, Kalium ein Alkalimetall — die Eigenschaften passen so."
+      ],
+      "solution": "Ordnete man nach Masse, stünde Argon bei den Alkalimetallen und Kalium bei den Edelgasen — beides widerspräche allen Eigenschaften. Das moderne PSE ordnet nach der Ordnungszahl, und genau deshalb stimmt die Reihenfolge.",
+      "misconceptions": [
+        {
+          "id": "masse_als_ordnungsprinzip",
+          "value": 2,
+          "feedback": "Ein Tausch würde ein reaktionsträges Gas zu den heftig reagierenden Alkalimetallen stellen. Geordnet wird nach der Ordnungszahl."
+        }
+      ],
+      "tags": [
+        "pse",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 10,
+      "aufgaben": 19,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 11,
+      "aufgaben": 16,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 9,
+      "aufgaben": 15,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Das Periodensystem benutzen.",
+      "url": "https://learningapps.org/view2751962",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Das Periodensystem – ein Kammrätsel",
+      "url": "https://learningapps.org/view10586610",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Periodensystem-Struktur — Zuordnen",
+      "url": "https://allgemeinbildung.ch/fach=che/Periodensystem-Struktur_01s.htm",
+      "typ": "app",
+      "quelle": "allgemeinbildung.ch"
+    },
+    {
+      "titel": "Periodensystem — Quiz Klasse 9",
+      "url": "https://www.schlaukopf.de/realschule/klasse9/chemie/periodensystem",
+      "typ": "app",
+      "quelle": "Schlaukopf"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 8,
+    "titel": "Atombau und Ordnung der Elemente",
+    "seiten_von": 97,
+    "seiten_bis": 108,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Periodensystem"
+  }
+}
