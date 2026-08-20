@@ -1,0 +1,721 @@
+{
+  "unit": "ME-05",
+  "title": "Redoxreaktionen: Oxidation und Reduktion",
+  "leitidee": "B3",
+  "standards": [
+    "K1",
+    "K2.4",
+    "K3.4"
+  ],
+  "klasse": 8,
+  "wortspeicher": [
+    "die Oxidation",
+    "die Reduktion",
+    "die Redoxreaktion",
+    "das Oxidationsmittel",
+    "das Reduktionsmittel",
+    "der Elektronenübergang",
+    "die Teilgleichung"
+  ],
+  "worterklaerungen": {
+    "Oxidation": "Abgabe von Elektronen.",
+    "Reduktion": "Aufnahme von Elektronen.",
+    "Oxidationsmittel": "Der Stoff, der Elektronen aufnimmt und dadurch einen anderen oxidiert.",
+    "Reduktionsmittel": "Der Stoff, der Elektronen abgibt."
+  },
+  "can_do": {
+    "A": "Ich weiß, dass bei einer Redoxreaktion Elektronen übergehen.",
+    "B": "Ich benenne Oxidation und Reduktion und bestimme Oxidations- und Reduktionsmittel.",
+    "C": "Ich stelle Teilgleichungen auf und gleiche die Elektronenzahl aus."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Elektronen wechseln die Seite",
+      "hinfuehrung": "Bei manchen Reaktionen wandern Elektronen von einem Teilchen zum anderen.",
+      "erklaerung": [
+        "Wer abgibt, wird oxidiert.",
+        "Wer aufnimmt, wird reduziert."
+      ],
+      "merke": "Abgeben = Oxidation. Aufnehmen = Reduktion.",
+      "beispiel": {
+        "titel": "Eisen und Kupfer",
+        "aufgabe": "Ein Eisennagel in Kupfersulfatlösung.",
+        "schritte": [
+          "Eisen gibt Elektronen ab.",
+          "Kupfer-Ionen nehmen sie auf."
+        ],
+        "ergebnis": "Eisen wird oxidiert, Kupfer reduziert."
+      },
+      "visual": {
+        "type": "animation",
+        "name": "redox",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Beides zugleich",
+      "hinfuehrung": "Oxidation und Reduktion laufen immer gemeinsam ab. Es kann kein Teilchen Elektronen abgeben, ohne dass ein anderes sie aufnimmt.",
+      "erklaerung": [
+        "Oxidation ist die Abgabe von Elektronen, Reduktion die Aufnahme.",
+        "Die alte Bedeutung — Aufnahme oder Abgabe von Sauerstoff — ist ein Sonderfall davon. Der Elektronenbegriff ist der allgemeinere.",
+        "Das Reduktionsmittel gibt Elektronen ab und wird dabei selbst oxidiert.",
+        "Das Oxidationsmittel nimmt Elektronen auf und wird dabei selbst reduziert. Diese Namen verwirren zuverlässig — sie benennen die Wirkung auf den Partner, nicht das eigene Schicksal."
+      ],
+      "merke": "Reduktionsmittel gibt ab und wird oxidiert. Oxidationsmittel nimmt auf und wird reduziert.",
+      "visual": {
+        "type": "animation",
+        "name": "redox",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Teilgleichungen aufstellen",
+      "hinfuehrung": "Eine Redoxgleichung lässt sich in zwei Hälften zerlegen. Das macht den Elektronenübergang sichtbar und das Ausgleichen systematisch.",
+      "erklaerung": [
+        "Oxidation getrennt aufschreiben: Fe → Fe²⁺ + 2 e⁻",
+        "Reduktion getrennt aufschreiben: Cu²⁺ + 2 e⁻ → Cu",
+        "Die Zahl der abgegebenen und aufgenommenen Elektronen muss gleich sein. Stimmt sie nicht, werden die Teilgleichungen passend vervielfacht.",
+        "Beispiel: Al → Al³⁺ + 3 e⁻ und Cu²⁺ + 2 e⁻ → Cu. Kleinstes gemeinsames Vielfaches von 3 und 2 ist 6 — also 2 Al und 3 Cu²⁺.",
+        "Zum Schluss werden beide Hälften addiert; die Elektronen kürzen sich heraus."
+      ],
+      "merke": "Abgegebene und aufgenommene Elektronen müssen gleich viele sein.",
+      "visual": {
+        "type": "animation",
+        "name": "redox",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Fe → Fe²⁺ + 2 e⁻   (Oxidation)",
+      "Cu²⁺ + 2 e⁻ → Cu   (Reduktion)",
+      "Fe + Cu²⁺ → Fe²⁺ + Cu",
+      "2 Al + 3 Cu²⁺ → 2 Al³⁺ + 3 Cu"
+    ],
+    "saetze": [
+      "Oxidation = Elektronenabgabe. Reduktion = Elektronenaufnahme.",
+      "Beide laufen immer gemeinsam ab.",
+      "Reduktionsmittel gibt ab und wird oxidiert.",
+      "Abgegebene und aufgenommene Elektronen müssen gleich viele sein."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Was sind Redoxreaktionen?",
+      "url": "https://www.youtube.com/watch?v=csRIZZuIC0Q",
+      "quelle": "musstewissen Chemie",
+      "lumi": "https://app.lumi.education/run/yR0QyL",
+      "embed": "https://app.lumi.education/api/v1/run/yR0QyL/embed",
+      "stufe": "B",
+      "dauer_s": 417
+    },
+    {
+      "titel": "Oxidation und Reduktion als Elektronenübergang",
+      "url": "https://www.youtube.com/watch?v=FiZluoF-hrw",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/jm3y1L",
+      "embed": "https://app.lumi.education/api/v1/run/jm3y1L/embed",
+      "stufe": "A",
+      "dauer_s": 262
+    },
+    {
+      "titel": "Redoxreaktionen aufstellen",
+      "url": "https://www.youtube.com/watch?v=_JQ2lKxcSdU",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/rWddYM",
+      "embed": "https://app.lumi.education/api/v1/run/rWddYM/embed",
+      "stufe": "B",
+      "dauer_s": 876
+    }
+  ],
+  "tasks": [
+    {
+      "id": "ME05-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Was passiert bei einer Oxidation?",
+      "options": [
+        "Elektronen werden abgegeben.",
+        "Elektronen werden aufgenommen.",
+        "Nichts passiert."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "redox",
+        "stufe": "A"
+      },
+      "hints": [
+        "Oxidation und Reduktion sind Gegenteile.",
+        "Eines ist Abgabe.",
+        "Oxidation ist die Abgabe."
+      ],
+      "solution": "Bei der Oxidation gibt ein Teilchen Elektronen ab.",
+      "misconceptions": [
+        {
+          "id": "oxidation_reduktion_vertauscht",
+          "value": 1,
+          "feedback": "Das ist die Reduktion. Oxidation ist die Abgabe von Elektronen.",
+          "konzeptfehler": "oxidation_reduktion_vertauscht"
+        }
+      ],
+      "tags": [
+        "redox"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME05-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Ein Eisennagel liegt in Kupfersulfatlösung. Wer gibt Elektronen ab?",
+      "options": [
+        "das Eisen",
+        "das Kupfer-Ion",
+        "das Wasser"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "redox",
+        "stufe": "A"
+      },
+      "hints": [
+        "Das unedlere Metall gibt ab.",
+        "Eisen ist unedler als Kupfer.",
+        "Also das Eisen."
+      ],
+      "solution": "Eisen ist unedler und gibt Elektronen ab. Die Kupfer-Ionen nehmen sie auf.",
+      "tags": [
+        "redox"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME05-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Was passiert bei einer Reduktion?",
+      "options": [
+        "Elektronen werden aufgenommen.",
+        "Elektronen werden abgegeben.",
+        "Sauerstoff wird aufgenommen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Es ist das Gegenteil der Oxidation.",
+        "Oxidation ist Abgabe.",
+        "Reduktion ist Aufnahme."
+      ],
+      "solution": "Bei der Reduktion nimmt ein Teilchen Elektronen auf.",
+      "misconceptions": [
+        {
+          "id": "oxidation_reduktion_vertauscht",
+          "value": 1,
+          "feedback": "Abgabe ist die Oxidation. Reduktion ist die Aufnahme.",
+          "konzeptfehler": "oxidation_reduktion_vertauscht"
+        }
+      ],
+      "tags": [
+        "redox"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME05-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum laufen Oxidation und Reduktion immer gemeinsam ab?",
+      "options": [
+        "Elektronen können nicht einfach verschwinden — wer abgibt, braucht einen Empfänger.",
+        "Weil beide gleich schnell sind.",
+        "Das ist Zufall."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wohin gehen die abgegebenen Elektronen?",
+        "Zu einem anderen Teilchen.",
+        "Also nimmt eines auf, wenn eines abgibt."
+      ],
+      "solution": "Abgegebene Elektronen müssen irgendwo bleiben. Deshalb gibt es keine Oxidation ohne gleichzeitige Reduktion — beides zusammen heißt Redoxreaktion.",
+      "tags": [
+        "redox"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME05-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "In Fe + Cu²⁺ → Fe²⁺ + Cu: Was ist das Reduktionsmittel?",
+      "options": [
+        "Eisen",
+        "Kupfer-Ion",
+        "beides"
+      ],
+      "answer": 0,
+      "hints": [
+        "Das Reduktionsmittel gibt Elektronen ab.",
+        "Wer gibt hier ab?",
+        "Das Eisen."
+      ],
+      "solution": "Eisen gibt Elektronen ab und ermöglicht dadurch die Reduktion des Kupfers. Es ist das Reduktionsmittel — und wird dabei selbst oxidiert.",
+      "misconceptions": [
+        {
+          "id": "oxidation_reduktion_vertauscht",
+          "value": 1,
+          "feedback": "Das Kupfer-Ion nimmt auf, es ist das Oxidationsmittel.",
+          "konzeptfehler": "oxidation_reduktion_vertauscht"
+        }
+      ],
+      "tags": [
+        "redox",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME05-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Ein Aluminiumatom wird zu Al³⁺. Wie viele Elektronen gibt es ab?",
+      "answer": 3,
+      "tolerance": 0,
+      "hints": [
+        "Die Ladung sagt es.",
+        "3+ heißt drei fehlende Elektronen.",
+        "3."
+      ],
+      "solution": "Al → Al³⁺ + 3 e⁻. Jede positive Ladung entspricht einem abgegebenen Elektron.",
+      "tags": [
+        "redox",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME05-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Welche Teilgleichung beschreibt eine Reduktion?",
+      "options": [
+        "Cu²⁺ + 2 e⁻ → Cu",
+        "Zn → Zn²⁺ + 2 e⁻",
+        "Fe → Fe³⁺ + 3 e⁻"
+      ],
+      "answer": 0,
+      "hints": [
+        "Wo stehen die Elektronen — links oder rechts?",
+        "Bei der Reduktion werden sie aufgenommen.",
+        "Sie stehen also links."
+      ],
+      "solution": "Bei der Reduktion werden Elektronen aufgenommen, sie stehen deshalb links vom Pfeil: Cu²⁺ + 2 e⁻ → Cu.",
+      "misconceptions": [
+        {
+          "id": "oxidation_reduktion_vertauscht",
+          "value": 1,
+          "feedback": "Hier stehen die Elektronen rechts — das ist eine Oxidation.",
+          "konzeptfehler": "oxidation_reduktion_vertauscht"
+        }
+      ],
+      "tags": [
+        "redox",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME05-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Betrachte die Reaktion Zn + Cu²⁺ → Zn²⁺ + Cu.",
+      "fields": [
+        {
+          "label": "Zahl der übergehenden Elektronen",
+          "answer": 2,
+          "tolerance": 0
+        },
+        {
+          "label": "Ladung des entstehenden Zink-Ions",
+          "answer": 2,
+          "tolerance": 0
+        }
+      ],
+      "hints": [
+        "Zink gibt zwei Elektronen ab.",
+        "Das Kupfer-Ion nimmt genau diese zwei auf.",
+        "Zn²⁺."
+      ],
+      "solution": "Zn → Zn²⁺ + 2 e⁻ und Cu²⁺ + 2 e⁻ → Cu. Es gehen zwei Elektronen über.",
+      "tags": [
+        "redox",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME05-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum ist auch die Verbrennung von Magnesium eine Redoxreaktion?",
+      "options": [
+        "Magnesium gibt Elektronen an den Sauerstoff ab; es entstehen Mg²⁺ und O²⁻.",
+        "Weil dabei Wärme frei wird.",
+        "Weil ein Gas beteiligt ist."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was entsteht bei der Verbrennung?",
+        "Magnesiumoxid — ein Salz aus Ionen.",
+        "Also muss ein Elektronenübergang stattgefunden haben."
+      ],
+      "solution": "Im Magnesiumoxid liegen Mg²⁺- und O²⁻-Ionen vor. Die Elektronen müssen also vom Magnesium zum Sauerstoff übergegangen sein — eine Redoxreaktion, auch ohne Lösung.",
+      "tags": [
+        "redox",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME05-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Das Oxidationsmittel wird oxidiert.“ Stimmt das?",
+      "options": [
+        "Nein — es nimmt Elektronen auf und wird selbst reduziert.",
+        "Ja, deshalb heißt es so.",
+        "Nur bei Metallen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was tut ein Oxidationsmittel mit dem Partner?",
+        "Es oxidiert ihn.",
+        "Dafür muss es selbst Elektronen aufnehmen."
+      ],
+      "solution": "Der Name beschreibt die Wirkung auf den Partner, nicht das eigene Schicksal. Ein Oxidationsmittel oxidiert den anderen — indem es dessen Elektronen aufnimmt und dabei selbst reduziert wird.",
+      "misconceptions": [
+        {
+          "id": "oxidation_reduktion_vertauscht",
+          "value": 1,
+          "feedback": "Der Name nennt die Wirkung auf den Partner. Das Mittel selbst wird reduziert.",
+          "konzeptfehler": "oxidation_reduktion_vertauscht"
+        }
+      ],
+      "tags": [
+        "redox",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME05-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "multi",
+      "prompt": "Aluminium reagiert mit Kupfer(II)-Ionen. Al gibt 3 Elektronen ab, Cu²⁺ nimmt 2 auf.",
+      "fields": [
+        {
+          "label": "Zahl der Aluminiumatome in der Gleichung",
+          "answer": 2,
+          "tolerance": 0
+        },
+        {
+          "label": "Zahl der Kupfer-Ionen in der Gleichung",
+          "answer": 3,
+          "tolerance": 0
+        },
+        {
+          "label": "Zahl der übergehenden Elektronen",
+          "answer": 6,
+          "tolerance": 0
+        }
+      ],
+      "hints": [
+        "Kleinstes gemeinsames Vielfaches von 3 und 2.",
+        "Das ist 6.",
+        "2 Al geben 6 ab, 3 Cu²⁺ nehmen 6 auf."
+      ],
+      "solution": "2 Al → 2 Al³⁺ + 6 e⁻\n3 Cu²⁺ + 6 e⁻ → 3 Cu\nzusammen: 2 Al + 3 Cu²⁺ → 2 Al³⁺ + 3 Cu",
+      "tags": [
+        "redox",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME05-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum ist der Elektronenbegriff der bessere Zugang zur Oxidation als der Sauerstoffbegriff?",
+      "options": [
+        "Er erfasst auch Reaktionen ohne Sauerstoff, etwa Zink mit Chlor.",
+        "Er ist einfacher zu merken.",
+        "Sauerstoff spielt in der Chemie keine Rolle."
+      ],
+      "answer": 0,
+      "hints": [
+        "Gibt es Oxidationen ohne Sauerstoff?",
+        "Ja — Zink reagiert auch mit Chlor unter Elektronenabgabe.",
+        "Der alte Begriff erfasst das nicht."
+      ],
+      "solution": "Zn + Cl₂ → ZnCl₂ ist eine Oxidation des Zinks, obwohl kein Sauerstoff beteiligt ist. Der Sauerstoffbegriff ist ein historischer Sonderfall; der Elektronenbegriff umfasst alle diese Reaktionen.",
+      "tags": [
+        "redox",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME05-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "In der Reaktion 2 Mg + O₂ → 2 MgO — welche Aussage ist richtig?",
+      "options": [
+        "Magnesium ist das Reduktionsmittel, Sauerstoff das Oxidationsmittel.",
+        "Sauerstoff ist das Reduktionsmittel.",
+        "Es gibt kein Oxidationsmittel."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wer gibt Elektronen ab?",
+        "Magnesium.",
+        "Wer abgibt, ist das Reduktionsmittel."
+      ],
+      "solution": "Magnesium gibt Elektronen ab — es ist das Reduktionsmittel und wird oxidiert. Sauerstoff nimmt sie auf — er ist das Oxidationsmittel und wird reduziert.",
+      "misconceptions": [
+        {
+          "id": "oxidation_reduktion_vertauscht",
+          "value": 1,
+          "feedback": "Sauerstoff nimmt Elektronen auf. Er ist das Oxidationsmittel.",
+          "konzeptfehler": "oxidation_reduktion_vertauscht"
+        }
+      ],
+      "tags": [
+        "redox",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME05-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler schreibt als Teilgleichung: Fe²⁺ → Fe + 2 e⁻. Was ist falsch?",
+      "options": [
+        "Die Richtung stimmt nicht — bei der Abscheidung von Eisen werden Elektronen aufgenommen, nicht abgegeben.",
+        "Nichts, die Gleichung ist richtig.",
+        "Es müssten drei Elektronen sein."
+      ],
+      "answer": 0,
+      "hints": [
+        "Aus Fe²⁺ soll Fe werden — die Ladung sinkt.",
+        "Wie verschwindet eine positive Ladung?",
+        "Durch Aufnahme von Elektronen."
+      ],
+      "solution": "Aus Fe²⁺ wird Fe, die Ladung geht von 2+ auf 0. Dafür müssen zwei Elektronen aufgenommen werden: Fe²⁺ + 2 e⁻ → Fe. Die Elektronen gehören auf die linke Seite.",
+      "misconceptions": [
+        {
+          "id": "oxidation_reduktion_vertauscht",
+          "value": 1,
+          "feedback": "Prüfe die Ladungsbilanz: Links 2+, rechts 0 plus 2 negative Elektronen — das ergibt −2, nicht 2+.",
+          "konzeptfehler": "oxidation_reduktion_vertauscht"
+        }
+      ],
+      "tags": [
+        "redox",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 7,
+      "aufgaben": 22,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 11,
+      "aufgaben": 16,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 11,
+      "aufgaben": 13,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Oxidation und Reduktion",
+      "url": "https://learningapps.org/view10966969",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Redoxreaktion - Definitionen 2",
+      "url": "https://learningapps.org/view11114108",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Aufgaben zu RedOx-Reaktionen",
+      "url": "https://de.serlo.org/chemie/146481/aufgaben-zu-redox-reaktionen",
+      "typ": "app",
+      "quelle": "Serlo"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Kupfer und Zink — Elektronen wechseln den Besitzer",
+      "url": "https://www.youtube.com/watch?v=Bxqd6k03eIQ",
+      "quelle": "Chemistry and Biochemistry Demo lab at OSU",
+      "stufe": "A",
+      "rolle": "Demonstration zur Redoxreaktion",
+      "embed": "https://www.youtube-nocookie.com/embed/Bxqd6k03eIQ",
+      "protokoll": false,
+      "beobachtung": {
+        "A": "Notiere, welches Metall sich auflöst und welches sich abscheidet.",
+        "B": "Schreibe die beiden Teilgleichungen auf: Wer gibt Elektronen ab, wer nimmt sie auf?",
+        "C": "Begründe mit der Redoxreihe, warum die Reaktion in dieser Richtung abläuft und nicht umgekehrt."
+      }
+    },
+    {
+      "titel": "Die Thermitreaktion",
+      "url": "https://www.youtube.com/watch?v=fcGkEtpMjw8",
+      "quelle": "North Carolina School of Science and Mathematics",
+      "stufe": "C",
+      "rolle": "Vertiefung: Aluminium reduziert Eisenoxid — ansehen, nicht nachmachen",
+      "embed": "https://www.youtube-nocookie.com/embed/fcGkEtpMjw8",
+      "protokoll": false,
+      "beobachtung": {
+        "A": "Notiere die Ausgangsstoffe und das Produkt der Thermitreaktion.",
+        "B": "Erkläre, welcher Stoff oxidiert und welcher reduziert wird.",
+        "C": "Begründe, warum Aluminium das Eisenoxid reduzieren kann. Beurteile, warum dieser Versuch nur als Demonstration gezeigt wird."
+      }
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 7,
+    "titel": "Metalle und Redoxreaktionen",
+    "seiten_von": 83,
+    "seiten_bis": 96,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Oxidation"
+  }
+}

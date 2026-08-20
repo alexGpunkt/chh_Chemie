@@ -1,0 +1,608 @@
+{
+  "unit": "OS-05",
+  "title": "Anwenden & Prüfungstraining Carbonsäuren",
+  "leitidee": "B3",
+  "standards": [
+    "K1",
+    "K2.4",
+    "K3.3",
+    "K4.1"
+  ],
+  "klasse": 10,
+  "wortspeicher": [
+    "die Carboxygruppe",
+    "die homologe Reihe",
+    "das Carboxylat",
+    "die Neutralisation",
+    "die Aminosäure"
+  ],
+  "worterklaerungen": {
+    "Struktur-Eigenschafts-Konzept": "Aus dem Bau folgen die Eigenschaften."
+  },
+  "can_do": {
+    "A": "Ich benenne Carbonsäuren und erkenne die Carboxygruppe.",
+    "B": "Ich verbinde Bau, Eigenschaften und Reaktionen der Carbonsäuren.",
+    "C": "Ich begründe Eigenschaften aus der Struktur und bewerte Aussagen."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Carbonsäuren auf einen Blick",
+      "hinfuehrung": "In dieser Stunde kommt alles zusammen.",
+      "erklaerung": [
+        "–COOH ist die funktionelle Gruppe.",
+        "Die Salze enden auf -at."
+      ],
+      "merke": "Erst lesen, was gefragt ist. Dann antworten.",
+      "visual": {
+        "type": "animation",
+        "name": "signalwoerter",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Die drei roten Fäden",
+      "hinfuehrung": "Der ganze Bereich hängt an drei Zusammenhängen.",
+      "erklaerung": [
+        "Bau: Die Carboxygruppe gibt ein Proton ab — anders als die Hydroxylgruppe des Alkohols.",
+        "Reihe: CₙH₂ₙ₊₁COOH, Endung -säure, Trivialnamen daneben.",
+        "Reaktion: Mit Laugen entstehen Salze, mit Alkoholen Ester."
+      ],
+      "merke": "Die funktionelle Gruppe bestimmt das Reaktionsverhalten.",
+      "visual": {
+        "type": "animation",
+        "name": "veresterung",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Typische Prüfungsfehler",
+      "hinfuehrung": "Vier Fehler tauchen in diesem Bereich regelmäßig auf.",
+      "erklaerung": [
+        "Das C-Atom der Carboxygruppe nicht mitzählen — Ethansäure hat zwei C-Atome, nicht drei.",
+        "Stärke und Konzentration verwechseln: Auch konzentrierte Essigsäure bleibt eine schwache Säure.",
+        "Von natürlicher Herkunft auf Unbedenklichkeit schließen.",
+        "Alkohol und Säure verwechseln: Die OH-Gruppe allein macht noch nicht sauer."
+      ],
+      "merke": "Das C der Carboxygruppe zählt mit. Stärke ist nicht Konzentration.",
+      "visual": {
+        "type": "animation",
+        "name": "signalwoerter",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "R–COOH + H₂O ⇌ R–COO⁻ + H₃O⁺",
+      "CH₃COOH + NaOH → CH₃COONa + H₂O",
+      "HCOOH 46 · CH₃COOH 60 · C₂H₅COOH 74 g/mol"
+    ],
+    "saetze": [
+      "–COOH ist die Carboxygruppe.",
+      "Organische Säuren sind schwache Säuren.",
+      "Aus -säure wird -at.",
+      "Das C-Atom der Carboxygruppe zählt zur Kette."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Aspirin — eine Carbonsäure im Medikamentenschrank",
+      "url": "https://www.youtube.com/watch?v=EjtiGhoKlkI",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/PFnif4",
+      "embed": "https://app.lumi.education/api/v1/run/PFnif4/embed",
+      "stufe": "A",
+      "dauer_s": 200
+    },
+    {
+      "titel": "Oxidation und Reduktion von Carbonylverbindungen",
+      "url": "https://www.youtube.com/watch?v=7-eFTf2jRAA",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/qF8FBn",
+      "embed": "https://app.lumi.education/api/v1/run/qF8FBn/embed",
+      "stufe": "C",
+      "dauer_s": 295
+    }
+  ],
+  "tasks": [
+    {
+      "id": "OS05-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welche Gruppe macht eine organische Säure sauer?",
+      "options": [
+        "–COOH",
+        "–OH",
+        "–CH₃"
+      ],
+      "answer": 0,
+      "hints": [
+        "Die Carboxygruppe.",
+        "Sie enthält zwei O-Atome.",
+        "–COOH."
+      ],
+      "solution": "Die Carboxygruppe –COOH gibt das Proton ab.",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS05-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Wie heißt das Salz der Essigsäure?",
+      "options": [
+        "Acetat",
+        "Formiat",
+        "Citrat"
+      ],
+      "answer": 0,
+      "hints": [
+        "Aus -säure wird -at.",
+        "Essigsäure heißt lateinisch acidum aceticum.",
+        "Acetat."
+      ],
+      "solution": "Das Salz der Essigsäure heißt Acetat.",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS05-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie viele C-Atome hat Ethansäure insgesamt?",
+      "answer": 2,
+      "tolerance": 0,
+      "hints": [
+        "Eth steht für 2.",
+        "Das C der COOH-Gruppe zählt mit.",
+        "2."
+      ],
+      "solution": "Ethansäure CH₃COOH hat zwei C-Atome, eines davon in der Carboxygruppe.",
+      "misconceptions": [
+        {
+          "id": "summenformel_falsch_gelesen",
+          "value": 3,
+          "feedback": "Eth steht für zwei C-Atome insgesamt.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS05-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Was entsteht aus Essigsäure und Natronlauge?",
+      "options": [
+        "Natriumacetat und Wasser",
+        "ein Gas",
+        "ein Alkohol"
+      ],
+      "answer": 0,
+      "hints": [
+        "Es ist eine Neutralisation.",
+        "Salz und Wasser.",
+        "Natriumacetat."
+      ],
+      "solution": "CH₃COOH + NaOH → CH₃COONa + H₂O",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "OS05-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "Wie groß ist die molare Masse von Essigsäure? (C = 12, H = 1, O = 16 g/mol)",
+      "answer": 60,
+      "unit_label": "g/mol",
+      "tolerance": 1,
+      "hints": [
+        "2 C, 4 H, 2 O.",
+        "24 + 4 + 32.",
+        "60 g/mol."
+      ],
+      "solution": "M(CH₃COOH) = 24 + 4 + 32 = 60 g/mol",
+      "tags": [
+        "pruefung",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "OS05-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum reagiert Ethanol neutral, Essigsäure aber sauer?",
+      "options": [
+        "Nur in der Carboxygruppe wird die O–H-Bindung durch die benachbarte Doppelbindung geschwächt.",
+        "Ethanol hat kein Wasserstoffatom.",
+        "Essigsäure ist konzentrierter."
+      ],
+      "answer": 0,
+      "hints": [
+        "Beide haben eine OH-Gruppe.",
+        "Verschieden ist die Nachbarschaft.",
+        "Die C=O-Doppelbindung macht den Unterschied."
+      ],
+      "solution": "Die benachbarte Doppelbindung zum Sauerstoff zieht Elektronen ab und schwächt die Bindung zum Wasserstoff. Nur dann kann das Proton abgegeben werden.",
+      "tags": [
+        "pruefung",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS05-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "60 mL Essigsäurelösung (0,1 mol/L) werden neutralisiert. Wie viel Natronlauge mit 0,2 mol/L wird gebraucht?",
+      "answer": 30,
+      "unit_label": "mL",
+      "tolerance": 1,
+      "hints": [
+        "c₁ · V₁ = c₂ · V₂.",
+        "0,1 · 60 = 0,2 · V₂.",
+        "V₂ = 30 mL."
+      ],
+      "solution": "0,1 mol/L · 60 mL = 0,2 mol/L · V₂ → V₂ = 30 mL",
+      "tags": [
+        "pruefung",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "OS05-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum siedet Essigsäure (118 °C) höher als Ethanol (78 °C)?",
+      "options": [
+        "Die Carboxygruppe bildet über beide Sauerstoffatome Wasserstoffbrücken.",
+        "Essigsäure ist deutlich schwerer.",
+        "Essigsäure ist unpolar."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie viele Brücken kann eine Carboxygruppe bilden?",
+        "Zwei.",
+        "Zwei Moleküle bilden ein stabiles Paar."
+      ],
+      "solution": "Die Carboxygruppe kann über beide Sauerstoffatome Brücken bilden. Zwei Moleküle lagern sich zu einem Doppelmolekül zusammen — das erfordert beim Sieden mehr Energie.",
+      "tags": [
+        "pruefung",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS05-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum ist Natriumacetat geruchlos, Essigsäure aber nicht?",
+      "options": [
+        "Das Salz besteht aus Ionen im Gitter und ist nicht flüchtig.",
+        "Das Salz ist trocken.",
+        "Das Salz enthält kein Kohlenstoff."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was riecht man überhaupt?",
+        "Flüchtige Teilchen.",
+        "Ionen im Gitter sind nicht flüchtig."
+      ],
+      "solution": "Geruch setzt flüchtige Teilchen voraus. Im Ionengitter des Salzes sind die Teilchen fest gebunden — es riecht nicht.",
+      "tags": [
+        "pruefung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "OS05-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "assign",
+      "prompt": "Ordne jeder Stoffklasse ihre funktionelle Gruppe zu.",
+      "slots": [
+        "Alkohol",
+        "Carbonsäure",
+        "Aminosäure"
+      ],
+      "values": [
+        "–OH",
+        "–COOH",
+        "–COOH und –NH₂"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Alkohole tragen die Hydroxylgruppe.",
+        "Säuren die Carboxygruppe.",
+        "Aminosäuren beide plus Amino."
+      ],
+      "solution": "Alkohol → –OH.\nCarbonsäure → –COOH.\nAminosäure → –COOH und –NH₂.",
+      "tags": [
+        "pruefung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS05-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum ist Citronensäure besser wasserlöslich als Buttersäure?",
+      "options": [
+        "Sie hat vier polare Gruppen bei kurzer Kette, Buttersäure nur eine.",
+        "Sie ist leichter.",
+        "Sie ist eine stärkere Säure."
+      ],
+      "answer": 0,
+      "hints": [
+        "Zähle die polaren Gruppen.",
+        "Citronensäure: drei COOH und eine OH.",
+        "Buttersäure: eine COOH."
+      ],
+      "solution": "Vier polare Gruppen an einem kleinen Molekül binden viele Wassermoleküle. Buttersäure hat nur eine polare Gruppe bei längerer unpolarer Kette.",
+      "tags": [
+        "pruefung",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "OS05-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "30 g Essigsäure (M = 60 g/mol) werden mit Natronlauge neutralisiert.",
+      "fields": [
+        {
+          "label": "Stoffmenge der Säure",
+          "answer": 0.5,
+          "unit_label": "mol",
+          "tolerance": 0.03
+        },
+        {
+          "label": "benötigte Stoffmenge NaOH",
+          "answer": 0.5,
+          "unit_label": "mol",
+          "tolerance": 0.03
+        },
+        {
+          "label": "Masse des Natriumacetats (M = 82 g/mol)",
+          "answer": 41,
+          "unit_label": "g",
+          "tolerance": 1
+        }
+      ],
+      "hints": [
+        "n = 30 : 60 = 0,5 mol.",
+        "Einprotonig, also 1 : 1.",
+        "m = 0,5 · 82."
+      ],
+      "solution": "n(Säure) = 0,5 mol → n(NaOH) = 0,5 mol → m(Salz) = 41 g",
+      "tags": [
+        "pruefung",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "OS05-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Welche Antwort auf „Erkläre, warum Essigsäure sauer reagiert“ ist vollständig?",
+      "options": [
+        "Die Carboxygruppe gibt in Wasser ein Proton ab; dabei entstehen Oxonium-Ionen, die die Lösung sauer machen.",
+        "Weil sie eine Säure ist.",
+        "Weil sie sauer schmeckt."
+      ],
+      "answer": 0,
+      "hints": [
+        "„Erkläre“ verlangt eine Ursache.",
+        "Welche Teilchen machen sauer?",
+        "Oxonium-Ionen."
+      ],
+      "solution": "Antwort 2 wiederholt die Frage, Antwort 3 nennt eine Beobachtung. Nur Antwort 1 nennt Vorgang und Ursache.",
+      "tags": [
+        "pruefung",
+        "operatoren",
+        "msa"
+      ]
+    },
+    {
+      "id": "OS05-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Konzentrierte Essigsäure ist eine starke Säure.“ Wie bewertest du das?",
+      "options": [
+        "Falsch — stark und konzentriert sind zwei verschiedene Begriffe; Essigsäure bleibt schwach.",
+        "Richtig.",
+        "Falsch — Essigsäure ist gar keine Säure."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was bedeutet „stark“?",
+        "Wie vollständig Protonen abgegeben werden.",
+        "Konzentriert sagt nur, wie viel Stoff da ist."
+      ],
+      "solution": "„Stark“ beschreibt, wie vollständig eine Säure ihre Protonen abgibt — das ist eine Stoffeigenschaft. „Konzentriert“ beschreibt, wie viel Stoff je Volumen vorliegt. Konzentrierte Essigsäure ist ätzend, aber chemisch weiterhin eine schwache Säure.",
+      "misconceptions": [
+        {
+          "id": "staerke_und_konzentration",
+          "value": 1,
+          "feedback": "Stärke ist eine Stoffeigenschaft, Konzentration eine Mengenangabe."
+        }
+      ],
+      "tags": [
+        "pruefung",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 5,
+      "aufgaben": 24,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 5,
+      "aufgaben": 22,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 8,
+      "aufgaben": 16,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Alkanole, Carbonsäuren und Ester",
+      "url": "https://learningapps.org/view18687521",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Essigsäure und organische Verbindungen",
+      "url": "https://learningapps.org/view23111629",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 13,
+    "titel": "Organische Säuren",
+    "seiten_von": 163,
+    "seiten_bis": 172,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Carboxygruppe"
+  }
+}

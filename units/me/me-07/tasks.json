@@ -1,0 +1,618 @@
+{
+  "unit": "ME-07",
+  "title": "Anwenden & Prüfungstraining Metalle",
+  "leitidee": "B3",
+  "standards": [
+    "K1",
+    "K2.4",
+    "K3.3",
+    "K4.1"
+  ],
+  "klasse": 8,
+  "wortspeicher": [
+    "die Redoxreihe",
+    "die Metallbindung",
+    "die Legierung",
+    "die Reduktion",
+    "die Korrosion",
+    "die Bewertung"
+  ],
+  "worterklaerungen": {
+    "Bewertung": "Ein Urteil, das ein Kriterium nennt und begründet."
+  },
+  "can_do": {
+    "A": "Ich beantworte gemischte Aufgaben zu Metallen sicher.",
+    "B": "Ich verbinde Bindungsmodell, Eigenschaften und Reaktionen der Metalle.",
+    "C": "Ich bewerte Materialwahl, Korrosionsschutz und Verhüttungsverfahren begründet."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Metalle auf einen Blick",
+      "hinfuehrung": "In dieser Stunde kommt alles zusammen.",
+      "erklaerung": [
+        "Metalle leiten und sind verformbar.",
+        "Unedle Metalle reagieren leicht."
+      ],
+      "merke": "Erst lesen, was gefragt ist. Dann antworten.",
+      "visual": {
+        "type": "animation",
+        "name": "signalwoerter",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Die drei roten Fäden",
+      "hinfuehrung": "Der ganze Bereich hängt an drei Zusammenhängen.",
+      "erklaerung": [
+        "Bindung: positive Rümpfe im Elektronengas — daraus folgen Leitfähigkeit, Glanz und Verformbarkeit.",
+        "Reaktivität: die Redoxreihe sagt vorher, welche Reaktion abläuft und welcher Korrosionsschutz wirkt.",
+        "Gewinnung: Erze enthalten Metalloxide; die Reduktion entzieht den Sauerstoff."
+      ],
+      "merke": "Bindung erklärt Eigenschaften, Redoxreihe erklärt Reaktionen.",
+      "visual": {
+        "type": "animation",
+        "name": "elektronengas",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Bewerten mit Kriterium",
+      "hinfuehrung": "Bei Metallen wird häufig bewertet: Welches Material, welcher Schutz, welches Verfahren? Ohne Kriterium ist jede Antwort beliebig.",
+      "erklaerung": [
+        "Materialwahl: Welche Eigenschaft entscheidet für diesen Zweck? Dichte, Leitfähigkeit, Härte oder Beständigkeit?",
+        "Korrosionsschutz: Wirkt er auch bei Beschädigung? Nur ein unedleres Metall tut das.",
+        "Verfahren: Welche Stoffe und welche Energie werden gebraucht, und was entsteht dabei?",
+        "Eine gute Bewertung nennt zuerst das Kriterium, wendet es an und urteilt dann."
+      ],
+      "merke": "Kriterium nennen, anwenden, urteilen — in dieser Reihenfolge.",
+      "visual": {
+        "type": "animation",
+        "name": "signalwoerter",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Fe + Cu²⁺ → Fe²⁺ + Cu",
+      "Fe₂O₃ + 3 CO → 2 Fe + 3 CO₂"
+    ],
+    "saetze": [
+      "Redoxreihe: K · Ca · Na · Mg · Al · Zn · Fe · Pb · Cu · Ag · Au.",
+      "Metallgitter: positive Rümpfe im Elektronengas.",
+      "Oxidation = Elektronenabgabe, Reduktion = Elektronenaufnahme.",
+      "Opferanode: ein unedleres Metall schützt das edlere."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Rost mit Zitronensäure entfernen — die Theorie",
+      "url": "https://www.youtube.com/watch?v=76VIa7wfXOA",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/avgmEj",
+      "embed": "https://app.lumi.education/api/v1/run/avgmEj/embed",
+      "stufe": "C",
+      "dauer_s": 458
+    },
+    {
+      "titel": "Korrosion — wie Metall zerstört wird",
+      "url": "https://www.youtube.com/watch?v=ld83QYrMDrI",
+      "quelle": "musstewissen Chemie",
+      "lumi": "https://app.lumi.education/run/y-AXj2",
+      "embed": "https://app.lumi.education/api/v1/run/y-AXj2/embed",
+      "stufe": "A",
+      "dauer_s": 469
+    }
+  ],
+  "tasks": [
+    {
+      "id": "ME07-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welche Eigenschaft haben alle Metalle?",
+      "options": [
+        "Sie leiten Strom und Wärme.",
+        "Sie sind alle magnetisch.",
+        "Sie sind alle silbrig."
+      ],
+      "answer": 0,
+      "hints": [
+        "Nur wenige Metalle sind magnetisch.",
+        "Die Farben sind verschieden.",
+        "Aber alle leiten."
+      ],
+      "solution": "Alle Metalle leiten Strom und Wärme. Magnetisch sind nur Eisen, Cobalt und Nickel.",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "ME07-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Welches Metall ist unedler: Zink oder Kupfer?",
+      "options": [
+        "Zink",
+        "Kupfer",
+        "beide gleich"
+      ],
+      "answer": 0,
+      "hints": [
+        "In der Redoxreihe steht das unedlere links.",
+        "Zink steht links von Kupfer.",
+        "Zink."
+      ],
+      "solution": "Zink steht in der Redoxreihe links von Kupfer und ist damit unedler.",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME07-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Messing enthält 63 % Kupfer. Wie viel Kupfer stecken in 400 g?",
+      "answer": 252,
+      "unit_label": "g",
+      "tolerance": 2,
+      "hints": [
+        "63 % von 400 g.",
+        "1 % sind 4 g.",
+        "63 · 4 g."
+      ],
+      "solution": "400 g · 0,63 = 252 g Kupfer",
+      "tags": [
+        "pruefung",
+        "rechnen"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "ME07-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Was passiert mit einem Zinkblech in Kupfersulfatlösung?",
+      "options": [
+        "Es überzieht sich mit Kupfer.",
+        "Nichts.",
+        "Es löst sich vollständig auf."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "redox",
+        "stufe": "A"
+      },
+      "hints": [
+        "Zink ist unedler.",
+        "Das unedlere gibt Elektronen ab.",
+        "Das Kupfer scheidet sich ab."
+      ],
+      "solution": "Zink ist unedler und gibt Elektronen ab. Die Kupfer-Ionen nehmen sie auf und scheiden sich als Kupfer ab.",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME07-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Warum ist ein Metall verformbar, ein Salz aber spröde?",
+      "options": [
+        "Im Metall hält das Elektronengas die verschobenen Schichten weiter zusammen.",
+        "Metalle sind weicher.",
+        "Salze enthalten keine Ladungen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was liegt im Metall zwischen den Rümpfen?",
+        "Das Elektronengas.",
+        "Es ist überall gleich."
+      ],
+      "solution": "Nach dem Verschieben liegen im Metall wieder Rümpfe im Elektronengas — die Bindung hält. Im Ionengitter treffen dagegen gleiche Ladungen aufeinander und stoßen sich ab.",
+      "tags": [
+        "pruefung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "ME07-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Welche Aussage über die Reaktion Fe + Cu²⁺ → Fe²⁺ + Cu ist richtig?",
+      "options": [
+        "Eisen wird oxidiert, Kupfer reduziert.",
+        "Eisen wird reduziert, Kupfer oxidiert.",
+        "Beide werden oxidiert."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wer gibt Elektronen ab?",
+        "Das Eisen.",
+        "Abgeben ist Oxidation."
+      ],
+      "solution": "Eisen gibt zwei Elektronen ab und wird oxidiert. Das Kupfer-Ion nimmt sie auf und wird reduziert.",
+      "misconceptions": [
+        {
+          "id": "oxidation_reduktion_vertauscht",
+          "value": 1,
+          "feedback": "Abgabe von Elektronen ist Oxidation. Das Eisen gibt ab.",
+          "konzeptfehler": "oxidation_reduktion_vertauscht"
+        }
+      ],
+      "tags": [
+        "pruefung",
+        "redox",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME07-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum schützt Zink verletztes Eisenblech, Zinn aber nicht?",
+      "options": [
+        "Zink ist unedler als Eisen, Zinn edler.",
+        "Zink ist härter.",
+        "Zinn löst sich in Wasser."
+      ],
+      "answer": 0,
+      "hints": [
+        "Sieh in der Redoxreihe nach.",
+        "Zink steht links von Eisen, Zinn rechts.",
+        "Nur das unedlere opfert sich."
+      ],
+      "solution": "Zink steht links von Eisen und gibt bevorzugt Elektronen ab — es schützt auch an einer Kratzstelle. Zinn ist edler; dort opfert sich das Eisen.",
+      "tags": [
+        "pruefung",
+        "korrosion",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME07-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Ein Bauteil aus Eisen (7,9 g/cm³) mit 250 cm³ soll durch Aluminium (2,7 g/cm³) ersetzt werden.",
+      "fields": [
+        {
+          "label": "Masse aus Eisen",
+          "answer": 1975,
+          "unit_label": "g",
+          "tolerance": 10
+        },
+        {
+          "label": "Masse aus Aluminium",
+          "answer": 675,
+          "unit_label": "g",
+          "tolerance": 10
+        },
+        {
+          "label": "Gewichtsersparnis in Prozent",
+          "answer": 65.8,
+          "unit_label": "%",
+          "tolerance": 1
+        }
+      ],
+      "hints": [
+        "m = ρ · V für beide.",
+        "7,9 · 250 und 2,7 · 250.",
+        "Ersparnis = (1975 − 675) : 1975 · 100 %."
+      ],
+      "solution": "Fe: 1975 g · Al: 675 g\nErsparnis: 1300 : 1975 = 0,658 → 65,8 %",
+      "tags": [
+        "pruefung",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "ME07-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Welche Antwort auf „Erkläre, warum Metalle den Strom leiten“ ist vollständig?",
+      "options": [
+        "Im Metallgitter sind die Außenelektronen nicht an einzelne Atome gebunden, sondern frei beweglich; sie transportieren die Ladung.",
+        "Weil Metalle Elektronen haben.",
+        "Weil Metalle glänzen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Elektronen haben alle Stoffe.",
+        "Entscheidend ist die Beweglichkeit.",
+        "Und die kommt vom Elektronengas."
+      ],
+      "solution": "Elektronen besitzt jeder Stoff. Entscheidend ist, dass sie im Metall frei beweglich sind. Antwort 2 greift zu kurz, Antwort 3 nennt eine andere Eigenschaft.",
+      "tags": [
+        "pruefung",
+        "operatoren",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "ME07-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum liegt Eisen in der Natur als Erz vor, Gold aber als Metall?",
+      "options": [
+        "Eisen ist unedel und reagiert mit Sauerstoff; Gold ist so edel, dass es kaum Verbindungen bildet.",
+        "Gold ist seltener.",
+        "Eisen wird von Bakterien zersetzt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie reagieren unedle Metalle über lange Zeit?",
+        "Sie verbinden sich mit Sauerstoff.",
+        "Gold tut das nicht."
+      ],
+      "solution": "Unedle Metalle reagieren über geologische Zeiträume vollständig zu Oxiden. Gold ist so edel, dass es gediegen vorkommt — deshalb war es früher bekannt als Eisen.",
+      "tags": [
+        "pruefung",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME07-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Welche Begründung für die Wahl von Aluminium im Flugzeugbau ist vollständig?",
+      "options": [
+        "Geringe Dichte spart Gewicht, die Legierung liefert ausreichende Festigkeit, die Oxidschicht schützt vor Korrosion.",
+        "Aluminium ist billig.",
+        "Aluminium leitet gut."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welche Eigenschaften braucht ein Flugzeug?",
+        "Leicht, fest, beständig.",
+        "Leitfähigkeit ist hier kein Kriterium."
+      ],
+      "solution": "Eine vollständige Begründung nennt alle für den Zweck entscheidenden Eigenschaften. Leitfähigkeit spielt im Flugzeugbau keine Rolle, der Preis ist nachrangig.",
+      "tags": [
+        "pruefung",
+        "bewerten",
+        "msa"
+      ]
+    },
+    {
+      "id": "ME07-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Aus 2000 kg Erz mit 65 % Fe₂O₃ (davon 70 % Eisen) wird Roheisen gewonnen. Je Tonne Roheisen entstehen 1,8 t CO₂.",
+      "fields": [
+        {
+          "label": "Masse des Eisenoxids",
+          "answer": 1300,
+          "unit_label": "kg",
+          "tolerance": 10
+        },
+        {
+          "label": "gewinnbare Eisenmasse",
+          "answer": 910,
+          "unit_label": "kg",
+          "tolerance": 10
+        },
+        {
+          "label": "entstehendes CO₂",
+          "answer": 1638,
+          "unit_label": "kg",
+          "tolerance": 20
+        }
+      ],
+      "hints": [
+        "2000 · 0,65.",
+        "1300 · 0,70.",
+        "0,91 t · 1,8 t/t = 1,638 t."
+      ],
+      "solution": "Fe₂O₃: 2000 · 0,65 = 1300 kg\nFe: 1300 · 0,70 = 910 kg = 0,91 t\nCO₂: 0,91 · 1,8 = 1,638 t = 1638 kg",
+      "tags": [
+        "pruefung",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "ME07-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Ein Schüler will zwei Metalle elektrisch verbinden, die im Freien liegen. Worauf muss er achten?",
+      "options": [
+        "Bei Kontakt zweier verschieden edler Metalle korrodiert das unedlere beschleunigt.",
+        "Die Metalle müssen gleich schwer sein.",
+        "Es passiert nichts Besonderes."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert bei Kontakt zweier Metalle in feuchter Umgebung?",
+        "Ein Elektronenübergang.",
+        "Das unedlere gibt ab."
+      ],
+      "solution": "Berühren sich zwei verschieden edle Metalle in feuchter Umgebung, gibt das unedlere bevorzugt Elektronen ab und korrodiert schneller als allein. Deshalb werden solche Kombinationen im Bauwesen vermieden oder isoliert.",
+      "tags": [
+        "pruefung",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME07-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Bewerte: „Recycling von Metallen ist immer besser als Neugewinnung.“",
+      "options": [
+        "Meist ja, weil der Energiebedarf weit geringer ist — Legierungen erfordern aber sortenreine Sammlung, sonst sinkt die Qualität.",
+        "Uneingeschränkt richtig.",
+        "Falsch, Recycling lohnt sich nie."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was spricht klar für Recycling?",
+        "Der geringere Energiebedarf.",
+        "Was ist die Einschränkung?"
+      ],
+      "solution": "Der Energievorteil ist erheblich — bei Aluminium rund 95 %. Die Einschränkung liegt in der Sortenreinheit: Vermischte Legierungen ergeben Material minderer Qualität. Eine differenzierte Bewertung nennt beides.",
+      "tags": [
+        "pruefung",
+        "bewerten",
+        "msa"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 10,
+      "aufgaben": 19,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 11,
+      "aufgaben": 16,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 12,
+      "aufgaben": 12,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Redoxreihe der Metalle",
+      "url": "https://learningapps.org/view7226678",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Grundwissen Metalle",
+      "url": "https://learningapps.org/view4520689",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 7,
+    "titel": "Metalle und Redoxreaktionen",
+    "seiten_von": 83,
+    "seiten_bis": 96,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Redoxreihe"
+  }
+}

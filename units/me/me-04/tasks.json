@@ -1,0 +1,667 @@
+{
+  "unit": "ME-04",
+  "title": "Legierungen und Gebrauchsmetalle",
+  "leitidee": "B2",
+  "standards": [
+    "K1",
+    "K2.1",
+    "K4.1"
+  ],
+  "klasse": 8,
+  "wortspeicher": [
+    "die Legierung",
+    "das Messing",
+    "die Bronze",
+    "der Stahl",
+    "die Härte",
+    "das Gebrauchsmetall",
+    "das Recycling"
+  ],
+  "worterklaerungen": {
+    "Legierung": "Ein Metall, dem andere Stoffe zugesetzt wurden.",
+    "Messing": "Eine Legierung aus Kupfer und Zink.",
+    "Bronze": "Eine Legierung aus Kupfer und Zinn.",
+    "Stahl": "Eisen mit weniger als 2 % Kohlenstoff."
+  },
+  "can_do": {
+    "A": "Ich nenne zwei Legierungen und ihre Bestandteile.",
+    "B": "Ich erkläre, warum Legierungen härter sind als die reinen Metalle, und rechne mit Massenanteilen.",
+    "C": "Ich bewerte den Einsatz von Legierungen und die Bedeutung des Recyclings."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Metalle mischen",
+      "hinfuehrung": "Reine Metalle sind oft zu weich.",
+      "erklaerung": [
+        "Man mischt sie mit anderen Stoffen.",
+        "Die Mischung heißt Legierung."
+      ],
+      "merke": "Legierung = Metall plus Zusatz.",
+      "beispiel": {
+        "titel": "Messing",
+        "aufgabe": "Woraus besteht Messing?",
+        "schritte": [
+          "Aus Kupfer.",
+          "Und aus Zink."
+        ],
+        "ergebnis": "Messing ist härter als reines Kupfer."
+      },
+      "visual": {
+        "type": "teilchen",
+        "zustand": "fest",
+        "art": "legierung",
+        "alt": "Teilchenmodell einer Legierung aus zwei Atomsorten."
+      }
+    },
+    "B": {
+      "titel": "Warum Legierungen härter sind",
+      "hinfuehrung": "Eine Legierung ist kein neuer Stoff im chemischen Sinn, sondern ein verändertes Gitter — und genau das ändert die Eigenschaften.",
+      "erklaerung": [
+        "Die eingelagerten Fremdatome haben andere Größen und stören die regelmäßige Schichtung.",
+        "Die Schichten lassen sich schlechter gegeneinander verschieben — die Legierung ist härter, aber weniger verformbar.",
+        "Auch die Schmelztemperatur ändert sich: Lötzinn schmilzt tiefer als beide Bestandteile einzeln.",
+        "Wichtige Legierungen: Messing (Cu + Zn), Bronze (Cu + Sn), Stahl (Fe + C), Edelstahl (Fe + Cr + Ni)."
+      ],
+      "merke": "Fremdatome stören die Schichten — daher die größere Härte.",
+      "visual": {
+        "type": "animation",
+        "name": "elektronengas",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Legierungen beurteilen",
+      "hinfuehrung": "Ob eine Legierung die richtige Wahl ist, entscheidet sich an mehreren Kriterien zugleich — und die widersprechen einander oft.",
+      "erklaerung": [
+        "Härte gegen Verformbarkeit: Was härter ist, lässt sich schlechter biegen. Für ein Werkzeug ist das gut, für ein Karosserieblech schlecht.",
+        "Korrosionsbeständigkeit: Edelstahl rostet nicht, ist aber teurer und schwerer zu bearbeiten.",
+        "Recycling: Metalle lassen sich nahezu vollständig einschmelzen und wiederverwenden. Aluminium aus Schrott braucht nur rund 5 % der Energie der Neugewinnung.",
+        "Legierungen erschweren das Recycling allerdings, weil die Bestandteile getrennt werden müssen."
+      ],
+      "merke": "Jede Verbesserung hat einen Preis — zu bewerten ist immer bezogen auf den Zweck.",
+      "visual": {
+        "type": "anteil",
+        "titel": "Zusammensetzung von Messing",
+        "segmente": [
+          {
+            "anteil": 63,
+            "label": "Cu"
+          },
+          {
+            "anteil": 37,
+            "label": "Zn"
+          }
+        ],
+        "alt": "Messing besteht zu etwa 63 % aus Kupfer und 37 % aus Zink."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "w = m(Bestandteil) : m(Legierung) · 100 %"
+    ],
+    "saetze": [
+      "Messing = Kupfer + Zink. Bronze = Kupfer + Zinn.",
+      "Stahl = Eisen mit weniger als 2 % Kohlenstoff.",
+      "Fremdatome stören die Schichten → größere Härte.",
+      "Aluminiumrecycling spart rund 95 % der Energie."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Münzen vergolden und Legierungen — die Theorie",
+      "url": "https://www.youtube.com/watch?v=XwLibwNNwUw",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/UQSQyM",
+      "embed": "https://app.lumi.education/api/v1/run/UQSQyM/embed",
+      "stufe": "B",
+      "dauer_s": 216
+    },
+    {
+      "titel": "Wie wird Stahl hergestellt?",
+      "url": "https://www.youtube.com/watch?v=3T5kQfGVb9M",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/8i5L2G",
+      "embed": "https://app.lumi.education/api/v1/run/8i5L2G/embed",
+      "stufe": "A",
+      "dauer_s": 246
+    }
+  ],
+  "tasks": [
+    {
+      "id": "ME04-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Woraus besteht Messing?",
+      "options": [
+        "Kupfer und Zink",
+        "Kupfer und Zinn",
+        "Eisen und Kohlenstoff"
+      ],
+      "answer": 0,
+      "hints": [
+        "Es sind zwei Metalle.",
+        "Eines davon ist Kupfer.",
+        "Das andere Zink."
+      ],
+      "solution": "Messing besteht aus Kupfer und Zink. Kupfer und Zinn ergeben Bronze.",
+      "misconceptions": [
+        {
+          "id": "legierung_verwechselt",
+          "value": 1,
+          "feedback": "Kupfer und Zinn ergeben Bronze. Messing enthält Zink."
+        }
+      ],
+      "tags": [
+        "legierungen"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "ME04-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum werden Metalle legiert?",
+      "options": [
+        "Um sie härter oder beständiger zu machen.",
+        "Um sie billiger zu machen.",
+        "Um sie leichter zu machen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Reine Metalle sind oft zu weich.",
+        "Die Legierung soll besser sein.",
+        "Meist härter."
+      ],
+      "solution": "Reine Metalle sind häufig zu weich oder nicht beständig genug. Legierungen sind härter und oft korrosionsbeständiger.",
+      "tags": [
+        "legierungen"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "ME04-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Messing besteht zu 60 % aus Kupfer. Wie viel Kupfer stecken in 200 g Messing?",
+      "answer": 120,
+      "unit_label": "g",
+      "tolerance": 1,
+      "hints": [
+        "60 % von 200 g.",
+        "1 % sind 2 g.",
+        "60 · 2 g."
+      ],
+      "solution": "200 g · 0,60 = 120 g Kupfer",
+      "misconceptions": [
+        {
+          "id": "rest_statt_anteil",
+          "value": 80,
+          "feedback": "Das ist der Zinkanteil. Gefragt war das Kupfer."
+        }
+      ],
+      "tags": [
+        "legierungen",
+        "rechnen"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "ME04-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Was ist Stahl?",
+      "options": [
+        "Eisen mit wenig Kohlenstoff",
+        "reines Eisen",
+        "Eisen mit Kupfer"
+      ],
+      "answer": 0,
+      "hints": [
+        "Stahl entsteht aus Eisen.",
+        "Ein Nichtmetall kommt dazu.",
+        "Kohlenstoff."
+      ],
+      "solution": "Stahl ist Eisen mit weniger als 2 % Kohlenstoff. Der Kohlenstoffgehalt bestimmt Härte und Verformbarkeit.",
+      "tags": [
+        "legierungen"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "ME04-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Warum ist eine Legierung härter als das reine Metall?",
+      "options": [
+        "Fremdatome anderer Größe stören die Schichten, die sich dadurch schlechter verschieben lassen.",
+        "Legierungen haben mehr Elektronen.",
+        "Legierungen sind schwerer."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was macht ein reines Metall weich?",
+        "Dass die Schichten leicht gleiten.",
+        "Fremdatome behindern das."
+      ],
+      "solution": "In einer Legierung sitzen Atome verschiedener Größe im Gitter. Die regelmäßige Schichtung ist gestört, das Gleiten wird erschwert — das Metall wird härter, aber weniger verformbar.",
+      "tags": [
+        "legierungen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "ME04-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Eine Bronze enthält 88 % Kupfer. Wie viel Zinn stecken in 500 g Bronze?",
+      "answer": 60,
+      "unit_label": "g",
+      "tolerance": 1,
+      "hints": [
+        "Der Rest zu 100 % ist Zinn.",
+        "100 − 88 = 12 %.",
+        "12 % von 500 g."
+      ],
+      "solution": "Zinnanteil: 100 % − 88 % = 12 %\n500 g · 0,12 = 60 g Zinn",
+      "misconceptions": [
+        {
+          "id": "anteil_statt_rest",
+          "value": 440,
+          "feedback": "Das ist der Kupferanteil. Gefragt war das Zinn."
+        }
+      ],
+      "tags": [
+        "legierungen",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "ME04-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum schmilzt Lötzinn tiefer als beide reinen Metalle?",
+      "options": [
+        "Die gestörte Gitterordnung senkt die Schmelztemperatur.",
+        "Lötzinn enthält Wasser.",
+        "Lötzinn ist besonders rein."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert mit der Ordnung im Gitter?",
+        "Sie wird gestört.",
+        "Ein gestörtes Gitter zerfällt leichter."
+      ],
+      "solution": "In einem gestörten Gitter halten die Teilchen weniger regelmäßig zusammen — es lässt sich bei niedrigerer Temperatur auflösen. Deshalb schmelzen viele Legierungen tiefer als ihre Bestandteile.",
+      "tags": [
+        "legierungen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "ME04-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Eine Messingprobe wiegt 340 g und enthält 63 % Kupfer.",
+      "fields": [
+        {
+          "label": "Kupfermasse",
+          "answer": 214.2,
+          "unit_label": "g",
+          "tolerance": 1
+        },
+        {
+          "label": "Zinkmasse",
+          "answer": 125.8,
+          "unit_label": "g",
+          "tolerance": 1
+        }
+      ],
+      "hints": [
+        "63 % von 340 g.",
+        "Der Rest ist Zink.",
+        "340 − 214,2 = 125,8 g."
+      ],
+      "solution": "Cu: 340 · 0,63 = 214,2 g\nZn: 340 − 214,2 = 125,8 g",
+      "tags": [
+        "legierungen",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "ME04-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum wird für Karosseriebleche ein weicherer Stahl verwendet als für Werkzeuge?",
+      "options": [
+        "Bleche müssen sich umformen lassen; Werkzeuge müssen hart sein.",
+        "Weicher Stahl ist billiger.",
+        "Harter Stahl rostet schneller."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert mit einem Blech in der Presse?",
+        "Es wird umgeformt.",
+        "Zu harter Stahl würde reißen."
+      ],
+      "solution": "Karosseriebleche werden tiefgezogen und müssen sich verformen lassen. Werkzeuge müssen dagegen hart und verschleißfest sein. Härte und Verformbarkeit schließen einander weitgehend aus — deshalb verschiedene Stähle.",
+      "tags": [
+        "legierungen",
+        "bewerten",
+        "bbr"
+      ]
+    },
+    {
+      "id": "ME04-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum ist Recycling von Aluminium besonders lohnend?",
+      "options": [
+        "Das Einschmelzen braucht nur rund 5 % der Energie der Neugewinnung.",
+        "Aluminium ist besonders selten.",
+        "Recyceltes Aluminium ist reiner."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie aufwendig ist die Gewinnung aus Erz?",
+        "Sehr aufwendig — Elektrolyse.",
+        "Einschmelzen ist dagegen billig."
+      ],
+      "solution": "Die Gewinnung aus Bauxit erfordert eine energieintensive Elektrolyse. Das Einschmelzen von Schrott benötigt nur rund 5 % davon — deshalb ist Aluminiumrecycling wirtschaftlich und ökologisch besonders wirksam.",
+      "tags": [
+        "legierungen",
+        "bewerten",
+        "msa"
+      ]
+    },
+    {
+      "id": "ME04-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum ist Edelstahl rostbeständig?",
+      "options": [
+        "Chrom bildet eine dichte Oxidschicht, die das Eisen darunter schützt.",
+        "Edelstahl enthält kein Eisen.",
+        "Edelstahl ist besonders hart."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welcher Zusatz macht den Unterschied?",
+        "Chrom.",
+        "Es bildet eine schützende Schicht — wie Aluminium."
+      ],
+      "solution": "Der Chromzusatz bildet an der Oberfläche eine dichte, festhaftende Oxidschicht. Sie schützt das darunterliegende Eisen — nach demselben Prinzip wie bei Aluminium. Edelstahl enthält weiterhin überwiegend Eisen.",
+      "tags": [
+        "legierungen",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME04-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Aus 800 kg Aluminiumschrott wird neues Aluminium gewonnen. Die Neugewinnung aus Erz benötigt 15 kWh je Kilogramm, das Recycling nur 5 % davon.",
+      "fields": [
+        {
+          "label": "Energie bei Neugewinnung",
+          "answer": 12000,
+          "unit_label": "kWh",
+          "tolerance": 50
+        },
+        {
+          "label": "Energie beim Recycling",
+          "answer": 600,
+          "unit_label": "kWh",
+          "tolerance": 20
+        },
+        {
+          "label": "Ersparnis in kWh",
+          "answer": 11400,
+          "unit_label": "kWh",
+          "tolerance": 50
+        }
+      ],
+      "hints": [
+        "800 · 15 kWh.",
+        "5 % davon.",
+        "Differenz bilden."
+      ],
+      "solution": "Neugewinnung: 800 · 15 = 12 000 kWh\nRecycling: 12 000 · 0,05 = 600 kWh\nErsparnis: 11 400 kWh",
+      "tags": [
+        "legierungen",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "ME04-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum erschweren Legierungen das Recycling?",
+      "options": [
+        "Die Bestandteile müssen aufwendig getrennt oder die Legierung sortenrein gesammelt werden.",
+        "Legierungen lassen sich nicht einschmelzen.",
+        "Legierungen verlieren beim Schmelzen ihre Metalle."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was entsteht, wenn verschiedene Legierungen gemeinsam eingeschmolzen werden?",
+        "Eine unbekannte Mischung.",
+        "Sie ist für den ursprünglichen Zweck oft unbrauchbar."
+      ],
+      "solution": "Beim gemeinsamen Einschmelzen entsteht eine Mischung unbekannter Zusammensetzung, die für hochwertige Anwendungen nicht mehr taugt. Deshalb wird sortenrein gesammelt — der Aufwand ist der Preis für die verbesserten Eigenschaften.",
+      "tags": [
+        "legierungen",
+        "bewerten",
+        "msa"
+      ]
+    },
+    {
+      "id": "ME04-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Eine Firma will ein Fahrradgestell bauen. Welche Begründung für die Materialwahl ist fachlich am tragfähigsten?",
+      "options": [
+        "Aluminiumlegierung: geringe Dichte für ein leichtes Rad, ausreichende Festigkeit durch die Legierung, korrosionsbeständig durch die Oxidschicht.",
+        "Reines Kupfer, weil es gut leitet.",
+        "Blei, weil es sich leicht verarbeiten lässt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welche Eigenschaften braucht ein Fahrradrahmen?",
+        "Leicht, fest, rostbeständig.",
+        "Leitfähigkeit spielt keine Rolle."
+      ],
+      "solution": "Für einen Rahmen zählen geringe Masse, ausreichende Festigkeit und Korrosionsbeständigkeit. Eine Aluminiumlegierung erfüllt alle drei. Leitfähigkeit ist kein Kriterium, und Blei wäre viel zu schwer und zu weich.",
+      "tags": [
+        "legierungen",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 6,
+      "aufgaben": 23,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 6,
+      "aufgaben": 21,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 6,
+      "aufgaben": 18,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Legierungen - Definition",
+      "url": "https://learningapps.org/view21822157",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Wie Stahl entsteht...",
+      "url": "https://learningapps.org/view2348798",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Werk- und Baustoffe — Quiz Klasse 9",
+      "url": "https://www.schlaukopf.de/realschule/klasse9/chemie/werkstoffe",
+      "typ": "app",
+      "quelle": "Schlaukopf"
+    },
+    {
+      "titel": "Element Kupfer — Auswahl",
+      "url": "https://allgemeinbildung.ch/fach=che/Element_Kupfer_04a.htm",
+      "typ": "app",
+      "quelle": "allgemeinbildung.ch"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Eine Legierung mit niedrigem Schmelzpunkt",
+      "url": "https://www.youtube.com/watch?v=JI9qKbQCukg",
+      "quelle": "North Carolina School of Science and Mathematics",
+      "stufe": "B",
+      "rolle": "Demonstration: die Legierung hat andere Eigenschaften als ihre Metalle",
+      "embed": "https://www.youtube-nocookie.com/embed/JI9qKbQCukg",
+      "protokoll": false,
+      "beobachtung": {
+        "A": "Notiere, was mit dem Löffel im heißen Wasser geschieht.",
+        "B": "Erkläre, warum die Legierung einen niedrigeren Schmelzpunkt hat als die reinen Metalle.",
+        "C": "Beurteile, wofür sich eine solche Legierung im Alltag eignet — und wofür nicht. Begründe."
+      }
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 7,
+    "titel": "Metalle und Redoxreaktionen",
+    "seiten_von": 83,
+    "seiten_bis": 96,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Legierung"
+  }
+}

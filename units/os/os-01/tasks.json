@@ -1,0 +1,673 @@
+{
+  "unit": "OS-01",
+  "title": "Die Carboxygruppe im Alltag",
+  "leitidee": "B2",
+  "standards": [
+    "K1",
+    "K2.1",
+    "K3.1"
+  ],
+  "klasse": 10,
+  "wortspeicher": [
+    "die Carboxygruppe",
+    "die Carbonsäure",
+    "die Essigsäure",
+    "die Citronensäure",
+    "der Entkalker",
+    "das Konservierungsmittel"
+  ],
+  "worterklaerungen": {
+    "Carboxygruppe": "Die Gruppe –COOH. Sie kennzeichnet die organischen Säuren.",
+    "Carbonsäure": "Ein anderer Name für organische Säure."
+  },
+  "can_do": {
+    "A": "Ich erkenne die Carboxygruppe und nenne organische Säuren aus dem Alltag.",
+    "B": "Ich erkläre, warum die Carboxygruppe sauer reagiert.",
+    "C": "Ich vergleiche organische mit anorganischen Säuren und bewerte ihre Verwendung."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Die COOH-Gruppe",
+      "hinfuehrung": "Organische Säuren haben eine besondere Gruppe.",
+      "erklaerung": [
+        "Sie heißt Carboxygruppe: –COOH.",
+        "Essig und Zitronensaft enthalten sie."
+      ],
+      "merke": "–COOH kennzeichnet eine organische Säure.",
+      "beispiel": {
+        "titel": "Essigsäure",
+        "aufgabe": "Wie ist Essigsäure gebaut?",
+        "schritte": [
+          "Zwei Kohlenstoffatome.",
+          "Am Ende sitzt die COOH-Gruppe."
+        ],
+        "ergebnis": "CH₃–COOH"
+      },
+      "visual": {
+        "type": "struktur",
+        "kette": 2,
+        "gruppe": "cooh",
+        "name": "Essigsäure",
+        "formel": "CH3COOH",
+        "alt": "Strukturformel von Essigsäure mit Carboxygruppe."
+      }
+    },
+    "B": {
+      "titel": "Warum die Gruppe sauer reagiert",
+      "hinfuehrung": "Die Carboxygruppe enthält ebenfalls ein OH — und gibt anders als beim Alkohol ein Proton ab. Der Unterschied liegt in der Nachbarschaft.",
+      "erklaerung": [
+        "Neben der OH-Gruppe sitzt eine Doppelbindung zum Sauerstoff. Diese zieht Elektronen ab und schwächt die Bindung zum Wasserstoff.",
+        "Dadurch kann das Proton an ein Wassermolekül abgegeben werden: R–COOH + H₂O ⇌ R–COO⁻ + H₃O⁺.",
+        "Der Alkohol hat diese Nachbarschaft nicht — deshalb reagiert er neutral.",
+        "Organische Säuren sind schwache Säuren: Nur ein kleiner Teil der Moleküle gibt sein Proton ab. Deshalb der Gleichgewichtspfeil.",
+        "Wichtige Vertreter: Methansäure (Ameisensäure), Ethansäure (Essigsäure), Citronensäure, Milchsäure."
+      ],
+      "merke": "Die Doppelbindung am Nachbaratom macht aus der OH-Gruppe eine Säuregruppe.",
+      "visual": {
+        "type": "phskala",
+        "marken": [
+          {
+            "wert": 2.4,
+            "stoff": "Essigsäure 1 mol/L"
+          },
+          {
+            "wert": 7,
+            "stoff": "Ethanol"
+          }
+        ],
+        "alt": "pH-Skala: Essigsäure ist sauer, Ethanol neutral."
+      }
+    },
+    "C": {
+      "titel": "Organisch und anorganisch im Vergleich",
+      "hinfuehrung": "Organische Säuren wirken nach demselben Prinzip wie Salzsäure oder Schwefelsäure — aber deutlich milder. Genau das macht sie im Alltag verwendbar.",
+      "erklaerung": [
+        "Beide geben Protonen ab und färben Indikatoren rot, lösen Kalk und reagieren mit unedlen Metallen.",
+        "Organische Säuren sind schwach: In gleicher Konzentration liegt der pH-Wert deutlich höher als bei Salzsäure.",
+        "Deshalb sind sie im Haushalt einsetzbar — als Entkalker, Konservierungsmittel und Geschmacksgeber.",
+        "Sie sind trotzdem nicht harmlos: Konzentrierte Essigsäure ist ätzend, Ameisensäure verursacht schmerzhafte Verätzungen.",
+        "Viele sind biologisch abbaubar und werden deshalb Reinigern gegenüber Mineralsäuren vorgezogen."
+      ],
+      "merke": "Gleiches Prinzip, mildere Wirkung — deshalb im Haushalt verwendbar.",
+      "visual": {
+        "type": "struktur",
+        "kette": 1,
+        "gruppe": "cooh",
+        "name": "Methansäure",
+        "alt": "Strukturformel von Methansäure."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Carbonsäuren: R–COOH",
+      "R–COOH + H₂O ⇌ R–COO⁻ + H₃O⁺",
+      "Methansäure HCOOH · Essigsäure CH₃COOH"
+    ],
+    "saetze": [
+      "–COOH ist die Carboxygruppe.",
+      "Organische Säuren sind schwache Säuren.",
+      "Alkohole reagieren neutral, Carbonsäuren sauer.",
+      "Sie lösen Kalk und reagieren mit unedlen Metallen."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Carbonsäuren — was sind das?",
+      "url": "https://www.youtube.com/watch?v=ZHYZs_Bc12g",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/2_myLi",
+      "embed": "https://app.lumi.education/api/v1/run/2_myLi/embed",
+      "stufe": "A",
+      "dauer_s": 299
+    },
+    {
+      "titel": "Funktionelle Gruppen im Überblick",
+      "url": "https://www.youtube.com/watch?v=9m9Dv5ICwC4",
+      "quelle": "Studyflix",
+      "lumi": "https://app.lumi.education/run/TWudn2",
+      "embed": "https://app.lumi.education/api/v1/run/TWudn2/embed",
+      "stufe": "B",
+      "dauer_s": 316
+    }
+  ],
+  "tasks": [
+    {
+      "id": "OS01-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welche Gruppe kennzeichnet eine organische Säure?",
+      "options": [
+        "–COOH",
+        "–OH",
+        "–CHO"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "struktur",
+        "kette": 2,
+        "gruppe": "cooh",
+        "alt": "Strukturformel von Essigsäure."
+      },
+      "hints": [
+        "Sie heißt Carboxygruppe.",
+        "Sie enthält zwei O-Atome.",
+        "–COOH."
+      ],
+      "solution": "Die Carboxygruppe –COOH kennzeichnet die organischen Säuren.",
+      "misconceptions": [
+        {
+          "id": "funktionelle_gruppe_verwechselt",
+          "value": 1,
+          "feedback": "–OH ist die Hydroxylgruppe der Alkohole.",
+          "konzeptfehler": "funktionelle_gruppe_verwechselt"
+        }
+      ],
+      "tags": [
+        "carbonsaeuren"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS01-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Welche Säure steckt im Speiseessig?",
+      "options": [
+        "Essigsäure",
+        "Salzsäure",
+        "Schwefelsäure"
+      ],
+      "answer": 0,
+      "hints": [
+        "Der Name verrät es.",
+        "Essigsäure.",
+        "Sie ist eine organische Säure."
+      ],
+      "solution": "Speiseessig enthält Essigsäure, chemisch Ethansäure CH₃COOH.",
+      "tags": [
+        "carbonsaeuren"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS01-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Wozu wird Citronensäure im Haushalt verwendet?",
+      "options": [
+        "zum Entkalken",
+        "zum Desinfizieren",
+        "zum Färben"
+      ],
+      "answer": 0,
+      "hints": [
+        "Säuren lösen Kalk.",
+        "Citronensäure ist eine Säure.",
+        "Zum Entkalken."
+      ],
+      "solution": "Citronensäure löst Kalk und wird deshalb als Entkalker verwendet — milder als Mineralsäuren.",
+      "tags": [
+        "carbonsaeuren"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "OS01-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Wie färbt sich Indikatorpapier in Essigsäure?",
+      "options": [
+        "rot",
+        "blau",
+        "grün"
+      ],
+      "answer": 0,
+      "hints": [
+        "Essigsäure ist eine Säure.",
+        "Säuren färben rot.",
+        "Rot."
+      ],
+      "solution": "Essigsäure reagiert sauer — der Indikator wird rot.",
+      "tags": [
+        "carbonsaeuren"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "OS01-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Warum reagiert Essigsäure sauer, Ethanol aber nicht — beide enthalten eine OH-Gruppe?",
+      "options": [
+        "Die benachbarte Doppelbindung zum Sauerstoff schwächt die Bindung zum Wasserstoff.",
+        "Essigsäure hat mehr H-Atome.",
+        "Ethanol enthält keinen Sauerstoff."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was steht in der Carboxygruppe neben dem OH?",
+        "Eine Doppelbindung zum Sauerstoff.",
+        "Sie zieht Elektronen ab."
+      ],
+      "solution": "In der Carboxygruppe zieht die benachbarte C=O-Doppelbindung Elektronen ab. Die Bindung zum Wasserstoff wird geschwächt, das Proton kann abgegeben werden. Beim Alkohol fehlt diese Nachbarschaft.",
+      "misconceptions": [
+        {
+          "id": "funktionelle_gruppe_verwechselt",
+          "value": 1,
+          "feedback": "Nicht die Zahl der H-Atome entscheidet, sondern die Umgebung der OH-Gruppe.",
+          "konzeptfehler": "funktionelle_gruppe_verwechselt"
+        }
+      ],
+      "tags": [
+        "carbonsaeuren",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS01-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum ist Essigsäure eine schwache Säure?",
+      "options": [
+        "Nur ein kleiner Teil der Moleküle gibt sein Proton ab.",
+        "Sie ist stark verdünnt.",
+        "Sie enthält wenig Wasserstoff."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was unterscheidet stark und schwach?",
+        "Wie vollständig das Proton abgegeben wird.",
+        "Bei Essigsäure nur teilweise."
+      ],
+      "solution": "In einer Essigsäurelösung hat nur ein kleiner Teil der Moleküle das Proton abgegeben — deshalb der Gleichgewichtspfeil. Mit der Konzentration hat das nichts zu tun.",
+      "misconceptions": [
+        {
+          "id": "staerke_und_konzentration",
+          "value": 1,
+          "feedback": "Stärke und Konzentration sind zwei verschiedene Größen."
+        }
+      ],
+      "tags": [
+        "carbonsaeuren",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "OS01-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Was entsteht, wenn Essigsäure auf Kalk trifft?",
+      "options": [
+        "ein Salz, Wasser und Kohlenstoffdioxid",
+        "nur Wasser",
+        "Wasserstoff"
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie bei jeder Säure mit Carbonat.",
+        "Es schäumt.",
+        "Kohlenstoffdioxid entweicht."
+      ],
+      "solution": "Wie jede Säure setzt Essigsäure aus dem Carbonat Kohlensäure frei, die zu Wasser und Kohlenstoffdioxid zerfällt. Dazu entsteht ein Salz — hier Calciumacetat.",
+      "misconceptions": [
+        {
+          "id": "nachweis_verwechselt",
+          "value": 2,
+          "feedback": "Wasserstoff entsteht bei der Reaktion mit unedlen Metallen, nicht mit Kalk.",
+          "konzeptfehler": "nachweis_verwechselt"
+        }
+      ],
+      "tags": [
+        "carbonsaeuren",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "OS01-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "assign",
+      "prompt": "Ordne jeder Säure ihren Alltagsbezug zu.",
+      "slots": [
+        "Essigsäure",
+        "Citronensäure",
+        "Milchsäure"
+      ],
+      "values": [
+        "Speiseessig",
+        "Zitrone und Entkalker",
+        "Sauermilchprodukte"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Die Namen verraten viel.",
+        "Citronensäure steckt in Zitronen.",
+        "Milchsäure in Joghurt."
+      ],
+      "solution": "Essigsäure → Essig.\nCitronensäure → Zitrone und Entkalker.\nMilchsäure → Joghurt und Sauerkraut.",
+      "tags": [
+        "carbonsaeuren",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS01-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie groß ist die molare Masse von Essigsäure CH₃COOH? (C = 12, H = 1, O = 16 g/mol)",
+      "answer": 60,
+      "unit_label": "g/mol",
+      "tolerance": 1,
+      "hints": [
+        "2 C, 4 H, 2 O.",
+        "24 + 4 + 32.",
+        "60 g/mol."
+      ],
+      "solution": "M = 2 · 12 + 4 · 1 + 2 · 16 = 24 + 4 + 32 = 60 g/mol",
+      "misconceptions": [
+        {
+          "id": "summenformel_falsch_gelesen",
+          "value": 44,
+          "feedback": "Zähle beide Sauerstoffatome der Carboxygruppe.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "carbonsaeuren",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "OS01-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum wird zum Entkalken meist Citronensäure statt Salzsäure verwendet?",
+      "options": [
+        "Sie ist milder, biologisch abbaubar und im Haushalt sicherer zu handhaben.",
+        "Sie löst Kalk besser.",
+        "Salzsäure löst gar keinen Kalk."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welche Säure ist schwächer?",
+        "Die Citronensäure.",
+        "Und sie ist biologisch abbaubar."
+      ],
+      "solution": "Salzsäure würde den Kalk sogar schneller lösen, ist aber stark ätzend und greift Metalle und Dichtungen an. Citronensäure ist milder, biologisch abbaubar und für den Haushalt geeignet.",
+      "tags": [
+        "carbonsaeuren",
+        "bewerten",
+        "msa"
+      ]
+    },
+    {
+      "id": "OS01-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum ist konzentrierte Essigsäure trotz ihrer Schwäche als Säure ätzend?",
+      "options": [
+        "Bei hoher Konzentration ist die Zahl der Oxonium-Ionen dennoch groß, und die Säure entzieht Gewebe Wasser.",
+        "Sie ist in Wirklichkeit eine starke Säure.",
+        "Sie enthält Salzsäure."
+      ],
+      "answer": 0,
+      "hints": [
+        "Stärke und Konzentration sind zwei Größen.",
+        "Auch eine schwache Säure kann konzentriert sein.",
+        "Dann sind absolut viele Ionen vorhanden."
+      ],
+      "solution": "Schwach bedeutet: Nur ein kleiner Anteil der Moleküle gibt das Proton ab. Bei hoher Konzentration ist dieser kleine Anteil absolut trotzdem groß. Zusätzlich wirkt konzentrierte Essigsäure wasserentziehend.",
+      "tags": [
+        "carbonsaeuren",
+        "sicherheit",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "OS01-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum wirken organische Säuren konservierend?",
+      "options": [
+        "Der niedrige pH-Wert hemmt das Wachstum von Mikroorganismen.",
+        "Sie töten alle Zellen sofort ab.",
+        "Sie verschließen die Lebensmittel luftdicht."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was macht eine saure Umgebung mit Bakterien?",
+        "Sie hemmt ihr Wachstum.",
+        "Deshalb hält Sauerkraut länger."
+      ],
+      "solution": "Die meisten Mikroorganismen wachsen im sauren Milieu schlecht. Deshalb halten Sauerkraut, eingelegtes Gemüse und Joghurt länger — die entstehende Milchsäure konserviert.",
+      "tags": [
+        "carbonsaeuren",
+        "anwenden",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "OS01-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Welche Gemeinsamkeit haben Essigsäure und Salzsäure trotz aller Unterschiede?",
+      "options": [
+        "Beide geben Protonen an Wasser ab und bilden Oxonium-Ionen.",
+        "Beide sind organisch.",
+        "Beide sind gleich stark."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was macht eine Lösung sauer?",
+        "Oxonium-Ionen.",
+        "Beide erzeugen sie."
+      ],
+      "solution": "Beide sind Protonendonatoren und bilden in Wasser Oxonium-Ionen. Verschieden ist nur, wie vollständig — und die eine ist organisch, die andere nicht.",
+      "tags": [
+        "carbonsaeuren",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "OS01-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Citronensäure ist natürlich, also ungefährlich.“ Wie bewertest du das?",
+      "options": [
+        "Der Schluss ist unzulässig — auch natürliche Säuren greifen in konzentrierter Form Haut und Zahnschmelz an.",
+        "Richtig.",
+        "Falsch — Citronensäure ist hochgiftig."
+      ],
+      "answer": 0,
+      "hints": [
+        "Ist natürlich gleich harmlos?",
+        "Nein.",
+        "Auch Citronensäure greift Zahnschmelz an."
+      ],
+      "solution": "Die Herkunft sagt nichts über die Wirkung. Konzentrierte Citronensäure reizt die Haut und greift Zahnschmelz an — deshalb die Empfehlung, nach saurem Obst nicht sofort die Zähne zu putzen. Die Menge entscheidet.",
+      "tags": [
+        "carbonsaeuren",
+        "bewerten",
+        "msa"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 8,
+      "aufgaben": 21,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 8,
+      "aufgaben": 19,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 8,
+      "aufgaben": 16,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Homologe Reihe der Carbonsäuren",
+      "url": "https://learningapps.org/view10312285",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "CARBONSÄUREN",
+      "url": "https://learningapps.org/view13234889",
+      "typ": "sammlung",
+      "quelle": "LearningApps",
+      "pfade": [
+        "B",
+        "C"
+      ]
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Reaktionen der Essigsäure",
+      "url": "https://www.youtube.com/watch?v=7qIADf_rWb8",
+      "quelle": "Pdst Chemistry",
+      "stufe": "B",
+      "rolle": "Demonstration zu den Eigenschaften der Carboxygruppe",
+      "lumi": "https://app.lumi.education/run/TUBfDc",
+      "embed": "https://app.lumi.education/api/v1/run/TUBfDc/embed",
+      "protokoll": true
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 13,
+    "titel": "Organische Säuren",
+    "seiten_von": 163,
+    "seiten_bis": 172,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Carboxygruppe"
+  }
+}

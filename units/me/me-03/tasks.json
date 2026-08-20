@@ -1,0 +1,656 @@
+{
+  "unit": "ME-03",
+  "title": "Edle und unedle Metalle",
+  "leitidee": "B3",
+  "standards": [
+    "K1",
+    "K2.2",
+    "K3.3"
+  ],
+  "klasse": 8,
+  "wortspeicher": [
+    "edel",
+    "unedel",
+    "die Redoxreihe",
+    "die Korrosion",
+    "die Reaktionsfähigkeit",
+    "der Rost"
+  ],
+  "worterklaerungen": {
+    "edel": "Reagiert kaum mit Sauerstoff oder Säuren. Gold und Silber sind edel.",
+    "unedel": "Reagiert leicht. Gibt Elektronen bereitwillig ab.",
+    "Redoxreihe": "Eine Reihenfolge der Metalle nach ihrer Bereitschaft, Elektronen abzugeben."
+  },
+  "can_do": {
+    "A": "Ich unterscheide edle und unedle Metalle an Beispielen.",
+    "B": "Ich nutze die Redoxreihe, um vorherzusagen, ob eine Reaktion abläuft.",
+    "C": "Ich begründe Korrosionsschutzverfahren mit der Stellung in der Redoxreihe."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Edel und unedel",
+      "hinfuehrung": "Manche Metalle reagieren leicht, andere kaum.",
+      "erklaerung": [
+        "Gold bleibt jahrhundertelang blank.",
+        "Eisen rostet schon nach Tagen."
+      ],
+      "merke": "Edel = reagiert kaum. Unedel = reagiert leicht.",
+      "beispiel": {
+        "titel": "Zwei Nägel",
+        "aufgabe": "Ein Eisennagel und ein Goldring liegen im Freien.",
+        "schritte": [
+          "Der Nagel rostet.",
+          "Der Ring bleibt blank."
+        ],
+        "ergebnis": "Eisen ist unedel, Gold edel."
+      },
+      "visual": {
+        "type": "animation",
+        "name": "redox",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Die Redoxreihe nutzen",
+      "hinfuehrung": "Die Metalle lassen sich nach ihrer Bereitschaft ordnen, Elektronen abzugeben. Diese Reihe sagt vorher, welche Reaktion abläuft und welche nicht.",
+      "erklaerung": [
+        "Reihenfolge von unedel nach edel: Kalium, Calcium, Natrium, Magnesium, Aluminium, Zink, Eisen, Blei, Kupfer, Silber, Gold.",
+        "Regel: Das unedlere Metall gibt Elektronen ab und geht in Lösung. Das edlere scheidet sich ab.",
+        "Ein Eisennagel in Kupfersulfatlösung überzieht sich mit Kupfer. Umgekehrt passiert nichts: Kupfer ist edler als Eisen.",
+        "Unedle Metalle reagieren auch mit Säuren unter Wasserstoffentwicklung — edle nicht."
+      ],
+      "merke": "Das unedlere Metall gibt ab. Umgekehrt läuft die Reaktion nicht.",
+      "visual": {
+        "type": "animation",
+        "name": "redox",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Korrosion und Schutz",
+      "hinfuehrung": "Aus derselben Reihe folgt, wie sich Eisen vor dem Rosten schützen lässt — und warum ausgerechnet ein unedleres Metall hilft.",
+      "erklaerung": [
+        "Passiver Schutz: Lack, Fett oder Kunststoff halten Wasser und Sauerstoff ab. Wird die Schicht verletzt, rostet es dort weiter.",
+        "Aktiver Schutz: Ein unedleres Metall wie Zink wird als Opferanode aufgebracht. Es gibt seine Elektronen bevorzugt ab und schützt das Eisen — auch an einer Kratzstelle.",
+        "Verzinktes Blech rostet deshalb selbst dann nicht, wenn es beschädigt ist. Verzinntes Blech dagegen rostet an der Kratzstelle schneller: Zinn ist edler als Eisen.",
+        "Aluminium schützt sich selbst: Seine Oxidschicht ist dicht und haftet fest, anders als der poröse Rost auf Eisen."
+      ],
+      "merke": "Ein unedleres Metall schützt, ein edleres beschleunigt die Korrosion.",
+      "visual": {
+        "type": "animation",
+        "name": "redox",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Fe + Cu²⁺ → Fe²⁺ + Cu",
+      "Zn + 2 HCl → ZnCl₂ + H₂"
+    ],
+    "saetze": [
+      "Redoxreihe: K · Ca · Na · Mg · Al · Zn · Fe · Pb · Cu · Ag · Au.",
+      "Links unedel, rechts edel.",
+      "Das unedlere Metall gibt Elektronen ab und geht in Lösung.",
+      "Unedle Metalle reagieren mit Säuren zu Wasserstoff.",
+      "Opferanode: ein unedleres Metall schützt das edlere."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Die elektrochemische Spannungsreihe der Metalle",
+      "url": "https://www.youtube.com/watch?v=TTG_LOP3w0A",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/viYFsl",
+      "embed": "https://app.lumi.education/api/v1/run/viYFsl/embed",
+      "stufe": "B",
+      "dauer_s": 403
+    },
+    {
+      "titel": "Übung: Eisennagel in Kupfer(II)-sulfat-Lösung",
+      "url": "https://www.youtube.com/watch?v=pbT1mLVYqbQ",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/pN6RUC",
+      "embed": "https://app.lumi.education/api/v1/run/pN6RUC/embed",
+      "stufe": "A",
+      "dauer_s": 164
+    },
+    {
+      "titel": "Natrium in Wasser — die Erklärung",
+      "url": "https://www.youtube.com/watch?v=-BJ_xRUPR6c",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/UqeA0J",
+      "embed": "https://app.lumi.education/api/v1/run/UqeA0J/embed",
+      "stufe": "B",
+      "dauer_s": 195
+    }
+  ],
+  "tasks": [
+    {
+      "id": "ME03-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welches Metall ist edel?",
+      "options": [
+        "Gold",
+        "Eisen",
+        "Magnesium"
+      ],
+      "answer": 0,
+      "hints": [
+        "Edle Metalle reagieren kaum.",
+        "Eisen rostet, Magnesium brennt.",
+        "Gold bleibt blank."
+      ],
+      "solution": "Gold ist ein edles Metall — es reagiert kaum mit Sauerstoff oder Säuren.",
+      "tags": [
+        "redox"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME03-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Was passiert mit einem Eisennagel im Freien?",
+      "options": [
+        "Er rostet.",
+        "Er bleibt blank.",
+        "Er schmilzt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Eisen ist unedel.",
+        "Es reagiert mit Sauerstoff und Wasser.",
+        "Es rostet."
+      ],
+      "solution": "Eisen ist unedel und reagiert mit Sauerstoff und Wasser zu Rost.",
+      "tags": [
+        "redox"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME03-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Ein Eisennagel liegt in blauer Kupfersulfatlösung. Was passiert?",
+      "options": [
+        "Der Nagel überzieht sich mit Kupfer.",
+        "Nichts.",
+        "Der Nagel löst sich vollständig auf."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "redox",
+        "stufe": "A"
+      },
+      "hints": [
+        "Eisen ist unedler als Kupfer.",
+        "Das unedlere gibt Elektronen ab.",
+        "Das Kupfer scheidet sich ab."
+      ],
+      "solution": "Eisen ist unedler und gibt Elektronen ab. Die Kupfer-Ionen nehmen sie auf und scheiden sich als Kupfer auf dem Nagel ab.",
+      "tags": [
+        "redox"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME03-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Welches Metall reagiert mit Salzsäure unter Wasserstoffentwicklung?",
+      "options": [
+        "Zink",
+        "Gold",
+        "Silber"
+      ],
+      "answer": 0,
+      "hints": [
+        "Nur unedle Metalle reagieren mit Säuren.",
+        "Gold und Silber sind edel.",
+        "Zink ist unedel."
+      ],
+      "solution": "Zink ist unedel und reagiert mit Säure zu Zinkchlorid und Wasserstoff. Gold und Silber sind edel und reagieren nicht.",
+      "tags": [
+        "redox"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME03-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Was sagt die Stellung eines Metalls in der Redoxreihe aus?",
+      "options": [
+        "Wie bereitwillig es Elektronen abgibt.",
+        "Wie schwer es ist.",
+        "Wie teuer es ist."
+      ],
+      "answer": 0,
+      "hints": [
+        "Die Reihe ordnet nach Reaktionsbereitschaft.",
+        "Es geht um Elektronen.",
+        "Links stehen die, die leicht abgeben."
+      ],
+      "solution": "Die Redoxreihe ordnet die Metalle danach, wie bereitwillig sie Elektronen abgeben. Links stehen die unedlen, rechts die edlen.",
+      "tags": [
+        "redox",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME03-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Ein Kupferblech wird in Eisensulfatlösung gelegt. Was beobachtest du?",
+      "options": [
+        "Nichts — Kupfer ist edler als Eisen.",
+        "Das Blech überzieht sich mit Eisen.",
+        "Das Blech löst sich auf."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welches Metall ist edler?",
+        "Kupfer.",
+        "Das edlere gibt keine Elektronen ab."
+      ],
+      "solution": "Nur das unedlere Metall gibt Elektronen ab. Kupfer ist edler als Eisen, also läuft die Reaktion nicht — die Richtung der Redoxreihe ist eindeutig.",
+      "misconceptions": [
+        {
+          "id": "redox_richtung",
+          "value": 1,
+          "feedback": "Die Reaktion läuft nur, wenn das eingetauchte Metall <b>unedler</b> ist als das Ion in der Lösung.",
+          "konzeptfehler": "oxidation_reduktion_vertauscht"
+        }
+      ],
+      "tags": [
+        "redox",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME03-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum schützt eine Zinkschicht Eisen auch dann, wenn sie zerkratzt ist?",
+      "options": [
+        "Zink ist unedler und gibt seine Elektronen bevorzugt ab.",
+        "Zink füllt den Kratzer wieder auf.",
+        "Zink ist härter als Eisen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wo steht Zink in der Redoxreihe?",
+        "Links von Eisen — also unedler.",
+        "Es reagiert bevorzugt."
+      ],
+      "solution": "Zink steht in der Redoxreihe links von Eisen. An einer Kratzstelle gibt es seine Elektronen bevorzugt ab und schützt das Eisen weiterhin — deshalb heißt es Opferanode.",
+      "tags": [
+        "redox",
+        "korrosion",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME03-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "assign",
+      "prompt": "Ordne die Metalle nach zunehmender Edelkeit.",
+      "slots": [
+        "am unedelsten",
+        "in der Mitte",
+        "am edelsten"
+      ],
+      "values": [
+        "Magnesium",
+        "Eisen",
+        "Silber"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Denk an die Redoxreihe.",
+        "Magnesium brennt schon an der Luft.",
+        "Silber läuft nur langsam an."
+      ],
+      "solution": "Magnesium ist am unedelsten, Eisen liegt dazwischen, Silber ist am edelsten.",
+      "tags": [
+        "redox",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME03-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum rostet verzinntes Blech an einer Kratzstelle schneller als unbeschichtetes Eisen?",
+      "options": [
+        "Zinn ist edler als Eisen; an der Kratzstelle gibt das Eisen seine Elektronen bevorzugt ab.",
+        "Zinn zieht Wasser an.",
+        "Zinn ist giftig für Eisen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wo steht Zinn in der Redoxreihe?",
+        "Rechts von Eisen — also edler.",
+        "Dann opfert sich das Eisen."
+      ],
+      "solution": "Solange die Zinnschicht geschlossen ist, schützt sie mechanisch. An einer Kratzstelle bildet sich ein Kontakt zwischen edlerem Zinn und unedlerem Eisen — das Eisen gibt bevorzugt Elektronen ab und rostet schneller.",
+      "tags": [
+        "redox",
+        "korrosion",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME03-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum korrodiert Aluminium trotz seiner Unedelkeit kaum?",
+      "options": [
+        "Es bildet eine dichte, festhaftende Oxidschicht, die das Metall darunter schützt.",
+        "Aluminium ist in Wirklichkeit edel.",
+        "Aluminium reagiert nicht mit Sauerstoff."
+      ],
+      "answer": 0,
+      "hints": [
+        "Aluminium reagiert sehr wohl mit Sauerstoff.",
+        "Was passiert mit dem entstandenen Oxid?",
+        "Es bleibt als dichte Schicht liegen."
+      ],
+      "solution": "Aluminium reagiert sofort mit Sauerstoff — die entstehende Oxidschicht ist aber dicht und haftet fest. Sie schützt das Metall darunter. Rost auf Eisen ist dagegen porös und blättert ab.",
+      "misconceptions": [
+        {
+          "id": "edel_unedel_verwechselt",
+          "value": 1,
+          "feedback": "Aluminium ist unedel. Es schützt sich durch seine eigene Oxidschicht.",
+          "konzeptfehler": "oxidation_reduktion_vertauscht"
+        }
+      ],
+      "tags": [
+        "redox",
+        "korrosion",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME03-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Ein Zinkblech wird in Kupfersulfatlösung gelegt. Was passiert und warum?",
+      "options": [
+        "Kupfer scheidet sich ab, Zink geht in Lösung — Zink ist unedler.",
+        "Nichts, beide sind gleich edel.",
+        "Zink scheidet sich ab, Kupfer geht in Lösung."
+      ],
+      "answer": 0,
+      "hints": [
+        "Vergleiche die Stellung in der Redoxreihe.",
+        "Zink steht links von Kupfer.",
+        "Also gibt Zink ab."
+      ],
+      "solution": "Zink steht links von Kupfer und ist damit unedler. Es gibt Elektronen ab und geht als Zn²⁺ in Lösung; die Cu²⁺-Ionen nehmen die Elektronen auf und scheiden sich als Kupfer ab.",
+      "tags": [
+        "redox",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME03-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum lässt sich Gold in der Natur als reines Metall finden, Eisen aber nur als Erz?",
+      "options": [
+        "Gold ist so edel, dass es kaum Verbindungen bildet; Eisen liegt wegen seiner Unedelkeit als Oxid vor.",
+        "Gold ist seltener als Eisen.",
+        "Eisen wird von Bakterien zersetzt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was tut ein unedles Metall über lange Zeiträume?",
+        "Es reagiert mit Sauerstoff.",
+        "Gold tut das nicht."
+      ],
+      "solution": "Unedle Metalle reagieren über geologische Zeiträume vollständig mit Sauerstoff und liegen als Oxide vor. Gold ist so edel, dass es gediegen — also als Metall — vorkommt. Deshalb war Gold vor Eisen bekannt.",
+      "tags": [
+        "redox",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME03-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Ein Schiffsrumpf aus Stahl trägt Zinkblöcke unter der Wasserlinie. Welche Aufgabe haben sie?",
+      "options": [
+        "Als Opferanode: Das unedlere Zink korrodiert anstelle des Stahls.",
+        "Sie beschweren das Schiff.",
+        "Sie verhindern, dass Wasser eindringt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Zink ist unedler als Eisen.",
+        "Was passiert dann bei elektrischem Kontakt?",
+        "Das Zink reagiert bevorzugt."
+      ],
+      "solution": "Zink ist unedler als Eisen und gibt seine Elektronen bevorzugt ab. Es korrodiert anstelle des Stahls und wird regelmäßig ersetzt — deshalb der Name Opferanode.",
+      "tags": [
+        "redox",
+        "anwenden",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "ME03-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler will Silber aus einer Silbersalzlösung gewinnen und überlegt, welches Metall er eintauchen soll. Was rätst du?",
+      "options": [
+        "Ein unedleres Metall wie Kupfer oder Zink — es gibt Elektronen ab, das Silber scheidet sich ab.",
+        "Ein edleres Metall wie Gold.",
+        "Es funktioniert mit jedem Metall gleich gut."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wer muss die Elektronen liefern?",
+        "Das eingetauchte Metall.",
+        "Also muss es unedler sein als Silber."
+      ],
+      "solution": "Damit sich Silber abscheidet, müssen die Silber-Ionen Elektronen aufnehmen. Liefern kann sie nur ein unedleres Metall — Kupfer oder Zink. Gold ist edler als Silber und gibt nichts ab.",
+      "misconceptions": [
+        {
+          "id": "redox_richtung",
+          "value": 1,
+          "feedback": "Ein edleres Metall gibt keine Elektronen ab. Die Reaktion liefe nicht.",
+          "konzeptfehler": "oxidation_reduktion_vertauscht"
+        }
+      ],
+      "tags": [
+        "redox",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 4,
+      "aufgaben": 25,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 10,
+      "aufgaben": 17,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 10,
+      "aufgaben": 14,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Edle und unedle Metalle",
+      "url": "https://learningapps.org/view12629373",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Redoxreihe der Metalle",
+      "url": "https://learningapps.org/view18387201",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Die Redoxreihe der Metalle im Versuch",
+      "url": "https://www.youtube.com/watch?v=rxdop2OH0Ts",
+      "quelle": "Rugby School Chemistry",
+      "stufe": "B",
+      "rolle": "Demonstration zu edlen und unedlen Metallen",
+      "lumi": "https://app.lumi.education/run/Q4n-_f",
+      "embed": "https://app.lumi.education/api/v1/run/Q4n-_f/embed",
+      "protokoll": true
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 7,
+    "titel": "Metalle und Redoxreaktionen",
+    "seiten_von": 83,
+    "seiten_bis": 96,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "edel"
+  }
+}

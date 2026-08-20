@@ -1,0 +1,672 @@
+{
+  "unit": "OS-02",
+  "title": "Homologe Reihe und Nomenklatur der Alkansäuren",
+  "leitidee": "B1",
+  "standards": [
+    "K1",
+    "K3.4"
+  ],
+  "klasse": 10,
+  "wortspeicher": [
+    "die Alkansäure",
+    "die homologe Reihe",
+    "der Trivialname",
+    "die Methansäure",
+    "die Ethansäure",
+    "die Endung -säure"
+  ],
+  "worterklaerungen": {
+    "Alkansäure": "Der Fachname für eine organische Säure mit einer Carboxygruppe.",
+    "Trivialname": "Ein historisch gewachsener Name, etwa Ameisensäure für Methansäure."
+  },
+  "can_do": {
+    "A": "Ich nenne die ersten Alkansäuren und ihre Trivialnamen.",
+    "B": "Ich stelle Formeln der Alkansäuren auf und wende die Nomenklatur an.",
+    "C": "Ich begründe die Regelmäßigkeit der Reihe und ordne Fettsäuren ein."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Eine Reihe wie bei den Alkanen",
+      "hinfuehrung": "Auch die Säuren bilden eine homologe Reihe.",
+      "erklaerung": [
+        "Die Namen enden auf -säure.",
+        "Viele haben zusätzlich einen alten Namen."
+      ],
+      "merke": "Alkanname plus -säure.",
+      "beispiel": {
+        "titel": "Zwei Namen",
+        "aufgabe": "Wie heißt HCOOH?",
+        "schritte": [
+          "Ein C-Atom: Meth.",
+          "Also Methansäure.",
+          "Der alte Name ist Ameisensäure."
+        ],
+        "ergebnis": "Methansäure = Ameisensäure"
+      },
+      "visual": {
+        "type": "animation",
+        "name": "homologereihe",
+        "stufe": "A",
+        "gruppe": "alkansaeure"
+      }
+    },
+    "B": {
+      "titel": "Namen und Formeln",
+      "hinfuehrung": "Die Nomenklatur folgt derselben Logik wie bei Alkanen und Alkanolen. Das C-Atom der Carboxygruppe zählt zur Kette mit.",
+      "erklaerung": [
+        "Allgemeine Formel: CₙH₂ₙ₊₁COOH — oder mit der Carboxygruppe eingerechnet CₙH₂ₙO₂.",
+        "Namen: Methansäure (1 C), Ethansäure (2 C), Propansäure (3 C), Butansäure (4 C).",
+        "Trivialnamen: Ameisensäure, Essigsäure, Propionsäure, Buttersäure.",
+        "Das C-Atom der COOH-Gruppe wird mitgezählt: Ethansäure hat insgesamt zwei C-Atome, davon eines in der Carboxygruppe.",
+        "Molare Massen: 46, 60, 74, 88 g/mol — je Glied kommen wie immer 14 g/mol dazu."
+      ],
+      "merke": "Das C-Atom der Carboxygruppe zählt zur Kette.",
+      "visual": {
+        "type": "animation",
+        "name": "homologereihe",
+        "stufe": "B",
+        "gruppe": "alkansaeure"
+      }
+    },
+    "C": {
+      "titel": "Von der Essigsäure zur Fettsäure",
+      "hinfuehrung": "Die Reihe hört nicht bei kurzen Säuren auf — mit wachsender Kettenlänge werden aus ihnen die Fettsäuren, und die Eigenschaften ändern sich entsprechend.",
+      "erklaerung": [
+        "Kurzkettige Säuren sind gut wasserlöslich und riechen stechend. Buttersäure ist für den Geruch ranziger Butter verantwortlich.",
+        "Ab etwa zehn C-Atomen spricht man von Fettsäuren. Sie sind fest, geruchsarm und kaum wasserlöslich.",
+        "Der Grund ist derselbe wie bei den Alkoholen: Die lange unpolare Kette überwiegt die polare Carboxygruppe.",
+        "Gesättigte Fettsäuren wie Palmitinsäure haben nur Einfachbindungen; ungesättigte wie Ölsäure enthalten Doppelbindungen und sind bei Zimmertemperatur flüssig.",
+        "Die Zahl der C-Atome in natürlichen Fettsäuren ist fast immer gerade — eine Folge ihres Aufbaus im Stoffwechsel aus C₂-Einheiten."
+      ],
+      "merke": "Kurze Säuren sind löslich und riechen, lange sind fest und geruchsarm.",
+      "visual": {
+        "type": "diagramm",
+        "titel": "Siedetemperaturen der Alkansäuren",
+        "xtitel": "Zahl der C-Atome",
+        "ytitel": "Siedetemperatur in °C",
+        "punkte": [
+          [
+            1,
+            101
+          ],
+          [
+            2,
+            118
+          ],
+          [
+            3,
+            141
+          ],
+          [
+            4,
+            164
+          ],
+          [
+            5,
+            186
+          ]
+        ],
+        "ymin": 0,
+        "ymax": 220,
+        "alt": "Die Siedetemperaturen der Alkansäuren steigen mit der Kettenlänge."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Alkansäuren: CₙH₂ₙ₊₁COOH",
+      "HCOOH 46 · CH₃COOH 60 · C₂H₅COOH 74 · C₃H₇COOH 88 g/mol"
+    ],
+    "saetze": [
+      "Methansäure = Ameisensäure · Ethansäure = Essigsäure.",
+      "Propansäure = Propionsäure · Butansäure = Buttersäure.",
+      "Das C-Atom der Carboxygruppe zählt zur Kette.",
+      "Ab etwa zehn C-Atomen spricht man von Fettsäuren."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Benennung von Aldehyden, Ketonen und Carbonsäuren nach IUPAC",
+      "url": "https://www.youtube.com/watch?v=Yl0nOyBnOPM",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/UhzIvg",
+      "embed": "https://app.lumi.education/api/v1/run/UhzIvg/embed",
+      "stufe": "A",
+      "dauer_s": 582
+    },
+    {
+      "titel": "Übung: Benennung von Carbonylverbindungen nach IUPAC",
+      "url": "https://www.youtube.com/watch?v=h0uScCqzTqQ",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/DtNpvl",
+      "embed": "https://app.lumi.education/api/v1/run/DtNpvl/embed",
+      "stufe": "C",
+      "dauer_s": 291
+    }
+  ],
+  "tasks": [
+    {
+      "id": "OS02-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Wie heißt die Säure mit einem C-Atom?",
+      "options": [
+        "Methansäure",
+        "Ethansäure",
+        "Propansäure"
+      ],
+      "answer": 0,
+      "hints": [
+        "Meth steht für 1.",
+        "Dazu -säure.",
+        "Methansäure."
+      ],
+      "solution": "Ein C-Atom ergibt Methansäure HCOOH — der Trivialname ist Ameisensäure.",
+      "tags": [
+        "carbonsaeuren"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS02-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Wie lautet der Trivialname der Ethansäure?",
+      "options": [
+        "Essigsäure",
+        "Ameisensäure",
+        "Buttersäure"
+      ],
+      "answer": 0,
+      "hints": [
+        "Sie steckt im Speiseessig.",
+        "Essigsäure.",
+        "Ethansäure = Essigsäure."
+      ],
+      "solution": "Ethansäure heißt umgangssprachlich Essigsäure.",
+      "misconceptions": [
+        {
+          "id": "nomenklatur_falsch",
+          "value": 1,
+          "feedback": "Ameisensäure ist die Methansäure mit einem C-Atom.",
+          "konzeptfehler": "nomenklatur_falsch"
+        }
+      ],
+      "tags": [
+        "carbonsaeuren"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS02-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie viele C-Atome hat Propansäure insgesamt?",
+      "answer": 3,
+      "tolerance": 0,
+      "hints": [
+        "Prop steht für 3.",
+        "Das C der COOH-Gruppe zählt mit.",
+        "3."
+      ],
+      "solution": "Propansäure hat drei C-Atome, eines davon in der Carboxygruppe: C₂H₅COOH.",
+      "misconceptions": [
+        {
+          "id": "summenformel_falsch_gelesen",
+          "value": 2,
+          "feedback": "Das C-Atom der Carboxygruppe zählt zur Kette.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "carbonsaeuren"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS02-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Auf welche Endung enden die Namen der organischen Säuren?",
+      "options": [
+        "-säure",
+        "-ol",
+        "-an"
+      ],
+      "answer": 0,
+      "hints": [
+        "Methansäure, Ethansäure …",
+        "Alle enden gleich.",
+        "-säure."
+      ],
+      "solution": "Organische Säuren enden auf -säure. Alkohole enden auf -ol, Alkane auf -an.",
+      "tags": [
+        "carbonsaeuren"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS02-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "Wie groß ist die molare Masse von Methansäure HCOOH? (C = 12, H = 1, O = 16 g/mol)",
+      "answer": 46,
+      "unit_label": "g/mol",
+      "tolerance": 1,
+      "hints": [
+        "1 C, 2 H, 2 O.",
+        "12 + 2 + 32.",
+        "46 g/mol."
+      ],
+      "solution": "M = 12 + 2 · 1 + 2 · 16 = 46 g/mol",
+      "tags": [
+        "carbonsaeuren",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "OS02-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Welche Formel gehört zu Propansäure?",
+      "options": [
+        "C₂H₅COOH",
+        "C₃H₇COOH",
+        "CH₃COOH"
+      ],
+      "answer": 0,
+      "hints": [
+        "Drei C-Atome insgesamt.",
+        "Eines steckt in der COOH-Gruppe.",
+        "Also C₂H₅ als Rest."
+      ],
+      "solution": "Propansäure hat drei C-Atome. Eines gehört zur Carboxygruppe, zwei bilden den Rest: C₂H₅COOH.",
+      "misconceptions": [
+        {
+          "id": "summenformel_falsch_gelesen",
+          "value": 1,
+          "feedback": "C₃H₇COOH hätte vier C-Atome — das wäre Butansäure.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "carbonsaeuren",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "OS02-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "assign",
+      "prompt": "Ordne jeder Säure ihren Trivialnamen zu.",
+      "slots": [
+        "Methansäure",
+        "Ethansäure",
+        "Butansäure"
+      ],
+      "values": [
+        "Ameisensäure",
+        "Essigsäure",
+        "Buttersäure"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Die Trivialnamen stammen aus der Herkunft.",
+        "Ameisen enthalten Methansäure.",
+        "Ranzige Butter riecht nach Butansäure."
+      ],
+      "solution": "Methansäure = Ameisensäure, Ethansäure = Essigsäure, Butansäure = Buttersäure.",
+      "tags": [
+        "carbonsaeuren",
+        "namen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS02-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Um wie viel g/mol unterscheiden sich zwei benachbarte Alkansäuren?",
+      "answer": 14,
+      "tolerance": 0.5,
+      "hints": [
+        "Eine CH₂-Gruppe kommt dazu.",
+        "12 + 2.",
+        "14 g/mol."
+      ],
+      "solution": "Wie in jeder homologen Reihe kommt eine CH₂-Gruppe dazu: 14 g/mol. Die Reihe lautet 46, 60, 74, 88 …",
+      "tags": [
+        "carbonsaeuren",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS02-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum riecht ranzige Butter unangenehm?",
+      "options": [
+        "Es entsteht Butansäure, die stechend riecht.",
+        "Es entsteht Essigsäure.",
+        "Es entsteht Alkohol."
+      ],
+      "answer": 0,
+      "hints": [
+        "Der Name der Säure verrät es.",
+        "Buttersäure.",
+        "Sie entsteht beim Verderben."
+      ],
+      "solution": "Beim Verderben von Butter wird Butansäure frei — der Trivialname Buttersäure kommt genau daher. Kurzkettige Säuren riechen stechend, längere kaum.",
+      "tags": [
+        "carbonsaeuren",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS02-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum sind kurzkettige Säuren gut wasserlöslich, langkettige nicht?",
+      "options": [
+        "Bei langen Ketten überwiegt der unpolare Rest die polare Carboxygruppe.",
+        "Lange Säuren haben keine Carboxygruppe.",
+        "Lange Säuren sind schwerer."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie bei den Alkoholen.",
+        "Zwei Bereiche im Molekül.",
+        "Das Verhältnis entscheidet."
+      ],
+      "solution": "Wie bei den Alkoholen konkurrieren polare Gruppe und unpolare Kette. Bei Essigsäure überwiegt die Carboxygruppe, bei Fettsäuren die lange Kette — sie sind praktisch wasserunlöslich.",
+      "tags": [
+        "carbonsaeuren",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "OS02-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum enthalten natürliche Fettsäuren fast immer eine gerade Zahl von C-Atomen?",
+      "options": [
+        "Sie werden im Stoffwechsel aus C₂-Einheiten aufgebaut.",
+        "Ungerade Zahlen sind chemisch unmöglich.",
+        "Das ist reiner Zufall."
+      ],
+      "answer": 0,
+      "hints": [
+        "Woraus baut der Körper Fettsäuren auf?",
+        "Aus Bausteinen mit zwei C-Atomen.",
+        "Daraus folgt eine gerade Gesamtzahl."
+      ],
+      "solution": "Der Aufbau erfolgt schrittweise aus Bausteinen mit je zwei C-Atomen. Deshalb ist die Gesamtzahl fast immer gerade — Palmitinsäure hat 16, Stearinsäure 18 C-Atome.",
+      "tags": [
+        "carbonsaeuren",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS02-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Berechne die molaren Massen. (C = 12, H = 1, O = 16 g/mol)",
+      "fields": [
+        {
+          "label": "M(Ethansäure CH₃COOH)",
+          "answer": 60,
+          "unit_label": "g/mol",
+          "tolerance": 1
+        },
+        {
+          "label": "M(Butansäure C₃H₇COOH)",
+          "answer": 88,
+          "unit_label": "g/mol",
+          "tolerance": 1
+        }
+      ],
+      "hints": [
+        "Alle Atome zählen.",
+        "Ethansäure: 2 C, 4 H, 2 O.",
+        "Butansäure: 4 C, 8 H, 2 O."
+      ],
+      "solution": "CH₃COOH = 24 + 4 + 32 = 60 g/mol\nC₃H₇COOH = 48 + 8 + 32 = 88 g/mol",
+      "tags": [
+        "carbonsaeuren",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "OS02-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Was unterscheidet eine gesättigte von einer ungesättigten Fettsäure?",
+      "options": [
+        "Die ungesättigte enthält mindestens eine C=C-Doppelbindung.",
+        "Die ungesättigte hat mehr Carboxygruppen.",
+        "Die ungesättigte ist kürzer."
+      ],
+      "answer": 0,
+      "hints": [
+        "Der Begriff ist derselbe wie bei den Alkanen.",
+        "Gesättigt heißt: nur Einfachbindungen.",
+        "Ungesättigt heißt: mindestens eine Doppelbindung."
+      ],
+      "solution": "Wie bei den Kohlenwasserstoffen bezieht sich „gesättigt“ auf die Bindungen in der Kette. Ungesättigte Fettsäuren wie Ölsäure haben Doppelbindungen — sie sind deshalb bei Zimmertemperatur flüssig.",
+      "misconceptions": [
+        {
+          "id": "funktionelle_gruppe_verwechselt",
+          "value": 1,
+          "feedback": "Die Zahl der Carboxygruppen bestimmt die Wertigkeit, nicht die Sättigung.",
+          "konzeptfehler": "funktionelle_gruppe_verwechselt"
+        }
+      ],
+      "tags": [
+        "carbonsaeuren",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS02-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler schreibt für Ethansäure die Formel C₂H₅COOH. Was ist falsch?",
+      "options": [
+        "Damit hätte die Säure drei C-Atome — richtig ist CH₃COOH.",
+        "Nichts, die Formel ist richtig.",
+        "Es fehlt ein Sauerstoffatom."
+      ],
+      "answer": 0,
+      "hints": [
+        "Zähle die C-Atome in C₂H₅COOH.",
+        "Zwei im Rest plus eines in der COOH-Gruppe.",
+        "Das wären drei."
+      ],
+      "solution": "C₂H₅COOH enthält drei C-Atome — das ist Propansäure. Ethansäure hat zwei: CH₃COOH. Das C-Atom der Carboxygruppe zählt immer mit.",
+      "misconceptions": [
+        {
+          "id": "summenformel_falsch_gelesen",
+          "value": 1,
+          "feedback": "Zähle das C-Atom der Carboxygruppe mit.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "carbonsaeuren",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 10,
+      "aufgaben": 19,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 11,
+      "aufgaben": 16,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 8,
+      "aufgaben": 16,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Benennung von Carbonsäuren",
+      "url": "https://learningapps.org/view26068196",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Nomenklatur Carbonsäuren",
+      "url": "https://learningapps.org/view12011968",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 13,
+    "titel": "Organische Säuren",
+    "seiten_von": 163,
+    "seiten_bis": 172,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Alkansäure"
+  }
+}

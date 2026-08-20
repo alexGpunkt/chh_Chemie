@@ -1,0 +1,620 @@
+{
+  "unit": "OS-04",
+  "title": "Fruchtsäuren, Dicarbon- und Aminosäuren",
+  "leitidee": "B2",
+  "standards": [
+    "K1",
+    "K2.1",
+    "K3.1"
+  ],
+  "klasse": 10,
+  "wortspeicher": [
+    "die Hydroxycarbonsäure",
+    "die Dicarbonsäure",
+    "die Aminosäure",
+    "die Aminogruppe",
+    "die Citronensäure",
+    "die Milchsäure"
+  ],
+  "worterklaerungen": {
+    "Hydroxycarbonsäure": "Eine Säure mit zusätzlicher OH-Gruppe, etwa Milchsäure.",
+    "Dicarbonsäure": "Eine Säure mit zwei Carboxygruppen, etwa Oxalsäure.",
+    "Aminosäure": "Ein Molekül mit einer Carboxy- und einer Aminogruppe."
+  },
+  "can_do": {
+    "A": "Ich erkenne Moleküle mit mehreren funktionellen Gruppen.",
+    "B": "Ich ordne Fruchtsäuren und Dicarbonsäuren zu und erkläre ihre gute Löslichkeit.",
+    "C": "Ich beschreibe den Bau von Aminosäuren und begründe ihre Besonderheit."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Mehrere Gruppen an einem Molekül",
+      "hinfuehrung": "Manche Moleküle haben mehr als eine funktionelle Gruppe.",
+      "erklaerung": [
+        "Milchsäure hat eine COOH- und eine OH-Gruppe.",
+        "Oxalsäure hat zwei COOH-Gruppen."
+      ],
+      "merke": "Mehr Gruppen: besser wasserlöslich.",
+      "beispiel": {
+        "titel": "Milchsäure",
+        "aufgabe": "Welche Gruppen sind da?",
+        "schritte": [
+          "Eine Carboxygruppe –COOH.",
+          "Eine Hydroxylgruppe –OH."
+        ],
+        "ergebnis": "Zwei funktionelle Gruppen."
+      },
+      "visual": {
+        "type": "struktur",
+        "kette": 3,
+        "gruppe": "cooh",
+        "name": "Fruchtsäure",
+        "alt": "Strukturformel einer Carbonsäure."
+      }
+    },
+    "B": {
+      "titel": "Fruchtsäuren und Dicarbonsäuren",
+      "hinfuehrung": "In Früchten und im Stoffwechsel finden sich Säuren mit mehreren Gruppen — und das prägt ihre Eigenschaften.",
+      "erklaerung": [
+        "Milchsäure trägt zusätzlich eine OH-Gruppe. Sie entsteht bei der Milchsäuregärung und im Muskel bei starker Belastung.",
+        "Citronensäure hat drei Carboxygruppen und eine OH-Gruppe. Sie ist deshalb sehr gut wasserlöslich und wirkt als Entkalker.",
+        "Oxalsäure ist die einfachste Dicarbonsäure. Sie kommt in Rhabarber und Sauerampfer vor und bindet Calcium — deshalb die Empfehlung, Rhabarber mit Milch zu essen.",
+        "Weinsäure findet sich in Trauben, Äpfelsäure in Äpfeln.",
+        "Grundsatz: Jede zusätzliche polare Gruppe verbessert die Wasserlöslichkeit und erhöht die Siedetemperatur."
+      ],
+      "merke": "Mehr polare Gruppen bedeuten bessere Löslichkeit und höhere Siedetemperatur.",
+      "visual": {
+        "type": "phskala",
+        "marken": [
+          {
+            "wert": 2.2,
+            "stoff": "Citronensäure"
+          },
+          {
+            "wert": 3.9,
+            "stoff": "Milchsäure"
+          }
+        ],
+        "alt": "pH-Werte von Citronensäure und Milchsäure."
+      }
+    },
+    "C": {
+      "titel": "Aminosäuren — zwei Gruppen mit Gegensatz",
+      "hinfuehrung": "Aminosäuren tragen zwei funktionelle Gruppen mit entgegengesetztem Verhalten: eine saure und eine basische. Daraus folgt ihre besondere Rolle im Leben.",
+      "erklaerung": [
+        "Die Carboxygruppe –COOH kann ein Proton abgeben, die Aminogruppe –NH₂ eines aufnehmen.",
+        "Deshalb liegt eine Aminosäure meist als Zwitterion vor: Das Proton ist von der einen zur anderen Gruppe gewandert.",
+        "Sie kann sowohl mit Säuren als auch mit Laugen reagieren — man nennt das amphoter.",
+        "Über die beiden Gruppen können Aminosäuren miteinander verknüpft werden. Aus vielen entsteht ein Eiweiß.",
+        "Einfache Vertreter: Glycin, Alanin. Rund 20 verschiedene Aminosäuren bilden alle Eiweiße des Körpers."
+      ],
+      "merke": "Saure und basische Gruppe im selben Molekül — daher amphoter und verknüpfbar.",
+      "visual": {
+        "type": "struktur",
+        "kette": 2,
+        "gruppe": "cooh",
+        "name": "Aminosäure (Grundgerüst)",
+        "alt": "Strukturformel einer einfachen Aminosäure."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Milchsäure CH₃–CHOH–COOH",
+      "Oxalsäure HOOC–COOH",
+      "Glycin H₂N–CH₂–COOH"
+    ],
+    "saetze": [
+      "Hydroxycarbonsäure: COOH plus OH.",
+      "Dicarbonsäure: zwei COOH-Gruppen.",
+      "Aminosäure: COOH plus NH₂ — amphoter.",
+      "Mehr polare Gruppen: bessere Löslichkeit."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Proteine — aus Aminosäuren aufgebaut",
+      "url": "https://www.youtube.com/watch?v=ywN1QY-t99A",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/ENGScC",
+      "embed": "https://app.lumi.education/api/v1/run/ENGScC/embed",
+      "stufe": "A",
+      "dauer_s": 269
+    },
+    {
+      "titel": "Rost mit Zitronensäure entfernen — die Theorie",
+      "url": "https://www.youtube.com/watch?v=76VIa7wfXOA",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/avgmEj",
+      "embed": "https://app.lumi.education/api/v1/run/avgmEj/embed",
+      "stufe": "C",
+      "dauer_s": 458
+    }
+  ],
+  "tasks": [
+    {
+      "id": "OS04-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welche Gruppen hat Milchsäure?",
+      "options": [
+        "eine COOH- und eine OH-Gruppe",
+        "zwei COOH-Gruppen",
+        "nur eine OH-Gruppe"
+      ],
+      "answer": 0,
+      "hints": [
+        "Es ist eine Säure — also COOH.",
+        "Dazu kommt eine weitere Gruppe.",
+        "Eine OH-Gruppe."
+      ],
+      "solution": "Milchsäure trägt eine Carboxygruppe und zusätzlich eine Hydroxylgruppe.",
+      "tags": [
+        "fruchtsaeuren"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS04-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "In welcher Frucht steckt viel Citronensäure?",
+      "options": [
+        "Zitrone",
+        "Banane",
+        "Kartoffel"
+      ],
+      "answer": 0,
+      "hints": [
+        "Der Name verrät es.",
+        "Zitrone.",
+        "Daher der Name."
+      ],
+      "solution": "Citronensäure kommt vor allem in Zitrusfrüchten vor — daher ihr Name.",
+      "tags": [
+        "fruchtsaeuren"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS04-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie viele Carboxygruppen hat Oxalsäure?",
+      "answer": 2,
+      "tolerance": 0,
+      "hints": [
+        "Es ist eine Dicarbonsäure.",
+        "Di steht für zwei.",
+        "2."
+      ],
+      "solution": "Oxalsäure ist die einfachste Dicarbonsäure und hat zwei Carboxygruppen: HOOC–COOH.",
+      "tags": [
+        "fruchtsaeuren"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS04-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Welche zwei Gruppen hat eine Aminosäure?",
+      "options": [
+        "–COOH und –NH₂",
+        "zwei –COOH",
+        "–OH und –NH₂"
+      ],
+      "answer": 0,
+      "hints": [
+        "Der Name sagt beides.",
+        "Amino und Säure.",
+        "–NH₂ und –COOH."
+      ],
+      "solution": "Eine Aminosäure trägt eine Aminogruppe –NH₂ und eine Carboxygruppe –COOH.",
+      "misconceptions": [
+        {
+          "id": "funktionelle_gruppe_verwechselt",
+          "value": 2,
+          "feedback": "Der Säureteil ist die Carboxygruppe –COOH, nicht die Hydroxylgruppe.",
+          "konzeptfehler": "funktionelle_gruppe_verwechselt"
+        }
+      ],
+      "tags": [
+        "fruchtsaeuren"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS04-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Warum ist Citronensäure sehr gut wasserlöslich?",
+      "options": [
+        "Sie hat drei Carboxygruppen und eine OH-Gruppe — viele polare Stellen.",
+        "Sie ist besonders leicht.",
+        "Sie ist unpolar."
+      ],
+      "answer": 0,
+      "hints": [
+        "Zähle die polaren Gruppen.",
+        "Es sind vier.",
+        "Viele polare Gruppen heißt gut löslich."
+      ],
+      "solution": "Vier polare Gruppen an einem kleinen Molekül bedeuten sehr viele Wasserstoffbrücken zum Wasser — Citronensäure löst sich hervorragend.",
+      "tags": [
+        "fruchtsaeuren",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "OS04-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum wird empfohlen, Rhabarber mit Milch zu essen?",
+      "options": [
+        "Die Oxalsäure bindet das Calcium der Milch statt das des Körpers.",
+        "Milch neutralisiert den Geschmack.",
+        "Milch macht die Säure süßer."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was macht Oxalsäure mit Calcium?",
+        "Sie bindet es zu schwerlöslichem Calciumoxalat.",
+        "Besser das Calcium der Milch als das eigene."
+      ],
+      "solution": "Oxalsäure bildet mit Calcium schwerlösliches Calciumoxalat. Wird Calcium über Milch zugeführt, bindet die Säure dieses statt das körpereigene aus Knochen und Zähnen.",
+      "tags": [
+        "fruchtsaeuren",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "OS04-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Wobei entsteht Milchsäure im Körper?",
+      "options": [
+        "Bei starker Muskelbelastung ohne ausreichenden Sauerstoff.",
+        "Bei der Verdauung von Fett.",
+        "Beim Atmen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wann brennt der Muskel?",
+        "Bei starker Belastung.",
+        "Dann fehlt Sauerstoff für den vollständigen Abbau."
+      ],
+      "solution": "Reicht der Sauerstoff im Muskel nicht aus, wird Glucose unvollständig abgebaut — es entsteht Milchsäure. Dieselbe Reaktion nutzen Milchsäurebakterien bei der Herstellung von Joghurt und Sauerkraut.",
+      "tags": [
+        "fruchtsaeuren",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS04-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "assign",
+      "prompt": "Ordne jede Säure ihrem Vorkommen zu.",
+      "slots": [
+        "Citronensäure",
+        "Weinsäure",
+        "Oxalsäure"
+      ],
+      "values": [
+        "Zitrusfrüchte",
+        "Trauben",
+        "Rhabarber"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Die Namen helfen.",
+        "Weinsäure kommt aus Trauben.",
+        "Oxalsäure aus Rhabarber und Sauerampfer."
+      ],
+      "solution": "Citronensäure → Zitrusfrüchte, Weinsäure → Trauben, Oxalsäure → Rhabarber.",
+      "tags": [
+        "fruchtsaeuren",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS04-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Was bedeutet „amphoter“ bei einer Aminosäure?",
+      "options": [
+        "Sie kann sowohl als Säure als auch als Base reagieren.",
+        "Sie ist besonders stark.",
+        "Sie löst sich in Fett und Wasser."
+      ],
+      "answer": 0,
+      "hints": [
+        "Sie hat zwei gegensätzliche Gruppen.",
+        "Eine gibt Protonen ab, eine nimmt auf.",
+        "Also beides."
+      ],
+      "solution": "Die Carboxygruppe kann ein Proton abgeben, die Aminogruppe eines aufnehmen. Deshalb reagiert eine Aminosäure je nach Partner als Säure oder als Base — sie ist amphoter, wie auch Wasser.",
+      "tags": [
+        "fruchtsaeuren",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "OS04-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum können Aminosäuren zu langen Ketten verknüpft werden?",
+      "options": [
+        "Die Carboxygruppe der einen reagiert mit der Aminogruppe der nächsten.",
+        "Weil sie klein sind.",
+        "Weil sie geladen sind."
+      ],
+      "answer": 0,
+      "hints": [
+        "Jede Aminosäure hat zwei verschiedene Enden.",
+        "Sie passen zueinander.",
+        "So entsteht eine Kette."
+      ],
+      "solution": "Jede Aminosäure hat ein saures und ein basisches Ende. Reagiert die Carboxygruppe der einen mit der Aminogruppe der nächsten, entsteht eine Verknüpfung — aus vielen wird ein Eiweiß.",
+      "tags": [
+        "fruchtsaeuren",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "OS04-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum liegt eine Aminosäure in Lösung meist als Zwitterion vor?",
+      "options": [
+        "Das Proton wandert von der Carboxygruppe zur Aminogruppe im selben Molekül.",
+        "Weil zwei Moleküle sich verbinden.",
+        "Weil Wasser Protonen liefert."
+      ],
+      "answer": 0,
+      "hints": [
+        "Beide Gruppen sitzen am selben Molekül.",
+        "Die eine gibt ab, die andere nimmt auf.",
+        "Der Weg ist kurz."
+      ],
+      "solution": "Die Carboxygruppe gibt ihr Proton ab, die Aminogruppe desselben Moleküls nimmt es auf. Das Molekül trägt dann eine positive und eine negative Ladung — ein Zwitterion. Nach außen ist es dennoch ungeladen.",
+      "tags": [
+        "fruchtsaeuren",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "OS04-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum schmelzen Aminosäuren erst bei sehr hohen Temperaturen?",
+      "options": [
+        "Als Zwitterionen ziehen sie einander wie in einem Ionengitter an.",
+        "Sie sind sehr große Moleküle.",
+        "Sie enthalten Metall."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welche Ladungen tragen sie?",
+        "Positive und negative im selben Molekül.",
+        "Das wirkt wie in einem Salz."
+      ],
+      "solution": "Als Zwitterionen ziehen sich die Moleküle wie Ionen in einem Gitter an. Deshalb sind Aminosäuren feste, hochschmelzende Stoffe — anders als andere organische Moleküle ähnlicher Größe.",
+      "tags": [
+        "fruchtsaeuren",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "OS04-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie groß ist die molare Masse von Glycin H₂N–CH₂–COOH? (C = 12, H = 1, N = 14, O = 16 g/mol)",
+      "answer": 75,
+      "unit_label": "g/mol",
+      "tolerance": 1,
+      "hints": [
+        "2 C, 5 H, 1 N, 2 O.",
+        "24 + 5 + 14 + 32.",
+        "75 g/mol."
+      ],
+      "solution": "M = 2 · 12 + 5 · 1 + 14 + 2 · 16 = 24 + 5 + 14 + 32 = 75 g/mol",
+      "tags": [
+        "fruchtsaeuren",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "OS04-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Fruchtsäuren sind natürlich, also gut für die Zähne.“ Wie bewertest du das?",
+      "options": [
+        "Falsch — Fruchtsäuren greifen den Zahnschmelz an, unabhängig von ihrer Herkunft.",
+        "Richtig.",
+        "Falsch — Fruchtsäuren haben keine Wirkung auf Zähne."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was macht eine Säure mit Kalk?",
+        "Sie löst ihn.",
+        "Zahnschmelz enthält Calciumverbindungen."
+      ],
+      "solution": "Zahnschmelz besteht überwiegend aus Calciumverbindungen und wird von jeder Säure angegriffen — die Herkunft spielt keine Rolle. Deshalb die Empfehlung, nach saurem Obst zu warten, bevor die Zähne geputzt werden.",
+      "tags": [
+        "fruchtsaeuren",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 7,
+      "aufgaben": 22,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 7,
+      "aufgaben": 20,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 12,
+      "aufgaben": 12,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Aminosäuren zuordnen",
+      "url": "https://learningapps.org/view17315062",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Einteilung der Aminosäuren anhand ihrer Strukturformeln",
+      "url": "https://learningapps.org/view7793319",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 15,
+    "titel": "Naturstoffe",
+    "seiten_von": 184,
+    "seiten_bis": 193,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Hydroxycarbonsäure"
+  }
+}
