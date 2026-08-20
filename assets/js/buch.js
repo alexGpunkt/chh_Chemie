@@ -105,6 +105,21 @@
     tools.appendChild(lz);
     tools.appendChild(toc);
     zeile.appendChild(tools);
+
+    /* Der Schülerstatus wird asynchron erzeugt. Sobald er da ist, kommt er
+       in den Kopf und verdeckt weder Formelkarte noch Seitennavigation. */
+    function dockeStatus() {
+      var chip = q('.m9-user-chip');
+      if (!chip) return false;
+      if (chip.parentElement !== tools) tools.insertBefore(chip, tools.firstChild);
+      return true;
+    }
+    if (!dockeStatus()) {
+      var statusBeobachter = new MutationObserver(function () {
+        if (dockeStatus()) statusBeobachter.disconnect();
+      });
+      statusBeobachter.observe(document.body, { childList: true });
+    }
   }
 
   function lzAnzeige() {
@@ -370,3 +385,4 @@
       .catch(function () { /* ohne Verzeichnis kein Buch-Modus – still */ });
   });
 })();
+
