@@ -1,0 +1,649 @@
+{
+  "unit": "KW-04",
+  "title": "Isomerie und Nomenklatur",
+  "leitidee": "B2",
+  "standards": [
+    "K1",
+    "K2.3",
+    "K3.4"
+  ],
+  "klasse": 9,
+  "wortspeicher": [
+    "das Isomer",
+    "die Konstitutionsisomerie",
+    "verzweigt",
+    "unverzweigt",
+    "die Hauptkette",
+    "die Seitenkette",
+    "die Nomenklatur"
+  ],
+  "worterklaerungen": {
+    "Isomer": "Ein Stoff mit gleicher Summenformel, aber anderem Bau.",
+    "Hauptkette": "Die längste zusammenhängende Kette aus Kohlenstoffatomen.",
+    "Seitenkette": "Ein Zweig, der von der Hauptkette abgeht."
+  },
+  "can_do": {
+    "A": "Ich erkenne, dass zwei Moleküle mit gleicher Summenformel verschieden sein können.",
+    "B": "Ich zeichne Isomere und benenne verzweigte Alkane nach den Regeln.",
+    "C": "Ich begründe unterschiedliche Eigenschaften von Isomeren mit ihrem Bau."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Gleiche Formel, anderer Bau",
+      "hinfuehrung": "Zwei Stoffe können dieselbe Summenformel haben.",
+      "erklaerung": [
+        "Trotzdem sind sie verschieden.",
+        "Der Bau ist anders."
+      ],
+      "merke": "Gleiche Summenformel heißt nicht gleicher Stoff.",
+      "beispiel": {
+        "titel": "C₄H₁₀",
+        "aufgabe": "Zwei Möglichkeiten.",
+        "schritte": [
+          "Eine gerade Kette aus vier C-Atomen.",
+          "Oder eine Kette aus drei mit einem Zweig."
+        ],
+        "ergebnis": "Butan und Isobutan."
+      },
+      "visual": {
+        "type": "animation",
+        "name": "isomerie",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Isomere benennen",
+      "hinfuehrung": "Verzweigte Alkane bekommen einen Namen nach festen Regeln. Sie sind international vereinbart, damit jede Formel eindeutig benannt werden kann.",
+      "erklaerung": [
+        "1. Die längste Kette suchen — sie ist die Hauptkette und bestimmt den Stammnamen.",
+        "2. Die Kohlenstoffatome so nummerieren, dass die Seitenketten möglichst kleine Zahlen bekommen.",
+        "3. Die Seitenketten benennen: CH₃ ist eine Methyl-Gruppe, C₂H₅ eine Ethyl-Gruppe.",
+        "4. Zusammensetzen: 2-Methylpropan. Bei mehreren gleichen Gruppen: di, tri, tetra.",
+        "Zahl der Isomere: C₄ hat 2, C₅ hat 3, C₆ hat 5, C₇ hat 9 — die Zahl wächst rasch."
+      ],
+      "merke": "Längste Kette suchen, günstig nummerieren, Seitenketten benennen.",
+      "visual": {
+        "type": "animation",
+        "name": "isomerie",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Warum Isomere sich unterscheiden",
+      "hinfuehrung": "Isomere haben dieselben Atome — und trotzdem verschiedene Siedetemperaturen, Dichten und teils andere Reaktionen. Das liegt allein an der Gestalt.",
+      "erklaerung": [
+        "Ein unverzweigtes Molekül ist langgestreckt und kann sich mit vielen Nachbarn berühren. Die van-der-Waals-Kräfte sind entsprechend stark.",
+        "Ein verzweigtes Molekül ist kompakter, fast kugelig. Es berührt seine Nachbarn auf kleinerer Fläche — die Anziehung ist schwächer.",
+        "Deshalb siedet Butan bei −0,5 °C, Isobutan schon bei −11,7 °C. Gleiche Summenformel, verschiedene Siedetemperatur.",
+        "Bei Kraftstoffen ist das technisch bedeutsam: Verzweigte Alkane haben eine höhere Klopffestigkeit — daher die Oktanzahl."
+      ],
+      "merke": "Gestreckt heißt mehr Kontaktfläche und höhere Siedetemperatur.",
+      "visual": {
+        "type": "animation",
+        "name": "isomerie",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "C₄H₁₀: Butan und 2-Methylpropan",
+      "Zahl der Isomere: C₄ 2 · C₅ 3 · C₆ 5 · C₇ 9"
+    ],
+    "saetze": [
+      "Isomere: gleiche Summenformel, anderer Bau.",
+      "Hauptkette = längste Kette. Sie bestimmt den Stammnamen.",
+      "So nummerieren, dass die Seitenketten kleine Zahlen bekommen.",
+      "Verzweigte Moleküle sieden tiefer als unverzweigte."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Was sind Alkane und Isomere?",
+      "url": "https://www.youtube.com/watch?v=Asdx7h8nGuM",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/_h77vC",
+      "embed": "https://app.lumi.education/api/v1/run/_h77vC/embed",
+      "stufe": "B",
+      "dauer_s": 298
+    },
+    {
+      "titel": "IUPAC-Nomenklatur der Alkane",
+      "url": "https://www.youtube.com/watch?v=FQK7n9BJGms",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/Cc6thK",
+      "embed": "https://app.lumi.education/api/v1/run/Cc6thK/embed",
+      "stufe": "A",
+      "dauer_s": 328
+    },
+    {
+      "titel": "Übung: die Isomere des Pentans",
+      "url": "https://www.youtube.com/watch?v=NXNq5rDBwZ4",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/AKPBDz",
+      "embed": "https://app.lumi.education/api/v1/run/AKPBDz/embed",
+      "stufe": "C",
+      "dauer_s": 220
+    }
+  ],
+  "tasks": [
+    {
+      "id": "KW04-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Zwei Stoffe haben dieselbe Summenformel. Sind sie derselbe Stoff?",
+      "options": [
+        "Nein, der Bau kann verschieden sein.",
+        "Ja, immer.",
+        "Nur bei kurzen Ketten."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "isomerie",
+        "stufe": "A"
+      },
+      "hints": [
+        "Denk an Butan und Isobutan.",
+        "Beide haben C₄H₁₀.",
+        "Trotzdem sind es zwei Stoffe."
+      ],
+      "solution": "Gleiche Summenformel heißt nicht gleicher Stoff. Bei verschiedenem Bau spricht man von Isomeren.",
+      "misconceptions": [
+        {
+          "id": "isomer_als_gleicher_stoff",
+          "value": 1,
+          "feedback": "Butan und Isobutan haben beide C₄H₁₀ und sind trotzdem verschieden.",
+          "konzeptfehler": "isomer_als_gleicher_stoff"
+        }
+      ],
+      "tags": [
+        "isomerie"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW04-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Wie viele Isomere hat das Alkan mit 4 C-Atomen?",
+      "answer": 2,
+      "tolerance": 0,
+      "hints": [
+        "Eine gerade Kette und eine verzweigte.",
+        "Mehr Möglichkeiten gibt es nicht.",
+        "2."
+      ],
+      "solution": "C₄H₁₀ hat zwei Isomere: Butan (gerade) und 2-Methylpropan (verzweigt).",
+      "tags": [
+        "isomerie"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW04-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Was ist eine Hauptkette?",
+      "options": [
+        "Die längste Kette aus C-Atomen.",
+        "Die kürzeste Kette.",
+        "Eine Seitenkette."
+      ],
+      "answer": 0,
+      "hints": [
+        "Sie bestimmt den Namen.",
+        "Es ist die längste.",
+        "Die Hauptkette."
+      ],
+      "solution": "Die Hauptkette ist die längste zusammenhängende Kohlenstoffkette. Sie bestimmt den Stammnamen.",
+      "tags": [
+        "isomerie",
+        "namen"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW04-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "numeric",
+      "prompt": "Wie viele Isomere hat das Alkan mit 5 C-Atomen?",
+      "answer": 3,
+      "tolerance": 0,
+      "hints": [
+        "Gerade Kette, einfach verzweigt, doppelt verzweigt.",
+        "Drei Möglichkeiten.",
+        "3."
+      ],
+      "solution": "C₅H₁₂ hat drei Isomere: Pentan, 2-Methylbutan und 2,2-Dimethylpropan.",
+      "tags": [
+        "isomerie"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW04-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Wie heißt die Seitenkette CH₃?",
+      "options": [
+        "Methyl-Gruppe",
+        "Ethyl-Gruppe",
+        "Propyl-Gruppe"
+      ],
+      "answer": 0,
+      "hints": [
+        "Ein C-Atom heißt Meth.",
+        "Als Seitenkette endet es auf -yl.",
+        "Methyl."
+      ],
+      "solution": "Eine Seitenkette aus einem C-Atom heißt Methyl-Gruppe. Zwei C-Atome ergeben eine Ethyl-Gruppe.",
+      "misconceptions": [
+        {
+          "id": "nomenklatur_falsch",
+          "value": 1,
+          "feedback": "Ethyl hat zwei C-Atome. Ein C-Atom heißt Methyl.",
+          "konzeptfehler": "nomenklatur_falsch"
+        }
+      ],
+      "tags": [
+        "isomerie",
+        "namen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW04-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Ein Molekül hat eine Hauptkette aus drei C-Atomen mit einer Methyl-Gruppe am mittleren Atom. Wie heißt es?",
+      "options": [
+        "2-Methylpropan",
+        "1-Methylpropan",
+        "Methylbutan"
+      ],
+      "answer": 0,
+      "hints": [
+        "Die Hauptkette hat drei C-Atome: Propan.",
+        "Die Seitenkette sitzt am zweiten Atom.",
+        "2-Methylpropan."
+      ],
+      "solution": "Hauptkette Propan, Methyl-Gruppe am zweiten C-Atom: 2-Methylpropan. Es ist dasselbe wie Isobutan.",
+      "misconceptions": [
+        {
+          "id": "nomenklatur_falsch",
+          "value": 1,
+          "feedback": "Am ersten C-Atom wäre die Gruppe Teil der Hauptkette — dann wäre es Butan.",
+          "konzeptfehler": "nomenklatur_falsch"
+        }
+      ],
+      "tags": [
+        "isomerie",
+        "namen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW04-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum wird so nummeriert, dass die Seitenketten kleine Zahlen bekommen?",
+      "options": [
+        "Damit jeder Stoff genau einen eindeutigen Namen hat.",
+        "Damit der Name kürzer wird.",
+        "Das ist willkürlich."
+      ],
+      "answer": 0,
+      "hints": [
+        "Von welcher Seite könnte man sonst zählen?",
+        "Von beiden.",
+        "Dann gäbe es zwei Namen für einen Stoff."
+      ],
+      "solution": "Ohne diese Regel könnte man von beiden Seiten zählen und käme zu zwei Namen für denselben Stoff. Die Nomenklatur soll aber eindeutig sein — deshalb die Festlegung auf die kleinstmöglichen Zahlen.",
+      "tags": [
+        "isomerie",
+        "namen",
+        "bbr"
+      ]
+    },
+    {
+      "id": "KW04-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie viele Isomere hat das Alkan mit 6 C-Atomen?",
+      "answer": 5,
+      "tolerance": 0,
+      "hints": [
+        "Mehr als bei fünf C-Atomen.",
+        "Die Zahl wächst rasch.",
+        "5."
+      ],
+      "solution": "C₆H₁₄ hat fünf Isomere. Bei sieben C-Atomen sind es schon neun — die Zahl wächst sehr schnell.",
+      "tags": [
+        "isomerie",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW04-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Butan siedet bei −0,5 °C, Isobutan bei −11,7 °C. Wie erklärst du den Unterschied?",
+      "options": [
+        "Das verzweigte Molekül ist kompakter und hat weniger Kontaktfläche zu den Nachbarn.",
+        "Isobutan ist leichter.",
+        "Isobutan hat weniger H-Atome."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "isomerie",
+        "stufe": "C"
+      },
+      "hints": [
+        "Beide haben dieselbe Summenformel.",
+        "Verschieden ist die Gestalt.",
+        "Kompakt heißt weniger Berührungsfläche."
+      ],
+      "solution": "Beide haben C₄H₁₀ und dieselbe Masse. Das verzweigte Isobutan ist aber kompakter und berührt seine Nachbarn auf kleinerer Fläche — die van-der-Waals-Kräfte sind schwächer, es siedet früher.",
+      "misconceptions": [
+        {
+          "id": "isomer_als_gleicher_stoff",
+          "value": 2,
+          "feedback": "Isomere haben dieselbe Summenformel und damit gleich viele H-Atome.",
+          "konzeptfehler": "isomer_als_gleicher_stoff"
+        }
+      ],
+      "tags": [
+        "isomerie",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW04-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum sind Butan und Isobutan verschiedene Stoffe, obwohl sie dieselben Atome enthalten?",
+      "options": [
+        "Die Atome sind anders miteinander verknüpft; der Bau bestimmt die Eigenschaften.",
+        "Sie enthalten verschiedene Atome.",
+        "Sie sind gar nicht verschieden."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was unterscheidet sie?",
+        "Die Anordnung.",
+        "Und die bestimmt die Eigenschaften."
+      ],
+      "solution": "Beide bestehen aus vier C- und zehn H-Atomen. Verschieden ist allein die Verknüpfung — und daraus folgen verschiedene Siedetemperaturen und Dichten. Der Bau bestimmt die Eigenschaften.",
+      "tags": [
+        "isomerie",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW04-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum werden verzweigte Alkane als Kraftstoffbestandteile bevorzugt?",
+      "options": [
+        "Sie sind klopffester — sie entzünden sich im Motor nicht vorzeitig.",
+        "Sie sind billiger.",
+        "Sie enthalten mehr Energie."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wonach wird Benzin bewertet?",
+        "Nach der Oktanzahl.",
+        "Sie misst die Klopffestigkeit."
+      ],
+      "solution": "Verzweigte Alkane entzünden sich unter Druck weniger leicht von selbst. Diese Klopffestigkeit wird als Oktanzahl angegeben — der Bezugsstoff ist das stark verzweigte Isooctan. Der Energiegehalt ist praktisch gleich.",
+      "tags": [
+        "isomerie",
+        "anwenden",
+        "msa"
+      ]
+    },
+    {
+      "id": "KW04-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum wächst die Zahl der Isomere mit der Kettenlänge so schnell?",
+      "options": [
+        "Mit jedem C-Atom kommen mehr Möglichkeiten hinzu, Seitenketten anzuordnen.",
+        "Weil die Moleküle schwerer werden.",
+        "Weil mehr Wasserstoff dazukommt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie viele Stellen gibt es für einen Zweig bei 4 C-Atomen?",
+        "Wenige.",
+        "Bei 10 C-Atomen sehr viele."
+      ],
+      "solution": "Jedes zusätzliche C-Atom bietet neue Positionen für Verzweigungen und neue Längen für Seitenketten. Bei C₁₀ gibt es bereits 75 Isomere, bei C₂₀ über 300 000.",
+      "tags": [
+        "isomerie",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW04-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Ein Molekül hat eine Hauptkette aus vier C-Atomen mit je einer Methyl-Gruppe am zweiten und dritten Atom. Wie heißt es?",
+      "options": [
+        "2,3-Dimethylbutan",
+        "2-Methylbutan",
+        "Dimethylpropan"
+      ],
+      "answer": 0,
+      "hints": [
+        "Hauptkette mit vier C-Atomen: Butan.",
+        "Zwei Methyl-Gruppen: Dimethyl.",
+        "An den Positionen 2 und 3."
+      ],
+      "solution": "Hauptkette Butan, zwei Methyl-Gruppen an Position 2 und 3: 2,3-Dimethylbutan. Beide Positionen werden genannt, auch wenn sie gleich sind.",
+      "misconceptions": [
+        {
+          "id": "nomenklatur_falsch",
+          "value": 1,
+          "feedback": "Bei zwei Seitenketten müssen beide Positionen genannt werden.",
+          "konzeptfehler": "nomenklatur_falsch"
+        }
+      ],
+      "tags": [
+        "isomerie",
+        "namen",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW04-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Isomere haben dieselbe molare Masse, also auch dieselbe Siedetemperatur.“ Wie bewertest du das?",
+      "options": [
+        "Falsch — die Siedetemperatur hängt auch von der Molekülgestalt ab, nicht nur von der Masse.",
+        "Richtig.",
+        "Falsch — Isomere haben verschiedene molare Massen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Butan und Isobutan haben dieselbe Masse.",
+        "Trotzdem sieden sie 11 °C auseinander.",
+        "Also zählt noch etwas anderes."
+      ],
+      "solution": "Die molare Masse ist identisch — die Siedetemperaturen unterscheiden sich trotzdem um über 11 °C. Entscheidend ist zusätzlich die Kontaktfläche zwischen den Molekülen, und die hängt an der Gestalt.",
+      "misconceptions": [
+        {
+          "id": "isomer_als_gleicher_stoff",
+          "value": 1,
+          "feedback": "Gleiche Masse bedeutet nicht gleiche Eigenschaften. Die Gestalt zählt mit.",
+          "konzeptfehler": "isomer_als_gleicher_stoff"
+        }
+      ],
+      "tags": [
+        "isomerie",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 8,
+      "aufgaben": 21,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 8,
+      "aufgaben": 19,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 6,
+      "aufgaben": 18,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Nomenklatur der Alkane - Basisaufgaben",
+      "url": "https://learningapps.org/view5903454",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Nomenklatur der Alkane",
+      "url": "https://learningapps.org/view9590957",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 12,
+    "titel": "Der Weg zur organischen Chemie",
+    "seiten_von": 147,
+    "seiten_bis": 162,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Isomer"
+  }
+}

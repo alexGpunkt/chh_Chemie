@@ -1,0 +1,641 @@
+{
+  "unit": "ME-02",
+  "title": "Metallbindung und Elektronengas",
+  "leitidee": "B2",
+  "standards": [
+    "K1",
+    "K2.3",
+    "K3.4"
+  ],
+  "klasse": 8,
+  "wortspeicher": [
+    "die Metallbindung",
+    "der Atomrumpf",
+    "das Elektronengas",
+    "das Metallgitter",
+    "verformbar",
+    "die Legierung"
+  ],
+  "worterklaerungen": {
+    "Atomrumpf": "Ein Metallatom, das seine Außenelektronen abgegeben hat. Es ist positiv geladen.",
+    "Elektronengas": "Die frei beweglichen Außenelektronen zwischen den Atomrümpfen."
+  },
+  "can_do": {
+    "A": "Ich weiß, dass sich im Metall frei bewegliche Elektronen befinden.",
+    "B": "Ich erkläre Leitfähigkeit und Verformbarkeit mit dem Elektronengasmodell.",
+    "C": "Ich vergleiche Metall-, Ionen- und Elektronenpaarbindung und begründe die Unterschiede."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Elektronen, die wandern",
+      "hinfuehrung": "Im Metall geben die Atome ihre Außenelektronen ab.",
+      "erklaerung": [
+        "Zurück bleiben positive Rümpfe.",
+        "Die Elektronen bewegen sich frei dazwischen."
+      ],
+      "merke": "Frei bewegliche Elektronen — deshalb leiten Metalle.",
+      "beispiel": {
+        "titel": "Strom im Draht",
+        "aufgabe": "Warum leitet ein Kupferdraht?",
+        "schritte": [
+          "Die Elektronen sind frei beweglich.",
+          "Sie wandern zum Pluspol."
+        ],
+        "ergebnis": "Es fließt Strom."
+      },
+      "visual": {
+        "type": "animation",
+        "name": "elektronengas",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Zwei Eigenschaften, ein Modell",
+      "hinfuehrung": "Das Elektronengasmodell erklärt zwei auffällige Eigenschaften der Metalle mit derselben Vorstellung.",
+      "erklaerung": [
+        "Leitfähigkeit: Die Elektronen sind nicht an einzelne Atome gebunden und können durch das ganze Stück wandern.",
+        "Verformbarkeit: Verschiebt man zwei Gitterschichten, liegen wieder Rümpfe im Elektronengas — die Bindung hält. Das Metall verformt sich statt zu brechen.",
+        "Im Ionengitter träfen bei derselben Verschiebung gleiche Ladungen aufeinander. Deshalb ist Salz spröde und Metall nicht.",
+        "Auch der Metallglanz beruht auf den freien Elektronen: Sie reflektieren das Licht."
+      ],
+      "merke": "Frei bewegliche Elektronen erklären Leitfähigkeit, Verformbarkeit und Glanz zugleich.",
+      "visual": {
+        "type": "animation",
+        "name": "elektronengas",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Drei Bindungsarten im Vergleich",
+      "hinfuehrung": "Welche Bindung entsteht, hängt davon ab, welche Partner zusammenkommen — und daraus folgen die Eigenschaften des Stoffes.",
+      "erklaerung": [
+        "Metall + Metall: Metallbindung. Die Außenelektronen werden gemeinsam genutzt und sind frei beweglich. Folge: leitfähig, verformbar, glänzend.",
+        "Metall + Nichtmetall: Ionenbindung. Elektronen werden übertragen, es entstehen Ionen. Folge: hart, spröde, erst gelöst leitfähig.",
+        "Nichtmetall + Nichtmetall: Elektronenpaarbindung. Elektronen werden zu zweit geteilt. Folge: meist niedrig schmelzend, nicht leitfähig.",
+        "Die Zuordnung ist keine Regel ohne Ausnahme, aber für die Mittelstufe tragfähig — und sie erlaubt Vorhersagen."
+      ],
+      "merke": "Metall + Metall → Metallbindung. Metall + Nichtmetall → Ionenbindung. Nichtmetall + Nichtmetall → Elektronenpaarbindung.",
+      "visual": {
+        "type": "animation",
+        "name": "elektronengas",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [],
+    "saetze": [
+      "Metallgitter: positive Atomrümpfe im Elektronengas.",
+      "Frei bewegliche Elektronen → Leitfähigkeit und Glanz.",
+      "Verschiebbare Schichten → Verformbarkeit.",
+      "Metall+Metall → Metallbindung · Metall+Nichtmetall → Ionenbindung · Nichtmetall+Nichtmetall → Elektronenpaarbindung."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Metallbindungen einfach erklärt",
+      "url": "https://www.youtube.com/watch?v=0bvldHVL_TU",
+      "quelle": "musstewissen Chemie",
+      "lumi": "https://app.lumi.education/run/QJA1m8",
+      "embed": "https://app.lumi.education/api/v1/run/QJA1m8/embed",
+      "stufe": "B",
+      "dauer_s": 373
+    },
+    {
+      "titel": "Die Metallbindung und das Elektronengas",
+      "url": "https://www.youtube.com/watch?v=Z6L8LD4EV3w",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/OrBT1i",
+      "embed": "https://app.lumi.education/api/v1/run/OrBT1i/embed",
+      "stufe": "A",
+      "dauer_s": 263
+    }
+  ],
+  "tasks": [
+    {
+      "id": "ME02-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Was befindet sich im Metall zwischen den Atomrümpfen?",
+      "options": [
+        "frei bewegliche Elektronen",
+        "Wasser",
+        "nichts"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "elektronengas",
+        "stufe": "A"
+      },
+      "hints": [
+        "Die Atome haben ihre Außenelektronen abgegeben.",
+        "Wo sind diese Elektronen jetzt?",
+        "Zwischen den Rümpfen."
+      ],
+      "solution": "Zwischen den positiven Atomrümpfen bewegen sich die abgegebenen Außenelektronen frei — das Elektronengas.",
+      "tags": [
+        "metallbindung"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "ME02-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum leiten Metalle den elektrischen Strom?",
+      "options": [
+        "Weil sich die Elektronen frei bewegen können.",
+        "Weil sie hart sind.",
+        "Weil sie glänzen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was transportiert die Ladung?",
+        "Elektronen.",
+        "Sie sind im Metall frei beweglich."
+      ],
+      "solution": "Die frei beweglichen Elektronen des Elektronengases transportieren die Ladung durch das ganze Metallstück.",
+      "tags": [
+        "metallbindung"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "ME02-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Wie ist ein Atomrumpf geladen?",
+      "options": [
+        "positiv",
+        "negativ",
+        "gar nicht"
+      ],
+      "answer": 0,
+      "hints": [
+        "Er hat Elektronen abgegeben.",
+        "Elektronen sind negativ.",
+        "Ohne sie überwiegt das Positive."
+      ],
+      "solution": "Ein Atomrumpf hat seine Außenelektronen abgegeben und ist deshalb positiv geladen.",
+      "misconceptions": [
+        {
+          "id": "ladung_falsch_herum",
+          "value": 1,
+          "feedback": "Wer negative Elektronen abgibt, wird positiv.",
+          "konzeptfehler": "ladung_unvollstaendig"
+        }
+      ],
+      "tags": [
+        "metallbindung"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "ME02-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum lässt sich ein Metall verbiegen, ohne zu brechen?",
+      "options": [
+        "Die Schichten verschieben sich, die Bindung bleibt bestehen.",
+        "Metall ist sehr weich.",
+        "Metall enthält Luft."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "elektronengas",
+        "stufe": "A"
+      },
+      "hints": [
+        "Was passiert beim Verbiegen mit den Schichten?",
+        "Sie verschieben sich gegeneinander.",
+        "Und das Elektronengas hält weiter zusammen."
+      ],
+      "solution": "Beim Verbiegen verschieben sich Gitterschichten. Weil das Elektronengas alle Rümpfe umgibt, bleibt die Bindung erhalten — das Metall verformt sich statt zu brechen.",
+      "tags": [
+        "metallbindung"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "ME02-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Woraus besteht ein Metallgitter?",
+      "options": [
+        "Aus positiven Atomrümpfen und frei beweglichen Elektronen.",
+        "Aus positiven und negativen Ionen.",
+        "Aus Molekülen."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "elektronengas",
+        "stufe": "B"
+      },
+      "hints": [
+        "Es gibt nur eine Sorte Rümpfe.",
+        "Alle sind positiv.",
+        "Dazu das Elektronengas."
+      ],
+      "solution": "Im Metallgitter sitzen ausschließlich positive Atomrümpfe, umgeben vom Elektronengas. Positive und negative Ionen im Wechsel wären ein Ionengitter.",
+      "misconceptions": [
+        {
+          "id": "bindungsart_verwechselt",
+          "value": 1,
+          "feedback": "Abwechselnd positive und negative Ionen bilden ein Salzgitter, kein Metallgitter.",
+          "konzeptfehler": "bindungsart_verwechselt"
+        }
+      ],
+      "tags": [
+        "metallbindung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "ME02-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum ist ein Salzkristall spröde, ein Metall aber verformbar?",
+      "options": [
+        "Im Salz treffen nach dem Verschieben gleiche Ladungen aufeinander, im Metall nicht.",
+        "Salz ist härter als Metall.",
+        "Metalle enthalten keine Ladungen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was liegt im Metall zwischen den Rümpfen?",
+        "Das Elektronengas — gleichmäßig verteilt.",
+        "Im Salz wechseln sich Ladungen ab."
+      ],
+      "solution": "Im Ionengitter zerstört eine Verschiebung die Abfolge der Ladungen. Im Metall ist das Elektronengas überall gleich — nach der Verschiebung passt alles wieder zusammen.",
+      "tags": [
+        "metallbindung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "ME02-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum glänzen Metalle?",
+      "options": [
+        "Die freien Elektronen reflektieren das Licht.",
+        "Die Oberfläche ist besonders glatt.",
+        "Metalle senden selbst Licht aus."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ist an der Metalloberfläche besonders?",
+        "Das Elektronengas reicht bis dorthin.",
+        "Es wirft das Licht zurück."
+      ],
+      "solution": "Die frei beweglichen Elektronen an der Oberfläche reflektieren das auftreffende Licht nahezu vollständig — das ergibt den Metallglanz. Eine frische Schnittfläche glänzt deshalb am stärksten.",
+      "tags": [
+        "metallbindung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "ME02-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "assign",
+      "prompt": "Ordne jeder Kombination die passende Bindungsart zu.",
+      "slots": [
+        "Kupfer und Zink",
+        "Natrium und Chlor",
+        "Wasserstoff und Sauerstoff"
+      ],
+      "values": [
+        "Metallbindung",
+        "Ionenbindung",
+        "Elektronenpaarbindung"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Zwei Metalle ergeben eine Metallbindung.",
+        "Metall und Nichtmetall ergeben Ionen.",
+        "Zwei Nichtmetalle teilen Elektronenpaare."
+      ],
+      "solution": "Kupfer + Zink → Metallbindung (Messing).\nNatrium + Chlor → Ionenbindung.\nWasserstoff + Sauerstoff → Elektronenpaarbindung.",
+      "misconceptions": [
+        {
+          "id": "bindungsart_verwechselt",
+          "value": 1,
+          "feedback": "Zwei Metalle bilden nie Ionen — beide würden Elektronen abgeben wollen.",
+          "konzeptfehler": "bindungsart_verwechselt"
+        }
+      ],
+      "tags": [
+        "metallbindung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "ME02-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum leitet ein Metall auch dann noch, wenn es zu Draht gezogen wurde?",
+      "options": [
+        "Die Elektronen bleiben frei beweglich, unabhängig von der Form.",
+        "Beim Ziehen entstehen neue Elektronen.",
+        "Nur dicke Stücke leiten gut."
+      ],
+      "answer": 0,
+      "hints": [
+        "Ändert das Verformen die Bindung?",
+        "Nein — das Elektronengas bleibt.",
+        "Deshalb leitet auch dünner Draht."
+      ],
+      "solution": "Beim Verformen verschieben sich nur die Schichten; das Elektronengas bleibt vollständig erhalten. Die Leitfähigkeit hängt vom Material ab, nicht von der Form — der Querschnitt beeinflusst nur den Widerstand.",
+      "tags": [
+        "metallbindung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "ME02-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum steigt der elektrische Widerstand eines Metalls bei Erwärmung?",
+      "options": [
+        "Die Atomrümpfe schwingen stärker und behindern die wandernden Elektronen.",
+        "Es gibt weniger Elektronen.",
+        "Das Metall dehnt sich aus."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ändert sich bei Wärme im Gitter?",
+        "Die Rümpfe schwingen stärker.",
+        "Die Elektronen kommen schlechter durch."
+      ],
+      "solution": "Bei höherer Temperatur schwingen die Atomrümpfe stärker um ihre Plätze. Die wandernden Elektronen stoßen häufiger an — der Widerstand steigt. Die Zahl der Elektronen bleibt gleich.",
+      "tags": [
+        "metallbindung",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "ME02-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum sind Metalle gute Wärmeleiter?",
+      "options": [
+        "Die frei beweglichen Elektronen transportieren die Energie schnell durch das Gitter.",
+        "Metalle sind dicht gepackt.",
+        "Metalle speichern viel Wärme."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was bewegt sich im Metall besonders leicht?",
+        "Die Elektronen.",
+        "Sie transportieren auch Energie."
+      ],
+      "solution": "Neben der Ladung transportieren die freien Elektronen auch Energie. Deshalb leiten Metalle Wärme viel besser als Stoffe ohne Elektronengas — Leitfähigkeit für Strom und Wärme haben dieselbe Ursache.",
+      "tags": [
+        "metallbindung",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "ME02-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum ist eine Legierung meist härter als das reine Metall?",
+      "options": [
+        "Fremdatome anderer Größe stören die Ordnung; die Schichten lassen sich schwerer verschieben.",
+        "Legierungen haben mehr Elektronen.",
+        "Legierungen enthalten kein Elektronengas."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was macht ein Metall weich?",
+        "Dass Schichten leicht gleiten.",
+        "Fremdatome behindern genau das."
+      ],
+      "solution": "Eingelagerte Fremdatome haben andere Größen und stören die regelmäßige Schichtung. Die Schichten gleiten schwerer — die Legierung wird härter, aber weniger verformbar. Deshalb ist Bronze härter als Kupfer.",
+      "tags": [
+        "metallbindung",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "ME02-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Welche Aussage über die Metallbindung ist richtig?",
+      "options": [
+        "Die Elektronen gehören dem gesamten Metallstück, nicht einzelnen Atomen.",
+        "Jedes Elektron gehört zu genau zwei Atomrümpfen.",
+        "Die Elektronen sitzen fest zwischen je zwei Rümpfen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Vergleiche mit der Elektronenpaarbindung.",
+        "Dort gehört ein Paar zu genau zwei Atomen.",
+        "Im Metall ist es anders."
+      ],
+      "solution": "Anders als bei der Elektronenpaarbindung sind die Elektronen im Metall nicht zwei bestimmten Partnern zugeordnet. Sie gehören dem gesamten Stück — genau das macht sie frei beweglich.",
+      "misconceptions": [
+        {
+          "id": "bindungsart_verwechselt",
+          "value": 1,
+          "feedback": "Das beschreibt die Elektronenpaarbindung. Im Metall gehören die Elektronen allen Rümpfen gemeinsam.",
+          "konzeptfehler": "bindungsart_verwechselt"
+        }
+      ],
+      "tags": [
+        "metallbindung",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "ME02-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Im Metall sind Ionen, also müsste es wie Salz spröde sein.“ Wie antwortest du?",
+      "options": [
+        "Im Metall gibt es nur positive Rümpfe in einem gemeinsamen Elektronengas — keine abwechselnden Ladungen, die beim Verschieben kollidieren.",
+        "Er hat recht, Metalle sind spröde.",
+        "Im Metall gibt es gar keine geladenen Teilchen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was unterscheidet Metallgitter und Ionengitter?",
+        "Im Salz wechseln sich positive und negative Ionen ab.",
+        "Im Metall sind alle Rümpfe positiv."
+      ],
+      "solution": "Der Ansatz ist richtig — es gibt geladene Teilchen. Entscheidend ist aber die Anordnung: Im Salz wechseln sich positive und negative Ionen ab, im Metall sind alle Rümpfe gleich geladen und werden vom Elektronengas zusammengehalten. Deshalb bricht das eine und verformt sich das andere.",
+      "tags": [
+        "metallbindung",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 7,
+      "aufgaben": 22,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 10,
+      "aufgaben": 17,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 10,
+      "aufgaben": 14,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Metallbindung Lückentext",
+      "url": "https://learningapps.org/view16805093",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Aufbau der Metalle",
+      "url": "https://learningapps.org/view12868549",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 9,
+    "titel": "Chemische Bindungen",
+    "seiten_von": 109,
+    "seiten_bis": 114,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Metallbindung"
+  }
+}

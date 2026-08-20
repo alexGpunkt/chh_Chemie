@@ -1,0 +1,634 @@
+{
+  "unit": "KW-05",
+  "title": "Siedetemperaturen und van-der-Waals-Kräfte",
+  "leitidee": "B2",
+  "standards": [
+    "K1",
+    "K2.1",
+    "K2.4"
+  ],
+  "klasse": 9,
+  "wortspeicher": [
+    "die van-der-Waals-Kraft",
+    "die Siedetemperatur",
+    "der Aggregatzustand",
+    "die Kontaktfläche",
+    "die zwischenmolekulare Kraft"
+  ],
+  "worterklaerungen": {
+    "van-der-Waals-Kraft": "Eine schwache Anziehung zwischen Molekülen.",
+    "zwischenmolekulare Kraft": "Eine Kraft zwischen Molekülen — nicht innerhalb eines Moleküls."
+  },
+  "can_do": {
+    "A": "Ich lese Siedetemperaturen aus einer Tabelle ab und erkenne den Trend.",
+    "B": "Ich erkläre den Anstieg der Siedetemperaturen mit den van-der-Waals-Kräften.",
+    "C": "Ich begründe Aggregatzustände und technische Anwendungen aus dem Trend."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Längere Kette, höherer Siedepunkt",
+      "hinfuehrung": "Je länger die Kette, desto höher die Siedetemperatur.",
+      "erklaerung": [
+        "Methan siedet bei −162 °C.",
+        "Octan erst bei 126 °C."
+      ],
+      "merke": "Lange Ketten sieden spät.",
+      "beispiel": {
+        "titel": "Bei Zimmertemperatur",
+        "aufgabe": "Welcher Zustand?",
+        "schritte": [
+          "Bis 4 C-Atome: gasförmig.",
+          "Ab 5 C-Atome: flüssig.",
+          "Ab etwa 17: fest."
+        ],
+        "ergebnis": "Der Zustand folgt der Kettenlänge."
+      },
+      "visual": {
+        "type": "animation",
+        "name": "siedekurve",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Warum das so ist",
+      "hinfuehrung": "Zwischen unpolaren Molekülen wirken schwache Anziehungskräfte. Ihre Stärke hängt davon ab, wie groß die Berührungsfläche zwischen zwei Molekülen ist.",
+      "erklaerung": [
+        "Die van-der-Waals-Kräfte entstehen durch kurzzeitige, zufällige Ladungsverschiebungen in der Elektronenhülle.",
+        "Je größer die Kontaktfläche zweier Moleküle, desto mehr solcher Kräfte wirken gleichzeitig.",
+        "Ein längeres Molekül hat mehr Kontaktfläche — die Anziehung ist stärker, das Sieden braucht mehr Energie.",
+        "Beim Sieden werden nur diese zwischenmolekularen Kräfte überwunden. Die Moleküle selbst bleiben unversehrt."
+      ],
+      "merke": "Längere Kette → größere Kontaktfläche → stärkere Anziehung → höhere Siedetemperatur.",
+      "visual": {
+        "type": "animation",
+        "name": "siedekurve",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Was daraus folgt",
+      "hinfuehrung": "Der Trend erklärt nicht nur Zahlen in einer Tabelle, sondern die gesamte Verwendung der Erdölprodukte.",
+      "erklaerung": [
+        "Bei Zimmertemperatur sind C₁ bis C₄ gasförmig — Feuerzeuggas und Campinggas.",
+        "C₅ bis etwa C₁₆ sind flüssig — Benzin, Petroleum, Diesel.",
+        "Ab etwa C₁₇ sind sie fest — Paraffin und Wachs.",
+        "Genau dieser Trend macht die fraktionierte Destillation des Erdöls möglich: In einer Kolonne kondensieren die Fraktionen in verschiedenen Höhen, sortiert nach Kettenlänge.",
+        "Verzweigte Isomere sieden tiefer als unverzweigte gleicher Masse — auch das folgt aus der Kontaktfläche."
+      ],
+      "merke": "Der Siedepunkttrend ordnet die gesamte Erdölverarbeitung.",
+      "visual": {
+        "type": "animation",
+        "name": "siedekurve",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [],
+    "saetze": [
+      "Siedetemperaturen: Methan −162 · Butan 0 · Pentan 36 · Octan 126 °C.",
+      "C₁ bis C₄ gasförmig · C₅ bis C₁₆ flüssig · ab C₁₇ fest.",
+      "van-der-Waals-Kräfte wachsen mit der Kontaktfläche.",
+      "Beim Sieden bleiben die Moleküle unversehrt."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Van-der-Waals-Kräfte",
+      "url": "https://www.youtube.com/watch?v=bXHor4n67Dg",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/Darsms",
+      "embed": "https://app.lumi.education/api/v1/run/Darsms/embed",
+      "stufe": "A",
+      "dauer_s": 289
+    },
+    {
+      "titel": "London-Dispersion, Dipol-Dipol und Wasserstoffbrücken im Vergleich",
+      "url": "https://www.youtube.com/watch?v=KZ-jOxgUZUg",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/QSBPPq",
+      "embed": "https://app.lumi.education/api/v1/run/QSBPPq/embed",
+      "stufe": "C",
+      "dauer_s": 887
+    }
+  ],
+  "tasks": [
+    {
+      "id": "KW05-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Was passiert mit der Siedetemperatur, wenn die Kette länger wird?",
+      "options": [
+        "Sie steigt.",
+        "Sie sinkt.",
+        "Sie bleibt gleich."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "siedekurve",
+        "stufe": "A"
+      },
+      "hints": [
+        "Sieh dir die Kurve an.",
+        "Sie steigt von links nach rechts.",
+        "Sie steigt."
+      ],
+      "solution": "Je länger die Kette, desto höher die Siedetemperatur.",
+      "tags": [
+        "siedepunkt"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW05-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Methan siedet bei −162 °C. In welchem Zustand ist es bei 20 °C?",
+      "options": [
+        "gasförmig",
+        "flüssig",
+        "fest"
+      ],
+      "answer": 0,
+      "hints": [
+        "Liegt 20 °C über oder unter −162 °C?",
+        "Weit darüber.",
+        "Über dem Siedepunkt ist ein Stoff gasförmig."
+      ],
+      "solution": "20 °C liegt weit über der Siedetemperatur von −162 °C. Methan ist bei Zimmertemperatur gasförmig.",
+      "tags": [
+        "siedepunkt"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "KW05-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Ab wie vielen C-Atomen sind Alkane bei Zimmertemperatur flüssig?",
+      "options": [
+        "ab 5",
+        "ab 2",
+        "ab 10"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "siedekurve",
+        "stufe": "A"
+      },
+      "hints": [
+        "Butan mit 4 C-Atomen ist noch gasförmig.",
+        "Pentan mit 5 ist flüssig.",
+        "Ab 5."
+      ],
+      "solution": "Bis vier C-Atome sind die Alkane gasförmig, ab fünf flüssig.",
+      "tags": [
+        "siedepunkt"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW05-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "numeric",
+      "prompt": "Pentan siedet bei 36 °C, Hexan bei 69 °C. Wie groß ist der Unterschied?",
+      "answer": 33,
+      "unit_label": "°C",
+      "tolerance": 1,
+      "hints": [
+        "69 − 36.",
+        "Die Differenz.",
+        "33 °C."
+      ],
+      "solution": "69 °C − 36 °C = 33 °C",
+      "tags": [
+        "siedepunkt",
+        "rechnen"
+      ],
+      "spiral": [
+        "W-EINH"
+      ]
+    },
+    {
+      "id": "KW05-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welche Kräfte müssen beim Sieden eines Alkans überwunden werden?",
+      "options": [
+        "die van-der-Waals-Kräfte zwischen den Molekülen",
+        "die Bindungen innerhalb der Moleküle",
+        "die Ionenbindungen"
+      ],
+      "answer": 0,
+      "hints": [
+        "Werden die Moleküle beim Sieden zerlegt?",
+        "Nein — sie bleiben ganz.",
+        "Nur die Kräfte zwischen ihnen werden überwunden."
+      ],
+      "solution": "Beim Sieden werden nur die zwischenmolekularen van-der-Waals-Kräfte überwunden. Die Moleküle selbst bleiben unversehrt — sonst wäre es eine chemische Reaktion.",
+      "misconceptions": [
+        {
+          "id": "bindungsart_verwechselt",
+          "value": 1,
+          "feedback": "Die Bindungen im Molekül bleiben erhalten. Sieden ist eine Zustandsänderung.",
+          "konzeptfehler": "bindungsart_verwechselt"
+        }
+      ],
+      "tags": [
+        "siedepunkt",
+        "bbr"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "KW05-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum sind die van-der-Waals-Kräfte bei längeren Ketten stärker?",
+      "options": [
+        "Längere Moleküle berühren einander auf größerer Fläche.",
+        "Längere Moleküle sind schwerer.",
+        "Längere Moleküle sind geladen."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "siedekurve",
+        "stufe": "B"
+      },
+      "hints": [
+        "Wovon hängt die Zahl der wirkenden Kräfte ab?",
+        "Von der Berührungsfläche.",
+        "Ein langes Molekül bietet mehr davon."
+      ],
+      "solution": "Die van-der-Waals-Kräfte wirken über die gesamte Berührungsfläche. Ein längeres Molekül bietet mehr davon — die Summe der Anziehung wächst.",
+      "tags": [
+        "siedepunkt",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW05-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum werden bei der Erdöldestillation verschiedene Fraktionen in verschiedenen Höhen der Kolonne abgezogen?",
+      "options": [
+        "Die Fraktionen kondensieren bei verschiedenen Temperaturen, weil ihre Ketten verschieden lang sind.",
+        "Weil die Kolonne unterschiedlich breit ist.",
+        "Weil die Fraktionen verschieden schwer sind."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was unterscheidet die Fraktionen?",
+        "Die Kettenlänge und damit die Siedetemperatur.",
+        "Oben ist es kühler."
+      ],
+      "solution": "Kurze Ketten sieden früh und steigen weit nach oben, lange kondensieren schon unten. Weil die Kolonne nach oben kühler wird, sortieren sich die Fraktionen nach Kettenlänge.",
+      "tags": [
+        "siedepunkt",
+        "technik",
+        "bbr"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "KW05-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Gegeben sind die Siedetemperaturen: Methan −162 °C, Butan 0 °C, Octan 126 °C.",
+      "fields": [
+        {
+          "label": "Unterschied Methan zu Butan",
+          "answer": 162,
+          "unit_label": "°C",
+          "tolerance": 2
+        },
+        {
+          "label": "Unterschied Butan zu Octan",
+          "answer": 126,
+          "unit_label": "°C",
+          "tolerance": 2
+        }
+      ],
+      "hints": [
+        "0 − (−162).",
+        "126 − 0.",
+        "Auf das Vorzeichen achten."
+      ],
+      "solution": "0 − (−162) = 162 °C\n126 − 0 = 126 °C\nDer Anstieg wird mit wachsender Kettenlänge flacher.",
+      "tags": [
+        "siedepunkt",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-EINH"
+      ]
+    },
+    {
+      "id": "KW05-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum ist Paraffinwachs bei Zimmertemperatur fest?",
+      "options": [
+        "Seine Ketten sind sehr lang; die van-der-Waals-Kräfte sind entsprechend stark.",
+        "Es enthält Metall.",
+        "Es ist gefroren."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie lang sind die Ketten im Paraffin?",
+        "Über 17 C-Atome.",
+        "Entsprechend groß ist die Kontaktfläche."
+      ],
+      "solution": "Paraffin besteht aus Alkanen mit mehr als 17 C-Atomen. Die van-der-Waals-Kräfte sind dort so stark, dass der Stoff bei Zimmertemperatur fest ist.",
+      "tags": [
+        "siedepunkt",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW05-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum sind Alkane trotz starker C–H-Bindungen so leicht flüchtig?",
+      "options": [
+        "Beim Verdampfen werden nur die schwachen Kräfte zwischen den Molekülen überwunden.",
+        "Weil die C–H-Bindung schwach ist.",
+        "Weil Alkane wenig wiegen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was wird beim Verdampfen überwunden?",
+        "Nicht die Bindungen im Molekül.",
+        "Sondern die Kräfte dazwischen."
+      ],
+      "solution": "Die Bindungen innerhalb des Moleküls sind stark, spielen beim Verdampfen aber keine Rolle. Überwunden werden nur die schwachen van-der-Waals-Kräfte zwischen den Molekülen.",
+      "tags": [
+        "siedepunkt",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "KW05-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum siedet Wasser mit M = 18 g/mol bei 100 °C, Butan mit M = 58 g/mol aber schon bei 0 °C?",
+      "options": [
+        "Zwischen Wassermolekülen wirken Wasserstoffbrücken, zwischen Alkanmolekülen nur van-der-Waals-Kräfte.",
+        "Wasser ist schwerer.",
+        "Butan ist ein Gemisch."
+      ],
+      "answer": 0,
+      "hints": [
+        "Butan ist deutlich schwerer und siedet trotzdem früher.",
+        "Also liegt es nicht an der Masse.",
+        "Wasser ist ein Dipol."
+      ],
+      "solution": "Trotz größerer Masse siedet Butan viel früher. Der Grund: Zwischen Wassermolekülen wirken starke Wasserstoffbrücken, zwischen den unpolaren Alkanmolekülen nur schwache van-der-Waals-Kräfte.",
+      "tags": [
+        "siedepunkt",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "KW05-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum siedet 2,2-Dimethylpropan (9,5 °C) früher als Pentan (36 °C), obwohl beide C₅H₁₂ sind?",
+      "options": [
+        "Das verzweigte Molekül ist fast kugelig und hat weniger Kontaktfläche.",
+        "Es hat weniger Atome.",
+        "Es ist leichter."
+      ],
+      "answer": 0,
+      "hints": [
+        "Beide haben dieselbe Summenformel.",
+        "Verschieden ist nur die Gestalt.",
+        "Kugelig heißt wenig Berührungsfläche."
+      ],
+      "solution": "Beide haben C₅H₁₂ und dieselbe Masse. Das dreifach verzweigte Molekül ist nahezu kugelig und berührt seine Nachbarn auf minimaler Fläche — die van-der-Waals-Kräfte sind entsprechend schwach.",
+      "misconceptions": [
+        {
+          "id": "isomer_als_gleicher_stoff",
+          "value": 1,
+          "feedback": "Isomere haben gleich viele Atome und dieselbe Masse. Verschieden ist die Gestalt.",
+          "konzeptfehler": "isomer_als_gleicher_stoff"
+        }
+      ],
+      "tags": [
+        "siedepunkt",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW05-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum werden Flüssiggasflaschen unter Druck gesetzt?",
+      "options": [
+        "Unter Druck verflüssigen sich Propan und Butan schon bei Zimmertemperatur.",
+        "Damit das Gas nicht entweicht.",
+        "Damit es kälter bleibt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Bei welchen Temperaturen sieden Propan und Butan?",
+        "Unter 0 °C.",
+        "Druck verschiebt den Siedepunkt nach oben."
+      ],
+      "solution": "Propan und Butan sind bei Normaldruck gasförmig. Höherer Druck verschiebt die Siedetemperatur nach oben, sodass sie sich schon bei Zimmertemperatur verflüssigen — dadurch passt viel mehr Stoff in die Flasche.",
+      "tags": [
+        "siedepunkt",
+        "anwenden",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "KW05-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Beim Sieden von Benzin brechen die C–C-Bindungen auf.“ Wie bewertest du das?",
+      "options": [
+        "Falsch — beim Sieden bleiben die Moleküle vollständig erhalten; nur die Kräfte zwischen ihnen werden überwunden.",
+        "Richtig.",
+        "Falsch — es brechen nur die C–H-Bindungen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ist im Dampf enthalten?",
+        "Dieselben Moleküle wie in der Flüssigkeit.",
+        "Sieden ist eine Zustandsänderung."
+      ],
+      "solution": "Sieden ist eine Zustandsänderung, keine chemische Reaktion. Im Dampf liegen dieselben Moleküle vor. Erst beim Cracken werden C–C-Bindungen gebrochen — dafür braucht es hohe Temperaturen und Katalysatoren.",
+      "misconceptions": [
+        {
+          "id": "reaktion_und_zustandsaenderung_verwechselt",
+          "value": 1,
+          "feedback": "Sieden ist eine Zustandsänderung. Die Moleküle bleiben ganz.",
+          "konzeptfehler": "reaktion_und_zustandsaenderung_verwechselt"
+        }
+      ],
+      "tags": [
+        "siedepunkt",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 7,
+      "aufgaben": 22,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 7,
+      "aufgaben": 20,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 12,
+      "aufgaben": 12,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Siedetemperaturen der Alkane - Leicht",
+      "url": "https://learningapps.org/view5922285",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Zwischenmolekulare Kräfte",
+      "url": "https://learningapps.org/view7698245",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 12,
+    "titel": "Der Weg zur organischen Chemie",
+    "seiten_von": 147,
+    "seiten_bis": 162,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "van-der-Waals-Kraft"
+  }
+}

@@ -1,0 +1,673 @@
+{
+  "unit": "KW-02",
+  "title": "Die homologe Reihe der Alkane",
+  "leitidee": "B1",
+  "standards": [
+    "K1",
+    "K2.1",
+    "K3.4"
+  ],
+  "klasse": 9,
+  "wortspeicher": [
+    "das Alkan",
+    "die homologe Reihe",
+    "die Summenformel",
+    "die CH₂-Gruppe",
+    "die Nomenklatur",
+    "gesättigt"
+  ],
+  "worterklaerungen": {
+    "homologe Reihe": "Eine Reihe von Stoffen, die sich jeweils um eine CH₂-Gruppe unterscheiden.",
+    "gesättigt": "Alle Bindungen zwischen den C-Atomen sind Einfachbindungen.",
+    "Alkan": "Ein gesättigter Kohlenwasserstoff mit der Formel CₙH₂ₙ₊₂."
+  },
+  "can_do": {
+    "A": "Ich nenne die ersten Alkane und ihre Zahl der C-Atome.",
+    "B": "Ich stelle Summenformeln mit CₙH₂ₙ₊₂ auf und benenne Alkane.",
+    "C": "Ich begründe die Regelmäßigkeit der homologen Reihe mit dem Bau der Moleküle."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Eine Reihe von Stoffen",
+      "hinfuehrung": "Die Alkane bilden eine Reihe.",
+      "erklaerung": [
+        "Jedes Glied hat ein C-Atom mehr.",
+        "Die Namen folgen einer festen Ordnung."
+      ],
+      "merke": "Meth 1 · Eth 2 · Prop 3 · But 4 · Pent 5.",
+      "beispiel": {
+        "titel": "Von Methan zu Ethan",
+        "aufgabe": "Was kommt dazu?",
+        "schritte": [
+          "Methan hat 1 C-Atom.",
+          "Ethan hat 2.",
+          "Dazu kommt eine CH₂-Gruppe."
+        ],
+        "ergebnis": "CH₄ → C₂H₆"
+      },
+      "visual": {
+        "type": "animation",
+        "name": "homologereihe",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Formel und Name",
+      "hinfuehrung": "Für die ganze Reihe genügen eine Formel und eine Namensregel. Beides zusammen erschließt jedes einzelne Glied.",
+      "erklaerung": [
+        "Allgemeine Formel: CₙH₂ₙ₊₂. Für n = 3 also C₃H₈ — Propan.",
+        "Namen: Meth 1, Eth 2, Prop 3, But 4, Pent 5, Hex 6, Hept 7, Oct 8, Non 9, Dec 10.",
+        "Alle Alkane enden auf -an. Das kennzeichnet die gesättigten Kohlenwasserstoffe.",
+        "Von Glied zu Glied kommt genau eine CH₂-Gruppe hinzu — das ist die Bedeutung von „homolog“."
+      ],
+      "merke": "CₙH₂ₙ₊₂ und die Namensreihe genügen für jedes Alkan.",
+      "visual": {
+        "type": "animation",
+        "name": "homologereihe",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Warum die Formel stimmt",
+      "hinfuehrung": "Die Formel CₙH₂ₙ₊₂ ist keine Setzung, sondern eine Folge der Vierbindigkeit — sie lässt sich herleiten.",
+      "erklaerung": [
+        "Jedes C-Atom bildet vier Bindungen. In der Kette gehen zwei davon an die Nachbarn, zwei bleiben für Wasserstoff.",
+        "Die beiden Kettenenden haben nur einen Nachbarn und tragen deshalb je ein H-Atom mehr.",
+        "Daraus folgt: 2n Wasserstoffatome aus der Kette plus 2 an den Enden — also 2n + 2.",
+        "Weil jedes Glied denselben Bau hat, ändern sich Eigenschaften regelmäßig statt sprunghaft: Schmelz- und Siedetemperaturen steigen stetig, die chemischen Reaktionen bleiben gleich."
+      ],
+      "merke": "2n aus der Kette, 2 von den Enden — daher CₙH₂ₙ₊₂.",
+      "visual": {
+        "type": "animation",
+        "name": "homologereihe",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Alkane: CₙH₂ₙ₊₂",
+      "CH₄ · C₂H₆ · C₃H₈ · C₄H₁₀ · C₅H₁₂ · C₆H₁₄"
+    ],
+    "saetze": [
+      "Meth 1 · Eth 2 · Prop 3 · But 4 · Pent 5 · Hex 6 · Hept 7 · Oct 8.",
+      "Alle Alkane enden auf -an.",
+      "Von Glied zu Glied kommt eine CH₂-Gruppe dazu.",
+      "Gesättigt heißt: nur Einfachbindungen zwischen den C-Atomen."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Die homologe Reihe der Alkane",
+      "url": "https://www.youtube.com/watch?v=TseG1yYwL7Y",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/tznWPe",
+      "embed": "https://app.lumi.education/api/v1/run/tznWPe/embed",
+      "stufe": "A",
+      "dauer_s": 574
+    },
+    {
+      "titel": "Welche Eigenschaften haben Alkane?",
+      "url": "https://www.youtube.com/watch?v=vt4e-z4c_Q4",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/NJOdG_",
+      "embed": "https://app.lumi.education/api/v1/run/NJOdG_/embed",
+      "stufe": "B",
+      "dauer_s": 270
+    },
+    {
+      "titel": "Alkane und Cycloalkane",
+      "url": "https://www.youtube.com/watch?v=koatkUZ5Ffg",
+      "quelle": "Studyflix",
+      "lumi": "https://app.lumi.education/run/5CaEN1",
+      "embed": "https://app.lumi.education/api/v1/run/5CaEN1/embed",
+      "stufe": "C",
+      "dauer_s": 540
+    }
+  ],
+  "tasks": [
+    {
+      "id": "KW02-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "Wie viele Kohlenstoffatome hat Propan?",
+      "answer": 3,
+      "tolerance": 0,
+      "visual": {
+        "type": "animation",
+        "name": "homologereihe",
+        "stufe": "A"
+      },
+      "hints": [
+        "Prop steht für eine bestimmte Zahl.",
+        "Meth 1, Eth 2, Prop 3.",
+        "3."
+      ],
+      "solution": "Prop steht für drei Kohlenstoffatome: C₃H₈.",
+      "tags": [
+        "alkane"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW02-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Wie heißt das Alkan mit vier C-Atomen?",
+      "options": [
+        "Butan",
+        "Propan",
+        "Pentan"
+      ],
+      "answer": 0,
+      "hints": [
+        "Meth 1, Eth 2, Prop 3, But 4.",
+        "Vier heißt But.",
+        "Butan."
+      ],
+      "solution": "Vier Kohlenstoffatome ergeben Butan, C₄H₁₀.",
+      "misconceptions": [
+        {
+          "id": "nomenklatur_falsch",
+          "value": 2,
+          "feedback": "Pentan hat fünf C-Atome. Vier heißt Butan.",
+          "konzeptfehler": "nomenklatur_falsch"
+        }
+      ],
+      "tags": [
+        "alkane"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW02-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie viele Wasserstoffatome hat Methan CH₄?",
+      "answer": 4,
+      "tolerance": 0,
+      "hints": [
+        "Sieh die Formel an.",
+        "Der Index sagt es.",
+        "4."
+      ],
+      "solution": "Methan hat vier Wasserstoffatome: CH₄.",
+      "tags": [
+        "alkane"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "KW02-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "numeric",
+      "prompt": "Wie viele C-Atome kommen von einem Glied der Reihe zum nächsten dazu?",
+      "answer": 1,
+      "tolerance": 0,
+      "visual": {
+        "type": "animation",
+        "name": "homologereihe",
+        "stufe": "A"
+      },
+      "hints": [
+        "Von Methan zu Ethan.",
+        "Von 1 auf 2.",
+        "Eines."
+      ],
+      "solution": "Von Glied zu Glied kommt genau ein C-Atom dazu — zusammen mit zwei H-Atomen, also eine CH₂-Gruppe.",
+      "tags": [
+        "alkane"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW02-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "Wie viele H-Atome hat ein Alkan mit 5 C-Atomen?",
+      "answer": 12,
+      "tolerance": 0,
+      "hints": [
+        "Formel CₙH₂ₙ₊₂.",
+        "2 · 5 + 2.",
+        "12."
+      ],
+      "solution": "2 · 5 + 2 = 12. Pentan hat die Formel C₅H₁₂.",
+      "misconceptions": [
+        {
+          "id": "formel_ohne_plus_zwei",
+          "value": 10,
+          "feedback": "Die beiden Kettenenden tragen je ein H-Atom zusätzlich: 2n + 2.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "alkane",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW02-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Welche Summenformel hat Hexan?",
+      "options": [
+        "C₆H₁₄",
+        "C₆H₁₂",
+        "C₆H₆"
+      ],
+      "answer": 0,
+      "hints": [
+        "Hex steht für 6.",
+        "2 · 6 + 2 = 14.",
+        "C₆H₁₄."
+      ],
+      "solution": "Hexan hat 6 C-Atome: 2 · 6 + 2 = 14 H-Atome, also C₆H₁₄.",
+      "misconceptions": [
+        {
+          "id": "formel_ohne_plus_zwei",
+          "value": 1,
+          "feedback": "C₆H₁₂ wäre ein Alken. Alkane haben 2n + 2 H-Atome.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "alkane",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW02-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Ein Alkan hat die Summenformel C₈H₁₈. Wie viele C-Atome hat es?",
+      "answer": 8,
+      "tolerance": 0,
+      "hints": [
+        "Der erste Index sagt es.",
+        "8.",
+        "Es ist Octan."
+      ],
+      "solution": "C₈H₁₈ hat acht Kohlenstoffatome — es ist Octan. Probe: 2 · 8 + 2 = 18.",
+      "tags": [
+        "alkane",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW02-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Betrachte die Alkane mit 2, 4 und 7 Kohlenstoffatomen.",
+      "fields": [
+        {
+          "label": "H-Atome bei 2 C-Atomen",
+          "answer": 6,
+          "tolerance": 0
+        },
+        {
+          "label": "H-Atome bei 4 C-Atomen",
+          "answer": 10,
+          "tolerance": 0
+        },
+        {
+          "label": "H-Atome bei 7 C-Atomen",
+          "answer": 16,
+          "tolerance": 0
+        }
+      ],
+      "hints": [
+        "Jeweils 2n + 2.",
+        "2 · 2 + 2 = 6.",
+        "2 · 7 + 2 = 16."
+      ],
+      "solution": "Ethan C₂H₆, Butan C₄H₁₀, Heptan C₇H₁₆.",
+      "tags": [
+        "alkane",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW02-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie groß ist die molare Masse von Propan C₃H₈? (C = 12, H = 1 g/mol)",
+      "answer": 44,
+      "unit_label": "g/mol",
+      "tolerance": 0.5,
+      "hints": [
+        "3 · 12 + 8 · 1.",
+        "36 + 8.",
+        "44 g/mol."
+      ],
+      "solution": "M(C₃H₈) = 3 · 12 + 8 · 1 = 44 g/mol",
+      "tags": [
+        "alkane",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG",
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "KW02-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Was bedeutet „gesättigt“ bei einem Kohlenwasserstoff?",
+      "options": [
+        "Zwischen den C-Atomen bestehen nur Einfachbindungen.",
+        "Der Stoff löst sich nicht mehr.",
+        "Er enthält keinen Wasserstoff mehr."
+      ],
+      "answer": 0,
+      "hints": [
+        "Es geht um die Bindungen im Molekül.",
+        "Alle Bindungen sind einfach.",
+        "Mehr H-Atome passen nicht hinein."
+      ],
+      "solution": "Gesättigt heißt: Zwischen den C-Atomen bestehen nur Einfachbindungen, das Molekül trägt die größtmögliche Zahl an H-Atomen. Mit dem Lösen hat der Begriff nichts zu tun.",
+      "misconceptions": [
+        {
+          "id": "funktionelle_gruppe_verwechselt",
+          "value": 1,
+          "feedback": "„Gesättigt“ bezieht sich auf die Bindungen, nicht auf das Lösen.",
+          "konzeptfehler": "funktionelle_gruppe_verwechselt"
+        }
+      ],
+      "tags": [
+        "alkane",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW02-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum lautet die Formel CₙH₂ₙ₊₂ und nicht CₙH₂ₙ?",
+      "options": [
+        "Die beiden Kettenenden tragen je ein H-Atom mehr, weil sie nur einen Nachbarn haben.",
+        "Das ist eine willkürliche Festlegung.",
+        "Weil Kohlenstoff fünf Bindungen bildet."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "homologereihe",
+        "stufe": "C"
+      },
+      "hints": [
+        "Wie viele Nachbarn hat ein C-Atom in der Kettenmitte?",
+        "Zwei — also zwei H-Atome.",
+        "Am Ende nur einer, also drei H-Atome."
+      ],
+      "solution": "In der Kettenmitte gehen zwei der vier Bindungen an Nachbarn, zwei an Wasserstoff. An den beiden Enden ist nur ein Nachbar da, dort bleiben drei Bindungen für Wasserstoff — insgesamt zwei H-Atome mehr.",
+      "tags": [
+        "alkane",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW02-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Berechne für Octan C₈H₁₈. (C = 12, H = 1 g/mol)",
+      "fields": [
+        {
+          "label": "molare Masse",
+          "answer": 114,
+          "unit_label": "g/mol",
+          "tolerance": 1
+        },
+        {
+          "label": "Massenanteil des Kohlenstoffs in Prozent",
+          "answer": 84.2,
+          "unit_label": "%",
+          "tolerance": 0.5
+        }
+      ],
+      "hints": [
+        "8 · 12 + 18 · 1.",
+        "96 + 18 = 114.",
+        "96 : 114 · 100 %."
+      ],
+      "solution": "M = 96 + 18 = 114 g/mol\nw(C) = 96 : 114 = 84,2 %",
+      "tags": [
+        "alkane",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG",
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "KW02-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum ändern sich die Eigenschaften innerhalb der homologen Reihe regelmäßig?",
+      "options": [
+        "Alle Glieder haben denselben Bau; es ändert sich nur die Kettenlänge.",
+        "Weil die Stoffe zufällig ähnlich sind.",
+        "Weil sie alle gleich schwer sind."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was unterscheidet die Glieder?",
+        "Nur die Zahl der CH₂-Gruppen.",
+        "Der Bau bleibt derselbe."
+      ],
+      "solution": "Alle Alkane sind gleich gebaut und unterscheiden sich nur in der Kettenlänge. Deshalb ändern sich Schmelz- und Siedetemperatur stetig, und die chemischen Reaktionen bleiben dieselben. Genau das macht die Reihe zu einer Reihe.",
+      "tags": [
+        "alkane",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW02-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler schreibt für ein Alkan mit 3 C-Atomen die Formel C₃H₆. Wo liegt der Fehler?",
+      "options": [
+        "Er hat die zwei zusätzlichen H-Atome der Kettenenden vergessen — richtig ist C₃H₈.",
+        "Nichts, die Formel ist richtig.",
+        "Es müsste C₃H₁₀ heißen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Formel prüfen: 2n + 2.",
+        "2 · 3 + 2 = 8.",
+        "C₃H₆ wäre ein Alken."
+      ],
+      "solution": "2 · 3 + 2 = 8, also C₃H₈. C₃H₆ hätte zwei H-Atome zu wenig — das wäre Propen, ein Alken mit Doppelbindung.",
+      "misconceptions": [
+        {
+          "id": "formel_ohne_plus_zwei",
+          "value": 1,
+          "feedback": "Prüfe mit 2n + 2: Für n = 3 sind es 8 H-Atome.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "alkane",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 10,
+      "aufgaben": 19,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 7,
+      "aufgaben": 20,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 12,
+      "aufgaben": 12,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Homologe Reihe der Alkane",
+      "url": "https://learningapps.org/view3758268",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Homologe Reihe der Alkane - einfach",
+      "url": "https://learningapps.org/view13630497",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Kohlenwasserstoffe — Quiz Klasse 9",
+      "url": "https://www.schlaukopf.de/realschule/klasse9/chemie/kohlenwasserstoffe",
+      "typ": "app",
+      "quelle": "Schlaukopf"
+    },
+    {
+      "titel": "Alkane, Alkene, Alkine",
+      "url": "https://de.serlo.org/chemie/155780/alkane-alkene-alkine",
+      "typ": "sammlung",
+      "quelle": "Serlo",
+      "pfade": [
+        "B",
+        "C"
+      ]
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 12,
+    "titel": "Der Weg zur organischen Chemie",
+    "seiten_von": 147,
+    "seiten_bis": 162,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Alkan"
+  }
+}

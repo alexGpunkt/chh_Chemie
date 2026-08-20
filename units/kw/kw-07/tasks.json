@@ -1,0 +1,627 @@
+{
+  "unit": "KW-07",
+  "title": "Anwenden & Prüfungstraining Alkane",
+  "leitidee": "B3",
+  "standards": [
+    "K1",
+    "K2.4",
+    "K3.3",
+    "K4.1"
+  ],
+  "klasse": 9,
+  "wortspeicher": [
+    "die homologe Reihe",
+    "die Isomerie",
+    "die van-der-Waals-Kraft",
+    "die Verbrennung",
+    "das Erdöl",
+    "die Fraktion"
+  ],
+  "worterklaerungen": {
+    "Fraktion": "Ein Bereich von Kohlenwasserstoffen mit ähnlichen Siedetemperaturen."
+  },
+  "can_do": {
+    "A": "Ich stelle Alkanformeln auf und benenne die Glieder der Reihe.",
+    "B": "Ich verbinde Bau, Eigenschaften und Reaktionen der Alkane.",
+    "C": "Ich begründe Eigenschaften aus dem Molekülbau und bewerte Anwendungen."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Alkane auf einen Blick",
+      "hinfuehrung": "In dieser Stunde kommt alles zusammen.",
+      "erklaerung": [
+        "CₙH₂ₙ₊₂ ist die Formel aller Alkane.",
+        "Längere Ketten sieden später."
+      ],
+      "merke": "Erst lesen, was gefragt ist. Dann antworten.",
+      "visual": {
+        "type": "animation",
+        "name": "signalwoerter",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Die drei roten Fäden",
+      "hinfuehrung": "Der ganze Bereich hängt an drei Zusammenhängen.",
+      "erklaerung": [
+        "Bau: Kohlenstoff ist vierbindig und bindet an sich selbst — daraus folgen homologe Reihe und Isomerie.",
+        "Eigenschaften: Zwischen den unpolaren Molekülen wirken van-der-Waals-Kräfte, die mit der Kontaktfläche wachsen.",
+        "Reaktion: Alkane sind reaktionsträge, verbrennen aber vollständig zu CO₂ und H₂O."
+      ],
+      "merke": "Vom Bau zu den Kräften, von den Kräften zu den Eigenschaften.",
+      "visual": {
+        "type": "animation",
+        "name": "siedekurve",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Erdöl und seine Verarbeitung",
+      "hinfuehrung": "Die Kenntnisse über Alkane erklären unmittelbar, wie aus Erdöl Benzin, Diesel und Kunststoffe werden.",
+      "erklaerung": [
+        "Erdöl ist ein Gemisch aus Kohlenwasserstoffen verschiedener Kettenlänge.",
+        "In der fraktionierten Destillation trennen sich die Fraktionen nach Siedetemperatur — also nach Kettenlänge.",
+        "Beim Cracken werden lange Ketten in kürzere gespalten, weil die Nachfrage nach Benzin größer ist als der Anteil in der Rohölfraktion.",
+        "Alkane sind reaktionsträge — deshalb werden sie fast ausschließlich verbrannt oder erst über weitere Schritte in reaktivere Stoffe umgewandelt."
+      ],
+      "merke": "Erdölverarbeitung ist angewandte Siedepunktlehre.",
+      "visual": {
+        "type": "animation",
+        "name": "signalwoerter",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "CₙH₂ₙ₊₂",
+      "CH₄ + 2 O₂ → CO₂ + 2 H₂O",
+      "C₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O"
+    ],
+    "saetze": [
+      "Meth 1 · Eth 2 · Prop 3 · But 4 · Pent 5 · Hex 6 · Hept 7 · Oct 8.",
+      "Längere Ketten sieden später — größere Kontaktfläche.",
+      "Isomere: gleiche Summenformel, anderer Bau.",
+      "Ausgleichen: erst C, dann H, zuletzt O."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Alkene, Alkine und Co. — ungesättigte Kohlenwasserstoffe",
+      "url": "https://www.youtube.com/watch?v=U1fbeyocWvU",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/ljNF7A",
+      "embed": "https://app.lumi.education/api/v1/run/ljNF7A/embed",
+      "stufe": "A",
+      "dauer_s": 264
+    },
+    {
+      "titel": "Alkene und Alkine in der organischen Chemie",
+      "url": "https://www.youtube.com/watch?v=9lJuCtlSBdY",
+      "quelle": "Studyflix",
+      "lumi": "https://app.lumi.education/run/VBFsT2",
+      "embed": "https://app.lumi.education/api/v1/run/VBFsT2/embed",
+      "stufe": "C",
+      "dauer_s": 456
+    }
+  ],
+  "tasks": [
+    {
+      "id": "KW07-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "Wie viele H-Atome hat ein Alkan mit 6 C-Atomen?",
+      "answer": 14,
+      "tolerance": 0,
+      "hints": [
+        "2n + 2.",
+        "2 · 6 + 2.",
+        "14."
+      ],
+      "solution": "2 · 6 + 2 = 14. Es ist Hexan C₆H₁₄.",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW07-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Wie heißt das Alkan mit fünf C-Atomen?",
+      "options": [
+        "Pentan",
+        "Butan",
+        "Hexan"
+      ],
+      "answer": 0,
+      "hints": [
+        "Pent steht für 5.",
+        "But für 4, Hex für 6.",
+        "Pentan."
+      ],
+      "solution": "Fünf C-Atome ergeben Pentan, C₅H₁₂.",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW07-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Was entsteht bei der vollständigen Verbrennung von Butan?",
+      "options": [
+        "CO₂ und H₂O",
+        "nur CO₂",
+        "CO und Ruß"
+      ],
+      "answer": 0,
+      "hints": [
+        "Vollständig heißt: genug Sauerstoff.",
+        "Dann entstehen nur zwei Produkte.",
+        "CO₂ und H₂O."
+      ],
+      "solution": "Bei vollständiger Verbrennung entstehen ausschließlich Kohlenstoffdioxid und Wasser.",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "KW07-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Welches Alkan ist bei Zimmertemperatur flüssig?",
+      "options": [
+        "Pentan",
+        "Methan",
+        "Propan"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "siedekurve",
+        "stufe": "A"
+      },
+      "hints": [
+        "Bis vier C-Atome gasförmig.",
+        "Pentan hat fünf.",
+        "Pentan."
+      ],
+      "solution": "Bis vier C-Atome sind Alkane gasförmig, ab fünf flüssig. Pentan siedet bei 36 °C.",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW07-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "C₄H₁₀ + ? O₂ → 4 CO₂ + 5 H₂O. Welcher Koeffizient fehlt? (Halbe zulässig)",
+      "answer": 6.5,
+      "tolerance": 0.1,
+      "hints": [
+        "O-Atome rechts: 8 + 5 = 13.",
+        "13 : 2.",
+        "6,5."
+      ],
+      "solution": "Rechts stehen 13 O-Atome. 13 : 2 = 6,5 O₂. Verdoppelt: 2 C₄H₁₀ + 13 O₂ → 8 CO₂ + 10 H₂O.",
+      "tags": [
+        "pruefung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "KW07-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum siedet Hexan später als Butan?",
+      "options": [
+        "Die längere Kette bietet mehr Kontaktfläche für van-der-Waals-Kräfte.",
+        "Hexan ist polar.",
+        "Hexan hat eine Doppelbindung."
+      ],
+      "answer": 0,
+      "hints": [
+        "Beide sind unpolar.",
+        "Verschieden ist die Kettenlänge.",
+        "Längere Kette, mehr Kontaktfläche."
+      ],
+      "solution": "Beide Stoffe sind unpolar. Die längere Hexankette bietet mehr Berührungsfläche, die van-der-Waals-Kräfte sind stärker — es siedet später.",
+      "tags": [
+        "pruefung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW07-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Wie viele Isomere hat C₅H₁₂?",
+      "answer": 3,
+      "tolerance": 0,
+      "hints": [
+        "Gerade Kette, einfach verzweigt, doppelt verzweigt.",
+        "Drei.",
+        "3."
+      ],
+      "solution": "C₅H₁₂ hat drei Isomere: Pentan, 2-Methylbutan und 2,2-Dimethylpropan.",
+      "tags": [
+        "pruefung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW07-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "multi",
+      "prompt": "44 g Propan C₃H₈ (M = 44 g/mol) verbrennen vollständig.",
+      "fields": [
+        {
+          "label": "Stoffmenge des Propans",
+          "answer": 1,
+          "unit_label": "mol",
+          "tolerance": 0.05
+        },
+        {
+          "label": "Stoffmenge des entstehenden CO₂",
+          "answer": 3,
+          "unit_label": "mol",
+          "tolerance": 0.1
+        },
+        {
+          "label": "Masse des entstehenden CO₂ (M = 44 g/mol)",
+          "answer": 132,
+          "unit_label": "g",
+          "tolerance": 2
+        }
+      ],
+      "hints": [
+        "n = 44 : 44 = 1 mol.",
+        "C₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O.",
+        "3 mol · 44 g/mol."
+      ],
+      "solution": "n(C₃H₈) = 1 mol\nn(CO₂) = 3 mol\nm(CO₂) = 132 g — aus 44 g Brennstoff werden 132 g CO₂.",
+      "tags": [
+        "pruefung",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "KW07-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum werden lange Kohlenwasserstoffketten gecrackt?",
+      "options": [
+        "Die Nachfrage nach kurzkettigem Benzin ist größer als sein Anteil im Rohöl.",
+        "Lange Ketten sind giftig.",
+        "Kurze Ketten verbrennen unvollständig."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welche Fraktion wird am meisten gebraucht?",
+        "Benzin.",
+        "Im Rohöl steckt davon zu wenig."
+      ],
+      "solution": "Rohöl enthält weniger kurzkettige Bestandteile, als für Kraftstoffe gebraucht werden. Beim Cracken werden lange Ketten in kürzere gespalten und so an die Nachfrage angepasst.",
+      "tags": [
+        "pruefung",
+        "technik",
+        "msa"
+      ]
+    },
+    {
+      "id": "KW07-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Welche Antwort auf „Erkläre, warum Octan bei Zimmertemperatur flüssig ist“ ist vollständig?",
+      "options": [
+        "Die acht C-Atome bieten große Kontaktfläche; die van-der-Waals-Kräfte sind so stark, dass der Siedepunkt bei 126 °C liegt.",
+        "Weil es acht C-Atome hat.",
+        "Weil es Benzin ist."
+      ],
+      "answer": 0,
+      "hints": [
+        "„Erkläre“ verlangt eine Ursache.",
+        "Die Kettenlänge allein ist nur eine Angabe.",
+        "Die Ursache sind die Anziehungskräfte."
+      ],
+      "solution": "Antwort 2 nennt nur eine Tatsache, Antwort 3 gar keine Ursache. Vollständig ist die Kette: Kettenlänge → Kontaktfläche → van-der-Waals-Kräfte → Siedetemperatur.",
+      "tags": [
+        "pruefung",
+        "operatoren",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW07-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum sind Alkane chemisch reaktionsträge?",
+      "options": [
+        "Die C–C- und C–H-Bindungen sind stabil und unpolar; es gibt keine Angriffspunkte.",
+        "Sie enthalten keinen Sauerstoff.",
+        "Sie sind zu leicht."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wo könnte ein Reaktionspartner angreifen?",
+        "Es gibt keine Teilladungen.",
+        "Und die Bindungen sind fest."
+      ],
+      "solution": "Die Bindungen im Alkan sind unpolar und stabil. Es gibt keine Teilladungen, an denen ein Partner angreifen könnte. Deshalb der alte Name „Paraffine“ — von parum affinis, „wenig verwandt“.",
+      "tags": [
+        "pruefung",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW07-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Ein Feuerzeug enthält 8 g Butan C₄H₁₀ (M = 58 g/mol).",
+      "fields": [
+        {
+          "label": "Stoffmenge des Butans",
+          "answer": 0.138,
+          "unit_label": "mol",
+          "tolerance": 0.01
+        },
+        {
+          "label": "Stoffmenge des entstehenden CO₂",
+          "answer": 0.552,
+          "unit_label": "mol",
+          "tolerance": 0.03
+        },
+        {
+          "label": "Masse des entstehenden CO₂ (M = 44 g/mol)",
+          "answer": 24.3,
+          "unit_label": "g",
+          "tolerance": 1
+        }
+      ],
+      "hints": [
+        "n = 8 : 58 = 0,138 mol.",
+        "Je Butan entstehen 4 CO₂.",
+        "m = 0,552 · 44."
+      ],
+      "solution": "n(C₄H₁₀) = 8 g : 58 g/mol = 0,138 mol\nn(CO₂) = 4 · 0,138 = 0,552 mol\nm(CO₂) = 24,3 g — dreimal so viel wie der Brennstoff wog.",
+      "tags": [
+        "pruefung",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH",
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "KW07-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum wiegt das entstehende CO₂ mehr als der verbrannte Kraftstoff?",
+      "options": [
+        "Der Sauerstoff aus der Luft wird gebunden und mitgewogen.",
+        "Die Masse nimmt bei jeder Reaktion zu.",
+        "Das ist ein Rechenfehler."
+      ],
+      "answer": 0,
+      "hints": [
+        "Woher kommt der Sauerstoff im CO₂?",
+        "Aus der Luft.",
+        "Er zählt zur Produktmasse dazu."
+      ],
+      "solution": "Der Kohlenstoff des Kraftstoffs bindet Sauerstoff aus der Luft. Dieser Sauerstoff ist im Produkt enthalten — deshalb ist die CO₂-Masse ein Vielfaches der Kraftstoffmasse. Massenerhaltung gilt trotzdem, wenn man die Luft mitrechnet.",
+      "misconceptions": [
+        {
+          "id": "masse_verschwindet",
+          "value": 1,
+          "feedback": "Die Masse nimmt nicht von selbst zu — der gebundene Luftsauerstoff kommt hinzu.",
+          "konzeptfehler": "masse_verschwindet"
+        }
+      ],
+      "tags": [
+        "pruefung",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "KW07-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Bewerte: „Erdgas ist ein sauberer Brennstoff.“",
+      "options": [
+        "Bezogen auf Ruß und Schwefel ja, bezogen auf CO₂ nur im Vergleich zu Kohle — kohlenstofffrei ist es nicht.",
+        "Richtig, Erdgas verbrennt rückstandsfrei.",
+        "Falsch, Erdgas ist der schmutzigste Brennstoff."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was entsteht bei jeder Verbrennung von CH₄?",
+        "CO₂ und Wasser.",
+        "Also ist eine Bewertung nur mit Kriterium möglich."
+      ],
+      "solution": "Erdgas verbrennt ohne Ruß und Schwefeldioxid und setzt je Energieeinheit weniger CO₂ frei als Kohle. Kohlenstofffrei ist es nicht — bei jeder Verbrennung entsteht CO₂. „Sauber“ ist ohne Kriterium keine Aussage.",
+      "tags": [
+        "pruefung",
+        "bewerten",
+        "msa"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 7,
+      "aufgaben": 22,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 7,
+      "aufgaben": 20,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 12,
+      "aufgaben": 12,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Die Reihe der Alkane",
+      "url": "https://learningapps.org/view5631633",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Die Destillation von Erdöl",
+      "url": "https://learningapps.org/view5291762",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Aufgaben zu Alkanen, Alkenen und Alkinen",
+      "url": "https://de.serlo.org/chemie/155791/aufgaben-zu-alkanen-alkenen-und-alkinen",
+      "typ": "app",
+      "quelle": "Serlo"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Reaktionen der Alkene — die Bromwasserprobe",
+      "url": "https://www.youtube.com/watch?v=UiEuF5vs1eA",
+      "quelle": "Rugby School Chemistry",
+      "stufe": "C",
+      "rolle": "Vertiefung: Nachweis der Doppelbindung",
+      "lumi": "https://app.lumi.education/run/E29XBy",
+      "embed": "https://app.lumi.education/api/v1/run/E29XBy/embed",
+      "protokoll": true
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 12,
+    "titel": "Der Weg zur organischen Chemie",
+    "seiten_von": 147,
+    "seiten_bis": 162,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "homologe Reihe"
+  }
+}

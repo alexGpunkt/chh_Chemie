@@ -1,0 +1,656 @@
+{
+  "unit": "KW-03",
+  "title": "Summenformel, Struktur- und Halbstrukturformel",
+  "leitidee": "B1",
+  "standards": [
+    "K1",
+    "K3.2",
+    "K3.4"
+  ],
+  "klasse": 9,
+  "wortspeicher": [
+    "die Summenformel",
+    "die Strukturformel",
+    "die Halbstrukturformel",
+    "das Kohlenstoffgerüst",
+    "die Bindungsstriche"
+  ],
+  "worterklaerungen": {
+    "Summenformel": "Sie nennt nur, wie viele Atome jeder Sorte enthalten sind.",
+    "Strukturformel": "Sie zeigt jede Bindung als Strich.",
+    "Halbstrukturformel": "Eine Kurzform: CH₃–CH₂–CH₃ statt aller Striche."
+  },
+  "can_do": {
+    "A": "Ich lese eine Strukturformel und zähle die Atome.",
+    "B": "Ich wandle zwischen Summen-, Struktur- und Halbstrukturformel um.",
+    "C": "Ich begründe, welche Schreibweise für welche Fragestellung geeignet ist."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Drei Schreibweisen",
+      "hinfuehrung": "Denselben Stoff kann man auf drei Arten aufschreiben.",
+      "erklaerung": [
+        "Die Summenformel zählt nur die Atome.",
+        "Die Strukturformel zeigt jede Bindung."
+      ],
+      "merke": "Summenformel zählt, Strukturformel zeigt den Bau.",
+      "beispiel": {
+        "titel": "Propan",
+        "aufgabe": "Drei Schreibweisen für denselben Stoff.",
+        "schritte": [
+          "Summenformel: C₃H₈",
+          "Halbstrukturformel: CH₃–CH₂–CH₃",
+          "Strukturformel: alle Striche einzeln"
+        ],
+        "ergebnis": "Alle drei meinen dasselbe Molekül."
+      },
+      "visual": {
+        "type": "struktur",
+        "kette": 3,
+        "gruppe": "keine",
+        "formel": "C3H8",
+        "alt": "Strukturformel von Propan."
+      }
+    },
+    "B": {
+      "titel": "Umwandeln zwischen den Formeln",
+      "hinfuehrung": "Jede Schreibweise lässt sich in die andere überführen. Der Weg von der Struktur zur Summenformel ist immer möglich — umgekehrt nicht immer eindeutig.",
+      "erklaerung": [
+        "Von der Strukturformel zur Summenformel: alle C-Atome und alle H-Atome zählen.",
+        "Von der Summenformel zur Halbstrukturformel: die Kette aufschreiben, jedem C-Atom die passende Zahl H-Atome geben.",
+        "In der Halbstrukturformel steht CH₃ für ein Kettenende und CH₂ für ein Kettenglied in der Mitte.",
+        "Wichtig: Aus der Summenformel folgt der Bau nicht eindeutig. C₄H₁₀ kann Butan oder Isobutan sein."
+      ],
+      "merke": "CH₃ am Ende, CH₂ in der Mitte — daraus baut sich jede Halbstrukturformel.",
+      "visual": {
+        "type": "struktur",
+        "kette": 4,
+        "gruppe": "keine",
+        "formel": "C4H10",
+        "alt": "Strukturformel von Butan."
+      }
+    },
+    "C": {
+      "titel": "Welche Schreibweise wofür",
+      "hinfuehrung": "Die drei Formeln sind nicht gleichwertig — jede beantwortet andere Fragen, und keine ist grundsätzlich die beste.",
+      "erklaerung": [
+        "Die Summenformel eignet sich für Massenberechnungen und Reaktionsgleichungen. Sie ist kurz und eindeutig zählbar.",
+        "Die Strukturformel zeigt, welches Atom an welchem hängt. Nur sie unterscheidet Isomere und zeigt funktionelle Gruppen.",
+        "Die Halbstrukturformel ist der Kompromiss: kurz genug für den Fließtext, ausführlich genug, um den Bau zu erkennen.",
+        "Für eine Reaktionsgleichung wird deshalb die Summenformel genommen, für die Frage nach Isomeren die Strukturformel."
+      ],
+      "merke": "Für die Bilanz die Summenformel, für den Bau die Strukturformel.",
+      "visual": {
+        "type": "struktur",
+        "kette": 5,
+        "gruppe": "keine",
+        "formel": "C5H12",
+        "alt": "Strukturformel von Pentan."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "CH₄ · CH₃–CH₃ · CH₃–CH₂–CH₃ · CH₃–CH₂–CH₂–CH₃"
+    ],
+    "saetze": [
+      "Summenformel: zählt Atome. Strukturformel: zeigt Bindungen.",
+      "CH₃ steht am Kettenende, CH₂ in der Mitte.",
+      "Aus der Summenformel folgt der Bau nicht eindeutig.",
+      "Für Reaktionsgleichungen die Summenformel verwenden."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Strukturformeln einfach erklärt",
+      "url": "https://www.youtube.com/watch?v=toQD3nPZQn4",
+      "quelle": "musstewissen Chemie",
+      "lumi": "https://app.lumi.education/run/xm6kHH",
+      "embed": "https://app.lumi.education/api/v1/run/xm6kHH/embed",
+      "stufe": "A",
+      "dauer_s": 419
+    },
+    {
+      "titel": "Strukturformeln lesen und Alkane benennen",
+      "url": "https://www.youtube.com/watch?v=X_hOPaMDaVY",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/QbeF1p",
+      "embed": "https://app.lumi.education/api/v1/run/QbeF1p/embed",
+      "stufe": "B",
+      "dauer_s": 311
+    },
+    {
+      "titel": "Lewis-Formeln zeichnen",
+      "url": "https://www.youtube.com/watch?v=eJEH63QszSQ",
+      "quelle": "Studyflix",
+      "lumi": "https://app.lumi.education/run/Mfm1tj",
+      "embed": "https://app.lumi.education/api/v1/run/Mfm1tj/embed",
+      "stufe": "C",
+      "dauer_s": 322
+    }
+  ],
+  "tasks": [
+    {
+      "id": "KW03-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "Wie viele C-Atome zeigt die Strukturformel von Propan?",
+      "answer": 3,
+      "tolerance": 0,
+      "visual": {
+        "type": "struktur",
+        "kette": 3,
+        "gruppe": "keine",
+        "alt": "Strukturformel von Propan mit drei C-Atomen."
+      },
+      "hints": [
+        "Zähle die C im Bild.",
+        "Es sind drei.",
+        "3."
+      ],
+      "solution": "Propan hat drei Kohlenstoffatome.",
+      "tags": [
+        "formeln"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW03-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Welche Summenformel gehört zu CH₃–CH₃?",
+      "options": [
+        "C₂H₆",
+        "C₂H₄",
+        "CH₆"
+      ],
+      "answer": 0,
+      "hints": [
+        "Zähle die C-Atome: zwei.",
+        "Zähle die H-Atome: 3 + 3 = 6.",
+        "C₂H₆."
+      ],
+      "solution": "CH₃–CH₃ enthält 2 C-Atome und 6 H-Atome: C₂H₆, also Ethan.",
+      "tags": [
+        "formeln"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "KW03-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie viele H-Atome zeigt CH₃–CH₂–CH₃?",
+      "answer": 8,
+      "tolerance": 0,
+      "hints": [
+        "3 + 2 + 3.",
+        "Zähle einzeln.",
+        "8."
+      ],
+      "solution": "3 + 2 + 3 = 8 Wasserstoffatome. Es ist Propan C₃H₈.",
+      "tags": [
+        "formeln"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "KW03-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Was bedeutet CH₃ am Ende einer Halbstrukturformel?",
+      "options": [
+        "Ein Kettenende mit drei H-Atomen.",
+        "Drei Kohlenstoffatome.",
+        "Eine Doppelbindung."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie viele Nachbarn hat ein C-Atom am Kettenende?",
+        "Einen.",
+        "Also drei Bindungen für Wasserstoff."
+      ],
+      "solution": "CH₃ bezeichnet ein Kohlenstoffatom am Kettenende mit drei Wasserstoffatomen.",
+      "misconceptions": [
+        {
+          "id": "summenformel_falsch_gelesen",
+          "value": 1,
+          "feedback": "Die 3 steht für die H-Atome, nicht für C-Atome.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "formeln"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "KW03-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welche Halbstrukturformel gehört zu Butan C₄H₁₀?",
+      "options": [
+        "CH₃–CH₂–CH₂–CH₃",
+        "CH₃–CH₃–CH₃–CH₃",
+        "CH₄–CH₄"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "struktur",
+        "kette": 4,
+        "gruppe": "keine",
+        "alt": "Strukturformel von Butan."
+      },
+      "hints": [
+        "Vier C-Atome in einer Kette.",
+        "Die Enden tragen CH₃, die Mitte CH₂.",
+        "CH₃–CH₂–CH₂–CH₃."
+      ],
+      "solution": "Zwei Kettenenden mit CH₃, zwei Mittelglieder mit CH₂: CH₃–CH₂–CH₂–CH₃. Probe: 3 + 2 + 2 + 3 = 10 H-Atome.",
+      "misconceptions": [
+        {
+          "id": "summenformel_falsch_gelesen",
+          "value": 1,
+          "feedback": "In der Kettenmitte sind nur zwei Bindungen für Wasserstoff frei — dort steht CH₂.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "formeln",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW03-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Wie viele H-Atome enthält CH₃–CH₂–CH₂–CH₂–CH₃?",
+      "answer": 12,
+      "tolerance": 0,
+      "hints": [
+        "3 + 2 + 2 + 2 + 3.",
+        "Zähle einzeln.",
+        "12."
+      ],
+      "solution": "3 + 2 + 2 + 2 + 3 = 12. Es ist Pentan C₅H₁₂.",
+      "tags": [
+        "formeln",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "KW03-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum steht in der Kettenmitte CH₂ und nicht CH₃?",
+      "options": [
+        "Ein mittleres C-Atom hat zwei Nachbarn; nur zwei Bindungen bleiben für Wasserstoff.",
+        "Weil es dann kürzer ist.",
+        "Weil in der Mitte weniger Platz ist."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie viele Bindungen bildet Kohlenstoff?",
+        "Vier.",
+        "Zwei gehen an die Nachbarn."
+      ],
+      "solution": "Kohlenstoff bildet vier Bindungen. In der Kettenmitte gehen zwei an die Nachbarn, zwei bleiben für Wasserstoff — deshalb CH₂.",
+      "tags": [
+        "formeln",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW03-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Gegeben ist die Halbstrukturformel CH₃–CH₂–CH₂–CH₂–CH₂–CH₃.",
+      "fields": [
+        {
+          "label": "Zahl der C-Atome",
+          "answer": 6,
+          "tolerance": 0
+        },
+        {
+          "label": "Zahl der H-Atome",
+          "answer": 14,
+          "tolerance": 0
+        }
+      ],
+      "hints": [
+        "Zähle die Gruppen: sechs.",
+        "3 + 2 + 2 + 2 + 2 + 3.",
+        "14."
+      ],
+      "solution": "6 C-Atome, 14 H-Atome — es ist Hexan C₆H₁₄. Probe: 2 · 6 + 2 = 14.",
+      "tags": [
+        "formeln",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW03-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Welche Formel eignet sich am besten für eine Reaktionsgleichung?",
+      "options": [
+        "die Summenformel",
+        "die Strukturformel",
+        "die Halbstrukturformel"
+      ],
+      "answer": 0,
+      "hints": [
+        "Was wird in einer Gleichung gebraucht?",
+        "Die Atomzahlen.",
+        "Die stehen in der Summenformel."
+      ],
+      "solution": "Für eine Reaktionsgleichung müssen Atome gezählt werden — dafür ist die Summenformel am kürzesten und eindeutig. Die Strukturformel würde die Gleichung unlesbar machen.",
+      "tags": [
+        "formeln",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "KW03-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Welche Formel zeigt, ob zwei Stoffe Isomere sind?",
+      "options": [
+        "die Strukturformel",
+        "die Summenformel",
+        "keine der beiden"
+      ],
+      "answer": 0,
+      "hints": [
+        "Isomere haben dieselbe Summenformel.",
+        "Also hilft sie nicht weiter.",
+        "Nur der Bau unterscheidet sie."
+      ],
+      "solution": "Isomere haben dieselbe Summenformel — sie kann sie also nicht unterscheiden. Nur die Strukturformel zeigt den unterschiedlichen Bau.",
+      "misconceptions": [
+        {
+          "id": "isomer_als_gleicher_stoff",
+          "value": 1,
+          "feedback": "Isomere haben dieselbe Summenformel. Sie unterscheidet die Stoffe gerade nicht.",
+          "konzeptfehler": "isomer_als_gleicher_stoff"
+        }
+      ],
+      "tags": [
+        "formeln",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW03-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum lässt sich aus der Summenformel C₄H₁₀ nicht eindeutig auf den Bau schließen?",
+      "options": [
+        "Es gibt zwei Isomere: geradkettiges Butan und verzweigtes Isobutan.",
+        "Die Formel ist falsch.",
+        "C₄H₁₀ existiert nicht."
+      ],
+      "answer": 0,
+      "hints": [
+        "Kann eine Kette aus vier C-Atomen auch verzweigt sein?",
+        "Ja.",
+        "Dann gibt es zwei Anordnungen."
+      ],
+      "solution": "Vier Kohlenstoffatome lassen sich als gerade Kette oder als verzweigte Anordnung verknüpfen. Beide haben C₄H₁₀, sind aber verschiedene Stoffe mit verschiedenen Siedetemperaturen.",
+      "tags": [
+        "formeln",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW03-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Wofür ist die Halbstrukturformel besser geeignet als die Strukturformel?",
+      "options": [
+        "Für den Fließtext — sie zeigt den Bau und ist trotzdem in einer Zeile schreibbar.",
+        "Für Massenberechnungen.",
+        "Für nichts, sie ist immer schlechter."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie viel Platz braucht eine Strukturformel?",
+        "Viel — sie ist zweidimensional.",
+        "Die Halbstrukturformel passt in eine Zeile."
+      ],
+      "solution": "Die Halbstrukturformel zeigt das Kohlenstoffgerüst und passt trotzdem in eine Textzeile. Für Massenberechnungen ist die Summenformel praktischer, für Feinheiten des Baus die vollständige Strukturformel.",
+      "tags": [
+        "formeln",
+        "bewerten",
+        "msa"
+      ]
+    },
+    {
+      "id": "KW03-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Ein Molekül hat die Halbstrukturformel CH₃–CH₂–CH₂–CH₂–CH₂–CH₂–CH₃. (C = 12, H = 1 g/mol)",
+      "fields": [
+        {
+          "label": "Zahl der C-Atome",
+          "answer": 7,
+          "tolerance": 0
+        },
+        {
+          "label": "Zahl der H-Atome",
+          "answer": 16,
+          "tolerance": 0
+        },
+        {
+          "label": "molare Masse",
+          "answer": 100,
+          "unit_label": "g/mol",
+          "tolerance": 1
+        }
+      ],
+      "hints": [
+        "Sieben Gruppen.",
+        "2 · 7 + 2 = 16.",
+        "M = 7 · 12 + 16 = 100 g/mol."
+      ],
+      "solution": "Heptan C₇H₁₆\nM = 84 + 16 = 100 g/mol",
+      "tags": [
+        "formeln",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG",
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "KW03-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler schreibt CH₃–CH₃–CH₃ für Propan. Wo liegt der Fehler?",
+      "options": [
+        "Das mittlere C-Atom hat zwei Nachbarn und kann nur zwei H-Atome tragen — richtig ist CH₃–CH₂–CH₃.",
+        "Nichts, die Formel ist richtig.",
+        "Propan hat vier C-Atome."
+      ],
+      "answer": 0,
+      "hints": [
+        "Zähle die Bindungen am mittleren C-Atom.",
+        "Zwei Nachbarn plus drei H wären fünf Bindungen.",
+        "Kohlenstoff bildet nur vier."
+      ],
+      "solution": "Das mittlere C-Atom hätte mit CH₃ fünf Bindungen — zwei zu den Nachbarn und drei zu Wasserstoff. Kohlenstoff bildet aber nur vier. Richtig ist CH₃–CH₂–CH₃.",
+      "misconceptions": [
+        {
+          "id": "summenformel_falsch_gelesen",
+          "value": 1,
+          "feedback": "Zähle die Bindungen: Das mittlere C-Atom hätte fünf. Kohlenstoff bildet vier.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "formeln",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 10,
+      "aufgaben": 19,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 8,
+      "aufgaben": 19,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 8,
+      "aufgaben": 16,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Homologe Reihe der Alkane (Summen- & Strukturformeln)",
+      "url": "https://learningapps.org/view28346253",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Zuordnungsspiel der Alkane",
+      "url": "https://learningapps.org/view15658759",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 12,
+    "titel": "Der Weg zur organischen Chemie",
+    "seiten_von": 147,
+    "seiten_bis": 162,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Summenformel"
+  }
+}

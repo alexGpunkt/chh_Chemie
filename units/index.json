@@ -1,0 +1,564 @@
+{
+  "_hinweis": "Wird von pruefung.html, arbeitsblatt.html, matrix.html und buch.js gelesen. Neue Einheit hier eintragen.",
+  "_grundlage": "Schulinternes Curriculum Chemie 7-10 (Campus Hannah Hoech) und Rahmenlehrplan 1-10 Berlin/Brandenburg, Teil C Chemie (2015). Die zwoelf Bereiche entsprechen den zwoelf Unterrichtsreihen des SchiC bzw. den Themenfeldern 3.1 bis 3.12 des Teil C.",
+  "_leitideen": {
+    "B1": "Stoff-Teilchen-Konzept",
+    "B2": "Struktur-Eigenschafts-Konzept",
+    "B3": "Konzept der chemischen Reaktion",
+    "B4": "Energie-Konzept"
+  },
+  "bereiche": [
+    {
+      "code": "fc",
+      "title": "Faszination Chemie",
+      "klasse": 7,
+      "themenfeld": "3.1",
+      "einheiten": [
+        {
+          "id": "fc-01",
+          "title": "Sicher im Chemieraum",
+          "leitidee": "B1",
+          "aufgaben": 14
+        },
+        {
+          "id": "fc-02",
+          "title": "Der Gasbrenner",
+          "leitidee": "B4",
+          "aufgaben": 14
+        },
+        {
+          "id": "fc-03",
+          "title": "Stoffe und ihre Eigenschaften",
+          "leitidee": "B1",
+          "aufgaben": 14
+        },
+        {
+          "id": "fc-04",
+          "title": "Reinstoff, Gemisch und Trennverfahren",
+          "leitidee": "B1",
+          "aufgaben": 14
+        },
+        {
+          "id": "fc-05",
+          "title": "Chemische Reaktion erkennen",
+          "leitidee": "B3",
+          "aufgaben": 14
+        },
+        {
+          "id": "fc-06",
+          "title": "Das Feuerdreieck: Brennen und Löschen",
+          "leitidee": "B4",
+          "aufgaben": 14
+        },
+        {
+          "id": "fc-07",
+          "title": "Oxidation: Verbrennungsprodukte sind Oxide",
+          "leitidee": "B3",
+          "aufgaben": 14
+        },
+        {
+          "id": "fc-08",
+          "title": "Wortgleichung, Massenerhaltung & Prüfungstraining",
+          "leitidee": "B3",
+          "aufgaben": 14
+        }
+      ]
+    },
+    {
+      "code": "ps",
+      "title": "Das Periodensystem der Elemente",
+      "klasse": 7,
+      "themenfeld": "3.2",
+      "einheiten": [
+        {
+          "id": "ps-01",
+          "title": "Aufbau des PSE: Perioden und Gruppen",
+          "leitidee": "B1",
+          "aufgaben": 14
+        },
+        {
+          "id": "ps-02",
+          "title": "Modelle in der Chemie",
+          "leitidee": "B1",
+          "aufgaben": 14
+        },
+        {
+          "id": "ps-03",
+          "title": "Von Demokrit zu Dalton",
+          "leitidee": "B1",
+          "aufgaben": 14
+        },
+        {
+          "id": "ps-04",
+          "title": "Kern-Hülle-Modell und Streuversuch",
+          "leitidee": "B1",
+          "aufgaben": 14
+        },
+        {
+          "id": "ps-05",
+          "title": "Proton, Neutron, Elektron — die Ordnungszahl",
+          "leitidee": "B1",
+          "aufgaben": 14
+        },
+        {
+          "id": "ps-06",
+          "title": "Atommasse und relative Atommasse",
+          "leitidee": "B1",
+          "aufgaben": 14
+        },
+        {
+          "id": "ps-07",
+          "title": "Schalenmodell und Außenelektronen",
+          "leitidee": "B2",
+          "aufgaben": 14
+        },
+        {
+          "id": "ps-08",
+          "title": "Elementfamilien & Prüfungstraining",
+          "leitidee": "B2",
+          "aufgaben": 14
+        }
+      ]
+    },
+    {
+      "code": "ga",
+      "title": "Gase",
+      "klasse": 7,
+      "themenfeld": "3.3",
+      "einheiten": [
+        {
+          "id": "ga-01",
+          "title": "Luft ist ein Gasgemisch",
+          "leitidee": "B1",
+          "aufgaben": 14
+        },
+        {
+          "id": "ga-02",
+          "title": "Nachweise: Sauerstoff, Wasserstoff, Kohlenstoffdioxid",
+          "leitidee": "B3",
+          "aufgaben": 14
+        },
+        {
+          "id": "ga-03",
+          "title": "Elektronenpaarbindung und Oktettregel",
+          "leitidee": "B2",
+          "aufgaben": 14
+        },
+        {
+          "id": "ga-04",
+          "title": "Treibhausgase, Luftschadstoffe, Edelgase",
+          "leitidee": "B3",
+          "aufgaben": 14
+        },
+        {
+          "id": "ga-05",
+          "title": "Anwenden & Prüfungstraining Gase",
+          "leitidee": "B3",
+          "aufgaben": 14
+        }
+      ]
+    },
+    {
+      "code": "wa",
+      "title": "Wasser — eine Verbindung",
+      "klasse": 8,
+      "themenfeld": "3.4",
+      "einheiten": [
+        {
+          "id": "wa-01",
+          "title": "Eigenschaften des Wassers",
+          "leitidee": "B2",
+          "aufgaben": 14
+        },
+        {
+          "id": "wa-02",
+          "title": "Analyse und Synthese von Wasser",
+          "leitidee": "B3",
+          "aufgaben": 14
+        },
+        {
+          "id": "wa-03",
+          "title": "Von der Wortgleichung zur Reaktionsgleichung",
+          "leitidee": "B3",
+          "aufgaben": 14
+        },
+        {
+          "id": "wa-04",
+          "title": "Elektronegativität, polare Bindung, Dipol",
+          "leitidee": "B2",
+          "aufgaben": 14
+        },
+        {
+          "id": "wa-05",
+          "title": "Wasser als Lösungsmittel",
+          "leitidee": "B2",
+          "aufgaben": 14
+        },
+        {
+          "id": "wa-06",
+          "title": "Anwenden & Prüfungstraining Wasser",
+          "leitidee": "B3",
+          "aufgaben": 14
+        }
+      ]
+    },
+    {
+      "code": "sz",
+      "title": "Salze",
+      "klasse": 8,
+      "themenfeld": "3.5",
+      "einheiten": [
+        {
+          "id": "sz-01",
+          "title": "Ionen: aus Atomen werden geladene Teilchen",
+          "leitidee": "B1",
+          "aufgaben": 14
+        },
+        {
+          "id": "sz-02",
+          "title": "Das Ionengitter",
+          "leitidee": "B2",
+          "aufgaben": 14
+        },
+        {
+          "id": "sz-03",
+          "title": "Verhältnisformeln aufstellen",
+          "leitidee": "B1",
+          "aufgaben": 14
+        },
+        {
+          "id": "sz-04",
+          "title": "Löslichkeit, Leitfähigkeit, Kristalle",
+          "leitidee": "B2",
+          "aufgaben": 14
+        },
+        {
+          "id": "sz-05",
+          "title": "Anwenden & Prüfungstraining Salze",
+          "leitidee": "B2",
+          "aufgaben": 14
+        }
+      ]
+    },
+    {
+      "code": "me",
+      "title": "Metalle",
+      "klasse": 8,
+      "themenfeld": "3.6",
+      "einheiten": [
+        {
+          "id": "me-01",
+          "title": "Eigenschaften der Metalle",
+          "leitidee": "B2",
+          "aufgaben": 14
+        },
+        {
+          "id": "me-02",
+          "title": "Metallbindung und Elektronengas",
+          "leitidee": "B2",
+          "aufgaben": 14
+        },
+        {
+          "id": "me-03",
+          "title": "Edle und unedle Metalle",
+          "leitidee": "B3",
+          "aufgaben": 14
+        },
+        {
+          "id": "me-04",
+          "title": "Legierungen und Gebrauchsmetalle",
+          "leitidee": "B2",
+          "aufgaben": 14
+        },
+        {
+          "id": "me-05",
+          "title": "Redoxreaktionen: Oxidation und Reduktion",
+          "leitidee": "B3",
+          "aufgaben": 14
+        },
+        {
+          "id": "me-06",
+          "title": "Erze, Reduktion und der Hochofen",
+          "leitidee": "B4",
+          "aufgaben": 14
+        },
+        {
+          "id": "me-07",
+          "title": "Anwenden & Prüfungstraining Metalle",
+          "leitidee": "B3",
+          "aufgaben": 14
+        }
+      ]
+    },
+    {
+      "code": "qb",
+      "title": "Quantitative Betrachtungen",
+      "klasse": 9,
+      "themenfeld": "3.7",
+      "einheiten": [
+        {
+          "id": "qb-01",
+          "title": "Atommasse, Molekülmasse, molare Masse",
+          "leitidee": "B1",
+          "aufgaben": 14
+        },
+        {
+          "id": "qb-02",
+          "title": "Die Stoffmenge n und das Mol",
+          "leitidee": "B1",
+          "aufgaben": 14
+        },
+        {
+          "id": "qb-03",
+          "title": "Rechnen mit n = m : M",
+          "leitidee": "B1",
+          "aufgaben": 14
+        },
+        {
+          "id": "qb-04",
+          "title": "Molares Volumen und Gasvolumina",
+          "leitidee": "B1",
+          "aufgaben": 14
+        },
+        {
+          "id": "qb-05",
+          "title": "Anwenden & Prüfungstraining Stöchiometrie",
+          "leitidee": "B3",
+          "aufgaben": 14
+        }
+      ]
+    },
+    {
+      "code": "sl",
+      "title": "Säuren und Laugen",
+      "klasse": 9,
+      "themenfeld": "3.8",
+      "einheiten": [
+        {
+          "id": "sl-01",
+          "title": "Säuren im Alltag — Eigenschaften und Sicherheit",
+          "leitidee": "B2",
+          "aufgaben": 14
+        },
+        {
+          "id": "sl-02",
+          "title": "Indikatoren und die pH-Skala",
+          "leitidee": "B2",
+          "aufgaben": 14
+        },
+        {
+          "id": "sl-03",
+          "title": "Saure Lösungen: Protolyse",
+          "leitidee": "B3",
+          "aufgaben": 14
+        },
+        {
+          "id": "sl-04",
+          "title": "Laugen: Hydroxid-Ionen und Basen",
+          "leitidee": "B3",
+          "aufgaben": 14
+        },
+        {
+          "id": "sl-05",
+          "title": "Säuren und Laugen aus Oxiden",
+          "leitidee": "B3",
+          "aufgaben": 14
+        },
+        {
+          "id": "sl-06",
+          "title": "Neutralisation und Salzbildung",
+          "leitidee": "B3",
+          "aufgaben": 14
+        },
+        {
+          "id": "sl-07",
+          "title": "Anwenden & Prüfungstraining Säuren",
+          "leitidee": "B3",
+          "aufgaben": 14
+        }
+      ]
+    },
+    {
+      "code": "kw",
+      "title": "Kohlenwasserstoffe",
+      "klasse": 9,
+      "themenfeld": "3.9",
+      "einheiten": [
+        {
+          "id": "kw-01",
+          "title": "Organisch oder anorganisch?",
+          "leitidee": "B1",
+          "aufgaben": 14
+        },
+        {
+          "id": "kw-02",
+          "title": "Die homologe Reihe der Alkane",
+          "leitidee": "B1",
+          "aufgaben": 14
+        },
+        {
+          "id": "kw-03",
+          "title": "Summenformel, Struktur- und Halbstrukturformel",
+          "leitidee": "B1",
+          "aufgaben": 14
+        },
+        {
+          "id": "kw-04",
+          "title": "Isomerie und Nomenklatur",
+          "leitidee": "B2",
+          "aufgaben": 14
+        },
+        {
+          "id": "kw-05",
+          "title": "Siedetemperaturen und van-der-Waals-Kräfte",
+          "leitidee": "B2",
+          "aufgaben": 14
+        },
+        {
+          "id": "kw-06",
+          "title": "Verbrennung von Kohlenwasserstoffen",
+          "leitidee": "B3",
+          "aufgaben": 14
+        },
+        {
+          "id": "kw-07",
+          "title": "Anwenden & Prüfungstraining Alkane",
+          "leitidee": "B3",
+          "aufgaben": 14
+        }
+      ]
+    },
+    {
+      "code": "al",
+      "title": "Alkohole",
+      "klasse": 10,
+      "themenfeld": "3.10",
+      "einheiten": [
+        {
+          "id": "al-01",
+          "title": "Alkohole im Alltag — die Hydroxylgruppe",
+          "leitidee": "B2",
+          "aufgaben": 14
+        },
+        {
+          "id": "al-02",
+          "title": "Homologe Reihe und Nomenklatur der Alkanole",
+          "leitidee": "B1",
+          "aufgaben": 14
+        },
+        {
+          "id": "al-03",
+          "title": "Struktur und Eigenschaften der Alkohole",
+          "leitidee": "B2",
+          "aufgaben": 14
+        },
+        {
+          "id": "al-04",
+          "title": "Mehrwertige Alkohole: Glycol und Glycerin",
+          "leitidee": "B2",
+          "aufgaben": 14
+        },
+        {
+          "id": "al-05",
+          "title": "Primär, sekundär, tertiär — Oxidationsprodukte",
+          "leitidee": "B3",
+          "aufgaben": 14
+        },
+        {
+          "id": "al-06",
+          "title": "Gärung, Destillation und Promillerechnung",
+          "leitidee": "B3",
+          "aufgaben": 14
+        },
+        {
+          "id": "al-07",
+          "title": "Anwenden & Prüfungstraining Alkohole",
+          "leitidee": "B2",
+          "aufgaben": 14
+        }
+      ]
+    },
+    {
+      "code": "os",
+      "title": "Organische Säuren",
+      "klasse": 10,
+      "themenfeld": "3.11",
+      "einheiten": [
+        {
+          "id": "os-01",
+          "title": "Die Carboxygruppe im Alltag",
+          "leitidee": "B2",
+          "aufgaben": 14
+        },
+        {
+          "id": "os-02",
+          "title": "Homologe Reihe und Nomenklatur der Alkansäuren",
+          "leitidee": "B1",
+          "aufgaben": 14
+        },
+        {
+          "id": "os-03",
+          "title": "Struktur, Eigenschaften und Salze",
+          "leitidee": "B2",
+          "aufgaben": 14
+        },
+        {
+          "id": "os-04",
+          "title": "Fruchtsäuren, Dicarbon- und Aminosäuren",
+          "leitidee": "B2",
+          "aufgaben": 14
+        },
+        {
+          "id": "os-05",
+          "title": "Anwenden & Prüfungstraining Carbonsäuren",
+          "leitidee": "B3",
+          "aufgaben": 14
+        }
+      ]
+    },
+    {
+      "code": "es",
+      "title": "Ester und Makromoleküle",
+      "klasse": 10,
+      "themenfeld": "3.12",
+      "einheiten": [
+        {
+          "id": "es-01",
+          "title": "Veresterung: aus Säure und Alkohol",
+          "leitidee": "B3",
+          "aufgaben": 14
+        },
+        {
+          "id": "es-02",
+          "title": "Ester im Alltag: Aromen und Lösungsmittel",
+          "leitidee": "B2",
+          "aufgaben": 14
+        },
+        {
+          "id": "es-03",
+          "title": "Fette als Glyceride",
+          "leitidee": "B2",
+          "aufgaben": 14
+        },
+        {
+          "id": "es-04",
+          "title": "Verseifung und die Wirkung der Seife",
+          "leitidee": "B3",
+          "aufgaben": 14
+        },
+        {
+          "id": "es-05",
+          "title": "Polyester und Makromoleküle",
+          "leitidee": "B2",
+          "aufgaben": 14
+        },
+        {
+          "id": "es-06",
+          "title": "Anwenden & Prüfungstraining Ester",
+          "leitidee": "B3",
+          "aufgaben": 14
+        }
+      ]
+    }
+  ]
+}

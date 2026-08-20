@@ -1,0 +1,699 @@
+{
+  "unit": "ME-01",
+  "title": "Eigenschaften der Metalle",
+  "leitidee": "B2",
+  "standards": [
+    "K1",
+    "K2.1",
+    "K2.4"
+  ],
+  "klasse": 8,
+  "wortspeicher": [
+    "der Metallglanz",
+    "die elektrische Leitfähigkeit",
+    "die Wärmeleitfähigkeit",
+    "verformbar",
+    "die Dichte",
+    "das Schwermetall",
+    "das Leichtmetall"
+  ],
+  "worterklaerungen": {
+    "Metallglanz": "Metalle spiegeln Licht an einer frischen Schnittfläche.",
+    "verformbar": "Lässt sich biegen und walzen, ohne zu brechen.",
+    "Leichtmetall": "Ein Metall mit einer Dichte unter 5 g/cm³."
+  },
+  "can_do": {
+    "A": "Ich nenne drei Eigenschaften, die alle Metalle gemeinsam haben.",
+    "B": "Ich vergleiche Metalle über Dichte, Schmelztemperatur und Leitfähigkeit.",
+    "C": "Ich wähle für eine Anwendung ein geeignetes Metall aus und begründe die Wahl."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Was alle Metalle können",
+      "hinfuehrung": "Metalle haben gemeinsame Eigenschaften.",
+      "erklaerung": [
+        "Sie glänzen und leiten Strom.",
+        "Sie leiten Wärme und lassen sich verformen."
+      ],
+      "merke": "Glänzen, leiten, verformbar — das haben alle Metalle gemeinsam.",
+      "beispiel": {
+        "titel": "Ein Kupferdraht",
+        "aufgabe": "Warum eignet sich Kupfer für Kabel?",
+        "schritte": [
+          "Es leitet den Strom sehr gut.",
+          "Es lässt sich zu Draht ziehen."
+        ],
+        "ergebnis": "Beide Eigenschaften braucht ein Kabel."
+      },
+      "visual": {
+        "type": "teilchen",
+        "zustand": "fest",
+        "art": "element",
+        "alt": "Teilchenmodell eines Metalls im festen Zustand."
+      }
+    },
+    "B": {
+      "titel": "Metalle unterscheiden sich",
+      "hinfuehrung": "Die gemeinsamen Eigenschaften sagen noch nicht, welches Metall für welchen Zweck taugt. Dafür braucht es Zahlen.",
+      "erklaerung": [
+        "Dichte: Aluminium 2,7 g/cm³ ist ein Leichtmetall, Blei 11,3 g/cm³ ein Schwermetall. Die Grenze liegt bei 5 g/cm³.",
+        "Schmelztemperatur: Quecksilber ist bei Zimmertemperatur flüssig (−39 °C), Wolfram schmilzt erst bei 3422 °C.",
+        "Leitfähigkeit: Silber leitet am besten, dicht gefolgt von Kupfer. Für Kabel wird trotzdem Kupfer genommen — der Preis entscheidet.",
+        "Härte und Verformbarkeit unterscheiden sich ebenfalls stark: Gold lässt sich zu hauchdünner Folie schlagen, Chrom ist sehr hart."
+      ],
+      "merke": "Alle Metalle leiten — wie gut, entscheidet über den Einsatz.",
+      "visual": {
+        "type": "diagramm",
+        "titel": "Dichten einiger Metalle",
+        "xtitel": "Metall (1 Al · 2 Fe · 3 Cu · 4 Pb)",
+        "ytitel": "Dichte in g/cm³",
+        "punkte": [
+          [
+            1,
+            2.7,
+            "Al"
+          ],
+          [
+            2,
+            7.9,
+            "Fe"
+          ],
+          [
+            3,
+            8.9,
+            "Cu"
+          ],
+          [
+            4,
+            11.3,
+            "Pb"
+          ]
+        ],
+        "linie": false,
+        "ymin": 0,
+        "ymax": 13,
+        "alt": "Dichten von Aluminium, Eisen, Kupfer und Blei im Vergleich."
+      }
+    },
+    "C": {
+      "titel": "Das passende Metall wählen",
+      "hinfuehrung": "Für jede Anwendung entscheidet eine andere Eigenschaft. Eine Begründung ohne Bezug auf den Zweck ist keine.",
+      "erklaerung": [
+        "Flugzeugbau: geringe Dichte bei ausreichender Festigkeit — Aluminium und seine Legierungen.",
+        "Stromkabel: hohe Leitfähigkeit bei vertretbarem Preis — Kupfer. In Überlandleitungen dagegen Aluminium, weil dort das Gewicht zählt.",
+        "Kochtopf: gute Wärmeleitfähigkeit und Beständigkeit — Edelstahl mit Aluminiumboden.",
+        "Zusätzlich zu bedenken: Korrosionsbeständigkeit, Preis, Verfügbarkeit und Recyclingfähigkeit. Ein Metall ist nie „das beste“, sondern das beste für einen Zweck."
+      ],
+      "merke": "Erst den Zweck nennen, dann die entscheidende Eigenschaft, dann das Metall.",
+      "visual": {
+        "type": "animation",
+        "name": "elektronengas",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "ρ = m : V"
+    ],
+    "saetze": [
+      "Alle Metalle: Glanz, elektrische und Wärmeleitfähigkeit, Verformbarkeit.",
+      "Leichtmetall unter 5 g/cm³, Schwermetall darüber.",
+      "Dichten: Al 2,7 · Fe 7,9 · Cu 8,9 · Pb 11,3 g/cm³.",
+      "Bestes Metall gibt es nicht — nur das beste für einen Zweck."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Metalle — Eigenschaften und Aufbau",
+      "url": "https://www.youtube.com/watch?v=ONZOXixtBGA",
+      "quelle": "Biologie und Chemie Schule",
+      "lumi": "https://app.lumi.education/run/JeLv5G",
+      "embed": "https://app.lumi.education/api/v1/run/JeLv5G/embed",
+      "stufe": "B",
+      "dauer_s": 169
+    },
+    {
+      "titel": "Metalle und Halbmetalle im Periodensystem",
+      "url": "https://www.youtube.com/watch?v=i2dXCe1I9Ws",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/oLk10I",
+      "embed": "https://app.lumi.education/api/v1/run/oLk10I/embed",
+      "stufe": "A",
+      "dauer_s": 328
+    }
+  ],
+  "tasks": [
+    {
+      "id": "ME01-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welche Eigenschaft haben alle Metalle?",
+      "options": [
+        "Sie leiten den elektrischen Strom.",
+        "Sie sind alle silbrig.",
+        "Sie sind alle schwer."
+      ],
+      "answer": 0,
+      "hints": [
+        "Kupfer ist rötlich, Gold gelb.",
+        "Blei ist schwer, Aluminium leicht.",
+        "Aber alle leiten Strom."
+      ],
+      "solution": "Alle Metalle leiten den elektrischen Strom. Farbe und Dichte sind dagegen sehr verschieden.",
+      "misconceptions": [
+        {
+          "id": "verallgemeinert",
+          "value": 1,
+          "feedback": "Kupfer ist rötlich, Gold gelb. Die Farbe ist keine gemeinsame Eigenschaft."
+        }
+      ],
+      "tags": [
+        "metalle"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "ME01-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Ein Aluminiumblock hat 20 cm³ und die Dichte 2,7 g/cm³. Welche Masse hat er?",
+      "answer": 54,
+      "unit_label": "g",
+      "tolerance": 0.5,
+      "hints": [
+        "m = ρ · V.",
+        "2,7 · 20.",
+        "54 g."
+      ],
+      "solution": "m = 2,7 g/cm³ · 20 cm³ = 54 g",
+      "misconceptions": [
+        {
+          "id": "dichte_geteilt_statt_mal",
+          "value": 7.41,
+          "feedback": "Aus Dichte und Volumen wird die Masse durch Multiplizieren."
+        }
+      ],
+      "tags": [
+        "metalle",
+        "rechnen"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "ME01-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum wird Kupfer für Stromkabel verwendet?",
+      "options": [
+        "Es leitet den Strom sehr gut.",
+        "Es ist besonders schwer.",
+        "Es ist besonders billig."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was muss ein Kabel können?",
+        "Strom leiten.",
+        "Kupfer leitet sehr gut."
+      ],
+      "solution": "Kupfer leitet den Strom sehr gut und lässt sich zu Draht ziehen. Beides braucht ein Kabel.",
+      "tags": [
+        "metalle"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "ME01-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Aluminium hat 2,7 g/cm³, Blei 11,3 g/cm³. Welches ist ein Leichtmetall?",
+      "options": [
+        "Aluminium",
+        "Blei",
+        "beide"
+      ],
+      "answer": 0,
+      "hints": [
+        "Die Grenze liegt bei 5 g/cm³.",
+        "2,7 liegt darunter.",
+        "Aluminium."
+      ],
+      "solution": "Leichtmetalle haben eine Dichte unter 5 g/cm³. Aluminium mit 2,7 g/cm³ gehört dazu, Blei mit 11,3 g/cm³ nicht.",
+      "tags": [
+        "metalle"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "ME01-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "Ein Eisenwürfel mit 3 cm Kantenlänge wiegt 213,3 g. Wie groß ist die Dichte?",
+      "answer": 7.9,
+      "unit_label": "g/cm³",
+      "tolerance": 0.1,
+      "hints": [
+        "Erst das Volumen: 3 · 3 · 3.",
+        "27 cm³.",
+        "213,3 : 27."
+      ],
+      "solution": "V = 27 cm³, ρ = 213,3 g : 27 cm³ = 7,9 g/cm³ — das ist Eisen.",
+      "misconceptions": [
+        {
+          "id": "volumen_als_flaeche",
+          "value": 23.7,
+          "feedback": "Ein Würfel hat das Volumen a · a · a = 27 cm³."
+        }
+      ],
+      "tags": [
+        "metalle",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "ME01-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum werden Überlandleitungen aus Aluminium statt aus Kupfer gebaut?",
+      "options": [
+        "Aluminium ist viel leichter; die Masten müssten sonst deutlich stärker sein.",
+        "Aluminium leitet besser als Kupfer.",
+        "Aluminium rostet nicht."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ist bei einer Freileitung das Problem?",
+        "Das Gewicht zwischen den Masten.",
+        "Aluminium hat weniger als ein Drittel der Dichte von Kupfer."
+      ],
+      "solution": "Kupfer leitet zwar besser, ist aber mehr als dreimal so dicht. Bei einer Freileitung entscheidet das Gewicht — deshalb Aluminium, mit etwas größerem Querschnitt.",
+      "misconceptions": [
+        {
+          "id": "verallgemeinert",
+          "value": 1,
+          "feedback": "Kupfer leitet besser als Aluminium. Den Ausschlag gibt hier das Gewicht."
+        }
+      ],
+      "tags": [
+        "metalle",
+        "bewerten",
+        "bbr"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "ME01-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum fühlt sich ein Metallgriff kälter an als ein Holzgriff bei gleicher Temperatur?",
+      "options": [
+        "Metall leitet die Wärme schneller von der Hand weg.",
+        "Metall ist tatsächlich kälter.",
+        "Holz erzeugt Wärme."
+      ],
+      "answer": 0,
+      "hints": [
+        "Beide haben dieselbe Temperatur.",
+        "Was unterscheidet sie?",
+        "Die Wärmeleitfähigkeit."
+      ],
+      "solution": "Beide haben dieselbe Temperatur. Metall leitet die Wärme aber viel schneller von der Hand weg — deshalb fühlt es sich kälter an. Was du spürst, ist der Wärmestrom, nicht die Temperatur.",
+      "misconceptions": [
+        {
+          "id": "teilchen_traegt_stoffeigenschaft",
+          "value": 1,
+          "feedback": "Beide Gegenstände haben dieselbe Temperatur. Verschieden ist die Wärmeleitfähigkeit.",
+          "konzeptfehler": "teilchen_traegt_stoffeigenschaft"
+        }
+      ],
+      "tags": [
+        "metalle",
+        "bbr"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "ME01-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Ein Bauteil aus Aluminium (2,7 g/cm³) soll durch ein gleich großes aus Eisen (7,9 g/cm³) ersetzt werden. Das Volumen beträgt 350 cm³.",
+      "fields": [
+        {
+          "label": "Masse aus Aluminium",
+          "answer": 945,
+          "unit_label": "g",
+          "tolerance": 5
+        },
+        {
+          "label": "Masse aus Eisen",
+          "answer": 2765,
+          "unit_label": "g",
+          "tolerance": 10
+        },
+        {
+          "label": "Mehrgewicht in Prozent",
+          "answer": 192.6,
+          "unit_label": "%",
+          "tolerance": 3
+        }
+      ],
+      "hints": [
+        "m = ρ · V für beide.",
+        "2,7 · 350 und 7,9 · 350.",
+        "Mehrgewicht = (2765 − 945) : 945 · 100 %."
+      ],
+      "solution": "Al: 2,7 · 350 = 945 g\nFe: 7,9 · 350 = 2765 g\nMehrgewicht: 1820 : 945 = 1,926 → 192,6 %",
+      "tags": [
+        "metalle",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "ME01-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum wird für Glühwendel Wolfram verwendet?",
+      "options": [
+        "Es hat mit 3422 °C die höchste Schmelztemperatur aller Metalle.",
+        "Es leitet am besten.",
+        "Es ist am billigsten."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was muss ein Glühdraht aushalten?",
+        "Sehr hohe Temperaturen.",
+        "Er darf nicht schmelzen."
+      ],
+      "solution": "Ein Glühdraht wird über 2000 °C heiß. Nur Wolfram mit einer Schmelztemperatur von 3422 °C hält das aus — Leitfähigkeit und Preis sind hier zweitrangig.",
+      "tags": [
+        "metalle",
+        "bewerten",
+        "bbr"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "ME01-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "assign",
+      "prompt": "Ordne jeder Anwendung die entscheidende Eigenschaft zu.",
+      "slots": [
+        "Flugzeugbau",
+        "Stromkabel",
+        "Kochtopfboden"
+      ],
+      "values": [
+        "geringe Dichte",
+        "hohe elektrische Leitfähigkeit",
+        "hohe Wärmeleitfähigkeit"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Für jede Anwendung zählt etwas anderes.",
+        "Im Flugzeug zählt das Gewicht.",
+        "Im Topfboden die Wärme."
+      ],
+      "solution": "Flugzeug → geringe Dichte.\nKabel → elektrische Leitfähigkeit.\nTopfboden → Wärmeleitfähigkeit.",
+      "tags": [
+        "metalle",
+        "bewerten",
+        "bbr"
+      ]
+    },
+    {
+      "id": "ME01-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Silber leitet besser als Kupfer. Warum werden Hausleitungen trotzdem aus Kupfer gebaut?",
+      "options": [
+        "Der geringe Vorteil rechtfertigt den weit höheren Preis nicht.",
+        "Silber leitet in Wirklichkeit schlechter.",
+        "Silber ist zu weich."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie groß ist der Unterschied in der Leitfähigkeit?",
+        "Nur wenige Prozent.",
+        "Der Preisunterschied ist dagegen erheblich."
+      ],
+      "solution": "Silber leitet nur wenige Prozent besser, kostet aber ein Vielfaches. Bei einer technischen Entscheidung wird immer abgewogen — die beste Eigenschaft entscheidet nicht allein.",
+      "tags": [
+        "metalle",
+        "bewerten",
+        "msa"
+      ]
+    },
+    {
+      "id": "ME01-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Ein Bauteil soll leicht, korrosionsbeständig und gut zu verarbeiten sein. Welches Metall ist geeignet und warum?",
+      "options": [
+        "Aluminium — geringe Dichte, gut verformbar, bildet eine schützende Oxidschicht.",
+        "Blei — es ist weich und leicht zu verarbeiten.",
+        "Eisen — es ist am häufigsten verfügbar."
+      ],
+      "answer": 0,
+      "hints": [
+        "Drei Kriterien müssen erfüllt sein.",
+        "Blei ist sehr dicht, Eisen rostet.",
+        "Aluminium erfüllt alle drei."
+      ],
+      "solution": "Aluminium hat eine geringe Dichte, lässt sich gut verformen und schützt sich durch eine dichte Oxidschicht selbst vor weiterer Korrosion. Blei ist zu dicht, Eisen rostet ohne Schutz.",
+      "tags": [
+        "metalle",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "ME01-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Eine Kupferleitung (8,9 g/cm³) mit 200 cm³ soll durch Aluminium (2,7 g/cm³) ersetzt werden. Wegen der schlechteren Leitfähigkeit braucht Aluminium 60 % mehr Volumen.",
+      "fields": [
+        {
+          "label": "Masse der Kupferleitung",
+          "answer": 1780,
+          "unit_label": "g",
+          "tolerance": 10
+        },
+        {
+          "label": "benötigtes Aluminiumvolumen",
+          "answer": 320,
+          "unit_label": "cm³",
+          "tolerance": 5
+        },
+        {
+          "label": "Masse der Aluminiumleitung",
+          "answer": 864,
+          "unit_label": "g",
+          "tolerance": 10
+        }
+      ],
+      "hints": [
+        "Cu: 8,9 · 200.",
+        "Volumen: 200 · 1,6.",
+        "Al: 2,7 · 320."
+      ],
+      "solution": "Cu: 8,9 · 200 = 1780 g\nAl-Volumen: 200 · 1,6 = 320 cm³\nAl: 2,7 · 320 = 864 g\nTrotz größeren Volumens weniger als die Hälfte der Masse.",
+      "tags": [
+        "metalle",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "ME01-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler schreibt: „Gold ist das beste Metall.“ Wie bewertest du diese Aussage?",
+      "options": [
+        "Ohne Zweck ist „bestes Metall“ keine sinnvolle Aussage — für einen Glühdraht wäre Gold ungeeignet.",
+        "Richtig — Gold ist am wertvollsten.",
+        "Falsch — Silber ist das beste Metall."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wofür soll das Metall verwendet werden?",
+        "Das steht nicht in der Aussage.",
+        "Ohne Zweck lässt sich nicht bewerten."
+      ],
+      "solution": "Gold ist korrosionsbeständig und gut leitfähig, aber weich, teuer und schmilzt bei 1064 °C. Für Kontakte in der Elektronik ist es hervorragend, für einen Glühdraht unbrauchbar. Bewertungen brauchen ein Kriterium und einen Zweck.",
+      "tags": [
+        "metalle",
+        "bewerten",
+        "msa"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 8,
+      "aufgaben": 21,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 5,
+      "aufgaben": 22,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 5,
+      "aufgaben": 19,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Eigenschaften der Metalle",
+      "url": "https://learningapps.org/view1752642",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Metalle - typische Eigenschaften und Verwendungen",
+      "url": "https://learningapps.org/view15972967",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Metalle — Quiz Klasse 9",
+      "url": "https://www.schlaukopf.de/realschule/klasse9/chemie/elementfamilien",
+      "typ": "app",
+      "quelle": "Schlaukopf"
+    },
+    {
+      "titel": "Element Eisen — Auswahl",
+      "url": "https://allgemeinbildung.ch/fach=che/Element_Eisen_04a.htm",
+      "typ": "app",
+      "quelle": "allgemeinbildung.ch"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 7,
+    "titel": "Metalle und Redoxreaktionen",
+    "seiten_von": 83,
+    "seiten_bis": 96,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Metallglanz"
+  }
+}

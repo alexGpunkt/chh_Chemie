@@ -1,0 +1,626 @@
+{
+  "unit": "KW-01",
+  "title": "Organisch oder anorganisch?",
+  "leitidee": "B1",
+  "standards": [
+    "K1",
+    "K2.1",
+    "K3.1"
+  ],
+  "klasse": 9,
+  "wortspeicher": [
+    "organisch",
+    "anorganisch",
+    "der Kohlenstoff",
+    "die Verkohlung",
+    "die Vierbindigkeit",
+    "das Kohlenstoffgerüst"
+  ],
+  "worterklaerungen": {
+    "organisch": "Kohlenstoffverbindungen, meist aus lebenden Systemen oder aus Erdöl.",
+    "Verkohlung": "Beim Erhitzen bleibt schwarzer Kohlenstoff zurück.",
+    "Vierbindigkeit": "Ein Kohlenstoffatom bildet immer vier Bindungen."
+  },
+  "can_do": {
+    "A": "Ich unterscheide organische und anorganische Stoffe an Beispielen.",
+    "B": "Ich erkläre die Verkohlungsprobe und nenne die Besonderheiten des Kohlenstoffs.",
+    "C": "Ich begründe die Vielfalt organischer Verbindungen mit der Vierbindigkeit."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Zwei Gruppen von Stoffen",
+      "hinfuehrung": "Chemiker teilen Stoffe in zwei große Gruppen ein.",
+      "erklaerung": [
+        "Organische Stoffe enthalten Kohlenstoff.",
+        "Zucker, Fett und Kunststoff sind organisch."
+      ],
+      "merke": "Organisch heißt: mit Kohlenstoffgerüst.",
+      "beispiel": {
+        "titel": "Die Probe",
+        "aufgabe": "Zucker wird erhitzt.",
+        "schritte": [
+          "Er wird braun.",
+          "Dann schwarz.",
+          "Zurück bleibt Kohlenstoff."
+        ],
+        "ergebnis": "Zucker ist organisch."
+      },
+      "visual": {
+        "type": "struktur",
+        "kette": 3,
+        "gruppe": "keine",
+        "alt": "Strukturformel von Propan mit drei Kohlenstoffatomen."
+      }
+    },
+    "B": {
+      "titel": "Woran man organische Stoffe erkennt",
+      "hinfuehrung": "Ein einfacher Versuch trennt die beiden Gruppen zuverlässig — und zeigt zugleich, was organische Stoffe ausmacht.",
+      "erklaerung": [
+        "Verkohlungsprobe: Beim Erhitzen unter Luftabschluss bleibt schwarzer Kohlenstoff zurück. Kochsalz oder Sand tun das nicht.",
+        "Organische Stoffe verbrennen meist zu Kohlenstoffdioxid und Wasser — beides lässt sich nachweisen.",
+        "Sie schmelzen und sieden meist bei niedrigen Temperaturen und lösen sich schlecht in Wasser.",
+        "Ausnahmen gibt es: Kohlenstoffdioxid, Carbonate und Kohlensäure enthalten Kohlenstoff, werden aber zur anorganischen Chemie gezählt. Die Einteilung ist historisch gewachsen."
+      ],
+      "merke": "Verkohlung, Verbrennung zu CO₂ und H₂O, niedrige Schmelzpunkte — das sind die Kennzeichen.",
+      "visual": {
+        "type": "apparatur",
+        "aufbau": "reagenzglas",
+        "alt": "Ein Reagenzglas mit einer Probe zum Erhitzen."
+      }
+    },
+    "C": {
+      "titel": "Warum ausgerechnet Kohlenstoff",
+      "hinfuehrung": "Von rund 20 Millionen bekannten Verbindungen sind über 90 % Kohlenstoffverbindungen. Dafür gibt es drei Gründe, die alle im Bau des Kohlenstoffatoms liegen.",
+      "erklaerung": [
+        "Vierbindigkeit: Kohlenstoff hat vier Außenelektronen und bildet genau vier Bindungen — mehr Verknüpfungsmöglichkeiten als jedes andere Element seiner Gruppe.",
+        "Kohlenstoff bindet an sich selbst, und zwar in beliebig langen Ketten, Verzweigungen und Ringen. Silicium kann das nur über wenige Atome.",
+        "Die C–C-Bindung ist stabil genug, um Ketten zu tragen, aber nicht so fest, dass keine Reaktionen mehr möglich wären.",
+        "Hinzu kommen Doppel- und Dreifachbindungen und die Einbindung anderer Elemente — daraus folgt die Isomerie und damit die enorme Vielfalt."
+      ],
+      "merke": "Vier Bindungen plus Bindung an sich selbst — das ergibt Millionen Verbindungen.",
+      "visual": {
+        "type": "lewis",
+        "molekuel": "ch4",
+        "formel": "CH4",
+        "alt": "Lewis-Formel von Methan mit vier Bindungen am Kohlenstoff."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Kohlenstoff bildet immer 4 Bindungen"
+    ],
+    "saetze": [
+      "Organisch = Kohlenstoffverbindung (mit historischen Ausnahmen).",
+      "Verkohlungsprobe: schwarzer Rückstand beim Erhitzen.",
+      "Organische Stoffe verbrennen zu CO₂ und H₂O.",
+      "Ausnahmen: CO₂, Carbonate und Kohlensäure gelten als anorganisch."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Kohlenwasserstoffe — Überblick",
+      "url": "https://www.youtube.com/watch?v=-O4H_i57r2w",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/Ssj1AC",
+      "embed": "https://app.lumi.education/api/v1/run/Ssj1AC/embed",
+      "stufe": "A",
+      "dauer_s": 311
+    },
+    {
+      "titel": "Kohlenstoff — nicht nur für Holzkohle wichtig",
+      "url": "https://www.youtube.com/watch?v=9Mwufl_fU5g",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/Dql1mp",
+      "embed": "https://app.lumi.education/api/v1/run/Dql1mp/embed",
+      "stufe": "B",
+      "dauer_s": 103
+    }
+  ],
+  "tasks": [
+    {
+      "id": "KW01-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welcher Stoff ist organisch?",
+      "options": [
+        "Zucker",
+        "Kochsalz",
+        "Sand"
+      ],
+      "answer": 0,
+      "hints": [
+        "Organische Stoffe enthalten Kohlenstoff.",
+        "Kochsalz und Sand nicht.",
+        "Zucker."
+      ],
+      "solution": "Zucker enthält Kohlenstoff und ist organisch. Kochsalz und Sand sind anorganisch.",
+      "tags": [
+        "organik"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW01-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Was passiert, wenn Zucker stark erhitzt wird?",
+      "options": [
+        "Er wird braun und dann schwarz.",
+        "Er verdampft rückstandslos.",
+        "Nichts."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was bleibt in der Pfanne zurück?",
+        "Ein schwarzer Rest.",
+        "Das ist Kohlenstoff."
+      ],
+      "solution": "Zucker verkohlt: Zurück bleibt schwarzer Kohlenstoff. Das ist der Nachweis für einen organischen Stoff.",
+      "tags": [
+        "organik"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW01-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Wie viele Bindungen bildet ein Kohlenstoffatom?",
+      "answer": 4,
+      "tolerance": 0,
+      "visual": {
+        "type": "lewis",
+        "molekuel": "ch4",
+        "alt": "Lewis-Formel von Methan."
+      },
+      "hints": [
+        "Kohlenstoff hat vier Außenelektronen.",
+        "8 − 4 = 4.",
+        "Vier."
+      ],
+      "solution": "Kohlenstoff bildet immer genau vier Bindungen.",
+      "misconceptions": [
+        {
+          "id": "formel_ohne_plus_zwei",
+          "value": 2,
+          "feedback": "Kohlenstoff hat vier Außenelektronen und bildet vier Bindungen.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "organik"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "KW01-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Was entsteht bei der vollständigen Verbrennung eines organischen Stoffes?",
+      "options": [
+        "Kohlenstoffdioxid und Wasser",
+        "nur Wasser",
+        "nur Ruß"
+      ],
+      "answer": 0,
+      "hints": [
+        "Der Stoff enthält C und H.",
+        "Beide verbinden sich mit Sauerstoff.",
+        "CO₂ und H₂O."
+      ],
+      "solution": "Bei vollständiger Verbrennung entstehen Kohlenstoffdioxid aus dem Kohlenstoff und Wasser aus dem Wasserstoff.",
+      "tags": [
+        "organik"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "KW01-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Wie weist du nach, dass bei einer Verbrennung Kohlenstoffdioxid entstanden ist?",
+      "options": [
+        "Mit Kalkwasser — es wird trüb.",
+        "Mit einem Glimmspan.",
+        "Mit der Knallgasprobe."
+      ],
+      "answer": 0,
+      "hints": [
+        "Welcher Nachweis gehört zu CO₂?",
+        "Die Kalkwasserprobe.",
+        "Es wird milchig trüb."
+      ],
+      "solution": "Kohlenstoffdioxid trübt Kalkwasser. Der Glimmspan weist Sauerstoff nach, die Knallgasprobe Wasserstoff.",
+      "misconceptions": [
+        {
+          "id": "nachweis_verwechselt",
+          "value": 1,
+          "feedback": "Der Glimmspan weist Sauerstoff nach.",
+          "konzeptfehler": "nachweis_verwechselt"
+        }
+      ],
+      "tags": [
+        "organik",
+        "nachweise",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "KW01-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum bildet Kohlenstoff so viele verschiedene Verbindungen?",
+      "options": [
+        "Er bildet vier Bindungen und kann sich in langen Ketten mit sich selbst verbinden.",
+        "Er ist das häufigste Element.",
+        "Er ist besonders leicht."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie viele Bindungen bildet er?",
+        "Vier.",
+        "Und er bindet an sich selbst."
+      ],
+      "solution": "Vier Bindungen und die Fähigkeit, beliebig lange Ketten, Verzweigungen und Ringe mit sich selbst zu bilden — das ergibt die Vielfalt. Kohlenstoff ist nicht das häufigste Element.",
+      "tags": [
+        "organik",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW01-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Kohlenstoffdioxid enthält Kohlenstoff. Warum wird es trotzdem der anorganischen Chemie zugerechnet?",
+      "options": [
+        "Die Einteilung ist historisch gewachsen; einige einfache C-Verbindungen zählen zur anorganischen Chemie.",
+        "CO₂ enthält gar keinen Kohlenstoff.",
+        "CO₂ ist ein Gas."
+      ],
+      "answer": 0,
+      "hints": [
+        "Ist die Einteilung streng logisch?",
+        "Nein, sie hat historische Gründe.",
+        "CO₂, Carbonate und Kohlensäure sind Ausnahmen."
+      ],
+      "solution": "Die Trennung stammt aus der Zeit, als man organische Stoffe nur aus Lebewesen kannte. Einige einfache Kohlenstoffverbindungen — CO₂, Carbonate, Kohlensäure — blieben bei der anorganischen Chemie. Eine sachliche Notwendigkeit ist das nicht.",
+      "tags": [
+        "organik",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW01-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "assign",
+      "prompt": "Ordne jeden Stoff richtig ein.",
+      "slots": [
+        "Speiseöl",
+        "Kochsalz",
+        "Kunststoff"
+      ],
+      "values": [
+        "organisch",
+        "anorganisch",
+        "organisch (zweites)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Was verkohlt beim Erhitzen?",
+        "Öl und Kunststoff.",
+        "Kochsalz nicht."
+      ],
+      "solution": "Speiseöl und Kunststoff sind organisch — sie verkohlen. Kochsalz ist anorganisch.",
+      "tags": [
+        "organik",
+        "bbr"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "KW01-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum schmelzen organische Stoffe meist bei niedrigeren Temperaturen als Salze?",
+      "options": [
+        "Zwischen Molekülen wirken schwächere Kräfte als zwischen Ionen im Gitter.",
+        "Organische Stoffe sind leichter.",
+        "Organische Stoffe enthalten Wasser."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was muss beim Schmelzen überwunden werden?",
+        "Die Anziehung zwischen den Teilchen.",
+        "Zwischen Molekülen ist sie schwächer."
+      ],
+      "solution": "Organische Stoffe bestehen aus Molekülen; zwischen ihnen wirken schwache zwischenmolekulare Kräfte. Im Salz muss dagegen ein Gitter aus stark angezogenen Ionen aufgebrochen werden.",
+      "tags": [
+        "organik",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "KW01-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum kann Silicium trotz Vierbindigkeit keine so langen Ketten bilden wie Kohlenstoff?",
+      "options": [
+        "Die Si–Si-Bindung ist deutlich schwächer und zerfällt leicht.",
+        "Silicium hat nur drei Außenelektronen.",
+        "Silicium ist ein Metall."
+      ],
+      "answer": 0,
+      "hints": [
+        "Silicium steht unter Kohlenstoff und hat auch vier Außenelektronen.",
+        "Der Unterschied liegt in der Bindungsstärke.",
+        "Si–Si ist schwächer als C–C."
+      ],
+      "solution": "Silicium hat ebenfalls vier Außenelektronen, aber die Si–Si-Bindung ist deutlich schwächer als die C–C-Bindung. Lange Ketten zerfallen deshalb. Das ist einer der Gründe, warum das Leben auf Kohlenstoff beruht.",
+      "tags": [
+        "organik",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "KW01-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Wie lässt sich zeigen, dass bei der Verbrennung einer Kerze sowohl Kohlenstoff als auch Wasserstoff enthalten waren?",
+      "options": [
+        "Kalkwasser weist CO₂ nach, beschlagenes Glas oder Watesmopapier das Wasser.",
+        "Nur die Flamme beobachten.",
+        "Die Kerze wiegen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Zwei Produkte, zwei Nachweise.",
+        "CO₂ mit Kalkwasser.",
+        "Wasser durch Kondensation."
+      ],
+      "solution": "Beide Produkte werden einzeln nachgewiesen: das Kohlenstoffdioxid mit Kalkwasser, das Wasser als Beschlag an einem kalten Glas. Daraus folgt, dass die Kerze C und H enthielt.",
+      "tags": [
+        "organik",
+        "nachweise",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "KW01-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Wodurch wurde die alte Vorstellung widerlegt, organische Stoffe könnten nur von Lebewesen gebildet werden?",
+      "options": [
+        "Wöhler stellte 1828 Harnstoff aus anorganischen Ausgangsstoffen her.",
+        "Durch die Entdeckung des Kohlenstoffs.",
+        "Durch die Erfindung des Mikroskops."
+      ],
+      "answer": 0,
+      "hints": [
+        "Es war ein einzelnes Experiment.",
+        "Ein organischer Stoff wurde im Labor hergestellt.",
+        "Es war Harnstoff."
+      ],
+      "solution": "Friedrich Wöhler stellte 1828 Harnstoff — einen typisch organischen Stoff — aus anorganischen Ausgangsstoffen her. Damit war die Annahme einer besonderen „Lebenskraft“ widerlegt. Die Begriffe blieben, ihre ursprüngliche Begründung nicht.",
+      "tags": [
+        "organik",
+        "msa"
+      ]
+    },
+    {
+      "id": "KW01-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum ist die Verkohlungsprobe ein brauchbarer, aber kein vollständiger Nachweis?",
+      "options": [
+        "Sie zeigt Kohlenstoff an, unterscheidet aber nicht zwischen verschiedenen organischen Stoffen.",
+        "Sie funktioniert nur bei Zucker.",
+        "Sie ist zu gefährlich."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was genau zeigt die Probe?",
+        "Dass Kohlenstoff enthalten ist.",
+        "Mehr nicht."
+      ],
+      "solution": "Die Probe belegt, dass der Stoff Kohlenstoff enthält — mehr nicht. Zucker, Fett und Kunststoff verkohlen alle. Für eine Identifizierung braucht es weitere Untersuchungen.",
+      "tags": [
+        "organik",
+        "bewerten",
+        "msa"
+      ]
+    },
+    {
+      "id": "KW01-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Organische Stoffe sind natürlich, anorganische künstlich.“ Wie bewertest du das?",
+      "options": [
+        "Falsch — Kunststoffe sind organisch und künstlich, Quarz ist anorganisch und natürlich.",
+        "Richtig.",
+        "Falsch — es ist genau umgekehrt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Denk an Kunststoffe.",
+        "Sie sind organisch und künstlich.",
+        "Und Sand ist anorganisch und natürlich."
+      ],
+      "solution": "Die Einteilung sagt nichts über die Herkunft. Kunststoffe sind organisch und synthetisch, Quarz ist anorganisch und natürlich. Entscheidend ist allein das Kohlenstoffgerüst.",
+      "tags": [
+        "organik",
+        "bewerten",
+        "msa"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 8,
+      "aufgaben": 21,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 4,
+      "aufgaben": 23,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 4,
+      "aufgaben": 20,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Organische/ anorganische Stoffe",
+      "url": "https://learningapps.org/view25284731",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Organische und anorganische Stoffe im Vergleich",
+      "url": "https://learningapps.org/view10970017",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Kohlenstoff-Silicium-Gruppe — Quiz Klasse 9",
+      "url": "https://www.schlaukopf.de/realschule/klasse9/chemie/kohlenstoff",
+      "typ": "app",
+      "quelle": "Schlaukopf"
+    },
+    {
+      "titel": "Aufgaben zur organischen Chemie",
+      "url": "https://de.serlo.org/chemie/155782/aufgaben-zur-organischen-chemie",
+      "typ": "app",
+      "quelle": "Serlo"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 12,
+    "titel": "Der Weg zur organischen Chemie",
+    "seiten_von": 147,
+    "seiten_bis": 162,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "organisch"
+  }
+}
