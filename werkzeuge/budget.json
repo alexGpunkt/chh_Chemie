@@ -1,0 +1,45 @@
+{
+  "hinweis": "Performancebudget für günstige Smartphones. Die Grenzen sind bewusst knapp über dem heutigen Stand gewählt: Sie sollen Wachstum bemerkbar machen, nicht sofort brechen. Wer eine Grenze anhebt, trifft eine Entscheidung — und schreibt sie in die Begründung darunter.",
+  "geprueft_am_stand": "Chemie 7–10, v3 (Rechner, Beameransicht, Erklärvideos)",
+  "_luft": "Stand v3: Seitenbudget 101 von 120 KB, JavaScript gesamt 141 von 155 KB, größte Datei 78 von 200 KB. Der Taschenrechner kostet die Einheitenseite rund 2 KB gzip. Die Gesamtsumme ist gegenüber v2 gesunken, obwohl Code dazugekommen ist: Seit v3 wird gezählt, was ein Schülergerät tatsächlich lädt — das Lehrerdashboard, die Beameransicht und dev-tools.js fallen damit heraus. Das ist keine Buchhaltung, sondern die Begründung der Grenze selbst; sie schützt die Erstinstallation im Schul-WLAN, und dort kommen diese Dateien nie an. Die nächste Reserve liegt in einer feineren Aufteilung der Animationen: heute je Jahrgang, möglich wäre je Lernbereich. Das lohnt erst, wenn eine Jahrgangsdatei deutlich über 15 KB gzip wächst.",
+  "grenzen": {
+    "js_je_seite_gzip_kb": {
+      "wert": 120,
+      "gilt_fuer": "Summe aller <script src> einer Seite, gzip-komprimiert, zuzüglich des größten nachgeladenen Animationsteils",
+      "begruendung": "einheit.html liegt bei 101 KB (Grundlast plus Taschenrechner plus den größten nachgeladenen Animationsteil). Über 120 KB wird das Parsen auf einem älteren Android-Gerät spürbar. Der Zuschlag für das Nachladen ist Absicht: Sonst würde jede weitere Aufteilung die Messung schönen, statt das Gerät zu entlasten."
+    },
+    "js_gesamt_gzip_kb": {
+      "wert": 155,
+      "gilt_fuer": "alles .js, was ein Schülergerät lädt (siehe _was_gezaehlt_wird), gzip-komprimiert",
+      "begruendung": "Der Service Worker lädt bei der Installation alles auf einmal. Gemessen sind 141 KB. Diese Grenze stand kurzzeitig auf 170, weil das Budget bei 160 KB gerissen war und angehoben werden sollte. Die eigentliche Ursache waren zehn Animationen aus dem Mathematikprojekt, die niemand aufrief und die trotzdem ausgeliefert wurden. Nach ihrem Entfernen lag der Wert unter dem ursprünglichen Stand — die Anhebung war also gar nicht nötig und ist zurückgenommen. Merksatz aus diesem Vorgang: erst nach totem Code suchen, dann über die Grenze reden. Die 155 bleiben stehen, obwohl v3 bei 141 liegt: Der Abstand kommt aus einer geänderten Zählweise, nicht aus weniger Code."
+    },
+    "css_gesamt_gzip_kb": {
+      "wert": 25,
+      "gilt_fuer": "alles .css, was ein Schülergerät lädt, gzip-komprimiert",
+      "begruendung": "CSS liegt bei rund 19 KB gzip. 25 KB bleibt die Obergrenze für den renderkritischen Teil."
+    },
+    "einzeldatei_kb": {
+      "wert": 200,
+      "gilt_fuer": "größte einzelne .js-Datei, unkomprimiert",
+      "begruendung": "Die größte Datei ist seit der Aufteilung nicht mehr animationen.js, sondern engine.js mit 78 KB. Eine einzelne Datei über 200 KB lässt sich nicht mehr sinnvoll überblicken und blockiert den Hauptthread am Stück."
+    },
+    "offline_gesamt_kb": {
+      "wert": 2300,
+      "gilt_fuer": "alles, was sw.js beim Install in den Cache legt",
+      "begruendung": "Rund 2,2 MB heute, davon der weit überwiegende Teil Aufgabendaten. Die Animationsteile liegen bewusst mit im Install: Sie werden zwar erst bei Bedarf ausgeführt, müssen aber offline verfügbar sein, bevor ein Kind die Einheit zum ersten Mal öffnet. Die 228 Übungsblatt-PDFs liegen bewusst NICHT im Paket — gedruckt wird dort, wo es Netz gibt. Angehoben in v4 von 2200 auf 2300: Hefteintrag, 45-Minuten-Plan und 152 externe Übungsverweise sind Inhalt, kein Überbau, und sie gehören in dieselbe Datei wie die Aufgaben. Der Hefteintrag steht deshalb als Verweisliste in den Daten und nicht als ausgeschriebener Text — das allein hat 440 KB gespart. Bei der nächsten Erweiterung ist nicht die Grenze zu erhöhen, sondern zu prüfen, ob die Aufgabendaten je Bereich nachgeladen statt vorinstalliert werden können."
+    },
+    "animationsschleifen": {
+      "wert": 1,
+      "gilt_fuer": "gleichzeitig laufende requestAnimationFrame-Schleifen je Seite",
+      "begruendung": "Mehrere Schleifen gleichzeitig heißen auf schwachen Geräten Ruckeln und warme Akkus. Die Animationen laufen deshalb einzeln und halten an, sobald sie nicht sichtbar sind."
+    }
+  },
+  "nicht_hier_pruefbar": [
+    "Zeit bis zur Bedienbarkeit auf einem echten Gerät",
+    "Speicherverbrauch im laufenden Betrieb",
+    "Layoutsprünge beim Nachladen der Schrift",
+    "Ladezeit bei langsamem Mobilfunk",
+    "Ob das Nachladen des Animationsteils im Schul-WLAN spürbar verzögert"
+  ],
+  "_was_gezaehlt_wird": "Seit v3 zählt budget-pruefen.js nur, was ein SCHÜLERGERÄT lädt: alles aus der Vorabliste in sw.js, alles aus einem <script src> oder <link href> der Seiten im Hauptverzeichnis, plus sw.js selbst. Damit fallen dashboard/*.js und dashboard/*.css heraus (Lehrerdashboard und Beameransicht stehen seit v3 nicht mehr im Offlinepaket und werden von keiner Schülerseite eingebunden — sie laden weiterhin normal über das Netz und sind offline ohnehin nutzlos, weil es Live-Ansichten auf Supabase sind) sowie dev-tools.js (wird von dev-boot.js nur bei devMode nachgeladen; auf master fordert es niemand an). Die Regel ist mechanisch: Wer eine dieser Dateien wieder in sw.js einträgt oder in eine Seite einbindet, bekommt sie automatisch zurück in die Rechnung. Nicht gezählte Dateien werden im Bericht namentlich ausgewiesen — die Entscheidung soll sichtbar bleiben und nicht im Werkzeug verschwinden."
+}

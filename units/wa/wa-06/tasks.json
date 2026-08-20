@@ -1,0 +1,612 @@
+{
+  "unit": "WA-06",
+  "title": "Anwenden & Prüfungstraining Wasser",
+  "leitidee": "B3",
+  "standards": [
+    "K1",
+    "K2.4",
+    "K3.3",
+    "K4.1"
+  ],
+  "klasse": 8,
+  "wortspeicher": [
+    "die Reaktionsgleichung",
+    "der Dipol",
+    "die Hydrathülle",
+    "die Elektrolyse",
+    "die Dichteanomalie",
+    "die Schlussfolgerung"
+  ],
+  "worterklaerungen": {
+    "Schlussfolgerung": "Der Satz, der aus Beobachtung und Wissen das Ergebnis zieht."
+  },
+  "can_do": {
+    "A": "Ich beantworte gemischte Aufgaben zum Thema Wasser sicher.",
+    "B": "Ich verbinde Molekülbau, Eigenschaften und Reaktionen des Wassers miteinander.",
+    "C": "Ich begründe Eigenschaften des Wassers aus seinem Bau und bewerte Aussagen dazu."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Alles über Wasser",
+      "hinfuehrung": "In dieser Stunde kommt alles zusammen.",
+      "erklaerung": [
+        "Wasser besteht aus H und O.",
+        "Wasser ist ein Dipol.",
+        "Eis schwimmt."
+      ],
+      "merke": "Erst lesen, was gefragt ist. Dann antworten.",
+      "visual": {
+        "type": "animation",
+        "name": "signalwoerter",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Die drei roten Fäden",
+      "hinfuehrung": "Der ganze Bereich hängt an drei Zusammenhängen. Wer sie kennt, kann fast jede Aufgabe beantworten.",
+      "erklaerung": [
+        "Zusammensetzung: Wasser ist eine Verbindung aus H und O im Verhältnis 2 : 1 — nachweisbar durch Elektrolyse.",
+        "Bau: Das Molekül ist gewinkelt und trägt Teilladungen. Es ist ein Dipol.",
+        "Folgen: Aus dem Dipolcharakter ergeben sich Löseverhalten, hohe Siedetemperatur und Dichteanomalie."
+      ],
+      "merke": "Zusammensetzung → Bau → Eigenschaften. In dieser Richtung wird begründet.",
+      "visual": {
+        "type": "animation",
+        "name": "dipol",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Sauber begründen",
+      "hinfuehrung": "Eine gute Begründung geht vom Bau aus und endet bei der Eigenschaft — nicht umgekehrt. „Wasser ist ein Dipol, weil es Salze löst“ verwechselt Ursache und Wirkung.",
+      "erklaerung": [
+        "Richtig: Der gewinkelte Bau erzeugt Teilladungen, deshalb ist Wasser ein Dipol, deshalb löst es Ionen.",
+        "Falsch: Wasser löst Ionen, deshalb ist es ein Dipol. Die Beobachtung ist der Beleg, nicht die Ursache.",
+        "Bei Vergleichsaufgaben immer beide Seiten nennen: Was ist gleich, was ist verschieden?",
+        "Bei Bewertungsaufgaben zuerst das Kriterium nennen."
+      ],
+      "merke": "Von der Ursache zur Wirkung begründen — nicht rückwärts.",
+      "visual": {
+        "type": "animation",
+        "name": "signalwoerter",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "2 H₂O → 2 H₂ + O₂",
+      "2 H₂ + O₂ → 2 H₂O"
+    ],
+    "saetze": [
+      "Elektrolyse: 2 Teile H₂ zu 1 Teil O₂.",
+      "Wasser ist gewinkelt gebaut und damit ein Dipol.",
+      "Gleiches löst sich in Gleichem.",
+      "Größte Dichte bei 4 °C; Eis schwimmt.",
+      "Nur Koeffizienten ändern, nie die Indizes."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Watesmopapier — Nachweis von Wasser",
+      "url": "https://www.youtube.com/watch?v=UtjdcUf5RSA",
+      "quelle": "Biologie und Chemie Schule",
+      "lumi": "https://app.lumi.education/run/nifNBW",
+      "embed": "https://app.lumi.education/api/v1/run/nifNBW/embed",
+      "stufe": "A",
+      "dauer_s": 65
+    },
+    {
+      "titel": "Wasserstoffbrückenbindungen — Wiederholung",
+      "url": "https://www.youtube.com/watch?v=RcHZUhzK7kY",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/VnUTK3",
+      "embed": "https://app.lumi.education/api/v1/run/VnUTK3/embed",
+      "stufe": "C",
+      "dauer_s": 218
+    }
+  ],
+  "tasks": [
+    {
+      "id": "WA06-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Was entsteht bei der Elektrolyse von Wasser?",
+      "options": [
+        "Wasserstoff und Sauerstoff",
+        "Wasserstoff und Stickstoff",
+        "nur Wasserstoff"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "elektrolyse",
+        "stufe": "A"
+      },
+      "hints": [
+        "Es sind zwei Gase.",
+        "Eines davon ist Sauerstoff.",
+        "Das andere Wasserstoff."
+      ],
+      "solution": "Wasser wird in Wasserstoff und Sauerstoff zerlegt, im Volumenverhältnis 2 : 1.",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "WA06-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Wie viel Sauerstoff entsteht, wenn 24 mL Wasserstoff aufgefangen werden?",
+      "answer": 12,
+      "unit_label": "mL",
+      "tolerance": 1,
+      "hints": [
+        "Verhältnis 2 : 1.",
+        "24 : 2.",
+        "12 mL."
+      ],
+      "solution": "24 mL : 2 = 12 mL Sauerstoff.",
+      "tags": [
+        "pruefung",
+        "rechnen"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "WA06-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Welcher Stoff löst sich nicht in Wasser?",
+      "options": [
+        "Speiseöl",
+        "Kochsalz",
+        "Zucker"
+      ],
+      "answer": 0,
+      "hints": [
+        "Zwei lösen sich, einer nicht.",
+        "Öl ist unpolar.",
+        "Es löst sich nicht."
+      ],
+      "solution": "Öl ist unpolar und löst sich nicht in polarem Wasser.",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "WA06-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum friert ein See nicht bis zum Grund zu?",
+      "options": [
+        "Eis schwimmt oben und wirkt wie eine Isolierschicht.",
+        "Das Wasser unten ist salzig.",
+        "Fische wärmen das Wasser."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wo liegt das Eis?",
+        "Oben.",
+        "Darunter bleibt es flüssig."
+      ],
+      "solution": "Eis ist leichter als Wasser und schwimmt. Die Eisdecke isoliert, darunter bleibt Wasser bei 4 °C flüssig.",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "WA06-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "Gleiche aus: ? H₂ + O₂ → 2 H₂O. Welcher Koeffizient fehlt?",
+      "answer": 2,
+      "tolerance": 0,
+      "hints": [
+        "Rechts stehen 4 H-Atome.",
+        "Jedes H₂ liefert zwei.",
+        "4 : 2 = 2."
+      ],
+      "solution": "2 H₂ + O₂ → 2 H₂O. Probe: H 4 = 4, O 2 = 2.",
+      "tags": [
+        "pruefung",
+        "gleichungen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "WA06-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum löst Wasser Kochsalz, Benzin aber nicht?",
+      "options": [
+        "Wasser ist ein Dipol und kann die Ionen umhüllen; Benzin ist unpolar.",
+        "Wasser ist dünnflüssiger.",
+        "Benzin ist zu leicht."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was brauchen Ionen zum Lösen?",
+        "Geladene Partner.",
+        "Nur Wasser bietet die."
+      ],
+      "solution": "Wassermoleküle sind Dipole und lagern sich mit ihren Teilladungen um die Ionen. Benzin ist unpolar und kann das Ionengitter nicht aufbrechen.",
+      "tags": [
+        "pruefung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "WA06-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Welche Aussage ist eine Begründung, keine Beobachtung?",
+      "options": [
+        "Weil der Sauerstoff die Elektronen stärker anzieht, trägt er eine negative Teilladung.",
+        "Der Wasserstrahl wird abgelenkt.",
+        "Am Minuspol entsteht mehr Gas."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "signalwoerter",
+        "stufe": "B"
+      },
+      "hints": [
+        "Eine Begründung enthält ein „weil“.",
+        "Beobachtungen beschreiben nur.",
+        "Nur eine Aussage nennt eine Ursache."
+      ],
+      "solution": "Nur die erste Aussage nennt eine Ursache. Die beiden anderen beschreiben, was zu sehen ist.",
+      "tags": [
+        "pruefung",
+        "operatoren",
+        "bbr"
+      ]
+    },
+    {
+      "id": "WA06-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Bei einer Elektrolyse werden insgesamt 120 mL Gas aufgefangen.",
+      "fields": [
+        {
+          "label": "Wasserstoffvolumen",
+          "answer": 80,
+          "unit_label": "mL",
+          "tolerance": 2
+        },
+        {
+          "label": "Sauerstoffvolumen",
+          "answer": 40,
+          "unit_label": "mL",
+          "tolerance": 2
+        }
+      ],
+      "hints": [
+        "Insgesamt 3 Teile.",
+        "1 Teil = 40 mL.",
+        "Wasserstoff sind 2 Teile."
+      ],
+      "solution": "1 Teil = 120 : 3 = 40 mL\nH₂ = 80 mL, O₂ = 40 mL",
+      "tags": [
+        "pruefung",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "WA06-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Ein Stoff löst sich gut in Wasser und leitet in Lösung den Strom. Was folgt daraus?",
+      "options": [
+        "Es liegen Ionen vor.",
+        "Der Stoff ist ein Metall.",
+        "Der Stoff ist unpolar."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was transportiert die Ladung in einer Lösung?",
+        "Bewegliche Ionen.",
+        "Zuckerlösung leitet dagegen nicht."
+      ],
+      "solution": "Leitfähigkeit in Lösung setzt frei bewegliche Ionen voraus. Zucker löst sich zwar auch gut, liegt aber als Moleküle vor und leitet deshalb nicht.",
+      "tags": [
+        "pruefung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "WA06-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum ist die Knallgasreaktion exotherm, die Elektrolyse aber endotherm?",
+      "options": [
+        "Es ist dieselbe Reaktion in zwei Richtungen; was die eine aufnimmt, gibt die andere ab.",
+        "Weil bei der Elektrolyse Strom fließt.",
+        "Das ist Zufall."
+      ],
+      "answer": 0,
+      "hints": [
+        "Vergleiche die beiden Gleichungen.",
+        "Edukte und Produkte sind vertauscht.",
+        "Dann muss auch die Energie die Richtung wechseln."
+      ],
+      "solution": "2 H₂O → 2 H₂ + O₂ und 2 H₂ + O₂ → 2 H₂O sind Umkehrungen voneinander. Die Energie, die beim Zerlegen aufgenommen wird, wird beim Verbinden wieder frei.",
+      "tags": [
+        "pruefung",
+        "energie",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "WA06-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Welche Begründung ist fachlich richtig aufgebaut?",
+      "options": [
+        "Wasser ist gewinkelt gebaut, deshalb ein Dipol, deshalb löst es Ionen.",
+        "Wasser löst Ionen, deshalb ist es ein Dipol, deshalb ist es gewinkelt.",
+        "Wasser ist ein Dipol, deshalb ist es gewinkelt gebaut."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ist Ursache, was Wirkung?",
+        "Der Bau ist die Ursache.",
+        "Das Löseverhalten die Wirkung."
+      ],
+      "solution": "Begründet wird von der Ursache zur Wirkung: Bau → Dipol → Löseverhalten. Die beiden anderen Ketten verwechseln Beleg und Ursache.",
+      "tags": [
+        "pruefung",
+        "operatoren",
+        "msa"
+      ]
+    },
+    {
+      "id": "WA06-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "9,0 g Wasser werden vollständig elektrolysiert. (M(H₂O) = 18 g/mol, V_m = 22,4 L/mol)",
+      "fields": [
+        {
+          "label": "Stoffmenge des Wassers",
+          "answer": 0.5,
+          "unit_label": "mol",
+          "tolerance": 0.02
+        },
+        {
+          "label": "Volumen des Wasserstoffs",
+          "answer": 11.2,
+          "unit_label": "L",
+          "tolerance": 0.3
+        },
+        {
+          "label": "Volumen des Sauerstoffs",
+          "answer": 5.6,
+          "unit_label": "L",
+          "tolerance": 0.2
+        }
+      ],
+      "hints": [
+        "n = m : M = 9,0 : 18.",
+        "Aus 2 H₂O entstehen 2 H₂ — also gleich viel Stoffmenge.",
+        "Sauerstoff: die halbe Stoffmenge."
+      ],
+      "solution": "n(H₂O) = 9,0 g : 18 g/mol = 0,5 mol\nn(H₂) = 0,5 mol → V = 0,5 · 22,4 = 11,2 L\nn(O₂) = 0,25 mol → V = 5,6 L",
+      "tags": [
+        "pruefung",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-RECH"
+      ]
+    },
+    {
+      "id": "WA06-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Ein Schüler schreibt: „Beim Sieden zerfällt Wasser in Wasserstoff und Sauerstoff.“ Wie korrigierst du?",
+      "options": [
+        "Beim Sieden werden nur die Anziehungskräfte zwischen den Molekülen gelöst; die Moleküle selbst bleiben ganz.",
+        "Der Satz stimmt.",
+        "Beim Sieden entsteht Wasserstoffperoxid."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert beim Sieden mit den Molekülen?",
+        "Sie werden voneinander getrennt.",
+        "Zerlegt werden sie erst bei der Elektrolyse."
+      ],
+      "solution": "Sieden ist eine Zustandsänderung: Die Wasserstoffbrücken zwischen den Molekülen werden überwunden, die Moleküle selbst bleiben unversehrt. Für die Zerlegung braucht es eine chemische Reaktion.",
+      "misconceptions": [
+        {
+          "id": "reaktion_und_zustandsaenderung_verwechselt",
+          "value": 1,
+          "feedback": "Zustandsänderung und chemische Reaktion sind zu unterscheiden. Wasserdampf ist noch Wasser.",
+          "konzeptfehler": "reaktion_und_zustandsaenderung_verwechselt"
+        }
+      ],
+      "tags": [
+        "pruefung",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "WA06-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "„Wasserstoff ist der Energieträger der Zukunft.“ Welche Antwort bewertet diese Aussage fachlich?",
+      "options": [
+        "Wasserstoff speichert Energie, erzeugt sie aber nicht — entscheidend ist, woher der Strom für die Elektrolyse kommt.",
+        "Richtig, denn bei der Verbrennung entsteht nur Wasser.",
+        "Falsch, denn Wasserstoff ist zu gefährlich."
+      ],
+      "answer": 0,
+      "hints": [
+        "Woher kommt der Wasserstoff?",
+        "Aus der Elektrolyse — und die braucht Strom.",
+        "Die Bewertung hängt an der Stromquelle."
+      ],
+      "solution": "Bei der Verbrennung entsteht tatsächlich nur Wasser. Der Wasserstoff muss aber zuerst mit Energie hergestellt werden. Ob die Bilanz aufgeht, entscheidet die Stromquelle — eine Bewertung ohne diesen Blick zieht die Bilanzgrenze zu eng.",
+      "tags": [
+        "pruefung",
+        "bewerten",
+        "msa"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 4,
+      "aufgaben": 25,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 4,
+      "aufgaben": 23,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 6,
+      "aufgaben": 18,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Wassermolekül verstehen für Fortgeschrittene",
+      "url": "https://learningapps.org/view10127114",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Wasser - Quiz 2 (4A HS Golling)",
+      "url": "https://learningapps.org/view1424674",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 6,
+    "titel": "Wasser",
+    "seiten_von": 66,
+    "seiten_bis": 82,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Reaktionsgleichung"
+  }
+}

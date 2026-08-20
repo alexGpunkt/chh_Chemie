@@ -1,0 +1,973 @@
+<!--
+  ============================================================
+  Quelle von ANLEITUNG-GitHub-und-Supabase.pdf im Projektstamm.
+
+  Neu erzeugen — zwei Wege, beide ohne zusätzliche Abhängigkeit:
+
+  1. Im Browser öffnen, Strg + P, Ziel „Als PDF speichern“, Papierformat
+     A4, unter „Weitere Einstellungen“ den Haken bei
+     „Hintergrundgrafiken“ setzen. Ohne diesen Haken fehlen alle farbigen
+     Kästen — die Anleitung lebt von ihnen.
+
+  2. Mit Playwright, falls in tests/ ohnehin installiert:
+
+       await seite.emulateMedia({ media: 'print' });
+       await seite.pdf({ path: '../ANLEITUNG-GitHub-und-Supabase.pdf',
+                         format: 'A4', printBackground: true,
+                         displayHeaderFooter: true, ... });
+
+  Die Abbildungen sind Inline-SVG und bewusst KEINE Bildschirmfotos:
+  GitHub und Supabase ändern ihr Aussehen mehrmals im Jahr, die
+  Beschriftungen der Knöpfe deutlich seltener. Eine Nachzeichnung altert
+  langsamer als ein Screenshot und lässt sich hier direkt korrigieren.
+  ============================================================
+-->
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Anleitung · GitHub und Supabase</title>
+<style>
+  @page { size: A4; margin: 18mm 16mm 20mm 16mm; }
+
+  :root {
+    --ink: #15233A; --soft: #4A5A70; --faint: #6C7A8A;
+    --linie: #D8DFE5; --flaeche: #F1F4F6;
+    --blau: #205B9C; --blau-bg: #E7EFF8;
+    --gruen: #1F6849; --gruen-bg: #E4F1EA;
+    --rot: #A8231C; --rot-bg: #FBE7E5;
+    --gelb-bg: #FFF6E0; --gelb: #C98A12; --gelb-text: #6B4900;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    font: 10.5pt/1.55 "Segoe UI", system-ui, sans-serif;
+    color: var(--ink); margin: 0;
+  }
+
+  h1 { font-size: 25pt; line-height: 1.15; margin: 0 0 6pt; letter-spacing: -.4pt; }
+  h2 {
+    font-size: 15pt; margin: 0 0 10pt; padding-bottom: 5pt;
+    border-bottom: 2.5pt solid var(--blau); break-after: avoid;
+  }
+  h3 {
+    font-size: 11.5pt; margin: 16pt 0 5pt; break-after: avoid;
+    display: flex; align-items: baseline; gap: 7pt;
+  }
+  h3 .nr {
+    flex: 0 0 auto; min-width: 20pt; height: 20pt; padding: 0 5pt;
+    background: var(--blau); color: #fff; border-radius: 10pt;
+    font-size: 9.5pt; font-weight: 700; text-align: center; line-height: 20pt;
+  }
+  h4 { font-size: 10.5pt; margin: 12pt 0 4pt; break-after: avoid; }
+  p { margin: 0 0 7pt; }
+  ul, ol { margin: 0 0 8pt; padding-left: 16pt; }
+  li { margin-bottom: 3pt; }
+  code {
+    font-family: "Consolas", "JetBrains Mono", monospace; font-size: 9.3pt;
+    background: var(--flaeche); padding: 1pt 3pt; border-radius: 2.5pt;
+    overflow-wrap: anywhere;
+  }
+  pre {
+    font-family: "Consolas", monospace; font-size: 8.8pt; line-height: 1.45;
+    background: #16202C; color: #E7EDF3; padding: 8pt 10pt;
+    border-radius: 4pt; overflow-x: auto; margin: 0 0 8pt;
+    white-space: pre-wrap; overflow-wrap: anywhere; break-inside: avoid;
+  }
+  pre .k { color: #7FB3E8; } pre .s { color: #9BD6A6; } pre .c { color: #8899AA; }
+
+  .titelseite { break-after: page; padding-top: 22mm; }
+  .titelseite .marke {
+    font-size: 9pt; letter-spacing: 1.4pt; text-transform: uppercase;
+    color: var(--faint); margin-bottom: 10pt;
+  }
+  .titelseite .unter { font-size: 12.5pt; color: var(--soft); margin: 8pt 0 22pt; }
+
+  .teil { break-before: page; }
+
+  .kasten {
+    border-radius: 5pt; padding: 8pt 11pt; margin: 0 0 10pt;
+    border-left: 3.5pt solid var(--blau); background: var(--blau-bg);
+    break-inside: avoid; font-size: 9.8pt;
+  }
+  .kasten.achtung { border-left-color: var(--rot); background: var(--rot-bg); }
+  .kasten.merke { border-left-color: var(--gelb); background: var(--gelb-bg); color: var(--gelb-text); }
+  .kasten.gut { border-left-color: var(--gruen); background: var(--gruen-bg); }
+  /* Nur die Überschrift des Kastens steht auf einer eigenen Zeile.
+     Fettung mitten im Satz muss im Fluss bleiben. */
+  .kasten > b:first-child { display: block; margin-bottom: 2pt; }
+
+  table { width: 100%; border-collapse: collapse; margin: 0 0 10pt; font-size: 9.5pt; break-inside: avoid; }
+  th, td { text-align: left; padding: 5pt 6pt; border-bottom: .8pt solid var(--linie); vertical-align: top; }
+  th { background: var(--flaeche); font-size: 8.8pt; text-transform: uppercase; letter-spacing: .4pt; color: var(--soft); }
+
+  figure { margin: 9pt 0 12pt; break-inside: avoid; }
+  figcaption { font-size: 8.6pt; color: var(--faint); margin-top: 4pt; text-align: center; }
+  svg { display: block; width: 100%; height: auto; }
+
+  /* Ein Schritt darf über den Seitenrand laufen — sonst springt ein langer
+     Schritt als Ganzes auf die nächste Seite und lässt eine halbleere
+     zurück. Zusammengehalten werden nur die Dinge, die zerrissen wirklich
+     unbrauchbar sind: Abbildungen, Kästen, Tabellen. Dass keine Überschrift
+     allein am Seitenende steht, regelt „break-after: avoid“ bei h2/h3/h4. */
+  .schritt > ol, .schritt > ul { break-inside: auto; }
+  li { break-inside: avoid; }
+  .inhalt { font-size: 10pt; }
+  .inhalt td { padding: 3.5pt 6pt; border: 0; }
+  .inhalt .num { color: var(--faint); width: 44pt; white-space: nowrap; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<!-- ================= TITEL ================= -->
+<section class="titelseite">
+  <div class="marke">Campus Hannah Höch · Chemie 7–10</div>
+  <h1>Von der Festplatte<br>in den Unterricht</h1>
+  <p class="unter">Das Projekt Schritt für Schritt auf GitHub veröffentlichen<br>
+     und mit Supabase verbinden</p>
+
+  <svg viewBox="0 0 600 215" role="img" aria-label="Übersicht: Der Ordner geht über GitHub ins Internet, Supabase kommt in Teil 2 dazu">
+    <defs>
+      <marker id="pf" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+        <path d="M0,0 L9,4.5 L0,9 z" fill="#6C7A8A"/>
+      </marker>
+    </defs>
+
+    <!-- Beschriftungen stehen IN den Kästen. Darunter bleibt die Fläche frei
+         für den Pfeil aus Teil 2 — sonst kreuzt er die Bildunterschrift. -->
+
+    <!-- Ordner -->
+    <rect x="8" y="24" width="122" height="92" rx="7" fill="#F1F4F6" stroke="#C8D2D8"/>
+    <path d="M45 40 h20 l6 7 h24 v22 H45 z" fill="#C98A12" opacity=".85"/>
+    <text x="69" y="88" font-size="10.5" font-family="Segoe UI" text-anchor="middle" fill="#15233A">Ihr Ordner</text>
+    <text x="69" y="103" font-size="8.5" font-family="Segoe UI" text-anchor="middle" fill="#6C7A8A">456 Dateien</text>
+
+    <text x="154" y="62" font-size="8" font-family="Segoe UI" text-anchor="middle" fill="#205B9C">Teil 1</text>
+    <line x1="134" y1="70" x2="174" y2="70" stroke="#6C7A8A" stroke-width="1.6" marker-end="url(#pf)"/>
+
+    <!-- GitHub -->
+    <rect x="180" y="24" width="122" height="92" rx="7" fill="#E7EFF8" stroke="#205B9C"/>
+    <circle cx="241" cy="52" r="15" fill="#205B9C"/>
+    <path d="M235 52 l4 5 8-9" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+    <text x="241" y="88" font-size="10.5" font-family="Segoe UI" text-anchor="middle" fill="#15233A">GitHub</text>
+    <text x="241" y="103" font-size="8.5" font-family="Segoe UI" text-anchor="middle" fill="#6C7A8A">+ GitHub Pages</text>
+
+    <line x1="306" y1="70" x2="346" y2="70" stroke="#6C7A8A" stroke-width="1.6" marker-end="url(#pf)"/>
+
+    <!-- Website -->
+    <rect x="352" y="24" width="122" height="92" rx="7" fill="#E4F1EA" stroke="#1F6849"/>
+    <rect x="384" y="36" width="58" height="32" rx="3" fill="#fff" stroke="#1F6849"/>
+    <rect x="384" y="36" width="58" height="7" rx="3" fill="#1F6849"/>
+    <text x="413" y="88" font-size="10.5" font-family="Segoe UI" text-anchor="middle" fill="#15233A">Die Website</text>
+    <text x="413" y="103" font-size="8.5" font-family="Segoe UI" text-anchor="middle" fill="#6C7A8A">läuft im Browser</text>
+
+    <line x1="478" y1="70" x2="510" y2="70" stroke="#6C7A8A" stroke-width="1.6" marker-end="url(#pf)"/>
+
+    <!-- Klasse -->
+    <rect x="516" y="24" width="76" height="92" rx="7" fill="#F1F4F6" stroke="#C8D2D8"/>
+    <circle cx="554" cy="50" r="9" fill="#4A5A70"/>
+    <path d="M539 76 a15 15 0 0 1 30 0 z" fill="#4A5A70"/>
+    <text x="554" y="99" font-size="10.5" font-family="Segoe UI" text-anchor="middle" fill="#15233A">Klasse</text>
+
+    <!-- Supabase kommt von unten dazu -->
+    <line x1="413" y1="152" x2="413" y2="122" stroke="#1F6849" stroke-width="1.6"
+          stroke-dasharray="4 3" marker-end="url(#pf)"/>
+    <text x="424" y="142" font-size="8" font-family="Segoe UI" fill="#1F6849">Teil 2</text>
+
+    <rect x="294" y="154" width="244" height="50" rx="7" fill="#F1F4F6" stroke="#C8D2D8"/>
+    <path d="M326 163 l-16 22 h12 l-3 18 16-22 h-12 z" fill="#1F6849"/>
+    <text x="352" y="177" font-size="10.5" font-family="Segoe UI" fill="#15233A">Supabase</text>
+    <text x="352" y="192" font-size="8.5" font-family="Segoe UI" fill="#6C7A8A">Anmeldung · Dashboard · Warm-up-Noten</text>
+  </svg>
+
+  <table class="inhalt" style="margin-top:20pt">
+    <tr><td class="num">Teil 1</td><td><b>Das Projekt auf GitHub hochladen</b> — mit GitHub Desktop, ohne eine einzige Kommandozeile. Danach läuft die Website im Internet. <i>Etwa 30 Minuten.</i></td></tr>
+    <tr><td class="num">Teil 2</td><td><b>Supabase einbinden</b> — Anmeldung für die Klasse, Lehrerdashboard, Warm-up-Bewertung. <i>Etwa 45 Minuten.</i></td></tr>
+    <tr><td class="num">Teil 3</td><td><b>Wenn etwas nicht klappt</b> — die häufigsten Stolpersteine und was dagegen hilft.</td></tr>
+  </table>
+
+  <div class="kasten merke" style="margin-top:16pt">
+    <b>Zu den Abbildungen</b>
+    Die Bilder in dieser Anleitung sind <b>schematische Nachzeichnungen</b>, keine
+    Bildschirmfotos. Sie zeigen, wo etwas liegt und wie es heißt. GitHub und
+    Supabase ändern ihr Aussehen gelegentlich — die <i>Beschriftungen</i> der
+    Knöpfe sind der verlässliche Teil, nicht die Farbe oder die genaue Position.
+  </div>
+</section>
+
+
+<!-- ================= TEIL 0 ================= -->
+<section>
+  <h2>Bevor Sie anfangen</h2>
+
+  <p>Drei Dinge brauchen Sie, und zwei davon sind kostenlos und in fünf Minuten
+     erledigt. Legen Sie sie vorher an — mitten im Ablauf ist es lästig.</p>
+
+  <table>
+    <thead><tr><th style="width:32%">Was</th><th>Wo und wie</th></tr></thead>
+    <tbody>
+      <tr><td><b>GitHub-Konto</b></td>
+          <td><code>github.com</code> → <i>Sign up</i>. Eine dienstliche
+              E-Mail-Adresse ist besser als eine private: Das Repository gehört
+              später zur Schule, nicht zu Ihnen persönlich.</td></tr>
+      <tr><td><b>GitHub Desktop</b></td>
+          <td><code>desktop.github.com</code> → herunterladen und installieren.
+              Das ist das Programm mit der Oberfläche; Sie brauchen keine
+              Kommandozeile.</td></tr>
+      <tr><td><b>Supabase-Konto</b></td>
+          <td><code>supabase.com</code> → <i>Start your project</i>. Sie können
+              sich mit dem GitHub-Konto anmelden. Erst in Teil 2 nötig.</td></tr>
+    </tbody>
+  </table>
+
+  <h4>Der Ordner, um den es geht</h4>
+  <pre><span class="c">C:\Users\…\Documents\claude\Chemie\chh_Chemie_7_10</span></pre>
+  <p>Darin liegen rund 456 Dateien und etwa 7 MB — Aufgaben, Bilder,
+     Übungsblätter, Programmteile. Das passt bequem auf GitHub.</p>
+
+  <div class="kasten achtung">
+    <b>Laden Sie nur diesen Ordner hoch</b>
+    Der übergeordnete Ordner <code>Chemie</code> enthält auch
+    <code>Arbeitsmaterial.zip</code> mit über 600 MB. Diese Datei gehört
+    <b>nicht</b> auf GitHub — sie ist zu groß, und GitHub lehnt Dateien über
+    100 MB ab. Achten Sie in Schritt 3 darauf, dass Sie
+    <code>chh_Chemie_7_10</code> auswählen und nicht den Ordner darüber.
+  </div>
+</section>
+
+
+<!-- ================= TEIL 1 ================= -->
+<section class="teil">
+  <h2>Teil 1 · Das Projekt auf GitHub hochladen</h2>
+
+  <p>Am Ende dieses Teils liegt das Projekt im Internet und ist unter einer
+     Adresse wie <code>https://ihrname.github.io/chh_Chemie_7_10/</code>
+     aufrufbar — von jedem Schulgerät, ohne Installation.</p>
+
+  <!-- Schritt 1 -->
+  <div class="schritt">
+    <h3><span class="nr">1</span> GitHub Desktop anmelden</h3>
+    <ol>
+      <li>GitHub Desktop starten.</li>
+      <li>Beim ersten Start fragt es nach dem Konto: <i>Sign in to GitHub.com</i>.
+          Es öffnet sich der Browser, dort bestätigen Sie die Anmeldung.</li>
+      <li>Danach fragt es nach <i>Name</i> und <i>E-Mail</i>. Diese beiden
+          Angaben stehen später bei jeder Änderung dabei, die Sie hochladen.
+          Tragen Sie ein, was auch in der Schule bekannt ist.</li>
+    </ol>
+  </div>
+
+  <!-- Schritt 2 -->
+  <div class="schritt">
+    <h3><span class="nr">2</span> Den Standardzweig auf <code>master</code> stellen</h3>
+    <p>Das klingt nach einer Kleinigkeit, ist aber wichtig: Das Projekt und seine
+       automatische Prüfung erwarten einen Zweig namens <code>master</code>.
+       GitHub Desktop schlägt von sich aus <code>main</code> vor.</p>
+    <ol>
+      <li>Menü <i>File</i> → <i>Options…</i> → Reiter <i>Git</i>.</li>
+      <li>Bei <i>Default branch name for new repositories</i> auf
+          <b>master</b> stellen (Feld <i>Other…</i>, dann <code>master</code>
+          eintragen).</li>
+      <li><i>Save</i>.</li>
+    </ol>
+    <div class="kasten">
+      <b>Wenn Sie lieber <code>main</code> behalten</b>
+      Das geht auch. Sie müssen dann in Schritt 8 bei GitHub Pages
+      <code>main</code> auswählen statt <code>master</code>. Die automatische
+      Prüfung läuft dann allerdings nicht — sie ist auf die Namen
+      <code>master</code> und <code>develop</code> eingestellt.
+    </div>
+  </div>
+
+  <!-- Schritt 3 -->
+  <div class="schritt">
+    <h3><span class="nr">3</span> Den Ordner als Repository hinzufügen</h3>
+    <p>Ein „Repository“ ist nichts weiter als ein Ordner, dessen Änderungen Git
+       mitschreibt.</p>
+    <ol>
+      <li>Menü <i>File</i> → <i>Add local repository…</i></li>
+      <li>Auf <i>Choose…</i> klicken und den Ordner
+          <code>chh_Chemie_7_10</code> auswählen.</li>
+      <li>GitHub Desktop meldet: <i>This directory does not appear to be a Git
+          repository.</i> Das ist richtig so. Klicken Sie auf den Link
+          <b>create a repository</b> in diesem Hinweis.</li>
+      <li>Im nächsten Fenster:
+        <ul>
+          <li><i>Name</i>: <code>chh_Chemie_7_10</code> (so lassen)</li>
+          <li><i>Git ignore</i>: <b>None</b> — das Projekt bringt seine eigene
+              <code>.gitignore</code> mit</li>
+          <li><i>License</i>: <b>None</b></li>
+        </ul>
+      </li>
+      <li><i>Create repository</i>.</li>
+    </ol>
+  </div>
+
+  <figure>
+    <svg viewBox="0 0 600 250" role="img" aria-label="Schematische Darstellung des Fensters „Create a new repository“">
+      <rect x="1" y="1" width="598" height="248" rx="6" fill="#fff" stroke="#C8D2D8"/>
+      <rect x="1" y="1" width="598" height="26" rx="6" fill="#F1F4F6"/>
+      <rect x="1" y="20" width="598" height="7" fill="#F1F4F6"/>
+      <circle cx="16" cy="14" r="4" fill="#D8DFE5"/><circle cx="29" cy="14" r="4" fill="#D8DFE5"/>
+      <text x="46" y="18" font-size="10" font-family="Segoe UI" fill="#4A5A70">Create a new repository</text>
+
+      <text x="24" y="52" font-size="9" font-family="Segoe UI" fill="#4A5A70">Name</text>
+      <rect x="24" y="57" width="552" height="22" rx="3" fill="#fff" stroke="#205B9C" stroke-width="1.4"/>
+      <text x="32" y="72" font-size="10" font-family="Consolas" fill="#15233A">chh_Chemie_7_10</text>
+
+      <text x="24" y="98" font-size="9" font-family="Segoe UI" fill="#4A5A70">Local path</text>
+      <rect x="24" y="103" width="470" height="22" rx="3" fill="#F8FAFB" stroke="#D8DFE5"/>
+      <text x="32" y="118" font-size="9" font-family="Consolas" fill="#4A5A70">C:\Users\…\Documents\claude\Chemie</text>
+      <rect x="500" y="103" width="76" height="22" rx="3" fill="#F1F4F6" stroke="#C8D2D8"/>
+      <text x="538" y="118" font-size="9" font-family="Segoe UI" text-anchor="middle" fill="#15233A">Choose…</text>
+
+      <text x="24" y="146" font-size="9" font-family="Segoe UI" fill="#4A5A70">Git ignore</text>
+      <rect x="24" y="151" width="265" height="22" rx="3" fill="#fff" stroke="#A8231C" stroke-width="1.4"/>
+      <text x="32" y="166" font-size="10" font-family="Segoe UI" fill="#15233A">None</text>
+      <text x="298" y="166" font-size="8.5" font-family="Segoe UI" fill="#A8231C">← unbedingt „None“</text>
+
+      <text x="24" y="194" font-size="9" font-family="Segoe UI" fill="#4A5A70">License</text>
+      <rect x="24" y="199" width="265" height="22" rx="3" fill="#fff" stroke="#D8DFE5"/>
+      <text x="32" y="214" font-size="10" font-family="Segoe UI" fill="#15233A">None</text>
+
+      <rect x="440" y="205" width="136" height="26" rx="4" fill="#1F6849"/>
+      <text x="508" y="222" font-size="10" font-family="Segoe UI" text-anchor="middle" fill="#fff">Create repository</text>
+    </svg>
+    <figcaption>Abbildung 1 · Das Fenster „Create a new repository“. Wichtig sind der Pfad und „Git ignore: None“.</figcaption>
+  </figure>
+
+  <!-- Schritt 4 -->
+  <div class="schritt">
+    <h3><span class="nr">4</span> Vor dem Hochladen: eine Zeile ändern</h3>
+    <p>Auf dem Zweig <code>master</code> muss der Entwicklermodus <b>aus</b> sein.
+       Ist er an, erscheint auf den Schülergeräten ein Entwicklermenü, und die
+       automatische Prüfung schlägt fehl.</p>
+    <ol>
+      <li>Öffnen Sie <code>assets/js/supabase-config.js</code> in einem
+          Texteditor (Notepad genügt).</li>
+      <li>Suchen Sie die Zeile <code>devMode: true</code> und ändern Sie sie zu
+          <code>devMode: false</code>.</li>
+      <li>Speichern.</li>
+    </ol>
+    <div class="kasten gut">
+      <b>Solange Sie noch nicht mit Supabase verbunden sind</b>
+      Setzen Sie zusätzlich <code>enabled: false</code>. Dann läuft die Website
+      vollständig, nur ohne Anmeldung und ohne Dashboard — und es wird nichts
+      an einen Server geschickt. In Teil 2 stellen Sie es wieder auf
+      <code>true</code>.
+    </div>
+  </div>
+
+  <!-- Schritt 5 -->
+  <div class="schritt">
+    <h3><span class="nr">5</span> Die erste Fassung festschreiben</h3>
+    <p>In GitHub Desktop sehen Sie links alle 456 Dateien aufgelistet. Unten
+       links stehen zwei Felder.</p>
+    <ol>
+      <li>Ins obere Feld (<i>Summary</i>) schreiben Sie kurz, worum es geht,
+          zum Beispiel: <code>Chemie 7-10, erste Fassung</code></li>
+      <li>Das untere Feld (<i>Description</i>) können Sie leer lassen.</li>
+      <li>Klicken Sie auf <b>Commit to master</b>.</li>
+    </ol>
+    <p>„Commit“ heißt: Dieser Stand wird als Ganzes festgehalten. Auf Ihrem
+       Rechner, noch nicht im Internet.</p>
+  </div>
+
+  <figure>
+    <svg viewBox="0 0 600 210" role="img" aria-label="Schematische Darstellung von GitHub Desktop mit Dateiliste und Commit-Feld">
+      <rect x="1" y="1" width="598" height="208" rx="6" fill="#fff" stroke="#C8D2D8"/>
+      <rect x="1" y="1" width="598" height="30" rx="6" fill="#15233A"/>
+      <rect x="1" y="24" width="598" height="7" fill="#15233A"/>
+      <text x="16" y="21" font-size="9" font-family="Segoe UI" fill="#fff">Current repository</text>
+      <text x="140" y="21" font-size="9" font-family="Segoe UI" fill="#fff">Current branch</text>
+      <text x="146" y="21" font-size="9" font-family="Segoe UI" fill="#fff" opacity="0"> </text>
+      <text x="215" y="21" font-size="9" font-family="Consolas" fill="#7FB3E8">master</text>
+      <rect x="430" y="7" width="155" height="17" rx="3" fill="#ffffff22"/>
+      <text x="507" y="19" font-size="9" font-family="Segoe UI" text-anchor="middle" fill="#fff">Publish repository</text>
+
+      <!-- linke Spalte -->
+      <rect x="1" y="31" width="230" height="178" fill="#F8FAFB"/>
+      <text x="14" y="48" font-size="9" font-family="Segoe UI" fill="#4A5A70">456 changed files</text>
+      <g font-family="Consolas" font-size="8.5" fill="#15233A">
+        <text x="26" y="66">index.html</text>
+        <text x="26" y="80">einheit.html</text>
+        <text x="26" y="94">assets/js/engine.js</text>
+        <text x="26" y="108">units/fc/fc-01/tasks.json</text>
+        <text x="26" y="122">units/fc/fc-02/tasks.json</text>
+        <text x="26" y="136" fill="#6C7A8A">…</text>
+      </g>
+      <g fill="#1F6849">
+        <rect x="14" y="59" width="7" height="7" rx="1.5"/><rect x="14" y="73" width="7" height="7" rx="1.5"/>
+        <rect x="14" y="87" width="7" height="7" rx="1.5"/><rect x="14" y="101" width="7" height="7" rx="1.5"/>
+        <rect x="14" y="115" width="7" height="7" rx="1.5"/>
+      </g>
+
+      <!-- Commit-Bereich -->
+      <rect x="10" y="146" width="212" height="20" rx="3" fill="#fff" stroke="#205B9C" stroke-width="1.4"/>
+      <text x="17" y="160" font-size="8.5" font-family="Segoe UI" fill="#15233A">Chemie 7-10, erste Fassung</text>
+      <rect x="10" y="170" width="212" height="16" rx="3" fill="#fff" stroke="#D8DFE5"/>
+      <text x="17" y="181" font-size="8" font-family="Segoe UI" fill="#8595A3">Description</text>
+      <rect x="10" y="190" width="212" height="14" rx="3" fill="#1F6849"/>
+      <text x="116" y="200" font-size="8.5" font-family="Segoe UI" text-anchor="middle" fill="#fff">Commit to master</text>
+
+      <!-- rechte Seite -->
+      <text x="300" y="110" font-size="10" font-family="Segoe UI" fill="#6C7A8A">Vorschau der Änderungen</text>
+    </svg>
+    <figcaption>Abbildung 2 · GitHub Desktop nach dem Anlegen. Links die Dateien, unten links das Commit-Feld, oben rechts „Publish repository“.</figcaption>
+  </figure>
+
+  <!-- Schritt 6 -->
+  <div class="schritt">
+    <h3><span class="nr">6</span> Ins Internet hochladen</h3>
+    <ol>
+      <li>Oben rechts auf <b>Publish repository</b> klicken.</li>
+      <li>Im Fenster:
+        <ul>
+          <li><i>Name</i>: <code>chh_Chemie_7_10</code></li>
+          <li><i>Description</i>: zum Beispiel <code>Chemie 7–10 · Campus Hannah Höch</code></li>
+          <li><b>Das Häkchen bei <i>Keep this code private</i> muss WEG</b> —
+              siehe Kasten unten.</li>
+        </ul>
+      </li>
+      <li><i>Publish repository</i>. Je nach Verbindung dauert das ein bis drei
+          Minuten.</li>
+    </ol>
+    <div class="kasten achtung">
+      <b>Privat oder öffentlich?</b>
+      GitHub Pages veröffentlicht nur aus <b>öffentlichen</b> Repositories —
+      es sei denn, die Schule hat einen bezahlten Plan. Öffentlich heißt: Jeder
+      kann den Programmcode und die Aufgaben lesen. Das ist bei diesem Projekt
+      unproblematisch, denn <b>es liegen keine Schülerdaten darin</b>; die
+      liegen ausschließlich in Supabase. Wenn Sie trotzdem privat bleiben
+      wollen, brauchen Sie einen anderen Weg zur Veröffentlichung — sprechen Sie
+      das vorher mit der Schule ab.
+    </div>
+  </div>
+
+  <!-- Schritt 7 -->
+  <div class="schritt">
+    <h3><span class="nr">7</span> Nachsehen, ob alles angekommen ist</h3>
+    <ol>
+      <li>In GitHub Desktop: Menü <i>Repository</i> → <i>View on GitHub</i>.</li>
+      <li>Der Browser öffnet Ihr Repository. Sie sollten die Ordner
+          <code>assets</code>, <code>units</code>, <code>supabase</code>,
+          <code>werkzeuge</code> und die Datei <code>index.html</code> sehen.</li>
+    </ol>
+  </div>
+
+  <!-- Schritt 8 -->
+  <div class="schritt">
+    <h3><span class="nr">8</span> Die Website einschalten (GitHub Pages)</h3>
+    <ol>
+      <li>Im Repository oben auf <b>Settings</b> (das Zahnrad-Menü in der
+          Kopfzeile des Repositories, nicht Ihr Profilmenü).</li>
+      <li>Links in der Leiste auf <b>Pages</b>.</li>
+      <li>Unter <i>Build and deployment</i> → <i>Source</i>:
+          <b>Deploy from a branch</b>.</li>
+      <li>Darunter bei <i>Branch</i>: <b>master</b> und daneben
+          <b>/ (root)</b> wählen.</li>
+      <li><b>Save</b>.</li>
+    </ol>
+    <p>Nach ein bis zwei Minuten erscheint oben auf derselben Seite ein grüner
+       Kasten mit der Adresse Ihrer Website.</p>
+  </div>
+
+  <figure>
+    <svg viewBox="0 0 600 190" role="img" aria-label="Schematische Darstellung der GitHub-Pages-Einstellungen">
+      <rect x="1" y="1" width="598" height="188" rx="6" fill="#fff" stroke="#C8D2D8"/>
+      <rect x="1" y="1" width="598" height="26" rx="6" fill="#F1F4F6"/>
+      <rect x="1" y="20" width="598" height="7" fill="#F1F4F6"/>
+      <text x="16" y="18" font-size="10" font-family="Segoe UI" fill="#4A5A70">Settings › Pages</text>
+
+      <!-- Seitenleiste -->
+      <rect x="1" y="27" width="118" height="162" fill="#F8FAFB"/>
+      <g font-family="Segoe UI" font-size="8.5" fill="#4A5A70">
+        <text x="14" y="46">General</text>
+        <text x="14" y="64">Collaborators</text>
+        <text x="14" y="82">Branches</text>
+      </g>
+      <rect x="6" y="90" width="108" height="17" rx="3" fill="#E7EFF8"/>
+      <text x="14" y="102" font-size="8.5" font-family="Segoe UI" font-weight="bold" fill="#205B9C">Pages</text>
+
+      <!-- grüner Kasten -->
+      <rect x="132" y="38" width="452" height="34" rx="4" fill="#E4F1EA" stroke="#1F6849"/>
+      <text x="144" y="53" font-size="9" font-family="Segoe UI" fill="#1F6849">✓ Your site is live at</text>
+      <text x="144" y="66" font-size="9" font-family="Consolas" fill="#15233A">https://ihrname.github.io/chh_Chemie_7_10/</text>
+
+      <text x="132" y="92" font-size="9" font-family="Segoe UI" font-weight="bold" fill="#15233A">Build and deployment</text>
+      <text x="132" y="110" font-size="8.5" font-family="Segoe UI" fill="#4A5A70">Source</text>
+      <rect x="132" y="115" width="180" height="22" rx="3" fill="#fff" stroke="#D8DFE5"/>
+      <text x="141" y="130" font-size="9" font-family="Segoe UI" fill="#15233A">Deploy from a branch ▾</text>
+
+      <text x="132" y="153" font-size="8.5" font-family="Segoe UI" fill="#4A5A70">Branch</text>
+      <rect x="132" y="158" width="120" height="22" rx="3" fill="#fff" stroke="#205B9C" stroke-width="1.4"/>
+      <text x="141" y="173" font-size="9" font-family="Consolas" fill="#15233A">master ▾</text>
+      <rect x="260" y="158" width="100" height="22" rx="3" fill="#fff" stroke="#205B9C" stroke-width="1.4"/>
+      <text x="269" y="173" font-size="9" font-family="Consolas" fill="#15233A">/ (root) ▾</text>
+      <rect x="376" y="158" width="60" height="22" rx="3" fill="#1F6849"/>
+      <text x="406" y="173" font-size="9" font-family="Segoe UI" text-anchor="middle" fill="#fff">Save</text>
+    </svg>
+    <figcaption>Abbildung 3 · GitHub Pages einschalten. Der grüne Kasten mit der Adresse erscheint erst nach ein bis zwei Minuten.</figcaption>
+  </figure>
+
+  <!-- Schritt 9 -->
+  <div class="schritt">
+    <h3><span class="nr">9</span> Die Probe aufs Exempel</h3>
+    <ol>
+      <li>Rufen Sie die Adresse aus dem grünen Kasten auf.</li>
+      <li>Sie sehen die Startseite mit „Chemie Klasse 7 bis 10“ und der Liste
+          der Unterrichtsreihen.</li>
+      <li>Öffnen Sie eine Einheit, zum Beispiel <b>FC-01 Sicher im
+          Chemieraum</b>. Aufgaben, Zeitplan und Hefteintrag müssen erscheinen.</li>
+    </ol>
+    <div class="kasten gut">
+      <b>Damit ist Teil 1 fertig.</b>
+      Die Website läuft. Sie funktioniert ab jetzt vollständig für das Lernen —
+      Aufgaben, Videos, Übungsblätter, Hefteintrag. Was noch fehlt, ist die
+      Anmeldung der Klasse und das Dashboard. Das ist Teil 2.
+    </div>
+  </div>
+
+  <h3><span class="nr">10</span> Künftige Änderungen hochladen</h3>
+  <p>Immer derselbe Dreischritt, jedes Mal:</p>
+  <table>
+    <tbody>
+      <tr><td style="width:26%"><b>1. Ändern</b></td><td>Dateien im Ordner bearbeiten wie gewohnt.</td></tr>
+      <tr><td><b>2. Commit</b></td><td>In GitHub Desktop kurz beschreiben, was Sie geändert haben → <i>Commit to master</i>.</td></tr>
+      <tr><td><b>3. Push</b></td><td>Oben auf <b>Push origin</b>. Nach ein bis zwei Minuten ist die Website aktualisiert.</td></tr>
+    </tbody>
+  </table>
+  <div class="kasten">
+    <b>Die Seite zeigt noch das Alte?</b>
+    Das Projekt speichert sich für den Offlinebetrieb im Browser zwischen.
+    Nach einer Änderung hilft <b>Strg + F5</b> (Neuladen ohne Zwischenspeicher).
+    Auf den Schülergeräten geschieht das von selbst, sobald die Cache-Version in
+    <code>sw.js</code> hochgezählt wurde.
+  </div>
+</section>
+
+
+<!-- ================= TEIL 2 ================= -->
+<section class="teil">
+  <h2>Teil 2 · Supabase einbinden</h2>
+
+  <p>Supabase ist die Datenbank hinter der Anwendung. Sie leistet genau drei
+     Dinge — und nur, wenn Sie sie einschalten:</p>
+  <ul>
+    <li>Die <b>Anmeldung</b> der Schülerinnen und Schüler über eine Freigabeliste.</li>
+    <li>Das <b>Lehrerdashboard</b>: wer ist gerade wo, wo hakt es, wer braucht eine Freigabe.</li>
+    <li>Die <b>Warm-up-Ergebnisse</b>, aus denen im Bewertungsmodus eine Note entstehen kann.</li>
+  </ul>
+
+  <div class="kasten achtung">
+    <b>Vor dem Regelbetrieb: die Datenschutzfragen klären</b>
+    Ab hier verlassen personenbezogene Daten das Gerät. Was dafür geklärt sein
+    muss — Rechtsgrundlage, Auftragsverarbeitung, Verzeichnis, Information an
+    Eltern —, steht vollständig in <code>DATENSCHUTZ.md</code>, Abschnitt 5.
+    <b>Solange diese Punkte offen sind, lassen Sie <code>enabled: false</code></b>.
+    Die Anwendung funktioniert ohne Supabase vollständig; es fehlt nur das
+    Dashboard.
+  </div>
+
+  <!-- Schritt 1 -->
+  <div class="schritt">
+    <h3><span class="nr">1</span> Ein Supabase-Projekt anlegen</h3>
+    <ol>
+      <li>Auf <code>supabase.com</code> anmelden → <b>New project</b>.</li>
+      <li><i>Name</i>: zum Beispiel <code>chemie-7-10</code>.</li>
+      <li><i>Database Password</i>: ein langes Passwort erzeugen lassen und
+          <b>sicher notieren</b>. Sie brauchen es selten, aber es lässt sich
+          nicht wieder anzeigen.</li>
+      <li><i>Region</i>: <b>Central EU (Frankfurt)</b>. Das ist keine
+          Geschmacksfrage — bei einer Region außerhalb der EU müssten Sie eine
+          Drittlandübermittlung begründen.</li>
+      <li><b>Create new project</b>. Die Einrichtung dauert ein bis zwei Minuten.</li>
+    </ol>
+  </div>
+
+  <!-- Schritt 2 -->
+  <div class="schritt">
+    <h3><span class="nr">2</span> Die Datenbank einrichten</h3>
+    <p>Alles, was das Projekt braucht — Tabellen, Rechte, Funktionen — steht in
+       einer einzigen Datei im Projekt: <code>supabase/setup.sql</code>.</p>
+    <ol>
+      <li>Öffnen Sie <code>supabase/setup.sql</code> in einem Texteditor.</li>
+      <li>Alles markieren (<b>Strg + A</b>), kopieren (<b>Strg + C</b>).</li>
+      <li>In Supabase links auf <b>SQL Editor</b> → <b>New query</b>.</li>
+      <li>Einfügen (<b>Strg + V</b>) und auf <b>Run</b> klicken
+          (oder <b>Strg + Enter</b>).</li>
+      <li>Unten erscheint <i>Success. No rows returned</i>. Das ist das
+          gewünschte Ergebnis.</li>
+    </ol>
+    <div class="kasten">
+      <b>Die Datei ist so gebaut, dass Sie sie mehrfach ausführen dürfen.</b>
+      Vorhandene Tabellen und Daten bleiben erhalten. Wenn Sie später eine neue
+      Fassung des Projekts einspielen, führen Sie <code>setup.sql</code> einfach
+      erneut aus — genau das ist der vorgesehene Weg für Änderungen an der
+      Datenbank.
+    </div>
+  </div>
+
+  <figure>
+    <svg viewBox="0 0 600 200" role="img" aria-label="Schematische Darstellung des Supabase SQL-Editors">
+      <rect x="1" y="1" width="598" height="198" rx="6" fill="#fff" stroke="#C8D2D8"/>
+      <rect x="1" y="1" width="598" height="26" rx="6" fill="#15233A"/>
+      <rect x="1" y="20" width="598" height="7" fill="#15233A"/>
+      <path d="M22 8 l-9 12 h7 l-2 10 9-12 h-7 z" fill="#3ECF8E"/>
+      <text x="40" y="18" font-size="10" font-family="Segoe UI" fill="#fff">chemie-7-10</text>
+
+      <!-- Seitenleiste -->
+      <rect x="1" y="27" width="112" height="172" fill="#F8FAFB"/>
+      <g font-family="Segoe UI" font-size="8.5" fill="#4A5A70">
+        <text x="14" y="46">Table Editor</text>
+        <text x="14" y="82">Authentication</text>
+        <text x="14" y="100">Storage</text>
+        <text x="14" y="118">Project Settings</text>
+      </g>
+      <rect x="6" y="54" width="102" height="17" rx="3" fill="#E4F1EA"/>
+      <text x="14" y="66" font-size="8.5" font-family="Segoe UI" font-weight="bold" fill="#1F6849">SQL Editor</text>
+
+      <!-- Editor -->
+      <rect x="124" y="38" width="460" height="106" rx="4" fill="#16202C"/>
+      <g font-family="Consolas" font-size="7.6">
+        <text x="134" y="54" fill="#8899AA">-- Chemie710 · Freigabeliste, Tracking und Lernfortschritt</text>
+        <text x="134" y="67" fill="#7FB3E8">begin;</text>
+        <text x="134" y="80" fill="#7FB3E8">create extension if not exists pgcrypto;</text>
+        <text x="134" y="93" fill="#7FB3E8">create table if not exists public.chemie710_students (</text>
+        <text x="134" y="106" fill="#E7EDF3">  id uuid primary key default gen_random_uuid(), …</text>
+        <text x="134" y="119" fill="#8899AA">…</text>
+        <text x="134" y="132" fill="#7FB3E8">commit;</text>
+      </g>
+      <rect x="500" y="150" width="84" height="24" rx="4" fill="#1F6849"/>
+      <text x="542" y="166" font-size="9.5" font-family="Segoe UI" text-anchor="middle" fill="#fff">▶ Run</text>
+      <rect x="124" y="150" width="360" height="24" rx="4" fill="#E4F1EA" stroke="#1F6849"/>
+      <text x="136" y="166" font-size="9" font-family="Segoe UI" fill="#1F6849">Success. No rows returned</text>
+    </svg>
+    <figcaption>Abbildung 4 · Der SQL-Editor mit eingefügter <code>setup.sql</code>. Die Erfolgsmeldung erscheint unterhalb des Editors.</figcaption>
+  </figure>
+
+  <!-- Schritt 3 -->
+  <div class="schritt">
+    <h3><span class="nr">3</span> Die beiden Zugangsdaten holen</h3>
+    <ol>
+      <li>Links auf <b>Project Settings</b> (Zahnrad ganz unten) → <b>API</b>.</li>
+      <li>Notieren Sie sich zwei Angaben:
+        <ul>
+          <li><b>Project URL</b> — sieht aus wie
+              <code>https://abcdefghij.supabase.co</code></li>
+          <li><b>anon public</b> — ein sehr langer Schlüssel, der mit
+              <code>eyJ…</code> beginnt</li>
+        </ul>
+      </li>
+    </ol>
+    <div class="kasten">
+      <b>Der <code>anon</code>-Schlüssel darf öffentlich sein.</b>
+      Er steht später in einer Datei, die jeder lesen kann — das ist so
+      vorgesehen. Er erlaubt für sich genommen nichts: Jeder Schreibzugriff
+      verlangt zusätzlich ein Sitzungstoken aus der Schüleranmeldung, und die
+      Rechte in der Datenbank sind darauf abgestimmt.
+      <br><br>
+      <b>Der <code>service_role</code>-Schlüssel dagegen niemals.</b> Er steht
+      auf derselben Seite und umgeht alle Rechte. Er gehört in keine Datei
+      dieses Projekts und in kein Repository.
+    </div>
+  </div>
+
+  <!-- Schritt 4 -->
+  <div class="schritt">
+    <h3><span class="nr">4</span> Die Zugangsdaten eintragen</h3>
+    <p>Öffnen Sie <code>assets/js/supabase-config.js</code> und tragen Sie ein:</p>
+<pre><span class="k">window</span>.CHEMIE710_SUPABASE = {
+  url:      <span class="s">'https://abcdefghij.supabase.co'</span>,   <span class="c">// Ihre Project URL</span>
+  anonKey:  <span class="s">'eyJhbGciOiJIUzI1NiIsInR5…'</span>,        <span class="c">// Ihr anon public key</span>
+  enabled:  <span class="k">true</span>,                                <span class="c">// jetzt einschalten</span>
+  heartbeatSeconds: 20,
+  classCode: <span class="s">'9'</span>,                                <span class="c">// Ihre Lerngruppe</span>
+  devMode:  <span class="k">false</span>,                               <span class="c">// auf master immer false</span>
+  devClassCode: <span class="s">'DEV'</span>
+};</pre>
+    <p>Speichern, und in GitHub Desktop wie in Schritt 10 von Teil 1
+       hochladen: <i>Commit to master</i> → <i>Push origin</i>.</p>
+    <table>
+      <thead><tr><th style="width:30%">Angabe</th><th>Bedeutung</th></tr></thead>
+      <tbody>
+        <tr><td><code>enabled</code></td><td><code>false</code> schaltet Supabase komplett ab — nichts verlässt das Gerät. Der Schalter für den Probebetrieb.</td></tr>
+        <tr><td><code>classCode</code></td><td>Die Lerngruppe, die im Dashboard voreingestellt ist. Sie können sie dort jederzeit umstellen.</td></tr>
+        <tr><td><code>devMode</code></td><td>Entwicklermenü. Auf <code>master</code> immer <code>false</code>.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Schritt 5 -->
+  <div class="schritt">
+    <h3><span class="nr">5</span> Ihr Lehrerkonto anlegen</h3>
+    <p>Das Dashboard verlangt eine Anmeldung. Dieses Konto legen Sie in Supabase
+       an — es hat nichts mit dem GitHub-Konto zu tun.</p>
+    <ol>
+      <li>Links auf <b>Authentication</b> → <b>Users</b>.</li>
+      <li><b>Add user</b> → <b>Create new user</b>.</li>
+      <li>Dienstliche E-Mail-Adresse und ein starkes Passwort eintragen.</li>
+      <li>Haken bei <i>Auto Confirm User</i> setzen — sonst wartet das Konto auf
+          eine Bestätigungsmail.</li>
+      <li><b>Create user</b>.</li>
+    </ol>
+  </div>
+
+  <!-- Schritt 6 -->
+  <div class="schritt">
+    <h3><span class="nr">6</span> Das Lehrerkonto freischalten</h3>
+    <p>Ein Konto allein genügt nicht. Wer die Daten aller Lernenden sehen darf,
+       muss ausdrücklich freigeschaltet werden — und jede Freischaltung wird
+       protokolliert.</p>
+    <ol>
+      <li><b>SQL Editor</b> → <b>New query</b>.</li>
+      <li>Folgendes eintragen, die Adresse durch Ihre ersetzen, und
+          <b>Run</b>:</li>
+    </ol>
+<pre><span class="k">select</span> public.chemie710_lehrkraft_freischalten(
+  <span class="s">'ihre.adresse@schule.de'</span>,
+  <span class="s">'Fachlehrkraft Chemie'</span>
+);</pre>
+    <p>Zurück kommt eine lange Kennung — das ist die Benutzer-ID. Fehlermeldung
+       <i>Kein Supabase-Konto mit der Adresse … gefunden</i> heißt: Schritt 5
+       hat nicht geklappt oder die Adresse ist anders geschrieben.</p>
+    <p>Wer freigeschaltet ist, sehen Sie jederzeit mit:</p>
+<pre><span class="k">select</span> * <span class="k">from</span> public.chemie710_lehrkraft_uebersicht();</pre>
+  </div>
+
+  <!-- Schritt 7 -->
+  <div class="schritt">
+    <h3><span class="nr">7</span> Im Dashboard anmelden</h3>
+    <ol>
+      <li>Rufen Sie <code>…github.io/chh_Chemie_7_10/dashboard/</code> auf.</li>
+      <li>Melden Sie sich mit der E-Mail-Adresse und dem Passwort aus Schritt 5 an.</li>
+      <li>Oben rechts wechselt die Anzeige auf <b>live</b> mit einem grünen Punkt.</li>
+    </ol>
+    <div class="kasten">
+      <b>Fehlermeldung „Nur freigeschaltete Lehrkräfte …“?</b>
+      Dann fehlt Schritt 6. Das Konto existiert, ist aber nicht freigeschaltet.
+    </div>
+  </div>
+
+  <!-- Schritt 8 -->
+  <div class="schritt">
+    <h3><span class="nr">8</span> Die Klasse eintragen</h3>
+    <p>Schülerinnen und Schüler melden sich <b>ohne Passwort</b> an — mit
+       Benutzername und Lerngruppe. Angemeldet werden kann sich nur, wer auf der
+       Freigabeliste steht.</p>
+    <ol>
+      <li>Im Dashboard, Tafel <b>Freigabeliste</b>.</li>
+      <li>Je Kind ausfüllen:
+        <ul>
+          <li><i>Benutzername</i>: <code>nachname.vorname</code>, klein
+              geschrieben, ohne Leerzeichen (die Form wird geprüft)</li>
+          <li><i>Anzeigename</i>: wie es im Dashboard erscheinen soll</li>
+          <li><i>Lerngruppe</i>: derselbe Wert für die ganze Klasse,
+              zum Beispiel <code>M456_9er</code></li>
+        </ul>
+      </li>
+      <li><b>Hinzufügen</b>. Der Eintrag erscheint sofort in der Tabelle.</li>
+    </ol>
+    <div class="kasten merke">
+      <b>Pseudonyme statt Klarnamen?</b>
+      Möglich und datensparsamer: Als Anzeigename genügt ein Kürzel, das nur Sie
+      zuordnen können. Die Anwendung braucht den echten Namen nicht.
+    </div>
+  </div>
+
+  <figure>
+    <svg viewBox="0 0 600 175" role="img" aria-label="Schematische Darstellung der Freigabeliste im Lehrerdashboard">
+      <rect x="1" y="1" width="598" height="173" rx="6" fill="#fff" stroke="#C8D2D8"/>
+      <rect x="1" y="1" width="598" height="30" rx="6" fill="#15233A"/>
+      <rect x="1" y="24" width="598" height="7" fill="#15233A"/>
+      <text x="16" y="20" font-size="10" font-family="Segoe UI" fill="#fff">Lehrerdashboard</text>
+      <circle cx="516" cy="15" r="5" fill="#38B66D"/>
+      <text x="528" y="19" font-size="9" font-family="Segoe UI" fill="#fff">live</text>
+
+      <text x="16" y="50" font-size="10" font-family="Segoe UI" font-weight="bold" fill="#15233A">Freigabeliste</text>
+
+      <g font-family="Segoe UI" font-size="8">
+        <text x="16" y="70" fill="#4A5A70">Benutzername</text>
+        <text x="170" y="70" fill="#4A5A70">Anzeigename</text>
+        <text x="330" y="70" fill="#4A5A70">Lerngruppe</text>
+      </g>
+      <rect x="16" y="75" width="146" height="20" rx="3" fill="#fff" stroke="#205B9C" stroke-width="1.3"/>
+      <text x="24" y="89" font-size="8.5" font-family="Consolas" fill="#15233A">mustermann.max</text>
+      <rect x="170" y="75" width="146" height="20" rx="3" fill="#fff" stroke="#D8DFE5"/>
+      <text x="178" y="89" font-size="8.5" font-family="Segoe UI" fill="#15233A">Max Mustermann</text>
+      <rect x="330" y="75" width="120" height="20" rx="3" fill="#fff" stroke="#D8DFE5"/>
+      <text x="338" y="89" font-size="8.5" font-family="Consolas" fill="#15233A">M456_9er</text>
+      <rect x="460" y="75" width="90" height="20" rx="3" fill="#15233A"/>
+      <text x="505" y="89" font-size="8.5" font-family="Segoe UI" text-anchor="middle" fill="#fff">Hinzufügen</text>
+
+      <line x1="16" y1="108" x2="584" y2="108" stroke="#E5EAF0"/>
+      <g font-family="Segoe UI" font-size="8.5" fill="#15233A">
+        <text x="16" y="124">mustermann.max</text><text x="170" y="124">Max Mustermann</text>
+        <text x="330" y="124">M456_9er</text>
+        <circle cx="463" cy="121" r="4" fill="#38B66D"/><text x="472" y="124" fill="#4A5A70">aktiv</text>
+        <text x="16" y="146">beispiel.anna</text><text x="170" y="146">Anna Beispiel</text>
+        <text x="330" y="146">M456_9er</text>
+        <circle cx="463" cy="143" r="4" fill="#38B66D"/><text x="472" y="146" fill="#4A5A70">aktiv</text>
+      </g>
+      <line x1="16" y1="132" x2="584" y2="132" stroke="#E5EAF0"/>
+      <line x1="16" y1="154" x2="584" y2="154" stroke="#E5EAF0"/>
+    </svg>
+    <figcaption>Abbildung 5 · Die Freigabeliste. Nur wer hier steht, kann sich anmelden.</figcaption>
+  </figure>
+
+  <!-- Schritt 9 -->
+  <div class="schritt">
+    <h3><span class="nr">9</span> Die Anmeldung ausprobieren</h3>
+    <ol>
+      <li>Öffnen Sie die Website in einem <b>privaten Fenster</b>
+          (Strg + Umschalt + N), damit Ihre eigene Anmeldung nicht stört.</li>
+      <li>Melden Sie sich mit einem der eben angelegten Benutzernamen und der
+          Lerngruppe an.</li>
+      <li>Bearbeiten Sie eine Aufgabe.</li>
+      <li>Im Dashboard muss der Name innerhalb einer Minute in der Tafel
+          <b>Schüleraktivität</b> auftauchen.</li>
+    </ol>
+    <div class="kasten gut">
+      <b>Kommt der Name an, ist die Einbindung fertig.</b>
+      Alles Weitere — Bewertungsmodus, Freigaben, Warm-up-Noten — sind
+      Einstellungen im Dashboard, keine Einrichtung mehr.
+    </div>
+  </div>
+
+  <!-- Schritt 10 -->
+  <div class="schritt">
+    <h3><span class="nr">10</span> Zwei Dinge, die Sie einmal nachsehen sollten</h3>
+    <h4>a) Stimmt die Datenbank mit dem Sollstand überein?</h4>
+    <p>Im Projekt liegt eine reine Leseprüfung. Sie ändert nichts.</p>
+    <ol>
+      <li><code>supabase/abgleich-readonly.sql</code> öffnen, alles kopieren.</li>
+      <li>Im SQL-Editor einfügen und <b>Run</b>.</li>
+      <li>In der ersten Ergebnistabelle muss bei jeder Tabelle
+          <code>vorhanden = true</code> und <code>rls_aktiv = true</code> stehen.</li>
+    </ol>
+    <h4>b) Läuft der Aufräumjob?</h4>
+    <p>Die Anwendung löscht Ereignisse nach 90 und Fortschritt, Lernzeit sowie
+       Warm-up-Ergebnisse nach 365 Tagen — <b>aber nur, wenn der Job läuft</b>.
+       Ob er eingerichtet ist, zeigt das Dashboard ganz unten unter
+       <b>Betrieb und Datenpflege</b>. Steht dort nichts oder etwas
+       Überfälliges, führen Sie einmal im Monat von Hand aus:</p>
+<pre><span class="k">select</span> * <span class="k">from</span> public.chemie710_aufraeumen();</pre>
+  </div>
+</section>
+
+
+<!-- ================= TEIL 3 ================= -->
+<section class="teil">
+  <h2>Teil 3 · Wenn etwas nicht klappt</h2>
+
+  <table>
+    <thead><tr><th style="width:36%">Was Sie sehen</th><th>Woran es liegt und was hilft</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>GitHub Desktop: <i>File too large</i> oder der Push bricht ab</td>
+        <td>Es ist eine Datei über 100 MB dabei. Vermutlich haben Sie den
+            übergeordneten Ordner <code>Chemie</code> gewählt statt
+            <code>chh_Chemie_7_10</code>. Repository entfernen
+            (<i>Repository → Remove</i>) und Schritt 3 wiederholen.</td>
+      </tr>
+      <tr>
+        <td>Die Website zeigt <i>404 · There isn’t a GitHub Pages site here</i></td>
+        <td>Pages ist noch nicht fertig oder der falsche Zweig ist eingestellt.
+            Warten Sie zwei Minuten und prüfen Sie unter <i>Settings → Pages</i>,
+            ob dort der Zweig steht, auf dem Sie tatsächlich arbeiten.</td>
+      </tr>
+      <tr>
+        <td>Die Seite lädt, aber es erscheinen keine Aufgaben</td>
+        <td>Fast immer ein Zwischenspeicher. <b>Strg + F5</b>. Wenn das nicht
+            hilft: Öffnen Sie die Entwicklerkonsole (F12) und sehen Sie unter
+            <i>Console</i> nach roter Schrift.</td>
+      </tr>
+      <tr>
+        <td>Auf GitHub steht ein rotes Kreuz beim Commit</td>
+        <td>Die automatische Prüfung hat etwas gefunden. Klicken Sie darauf —
+            der Bericht nennt Datei und Zeile. Häufigster Fall:
+            <code>devMode</code> steht auf <code>master</code> noch auf
+            <code>true</code>.</td>
+      </tr>
+      <tr>
+        <td>Anmeldung: <i>Die Anmeldung ist noch nicht mit Supabase verbunden</i></td>
+        <td>In <code>supabase-config.js</code> steht <code>enabled: false</code>,
+            oder URL und Schlüssel fehlen. Teil 2, Schritt 4.</td>
+      </tr>
+      <tr>
+        <td>Anmeldung: Benutzername wird abgelehnt</td>
+        <td>Die Form muss <code>nachname.vorname</code> sein — genau ein Punkt,
+            keine Leerzeichen. Und die <b>Lerngruppe</b> muss buchstabengenau
+            stimmen; sie ist Teil der Anmeldung.</td>
+      </tr>
+      <tr>
+        <td>Dashboard: <i>Nur freigeschaltete Lehrkräfte …</i></td>
+        <td>Das Konto existiert, ist aber nicht freigeschaltet. Teil 2,
+            Schritt 6.</td>
+      </tr>
+      <tr>
+        <td>Dashboard bleibt leer, obwohl gearbeitet wird</td>
+        <td>Steht oben rechts <b>live</b>? Stimmt die <i>Lerngruppe</i> im
+            Filterfeld mit der überein, die Sie eingetragen haben? Das ist mit
+            Abstand der häufigste Grund.</td>
+      </tr>
+      <tr>
+        <td>Im Dashboard fehlt die Tafel <i>Warm-up und Bewertung</i>
+            oder sie meldet einen Fehler</td>
+        <td>Die Datenbank ist auf einem älteren Stand. <code>setup.sql</code>
+            noch einmal ausführen — das ist gefahrlos.</td>
+      </tr>
+      <tr>
+        <td>Ein Lernvideo oder eine Übung bleibt leer</td>
+        <td>Das Schulnetz sperrt vermutlich den Anbieter
+            (<code>app.lumi.education</code>, <code>learningapps.org</code>,
+            <code>schlaukopf.de</code>, <code>allgemeinbildung.ch</code>,
+            <code>serlo.org</code>). Diese Adressen müssen freigegeben sein.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3><span class="nr">✓</span> Die kurze Prüfliste</h3>
+  <table>
+    <tbody>
+      <tr><td style="width:52%">GitHub-Konto und GitHub Desktop eingerichtet</td><td>Teil 0</td></tr>
+      <tr><td>Standardzweig heißt <code>master</code></td><td>Teil 1, Schritt 2</td></tr>
+      <tr><td>Nur <code>chh_Chemie_7_10</code> als Repository, nicht der Ordner darüber</td><td>Teil 1, Schritt 3</td></tr>
+      <tr><td><code>devMode: false</code> vor dem Hochladen</td><td>Teil 1, Schritt 4</td></tr>
+      <tr><td>Repository veröffentlicht, GitHub Pages auf <code>master / (root)</code></td><td>Teil 1, Schritt 6–8</td></tr>
+      <tr><td>Website läuft, eine Einheit lässt sich öffnen</td><td>Teil 1, Schritt 9</td></tr>
+      <tr><td>Supabase-Projekt in der Region Frankfurt</td><td>Teil 2, Schritt 1</td></tr>
+      <tr><td><code>setup.sql</code> ausgeführt, Meldung <i>Success</i></td><td>Teil 2, Schritt 2</td></tr>
+      <tr><td>URL und <code>anon</code>-Schlüssel eingetragen, <code>enabled: true</code></td><td>Teil 2, Schritt 3–4</td></tr>
+      <tr><td>Lehrerkonto angelegt <b>und</b> freigeschaltet</td><td>Teil 2, Schritt 5–6</td></tr>
+      <tr><td>Klasse in der Freigabeliste, Testanmeldung erfolgreich</td><td>Teil 2, Schritt 8–9</td></tr>
+      <tr><td>Abgleich gelaufen, Aufräumjob geprüft</td><td>Teil 2, Schritt 10</td></tr>
+      <tr><td><b>Datenschutzfragen aus <code>DATENSCHUTZ.md</code> Abschnitt 5 geklärt</b></td><td>vor dem Regelbetrieb</td></tr>
+    </tbody>
+  </table>
+
+  <div class="kasten achtung" style="margin-top:14pt">
+    <b>Der letzte Punkt ist kein Formalismus</b>
+    Zwei Entscheidungen gehören vor die erste Stunde und nicht in die
+    Technik: die <b>Auftragsverarbeitung</b> für Supabase, Lumi und die
+    Übungsplattformen — und der Beschluss der Fachkonferenz, <b>ob und wie</b>
+    die Warm-up-Ergebnisse in die Note eingehen. Solange dieser Beschluss
+    fehlt, lassen Sie den Bewertungsmodus aus: Die Läufe werden dann als Übung
+    geführt und zählen nicht.
+  </div>
+
+  <h4>Wo Sie weiterlesen</h4>
+  <table>
+    <thead><tr><th style="width:36%">Datei im Projekt</th><th>Inhalt</th></tr></thead>
+    <tbody>
+      <tr><td><code>README.md</code></td><td>Wie das Projekt aufgebaut ist, alle Bausteine im Überblick</td></tr>
+      <tr><td><code>DATENSCHUTZ.md</code></td><td>Welche Daten wo liegen, wie lange, und was vorher zu klären ist</td></tr>
+      <tr><td><code>CHANGELOG.md</code></td><td>Was sich in welcher Fassung geändert hat und warum</td></tr>
+      <tr><td><code>VIDEO_PRUEFBERICHT.md</code></td><td>Welches Lernvideo auf welchem Lernweg steht — und warum</td></tr>
+      <tr><td><code>supabase/setup.sql</code></td><td>Die vollständige Datenbank, ausführlich kommentiert</td></tr>
+    </tbody>
+  </table>
+</section>
+
+</body>
+</html>
