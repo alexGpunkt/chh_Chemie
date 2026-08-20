@@ -1,11 +1,12 @@
 {
   "name": "Chemie 7–10 · Campus Hannah Höch",
   "version": "v4",
-  "cache_version": "chemie710-v4-lumi-warmup-skript",
+  "cache_version": "chemie710-v4-lernruhe",
   "source_commit": null,
   "source_branch": "develop",
   "source_dirty": true,
-  "gebaut_am": "2026-08-18T00:00:00Z",
+  "gebaut_am": "2026-08-20T00:00:00Z",
   "tracking_aktiv": true,
   "einheiten": 76
 }
+
