@@ -49,19 +49,22 @@
   </div>
 </header>
 
-<nav class="lernreise" id="lernreise" aria-label="Dein Weg durch diese Einheit">
-  <ol>
-    <li data-phase="verstehen" aria-current="step"><span>1</span><b>Verstehen</b><small>Erklärung lesen</small></li>
-    <li data-phase="ueben"><span>2</span><b>Üben</b><small>Aufgaben lösen</small></li>
-    <li data-phase="sichern"><span>3</span><b>Sichern</b><small>Im Heft festhalten</small></li>
-  </ol>
-</nav>
+<div class="lernlayout">
+  <aside class="lernsteuerung" aria-label="Orientierung in dieser Einheit">
+    <nav class="lernreise" id="lernreise" aria-label="Dein Weg durch diese Einheit">
+      <ol>
+        <li data-phase="verstehen" aria-current="step"><span>1</span><b>Verstehen</b><small>Erklärung lesen</small></li>
+        <li data-phase="ueben"><span>2</span><b>Üben</b><small>Aufgaben lösen</small></li>
+        <li data-phase="sichern"><span>3</span><b>Sichern</b><small>Im Heft festhalten</small></li>
+      </ol>
+    </nav>
 
-<!-- Der Zeitplan der Stunde: 45 Minuten ohne das Warm-up davor.
-     Steht über der Bühne, weil er die Einteilung vorgibt, nicht bilanziert. -->
-<section class="zeitplan" id="zeitplan" hidden></section>
+    <!-- Der Zeitplan der Stunde: 45 Minuten ohne das Warm-up davor. -->
+    <section class="zeitplan" id="zeitplan" hidden></section>
+  </aside>
 
-<main id="buehne"><p class="lade">Aufgaben werden geladen …</p></main>
+  <main id="buehne"><p class="lade">Aufgaben werden geladen …</p></main>
+</div>
 
 <section class="blattkarte" id="blattkarte" hidden>
   <div class="blattkarte-text">
@@ -102,7 +105,7 @@
 </details>
 
 <details class="formelkarte" id="formelkarte">
-  <summary>Formelkarte &amp; Wortspeicher</summary>
+  <summary><span class="fk-lang">Formelkarte &amp; Wortspeicher</span><span class="fk-kurz">Formeln &amp; Wörter</span></summary>
   <div class="formel-inhalt" id="formel-inhalt"></div>
 </details>
 
