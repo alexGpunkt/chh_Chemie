@@ -1,0 +1,584 @@
+{
+  "_hinweis": "Datei steuert das Warm-up. Kein Code muss angefasst werden.",
+  "_warmup": "Das Warm-up wiederholt das Grundwissen ALLER zurueckliegenden Reihen. Massgeblich ist die Reihe der gerade bearbeiteten Einheit: Alles, was in frueheren Reihen erarbeitet wurde, ist Wiederholungsstoff; was noch nicht dran war, kommt nicht vor. In der ersten Reihe gibt es nichts Frueheres - dort wiederholt das Warm-up innerhalb der eigenen Reihe.",
+  "kategorien": [
+    "W-STOF",
+    "W-TEIL",
+    "W-SYMB",
+    "W-GLEI",
+    "W-RECH",
+    "W-EINH",
+    "W-LOES",
+    "W-ORG"
+  ],
+  "reihen": [
+    {
+      "code": "fc",
+      "titel": "Faszination Chemie",
+      "klasse": 7,
+      "nummer": 1,
+      "einheiten": [
+        "fc-01",
+        "fc-02",
+        "fc-03",
+        "fc-04",
+        "fc-05",
+        "fc-06",
+        "fc-07",
+        "fc-08"
+      ],
+      "grundwissen": [
+        "W-STOF",
+        "W-EINH"
+      ]
+    },
+    {
+      "code": "ps",
+      "titel": "Das Periodensystem der Elemente",
+      "klasse": 7,
+      "nummer": 2,
+      "einheiten": [
+        "ps-01",
+        "ps-02",
+        "ps-03",
+        "ps-04",
+        "ps-05",
+        "ps-06",
+        "ps-07",
+        "ps-08"
+      ],
+      "grundwissen": [
+        "W-TEIL",
+        "W-SYMB"
+      ]
+    },
+    {
+      "code": "ga",
+      "titel": "Gase",
+      "klasse": 7,
+      "nummer": 3,
+      "einheiten": [
+        "ga-01",
+        "ga-02",
+        "ga-03",
+        "ga-04",
+        "ga-05"
+      ],
+      "grundwissen": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "code": "wa",
+      "titel": "Wasser — eine Verbindung",
+      "klasse": 8,
+      "nummer": 4,
+      "einheiten": [
+        "wa-01",
+        "wa-02",
+        "wa-03",
+        "wa-04",
+        "wa-05",
+        "wa-06"
+      ],
+      "grundwissen": [
+        "W-GLEI",
+        "W-TEIL"
+      ]
+    },
+    {
+      "code": "sz",
+      "titel": "Salze",
+      "klasse": 8,
+      "nummer": 5,
+      "einheiten": [
+        "sz-01",
+        "sz-02",
+        "sz-03",
+        "sz-04",
+        "sz-05"
+      ],
+      "grundwissen": [
+        "W-SYMB",
+        "W-LOES"
+      ]
+    },
+    {
+      "code": "me",
+      "titel": "Metalle",
+      "klasse": 8,
+      "nummer": 6,
+      "einheiten": [
+        "me-01",
+        "me-02",
+        "me-03",
+        "me-04",
+        "me-05",
+        "me-06",
+        "me-07"
+      ],
+      "grundwissen": [
+        "W-GLEI",
+        "W-RECH"
+      ]
+    },
+    {
+      "code": "qb",
+      "titel": "Quantitative Betrachtungen",
+      "klasse": 9,
+      "nummer": 7,
+      "einheiten": [
+        "qb-01",
+        "qb-02",
+        "qb-03",
+        "qb-04",
+        "qb-05"
+      ],
+      "grundwissen": [
+        "W-RECH",
+        "W-EINH"
+      ]
+    },
+    {
+      "code": "sl",
+      "titel": "Säuren und Laugen",
+      "klasse": 9,
+      "nummer": 8,
+      "einheiten": [
+        "sl-01",
+        "sl-02",
+        "sl-03",
+        "sl-04",
+        "sl-05",
+        "sl-06",
+        "sl-07"
+      ],
+      "grundwissen": [
+        "W-LOES"
+      ]
+    },
+    {
+      "code": "kw",
+      "titel": "Kohlenwasserstoffe",
+      "klasse": 9,
+      "nummer": 9,
+      "einheiten": [
+        "kw-01",
+        "kw-02",
+        "kw-03",
+        "kw-04",
+        "kw-05",
+        "kw-06",
+        "kw-07"
+      ],
+      "grundwissen": [
+        "W-ORG"
+      ]
+    },
+    {
+      "code": "al",
+      "titel": "Alkohole",
+      "klasse": 10,
+      "nummer": 10,
+      "einheiten": [
+        "al-01",
+        "al-02",
+        "al-03",
+        "al-04",
+        "al-05",
+        "al-06",
+        "al-07"
+      ],
+      "grundwissen": [
+        "W-ORG"
+      ]
+    },
+    {
+      "code": "os",
+      "titel": "Organische Säuren",
+      "klasse": 10,
+      "nummer": 11,
+      "einheiten": [
+        "os-01",
+        "os-02",
+        "os-03",
+        "os-04",
+        "os-05"
+      ],
+      "grundwissen": [
+        "W-ORG"
+      ]
+    },
+    {
+      "code": "es",
+      "titel": "Ester und Makromoleküle",
+      "klasse": 10,
+      "nummer": 12,
+      "einheiten": [
+        "es-01",
+        "es-02",
+        "es-03",
+        "es-04",
+        "es-05",
+        "es-06"
+      ],
+      "grundwissen": [
+        "W-ORG"
+      ]
+    }
+  ],
+  "geplant": [],
+  "intervalle_tage": [
+    0,
+    1,
+    3,
+    7,
+    21,
+    60
+  ],
+  "verzahnung": {
+    "fc-01": [
+      "W-EINH"
+    ],
+    "fc-02": [
+      "W-EINH"
+    ],
+    "fc-03": [
+      "W-STOF",
+      "W-EINH"
+    ],
+    "fc-04": [
+      "W-STOF",
+      "W-LOES"
+    ],
+    "fc-05": [
+      "W-STOF"
+    ],
+    "fc-06": [
+      "W-STOF"
+    ],
+    "fc-07": [
+      "W-SYMB",
+      "W-GLEI"
+    ],
+    "fc-08": [
+      "W-GLEI",
+      "W-SYMB"
+    ],
+    "ps-01": [
+      "W-TEIL"
+    ],
+    "ps-02": [
+      "W-TEIL"
+    ],
+    "ps-03": [
+      "W-TEIL"
+    ],
+    "ps-04": [
+      "W-TEIL"
+    ],
+    "ps-05": [
+      "W-TEIL",
+      "W-SYMB"
+    ],
+    "ps-06": [
+      "W-TEIL",
+      "W-RECH"
+    ],
+    "ps-07": [
+      "W-TEIL"
+    ],
+    "ps-08": [
+      "W-TEIL",
+      "W-SYMB"
+    ],
+    "ga-01": [
+      "W-STOF",
+      "W-EINH"
+    ],
+    "ga-02": [
+      "W-GLEI",
+      "W-SYMB"
+    ],
+    "ga-03": [
+      "W-TEIL",
+      "W-SYMB"
+    ],
+    "ga-04": [
+      "W-LOES",
+      "W-EINH"
+    ],
+    "ga-05": [
+      "W-SYMB",
+      "W-GLEI"
+    ],
+    "wa-01": [
+      "W-STOF",
+      "W-EINH"
+    ],
+    "wa-02": [
+      "W-GLEI",
+      "W-EINH"
+    ],
+    "wa-03": [
+      "W-GLEI",
+      "W-SYMB"
+    ],
+    "wa-04": [
+      "W-TEIL",
+      "W-SYMB"
+    ],
+    "wa-05": [
+      "W-LOES",
+      "W-STOF"
+    ],
+    "wa-06": [
+      "W-GLEI",
+      "W-LOES"
+    ],
+    "sz-01": [
+      "W-TEIL"
+    ],
+    "sz-02": [
+      "W-TEIL",
+      "W-STOF"
+    ],
+    "sz-03": [
+      "W-SYMB",
+      "W-TEIL"
+    ],
+    "sz-04": [
+      "W-LOES",
+      "W-EINH"
+    ],
+    "sz-05": [
+      "W-SYMB",
+      "W-LOES"
+    ],
+    "me-01": [
+      "W-STOF",
+      "W-EINH"
+    ],
+    "me-02": [
+      "W-TEIL",
+      "W-STOF"
+    ],
+    "me-03": [
+      "W-GLEI"
+    ],
+    "me-04": [
+      "W-STOF",
+      "W-LOES"
+    ],
+    "me-05": [
+      "W-GLEI",
+      "W-TEIL"
+    ],
+    "me-06": [
+      "W-GLEI",
+      "W-RECH"
+    ],
+    "me-07": [
+      "W-GLEI",
+      "W-RECH"
+    ],
+    "qb-01": [
+      "W-SYMB",
+      "W-RECH"
+    ],
+    "qb-02": [
+      "W-RECH",
+      "W-EINH"
+    ],
+    "qb-03": [
+      "W-RECH",
+      "W-EINH"
+    ],
+    "qb-04": [
+      "W-RECH",
+      "W-EINH"
+    ],
+    "qb-05": [
+      "W-RECH",
+      "W-GLEI"
+    ],
+    "sl-01": [
+      "W-LOES",
+      "W-STOF"
+    ],
+    "sl-02": [
+      "W-LOES"
+    ],
+    "sl-03": [
+      "W-SYMB",
+      "W-LOES"
+    ],
+    "sl-04": [
+      "W-SYMB",
+      "W-LOES"
+    ],
+    "sl-05": [
+      "W-GLEI",
+      "W-SYMB"
+    ],
+    "sl-06": [
+      "W-GLEI",
+      "W-LOES"
+    ],
+    "sl-07": [
+      "W-LOES",
+      "W-RECH"
+    ],
+    "kw-01": [
+      "W-STOF",
+      "W-SYMB"
+    ],
+    "kw-02": [
+      "W-ORG",
+      "W-SYMB"
+    ],
+    "kw-03": [
+      "W-ORG",
+      "W-SYMB"
+    ],
+    "kw-04": [
+      "W-ORG"
+    ],
+    "kw-05": [
+      "W-ORG",
+      "W-STOF"
+    ],
+    "kw-06": [
+      "W-ORG",
+      "W-GLEI"
+    ],
+    "kw-07": [
+      "W-ORG",
+      "W-GLEI"
+    ],
+    "al-01": [
+      "W-ORG",
+      "W-STOF"
+    ],
+    "al-02": [
+      "W-ORG"
+    ],
+    "al-03": [
+      "W-ORG",
+      "W-LOES"
+    ],
+    "al-04": [
+      "W-ORG",
+      "W-LOES"
+    ],
+    "al-05": [
+      "W-ORG",
+      "W-GLEI"
+    ],
+    "al-06": [
+      "W-LOES",
+      "W-RECH"
+    ],
+    "al-07": [
+      "W-ORG",
+      "W-RECH"
+    ],
+    "os-01": [
+      "W-ORG",
+      "W-LOES"
+    ],
+    "os-02": [
+      "W-ORG"
+    ],
+    "os-03": [
+      "W-ORG",
+      "W-LOES"
+    ],
+    "os-04": [
+      "W-ORG",
+      "W-SYMB"
+    ],
+    "os-05": [
+      "W-ORG",
+      "W-RECH"
+    ],
+    "es-01": [
+      "W-ORG",
+      "W-GLEI"
+    ],
+    "es-02": [
+      "W-ORG",
+      "W-STOF"
+    ],
+    "es-03": [
+      "W-ORG",
+      "W-RECH"
+    ],
+    "es-04": [
+      "W-ORG",
+      "W-LOES"
+    ],
+    "es-05": [
+      "W-ORG",
+      "W-SYMB"
+    ],
+    "es-06": [
+      "W-ORG",
+      "W-GLEI"
+    ]
+  },
+  "fehlerprofil": {
+    "dichte_geteilt_statt_mal": "W-STOF",
+    "dichte_mal_statt_geteilt": "W-STOF",
+    "volumen_als_flaeche": "W-STOF",
+    "anteil_umgedreht": "W-STOF",
+    "loesungsmittel_als_ganzes": "W-LOES",
+    "rest_statt_anteil": "W-STOF",
+    "anteil_statt_rest": "W-LOES",
+    "anteil_statt_ganzes": "W-RECH",
+    "salz_mit_verdampft": "W-LOES",
+    "teilchen_traegt_stoffeigenschaft": "W-STOF",
+    "reaktion_und_zustandsaenderung_verwechselt": "W-STOF",
+    "trennverfahren_verwechselt": "W-STOF",
+    "sicherheitsregel_missachtet": "W-STOF",
+    "elektronen_mitgezaehlt": "W-TEIL",
+    "massenzahl_als_neutronen": "W-TEIL",
+    "ladung_falsch_herum": "W-TEIL",
+    "ordnungszahl_aendert_sich": "W-TEIL",
+    "ungewichteter_mittelwert": "W-TEIL",
+    "ion_und_atom_verwechselt": "W-TEIL",
+    "ladung_unvollstaendig": "W-TEIL",
+    "schale_falsch_gefuellt": "W-TEIL",
+    "bindungsart_verwechselt": "W-TEIL",
+    "index_uebersehen": "W-SYMB",
+    "koeffizient_ignoriert": "W-SYMB",
+    "koeffizient_addiert": "W-SYMB",
+    "klammer_ignoriert": "W-SYMB",
+    "kristallwasser_vergessen": "W-SYMB",
+    "formel_ohne_plus_zwei": "W-SYMB",
+    "summenformel_falsch_gelesen": "W-SYMB",
+    "symbol_verwechselt": "W-SYMB",
+    "masse_verschwindet": "W-GLEI",
+    "index_statt_koeffizient": "W-GLEI",
+    "edukt_produkt_vertauscht": "W-GLEI",
+    "verhaeltnis_umgedreht": "W-GLEI",
+    "masse_direkt_uebertragen": "W-RECH",
+    "oxidation_reduktion_vertauscht": "W-GLEI",
+    "nachweis_verwechselt": "W-GLEI",
+    "mol_geteilt_statt_mal": "W-RECH",
+    "mol_mal_statt_geteilt": "W-RECH",
+    "groesse_und_einheit_verwechselt": "W-EINH",
+    "molare_masse_falsch_bestimmt": "W-RECH",
+    "faktor_falsch": "W-EINH",
+    "kelvin_subtrahiert": "W-EINH",
+    "ph_skala_falschrum": "W-LOES",
+    "verduennen_falsch_herum": "W-LOES",
+    "saeure_lauge_vertauscht": "W-LOES",
+    "polar_unpolar_vertauscht": "W-LOES",
+    "h_nicht_halbiert": "W-ORG",
+    "kohlenstoff_verloren": "W-ORG",
+    "isomer_als_gleicher_stoff": "W-ORG",
+    "funktionelle_gruppe_verwechselt": "W-ORG",
+    "nomenklatur_falsch": "W-ORG"
+  }
+}

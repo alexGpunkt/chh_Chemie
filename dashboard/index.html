@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; object-src 'none'; frame-src https://app.lumi.education https://www.youtube-nocookie.com https://learningapps.org https://allgemeinbildung.ch https://*.allgemeinbildung.ch https://schlaukopf.de https://*.schlaukopf.de https://*.learningapps.org https://serlo.org https://*.serlo.org https://h5p.org https://*.h5p.org https://schule-bw.de https://*.schule-bw.de https://learningsnacks.de https://*.learningsnacks.de https://quizlet.com https://*.quizlet.com https://zum.de https://*.zum.de; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob:; connect-src 'self' https://*.supabase.co; form-action 'self'; worker-src 'self'">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Chemie 7–10 · Lehrerdashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+<header>
+  <div><small>Campus Hannah Höch · Live-Übersicht</small><h1>Lehrerdashboard</h1></div>
+  <div class="headerActions">
+    <div class="status"><span id="liveDot"></span><span id="statusText">nicht angemeldet</span></div>
+    <button id="logout" type="button" hidden>Abmelden</button>
+  </div>
+</header>
+
+<main>
+  <section id="loginPanel" class="authPanel">
+    <form id="teacherLogin" class="panel authCard">
+      <h2>Lehrkraft anmelden</h2>
+      <p>Verwende ein zuvor in Supabase Authentication angelegtes Lehrkraftkonto.</p>
+      <label>E-Mail <input id="teacherEmail" type="email" autocomplete="username" required></label>
+      <label>Passwort <input id="teacherPassword" type="password" autocomplete="current-password" required></label>
+      <button type="submit">Anmelden</button>
+      <p id="loginError" class="error" hidden></p>
+    </form>
+  </section>
+
+  <div id="dashboardApp" hidden>
+    <section class="filters">
+      <label>Lerngruppe <input id="classFilter" value="9"></label>
+      <label>Zeitraum <select id="range"><option value="60">letzte Stunde</option><option value="240">letzte 4 Stunden</option><option value="1440" selected>letzte 24 Stunden</option><option value="10080">7 Tage</option></select></label>
+      <button id="refresh" type="button">Aktualisieren</button>
+    </section>
+
+    <section class="panel">
+      <div class="panelHead"><div><h2>Freigabeliste</h2><span>Nur aktive Einträge können sich anmelden.</span></div></div>
+      <form id="studentForm" class="rosterForm">
+        <label>Benutzername <input id="studentLogin" placeholder="mustermann.max" autocapitalize="none" spellcheck="false" required></label>
+        <label>Anzeigename <input id="studentDisplay" placeholder="Max Mustermann" required></label>
+        <label>Lerngruppe <input id="studentClass" placeholder="M456_9er" required></label>
+        <button type="submit">Hinzufügen</button>
+      </form>
+      <p id="rosterMessage" class="message" hidden></p>
+      <div class="tableWrap"><table class="rosterTable"><thead><tr><th>Benutzername</th><th>Name</th><th>Lerngruppe</th><th>Status</th><th>Aktion</th></tr></thead><tbody id="rosterBody"></tbody></table></div>
+    </section>
+
+    <section class="panel" id="modusPanel">
+      <div class="panelHead"><div><h2>Unterricht und Freigaben</h2><span>Im Bewertungsmodus öffnet sich die nächste Einheit erst, wenn Sie das handschriftliche Übungsblatt gesehen haben</span></div></div>
+      <div class="modusZeile">
+        <span class="modusAnzeige" id="modusAnzeige">Modus wird geladen …</span>
+        <label>Dauer <select id="modusDauer"><option value="45">45 Minuten</option><option value="90" selected>90 Minuten</option><option value="180">3 Stunden</option><option value="360">6 Stunden</option></select></label>
+        <button id="modusBewertung" type="button">Bewertungsmodus starten</button>
+        <button id="modusUebung" type="button">Auf Übungsmodus zurückstellen</button>
+      </div>
+      <p class="modusHinweis">Die Kontrolle beschränkt sich auf die Frage, <b>ob</b> handschriftlich gearbeitet wurde — nicht, ob richtig gerechnet wurde. Das klärt der Selbstkontrollkasten auf dem Blatt.</p>
+      <p id="modusMeldung" class="message" hidden></p>
+      <div class="tableWrap"><table><thead><tr><th>Name</th><th>zuletzt bearbeitet</th><th>Übungsblatt</th><th>freigegeben</th><th>nächste Einheit freigeben</th></tr></thead><tbody id="freigabeBody"></tbody></table></div>
+    </section>
+
+    <section class="panel" id="warmupPanel">
+      <div class="panelHead"><div><h2>Warm-up und Bewertung</h2><span>Gewertet wird der erste Pflichtlauf eines Tages — weitere Läufe sind Übung</span></div></div>
+      <div class="modusZeile">
+        <label>Zeitraum
+          <select id="warmupTage">
+            <option value="30">letzte 30 Tage</option>
+            <option value="90">letztes Quartal</option>
+            <option value="180" selected>letztes Halbjahr</option>
+            <option value="365">Schuljahr</option>
+          </select>
+        </label>
+        <span class="modusAnzeige" id="warmupAnzeige">Wird geladen …</span>
+      </div>
+      <p class="modusHinweis">
+        <b>Einzelnoten</b> mitteln alle gewerteten Läufe. <b>Lernfortschritt</b> bewertet die
+        zweite Hälfte des Zeitraums und rechnet die Verbesserung gegenüber der ersten hinzu —
+        wer schwach anfängt und stark endet, wird nach dem Ende bewertet. Die Umrechnung in
+        Noten folgt der Berliner Sekundarstufenskala und steht in der Datenbank, nicht hier.
+        Sie ersetzt keine Zeugnisnote, sondern liefert eine von mehreren Grundlagen dafür.
+      </p>
+      <p id="warmupMeldung" class="message" hidden></p>
+      <div class="tableWrap"><table><thead><tr><th>Name</th><th>Bewertung nach</th><th>Läufe</th><th>Quote</th><th>Entwicklung</th><th>Note</th><th>zuletzt</th><th>wackelig</th></tr></thead><tbody id="warmupBody"></tbody></table></div>
+    </section>
+
+    <section class="panel">
+      <div class="panelHead"><div><h2>Aktive Lernzeit</h2><span>Nur Zeit mit tatsächlicher Aktivität und angekommenem Ping — Leerlauf zählt nicht</span></div></div>
+      <div class="tableWrap"><table><thead><tr><th>Name</th><th>heute</th><th>letzte 7 Tage</th><th>häufigste Einheit</th><th>zuletzt gemeldet</th></tr></thead><tbody id="lernzeitBody"></tbody></table></div>
+    </section>
+
+    <section class="panel" id="beamerPanel">
+      <div class="panelHead"><div><h2>Beameransicht &amp; Ping-Überwachung</h2><span>Der Fortschritt aller Lernenden als laufende Strichmännchen — für die Leinwand</span></div></div>
+      <div class="beamerZeile">
+        <label>Alarm ab … erfolglosen Ping-Versuchen
+          <input id="pingMaxFehler" type="number" min="1" max="50" step="1" value="3">
+        </label>
+        <label>Alarm ab … Sekunden ohne erfolgreichen Ping
+          <input id="pingMaxSekunden" type="number" min="20" max="1800" step="10" value="120">
+        </label>
+        <label>Strichmännchen läuft entlang
+          <select id="beamerBezug">
+            <option value="reihe" selected>der ganzen Unterrichtsreihe</option>
+            <option value="einheit">der aktuellen Einheit</option>
+          </select>
+        </label>
+        <button id="beamerOeffnen" type="button">Beameransicht öffnen</button>
+      </div>
+      <p class="modusHinweis">Grün heißt: Der letzte Ping ist da. Rot heißt: Er fehlt. <b>Rot blinkend</b> heißt: Einer der beiden Grenzwerte ist überschritten — dann lohnt der Blick auf das Gerät. Die Beameransicht wird aus diesem Fenster versorgt; es muss geöffnet bleiben, darf aber im Hintergrund liegen.</p>
+      <p id="beamerMeldung" class="message" hidden></p>
+    </section>
+
+    <section class="kpis"><article><strong id="activeNow">0</strong><span>jetzt aktiv</span></article><article><strong id="studentsToday">0</strong><span>Schüler</span></article><article><strong id="answers">0</strong><span>Antwortversuche</span></article><article><strong id="correctRate">–</strong><span>richtig</span></article><article><strong id="medianTime">–</strong><span>Zeit je Aufgabe (Median)</span></article></section>
+    <section class="panel"><div class="panelHead"><h2>Schüleraktivität und Fortschritt</h2><span>aktiv: Ereignis innerhalb 60 s</span></div><div class="tableWrap"><table><thead><tr><th>Status</th><th>Name</th><th>Einheit</th><th>Pfad</th><th>Fortschritt</th><th>Aufgabe</th><th>Zeit je Aufgabe</th><th>zuletzt aktiv</th></tr></thead><tbody id="studentsBody"></tbody></table></div></section>
+    <section class="panel"><div class="panelHead"><div><h2>Wer hängt gerade fest?</h2><span>Aufgabe seit über 3 Minuten offen oder deutlich über der üblichen Zeit</span></div></div><div class="tableWrap"><table><thead><tr><th>Name</th><th>Einheit</th><th>Aufgabe</th><th>Dauer</th><th>Lage</th></tr></thead><tbody id="stuckBody"></tbody></table></div></section>
+    <section class="panel"><div class="panelHead"><div><h2>Pfadempfehlungen</h2><span>Grundlage für die spätere Kalibrierung der Schwellen — noch sind sie nur plausibel</span></div></div><div class="tableWrap"><table><thead><tr><th>Empfehlung</th><th>Fälle</th><th>Quote (Median)</th><th>als sicher gewertet</th><th>angenommen</th><th>danach auf Anhieb</th></tr></thead><tbody id="recoBody"></tbody></table></div></section>
+    <section class="panel"><div class="panelHead"><div><h2>Vorhersagen zu den Animationen</h2><span>Erst tippen, dann zusehen — hier steht, ob die Animation die Vorstellung ändert</span></div></div><div class="kpis" style="margin:0 0 12px"><article><strong id="predCount">0</strong><span>Vorhersagen</span></article><article><strong id="predRate">–</strong><span>richtig</span></article><article><strong id="predRecover">–</strong><span>falsch getippt, danach Aufgabe richtig</span></article></div><div class="tableWrap"><table><thead><tr><th>Animation</th><th>Vorhersagen</th><th>richtig</th><th>danach Aufgabe richtig</th><th>mehrfach daneben</th></tr></thead><tbody id="predBody"></tbody></table></div></section>
+    <section class="grid"><article class="panel"><h2>Häufige Denkfehler</h2><div id="misconceptions" class="bars"></div></article><article class="panel"><h2>Letzte Antworten</h2><div id="feed" class="feed"></div></article></section>
+
+    <section class="panel"><div class="panelHead"><div><h2>Denkfehler über die Lernbereiche hinweg</h2><span>Dieselbe Fehlvorstellung taucht in PZ, LF, KP und SK auf — hier zusammengefasst</span></div></div><div class="tableWrap"><table><thead><tr><th>Kategorie</th><th>Fälle</th><th>betroffene Bereiche</th><th>häufigste Einzel-IDs</th></tr></thead><tbody id="categoryBody"></tbody></table></div></section>
+
+    <!-- Kopiervorlagen aus dem Eduki-Bestand. Bewusst nur als Verweis:
+         Das Material ist gekauft und lizenziert, das Repository ist
+         öffentlich. Gedruckt wird aus dem lokalen Ordner. -->
+    <section class="panel" id="edukiPanel">
+      <div class="panelHead">
+        <div><h2>Kopiervorlagen zur Einheit</h2>
+        <span>Gekauftes Eduki-Material auf diesem Rechner — nicht im Repository, nicht für die Schüleransicht</span></div>
+        <label>Einheit <select id="edukiEinheit"></select></label>
+      </div>
+      <p class="message" id="edukiPfad" hidden></p>
+      <div class="tableWrap"><table><thead><tr><th>Paket</th><th>Art</th><th>Niveau</th><th>Hinweis</th></tr></thead><tbody id="edukiBody"></tbody></table></div>
+    </section>
+
+    <section class="panel"><div class="panelHead"><div><h2>Betrieb und Datenpflege</h2><span>Welche Fassung läuft, und löscht der Aufräumjob tatsächlich?</span></div></div><div id="opsBox" class="opsGrid"></div></section>
+
+    <p id="error" class="error" hidden></p>
+  </div>
+</main>
+<script src="../assets/js/supabase-config.js"></script>
+<script src="../assets/js/dev-boot.js"></script>
+<script src="dashboard.js"></script>
+</body>
+</html>

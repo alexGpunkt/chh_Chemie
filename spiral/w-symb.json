@@ -1,0 +1,932 @@
+{
+  "kategorie": "W-SYMB",
+  "titel": "Symbole und Formeln lesen",
+  "generatoren": [
+    {
+      "id": "WSYMB-A-atome",
+      "level": "A",
+      "skill": "Atome in einer Formel zählen",
+      "template": "Wie viele Atome stecken in einem Teilchen {formel$} ({name$})?",
+      "answer": "atome",
+      "tabelle": [
+        {
+          "formel": "H₂O",
+          "name": "Wasser",
+          "atome": 3,
+          "sorten": 2,
+          "h": 2,
+          "o": 1
+        },
+        {
+          "formel": "CO₂",
+          "name": "Kohlenstoffdioxid",
+          "atome": 3,
+          "sorten": 2,
+          "h": 0,
+          "o": 2
+        },
+        {
+          "formel": "NH₃",
+          "name": "Ammoniak",
+          "atome": 4,
+          "sorten": 2,
+          "h": 3,
+          "o": 0
+        },
+        {
+          "formel": "CH₄",
+          "name": "Methan",
+          "atome": 5,
+          "sorten": 2,
+          "h": 4,
+          "o": 0
+        },
+        {
+          "formel": "H₂SO₄",
+          "name": "Schwefelsäure",
+          "atome": 7,
+          "sorten": 3,
+          "h": 2,
+          "o": 4
+        },
+        {
+          "formel": "HNO₃",
+          "name": "Salpetersäure",
+          "atome": 5,
+          "sorten": 3,
+          "h": 1,
+          "o": 3
+        },
+        {
+          "formel": "CaCO₃",
+          "name": "Calciumcarbonat",
+          "atome": 5,
+          "sorten": 3,
+          "h": 0,
+          "o": 3
+        },
+        {
+          "formel": "NaOH",
+          "name": "Natriumhydroxid",
+          "atome": 3,
+          "sorten": 3,
+          "h": 1,
+          "o": 1
+        }
+      ],
+      "round": 0,
+      "hint": "Zähle jede kleine Zahl mit. Steht keine da, ist es eine 1.",
+      "solution": "{formel$} besteht aus {ergebnis} Atomen.",
+      "misconceptions": [
+        {
+          "id": "index_uebersehen",
+          "value": "sorten",
+          "feedback": "Du hast die Element<b>sorten</b> gezählt, nicht die Atome. Die kleinen Zahlen zählen mit."
+        }
+      ],
+      "kategorie": "W-SYMB"
+    },
+    {
+      "id": "WSYMB-A-sorten",
+      "level": "A",
+      "skill": "Elementsorten in einer Formel",
+      "template": "Aus wie vielen verschiedenen Elementen besteht {formel$} ({name$})?",
+      "answer": "sorten",
+      "tabelle": [
+        {
+          "formel": "H₂O",
+          "name": "Wasser",
+          "atome": 3,
+          "sorten": 2,
+          "h": 2,
+          "o": 1
+        },
+        {
+          "formel": "CO₂",
+          "name": "Kohlenstoffdioxid",
+          "atome": 3,
+          "sorten": 2,
+          "h": 0,
+          "o": 2
+        },
+        {
+          "formel": "NH₃",
+          "name": "Ammoniak",
+          "atome": 4,
+          "sorten": 2,
+          "h": 3,
+          "o": 0
+        },
+        {
+          "formel": "CH₄",
+          "name": "Methan",
+          "atome": 5,
+          "sorten": 2,
+          "h": 4,
+          "o": 0
+        },
+        {
+          "formel": "H₂SO₄",
+          "name": "Schwefelsäure",
+          "atome": 7,
+          "sorten": 3,
+          "h": 2,
+          "o": 4
+        },
+        {
+          "formel": "HNO₃",
+          "name": "Salpetersäure",
+          "atome": 5,
+          "sorten": 3,
+          "h": 1,
+          "o": 3
+        },
+        {
+          "formel": "CaCO₃",
+          "name": "Calciumcarbonat",
+          "atome": 5,
+          "sorten": 3,
+          "h": 0,
+          "o": 3
+        },
+        {
+          "formel": "NaOH",
+          "name": "Natriumhydroxid",
+          "atome": 3,
+          "sorten": 3,
+          "h": 1,
+          "o": 1
+        }
+      ],
+      "round": 0,
+      "hint": "Zähle die großen Buchstaben — jedes Elementsymbol beginnt mit einem.",
+      "solution": "{formel$} enthält {ergebnis} verschiedene Elemente.",
+      "kategorie": "W-SYMB"
+    },
+    {
+      "id": "WSYMB-A-wasserstoff",
+      "level": "A",
+      "skill": "Wasserstoffatome zählen",
+      "template": "Wie viele Wasserstoffatome enthält {formel$}?",
+      "answer": "h",
+      "tabelle": [
+        {
+          "formel": "H₂O",
+          "name": "Wasser",
+          "atome": 3,
+          "sorten": 2,
+          "h": 2,
+          "o": 1
+        },
+        {
+          "formel": "CO₂",
+          "name": "Kohlenstoffdioxid",
+          "atome": 3,
+          "sorten": 2,
+          "h": 0,
+          "o": 2
+        },
+        {
+          "formel": "NH₃",
+          "name": "Ammoniak",
+          "atome": 4,
+          "sorten": 2,
+          "h": 3,
+          "o": 0
+        },
+        {
+          "formel": "CH₄",
+          "name": "Methan",
+          "atome": 5,
+          "sorten": 2,
+          "h": 4,
+          "o": 0
+        },
+        {
+          "formel": "H₂SO₄",
+          "name": "Schwefelsäure",
+          "atome": 7,
+          "sorten": 3,
+          "h": 2,
+          "o": 4
+        },
+        {
+          "formel": "HNO₃",
+          "name": "Salpetersäure",
+          "atome": 5,
+          "sorten": 3,
+          "h": 1,
+          "o": 3
+        },
+        {
+          "formel": "CaCO₃",
+          "name": "Calciumcarbonat",
+          "atome": 5,
+          "sorten": 3,
+          "h": 0,
+          "o": 3
+        },
+        {
+          "formel": "NaOH",
+          "name": "Natriumhydroxid",
+          "atome": 3,
+          "sorten": 3,
+          "h": 1,
+          "o": 1
+        }
+      ],
+      "round": 0,
+      "hint": "Suche das H und lies die kleine Zahl dahinter.",
+      "solution": "{formel$} enthält {ergebnis} H-Atome.",
+      "kategorie": "W-SYMB"
+    },
+    {
+      "id": "WSYMB-A-sauerstoff",
+      "level": "A",
+      "skill": "Sauerstoffatome zählen",
+      "template": "Wie viele Sauerstoffatome enthält {formel$} ({name$})?",
+      "answer": "o",
+      "tabelle": [
+        {
+          "formel": "H₂O",
+          "name": "Wasser",
+          "atome": 3,
+          "sorten": 2,
+          "h": 2,
+          "o": 1
+        },
+        {
+          "formel": "CO₂",
+          "name": "Kohlenstoffdioxid",
+          "atome": 3,
+          "sorten": 2,
+          "h": 0,
+          "o": 2
+        },
+        {
+          "formel": "NH₃",
+          "name": "Ammoniak",
+          "atome": 4,
+          "sorten": 2,
+          "h": 3,
+          "o": 0
+        },
+        {
+          "formel": "CH₄",
+          "name": "Methan",
+          "atome": 5,
+          "sorten": 2,
+          "h": 4,
+          "o": 0
+        },
+        {
+          "formel": "H₂SO₄",
+          "name": "Schwefelsäure",
+          "atome": 7,
+          "sorten": 3,
+          "h": 2,
+          "o": 4
+        },
+        {
+          "formel": "HNO₃",
+          "name": "Salpetersäure",
+          "atome": 5,
+          "sorten": 3,
+          "h": 1,
+          "o": 3
+        },
+        {
+          "formel": "CaCO₃",
+          "name": "Calciumcarbonat",
+          "atome": 5,
+          "sorten": 3,
+          "h": 0,
+          "o": 3
+        },
+        {
+          "formel": "NaOH",
+          "name": "Natriumhydroxid",
+          "atome": 3,
+          "sorten": 3,
+          "h": 1,
+          "o": 1
+        }
+      ],
+      "round": 0,
+      "hint": "Suche das O und lies die kleine Zahl dahinter.",
+      "solution": "{formel$} enthält {ergebnis} O-Atome.",
+      "kategorie": "W-SYMB"
+    },
+    {
+      "id": "WSYMB-A-vielfach",
+      "level": "A",
+      "skill": "Vorzahl vor der Formel",
+      "template": "Wie viele Atome stecken in {k} {formel$}?",
+      "answer": "k * atome",
+      "tabelle": [
+        {
+          "formel": "H₂O",
+          "name": "Wasser",
+          "atome": 3,
+          "sorten": 2,
+          "h": 2,
+          "o": 1
+        },
+        {
+          "formel": "CO₂",
+          "name": "Kohlenstoffdioxid",
+          "atome": 3,
+          "sorten": 2,
+          "h": 0,
+          "o": 2
+        },
+        {
+          "formel": "NH₃",
+          "name": "Ammoniak",
+          "atome": 4,
+          "sorten": 2,
+          "h": 3,
+          "o": 0
+        },
+        {
+          "formel": "CH₄",
+          "name": "Methan",
+          "atome": 5,
+          "sorten": 2,
+          "h": 4,
+          "o": 0
+        },
+        {
+          "formel": "H₂SO₄",
+          "name": "Schwefelsäure",
+          "atome": 7,
+          "sorten": 3,
+          "h": 2,
+          "o": 4
+        },
+        {
+          "formel": "HNO₃",
+          "name": "Salpetersäure",
+          "atome": 5,
+          "sorten": 3,
+          "h": 1,
+          "o": 3
+        },
+        {
+          "formel": "CaCO₃",
+          "name": "Calciumcarbonat",
+          "atome": 5,
+          "sorten": 3,
+          "h": 0,
+          "o": 3
+        },
+        {
+          "formel": "NaOH",
+          "name": "Natriumhydroxid",
+          "atome": 3,
+          "sorten": 3,
+          "h": 1,
+          "o": 1
+        }
+      ],
+      "vars": {
+        "k": {
+          "von": 2,
+          "bis": 5
+        }
+      },
+      "round": 0,
+      "hint": "Die Zahl vor der Formel gilt für das ganze Teilchen.",
+      "solution": "{k} · {atome} = {ergebnis} Atome",
+      "misconceptions": [
+        {
+          "id": "koeffizient_ignoriert",
+          "value": "atome",
+          "feedback": "Die Zahl <b>vor</b> der Formel vervielfacht das ganze Teilchen."
+        }
+      ],
+      "kategorie": "W-SYMB"
+    },
+    {
+      "id": "WSYMB-B-h-vielfach",
+      "level": "B",
+      "skill": "Atomsorte bei Vorzahl zählen",
+      "template": "Wie viele Sauerstoffatome stecken in {k} {formel$}?",
+      "answer": "k * o",
+      "tabelle": [
+        {
+          "formel": "H₂O",
+          "name": "Wasser",
+          "atome": 3,
+          "sorten": 2,
+          "h": 2,
+          "o": 1
+        },
+        {
+          "formel": "CO₂",
+          "name": "Kohlenstoffdioxid",
+          "atome": 3,
+          "sorten": 2,
+          "h": 0,
+          "o": 2
+        },
+        {
+          "formel": "H₂SO₄",
+          "name": "Schwefelsäure",
+          "atome": 7,
+          "sorten": 3,
+          "h": 2,
+          "o": 4
+        },
+        {
+          "formel": "HNO₃",
+          "name": "Salpetersäure",
+          "atome": 5,
+          "sorten": 3,
+          "h": 1,
+          "o": 3
+        },
+        {
+          "formel": "CaCO₃",
+          "name": "Calciumcarbonat",
+          "atome": 5,
+          "sorten": 3,
+          "h": 0,
+          "o": 3
+        },
+        {
+          "formel": "NaOH",
+          "name": "Natriumhydroxid",
+          "atome": 3,
+          "sorten": 3,
+          "h": 1,
+          "o": 1
+        }
+      ],
+      "vars": {
+        "k": {
+          "von": 2,
+          "bis": 6
+        }
+      },
+      "round": 0,
+      "hint": "Erst die O-Atome in einem Teilchen, dann mal {k}.",
+      "solution": "{o} O-Atome je Teilchen · {k} = {ergebnis}",
+      "misconceptions": [
+        {
+          "id": "koeffizient_addiert",
+          "value": "o + k",
+          "feedback": "Die Vorzahl wird multipliziert, nicht addiert."
+        }
+      ],
+      "kategorie": "W-SYMB"
+    },
+    {
+      "id": "WSYMB-B-klammer",
+      "level": "B",
+      "skill": "Formeln mit Klammer lesen",
+      "template": "Wie viele Sauerstoffatome enthält Ca(OH)₂ · {k}?",
+      "answer": "2 * k",
+      "vars": {
+        "k": {
+          "von": 1,
+          "bis": 6
+        }
+      },
+      "round": 0,
+      "hint": "Die Zahl hinter der Klammer gilt für alles in der Klammer.",
+      "solution": "(OH)₂ enthält 2 O-Atome · {k} = {ergebnis}",
+      "misconceptions": [
+        {
+          "id": "klammer_ignoriert",
+          "value": "k",
+          "feedback": "Die kleine 2 hinter der Klammer verdoppelt alles, was in der Klammer steht."
+        }
+      ],
+      "kategorie": "W-SYMB"
+    },
+    {
+      "id": "WSYMB-B-verhaeltnis",
+      "level": "B",
+      "skill": "Atomverhältnis angeben",
+      "template": "In {formel$} kommen {h} Wasserstoffatome und {o} Sauerstoffatome vor. Wie viele H-Atome je O-Atom sind das?",
+      "answer": "h / o",
+      "tabelle": [
+        {
+          "formel": "H₂O",
+          "name": "Wasser",
+          "atome": 3,
+          "sorten": 2,
+          "h": 2,
+          "o": 1
+        },
+        {
+          "formel": "H₂SO₄",
+          "name": "Schwefelsäure",
+          "atome": 7,
+          "sorten": 3,
+          "h": 2,
+          "o": 4
+        },
+        {
+          "formel": "HNO₃",
+          "name": "Salpetersäure",
+          "atome": 5,
+          "sorten": 3,
+          "h": 1,
+          "o": 3
+        },
+        {
+          "formel": "NaOH",
+          "name": "Natriumhydroxid",
+          "atome": 3,
+          "sorten": 3,
+          "h": 1,
+          "o": 1
+        }
+      ],
+      "round": 2,
+      "hint": "Teile die Zahl der H-Atome durch die Zahl der O-Atome.",
+      "solution": "{h} : {o} = {ergebnis}",
+      "kategorie": "W-SYMB"
+    },
+    {
+      "id": "WSYMB-B-ladungssumme",
+      "level": "B",
+      "skill": "Verhältnisformel über die Ladung",
+      "template": "Ein Metall-Ion trägt die Ladung {q:±}, das Säurerest-Ion die Ladung −1. Wie viele Säurerest-Ionen gehören zu einem Metall-Ion?",
+      "answer": "q",
+      "vars": {
+        "q": {
+          "aus": [
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "round": 0,
+      "hint": "Die Ladungen müssen sich zu null ausgleichen.",
+      "solution": "{q} positive Ladungen brauchen {ergebnis} einfach negative Ionen.",
+      "kategorie": "W-SYMB"
+    },
+    {
+      "id": "WSYMB-B-molekuelmasse-atome",
+      "level": "B",
+      "skill": "Atome in einem Molekül mit Vorzahl",
+      "template": "Wie viele Atome insgesamt stecken in {k} {formel$}?",
+      "answer": "k * atome",
+      "tabelle": [
+        {
+          "formel": "H₂O",
+          "name": "Wasser",
+          "atome": 3,
+          "sorten": 2,
+          "h": 2,
+          "o": 1
+        },
+        {
+          "formel": "CO₂",
+          "name": "Kohlenstoffdioxid",
+          "atome": 3,
+          "sorten": 2,
+          "h": 0,
+          "o": 2
+        },
+        {
+          "formel": "NH₃",
+          "name": "Ammoniak",
+          "atome": 4,
+          "sorten": 2,
+          "h": 3,
+          "o": 0
+        },
+        {
+          "formel": "CH₄",
+          "name": "Methan",
+          "atome": 5,
+          "sorten": 2,
+          "h": 4,
+          "o": 0
+        },
+        {
+          "formel": "H₂SO₄",
+          "name": "Schwefelsäure",
+          "atome": 7,
+          "sorten": 3,
+          "h": 2,
+          "o": 4
+        },
+        {
+          "formel": "HNO₃",
+          "name": "Salpetersäure",
+          "atome": 5,
+          "sorten": 3,
+          "h": 1,
+          "o": 3
+        },
+        {
+          "formel": "CaCO₃",
+          "name": "Calciumcarbonat",
+          "atome": 5,
+          "sorten": 3,
+          "h": 0,
+          "o": 3
+        },
+        {
+          "formel": "NaOH",
+          "name": "Natriumhydroxid",
+          "atome": 3,
+          "sorten": 3,
+          "h": 1,
+          "o": 1
+        }
+      ],
+      "vars": {
+        "k": {
+          "von": 3,
+          "bis": 8
+        }
+      },
+      "round": 0,
+      "hint": "Atome je Teilchen mal Zahl der Teilchen.",
+      "solution": "{atome} · {k} = {ergebnis}",
+      "kategorie": "W-SYMB"
+    },
+    {
+      "id": "WSYMB-C-verhaeltnisformel",
+      "level": "C",
+      "skill": "Verhältnisformel aus zwei Ladungen",
+      "template": "Ein Ion trägt {a:±}, das andere {b:±}. Wie viele Teilchen der ersten Sorte stehen in der Verhältnisformel?",
+      "answer": "b / max(1, min(a, b)) * 0 + b / (a - a + 1) * 0 + b",
+      "vars": {
+        "a": {
+          "aus": [
+            1,
+            2,
+            3
+          ]
+        },
+        "b": {
+          "aus": [
+            1,
+            2
+          ]
+        }
+      },
+      "round": 0,
+      "hint": "Die Zahl der einen Ionensorte ist so groß wie der Betrag der Ladung der anderen.",
+      "solution": "Ladung {a:±} und {b:±} → Verhältnis {b} : {a}",
+      "kategorie": "W-SYMB"
+    },
+    {
+      "id": "WSYMB-C-atombilanz",
+      "level": "C",
+      "skill": "Atome links und rechts zählen",
+      "template": "Links stehen {k} {formel$}. Wie viele Atome müssen rechts insgesamt stehen?",
+      "answer": "k * atome",
+      "tabelle": [
+        {
+          "formel": "H₂O",
+          "name": "Wasser",
+          "atome": 3,
+          "sorten": 2,
+          "h": 2,
+          "o": 1
+        },
+        {
+          "formel": "CO₂",
+          "name": "Kohlenstoffdioxid",
+          "atome": 3,
+          "sorten": 2,
+          "h": 0,
+          "o": 2
+        },
+        {
+          "formel": "NH₃",
+          "name": "Ammoniak",
+          "atome": 4,
+          "sorten": 2,
+          "h": 3,
+          "o": 0
+        },
+        {
+          "formel": "CH₄",
+          "name": "Methan",
+          "atome": 5,
+          "sorten": 2,
+          "h": 4,
+          "o": 0
+        },
+        {
+          "formel": "H₂SO₄",
+          "name": "Schwefelsäure",
+          "atome": 7,
+          "sorten": 3,
+          "h": 2,
+          "o": 4
+        },
+        {
+          "formel": "HNO₃",
+          "name": "Salpetersäure",
+          "atome": 5,
+          "sorten": 3,
+          "h": 1,
+          "o": 3
+        },
+        {
+          "formel": "CaCO₃",
+          "name": "Calciumcarbonat",
+          "atome": 5,
+          "sorten": 3,
+          "h": 0,
+          "o": 3
+        },
+        {
+          "formel": "NaOH",
+          "name": "Natriumhydroxid",
+          "atome": 3,
+          "sorten": 3,
+          "h": 1,
+          "o": 1
+        }
+      ],
+      "vars": {
+        "k": {
+          "von": 2,
+          "bis": 6
+        }
+      },
+      "round": 0,
+      "hint": "Es geht kein Atom verloren — rechts steht dieselbe Zahl.",
+      "solution": "{k} · {atome} = {ergebnis} Atome, links wie rechts",
+      "misconceptions": [
+        {
+          "id": "masse_verschwindet",
+          "value": "atome",
+          "feedback": "Die Vorzahl gilt für jede Kopie. Bei einer Reaktion geht kein Atom verloren."
+        }
+      ],
+      "kategorie": "W-SYMB"
+    },
+    {
+      "id": "WSYMB-C-hydrat",
+      "level": "C",
+      "skill": "Kristallwasser mitrechnen",
+      "template": "CuSO₄ · {k} H₂O: Wie viele Sauerstoffatome enthält eine Formeleinheit?",
+      "answer": "4 + k",
+      "vars": {
+        "k": {
+          "aus": [
+            1,
+            2,
+            3,
+            5,
+            7
+          ]
+        }
+      },
+      "round": 0,
+      "hint": "4 aus dem Sulfat und je 1 aus jedem Wassermolekül.",
+      "solution": "4 + {k} = {ergebnis} O-Atome",
+      "misconceptions": [
+        {
+          "id": "kristallwasser_vergessen",
+          "value": "4",
+          "feedback": "Das Kristallwasser gehört zur Formeleinheit — seine O-Atome zählen mit."
+        }
+      ],
+      "kategorie": "W-SYMB"
+    },
+    {
+      "id": "WSYMB-C-prozentatome",
+      "level": "C",
+      "skill": "Anteil einer Atomsorte",
+      "template": "Wie viel Prozent aller Atome in {formel$} sind Wasserstoffatome?",
+      "answer": "h / atome * 100",
+      "tabelle": [
+        {
+          "formel": "H₂O",
+          "name": "Wasser",
+          "atome": 3,
+          "sorten": 2,
+          "h": 2,
+          "o": 1
+        },
+        {
+          "formel": "NH₃",
+          "name": "Ammoniak",
+          "atome": 4,
+          "sorten": 2,
+          "h": 3,
+          "o": 0
+        },
+        {
+          "formel": "CH₄",
+          "name": "Methan",
+          "atome": 5,
+          "sorten": 2,
+          "h": 4,
+          "o": 0
+        },
+        {
+          "formel": "H₂SO₄",
+          "name": "Schwefelsäure",
+          "atome": 7,
+          "sorten": 3,
+          "h": 2,
+          "o": 4
+        },
+        {
+          "formel": "HNO₃",
+          "name": "Salpetersäure",
+          "atome": 5,
+          "sorten": 3,
+          "h": 1,
+          "o": 3
+        },
+        {
+          "formel": "NaOH",
+          "name": "Natriumhydroxid",
+          "atome": 3,
+          "sorten": 3,
+          "h": 1,
+          "o": 1
+        }
+      ],
+      "unit_label": "%",
+      "round": 1,
+      "hint": "H-Atome geteilt durch alle Atome.",
+      "solution": "{h} : {atome} = {ergebnis} %",
+      "kategorie": "W-SYMB"
+    },
+    {
+      "id": "WSYMB-C-summenformel-kohlenwasserstoff",
+      "level": "C",
+      "skill": "H-Zahl eines Alkans bestimmen",
+      "template": "Wie viele Wasserstoffatome hat ein Alkan mit {c} Kohlenstoffatomen?",
+      "answer": "2 * c + 2",
+      "tabelle": [
+        {
+          "name": "Methan",
+          "formel": "CH₄",
+          "c": 1,
+          "sied": -162
+        },
+        {
+          "name": "Ethan",
+          "formel": "C₂H₆",
+          "c": 2,
+          "sied": -89
+        },
+        {
+          "name": "Propan",
+          "formel": "C₃H₈",
+          "c": 3,
+          "sied": -42
+        },
+        {
+          "name": "Butan",
+          "formel": "C₄H₁₀",
+          "c": 4,
+          "sied": 0
+        },
+        {
+          "name": "Pentan",
+          "formel": "C₅H₁₂",
+          "c": 5,
+          "sied": 36
+        },
+        {
+          "name": "Hexan",
+          "formel": "C₆H₁₄",
+          "c": 6,
+          "sied": 69
+        },
+        {
+          "name": "Heptan",
+          "formel": "C₇H₁₆",
+          "c": 7,
+          "sied": 98
+        },
+        {
+          "name": "Octan",
+          "formel": "C₈H₁₈",
+          "c": 8,
+          "sied": 126
+        }
+      ],
+      "round": 0,
+      "hint": "Es gilt CₙH₂ₙ₊₂.",
+      "solution": "2 · {c} + 2 = {ergebnis}",
+      "misconceptions": [
+        {
+          "id": "formel_ohne_plus_zwei",
+          "value": "2 * c",
+          "feedback": "Die beiden Kettenenden tragen je ein H-Atom zusätzlich: 2n + 2."
+        }
+      ],
+      "kategorie": "W-SYMB"
+    }
+  ]
+}

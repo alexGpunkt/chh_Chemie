@@ -1,0 +1,93 @@
+{
+  "_hinweis": "Prüfungssets sind eine SICHT auf den vorhandenen Pool, kein eigener Aufgabenbestand. filter.tag oder filter.step_min bestimmen, was hineinkommt.",
+  "sets": [
+    {
+      "id": "sockel",
+      "title": "Sockel",
+      "untertitel": "Die Grundaufgaben, mit Formelkarte",
+      "pfad": "A",
+      "filter": {
+        "step_min": 3
+      },
+      "anzahl": 8,
+      "ziel": 5,
+      "hilfen": true
+    },
+    {
+      "id": "bbr",
+      "title": "BBR / eBBR",
+      "untertitel": "Gemischter Satz für den BBR, ohne Tipps",
+      "pfad": "B",
+      "filter": {
+        "tag": "bbr"
+      },
+      "anzahl": 10,
+      "ziel": 7,
+      "hilfen": false
+    },
+    {
+      "id": "msa",
+      "title": "MSA",
+      "untertitel": "Mit Begründungs- und Bewertungsteil für den MSA",
+      "pfad": "C",
+      "filter": {
+        "tag": "msa"
+      },
+      "anzahl": 10,
+      "ziel": 7,
+      "hilfen": false
+    },
+    {
+      "id": "gemischt",
+      "title": "Gemischt",
+      "untertitel": "Alles, was schon dran war — auf deinem Pfad",
+      "pfad": null,
+      "filter": {
+        "step_min": 3
+      },
+      "anzahl": 10,
+      "ziel": 7,
+      "hilfen": false
+    }
+  ],
+  "formelkarte": {
+    "formeln": [
+      "── Stoffe und Größen ──",
+      "ρ = m : V          Dichte        m = ρ · V     V = m : ρ",
+      "w = m(Stoff) : m(Lösung) · 100 %     Massenanteil",
+      "1 cm³ = 1 mL      1 L = 1000 mL      1 g/cm³ = 1 kg/L",
+      "T in K = T in °C + 273",
+      "",
+      "── Atombau ──",
+      "Protonen = Elektronen = Ordnungszahl Z",
+      "Neutronen = Massenzahl A − Ordnungszahl Z",
+      "Schalen fassen 2, 8, 8, 2 Elektronen",
+      "Außenelektronen = Nummer der Hauptgruppe",
+      "",
+      "── Chemisches Rechnen ──",
+      "n = m : M          m = n · M          M = m : n",
+      "V = n · Vₘ          Vₘ = 22,4 L/mol bei Normbedingungen",
+      "c = n : V          Stoffmengenkonzentration",
+      "c₁ · V₁ = c₂ · V₂    Verdünnen und Titrieren",
+      "1 mol = 6,022 · 10²³ Teilchen",
+      "",
+      "── Säuren und Laugen ──",
+      "pH < 7 sauer · pH = 7 neutral · pH > 7 alkalisch",
+      "Eine pH-Stufe = Faktor 10 bei c(H₃O⁺)",
+      "Säure + Lauge → Salz + Wasser",
+      "H₃O⁺ + OH⁻ → 2 H₂O",
+      "",
+      "── Organische Chemie ──",
+      "Alkane CₙH₂ₙ₊₂ · Alkene CₙH₂ₙ · Alkanole CₙH₂ₙ₊₁OH",
+      "Meth 1 · Eth 2 · Prop 3 · But 4 · Pent 5 · Hex 6 · Hept 7 · Oct 8",
+      "Verbrennung: CₙHₘ + O₂ → CO₂ + H₂O  (ausgleichen!)",
+      "Säure + Alkohol ⇌ Ester + Wasser"
+    ],
+    "saetze": [
+      "Zuerst fragen: Was ist gesucht — und in welcher Einheit?",
+      "Beim Ausgleichen dürfen nur die Zahlen VOR den Formeln verändert werden.",
+      "Bei einer chemischen Reaktion geht kein Atom verloren.",
+      "Kontrolle: Ist das Ergebnis plausibel groß? Passt die Einheit zur Frage?"
+    ]
+  }
+}

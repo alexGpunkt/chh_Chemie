@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; object-src 'none'; frame-src https://app.lumi.education https://www.youtube-nocookie.com https://learningapps.org https://allgemeinbildung.ch https://*.allgemeinbildung.ch https://schlaukopf.de https://*.schlaukopf.de https://*.learningapps.org https://serlo.org https://*.serlo.org https://h5p.org https://*.h5p.org https://schule-bw.de https://*.schule-bw.de https://learningsnacks.de https://*.learningsnacks.de https://quizlet.com https://*.quizlet.com https://zum.de https://*.zum.de; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob:; connect-src 'self' https://*.supabase.co; form-action 'self'; worker-src 'self'">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#15233A">
+<title>Einheit · Chemie 7–10</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/app.css">
+<link rel="stylesheet" href="assets/css/anim.css">
+<link rel="stylesheet" href="assets/css/buch.css">
+<link rel="stylesheet" href="assets/css/rechner.css">
+</head>
+<body>
+
+<header class="kopf">
+  <div class="kopf-zeile">
+    <a class="zurueck" href="index.html" aria-label="Zurück zur Übersicht">←</a>
+    <div>
+      <div class="einheit-code" id="code">lädt …</div>
+      <h1 class="einheit-titel" id="titel">&nbsp;</h1>
+    </div>
+  </div>
+
+  <!-- Signature: Der Prozentstreifen zeigt den Fortschritt und ist zugleich das Thema. -->
+  <div class="streifen-wrap">
+    <div class="streifen" role="progressbar" aria-label="Fortschritt in dieser Einheit"
+         aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+      <div class="streifen-fuell" id="fuell"></div>
+      <div class="streifen-skala"></div>
+      <div class="streifen-marke"></div>
+    </div>
+    <!-- „Aufgaben" ausgeschrieben: Auf derselben Seite steht unten die
+         Buchseite. Ohne Beschriftung werden die beiden Zahlen verwechselt. -->
+    <div class="streifen-legende">
+      <span>0 %</span>
+      <span><b id="prozent">0 %</b> · <span id="absolut">0 von 0</span> Aufgaben</span>
+      <span>100 %</span>
+    </div>
+  </div>
+
+  <div class="pfadwahl" role="group" aria-label="Lernweg wählen">
+    <button class="pfad-btn" data-p="A" aria-pressed="false"><span class="punkt"></span>Basis</button>
+    <button class="pfad-btn" data-p="B" aria-pressed="true"><span class="punkt"></span>Standard</button>
+    <button class="pfad-btn" data-p="C" aria-pressed="false"><span class="punkt"></span>Vertiefung</button>
+  </div>
+</header>
+
+<!-- Der Zeitplan der Stunde: 45 Minuten ohne das Warm-up davor.
+     Steht über der Bühne, weil er die Einteilung vorgibt, nicht bilanziert. -->
+<section class="zeitplan" id="zeitplan" hidden></section>
+
+<main id="buehne"><p class="lade">Aufgaben werden geladen …</p></main>
+
+<section class="blattkarte" id="blattkarte" hidden>
+  <div class="blattkarte-text">
+    <strong>Jetzt von Hand: Übungsblatt zu dieser Einheit</strong>
+    <span id="blattkarte-hinweis">Gleiches Thema, andere Aufgaben. Ausdrucken oder ins Heft übertragen — und dann schriftlich rechnen. Die Lösungen zur Selbstkontrolle stehen unten auf dem Blatt.</span>
+  </div>
+  <a class="btn btn-haupt" id="blattkarte-link" href="#" target="_blank" rel="noopener">Übungsblatt öffnen (PDF)</a>
+</section>
+
+<details class="uebungskarte videokarte" id="videokarte" hidden>
+  <summary>Erklärvideo · hält an und fragt nach</summary>
+  <div class="uebung-inhalt" id="video-inhalt"></div>
+</details>
+
+<!-- Der Hefteintrag. Bewusst offen voreingestellt: Was ins Heft gehört,
+     soll nicht erst aufgeklappt werden müssen. -->
+<details class="uebungskarte heftkarte" id="heftkarte" hidden open>
+  <summary>Ins Heft · dein Skript zu dieser Einheit</summary>
+  <div class="uebung-inhalt" id="heft-inhalt"></div>
+</details>
+
+<!-- Versuchsvideos. Der Arbeitsauftrag steht in der Karte ÜBER dem Video:
+     Wer erst nach dem Abspann erfährt, worauf zu achten war, hat es nicht
+     gesehen. -->
+<details class="uebungskarte versuchskarte" id="versuchskarte" hidden>
+  <summary>Versuch im Video · mitschreiben, nicht nur zusehen</summary>
+  <div class="uebung-inhalt" id="versuch-inhalt"></div>
+</details>
+
+<details class="uebungskarte lehrbuchkarte" id="lehrbuchkarte" hidden>
+  <summary>Im Lehrbuch</summary>
+  <div class="uebung-inhalt" id="lehrbuch-inhalt"></div>
+</details>
+
+<details class="uebungskarte" id="uebungskarte" hidden>
+  <summary>Üben &amp; Wiederholen · externe Übungen</summary>
+  <div class="uebung-inhalt" id="uebung-inhalt"></div>
+</details>
+
+<details class="formelkarte" id="formelkarte">
+  <summary>Formelkarte &amp; Wortspeicher</summary>
+  <div class="formel-inhalt" id="formel-inhalt"></div>
+</details>
+
+<script src="assets/js/store.js"></script>
+<script src="assets/js/supabase-config.js"></script>
+<script src="assets/js/dev-boot.js"></script>
+<script src="assets/js/student-login.js"></script>
+<script src="assets/js/tracker.js"></script>
+<script src="assets/js/lernmodus.js"></script>
+<script src="assets/js/uebungsrahmen.js"></script>
+<script src="assets/js/zeichnen.js"></script>
+<script src="assets/js/animationen.js"></script>
+<script src="assets/js/engine.js"></script>
+<script src="assets/js/taschenrechner.js"></script>
+<script src="assets/js/buch.js"></script>
+</body>
+</html>

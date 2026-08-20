@@ -1,0 +1,1181 @@
+{
+  "kategorie": "W-TEIL",
+  "titel": "Atombau und Periodensystem",
+  "generatoren": [
+    {
+      "id": "WTEIL-A-ordnungszahl",
+      "level": "A",
+      "skill": "Ordnungszahl ablesen",
+      "template": "Welche Ordnungszahl hat {name$} ({symbol$})?",
+      "answer": "z",
+      "tabelle": [
+        {
+          "name": "Wasserstoff",
+          "symbol": "H",
+          "z": 1,
+          "n": 0,
+          "aussen": 1
+        },
+        {
+          "name": "Helium",
+          "symbol": "He",
+          "z": 2,
+          "n": 2,
+          "aussen": 2
+        },
+        {
+          "name": "Lithium",
+          "symbol": "Li",
+          "z": 3,
+          "n": 4,
+          "aussen": 1
+        },
+        {
+          "name": "Kohlenstoff",
+          "symbol": "C",
+          "z": 6,
+          "n": 6,
+          "aussen": 4
+        },
+        {
+          "name": "Stickstoff",
+          "symbol": "N",
+          "z": 7,
+          "n": 7,
+          "aussen": 5
+        },
+        {
+          "name": "Sauerstoff",
+          "symbol": "O",
+          "z": 8,
+          "n": 8,
+          "aussen": 6
+        },
+        {
+          "name": "Neon",
+          "symbol": "Ne",
+          "z": 10,
+          "n": 10,
+          "aussen": 8
+        },
+        {
+          "name": "Natrium",
+          "symbol": "Na",
+          "z": 11,
+          "n": 12,
+          "aussen": 1
+        },
+        {
+          "name": "Magnesium",
+          "symbol": "Mg",
+          "z": 12,
+          "n": 12,
+          "aussen": 2
+        },
+        {
+          "name": "Aluminium",
+          "symbol": "Al",
+          "z": 13,
+          "n": 14,
+          "aussen": 3
+        },
+        {
+          "name": "Schwefel",
+          "symbol": "S",
+          "z": 16,
+          "n": 16,
+          "aussen": 6
+        },
+        {
+          "name": "Chlor",
+          "symbol": "Cl",
+          "z": 17,
+          "n": 18,
+          "aussen": 7
+        },
+        {
+          "name": "Kalium",
+          "symbol": "K",
+          "z": 19,
+          "n": 20,
+          "aussen": 1
+        },
+        {
+          "name": "Calcium",
+          "symbol": "Ca",
+          "z": 20,
+          "n": 20,
+          "aussen": 2
+        }
+      ],
+      "round": 0,
+      "hint": "Die Ordnungszahl steht im Periodensystem über dem Symbol.",
+      "solution": "{name$} hat die Ordnungszahl {ergebnis}.",
+      "kategorie": "W-TEIL"
+    },
+    {
+      "id": "WTEIL-A-elektronen",
+      "level": "A",
+      "skill": "Elektronenzahl im neutralen Atom",
+      "template": "Wie viele Elektronen hat ein neutrales Atom von {name$}?",
+      "answer": "z",
+      "tabelle": [
+        {
+          "name": "Wasserstoff",
+          "symbol": "H",
+          "z": 1,
+          "n": 0,
+          "aussen": 1
+        },
+        {
+          "name": "Helium",
+          "symbol": "He",
+          "z": 2,
+          "n": 2,
+          "aussen": 2
+        },
+        {
+          "name": "Lithium",
+          "symbol": "Li",
+          "z": 3,
+          "n": 4,
+          "aussen": 1
+        },
+        {
+          "name": "Kohlenstoff",
+          "symbol": "C",
+          "z": 6,
+          "n": 6,
+          "aussen": 4
+        },
+        {
+          "name": "Stickstoff",
+          "symbol": "N",
+          "z": 7,
+          "n": 7,
+          "aussen": 5
+        },
+        {
+          "name": "Sauerstoff",
+          "symbol": "O",
+          "z": 8,
+          "n": 8,
+          "aussen": 6
+        },
+        {
+          "name": "Neon",
+          "symbol": "Ne",
+          "z": 10,
+          "n": 10,
+          "aussen": 8
+        },
+        {
+          "name": "Natrium",
+          "symbol": "Na",
+          "z": 11,
+          "n": 12,
+          "aussen": 1
+        },
+        {
+          "name": "Magnesium",
+          "symbol": "Mg",
+          "z": 12,
+          "n": 12,
+          "aussen": 2
+        },
+        {
+          "name": "Aluminium",
+          "symbol": "Al",
+          "z": 13,
+          "n": 14,
+          "aussen": 3
+        },
+        {
+          "name": "Schwefel",
+          "symbol": "S",
+          "z": 16,
+          "n": 16,
+          "aussen": 6
+        },
+        {
+          "name": "Chlor",
+          "symbol": "Cl",
+          "z": 17,
+          "n": 18,
+          "aussen": 7
+        },
+        {
+          "name": "Kalium",
+          "symbol": "K",
+          "z": 19,
+          "n": 20,
+          "aussen": 1
+        },
+        {
+          "name": "Calcium",
+          "symbol": "Ca",
+          "z": 20,
+          "n": 20,
+          "aussen": 2
+        }
+      ],
+      "round": 0,
+      "hint": "Im neutralen Atom sind Protonen und Elektronen gleich viele.",
+      "solution": "{z} Protonen → {ergebnis} Elektronen",
+      "kategorie": "W-TEIL"
+    },
+    {
+      "id": "WTEIL-A-protonen",
+      "level": "A",
+      "skill": "Protonenzahl bestimmen",
+      "template": "Wie viele Protonen hat ein Atomkern von {name$}?",
+      "answer": "z",
+      "tabelle": [
+        {
+          "name": "Wasserstoff",
+          "symbol": "H",
+          "z": 1,
+          "n": 0,
+          "aussen": 1
+        },
+        {
+          "name": "Helium",
+          "symbol": "He",
+          "z": 2,
+          "n": 2,
+          "aussen": 2
+        },
+        {
+          "name": "Lithium",
+          "symbol": "Li",
+          "z": 3,
+          "n": 4,
+          "aussen": 1
+        },
+        {
+          "name": "Kohlenstoff",
+          "symbol": "C",
+          "z": 6,
+          "n": 6,
+          "aussen": 4
+        },
+        {
+          "name": "Stickstoff",
+          "symbol": "N",
+          "z": 7,
+          "n": 7,
+          "aussen": 5
+        },
+        {
+          "name": "Sauerstoff",
+          "symbol": "O",
+          "z": 8,
+          "n": 8,
+          "aussen": 6
+        },
+        {
+          "name": "Neon",
+          "symbol": "Ne",
+          "z": 10,
+          "n": 10,
+          "aussen": 8
+        },
+        {
+          "name": "Natrium",
+          "symbol": "Na",
+          "z": 11,
+          "n": 12,
+          "aussen": 1
+        },
+        {
+          "name": "Magnesium",
+          "symbol": "Mg",
+          "z": 12,
+          "n": 12,
+          "aussen": 2
+        },
+        {
+          "name": "Aluminium",
+          "symbol": "Al",
+          "z": 13,
+          "n": 14,
+          "aussen": 3
+        },
+        {
+          "name": "Schwefel",
+          "symbol": "S",
+          "z": 16,
+          "n": 16,
+          "aussen": 6
+        },
+        {
+          "name": "Chlor",
+          "symbol": "Cl",
+          "z": 17,
+          "n": 18,
+          "aussen": 7
+        },
+        {
+          "name": "Kalium",
+          "symbol": "K",
+          "z": 19,
+          "n": 20,
+          "aussen": 1
+        },
+        {
+          "name": "Calcium",
+          "symbol": "Ca",
+          "z": 20,
+          "n": 20,
+          "aussen": 2
+        }
+      ],
+      "round": 0,
+      "hint": "Die Protonenzahl ist die Ordnungszahl.",
+      "solution": "{name$}: Ordnungszahl {ergebnis} = {ergebnis} Protonen",
+      "kategorie": "W-TEIL"
+    },
+    {
+      "id": "WTEIL-A-aussen",
+      "level": "A",
+      "skill": "Außenelektronen ablesen",
+      "template": "Wie viele Außenelektronen hat ein Atom von {name$}?",
+      "answer": "aussen",
+      "tabelle": [
+        {
+          "name": "Wasserstoff",
+          "symbol": "H",
+          "z": 1,
+          "n": 0,
+          "aussen": 1
+        },
+        {
+          "name": "Helium",
+          "symbol": "He",
+          "z": 2,
+          "n": 2,
+          "aussen": 2
+        },
+        {
+          "name": "Lithium",
+          "symbol": "Li",
+          "z": 3,
+          "n": 4,
+          "aussen": 1
+        },
+        {
+          "name": "Kohlenstoff",
+          "symbol": "C",
+          "z": 6,
+          "n": 6,
+          "aussen": 4
+        },
+        {
+          "name": "Stickstoff",
+          "symbol": "N",
+          "z": 7,
+          "n": 7,
+          "aussen": 5
+        },
+        {
+          "name": "Sauerstoff",
+          "symbol": "O",
+          "z": 8,
+          "n": 8,
+          "aussen": 6
+        },
+        {
+          "name": "Neon",
+          "symbol": "Ne",
+          "z": 10,
+          "n": 10,
+          "aussen": 8
+        },
+        {
+          "name": "Natrium",
+          "symbol": "Na",
+          "z": 11,
+          "n": 12,
+          "aussen": 1
+        },
+        {
+          "name": "Magnesium",
+          "symbol": "Mg",
+          "z": 12,
+          "n": 12,
+          "aussen": 2
+        },
+        {
+          "name": "Aluminium",
+          "symbol": "Al",
+          "z": 13,
+          "n": 14,
+          "aussen": 3
+        },
+        {
+          "name": "Schwefel",
+          "symbol": "S",
+          "z": 16,
+          "n": 16,
+          "aussen": 6
+        },
+        {
+          "name": "Chlor",
+          "symbol": "Cl",
+          "z": 17,
+          "n": 18,
+          "aussen": 7
+        },
+        {
+          "name": "Kalium",
+          "symbol": "K",
+          "z": 19,
+          "n": 20,
+          "aussen": 1
+        },
+        {
+          "name": "Calcium",
+          "symbol": "Ca",
+          "z": 20,
+          "n": 20,
+          "aussen": 2
+        }
+      ],
+      "round": 0,
+      "hint": "Die Zahl der Außenelektronen entspricht der Hauptgruppennummer.",
+      "solution": "{name$} steht in Hauptgruppe {aussen} → {ergebnis} Außenelektronen",
+      "kategorie": "W-TEIL"
+    },
+    {
+      "id": "WTEIL-A-massenzahl",
+      "level": "A",
+      "skill": "Massenzahl bestimmen",
+      "template": "Ein Atom von {name$} hat {z} Protonen und {n} Neutronen. Wie groß ist die Massenzahl?",
+      "answer": "z + n",
+      "tabelle": [
+        {
+          "name": "Wasserstoff",
+          "symbol": "H",
+          "z": 1,
+          "n": 0,
+          "aussen": 1
+        },
+        {
+          "name": "Helium",
+          "symbol": "He",
+          "z": 2,
+          "n": 2,
+          "aussen": 2
+        },
+        {
+          "name": "Lithium",
+          "symbol": "Li",
+          "z": 3,
+          "n": 4,
+          "aussen": 1
+        },
+        {
+          "name": "Kohlenstoff",
+          "symbol": "C",
+          "z": 6,
+          "n": 6,
+          "aussen": 4
+        },
+        {
+          "name": "Stickstoff",
+          "symbol": "N",
+          "z": 7,
+          "n": 7,
+          "aussen": 5
+        },
+        {
+          "name": "Sauerstoff",
+          "symbol": "O",
+          "z": 8,
+          "n": 8,
+          "aussen": 6
+        },
+        {
+          "name": "Neon",
+          "symbol": "Ne",
+          "z": 10,
+          "n": 10,
+          "aussen": 8
+        },
+        {
+          "name": "Natrium",
+          "symbol": "Na",
+          "z": 11,
+          "n": 12,
+          "aussen": 1
+        },
+        {
+          "name": "Magnesium",
+          "symbol": "Mg",
+          "z": 12,
+          "n": 12,
+          "aussen": 2
+        },
+        {
+          "name": "Aluminium",
+          "symbol": "Al",
+          "z": 13,
+          "n": 14,
+          "aussen": 3
+        },
+        {
+          "name": "Schwefel",
+          "symbol": "S",
+          "z": 16,
+          "n": 16,
+          "aussen": 6
+        },
+        {
+          "name": "Chlor",
+          "symbol": "Cl",
+          "z": 17,
+          "n": 18,
+          "aussen": 7
+        },
+        {
+          "name": "Kalium",
+          "symbol": "K",
+          "z": 19,
+          "n": 20,
+          "aussen": 1
+        },
+        {
+          "name": "Calcium",
+          "symbol": "Ca",
+          "z": 20,
+          "n": 20,
+          "aussen": 2
+        }
+      ],
+      "round": 0,
+      "hint": "Massenzahl = Protonen + Neutronen.",
+      "solution": "{z} + {n} = {ergebnis}",
+      "misconceptions": [
+        {
+          "id": "elektronen_mitgezaehlt",
+          "value": "z + n + z",
+          "feedback": "Elektronen zählen bei der Massenzahl nicht mit — sie sind fast masselos."
+        }
+      ],
+      "kategorie": "W-TEIL"
+    },
+    {
+      "id": "WTEIL-B-neutronen",
+      "level": "B",
+      "skill": "Neutronenzahl berechnen",
+      "template": "Ein Atom hat die Ordnungszahl {z} und die Massenzahl {A}. Wie viele Neutronen hat es?",
+      "answer": "A - z",
+      "vars": {
+        "z": {
+          "aus": [
+            6,
+            8,
+            11,
+            12,
+            16,
+            17,
+            20
+          ]
+        },
+        "A": {
+          "von": 12,
+          "bis": 45,
+          "schritt": 1
+        }
+      },
+      "bedingung": "A - z >= z",
+      "round": 0,
+      "hint": "Neutronen = Massenzahl − Ordnungszahl.",
+      "solution": "{A} − {z} = {ergebnis} Neutronen",
+      "misconceptions": [
+        {
+          "id": "massenzahl_als_neutronen",
+          "value": "A",
+          "feedback": "Die Massenzahl zählt Protonen <b>und</b> Neutronen. Zieh die Ordnungszahl ab."
+        }
+      ],
+      "kategorie": "W-TEIL"
+    },
+    {
+      "id": "WTEIL-B-ion-elektronen",
+      "level": "B",
+      "skill": "Elektronen in einem Ion",
+      "template": "Wie viele Elektronen hat das Ion mit der Ordnungszahl {z} und der Ladung {q:±}?",
+      "answer": "z - q",
+      "vars": {
+        "z": {
+          "aus": [
+            11,
+            12,
+            13,
+            16,
+            17,
+            19,
+            20
+          ]
+        },
+        "q": {
+          "aus": [
+            -2,
+            -1,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "round": 0,
+      "hint": "Positive Ladung heißt: Elektronen fehlen. Negative Ladung: Elektronen sind dazugekommen.",
+      "solution": "{z} Elektronen im Atom, Ladung {q:±} → {ergebnis} Elektronen",
+      "misconceptions": [
+        {
+          "id": "ladung_falsch_herum",
+          "value": "z + q",
+          "feedback": "Vorzeichen umgedreht: Eine positive Ladung entsteht, weil Elektronen <b>fehlen</b>."
+        }
+      ],
+      "kategorie": "W-TEIL"
+    },
+    {
+      "id": "WTEIL-B-schale",
+      "level": "B",
+      "skill": "Elektronen auf der äußeren Schale",
+      "template": "Ein Atom mit {z} Elektronen füllt die Schalen nach 2, 8, 8. Wie viele Elektronen sitzen auf der äußersten Schale?",
+      "answer": "z - 2 * (z > 2) * min(1, 1) - 8 * (z > 10) - 8 * (z > 18) - 2 * (z > 2) * 0",
+      "vars": {
+        "z": {
+          "aus": [
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17
+          ]
+        }
+      },
+      "round": 0,
+      "hint": "Erst 2 auf die erste Schale, dann bis zu 8 auf die zweite.",
+      "solution": "{z} Elektronen → 2 auf die erste Schale, der Rest auf die zweite: {ergebnis} außen",
+      "kategorie": "W-TEIL"
+    },
+    {
+      "id": "WTEIL-B-periode",
+      "level": "B",
+      "skill": "Zahl der besetzten Schalen",
+      "template": "{name$} hat {z} Elektronen. Wie viele Schalen sind besetzt?",
+      "answer": "1 + (z > 2) + (z > 10) + (z > 18)",
+      "tabelle": [
+        {
+          "name": "Wasserstoff",
+          "symbol": "H",
+          "z": 1,
+          "n": 0,
+          "aussen": 1
+        },
+        {
+          "name": "Helium",
+          "symbol": "He",
+          "z": 2,
+          "n": 2,
+          "aussen": 2
+        },
+        {
+          "name": "Lithium",
+          "symbol": "Li",
+          "z": 3,
+          "n": 4,
+          "aussen": 1
+        },
+        {
+          "name": "Kohlenstoff",
+          "symbol": "C",
+          "z": 6,
+          "n": 6,
+          "aussen": 4
+        },
+        {
+          "name": "Stickstoff",
+          "symbol": "N",
+          "z": 7,
+          "n": 7,
+          "aussen": 5
+        },
+        {
+          "name": "Sauerstoff",
+          "symbol": "O",
+          "z": 8,
+          "n": 8,
+          "aussen": 6
+        },
+        {
+          "name": "Neon",
+          "symbol": "Ne",
+          "z": 10,
+          "n": 10,
+          "aussen": 8
+        },
+        {
+          "name": "Natrium",
+          "symbol": "Na",
+          "z": 11,
+          "n": 12,
+          "aussen": 1
+        },
+        {
+          "name": "Magnesium",
+          "symbol": "Mg",
+          "z": 12,
+          "n": 12,
+          "aussen": 2
+        },
+        {
+          "name": "Aluminium",
+          "symbol": "Al",
+          "z": 13,
+          "n": 14,
+          "aussen": 3
+        },
+        {
+          "name": "Schwefel",
+          "symbol": "S",
+          "z": 16,
+          "n": 16,
+          "aussen": 6
+        },
+        {
+          "name": "Chlor",
+          "symbol": "Cl",
+          "z": 17,
+          "n": 18,
+          "aussen": 7
+        },
+        {
+          "name": "Kalium",
+          "symbol": "K",
+          "z": 19,
+          "n": 20,
+          "aussen": 1
+        },
+        {
+          "name": "Calcium",
+          "symbol": "Ca",
+          "z": 20,
+          "n": 20,
+          "aussen": 2
+        }
+      ],
+      "round": 0,
+      "hint": "2 passen auf die erste Schale, 8 auf die zweite, 8 auf die dritte.",
+      "solution": "{z} Elektronen → {ergebnis} besetzte Schalen (das ist die Periode)",
+      "kategorie": "W-TEIL"
+    },
+    {
+      "id": "WTEIL-B-ionenladung",
+      "level": "B",
+      "skill": "Ionenladung aus der Hauptgruppe",
+      "template": "{name$} hat {aussen} Außenelektronen. Welche Ladung hat sein Ion? (Gib die Zahl mit Vorzeichen an.)",
+      "answer": "aussen - 8 * (aussen > 3)",
+      "tabelle": [
+        {
+          "name": "Wasserstoff",
+          "symbol": "H",
+          "z": 1,
+          "n": 0,
+          "aussen": 1
+        },
+        {
+          "name": "Helium",
+          "symbol": "He",
+          "z": 2,
+          "n": 2,
+          "aussen": 2
+        },
+        {
+          "name": "Lithium",
+          "symbol": "Li",
+          "z": 3,
+          "n": 4,
+          "aussen": 1
+        },
+        {
+          "name": "Sauerstoff",
+          "symbol": "O",
+          "z": 8,
+          "n": 8,
+          "aussen": 6
+        },
+        {
+          "name": "Natrium",
+          "symbol": "Na",
+          "z": 11,
+          "n": 12,
+          "aussen": 1
+        },
+        {
+          "name": "Magnesium",
+          "symbol": "Mg",
+          "z": 12,
+          "n": 12,
+          "aussen": 2
+        },
+        {
+          "name": "Aluminium",
+          "symbol": "Al",
+          "z": 13,
+          "n": 14,
+          "aussen": 3
+        },
+        {
+          "name": "Schwefel",
+          "symbol": "S",
+          "z": 16,
+          "n": 16,
+          "aussen": 6
+        },
+        {
+          "name": "Chlor",
+          "symbol": "Cl",
+          "z": 17,
+          "n": 18,
+          "aussen": 7
+        },
+        {
+          "name": "Kalium",
+          "symbol": "K",
+          "z": 19,
+          "n": 20,
+          "aussen": 1
+        },
+        {
+          "name": "Calcium",
+          "symbol": "Ca",
+          "z": 20,
+          "n": 20,
+          "aussen": 2
+        }
+      ],
+      "round": 0,
+      "hint": "Bis zu drei Außenelektronen werden abgegeben, ab fünf werden welche aufgenommen.",
+      "solution": "{aussen} Außenelektronen → Ladung {ergebnis}",
+      "misconceptions": [
+        {
+          "id": "ladung_falsch_herum",
+          "value": "8 - aussen",
+          "feedback": "Vorzeichen prüfen: Wer Elektronen aufnimmt, wird <b>negativ</b> geladen."
+        }
+      ],
+      "kategorie": "W-TEIL"
+    },
+    {
+      "id": "WTEIL-C-isotop",
+      "level": "C",
+      "skill": "Isotope unterscheiden",
+      "template": "Zwei Isotope haben die Ordnungszahl {z}, aber die Massenzahlen {A1} und {A2}. Um wie viele Neutronen unterscheiden sie sich?",
+      "answer": "A2 - A1",
+      "vars": {
+        "z": {
+          "aus": [
+            6,
+            8,
+            17,
+            20
+          ]
+        },
+        "A1": {
+          "von": 12,
+          "bis": 34,
+          "schritt": 1
+        },
+        "A2": {
+          "von": 13,
+          "bis": 40,
+          "schritt": 1
+        }
+      },
+      "bedingung": "A2 > A1",
+      "round": 0,
+      "hint": "Isotope unterscheiden sich nur in der Neutronenzahl.",
+      "solution": "{A2} − {A1} = {ergebnis} Neutronen Unterschied",
+      "misconceptions": [
+        {
+          "id": "ordnungszahl_aendert_sich",
+          "value": "z",
+          "feedback": "Die Ordnungszahl ist bei Isotopen gleich — sonst wäre es ein anderes Element."
+        }
+      ],
+      "kategorie": "W-TEIL"
+    },
+    {
+      "id": "WTEIL-C-mittelwert",
+      "level": "C",
+      "skill": "Mittlere Atommasse aus Isotopen",
+      "template": "Ein Element besteht zu {p} % aus dem Isotop mit Masse {A1} und zum Rest aus dem mit Masse {A2}. Wie groß ist die mittlere Atommasse?",
+      "answer": "p / 100 * A1 + (100 - p) / 100 * A2",
+      "vars": {
+        "p": {
+          "aus": [
+            20,
+            25,
+            50,
+            75,
+            80
+          ]
+        },
+        "A1": {
+          "aus": [
+            35,
+            63,
+            10
+          ]
+        },
+        "A2": {
+          "aus": [
+            37,
+            65,
+            11
+          ]
+        }
+      },
+      "bedingung": "A2 > A1",
+      "round": 2,
+      "hint": "Gewichteter Mittelwert: jede Masse mit ihrem Anteil multiplizieren und addieren.",
+      "solution": "{p} % · {A1} + {100-p} % · {A2} = {ergebnis}",
+      "misconceptions": [
+        {
+          "id": "ungewichteter_mittelwert",
+          "value": "(A1 + A2) / 2",
+          "feedback": "Du hast einfach gemittelt. Die Häufigkeiten sind aber verschieden — der Mittelwert muss gewichtet werden."
+        }
+      ],
+      "kategorie": "W-TEIL"
+    },
+    {
+      "id": "WTEIL-C-kernladung",
+      "level": "C",
+      "skill": "Kernladungszahl aus Teilchenangaben",
+      "template": "Ein Teilchen hat {e} Elektronen und die Ladung {q:±}. Wie groß ist seine Kernladungszahl?",
+      "answer": "e + q",
+      "vars": {
+        "e": {
+          "aus": [
+            10,
+            18,
+            2,
+            36
+          ]
+        },
+        "q": {
+          "aus": [
+            -2,
+            -1,
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "round": 0,
+      "hint": "Kernladungszahl = Elektronen + Ladung.",
+      "solution": "{e} + ({q}) = {ergebnis}",
+      "kategorie": "W-TEIL"
+    },
+    {
+      "id": "WTEIL-C-hauptgruppe",
+      "level": "C",
+      "skill": "Hauptgruppe aus der Ordnungszahl",
+      "template": "Welches Element mit der Ordnungszahl {z} steht in derselben Hauptgruppe wie das mit der Ordnungszahl {z2}? Gib die Zahl der Außenelektronen an.",
+      "answer": "aussen",
+      "tabelle": [
+        {
+          "name": "Lithium",
+          "symbol": "Li",
+          "z": 3,
+          "n": 4,
+          "aussen": 1
+        },
+        {
+          "name": "Sauerstoff",
+          "symbol": "O",
+          "z": 8,
+          "n": 8,
+          "aussen": 6
+        },
+        {
+          "name": "Natrium",
+          "symbol": "Na",
+          "z": 11,
+          "n": 12,
+          "aussen": 1
+        },
+        {
+          "name": "Magnesium",
+          "symbol": "Mg",
+          "z": 12,
+          "n": 12,
+          "aussen": 2
+        },
+        {
+          "name": "Schwefel",
+          "symbol": "S",
+          "z": 16,
+          "n": 16,
+          "aussen": 6
+        },
+        {
+          "name": "Chlor",
+          "symbol": "Cl",
+          "z": 17,
+          "n": 18,
+          "aussen": 7
+        },
+        {
+          "name": "Kalium",
+          "symbol": "K",
+          "z": 19,
+          "n": 20,
+          "aussen": 1
+        },
+        {
+          "name": "Calcium",
+          "symbol": "Ca",
+          "z": 20,
+          "n": 20,
+          "aussen": 2
+        }
+      ],
+      "vars": {
+        "z2": {
+          "aus": [
+            3,
+            11,
+            19
+          ]
+        }
+      },
+      "round": 0,
+      "hint": "Elemente einer Hauptgruppe haben gleich viele Außenelektronen.",
+      "solution": "{name$} hat {ergebnis} Außenelektronen.",
+      "kategorie": "W-TEIL"
+    },
+    {
+      "id": "WTEIL-C-nukleonen",
+      "level": "C",
+      "skill": "Massenanteil des Kerns",
+      "template": "Ein Atom hat {z} Protonen und {n} Neutronen. Wie viel Prozent der Nukleonen sind Neutronen?",
+      "answer": "n / (z + n) * 100",
+      "tabelle": [
+        {
+          "name": "Wasserstoff",
+          "symbol": "H",
+          "z": 1,
+          "n": 0,
+          "aussen": 1
+        },
+        {
+          "name": "Helium",
+          "symbol": "He",
+          "z": 2,
+          "n": 2,
+          "aussen": 2
+        },
+        {
+          "name": "Lithium",
+          "symbol": "Li",
+          "z": 3,
+          "n": 4,
+          "aussen": 1
+        },
+        {
+          "name": "Kohlenstoff",
+          "symbol": "C",
+          "z": 6,
+          "n": 6,
+          "aussen": 4
+        },
+        {
+          "name": "Stickstoff",
+          "symbol": "N",
+          "z": 7,
+          "n": 7,
+          "aussen": 5
+        },
+        {
+          "name": "Sauerstoff",
+          "symbol": "O",
+          "z": 8,
+          "n": 8,
+          "aussen": 6
+        },
+        {
+          "name": "Neon",
+          "symbol": "Ne",
+          "z": 10,
+          "n": 10,
+          "aussen": 8
+        },
+        {
+          "name": "Natrium",
+          "symbol": "Na",
+          "z": 11,
+          "n": 12,
+          "aussen": 1
+        },
+        {
+          "name": "Magnesium",
+          "symbol": "Mg",
+          "z": 12,
+          "n": 12,
+          "aussen": 2
+        },
+        {
+          "name": "Aluminium",
+          "symbol": "Al",
+          "z": 13,
+          "n": 14,
+          "aussen": 3
+        },
+        {
+          "name": "Schwefel",
+          "symbol": "S",
+          "z": 16,
+          "n": 16,
+          "aussen": 6
+        },
+        {
+          "name": "Chlor",
+          "symbol": "Cl",
+          "z": 17,
+          "n": 18,
+          "aussen": 7
+        },
+        {
+          "name": "Kalium",
+          "symbol": "K",
+          "z": 19,
+          "n": 20,
+          "aussen": 1
+        },
+        {
+          "name": "Calcium",
+          "symbol": "Ca",
+          "z": 20,
+          "n": 20,
+          "aussen": 2
+        }
+      ],
+      "unit_label": "%",
+      "round": 1,
+      "hint": "Nukleonen sind Protonen und Neutronen zusammen.",
+      "solution": "{n} : ({z} + {n}) = {ergebnis} %",
+      "kategorie": "W-TEIL"
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "kategorie": "W-GLEI",
+  "titel": "Reaktionsgleichungen",
+  "generatoren": [
+    {
+      "id": "WGLEI-A-atome-links",
+      "level": "A",
+      "skill": "Atomzahl auf einer Seite",
+      "template": "Wie viele Sauerstoffatome stehen in {k} O₂?",
+      "answer": "2 * k",
+      "vars": {
+        "k": {
+          "von": 1,
+          "bis": 6
+        }
+      },
+      "round": 0,
+      "hint": "Ein O₂ enthält 2 Atome.",
+      "solution": "{k} · 2 = {ergebnis}",
+      "kategorie": "W-GLEI"
+    },
+    {
+      "id": "WGLEI-A-wasser",
+      "level": "A",
+      "skill": "Wasserstoffatome in mehreren Wassermolekülen",
+      "template": "Wie viele Wasserstoffatome stehen in {k} H₂O?",
+      "answer": "2 * k",
+      "vars": {
+        "k": {
+          "von": 2,
+          "bis": 8
+        }
+      },
+      "round": 0,
+      "hint": "Jedes Wassermolekül hat 2 H-Atome.",
+      "solution": "{k} · 2 = {ergebnis}",
+      "kategorie": "W-GLEI"
+    },
+    {
+      "id": "WGLEI-A-koeffizient-wasser",
+      "level": "A",
+      "skill": "Fehlende Vorzahl ergänzen",
+      "template": "2 H₂ + O₂ → ? H₂O. Welche Zahl gehört an die Stelle des Fragezeichens?",
+      "answer": "2",
+      "round": 0,
+      "hint": "Zähle die Wasserstoffatome links: 2 · 2 = 4.",
+      "solution": "Links 4 H-Atome → rechts 2 H₂O",
+      "kategorie": "W-GLEI"
+    },
+    {
+      "id": "WGLEI-A-massenbilanz",
+      "level": "A",
+      "skill": "Masse der Produkte",
+      "template": "{a} g Eisen reagieren vollständig mit {b} g Schwefel. Wie viel Eisensulfid entsteht?",
+      "answer": "a + b",
+      "vars": {
+        "a": {
+          "aus": [
+            5.6,
+            11.2,
+            28,
+            56
+          ]
+        },
+        "b": {
+          "aus": [
+            3.2,
+            6.4,
+            16,
+            32
+          ]
+        }
+      },
+      "unit_label": "g",
+      "round": 1,
+      "hint": "Es geht keine Masse verloren.",
+      "solution": "{a} g + {b} g = {ergebnis} g",
+      "misconceptions": [
+        {
+          "id": "masse_verschwindet",
+          "value": "a - b",
+          "feedback": "Bei einer Verbindung addieren sich die Massen der Edukte."
+        }
+      ],
+      "kategorie": "W-GLEI"
+    },
+    {
+      "id": "WGLEI-A-edukt",
+      "level": "A",
+      "skill": "Fehlende Eduktmasse",
+      "template": "Bei einer Reaktion entstehen {p} g Produkt. Ein Edukt wog {a} g. Wie schwer war das andere?",
+      "answer": "p - a",
+      "vars": {
+        "p": {
+          "aus": [
+            16,
+            24,
+            40,
+            88
+          ]
+        },
+        "a": {
+          "von": 4,
+          "bis": 60,
+          "schritt": 4
+        }
+      },
+      "bedingung": "a < p",
+      "unit_label": "g",
+      "round": 1,
+      "hint": "Die Massen der Edukte ergeben zusammen die Masse des Produkts.",
+      "solution": "{p} g − {a} g = {ergebnis} g",
+      "kategorie": "W-GLEI"
+    },
+    {
+      "id": "WGLEI-B-ausgleichen-o2",
+      "level": "B",
+      "skill": "Sauerstoffmoleküle ausgleichen",
+      "template": "C{c}H{h} + ? O₂ → {c} CO₂ + {hh} H₂O. Wie viele O₂ werden gebraucht?",
+      "answer": "c + hh / 2",
+      "vars": {
+        "c": {
+          "aus": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "h": {
+          "aus": [
+            4,
+            6,
+            8,
+            10
+          ]
+        }
+      },
+      "berechnet": {
+        "hh": "h / 2"
+      },
+      "bedingung": "h == 2 * c + 2",
+      "round": 1,
+      "hint": "Rechts: {c} · 2 O-Atome aus CO₂ und {hh} aus dem Wasser. Zusammen durch 2.",
+      "solution": "O-Atome rechts: 2·{c} + {hh} = {2*c+hh} → : 2 = {ergebnis} O₂",
+      "kategorie": "W-GLEI"
+    },
+    {
+      "id": "WGLEI-B-atomsumme",
+      "level": "B",
+      "skill": "Atombilanz prüfen",
+      "template": "In {k} CO₂ stecken wie viele Atome insgesamt?",
+      "answer": "3 * k",
+      "vars": {
+        "k": {
+          "von": 2,
+          "bis": 9
+        }
+      },
+      "round": 0,
+      "hint": "Ein CO₂ hat 3 Atome.",
+      "solution": "{k} · 3 = {ergebnis}",
+      "kategorie": "W-GLEI"
+    },
+    {
+      "id": "WGLEI-B-verhaeltnis-masse",
+      "level": "B",
+      "skill": "Massenverhältnis anwenden",
+      "template": "Kupfer und Schwefel reagieren im Massenverhältnis 4 : 1. Wie viel Schwefel braucht man für {m} g Kupfer?",
+      "answer": "m / 4",
+      "vars": {
+        "m": {
+          "aus": [
+            8,
+            16,
+            24,
+            32,
+            64,
+            128
+          ]
+        }
+      },
+      "unit_label": "g",
+      "round": 2,
+      "hint": "Auf 4 Teile Kupfer kommt 1 Teil Schwefel.",
+      "solution": "{m} g : 4 = {ergebnis} g Schwefel",
+      "misconceptions": [
+        {
+          "id": "verhaeltnis_umgedreht",
+          "value": "m * 4",
+          "feedback": "Verhältnis umgedreht: Vom Schwefel wird <b>weniger</b> gebraucht als vom Kupfer."
+        }
+      ],
+      "kategorie": "W-GLEI"
+    },
+    {
+      "id": "WGLEI-B-produkt-masse",
+      "level": "B",
+      "skill": "Produktmasse aus dem Verhältnis",
+      "template": "Eisen und Schwefel reagieren im Massenverhältnis 7 : 4. Wie viel Eisensulfid entsteht aus {m} g Eisen?",
+      "answer": "m + m * 4 / 7",
+      "vars": {
+        "m": {
+          "aus": [
+            7,
+            14,
+            21,
+            28,
+            56
+          ]
+        }
+      },
+      "unit_label": "g",
+      "round": 2,
+      "hint": "Erst den passenden Schwefelanteil, dann beide Massen addieren.",
+      "solution": "Schwefel: {m} : 7 · 4 = {m*4/7} g\nProdukt: {m} g + {m*4/7} g = {ergebnis} g",
+      "kategorie": "W-GLEI"
+    },
+    {
+      "id": "WGLEI-B-ueberschuss",
+      "level": "B",
+      "skill": "Überschuss bestimmen",
+      "template": "Für {m} g Eisen werden {s} g Schwefel gebraucht (Verhältnis 7 : 4). Vorgelegt wurden {v} g Schwefel. Wie viel bleibt übrig?",
+      "answer": "v - m * 4 / 7",
+      "vars": {
+        "m": {
+          "aus": [
+            7,
+            14,
+            28
+          ]
+        },
+        "s": {
+          "aus": [
+            4
+          ]
+        },
+        "v": {
+          "aus": [
+            8,
+            12,
+            20,
+            24
+          ]
+        }
+      },
+      "bedingung": "v > m * 4 / 7",
+      "unit_label": "g",
+      "round": 2,
+      "hint": "Erst ausrechnen, wie viel Schwefel wirklich reagiert.",
+      "solution": "benötigt: {m*4/7} g → übrig: {v} g − {m*4/7} g = {ergebnis} g",
+      "kategorie": "W-GLEI"
+    },
+    {
+      "id": "WGLEI-C-koeffizientensumme",
+      "level": "C",
+      "skill": "Summe der Koeffizienten",
+      "template": "C{c}H{h} + {o} O₂ → {c} CO₂ + {w} H₂O. Wie groß ist die Summe aller Vorzahlen?",
+      "answer": "1 + o + c + w",
+      "vars": {
+        "c": {
+          "aus": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "h": {
+          "aus": [
+            4,
+            6,
+            8,
+            10
+          ]
+        }
+      },
+      "berechnet": {
+        "w": "h / 2",
+        "o": "c + h / 4"
+      },
+      "bedingung": "h == 2 * c + 2",
+      "round": 1,
+      "hint": "Alle vier Vorzahlen addieren, die unsichtbare 1 mitzählen.",
+      "solution": "1 + {o} + {c} + {w} = {ergebnis}",
+      "kategorie": "W-GLEI"
+    },
+    {
+      "id": "WGLEI-C-teilgleichung",
+      "level": "C",
+      "skill": "Elektronen in einer Teilgleichung",
+      "template": "Ein Metall-Atom wird zum Ion mit der Ladung {q:±}. Wie viele Elektronen gibt es ab?",
+      "answer": "q",
+      "vars": {
+        "q": {
+          "aus": [
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "round": 0,
+      "hint": "Jedes abgegebene Elektron macht das Teilchen um eine Ladung positiver.",
+      "solution": "Ladung {q:±} → {ergebnis} abgegebene Elektronen",
+      "kategorie": "W-GLEI"
+    },
+    {
+      "id": "WGLEI-C-redox-ausgleich",
+      "level": "C",
+      "skill": "Elektronenzahl beim Ausgleichen",
+      "template": "Ein Teilchen gibt {a} Elektronen ab, ein anderes nimmt {b} auf. Wie viele Teilchen der zweiten Sorte werden je Teilchen der ersten gebraucht?",
+      "answer": "a / b",
+      "vars": {
+        "a": {
+          "aus": [
+            2,
+            3,
+            4,
+            6
+          ]
+        },
+        "b": {
+          "aus": [
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "bedingung": "ganz(a / b)",
+      "round": 0,
+      "hint": "Abgegebene und aufgenommene Elektronen müssen gleich viele sein.",
+      "solution": "{a} : {b} = {ergebnis}",
+      "kategorie": "W-GLEI"
+    },
+    {
+      "id": "WGLEI-C-atombilanz-pruefen",
+      "level": "C",
+      "skill": "Fehlende Atomzahl finden",
+      "template": "Links stehen {k} Al mit je {q} Außenelektronen. Wie viele Elektronen werden insgesamt abgegeben?",
+      "answer": "k * q",
+      "vars": {
+        "k": {
+          "von": 2,
+          "bis": 6
+        },
+        "q": {
+          "aus": [
+            3
+          ]
+        }
+      },
+      "round": 0,
+      "hint": "Jedes Aluminiumatom gibt {q} Elektronen ab.",
+      "solution": "{k} · {q} = {ergebnis} Elektronen",
+      "kategorie": "W-GLEI"
+    },
+    {
+      "id": "WGLEI-C-masse-rueckwaerts",
+      "level": "C",
+      "skill": "Von der Produktmasse zur Eduktmasse",
+      "template": "Aus Kupfer und Sauerstoff entstehen {p} g Kupferoxid. Das Massenverhältnis Cu : O ist 4 : 1. Wie viel Kupfer war beteiligt?",
+      "answer": "p * 4 / 5",
+      "vars": {
+        "p": {
+          "aus": [
+            10,
+            20,
+            25,
+            40,
+            50,
+            100
+          ]
+        }
+      },
+      "unit_label": "g",
+      "round": 2,
+      "hint": "Das Produkt besteht aus 4 + 1 = 5 Teilen.",
+      "solution": "1 Teil = {p} g : 5 = {p/5} g → Kupfer = 4 · {p/5} g = {ergebnis} g",
+      "misconceptions": [
+        {
+          "id": "verhaeltnis_umgedreht",
+          "value": "p / 5",
+          "feedback": "Das ist der Sauerstoffanteil (1 Teil). Kupfer sind 4 Teile."
+        }
+      ],
+      "kategorie": "W-GLEI"
+    }
+  ]
+}

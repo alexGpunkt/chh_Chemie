@@ -1,0 +1,217 @@
+{
+  "hinweis": "Ordnet die Fehlvorstellungs-IDs der Aufgabenpools bereichsübergreifenden Kategorien zu. Eine ID gehört zur ERSTEN Kategorie, deren Muster greift — die Reihenfolge ist deshalb Teil der Aussage: spezielle Kategorien stehen vor allgemeinen. Die Muster sind reguläre Ausdrücke auf der ID. Was in keine Kategorie fällt, meldet werkzeuge/fehlvorstellungen-sichten.js zur fachlichen Durchsicht; ein leerer Rest ist NICHT das Ziel, wohl aber ein bewusst geprüfter.",
+  "version": 2,
+  "kategorien": [
+    {
+      "id": "sicherheit",
+      "titel": "Sicherheitsregel missachtet",
+      "beschreibung": "Reihenfolge beim Anzünden, Spüldauer, Entsorgungsweg, Verdünnungsregel. Diese Fehler kosten in der Anwendung keine Punkte, im Labor aber möglicherweise mehr — sie stehen deshalb vorn.",
+      "muster": [
+        "^riechen_erlaubt$",
+        "^zu_kurz_gespuelt$",
+        "^gefahrenquelle_verkannt$",
+        "^wasser_bei_verschlucken$",
+        "^dichte_als_grund$",
+        "^direkt_geschnuppert$",
+        "^schwermetall_in_ausguss$",
+        "^reihenfolge_vertauscht$",
+        "^rueckschlag_verkannt$",
+        "^effekt_vor_sicherheit$",
+        "^nebeneffekt_als_grund$",
+        "sicherheit",
+        "^wasser_bei_fettbrand$",
+        "^kuehlen_als_gefahr$",
+        "^kennzeichnung_ueberdehnt$",
+        "^wasserstoff_giftig$"
+      ]
+    },
+    {
+      "id": "stoff_und_teilchen",
+      "titel": "Stoffebene und Teilchenebene vermischt",
+      "beschreibung": "Einem einzelnen Teilchen werden Eigenschaften des Stoffes zugeschrieben: Das Atom sei blau, weich, heiß oder es dehne sich beim Erwärmen aus. Der häufigste konzeptionelle Fehler der Mittelstufe.",
+      "muster": [
+        "^teilchen_",
+        "^gasfarbe_als_grund$",
+        "^dichte_groessenabhaengig$",
+        "^atom_",
+        "^gas_erwaermt_sich$",
+        "^eis_schwerer$",
+        "^dichtemaximum_bei_null$",
+        "^elektron_masselos$",
+        "^elektron_als_ursache$"
+      ]
+    },
+    {
+      "id": "reaktion_erkennen",
+      "titel": "Chemische Reaktion und Zustandsänderung verwechselt",
+      "beschreibung": "Schmelzen, Lösen und Verdampfen werden als chemische Reaktion gedeutet — oder eine Stoffumwandlung als bloße Zustandsänderung.",
+      "muster": [
+        "^reaktion_",
+        "^energie_nicht_aufgenommen$",
+        "^gasmenge_als_grund$",
+        "^loesen_als_reaktion$",
+        "^zustand_falsch_abgelesen$",
+        "^exo_endo_vertauscht$",
+        "^aktivierung_",
+        "^waerme_als_beweis$",
+        "^geschwindigkeit_als_kriterium$",
+        "^verdampfen_als_zerlegung$",
+        "^aggregatzustand_als_kriterium$",
+        "^energie_gewonnen$",
+        "^katalysator_",
+        "^zuendtemperatur_als_grund$",
+        "^sauerstoff_als_grund$"
+      ]
+    },
+    {
+      "id": "erhaltung",
+      "titel": "Massen- und Atomerhaltung",
+      "beschreibung": "Masse oder Atome verschwinden bzw. entstehen: Gase werden nicht mitgezählt, die Bilanzgrenze wird zu eng gezogen, ein Koeffizient wird übersehen.",
+      "muster": [
+        "^masse_",
+        "^salz_mit_verdampft$",
+        "^koeffizient_",
+        "^kristallwasser_vergessen$",
+        "^kohlenstoff_verloren$",
+        "^bilanzgrenze_zu_eng$",
+        "^nur_teil_berechnet$"
+      ]
+    },
+    {
+      "id": "formelsprache",
+      "titel": "Formeln und Symbole lesen",
+      "beschreibung": "Indizes, Klammern und Koeffizienten werden übersehen, verwechselt oder eigenmächtig verändert. Der Index gehört zum Stoff, der Koeffizient zur Bilanz — wer das vertauscht, erfindet einen anderen Stoff.",
+      "muster": [
+        "^index_",
+        "^klammer_ignoriert$",
+        "^summenformel_",
+        "^symbol_verwechselt$",
+        "^formel_ohne_plus_zwei$",
+        "^h_nicht_halbiert$",
+        "^pfeil_als_gleichheitszeichen$",
+        "^nicht_gekuerzt$",
+        "^strich_als_elektron$",
+        "^oktett_auf_wasserstoff$"
+      ]
+    },
+    {
+      "id": "ladung_und_bindung",
+      "titel": "Ionen, Ladung und Bindungsart",
+      "beschreibung": "Vorzeichen der Ionenladung, Zahl abgegebener Elektronen, Verwechslung von Atom und Ion, Ionenbindung gegen Elektronenpaarbindung.",
+      "muster": [
+        "^ladung_",
+        "^ion_",
+        "^elektronen_mitgezaehlt$",
+        "^massenzahl_als_neutronen$",
+        "^ordnungszahl_aendert_sich$",
+        "^schale_falsch_gefuellt$",
+        "^bindungsart_",
+        "^periode_gruppe_vertauscht$",
+        "^wasserstoff_als_metall$",
+        "^edelgas_verwechselt$",
+        "^teilladung_vertauscht$",
+        "^pole_vertauscht$"
+      ]
+    },
+    {
+      "id": "redox",
+      "titel": "Oxidation und Reduktion",
+      "beschreibung": "Richtung des Elektronenübergangs vertauscht, Edukt und Produkt verwechselt, edel und unedel verwechselt.",
+      "muster": [
+        "^oxidation_",
+        "^reduktion_",
+        "^edukt_produkt_",
+        "^edel_unedel_",
+        "^redox_richtung$"
+      ]
+    },
+    {
+      "id": "saeure_base",
+      "titel": "Säuren, Laugen und pH-Skala",
+      "beschreibung": "Die pH-Skala wird in der falschen Richtung gelesen, Verdünnen wird als Verstärken gedeutet, Säure und Lauge werden vertauscht.",
+      "muster": [
+        "^ph_",
+        "^saeure_",
+        "^lauge_",
+        "^verduennen_",
+        "^indikator_",
+        "^staerke_und_konzentration$",
+        "^folge_statt_ursache$"
+      ]
+    },
+    {
+      "id": "rechnen_stoffmenge",
+      "titel": "Chemisches Rechnen: m, n, M, V",
+      "beschreibung": "Multiplikation und Division vertauscht, molare Masse falsch bestimmt, Masse statt Stoffmenge übertragen. Der Rechenweg ist bekannt, die Richtung nicht.",
+      "muster": [
+        "^mol_",
+        "^molare_masse_",
+        "^masse_direkt_uebertragen$",
+        "_statt_(mal|geteilt)",
+        "^(mal|geteilt)_statt_",
+        "^dichte_(mal|geteilt|umgedreht)",
+        "^anteil_umgedreht$",
+        "^anteil_statt_",
+        "^rest_statt_anteil$",
+        "^ungewichteter_mittelwert$",
+        "^gesamtvolumen_genommen$",
+        "^volumen_als_flaeche$",
+        "^verhaeltnis_umgedreht$",
+        "^addiert_statt_subtrahiert$",
+        "^loesungsmittel_als_ganzes$"
+      ]
+    },
+    {
+      "id": "einheiten",
+      "titel": "Einheiten und Umrechnungsfaktoren",
+      "beschreibung": "Faktor zwischen mL und L, g und kg, °C und K. Auch: die Einheit verrät die gesuchte Größe, wird aber nicht gelesen.",
+      "muster": [
+        "^faktor_falsch$",
+        "^kelvin_",
+        "^groesse_und_einheit_"
+      ]
+    },
+    {
+      "id": "trennen_und_nachweisen",
+      "titel": "Trennverfahren und Nachweise",
+      "beschreibung": "Gelöstes wird für filtrierbar gehalten, Eindampfen und Destillieren werden gleichgesetzt, ein Nachweis wird dem falschen Gas zugeordnet.",
+      "muster": [
+        "^trennverfahren_",
+        "^geloestes_filtrierbar$",
+        "^verfahren_gleichgesetzt$",
+        "^reihenfolge_trennung$",
+        "^produkt_verwechselt$",
+        "^masse_als_kriterium$",
+        "^nachweis_",
+        "^farben_vertauscht$",
+        "^farbe_als_ursache$",
+        "^sauerstoff_als_hauptbestandteil$",
+        "^brennstoff_als_quelle$",
+        "^saettigung_ignoriert$",
+        "^legierung_verwechselt$"
+      ]
+    },
+    {
+      "id": "organik",
+      "titel": "Organische Chemie",
+      "beschreibung": "Nomenklatur, homologe Reihe, funktionelle Gruppen, Isomerie. Häufig: gleiche Summenformel wird für denselben Stoff gehalten.",
+      "muster": [
+        "^isomer_",
+        "^funktionelle_gruppe_",
+        "^nomenklatur_",
+        "^kette_",
+        "^polar_unpolar_vertauscht$"
+      ]
+    },
+    {
+      "id": "modelle_und_operatoren",
+      "titel": "Modellgrenze und Aufgabenverständnis",
+      "beschreibung": "Zwei Fehler, die kein Fachwissen betreffen, aber Punkte kosten: ein Modell über seine Grenze hinaus anwenden oder mehrere Modelle vermischen — und auf einen Operator die falsche Antwortform liefern, etwa beschreiben statt erklären.",
+      "muster": [
+        "^modelle_vermischt$",
+        "^beschreiben_statt_erklaeren$",
+        "^verallgemeinert$"
+      ]
+    }
+  ]
+}

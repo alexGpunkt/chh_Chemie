@@ -1,0 +1,402 @@
+{
+  "kategorie": "W-EINH",
+  "titel": "Einheiten und Groessen",
+  "generatoren": [
+    {
+      "id": "WEINH-A-ml-l",
+      "level": "A",
+      "skill": "Milliliter in Liter",
+      "template": "Wie viel Liter sind {v} mL?",
+      "answer": "v / 1000",
+      "vars": {
+        "v": {
+          "aus": [
+            250,
+            500,
+            750,
+            1500,
+            2000,
+            100
+          ]
+        }
+      },
+      "unit_label": "L",
+      "round": 3,
+      "hint": "1 L = 1000 mL.",
+      "solution": "{v} mL : 1000 = {ergebnis} L",
+      "misconceptions": [
+        {
+          "id": "faktor_falsch",
+          "value": "v / 100",
+          "feedback": "Zwischen Milliliter und Liter liegt der Faktor <b>1000</b>, nicht 100."
+        }
+      ],
+      "kategorie": "W-EINH"
+    },
+    {
+      "id": "WEINH-A-g-kg",
+      "level": "A",
+      "skill": "Gramm in Kilogramm",
+      "template": "Wie viel Kilogramm sind {m} g?",
+      "answer": "m / 1000",
+      "vars": {
+        "m": {
+          "aus": [
+            250,
+            500,
+            1500,
+            2500,
+            4000
+          ]
+        }
+      },
+      "unit_label": "kg",
+      "round": 3,
+      "hint": "1 kg = 1000 g.",
+      "solution": "{m} g : 1000 = {ergebnis} kg",
+      "kategorie": "W-EINH"
+    },
+    {
+      "id": "WEINH-A-l-ml",
+      "level": "A",
+      "skill": "Liter in Milliliter",
+      "template": "Wie viel Milliliter sind {v} L?",
+      "answer": "v * 1000",
+      "vars": {
+        "v": {
+          "aus": [
+            0.25,
+            0.5,
+            1.5,
+            2,
+            0.1
+          ]
+        }
+      },
+      "unit_label": "mL",
+      "round": 0,
+      "hint": "1 L = 1000 mL.",
+      "solution": "{v} L · 1000 = {ergebnis} mL",
+      "kategorie": "W-EINH"
+    },
+    {
+      "id": "WEINH-A-cm3-ml",
+      "level": "A",
+      "skill": "Kubikzentimeter und Milliliter",
+      "template": "Ein Gefäß fasst {v} cm³. Wie viel Milliliter sind das?",
+      "answer": "v",
+      "vars": {
+        "v": {
+          "aus": [
+            25,
+            50,
+            100,
+            250,
+            500
+          ]
+        }
+      },
+      "unit_label": "mL",
+      "round": 0,
+      "hint": "1 cm³ ist genau 1 mL.",
+      "solution": "{v} cm³ = {ergebnis} mL",
+      "kategorie": "W-EINH"
+    },
+    {
+      "id": "WEINH-A-celsius-kelvin",
+      "level": "A",
+      "skill": "Celsius in Kelvin",
+      "template": "Wie viel Kelvin sind {t} °C?",
+      "answer": "t + 273",
+      "vars": {
+        "t": {
+          "aus": [
+            0,
+            20,
+            25,
+            100,
+            -20
+          ]
+        }
+      },
+      "unit_label": "K",
+      "round": 0,
+      "hint": "Zu der Celsius-Zahl 273 addieren.",
+      "solution": "{t} + 273 = {ergebnis} K",
+      "misconceptions": [
+        {
+          "id": "kelvin_subtrahiert",
+          "value": "t - 273",
+          "feedback": "Von Celsius nach Kelvin wird <b>addiert</b>."
+        }
+      ],
+      "kategorie": "W-EINH"
+    },
+    {
+      "id": "WEINH-B-mg-g",
+      "level": "B",
+      "skill": "Milligramm in Gramm",
+      "template": "Wie viel Gramm sind {m} mg?",
+      "answer": "m / 1000",
+      "vars": {
+        "m": {
+          "aus": [
+            50,
+            250,
+            500,
+            1250,
+            4000
+          ]
+        }
+      },
+      "unit_label": "g",
+      "round": 4,
+      "hint": "1 g = 1000 mg.",
+      "solution": "{m} mg : 1000 = {ergebnis} g",
+      "kategorie": "W-EINH"
+    },
+    {
+      "id": "WEINH-B-prozent-promille",
+      "level": "B",
+      "skill": "Prozent in Promille",
+      "template": "{p} % sind wie viel Promille?",
+      "answer": "p * 10",
+      "vars": {
+        "p": {
+          "aus": [
+            0.05,
+            0.08,
+            0.1,
+            0.5,
+            1.2
+          ]
+        }
+      },
+      "unit_label": "‰",
+      "round": 2,
+      "hint": "1 % = 10 ‰.",
+      "solution": "{p} % · 10 = {ergebnis} ‰",
+      "kategorie": "W-EINH"
+    },
+    {
+      "id": "WEINH-B-kelvin-celsius",
+      "level": "B",
+      "skill": "Kelvin in Celsius",
+      "template": "Wie viel Grad Celsius sind {T} K?",
+      "answer": "T - 273",
+      "vars": {
+        "T": {
+          "aus": [
+            273,
+            293,
+            300,
+            373,
+            200
+          ]
+        }
+      },
+      "unit_label": "°C",
+      "round": 0,
+      "hint": "Von der Kelvin-Zahl 273 abziehen.",
+      "solution": "{T} − 273 = {ergebnis} °C",
+      "kategorie": "W-EINH"
+    },
+    {
+      "id": "WEINH-B-dichte-umrechnen",
+      "level": "B",
+      "skill": "g/cm³ in kg/L",
+      "template": "Ein Stoff hat die Dichte {d} g/cm³. Wie viel kg/L sind das?",
+      "answer": "d",
+      "vars": {
+        "d": {
+          "aus": [
+            0.79,
+            1,
+            2.7,
+            7.9,
+            8.9
+          ]
+        }
+      },
+      "unit_label": "kg/L",
+      "round": 2,
+      "hint": "1 g/cm³ ist genau 1 kg/L — beide Faktoren 1000 heben sich auf.",
+      "solution": "{d} g/cm³ = {ergebnis} kg/L",
+      "kategorie": "W-EINH"
+    },
+    {
+      "id": "WEINH-B-mol-mmol",
+      "level": "B",
+      "skill": "Millimol in Mol",
+      "template": "Wie viel mol sind {n} mmol?",
+      "answer": "n / 1000",
+      "vars": {
+        "n": {
+          "aus": [
+            50,
+            100,
+            250,
+            500,
+            2500
+          ]
+        }
+      },
+      "unit_label": "mol",
+      "round": 4,
+      "hint": "1 mol = 1000 mmol.",
+      "solution": "{n} mmol : 1000 = {ergebnis} mol",
+      "kategorie": "W-EINH"
+    },
+    {
+      "id": "WEINH-C-mg-pro-l",
+      "level": "C",
+      "skill": "Konzentration in mg/L",
+      "template": "In {V} L Wasser sind {m} mg eines Stoffes gelöst. Wie viel mg je Liter sind das?",
+      "answer": "m / V",
+      "vars": {
+        "m": {
+          "aus": [
+            50,
+            120,
+            250,
+            400
+          ]
+        },
+        "V": {
+          "aus": [
+            0.5,
+            2,
+            4,
+            5
+          ]
+        }
+      },
+      "unit_label": "mg/L",
+      "round": 2,
+      "hint": "Masse durch Volumen.",
+      "solution": "{m} mg : {V} L = {ergebnis} mg/L",
+      "kategorie": "W-EINH"
+    },
+    {
+      "id": "WEINH-C-ppm",
+      "level": "C",
+      "skill": "Von Prozent zu ppm",
+      "template": "{p} % entsprechen wie viel ppm?",
+      "answer": "p * 10000",
+      "vars": {
+        "p": {
+          "aus": [
+            0.001,
+            0.004,
+            0.01,
+            0.04,
+            0.1
+          ]
+        }
+      },
+      "unit_label": "ppm",
+      "round": 1,
+      "hint": "1 % sind 10 000 ppm.",
+      "solution": "{p} % · 10 000 = {ergebnis} ppm",
+      "kategorie": "W-EINH"
+    },
+    {
+      "id": "WEINH-C-volumen-quader",
+      "level": "C",
+      "skill": "Volumen eines Gefäßes in Litern",
+      "template": "Ein Becken misst {a} cm · {b} cm · {c} cm. Wie viel Liter fasst es?",
+      "answer": "a * b * c / 1000",
+      "vars": {
+        "a": {
+          "aus": [
+            10,
+            20,
+            25
+          ]
+        },
+        "b": {
+          "aus": [
+            10,
+            20,
+            40
+          ]
+        },
+        "c": {
+          "aus": [
+            10,
+            15,
+            25,
+            50
+          ]
+        }
+      },
+      "unit_label": "L",
+      "round": 2,
+      "hint": "Erst das Volumen in cm³, dann durch 1000.",
+      "solution": "V = {a} · {b} · {c} = {a*b*c} cm³ = {ergebnis} L",
+      "misconceptions": [
+        {
+          "id": "faktor_falsch",
+          "value": "a * b * c / 100",
+          "feedback": "Von cm³ nach Litern (dm³) ist der Faktor <b>1000</b>."
+        }
+      ],
+      "kategorie": "W-EINH"
+    },
+    {
+      "id": "WEINH-C-mischtemperatur",
+      "level": "C",
+      "skill": "Temperaturdifferenz in Kelvin",
+      "template": "Eine Lösung erwärmt sich von {t1} °C auf {t2} °C. Um wie viel Kelvin ist das?",
+      "answer": "t2 - t1",
+      "vars": {
+        "t1": {
+          "von": 10,
+          "bis": 30,
+          "schritt": 1
+        },
+        "t2": {
+          "von": 31,
+          "bis": 80,
+          "schritt": 1
+        }
+      },
+      "unit_label": "K",
+      "round": 0,
+      "hint": "Eine Differenz in °C ist zahlengleich mit der Differenz in K.",
+      "solution": "{t2} − {t1} = {ergebnis} K",
+      "kategorie": "W-EINH"
+    },
+    {
+      "id": "WEINH-C-gramm-pro-mol",
+      "level": "C",
+      "skill": "Einheiten in einer Formel prüfen",
+      "template": "n = m : M. Wenn m in g und M in g/mol angegeben ist — welche Zahl ergibt sich für {m} g : {M} g/mol?",
+      "answer": "m / M",
+      "vars": {
+        "m": {
+          "aus": [
+            18,
+            32,
+            44,
+            56,
+            98
+          ]
+        },
+        "M": {
+          "aus": [
+            2,
+            4,
+            8,
+            16
+          ]
+        }
+      },
+      "unit_label": "mol",
+      "round": 3,
+      "hint": "Gramm kürzt sich weg — übrig bleibt mol.",
+      "solution": "{m} : {M} = {ergebnis} mol",
+      "kategorie": "W-EINH"
+    }
+  ]
+}

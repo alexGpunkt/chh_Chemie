@@ -1,0 +1,896 @@
+{
+ "hinweis": "Lizenziertes Eduki-Material. Liegt bewusst NICHT im Repository, sondern lokal unter Eduki/Chemie/Schüler/. Von dort drucken.",
+ "wurzel": "Eduki/Chemie/Schüler/",
+ "einheiten": {
+  "al-01": [
+   {
+    "paket": "Arbeitsblätter _Alkohol_ + Lösung & MP3 + Mindmap + Infografik__aa586c1f1bba",
+    "stufen": "A B C",
+    "art": "Materialpaket",
+    "hinweis": "Enthält Mindmap und Infografik — auf drei Niveaus verteilbar."
+   },
+   {
+    "paket": "Gruppenarbeit Flyer - Alkohol Wirkung__995b1a388d56",
+    "stufen": "A B",
+    "art": "Gruppenarbeit",
+    "hinweis": "Suchtprävention; fächerübergreifend."
+   }
+  ],
+  "al-03": [
+   {
+    "paket": "HÜ Chemie - Struktur & Eigenschaften der Alkohole__68507382e3f9",
+    "stufen": "B C",
+    "art": "Übungsblatt",
+    "hinweis": "Kurzkontrolle oder Übung."
+   }
+  ],
+  "al-05": [
+   {
+    "paket": "Lernposter + Arbeitsblatt _Aldehyde und Ketone_ + interaktive Lösung & MP3 + Mindmaps + In__2839dcdb96a1",
+    "stufen": "C",
+    "art": "Lernposter",
+    "hinweis": "Oxidationsprodukte — nur Vertiefungsweg."
+   }
+  ],
+  "es-01": [
+   {
+    "paket": "Ester - organische Chemie - Präsentation__b6b5e281c300",
+    "stufen": "B C",
+    "art": "Präsentation",
+    "hinweis": "Veresterung Schritt für Schritt."
+   }
+  ],
+  "es-04": [
+   {
+    "paket": "Seifen in der Chemie Text Aufgaben Lösung__39cc6ac78a16",
+    "stufen": "B C",
+    "art": "Arbeitsblatt",
+    "hinweis": "Text, Aufgaben und Lösung; passt zum Seifen-Video."
+   }
+  ],
+  "es-05": [
+   {
+    "paket": "Arbeitsblatt Einführung Kunststoffe__61d82534c70e",
+    "stufen": "A B",
+    "art": "Arbeitsblatt",
+    "hinweis": "Einstiegsblatt."
+   },
+   {
+    "paket": "Experiment_ Herstellung eines Polyesters aus Bernsteinsäure und Glycerin__a4da0f4a6b47",
+    "stufen": "C",
+    "art": "Versuch",
+    "hinweis": "Anspruchsvoll, aber eindrucksvoll. Abzug nötig."
+   },
+   {
+    "paket": "Rätsel zu den Kunststoffen__a27dc8410b79",
+    "stufen": "A B",
+    "art": "Rätsel",
+    "hinweis": "Sicherung der Fachbegriffe."
+   }
+  ],
+  "fc-01": [
+   {
+    "paket": "Bingo! Laborgeräte__344fc618eb82",
+    "stufen": "A B",
+    "art": "Spiel",
+    "hinweis": "Geräte benennen (AFB I)."
+   },
+   {
+    "paket": "Gratis_ Regeln für den Chemieunterricht _ Chemie _ Regeln__9f9b62302764",
+    "stufen": "A B C",
+    "art": "Regelblatt",
+    "hinweis": "Zum Einkleben ins Heft, vor der ersten Praktikumsstunde."
+   },
+   {
+    "paket": "Ich habe...Laborgeräte (flexible Gruppengröße 20-30)__bc01c1d1e572",
+    "stufen": "A B",
+    "art": "Spiel",
+    "hinweis": "Ganze Klasse, 20–30 Karten."
+   },
+   {
+    "paket": "Ich habe...Wer hat...Laborgeräte_ Kostprobe 20__7e505b48e060",
+    "stufen": "A B",
+    "art": "Spiel",
+    "hinweis": "Kurzfassung mit 20 Karten für die Restzeit."
+   },
+   {
+    "paket": "Lernplakat Chemie Protokoll Formulierungshilfen 7._8. Klasse__ee1cb3f7baa8",
+    "stufen": "A B",
+    "art": "Formulierungshilfe",
+    "hinweis": "Passt zu den Versuchsvideos: Materialien, Aufbau, Durchführung, Beobachtung."
+   },
+   {
+    "paket": "Lernspiel_ Sicherheit im Labor__e4a432d2d84c",
+    "stufen": "A B",
+    "art": "Lernspiel",
+    "hinweis": "Als Einstieg vor der Sicherheitsbelehrung."
+   },
+   {
+    "paket": "Sicherheit im Labor Arbeitsblatt DaZ 5. & 6.Klasse Arbeitssicherheit Arbeitsblatt mit Lösu__68ac4da2d6c5",
+    "stufen": "A",
+    "art": "Arbeitsblatt",
+    "hinweis": "Einfache Sprache — für den Basisweg und für Sprachlernende."
+   },
+   {
+    "paket": "Sicherheitsbelehrung Cliparts + Ich habe-wer hat Spiel__a09699ce9d0d",
+    "stufen": "A B",
+    "art": "Spiel",
+    "hinweis": "Ich habe – wer hat: zur Wiederholung der Symbole."
+   },
+   {
+    "paket": "Sicherheitsbelehrung Memory®__b1b6b15f510d",
+    "stufen": "A",
+    "art": "Spiel",
+    "hinweis": "Gefahrensymbole einprägen, 10 Minuten."
+   },
+   {
+    "paket": "Urkunde Laborführerschein _ Brennerführerschein__d44b9db037cb",
+    "stufen": "A B C",
+    "art": "Urkunde",
+    "hinweis": "Nach bestandener Sicherheitsbelehrung."
+   },
+   {
+    "paket": "Wortverbot_Einstieg ins Labor_Sicherheit_CH__55fffe497422",
+    "stufen": "B C",
+    "art": "Sprechspiel",
+    "hinweis": "Fachsprache üben: erklären ohne das Leitwort."
+   }
+  ],
+  "fc-02": [
+   {
+    "paket": "Aufbau eines Bunsenbrenners__9f386c5fd06a",
+    "stufen": "A B C",
+    "art": "Arbeitsblatt",
+    "hinweis": "Beschriftungsblatt zum Brenner der Schule."
+   },
+   {
+    "paket": "Aufbau eines Kartuschenbrenners__306d5ee5459e",
+    "stufen": "A B",
+    "art": "Arbeitsblatt",
+    "hinweis": "Für Räume ohne Gasanschluss."
+   },
+   {
+    "paket": "Aufbau eines Teclubrenners__e987209e3657",
+    "stufen": "B C",
+    "art": "Arbeitsblatt",
+    "hinweis": "Nur wenn die Sammlung Teclubrenner führt."
+   }
+  ],
+  "fc-03": [
+   {
+    "paket": "Chemie der Kerze - Aggregatzustände__219e5ee6552c",
+    "stufen": "A B",
+    "art": "Versuch",
+    "hinweis": "Schmelzen und Erstarren am Wachs — Heimversuch möglich."
+   },
+   {
+    "paket": "Einfach Chemie _ Klasse 8-10 Sekundarsttufe _ Elementares Wissen in einfacher Sprache _ At__2f0e03c4e9d4",
+    "stufen": "A",
+    "art": "Nachschlagewerk",
+    "hinweis": "Grundwissen in einfacher Sprache; deckt mehrere Reihen ab."
+   }
+  ],
+  "fc-04": [
+   {
+    "paket": "DIY - Eierfärben - natürliche Farbstoffe im Vergleich__a2dcb96dadfe",
+    "stufen": "A B",
+    "art": "Versuch",
+    "hinweis": "Farbstoffe trennen und vergleichen; jahreszeitlich einsetzbar."
+   },
+   {
+    "paket": "Destillation__b8969c742fd1",
+    "stufen": "B C",
+    "art": "Arbeitsblatt",
+    "hinweis": "Ergänzt das Trennverfahren-Video."
+   },
+   {
+    "paket": "Zaubertinte_ Zucker löst sich auf__327604d1d6f3",
+    "stufen": "A B",
+    "art": "Versuch",
+    "hinweis": "Lösen und Eindampfen, ohne Gefahrstoffe."
+   }
+  ],
+  "fc-05": [
+   {
+    "paket": "Chemie oder Magie Haushaltschemikalien Kartei__0ba1aff42246",
+    "stufen": "A B",
+    "art": "Kartei",
+    "hinweis": "Stoffänderung oder nicht — Einstieg in die chemische Reaktion."
+   },
+   {
+    "paket": "Energieformen und ihre Beschreibung__aab3581ce8b9",
+    "stufen": "B C",
+    "art": "Arbeitsblatt",
+    "hinweis": "Zum Energiebegriff bei exo- und endothermen Reaktionen."
+   },
+   {
+    "paket": "Lernzirkel zum Thema Energie zu Experimento _ 10+__387bf82c1ecc",
+    "stufen": "A B",
+    "art": "Lernzirkel",
+    "hinweis": "Eine Doppelstunde, Stationen frei wählbar."
+   }
+  ],
+  "fc-06": [
+   {
+    "paket": "Chemie der Kerzenflamme - Brände und Brandbekämpfung__e4b63823fffc",
+    "stufen": "A B",
+    "art": "Arbeitsblatt",
+    "hinweis": "Löschmethoden am Alltagsbeispiel."
+   },
+   {
+    "paket": "Lernzirkel_ Verbrennungsdreieck (inspired by star wars®)__a85742f8c898",
+    "stufen": "A B C",
+    "art": "Lernzirkel",
+    "hinweis": "Trägt die ganze Einheit; Stationen nach Niveau verteilen."
+   },
+   {
+    "paket": "Zündtemperatur Experiment Protokoll__8cf4d7f84572",
+    "stufen": "B C",
+    "art": "Protokoll",
+    "hinweis": "Vorlage passend zum Protokollraster des Projekts."
+   }
+  ],
+  "fc-07": [
+   {
+    "paket": "Eisen brennt__76b3f8e2bdcd",
+    "stufen": "A B",
+    "art": "Versuch",
+    "hinweis": "Eindrucksvoller Einstieg in die Oxidation."
+   },
+   {
+    "paket": "Oxidation von Nichtmetallen__218bad37598f",
+    "stufen": "B C",
+    "art": "Arbeitsblatt",
+    "hinweis": "Ergänzt die Metalloxide um die Nichtmetalloxide."
+   },
+   {
+    "paket": "Verbrennung_ Chemie der Kerzenflamme - Reaktionsprodukte_ Oxidation_ Erhalt der Masse__7a7b7b00c181",
+    "stufen": "B C",
+    "art": "Versuch",
+    "hinweis": "Nachweis der Oxide und Massenerhalt in einem Gang."
+   }
+  ],
+  "fc-08": [
+   {
+    "paket": "Rätsel Chemie _ 45 Rätsel zur Wiederholung und Vertiefung _ Von Klasse 7 bis Abitur _ 120__d021b353a008",
+    "stufen": "A B C",
+    "art": "Rätselsammlung",
+    "hinweis": "Sammelband — je Reihe ein Rätsel auswählen, nicht am Stück einsetzen."
+   }
+  ],
+  "ga-01": [
+   {
+    "paket": "Der Anteil des Sauerstoffs in der Luft__f36dacc17774",
+    "stufen": "B C",
+    "art": "Versuch",
+    "hinweis": "Quantitativer Einstieg — Ergebnis mit den 21 % vergleichen."
+   }
+  ],
+  "ga-02": [
+   {
+    "paket": "Nachweis von Wasserstoff in Natriumhydroxid__666fcce91c55",
+    "stufen": "C",
+    "art": "Versuch",
+    "hinweis": "Anspruchsvoll — erst nach der Knallgasprobe."
+   },
+   {
+    "paket": "Versuchsbeschreibung_ Herstellung und Nachweis von Sauerstoff__b0a227405a97",
+    "stufen": "B C",
+    "art": "Versuch",
+    "hinweis": "Glimmspanprobe im Zusammenhang."
+   }
+  ],
+  "ga-03": [
+   {
+    "paket": "Molekülbindung am Beispiel von CO₂__0bad8afe9a31",
+    "stufen": "B C",
+    "art": "Arbeitsblatt",
+    "hinweis": "Doppelbindung und Oktettregel an einem Beispiel."
+   },
+   {
+    "paket": "Moleküle Arbeitsblatt DaZ 5. & 6.Klasse Atome Arbeitsblatt mit Lösungen__7299d26c3626",
+    "stufen": "A",
+    "art": "Arbeitsblatt",
+    "hinweis": "Einfache Sprache."
+   }
+  ],
+  "ga-04": [
+   {
+    "paket": "Kohlenstoffkreislauf Arbeitsblatt DaZ 5. & 6.Klasse Kohlenstoffdioxidzyklus Arbeitsblatt m__dc0ef3e4a49b",
+    "stufen": "A",
+    "art": "Arbeitsblatt",
+    "hinweis": "Einfache Sprache."
+   },
+   {
+    "paket": "Lernposter + Arbeitsblätter zum Thema _Photosynthese_ + interaktive Lösung & MP3 + Mindmap__d5670a74c17e",
+    "stufen": "A B",
+    "art": "Lernposter",
+    "hinweis": "Gegenspieler der Verbrennung; Bezug zum Kohlenstoffkreislauf."
+   },
+   {
+    "paket": "Mystery_ Eine Vergiftung mit Kohlenstoffmonoxid__69dc315fe93d",
+    "stufen": "B C",
+    "art": "Mystery",
+    "hinweis": "Fallarbeit, eine Doppelstunde — starker Abschluss der Reihe."
+   },
+   {
+    "paket": "Photosynthese im Detail Arbeitsblatt 7. & 8.Klasse Lichtreaktionen Arbeitsblatt mit Lösung__e97583cd9b19",
+    "stufen": "C",
+    "art": "Arbeitsblatt",
+    "hinweis": "Nur für den Vertiefungsweg."
+   },
+   {
+    "paket": "Umweltchemie Arbeitsblatt DaZ 5. & 6.Klasse Ökochemie Arbeitsblatt mit Lösungen__771fa29da01b",
+    "stufen": "A",
+    "art": "Arbeitsblatt",
+    "hinweis": "Einfache Sprache."
+   }
+  ],
+  "ga-05": [
+   {
+    "paket": "Wiederholungsquiz zum 1. Jahr Chemieunterricht__76dd0431b479",
+    "stufen": "A B C",
+    "art": "Quiz",
+    "hinweis": "Deckt sich mit dem kumulativen Warm-up — als Generalprobe brauchbar."
+   }
+  ],
+  "kw-01": [
+   {
+    "paket": "Kohlenstoffverbindungen Arbeitsblatt DaZ 5. & 6.Klasse Kohlenstoff Arbeitsblatt mit Lösung__ecf3a82f71f4",
+    "stufen": "A",
+    "art": "Arbeitsblatt",
+    "hinweis": "Einfache Sprache."
+   }
+  ],
+  "kw-02": [
+   {
+    "paket": "Alkane - Criss-Cross - Rätsel__c8f61285e0fd",
+    "stufen": "A B",
+    "art": "Rätsel",
+    "hinweis": "Namen der ersten zehn Alkane sichern."
+   },
+   {
+    "paket": "Kopiervorlage Homologe Reihe der Alkane__a57ec4e6fb37",
+    "stufen": "A B C",
+    "art": "Kopiervorlage",
+    "hinweis": "Tabelle zum Ausfüllen — Kern der Einheit."
+   }
+  ],
+  "kw-03": [
+   {
+    "paket": "Molekülmodell Alkane (C1-C10) 3D animierte GIFs__60eb2be85c03",
+    "stufen": "A B",
+    "art": "Animation",
+    "hinweis": "GIFs für die Präsentation; ersetzt fehlende Modellbaukästen."
+   }
+  ],
+  "kw-04": [
+   {
+    "paket": "Alkane und Alkene Arbeitsblatt 9. & 10.Klasse Isomerie Arbeitsblatt mit Lösungen__06cd2e046a0b",
+    "stufen": "B C",
+    "art": "Arbeitsblatt",
+    "hinweis": "Enthält auch Alkene — Teil ausblenden, wenn nicht behandelt."
+   },
+   {
+    "paket": "Nomenklatur von Alkanen (Isomere) - Stille Post__784376dbab77",
+    "stufen": "B C",
+    "art": "Spiel",
+    "hinweis": "Nomenklatur als Gruppenspiel — deckt Fehler schnell auf."
+   },
+   {
+    "paket": "Übung Benennung verzweigter Alkane__08adde21991e",
+    "stufen": "B C",
+    "art": "Übungsblatt",
+    "hinweis": "Kernübung der Einheit."
+   }
+  ],
+  "kw-05": [
+   {
+    "paket": "Versuch mit Waschbenzin zur Löslichkeit von Alkanen__af201439a80c",
+    "stufen": "B C",
+    "art": "Versuch",
+    "hinweis": "Unpolare Wechselwirkung zeigen. Abzug nötig."
+   }
+  ],
+  "kw-06": [
+   {
+    "paket": "AB Octanverbrennung - Alkane - Rechnen - organische Chemie (OC)__d491e6f34cd1",
+    "stufen": "C",
+    "art": "Rechenblatt",
+    "hinweis": "Verbindet Verbrennung mit der Stöchiometrie aus Reihe 7."
+   }
+  ],
+  "me-01": [
+   {
+    "paket": "Lernstraße Metalle und Nichtmetalle__db9039951ad2",
+    "stufen": "A B C",
+    "art": "Lernstraße",
+    "hinweis": "Trägt die Einheit; Stationen nach Niveau verteilen."
+   },
+   {
+    "paket": "Metalle und ihre Nutzung Arbeitsblatt DaZ 5. & 6.Klasse Metallverarbeitung Arbeitsblatt mi__986e72d87dcd",
+    "stufen": "A",
+    "art": "Arbeitsblatt",
+    "hinweis": "Einfache Sprache."
+   },
+   {
+    "paket": "Versuchsdurchführung Wärmeleitfähigkeit__89b6292b2900",
+    "stufen": "A B",
+    "art": "Versuch",
+    "hinweis": "Typische Metalleigenschaft messen."
+   }
+  ],
+  "me-02": [
+   {
+    "paket": "Chemische Bindungen im Vergleich__d907ff04db95",
+    "stufen": "B C",
+    "art": "Arbeitsblatt",
+    "hinweis": "Erst hier sinnvoll: alle drei Bindungsarten sind behandelt."
+   },
+   {
+    "paket": "Chemische Bindungen_ Theorie und Übungsaufgaben__99b751a34528",
+    "stufen": "B C",
+    "art": "Übungsblatt",
+    "hinweis": "Umfangreich — auswählen, nicht am Stück geben."
+   },
+   {
+    "paket": "Flipbook chemischeBindung__2689db5e1a3f",
+    "stufen": "A B",
+    "art": "Flipbook",
+    "hinweis": "Zum Zusammenfassen ins Heft."
+   },
+   {
+    "paket": "Metallbindung Ionenbindung__bcb06716f447",
+    "stufen": "B C",
+    "art": "Arbeitsblatt",
+    "hinweis": "Gegenüberstellung."
+   },
+   {
+    "paket": "Spiel_ Definitionskette chemische Bindungen__79cbcd426282",
+    "stufen": "A B",
+    "art": "Spiel",
+    "hinweis": "Fachbegriffe sichern."
+   },
+   {
+    "paket": "Wiederholungs-Quiz zur Metallbindung__d3ebba86cf6c",
+    "stufen": "A B",
+    "art": "Quiz",
+    "hinweis": "Sicherung am Stundenende."
+   },
+   {
+    "paket": "Übersichtsblatt für Teilchen- und Bindungsarten__bd89b2eacf25",
+    "stufen": "A B C",
+    "art": "Übersicht",
+    "hinweis": "Gute Formelkarten-Ergänzung zum Abheften."
+   }
+  ],
+  "me-03": [
+   {
+    "paket": "Nachweis von Ionen bei Korrosionsvorgängen__4a6c01a69626",
+    "stufen": "C",
+    "art": "Versuch",
+    "hinweis": "Anspruchsvoll; setzt Ionennachweise voraus."
+   },
+   {
+    "paket": "Redoxreaktion_ Redox - Oxidationszahlen - Versuch verkupfern eines Eisennagels__6cff3956b6de",
+    "stufen": "C",
+    "art": "Versuch",
+    "hinweis": "Oxidationszahlen — nur Vertiefungsweg."
+   }
+  ],
+  "me-05": [
+   {
+    "paket": "Arbeitsblatt zum Schülerexperiment _Alkali-Mangan-Batterie___4a4902793c2e",
+    "stufen": "C",
+    "art": "Schülerversuch",
+    "hinweis": "Anwendung der Redoxreaktion; Wahlangebot."
+   },
+   {
+    "paket": "Batterietypen__c021a5a7a017",
+    "stufen": "B C",
+    "art": "Arbeitsblatt",
+    "hinweis": "Alltagsbezug zur Redoxreaktion."
+   },
+   {
+    "paket": "Reaktionsgleichungen zur Oxidation - Metalle und Nichtmetalle regieren mit Sauerstoff__eef23fbef222",
+    "stufen": "B C",
+    "art": "Übungsblatt",
+    "hinweis": "Verbindet Reihe 1 und Reihe 6."
+   },
+   {
+    "paket": "Redoxreaktionen Arbeitsblatt 9. & 10.Klasse Oxidation und Reduktion Arbeitsblatt mit Lösun__2de8a2ddb205",
+    "stufen": "B C",
+    "art": "Arbeitsblatt",
+    "hinweis": "Kernübung der Einheit."
+   }
+  ],
+  "os-01": [
+   {
+    "paket": "Acidität von Carbonsäuren__123f2737f4f6",
+    "stufen": "C",
+    "art": "Arbeitsblatt",
+    "hinweis": "Begründung der Säurestärke — Vertiefungsweg."
+   },
+   {
+    "paket": "Induktive Effekte – Übersicht__c1563442bc61",
+    "stufen": "C",
+    "art": "Übersicht",
+    "hinweis": "Über den Rahmenlehrplan hinaus; nur als Zusatzangebot."
+   }
+  ],
+  "os-04": [
+   {
+    "paket": "Bingo! Aminosäuren__3524cc0bbb09",
+    "stufen": "B C",
+    "art": "Spiel",
+    "hinweis": "Namen und Reste sichern."
+   },
+   {
+    "paket": "Ich habe.... Aminosäuren (flexible Gruppengrößen 12-21)__101b6f3047d4",
+    "stufen": "B C",
+    "art": "Spiel",
+    "hinweis": "Ganze Klasse, 12–21 Karten."
+   },
+   {
+    "paket": "Ich habe....Wer hat... Aminosäuren_ Kostprobe (12)__331b32f85d4d",
+    "stufen": "B C",
+    "art": "Spiel",
+    "hinweis": "Kurzfassung mit 12 Karten."
+   }
+  ],
+  "ps-01": [
+   {
+    "paket": "BINGO! Periodensystem - die Elemente-Lotterie__ee63a4757682",
+    "stufen": "A B",
+    "art": "Spiel",
+    "hinweis": "Elementsymbole sichern."
+   },
+   {
+    "paket": "Lapbooks Chemie _ Kunststoffe, PSE, Lebensmittel, Wasser, Säuren & Basen kreativ erarbeite__fa034659af17",
+    "stufen": "A B",
+    "art": "Lapbook",
+    "hinweis": "Sammelpaket; hier die PSE-Vorlage, weitere Vorlagen bei wa-01, sl-01 und es-05."
+   },
+   {
+    "paket": "PSE_ Welches Element bin ich___be5bd92edba3",
+    "stufen": "A B",
+    "art": "Rätsel",
+    "hinweis": "Steckbriefe raten — gut als Stundeneinstieg."
+   },
+   {
+    "paket": "Periodensystem - DIY-Kartenspiel Quartett_Trumpfen (die Hauptgruppenelemente)__52046a2f0b68",
+    "stufen": "A B",
+    "art": "Spiel",
+    "hinweis": "Quartett zu den Hauptgruppen; Kennwerte vergleichen."
+   },
+   {
+    "paket": "Übung Periodensystem der Elemente [Arbeitsblatt]__2391ec18d47b",
+    "stufen": "A B",
+    "art": "Arbeitsblatt",
+    "hinweis": "Perioden und Gruppen ablesen."
+   }
+  ],
+  "ps-03": [
+   {
+    "paket": "Die Entwicklung der Atommodelle_ Von Demokrit bis zum quantenmechanischen Modell__3bc69a5a037d",
+    "stufen": "B C",
+    "art": "Arbeitsblatt",
+    "hinweis": "Der ganze Weg; die letzten beiden Modelle für den Vertiefungsweg."
+   },
+   {
+    "paket": "[Präsentation] Daltons Atommodell__721d01a6428c",
+    "stufen": "A B",
+    "art": "Präsentation",
+    "hinweis": "Kurzvortrag oder Lesetext."
+   }
+  ],
+  "ps-04": [
+   {
+    "paket": "Chemie _ Joseph John Thomson _ PDF + H5P__616e6edc1fa6",
+    "stufen": "B C",
+    "art": "Arbeitsblatt",
+    "hinweis": "Enthält eine H5P-Fassung — passt zum Videoteil der Einheit."
+   }
+  ],
+  "ps-05": [
+   {
+    "paket": "Aufbau eines Atoms Arbeitsblatt DaZ 5. & 6.Klasse Teilchen Arbeitsblatt mit Lösungen__64289d4b3be2",
+    "stufen": "A",
+    "art": "Arbeitsblatt",
+    "hinweis": "Einfache Sprache; Teilchen benennen."
+   }
+  ],
+  "ps-07": [
+   {
+    "paket": "Das Schalenmodell und der Aufbau des Periodensystems der Elemente2__43c012f2e2f7",
+    "stufen": "B C",
+    "art": "Arbeitsblatt",
+    "hinweis": "Verknüpft Schalenbesetzung mit der Stellung im PSE."
+   },
+   {
+    "paket": "Merkheft zum Atombau - Bohr'sches Atommodell__72a64e509818",
+    "stufen": "A B",
+    "art": "Merkheft",
+    "hinweis": "Ergebnis der Einheit zum Abheften."
+   },
+   {
+    "paket": "Schalen Modell für die Tafel (A3) - Atombau _ Ionenbildung__a2bb485889c2",
+    "stufen": "A B",
+    "art": "Tafelmaterial",
+    "hinweis": "A3-Vorlage für die gemeinsame Erarbeitung."
+   },
+   {
+    "paket": "Schalenmodell für SuS - 4 _ 7 Schalen__172b11782fe5",
+    "stufen": "A B",
+    "art": "Vorlage",
+    "hinweis": "Leere Schalen zum Eintragen, 4 und 7 Schalen."
+   }
+  ],
+  "ps-08": [
+   {
+    "paket": "Arbeitsblatt Alkalimetalle im Alltag__e43cfdc42edb",
+    "stufen": "A B",
+    "art": "Arbeitsblatt",
+    "hinweis": "Anwendungsbezug."
+   },
+   {
+    "paket": "Eigenschaften der Alkalimetalle [Arbeitsblatt]__b810bb0db8ea",
+    "stufen": "B C",
+    "art": "Arbeitsblatt",
+    "hinweis": "Reaktivität in der Gruppe begründen."
+   },
+   {
+    "paket": "Erdalkalimetalle in Wasser - [Versuchsanleitung]__270649cb17fd",
+    "stufen": "B C",
+    "art": "Versuchsanleitung",
+    "hinweis": "Lehrerversuch — Schutzscheibe nötig."
+   },
+   {
+    "paket": "Flammenfärbung - Zuordnungsaktivität _ Paare Finden Spiel__c79b90e7e3da",
+    "stufen": "A B",
+    "art": "Zuordnungsspiel",
+    "hinweis": "Paare finden; passt zum Flammenfärbungs-Video."
+   },
+   {
+    "paket": "Merkheft zu den Elementfamilien__a99031e4613d",
+    "stufen": "A B",
+    "art": "Merkheft",
+    "hinweis": "Zusammenfassung der Reihe."
+   }
+  ],
+  "sl-01": [
+   {
+    "paket": "Ei-Experiment - Gummi Ei - Säure reagiert mit Kalkschale__74917cdb0b5d",
+    "stufen": "A B",
+    "art": "Heimversuch",
+    "hinweis": "Läuft über Nacht — als Hausaufgabe geben."
+   },
+   {
+    "paket": "Säuren und Basen im Alltag__b1722eeb8d19",
+    "stufen": "A B",
+    "art": "Arbeitsblatt",
+    "hinweis": "Einstieg über Haushaltsstoffe."
+   }
+  ],
+  "sl-02": [
+   {
+    "paket": "Der pH-Wert Arbeitsblatt DaZ 5. & 6.Klasse Säure-Base-Reaktionen Arbeitsblatt mit Lösungen__ad1db9088e06",
+    "stufen": "A",
+    "art": "Arbeitsblatt",
+    "hinweis": "Einfache Sprache."
+   },
+   {
+    "paket": "Experimentieren mit dem Rotkohlindikator (inspired by Harry Potter®)__e7037bbdc419",
+    "stufen": "A B",
+    "art": "Versuch",
+    "hinweis": "Indikator selbst herstellen; sehr motivierend."
+   },
+   {
+    "paket": "Harry Potter und der Chemieunterricht mögliche Abläufe__27167bc8840e",
+    "stufen": "A B",
+    "art": "Ablaufvorschlag",
+    "hinweis": "Rahmen zum Rotkohl-Versuch; Stunde am Stück."
+   },
+   {
+    "paket": "pH-Wert messen Arbeitsblatt 9. & 10.Klasse Konzentration Arbeitsblatt mit Lösungen__face3acbcde4",
+    "stufen": "C",
+    "art": "Arbeitsblatt",
+    "hinweis": "Mit Konzentrationsbezug — nur Vertiefungsweg."
+   }
+  ],
+  "sl-03": [
+   {
+    "paket": "HÜ Chemie - Säure-Base-Reaktionen__a5040a4b6dbb",
+    "stufen": "B C",
+    "art": "Übungsblatt",
+    "hinweis": "Kurzkontrolle; auch als Übung ohne Note."
+   },
+   {
+    "paket": "Säuren reagieren mit Metallen (Salzbildung)__32ccfedcd186",
+    "stufen": "B C",
+    "art": "Versuch",
+    "hinweis": "Salzbildung und Knallgasprobe."
+   }
+  ],
+  "sl-04": [
+   {
+    "paket": "Laugen bzw Basen__54005171336a",
+    "stufen": "A B",
+    "art": "Arbeitsblatt",
+    "hinweis": "Grundlagenblatt."
+   },
+   {
+    "paket": "Säuren und Basen (Laugen)__4911b3af7032",
+    "stufen": "A B",
+    "art": "Arbeitsblatt",
+    "hinweis": "Gegenüberstellung."
+   },
+   {
+    "paket": "Säuren und Basen Arbeitsblatt DaZ 5. & 6.Klasse pH-Wert Arbeitsblatt mit Lösungen__65505f0e3cf4",
+    "stufen": "A",
+    "art": "Arbeitsblatt",
+    "hinweis": "Einfache Sprache."
+   }
+  ],
+  "sl-06": [
+   {
+    "paket": "Übung zum Erstellen von Neutralisationsreaktionen - Drehscheibe__b128f8808830",
+    "stufen": "A B",
+    "art": "Lernspiel",
+    "hinweis": "Basteln und üben in einem."
+   },
+   {
+    "paket": "Übung zum Erstellen von Neutralisationsreaktionen - Würfel__72a41c2b5aed",
+    "stufen": "A B",
+    "art": "Lernspiel",
+    "hinweis": "Variante zur Drehscheibe — eine von beiden genügt."
+   }
+  ],
+  "sl-07": [
+   {
+    "paket": "Säuren und Basen Zusammenfassung Video__ced7223b032b",
+    "stufen": "A B",
+    "art": "Zusammenfassung",
+    "hinweis": "Wiederholung am Reihenende."
+   },
+   {
+    "paket": "Übung Säuren und Basen__05188b05ea22",
+    "stufen": "A B C",
+    "art": "Übungsblatt",
+    "hinweis": "Zur Vorbereitung der Klassenarbeit."
+   }
+  ],
+  "sz-01": [
+   {
+    "paket": "Atombau und Ionen - mit Selbstkontrolle__d297869de607",
+    "stufen": "A B",
+    "art": "Arbeitsblatt",
+    "hinweis": "Selbstkontrolle eingebaut; gut fürs Üben zu Hause."
+   },
+   {
+    "paket": "Ionenbildung_ Ionisierung_ Atommodell - AB Stationen__adc310953e22",
+    "stufen": "A B C",
+    "art": "Stationenarbeit",
+    "hinweis": "Stationen nach Niveau verteilen — trägt die Doppelstunde."
+   },
+   {
+    "paket": "Übung Ionenbildung__7d1dabac3b66",
+    "stufen": "A B",
+    "art": "Übungsblatt",
+    "hinweis": "Kernübung der Einheit."
+   }
+  ],
+  "sz-02": [
+   {
+    "paket": "Eigenschaften der Ionenbindung__63c3ad51f213",
+    "stufen": "B C",
+    "art": "Arbeitsblatt",
+    "hinweis": "Gitter und Eigenschaften verknüpfen."
+   },
+   {
+    "paket": "Märchenhafte Ionenverbindung - Ein Bild-Text-Puzzle__eac4fc1ac8df",
+    "stufen": "A B",
+    "art": "Puzzle",
+    "hinweis": "Bild-Text-Puzzle; niedrigschwelliger Zugang."
+   }
+  ],
+  "sz-03": [
+   {
+    "paket": "Lernspiel_ Ionenknobeln - Verhältnisformeln von Salzen (leichtere Version)__112842365899",
+    "stufen": "A B",
+    "art": "Lernspiel",
+    "hinweis": "Leichtere Fassung — passt zum Basisweg."
+   },
+   {
+    "paket": "Übung zum Erstellen von Summenformeln - Ionen-Lotterie - Sticker für das Glücksrad vom _Sc__7e742c2ff87d",
+    "stufen": "A B",
+    "art": "Spielmaterial",
+    "hinweis": "Braucht das Glücksrad; sonst als Kartenziehen."
+   }
+  ],
+  "sz-04": [
+   {
+    "paket": "Mit der Glimmlampe Ladungen nachweisen__50b2aede8cf6",
+    "stufen": "B C",
+    "art": "Versuch",
+    "hinweis": "Leitfähigkeit als Beleg für freie Ionen."
+   },
+   {
+    "paket": "Säuren und Laugen leiten den elektrischen Strom__d27e6ae44922",
+    "stufen": "B C",
+    "art": "Versuch",
+    "hinweis": "Vorgriff auf die Säurereihe — oder dort wiederholen."
+   }
+  ],
+  "wa-01": [
+   {
+    "paket": "Besondere Eigenschaften von Wasser - Experimente für zu Hause__6fed5624860e",
+    "stufen": "A B C",
+    "art": "Heimversuch",
+    "hinweis": "Ohne Gefahrstoffe; als Hausaufgabe einsetzbar."
+   },
+   {
+    "paket": "Wasser ist etwas Besonderes__e5256bde5ce6",
+    "stufen": "A B",
+    "art": "Arbeitsblatt",
+    "hinweis": "Anomalie und Dichte."
+   }
+  ],
+  "wa-02": [
+   {
+    "paket": "Analyse von Wasser - Hoffmann'sche Zersetzungsapparat__c7325badf3d1",
+    "stufen": "B C",
+    "art": "Versuch",
+    "hinweis": "Passt zum Hofmann-Video der Einheit."
+   }
+  ],
+  "wa-03": [
+   {
+    "paket": "Aufstellen von Reaktionsgleichungen__a1dc4662d5ea",
+    "stufen": "B C",
+    "art": "Übungsblatt",
+    "hinweis": "Kernübung der Einheit."
+   },
+   {
+    "paket": "Die Wertigkeit - Arbeitsblatt__27e837ca86f1",
+    "stufen": "B C",
+    "art": "Arbeitsblatt",
+    "hinweis": "Voraussetzung fürs Ausgleichen."
+   },
+   {
+    "paket": "gestuftes Hilfeheft_ Reaktionsgleichung Silbersulfid__fc017db92911",
+    "stufen": "A B",
+    "art": "Hilfeheft",
+    "hinweis": "Gestufte Hilfen — genau das Werkzeug für den Basisweg."
+   },
+   {
+    "paket": "Übungen zur Oxidation (Reaktionsgleichungen aufstellen)__6679a48b3b87",
+    "stufen": "C",
+    "art": "Übungsblatt",
+    "hinweis": "Anspruchsvollere Gleichungen für den Vertiefungsweg."
+   }
+  ],
+  "wa-04": [
+   {
+    "paket": "Tutorial_ VESPR_Elektronenpaarabstoßung mit der Software Avogadro__952a1fa40b6e",
+    "stufen": "C",
+    "art": "Software-Tutorial",
+    "hinweis": "Braucht Avogadro am Rechner — Wahlangebot."
+   },
+   {
+    "paket": "Tutorial_ Wasserstoffbrückenbindungen mit der Software Avogadro__6bb2f85e56cb",
+    "stufen": "C",
+    "art": "Software-Tutorial",
+    "hinweis": "Braucht Avogadro am Rechner — Wahlangebot."
+   }
+  ],
+  "wa-05": [
+   {
+    "paket": "Verdünnungsreihe erstellen [Versuch]__abd79e1eb2a8",
+    "stufen": "B C",
+    "art": "Versuch",
+    "hinweis": "Konzentration anschaulich."
+   }
+  ]
+ }
+}

@@ -1,0 +1,608 @@
+{
+  "kategorie": "W-STOF",
+  "titel": "Stoffe, Eigenschaften, Trennverfahren",
+  "generatoren": [
+    {
+      "id": "WSTOF-A-dichte-masse",
+      "level": "A",
+      "skill": "Masse aus Dichte und Volumen",
+      "template": "{name$} hat die Dichte {dichte} g/cm³. Welche Masse haben {V} cm³?",
+      "answer": "dichte * V",
+      "tabelle": [
+        {
+          "name": "Eisen",
+          "dichte": 7.9,
+          "schmelz": 1535,
+          "sied": 2750
+        },
+        {
+          "name": "Aluminium",
+          "dichte": 2.7,
+          "schmelz": 660,
+          "sied": 2467
+        },
+        {
+          "name": "Kupfer",
+          "dichte": 8.9,
+          "schmelz": 1083,
+          "sied": 2567
+        },
+        {
+          "name": "Wasser",
+          "dichte": 1.0,
+          "schmelz": 0,
+          "sied": 100
+        },
+        {
+          "name": "Ethanol",
+          "dichte": 0.79,
+          "schmelz": -114,
+          "sied": 78
+        },
+        {
+          "name": "Blei",
+          "dichte": 11.3,
+          "schmelz": 327,
+          "sied": 1749
+        }
+      ],
+      "vars": {
+        "V": {
+          "aus": [
+            10,
+            20,
+            50,
+            100
+          ]
+        }
+      },
+      "unit_label": "g",
+      "round": 1,
+      "hint": "m = ρ · V. Multipliziere die Dichte mit dem Volumen.",
+      "solution": "m = {dichte} g/cm³ · {V} cm³ = {ergebnis} g",
+      "misconceptions": [
+        {
+          "id": "dichte_geteilt_statt_mal",
+          "value": "V / dichte",
+          "feedback": "Du hast geteilt. Aus Dichte und Volumen wird die Masse durch Multiplizieren: m = ρ · V."
+        }
+      ],
+      "kategorie": "W-STOF"
+    },
+    {
+      "id": "WSTOF-A-zustand",
+      "level": "A",
+      "skill": "Aggregatzustand bei Zimmertemperatur bestimmen",
+      "template": "{name$} schmilzt bei {schmelz} °C und siedet bei {sied} °C. Ist der Stoff bei 20 °C fest (1), flüssig (2) oder gasförmig (3)?",
+      "answer": "1 + (20 > schmelz) + (20 > sied)",
+      "tabelle": [
+        {
+          "name": "Eisen",
+          "dichte": 7.9,
+          "schmelz": 1535,
+          "sied": 2750
+        },
+        {
+          "name": "Aluminium",
+          "dichte": 2.7,
+          "schmelz": 660,
+          "sied": 2467
+        },
+        {
+          "name": "Kupfer",
+          "dichte": 8.9,
+          "schmelz": 1083,
+          "sied": 2567
+        },
+        {
+          "name": "Wasser",
+          "dichte": 1.0,
+          "schmelz": 0,
+          "sied": 100
+        },
+        {
+          "name": "Ethanol",
+          "dichte": 0.79,
+          "schmelz": -114,
+          "sied": 78
+        },
+        {
+          "name": "Blei",
+          "dichte": 11.3,
+          "schmelz": 327,
+          "sied": 1749
+        }
+      ],
+      "round": 0,
+      "hint": "Unter dem Schmelzpunkt ist alles fest, über dem Siedepunkt alles gasförmig.",
+      "solution": "20 °C liegt {ergebnis} — Schmelzpunkt {schmelz} °C, Siedepunkt {sied} °C.",
+      "kategorie": "W-STOF"
+    },
+    {
+      "id": "WSTOF-A-anteil",
+      "level": "A",
+      "skill": "Massenanteil in Prozent",
+      "template": "In {ges} g Salzwasser sind {teil} g Salz gelöst. Wie viel Prozent sind das?",
+      "answer": "teil / ges * 100",
+      "vars": {
+        "ges": {
+          "aus": [
+            200,
+            250,
+            400,
+            500
+          ]
+        },
+        "teil": {
+          "aus": [
+            10,
+            20,
+            25,
+            50
+          ]
+        }
+      },
+      "bedingung": "ganz(teil / ges * 100)",
+      "unit_label": "%",
+      "round": 1,
+      "hint": "Anteil = Teil : Ganzes, dann mal 100.",
+      "solution": "{teil} g : {ges} g = {teil/ges} → {ergebnis} %",
+      "misconceptions": [
+        {
+          "id": "anteil_umgedreht",
+          "value": "ges / teil",
+          "feedback": "Du hast das Ganze durch den Teil geteilt. Der Anteil ist Teil : Ganzes."
+        }
+      ],
+      "kategorie": "W-STOF"
+    },
+    {
+      "id": "WSTOF-A-schmelzabstand",
+      "level": "A",
+      "skill": "Temperaturspanne ablesen",
+      "template": "{name$} schmilzt bei {schmelz} °C und siedet bei {sied} °C. Wie viele Grad liegt der flüssige Bereich auseinander?",
+      "answer": "sied - schmelz",
+      "tabelle": [
+        {
+          "name": "Eisen",
+          "dichte": 7.9,
+          "schmelz": 1535,
+          "sied": 2750
+        },
+        {
+          "name": "Aluminium",
+          "dichte": 2.7,
+          "schmelz": 660,
+          "sied": 2467
+        },
+        {
+          "name": "Kupfer",
+          "dichte": 8.9,
+          "schmelz": 1083,
+          "sied": 2567
+        },
+        {
+          "name": "Wasser",
+          "dichte": 1.0,
+          "schmelz": 0,
+          "sied": 100
+        },
+        {
+          "name": "Ethanol",
+          "dichte": 0.79,
+          "schmelz": -114,
+          "sied": 78
+        },
+        {
+          "name": "Blei",
+          "dichte": 11.3,
+          "schmelz": 327,
+          "sied": 1749
+        }
+      ],
+      "unit_label": "°C",
+      "round": 0,
+      "hint": "Siedetemperatur minus Schmelztemperatur.",
+      "solution": "{sied} °C − {schmelz} °C = {ergebnis} °C",
+      "kategorie": "W-STOF"
+    },
+    {
+      "id": "WSTOF-A-verdampfen",
+      "level": "A",
+      "skill": "Rückstand beim Eindampfen",
+      "template": "{V} mL Salzwasser enthalten {c} g Salz je 100 mL. Wie viel Salz bleibt beim Eindampfen übrig?",
+      "answer": "V / 100 * c",
+      "vars": {
+        "V": {
+          "aus": [
+            50,
+            100,
+            200,
+            300,
+            400
+          ]
+        },
+        "c": {
+          "aus": [
+            2,
+            4,
+            5,
+            10
+          ]
+        }
+      },
+      "unit_label": "g",
+      "round": 2,
+      "hint": "Erst auf 1 mL rechnen, dann auf {V} mL.",
+      "solution": "{c} g je 100 mL → {V} mL : 100 · {c} g = {ergebnis} g",
+      "kategorie": "W-STOF"
+    },
+    {
+      "id": "WSTOF-B-dichte-volumen",
+      "level": "B",
+      "skill": "Volumen aus Masse und Dichte",
+      "template": "Ein Stück {name$} wiegt {m} g. Die Dichte beträgt {dichte} g/cm³. Welches Volumen hat es?",
+      "answer": "m / dichte",
+      "tabelle": [
+        {
+          "name": "Eisen",
+          "dichte": 7.9,
+          "schmelz": 1535,
+          "sied": 2750
+        },
+        {
+          "name": "Aluminium",
+          "dichte": 2.7,
+          "schmelz": 660,
+          "sied": 2467
+        },
+        {
+          "name": "Kupfer",
+          "dichte": 8.9,
+          "schmelz": 1083,
+          "sied": 2567
+        },
+        {
+          "name": "Wasser",
+          "dichte": 1.0,
+          "schmelz": 0,
+          "sied": 100
+        },
+        {
+          "name": "Ethanol",
+          "dichte": 0.79,
+          "schmelz": -114,
+          "sied": 78
+        },
+        {
+          "name": "Blei",
+          "dichte": 11.3,
+          "schmelz": 327,
+          "sied": 1749
+        }
+      ],
+      "vars": {
+        "m": {
+          "von": 40,
+          "bis": 400,
+          "schritt": 20
+        }
+      },
+      "unit_label": "cm³",
+      "round": 2,
+      "hint": "V = m : ρ.",
+      "solution": "V = {m} g : {dichte} g/cm³ = {ergebnis} cm³",
+      "misconceptions": [
+        {
+          "id": "dichte_mal_statt_geteilt",
+          "value": "m * dichte",
+          "feedback": "Du hast multipliziert. Aus Masse und Dichte wird das Volumen durch Teilen: V = m : ρ."
+        }
+      ],
+      "kategorie": "W-STOF"
+    },
+    {
+      "id": "WSTOF-B-dichte-selbst",
+      "level": "B",
+      "skill": "Dichte selbst bestimmen",
+      "template": "Ein Metallwürfel mit {a} cm Kantenlänge wiegt {m} g. Welche Dichte hat er?",
+      "answer": "m / (a * a * a)",
+      "vars": {
+        "a": {
+          "aus": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "m": {
+          "von": 40,
+          "bis": 900,
+          "schritt": 20
+        }
+      },
+      "bedingung": "ganz(m / (a*a*a) * 100)",
+      "unit_label": "g/cm³",
+      "round": 2,
+      "hint": "Erst das Volumen des Würfels: a · a · a. Dann ρ = m : V.",
+      "solution": "V = {a} cm · {a} cm · {a} cm = {a*a*a} cm³\nρ = {m} g : {a*a*a} cm³ = {ergebnis} g/cm³",
+      "misconceptions": [
+        {
+          "id": "volumen_als_flaeche",
+          "value": "m / (a * a)",
+          "feedback": "Du hast mit einer Fläche gerechnet. Ein Würfel hat das Volumen a · a · a."
+        }
+      ],
+      "kategorie": "W-STOF"
+    },
+    {
+      "id": "WSTOF-B-mischen",
+      "level": "B",
+      "skill": "Massenanteil einer Mischung",
+      "template": "{a} g Zucker werden in {b} g Wasser gelöst. Wie viel Prozent Zucker enthält die Lösung?",
+      "answer": "a / (a + b) * 100",
+      "vars": {
+        "a": {
+          "aus": [
+            10,
+            20,
+            25,
+            50
+          ]
+        },
+        "b": {
+          "aus": [
+            90,
+            80,
+            75,
+            150,
+            200
+          ]
+        }
+      },
+      "unit_label": "%",
+      "round": 2,
+      "hint": "Das Ganze ist Zucker <b>plus</b> Wasser.",
+      "solution": "{a} g : ({a} g + {b} g) = {a}/{a+b} → {ergebnis} %",
+      "misconceptions": [
+        {
+          "id": "loesungsmittel_als_ganzes",
+          "value": "a / b * 100",
+          "feedback": "Du hast nur durch das Wasser geteilt. Zur Lösung gehört auch der gelöste Zucker."
+        }
+      ],
+      "kategorie": "W-STOF"
+    },
+    {
+      "id": "WSTOF-B-abkuehlen",
+      "level": "B",
+      "skill": "Temperaturänderung berechnen",
+      "template": "Eine Probe wird von {t1} °C auf {t2} °C abgekühlt. Um wie viel Grad sinkt die Temperatur?",
+      "answer": "t1 - t2",
+      "vars": {
+        "t1": {
+          "von": 40,
+          "bis": 120,
+          "schritt": 5
+        },
+        "t2": {
+          "von": -30,
+          "bis": 30,
+          "schritt": 5
+        }
+      },
+      "unit_label": "°C",
+      "round": 0,
+      "hint": "Anfangstemperatur minus Endtemperatur.",
+      "solution": "{t1} °C − ({t2} °C) = {ergebnis} °C",
+      "kategorie": "W-STOF"
+    },
+    {
+      "id": "WSTOF-B-loeslichkeit",
+      "level": "B",
+      "skill": "Löslichkeit umrechnen",
+      "template": "Bei 20 °C lösen sich {L} g eines Salzes in 100 g Wasser. Wie viel löst sich in {W} g Wasser?",
+      "answer": "L * W / 100",
+      "vars": {
+        "L": {
+          "aus": [
+            20,
+            36,
+            40,
+            88
+          ]
+        },
+        "W": {
+          "aus": [
+            50,
+            150,
+            250,
+            500
+          ]
+        }
+      },
+      "unit_label": "g",
+      "round": 1,
+      "hint": "Erst auf 1 g Wasser rechnen, dann auf {W} g.",
+      "solution": "{L} g je 100 g → {W} g : 100 · {L} g = {ergebnis} g",
+      "kategorie": "W-STOF"
+    },
+    {
+      "id": "WSTOF-C-legierung",
+      "level": "C",
+      "skill": "Massenanteil in einer Legierung",
+      "template": "Messing besteht zu {p} % aus Kupfer. Wie viel Kupfer stecken in {m} g Messing?",
+      "answer": "m * p / 100",
+      "vars": {
+        "p": {
+          "aus": [
+            58,
+            60,
+            63,
+            70
+          ]
+        },
+        "m": {
+          "von": 100,
+          "bis": 900,
+          "schritt": 50
+        }
+      },
+      "unit_label": "g",
+      "round": 2,
+      "hint": "{p} % von {m} g — erst 1 %, dann mal {p}.",
+      "solution": "1 % = {m/100} g → {p} % = {ergebnis} g",
+      "misconceptions": [
+        {
+          "id": "rest_statt_anteil",
+          "value": "m * (100 - p) / 100",
+          "feedback": "Das ist der Zinkanteil. Gefragt war der Kupferanteil."
+        }
+      ],
+      "kategorie": "W-STOF"
+    },
+    {
+      "id": "WSTOF-C-dichte-hohl",
+      "level": "C",
+      "skill": "Dichte einer Mischung abschätzen",
+      "template": "{m1} g eines Stoffes mit {d1} g/cm³ und {m2} g Wasser (1,0 g/cm³) werden gemischt. Welches Gesamtvolumen ergibt sich?",
+      "answer": "m1 / d1 + m2",
+      "vars": {
+        "m1": {
+          "aus": [
+            79,
+            158,
+            237
+          ]
+        },
+        "d1": {
+          "aus": [
+            7.9
+          ]
+        },
+        "m2": {
+          "aus": [
+            50,
+            100,
+            200
+          ]
+        }
+      },
+      "unit_label": "cm³",
+      "round": 1,
+      "hint": "Jedes Volumen einzeln über V = m : ρ ausrechnen, dann addieren.",
+      "solution": "V₁ = {m1} g : {d1} g/cm³ = {m1/d1} cm³\nV₂ = {m2} cm³\nV = {ergebnis} cm³",
+      "kategorie": "W-STOF"
+    },
+    {
+      "id": "WSTOF-C-ausbeute",
+      "level": "C",
+      "skill": "Ausbeute in Prozent",
+      "template": "Erwartet wurden {soll} g Produkt, gewonnen wurden {ist} g. Wie hoch ist die Ausbeute in Prozent?",
+      "answer": "ist / soll * 100",
+      "vars": {
+        "soll": {
+          "aus": [
+            20,
+            25,
+            40,
+            50,
+            80
+          ]
+        },
+        "ist": {
+          "von": 8,
+          "bis": 76,
+          "schritt": 2
+        }
+      },
+      "bedingung": "ist < soll",
+      "unit_label": "%",
+      "round": 1,
+      "hint": "Ausbeute = tatsächlich : erwartet, dann mal 100.",
+      "solution": "{ist} g : {soll} g = {ist/soll} → {ergebnis} %",
+      "misconceptions": [
+        {
+          "id": "anteil_umgedreht",
+          "value": "soll / ist * 100",
+          "feedback": "Du hast Soll durch Ist geteilt. Die Ausbeute kann nicht über 100 % liegen."
+        }
+      ],
+      "kategorie": "W-STOF"
+    },
+    {
+      "id": "WSTOF-C-verlust",
+      "level": "C",
+      "skill": "Verlust beim Trennen",
+      "template": "Aus {ein} g Gemisch wurden {aus} g Reinstoff gewonnen. Wie viel Prozent gingen verloren?",
+      "answer": "(ein - aus) / ein * 100",
+      "vars": {
+        "ein": {
+          "aus": [
+            50,
+            80,
+            100,
+            200,
+            250
+          ]
+        },
+        "aus": {
+          "von": 20,
+          "bis": 240,
+          "schritt": 5
+        }
+      },
+      "bedingung": "aus < ein",
+      "unit_label": "%",
+      "round": 1,
+      "hint": "Erst die verlorene Masse, dann ihren Anteil am Ganzen.",
+      "solution": "Verlust = {ein} g − {aus} g = {ein-aus} g → {ergebnis} %",
+      "kategorie": "W-STOF"
+    },
+    {
+      "id": "WSTOF-C-konzentrieren",
+      "level": "C",
+      "skill": "Eindampfen bis zur Wunschkonzentration",
+      "template": "{V} g Lösung enthalten {p} % Salz. Auf welche Masse muss eingedampft werden, damit sie {q} % enthält?",
+      "answer": "V * p / q",
+      "vars": {
+        "V": {
+          "aus": [
+            200,
+            400,
+            500
+          ]
+        },
+        "p": {
+          "aus": [
+            2,
+            4,
+            5
+          ]
+        },
+        "q": {
+          "aus": [
+            8,
+            10,
+            20,
+            25
+          ]
+        }
+      },
+      "bedingung": "q > p",
+      "unit_label": "g",
+      "round": 1,
+      "hint": "Die Salzmasse bleibt gleich. Nur Wasser verschwindet.",
+      "solution": "Salz: {V*p/100} g bleibt.\nNeue Masse = {V*p/100} g : {q/100} = {ergebnis} g",
+      "misconceptions": [
+        {
+          "id": "salz_mit_verdampft",
+          "value": "V * q / p",
+          "feedback": "Beim Eindampfen verschwindet nur Wasser. Das Salz bleibt — die Gesamtmasse wird also kleiner, nicht größer."
+        }
+      ],
+      "kategorie": "W-STOF"
+    }
+  ]
+}

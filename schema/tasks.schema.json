@@ -1,0 +1,1284 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://campus-hannah-hoech.example/chemie710/tasks.schema.json",
+  "title": "Chemie 7–10 · Einheit (tasks.json)",
+  "type": "object",
+  "required": [
+    "unit",
+    "title",
+    "leitidee",
+    "standards",
+    "wortspeicher",
+    "can_do",
+    "lernkarten",
+    "formelkarte",
+    "tasks"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "unit": {
+      "type": "string",
+      "pattern": "^(FC|PS|GA|WA|SZ|ME|QB|SL|KW|AL|OS|ES)-\\d{2}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3
+    },
+    "leitidee": {
+      "description": "Basiskonzept nach RLP Teil C: B1 Stoff-Teilchen · B2 Struktur-Eigenschaft · B3 chemische Reaktion · B4 Energie.",
+      "enum": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ]
+    },
+    "standards": {
+      "description": "Kompetenzbereiche nach RLP Teil C Kapitel 2: K1 Fachwissen · K2 Erkenntnisse gewinnen · K3 Kommunizieren · K4 Bewerten, mit optionaler Unterziffer.",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^K[1-4](\\.[1-4])?$"
+      },
+      "minItems": 1
+    },
+    "klasse": {
+      "type": "integer",
+      "minimum": 7,
+      "maximum": 10
+    },
+    "sicherheit": {
+      "type": "array",
+      "description": "Gefahrenhinweise, die vor dem Experimentieren gelesen werden müssen. Erscheint als eigener Kasten über der ersten Aufgabe.",
+      "items": {
+        "type": "string",
+        "minLength": 8
+      }
+    },
+    "wortspeicher": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "worterklaerungen": {
+      "type": "object",
+      "description": "Ein Satz je Begriff, Alltagssprache. Schlüssel ohne Artikel.",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 5
+      }
+    },
+    "can_do": {
+      "type": "object",
+      "required": [
+        "A",
+        "B",
+        "C"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "A": {
+          "type": "string"
+        },
+        "B": {
+          "type": "string"
+        },
+        "C": {
+          "type": "string"
+        }
+      }
+    },
+    "lernkarten": {
+      "type": "object",
+      "required": [
+        "A",
+        "B",
+        "C"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "A": {
+          "$ref": "#/$defs/lernkarte"
+        },
+        "B": {
+          "$ref": "#/$defs/lernkarte"
+        },
+        "C": {
+          "$ref": "#/$defs/lernkarte"
+        }
+      }
+    },
+    "formelkarte": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "formeln": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "saetze": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "uebungslinks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/uebungslink"
+      }
+    },
+    "videos": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/video"
+      }
+    },
+    "experimente": {
+      "type": "array",
+      "description": "Versuchsvideos zum Zusehen — getrennt von videos[], weil sie etwas anderes leisten: Das Erklärvideo trägt den Stoff, der Versuch zeigt ihn. In einem gemeinsamen Feld würde der Versuch das empfohlene Erklärvideo verdrängen und der 45-Minuten-Plan nicht mehr stimmen.",
+      "items": {
+        "$ref": "#/$defs/experiment"
+      }
+    },
+    "lehrbuch": {
+      "type": "object",
+      "description": "Bezug zum im Unterricht verwendeten Lehrbuch. Verwiesen wird auf die Seiten der Datei Lehrbuch_Chemie.pdf — die gedruckten Seitenzahlen stehen im Scan nicht in der Textebene, und eine geratene Buchseite wäre schlimmer als eine nachprüfbare Dateiseite.",
+      "required": [
+        "kapitel",
+        "titel",
+        "seiten_von",
+        "seiten_bis"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "kapitel": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 16
+        },
+        "titel": {
+          "type": "string",
+          "minLength": 3
+        },
+        "seiten_von": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 232
+        },
+        "seiten_bis": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 232
+        },
+        "quelle": {
+          "type": "string"
+        },
+        "bezugswort": {
+          "type": "string",
+          "description": "Das Fachwort, an dem der Auftrag auf Lernweg B hängt. Den Satz baut engine.js (lehrbuchAuftrag) — die Vorlage steht einmal im Code, nicht 76-mal in den Daten."
+        }
+      }
+    },
+    "mitschrift": {
+      "type": "object",
+      "description": "Was von Hand ins Heft gehört — je Lernweg gekürzt, im Aufbau aber gleich. Erzeugt von werkzeuge/mitschrift_zeitplan_bauen.py aus den übrigen Feldern dieser Datei; hier wird nichts erfunden, nur ausgewählt und geordnet.",
+      "required": [
+        "A",
+        "B",
+        "C"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "A": {
+          "$ref": "#/$defs/mitschriftstufe"
+        },
+        "B": {
+          "$ref": "#/$defs/mitschriftstufe"
+        },
+        "C": {
+          "$ref": "#/$defs/mitschriftstufe"
+        }
+      }
+    },
+    "zeitplan": {
+      "type": "object",
+      "description": "Die Einteilung der 45 Minuten, ohne das Warm-up davor. Je Lernweg eigene Werte: Auf C ist mehr zu schreiben, auf A mehr Zeit zum Rechnen.",
+      "required": [
+        "gesamt_min",
+        "A",
+        "B",
+        "C"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "gesamt_min": {
+          "type": "integer",
+          "minimum": 30,
+          "maximum": 60
+        },
+        "_hinweis": {
+          "type": "string"
+        },
+        "A": {
+          "$ref": "#/$defs/zeitplanstufe"
+        },
+        "B": {
+          "$ref": "#/$defs/zeitplanstufe"
+        },
+        "C": {
+          "$ref": "#/$defs/zeitplanstufe"
+        }
+      }
+    },
+    "tasks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/aufgabe"
+      }
+    },
+    "pruefung": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "pfad_fest": {
+      "type": "string",
+      "enum": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "reihenfolge_fest": {
+      "type": "boolean"
+    },
+    "hilfen": {
+      "type": "boolean"
+    }
+  },
+  "$defs": {
+    "lernkarte": {
+      "type": "object",
+      "required": [
+        "titel",
+        "hinfuehrung",
+        "erklaerung",
+        "merke"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "titel": {
+          "type": "string"
+        },
+        "hinfuehrung": {
+          "type": "string"
+        },
+        "erklaerung": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "merke": {
+          "type": "string"
+        },
+        "bild_oben": {
+          "type": "boolean"
+        },
+        "visual": {
+          "$ref": "#/$defs/visual"
+        },
+        "beispiel": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "titel": {
+              "type": "string"
+            },
+            "aufgabe": {
+              "type": "string"
+            },
+            "schritte": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "ergebnis": {
+              "type": "string"
+            },
+            "luecke": {
+              "type": "object",
+              "description": "Welche Zahl im Rechenweg ergänzt werden soll (nur Pfad A).",
+              "required": [
+                "schritt",
+                "wert"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "schritt": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "wert": {
+                  "type": "number"
+                },
+                "einheit": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "visual": {
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "teilchen",
+            "atom",
+            "pse",
+            "lewis",
+            "struktur",
+            "energie",
+            "phskala",
+            "apparatur",
+            "anteil",
+            "diagramm",
+            "animation"
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "animation"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "required": [
+              "name"
+            ],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "stufe": {
+                "enum": [
+                  "A",
+                  "B",
+                  "C"
+                ]
+              },
+              "thema": {
+                "type": "string"
+              },
+              "gruppe": {
+                "type": "string"
+              },
+              "bereich": {
+                "enum": [
+                  "fc",
+                  "ps",
+                  "ga",
+                  "wa",
+                  "sz",
+                  "me",
+                  "qb",
+                  "sl",
+                  "kw",
+                  "al",
+                  "os",
+                  "es",
+                  "allgemein"
+                ]
+              },
+              "breite": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "teilchen"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "required": [
+              "alt"
+            ],
+            "properties": {
+              "zustand": {
+                "enum": [
+                  "fest",
+                  "fluessig",
+                  "gas"
+                ]
+              },
+              "art": {
+                "enum": [
+                  "element",
+                  "verbindung",
+                  "gemisch",
+                  "legierung",
+                  "ionen"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "atom"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "required": [
+              "alt"
+            ],
+            "properties": {
+              "z": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 20
+              },
+              "neutronen": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "regler": {
+                "type": "boolean"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "lewis"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "required": [
+              "molekuel",
+              "alt"
+            ],
+            "properties": {
+              "molekuel": {
+                "description": "Fester Satz statt freier Eingabe: Eine automatische Anordnung freier Elektronenpaare, die manchmal danebenliegt, wäre in einer Aufgabe zur Oktettregel schlimmer als gar kein Bild.",
+                "enum": [
+                  "h2",
+                  "cl2",
+                  "o2",
+                  "n2",
+                  "hcl",
+                  "h2o",
+                  "nh3",
+                  "ch4",
+                  "co2"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "struktur"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "required": [
+              "kette",
+              "alt"
+            ],
+            "properties": {
+              "kette": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 8
+              },
+              "gruppe": {
+                "enum": [
+                  "keine",
+                  "oh",
+                  "cooh",
+                  "cho",
+                  "co",
+                  "ester",
+                  "doppel",
+                  "dreifach"
+                ]
+              },
+              "position": {
+                "type": "integer",
+                "minimum": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "energie"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "required": [
+              "alt"
+            ],
+            "properties": {
+              "verlauf": {
+                "enum": [
+                  "exotherm",
+                  "endotherm"
+                ]
+              },
+              "katalysator": {
+                "type": "boolean"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "phskala"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "required": [
+              "alt"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "apparatur"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "required": [
+              "aufbau",
+              "alt"
+            ],
+            "properties": {
+              "aufbau": {
+                "enum": [
+                  "reagenzglas",
+                  "gasbrenner",
+                  "filtration",
+                  "destillation",
+                  "elektrolyse",
+                  "pneumatisch",
+                  "titration",
+                  "waage"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "anteil"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "required": [
+              "segmente",
+              "alt"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "diagramm"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "required": [
+              "punkte",
+              "alt"
+            ]
+          }
+        }
+      ]
+    },
+    "fehlvorstellung": {
+      "type": "object",
+      "required": [
+        "id",
+        "value",
+        "feedback"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9_]+$"
+        },
+        "konzeptfehler": {
+          "type": "string",
+          "description": "Gruppiert IDs, die denselben Denkfehler meinen. Steuert die Suche nach einer Nachfassaufgabe.",
+          "enum": [
+            "teilchen_traegt_stoffeigenschaft",
+            "reaktion_und_zustandsaenderung_verwechselt",
+            "masse_verschwindet",
+            "index_statt_koeffizient",
+            "edukt_produkt_vertauscht",
+            "ladung_unvollstaendig",
+            "ion_und_atom_verwechselt",
+            "bindungsart_verwechselt",
+            "polar_unpolar_vertauscht",
+            "oxidation_reduktion_vertauscht",
+            "saeure_lauge_vertauscht",
+            "ph_skala_falschrum",
+            "groesse_und_einheit_verwechselt",
+            "molare_masse_falsch_bestimmt",
+            "summenformel_falsch_gelesen",
+            "nomenklatur_falsch",
+            "funktionelle_gruppe_verwechselt",
+            "isomer_als_gleicher_stoff",
+            "nachweis_verwechselt",
+            "trennverfahren_verwechselt",
+            "sicherheitsregel_missachtet"
+          ]
+        },
+        "value": {
+          "type": [
+            "number",
+            "string"
+          ]
+        },
+        "feedback": {
+          "type": "string",
+          "minLength": 5
+        },
+        "verweis": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "absatz": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "animation": {
+              "type": "boolean"
+            },
+            "merke": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "aufgabe": {
+      "type": "object",
+      "required": [
+        "id",
+        "path",
+        "step",
+        "type",
+        "prompt"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 3
+        },
+        "path": {
+          "enum": [
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        "step": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "type": {
+          "enum": [
+            "numeric",
+            "choice",
+            "assign",
+            "multi"
+          ]
+        },
+        "prompt": {
+          "type": "string",
+          "minLength": 3
+        },
+        "answer": {
+          "type": [
+            "number",
+            "integer",
+            "array"
+          ]
+        },
+        "options": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "slots": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "fields": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "label",
+              "answer"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "answer": {
+                "type": "number"
+              },
+              "unit_label": {
+                "type": "string"
+              },
+              "tolerance": {
+                "type": "number"
+              },
+              "misconceptions": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/fehlvorstellung"
+                }
+              }
+            }
+          }
+        },
+        "unit_label": {
+          "type": "string"
+        },
+        "tolerance": {
+          "type": "number",
+          "minimum": 0
+        },
+        "hints": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "solution": {
+          "type": "string"
+        },
+        "misconceptions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fehlvorstellung"
+          }
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "spiral": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "visual": {
+          "$ref": "#/$defs/visual"
+        },
+        "herkunft": {
+          "type": "string"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "numeric"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "required": [
+              "answer"
+            ],
+            "properties": {
+              "answer": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "choice"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "required": [
+              "options",
+              "answer"
+            ],
+            "properties": {
+              "answer": {
+                "type": "integer",
+                "minimum": 0
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "assign"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "required": [
+              "slots",
+              "values",
+              "answer"
+            ],
+            "properties": {
+              "answer": {
+                "type": "array",
+                "items": {
+                  "type": "integer"
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "multi"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "required": [
+              "fields"
+            ]
+          }
+        }
+      ]
+    },
+    "uebungslink": {
+      "type": "object",
+      "required": [
+        "titel",
+        "url",
+        "typ",
+        "quelle"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "pfade": {
+          "type": "array",
+          "description": "Optional: Nur auf diesen Lernwegen anzeigen. Ohne Angabe auf allen — das ist der Normalfall. Gedacht für offene Übersichts- und Ordnerseiten, die auf dem Basisweg erst sortiert werden müssten.",
+          "items": {
+            "enum": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "titel": {
+          "type": "string",
+          "minLength": 3
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https://"
+        },
+        "typ": {
+          "enum": [
+            "app",
+            "sammlung"
+          ]
+        },
+        "quelle": {
+          "description": "Muss zum Host der Adresse passen — pruefen.js hält beides gegeneinander. Aufgenommen wird nur, was das Einbetten in den Rahmen der Anwendung erlaubt: apps.zum.de (frame-ancestors) und LEIFIchemie (X-Frame-Options) verbieten es und liefern ein leeres Fenster.",
+          "enum": [
+            "LearningApps",
+            "Serlo",
+            "allgemeinbildung.ch",
+            "Schlaukopf",
+            "H5P",
+            "Learningsnacks",
+            "Quizlet",
+            "ZUM",
+            "Chemie-Master",
+            "Seilnacht"
+          ]
+        }
+      }
+    },
+    "video": {
+      "type": "object",
+      "required": [
+        "titel",
+        "url",
+        "quelle",
+        "lumi",
+        "embed",
+        "stufe"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "titel": {
+          "type": "string",
+          "minLength": 3,
+          "description": "Beschreibt, was das Video zeigt. Bewusst NICHT der Originaltitel: Der ist auf YouTube teils automatisch übersetzt und passt dann nicht mehr zur Einheit."
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https://www\\.youtube\\.com/watch\\?v=[A-Za-z0-9_-]{11}$",
+          "description": "Die Adresse des Originalfilms. Sie wird nicht mehr angezeigt, sondern dient der Herkunftsangabe und dem Abgleich mit videos-quellen.csv."
+        },
+        "lumi": {
+          "type": "string",
+          "pattern": "^https://app\\.lumi\\.education/run/[A-Za-z0-9_-]{4,32}$",
+          "description": "Die mit Lernaktivitäten angereicherte Fassung. Wird nur als Ausweichweg verlinkt, falls der eingebettete Rahmen am Gerät leer bleibt."
+        },
+        "embed": {
+          "type": "string",
+          "pattern": "^https://app\\.lumi\\.education/api/v1/run/[A-Za-z0-9_-]{4,32}/embed$",
+          "description": "Die Einbettadresse. Nur sie wird in den Rahmen geladen — und erst, wenn jemand auf „Video starten“ drückt."
+        },
+        "stufe": {
+          "enum": [
+            "A",
+            "B",
+            "C"
+          ],
+          "description": "Mindestlernweg. Ein Video mit \"C\" erscheint nur auf dem Vertiefungsweg, eines mit \"A\" auf allen. Angezeigt wird je Lernweg genau ein empfohlenes Video — das speziellste, das noch passt."
+        },
+        "dauer_s": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 5400,
+          "description": "Laufzeit in Sekunden, aus der letzten Zeitmarke des Transkripts. Grundlage des 45-Minuten-Plans; ohne sie ließe sich die Stunde nicht ehrlich einteilen."
+        },
+        "quelle": {
+          "description": "Redaktionell freigegebene Kanäle. Jeder Kanal steht mit seinem vollständigen Videobestand in videos-quellen.csv; pruefen.js hält beide gegeneinander. Neue Quelle heißt: einmal ansehen, dann hier eintragen — nicht umgekehrt.",
+          "enum": [
+            "musstewissen Chemie",
+            "Chemie - simpleclub",
+            "Biologie und Chemie Schule",
+            "Chemistry@home",
+            "Studyflix"
+          ]
+        }
+      }
+    },
+    "experiment": {
+      "type": "object",
+      "required": [
+        "titel",
+        "url",
+        "quelle",
+        "stufe",
+        "embed",
+        "protokoll"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "titel": {
+          "type": "string",
+          "minLength": 3
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https://www\\.youtube\\.com/watch\\?v=[A-Za-z0-9_-]{11}$",
+          "description": "Herkunftsangabe. Aufgerufen wird sie nicht — geladen wird immer die Adresse aus \"embed\"."
+        },
+        "quelle": {
+          "type": "string",
+          "minLength": 3
+        },
+        "stufe": {
+          "enum": [
+            "A",
+            "B",
+            "C"
+          ],
+          "description": "Mindestlernweg, wie bei den Erklärvideos."
+        },
+        "rolle": {
+          "type": "string"
+        },
+        "protokoll": {
+          "type": "boolean",
+          "description": "true = mit Lumi angereicherte Fassung; das Video hält von selbst an und führt durch Materialien, Aufbau, Durchführung und Beobachtung. false = reiner Film, dann trägt \"beobachtung\" den Arbeitsauftrag."
+        },
+        "lumi": {
+          "type": "string",
+          "pattern": "^https://app\\.lumi\\.education/run/[A-Za-z0-9_-]{4,32}$"
+        },
+        "embed": {
+          "type": "string",
+          "pattern": "^https://(app\\.lumi\\.education/api/v1/run/[A-Za-z0-9_-]{4,32}/embed|www\\.youtube-nocookie\\.com/embed/[A-Za-z0-9_-]{11})$",
+          "description": "Entweder die Lumi-Einbettadresse oder die cookiefreie Einbettadresse von YouTube. Beide laufen im Rahmen der Seite; geladen wird erst auf Klick."
+        },
+        "beobachtung": {
+          "type": "object",
+          "description": "Pflicht, wenn protokoll = false: Ohne Auftrag wird aus dem Versuch ein Film zum Zusehen. Steht in der Anwendung ÜBER dem Video.",
+          "required": [
+            "A",
+            "B",
+            "C"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "A": {
+              "type": "string",
+              "minLength": 20
+            },
+            "B": {
+              "type": "string",
+              "minLength": 20
+            },
+            "C": {
+              "type": "string",
+              "minLength": 20
+            }
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "protokoll": {
+                "const": false
+              }
+            },
+            "required": [
+              "protokoll"
+            ]
+          },
+          "then": {
+            "required": [
+              "beobachtung"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "protokoll": {
+                "const": true
+              }
+            },
+            "required": [
+              "protokoll"
+            ]
+          },
+          "then": {
+            "required": [
+              "lumi"
+            ]
+          }
+        }
+      ]
+    },
+    "mitschriftpunkt": {
+      "type": "object",
+      "required": [
+        "art"
+      ],
+      "additionalProperties": false,
+      "description": "Ein Punkt des Hefteintrags — als Verweis, nicht als Text. engine.js setzt ihn beim Anzeigen aus den übrigen Feldern derselben Datei zusammen und zählt dabei den Umfang im Heft aus. Der Text ein zweites Mal auszuschreiben hätte das Offlinepaket um eine halbe Megabyte wachsen lassen, und die zweite Fassung wäre ab der ersten Änderung an der Lernkarte falsch.",
+      "properties": {
+        "art": {
+          "enum": [
+            "merksatz",
+            "fachwoerter",
+            "beispiel",
+            "eigene_worte",
+            "regel",
+            "formeln",
+            "pruefsatz"
+          ],
+          "description": "Woraus sich der Punkt speist: merksatz → lernkarten[Lernweg].merke · fachwoerter → wortspeicher (+ worterklaerungen) · beispiel → lernkarten[Lernweg].beispiel · eigene_worte → lernkarten[Lernweg].erklaerung · regel → formelkarte.saetze · formeln → formelkarte.formeln · pruefsatz → can_do[Lernweg]. Die Reihenfolge im Array ist die Reihenfolge auf dem Papier."
+        },
+        "anzahl": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 30,
+          "description": "Wie viele Einträge der Quelle übernommen werden. Ohne Angabe: alle. So entsteht die Kürzung nach Lernweg."
+        }
+      }
+    },
+    "mitschriftstufe": {
+      "type": "object",
+      "required": [
+        "punkte"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "punkte": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "$ref": "#/$defs/mitschriftpunkt"
+          }
+        }
+      }
+    },
+    "zeitplanstufe": {
+      "type": "object",
+      "description": "Minuten je Phase. Die Beschriftung steht in engine.js (ZEITPLAN_PHASEN) und nicht hier — sie ist für alle 76 Einheiten dieselbe.",
+      "additionalProperties": false,
+      "required": [
+        "lernkarte",
+        "aufgaben",
+        "mitschrift",
+        "blatt"
+      ],
+      "properties": {
+        "lernkarte": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 45
+        },
+        "video": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 45
+        },
+        "aufgaben": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 45
+        },
+        "mitschrift": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 45
+        },
+        "blatt": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 45
+        }
+      }
+    }
+  }
+}
