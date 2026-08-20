@@ -1,0 +1,721 @@
+{
+  "unit": "SZ-04",
+  "title": "Löslichkeit, Leitfähigkeit, Kristalle",
+  "leitidee": "B2",
+  "standards": [
+    "K1",
+    "K2.2",
+    "K2.4"
+  ],
+  "klasse": 8,
+  "wortspeicher": [
+    "die Löslichkeit",
+    "die gesättigte Lösung",
+    "die Leitfähigkeit",
+    "die Kristallisation",
+    "die Fällungsreaktion",
+    "die Gitterenergie"
+  ],
+  "worterklaerungen": {
+    "gesättigte Lösung": "Es löst sich nichts mehr. Weiteres Salz bleibt als Bodensatz liegen.",
+    "Kristallisation": "Aus einer Lösung wachsen wieder feste Kristalle.",
+    "Fällungsreaktion": "Beim Mischen zweier Lösungen entsteht ein unlöslicher Feststoff."
+  },
+  "can_do": {
+    "A": "Ich weiß, dass sich nur eine bestimmte Menge Salz löst, und erkenne eine gesättigte Lösung.",
+    "B": "Ich rechne mit Löslichkeitsangaben und erkläre die Leitfähigkeit von Salzlösungen.",
+    "C": "Ich erkläre Lösen und Ausfällen über Gitter- und Hydratationsenergie."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Nicht alles löst sich",
+      "hinfuehrung": "In Wasser löst sich nur eine bestimmte Menge Salz.",
+      "erklaerung": [
+        "Danach bleibt der Rest liegen.",
+        "Die Lösung ist dann gesättigt."
+      ],
+      "merke": "Ist die Grenze erreicht, bleibt der Rest als Bodensatz.",
+      "beispiel": {
+        "titel": "Kochsalz",
+        "aufgabe": "In 100 g Wasser lösen sich 36 g Salz.",
+        "schritte": [
+          "Du gibst 50 g hinein.",
+          "36 g lösen sich.",
+          "50 − 36 = 14 g bleiben liegen."
+        ],
+        "ergebnis": "14 g Bodensatz.",
+        "luecke": {
+          "schritt": 2,
+          "wert": 14,
+          "einheit": "g"
+        }
+      },
+      "visual": {
+        "type": "animation",
+        "name": "ionengitter",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Löslichkeit und Leitfähigkeit",
+      "hinfuehrung": "Zwei messbare Größen, die beide etwas über die Ionen aussagen — die eine über ihre Menge, die andere über ihre Beweglichkeit.",
+      "erklaerung": [
+        "Die Löslichkeit wird in Gramm je 100 g Wasser angegeben und hängt stark von der Temperatur ab. Bei den meisten Salzen steigt sie mit der Temperatur.",
+        "Kühlt eine gesättigte heiße Lösung ab, kann sie das Salz nicht mehr halten — es kristallisiert aus. Langsames Abkühlen ergibt große Kristalle.",
+        "Je mehr Ionen in Lösung sind, desto besser leitet sie. Destilliertes Wasser leitet praktisch nicht.",
+        "Mischt man zwei Lösungen und entsteht dabei ein schwerlösliches Salz, fällt es als Niederschlag aus — eine Fällungsreaktion."
+      ],
+      "merke": "Löslichkeit sagt, wie viel. Leitfähigkeit sagt, wie viele Ionen beweglich sind.",
+      "visual": {
+        "type": "diagramm",
+        "titel": "Löslichkeit in Wasser",
+        "xtitel": "Temperatur in °C",
+        "ytitel": "g je 100 g Wasser",
+        "punkte": [
+          [
+            0,
+            35.7
+          ],
+          [
+            20,
+            36
+          ],
+          [
+            40,
+            36.6
+          ],
+          [
+            60,
+            37.3
+          ],
+          [
+            80,
+            38.4
+          ],
+          [
+            100,
+            39.8
+          ]
+        ],
+        "ymin": 0,
+        "ymax": 45,
+        "alt": "Löslichkeitskurve von Kochsalz — sie steigt nur schwach."
+      }
+    },
+    "C": {
+      "titel": "Warum sich manches nicht löst",
+      "hinfuehrung": "Ob sich ein Salz löst, entscheidet ein Vergleich zweier Energien. Damit lässt sich auch erklären, warum manche Salze praktisch unlöslich sind.",
+      "erklaerung": [
+        "Zum Lösen muss das Gitter auseinandergenommen werden — das kostet Gitterenergie.",
+        "Beim Umhüllen der Ionen mit Wassermolekülen wird Hydratationsenergie frei.",
+        "Sind beide etwa gleich groß, löst sich das Salz gut. Überwiegt die Gitterenergie deutlich, bleibt es ungelöst.",
+        "Deshalb ist Kochsalz gut löslich, Bariumsulfat dagegen praktisch nicht — und genau das macht es als Röntgenkontrastmittel verwendbar, obwohl Barium-Ionen giftig sind.",
+        "Ob sich die Lösung dabei erwärmt oder abkühlt, hängt davon ab, welche der beiden Energien überwiegt."
+      ],
+      "merke": "Gitterenergie gegen Hydratationsenergie — ihr Verhältnis entscheidet über die Löslichkeit.",
+      "visual": {
+        "type": "animation",
+        "name": "loesen",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "w = m(Salz) : m(Lösung) · 100 %"
+    ],
+    "saetze": [
+      "Löslichkeit: Gramm Salz je 100 g Wasser, temperaturabhängig.",
+      "Gesättigt: Es löst sich nichts mehr, der Rest bleibt liegen.",
+      "Nur bewegliche Ionen leiten den Strom.",
+      "Langsames Abkühlen ergibt große Kristalle.",
+      "Gitterenergie gegen Hydratationsenergie entscheidet über die Löslichkeit."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Kristallisation und Löslichkeit — Kristalle züchten",
+      "url": "https://www.youtube.com/watch?v=GQsnYaqUdXs",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/BknRW3",
+      "embed": "https://app.lumi.education/api/v1/run/BknRW3/embed",
+      "stufe": "A",
+      "dauer_s": 322
+    },
+    {
+      "titel": "Natriumchlorid — unser Kochsalz",
+      "url": "https://www.youtube.com/watch?v=tP6i7DdTYnc",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/dRNh1A",
+      "embed": "https://app.lumi.education/api/v1/run/dRNh1A/embed",
+      "stufe": "C",
+      "dauer_s": 174
+    }
+  ],
+  "tasks": [
+    {
+      "id": "SZ04-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "In 100 g Wasser lösen sich 36 g Kochsalz. Du gibst 50 g hinein. Wie viel bleibt liegen?",
+      "answer": 14,
+      "unit_label": "g",
+      "tolerance": 0,
+      "hints": [
+        "Es lösen sich nur 36 g.",
+        "50 − 36.",
+        "14 g."
+      ],
+      "solution": "50 g − 36 g = 14 g bleiben als Bodensatz liegen.",
+      "misconceptions": [
+        {
+          "id": "saettigung_ignoriert",
+          "value": 0,
+          "feedback": "Über der Löslichkeitsgrenze löst sich nichts mehr — der Rest bleibt liegen."
+        }
+      ],
+      "tags": [
+        "loeslichkeit"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SZ04-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Was bedeutet „gesättigte Lösung“?",
+      "options": [
+        "Es löst sich kein weiteres Salz mehr.",
+        "Die Lösung ist sehr warm.",
+        "Die Lösung ist trüb."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert, wenn du noch mehr Salz zugibst?",
+        "Es bleibt liegen.",
+        "Die Lösung ist gesättigt."
+      ],
+      "solution": "In einer gesättigten Lösung ist die Löslichkeitsgrenze erreicht — weiteres Salz bleibt ungelöst.",
+      "tags": [
+        "loeslichkeit"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SZ04-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Welche Lösung leitet den elektrischen Strom?",
+      "options": [
+        "Kochsalzlösung",
+        "Zuckerlösung",
+        "destilliertes Wasser"
+      ],
+      "answer": 0,
+      "hints": [
+        "Was muss in der Lösung sein?",
+        "Bewegliche Ionen.",
+        "Zucker liegt als Moleküle vor."
+      ],
+      "solution": "Nur die Kochsalzlösung enthält frei bewegliche Ionen. Zucker löst sich als Moleküle, destilliertes Wasser enthält praktisch keine Ionen.",
+      "misconceptions": [
+        {
+          "id": "ion_und_atom_verwechselt",
+          "value": 1,
+          "feedback": "Auch Zucker löst sich gut — aber als Moleküle, nicht als Ionen. Deshalb leitet er nicht.",
+          "konzeptfehler": "ion_und_atom_verwechselt"
+        }
+      ],
+      "tags": [
+        "loeslichkeit",
+        "leitfaehigkeit"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SZ04-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Eine heiße gesättigte Lösung kühlt langsam ab. Was passiert?",
+      "options": [
+        "Es bilden sich Kristalle.",
+        "Die Lösung wird trüb und bleibt so.",
+        "Nichts."
+      ],
+      "answer": 0,
+      "hints": [
+        "Bei Kälte löst sich weniger.",
+        "Was passiert mit dem Überschuss?",
+        "Er kristallisiert aus."
+      ],
+      "solution": "Beim Abkühlen sinkt die Löslichkeit. Das überschüssige Salz kristallisiert aus — langsam abgekühlt entstehen große Kristalle.",
+      "tags": [
+        "loeslichkeit",
+        "kristalle"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SZ04-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "In 100 g Wasser lösen sich 36 g Kochsalz. Wie viel löst sich in 350 g Wasser?",
+      "answer": 126,
+      "unit_label": "g",
+      "tolerance": 1,
+      "hints": [
+        "Dreisatz.",
+        "36 g je 100 g.",
+        "350 : 100 · 36."
+      ],
+      "solution": "350 g : 100 · 36 g = 126 g",
+      "misconceptions": [
+        {
+          "id": "anteil_umgedreht",
+          "value": 10.3,
+          "feedback": "Mehr Wasser löst mehr Salz — hier wird multipliziert, nicht geteilt."
+        }
+      ],
+      "tags": [
+        "loeslichkeit",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SZ04-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum leitet eine konzentrierte Salzlösung besser als eine verdünnte?",
+      "options": [
+        "Sie enthält mehr bewegliche Ionen je Volumen.",
+        "Sie ist dickflüssiger.",
+        "Sie ist wärmer."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was transportiert die Ladung?",
+        "Die Ionen.",
+        "Mehr Ionen, mehr Ladungstransport."
+      ],
+      "solution": "Die Leitfähigkeit hängt an der Zahl der beweglichen Ionen je Volumen. Je konzentrierter die Lösung, desto besser leitet sie.",
+      "tags": [
+        "loeslichkeit",
+        "leitfaehigkeit",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SZ04-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Eine gesättigte Lösung enthält 36 g Salz in 100 g Wasser. Wie viel Prozent Salz enthält sie?",
+      "answer": 26.5,
+      "unit_label": "%",
+      "tolerance": 0.3,
+      "hints": [
+        "Das Ganze ist Salz plus Wasser.",
+        "36 + 100 = 136 g.",
+        "36 : 136."
+      ],
+      "solution": "36 g : 136 g = 0,2647 → 26,5 %",
+      "misconceptions": [
+        {
+          "id": "loesungsmittel_als_ganzes",
+          "value": 36,
+          "feedback": "Du hast durch 100 g geteilt. Zur Lösung gehört auch das gelöste Salz."
+        }
+      ],
+      "tags": [
+        "loeslichkeit",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SZ04-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Wie züchtet man einen möglichst großen Kristall?",
+      "options": [
+        "Eine gesättigte Lösung sehr langsam abkühlen oder verdunsten lassen.",
+        "Die Lösung schnell in Eis stellen.",
+        "Die Lösung kräftig rühren."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert bei schnellem Abkühlen?",
+        "Viele kleine Kristalle entstehen gleichzeitig.",
+        "Langsam heißt: wenige, große."
+      ],
+      "solution": "Schnelles Abkühlen erzeugt viele Kristallisationskeime und damit viele kleine Kristalle. Langsames Abkühlen oder Verdunsten lässt wenige Keime langsam wachsen — daraus werden große Kristalle.",
+      "tags": [
+        "loeslichkeit",
+        "kristalle",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SZ04-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Beim Mischen zweier klarer Lösungen entsteht ein weißer Feststoff. Wie heißt so eine Reaktion?",
+      "options": [
+        "Fällungsreaktion",
+        "Neutralisation",
+        "Elektrolyse"
+      ],
+      "answer": 0,
+      "hints": [
+        "Etwas fällt aus der Lösung heraus.",
+        "Der Name sagt es.",
+        "Fällungsreaktion."
+      ],
+      "solution": "Entsteht beim Mischen ein schwerlösliches Salz, fällt es als Niederschlag aus. Das nennt man Fällungsreaktion — sie dient auch dem Nachweis von Ionen.",
+      "tags": [
+        "loeslichkeit",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SZ04-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "multi",
+      "prompt": "Von einem Salz lösen sich bei 20 °C 20 g, bei 80 °C 60 g je 100 g Wasser. Eine bei 80 °C gesättigte Lösung mit 200 g Wasser wird auf 20 °C abgekühlt.",
+      "fields": [
+        {
+          "label": "gelöste Masse bei 80 °C",
+          "answer": 120,
+          "unit_label": "g",
+          "tolerance": 1
+        },
+        {
+          "label": "gelöste Masse bei 20 °C",
+          "answer": 40,
+          "unit_label": "g",
+          "tolerance": 1
+        },
+        {
+          "label": "auskristallisierte Masse",
+          "answer": 80,
+          "unit_label": "g",
+          "tolerance": 1
+        }
+      ],
+      "hints": [
+        "Bei 80 °C: 200 : 100 · 60.",
+        "Bei 20 °C: 200 : 100 · 20.",
+        "Die Differenz kristallisiert aus."
+      ],
+      "solution": "80 °C: 2 · 60 g = 120 g\n20 °C: 2 · 20 g = 40 g\nauskristallisiert: 120 − 40 = 80 g",
+      "tags": [
+        "loeslichkeit",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SZ04-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum kühlt sich Wasser beim Lösen mancher Salze ab?",
+      "options": [
+        "Die aufzuwendende Gitterenergie ist größer als die frei werdende Hydratationsenergie.",
+        "Salz ist immer kalt.",
+        "Weil das Salz das Wasser verdrängt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Beim Lösen laufen zwei Vorgänge ab.",
+        "Einer kostet Energie, einer liefert welche.",
+        "Überwiegt der erste, wird es kalt."
+      ],
+      "solution": "Das Auseinandernehmen des Gitters kostet Energie, das Umhüllen der Ionen liefert welche. Überwiegt der erste Anteil, wird die Energie der Umgebung entnommen — die Lösung kühlt ab.",
+      "tags": [
+        "loeslichkeit",
+        "energie",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SZ04-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Bariumsulfat ist praktisch unlöslich, obwohl Barium-Ionen giftig sind. Warum kann es trotzdem als Röntgenkontrastmittel geschluckt werden?",
+      "options": [
+        "Es geht nicht in Lösung; die Barium-Ionen werden nicht frei und passieren den Körper unverändert.",
+        "Barium ist im Sulfat ungiftig geworden.",
+        "Die Menge ist zu klein für eine Wirkung."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wirkt ein Ion, das nie in Lösung geht?",
+        "Nein — es muss gelöst sein, um aufgenommen zu werden.",
+        "Die Gitterenergie ist hier zu groß."
+      ],
+      "solution": "Bei Bariumsulfat überwiegt die Gitterenergie so stark, dass es sich praktisch nicht löst. Die Ionen werden nicht frei und können nicht aufgenommen werden. Lösliche Bariumsalze sind dagegen hochgiftig — der Unterschied liegt allein in der Löslichkeit.",
+      "misconceptions": [
+        {
+          "id": "ion_und_atom_verwechselt",
+          "value": 1,
+          "feedback": "Das Barium-Ion bleibt giftig. Es wird nur nie freigesetzt.",
+          "konzeptfehler": "ion_und_atom_verwechselt"
+        }
+      ],
+      "tags": [
+        "loeslichkeit",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SZ04-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "300 g einer bei 60 °C gesättigten Lösung enthalten 80 g Salz. Beim Abkühlen auf 20 °C fallen 35 g aus.",
+      "fields": [
+        {
+          "label": "Wassermasse in der Lösung",
+          "answer": 220,
+          "unit_label": "g",
+          "tolerance": 1
+        },
+        {
+          "label": "gelöste Salzmasse bei 20 °C",
+          "answer": 45,
+          "unit_label": "g",
+          "tolerance": 1
+        },
+        {
+          "label": "Löslichkeit bei 20 °C je 100 g Wasser",
+          "answer": 20.5,
+          "unit_label": "g",
+          "tolerance": 0.5
+        }
+      ],
+      "hints": [
+        "Wasser = 300 g − 80 g.",
+        "Gelöst bleiben 80 − 35 = 45 g.",
+        "45 g auf 220 g Wasser → auf 100 g umrechnen."
+      ],
+      "solution": "Wasser: 300 − 80 = 220 g\ngelöst bei 20 °C: 80 − 35 = 45 g\nje 100 g Wasser: 45 : 220 · 100 = 20,5 g",
+      "tags": [
+        "loeslichkeit",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SZ04-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Wenn eine Lösung nicht mehr aufnimmt, ist das Wasser voll.“ Wie bewertest du das Bild?",
+      "options": [
+        "Es trägt nur teilweise — die Grenze hängt von der Temperatur und vom Salz ab, nicht von einem Platzmangel.",
+        "Es ist völlig richtig.",
+        "Es ist völlig falsch, es gibt keine Grenze."
+      ],
+      "answer": 0,
+      "hints": [
+        "Ändert sich die Grenze mit der Temperatur?",
+        "Ja, deutlich.",
+        "Ein voller Behälter würde nicht bei Wärme mehr fassen."
+      ],
+      "solution": "Das Bild vom vollen Behälter erklärt nicht, warum sich bei 80 °C mehr löst als bei 20 °C und warum verschiedene Salze so verschiedene Grenzen haben. Entscheidend ist das Verhältnis von Gitter- und Hydratationsenergie, nicht der Platz.",
+      "tags": [
+        "loeslichkeit",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 8,
+      "aufgaben": 21,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 8,
+      "aufgaben": 19,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 5,
+      "aufgaben": 19,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Salze und ihre Eigenschaften",
+      "url": "https://learningapps.org/view12320435",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Löslichkeit der Salze (Reihenfolge, Bild und Text)",
+      "url": "https://learningapps.org/view19984054",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Leitfähigkeit von Zucker- und Salzlösung",
+      "url": "https://www.youtube.com/watch?v=Hr3evtDvo_A",
+      "quelle": "Chemistry and Biochemistry Demo lab at OSU",
+      "stufe": "A",
+      "rolle": "Demonstration: der Unterschied zwischen Salz und Molekülverbindung",
+      "embed": "https://www.youtube-nocookie.com/embed/Hr3evtDvo_A",
+      "protokoll": false,
+      "beobachtung": {
+        "A": "Notiere, welche der beiden Lösungen den Strom leitet.",
+        "B": "Erkläre den Unterschied mit den Teilchen, die in der jeweiligen Lösung vorliegen.",
+        "C": "Begründe, warum die Leitfähigkeit ein Nachweis für Ionen ist. Beurteile, ob destilliertes Wasser leiten müsste."
+      }
+    },
+    {
+      "titel": "Fällungsreaktionen",
+      "url": "https://www.youtube.com/watch?v=yvfE7zQ5bqM",
+      "quelle": "Rugby School Chemistry",
+      "stufe": "B",
+      "rolle": "Demonstration zur Fällung schwerlöslicher Salze",
+      "lumi": "https://app.lumi.education/run/iZM1Cu",
+      "embed": "https://app.lumi.education/api/v1/run/iZM1Cu/embed",
+      "protokoll": true
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 10,
+    "titel": "Säuren, Laugen, Salze",
+    "seiten_von": 115,
+    "seiten_bis": 142,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Löslichkeit"
+  }
+}

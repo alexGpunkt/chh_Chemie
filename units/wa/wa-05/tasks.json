@@ -1,0 +1,698 @@
+{
+  "unit": "WA-05",
+  "title": "Wasser als Lösungsmittel",
+  "leitidee": "B2",
+  "standards": [
+    "K1",
+    "K2.2",
+    "K3.3"
+  ],
+  "klasse": 8,
+  "wortspeicher": [
+    "das Lösungsmittel",
+    "die Hydrathülle",
+    "polar",
+    "unpolar",
+    "die Löslichkeit",
+    "die Emulsion"
+  ],
+  "worterklaerungen": {
+    "Hydrathülle": "Eine Schicht aus Wassermolekülen, die ein Ion umgibt.",
+    "unpolar": "Ohne geladene Enden. Fette und Öle sind unpolar.",
+    "Emulsion": "Feine Tröpfchen einer Flüssigkeit in einer anderen."
+  },
+  "can_do": {
+    "A": "Ich weiß, dass sich Salz und Zucker in Wasser lösen, Öl aber nicht.",
+    "B": "Ich erkläre das Lösen mit der Hydrathülle und wende die Regel „Gleiches löst Gleiches“ an.",
+    "C": "Ich sage anhand des Molekülbaus voraus, ob ein Stoff wasserlöslich ist."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Was sich in Wasser löst",
+      "hinfuehrung": "Nicht alles löst sich in Wasser.",
+      "erklaerung": [
+        "Salz und Zucker lösen sich.",
+        "Öl und Fett lösen sich nicht."
+      ],
+      "merke": "Gleiches löst sich in Gleichem.",
+      "beispiel": {
+        "titel": "Öl und Wasser",
+        "aufgabe": "Öl wird in Wasser gegeben.",
+        "schritte": [
+          "Es bilden sich Tropfen.",
+          "Die Tropfen schwimmen oben.",
+          "Sie lösen sich nicht."
+        ],
+        "ergebnis": "Öl ist unpolar, Wasser polar."
+      },
+      "visual": {
+        "type": "animation",
+        "name": "loesen",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Wie das Lösen abläuft",
+      "hinfuehrung": "Beim Lösen eines Salzes geschieht mehr, als es aussieht: Ein festes Gitter wird auseinandergenommen und jedes einzelne Ion neu umgeben.",
+      "erklaerung": [
+        "Die Wasserdipole lagern sich mit ihrem negativen Ende an die positiven Ionen und mit dem positiven Ende an die negativen.",
+        "Dadurch werden die Ionen aus dem Gitter gelöst und einzeln von Wassermolekülen umhüllt — das ist die Hydrathülle.",
+        "Weil die Ionen nun frei beweglich sind, leitet die Lösung den elektrischen Strom.",
+        "Regel: Polare Stoffe lösen sich in polaren Lösungsmitteln, unpolare in unpolaren."
+      ],
+      "merke": "Gleiches löst sich in Gleichem — polar zu polar, unpolar zu unpolar.",
+      "visual": {
+        "type": "animation",
+        "name": "loesen",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Löslichkeit vorhersagen",
+      "hinfuehrung": "Ob ein Stoff wasserlöslich ist, lässt sich am Molekülbau ablesen — und das gilt bis in die organische Chemie hinein.",
+      "erklaerung": [
+        "Geladene Teilchen und stark polare Gruppen wie –OH oder –COOH machen wasserlöslich.",
+        "Lange Kohlenwasserstoffketten machen unlöslich. Bei den Alkoholen kippt es zwischen Propanol und Butanol: Der unpolare Rest wird zu groß.",
+        "Seifen tragen beides — einen geladenen Kopf und einen langen unpolaren Schwanz. Deshalb vermitteln sie zwischen Fett und Wasser.",
+        "Löslich heißt nicht unbegrenzt: Jede Lösung erreicht eine Sättigungsgrenze, und die hängt von der Temperatur ab."
+      ],
+      "merke": "Polare Gruppen machen löslich, lange unpolare Ketten unlöslich.",
+      "visual": {
+        "type": "animation",
+        "name": "loesen",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "w = m(Stoff) : m(Lösung) · 100 %"
+    ],
+    "saetze": [
+      "Gleiches löst sich in Gleichem.",
+      "Wasser ist polar, Öl und Benzin sind unpolar.",
+      "Gelöste Ionen tragen eine Hydrathülle und leiten den Strom.",
+      "Polare Gruppen (–OH, –COOH) machen wasserlöslich."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Löslichkeit einfach erklärt",
+      "url": "https://www.youtube.com/watch?v=O2ewhsFAArI",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/8fijXV",
+      "embed": "https://app.lumi.education/api/v1/run/8fijXV/embed",
+      "stufe": "B",
+      "dauer_s": 261
+    },
+    {
+      "titel": "Löslichkeit von Stoffen",
+      "url": "https://www.youtube.com/watch?v=EvqDernIcJA",
+      "quelle": "musstewissen Chemie",
+      "lumi": "https://app.lumi.education/run/ur3gaG",
+      "embed": "https://app.lumi.education/api/v1/run/ur3gaG/embed",
+      "stufe": "A",
+      "dauer_s": 351
+    }
+  ],
+  "tasks": [
+    {
+      "id": "WA05-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welcher Stoff löst sich in Wasser?",
+      "options": [
+        "Kochsalz",
+        "Speiseöl",
+        "Sand"
+      ],
+      "answer": 0,
+      "hints": [
+        "Zwei der drei lösen sich nicht.",
+        "Öl schwimmt oben, Sand sinkt.",
+        "Kochsalz löst sich."
+      ],
+      "solution": "Kochsalz löst sich in Wasser. Öl und Sand nicht.",
+      "tags": [
+        "loesen"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "WA05-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum löst sich Öl nicht in Wasser?",
+      "options": [
+        "Öl ist unpolar, Wasser polar.",
+        "Öl ist zu schwer.",
+        "Öl ist zu warm."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "loesen",
+        "stufe": "A"
+      },
+      "hints": [
+        "Gleiches löst sich in Gleichem.",
+        "Wasser ist polar.",
+        "Öl nicht."
+      ],
+      "solution": "Wasser ist polar, Öl unpolar. Nach der Regel „Gleiches löst sich in Gleichem“ mischen sie sich nicht.",
+      "tags": [
+        "loesen"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "WA05-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Was passiert mit den Ionen, wenn sich Salz in Wasser löst?",
+      "options": [
+        "Sie werden von Wassermolekülen umhüllt.",
+        "Sie verschwinden.",
+        "Sie werden zu Atomen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Die Ionen sind noch da — das Wasser schmeckt salzig.",
+        "Was passiert um sie herum?",
+        "Wassermoleküle legen sich um sie."
+      ],
+      "solution": "Die Ionen werden aus dem Gitter gelöst und einzeln von Wassermolekülen umhüllt. Sie verschwinden nicht — beim Eindampfen kommen sie zurück.",
+      "misconceptions": [
+        {
+          "id": "teilchen_traegt_stoffeigenschaft",
+          "value": 1,
+          "feedback": "Gelöst heißt nicht verschwunden. Beim Eindampfen erhältst du das Salz zurück.",
+          "konzeptfehler": "teilchen_traegt_stoffeigenschaft"
+        }
+      ],
+      "tags": [
+        "loesen"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "WA05-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "numeric",
+      "prompt": "In 200 g Wasser werden 20 g Zucker gelöst. Wie viel Prozent Zucker enthält die Lösung?",
+      "answer": 9.09,
+      "unit_label": "%",
+      "tolerance": 0.2,
+      "hints": [
+        "Das Ganze ist Zucker plus Wasser.",
+        "20 + 200 = 220 g.",
+        "20 : 220."
+      ],
+      "solution": "20 g : 220 g = 0,0909 → 9,09 %",
+      "misconceptions": [
+        {
+          "id": "loesungsmittel_als_ganzes",
+          "value": 10,
+          "feedback": "Du hast nur durch das Wasser geteilt. Der Zucker gehört auch zur Lösung."
+        }
+      ],
+      "tags": [
+        "loesen",
+        "rechnen"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "WA05-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Was ist eine Hydrathülle?",
+      "options": [
+        "Die Schicht aus Wassermolekülen um ein gelöstes Ion.",
+        "Eine dünne Wasserhaut auf der Oberfläche.",
+        "Der Wasserdampf über einer Lösung."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "loesen",
+        "stufe": "B"
+      },
+      "hints": [
+        "Es geht um gelöste Ionen.",
+        "Was legt sich um sie herum?",
+        "Wassermoleküle."
+      ],
+      "solution": "Die Wasserdipole lagern sich mit ihren Teilladungen um jedes gelöste Ion. Diese Schicht heißt Hydrathülle.",
+      "tags": [
+        "loesen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "WA05-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum leitet eine Kochsalzlösung den Strom, festes Kochsalz aber nicht?",
+      "options": [
+        "Erst in Lösung sind die Ionen frei beweglich.",
+        "Erst in Lösung entstehen Ionen.",
+        "Wasser leitet den Strom allein."
+      ],
+      "answer": 0,
+      "hints": [
+        "Sind im Kristall schon Ionen vorhanden?",
+        "Ja — aber auf festen Plätzen.",
+        "Beweglich werden sie erst in Lösung."
+      ],
+      "solution": "Auch im Kristall liegen Ionen vor, aber auf festen Gitterplätzen. Erst in Lösung sind sie beweglich und können Ladung transportieren. Reines Wasser leitet praktisch nicht.",
+      "misconceptions": [
+        {
+          "id": "ion_und_atom_verwechselt",
+          "value": 1,
+          "feedback": "Ionen entstehen nicht erst beim Lösen — sie sind bereits im Gitter vorhanden, nur unbeweglich.",
+          "konzeptfehler": "ion_und_atom_verwechselt"
+        }
+      ],
+      "tags": [
+        "loesen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "WA05-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum löst sich Fett gut in Benzin?",
+      "options": [
+        "Beide sind unpolar.",
+        "Beide sind polar.",
+        "Benzin ist wärmer als Wasser."
+      ],
+      "answer": 0,
+      "hints": [
+        "Gleiches löst sich in Gleichem.",
+        "Fett ist unpolar.",
+        "Benzin auch."
+      ],
+      "solution": "Fett und Benzin sind beide unpolar. Nach der Regel „Gleiches löst sich in Gleichem“ mischen sie sich vollständig — deshalb wirken Benzin und ähnliche Lösungsmittel als Fettlöser.",
+      "tags": [
+        "loesen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "WA05-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Bei 20 °C lösen sich 36 g Kochsalz in 100 g Wasser. Wie viel löst sich in 250 g Wasser?",
+      "answer": 90,
+      "unit_label": "g",
+      "tolerance": 1,
+      "hints": [
+        "Dreisatz: erst auf 1 g Wasser.",
+        "36 : 100 = 0,36 g je Gramm.",
+        "0,36 · 250."
+      ],
+      "solution": "36 g je 100 g → 250 g : 100 · 36 g = 90 g",
+      "misconceptions": [
+        {
+          "id": "anteil_umgedreht",
+          "value": 14.4,
+          "feedback": "Du hast geteilt statt zu vervielfachen. Mehr Wasser löst mehr Salz."
+        }
+      ],
+      "tags": [
+        "loesen",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "WA05-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum löst sich Zucker in warmem Wasser schneller und mehr?",
+      "options": [
+        "Die Teilchen bewegen sich schneller und die Löslichkeit steigt mit der Temperatur.",
+        "Warmes Wasser ist polarer.",
+        "Zucker schmilzt im warmen Wasser."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was ändert sich bei höherer Temperatur?",
+        "Die Teilchenbewegung.",
+        "Und bei Feststoffen meist auch die Löslichkeit."
+      ],
+      "solution": "Bei höherer Temperatur bewegen sich die Teilchen schneller — der Kristall wird rascher abgebaut. Zusätzlich steigt bei den meisten Feststoffen die Löslichkeit mit der Temperatur.",
+      "misconceptions": [
+        {
+          "id": "reaktion_und_zustandsaenderung_verwechselt",
+          "value": 2,
+          "feedback": "Zucker schmilzt erst bei rund 185 °C. Im Wasser löst er sich, er schmilzt nicht.",
+          "konzeptfehler": "reaktion_und_zustandsaenderung_verwechselt"
+        }
+      ],
+      "tags": [
+        "loesen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "WA05-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum lässt sich fettige Kleidung mit Wasser allein nicht reinigen?",
+      "options": [
+        "Fett ist unpolar und wird von Wasser nicht gelöst — es braucht Seife als Vermittler.",
+        "Wasser ist zu kalt.",
+        "Fett ist schwerer als Wasser."
+      ],
+      "answer": 0,
+      "hints": [
+        "Löst Wasser Fett?",
+        "Nein — beide sind zu verschieden.",
+        "Seife vermittelt zwischen beiden."
+      ],
+      "solution": "Wasser ist polar, Fett unpolar — sie lösen einander nicht. Seifenmoleküle haben einen unpolaren und einen polaren Teil und vermitteln deshalb zwischen beiden.",
+      "tags": [
+        "loesen",
+        "anwenden",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "WA05-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Methanol und Ethanol mischen sich vollständig mit Wasser, Hexanol kaum. Warum?",
+      "options": [
+        "Mit wachsender Kettenlänge überwiegt der unpolare Teil des Moleküls.",
+        "Hexanol hat keine OH-Gruppe.",
+        "Hexanol ist schwerer."
+      ],
+      "answer": 0,
+      "hints": [
+        "Alle drei haben eine OH-Gruppe.",
+        "Was unterscheidet sie?",
+        "Die Länge der Kohlenwasserstoffkette."
+      ],
+      "solution": "Alle drei besitzen eine polare OH-Gruppe. Bei Methanol dominiert sie das Molekül, bei Hexanol überwiegt die lange unpolare Kette. Zwischen Propanol und Butanol kippt das Verhalten.",
+      "misconceptions": [
+        {
+          "id": "funktionelle_gruppe_verwechselt",
+          "value": 1,
+          "feedback": "Auch Hexanol hat eine OH-Gruppe. Entscheidend ist das Verhältnis zum unpolaren Rest.",
+          "konzeptfehler": "funktionelle_gruppe_verwechselt"
+        }
+      ],
+      "tags": [
+        "loesen",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "WA05-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "300 g einer Lösung enthalten 4 % Salz. Sie wird auf 120 g eingedampft.",
+      "fields": [
+        {
+          "label": "Salzmasse in der Lösung",
+          "answer": 12,
+          "unit_label": "g",
+          "tolerance": 0.1
+        },
+        {
+          "label": "Salzanteil nach dem Eindampfen",
+          "answer": 10,
+          "unit_label": "%",
+          "tolerance": 0.2
+        }
+      ],
+      "hints": [
+        "4 % von 300 g.",
+        "Die Salzmasse bleibt beim Eindampfen gleich.",
+        "12 g : 120 g · 100 %."
+      ],
+      "solution": "Salz: 300 g · 0,04 = 12 g\nnach dem Eindampfen: 12 g : 120 g = 10 %\nNur Wasser verdampft — das Salz bleibt vollständig.",
+      "tags": [
+        "loesen",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "WA05-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum steigt die Löslichkeit von Gasen mit sinkender Temperatur, die von Feststoffen aber meist mit steigender?",
+      "options": [
+        "Gase entweichen bei Wärme leichter aus der Lösung; bei Feststoffen hilft die Wärme, das Gitter zu lösen.",
+        "Gase sind leichter als Feststoffe.",
+        "Es ist bei beiden gleich."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert mit Gasteilchen bei Wärme?",
+        "Sie werden schneller und entweichen.",
+        "Beim Feststoff muss dagegen ein Gitter aufgebrochen werden."
+      ],
+      "solution": "Gelöste Gasteilchen entweichen bei Wärme leichter — deshalb perlt warmes Mineralwasser aus. Bei Feststoffen muss Gitterenergie überwunden werden; Wärme hilft dabei. Beide Trends folgen aus dem, was beim Lösen jeweils geschehen muss.",
+      "tags": [
+        "loesen",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "WA05-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Alles löst sich irgendwann, man muss nur genug rühren.“ Wie bewertest du das?",
+      "options": [
+        "Falsch — jede Lösung hat eine Sättigungsgrenze, und unpolare Stoffe lösen sich in Wasser praktisch gar nicht.",
+        "Richtig — Rühren löst alles.",
+        "Falsch — Rühren hat gar keine Wirkung."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert, wenn du immer mehr Salz zugibst?",
+        "Irgendwann bleibt es liegen.",
+        "Und Öl löst sich auch mit Rühren nicht."
+      ],
+      "solution": "Rühren beschleunigt das Lösen, verschiebt aber die Sättigungsgrenze nicht. Über der Grenze bleibt Bodensatz liegen. Unpolare Stoffe lösen sich in Wasser ohnehin praktisch nicht — dagegen hilft kein Rühren.",
+      "tags": [
+        "loesen",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 9,
+      "aufgaben": 20,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 7,
+      "aufgaben": 20,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 7,
+      "aufgaben": 17,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Wasser - Ein ausgezeichnetes Lösungsmittel",
+      "url": "https://learningapps.org/view23550549",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Lösungsvorgang von Salzkristallen",
+      "url": "https://learningapps.org/view1804705",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Mischbar und nicht mischbar",
+      "url": "https://www.youtube.com/watch?v=LHJjBJar93U",
+      "quelle": "Chemistry and Biochemistry Demo lab at OSU",
+      "stufe": "A",
+      "rolle": "Demonstration zu polar und unpolar",
+      "embed": "https://www.youtube-nocookie.com/embed/LHJjBJar93U",
+      "protokoll": false,
+      "beobachtung": {
+        "A": "Notiere je zwei Flüssigkeiten, die sich mischen, und zwei, die sich nicht mischen.",
+        "B": "Erkläre die Beobachtung mit den Begriffen polar und unpolar.",
+        "C": "Begründe die Regel „Ähnliches löst sich in Ähnlichem“ mit dem Bau der Teilchen."
+      }
+    },
+    {
+      "titel": "Löslichkeit und Temperatur",
+      "url": "https://www.youtube.com/watch?v=1kr_E71vNzw",
+      "quelle": "Chemistry and Biochemistry Demo lab at OSU",
+      "stufe": "B",
+      "rolle": "Demonstration: Temperatur verändert die Löslichkeit",
+      "embed": "https://www.youtube-nocookie.com/embed/1kr_E71vNzw",
+      "protokoll": false,
+      "beobachtung": {
+        "A": "Notiere, ob sich bei höherer Temperatur mehr oder weniger Feststoff löst.",
+        "B": "Beschreibe den Zusammenhang zwischen Temperatur und Löslichkeit und erkläre ihn auf Teilchenebene.",
+        "C": "Beurteile, ob die Aussage „Wärme löst immer besser“ für alle Stoffe gilt. Begründe deine Antwort."
+      }
+    },
+    {
+      "titel": "Lösen von Ammoniumchlorid — es wird kalt",
+      "url": "https://www.youtube.com/watch?v=xJhjdFEHDv8",
+      "quelle": "North Carolina School of Science and Mathematics",
+      "stufe": "C",
+      "rolle": "Vertiefung: Lösen kann Energie aufnehmen",
+      "embed": "https://www.youtube-nocookie.com/embed/xJhjdFEHDv8",
+      "protokoll": false,
+      "beobachtung": {
+        "A": "Fasse das Becherglas an und notiere, was du fühlst: Wird es wärmer oder kälter?",
+        "B": "Erkläre, warum sich die Lösung abkühlt, obwohl kein Eis zugegeben wurde.",
+        "C": "Begründe mit der Gitterenergie und der Hydratationsenergie, warum dieser Lösungsvorgang Energie aufnimmt."
+      }
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 6,
+    "titel": "Wasser",
+    "seiten_von": 66,
+    "seiten_bis": 82,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Lösungsmittel"
+  }
+}

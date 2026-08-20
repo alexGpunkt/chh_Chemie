@@ -1,0 +1,634 @@
+{
+  "unit": "WA-03",
+  "title": "Von der Wortgleichung zur Reaktionsgleichung",
+  "leitidee": "B3",
+  "standards": [
+    "K1",
+    "K2.4",
+    "K3.4"
+  ],
+  "klasse": 8,
+  "wortspeicher": [
+    "die Reaktionsgleichung",
+    "der Koeffizient",
+    "der Index",
+    "das Ausgleichen",
+    "die Atombilanz",
+    "die Formeleinheit"
+  ],
+  "worterklaerungen": {
+    "Koeffizient": "Die Zahl vor einer Formel. Sie sagt, wie viele Teilchen gemeint sind.",
+    "Index": "Die kleine Zahl in einer Formel. Sie gehört zum Stoff und darf nicht verändert werden.",
+    "Ausgleichen": "Koeffizienten so setzen, dass links und rechts gleich viele Atome stehen."
+  },
+  "can_do": {
+    "A": "Ich zähle Atome in einer Formel und erkenne, ob eine Gleichung ausgeglichen ist.",
+    "B": "Ich gleiche einfache Reaktionsgleichungen aus.",
+    "C": "Ich gleiche mehrstufige Gleichungen systematisch aus und begründe das Vorgehen."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Links und rechts gleich viele",
+      "hinfuehrung": "In einer Reaktionsgleichung müssen links und rechts gleich viele Atome stehen.",
+      "erklaerung": [
+        "Es geht kein Atom verloren.",
+        "Dafür setzt man Zahlen vor die Formeln."
+      ],
+      "merke": "Zähle jede Atomsorte einzeln.",
+      "beispiel": {
+        "titel": "Ein Beispiel",
+        "aufgabe": "H₂ + O₂ → H₂O ausgleichen.",
+        "schritte": [
+          "Rechts 2 H₂O — jetzt stimmt der Sauerstoff.",
+          "Links 2 H₂ — jetzt stimmt der Wasserstoff."
+        ],
+        "ergebnis": "2 H₂ + O₂ → 2 H₂O"
+      },
+      "visual": {
+        "type": "animation",
+        "name": "ausgleichen",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "So wird ausgeglichen",
+      "hinfuehrung": "Ausgleichen ist kein Raten. Es gibt eine Reihenfolge, die fast immer zum Ziel führt.",
+      "erklaerung": [
+        "Erst die Atomsorte, die nur in je einem Stoff links und rechts vorkommt.",
+        "Sauerstoff und Wasserstoff zuletzt — sie stecken meist in mehreren Stoffen.",
+        "Nur Koeffizienten ändern, niemals Indizes: Aus H₂O darf kein H₂O₂ werden, das wäre ein anderer Stoff.",
+        "Am Ende jede Atomsorte noch einmal einzeln nachzählen."
+      ],
+      "merke": "Nur die Zahlen VOR den Formeln dürfen sich ändern.",
+      "visual": {
+        "type": "animation",
+        "name": "ausgleichen",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Systematisch statt probierend",
+      "hinfuehrung": "Bei größeren Gleichungen führt Probieren nicht weiter. Ein festes Vorgehen schon.",
+      "erklaerung": [
+        "Bei Verbrennungen organischer Stoffe: erst Kohlenstoff, dann Wasserstoff, zuletzt Sauerstoff.",
+        "Ergibt sich für Sauerstoff ein Halbes, wird die gesamte Gleichung verdoppelt.",
+        "Kommt eine Atomgruppe unverändert auf beiden Seiten vor — etwa SO₄ —, wird sie als Einheit gezählt statt Atom für Atom.",
+        "Die Probe am Ende ist kein Zierrat: Sie ist der einzige Beleg, dass die Gleichung stimmt."
+      ],
+      "merke": "Erst das Seltene, dann Wasserstoff, zuletzt Sauerstoff — und immer die Probe.",
+      "visual": {
+        "type": "animation",
+        "name": "ausgleichen",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "2 H₂ + O₂ → 2 H₂O",
+      "C + O₂ → CO₂",
+      "CH₄ + 2 O₂ → CO₂ + 2 H₂O",
+      "2 Mg + O₂ → 2 MgO"
+    ],
+    "saetze": [
+      "Nur Koeffizienten ändern, nie die Indizes.",
+      "Reihenfolge: seltene Atomsorte → Wasserstoff → Sauerstoff.",
+      "Ergibt sich ein Halbes, alles verdoppeln.",
+      "Zum Schluss jede Atomsorte einzeln nachzählen."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Reaktionsgleichungen ausgleichen — Übungen",
+      "url": "https://www.youtube.com/watch?v=HhaZQcWWulQ",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/gEBXQC",
+      "embed": "https://app.lumi.education/api/v1/run/gEBXQC/embed",
+      "stufe": "C",
+      "dauer_s": 350
+    },
+    {
+      "titel": "Reaktionsgleichung: Kupfer(II)-oxid und Kohlenstoff reagieren zu Kupfer und CO₂",
+      "url": "https://www.youtube.com/watch?v=iD79jyPyvPE",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/KNFq80",
+      "embed": "https://app.lumi.education/api/v1/run/KNFq80/embed",
+      "stufe": "A",
+      "dauer_s": 71
+    }
+  ],
+  "tasks": [
+    {
+      "id": "WA03-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "Wie viele Sauerstoffatome stehen in 3 H₂O?",
+      "answer": 3,
+      "tolerance": 0,
+      "hints": [
+        "Jedes H₂O hat ein O-Atom.",
+        "Es sind 3 Moleküle.",
+        "3 O-Atome."
+      ],
+      "solution": "3 · 1 = 3 Sauerstoffatome.",
+      "tags": [
+        "gleichungen"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "WA03-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Wie viele Wasserstoffatome stehen in 2 H₂?",
+      "answer": 4,
+      "tolerance": 0,
+      "hints": [
+        "Jedes H₂ hat zwei H-Atome.",
+        "2 · 2.",
+        "4."
+      ],
+      "solution": "2 · 2 = 4 Wasserstoffatome.",
+      "misconceptions": [
+        {
+          "id": "koeffizient_ignoriert",
+          "value": 2,
+          "feedback": "Die 2 vor der Formel verdoppelt das ganze Molekül.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "gleichungen"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "WA03-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "2 H₂ + O₂ → ? H₂O. Welche Zahl fehlt?",
+      "answer": 2,
+      "tolerance": 0,
+      "visual": {
+        "type": "animation",
+        "name": "ausgleichen",
+        "stufe": "A"
+      },
+      "hints": [
+        "Zähle die Wasserstoffatome links: 2 · 2 = 4.",
+        "Rechts hat jedes H₂O zwei H-Atome.",
+        "4 : 2 = 2."
+      ],
+      "solution": "Links stehen 4 H-Atome. Rechts braucht es 2 H₂O, um ebenfalls 4 zu haben. Der Sauerstoff stimmt dann auch: 2 links, 2 rechts.",
+      "tags": [
+        "gleichungen"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "WA03-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Was darfst du beim Ausgleichen verändern?",
+      "options": [
+        "Nur die Zahlen vor den Formeln.",
+        "Auch die kleinen Zahlen in den Formeln.",
+        "Alles."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "ausgleichen",
+        "stufe": "A"
+      },
+      "hints": [
+        "Die kleine Zahl gehört zum Stoff.",
+        "Wer sie ändert, erfindet einen anderen Stoff.",
+        "Nur die Zahlen davor."
+      ],
+      "solution": "Nur Koeffizienten — die Zahlen vor den Formeln. Der Index gehört zum Stoff: Aus H₂O würde sonst H₂O₂, also Wasserstoffperoxid.",
+      "misconceptions": [
+        {
+          "id": "index_statt_koeffizient",
+          "value": 1,
+          "feedback": "Die kleine Zahl gehört zum Stoff. Änderst du sie, steht dort ein anderer Stoff.",
+          "konzeptfehler": "index_statt_koeffizient"
+        }
+      ],
+      "tags": [
+        "gleichungen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "WA03-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "numeric",
+      "prompt": "? Mg + O₂ → 2 MgO. Welcher Koeffizient fehlt links?",
+      "answer": 2,
+      "tolerance": 0,
+      "hints": [
+        "Rechts stehen 2 MgO.",
+        "Das sind 2 Mg-Atome.",
+        "Also links 2 Mg."
+      ],
+      "solution": "Rechts stehen 2 Magnesiumatome, also links ebenfalls 2: 2 Mg + O₂ → 2 MgO. Der Sauerstoff stimmt mit 2 auf beiden Seiten.",
+      "tags": [
+        "gleichungen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "WA03-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "CH₄ + ? O₂ → CO₂ + 2 H₂O. Welcher Koeffizient fehlt?",
+      "answer": 2,
+      "tolerance": 0,
+      "hints": [
+        "Zähle die O-Atome rechts: 2 aus CO₂ und 2 aus dem Wasser.",
+        "Zusammen 4.",
+        "4 : 2 = 2 Sauerstoffmoleküle."
+      ],
+      "solution": "Rechts: 2 O-Atome im CO₂ plus 2 im Wasser = 4. Links liefert jedes O₂ zwei Atome, also 2 O₂.",
+      "misconceptions": [
+        {
+          "id": "nur_teil_berechnet",
+          "value": 1,
+          "feedback": "Du hast nur das CO₂ gezählt. Auch die O-Atome im Wasser gehören dazu."
+        }
+      ],
+      "tags": [
+        "gleichungen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "WA03-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Ein Schüler gleicht so aus: H₂ + O₂ → H₂O₂. Was ist der Fehler?",
+      "options": [
+        "Er hat den Index verändert und damit einen anderen Stoff erfunden.",
+        "Die Gleichung ist richtig.",
+        "Er hat einen Koeffizienten vergessen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Vergleiche H₂O und H₂O₂.",
+        "Das sind zwei verschiedene Stoffe.",
+        "Der Index darf nicht verändert werden."
+      ],
+      "solution": "H₂O₂ ist Wasserstoffperoxid, ein anderer Stoff als Wasser. Die Gleichung ist zwar zahlenmäßig ausgeglichen, beschreibt aber eine andere Reaktion. Indizes dürfen nie verändert werden.",
+      "misconceptions": [
+        {
+          "id": "index_statt_koeffizient",
+          "value": 1,
+          "feedback": "Zahlenmäßig stimmt es — inhaltlich steht dort ein anderer Stoff.",
+          "konzeptfehler": "index_statt_koeffizient",
+          "verweis": {
+            "absatz": 2
+          }
+        }
+      ],
+      "tags": [
+        "gleichungen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "WA03-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Gleiche aus: ? Fe + ? O₂ → 2 Fe₂O₃",
+      "fields": [
+        {
+          "label": "Koeffizient vor Fe",
+          "answer": 4,
+          "tolerance": 0
+        },
+        {
+          "label": "Koeffizient vor O₂",
+          "answer": 3,
+          "tolerance": 0
+        }
+      ],
+      "hints": [
+        "Rechts stehen 2 · 2 = 4 Eisenatome.",
+        "Rechts stehen 2 · 3 = 6 Sauerstoffatome.",
+        "6 : 2 = 3 Sauerstoffmoleküle."
+      ],
+      "solution": "4 Fe + 3 O₂ → 2 Fe₂O₃\nProbe: Fe 4 = 4, O 6 = 6.",
+      "tags": [
+        "gleichungen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "WA03-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "2 C₂H₆ + ? O₂ → 4 CO₂ + 6 H₂O. Welcher Koeffizient fehlt?",
+      "answer": 7,
+      "tolerance": 0,
+      "hints": [
+        "Zähle die O-Atome rechts: 4 · 2 = 8 und 6 · 1 = 6.",
+        "Zusammen 14.",
+        "14 : 2 = 7."
+      ],
+      "solution": "Rechts: 8 O-Atome aus CO₂ plus 6 aus H₂O = 14. Links liefert jedes O₂ zwei Atome: 14 : 2 = 7 O₂.",
+      "tags": [
+        "gleichungen",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "WA03-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "In welcher Reihenfolge gleicht man eine Verbrennungsgleichung sinnvoll aus?",
+      "options": [
+        "Kohlenstoff, dann Wasserstoff, zuletzt Sauerstoff.",
+        "Sauerstoff, dann Kohlenstoff, zuletzt Wasserstoff.",
+        "Die Reihenfolge ist gleichgültig."
+      ],
+      "answer": 0,
+      "hints": [
+        "Womit fängt man an?",
+        "Mit der Sorte, die nur in einem Stoff links und rechts vorkommt.",
+        "Sauerstoff steckt in mehreren Produkten."
+      ],
+      "solution": "Kohlenstoff kommt links und rechts in je einem Stoff vor, Wasserstoff ebenso. Sauerstoff steckt dagegen in beiden Produkten — deshalb kommt er zuletzt, wenn alles andere schon feststeht.",
+      "tags": [
+        "gleichungen",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "WA03-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "Beim Ausgleichen von C₂H₆ + O₂ → CO₂ + H₂O ergibt sich für O₂ zunächst 3,5. Mit welcher Zahl multipliziert man die ganze Gleichung?",
+      "answer": 2,
+      "tolerance": 0,
+      "hints": [
+        "Halbe Moleküle gibt es nicht.",
+        "Womit wird 3,5 zu einer ganzen Zahl?",
+        "Mit 2."
+      ],
+      "solution": "3,5 · 2 = 7. Die gesamte Gleichung wird verdoppelt: 2 C₂H₆ + 7 O₂ → 4 CO₂ + 6 H₂O.",
+      "tags": [
+        "gleichungen",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "WA03-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Gleiche aus: ? Al + ? O₂ → ? Al₂O₃",
+      "fields": [
+        {
+          "label": "Koeffizient vor Al",
+          "answer": 4,
+          "tolerance": 0
+        },
+        {
+          "label": "Koeffizient vor O₂",
+          "answer": 3,
+          "tolerance": 0
+        },
+        {
+          "label": "Koeffizient vor Al₂O₃",
+          "answer": 2,
+          "tolerance": 0
+        }
+      ],
+      "hints": [
+        "Setze zunächst 2 vor Al₂O₃, damit die O-Zahl gerade wird.",
+        "Dann stehen rechts 4 Al und 6 O.",
+        "Links also 4 Al und 3 O₂."
+      ],
+      "solution": "4 Al + 3 O₂ → 2 Al₂O₃\nProbe: Al 4 = 4, O 6 = 6.",
+      "tags": [
+        "gleichungen",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    },
+    {
+      "id": "WA03-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum darf man bei H₂SO₄ die Gruppe SO₄ als Einheit zählen, wenn sie unverändert auf beiden Seiten steht?",
+      "options": [
+        "Weil sie als Ganzes erhalten bleibt — das Nachzählen jedes Atoms führt zum selben Ergebnis, dauert aber länger.",
+        "Weil SO₄ ein einzelnes Atom ist.",
+        "Weil Sauerstoff nicht mitzählt."
+      ],
+      "answer": 0,
+      "hints": [
+        "Ändert sich innerhalb der Gruppe etwas?",
+        "Nein, sie bleibt vollständig erhalten.",
+        "Dann darf man sie als Block behandeln."
+      ],
+      "solution": "Bleibt eine Atomgruppe unverändert erhalten, führt das Zählen als Einheit zum selben Ergebnis wie das Zählen jedes Atoms — nur schneller. Sobald die Gruppe aufgebrochen wird, muss wieder atomweise gezählt werden.",
+      "tags": [
+        "gleichungen",
+        "msa"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "WA03-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Eine ausgeglichene Gleichung ist gefunden. Ein Schüler fragt: „Beweist das, dass die Reaktion wirklich so abläuft?“ Wie antwortest du?",
+      "options": [
+        "Nein — das Ausgleichen sichert nur die Atombilanz. Ob die Produkte stimmen, zeigt allein der Versuch.",
+        "Ja, eine ausgeglichene Gleichung ist immer richtig.",
+        "Nein, ausgeglichene Gleichungen sind nie richtig."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was prüft das Ausgleichen?",
+        "Nur die Zahl der Atome.",
+        "Welche Stoffe entstehen, sagt es nicht."
+      ],
+      "solution": "Ausgleichen sichert allein, dass links und rechts gleich viele Atome stehen. H₂ + O₂ → H₂O₂ lässt sich ebenfalls ausgleichen und beschreibt trotzdem eine andere Reaktion. Welche Produkte entstehen, entscheidet der Versuch.",
+      "tags": [
+        "gleichungen",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-GLEI"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 4,
+      "aufgaben": 25,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 4,
+      "aufgaben": 23,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 9,
+      "aufgaben": 15,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Reaktionsgleichungen ausgleichen",
+      "url": "https://learningapps.org/view1323263",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Fehlersuche Reaktionsgleichungen (Anfangsunterricht)",
+      "url": "https://learningapps.org/view10100010",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Symbole, Formeln und Gleichungen — Quiz Klasse 8",
+      "url": "https://www.schlaukopf.de/realschule/klasse8/chemie/chemischeformeln",
+      "typ": "app",
+      "quelle": "Schlaukopf"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 5,
+    "titel": "Die chemische Reaktion",
+    "seiten_von": 58,
+    "seiten_bis": 65,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Reaktionsgleichung"
+  }
+}

@@ -1,0 +1,687 @@
+{
+  "unit": "WA-04",
+  "title": "Elektronegativität, polare Bindung, Dipol",
+  "leitidee": "B2",
+  "standards": [
+    "K1",
+    "K2.3",
+    "K3.4"
+  ],
+  "klasse": 8,
+  "wortspeicher": [
+    "die Elektronegativität",
+    "die polare Elektronenpaarbindung",
+    "die Teilladung",
+    "der Dipol",
+    "unpolar",
+    "die Wasserstoffbrücke"
+  ],
+  "worterklaerungen": {
+    "Elektronegativität": "Wie stark ein Atom die bindenden Elektronen zu sich zieht.",
+    "Teilladung": "Eine kleine Ladung an einem Atom, geschrieben als δ+ oder δ−.",
+    "Dipol": "Ein Molekül mit einem positiven und einem negativen Ende."
+  },
+  "can_do": {
+    "A": "Ich weiß, dass Wasser zwei geladene Enden hat, und erkenne das im Ablenkversuch.",
+    "B": "Ich erkläre die polare Bindung über die Elektronegativität und kennzeichne Teilladungen.",
+    "C": "Ich begründe, warum der gewinkelte Bau für den Dipolcharakter entscheidend ist."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Wasser hat zwei Enden",
+      "hinfuehrung": "Ein Wasserstrahl wird von einem geriebenen Stab abgelenkt.",
+      "erklaerung": [
+        "Das Wassermolekül hat ein positives und ein negatives Ende.",
+        "Deshalb reagiert es auf Ladung."
+      ],
+      "merke": "Wasser ist ein Dipol: zwei verschieden geladene Enden.",
+      "beispiel": {
+        "titel": "Der Ablenkversuch",
+        "aufgabe": "Was passiert mit dem Strahl?",
+        "schritte": [
+          "Der Stab wird gerieben und geladen.",
+          "Er wird an den Strahl gehalten.",
+          "Der Strahl biegt sich zum Stab."
+        ],
+        "ergebnis": "Der Strahl wird abgelenkt."
+      },
+      "visual": {
+        "type": "animation",
+        "name": "dipol",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Ungleich verteilte Elektronen",
+      "hinfuehrung": "In einer Bindung zwischen verschiedenen Atomen liegen die gemeinsamen Elektronen nicht in der Mitte. Wie stark sie zu einer Seite gezogen werden, gibt die Elektronegativität an.",
+      "erklaerung": [
+        "Sauerstoff hat eine höhere Elektronegativität als Wasserstoff. Er zieht das bindende Elektronenpaar zu sich.",
+        "Dadurch trägt der Sauerstoff eine negative Teilladung δ−, jedes Wasserstoffatom eine positive δ+.",
+        "Eine solche Bindung heißt polare Elektronenpaarbindung. Sind beide Atome gleich, etwa in H₂ oder O₂, ist die Bindung unpolar.",
+        "Zwischen den Teilladungen benachbarter Wassermoleküle wirken Anziehungskräfte — die Wasserstoffbrücken."
+      ],
+      "merke": "Verschiedene Elektronegativität → verschobene Elektronen → Teilladungen.",
+      "visual": {
+        "type": "animation",
+        "name": "dipol",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Warum der Winkel entscheidet",
+      "hinfuehrung": "Polare Bindungen allein machen noch keinen Dipol. Entscheidend ist, ob sich die Teilladungen im Molekül aufheben oder nicht — und das hängt am Bau.",
+      "erklaerung": [
+        "Im Wassermolekül stehen die beiden O–H-Bindungen im Winkel von etwa 105°. Die beiden positiven Enden liegen auf derselben Seite, das negative gegenüber. Die Wirkungen addieren sich zu einem Gesamtdipol.",
+        "Kohlenstoffdioxid hat ebenfalls polare Bindungen, ist aber gestreckt: O=C=O. Die beiden Wirkungen zeigen in entgegengesetzte Richtungen und heben sich auf. CO₂ ist deshalb kein Dipol.",
+        "Daraus folgt unmittelbar das Löseverhalten: Polare Stoffe lösen sich in polaren Lösungsmitteln, unpolare in unpolaren.",
+        "Auch Siedetemperatur und Oberflächenspannung des Wassers folgen aus den Wasserstoffbrücken zwischen den Dipolen."
+      ],
+      "merke": "Polare Bindungen plus unsymmetrischer Bau ergeben einen Dipol.",
+      "visual": {
+        "type": "lewis",
+        "molekuel": "co2",
+        "formel": "CO2",
+        "alt": "Lewis-Formel von Kohlenstoffdioxid — gestreckt gebaut."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "ΔEN(O–H) ≈ 1,4 → polare Bindung"
+    ],
+    "saetze": [
+      "Höhere Elektronegativität zieht die bindenden Elektronen zu sich.",
+      "Gleiche Atome → unpolare Bindung. Verschiedene Atome → polare Bindung.",
+      "Wasser ist gewinkelt (105°) und damit ein Dipol.",
+      "CO₂ hat polare Bindungen, ist aber gestreckt — kein Dipol.",
+      "Zwischen Wasserdipolen wirken Wasserstoffbrücken."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Elektronegativität",
+      "url": "https://www.youtube.com/watch?v=_KLbBgW32Vw",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/LGVSoo",
+      "embed": "https://app.lumi.education/api/v1/run/LGVSoo/embed",
+      "stufe": "C",
+      "dauer_s": 272
+    },
+    {
+      "titel": "Elektronegativität und Polarität von Molekülen",
+      "url": "https://www.youtube.com/watch?v=SwqZzueLkqM",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/QMoN6d",
+      "embed": "https://app.lumi.education/api/v1/run/QMoN6d/embed",
+      "stufe": "B",
+      "dauer_s": 818
+    },
+    {
+      "titel": "Dipol-Dipol-Wechselwirkungen",
+      "url": "https://www.youtube.com/watch?v=zKvHQ9QplWY",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/vYJqia",
+      "embed": "https://app.lumi.education/api/v1/run/vYJqia/embed",
+      "stufe": "A",
+      "dauer_s": 299
+    }
+  ],
+  "tasks": [
+    {
+      "id": "WA04-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Was passiert, wenn ein geriebener Stab an einen dünnen Wasserstrahl gehalten wird?",
+      "options": [
+        "Der Strahl wird abgelenkt.",
+        "Der Strahl reißt ab.",
+        "Nichts passiert."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "dipol",
+        "stufe": "A"
+      },
+      "hints": [
+        "Wasser hat geladene Enden.",
+        "Der Stab ist geladen.",
+        "Ladungen wirken aufeinander."
+      ],
+      "solution": "Der Strahl wird zum geladenen Stab hin abgelenkt, weil die Wassermoleküle geladene Enden haben.",
+      "tags": [
+        "dipol"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "WA04-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Welches Atom im Wassermolekül trägt die negative Teilladung?",
+      "options": [
+        "der Sauerstoff",
+        "die Wasserstoffatome",
+        "keines"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "lewis",
+        "molekuel": "h2o",
+        "alt": "Lewis-Formel von Wasser."
+      },
+      "hints": [
+        "Welches Atom zieht die Elektronen stärker an?",
+        "Der Sauerstoff.",
+        "Wo Elektronen sind, ist es negativ."
+      ],
+      "solution": "Der Sauerstoff zieht die bindenden Elektronen zu sich und trägt deshalb die negative Teilladung δ−.",
+      "misconceptions": [
+        {
+          "id": "teilladung_vertauscht",
+          "value": 1,
+          "feedback": "Die Wasserstoffatome tragen die positive Teilladung δ+.",
+          "konzeptfehler": "polar_unpolar_vertauscht"
+        }
+      ],
+      "tags": [
+        "dipol"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "WA04-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Was bedeutet „Dipol“?",
+      "options": [
+        "Ein Molekül mit einem positiven und einem negativen Ende.",
+        "Ein Molekül aus zwei Atomen.",
+        "Ein Molekül mit zwei Bindungen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Das Wort enthält „di“ für zwei und „pol“ für Pol.",
+        "Es geht um Ladungen.",
+        "Zwei geladene Enden."
+      ],
+      "solution": "Ein Dipol hat zwei entgegengesetzt geladene Enden — ein positives und ein negatives.",
+      "tags": [
+        "dipol"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "WA04-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum wird ein Benzinstrahl nicht abgelenkt?",
+      "options": [
+        "Benzinmoleküle sind keine Dipole.",
+        "Benzin ist zu leicht.",
+        "Benzin ist brennbar."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wovon hängt die Ablenkung ab?",
+        "Von geladenen Enden.",
+        "Benzin hat keine."
+      ],
+      "solution": "Benzin besteht aus unpolaren Molekülen ohne geladene Enden. Ein geladener Stab wirkt deshalb nicht auf sie.",
+      "tags": [
+        "dipol"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "WA04-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Was gibt die Elektronegativität an?",
+      "options": [
+        "Wie stark ein Atom die bindenden Elektronen zu sich zieht.",
+        "Wie viele Elektronen ein Atom hat.",
+        "Wie negativ ein Ion geladen ist."
+      ],
+      "answer": 0,
+      "hints": [
+        "Es geht um die Bindung.",
+        "Wer zieht stärker?",
+        "Das ist die Elektronegativität."
+      ],
+      "solution": "Die Elektronegativität beschreibt, wie stark ein Atom die gemeinsamen Elektronen einer Bindung zu sich zieht. Sie steigt im Periodensystem nach rechts und nach oben.",
+      "misconceptions": [
+        {
+          "id": "ion_und_atom_verwechselt",
+          "value": 2,
+          "feedback": "Die Elektronegativität beschreibt die Bindung, nicht die Ionenladung.",
+          "konzeptfehler": "ion_und_atom_verwechselt"
+        }
+      ],
+      "tags": [
+        "dipol",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "WA04-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "assign",
+      "prompt": "Ordne jede Bindung richtig ein.",
+      "slots": [
+        "H–H in H₂",
+        "O–H in H₂O",
+        "Cl–Cl in Cl₂"
+      ],
+      "values": [
+        "unpolar",
+        "polar",
+        "unpolar (zweites)"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Sind die Atome gleich oder verschieden?",
+        "Gleiche Atome ziehen gleich stark.",
+        "Nur bei O–H sind die Atome verschieden."
+      ],
+      "solution": "H–H und Cl–Cl verbinden gleiche Atome — die Elektronen liegen mittig, die Bindung ist unpolar. Bei O–H sind die Atome verschieden, die Bindung ist polar.",
+      "tags": [
+        "dipol",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "WA04-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum ziehen sich Wassermoleküle gegenseitig an?",
+      "options": [
+        "Das positive Ende des einen zieht das negative Ende des anderen an.",
+        "Sie haben dieselbe Masse.",
+        "Sie bilden gemeinsame Elektronenpaare."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was haben Wassermoleküle für Enden?",
+        "Ein positives und ein negatives.",
+        "Ungleiche Ladungen ziehen sich an."
+      ],
+      "solution": "Das δ+ des einen Moleküls und das δ− eines anderen ziehen sich an. Diese Anziehung heißt Wasserstoffbrücke und erklärt die hohe Siedetemperatur des Wassers.",
+      "misconceptions": [
+        {
+          "id": "bindungsart_verwechselt",
+          "value": 2,
+          "feedback": "Zwischen den Molekülen entstehen keine gemeinsamen Elektronenpaare — das wäre eine Bindung innerhalb eines Moleküls.",
+          "konzeptfehler": "bindungsart_verwechselt"
+        }
+      ],
+      "tags": [
+        "dipol",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "WA04-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Kohlenstoffdioxid hat polare Bindungen, ist aber kein Dipol. Warum?",
+      "options": [
+        "Das Molekül ist gestreckt; die beiden Wirkungen heben sich auf.",
+        "Die Bindungen sind doch unpolar.",
+        "Kohlenstoffdioxid ist ein Gas."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "lewis",
+        "molekuel": "co2",
+        "alt": "Lewis-Formel von Kohlenstoffdioxid."
+      },
+      "hints": [
+        "Wie ist CO₂ gebaut?",
+        "Gestreckt: O=C=O.",
+        "Beide Wirkungen zeigen in entgegengesetzte Richtungen."
+      ],
+      "solution": "In O=C=O zeigen beide polaren Bindungen in entgegengesetzte Richtungen und heben sich auf. Wäre CO₂ gewinkelt wie Wasser, wäre es ein Dipol. Der Bau entscheidet.",
+      "misconceptions": [
+        {
+          "id": "polar_unpolar_vertauscht",
+          "value": 1,
+          "feedback": "Die Bindungen sind sehr wohl polar. Es ist der gestreckte Bau, der den Dipol verhindert.",
+          "konzeptfehler": "polar_unpolar_vertauscht"
+        }
+      ],
+      "tags": [
+        "dipol",
+        "msa"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "WA04-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum siedet Wasser trotz kleiner Moleküle erst bei 100 °C?",
+      "options": [
+        "Die Wasserstoffbrücken zwischen den Molekülen müssen erst überwunden werden.",
+        "Wassermoleküle sind besonders schwer.",
+        "Wasser enthält gelöste Luft."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was hält die Moleküle zusammen?",
+        "Die Anziehung zwischen den Dipolen.",
+        "Zum Sieden müssen sie getrennt werden."
+      ],
+      "solution": "Beim Sieden müssen die Moleküle voneinander getrennt werden. Die starken Wasserstoffbrücken machen dafür viel Energie nötig — deshalb 100 °C statt der erwarteten −80 °C.",
+      "tags": [
+        "dipol",
+        "bbr"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "WA04-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Warum lösen sich Salze gut in Wasser, aber nicht in Benzin?",
+      "options": [
+        "Die Wasserdipole umlagern die Ionen; unpolares Benzin kann das nicht.",
+        "Benzin ist zu dünnflüssig.",
+        "Salze sind schwerer als Benzin."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was brauchen Ionen, um in Lösung zu gehen?",
+        "Geladene Partner.",
+        "Nur polare Moleküle bieten die."
+      ],
+      "solution": "Wassermoleküle sind Dipole und lagern sich mit ihren Teilladungen um die Ionen. Benzinmoleküle sind unpolar und können die Ionen nicht aus dem Gitter lösen.",
+      "tags": [
+        "dipol",
+        "loesen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "WA04-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Ammoniak NH₃ ist pyramidal gebaut und hat polare N–H-Bindungen. Ist es ein Dipol?",
+      "options": [
+        "Ja — die Wirkungen heben sich wegen des unsymmetrischen Baus nicht auf.",
+        "Nein — es hat drei gleiche Bindungen.",
+        "Nein — Stickstoff ist nicht elektronegativ."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "lewis",
+        "molekuel": "nh3",
+        "alt": "Lewis-Formel von Ammoniak."
+      },
+      "hints": [
+        "Ist das Molekül symmetrisch gebaut?",
+        "Nein — das freie Elektronenpaar steht auf einer Seite.",
+        "Dann heben sich die Wirkungen nicht auf."
+      ],
+      "solution": "Drei gleiche Bindungen genügen nicht für ein Aufheben — entscheidend ist die räumliche Anordnung. Durch das freie Elektronenpaar ist NH₃ pyramidal und damit unsymmetrisch. Es ist ein Dipol; deshalb löst es sich sehr gut in Wasser.",
+      "tags": [
+        "dipol",
+        "msa"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "WA04-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Welche Aussage über Wasserstoffbrücken ist richtig?",
+      "options": [
+        "Sie wirken zwischen Molekülen und sind schwächer als eine Elektronenpaarbindung.",
+        "Sie wirken innerhalb eines Moleküls und sind stärker als eine Bindung.",
+        "Sie sind dasselbe wie eine Elektronenpaarbindung."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wo wirken sie?",
+        "Zwischen Molekülen.",
+        "Und sie sind deutlich schwächer als eine echte Bindung."
+      ],
+      "solution": "Wasserstoffbrücken wirken zwischen Molekülen und sind rund zehnmal schwächer als eine Elektronenpaarbindung. Beim Sieden werden sie gelöst — die Moleküle selbst bleiben unversehrt.",
+      "misconceptions": [
+        {
+          "id": "bindungsart_verwechselt",
+          "value": 2,
+          "feedback": "Wasserstoffbrücken sind zwischenmolekulare Kräfte, keine Bindungen innerhalb des Moleküls.",
+          "konzeptfehler": "bindungsart_verwechselt"
+        }
+      ],
+      "tags": [
+        "dipol",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "WA04-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum verdampft Alkohol schneller als Wasser, obwohl seine Moleküle schwerer sind?",
+      "options": [
+        "Alkohol bildet weniger Wasserstoffbrücken je Molekül als Wasser.",
+        "Alkohol ist unpolar.",
+        "Alkoholmoleküle sind kleiner."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie viele OH-Gruppen hat ein Alkoholmolekül?",
+        "Eine — Wasser hat zwei H-Atome am Sauerstoff.",
+        "Weniger Brücken heißt leichteres Verdampfen."
+      ],
+      "solution": "Ein Ethanolmolekül hat nur eine OH-Gruppe und bildet dadurch weniger Wasserstoffbrücken als ein Wassermolekül. Die Moleküle lassen sich leichter voneinander trennen — trotz größerer Masse verdampft Alkohol schneller.",
+      "tags": [
+        "dipol",
+        "msa"
+      ],
+      "spiral": [
+        "W-ORG"
+      ]
+    },
+    {
+      "id": "WA04-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler folgert: „Ein Molekül mit polaren Bindungen ist immer ein Dipol.“ Wie bewertest du das?",
+      "options": [
+        "Falsch — CO₂ und CH₄ haben polare Bindungen und sind trotzdem keine Dipole, weil sie symmetrisch gebaut sind.",
+        "Richtig — polare Bindungen ergeben immer einen Dipol.",
+        "Falsch — polare Bindungen gibt es gar nicht."
+      ],
+      "answer": 0,
+      "hints": [
+        "Nenne ein Gegenbeispiel.",
+        "Kohlenstoffdioxid.",
+        "Der Bau entscheidet mit."
+      ],
+      "solution": "Polare Bindungen sind notwendig, aber nicht hinreichend. Erst ein unsymmetrischer Bau lässt die Wirkungen sich addieren. CO₂ und CH₄ sind Gegenbeispiele — beide haben polare Bindungen und sind keine Dipole.",
+      "misconceptions": [
+        {
+          "id": "polar_unpolar_vertauscht",
+          "value": 1,
+          "feedback": "Ein Gegenbeispiel genügt zur Widerlegung: CO₂ hat polare Bindungen und ist kein Dipol.",
+          "konzeptfehler": "polar_unpolar_vertauscht"
+        }
+      ],
+      "tags": [
+        "dipol",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 8,
+      "aufgaben": 21,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 11,
+      "aufgaben": 16,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 7,
+      "aufgaben": 17,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Dipol-Moleküle: Ja oder Nein?",
+      "url": "https://learningapps.org/view6317701",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Polare und unpolare Bindungen",
+      "url": "https://learningapps.org/view11514992",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Chemische Bindungen — Quiz Klasse 9",
+      "url": "https://www.schlaukopf.de/realschule/klasse9/chemie/molekuele",
+      "typ": "app",
+      "quelle": "Schlaukopf"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 9,
+    "titel": "Chemische Bindungen",
+    "seiten_von": 109,
+    "seiten_bis": 114,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Elektronegativität"
+  }
+}

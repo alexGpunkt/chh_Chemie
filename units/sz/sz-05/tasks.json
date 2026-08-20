@@ -1,0 +1,645 @@
+{
+  "unit": "SZ-05",
+  "title": "Anwenden & Prüfungstraining Salze",
+  "leitidee": "B2",
+  "standards": [
+    "K1",
+    "K2.4",
+    "K3.3",
+    "K4.1"
+  ],
+  "klasse": 8,
+  "wortspeicher": [
+    "die Verhältnisformel",
+    "das Ionengitter",
+    "die Leitfähigkeit",
+    "die Flammenfärbung",
+    "der Nachweis",
+    "die Fällungsreaktion"
+  ],
+  "worterklaerungen": {
+    "Flammenfärbung": "Manche Metall-Ionen färben eine Flamme charakteristisch."
+  },
+  "can_do": {
+    "A": "Ich stelle einfache Salzformeln auf und nenne Eigenschaften von Salzen.",
+    "B": "Ich verbinde Formel, Gitter und Eigenschaften und werte Nachweise aus.",
+    "C": "Ich begründe Eigenschaften der Salze aus dem Gitteraufbau und bewerte Aussagen."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Salze auf einen Blick",
+      "hinfuehrung": "Salze bestehen aus Ionen.",
+      "erklaerung": [
+        "Die Ladungen gleichen sich aus.",
+        "Salze sind hart, spröde und hochschmelzend."
+      ],
+      "merke": "Ladungssumme null — daraus folgt die Formel.",
+      "visual": {
+        "type": "animation",
+        "name": "signalwoerter",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Ionen nachweisen",
+      "hinfuehrung": "Welche Ionen in einer Probe stecken, lässt sich mit einfachen Mitteln zeigen.",
+      "erklaerung": [
+        "Flammenfärbung: Natrium gelb, Kalium violett, Calcium ziegelrot, Kupfer grün.",
+        "Fällungsreaktionen: Chlorid-Ionen ergeben mit Silber-Ionen einen weißen Niederschlag, Sulfat-Ionen mit Barium-Ionen einen weißen.",
+        "Leitfähigkeit zeigt, dass überhaupt Ionen vorliegen — welche, sagt sie nicht.",
+        "Wie immer gilt: Ein Nachweis ist nur so viel wert wie seine Eindeutigkeit."
+      ],
+      "merke": "Flammenfärbung zeigt Metall-Ionen, Fällung zeigt Säurerest-Ionen.",
+      "visual": {
+        "type": "animation",
+        "name": "ionengitter",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Sauber begründen",
+      "hinfuehrung": "Bei Salzen wird fast immer in derselben Richtung begründet: vom Gitter zur Eigenschaft.",
+      "erklaerung": [
+        "Warum spröde? Weil beim Verschieben gleiche Ladungen aufeinandertreffen.",
+        "Warum hochschmelzend? Weil die Anziehung zwischen den Ionen stark ist.",
+        "Warum erst gelöst leitfähig? Weil die Ionen erst dann beweglich sind.",
+        "Jede dieser Antworten beginnt beim Bau und endet bei der beobachtbaren Eigenschaft."
+      ],
+      "merke": "Vom Aufbau zur Eigenschaft — nie umgekehrt.",
+      "visual": {
+        "type": "animation",
+        "name": "signalwoerter",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "NaCl · MgO · CaCl₂ · Al₂O₃ · Na₂SO₄ · Ca(OH)₂"
+    ],
+    "saetze": [
+      "Ladungssumme null — daraus folgt die Verhältnisformel.",
+      "Salze: hart, spröde, hochschmelzend.",
+      "Leitfähig erst gelöst oder geschmolzen.",
+      "Flammenfärbung: Na gelb · K violett · Ca ziegelrot · Cu grün."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Metalle, Salze und Moleküle unterscheiden",
+      "url": "https://www.youtube.com/watch?v=bKUdxrvr6fc",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/Na7X-Y",
+      "embed": "https://app.lumi.education/api/v1/run/Na7X-Y/embed",
+      "stufe": "A",
+      "dauer_s": 330
+    }
+  ],
+  "tasks": [
+    {
+      "id": "SZ05-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "K⁺ und Cl⁻ bilden ein Salz. Wie lautet die Formel?",
+      "options": [
+        "KCl",
+        "K₂Cl",
+        "KCl₂"
+      ],
+      "answer": 0,
+      "hints": [
+        "Beide einfach geladen.",
+        "Je ein Ion.",
+        "KCl."
+      ],
+      "solution": "1+ und 1− gleichen sich aus: KCl.",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SZ05-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Welche Eigenschaft passt zu Salzen?",
+      "options": [
+        "hoher Schmelzpunkt",
+        "biegsam",
+        "leitet als Feststoff"
+      ],
+      "answer": 0,
+      "hints": [
+        "Salze sind spröde.",
+        "Fest leiten sie nicht.",
+        "Aber sie schmelzen sehr hoch."
+      ],
+      "solution": "Salze haben hohe Schmelztemperaturen, sind spröde und leiten erst gelöst oder geschmolzen.",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-STOF"
+      ]
+    },
+    {
+      "id": "SZ05-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Mg²⁺ und Cl⁻: Wie viele Chlorid-Ionen gehören zu einem Magnesium-Ion?",
+      "answer": 2,
+      "tolerance": 0,
+      "hints": [
+        "Zwei positive Ladungen.",
+        "Jedes Cl⁻ bringt eine negative.",
+        "Zwei."
+      ],
+      "solution": "MgCl₂ — zwei Chlorid-Ionen gleichen die zweifach positive Ladung aus.",
+      "tags": [
+        "pruefung"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SZ05-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Eine Flamme färbt sich gelb. Welches Ion ist vermutlich enthalten?",
+      "options": [
+        "Natrium",
+        "Kalium",
+        "Kupfer"
+      ],
+      "answer": 0,
+      "hints": [
+        "Jedes Metall-Ion färbt anders.",
+        "Gelb gehört zu einem sehr häufigen Ion.",
+        "Natrium."
+      ],
+      "solution": "Natrium-Ionen färben die Flamme intensiv gelb. Kalium färbt violett, Kupfer grün.",
+      "misconceptions": [
+        {
+          "id": "nachweis_verwechselt",
+          "value": 2,
+          "feedback": "Kupfer färbt grün. Gelb ist typisch für Natrium.",
+          "konzeptfehler": "nachweis_verwechselt"
+        }
+      ],
+      "tags": [
+        "pruefung",
+        "nachweise"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SZ05-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Al³⁺ und SO₄²⁻ bilden ein Salz. Wie lautet die Formel?",
+      "options": [
+        "Al₂(SO₄)₃",
+        "AlSO₄",
+        "Al₃(SO₄)₂"
+      ],
+      "answer": 0,
+      "hints": [
+        "Kleinstes gemeinsames Vielfaches von 3 und 2 ist 6.",
+        "Zwei Al³⁺ und drei SO₄²⁻.",
+        "Die Klammer ist nötig."
+      ],
+      "solution": "2 · 3+ = 6+ und 3 · 2− = 6−: Al₂(SO₄)₃. Die Klammer ist nötig, weil das Sulfat dreimal vorkommt.",
+      "misconceptions": [
+        {
+          "id": "ladung_unvollstaendig",
+          "value": 2,
+          "feedback": "Über Kreuz: Die 3 vom Aluminium wird zum Index des Sulfats, die 2 vom Sulfat zum Index des Aluminiums.",
+          "konzeptfehler": "ladung_unvollstaendig"
+        }
+      ],
+      "tags": [
+        "pruefung",
+        "formeln",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SZ05-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Eine Probe leitet gelöst den Strom und färbt die Flamme gelb. Was folgt daraus?",
+      "options": [
+        "Es liegen Ionen vor, darunter Natrium-Ionen.",
+        "Es ist reines Wasser.",
+        "Es ist Zucker."
+      ],
+      "answer": 0,
+      "hints": [
+        "Leitfähigkeit zeigt Ionen.",
+        "Die Flammenfärbung sagt, welches Metall-Ion.",
+        "Gelb heißt Natrium."
+      ],
+      "solution": "Leitfähigkeit belegt bewegliche Ionen, die gelbe Flammenfärbung weist Natrium-Ionen nach. Zucker würde nicht leiten.",
+      "tags": [
+        "pruefung",
+        "nachweise",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SZ05-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "numeric",
+      "prompt": "In 250 g Wasser lösen sich bei 20 °C höchstens 90 g eines Salzes. Wie viel löst sich in 100 g Wasser?",
+      "answer": 36,
+      "unit_label": "g",
+      "tolerance": 1,
+      "hints": [
+        "Dreisatz zurück auf 100 g.",
+        "90 : 250 · 100.",
+        "36 g."
+      ],
+      "solution": "90 g : 250 g · 100 g = 36 g je 100 g Wasser.",
+      "tags": [
+        "pruefung",
+        "rechnen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SZ05-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum zerspringt ein Salzkristall beim Hammerschlag, ein Kupferblech aber nicht?",
+      "options": [
+        "Im Salz treffen nach dem Verschieben gleiche Ladungen aufeinander, im Metall nicht.",
+        "Salz ist weicher als Kupfer.",
+        "Kupfer enthält keine Teilchen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was liegt zwischen den Teilchen im Metall?",
+        "Das Elektronengas.",
+        "Im Salz wechseln sich Ladungen ab."
+      ],
+      "solution": "Im Ionengitter zerstört eine Verschiebung die Abfolge der Ladungen — gleiche Ladungen stoßen sich ab, der Kristall springt. Im Metall umgibt das Elektronengas alle Rümpfe gleichmäßig, die Bindung bleibt.",
+      "tags": [
+        "pruefung",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "SZ05-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Welche Antwort auf „Erkläre, warum Salzlösungen den Strom leiten“ ist vollständig?",
+      "options": [
+        "Beim Lösen werden die Ionen aus dem Gitter gelöst und frei beweglich; bewegliche Ladungsträger leiten den Strom.",
+        "Weil Salz Ionen enthält.",
+        "Weil Wasser den Strom leitet."
+      ],
+      "answer": 0,
+      "hints": [
+        "Ionen sind auch im Feststoff vorhanden.",
+        "Was fehlt dort?",
+        "Die Beweglichkeit."
+      ],
+      "solution": "Antwort 2 greift zu kurz — Ionen sind auch im Feststoff da, der aber nicht leitet. Entscheidend ist die Beweglichkeit. Reines Wasser leitet praktisch nicht.",
+      "misconceptions": [
+        {
+          "id": "ion_und_atom_verwechselt",
+          "value": 1,
+          "feedback": "Ionen allein genügen nicht. Sie müssen beweglich sein.",
+          "konzeptfehler": "ion_und_atom_verwechselt"
+        }
+      ],
+      "tags": [
+        "pruefung",
+        "operatoren",
+        "bbr"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SZ05-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "multi",
+      "prompt": "Ein Salz besteht aus Ca²⁺ und NO₃⁻.",
+      "fields": [
+        {
+          "label": "Zahl der Nitrat-Ionen",
+          "answer": 2,
+          "tolerance": 0
+        },
+        {
+          "label": "Zahl der Sauerstoffatome in der Formeleinheit",
+          "answer": 6,
+          "tolerance": 0
+        }
+      ],
+      "hints": [
+        "Ca²⁺ braucht zwei einfach negative Ionen.",
+        "Ca(NO₃)₂.",
+        "Jedes Nitrat hat drei O-Atome."
+      ],
+      "solution": "Ca(NO₃)₂ — zwei Nitrat-Ionen mit je 3 Sauerstoffatomen, zusammen 6.",
+      "tags": [
+        "pruefung",
+        "formeln",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SZ05-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Welcher Nachweis ist für Chlorid-Ionen geeignet?",
+      "options": [
+        "Zugabe einer Silbernitratlösung — es entsteht ein weißer Niederschlag.",
+        "Die Flammenfärbung.",
+        "Die Leitfähigkeitsmessung."
+      ],
+      "answer": 0,
+      "hints": [
+        "Flammenfärbung zeigt Metall-Ionen.",
+        "Leitfähigkeit zeigt nur, dass Ionen da sind.",
+        "Für Chlorid braucht es eine Fällung."
+      ],
+      "solution": "Silber-Ionen bilden mit Chlorid-Ionen schwerlösliches Silberchlorid — ein weißer Niederschlag. Flammenfärbung und Leitfähigkeit sagen nichts über das Säurerest-Ion.",
+      "misconceptions": [
+        {
+          "id": "nachweis_verwechselt",
+          "value": 2,
+          "feedback": "Leitfähigkeit belegt nur, dass Ionen vorliegen — nicht welche.",
+          "konzeptfehler": "nachweis_verwechselt"
+        }
+      ],
+      "tags": [
+        "pruefung",
+        "nachweise",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SZ05-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Eine gesättigte Lösung bei 80 °C enthält 150 g Salz in 250 g Wasser. Beim Abkühlen auf 20 °C lösen sich nur noch 36 g je 100 g Wasser.",
+      "fields": [
+        {
+          "label": "gelöste Masse bei 20 °C",
+          "answer": 90,
+          "unit_label": "g",
+          "tolerance": 2
+        },
+        {
+          "label": "auskristallisierte Masse",
+          "answer": 60,
+          "unit_label": "g",
+          "tolerance": 2
+        }
+      ],
+      "hints": [
+        "250 g Wasser sind 2,5-mal 100 g.",
+        "2,5 · 36 g = 90 g.",
+        "150 − 90 = 60 g."
+      ],
+      "solution": "bei 20 °C gelöst: 2,5 · 36 g = 90 g\nauskristallisiert: 150 g − 90 g = 60 g",
+      "tags": [
+        "pruefung",
+        "rechnen",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    },
+    {
+      "id": "SZ05-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum ist die Formel NaCl keine Molekülformel?",
+      "options": [
+        "Im Gitter hat jedes Ion sechs gleichberechtigte Nachbarn — es gibt keine abgegrenzte Teilcheneinheit.",
+        "Weil Natrium ein Metall ist.",
+        "Weil die Formel zu kurz ist."
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie viele Nachbarn hat jedes Ion?",
+        "Sechs.",
+        "Ein Molekül wäre eine abgegrenzte Einheit."
+      ],
+      "solution": "Ein Molekül ist eine abgegrenzte Teilcheneinheit. Im Ionengitter ist jedes Na⁺ von sechs Cl⁻ umgeben — kein Partner ist ausgezeichnet. NaCl nennt deshalb nur das Zahlenverhältnis.",
+      "tags": [
+        "pruefung",
+        "msa"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SZ05-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler behauptet: „Alle Salze lösen sich in Wasser.“ Wie bewertest du das?",
+      "options": [
+        "Falsch — die Löslichkeit hängt vom Verhältnis der Gitter- zur Hydratationsenergie ab; Bariumsulfat etwa ist praktisch unlöslich.",
+        "Richtig — alle Salze lösen sich.",
+        "Falsch — kein Salz löst sich vollständig."
+      ],
+      "answer": 0,
+      "hints": [
+        "Kennst du ein Gegenbeispiel?",
+        "Bariumsulfat, Silberchlorid, Calciumcarbonat.",
+        "Ein Gegenbeispiel genügt."
+      ],
+      "solution": "Ein Gegenbeispiel widerlegt die Behauptung: Bariumsulfat, Silberchlorid und Calciumcarbonat sind praktisch unlöslich. Genau darauf beruhen die Fällungsnachweise.",
+      "misconceptions": [
+        {
+          "id": "verallgemeinert",
+          "value": 1,
+          "feedback": "Für eine Widerlegung genügt ein Gegenbeispiel — Fällungsreaktionen liefern viele."
+        }
+      ],
+      "tags": [
+        "pruefung",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-LOES"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 8,
+      "aufgaben": 21,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 8,
+      "aufgaben": 19,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 8,
+      "aufgaben": 16,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Salzformeln",
+      "url": "https://learningapps.org/view1930535",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Salze und Verhältnisformeln",
+      "url": "https://learningapps.org/view1471442",
+      "typ": "sammlung",
+      "quelle": "LearningApps",
+      "pfade": [
+        "B",
+        "C"
+      ]
+    },
+    {
+      "titel": "Salze — Quiz Klasse 9",
+      "url": "https://www.schlaukopf.de/realschule/klasse9/chemie/salze",
+      "typ": "app",
+      "quelle": "Schlaukopf"
+    }
+  ],
+  "experimente": [
+    {
+      "titel": "Halogenidnachweis mit Silbernitrat",
+      "url": "https://www.youtube.com/watch?v=La2KXjOh5vU",
+      "quelle": "Rugby School Chemistry",
+      "stufe": "C",
+      "rolle": "Vertiefung: Nachweisreaktion im Prüfungstraining",
+      "lumi": "https://app.lumi.education/run/M6WJW6",
+      "embed": "https://app.lumi.education/api/v1/run/M6WJW6/embed",
+      "protokoll": true
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 10,
+    "titel": "Säuren, Laugen, Salze",
+    "seiten_von": 115,
+    "seiten_bis": 142,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Verhältnisformel"
+  }
+}

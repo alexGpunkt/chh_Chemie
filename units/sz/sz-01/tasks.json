@@ -1,0 +1,700 @@
+{
+  "unit": "SZ-01",
+  "title": "Ionen: aus Atomen werden geladene Teilchen",
+  "leitidee": "B1",
+  "standards": [
+    "K1",
+    "K2.3",
+    "K3.4"
+  ],
+  "klasse": 8,
+  "wortspeicher": [
+    "das Ion",
+    "das Kation",
+    "das Anion",
+    "die Ionenbildung",
+    "die Edelgaskonfiguration",
+    "die Ladung"
+  ],
+  "worterklaerungen": {
+    "Ion": "Ein geladenes Teilchen. Es hat Elektronen abgegeben oder aufgenommen.",
+    "Kation": "Ein positiv geladenes Ion. Es hat Elektronen abgegeben.",
+    "Anion": "Ein negativ geladenes Ion. Es hat Elektronen aufgenommen."
+  },
+  "can_do": {
+    "A": "Ich weiß, dass Metalle Elektronen abgeben und Nichtmetalle sie aufnehmen.",
+    "B": "Ich gebe die Ionenladung aus der Hauptgruppe an und benenne Kationen und Anionen.",
+    "C": "Ich begründe die Ionenbildung über die Edelgaskonfiguration und vergleiche Atom- und Ionengröße."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Aus Atomen werden Ionen",
+      "hinfuehrung": "Ein Atom kann Elektronen abgeben oder aufnehmen.",
+      "erklaerung": [
+        "Dann ist es geladen.",
+        "Ein geladenes Teilchen heißt Ion."
+      ],
+      "merke": "Elektron weg → positiv. Elektron dazu → negativ.",
+      "beispiel": {
+        "titel": "Natrium und Chlor",
+        "aufgabe": "Was passiert?",
+        "schritte": [
+          "Natrium gibt ein Elektron ab → Na⁺.",
+          "Chlor nimmt es auf → Cl⁻."
+        ],
+        "ergebnis": "Zwei Ionen, die sich anziehen."
+      },
+      "visual": {
+        "type": "animation",
+        "name": "ionenbildung",
+        "stufe": "A"
+      }
+    },
+    "B": {
+      "titel": "Ladung aus der Hauptgruppe",
+      "hinfuehrung": "Die Ionenladung muss nicht auswendig gelernt werden — sie steht in der Hauptgruppennummer.",
+      "erklaerung": [
+        "Metalle geben ab: Hauptgruppe I → 1+, Hauptgruppe II → 2+, Hauptgruppe III → 3+.",
+        "Nichtmetalle nehmen auf: Hauptgruppe VII → 1−, Hauptgruppe VI → 2−, Hauptgruppe V → 3−.",
+        "Positive Ionen heißen Kationen, negative Anionen.",
+        "Der Name folgt einer Regel: Aus Chlor wird das Chlorid-Ion, aus Sauerstoff das Oxid-Ion, aus Schwefel das Sulfid-Ion. Metallionen behalten ihren Namen."
+      ],
+      "merke": "Bis Gruppe III abgeben, ab Gruppe V aufnehmen. Die Gruppennummer nennt die Zahl.",
+      "visual": {
+        "type": "animation",
+        "name": "ionenbildung",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Warum gerade so viele",
+      "hinfuehrung": "Die Zahl der abgegebenen oder aufgenommenen Elektronen ist nicht beliebig: Es ist immer die Zahl, die zur vollen Außenschale fehlt oder zu viel ist.",
+      "erklaerung": [
+        "Natrium mit einem Außenelektron gibt genau dieses ab und erreicht die Konfiguration von Neon. Zwei abzugeben wäre energetisch viel zu aufwendig.",
+        "Chlor mit sieben Außenelektronen nimmt genau eines auf und erreicht die Konfiguration von Argon.",
+        "Beim Übergang ändert sich die Größe deutlich: Na⁺ ist kleiner als das Na-Atom — eine ganze Schale fällt weg. Cl⁻ ist größer als das Cl-Atom — die zusätzliche Abstoßung dehnt die Hülle.",
+        "Ionen haben völlig andere Eigenschaften als die zugehörigen Atome. Natrium reagiert heftig mit Wasser, Natrium-Ionen sind in jedem Mineralwasser."
+      ],
+      "merke": "Ein Ion ist kein „geladenes Atom“ mit denselben Eigenschaften — es ist ein anderes Teilchen.",
+      "visual": {
+        "type": "animation",
+        "name": "ionenbildung",
+        "stufe": "C"
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "Na → Na⁺ + e⁻",
+      "Cl + e⁻ → Cl⁻"
+    ],
+    "saetze": [
+      "Kation: positiv, hat Elektronen abgegeben.",
+      "Anion: negativ, hat Elektronen aufgenommen.",
+      "Ladung = Hauptgruppennummer (I–III) bzw. Hauptgruppennummer − 8 (V–VII).",
+      "Namen: Chlorid, Oxid, Sulfid — Metallionen behalten ihren Namen."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Wie werden Ionen gebildet?",
+      "url": "https://www.youtube.com/watch?v=cFP69D20MMQ",
+      "quelle": "Chemie - simpleclub",
+      "lumi": "https://app.lumi.education/run/4MLHb2",
+      "embed": "https://app.lumi.education/api/v1/run/4MLHb2/embed",
+      "stufe": "C",
+      "dauer_s": 282
+    },
+    {
+      "titel": "Ionen und Salze — Einführung",
+      "url": "https://www.youtube.com/watch?v=fTcnELa-v88",
+      "quelle": "musstewissen Chemie",
+      "lumi": "https://app.lumi.education/run/o4bPsL",
+      "embed": "https://app.lumi.education/api/v1/run/o4bPsL/embed",
+      "stufe": "A",
+      "dauer_s": 648
+    }
+  ],
+  "tasks": [
+    {
+      "id": "SZ01-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Was ist ein Ion?",
+      "options": [
+        "Ein geladenes Teilchen",
+        "Ein sehr kleines Atom",
+        "Ein Molekül"
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "ionenbildung",
+        "stufe": "A"
+      },
+      "hints": [
+        "Es hat Elektronen abgegeben oder aufgenommen.",
+        "Dadurch ist es geladen.",
+        "Ein geladenes Teilchen."
+      ],
+      "solution": "Ein Ion ist ein geladenes Teilchen — entstanden durch Abgabe oder Aufnahme von Elektronen.",
+      "tags": [
+        "ionen"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "SZ01-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Natrium gibt ein Elektron ab. Wie ist es danach geladen?",
+      "options": [
+        "positiv",
+        "negativ",
+        "gar nicht"
+      ],
+      "answer": 0,
+      "hints": [
+        "Ein Elektron ist negativ.",
+        "Es fehlt jetzt eines.",
+        "Also überwiegt das Positive."
+      ],
+      "solution": "Fehlt ein negatives Elektron, überwiegen die positiven Protonen: Na⁺.",
+      "misconceptions": [
+        {
+          "id": "ladung_falsch_herum",
+          "value": 1,
+          "feedback": "Abgeben eines negativen Elektrons macht das Teilchen <b>positiv</b>.",
+          "konzeptfehler": "ladung_unvollstaendig"
+        }
+      ],
+      "tags": [
+        "ionen"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "SZ01-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "assign",
+      "prompt": "Ordne zu: gibt ab oder nimmt auf?",
+      "slots": [
+        "Natrium",
+        "Chlor",
+        "Magnesium"
+      ],
+      "values": [
+        "gibt 1 Elektron ab",
+        "nimmt 1 Elektron auf",
+        "gibt 2 Elektronen ab"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Metalle geben ab, Nichtmetalle nehmen auf.",
+        "Die Hauptgruppennummer sagt, wie viele.",
+        "Magnesium steht in Gruppe II."
+      ],
+      "solution": "Natrium (Gruppe I) → 1 ab.\nChlor (Gruppe VII) → 1 auf.\nMagnesium (Gruppe II) → 2 ab.",
+      "tags": [
+        "ionen"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "SZ01-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Wie heißt das Ion, das aus einem Chloratom entsteht?",
+      "options": [
+        "Chlorid-Ion",
+        "Chlor-Ion",
+        "Chlorat-Ion"
+      ],
+      "answer": 0,
+      "hints": [
+        "Der Name ändert sich.",
+        "Er endet auf -id.",
+        "Chlorid."
+      ],
+      "solution": "Aus Chlor wird das Chlorid-Ion Cl⁻. Nichtmetall-Anionen enden auf -id.",
+      "misconceptions": [
+        {
+          "id": "nomenklatur_falsch",
+          "value": 1,
+          "feedback": "Anionen der Nichtmetalle bekommen die Endung -id: Chlorid, Oxid, Sulfid.",
+          "konzeptfehler": "nomenklatur_falsch"
+        }
+      ],
+      "tags": [
+        "ionen",
+        "namen"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SZ01-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Welche Ladung hat ein Ion aus Hauptgruppe VI?",
+      "options": [
+        "2−",
+        "6−",
+        "2+"
+      ],
+      "answer": 0,
+      "hints": [
+        "Wie viele Außenelektronen hat es?",
+        "Sechs — es fehlen zwei.",
+        "Es nimmt zwei auf."
+      ],
+      "solution": "Sechs Außenelektronen, zwei fehlen zur vollen Schale. Das Ion nimmt zwei auf und ist 2− geladen, etwa O²⁻.",
+      "misconceptions": [
+        {
+          "id": "ladung_falsch_herum",
+          "value": 2,
+          "feedback": "Nichtmetalle nehmen Elektronen auf und werden dadurch <b>negativ</b>.",
+          "konzeptfehler": "ladung_unvollstaendig"
+        }
+      ],
+      "tags": [
+        "ionen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "SZ01-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "multi",
+      "prompt": "Ein Aluminiumatom hat 13 Elektronen und steht in Hauptgruppe III.",
+      "fields": [
+        {
+          "label": "Zahl der abgegebenen Elektronen",
+          "answer": 3,
+          "tolerance": 0
+        },
+        {
+          "label": "Ladung des Ions",
+          "answer": 3,
+          "tolerance": 0
+        },
+        {
+          "label": "Zahl der Elektronen im Ion",
+          "answer": 10,
+          "tolerance": 0
+        }
+      ],
+      "hints": [
+        "Hauptgruppe III → drei Außenelektronen.",
+        "Alle drei werden abgegeben.",
+        "13 − 3 = 10 — wie Neon."
+      ],
+      "solution": "3 Elektronen ab → Al³⁺ mit 10 Elektronen, also der Konfiguration von Neon.",
+      "tags": [
+        "ionen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "SZ01-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum gibt Natrium genau ein Elektron ab und nicht zwei?",
+      "options": [
+        "Nach einem abgegebenen Elektron ist die Edelgaskonfiguration erreicht.",
+        "Weil es nur ein Elektron besitzt.",
+        "Zwei abzugeben wäre auch möglich."
+      ],
+      "answer": 0,
+      "visual": {
+        "type": "animation",
+        "name": "ionenbildung",
+        "stufe": "B"
+      },
+      "hints": [
+        "Was ist nach dem ersten Elektron erreicht?",
+        "Eine volle Außenschale.",
+        "Ein weiteres müsste aus einer vollen Schale kommen."
+      ],
+      "solution": "Nach Abgabe des einen Außenelektrons hat Natrium die Konfiguration von Neon. Ein zweites müsste aus der vollen darunterliegenden Schale kommen — dafür ist der Energieaufwand viel zu hoch.",
+      "misconceptions": [
+        {
+          "id": "ion_und_atom_verwechselt",
+          "value": 1,
+          "feedback": "Natrium hat 11 Elektronen, nur eines davon ist ein Außenelektron.",
+          "konzeptfehler": "ion_und_atom_verwechselt"
+        }
+      ],
+      "tags": [
+        "ionen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "SZ01-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "assign",
+      "prompt": "Ordne jedem Ion seinen Namen zu.",
+      "slots": [
+        "Na⁺",
+        "O²⁻",
+        "S²⁻"
+      ],
+      "values": [
+        "Natrium-Ion",
+        "Oxid-Ion",
+        "Sulfid-Ion"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Metallionen behalten ihren Namen.",
+        "Nichtmetall-Anionen enden auf -id.",
+        "Aus Schwefel wird Sulfid."
+      ],
+      "solution": "Na⁺ → Natrium-Ion (Name bleibt).\nO²⁻ → Oxid-Ion.\nS²⁻ → Sulfid-Ion.",
+      "tags": [
+        "ionen",
+        "namen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SZ01-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Warum ist ein Natrium-Ion kleiner als ein Natriumatom?",
+      "options": [
+        "Mit dem Außenelektron fällt eine ganze Schale weg.",
+        "Das Ion hat weniger Protonen.",
+        "Das Ion ist schwerer und zieht sich zusammen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was passiert mit der äußersten Schale?",
+        "Sie wird leer.",
+        "Damit ist das Teilchen deutlich kleiner."
+      ],
+      "solution": "Natrium hat die Verteilung 2 · 8 · 1. Gibt es das eine Außenelektron ab, ist die dritte Schale leer — das Ion ist deutlich kleiner. Die Protonenzahl bleibt unverändert.",
+      "misconceptions": [
+        {
+          "id": "ordnungszahl_aendert_sich",
+          "value": 1,
+          "feedback": "Bei der Ionenbildung ändert sich nur die Elektronenzahl, nie die Protonenzahl.",
+          "konzeptfehler": "ion_und_atom_verwechselt"
+        }
+      ],
+      "tags": [
+        "ionen",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "SZ01-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Natrium reagiert heftig mit Wasser, Natrium-Ionen sind in jedem Mineralwasser harmlos. Wie erklärst du das?",
+      "options": [
+        "Atom und Ion sind verschiedene Teilchen mit verschiedenen Eigenschaften.",
+        "Im Mineralwasser ist die Menge zu klein.",
+        "Natrium-Ionen sind dasselbe wie Natriumatome."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was unterscheidet Na und Na⁺?",
+        "Das Außenelektron.",
+        "Und genau das macht die heftige Reaktion aus."
+      ],
+      "solution": "Die heftige Reaktion beruht auf der Abgabe des Außenelektrons. Das Ion hat es bereits abgegeben und kann nicht mehr so reagieren. Atom und Ion sind verschiedene Teilchen — das ist einer der wichtigsten Unterschiede der Mittelstufe.",
+      "misconceptions": [
+        {
+          "id": "ion_und_atom_verwechselt",
+          "value": 2,
+          "feedback": "Ein Ion ist kein „Atom mit Ladung“, sondern ein Teilchen mit anderen Eigenschaften.",
+          "konzeptfehler": "ion_und_atom_verwechselt"
+        }
+      ],
+      "tags": [
+        "ionen",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "SZ01-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum ist ein Chlorid-Ion größer als ein Chloratom?",
+      "options": [
+        "Das zusätzliche Elektron verstärkt die Abstoßung in der Hülle, die sich dadurch ausdehnt.",
+        "Das Ion hat mehr Protonen.",
+        "Das Ion hat eine zusätzliche Schale."
+      ],
+      "answer": 0,
+      "hints": [
+        "Kommt eine neue Schale dazu?",
+        "Nein — das Elektron passt in die vorhandene.",
+        "Aber die Abstoßung nimmt zu."
+      ],
+      "solution": "Das aufgenommene Elektron kommt in die vorhandene Schale. Bei unveränderter Protonenzahl verteilt sich dieselbe Anziehung nun auf mehr Elektronen, und die gegenseitige Abstoßung nimmt zu — die Hülle dehnt sich.",
+      "tags": [
+        "ionen",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "SZ01-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Betrachte die Ionen Mg²⁺, O²⁻ und Al³⁺.",
+      "fields": [
+        {
+          "label": "Elektronenzahl von Mg²⁺ (Z = 12)",
+          "answer": 10,
+          "tolerance": 0
+        },
+        {
+          "label": "Elektronenzahl von O²⁻ (Z = 8)",
+          "answer": 10,
+          "tolerance": 0
+        },
+        {
+          "label": "Elektronenzahl von Al³⁺ (Z = 13)",
+          "answer": 10,
+          "tolerance": 0
+        }
+      ],
+      "hints": [
+        "Positiv heißt: Elektronen fehlen.",
+        "Negativ heißt: Elektronen sind dazugekommen.",
+        "Alle drei erreichen dieselbe Konfiguration."
+      ],
+      "solution": "Mg²⁺: 12 − 2 = 10\nO²⁻: 8 + 2 = 10\nAl³⁺: 13 − 3 = 10\nAlle drei haben die Elektronenkonfiguration von Neon — sie sind isoelektronisch.",
+      "tags": [
+        "ionen",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "SZ01-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Mg²⁺, O²⁻ und Al³⁺ haben alle 10 Elektronen. Warum sind sie trotzdem verschieden groß?",
+      "options": [
+        "Sie haben verschieden viele Protonen; mehr Protonen ziehen die Hülle stärker zusammen.",
+        "Sie sind gleich groß.",
+        "Sie haben verschieden viele Neutronen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was unterscheidet sie noch?",
+        "Die Kernladung.",
+        "Al³⁺ hat 13 Protonen, O²⁻ nur 8."
+      ],
+      "solution": "Bei gleicher Elektronenzahl entscheidet die Kernladung: Al³⁺ mit 13 Protonen zieht die zehn Elektronen am stärksten an und ist am kleinsten, O²⁻ mit 8 Protonen am größten.",
+      "tags": [
+        "ionen",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    },
+    {
+      "id": "SZ01-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler schreibt: „Chlor ist giftig, also ist Kochsalz auch giftig, denn es enthält Chlor.“ Wie bewertest du das?",
+      "options": [
+        "Falsch — im Kochsalz liegen Chlorid-Ionen vor, und die haben andere Eigenschaften als Chloratome oder Chlormoleküle.",
+        "Richtig — die Bestandteile bleiben erhalten.",
+        "Falsch — Kochsalz enthält gar kein Chlor."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was liegt im Kochsalz vor?",
+        "Chlorid-Ionen, nicht Chlormoleküle.",
+        "Ionen haben andere Eigenschaften."
+      ],
+      "solution": "Im Kochsalz liegen Cl⁻-Ionen vor. Sie haben ein Elektron mehr als das Chloratom und völlig andere Eigenschaften als das giftige Chlorgas Cl₂. Eigenschaften eines Elements auf seine Ionen zu übertragen ist einer der hartnäckigsten Fehlschlüsse.",
+      "misconceptions": [
+        {
+          "id": "ion_und_atom_verwechselt",
+          "value": 1,
+          "feedback": "Die Bestandteile bleiben als Ionen erhalten — mit anderen Eigenschaften als die Elemente.",
+          "konzeptfehler": "ion_und_atom_verwechselt"
+        }
+      ],
+      "tags": [
+        "ionen",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-TEIL"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 10,
+      "aufgaben": 19,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 11,
+      "aufgaben": 16,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 7,
+      "aufgaben": 17,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Ionen -Ladung",
+      "url": "https://learningapps.org/view1716021",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Positiv oder negativ? (Ionen)",
+      "url": "https://learningapps.org/view4897580",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 9,
+    "titel": "Chemische Bindungen",
+    "seiten_von": 109,
+    "seiten_bis": 114,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Ion"
+  }
+}

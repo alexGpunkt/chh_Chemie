@@ -1,0 +1,687 @@
+{
+  "unit": "SZ-03",
+  "title": "Verhältnisformeln aufstellen",
+  "leitidee": "B1",
+  "standards": [
+    "K1",
+    "K2.4",
+    "K3.4"
+  ],
+  "klasse": 8,
+  "wortspeicher": [
+    "die Verhältnisformel",
+    "der Ladungsausgleich",
+    "das Kation",
+    "das Anion",
+    "die Formeleinheit",
+    "die Nomenklatur"
+  ],
+  "worterklaerungen": {
+    "Verhältnisformel": "Sie nennt das kleinste Zahlenverhältnis der Ionen in einem Salz.",
+    "Ladungsausgleich": "Positive und negative Ladungen müssen sich zu null ergänzen."
+  },
+  "can_do": {
+    "A": "Ich stelle die Formel eines Salzes aus zwei einfach geladenen Ionen auf.",
+    "B": "Ich gleiche unterschiedliche Ladungen aus und benenne das Salz korrekt.",
+    "C": "Ich stelle Formeln mit mehratomigen Ionen auf und begründe die Klammersetzung."
+  },
+  "lernkarten": {
+    "A": {
+      "titel": "Plus und Minus müssen sich ausgleichen",
+      "hinfuehrung": "Ein Salz ist nach außen ungeladen.",
+      "erklaerung": [
+        "Die positiven und negativen Ladungen heben sich auf.",
+        "Bei 1+ und 1− kommt auf jedes Ion genau eines."
+      ],
+      "merke": "Die Summe der Ladungen muss null ergeben.",
+      "beispiel": {
+        "titel": "Kochsalz",
+        "aufgabe": "Na⁺ und Cl⁻ — welche Formel?",
+        "schritte": [
+          "1+ und 1− gleichen sich aus.",
+          "Also je ein Ion."
+        ],
+        "ergebnis": "NaCl"
+      },
+      "visual": {
+        "type": "teilchen",
+        "zustand": "fest",
+        "art": "ionen",
+        "alt": "Ionengitter aus abwechselnd positiven und negativen Ionen."
+      }
+    },
+    "B": {
+      "titel": "Wenn die Ladungen verschieden sind",
+      "hinfuehrung": "Sind die Ladungen unterschiedlich groß, braucht es mehr Ionen der einen Sorte. Die Regel dafür ist einfach und immer gleich.",
+      "erklaerung": [
+        "Schreibe beide Ionen mit ihrer Ladung auf: Ca²⁺ und Cl⁻.",
+        "Frage: Wie viele von jedem, damit die Summe null ergibt? Eine 2+ braucht zwei 1−.",
+        "Ergebnis: CaCl₂. Die Zahl steht als Index hinter dem Ion.",
+        "Der Name nennt zuerst das Metall, dann das Nichtmetall mit der Endung -id: Calciumchlorid."
+      ],
+      "merke": "Über Kreuz: Die Ladungszahl des einen wird zum Index des anderen — danach kürzen.",
+      "visual": {
+        "type": "animation",
+        "name": "ionenbildung",
+        "stufe": "B"
+      }
+    },
+    "C": {
+      "titel": "Mehratomige Ionen und Klammern",
+      "hinfuehrung": "Manche Ionen bestehen aus mehreren Atomen und bleiben als Einheit erhalten. Sobald mehrere davon gebraucht werden, ist eine Klammer nötig.",
+      "erklaerung": [
+        "Häufige mehratomige Ionen: Sulfat SO₄²⁻, Nitrat NO₃⁻, Carbonat CO₃²⁻, Hydroxid OH⁻, Ammonium NH₄⁺.",
+        "Werden zwei davon gebraucht, kommt die Klammer: Ca(OH)₂ bedeutet ein Calcium-Ion und zwei Hydroxid-Ionen.",
+        "Ohne Klammer stünde CaOH₂ — das wären ein O und zwei H, also etwas anderes.",
+        "Nach dem Ausgleich wird gekürzt: Mg²⁺ und O²⁻ ergeben nicht Mg₂O₂, sondern MgO. Eine Verhältnisformel nennt immer das kleinste Verhältnis."
+      ],
+      "merke": "Klammer, sobald ein mehratomiges Ion mehrfach vorkommt. Am Ende kürzen.",
+      "visual": {
+        "type": "teilchen",
+        "zustand": "fest",
+        "art": "ionen",
+        "alt": "Ionengitter mit abwechselnden Ladungen."
+      }
+    }
+  },
+  "formelkarte": {
+    "formeln": [
+      "NaCl · MgO · CaCl₂ · Al₂O₃ · Na₂SO₄ · Ca(OH)₂ · NH₄NO₃"
+    ],
+    "saetze": [
+      "Die Summe aller Ladungen muss null ergeben.",
+      "Über Kreuz: Ladungszahl des einen wird Index des anderen — dann kürzen.",
+      "Klammer, wenn ein mehratomiges Ion mehrfach vorkommt.",
+      "Ionen: SO₄²⁻ Sulfat · NO₃⁻ Nitrat · CO₃²⁻ Carbonat · OH⁻ Hydroxid · NH₄⁺ Ammonium."
+    ]
+  },
+  "videos": [
+    {
+      "titel": "Grundlagen der Salzbildung",
+      "url": "https://www.youtube.com/watch?v=KpPnlvsz3vc",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/UBYew-",
+      "embed": "https://app.lumi.education/api/v1/run/UBYew-/embed",
+      "stufe": "A",
+      "dauer_s": 750
+    },
+    {
+      "titel": "Benennung binärer Metall-Nichtmetall-Verbindungen",
+      "url": "https://www.youtube.com/watch?v=vJrP-h_dTUA",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/3fZncn",
+      "embed": "https://app.lumi.education/api/v1/run/3fZncn/embed",
+      "stufe": "B",
+      "dauer_s": 458
+    },
+    {
+      "titel": "Übung: Salzbildung aus Strontium und Chlor",
+      "url": "https://www.youtube.com/watch?v=J7ZqTq2ppuU",
+      "quelle": "Chemistry@home",
+      "lumi": "https://app.lumi.education/run/I9Yjmx",
+      "embed": "https://app.lumi.education/api/v1/run/I9Yjmx/embed",
+      "stufe": "B",
+      "dauer_s": 102
+    }
+  ],
+  "tasks": [
+    {
+      "id": "SZ03-A1-001",
+      "path": "A",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Na⁺ und Cl⁻ bilden ein Salz. Wie lautet die Formel?",
+      "options": [
+        "NaCl",
+        "Na₂Cl",
+        "NaCl₂"
+      ],
+      "answer": 0,
+      "hints": [
+        "1+ und 1− gleichen sich aus.",
+        "Also je ein Ion.",
+        "NaCl."
+      ],
+      "solution": "Eine positive und eine negative Ladung heben sich auf: NaCl.",
+      "tags": [
+        "formeln"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SZ03-A2-002",
+      "path": "A",
+      "step": 2,
+      "type": "choice",
+      "prompt": "K⁺ und Br⁻ bilden ein Salz. Wie lautet die Formel?",
+      "options": [
+        "KBr",
+        "K₂Br",
+        "KBr₂"
+      ],
+      "answer": 0,
+      "hints": [
+        "Beide sind einfach geladen.",
+        "Je ein Ion genügt.",
+        "KBr."
+      ],
+      "solution": "1+ und 1− gleichen sich aus: KBr, Kaliumbromid.",
+      "tags": [
+        "formeln"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SZ03-A3-003",
+      "path": "A",
+      "step": 3,
+      "type": "numeric",
+      "prompt": "Ca²⁺ und Cl⁻: Wie viele Chlorid-Ionen gehören zu einem Calcium-Ion?",
+      "answer": 2,
+      "tolerance": 0,
+      "hints": [
+        "Zwei positive Ladungen müssen ausgeglichen werden.",
+        "Jedes Cl⁻ bringt eine negative.",
+        "Also zwei."
+      ],
+      "solution": "Ca²⁺ trägt zwei positive Ladungen. Es braucht zwei Cl⁻: CaCl₂.",
+      "misconceptions": [
+        {
+          "id": "ladung_unvollstaendig",
+          "value": 1,
+          "feedback": "Ein Cl⁻ gleicht nur eine der beiden positiven Ladungen aus.",
+          "konzeptfehler": "ladung_unvollstaendig"
+        }
+      ],
+      "tags": [
+        "formeln"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SZ03-A4-004",
+      "path": "A",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Wie heißt die Verbindung aus Natrium und Chlor?",
+      "options": [
+        "Natriumchlorid",
+        "Chlornatrium",
+        "Natriumchlor"
+      ],
+      "answer": 0,
+      "hints": [
+        "Zuerst das Metall.",
+        "Dann das Nichtmetall mit -id.",
+        "Natriumchlorid."
+      ],
+      "solution": "Zuerst das Metall, dann das Nichtmetall mit der Endung -id: Natriumchlorid.",
+      "misconceptions": [
+        {
+          "id": "nomenklatur_falsch",
+          "value": 2,
+          "feedback": "Das Nichtmetall bekommt die Endung -id: Chlorid, nicht Chlor.",
+          "konzeptfehler": "nomenklatur_falsch"
+        }
+      ],
+      "tags": [
+        "formeln",
+        "namen"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SZ03-B1-005",
+      "path": "B",
+      "step": 1,
+      "type": "choice",
+      "prompt": "Mg²⁺ und O²⁻ bilden ein Salz. Wie lautet die Formel?",
+      "options": [
+        "MgO",
+        "Mg₂O₂",
+        "MgO₂"
+      ],
+      "answer": 0,
+      "hints": [
+        "Beide Ladungen sind zweifach.",
+        "Sie gleichen sich direkt aus.",
+        "Und dann wird gekürzt."
+      ],
+      "solution": "2+ und 2− gleichen sich direkt aus. Mg₂O₂ wäre nicht falsch gerechnet, aber eine Verhältnisformel nennt das kleinste Verhältnis: MgO.",
+      "misconceptions": [
+        {
+          "id": "nicht_gekuerzt",
+          "value": 1,
+          "feedback": "Richtig ausgeglichen, aber nicht gekürzt. Eine Verhältnisformel nennt das kleinste Verhältnis.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "formeln",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SZ03-B2-006",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Al³⁺ und O²⁻ bilden ein Salz. Wie lautet die Formel?",
+      "options": [
+        "Al₂O₃",
+        "AlO",
+        "Al₃O₂"
+      ],
+      "answer": 0,
+      "hints": [
+        "Suche das kleinste gemeinsame Vielfache von 3 und 2.",
+        "Das ist 6.",
+        "Zwei Al³⁺ ergeben 6+, drei O²⁻ ergeben 6−."
+      ],
+      "solution": "2 · (3+) = 6+ und 3 · (2−) = 6−. Die Formel lautet Al₂O₃, Aluminiumoxid.",
+      "misconceptions": [
+        {
+          "id": "ladung_unvollstaendig",
+          "value": 2,
+          "feedback": "Über Kreuz: die Ladungszahl des einen wird zum Index des anderen — also Al₂O₃, nicht Al₃O₂.",
+          "konzeptfehler": "ladung_unvollstaendig"
+        }
+      ],
+      "tags": [
+        "formeln",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SZ03-B2-007",
+      "path": "B",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Na⁺ und SO₄²⁻ bilden ein Salz. Wie lautet die Formel?",
+      "options": [
+        "Na₂SO₄",
+        "NaSO₄",
+        "Na(SO₄)₂"
+      ],
+      "answer": 0,
+      "hints": [
+        "Sulfat trägt zwei negative Ladungen.",
+        "Es braucht zwei Na⁺.",
+        "Na₂SO₄."
+      ],
+      "solution": "SO₄²⁻ braucht zwei Na⁺ zum Ausgleich: Na₂SO₄, Natriumsulfat. Eine Klammer ist nicht nötig, weil das Sulfat nur einmal vorkommt.",
+      "tags": [
+        "formeln",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SZ03-B3-008",
+      "path": "B",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Ca²⁺ und OH⁻ bilden ein Salz. Warum schreibt man Ca(OH)₂ und nicht CaOH₂?",
+      "options": [
+        "Die Klammer zeigt, dass zwei ganze OH-Einheiten gemeint sind.",
+        "Die Klammer ist nur Schmuck.",
+        "CaOH₂ wäre auch richtig."
+      ],
+      "answer": 0,
+      "hints": [
+        "Was würde CaOH₂ bedeuten?",
+        "Ein O und zwei H.",
+        "Gemeint sind aber zwei OH."
+      ],
+      "solution": "Ca(OH)₂ bedeutet zwei Hydroxid-Ionen, also zwei O und zwei H. CaOH₂ hieße ein O und zwei H — ein anderer Stoff. Die Klammer ist keine Formalität.",
+      "misconceptions": [
+        {
+          "id": "klammer_ignoriert",
+          "value": 2,
+          "feedback": "Ohne Klammer gilt der Index nur für das H. Gemeint sind zwei vollständige OH-Ionen.",
+          "konzeptfehler": "summenformel_falsch_gelesen"
+        }
+      ],
+      "tags": [
+        "formeln",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SZ03-B3-009",
+      "path": "B",
+      "step": 3,
+      "type": "assign",
+      "prompt": "Ordne jedem Ion seinen Namen zu.",
+      "slots": [
+        "SO₄²⁻",
+        "NO₃⁻",
+        "CO₃²⁻"
+      ],
+      "values": [
+        "Sulfat",
+        "Nitrat",
+        "Carbonat"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "hints": [
+        "Alle drei enthalten Sauerstoff.",
+        "Schwefel → Sulfat.",
+        "Stickstoff → Nitrat."
+      ],
+      "solution": "SO₄²⁻ Sulfat, NO₃⁻ Nitrat, CO₃²⁻ Carbonat.",
+      "tags": [
+        "formeln",
+        "namen",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SZ03-B4-010",
+      "path": "B",
+      "step": 4,
+      "type": "multi",
+      "prompt": "Stelle die Formeln auf.",
+      "fields": [
+        {
+          "label": "Zahl der Cl⁻ in der Verbindung mit Al³⁺",
+          "answer": 3,
+          "tolerance": 0
+        },
+        {
+          "label": "Zahl der Na⁺ in der Verbindung mit O²⁻",
+          "answer": 2,
+          "tolerance": 0
+        },
+        {
+          "label": "Zahl der NO₃⁻ in der Verbindung mit Ca²⁺",
+          "answer": 2,
+          "tolerance": 0
+        }
+      ],
+      "hints": [
+        "Die Summe der Ladungen muss null sein.",
+        "Al³⁺ braucht drei einfach negative Ionen.",
+        "Ca²⁺ braucht zwei Nitrat-Ionen."
+      ],
+      "solution": "AlCl₃ · Na₂O · Ca(NO₃)₂ — beim letzten ist die Klammer nötig, weil das Nitrat zweimal vorkommt.",
+      "tags": [
+        "formeln",
+        "bbr"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SZ03-C2-011",
+      "path": "C",
+      "step": 2,
+      "type": "choice",
+      "prompt": "Warum wird Mg₂O₂ zu MgO gekürzt, Al₂O₃ aber nicht weiter?",
+      "options": [
+        "Eine Verhältnisformel nennt das kleinste ganzzahlige Verhältnis; 2 : 3 lässt sich nicht kürzen.",
+        "Weil Al₂O₃ ein Molekül ist.",
+        "Weil Aluminium ein Metall ist."
+      ],
+      "answer": 0,
+      "hints": [
+        "Lässt sich 2 : 2 kürzen?",
+        "Ja, zu 1 : 1.",
+        "2 : 3 dagegen nicht."
+      ],
+      "solution": "2 : 2 lässt sich zu 1 : 1 kürzen, deshalb MgO. Das Verhältnis 2 : 3 ist bereits das kleinste ganzzahlige — Al₂O₃ bleibt stehen.",
+      "tags": [
+        "formeln",
+        "msa"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SZ03-C3-012",
+      "path": "C",
+      "step": 3,
+      "type": "multi",
+      "prompt": "Bestimme für Aluminiumsulfat aus Al³⁺ und SO₄²⁻.",
+      "fields": [
+        {
+          "label": "Zahl der Al³⁺",
+          "answer": 2,
+          "tolerance": 0
+        },
+        {
+          "label": "Zahl der SO₄²⁻",
+          "answer": 3,
+          "tolerance": 0
+        },
+        {
+          "label": "Zahl der Sauerstoffatome in der Formeleinheit",
+          "answer": 12,
+          "tolerance": 0
+        }
+      ],
+      "hints": [
+        "Kleinstes gemeinsames Vielfaches von 3 und 2 ist 6.",
+        "Zwei Al³⁺ und drei SO₄²⁻.",
+        "3 · 4 = 12 Sauerstoffatome."
+      ],
+      "solution": "Al₂(SO₄)₃\n2 · 3+ = 6+, 3 · 2− = 6−\nSauerstoff: 3 · 4 = 12 Atome",
+      "tags": [
+        "formeln",
+        "msa"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SZ03-C3-013",
+      "path": "C",
+      "step": 3,
+      "type": "choice",
+      "prompt": "Wie heißt die Verbindung Fe₂O₃, wenn Eisen darin dreifach positiv geladen ist?",
+      "options": [
+        "Eisen(III)-oxid",
+        "Eisenoxid",
+        "Dieisentrioxid"
+      ],
+      "answer": 0,
+      "hints": [
+        "Eisen kann verschiedene Ladungen bilden.",
+        "Deshalb wird sie im Namen angegeben.",
+        "In römischen Ziffern."
+      ],
+      "solution": "Weil Eisen mehrere Ionenladungen bilden kann, wird die Ladung im Namen angegeben: Eisen(III)-oxid. „Eisenoxid“ wäre nicht eindeutig — es gäbe auch Eisen(II)-oxid.",
+      "misconceptions": [
+        {
+          "id": "nomenklatur_falsch",
+          "value": 1,
+          "feedback": "Bei Metallen mit mehreren möglichen Ladungen muss die Ladung im Namen stehen.",
+          "konzeptfehler": "nomenklatur_falsch"
+        }
+      ],
+      "tags": [
+        "formeln",
+        "namen",
+        "msa"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    },
+    {
+      "id": "SZ03-C4-014",
+      "path": "C",
+      "step": 4,
+      "type": "choice",
+      "prompt": "Ein Schüler schreibt für Calciumchlorid „Ca₂Cl“. Wo liegt der Denkfehler?",
+      "options": [
+        "Er hat die Ladungszahlen vertauscht — die Zahl des einen Ions wird zum Index des anderen.",
+        "Nichts, die Formel ist richtig.",
+        "Er hat die Klammer vergessen."
+      ],
+      "answer": 0,
+      "hints": [
+        "Ca²⁺ und Cl⁻.",
+        "Wie viele Cl⁻ braucht ein Ca²⁺?",
+        "Zwei — die 2 gehört ans Chlorid."
+      ],
+      "solution": "Ca²⁺ trägt zwei positive Ladungen und braucht zwei Cl⁻: CaCl₂. In Ca₂Cl stünden vier positive gegen eine negative Ladung — der Ausgleich stimmt nicht.",
+      "misconceptions": [
+        {
+          "id": "ladung_unvollstaendig",
+          "value": 1,
+          "feedback": "Prüfe die Ladungssumme: 2 · (2+) und 1 · (1−) ergeben nicht null.",
+          "konzeptfehler": "ladung_unvollstaendig"
+        }
+      ],
+      "tags": [
+        "formeln",
+        "bewerten",
+        "msa"
+      ],
+      "spiral": [
+        "W-SYMB"
+      ]
+    }
+  ],
+  "mitschrift": {
+    "A": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 4
+        },
+        {
+          "art": "beispiel"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "B": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter",
+          "anzahl": 6
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 2
+        },
+        {
+          "art": "regel",
+          "anzahl": 2
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    },
+    "C": {
+      "punkte": [
+        {
+          "art": "merksatz"
+        },
+        {
+          "art": "fachwoerter"
+        },
+        {
+          "art": "eigene_worte",
+          "anzahl": 3
+        },
+        {
+          "art": "regel"
+        },
+        {
+          "art": "formeln"
+        },
+        {
+          "art": "pruefsatz"
+        }
+      ]
+    }
+  },
+  "zeitplan": {
+    "gesamt_min": 45,
+    "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
+    "A": {
+      "lernkarte": 5,
+      "video": 10,
+      "aufgaben": 19,
+      "mitschrift": 5,
+      "blatt": 6
+    },
+    "B": {
+      "lernkarte": 6,
+      "video": 11,
+      "aufgaben": 16,
+      "mitschrift": 6,
+      "blatt": 6
+    },
+    "C": {
+      "lernkarte": 7,
+      "video": 12,
+      "aufgaben": 12,
+      "mitschrift": 8,
+      "blatt": 6
+    }
+  },
+  "uebungslinks": [
+    {
+      "titel": "Verhältnisformeln von Salzen",
+      "url": "https://learningapps.org/view1800494",
+      "typ": "app",
+      "quelle": "LearningApps"
+    },
+    {
+      "titel": "Salze benennen",
+      "url": "https://learningapps.org/view1800701",
+      "typ": "app",
+      "quelle": "LearningApps"
+    }
+  ],
+  "lehrbuch": {
+    "kapitel": 10,
+    "titel": "Säuren, Laugen, Salze",
+    "seiten_von": 115,
+    "seiten_bis": 142,
+    "quelle": "Lehrbuch_Chemie.pdf",
+    "bezugswort": "Verhältnisformel"
+  }
+}
