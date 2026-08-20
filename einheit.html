@@ -49,6 +49,14 @@
   </div>
 </header>
 
+<nav class="lernreise" id="lernreise" aria-label="Dein Weg durch diese Einheit">
+  <ol>
+    <li data-phase="verstehen" aria-current="step"><span>1</span><b>Verstehen</b><small>Erklärung lesen</small></li>
+    <li data-phase="ueben"><span>2</span><b>Üben</b><small>Aufgaben lösen</small></li>
+    <li data-phase="sichern"><span>3</span><b>Sichern</b><small>Im Heft festhalten</small></li>
+  </ol>
+</nav>
+
 <!-- Der Zeitplan der Stunde: 45 Minuten ohne das Warm-up davor.
      Steht über der Bühne, weil er die Einteilung vorgibt, nicht bilanziert. -->
 <section class="zeitplan" id="zeitplan" hidden></section>
@@ -70,7 +78,7 @@
 
 <!-- Der Hefteintrag. Bewusst offen voreingestellt: Was ins Heft gehört,
      soll nicht erst aufgeklappt werden müssen. -->
-<details class="uebungskarte heftkarte" id="heftkarte" hidden open>
+<details class="uebungskarte heftkarte" id="heftkarte" hidden>
   <summary>Ins Heft · dein Skript zu dieser Einheit</summary>
   <div class="uebung-inhalt" id="heft-inhalt"></div>
 </details>
@@ -112,3 +120,4 @@
 <script src="assets/js/buch.js"></script>
 </body>
 </html>
+
