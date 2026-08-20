@@ -8,7 +8,7 @@
    Sonst sehen die Geräte weiter die alte Fassung.
    ============================================================ */
 
-const VERSION = 'chemie710-v4-lumi-warmup-skript';
+const VERSION = 'chemie710-v4-lernruhe';
 
 /* ---------- Was NICHT ins Offlinepaket gehört ----------
    Bis v2 lud jedes Schülergerät bei der Installation auch das
@@ -242,3 +242,4 @@ self.addEventListener('fetch', e => {
     }
   })());
 });
+
