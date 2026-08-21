@@ -151,7 +151,7 @@
         "kunststoffe"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -176,7 +176,7 @@
         "kunststoffe"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -201,7 +201,7 @@
         "kunststoffe"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -226,7 +226,7 @@
         "kunststoffe"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -252,7 +252,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -278,7 +278,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -304,7 +304,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -330,7 +330,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -365,7 +365,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -392,7 +392,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -418,7 +418,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -445,7 +445,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -613,9 +613,10 @@
   "lehrbuch": {
     "kapitel": 14,
     "titel": "Kunststoffe",
-    "seiten_von": 173,
-    "seiten_bis": 183,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Makromolekül"
+    "seiten_von": 174,
+    "seiten_bis": 179,
+    "abschnitt": "Polyester, Makromoleküle und Recycling",
+    "bezugswort": "Makromolekül",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

@@ -198,7 +198,7 @@
         "luft"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -220,7 +220,7 @@
         "luft"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -250,33 +250,35 @@
         "rechnen"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
-      "id": "GA01-A4-004",
+      "id": "GA01-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum erlischt eine Kerze in einem geschlossenen Glas?",
+      "prompt": "Aus welchen Hauptbestandteilen besteht trockene Luft ungefähr?",
       "options": [
-        "Der Sauerstoff im Glas ist verbraucht.",
-        "Der Stickstoff ist verbraucht.",
-        "Es wird zu warm."
+        "Etwa 78 % Stickstoff, 21 % Sauerstoff und rund 1 % Edelgase/weitere Gase; Kohlenstoffdioxid nur in sehr kleinem Anteil.",
+        "Der verfügbare Sauerstoff wird verbraucht; sinkt seine Konzentration ausreichend, kann die Verbrennung nicht weiterlaufen.",
+        "Fein verteiltes Material besitzt eine größere Oberfläche und kann schneller mit Sauerstoff reagieren."
       ],
       "answer": 0,
       "hints": [
-        "Welches Gas braucht die Verbrennung?",
-        "Sauerstoff.",
-        "Und im Glas ist nur wenig davon."
+        "Lies den Abschnitt „Zusammensetzung der Luft“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Nur der Sauerstoff wird bei der Verbrennung verbraucht. Ist er aufgebraucht, erlischt die Flamme — der Stickstoff bleibt übrig.",
+      "solution": "Etwa 78 % Stickstoff, 21 % Sauerstoff und rund 1 % Edelgase/weitere Gase; Kohlenstoffdioxid nur in sehr kleinem Anteil.",
       "tags": [
-        "luft"
+        "fragenkatalog",
+        "luft-verbrennung",
+        "niveau-a"
       ],
       "spiral": [
-        "W-GLEI"
-      ]
+        "K-REAK"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-036 · Lehrbuch PDF-S. 38–41"
     },
     {
       "id": "GA01-B1-005",
@@ -307,7 +309,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -331,8 +333,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES",
-        "W-EINH"
+        "K-SL",
+        "K-QUANT"
       ]
     },
     {
@@ -367,7 +369,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -408,7 +410,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -435,7 +437,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -469,7 +471,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -504,7 +506,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -539,7 +541,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -704,8 +706,9 @@
     "kapitel": 4,
     "titel": "Luft und Verbrennungen",
     "seiten_von": 38,
-    "seiten_bis": 57,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Gasgemisch"
+    "seiten_bis": 41,
+    "abschnitt": "Zusammensetzung der Luft",
+    "bezugswort": "Luftzusammensetzung",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

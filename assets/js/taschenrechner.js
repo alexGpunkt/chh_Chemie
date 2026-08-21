@@ -358,8 +358,7 @@ const Taschenrechner = (() => {
         unit: window.CHEMIE710_DIAGNOSE_STATE?.().unit || null
       });
       /* Der nächste Tastendruck beginnt eine neue Rechnung, ein Operator
-         rechnet dagegen mit dem Ergebnis weiter. Das ist das Verhalten,
-         das ein Taschenrechner aus dem Mathematikunterricht zeigt. */
+         rechnet dagegen mit dem Ergebnis weiter. */
       ausdruck = fuerFeld(wert).replace('-', '−');
       nachAuswertung = true;
     } catch (fehler) {

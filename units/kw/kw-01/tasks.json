@@ -140,7 +140,7 @@
         "organik"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -165,7 +165,7 @@
         "organik"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -199,7 +199,7 @@
         "organik"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -224,7 +224,7 @@
         "organik"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -259,7 +259,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -285,7 +285,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -311,7 +311,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -346,7 +346,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -372,7 +372,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -398,7 +398,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -425,7 +425,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -617,10 +617,11 @@
   ],
   "lehrbuch": {
     "kapitel": 12,
-    "titel": "Der Weg zur organischen Chemie",
+    "titel": "Kohlenwasserstoffe",
     "seiten_von": 147,
-    "seiten_bis": 162,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "organisch"
+    "seiten_bis": 150,
+    "abschnitt": "Der Weg zur organischen Chemie",
+    "bezugswort": "organisch",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

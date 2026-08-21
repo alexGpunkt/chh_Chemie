@@ -151,7 +151,7 @@
         "mehrwertig"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -176,7 +176,7 @@
         "mehrwertig"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -201,7 +201,7 @@
         "mehrwertig"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -226,7 +226,7 @@
         "mehrwertig"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -252,7 +252,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -278,7 +278,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -350,7 +350,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -376,7 +376,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -459,8 +459,8 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES",
-        "W-STOF"
+        "K-SL",
+        "K-STOF"
       ]
     },
     {
@@ -593,10 +593,11 @@
   ],
   "lehrbuch": {
     "kapitel": 13,
-    "titel": "Organische Säuren",
-    "seiten_von": 163,
-    "seiten_bis": 172,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "mehrwertig"
+    "titel": "Alkohole und organische Säuren",
+    "seiten_von": 162,
+    "seiten_bis": 163,
+    "abschnitt": "Alkanole mit mehreren OH-Gruppen",
+    "bezugswort": "mehrwertiger Alkohol",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

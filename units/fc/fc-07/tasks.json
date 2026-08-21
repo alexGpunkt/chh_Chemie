@@ -152,7 +152,7 @@
         "oxidation"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -186,7 +186,7 @@
         "fachsprache"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -220,33 +220,35 @@
         "oxidation"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
-      "id": "FC07-A4-004",
+      "id": "FC07-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Eine Kerze brennt in einem geschlossenen Glas und geht nach einiger Zeit aus. Warum?",
+      "prompt": "Was ist eine Oxidation im einfachen Sinn?",
       "options": [
-        "Der Sauerstoff ist verbraucht.",
-        "Das Wachs ist alle.",
-        "Es ist zu kalt geworden."
+        "Brennstoff, Sauerstoff und ausreichende Zünd-/Aktivierungsenergie.",
+        "Falsch. Bei chemischen Reaktionen werden Atome nur neu angeordnet.",
+        "Eine chemische Reaktion eines Stoffes mit Sauerstoff."
       ],
-      "answer": 0,
+      "answer": 2,
       "hints": [
-        "Was braucht die Verbrennung außer Wachs?",
-        "Sauerstoff.",
-        "Im Glas ist nur wenig davon."
+        "Lies den Abschnitt „Verbrennungen und Oxide“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Im geschlossenen Glas ist die Sauerstoffmenge begrenzt. Ist er verbraucht, erlischt die Flamme — obwohl noch Wachs da ist.",
+      "solution": "Eine chemische Reaktion eines Stoffes mit Sauerstoff.",
       "tags": [
-        "oxidation"
+        "fragenkatalog",
+        "luft-verbrennung",
+        "niveau-a"
       ],
       "spiral": [
-        "W-GLEI"
-      ]
+        "K-REAK"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-039 · Lehrbuch PDF-S. 41–44"
     },
     {
       "id": "FC07-B1-005",
@@ -282,7 +284,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -322,7 +324,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -360,7 +362,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -392,7 +394,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -424,7 +426,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -459,7 +461,7 @@
         "einordnen"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -497,7 +499,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -524,7 +526,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -567,8 +569,8 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI",
-        "W-RECH"
+        "K-REAK",
+        "K-QUANT"
       ]
     },
     {
@@ -606,7 +608,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     }
   ],
@@ -752,9 +754,10 @@
   "lehrbuch": {
     "kapitel": 4,
     "titel": "Luft und Verbrennungen",
-    "seiten_von": 38,
-    "seiten_bis": 57,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Oxidation"
+    "seiten_von": 41,
+    "seiten_bis": 44,
+    "abschnitt": "Verbrennungen und Oxide",
+    "bezugswort": "Oxid",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

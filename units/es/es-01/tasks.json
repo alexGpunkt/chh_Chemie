@@ -149,7 +149,7 @@
         "ester"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -174,7 +174,7 @@
         "ester"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -212,33 +212,35 @@
         "ester"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
-      "id": "ES01-A4-004",
+      "id": "ES01-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Wozu wird konzentrierte Schwefelsäure zugesetzt?",
+      "prompt": "Wie werden Ester benannt? Nenne beide gebräuchlichen Systeme.",
       "options": [
-        "Sie beschleunigt die Reaktion und entzieht Wasser.",
-        "Sie liefert den Alkohol.",
-        "Sie färbt den Ester."
+        "IUPAC: Alkohol-Rest als Substituent mit der Endung -yl, Säure-Rest als Stammname mit der Endung -oat → Methylethanoat, Ethylpropanoat. Ältere Schreibweise: „Alkansäurealkylester“ → Ethansäuremethylester, Butansäuremethylester.",
+        "Trivialname IUPAC-Name Formel Ameisensäure Methansäure HCOOH Essigsäure Ethansäure CH 3 COOH Buttersäure Butansäure C 3 H 7 COOH Oxalsäure Ethandisäure HOOC–COOH Acrylsäure Propensäure CH 2 =CH–COOH Glycol Ethan-1,2-diol HO–CH 2 –CH 2 …",
+        "Propan < Propan-2-on < Propansäure Propan: unpolares Molekül → nur schwache London-Dispersions-Kräfte. Propan-2-on (Aceton): polare Carbonylgruppe → zusätzlich Dipol-Dipol-Kräfte, aber keine Wasserstoffbrücken (kein H am O)."
       ],
       "answer": 0,
       "hints": [
-        "Sie wird nicht verbraucht.",
-        "Sie wirkt als Katalysator.",
-        "Und entzieht Wasser."
+        "Lies den Abschnitt „Esterbildung und Esternamen“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Die konzentrierte Schwefelsäure wirkt als Katalysator und entzieht zugleich das entstehende Wasser — beides erhöht die Ausbeute.",
+      "solution": "IUPAC: Alkohol-Rest als Substituent mit der Endung -yl, Säure-Rest als Stammname mit der Endung -oat → Methylethanoat, Ethylpropanoat. Ältere Schreibweise: „Alkansäurealkylester“ → Ethansäuremethylester, Butansäuremethylester. Ester aus Ethansäure + Methanol: Methylethanoat = Ethansäuremethylester Ester aus Propansäure + Ethanol: Ethylpropanoat = Propansäureethylester Merkhilfe: Der Name beginnt mit dem Alkohol teil und endet mit dem Säure teil.",
       "tags": [
-        "ester"
+        "fragenkatalog",
+        "sauerstoffhaltige-organische-verbindungen-und-ester",
+        "niveau-a"
       ],
       "spiral": [
-        "W-GLEI"
-      ]
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d4-5 · Lehrbuch PDF-S. 166–169"
     },
     {
       "id": "ES01-B1-005",
@@ -272,7 +274,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -298,7 +300,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -324,7 +326,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -358,7 +360,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -382,34 +384,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
-      "id": "ES01-B4-010",
+      "id": "ES01-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum wird der Katalysator nicht verbraucht?",
+      "prompt": "Welche Stoffklassen reagieren bei einer Veresterung und welche kleine Verbindung wird abgespalten?",
       "options": [
-        "Er geht aus der Reaktion unverändert hervor.",
-        "Er wird nur wenig eingesetzt.",
-        "Er verdampft."
+        "Elektrophile („elektronenliebend“) sind positiv geladen oder weisen eine starke positive Partialladung auf – sie haben ein Elektronendefizit.",
+        "Alkohol-Moleküle besitzen mit der Hydroxygruppe einen polaren (hydrophilen) Molekülabschnitt, der mit Wasser Wasserstoffbrücken bilden kann, und mit dem Kohlenstoffgerüst einen unpolaren (lipophilen) Abschnitt.",
+        "Alkan < Ester < Alkohol < Carbonsäure Ester sieden höher als Alkane, weil neben London-Dispersions-WW auch schwache Dipol-Dipol-WW an der Estergruppe auftreten.",
+        "Carbonsäure und Alkohol reagieren zu Ester und Wasser."
       ],
-      "answer": 0,
+      "answer": 3,
       "hints": [
-        "Was ist die Definition eines Katalysators?",
-        "Er beschleunigt und bleibt erhalten.",
-        "Unverändert."
+        "Prüfe jede Aussage mit dem Abschnitt „Esterbildung und Esternamen“ (PDF-S. 166–169)."
       ],
-      "solution": "Ein Katalysator beschleunigt die Reaktion und liegt danach unverändert vor. Deshalb genügt eine kleine Menge für sehr viele Umsetzungen.",
+      "solution": "Carbonsäure und Alkohol reagieren zu Ester und Wasser.",
       "tags": [
+        "fragenkatalog",
         "ester",
-        "bbr"
+        "niveau-b"
       ],
       "spiral": [
-        "W-GLEI"
-      ]
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-077 · Lehrbuch PDF-S. 166–169"
     },
     {
       "id": "ES01-C2-011",
@@ -434,7 +437,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -475,8 +478,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -510,7 +513,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -550,7 +553,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     }
   ],
@@ -675,10 +678,11 @@
   ],
   "lehrbuch": {
     "kapitel": 13,
-    "titel": "Organische Säuren",
-    "seiten_von": 163,
-    "seiten_bis": 172,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Veresterung"
+    "titel": "Alkohole und organische Säuren",
+    "seiten_von": 166,
+    "seiten_bis": 169,
+    "abschnitt": "Esterbildung und Esternamen",
+    "bezugswort": "Veresterung",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

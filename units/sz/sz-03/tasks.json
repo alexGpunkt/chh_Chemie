@@ -147,7 +147,7 @@
         "formeln"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -172,7 +172,7 @@
         "formeln"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -201,42 +201,35 @@
         "formeln"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
-      "id": "SZ03-A4-004",
+      "id": "SZ03-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Wie heißt die Verbindung aus Natrium und Chlor?",
+      "prompt": "Unterscheide Molekülformel und Verhältnisformel. Was bedeuten Index und Koeffizient?",
       "options": [
-        "Natriumchlorid",
-        "Chlornatrium",
-        "Natriumchlor"
+        "Molekülformel: gibt an, aus wie vielen Atomen jeder Sorte ein Molekül besteht (Nichtmetall-Nichtmetall-Verbindung), z. B. CO 2. Verhältnisformel: gibt das Zahlenverhältnis der Ionen in einem Salz an (Metall-Nichtmetall-Verbindung), z.",
+        "Allgemeine Molekülformel: C n H 2n+2 n Name Formel n Name Formel 1 Methan CH 4 6 Hexan C 6 H 14 2 Ethan C 2 H 6 7 Heptan C 7 H 16 3 Propan C 3 H 8 8 Octan C 8 H 18 4 Butan C 4 H 10 9 Nonan C 9 H 20 5 Pentan C 5 H 12 10 Decan C 10 H 22 …",
+        "Wortgleichung aufstellen: Stickstoff + Sauerstoff → Stickstoffmonooxid Formeln für Edukte und Produkte ermitteln: N 2 + O 2 → NO Ausgleichen nur über Koeffizienten: N 2 + O 2 → 2 NO Kontrolle: links und rechts gleich viele Atome jeder …"
       ],
       "answer": 0,
       "hints": [
-        "Zuerst das Metall.",
-        "Dann das Nichtmetall mit -id.",
-        "Natriumchlorid."
+        "Lies den Abschnitt „Ionenladungen und Verhältnisformeln“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Zuerst das Metall, dann das Nichtmetall mit der Endung -id: Natriumchlorid.",
-      "misconceptions": [
-        {
-          "id": "nomenklatur_falsch",
-          "value": 2,
-          "feedback": "Das Nichtmetall bekommt die Endung -id: Chlorid, nicht Chlor.",
-          "konzeptfehler": "nomenklatur_falsch"
-        }
-      ],
+      "solution": "Molekülformel: gibt an, aus wie vielen Atomen jeder Sorte ein Molekül besteht (Nichtmetall-Nichtmetall-Verbindung), z. B. CO 2. Verhältnisformel: gibt das Zahlenverhältnis der Ionen in einem Salz an (Metall-Nichtmetall-Verbindung), z. B. NaCl (1:1), CaF 2 (1:2). Index = tiefgestellte Zahl hinter einem Symbol; gibt die Atom- bzw. Ionenzahl im Teilchen an und bleibt beim Ausgleichen immer unverändert. Koeffizient = Zahl vor der Formel; gibt die Anzahl der Teilchen an und wird beim Ausgleichen verändert. 4 SO 3 → 4 = Koeffizient (4 Teilchen SO 3 ), 3 = Index (3 O-Atome je Teilchen) Molekül-Ionen mit Index ≥ 2 stehen in Klammern: Al(OH) 3, (NH 4 ) 2 CO 3.",
       "tags": [
-        "formeln",
-        "namen"
+        "fragenkatalog",
+        "formelsprache-nomenklatur-reaktionsgleichungen",
+        "niveau-a"
       ],
       "spiral": [
-        "W-SYMB"
-      ]
+        "K-BIND"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-b5-1 · Lehrbuch PDF-S. 103–106"
     },
     {
       "id": "SZ03-B1-005",
@@ -269,7 +262,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -303,7 +296,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -329,7 +322,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -363,7 +356,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -399,7 +392,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -436,7 +429,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -462,7 +455,7 @@
         "msa"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -499,7 +492,7 @@
         "msa"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -534,43 +527,35 @@
         "msa"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
-      "id": "SZ03-C4-014",
+      "id": "SZ03-C4-KAT",
       "path": "C",
       "step": 4,
       "type": "choice",
-      "prompt": "Ein Schüler schreibt für Calciumchlorid „Ca₂Cl“. Wo liegt der Denkfehler?",
+      "prompt": "Wie ermittelst du die Ionenladung eines Nebengruppenmetalls aus der Verhältnisformel?",
       "options": [
-        "Er hat die Ladungszahlen vertauscht — die Zahl des einen Ions wird zum Index des anderen.",
-        "Nichts, die Formel ist richtig.",
-        "Er hat die Klammer vergessen."
+        "Man prüft im PSE, ob ein Metall beteiligt ist: Nichtmetall + Nichtmetall → Verbindungsmolekül → griechische Zahlwörter (z. B. C 2 N 5 = Dikohlenstoffpentanitrid, N 2 O 7 = Distickstoffheptaoxid).",
+        "Salzname = Name des Metalls (+ Wertigkeit) + Stammname des Nichtmetalls + „-id“ Bei Molekül-Ionen: Name des Metalls + Name des Molekül-Ions (-at, -it, -hydroxid …) Bei Salzen werden keine griechischen Zahlwörter verwendet.",
+        "Ein Salz ist nach außen elektrisch neutral – die Summe der positiven und negativen Ladungen ist gleich. Man bestimmt zuerst die (bekannte) Anionenladung und rechnet die Kationenladung aus.",
+        "Trivialname Formel Trivialname Formel Wasser H 2 O Ammoniak NH 3 Methan CH 4 Kohlenstoffdioxid CO 2 Wasserstoffperoxid H 2 O 2 Kochsalz NaCl Kalk CaCO 3 Soda Na 2 CO 3 Gips CaSO 4 Schwefelsäure H 2 SO 4"
       ],
-      "answer": 0,
+      "answer": 2,
       "hints": [
-        "Ca²⁺ und Cl⁻.",
-        "Wie viele Cl⁻ braucht ein Ca²⁺?",
-        "Zwei — die 2 gehört ans Chlorid."
+        "Prüfe jede Aussage mit dem Abschnitt „Ionenladungen und Verhältnisformeln“ (PDF-S. 103–106)."
       ],
-      "solution": "Ca²⁺ trägt zwei positive Ladungen und braucht zwei Cl⁻: CaCl₂. In Ca₂Cl stünden vier positive gegen eine negative Ladung — der Ausgleich stimmt nicht.",
-      "misconceptions": [
-        {
-          "id": "ladung_unvollstaendig",
-          "value": 1,
-          "feedback": "Prüfe die Ladungssumme: 2 · (2+) und 1 · (1−) ergeben nicht null.",
-          "konzeptfehler": "ladung_unvollstaendig"
-        }
-      ],
+      "solution": "Ein Salz ist nach außen elektrisch neutral – die Summe der positiven und negativen Ladungen ist gleich. Man bestimmt zuerst die (bekannte) Anionenladung und rechnet die Kationenladung aus. Cu 2 O 3: Oxid-Ion ist O 2− → 3 · (−2) = −6 → auf 2 Kupfer-Ionen verteilt → je +3 → Kupfer(III)-oxid. FeF: Fluorid ist F −, Verhältnis 1:1 → Fe muss +1 sein → Eisen(I)-fluorid. Cu 2 (SO 4 ) 3: Sulfat ist SO 4 2− → 3 · (−2) = −6 → 2 Cu je +3 → Kupfer(III)-sulfat.",
       "tags": [
-        "formeln",
-        "bewerten",
-        "msa"
+        "fragenkatalog",
+        "formelsprache-nomenklatur-reaktionsgleichungen",
+        "niveau-c"
       ],
       "spiral": [
-        "W-SYMB"
-      ]
+        "K-BIND"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-b5-5 · Lehrbuch PDF-S. 103–106"
     }
   ],
   "mitschrift": {
@@ -677,11 +662,12 @@
     }
   ],
   "lehrbuch": {
-    "kapitel": 10,
-    "titel": "Säuren, Laugen, Salze",
-    "seiten_von": 115,
-    "seiten_bis": 142,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Verhältnisformel"
+    "kapitel": 9,
+    "titel": "Chemische Bindungen",
+    "seiten_von": 103,
+    "seiten_bis": 106,
+    "abschnitt": "Ionenladungen und Verhältnisformeln",
+    "bezugswort": "Verhältnisformel",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

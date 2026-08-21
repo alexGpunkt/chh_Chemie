@@ -143,7 +143,7 @@
         "gasvolumen"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -165,7 +165,7 @@
         "gasvolumen"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -194,41 +194,35 @@
         "gasvolumen"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
-      "id": "QB04-A4-004",
+      "id": "QB04-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "1 mol Wasserstoff und 1 mol Kohlenstoffdioxid — welches Gas nimmt mehr Volumen ein?",
+      "prompt": "Berechne das Volumen von 10 g Kohlenstoffdioxid unter Normbedingungen.",
       "options": [
-        "beide gleich viel",
-        "Wasserstoff",
-        "Kohlenstoffdioxid"
+        "Geg.: m(CO 2 ) = 10 g; M(CO 2 ) = 44 g/mol; V m = 22,4 L/mol Ges.: V(CO 2 ) n(CO 2 ) = m(CO 2 ) / M(CO 2 ) = 10 g / 44 g/mol = 0,23 mol V(CO 2 ) = n(CO 2 ) · V m = 0,23 mol · 22,4 L/mol = 5,2 L Antwort: 10 g Kohlenstoffdioxid nehmen …",
+        "Geg.: m(H 2 O) = 18 g; M(H 2 O) = 18 g/mol; N A = 6,022·10 23 mol −1 Ges.: N(H 2 O) n(H 2 O) = m / M = 18 g / 18 g/mol = 1 mol N(H 2 O) = n · N A = 1 mol · 6,022·10 23 mol −1 = 6,022·10 23 Antwort: In 18 g Wasser sind etwa 6,022 · 10 …",
+        "Fe + S → FeS 1 mol: 1 mol: 1 mol n(Fe) = m(Fe)/M(Fe) = 10 g / 56 g/mol = 0,178 mol n(S) = 1/1 · n(Fe) = 0,178 mol m(S) = n(S) · M(S) = 0,178 mol · 32 g/mol = 5,7 g Antwort: Man benötigt rund 5,7 g Schwefel, um 10 g Eisen vollständig …"
       ],
       "answer": 0,
       "hints": [
-        "Wie groß ist das molare Volumen bei Gasen?",
-        "Für jedes Gas gleich.",
-        "22,4 L."
+        "Lies den Abschnitt „Molares Volumen von Gasen“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Beide nehmen 22,4 L ein. Das molare Volumen ist für alle Gase gleich — verschieden ist nur die Masse.",
-      "misconceptions": [
-        {
-          "id": "teilchen_traegt_stoffeigenschaft",
-          "value": 2,
-          "feedback": "Die Teilchengröße spielt im Gas fast keine Rolle. Beide nehmen 22,4 L ein.",
-          "konzeptfehler": "teilchen_traegt_stoffeigenschaft"
-        }
-      ],
+      "solution": "Geg.: m(CO 2 ) = 10 g; M(CO 2 ) = 44 g/mol; V m = 22,4 L/mol Ges.: V(CO 2 ) n(CO 2 ) = m(CO 2 ) / M(CO 2 ) = 10 g / 44 g/mol = 0,23 mol V(CO 2 ) = n(CO 2 ) · V m = 0,23 mol · 22,4 L/mol = 5,2 L Antwort: 10 g Kohlenstoffdioxid nehmen unter Normbedingungen ein Volumen von 5,2 L ein. Formalia: Immer alle verwendeten Formeln angeben, den Stoffbezug in Klammern mitschreiben und mit einem Antwortsatz abschließen.",
       "tags": [
-        "gasvolumen"
+        "fragenkatalog",
+        "quantitative-chemie-und-stoechiometrie",
+        "niveau-a"
       ],
       "spiral": [
-        "W-RECH"
-      ]
+        "K-QUANT"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-b6-5 · Lehrbuch PDF-S. 61–63"
     },
     {
       "id": "QB04-B1-005",
@@ -250,7 +244,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -273,7 +267,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -296,7 +290,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -327,7 +321,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -354,7 +348,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -388,7 +382,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -420,7 +414,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -460,8 +454,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -495,39 +489,35 @@
         "msa"
       ],
       "spiral": [
-        "W-EINH"
+        "K-QUANT"
       ]
     },
     {
-      "id": "QB04-C4-014",
+      "id": "QB04-C4-KAT",
       "path": "C",
       "step": 4,
-      "type": "numeric",
-      "prompt": "2,4 g Magnesium (M = 24 g/mol) reagieren mit Säure: Mg + 2 HCl → MgCl₂ + H₂. Welches Wasserstoffvolumen entsteht bei Normbedingungen?",
-      "answer": 2.24,
-      "unit_label": "L",
-      "tolerance": 0.1,
+      "type": "choice",
+      "prompt": "Es werden 330 g Butan vollständig verbrannt. Berechne das dafür nötige Sauerstoffvolumen (Normbedingungen).",
+      "options": [
+        "Es entsteht ein Triglycerid: Glycerin, dessen drei Hydroxygruppen über Esterbindungen mit zwei Stearinsäure-Resten (C 17 H 35 –COOH, gesättigt) und einem Ölsäure-Rest (C 17 H 33 –COOH, einfach ungesättigt, Z-konfiguriert) verknüpft …",
+        "Geg.: m(H 2 O) = 18 g; M(H 2 O) = 18 g/mol; N A = 6,022·10 23 mol −1 Ges.: N(H 2 O) n(H 2 O) = m / M = 18 g / 18 g/mol = 1 mol N(H 2 O) = n · N A = 1 mol · 6,022·10 23 mol −1 = 6,022·10 23 Antwort: In 18 g Wasser sind etwa 6,022 · 10 …",
+        "2 C 4 H 10 + 13 O 2 → 8 CO 2 + 10 H 2 O 2 mol: 13 mol M(C 4 H 10 ) = 4·12 + 10·1 = 58 g/mol n(C 4 H 10 ) = 330 g / 58 g/mol = 5,69 mol n(O 2 ) = 13/2 · n(C 4 H 10 ) = 6,5 · 5,69 mol = 37,0 mol V(O 2 ) = n · V m = 37,0 mol · 22,4 L/mol …",
+        "O H O H ‖ | ‖ | H 2 N—CH—C——N—CH—C——N—CH—COOH + 2 H 2 O | | | CH 3 CH 2 OH CH 2 COOH Alanin Serin Asparaginsäure Die beiden Peptidbindungen (–CO–NH–) entstehen jeweils durch Kondensation zwischen der Carboxygruppe der einen und der …"
+      ],
+      "answer": 2,
       "hints": [
-        "n(Mg) = 2,4 : 24 = 0,1 mol.",
-        "Auf 1 Mg kommt 1 H₂, also 0,1 mol.",
-        "V = 0,1 · 22,4."
+        "Prüfe jede Aussage mit dem Abschnitt „Molares Volumen von Gasen“ (PDF-S. 61–63)."
       ],
-      "solution": "n(Mg) = 2,4 g : 24 g/mol = 0,1 mol\nn(H₂) = 0,1 mol\nV = 0,1 · 22,4 L/mol = 2,24 L",
-      "misconceptions": [
-        {
-          "id": "masse_direkt_uebertragen",
-          "value": 2.4,
-          "feedback": "2,4 ist die Masse des Magnesiums. Rechne über die Stoffmenge zum Gasvolumen."
-        }
-      ],
+      "solution": "2 C 4 H 10 + 13 O 2 → 8 CO 2 + 10 H 2 O 2 mol: 13 mol M(C 4 H 10 ) = 4·12 + 10·1 = 58 g/mol n(C 4 H 10 ) = 330 g / 58 g/mol = 5,69 mol n(O 2 ) = 13/2 · n(C 4 H 10 ) = 6,5 · 5,69 mol = 37,0 mol V(O 2 ) = n · V m = 37,0 mol · 22,4 L/mol = 829 L Antwort: Für die vollständige Verbrennung von 330 g Butan werden etwa 829 Liter Sauerstoff benötigt (das entspricht etwa 3950 L Luft).",
       "tags": [
-        "gasvolumen",
-        "msa"
+        "fragenkatalog",
+        "rechen-und-anwendungsaufgaben",
+        "niveau-c"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
-      ]
+        "K-QUANT"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-h-2 · Lehrbuch PDF-S. 61–63"
     }
   ],
   "mitschrift": {
@@ -636,9 +626,10 @@
   "lehrbuch": {
     "kapitel": 5,
     "titel": "Die chemische Reaktion",
-    "seiten_von": 58,
-    "seiten_bis": 65,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "molare Volumen"
+    "seiten_von": 61,
+    "seiten_bis": 63,
+    "abschnitt": "Molares Volumen von Gasen",
+    "bezugswort": "molares Volumen",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

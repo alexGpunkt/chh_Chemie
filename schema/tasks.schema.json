@@ -153,7 +153,8 @@
         "kapitel",
         "titel",
         "seiten_von",
-        "seiten_bis"
+        "seiten_bis",
+        "abschnitt"
       ],
       "additionalProperties": false,
       "properties": {
@@ -179,9 +180,30 @@
         "quelle": {
           "type": "string"
         },
+        "abschnitt": {
+          "type": "string",
+          "minLength": 3,
+          "description": "Konkreter Unterabschnitt innerhalb des Kapitels; wird auf der Lehrbuchkarte angezeigt."
+        },
         "bezugswort": {
           "type": "string",
           "description": "Das Fachwort, an dem der Auftrag auf Lernweg B hängt. Den Satz baut engine.js (lehrbuchAuftrag) — die Vorlage steht einmal im Code, nicht 76-mal in den Daten."
+        },
+        "weitere_stellen": {
+          "type": "array",
+          "description": "Zusätzliche konkrete Fundstellen für Querschnitts- und Wiederholungseinheiten.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["kapitel", "titel", "seiten_von", "seiten_bis", "abschnitt"],
+            "properties": {
+              "kapitel": { "type": "integer", "minimum": 1, "maximum": 16 },
+              "titel": { "type": "string", "minLength": 3 },
+              "seiten_von": { "type": "integer", "minimum": 1, "maximum": 232 },
+              "seiten_bis": { "type": "integer", "minimum": 1, "maximum": 232 },
+              "abschnitt": { "type": "string", "minLength": 3 }
+            }
+          }
         }
       }
     },
@@ -1046,17 +1068,17 @@
         "url": {
           "type": "string",
           "pattern": "^https://www\\.youtube\\.com/watch\\?v=[A-Za-z0-9_-]{11}$",
-          "description": "Die Adresse des Originalfilms. Sie wird nicht mehr angezeigt, sondern dient der Herkunftsangabe und dem Abgleich mit videos-quellen.csv."
+          "description": "Die Adresse des Originalfilms und der zuverlässige Hauptzugang. Aus ihrer YouTube-ID baut engine.js zusätzlich eine youtube-nocookie-Einbettung; außerdem dient sie dem Abgleich mit videos-quellen.csv."
         },
         "lumi": {
           "type": "string",
           "pattern": "^https://app\\.lumi\\.education/run/[A-Za-z0-9_-]{4,32}$",
-          "description": "Die mit Lernaktivitäten angereicherte Fassung. Wird nur als Ausweichweg verlinkt, falls der eingebettete Rahmen am Gerät leer bleibt."
+          "description": "Die mit Lernaktivitäten angereicherte Fassung. Sie bleibt als optionale externe Alternative verlinkt; der Hauptzugang ist die Originaladresse unter url."
         },
         "embed": {
           "type": "string",
           "pattern": "^https://app\\.lumi\\.education/api/v1/run/[A-Za-z0-9_-]{4,32}/embed$",
-          "description": "Die Einbettadresse. Nur sie wird in den Rahmen geladen — und erst, wenn jemand auf „Video starten“ drückt."
+          "description": "Die frühere Lumi-Einbettadresse. Sie bleibt für Herkunft und Prüfung erhalten, wird wegen des schwarzen H5P-Players aber nicht mehr als primärer Rahmen geladen."
         },
         "stufe": {
           "enum": [
@@ -1106,7 +1128,7 @@
         "url": {
           "type": "string",
           "pattern": "^https://www\\.youtube\\.com/watch\\?v=[A-Za-z0-9_-]{11}$",
-          "description": "Herkunftsangabe. Aufgerufen wird sie nicht — geladen wird immer die Adresse aus \"embed\"."
+          "description": "Herkunftsangabe und zuverlässiger Hauptzugang; daraus wird zusätzlich die optionale youtube-nocookie-Einbettung gebaut."
         },
         "quelle": {
           "type": "string",
@@ -1125,7 +1147,7 @@
         },
         "protokoll": {
           "type": "boolean",
-          "description": "true = mit Lumi angereicherte Fassung; das Video hält von selbst an und führt durch Materialien, Aufbau, Durchführung und Beobachtung. false = reiner Film, dann trägt \"beobachtung\" den Arbeitsauftrag."
+          "description": "true = zu diesem Film existiert zusätzlich eine Lumi-Fassung; die Anwendung zeigt für den YouTube-Direktfilm einen allgemeinen Protokollauftrag. false = reiner Film, dann trägt \"beobachtung\" den niveaugerechten Arbeitsauftrag."
         },
         "lumi": {
           "type": "string",
@@ -1134,7 +1156,7 @@
         "embed": {
           "type": "string",
           "pattern": "^https://(app\\.lumi\\.education/api/v1/run/[A-Za-z0-9_-]{4,32}/embed|www\\.youtube-nocookie\\.com/embed/[A-Za-z0-9_-]{11})$",
-          "description": "Entweder die Lumi-Einbettadresse oder die cookiefreie Einbettadresse von YouTube. Beide laufen im Rahmen der Seite; geladen wird erst auf Klick."
+          "description": "Historische Lumi- oder direkte YouTube-Einbettadresse. Der Hauptzugang ist heute der Originalfilm aus \"url\"; die Einbettung wird erst auf Klick versucht."
         },
         "beobachtung": {
           "type": "object",

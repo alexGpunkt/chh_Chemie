@@ -303,6 +303,7 @@ async function start() {
   Tracker.setContext({ page: S.daten.pruefung ? 'pruefung' : 'einheit', unit: S.daten.unit, path: S.pfad });
   kopfBauen();
   formelkarteBauen();
+  themeninfoBauen();
   uebungskarteBauen();
   videokarteBauen();
   blattkarteBauen();
@@ -323,7 +324,7 @@ async function start() {
       Lernmodus.starten(S.daten.unit ? String(S.daten.unit).toLowerCase() : null)
     ).then(() => {
       const id = String(S.daten.unit || '').toLowerCase();
-      const verbergen = () => ['#uebungskarte', '#videokarte', '#heftkarte', '#zeitplan', '#blattkarte',
+      const verbergen = () => ['#themeninfo', '#uebungskarte', '#videokarte', '#heftkarte', '#zeitplan', '#blattkarte',
          '#versuchskarte', '#lehrbuchkarte']
         .forEach(w => document.querySelector(w)?.setAttribute('hidden', ''));
 
@@ -435,6 +436,7 @@ function pfadSetzen(p, stand, ziel) {
      Wechsel von B auf A weiter das B-Blatt, die für den Basisweg
      ausgeblendeten Sammlungen und einen zu langen Hefteintrag. */
   videokarteBauen();
+  themeninfoBauen();
   uebungskarteBauen();
   blattkarteBauen();
   zeitplanBauen();
@@ -552,6 +554,62 @@ function pfadSetzen(p, stand, ziel) {
    modus = 'wieder' → Knopf „Zurück zu den Aufgaben" kehrt zur laufenden
                       Aufgabe zurück, ohne den Fortschritt zu verlieren. */
 const NIVEAU = { A: 'Basis', B: 'Standard', C: 'Vertiefung' };
+
+/* Die Lernkarte ist der geführte Einstieg. Sobald die Aufgaben beginnen,
+   darf ihr Fachtext aber nicht verschwinden. Diese zweite, kompakte Fassung
+   bleibt unter dem Arbeitsbereich sichtbar und wird beim Wechsel des
+   Lernwegs aus denselben geprüften Daten neu gebaut. Damit besitzt jede der
+   76 Einheiten auf A, B und C einen schriftlichen Nachschlagebereich, ohne
+   denselben Inhalt ein zweites Mal in den JSON-Dateien zu pflegen. */
+function themeninfoBauen() {
+  const box = $('#themeninfo');
+  if (!box) return;
+  const lk = S.daten?.lernkarten?.[S.pfad];
+  if (!lk || S.daten.pruefung) {
+    box.hidden = true;
+    box.replaceChildren();
+    return;
+  }
+
+  box.replaceChildren();
+  box.hidden = false;
+
+  const kopf = el('div', 'themeninfo-kopf');
+  const text = el('div');
+  text.append(el('span', 'themeninfo-stufe', `Kurz erklärt · Pfad ${S.pfad} · ${NIVEAU[S.pfad] || ''}`));
+  const titel = el('h2', 'themeninfo-titel', lk.titel || S.daten.title);
+  titel.id = 'themeninfo-titel';
+  text.append(titel);
+  kopf.append(text);
+  box.append(kopf);
+
+  if (lk.hinfuehrung) {
+    const intro = el('p', 'themeninfo-einleitung');
+    intro.innerHTML = markiereWorte(lk.hinfuehrung);
+    box.append(intro);
+  }
+
+  const punkte = el('ul', 'themeninfo-punkte');
+  (lk.erklaerung || []).forEach(absatz => {
+    const li = el('li');
+    li.innerHTML = markiereWorte(absatz);
+    punkte.append(li);
+  });
+  if (punkte.children.length) box.append(punkte);
+
+  if (lk.merke) {
+    const merke = el('div', 'themeninfo-merke');
+    merke.innerHTML = '<b>Merke:</b> ' + markiereWorte(lk.merke);
+    box.append(merke);
+  }
+
+  const ziel = S.daten?.can_do?.[S.pfad];
+  if (ziel) {
+    const z = el('p', 'themeninfo-ziel');
+    z.innerHTML = '<b>Dein Ziel:</b> ' + markiereWorte(ziel);
+    box.append(z);
+  }
+}
 
 function lernphaseSetzen(phase) {
   const reise = document.querySelector('#lernreise');
@@ -741,7 +799,7 @@ function beispielBlock(bsp) {
    Vorrang hat die Angabe der fachlichen Autorenschaft in der tasks.json:
 
      "beispiel": { "schritte": [...],
-                   "luecke": { "schritt": 2, "wert": 60, "einheit": "€" } }
+                   "luecke": { "schritt": 2, "wert": 60, "einheit": "g" } }
 
    Damit entscheidet nicht mehr eine Zeichenkettenregel, welcher Wert
    ergänzt werden soll. Fehlt das Feld, greift wie bisher die Heuristik auf
@@ -773,8 +831,8 @@ function lueckeBestimmen(bsp) {
     : null;
 }
 
-/* Trennt die letzte Zahl einer Zeile ab — funktioniert bei „= 15 cm²"
-   genauso wie bei „· 8   8 Brötchen → 3,20 €". */
+/* Trennt die letzte Zahl einer Zeile ab — funktioniert bei „= 15 g"
+   genauso wie bei „n = m : M = 0,25 mol". */
 function letzteZahlTrennen(zeile) {
   const treffer = [...String(zeile).matchAll(/[−-]?\d[\d.,]*/g)];
   if (!treffer.length) return null;
@@ -1021,8 +1079,8 @@ function regexSicher(text) {
    das Wort selbst. Jetzt lässt sich jedes markierte Wort antippen und
    erklärt sich in einem Satz. Die Sätze stehen in der tasks.json:
 
-     "wortspeicher": ["der Grundwert", …],
-     "worterklaerungen": { "Grundwert": "Das Ganze. Der Grundwert sind 100 %." }
+     "wortspeicher": ["die Stoffmenge", …],
+     "worterklaerungen": { "Stoffmenge": "Sie gibt die Teilchenmenge in Mol an." }
 
    Fehlt eine Erklärung, bleibt es beim reinen Hervorheben. */
 function worterklaerung(kern) {
@@ -1104,8 +1162,8 @@ function numerischesFeld(t) {
   return zeile;
 }
 
-/* Mehrere Zahlenfelder — für Tabellen (Zinsen Jahr für Jahr) und
-   Umwandlungen (Bruch → Dezimalzahl → Prozent). */
+/* Mehrere Zahlenfelder — etwa für Messwerttabellen und mehrschrittige
+   stöchiometrische Rechnungen. */
 function mehrfachFelder(t) {
   const wrap = el('div', 'felder');
   t.fields.forEach((f, i) => {
@@ -2013,11 +2071,11 @@ function blattkarteBauen() {
 
    Die Minuten sind je Lernweg verschieden: Auf C ist mehr zu schreiben und
    weniger Zeit für die Aufgaben, auf A umgekehrt. Die Videominute ist die
-   echte Laufzeit plus Zuschlag für die Zwischenfragen — geraten wird
+   echte Laufzeit plus Zuschlag für Schreibpausen — geraten wird
    hier nichts. */
 const ZEITPLAN_PHASEN = [
   ['lernkarte', 'Erklärung lesen'],
-  ['video', 'Video mit Zwischenfragen'],
+  ['video', 'Video mit Schreibauftrag'],
   ['aufgaben', 'Aufgaben bearbeiten'],
   ['mitschrift', 'Hefteintrag schreiben'],
   ['blatt', 'Übungsblatt von Hand']
@@ -2302,12 +2360,11 @@ function mitschriftStand() {
    heraus, der Film lief ohne jede Rückfrage durch, und was danach hängen
    blieb, wusste niemand.
 
-   Beides ist jetzt gelöst. Gezeigt wird die mit Lumi angereicherte Fassung
-   desselben Films: Sie hält an und stellt Zwischenfragen. Sie läuft in
-   einem Rahmen auf dieser Seite — niemand muss die Anwendung verlassen.
-   Und sie wird erst geladen, wenn jemand auf „Video starten" drückt. Der
-   Klick bleibt damit die Entscheidung des Kindes, genau wie der Link es
-   war; nur führt er nicht mehr weg.
+   Die frühere Lumi-H5P-Einbettung liefert bei YouTube-Filmen zeitweise nur
+   eine schwarze Fläche. Deshalb startet in der Seite jetzt zuverlässig die
+   cookiefreie YouTube-Fassung. Die interaktive Lumi-Fassung bleibt als
+   optionale externe Alternative verlinkt. Geladen wird weiterhin erst nach
+   einem bewussten Klick.
 
    Das Feld "stufe" ist der Mindestlernweg, nicht eine feste Bindung: Ein
    Video mit stufe "C" erscheint nur auf C, eines mit "A" auf allen drei
@@ -2329,17 +2386,14 @@ const VIDEOQUELLEN = {
   'Chemistry@home': { key: 'chemistryathome', label: 'Chemistry@home' },
   Studyflix: { key: 'studyflix', label: 'Studyflix' }
 };
-const VIDEO_MUSTER = /^https:\/\/www\.youtube\.com\/watch\?v=[A-Za-z0-9_-]{11}$/;
-/* Nur diese eine Adressform wird in einen Rahmen geladen. Die Content-
-   Security-Policy der Seite lässt ohnehin nur app.lumi.education zu; hier
-   steht dieselbe Regel noch einmal im Code, damit eine versehentlich in
-   eine tasks.json geratene Fremdadresse gar nicht erst bis dorthin kommt. */
-const LUMI_EMBED_MUSTER = /^https:\/\/app\.lumi\.education\/api\/v1\/run\/[A-Za-z0-9_-]{4,32}\/embed$/;
+const VIDEO_ID_MUSTER = /^https:\/\/www\.youtube\.com\/watch\?v=([A-Za-z0-9_-]{11})$/;
 const LUMI_RUN_MUSTER = /^https:\/\/app\.lumi\.education\/run\/[A-Za-z0-9_-]{4,32}$/;
-/* Die zweite erlaubte Einbettadresse: der cookiefreie Auslieferungsweg
-   von YouTube. Nur er wird für Versuchsvideos ohne Lumi-Fassung geladen. */
-const YT_EMBED_MUSTER = /^https:\/\/www\.youtube-nocookie\.com\/embed\/[A-Za-z0-9_-]{11}$/;
 const STUFEN_RANG = { A: 0, B: 1, C: 2 };
+
+function youtubeNocookieAdresse(url) {
+  const treffer = String(url || '').match(VIDEO_ID_MUSTER);
+  return treffer ? `https://www.youtube-nocookie.com/embed/${treffer[1]}?rel=0` : null;
+}
 
 function minSek(sekunden) {
   const s = Math.max(0, Math.round(Number(sekunden) || 0));
@@ -2356,21 +2410,23 @@ function videosFuerPfad() {
   for (const eintrag of liste) {
     const titel = String(eintrag?.titel || '').trim();
     const quelle = VIDEOQUELLEN[eintrag?.quelle];
-    const embed = String(eintrag?.embed || '');
+    const direkt = youtubeNocookieAdresse(eintrag?.url);
     const stufe = eintrag?.stufe || 'A';
-    if (!titel || !quelle || !VIDEO_MUSTER.test(String(eintrag?.url || ''))) continue;
-    if (!LUMI_EMBED_MUSTER.test(embed) || gesehen.has(embed)) continue;
+    if (!titel || !quelle || !direkt) continue;
+    if (gesehen.has(direkt)) continue;
     if ((STUFEN_RANG[stufe] ?? 0) > (STUFEN_RANG[S.pfad] ?? 1)) continue;
-    gesehen.add(embed);
-    gueltig.push({ ...eintrag, titel, quelle, stufe });
+    gesehen.add(direkt);
+    gueltig.push({ ...eintrag, titel, quelle, stufe, direkt });
   }
   gueltig.sort((a, b) => (STUFEN_RANG[b.stufe] ?? 0) - (STUFEN_RANG[a.stufe] ?? 0));
   return gueltig;
 }
 
-/* Ein Block je Video: Kopfzeile, Rahmen mit Startknopf, Mitschreibhinweis.
-   Der Rahmen bleibt leer, bis jemand startet — vorher geht keine Anfrage
-   an einen fremden Server. */
+/* Ein Block je Video: Kopfzeile, verlässlicher Direktlink, optionaler Rahmen
+   und Mitschreibhinweis. Einige Kanäle untersagen die Wiedergabe in fremden
+   Seiten, obwohl das Video selbst online ist. Darum ist YouTube der Hauptweg;
+   die Einbettung wird nur auf ausdrücklichen Wunsch versucht. Vorher geht
+   keine Anfrage an einen fremden Server. */
 function videoBlock(eintrag, empfohlen) {
   const block = el('div', 'video-block' + (empfohlen ? ' video-empfohlen' : ''));
 
@@ -2381,21 +2437,31 @@ function videoBlock(eintrag, empfohlen) {
   block.append(kopf);
 
   const rahmen = el('div', 'video-rahmen');
-  const start = el('button', 'btn btn-haupt video-start', '▶ Video starten');
+  const start = el('button', 'btn btn-neben video-start', 'In dieser Seite versuchen');
   start.type = 'button';
   const hinweis = el('p', 'video-platzhalter',
-    'Das Video hält zwischendurch an und stellt dir eine Frage. '
-    + 'Es läuft hier in der Seite — du musst nichts anderes öffnen.');
-  rahmen.append(hinweis, start);
+    'Öffne das Video auf YouTube. Halte es selbst an, wenn du einen wichtigen '
+    + 'Satz notierst. Die Einbettung funktioniert nicht bei jedem Anbieter.');
+  const aktionen = el('div', 'video-aktionen');
+  const original = el('a', 'btn btn-haupt video-direkt', '▶ Auf YouTube ansehen');
+  original.href = eintrag.url;
+  original.target = '_blank';
+  original.rel = 'noopener noreferrer';
+  original.addEventListener('click', () => Tracker.track('video_open', {
+    provider: eintrag.quelle.key, title: eintrag.titel,
+    unit: S.daten.unit, path: S.pfad, form: 'youtube_tab'
+  }));
+  aktionen.append(original, start);
+  rahmen.append(hinweis, aktionen);
 
   start.addEventListener('click', () => {
     const rahmenFenster = document.createElement('iframe');
     rahmenFenster.className = 'video-frame';
-    rahmenFenster.src = eintrag.embed;
+    rahmenFenster.src = eintrag.direkt;
     rahmenFenster.title = 'Lernvideo: ' + eintrag.titel;
     rahmenFenster.loading = 'lazy';
-    rahmenFenster.allow = 'fullscreen';
-    rahmenFenster.referrerPolicy = 'no-referrer';
+    rahmenFenster.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen';
+    rahmenFenster.referrerPolicy = 'strict-origin-when-cross-origin';
     rahmen.replaceChildren(rahmenFenster);
     Tracker.track('video_start', {
       provider: eintrag.quelle.key,
@@ -2405,7 +2471,7 @@ function videoBlock(eintrag, empfohlen) {
       stufe: eintrag.stufe,
       empfohlen,
       dauer_s: eintrag.dauer_s || null,
-      form: 'lumi_embed'
+      form: 'youtube_nocookie'
     });
     /* Ein laufendes Video ist Arbeit, auch wenn niemand tippt. Ohne diese
        Meldung fiele die Lernzeitzählung genau dann aus, wenn zugesehen
@@ -2415,12 +2481,12 @@ function videoBlock(eintrag, empfohlen) {
   block.append(rahmen);
 
   const notiz = el('p', 'video-notiz');
-  notiz.innerHTML = '<b>Stift bereitlegen:</b> Was im Video als Merksatz erscheint, '
-    + 'gehört gleich in dein Heft. Halte das Video an, wenn du schreibst.';
+  notiz.innerHTML = '<b>Stift bereitlegen:</b> Notiere drei wichtige Aussagen und '
+    + 'formuliere danach einen eigenen Merksatz. Halte das Video an, wenn du schreibst.';
   block.append(notiz);
 
   if (LUMI_RUN_MUSTER.test(String(eintrag.lumi || ''))) {
-    const a = el('a', 'ua-link video-extern', 'Falls der Rahmen leer bleibt: in eigenem Fenster öffnen');
+    const a = el('a', 'ua-link video-extern', 'Interaktive H5P-Fassung öffnen (externer Dienst)');
     a.href = eintrag.lumi;
     a.target = '_blank';
     a.rel = 'noopener noreferrer';
@@ -2458,8 +2524,7 @@ function experimentkarteBauen() {
   const liste = Array.isArray(S.daten.experimente) ? S.daten.experimente : [];
   const passend = liste.filter(v =>
     (STUFEN_RANG[v?.stufe] ?? 0) <= (STUFEN_RANG[S.pfad] ?? 1)
-    && (LUMI_EMBED_MUSTER.test(String(v?.embed || ''))
-        || YT_EMBED_MUSTER.test(String(v?.embed || ''))));
+    && youtubeNocookieAdresse(v?.url));
 
   inhalt.replaceChildren();
   if (!passend.length || S.daten.pruefung) { box.hidden = true; return; }
@@ -2473,8 +2538,8 @@ function experimentkarteBauen() {
   }
 
   inhalt.append(el('p', 'ua-hinweis',
-    'Diese Versuche laufen in der Seite. Leg dein Heft daneben — was du '
-    + 'siehst, gehört ins Versuchsprotokoll.'));
+    'Öffne den Versuch auf YouTube und leg dein Heft daneben — was du siehst, '
+    + 'gehört ins Versuchsprotokoll. Die Einbettung ist nur eine Zusatzoption.'));
 
   passend.forEach(v => {
     const block = el('div', 'versuch-block');
@@ -2482,15 +2547,15 @@ function experimentkarteBauen() {
     const zeile = el('div', 'video-kopf');
     zeile.append(el('span', 'ua-q ua-q-versuch', 'Versuch'));
     zeile.append(el('b', 'video-titel', v.titel));
-    zeile.append(el('span', 'video-dauer', v.protokoll ? 'hält an' : 'Film'));
+    zeile.append(el('span', 'video-dauer', 'Film'));
     block.append(zeile);
 
     /* Der Auftrag steht VOR dem Rahmen — das ist der ganze Punkt. */
     const auftrag = el('div', 'versuch-auftrag');
     if (v.protokoll) {
-      auftrag.innerHTML = '<b>Versuchsprotokoll:</b> Das Video hält an fünf Stellen an '
-        + 'und sagt dir, was ins Heft gehört — Materialien, Aufbau, Durchführung '
-        + 'und Beobachtung. Lege vorher eine Überschrift an.';
+      auftrag.innerHTML = '<b>Versuchsprotokoll:</b> Halte den Film selbst an und gliedere '
+        + 'deinen Eintrag in Materialien, Aufbau, Durchführung und Beobachtung. '
+        + 'Lege vor dem Start eine Überschrift an.';
     } else {
       const text = (v.beobachtung || {})[S.pfad];
       if (!text) return;
@@ -2500,26 +2565,43 @@ function experimentkarteBauen() {
     block.append(auftrag);
 
     const rahmen = el('div', 'video-rahmen');
-    const start = el('button', 'btn btn-haupt video-start', '▶ Versuch starten');
+    const start = el('button', 'btn btn-neben video-start', 'In dieser Seite versuchen');
     start.type = 'button';
-    rahmen.append(el('p', 'video-platzhalter', v.rolle || ''), start);
+    const aktionen = el('div', 'video-aktionen');
+    const original = el('a', 'btn btn-haupt video-direkt', '▶ Auf YouTube ansehen');
+    original.href = v.url;
+    original.target = '_blank';
+    original.rel = 'noopener noreferrer';
+    original.addEventListener('click', () => Tracker.track('versuch_open', {
+      unit: S.daten.unit, path: S.pfad, title: v.titel,
+      stufe: v.stufe, protokoll: !!v.protokoll, form: 'youtube_tab'
+    }));
+    aktionen.append(original, start);
+    rahmen.append(el('p', 'video-platzhalter', v.rolle || ''), aktionen);
     start.addEventListener('click', () => {
       const f = document.createElement('iframe');
       f.className = 'video-frame';
-      f.src = v.embed;
+      f.src = youtubeNocookieAdresse(v.url);
       f.title = 'Versuchsvideo: ' + v.titel;
       f.loading = 'lazy';
-      f.allow = 'fullscreen';
-      f.referrerPolicy = 'no-referrer';
+      f.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen';
+      f.referrerPolicy = 'strict-origin-when-cross-origin';
       rahmen.replaceChildren(f);
       Tracker.track('versuch_start', {
         unit: S.daten.unit, path: S.pfad, title: v.titel,
         stufe: v.stufe, protokoll: !!v.protokoll,
-        form: v.protokoll ? 'lumi_embed' : 'youtube_nocookie'
+        form: 'youtube_nocookie'
       });
       try { window.Lernmodus?.aktivitaet?.('extern-auf'); } catch { /* optional */ }
     });
     block.append(rahmen);
+    if (LUMI_RUN_MUSTER.test(String(v.lumi || ''))) {
+      const interaktiv = el('a', 'ua-link video-extern', 'Interaktive H5P-Fassung öffnen (externer Dienst)');
+      interaktiv.href = v.lumi;
+      interaktiv.target = '_blank';
+      interaktiv.rel = 'noopener noreferrer';
+      block.append(interaktiv);
+    }
     inhalt.append(block);
   });
 }
@@ -2547,20 +2629,23 @@ function lehrbuchAuftrag(lb) {
      jene Funktion maskiert Auszeichnungen, sodass <b> als Text erschiene.
      Die eingesetzten Werte werden deshalb hier einzeln maskiert. */
   const kap = `Kapitel ${htmlSicher(lb.kapitel)} „${htmlSicher(lb.titel)}“ `
-    + `(S. ${htmlSicher(lb.seiten_von)}–${htmlSicher(lb.seiten_bis)})`;
+    + `(PDF-S. ${htmlSicher(lb.seiten_von)}–${htmlSicher(lb.seiten_bis)})`;
   const thema = htmlSicher(S.daten.title);
   const wort = htmlSicher(lb.bezugswort || S.daten.title);
+  const abschnitt = htmlSicher(lb.abschnitt || S.daten.title);
   if (S.pfad === 'A') {
-    return `Schlag im Lehrbuch ${kap} auf. <b>Schreibe</b> den Merksatz zum Thema `
-      + `„${thema}“ ab und <b>nenne</b> drei Fachwörter, die dort vorkommen.`;
+    return `Lies im Lehrbuch ${kap} den Abschnitt „${abschnitt}“. `
+      + `<b>Markiere</b> drei wichtige Aussagen und <b>formuliere</b> daraus einen `
+      + `eigenen Merksatz zum Thema „${thema}“.`;
   }
   if (S.pfad === 'B') {
-    return `Lies im Lehrbuch ${kap}. <b>Fasse</b> den Abschnitt zu „${thema}“ in `
-      + `fünf Sätzen zusammen und <b>erkläre</b> dabei „${wort}“ in eigenen Worten.`;
+    return `Lies im Lehrbuch ${kap} den Abschnitt „${abschnitt}“. <b>Fasse</b> `
+      + `seine Kernaussage in drei bis fünf Sätzen zusammen und <b>erkläre</b> `
+      + `„${wort}“ an einem Beispiel aus der Einheit.`;
   }
-  return `Bearbeite im Lehrbuch ${kap} einen der dort gestellten Arbeitsaufträge `
-    + `mit den Operatoren <i>Begründe</i>, <i>Beurteile</i> oder <i>Vergleiche</i>. `
-    + `<b>Begründe</b> anschließend schriftlich, was dein Ergebnis mit „${thema}“ zu tun hat.`;
+  return `Nutze im Lehrbuch ${kap} den Abschnitt „${abschnitt}“ als Quelle. `
+    + `<b>Begründe</b> das C-Lernziel der Einheit schriftlich mit mindestens zwei `
+    + `konkreten Aussagen aus dem Abschnitt und einem passenden Fachbegriff.`;
 }
 
 function lehrbuchkarteBauen() {
@@ -2583,6 +2668,15 @@ function lehrbuchkarteBauen() {
   zeile.append(el('b', null, lb.titel));
   zeile.append(el('span', 'lehrbuch-seiten', `S. ${lb.seiten_von}–${lb.seiten_bis}`));
   inhalt.append(zeile);
+  if (lb.abschnitt) inhalt.append(el('p', 'lehrbuch-abschnitt', `Abschnitt: ${lb.abschnitt}`));
+
+  for (const stelle of (lb.weitere_stellen || [])) {
+    const extra = el('div', 'lehrbuch-zeile lehrbuch-zeile-zusatz');
+    extra.append(el('span', 'lehrbuch-kapitel', 'Zusätzlich · Kapitel ' + stelle.kapitel));
+    extra.append(el('b', null, stelle.abschnitt || stelle.titel));
+    extra.append(el('span', 'lehrbuch-seiten', `S. ${stelle.seiten_von}–${stelle.seiten_bis}`));
+    inhalt.append(extra);
+  }
 
   const auftrag = el('div', 'lehrbuch-auftrag');
   auftrag.innerHTML = lehrbuchAuftrag(lb);
@@ -2606,13 +2700,13 @@ function videokarteBauen() {
   const kopf = box.querySelector('summary');
   if (kopf) {
     const dauer = gueltig[0].dauer_s ? ` · ${Math.round(gueltig[0].dauer_s / 60)} min` : '';
-    kopf.textContent = `Erklärvideo · hält an und fragt nach${dauer}`;
+    kopf.textContent = `Erklärvideo · mit Schreibauftrag${dauer}`;
   }
 
   inhalt.append(el('p', 'ua-hinweis',
-    'Das Video ist für deinen Lernweg ausgewählt und mit Fragen versehen. '
-    + 'Es läuft in dieser Seite; dafür brauchst du Internet. Beantworte die '
-    + 'Zwischenfragen — sie sind der halbe Grund, warum es hier steht.'));
+    'Das Video ist für deinen Lernweg ausgewählt. Es läuft direkt in dieser '
+    + 'Seite; dafür brauchst du Internet. Notiere die Kernaussagen und prüfe '
+    + 'sie anschließend am schriftlichen Abschnitt „Kurz erklärt“.'));
 
   inhalt.append(videoBlock(gueltig[0], true));
 
@@ -2645,4 +2739,3 @@ document.addEventListener('focusout', () => {
    nachgeladen wurde — der Prüfungstrainer lädt engine.js dynamisch. */
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start);
 else start();
-

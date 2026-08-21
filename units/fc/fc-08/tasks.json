@@ -144,7 +144,7 @@
         "masse"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -174,7 +174,7 @@
         "masse"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -204,7 +204,7 @@
         "masse"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -271,7 +271,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -340,7 +340,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -375,8 +375,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI",
-        "W-RECH"
+        "K-REAK",
+        "K-QUANT"
       ]
     },
     {
@@ -410,36 +410,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
-      "id": "FC08-B4-010",
+      "id": "FC08-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Welche Aufgabe verlangt mehr als eine Aufzählung: „Nenne drei Gefahrensymbole“ oder „Erkläre, warum Wasser bei Fettbränden ungeeignet ist“?",
+      "prompt": "Erkläre die Massenerhaltung bei einer Reaktion im geschlossenen Gefäß.",
       "options": [
-        "die zweite — sie verlangt eine Ursache",
-        "die erste — sie verlangt drei Antworten",
-        "beide gleich viel"
+        "Die Zahl und Art der Atome bleibt gleich; deshalb ist die Gesamtmasse vor und nach der Reaktion gleich.",
+        "Wasserstoff (g) + Stickstoff (g) → Ammoniak (g) 3 H 2 (g) + N 2 (g) → 2 NH 3 (g) Kontrolle: links 6 H und 2 N, rechts 6 H und 2 N. ✔",
+        "Links sind zwei Sauerstoffatome, rechts nur eines. Korrekt: 2 H₂ + O₂ → 2 H₂O.",
+        "Edukte sind Ausgangsstoffe einer Reaktion; Produkte sind die neu entstandenen Stoffe."
       ],
       "answer": 0,
-      "visual": {
-        "type": "animation",
-        "name": "signalwoerter",
-        "stufe": "B"
-      },
       "hints": [
-        "Vergleiche die Operatoren.",
-        "„Nenne“ gegen „Erkläre“.",
-        "„Erkläre“ verlangt eine Ursache."
+        "Prüfe jede Aussage mit dem Abschnitt „Reaktionsgleichungen und Berechnungen“ (PDF-S. 58–65)."
       ],
-      "solution": "„Nenne“ verlangt eine Aufzählung, auch wenn es drei Stück sind. „Erkläre“ verlangt eine Ursache-Wirkungs-Kette — inhaltlich deutlich mehr.",
+      "solution": "Die Zahl und Art der Atome bleibt gleich; deshalb ist die Gesamtmasse vor und nach der Reaktion gleich.",
       "tags": [
-        "pruefung",
-        "operatoren"
-      ]
+        "fragenkatalog",
+        "chemische-reaktion",
+        "niveau-b"
+      ],
+      "spiral": [
+        "K-REAK"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-030 · Lehrbuch PDF-S. 58–65"
     },
     {
       "id": "FC08-C2-011",
@@ -465,7 +464,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -514,7 +513,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -549,31 +548,31 @@
       ]
     },
     {
-      "id": "FC08-C4-014",
+      "id": "FC08-C4-KAT",
       "path": "C",
       "step": 4,
       "type": "choice",
-      "prompt": "Antoine Lavoisier wog Versuche im geschlossenen Gefäß, seine Vorgänger im offenen. Warum war das entscheidend?",
+      "prompt": "Eine Waage zeigt nach dem Verbrennen von Magnesium an der Luft mehr Masse. Widerspricht das der Massenerhaltung?",
       "options": [
-        "Nur im geschlossenen Gefäß werden auch die gasförmigen Beteiligten mitgewogen.",
-        "Geschlossene Gefäße halten die Temperatur konstant.",
-        "Im offenen Gefäß sind Waagen ungenauer."
+        "Die Zahl und Art der Atome bleibt gleich; deshalb ist die Gesamtmasse vor und nach der Reaktion gleich.",
+        "Nein. Sauerstoff aus der Luft wurde aufgenommen. Betrachtet man das geschlossene Gesamtsystem aus Magnesium plus Sauerstoff, bleibt die Masse erhalten.",
+        "Es entstehen neue Stoffe mit neuen Eigenschaften; mögliche Beobachtungen sind Farbänderung, Gasentwicklung, Temperaturänderung oder Niederschlag.",
+        "Eine mögliche ausgeglichene Darstellung ist A₂ + B₂ → 2 AB; vor und nach der Reaktion müssen gleich viele A- und B-Atome vorhanden sein."
       ],
-      "answer": 0,
+      "answer": 1,
       "hints": [
-        "Was fehlte den früheren Messungen?",
-        "Die Gase.",
-        "Die wurden schlicht nicht gewogen."
+        "Prüfe jede Aussage mit dem Abschnitt „Reaktionsgleichungen und Berechnungen“ (PDF-S. 58–65)."
       ],
-      "solution": "Vor Lavoisier wurden Gase nicht mitgewogen — deshalb schienen Massen zu verschwinden oder zu entstehen. Erst der geschlossene Versuch zeigte, dass die Gesamtmasse immer erhalten bleibt. Nicht die Waage war besser, sondern die Grenze richtig gezogen.",
+      "solution": "Nein. Sauerstoff aus der Luft wurde aufgenommen. Betrachtet man das geschlossene Gesamtsystem aus Magnesium plus Sauerstoff, bleibt die Masse erhalten.",
       "tags": [
-        "masse",
-        "bewerten",
-        "msa"
+        "fragenkatalog",
+        "chemische-reaktion",
+        "niveau-c"
       ],
       "spiral": [
-        "W-GLEI"
-      ]
+        "K-REAK"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-054 · Lehrbuch PDF-S. 58–65"
     }
   ],
   "mitschrift": {
@@ -706,7 +705,8 @@
     "titel": "Die chemische Reaktion",
     "seiten_von": 58,
     "seiten_bis": 65,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Gesetz von der Erhaltung der Masse"
+    "abschnitt": "Reaktionsgleichungen und Berechnungen",
+    "bezugswort": "Massenerhaltung",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

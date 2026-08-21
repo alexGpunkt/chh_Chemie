@@ -134,7 +134,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -157,7 +157,7 @@
         "rechnen"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -182,33 +182,35 @@
         "pruefung"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
-      "id": "WA06-A4-004",
+      "id": "WA06-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum friert ein See nicht bis zum Grund zu?",
+      "prompt": "Was ist ein Lösungsmittel und was ein gelöster Stoff?",
       "options": [
-        "Eis schwimmt oben und wirkt wie eine Isolierschicht.",
-        "Das Wasser unten ist salzig.",
-        "Fische wärmen das Wasser."
+        "Das Lösungsmittel ist der mengenmäßig meist größere Stoff, in dem sich ein anderer Stoff verteilt; dieser ist der gelöste Stoff.",
+        "Rühren transportiert gesättigte Lösung von der Oberfläche weg und bringt frisches Lösungsmittel an den Feststoff.",
+        "Bei gegebener Temperatur ist so viel Stoff gelöst, wie maximal möglich; zusätzlicher Stoff bleibt ungelöst."
       ],
       "answer": 0,
       "hints": [
-        "Wo liegt das Eis?",
-        "Oben.",
-        "Darunter bleibt es flüssig."
+        "Lies den Abschnitt „Eigenschaften, Zerlegung und Bildung des Wassers“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Eis ist leichter als Wasser und schwimmt. Die Eisdecke isoliert, darunter bleibt Wasser bei 4 °C flüssig.",
+      "solution": "Das Lösungsmittel ist der mengenmäßig meist größere Stoff, in dem sich ein anderer Stoff verteilt; dieser ist der gelöste Stoff.",
       "tags": [
-        "pruefung"
+        "fragenkatalog",
+        "wasser-loesungen",
+        "niveau-a"
       ],
       "spiral": [
-        "W-STOF"
-      ]
+        "K-REAK"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-042 · Lehrbuch PDF-S. 73–79"
     },
     {
       "id": "WA06-B1-005",
@@ -230,7 +232,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -256,7 +258,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -320,7 +322,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -346,35 +348,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
-      "id": "WA06-B4-010",
+      "id": "WA06-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum ist die Knallgasreaktion exotherm, die Elektrolyse aber endotherm?",
+      "prompt": "Was bedeutet „gesättigte Lösung“?",
       "options": [
-        "Es ist dieselbe Reaktion in zwei Richtungen; was die eine aufnimmt, gibt die andere ab.",
-        "Weil bei der Elektrolyse Strom fließt.",
-        "Das ist Zufall."
+        "Rühren transportiert gesättigte Lösung von der Oberfläche weg und bringt frisches Lösungsmittel an den Feststoff.",
+        "Das Lösungsmittel ist der mengenmäßig meist größere Stoff, in dem sich ein anderer Stoff verteilt; dieser ist der gelöste Stoff.",
+        "Eine kleine Menge eindampfen; bleibt ein fester Rückstand, waren nichtflüchtige Stoffe gelöst.",
+        "Bei gegebener Temperatur ist so viel Stoff gelöst, wie maximal möglich; zusätzlicher Stoff bleibt ungelöst."
       ],
-      "answer": 0,
+      "answer": 3,
       "hints": [
-        "Vergleiche die beiden Gleichungen.",
-        "Edukte und Produkte sind vertauscht.",
-        "Dann muss auch die Energie die Richtung wechseln."
+        "Prüfe jede Aussage mit dem Abschnitt „Eigenschaften, Zerlegung und Bildung des Wassers“ (PDF-S. 73–79)."
       ],
-      "solution": "2 H₂O → 2 H₂ + O₂ und 2 H₂ + O₂ → 2 H₂O sind Umkehrungen voneinander. Die Energie, die beim Zerlegen aufgenommen wird, wird beim Verbinden wieder frei.",
+      "solution": "Bei gegebener Temperatur ist so viel Stoff gelöst, wie maximal möglich; zusätzlicher Stoff bleibt ungelöst.",
       "tags": [
-        "pruefung",
-        "energie",
-        "msa"
+        "fragenkatalog",
+        "wasser-loesungen",
+        "niveau-b"
       ],
       "spiral": [
-        "W-GLEI"
-      ]
+        "K-REAK"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-045 · Lehrbuch PDF-S. 73–79"
     },
     {
       "id": "WA06-C2-011",
@@ -438,7 +440,7 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -473,7 +475,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -604,9 +606,10 @@
   "lehrbuch": {
     "kapitel": 6,
     "titel": "Wasser",
-    "seiten_von": 66,
-    "seiten_bis": 82,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Reaktionsgleichung"
+    "seiten_von": 73,
+    "seiten_bis": 79,
+    "abschnitt": "Eigenschaften, Zerlegung und Bildung des Wassers",
+    "bezugswort": "Wasser",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

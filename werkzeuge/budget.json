@@ -11,7 +11,7 @@
     "js_gesamt_gzip_kb": {
       "wert": 155,
       "gilt_fuer": "alles .js, was ein Schülergerät lädt (siehe _was_gezaehlt_wird), gzip-komprimiert",
-      "begruendung": "Der Service Worker lädt bei der Installation alles auf einmal. Gemessen sind 141 KB. Diese Grenze stand kurzzeitig auf 170, weil das Budget bei 160 KB gerissen war und angehoben werden sollte. Die eigentliche Ursache waren zehn Animationen aus dem Mathematikprojekt, die niemand aufrief und die trotzdem ausgeliefert wurden. Nach ihrem Entfernen lag der Wert unter dem ursprünglichen Stand — die Anhebung war also gar nicht nötig und ist zurückgenommen. Merksatz aus diesem Vorgang: erst nach totem Code suchen, dann über die Grenze reden. Die 155 bleiben stehen, obwohl v3 bei 141 liegt: Der Abstand kommt aus einer geänderten Zählweise, nicht aus weniger Code."
+      "begruendung": "Der Service Worker lädt bei der Installation alles auf einmal. Die Grenze schützt langsame Schulgeräte vor unnötig großen Offlinepaketen. Vor einer Anhebung wird deshalb zuerst nach ungenutztem Code gesucht."
     },
     "css_gesamt_gzip_kb": {
       "wert": 25,

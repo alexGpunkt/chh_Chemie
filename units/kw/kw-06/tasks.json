@@ -143,7 +143,7 @@
         "verbrennung"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -164,8 +164,8 @@
         "verbrennung"
       ],
       "spiral": [
-        "W-ORG",
-        "W-GLEI"
+        "K-ORG",
+        "K-REAK"
       ]
     },
     {
@@ -193,7 +193,7 @@
         "verbrennung"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -225,7 +225,7 @@
         "verbrennung"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -247,7 +247,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -276,7 +276,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -345,7 +345,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -373,27 +373,31 @@
       ]
     },
     {
-      "id": "KW06-B4-010",
+      "id": "KW06-B4-KAT",
       "path": "B",
       "step": 4,
-      "type": "numeric",
-      "prompt": "Wie viele O₂-Moleküle braucht die vollständige Verbrennung eines Moleküls Pentan C₅H₁₂?",
-      "answer": 8,
-      "tolerance": 0,
-      "hints": [
-        "5 CO₂ ergeben 10 O-Atome.",
-        "6 H₂O ergeben 6 O-Atome.",
-        "16 : 2 = 8."
+      "type": "choice",
+      "prompt": "Nenne fünf Produktgruppen, die aus Erdöl hergestellt werden, und drei Probleme der Verbrennung von Erdölprodukten.",
+      "options": [
+        "Produkte: Brenn- und Kraftstoffe (Benzin, Diesel, Heizöl, Flüssiggas) · Kunststoffe (Verpackungen, Kleidung) · Tenside (Waschmittel, Shampoo) · Kosmetika · Pharmaka · Farbstoffe und Lacke · Pestizide.",
+        "Atmosphäre → Biosphäre: Pflanzen binden CO 2 durch Fotosynthese: 6 CO 2 + 6 H 2 O → C 6 H 12 O 6 + 6 O 2 Biosphäre → Atmosphäre: Zellatmung und Verwesung setzen CO 2 wieder frei (Umkehrung der Fotosynthese).",
+        "Nukleophile Addition an die Carbonylgruppe. Das C-Atom der Carbonylgruppe ist wegen der stark elektronenziehenden Wirkung des Sauerstoff-Atoms (hohe Elektronegativität) positiv polarisiert (δ+).",
+        "Treibhauseffekt: Erwärmung der Atmosphäre durch übermäßige Freisetzung von Treibhausgasen wie CO 2 (aus der Verbrennung fossiler Energieträger) und CH 4 (unverbrannte Erdgasreste, Landwirtschaft)."
       ],
-      "solution": "C₅H₁₂ + 8 O₂ → 5 CO₂ + 6 H₂O\nO-Atome rechts: 10 + 6 = 16 → 8 O₂.",
+      "answer": 0,
+      "hints": [
+        "Prüfe jede Aussage mit dem Abschnitt „Verbrennung und Nutzung von Kohlenwasserstoffen“ (PDF-S. 154–157)."
+      ],
+      "solution": "Produkte: Brenn- und Kraftstoffe (Benzin, Diesel, Heizöl, Flüssiggas) · Kunststoffe (Verpackungen, Kleidung) · Tenside (Waschmittel, Shampoo) · Kosmetika · Pharmaka · Farbstoffe und Lacke · Pestizide. Probleme: Treibhauseffekt: Verbrennung setzt CO 2 frei → Klimaerwärmung. Umweltverschmutzung durch Förderung, Transport (Tankerunfälle) und Abgase (Ruß, Stickoxide, Schwefeldioxid → saurer Regen). Endlichkeit und Abhängigkeit: fossiler Rohstoff, Abhängigkeit von Monopolen und politisch instabilen Förderstaaten; „zu schade zum Verbrennen“, da wertvoller Rohstoff für die chemische Industrie. Verzögerung des Ausbaus regenerativer Energiequellen.",
       "tags": [
-        "verbrennung",
-        "msa"
+        "fragenkatalog",
+        "kohlenwasserstoffe-und-reaktionsmechanismen",
+        "niveau-b"
       ],
       "spiral": [
-        "W-GLEI",
-        "W-ORG"
-      ]
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d3-7 · Lehrbuch PDF-S. 154–157"
     },
     {
       "id": "KW06-C2-011",
@@ -457,8 +461,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -485,42 +489,35 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
-      "id": "KW06-C4-014",
+      "id": "KW06-C4-KAT",
       "path": "C",
       "step": 4,
       "type": "choice",
-      "prompt": "Ein Schüler behauptet: „Ein Katalysator verhindert die CO₂-Bildung im Auto.“ Wie bewertest du das?",
+      "prompt": "Erläutere Treibhauseffekt und Ozonloch – und was Kohlenwasserstoffe damit zu tun haben.",
       "options": [
-        "Falsch — der Katalysator wandelt CO sogar zu CO₂ um; er verringert es nicht.",
-        "Richtig.",
-        "Falsch — der Katalysator erzeugt gar nichts."
+        "Treibhauseffekt: Erwärmung der Atmosphäre durch übermäßige Freisetzung von Treibhausgasen wie CO 2 (aus der Verbrennung fossiler Energieträger) und CH 4 (unverbrannte Erdgasreste, Landwirtschaft).",
+        "Produkte: Brenn- und Kraftstoffe (Benzin, Diesel, Heizöl, Flüssiggas) · Kunststoffe (Verpackungen, Kleidung) · Tenside (Waschmittel, Shampoo) · Kosmetika · Pharmaka · Farbstoffe und Lacke · Pestizide.",
+        "Atmosphäre → Biosphäre: Pflanzen binden CO 2 durch Fotosynthese: 6 CO 2 + 6 H 2 O → C 6 H 12 O 6 + 6 O 2 Biosphäre → Atmosphäre: Zellatmung und Verwesung setzen CO 2 wieder frei (Umkehrung der Fotosynthese).",
+        "Nukleophile Addition an die Carbonylgruppe. Das C-Atom der Carbonylgruppe ist wegen der stark elektronenziehenden Wirkung des Sauerstoff-Atoms (hohe Elektronegativität) positiv polarisiert (δ+)."
       ],
       "answer": 0,
       "hints": [
-        "Was macht der Katalysator mit Kohlenstoffmonoxid?",
-        "Er oxidiert es.",
-        "Dabei entsteht CO₂."
+        "Prüfe jede Aussage mit dem Abschnitt „Verbrennung und Nutzung von Kohlenwasserstoffen“ (PDF-S. 154–157)."
       ],
-      "solution": "Der Katalysator wandelt giftiges Kohlenstoffmonoxid in Kohlenstoffdioxid um — er erhöht dessen Menge sogar. Für die Luftqualität ist er wirksam, für den Klimaschutz nicht.",
-      "misconceptions": [
-        {
-          "id": "katalysator_gegen_co2",
-          "value": 1,
-          "feedback": "Der Katalysator erzeugt CO₂ aus CO. Er verringert es nicht."
-        }
-      ],
+      "solution": "Treibhauseffekt: Erwärmung der Atmosphäre durch übermäßige Freisetzung von Treibhausgasen wie CO 2 (aus der Verbrennung fossiler Energieträger) und CH 4 (unverbrannte Erdgasreste, Landwirtschaft). Diese Gase lassen kurzwellige Sonnenstrahlung durch, absorbieren aber die von der Erde abgestrahlte Wärmestrahlung. Ozonloch: Zerstörung der Ozonschicht durch Chlorfluorkohlenwasserstoffe (FCKW). Dadurch gelangt mehr schädliche UV-Strahlung auf die Erde → erhöhtes Hautkrebsrisiko, Schädigung vieler Lebewesen. Folge: weitgehendes Verbot der FCKW. Wichtig: Treibhauseffekt und Ozonloch sind zwei verschiedene Probleme mit verschiedenen Ursachen – ein häufiger Fehler in Prüfungen.",
       "tags": [
-        "verbrennung",
-        "bewerten",
-        "msa"
+        "fragenkatalog",
+        "kohlenwasserstoffe-und-reaktionsmechanismen",
+        "niveau-c"
       ],
       "spiral": [
-        "W-GLEI"
-      ]
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d3-8 · Lehrbuch PDF-S. 154–157"
     }
   ],
   "mitschrift": {
@@ -650,10 +647,11 @@
   ],
   "lehrbuch": {
     "kapitel": 12,
-    "titel": "Der Weg zur organischen Chemie",
-    "seiten_von": 147,
-    "seiten_bis": 162,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "vollständige Verbrennung"
+    "titel": "Kohlenwasserstoffe",
+    "seiten_von": 154,
+    "seiten_bis": 157,
+    "abschnitt": "Verbrennung und Nutzung von Kohlenwasserstoffen",
+    "bezugswort": "vollständige Verbrennung",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

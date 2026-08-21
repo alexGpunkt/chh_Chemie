@@ -1,0 +1,808 @@
+{
+  "kategorie": "K-REAK",
+  "titel": "Chemische Reaktionen",
+  "hinweis": "Fragen aus dem gelieferten Chemie-Fragenkatalog; jede Frage gehört genau einem Niveau und erscheint erst nach ihrer Einführungs-Einheit.",
+  "fragen": [
+    {
+      "id": "KAT-ext-037-A",
+      "level": "A",
+      "kategorie": "K-REAK",
+      "skill": "Luft & Verbrennung",
+      "type": "choice",
+      "prompt": "Welches Gas unterstützt Verbrennungen besonders?",
+      "options": [
+        "Stickstoff",
+        "Sauerstoff",
+        "Argon"
+      ],
+      "answer": 1,
+      "solution": "Sauerstoff.",
+      "katalog_id": "ext-037",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-06"
+    },
+    {
+      "id": "KAT-ext-032-A",
+      "level": "A",
+      "kategorie": "K-REAK",
+      "skill": "Energetik",
+      "type": "choice",
+      "prompt": "Ist eine Reaktion exotherm oder endotherm, wenn das Reaktionsgemisch deutlich wärmer wird?",
+      "options": [
+        "Exotherm; Energie wird an die Umgebung abgegeben.",
+        "Falsch. Bei chemischen Reaktionen werden Atome nur neu angeordnet.",
+        "Eine chemische Reaktion eines Stoffes mit Sauerstoff."
+      ],
+      "answer": 0,
+      "solution": "Exotherm; Energie wird an die Umgebung abgegeben.",
+      "katalog_id": "ext-032",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-05"
+    },
+    {
+      "id": "KAT-ext-039-A",
+      "level": "A",
+      "kategorie": "K-REAK",
+      "skill": "Luft & Verbrennung",
+      "type": "choice",
+      "prompt": "Was ist eine Oxidation im einfachen Sinn?",
+      "options": [
+        "Exotherm; Energie wird an die Umgebung abgegeben.",
+        "Falsch. Bei chemischen Reaktionen werden Atome nur neu angeordnet.",
+        "Eine chemische Reaktion eines Stoffes mit Sauerstoff."
+      ],
+      "answer": 2,
+      "solution": "Eine chemische Reaktion eines Stoffes mit Sauerstoff.",
+      "katalog_id": "ext-039",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-06"
+    },
+    {
+      "id": "KAT-ext-029-A",
+      "level": "A",
+      "kategorie": "K-REAK",
+      "skill": "Chemische Reaktion",
+      "type": "choice",
+      "prompt": "Richtig oder falsch: Bei einer chemischen Reaktion verschwinden Atome und neue Atome entstehen.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ],
+      "answer": 1,
+      "solution": "Falsch. Bei chemischen Reaktionen werden Atome nur neu angeordnet.",
+      "katalog_id": "ext-029",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-05"
+    },
+    {
+      "id": "KAT-ext-028-A",
+      "level": "A",
+      "kategorie": "K-REAK",
+      "skill": "Chemische Reaktion",
+      "type": "choice",
+      "prompt": "Was bedeuten die Begriffe Edukt und Produkt?",
+      "options": [
+        "Eine Verbrennung ist eine exotherme Reaktion unter Beteiligung von Sauerstoff (Oxidation).",
+        "Links sind zwei Sauerstoffatome, rechts nur eines. Korrekt: 2 H₂ + O₂ → 2 H₂O.",
+        "Edukte sind Ausgangsstoffe einer Reaktion; Produkte sind die neu entstandenen Stoffe."
+      ],
+      "answer": 2,
+      "solution": "Edukte sind Ausgangsstoffe einer Reaktion; Produkte sind die neu entstandenen Stoffe.",
+      "katalog_id": "ext-028",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-05"
+    },
+    {
+      "id": "KAT-ext-036-A",
+      "level": "A",
+      "kategorie": "K-REAK",
+      "skill": "Luft & Verbrennung",
+      "type": "choice",
+      "prompt": "Aus welchen Hauptbestandteilen besteht trockene Luft ungefähr?",
+      "options": [
+        "Etwa 78 % Stickstoff, 21 % Sauerstoff und rund 1 % Edelgase/weitere Gase; Kohlenstoffdioxid nur in sehr kleinem Anteil.",
+        "Der verfügbare Sauerstoff wird verbraucht; sinkt seine Konzentration ausreichend, kann die Verbrennung nicht weiterlaufen.",
+        "Beide sind Nachweisreaktionen für Aldehyde. Der Aldehyd wirkt als Reduktionsmittel und wird dabei selbst zur Carbonsäure oxidiert."
+      ],
+      "answer": 0,
+      "solution": "Etwa 78 % Stickstoff, 21 % Sauerstoff und rund 1 % Edelgase/weitere Gase; Kohlenstoffdioxid nur in sehr kleinem Anteil.",
+      "katalog_id": "ext-036",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-06"
+    },
+    {
+      "id": "KAT-ext-027-A",
+      "level": "A",
+      "kategorie": "K-REAK",
+      "skill": "Chemische Reaktion",
+      "type": "choice",
+      "prompt": "Woran erkennt man, dass eine chemische Reaktion stattgefunden hat?",
+      "options": [
+        "Es entstehen neue Stoffe mit neuen Eigenschaften; mögliche Beobachtungen sind Farbänderung, Gasentwicklung, Temperaturänderung oder Niederschlag.",
+        "Nachweis für Name Durchführung Beobachtung Sauerstoff O 2 Glimmspanprobe Ein glimmender Holzspan wird in das Gas gehalten Der Span glimmt auf bzw.",
+        "Bei Molekülverbindungen (Nichtmetall + Nichtmetall) werden griechische Zahlwörter verwendet: Zahlwort + Name 1. Element + Zahlwort + Stammname 2."
+      ],
+      "answer": 0,
+      "solution": "Es entstehen neue Stoffe mit neuen Eigenschaften; mögliche Beobachtungen sind Farbänderung, Gasentwicklung, Temperaturänderung oder Niederschlag.",
+      "katalog_id": "ext-027",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-05"
+    },
+    {
+      "id": "KAT-src-b5-10-A",
+      "level": "A",
+      "kategorie": "K-REAK",
+      "skill": "Formelsprache, Nomenklatur, Reaktionsgleichungen",
+      "type": "choice",
+      "prompt": "Nenne die Trivialnamen der wichtigsten molekularen Stoffe.",
+      "options": [
+        "Durchführung: Eine kleine Probe wird auf einem Verbrennungslöffel in der nichtleuchtenden Brennerflamme etwa 30 Sekunden erhitzt. Anschließend prüft man, ob der Stoff außerhalb der Flamme weiterbrennt.",
+        "Alle Elemente bestehen aus kleinsten, kugelförmigen, unteilbaren Teilchen, den Atomen. Atome desselben Elements gleichen sich in Masse und Größe; Atome verschiedener Elemente unterscheiden sich darin.",
+        "Trivialname Formel Trivialname Formel Wasser H 2 O Ammoniak NH 3 Methan CH 4 Kohlenstoffdioxid CO 2 Wasserstoffperoxid H 2 O 2 Kochsalz NaCl Kalk CaCO 3 Soda Na 2 CO 3 Gips CaSO 4 Schwefelsäure H 2 SO 4"
+      ],
+      "answer": 2,
+      "solution": "Trivialname Formel Trivialname Formel Wasser H 2 O Ammoniak NH 3 Methan CH 4 Kohlenstoffdioxid CO 2 Wasserstoffperoxid H 2 O 2 Kochsalz NaCl Kalk CaCO 3 Soda Na 2 CO 3 Gips CaSO 4 Schwefelsäure H 2 SO 4",
+      "katalog_id": "src-b5-10",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-08"
+    },
+    {
+      "id": "KAT-src-b2-1-A",
+      "level": "A",
+      "kategorie": "K-REAK",
+      "skill": "Die chemische Reaktion und Energetik",
+      "type": "choice",
+      "prompt": "Definiere die chemische Reaktion und nenne ihre drei Kennzeichen.",
+      "options": [
+        "Ein System, das stabil erscheint, obwohl die Reaktion exotherm wäre: Wegen einer hohen Aktivierungsenergie reagiert es bei Raumtemperatur nur sehr langsam bzw. gar nicht.",
+        "Innere Energie E i: die gesamte in einem ruhenden Körper/System gespeicherte Energie. Einheit kJ. Sie ist nicht direkt messbar – man betrachtet nur ihre Änderung.",
+        "Eine chemische Reaktion ist eine Stoffumwandlung, bei der aus Ausgangsstoffen ( Edukten ) neue Stoffe ( Produkte ) entstehen; die Atome werden dabei umgruppiert."
+      ],
+      "answer": 2,
+      "solution": "Eine chemische Reaktion ist eine Stoffumwandlung, bei der aus Ausgangsstoffen ( Edukten ) neue Stoffe ( Produkte ) entstehen; die Atome werden dabei umgruppiert. Kennzeichen: Stoffumsatz (neue Stoffe mit neuen Eigenschaften), Energieumsatz (Energie wird frei oder aufgenommen), Teilchenumgruppierung.",
+      "katalog_id": "src-b2-1",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-05"
+    },
+    {
+      "id": "KAT-src-b5-8-A",
+      "level": "A",
+      "kategorie": "K-REAK",
+      "skill": "Formelsprache, Nomenklatur, Reaktionsgleichungen",
+      "type": "choice",
+      "prompt": "Gleiche folgende Gleichungen aus: Gold + Chlor, Aluminium + Sauerstoff, Calcium + Stickstoff, Zersetzung von Wasser.",
+      "options": [
+        "2 Au + 3 Cl 2 → 2 AuCl 3 (Gold(III)-chlorid) 4 Al + 3 O 2 → 2 Al 2 O 3 (Aluminiumoxid) 3 Ca + N 2 → Ca 3 N 2 (Calciumnitrid) 2 H 2 O → 2 H 2 + O 2 (Analyse/Elektrolyse) 2 Na + Cl 2 → 2 NaCl (Natriumchlorid) 2 Mg + O 2 → 2 MgO …",
+        "Vollständige Ionengleichung: Ca 2+ (aq) + 2 Cl − (aq) + 2 Ag + (aq) + 2 NO 3 − (aq) → 2 AgCl↓(s) + Ca 2+ (aq) + 2 NO 3 − (aq) Vereinfachte Gleichung ohne Zuschauerionen: Cl − (aq) + Ag + (aq) → AgCl(s) Ca 2+ und NO 3 − sind …",
+        "Flammenfärbung – Nachweis für Alkali- und Erdalkalimetall-Ionen. Durchführung: Ein Magnesia-Stäbchen (oder Edelstahlstäbchen) wird ausgeglüht, in Wasser und dann in verdünnte Salzsäure getaucht (Reinigung), mit einer Probe des …"
+      ],
+      "answer": 0,
+      "solution": "2 Au + 3 Cl 2 → 2 AuCl 3 (Gold(III)-chlorid) 4 Al + 3 O 2 → 2 Al 2 O 3 (Aluminiumoxid) 3 Ca + N 2 → Ca 3 N 2 (Calciumnitrid) 2 H 2 O → 2 H 2 + O 2 (Analyse/Elektrolyse) 2 Na + Cl 2 → 2 NaCl (Natriumchlorid) 2 Mg + O 2 → 2 MgO (Magnesiumoxid) Fe + S → FeS (Eisen(II)-sulfid) Ag 2 S → 2 Ag + S (Analyse)",
+      "katalog_id": "src-b5-8",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-08"
+    },
+    {
+      "id": "KAT-src-b2-12-A",
+      "level": "A",
+      "kategorie": "K-REAK",
+      "skill": "Die chemische Reaktion und Energetik",
+      "type": "choice",
+      "prompt": "Was ist eine Verbrennung?",
+      "options": [
+        "Eine Verbrennung ist eine exotherme Reaktion unter Beteiligung von Sauerstoff (Oxidation).",
+        "Edukte sind Ausgangsstoffe einer Reaktion; Produkte sind die neu entstandenen Stoffe.",
+        "Sie ist die Mindestenergie, die Teilchen überwinden müssen, damit eine Reaktion starten kann."
+      ],
+      "answer": 0,
+      "solution": "Eine Verbrennung ist eine exotherme Reaktion unter Beteiligung von Sauerstoff (Oxidation). Bei vollständiger Verbrennung von Kohlenwasserstoffen entstehen Kohlenstoffdioxid und Wasser: C 3 H 8 + 5 O 2 → 3 CO 2 + 4 H 2 O Bei unvollständiger Verbrennung (Sauerstoffmangel) entstehen zusätzlich Kohlenstoffmonooxid CO (giftig) und Ruß C.",
+      "katalog_id": "src-b2-12",
+      "schwierigkeit": 1,
+      "ab_einheit": "kw-02"
+    },
+    {
+      "id": "KAT-src-b2-8-A",
+      "level": "A",
+      "kategorie": "K-REAK",
+      "skill": "Die chemische Reaktion und Energetik",
+      "type": "choice",
+      "prompt": "Was bedeutet „metastabiles System“?",
+      "options": [
+        "Synthese (Vereinigung): aus mehreren Edukten entsteht ein Produkt – 2 Mg + O 2 → 2 MgO Analyse (Zersetzung): ein Edukt wird in mehrere Produkte zerlegt – 2 H 2 O → 2 H 2 + O 2.",
+        "Ein System, das stabil erscheint, obwohl die Reaktion exotherm wäre: Wegen einer hohen Aktivierungsenergie reagiert es bei Raumtemperatur nur sehr langsam bzw. gar nicht.",
+        "Innere Energie E i: die gesamte in einem ruhenden Körper/System gespeicherte Energie. Einheit kJ. Sie ist nicht direkt messbar – man betrachtet nur ihre Änderung."
+      ],
+      "answer": 1,
+      "solution": "Ein System, das stabil erscheint, obwohl die Reaktion exotherm wäre: Wegen einer hohen Aktivierungsenergie reagiert es bei Raumtemperatur nur sehr langsam bzw. gar nicht. Beispiel: Knallgas (H 2 /O 2 -Gemisch) bleibt bestehen, bis ein Funke die Reaktion auslöst. Zum Vergleich: stabil = energiearm, wenig reaktiv; instabil = energiereich, reagiert sofort.",
+      "katalog_id": "src-b2-8",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-05"
+    },
+    {
+      "id": "KAT-src-b2-3-A",
+      "level": "A",
+      "kategorie": "K-REAK",
+      "skill": "Die chemische Reaktion und Energetik",
+      "type": "choice",
+      "prompt": "Nenne die drei Reaktionstypen Synthese, Analyse und Umsetzung mit Beispiel.",
+      "options": [
+        "Synthese (Vereinigung): aus mehreren Edukten entsteht ein Produkt – 2 Mg + O 2 → 2 MgO Analyse (Zersetzung): ein Edukt wird in mehrere Produkte zerlegt – 2 H 2 O → 2 H 2 + O 2.",
+        "Ein Salz ist nach außen elektrisch neutral – die Summe der positiven und negativen Ladungen ist gleich. Man bestimmt zuerst die (bekannte) Anionenladung und rechnet die Kationenladung aus.",
+        "Ein System, das stabil erscheint, obwohl die Reaktion exotherm wäre: Wegen einer hohen Aktivierungsenergie reagiert es bei Raumtemperatur nur sehr langsam bzw. gar nicht."
+      ],
+      "answer": 0,
+      "solution": "Synthese (Vereinigung): aus mehreren Edukten entsteht ein Produkt – 2 Mg + O 2 → 2 MgO Analyse (Zersetzung): ein Edukt wird in mehrere Produkte zerlegt – 2 H 2 O → 2 H 2 + O 2. Unterformen: Elektrolyse (mit elektrischer Energie), Thermolyse (mit Wärme). Umsetzung: aus mehreren Edukten entstehen mehrere Produkte, die Atome werden umgelagert – Fe 2 O 3 + 3 CO → 2 Fe + 3 CO 2",
+      "katalog_id": "src-b2-3",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-05"
+    },
+    {
+      "id": "KAT-src-b5-11-A",
+      "level": "A",
+      "kategorie": "K-REAK",
+      "skill": "Formelsprache, Nomenklatur, Reaktionsgleichungen",
+      "type": "choice",
+      "prompt": "Nenne die allgemeine Molekülformel der Alkane und die ersten zehn Vertreter der homologen Reihe.",
+      "options": [
+        "Allgemeine Molekülformel: C n H 2n+2 n Name Formel n Name Formel 1 Methan CH 4 6 Hexan C 6 H 14 2 Ethan C 2 H 6 7 Heptan C 7 H 16 3 Propan C 3 H 8 8 Octan C 8 H 18 4 Butan C 4 H 10 9 Nonan C 9 H 20 5 Pentan C 5 H 12 10 Decan C 10 H 22 …",
+        "Wortgleichung aufstellen: Stickstoff + Sauerstoff → Stickstoffmonooxid Formeln für Edukte und Produkte ermitteln: N 2 + O 2 → NO Ausgleichen nur über Koeffizienten: N 2 + O 2 → 2 NO Kontrolle: links und rechts gleich viele Atome jeder …",
+        "Nachweis für Reagenz Beobachtung Chlorid, Bromid, Iodid Silber(I)-nitrat-Lösung weißer / blassgelber / gelber Niederschlag Sulfat SO 4 2− Bariumchlorid-Lösung weißer Niederschlag (BaSO 4 ), säureunlöslich Carbonat CO 3 2− verdünnte …"
+      ],
+      "answer": 0,
+      "solution": "Allgemeine Molekülformel: C n H 2n+2 n Name Formel n Name Formel 1 Methan CH 4 6 Hexan C 6 H 14 2 Ethan C 2 H 6 7 Heptan C 7 H 16 3 Propan C 3 H 8 8 Octan C 8 H 18 4 Butan C 4 H 10 9 Nonan C 9 H 20 5 Pentan C 5 H 12 10 Decan C 10 H 22 Homologe Reihe: Reihe organischer Verbindungen, deren aufeinanderfolgende Glieder sich jeweils um eine Methylen-Gruppe (–CH 2 –) unterscheiden.",
+      "katalog_id": "src-b5-11",
+      "schwierigkeit": 1,
+      "ab_einheit": "kw-02"
+    },
+    {
+      "id": "KAT-src-b2-4-A",
+      "level": "A",
+      "kategorie": "K-REAK",
+      "skill": "Die chemische Reaktion und Energetik",
+      "type": "choice",
+      "prompt": "Definiere innere Energie, Reaktionsenergie und Aktivierungsenergie mit Formelzeichen.",
+      "options": [
+        "Ein System, das stabil erscheint, obwohl die Reaktion exotherm wäre: Wegen einer hohen Aktivierungsenergie reagiert es bei Raumtemperatur nur sehr langsam bzw. gar nicht.",
+        "Innere Energie E i: die gesamte in einem ruhenden Körper/System gespeicherte Energie. Einheit kJ. Sie ist nicht direkt messbar – man betrachtet nur ihre Änderung.",
+        "Eine chemische Reaktion ist eine Stoffumwandlung, bei der aus Ausgangsstoffen ( Edukten ) neue Stoffe ( Produkte ) entstehen; die Atome werden dabei umgruppiert."
+      ],
+      "answer": 1,
+      "solution": "Innere Energie E i: die gesamte in einem ruhenden Körper/System gespeicherte Energie. Einheit kJ. Sie ist nicht direkt messbar – man betrachtet nur ihre Änderung. Reaktionsenergie ΔE i: die bei einer Reaktion umgesetzte Energie: ΔE i = E i (Produkte) − E i (Edukte) Aktivierungsenergie E A: die Energie, die zum Auslösen (Starten) einer chemischen Reaktion aufgewendet werden muss.",
+      "katalog_id": "src-b2-4",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-05"
+    },
+    {
+      "id": "KAT-src-b5-5-B",
+      "level": "B",
+      "kategorie": "K-REAK",
+      "skill": "Formelsprache, Nomenklatur, Reaktionsgleichungen",
+      "type": "choice",
+      "prompt": "Wie ermittelst du die Ionenladung eines Nebengruppenmetalls aus der Verhältnisformel?",
+      "options": [
+        "Man prüft im PSE, ob ein Metall beteiligt ist: Nichtmetall + Nichtmetall → Verbindungsmolekül → griechische Zahlwörter (z. B. C 2 N 5 = Dikohlenstoffpentanitrid, N 2 O 7 = Distickstoffheptaoxid).",
+        "Alle Elemente bestehen aus kleinsten, kugelförmigen, unteilbaren Teilchen, den Atomen. Atome desselben Elements gleichen sich in Masse und Größe; Atome verschiedener Elemente unterscheiden sich darin.",
+        "Ein Salz ist nach außen elektrisch neutral – die Summe der positiven und negativen Ladungen ist gleich. Man bestimmt zuerst die (bekannte) Anionenladung und rechnet die Kationenladung aus.",
+        "Synthese (Vereinigung): aus mehreren Edukten entsteht ein Produkt – 2 Mg + O 2 → 2 MgO Analyse (Zersetzung): ein Edukt wird in mehrere Produkte zerlegt – 2 H 2 O → 2 H 2 + O 2."
+      ],
+      "answer": 2,
+      "solution": "Ein Salz ist nach außen elektrisch neutral – die Summe der positiven und negativen Ladungen ist gleich. Man bestimmt zuerst die (bekannte) Anionenladung und rechnet die Kationenladung aus. Cu 2 O 3: Oxid-Ion ist O 2− → 3 · (−2) = −6 → auf 2 Kupfer-Ionen verteilt → je +3 → Kupfer(III)-oxid. FeF: Fluorid ist F −, Verhältnis 1:1 → Fe muss +1 sein → Eisen(I)-fluorid. Cu 2 (SO 4 ) 3: Sulfat ist SO 4 2− → 3 · (−2) = −6 → 2 Cu je +3 → Kupfer(III)-sulfat.",
+      "katalog_id": "src-b5-5",
+      "schwierigkeit": 1,
+      "ab_einheit": "sz-02"
+    },
+    {
+      "id": "KAT-src-b5-2-B",
+      "level": "B",
+      "kategorie": "K-REAK",
+      "skill": "Formelsprache, Nomenklatur, Reaktionsgleichungen",
+      "type": "choice",
+      "prompt": "Wie benennt man binäre Molekülverbindungen? Benenne N 2 O 4, CO, NO 2, SF 6.",
+      "options": [
+        "Bei Molekülverbindungen (Nichtmetall + Nichtmetall) werden griechische Zahlwörter verwendet: Zahlwort + Name 1. Element + Zahlwort + Stammname 2.",
+        "Es entstehen neue Stoffe mit neuen Eigenschaften; mögliche Beobachtungen sind Farbänderung, Gasentwicklung, Temperaturänderung oder Niederschlag.",
+        "Gesetz der konstanten Proportionen (Proust): Die Elemente einer bestimmten chemischen Verbindung liegen stets im gleichen Massenverhältnis vor.",
+        "Nachweis für Name Durchführung Beobachtung Sauerstoff O 2 Glimmspanprobe Ein glimmender Holzspan wird in das Gas gehalten Der Span glimmt auf bzw."
+      ],
+      "answer": 0,
+      "solution": "Bei Molekülverbindungen (Nichtmetall + Nichtmetall) werden griechische Zahlwörter verwendet: Zahlwort + Name 1. Element + Zahlwort + Stammname 2. Element + „-id“ 1 mono · 2 di · 3 tri · 4 tetra · 5 penta · 6 hexa · 7 hepta · 8 octa · 9 nona · 10 deca N 2 O 4 – Distickstofftetraoxid CO 2 – Kohlenstoffdioxid; CO – Kohlenstoffmonooxid NO 2 – Stickstoffdioxid SF 6 – Schwefelhexafluorid Umgekehrt: Kohlenstoffdisulfid = CS 2, Distickstoffpentaoxid = N 2 O 5.",
+      "katalog_id": "src-b5-2",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-08"
+    },
+    {
+      "id": "KAT-src-b2-11-B",
+      "level": "B",
+      "kategorie": "K-REAK",
+      "skill": "Die chemische Reaktion und Energetik",
+      "type": "choice",
+      "prompt": "Nenne die Aussagen des Atommodells nach Dalton und die Punkte, die heute nicht mehr gelten.",
+      "options": [
+        "Durchführung: Eine kleine Probe wird auf einem Verbrennungslöffel in der nichtleuchtenden Brennerflamme etwa 30 Sekunden erhitzt. Anschließend prüft man, ob der Stoff außerhalb der Flamme weiterbrennt.",
+        "Trivialname Formel Trivialname Formel Wasser H 2 O Ammoniak NH 3 Methan CH 4 Kohlenstoffdioxid CO 2 Wasserstoffperoxid H 2 O 2 Kochsalz NaCl Kalk CaCO 3 Soda Na 2 CO 3 Gips CaSO 4 Schwefelsäure H 2 SO 4",
+        "Man prüft im PSE, ob ein Metall beteiligt ist: Nichtmetall + Nichtmetall → Verbindungsmolekül → griechische Zahlwörter (z. B. C 2 N 5 = Dikohlenstoffpentanitrid, N 2 O 7 = Distickstoffheptaoxid).",
+        "Alle Elemente bestehen aus kleinsten, kugelförmigen, unteilbaren Teilchen, den Atomen. Atome desselben Elements gleichen sich in Masse und Größe; Atome verschiedener Elemente unterscheiden sich darin."
+      ],
+      "answer": 3,
+      "solution": "Alle Elemente bestehen aus kleinsten, kugelförmigen, unteilbaren Teilchen, den Atomen. Atome desselben Elements gleichen sich in Masse und Größe; Atome verschiedener Elemente unterscheiden sich darin. Chemische Verbindungen enthalten Atome verschiedener Elemente in bestimmten Zahlenverhältnissen. Bei einer chemischen Reaktion werden Atome weder erzeugt noch zerstört, sondern nur umgruppiert. Überholt: Atome sind nicht unteilbar (Kern, Hülle, Elementarteilchen) und Atome desselben Elements sind nicht massegleich (→ Isotope ). Auch die Unzerstörbarkeit gilt bei Kernreaktionen nicht.",
+      "katalog_id": "src-b2-11",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-05"
+    },
+    {
+      "id": "KAT-src-b5-3-B",
+      "level": "B",
+      "kategorie": "K-REAK",
+      "skill": "Formelsprache, Nomenklatur, Reaktionsgleichungen",
+      "type": "choice",
+      "prompt": "Wie benennt man Salze? Wann muss die Wertigkeit angegeben werden?",
+      "options": [
+        "Vollständige Ionengleichung: Ca 2+ (aq) + 2 Cl − (aq) + 2 Ag + (aq) + 2 NO 3 − (aq) → 2 AgCl↓(s) + Ca 2+ (aq) + 2 NO 3 − (aq) Vereinfachte Gleichung ohne Zuschauerionen: Cl − (aq) + Ag + (aq) → AgCl(s) Ca 2+ und NO 3 − sind …",
+        "Flammenfärbung – Nachweis für Alkali- und Erdalkalimetall-Ionen. Durchführung: Ein Magnesia-Stäbchen (oder Edelstahlstäbchen) wird ausgeglüht, in Wasser und dann in verdünnte Salzsäure getaucht (Reinigung), mit einer Probe des …",
+        "Chemischer Vorgang: Stoffänderung mit Energiebeteiligung – die Produkte haben andere Kenneigenschaften als die Ausgangsstoffe. Physikalischer Vorgang: Zustandsänderung unter Energiebeteiligung, aber keine Stoffänderung – z. B.",
+        "Salzname = Name des Metalls (+ Wertigkeit) + Stammname des Nichtmetalls + „-id“ Bei Molekül-Ionen: Name des Metalls + Name des Molekül-Ions (-at, -it, -hydroxid …) Bei Salzen werden keine griechischen Zahlwörter verwendet."
+      ],
+      "answer": 3,
+      "solution": "Salzname = Name des Metalls (+ Wertigkeit) + Stammname des Nichtmetalls + „-id“ Bei Molekül-Ionen: Name des Metalls + Name des Molekül-Ions (-at, -it, -hydroxid …) Bei Salzen werden keine griechischen Zahlwörter verwendet. Die Wertigkeit in römischen Ziffern muss angegeben werden, wenn das Metall verschiedene Ionenladungen bilden kann – also bei allen Nebengruppenmetallen (Fe, Cu, Cr, Co, Ni …). Bei Metallen der 1.–3. Hauptgruppe entfällt sie. NaI – Natriumiodid · AlCl 3 – Aluminiumchlorid · MgF 2 – Magnesiumfluorid FeCl 2 – Eisen(II)-chlorid · Fe 2 O 3 – Eisen(III)-oxid · CuO – Kupfer(II)-oxid MgSO 4 – Magnesiumsulfat · Na 2 CO 3 – Natriumcarbonat · (NH 4 ) 2 CO 3 – Ammoniumcarbonat · FePO 4 – Eisen(III)-phosphat",
+      "katalog_id": "src-b5-3",
+      "schwierigkeit": 1,
+      "ab_einheit": "sl-02"
+    },
+    {
+      "id": "KAT-src-b5-4-B",
+      "level": "B",
+      "kategorie": "K-REAK",
+      "skill": "Formelsprache, Nomenklatur, Reaktionsgleichungen",
+      "type": "choice",
+      "prompt": "Wie entscheidest du, ob eine Formel ein Verbindungsmolekül oder ein Salz beschreibt?",
+      "options": [
+        "Man prüft im PSE, ob ein Metall beteiligt ist: Nichtmetall + Nichtmetall → Verbindungsmolekül → griechische Zahlwörter (z. B. C 2 N 5 = Dikohlenstoffpentanitrid, N 2 O 7 = Distickstoffheptaoxid).",
+        "Alle Elemente bestehen aus kleinsten, kugelförmigen, unteilbaren Teilchen, den Atomen. Atome desselben Elements gleichen sich in Masse und Größe; Atome verschiedener Elemente unterscheiden sich darin.",
+        "Durchführung: Eine kleine Probe wird auf einem Verbrennungslöffel in der nichtleuchtenden Brennerflamme etwa 30 Sekunden erhitzt. Anschließend prüft man, ob der Stoff außerhalb der Flamme weiterbrennt.",
+        "Ein Salz ist nach außen elektrisch neutral – die Summe der positiven und negativen Ladungen ist gleich. Man bestimmt zuerst die (bekannte) Anionenladung und rechnet die Kationenladung aus."
+      ],
+      "answer": 0,
+      "solution": "Man prüft im PSE, ob ein Metall beteiligt ist: Nichtmetall + Nichtmetall → Verbindungsmolekül → griechische Zahlwörter (z. B. C 2 N 5 = Dikohlenstoffpentanitrid, N 2 O 7 = Distickstoffheptaoxid). Metall-Kation + Nichtmetall-Anion / Molekül-Ion → Salz → keine Zahlwörter (z. B. K 2 O = Kaliumoxid, BaCl 2 = Bariumchlorid, BeCO 3 = Berylliumcarbonat). Merke: Halbmetalle werden bei der Benennung wie Nichtmetalle behandelt; Wasserstoff steht links im PSE, ist aber Nichtmetall (HF = Wasserstoffmonofluorid).",
+      "katalog_id": "src-b5-4",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-08"
+    },
+    {
+      "id": "KAT-src-f-4-B",
+      "level": "B",
+      "kategorie": "K-REAK",
+      "skill": "Nachweisreaktionen",
+      "type": "choice",
+      "prompt": "Nenne die weiteren Ionennachweise über Fällungs- und Farbreaktionen.",
+      "options": [
+        "Exotherm: Energie wird an die Umgebung abgegeben (Wärme, Licht). Die Produkte sind energieärmer als die Edukte → ΔE i < 0 Endotherm: Energie wird aus der Umgebung aufgenommen. Die Produkte sind energiereicher als die Edukte → ΔE i > 0",
+        "Allgemeine Molekülformel: C n H 2n+2 n Name Formel n Name Formel 1 Methan CH 4 6 Hexan C 6 H 14 2 Ethan C 2 H 6 7 Heptan C 7 H 16 3 Propan C 3 H 8 8 Octan C 8 H 18 4 Butan C 4 H 10 9 Nonan C 9 H 20 5 Pentan C 5 H 12 10 Decan C 10 H 22 …",
+        "Nachweis für Reagenz Beobachtung Chlorid, Bromid, Iodid Silber(I)-nitrat-Lösung weißer / blassgelber / gelber Niederschlag Sulfat SO 4 2− Bariumchlorid-Lösung weißer Niederschlag (BaSO 4 ), säureunlöslich Carbonat CO 3 2− verdünnte …",
+        "Molekülformel: gibt an, aus wie vielen Atomen jeder Sorte ein Molekül besteht (Nichtmetall-Nichtmetall-Verbindung), z. B. CO 2. Verhältnisformel: gibt das Zahlenverhältnis der Ionen in einem Salz an (Metall-Nichtmetall-Verbindung), z."
+      ],
+      "answer": 2,
+      "solution": "Nachweis für Reagenz Beobachtung Chlorid, Bromid, Iodid Silber(I)-nitrat-Lösung weißer / blassgelber / gelber Niederschlag Sulfat SO 4 2− Bariumchlorid-Lösung weißer Niederschlag (BaSO 4 ), säureunlöslich Carbonat CO 3 2− verdünnte Säure Gasentwicklung (CO 2 ) → Kalkwasserprobe positiv Kupfer-Ionen Cu 2+ Ammoniak-Lösung tiefblaue Färbung Eisen(III)-Ionen Fe 3+ Thiocyanat-Lösung (SCN − ) blutrote Färbung Wasser weißes Kupfersulfat (wasserfrei) Blaufärbung Stärke Lugol'sche Lösung (Iod-Kaliumiodid) Blaufärbung",
+      "katalog_id": "src-f-4",
+      "schwierigkeit": 1,
+      "ab_einheit": "ga-02"
+    },
+    {
+      "id": "KAT-src-f-6-B",
+      "level": "B",
+      "kategorie": "K-REAK",
+      "skill": "Nachweisreaktionen",
+      "type": "choice",
+      "prompt": "Wie weist man ungesättigte Kohlenwasserstoffe nach?",
+      "options": [
+        "Sie ist die Mindestenergie, die Teilchen überwinden müssen, damit eine Reaktion starten kann.",
+        "Die Zahl und Art der Atome bleibt gleich; deshalb ist die Gesamtmasse vor und nach der Reaktion gleich.",
+        "Fein verteiltes Material besitzt eine größere Oberfläche und kann schneller mit Sauerstoff reagieren.",
+        "Bromwasser-Probe (Baeyer-Probe). Durchführung: Die Probe wird mit braunem Bromwasser geschüttelt."
+      ],
+      "answer": 3,
+      "solution": "Bromwasser-Probe (Baeyer-Probe). Durchführung: Die Probe wird mit braunem Bromwasser geschüttelt. Beobachtung: Bei ungesättigten Kohlenwasserstoffen (Alkene, Alkine) wird das Bromwasser entfärbt, weil Brom in einer elektrophilen Addition an die Mehrfachbindung addiert wird. Bei Alkanen bleibt die Farbe (ohne Belichtung) erhalten. H 2 C=CH 2 + Br 2 → H 2 CBr–CH 2 Br (Entfärbung) Alternativ: Baeyer-Probe mit alkalischer Kaliumpermanganat-Lösung – die violette Farbe verschwindet, brauner Braunstein fällt aus.",
+      "katalog_id": "src-f-6",
+      "schwierigkeit": 1,
+      "ab_einheit": "sl-02"
+    },
+    {
+      "id": "KAT-src-f-7-B",
+      "level": "B",
+      "kategorie": "K-REAK",
+      "skill": "Nachweisreaktionen",
+      "type": "choice",
+      "prompt": "Wie unterscheidet man experimentell organische von anorganischen Stoffen?",
+      "options": [
+        "Durchführung: Eine kleine Probe wird auf einem Verbrennungslöffel in der nichtleuchtenden Brennerflamme etwa 30 Sekunden erhitzt. Anschließend prüft man, ob der Stoff außerhalb der Flamme weiterbrennt.",
+        "Alle Elemente bestehen aus kleinsten, kugelförmigen, unteilbaren Teilchen, den Atomen. Atome desselben Elements gleichen sich in Masse und Größe; Atome verschiedener Elemente unterscheiden sich darin.",
+        "Man prüft im PSE, ob ein Metall beteiligt ist: Nichtmetall + Nichtmetall → Verbindungsmolekül → griechische Zahlwörter (z. B. C 2 N 5 = Dikohlenstoffpentanitrid, N 2 O 7 = Distickstoffheptaoxid).",
+        "Trivialname Formel Trivialname Formel Wasser H 2 O Ammoniak NH 3 Methan CH 4 Kohlenstoffdioxid CO 2 Wasserstoffperoxid H 2 O 2 Kochsalz NaCl Kalk CaCO 3 Soda Na 2 CO 3 Gips CaSO 4 Schwefelsäure H 2 SO 4"
+      ],
+      "answer": 0,
+      "solution": "Durchführung: Eine kleine Probe wird auf einem Verbrennungslöffel in der nichtleuchtenden Brennerflamme etwa 30 Sekunden erhitzt. Anschließend prüft man, ob der Stoff außerhalb der Flamme weiterbrennt. Beobachtung und Deutung: Organische Stoffe bestehen immer aus Kohlenstoffverbindungen. Beim Erhitzen werden sie ab etwa 300 °C zersetzt; der entstehende Kohlenstoff ist an Verkohlung oder Rußbildung erkennbar. Organische Stoffe sind außerdem sehr oft brennbar. Beispiele: organisch – Zucker, Kerzenwachs, Holz, Mehl, Polyethen; anorganisch – Kochsalz, Soda. Historisch: Früher verstand man unter „organischen Stoffen“ solche, die nur von Lebewesen erzeugt werden können. Diese Vorstellung gilt seit der Harnstoffsynthese durch Wöhler (1828) nicht mehr – organische Stoffe lassen sich im Labor herstellen.",
+      "katalog_id": "src-f-7",
+      "schwierigkeit": 1,
+      "ab_einheit": "ga-02"
+    },
+    {
+      "id": "KAT-src-b5-7-B",
+      "level": "B",
+      "kategorie": "K-REAK",
+      "skill": "Formelsprache, Nomenklatur, Reaktionsgleichungen",
+      "type": "choice",
+      "prompt": "Formuliere Wortgleichung und Reaktionsgleichung: „Die Gase Wasserstoff und Stickstoff reagieren zum Gas Ammoniak.“",
+      "options": [
+        "Beide sind Nachweisreaktionen für Aldehyde. Der Aldehyd wirkt als Reduktionsmittel und wird dabei selbst zur Carbonsäure oxidiert.",
+        "Eine mögliche ausgeglichene Darstellung ist A₂ + B₂ → 2 AB; vor und nach der Reaktion müssen gleich viele A- und B-Atome vorhanden sein.",
+        "Fällungsreaktion mit Silbernitrat. Durchführung: Die Probe wird in Wasser gelöst und mit Silbernitrat-Lösung (AgNO 3 (aq)) versetzt.",
+        "Wasserstoff (g) + Stickstoff (g) → Ammoniak (g) 3 H 2 (g) + N 2 (g) → 2 NH 3 (g) Kontrolle: links 6 H und 2 N, rechts 6 H und 2 N. ✔"
+      ],
+      "answer": 3,
+      "solution": "Wasserstoff (g) + Stickstoff (g) → Ammoniak (g) 3 H 2 (g) + N 2 (g) → 2 NH 3 (g) Kontrolle: links 6 H und 2 N, rechts 6 H und 2 N. ✔",
+      "katalog_id": "src-b5-7",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-08"
+    },
+    {
+      "id": "KAT-src-b2-2-B",
+      "level": "B",
+      "kategorie": "K-REAK",
+      "skill": "Die chemische Reaktion und Energetik",
+      "type": "choice",
+      "prompt": "Unterscheide chemischen und physikalischen Vorgang.",
+      "options": [
+        "Vollständige Ionengleichung: Ca 2+ (aq) + 2 Cl − (aq) + 2 Ag + (aq) + 2 NO 3 − (aq) → 2 AgCl↓(s) + Ca 2+ (aq) + 2 NO 3 − (aq) Vereinfachte Gleichung ohne Zuschauerionen: Cl − (aq) + Ag + (aq) → AgCl(s) Ca 2+ und NO 3 − sind …",
+        "Chemischer Vorgang: Stoffänderung mit Energiebeteiligung – die Produkte haben andere Kenneigenschaften als die Ausgangsstoffe. Physikalischer Vorgang: Zustandsänderung unter Energiebeteiligung, aber keine Stoffänderung – z. B.",
+        "Flammenfärbung – Nachweis für Alkali- und Erdalkalimetall-Ionen. Durchführung: Ein Magnesia-Stäbchen (oder Edelstahlstäbchen) wird ausgeglüht, in Wasser und dann in verdünnte Salzsäure getaucht (Reinigung), mit einer Probe des …",
+        "2 Au + 3 Cl 2 → 2 AuCl 3 (Gold(III)-chlorid) 4 Al + 3 O 2 → 2 Al 2 O 3 (Aluminiumoxid) 3 Ca + N 2 → Ca 3 N 2 (Calciumnitrid) 2 H 2 O → 2 H 2 + O 2 (Analyse/Elektrolyse) 2 Na + Cl 2 → 2 NaCl (Natriumchlorid) 2 Mg + O 2 → 2 MgO …"
+      ],
+      "answer": 1,
+      "solution": "Chemischer Vorgang: Stoffänderung mit Energiebeteiligung – die Produkte haben andere Kenneigenschaften als die Ausgangsstoffe. Physikalischer Vorgang: Zustandsänderung unter Energiebeteiligung, aber keine Stoffänderung – z. B. Schmelzen, Sieden, Lösen von Zucker.",
+      "katalog_id": "src-b2-2",
+      "schwierigkeit": 1,
+      "ab_einheit": "sl-02"
+    },
+    {
+      "id": "KAT-src-b2-10-B",
+      "level": "B",
+      "kategorie": "K-REAK",
+      "skill": "Die chemische Reaktion und Energetik",
+      "type": "choice",
+      "prompt": "Formuliere das Gesetz der konstanten Proportionen und die Avogadro-Hypothese.",
+      "options": [
+        "Gesetz der konstanten Proportionen (Proust): Die Elemente einer bestimmten chemischen Verbindung liegen stets im gleichen Massenverhältnis vor.",
+        "Nachweis für Name Durchführung Beobachtung Sauerstoff O 2 Glimmspanprobe Ein glimmender Holzspan wird in das Gas gehalten Der Span glimmt auf bzw.",
+        "Bei Molekülverbindungen (Nichtmetall + Nichtmetall) werden griechische Zahlwörter verwendet: Zahlwort + Name 1. Element + Zahlwort + Stammname 2.",
+        "Es entstehen neue Stoffe mit neuen Eigenschaften; mögliche Beobachtungen sind Farbänderung, Gasentwicklung, Temperaturänderung oder Niederschlag."
+      ],
+      "answer": 0,
+      "solution": "Gesetz der konstanten Proportionen (Proust): Die Elemente einer bestimmten chemischen Verbindung liegen stets im gleichen Massenverhältnis vor. Avogadro-Hypothese: Gleiche Volumina verschiedener Gase enthalten bei gleichem Druck und gleicher Temperatur gleich viele Teilchen.",
+      "katalog_id": "src-b2-10",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-05"
+    },
+    {
+      "id": "KAT-src-b5-9-B",
+      "level": "B",
+      "kategorie": "K-REAK",
+      "skill": "Formelsprache, Nomenklatur, Reaktionsgleichungen",
+      "type": "choice",
+      "prompt": "Stelle die Ionengleichung für den Nachweis von Chlorid-Ionen in einer Calciumchlorid-Lösung auf.",
+      "options": [
+        "Chemischer Vorgang: Stoffänderung mit Energiebeteiligung – die Produkte haben andere Kenneigenschaften als die Ausgangsstoffe. Physikalischer Vorgang: Zustandsänderung unter Energiebeteiligung, aber keine Stoffänderung – z. B.",
+        "Flammenfärbung – Nachweis für Alkali- und Erdalkalimetall-Ionen. Durchführung: Ein Magnesia-Stäbchen (oder Edelstahlstäbchen) wird ausgeglüht, in Wasser und dann in verdünnte Salzsäure getaucht (Reinigung), mit einer Probe des …",
+        "Vollständige Ionengleichung: Ca 2+ (aq) + 2 Cl − (aq) + 2 Ag + (aq) + 2 NO 3 − (aq) → 2 AgCl↓(s) + Ca 2+ (aq) + 2 NO 3 − (aq) Vereinfachte Gleichung ohne Zuschauerionen: Cl − (aq) + Ag + (aq) → AgCl(s) Ca 2+ und NO 3 − sind …",
+        "2 Au + 3 Cl 2 → 2 AuCl 3 (Gold(III)-chlorid) 4 Al + 3 O 2 → 2 Al 2 O 3 (Aluminiumoxid) 3 Ca + N 2 → Ca 3 N 2 (Calciumnitrid) 2 H 2 O → 2 H 2 + O 2 (Analyse/Elektrolyse) 2 Na + Cl 2 → 2 NaCl (Natriumchlorid) 2 Mg + O 2 → 2 MgO …"
+      ],
+      "answer": 2,
+      "solution": "Vollständige Ionengleichung: Ca 2+ (aq) + 2 Cl − (aq) + 2 Ag + (aq) + 2 NO 3 − (aq) → 2 AgCl↓(s) + Ca 2+ (aq) + 2 NO 3 − (aq) Vereinfachte Gleichung ohne Zuschauerionen: Cl − (aq) + Ag + (aq) → AgCl(s) Ca 2+ und NO 3 − sind Zuschauerionen: Sie erscheinen unverändert auf beiden Seiten und werden gekürzt.",
+      "katalog_id": "src-b5-9",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-08"
+    },
+    {
+      "id": "KAT-src-b2-9-B",
+      "level": "B",
+      "kategorie": "K-REAK",
+      "skill": "Die chemische Reaktion und Energetik",
+      "type": "choice",
+      "prompt": "Formuliere den Energieerhaltungssatz und den Massenerhaltungssatz.",
+      "options": [
+        "Durchführung: Eine kleine Probe wird auf einem Verbrennungslöffel in der nichtleuchtenden Brennerflamme etwa 30 Sekunden erhitzt. Anschließend prüft man, ob der Stoff außerhalb der Flamme weiterbrennt.",
+        "Alle Elemente bestehen aus kleinsten, kugelförmigen, unteilbaren Teilchen, den Atomen. Atome desselben Elements gleichen sich in Masse und Größe; Atome verschiedener Elemente unterscheiden sich darin.",
+        "Energieerhaltung: Energie kann bei einer chemischen Reaktion weder erzeugt noch vernichtet werden; sie wird nur von einer Energieform in eine andere umgewandelt (z. B. innere Energie → Wärme- und Lichtenergie).",
+        "Trivialname Formel Trivialname Formel Wasser H 2 O Ammoniak NH 3 Methan CH 4 Kohlenstoffdioxid CO 2 Wasserstoffperoxid H 2 O 2 Kochsalz NaCl Kalk CaCO 3 Soda Na 2 CO 3 Gips CaSO 4 Schwefelsäure H 2 SO 4"
+      ],
+      "answer": 2,
+      "solution": "Energieerhaltung: Energie kann bei einer chemischen Reaktion weder erzeugt noch vernichtet werden; sie wird nur von einer Energieform in eine andere umgewandelt (z. B. innere Energie → Wärme- und Lichtenergie). Massenerhaltung (Lavoisier): Bei einer chemischen Reaktion bleibt die Gesamtmasse aller beteiligten Stoffe erhalten – die Summe der Eduktmassen ist gleich der Summe der Produktmassen. Messbar nur im geschlossenen System. Begründung mit Dalton: Es werden nur Bindungen gelöst und neu geknüpft, Atome kommen weder hinzu noch verschwinden sie.",
+      "katalog_id": "src-b2-9",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-05"
+    },
+    {
+      "id": "KAT-src-b5-1-C",
+      "level": "C",
+      "kategorie": "K-REAK",
+      "skill": "Formelsprache, Nomenklatur, Reaktionsgleichungen",
+      "type": "choice",
+      "prompt": "Unterscheide Molekülformel und Verhältnisformel. Was bedeuten Index und Koeffizient?",
+      "options": [
+        "Molekülformel: gibt an, aus wie vielen Atomen jeder Sorte ein Molekül besteht (Nichtmetall-Nichtmetall-Verbindung), z. B. CO 2. Verhältnisformel: gibt das Zahlenverhältnis der Ionen in einem Salz an (Metall-Nichtmetall-Verbindung), z.",
+        "2 Au + 3 Cl 2 → 2 AuCl 3 (Gold(III)-chlorid) 4 Al + 3 O 2 → 2 Al 2 O 3 (Aluminiumoxid) 3 Ca + N 2 → Ca 3 N 2 (Calciumnitrid) 2 H 2 O → 2 H 2 + O 2 (Analyse/Elektrolyse) 2 Na + Cl 2 → 2 NaCl (Natriumchlorid) 2 Mg + O 2 → 2 MgO …",
+        "Wortgleichung aufstellen: Stickstoff + Sauerstoff → Stickstoffmonooxid Formeln für Edukte und Produkte ermitteln: N 2 + O 2 → NO Ausgleichen nur über Koeffizienten: N 2 + O 2 → 2 NO Kontrolle: links und rechts gleich viele Atome jeder …",
+        "Allgemeine Molekülformel: C n H 2n+2 n Name Formel n Name Formel 1 Methan CH 4 6 Hexan C 6 H 14 2 Ethan C 2 H 6 7 Heptan C 7 H 16 3 Propan C 3 H 8 8 Octan C 8 H 18 4 Butan C 4 H 10 9 Nonan C 9 H 20 5 Pentan C 5 H 12 10 Decan C 10 H 22 …"
+      ],
+      "answer": 0,
+      "solution": "Molekülformel: gibt an, aus wie vielen Atomen jeder Sorte ein Molekül besteht (Nichtmetall-Nichtmetall-Verbindung), z. B. CO 2. Verhältnisformel: gibt das Zahlenverhältnis der Ionen in einem Salz an (Metall-Nichtmetall-Verbindung), z. B. NaCl (1:1), CaF 2 (1:2). Index = tiefgestellte Zahl hinter einem Symbol; gibt die Atom- bzw. Ionenzahl im Teilchen an und bleibt beim Ausgleichen immer unverändert. Koeffizient = Zahl vor der Formel; gibt die Anzahl der Teilchen an und wird beim Ausgleichen verändert. 4 SO 3 → 4 = Koeffizient (4 Teilchen SO 3 ), 3 = Index (3 O-Atome je Teilchen) Molekül-Ionen mit Index ≥ 2 stehen in Klammern: Al(OH) 3, (NH 4 ) 2 CO 3.",
+      "katalog_id": "src-b5-1",
+      "schwierigkeit": 1,
+      "ab_einheit": "sz-02"
+    },
+    {
+      "id": "KAT-src-f-1-C",
+      "level": "C",
+      "kategorie": "K-REAK",
+      "skill": "Nachweisreaktionen",
+      "type": "choice",
+      "prompt": "Beschreibe die Nachweise für Sauerstoff, Wasserstoff und Kohlenstoffdioxid.",
+      "options": [
+        "Fällungsreaktion mit Silbernitrat. Durchführung: Die Probe wird in Wasser gelöst und mit Silbernitrat-Lösung (AgNO 3 (aq)) versetzt.",
+        "Bromwasser-Probe (Baeyer-Probe). Durchführung: Die Probe wird mit braunem Bromwasser geschüttelt.",
+        "Nachweis für Name Durchführung Beobachtung Sauerstoff O 2 Glimmspanprobe Ein glimmender Holzspan wird in das Gas gehalten Der Span glimmt auf bzw.",
+        "Beide sind Nachweisreaktionen für Aldehyde. Der Aldehyd wirkt als Reduktionsmittel und wird dabei selbst zur Carbonsäure oxidiert."
+      ],
+      "answer": 2,
+      "solution": "Nachweis für Name Durchführung Beobachtung Sauerstoff O 2 Glimmspanprobe Ein glimmender Holzspan wird in das Gas gehalten Der Span glimmt auf bzw. entflammt Wasserstoff H 2 Knallgasprobe Das aufgefangene Gas (mit Luft) wird an einer Flamme entzündet Pfeifen oder Knall („Plopp“) Kohlenstoffdioxid CO 2 Kalkwasserprobe Das Gas wird in Kalkwasser (Calciumhydroxid-Lösung) eingeleitet Weißer Niederschlag / milchige Trübung durch schwerlösliches Calciumcarbonat Knallgasreaktion: 2 H 2 (g) + O 2 (g) → 2 H 2 O(g) Kalkwasserprobe: CO 2 (g) + Ca(OH) 2 (aq) → CaCO 3 (s) + H 2 O(l)",
+      "katalog_id": "src-f-1",
+      "schwierigkeit": 1,
+      "ab_einheit": "ga-02"
+    },
+    {
+      "id": "KAT-src-f-2-C",
+      "level": "C",
+      "kategorie": "K-REAK",
+      "skill": "Nachweisreaktionen",
+      "type": "choice",
+      "prompt": "Beschreibe Durchführung und Beobachtung beim Nachweis von Natrium-Ionen.",
+      "options": [
+        "Flammenfärbung – Nachweis für Alkali- und Erdalkalimetall-Ionen. Durchführung: Ein Magnesia-Stäbchen (oder Edelstahlstäbchen) wird ausgeglüht, in Wasser und dann in verdünnte Salzsäure getaucht (Reinigung), mit einer Probe des …",
+        "Durchführung: Eine kleine Probe wird auf einem Verbrennungslöffel in der nichtleuchtenden Brennerflamme etwa 30 Sekunden erhitzt. Anschließend prüft man, ob der Stoff außerhalb der Flamme weiterbrennt.",
+        "Nachweis für Name Durchführung Beobachtung Sauerstoff O 2 Glimmspanprobe Ein glimmender Holzspan wird in das Gas gehalten Der Span glimmt auf bzw.",
+        "Nachweis für Reagenz Beobachtung Chlorid, Bromid, Iodid Silber(I)-nitrat-Lösung weißer / blassgelber / gelber Niederschlag Sulfat SO 4 2− Bariumchlorid-Lösung weißer Niederschlag (BaSO 4 ), säureunlöslich Carbonat CO 3 2− verdünnte …"
+      ],
+      "answer": 0,
+      "solution": "Flammenfärbung – Nachweis für Alkali- und Erdalkalimetall-Ionen. Durchführung: Ein Magnesia-Stäbchen (oder Edelstahlstäbchen) wird ausgeglüht, in Wasser und dann in verdünnte Salzsäure getaucht (Reinigung), mit einer Probe des Natrium-Salzes benetzt und in die rauschende Brennerflamme gehalten. Beobachtung: Eine charakteristische gelborange Färbung der Flamme weist auf Natrium-Ionen hin. Ion Flammenfarbe Ion Flammenfarbe Lithium Li + rot (karminrot) Calcium Ca 2+ ziegelrot / orangerot Natrium Na + gelborange Strontium Sr 2+ rot Kalium K + violett Barium Ba 2+ grün (fahlgrün) Kupfer Cu 2+ grün / blaugrün – – Sicherheit: Bariumsalze sind giftig; mit Lithiumsalzen dürfen Schülerinnen und Schüler nicht arbeiten (reproduktionstoxisch). Reste gehören in den Behälter für Schwermetallsalzlösungen.",
+      "katalog_id": "src-f-2",
+      "schwierigkeit": 1,
+      "ab_einheit": "ga-02"
+    },
+    {
+      "id": "KAT-src-f-3-C",
+      "level": "C",
+      "kategorie": "K-REAK",
+      "skill": "Nachweisreaktionen",
+      "type": "choice",
+      "prompt": "Beschreibe den Nachweis von Chlorid-Ionen und formuliere die vereinfachte Reaktionsgleichung.",
+      "options": [
+        "Nachweis für Name Durchführung Beobachtung Sauerstoff O 2 Glimmspanprobe Ein glimmender Holzspan wird in das Gas gehalten Der Span glimmt auf bzw.",
+        "Bromwasser-Probe (Baeyer-Probe). Durchführung: Die Probe wird mit braunem Bromwasser geschüttelt.",
+        "Beide sind Nachweisreaktionen für Aldehyde. Der Aldehyd wirkt als Reduktionsmittel und wird dabei selbst zur Carbonsäure oxidiert.",
+        "Fällungsreaktion mit Silbernitrat. Durchführung: Die Probe wird in Wasser gelöst und mit Silbernitrat-Lösung (AgNO 3 (aq)) versetzt."
+      ],
+      "answer": 3,
+      "solution": "Fällungsreaktion mit Silbernitrat. Durchführung: Die Probe wird in Wasser gelöst und mit Silbernitrat-Lösung (AgNO 3 (aq)) versetzt. Beobachtung: Es entsteht ein weißer Niederschlag (Ausfällung) von in Wasser schwerlöslichem Silberchlorid, der sich am Licht grau verfärbt. Cl − (aq) + Ag + (aq) → AgCl(s) Unterscheidung der Halogenide: AgCl weiß, AgBr blassgelb, AgI gelb. Eine Fällungsreaktion ist allgemein eine Reaktion, bei der Ionen ein schwerlösliches Salz bilden, das als Niederschlag ausfällt.",
+      "katalog_id": "src-f-3",
+      "schwierigkeit": 1,
+      "ab_einheit": "ga-02"
+    },
+    {
+      "id": "KAT-src-f-5-C",
+      "level": "C",
+      "kategorie": "K-REAK",
+      "skill": "Nachweisreaktionen",
+      "type": "choice",
+      "prompt": "Beschreibe Fehling-Probe und Silberspiegelprobe und stelle die Reduktions-Teilgleichung auf.",
+      "options": [
+        "Fällungsreaktion mit Silbernitrat. Durchführung: Die Probe wird in Wasser gelöst und mit Silbernitrat-Lösung (AgNO 3 (aq)) versetzt.",
+        "Bromwasser-Probe (Baeyer-Probe). Durchführung: Die Probe wird mit braunem Bromwasser geschüttelt.",
+        "Beide sind Nachweisreaktionen für Aldehyde. Der Aldehyd wirkt als Reduktionsmittel und wird dabei selbst zur Carbonsäure oxidiert.",
+        "Nachweis für Name Durchführung Beobachtung Sauerstoff O 2 Glimmspanprobe Ein glimmender Holzspan wird in das Gas gehalten Der Span glimmt auf bzw."
+      ],
+      "answer": 2,
+      "solution": "Beide sind Nachweisreaktionen für Aldehyde. Der Aldehyd wirkt als Reduktionsmittel und wird dabei selbst zur Carbonsäure oxidiert. Fehling-Probe: Zugabe von Fehling I (Kupfersulfat-Lösung) und Fehling II (alkalische Tartrat-Lösung), dann Erhitzen. Positiver Nachweis: rostbrauner / ziegelroter Niederschlag von Kupfer(I)-oxid. +II +I Red: 2 Cu 2+ (aq) + 2 e − + 2 OH − (aq) → Cu 2 O(s) + H 2 O(l) Silberspiegelprobe (Tollens-Probe): Zugabe einer ammoniakalischen Silbernitrat-Lösung, dann leichtes Erwärmen. Positiver Nachweis: Bildung eines Silberspiegels an der Reagenzglaswand. +I 0 Red: Ag + (aq) + e − → Ag(s) Abgrenzung: Ketone lassen sich durch milde Oxidationsmittel nicht oxidieren – beide Proben fallen dort negativ aus. Ausnahme: Fructose (Keto-Enol-Tautomerie, siehe D5.8).",
+      "katalog_id": "src-f-5",
+      "schwierigkeit": 1,
+      "ab_einheit": "os-01"
+    },
+    {
+      "id": "KAT-ext-041-C",
+      "level": "C",
+      "kategorie": "K-REAK",
+      "skill": "Luft & Verbrennung",
+      "type": "choice",
+      "prompt": "Nenne die drei Voraussetzungen des Verbrennungsdreiecks.",
+      "options": [
+        "Fein verteiltes Material besitzt eine größere Oberfläche und kann schneller mit Sauerstoff reagieren.",
+        "Etwa 78 % Stickstoff, 21 % Sauerstoff und rund 1 % Edelgase/weitere Gase; Kohlenstoffdioxid nur in sehr kleinem Anteil.",
+        "Eine chemische Reaktion eines Stoffes mit Sauerstoff.",
+        "Brennstoff, Sauerstoff und ausreichende Zünd-/Aktivierungsenergie."
+      ],
+      "answer": 3,
+      "solution": "Brennstoff, Sauerstoff und ausreichende Zünd-/Aktivierungsenergie.",
+      "katalog_id": "ext-041",
+      "schwierigkeit": 2,
+      "ab_einheit": "fc-06"
+    },
+    {
+      "id": "KAT-ext-057-C",
+      "level": "C",
+      "kategorie": "K-REAK",
+      "skill": "Reaktionsgleichungen",
+      "type": "choice",
+      "prompt": "Warum ist H₂ + O₂ → H₂O keine ausgeglichene Reaktionsgleichung?",
+      "options": [
+        "Links sind zwei Sauerstoffatome, rechts nur eines. Korrekt: 2 H₂ + O₂ → 2 H₂O.",
+        "Falsch. Bei chemischen Reaktionen werden Atome nur neu angeordnet.",
+        "Eine Verbrennung ist eine exotherme Reaktion unter Beteiligung von Sauerstoff (Oxidation).",
+        "Edukte sind Ausgangsstoffe einer Reaktion; Produkte sind die neu entstandenen Stoffe."
+      ],
+      "answer": 0,
+      "solution": "Links sind zwei Sauerstoffatome, rechts nur eines. Korrekt: 2 H₂ + O₂ → 2 H₂O.",
+      "katalog_id": "ext-057",
+      "schwierigkeit": 2,
+      "ab_einheit": "fc-08"
+    },
+    {
+      "id": "KAT-ext-034-C",
+      "level": "C",
+      "kategorie": "K-REAK",
+      "skill": "Energetik",
+      "type": "choice",
+      "prompt": "Welche Aufgabe hat die Aktivierungsenergie?",
+      "options": [
+        "Exotherm; Energie wird an die Umgebung abgegeben.",
+        "Eine Verbrennung ist eine exotherme Reaktion unter Beteiligung von Sauerstoff (Oxidation).",
+        "Bromwasser-Probe (Baeyer-Probe). Durchführung: Die Probe wird mit braunem Bromwasser geschüttelt.",
+        "Sie ist die Mindestenergie, die Teilchen überwinden müssen, damit eine Reaktion starten kann."
+      ],
+      "answer": 3,
+      "solution": "Sie ist die Mindestenergie, die Teilchen überwinden müssen, damit eine Reaktion starten kann.",
+      "katalog_id": "ext-034",
+      "schwierigkeit": 2,
+      "ab_einheit": "fc-05"
+    },
+    {
+      "id": "KAT-ext-040-C",
+      "level": "C",
+      "kategorie": "K-REAK",
+      "skill": "Luft & Verbrennung",
+      "type": "choice",
+      "prompt": "Warum kann fein verteiltes Material leichter brennen als ein kompakter Block desselben Stoffes?",
+      "options": [
+        "Der verfügbare Sauerstoff wird verbraucht; sinkt seine Konzentration ausreichend, kann die Verbrennung nicht weiterlaufen.",
+        "Brennstoff, Sauerstoff und ausreichende Zünd-/Aktivierungsenergie.",
+        "Fein verteiltes Material besitzt eine größere Oberfläche und kann schneller mit Sauerstoff reagieren.",
+        "Etwa 78 % Stickstoff, 21 % Sauerstoff und rund 1 % Edelgase/weitere Gase; Kohlenstoffdioxid nur in sehr kleinem Anteil."
+      ],
+      "answer": 2,
+      "solution": "Fein verteiltes Material besitzt eine größere Oberfläche und kann schneller mit Sauerstoff reagieren.",
+      "katalog_id": "ext-040",
+      "schwierigkeit": 2,
+      "ab_einheit": "fc-06"
+    },
+    {
+      "id": "KAT-ext-038-C",
+      "level": "C",
+      "kategorie": "K-REAK",
+      "skill": "Luft & Verbrennung",
+      "type": "choice",
+      "prompt": "Warum erlischt eine Kerze unter einem geschlossenen Glas nach einiger Zeit?",
+      "options": [
+        "Etwa 78 % Stickstoff, 21 % Sauerstoff und rund 1 % Edelgase/weitere Gase; Kohlenstoffdioxid nur in sehr kleinem Anteil.",
+        "Fein verteiltes Material besitzt eine größere Oberfläche und kann schneller mit Sauerstoff reagieren.",
+        "Brennstoff, Sauerstoff und ausreichende Zünd-/Aktivierungsenergie.",
+        "Der verfügbare Sauerstoff wird verbraucht; sinkt seine Konzentration ausreichend, kann die Verbrennung nicht weiterlaufen."
+      ],
+      "answer": 3,
+      "solution": "Der verfügbare Sauerstoff wird verbraucht; sinkt seine Konzentration ausreichend, kann die Verbrennung nicht weiterlaufen.",
+      "katalog_id": "ext-038",
+      "schwierigkeit": 2,
+      "ab_einheit": "fc-06"
+    },
+    {
+      "id": "KAT-ext-031-C",
+      "level": "C",
+      "kategorie": "K-REAK",
+      "skill": "Chemische Reaktion",
+      "type": "choice",
+      "prompt": "Skizziere auf Teilchenebene eine Reaktion von zwei zweiatomigen Stoffen A₂ und B₂ zu AB.",
+      "options": [
+        "Eine mögliche ausgeglichene Darstellung ist A₂ + B₂ → 2 AB; vor und nach der Reaktion müssen gleich viele A- und B-Atome vorhanden sein.",
+        "Die Zahl und Art der Atome bleibt gleich; deshalb ist die Gesamtmasse vor und nach der Reaktion gleich.",
+        "Nein. Sauerstoff aus der Luft wurde aufgenommen. Betrachtet man das geschlossene Gesamtsystem aus Magnesium plus Sauerstoff, bleibt die Masse erhalten.",
+        "Es entstehen neue Stoffe mit neuen Eigenschaften; mögliche Beobachtungen sind Farbänderung, Gasentwicklung, Temperaturänderung oder Niederschlag."
+      ],
+      "answer": 0,
+      "solution": "Eine mögliche ausgeglichene Darstellung ist A₂ + B₂ → 2 AB; vor und nach der Reaktion müssen gleich viele A- und B-Atome vorhanden sein.",
+      "katalog_id": "ext-031",
+      "schwierigkeit": 2,
+      "ab_einheit": "fc-05"
+    },
+    {
+      "id": "KAT-ext-054-C",
+      "level": "C",
+      "kategorie": "K-REAK",
+      "skill": "Chemische Reaktion",
+      "type": "choice",
+      "prompt": "Eine Waage zeigt nach dem Verbrennen von Magnesium an der Luft mehr Masse. Widerspricht das der Massenerhaltung?",
+      "options": [
+        "Es entstehen neue Stoffe mit neuen Eigenschaften; mögliche Beobachtungen sind Farbänderung, Gasentwicklung, Temperaturänderung oder Niederschlag.",
+        "Die Zahl und Art der Atome bleibt gleich; deshalb ist die Gesamtmasse vor und nach der Reaktion gleich.",
+        "Nein. Sauerstoff aus der Luft wurde aufgenommen. Betrachtet man das geschlossene Gesamtsystem aus Magnesium plus Sauerstoff, bleibt die Masse erhalten.",
+        "Eine mögliche ausgeglichene Darstellung ist A₂ + B₂ → 2 AB; vor und nach der Reaktion müssen gleich viele A- und B-Atome vorhanden sein."
+      ],
+      "answer": 2,
+      "solution": "Nein. Sauerstoff aus der Luft wurde aufgenommen. Betrachtet man das geschlossene Gesamtsystem aus Magnesium plus Sauerstoff, bleibt die Masse erhalten.",
+      "katalog_id": "ext-054",
+      "schwierigkeit": 2,
+      "ab_einheit": "fc-05"
+    },
+    {
+      "id": "KAT-ext-030-C",
+      "level": "C",
+      "kategorie": "K-REAK",
+      "skill": "Chemische Reaktion",
+      "type": "choice",
+      "prompt": "Erkläre die Massenerhaltung bei einer Reaktion im geschlossenen Gefäß.",
+      "options": [
+        "Edukte sind Ausgangsstoffe einer Reaktion; Produkte sind die neu entstandenen Stoffe.",
+        "Eine mögliche ausgeglichene Darstellung ist A₂ + B₂ → 2 AB; vor und nach der Reaktion müssen gleich viele A- und B-Atome vorhanden sein.",
+        "Falsch. Bei chemischen Reaktionen werden Atome nur neu angeordnet.",
+        "Die Zahl und Art der Atome bleibt gleich; deshalb ist die Gesamtmasse vor und nach der Reaktion gleich."
+      ],
+      "answer": 3,
+      "solution": "Die Zahl und Art der Atome bleibt gleich; deshalb ist die Gesamtmasse vor und nach der Reaktion gleich.",
+      "katalog_id": "ext-030",
+      "schwierigkeit": 2,
+      "ab_einheit": "fc-05"
+    },
+    {
+      "id": "KAT-src-b5-6-C",
+      "level": "C",
+      "kategorie": "K-REAK",
+      "skill": "Formelsprache, Nomenklatur, Reaktionsgleichungen",
+      "type": "choice",
+      "prompt": "Wie stellt man eine Reaktionsgleichung auf? Erkläre am Beispiel Stickstoff + Sauerstoff.",
+      "options": [
+        "2 Au + 3 Cl 2 → 2 AuCl 3 (Gold(III)-chlorid) 4 Al + 3 O 2 → 2 Al 2 O 3 (Aluminiumoxid) 3 Ca + N 2 → Ca 3 N 2 (Calciumnitrid) 2 H 2 O → 2 H 2 + O 2 (Analyse/Elektrolyse) 2 Na + Cl 2 → 2 NaCl (Natriumchlorid) 2 Mg + O 2 → 2 MgO …",
+        "Wortgleichung aufstellen: Stickstoff + Sauerstoff → Stickstoffmonooxid Formeln für Edukte und Produkte ermitteln: N 2 + O 2 → NO Ausgleichen nur über Koeffizienten: N 2 + O 2 → 2 NO Kontrolle: links und rechts gleich viele Atome jeder …",
+        "Allgemeine Molekülformel: C n H 2n+2 n Name Formel n Name Formel 1 Methan CH 4 6 Hexan C 6 H 14 2 Ethan C 2 H 6 7 Heptan C 7 H 16 3 Propan C 3 H 8 8 Octan C 8 H 18 4 Butan C 4 H 10 9 Nonan C 9 H 20 5 Pentan C 5 H 12 10 Decan C 10 H 22 …",
+        "Molekülformel: gibt an, aus wie vielen Atomen jeder Sorte ein Molekül besteht (Nichtmetall-Nichtmetall-Verbindung), z. B. CO 2. Verhältnisformel: gibt das Zahlenverhältnis der Ionen in einem Salz an (Metall-Nichtmetall-Verbindung), z."
+      ],
+      "answer": 1,
+      "solution": "Wortgleichung aufstellen: Stickstoff + Sauerstoff → Stickstoffmonooxid Formeln für Edukte und Produkte ermitteln: N 2 + O 2 → NO Ausgleichen nur über Koeffizienten: N 2 + O 2 → 2 NO Kontrolle: links und rechts gleich viele Atome jeder Sorte; ggf. Zustandssymbole ergänzen. Zustandssymbole: (s) fest, (l) flüssig, (g) gasförmig, (aq) in Wasser gelöst. Typischer Schülerfehler: Indizes verändern, um die Gleichung „passend“ zu machen. Das ändert den Stoff und ist immer falsch.",
+      "katalog_id": "src-b5-6",
+      "schwierigkeit": 2,
+      "ab_einheit": "fc-08"
+    },
+    {
+      "id": "KAT-src-b2-5-C",
+      "level": "C",
+      "kategorie": "K-REAK",
+      "skill": "Die chemische Reaktion und Energetik",
+      "type": "choice",
+      "prompt": "Vergleiche exotherme und endotherme Reaktion und gib das Vorzeichen von ΔE i an.",
+      "options": [
+        "Alle Elemente bestehen aus kleinsten, kugelförmigen, unteilbaren Teilchen, den Atomen. Atome desselben Elements gleichen sich in Masse und Größe; Atome verschiedener Elemente unterscheiden sich darin.",
+        "Exotherm: Energie wird an die Umgebung abgegeben (Wärme, Licht). Die Produkte sind energieärmer als die Edukte → ΔE i < 0 Endotherm: Energie wird aus der Umgebung aufgenommen. Die Produkte sind energiereicher als die Edukte → ΔE i > 0",
+        "Chemischer Vorgang: Stoffänderung mit Energiebeteiligung – die Produkte haben andere Kenneigenschaften als die Ausgangsstoffe. Physikalischer Vorgang: Zustandsänderung unter Energiebeteiligung, aber keine Stoffänderung – z. B.",
+        "Energieerhaltung: Energie kann bei einer chemischen Reaktion weder erzeugt noch vernichtet werden; sie wird nur von einer Energieform in eine andere umgewandelt (z. B. innere Energie → Wärme- und Lichtenergie)."
+      ],
+      "answer": 1,
+      "solution": "Exotherm: Energie wird an die Umgebung abgegeben (Wärme, Licht). Die Produkte sind energieärmer als die Edukte → ΔE i < 0 Endotherm: Energie wird aus der Umgebung aufgenommen. Die Produkte sind energiereicher als die Edukte → ΔE i > 0",
+      "katalog_id": "src-b2-5",
+      "schwierigkeit": 2,
+      "ab_einheit": "fc-05"
+    }
+  ]
+}

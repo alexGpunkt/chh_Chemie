@@ -157,7 +157,7 @@
         "legierungen"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -182,7 +182,7 @@
         "legierungen"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -212,7 +212,7 @@
         "rechnen"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -237,7 +237,7 @@
         "legierungen"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -263,7 +263,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -294,7 +294,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -320,7 +320,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -355,7 +355,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -429,7 +429,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -470,7 +470,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -521,7 +521,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     }
   ],
@@ -659,9 +659,10 @@
   "lehrbuch": {
     "kapitel": 7,
     "titel": "Metalle und Redoxreaktionen",
-    "seiten_von": 83,
-    "seiten_bis": 96,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Legierung"
+    "seiten_von": 86,
+    "seiten_bis": 90,
+    "abschnitt": "Gebrauchsmetalle und Legierungen",
+    "bezugswort": "Legierung",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

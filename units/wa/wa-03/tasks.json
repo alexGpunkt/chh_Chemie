@@ -136,7 +136,7 @@
         "gleichungen"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -165,7 +165,7 @@
         "gleichungen"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -191,7 +191,7 @@
         "gleichungen"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -230,7 +230,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -252,7 +252,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -281,7 +281,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -318,7 +318,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -350,7 +350,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -372,34 +372,35 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
-      "id": "WA03-B4-010",
+      "id": "WA03-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "In welcher Reihenfolge gleicht man eine Verbrennungsgleichung sinnvoll aus?",
+      "prompt": "Wie stellt man eine Reaktionsgleichung auf? Erkläre am Beispiel Stickstoff + Sauerstoff.",
       "options": [
-        "Kohlenstoff, dann Wasserstoff, zuletzt Sauerstoff.",
-        "Sauerstoff, dann Kohlenstoff, zuletzt Wasserstoff.",
-        "Die Reihenfolge ist gleichgültig."
+        "Wortgleichung aufstellen: Stickstoff + Sauerstoff → Stickstoffmonooxid Formeln für Edukte und Produkte ermitteln: N 2 + O 2 → NO Ausgleichen nur über Koeffizienten: N 2 + O 2 → 2 NO Kontrolle: links und rechts gleich viele Atome jeder …",
+        "2 Au + 3 Cl 2 → 2 AuCl 3 (Gold(III)-chlorid) 4 Al + 3 O 2 → 2 Al 2 O 3 (Aluminiumoxid) 3 Ca + N 2 → Ca 3 N 2 (Calciumnitrid) 2 H 2 O → 2 H 2 + O 2 (Analyse/Elektrolyse) 2 Na + Cl 2 → 2 NaCl (Natriumchlorid) 2 Mg + O 2 → 2 MgO …",
+        "Molekülformel: gibt an, aus wie vielen Atomen jeder Sorte ein Molekül besteht (Nichtmetall-Nichtmetall-Verbindung), z. B. CO 2. Verhältnisformel: gibt das Zahlenverhältnis der Ionen in einem Salz an (Metall-Nichtmetall-Verbindung), z.",
+        "Allgemeine Molekülformel: C n H 2n+2 n Name Formel n Name Formel 1 Methan CH 4 6 Hexan C 6 H 14 2 Ethan C 2 H 6 7 Heptan C 7 H 16 3 Propan C 3 H 8 8 Octan C 8 H 18 4 Butan C 4 H 10 9 Nonan C 9 H 20 5 Pentan C 5 H 12 10 Decan C 10 H 22 …"
       ],
       "answer": 0,
       "hints": [
-        "Womit fängt man an?",
-        "Mit der Sorte, die nur in einem Stoff links und rechts vorkommt.",
-        "Sauerstoff steckt in mehreren Produkten."
+        "Prüfe jede Aussage mit dem Abschnitt „Von der Wort- zur Reaktionsgleichung“ (PDF-S. 58–60)."
       ],
-      "solution": "Kohlenstoff kommt links und rechts in je einem Stoff vor, Wasserstoff ebenso. Sauerstoff steckt dagegen in beiden Produkten — deshalb kommt er zuletzt, wenn alles andere schon feststeht.",
+      "solution": "Wortgleichung aufstellen: Stickstoff + Sauerstoff → Stickstoffmonooxid Formeln für Edukte und Produkte ermitteln: N 2 + O 2 → NO Ausgleichen nur über Koeffizienten: N 2 + O 2 → 2 NO Kontrolle: links und rechts gleich viele Atome jeder Sorte; ggf. Zustandssymbole ergänzen. Zustandssymbole: (s) fest, (l) flüssig, (g) gasförmig, (aq) in Wasser gelöst. Typischer Schülerfehler: Indizes verändern, um die Gleichung „passend“ zu machen. Das ändert den Stoff und ist immer falsch.",
       "tags": [
-        "gleichungen",
-        "msa"
+        "fragenkatalog",
+        "formelsprache-nomenklatur-reaktionsgleichungen",
+        "niveau-b"
       ],
       "spiral": [
-        "W-GLEI"
-      ]
+        "K-REAK"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-b5-6 · Lehrbuch PDF-S. 58–60"
     },
     {
       "id": "WA03-C2-011",
@@ -420,7 +421,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -457,7 +458,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -483,7 +484,7 @@
         "msa"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -510,7 +511,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     }
   ],
@@ -627,8 +628,9 @@
     "kapitel": 5,
     "titel": "Die chemische Reaktion",
     "seiten_von": 58,
-    "seiten_bis": 65,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Reaktionsgleichung"
+    "seiten_bis": 60,
+    "abschnitt": "Von der Wort- zur Reaktionsgleichung",
+    "bezugswort": "Reaktionsgleichung",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

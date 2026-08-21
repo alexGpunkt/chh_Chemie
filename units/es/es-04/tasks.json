@@ -140,7 +140,7 @@
         "seife"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -165,7 +165,7 @@
         "seife"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -203,7 +203,7 @@
         "seife"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -228,7 +228,7 @@
         "seife"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -262,7 +262,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -293,7 +293,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -319,7 +319,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -345,7 +345,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -371,34 +371,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
-      "id": "ES04-B4-010",
+      "id": "ES04-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Wie hängt die Verseifung mit der Veresterung zusammen?",
+      "prompt": "Was versteht man unter Verseifung? Benenne den Reaktionstyp.",
       "options": [
-        "Sie ist die Umkehrung — der Ester wird wieder gespalten.",
-        "Sie ist dieselbe Reaktion.",
-        "Sie haben nichts miteinander zu tun."
+        "Aminocarbonsäuren (kurz: Aminosäuren, AS) sind die Bausteine der Proteine. Sie besitzen an einem zentralen C-Atom eine Carboxygruppe –COOH, eine Aminogruppe –NH 2, ein H-Atom und einen organischen Rest R.",
+        "Alkohol-Moleküle besitzen mit der Hydroxygruppe einen polaren (hydrophilen) Molekülabschnitt, der mit Wasser Wasserstoffbrücken bilden kann, und mit dem Kohlenstoffgerüst einen unpolaren (lipophilen) Abschnitt.",
+        "Kohlenhydrate: schnell verfügbare Energielieferanten (Glucose); Speicherstoffe (Stärke, Glykogen); Baustoffe bei Pflanzen (Cellulose). Fette: langsame Energiespeicher (Speicherfett, hoher Energiegehalt);",
+        "Verseifung ist die alkalische (baseninduzierte) Hydrolyse eines Fettes. Das Fett wird mit Natron- oder Kalilauge gespalten; es entstehen Glycerin und die Alkalisalze der Fettsäuren – diese nennt man Seifen."
       ],
-      "answer": 0,
+      "answer": 3,
       "hints": [
-        "Bei der Veresterung entsteht ein Ester.",
-        "Bei der Verseifung wird er gespalten.",
-        "Also die Umkehrung."
+        "Prüfe jede Aussage mit dem Abschnitt „Seife und Tenside“ (PDF-S. 187–190)."
       ],
-      "solution": "Die Veresterung verknüpft Säure und Alkohol, die Verseifung spaltet den Ester wieder. Weil mit Lauge gearbeitet wird, entsteht statt der Säure ihr Salz — und die Reaktion läuft vollständig ab statt ins Gleichgewicht.",
+      "solution": "Verseifung ist die alkalische (baseninduzierte) Hydrolyse eines Fettes. Das Fett wird mit Natron- oder Kalilauge gespalten; es entstehen Glycerin und die Alkalisalze der Fettsäuren – diese nennt man Seifen. Fett + 3 NaOH → Glycerin + 3 R–COO − Na + (Seife = Natriumsalz einer Fettsäure) Reaktionstyp: baseninduzierte Esterhydrolyse. Im Gegensatz zur säurekatalysierten Hydrolyse verläuft sie nicht als Gleichgewichtsreaktion, weil das Carboxylat-Ion nicht zurückreagiert.",
       "tags": [
-        "seife",
-        "msa"
+        "fragenkatalog",
+        "biomolekuele-und-tenside",
+        "niveau-b"
       ],
       "spiral": [
-        "W-GLEI"
-      ]
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d5-4 · Lehrbuch PDF-S. 187–190"
     },
     {
       "id": "ES04-C2-011",
@@ -423,7 +424,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -449,7 +450,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -490,8 +491,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -518,7 +519,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     }
   ],
@@ -639,10 +640,11 @@
   ],
   "lehrbuch": {
     "kapitel": 15,
-    "titel": "Naturstoffe",
-    "seiten_von": 184,
-    "seiten_bis": 193,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Verseifung"
+    "titel": "Nahrung, Seife, Waschmittel",
+    "seiten_von": 187,
+    "seiten_bis": 190,
+    "abschnitt": "Seife und Tenside",
+    "bezugswort": "Verseifung",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

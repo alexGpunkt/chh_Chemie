@@ -139,7 +139,7 @@
         "metallbindung"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -164,7 +164,7 @@
         "metallbindung"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -197,7 +197,7 @@
         "metallbindung"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -227,7 +227,7 @@
         "metallbindung"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -266,7 +266,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -292,7 +292,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -318,7 +318,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -361,7 +361,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -387,34 +387,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
-      "id": "ME02-B4-010",
+      "id": "ME02-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum steigt der elektrische Widerstand eines Metalls bei Erwärmung?",
+      "prompt": "Vergleiche die Bindung zwischen den Teilchen in Salzen und in Metallen.",
       "options": [
-        "Die Atomrümpfe schwingen stärker und behindern die wandernden Elektronen.",
-        "Es gibt weniger Elektronen.",
-        "Das Metall dehnt sich aus."
+        "Salze: Ionenbindung – elektrostatische Anziehung zwischen positiv geladenen Kationen und negativ geladenen Anionen, Anordnung im Ionengitter.",
+        "Ein Kristall ist ein Festkörper mit regelmäßiger, sich wiederholender Struktur; seine Bausteine können Atome, Moleküle oder Ionen sein.",
+        "„Ähnliches löst sich in Ähnlichem.“ Entscheidend sind die möglichen Wechselwirkungen zwischen den Teilchen des Stoffs und denen des Lösemittels.",
+        "ΔEN Bindungstyp Beschreibung Beispiel < 0,4 unpolare (bzw. sehr schwach polare) Elektronenpaarbindung Die Atome teilen sich das bindende Elektronenpaar; der Ladungsschwerpunkt liegt (etwa) in der Mitte."
       ],
       "answer": 0,
       "hints": [
-        "Was ändert sich bei Wärme im Gitter?",
-        "Die Rümpfe schwingen stärker.",
-        "Die Elektronen kommen schlechter durch."
+        "Prüfe jede Aussage mit dem Abschnitt „Metallbindung und Elektronengas“ (PDF-S. 110–112)."
       ],
-      "solution": "Bei höherer Temperatur schwingen die Atomrümpfe stärker um ihre Plätze. Die wandernden Elektronen stoßen häufiger an — der Widerstand steigt. Die Zahl der Elektronen bleibt gleich.",
+      "solution": "Salze: Ionenbindung – elektrostatische Anziehung zwischen positiv geladenen Kationen und negativ geladenen Anionen, Anordnung im Ionengitter. Metalle: Metallbindung – elektrostatische Anziehung zwischen positiv geladenen Atomrümpfen und dem Elektronengas, Anordnung im Metallgitter. Gemeinsam ist beiden: Es handelt sich um elektrostatische Anziehungskräfte, die zu großen Verbänden (Gittern) führen – nicht zu abgegrenzten Molekülen.",
       "tags": [
-        "metallbindung",
-        "msa"
+        "fragenkatalog",
+        "metalle-salze-und-ihre-bindungen",
+        "niveau-b"
       ],
       "spiral": [
-        "W-TEIL"
-      ]
+        "K-BIND"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-b4-4 · Lehrbuch PDF-S. 110–112"
     },
     {
       "id": "ME02-C2-011",
@@ -439,7 +440,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -465,7 +466,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -499,7 +500,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -526,7 +527,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     }
   ],
@@ -633,9 +634,10 @@
   "lehrbuch": {
     "kapitel": 9,
     "titel": "Chemische Bindungen",
-    "seiten_von": 109,
-    "seiten_bis": 114,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Metallbindung"
+    "seiten_von": 110,
+    "seiten_bis": 112,
+    "abschnitt": "Metallbindung und Elektronengas",
+    "bezugswort": "Metallbindung",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

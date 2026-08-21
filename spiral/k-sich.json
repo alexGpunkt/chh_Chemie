@@ -1,0 +1,547 @@
+{
+  "kategorie": "K-SICH",
+  "titel": "Sicher arbeiten",
+  "hinweis": "Fragen aus dem gelieferten Chemie-Fragenkatalog; jede Frage gehört genau einem Niveau und erscheint erst nach ihrer Einführungs-Einheit.",
+  "fragen": [
+    {
+      "id": "KAT-ext-002-A",
+      "level": "A",
+      "kategorie": "K-SICH",
+      "skill": "Labor & Sicherheit",
+      "type": "choice",
+      "prompt": "Welche Handlung ist im Chemiefachraum grundsätzlich verboten?",
+      "options": [
+        "Schutzbrille tragen",
+        "Essen und Trinken",
+        "Anweisungen lesen"
+      ],
+      "answer": 1,
+      "solution": "Essen und Trinken.",
+      "katalog_id": "ext-002",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-01"
+    },
+    {
+      "id": "KAT-ext-003-A",
+      "level": "A",
+      "kategorie": "K-SICH",
+      "skill": "Labor & Sicherheit",
+      "type": "choice",
+      "prompt": "Richtig oder falsch: Eine unbekannte Chemikalie darf vorsichtig probiert werden, wenn sie harmlos aussieht.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ],
+      "answer": 1,
+      "solution": "Falsch. Chemikalien werden niemals probiert.",
+      "katalog_id": "ext-003",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-01"
+    },
+    {
+      "id": "KAT-ext-001-A",
+      "level": "A",
+      "kategorie": "K-SICH",
+      "skill": "Labor & Sicherheit",
+      "type": "choice",
+      "prompt": "Warum trägt man im Chemieunterricht eine Schutzbrille?",
+      "options": [
+        "Sie schützt die Augen vor Spritzern, Splittern und reizenden oder ätzenden Stoffen.",
+        "Allgemein: Haut mit viel kaltem Wasser und Seife waschen. Ätzende Stoffe: sofort ausgiebig mit viel Wasser spülen.",
+        "Reagenzglas: Kleinversuche; Becherglas: Mischen/Erhitzen; Messzylinder: Volumen messen; Trichter: Filtrieren/Umfüllen."
+      ],
+      "answer": 0,
+      "solution": "Sie schützt die Augen vor Spritzern, Splittern und reizenden oder ätzenden Stoffen.",
+      "katalog_id": "ext-001",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-01"
+    },
+    {
+      "id": "KAT-ext-005-A",
+      "level": "A",
+      "kategorie": "K-SICH",
+      "skill": "Laborgeräte",
+      "type": "choice",
+      "prompt": "Ordne Reagenzglas, Becherglas, Messzylinder und Trichter jeweils einer typischen Verwendung zu.",
+      "options": [
+        "Reagenzglas: Kleinversuche; Becherglas: Mischen/Erhitzen; Messzylinder: Volumen messen; Trichter: Filtrieren/Umfüllen.",
+        "Allgemein: Haut mit viel kaltem Wasser und Seife waschen. Ätzende Stoffe: sofort ausgiebig mit viel Wasser spülen.",
+        "H-Sätze ( hazard statements, Gefahrenhinweise) beschreiben die Gefährdungen, die von einem Gefahrstoff ausgehen – z. B. H315 „Verursacht Hautreizungen“."
+      ],
+      "answer": 0,
+      "solution": "Reagenzglas: Kleinversuche; Becherglas: Mischen/Erhitzen; Messzylinder: Volumen messen; Trichter: Filtrieren/Umfüllen.",
+      "katalog_id": "ext-005",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-02"
+    },
+    {
+      "id": "KAT-src-a1-4-A",
+      "level": "A",
+      "kategorie": "K-SICH",
+      "skill": "Sicherheit im Fachraum",
+      "type": "choice",
+      "prompt": "Wie führt man eine Geruchsprobe durch?",
+      "options": [
+        "Durchführung: Kupferpulver wird gewogen und im offenen Gefäß erhitzt. Beobachtung: Das rotbraune Kupfer wandelt sich in einen schwarzen Feststoff um; die Masse hat zugenommen.",
+        "Stoffebene (makroskopisch): das, was man beobachten und messen kann – Farbe, Geruch, Dichte, Schmelz- und Siedetemperatur; „Wasser siedet“, „der Stoff wird gelb“.",
+        "Nur nach ausdrücklicher Aufforderung der Lehrkraft. Man riecht nie direkt am Gefäß, sondern fächelt sich die Dämpfe mit der Hand über der Öffnung vorsichtig zur Nase zu."
+      ],
+      "answer": 2,
+      "solution": "Nur nach ausdrücklicher Aufforderung der Lehrkraft. Man riecht nie direkt am Gefäß, sondern fächelt sich die Dämpfe mit der Hand über der Öffnung vorsichtig zur Nase zu.",
+      "katalog_id": "src-a1-4",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-01"
+    },
+    {
+      "id": "KAT-src-a1-9-A",
+      "level": "A",
+      "kategorie": "K-SICH",
+      "skill": "Sicherheit im Fachraum",
+      "type": "choice",
+      "prompt": "Was tun, wenn Kleidung oder Haare brennen?",
+      "options": [
+        "Sofort mit der Löschdecke (oder vergleichbarem Material) abdecken, alternativ die Notbrause benutzen oder die Person am Boden rollen. Brandwunden mit kaltem Wasser kühlen und keimfrei bedecken, keine Salben oder Cremes.",
+        "Herstellung: Rotkohlblätter in schmale Streifen schneiden, ein Becherglas zu einem Drittel damit füllen, 150 mL Wasser zugeben, mindestens eine Minute kochen und die heiße Flüssigkeit durch ein Filterpapier filtrieren.",
+        "Bei der Elektrolyse einer wässrigen Lösung im U-Rohr mit zwei Elektroden und Gleichspannung wandern die Ionen zu den entgegengesetzt geladenen Elektroden. Minuspol (Kathode): Kationen nehmen Elektronen auf → Reduktion."
+      ],
+      "answer": 0,
+      "solution": "Sofort mit der Löschdecke (oder vergleichbarem Material) abdecken, alternativ die Notbrause benutzen oder die Person am Boden rollen. Brandwunden mit kaltem Wasser kühlen und keimfrei bedecken, keine Salben oder Cremes. Kann ein Brand nicht gelöscht werden oder entsteht toxischer Rauch: Raum bzw. Gebäude evakuieren und Feuerwehr alarmieren.",
+      "katalog_id": "src-a1-9",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-01"
+    },
+    {
+      "id": "KAT-src-a2-2-A",
+      "level": "A",
+      "kategorie": "K-SICH",
+      "skill": "Gefahrstoffkennzeichnung (GHS)",
+      "type": "choice",
+      "prompt": "Was sind H-Sätze und P-Sätze?",
+      "options": [
+        "H-Sätze ( hazard statements, Gefahrenhinweise) beschreiben die Gefährdungen, die von einem Gefahrstoff ausgehen – z. B. H315 „Verursacht Hautreizungen“.",
+        "Standort und Gebrauch von Feuerlöscher, Sandeimer, Löschdecke, Augennotdusche, Verbandskasten sowie der Not-Aus-Schalter für Strom und des Hauptschalters für Gas.",
+        "Stoffebene (makroskopisch): das, was man beobachten und messen kann – Farbe, Geruch, Dichte, Schmelz- und Siedetemperatur; „Wasser siedet“, „der Stoff wird gelb“."
+      ],
+      "answer": 0,
+      "solution": "H-Sätze ( hazard statements, Gefahrenhinweise) beschreiben die Gefährdungen, die von einem Gefahrstoff ausgehen – z. B. H315 „Verursacht Hautreizungen“. P-Sätze ( precautionary statements, Sicherheitshinweise) geben an, wie man sich schützt – z. B. P280 „Schutzhandschuhe/Schutzbrille tragen“. Dazu kommt das Signalwort „Gefahr“ (schwerwiegender) oder „Achtung“.",
+      "katalog_id": "src-a2-2",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-01"
+    },
+    {
+      "id": "KAT-src-a1-7-A",
+      "level": "A",
+      "kategorie": "K-SICH",
+      "skill": "Sicherheit im Fachraum",
+      "type": "choice",
+      "prompt": "Erste Hilfe: Was tun bei Augenkontakt mit einer ätzenden Chemikalie?",
+      "options": [
+        "Person in die stabile Seitenlage bringen, feststellen, um welchen Stoff es sich handelt, nach dem Befinden fragen. Bei toxischen Stoffen sofort den Giftnotruf anrufen und die Art der Vergiftung schildern.",
+        "Durchführung: Methanol, Ethanol, Propanol, Butanol und Cetylalkohol (16 C-Atome) werden je mit 2 cm Wasser und in einem zweiten Ansatz mit 2 cm Benzin versetzt, verschlossen und 30 Sekunden geschüttelt.",
+        "Sofort mit der Augendusche bei weit gespreiztem Lidspalt spülen, mindestens 15 Minuten, möglichst bis zum Eintreffen des Rettungsdienstes. Den Kopf so halten, dass der Stoff nicht ins andere Auge läuft."
+      ],
+      "answer": 2,
+      "solution": "Sofort mit der Augendusche bei weit gespreiztem Lidspalt spülen, mindestens 15 Minuten, möglichst bis zum Eintreffen des Rettungsdienstes. Den Kopf so halten, dass der Stoff nicht ins andere Auge läuft. Unverzügliche Weiterbehandlung durch den Augenarzt; der Name des ätzenden Stoffs wird dem Arzt mitgeteilt. Jeder Unfall wird schriftlich dokumentiert und gemeldet.",
+      "katalog_id": "src-a1-7",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-01"
+    },
+    {
+      "id": "KAT-src-a1-10-A",
+      "level": "A",
+      "kategorie": "K-SICH",
+      "skill": "Sicherheit im Fachraum",
+      "type": "choice",
+      "prompt": "Was tun, wenn jemand eine Chemikalie verschluckt hat?",
+      "options": [
+        "Person in die stabile Seitenlage bringen, feststellen, um welchen Stoff es sich handelt, nach dem Befinden fragen. Bei toxischen Stoffen sofort den Giftnotruf anrufen und die Art der Vergiftung schildern.",
+        "Sofort mit der Augendusche bei weit gespreiztem Lidspalt spülen, mindestens 15 Minuten, möglichst bis zum Eintreffen des Rettungsdienstes. Den Kopf so halten, dass der Stoff nicht ins andere Auge läuft.",
+        "Durchführung: Methanol, Ethanol, Propanol, Butanol und Cetylalkohol (16 C-Atome) werden je mit 2 cm Wasser und in einem zweiten Ansatz mit 2 cm Benzin versetzt, verschlossen und 30 Sekunden geschüttelt."
+      ],
+      "answer": 0,
+      "solution": "Person in die stabile Seitenlage bringen, feststellen, um welchen Stoff es sich handelt, nach dem Befinden fragen. Bei toxischen Stoffen sofort den Giftnotruf anrufen und die Art der Vergiftung schildern. Bei Lösemitteln oder ätzenden Stoffen: Mund ausspülen, bei Bewusstsein viel Wasser trinken lassen – niemals Erbrechen auslösen – und sofort den Rettungsdienst rufen.",
+      "katalog_id": "src-a1-10",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-01"
+    },
+    {
+      "id": "KAT-src-a1-2-A",
+      "level": "A",
+      "kategorie": "K-SICH",
+      "skill": "Sicherheit im Fachraum",
+      "type": "choice",
+      "prompt": "Welche Sicherheitseinrichtungen musst du im Fachraum kennen und finden können?",
+      "options": [
+        "Stoffebene (makroskopisch): das, was man beobachten und messen kann – Farbe, Geruch, Dichte, Schmelz- und Siedetemperatur; „Wasser siedet“, „der Stoff wird gelb“.",
+        "Standort und Gebrauch von Feuerlöscher, Sandeimer, Löschdecke, Augennotdusche, Verbandskasten sowie der Not-Aus-Schalter für Strom und des Hauptschalters für Gas.",
+        "Nur nach ausdrücklicher Aufforderung der Lehrkraft. Man riecht nie direkt am Gefäß, sondern fächelt sich die Dämpfe mit der Hand über der Öffnung vorsichtig zur Nase zu."
+      ],
+      "answer": 1,
+      "solution": "Standort und Gebrauch von Feuerlöscher, Sandeimer, Löschdecke, Augennotdusche, Verbandskasten sowie der Not-Aus-Schalter für Strom und des Hauptschalters für Gas. Dazu Fluchtwege, Verhaltensregeln im Alarmfall, Standort des nächsten Telefons und die Notrufnummern (in der Schule oft erst „0“ vorwählen): 112 Rettungsdienst/Feuerwehr, 110 Polizei, dazu die Nummer des Giftnotrufs.",
+      "katalog_id": "src-a1-2",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-01"
+    },
+    {
+      "id": "KAT-src-a1-8-B",
+      "level": "B",
+      "kategorie": "K-SICH",
+      "skill": "Sicherheit im Fachraum",
+      "type": "choice",
+      "prompt": "Erste Hilfe: Säure- oder Laugenspritzer auf Haut und Kleidung – wie reagierst du?",
+      "options": [
+        "Sie schützt die Augen vor Spritzern, Splittern und reizenden oder ätzenden Stoffen.",
+        "H-Sätze ( hazard statements, Gefahrenhinweise) beschreiben die Gefährdungen, die von einem Gefahrstoff ausgehen – z. B. H315 „Verursacht Hautreizungen“.",
+        "Reagenzglas: Kleinversuche; Becherglas: Mischen/Erhitzen; Messzylinder: Volumen messen; Trichter: Filtrieren/Umfüllen.",
+        "Allgemein: Haut mit viel kaltem Wasser und Seife waschen. Ätzende Stoffe: sofort ausgiebig mit viel Wasser spülen."
+      ],
+      "answer": 3,
+      "solution": "Allgemein: Haut mit viel kaltem Wasser und Seife waschen. Ätzende Stoffe: sofort ausgiebig mit viel Wasser spülen. Konzentrierte Schwefelsäure zuerst mit einem Papiertuch aufnehmen, dann spülen (beim Verdünnen entsteht sonst viel Wärme). Verätzung durch Kleidung hindurch: Kleidung zuerst ausziehen, dann spülen. Verätzte Stellen keimfrei verbinden – keine Salben, keine Medikamente; Arzt oder Rettungsdienst hinzuziehen.",
+      "katalog_id": "src-a1-8",
+      "schwierigkeit": 1,
+      "ab_einheit": "es-04"
+    },
+    {
+      "id": "KAT-src-a1-3-B",
+      "level": "B",
+      "kategorie": "K-SICH",
+      "skill": "Sicherheit im Fachraum",
+      "type": "choice",
+      "prompt": "Wie hältst und erhitzt man ein Reagenzglas richtig?",
+      "options": [
+        "Reagenzglas mit dem Reagenzglashalter fassen, nie mit der bloßen Hand. Die Öffnung zeigt nie auf Personen – auch nicht auf einen selbst. Das Gesicht nie über ein Gefäß bringen, in dem eine Reaktion abläuft.",
+        "Beobachtung: Der Zucker schmilzt zunächst (physikalischer Vorgang), wird dann braun (Karamellisieren), riecht karamellartig und schließlich brenzlig, schäumt auf und hinterlässt eine schwarze, poröse Masse.",
+        "Fachräume nur in Anwesenheit der Lehrkraft betreten. Schutzbrillenpflicht bei jeder Form von Laborarbeit; lange Haare zusammenbinden, Baumwollkittel tragen, bei ätzenden Stoffen zusätzlich Schutzhandschuhe.",
+        "Person in die stabile Seitenlage bringen, feststellen, um welchen Stoff es sich handelt, nach dem Befinden fragen. Bei toxischen Stoffen sofort den Giftnotruf anrufen und die Art der Vergiftung schildern."
+      ],
+      "answer": 0,
+      "solution": "Reagenzglas mit dem Reagenzglashalter fassen, nie mit der bloßen Hand. Die Öffnung zeigt nie auf Personen – auch nicht auf einen selbst. Das Gesicht nie über ein Gefäß bringen, in dem eine Reaktion abläuft. Beim Erhitzen von Flüssigkeiten schräg halten, ständig bewegen und Siedesteinchen verwenden, damit kein Siedeverzug auftritt (schlagartiges Herausspritzen). Brennbare Flüssigkeiten nie über offener Flamme erhitzen, sondern im Wasserbad.",
+      "katalog_id": "src-a1-3",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-01"
+    },
+    {
+      "id": "KAT-src-a1-1-B",
+      "level": "B",
+      "kategorie": "K-SICH",
+      "skill": "Sicherheit im Fachraum",
+      "type": "choice",
+      "prompt": "Nenne die fünf wichtigsten Verhaltensregeln, die im Chemiefachraum immer gelten.",
+      "options": [
+        "Beobachtung: Der Zucker schmilzt zunächst (physikalischer Vorgang), wird dann braun (Karamellisieren), riecht karamellartig und schließlich brenzlig, schäumt auf und hinterlässt eine schwarze, poröse Masse.",
+        "Person in die stabile Seitenlage bringen, feststellen, um welchen Stoff es sich handelt, nach dem Befinden fragen. Bei toxischen Stoffen sofort den Giftnotruf anrufen und die Art der Vergiftung schildern.",
+        "Fachräume nur in Anwesenheit der Lehrkraft betreten. Schutzbrillenpflicht bei jeder Form von Laborarbeit; lange Haare zusammenbinden, Baumwollkittel tragen, bei ätzenden Stoffen zusätzlich Schutzhandschuhe.",
+        "Reagenzglas mit dem Reagenzglashalter fassen, nie mit der bloßen Hand. Die Öffnung zeigt nie auf Personen – auch nicht auf einen selbst. Das Gesicht nie über ein Gefäß bringen, in dem eine Reaktion abläuft."
+      ],
+      "answer": 2,
+      "solution": "Fachräume nur in Anwesenheit der Lehrkraft betreten. Schutzbrillenpflicht bei jeder Form von Laborarbeit; lange Haare zusammenbinden, Baumwollkittel tragen, bei ätzenden Stoffen zusätzlich Schutzhandschuhe. Im Fachraum wird nicht gegessen, getrunken oder geschminkt; Chemikalien werden nie probiert oder mit den Fingern angefasst. Erst nach Aufforderung mit Geräten, Chemikalien, Gas oder Strom arbeiten; allen Anweisungen genau folgen und bei Unklarheiten fragen. Jede Panne, jeder Gasgeruch, jedes defekte Gerät wird sofort gemeldet.",
+      "katalog_id": "src-a1-1",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-01"
+    },
+    {
+      "id": "KAT-src-a1-5-B",
+      "level": "B",
+      "kategorie": "K-SICH",
+      "skill": "Sicherheit im Fachraum",
+      "type": "choice",
+      "prompt": "Wie werden Chemikalienreste entsorgt?",
+      "options": [
+        "Positive Blindprobe: Der Nachweis wird durchgeführt, obwohl der gesuchte Stoff sicher anwesend ist – z. B. Silbernitrat-Lösung zu Natriumchlorid-Lösung. Der Nachweis muss anschlagen.",
+        "Modelle vereinfachen die nicht direkt beobachtbare Teilchenwelt, um Phänomene erklären und Vorhersagen treffen zu können. Jedes Modell hat aber Grenzen und wird nur so lange verwendet, wie es trägt.",
+        "Nach Anweisung der Lehrkraft in die dafür vorgesehenen Sammelbehälter (z. B. „anorganische Schwermetallsalzlösungen“). Reste dürfen nie in die Vorratsflasche zurück (Verunreinigungsgefahr).",
+        "Durchführung: Ein Wasserbad wird auf genau 90 °C erwärmt. In ein Reagenzglas gibt man je 2 cm hoch Alkohol und Carbonsäure; die Lehrkraft ergänzt 1 mL konzentrierte Schwefelsäure als Katalysator."
+      ],
+      "answer": 2,
+      "solution": "Nach Anweisung der Lehrkraft in die dafür vorgesehenen Sammelbehälter (z. B. „anorganische Schwermetallsalzlösungen“). Reste dürfen nie in die Vorratsflasche zurück (Verunreinigungsgefahr). Feste Gegenstände (Zündhölzer, Glassplitter, Indikatorpapier) gehören nicht in den Ausguss. Verdünnte Säuren werden vor dem Ausguss verdünnt und neutralisiert, z. B. 10 %ige Salzsäure mit der 20-fachen Menge Wasser und anschließend verdünnter Natronlauge. Stoffe mit dem Piktogramm Umwelt (GHS09) gehören ausschließlich in den Sondermüll.",
+      "katalog_id": "src-a1-5",
+      "schwierigkeit": 1,
+      "ab_einheit": "sl-02"
+    },
+    {
+      "id": "KAT-src-a3-3-B",
+      "level": "B",
+      "kategorie": "K-SICH",
+      "skill": "Wie Chemiker denken und arbeiten",
+      "type": "choice",
+      "prompt": "Was gehört in ein vollständiges Versuchsprotokoll?",
+      "options": [
+        "Gerät Verwendung Reagenzglas, -gestell, -halter Kleinversuche; Halter zum Erhitzen Becherglas / Erlenmeyerkolben Ansetzen, Mischen, Erhitzen von Lösungen Bunsen- / Kartuschenbrenner, Dreifuß Erhitzen Trichter mit Filterpapier …",
+        "Kontakt unbedingt vermeiden, Schutzbrille und Schutzhandschuhe tragen. Bei Kontakt Augen und Haut sofort mit viel Wasser spülen. Ätzende Stoffe zerstören Metalle und verätzen Körpergewebe; schwere Augenschäden sind möglich.",
+        "Überschrift / Fragestellung und Datum Geräte und Chemikalien mit Gefahrenhinweisen Sicherheitsvorkehrungen Versuchsaufbau (beschriftete Skizze) Durchführung – sachlich, im Passiv Beobachtung – nur, was mit den Sinnen wahrnehmbar ist …",
+        "Durchführung (für jede Probe wiederholen): Magnesia- oder Edelstahlstäbchen ausglühen. In Wasser tauchen (Reinigung, damit die Vorratsflaschen nicht verunreinigt werden). In 10 %ige Salzsäure tauchen. Mit sehr wenig Salzprobe benetzen."
+      ],
+      "answer": 2,
+      "solution": "Überschrift / Fragestellung und Datum Geräte und Chemikalien mit Gefahrenhinweisen Sicherheitsvorkehrungen Versuchsaufbau (beschriftete Skizze) Durchführung – sachlich, im Passiv Beobachtung – nur, was mit den Sinnen wahrnehmbar ist (Farbe, Geruch, Gasentwicklung, Temperatur) Auswertung / Deutung – Erklärung auf Teilchenebene, Reaktionsgleichung, Rückbezug zur Hypothese Entsorgung Wichtig: Beobachtung und Deutung strikt trennen – „das Gas ist Kohlenstoffdioxid“ ist keine Beobachtung, sondern eine Deutung.",
+      "katalog_id": "src-a3-3",
+      "schwierigkeit": 1,
+      "ab_einheit": "ps-02"
+    },
+    {
+      "id": "KAT-src-a3-4-B",
+      "level": "B",
+      "kategorie": "K-SICH",
+      "skill": "Wie Chemiker denken und arbeiten",
+      "type": "choice",
+      "prompt": "Was ist der Unterschied zwischen Stoffebene und Teilchenebene?",
+      "options": [
+        "Standort und Gebrauch von Feuerlöscher, Sandeimer, Löschdecke, Augennotdusche, Verbandskasten sowie der Not-Aus-Schalter für Strom und des Hauptschalters für Gas.",
+        "Stoffebene (makroskopisch): das, was man beobachten und messen kann – Farbe, Geruch, Dichte, Schmelz- und Siedetemperatur; „Wasser siedet“, „der Stoff wird gelb“.",
+        "H-Sätze ( hazard statements, Gefahrenhinweise) beschreiben die Gefährdungen, die von einem Gefahrstoff ausgehen – z. B. H315 „Verursacht Hautreizungen“.",
+        "Nur nach ausdrücklicher Aufforderung der Lehrkraft. Man riecht nie direkt am Gefäß, sondern fächelt sich die Dämpfe mit der Hand über der Öffnung vorsichtig zur Nase zu."
+      ],
+      "answer": 1,
+      "solution": "Stoffebene (makroskopisch): das, was man beobachten und messen kann – Farbe, Geruch, Dichte, Schmelz- und Siedetemperatur; „Wasser siedet“, „der Stoff wird gelb“. Teilchenebene (submikroskopisch): die modellhafte Beschreibung mit Atomen, Molekülen und Ionen – „die Teilchen werden schneller“, „die Abstände vergrößern sich“, „zwischen den Teilchen wirken Anziehungskräfte“. Typischer Fehler: Ebenen vermischen, z. B. „das Molekül schmilzt“ oder „beim Sieden werden Bindungen zerstört“. Beim Sieden werden nur zwischenmolekulare Wechselwirkungen überwunden, keine Bindungen gebrochen.",
+      "katalog_id": "src-a3-4",
+      "schwierigkeit": 1,
+      "ab_einheit": "ps-02"
+    },
+    {
+      "id": "KAT-src-a3-5-B",
+      "level": "B",
+      "kategorie": "K-SICH",
+      "skill": "Wie Chemiker denken und arbeiten",
+      "type": "choice",
+      "prompt": "Warum werden in der Chemie Modelle verwendet, und warum wechselt man sie?",
+      "options": [
+        "Modelle vereinfachen die nicht direkt beobachtbare Teilchenwelt, um Phänomene erklären und Vorhersagen treffen zu können. Jedes Modell hat aber Grenzen und wird nur so lange verwendet, wie es trägt.",
+        "Durchführung: Methanol, Ethanol, Propanol, Butanol und Cetylalkohol (16 C-Atome) werden je mit 2 cm Wasser und in einem zweiten Ansatz mit 2 cm Benzin versetzt, verschlossen und 30 Sekunden geschüttelt.",
+        "Durchführung: Ein Wasserbad wird auf genau 90 °C erwärmt. In ein Reagenzglas gibt man je 2 cm hoch Alkohol und Carbonsäure; die Lehrkraft ergänzt 1 mL konzentrierte Schwefelsäure als Katalysator.",
+        "Sofort mit der Augendusche bei weit gespreiztem Lidspalt spülen, mindestens 15 Minuten, möglichst bis zum Eintreffen des Rettungsdienstes. Den Kopf so halten, dass der Stoff nicht ins andere Auge läuft."
+      ],
+      "answer": 0,
+      "solution": "Modelle vereinfachen die nicht direkt beobachtbare Teilchenwelt, um Phänomene erklären und Vorhersagen treffen zu können. Jedes Modell hat aber Grenzen und wird nur so lange verwendet, wie es trägt. Beispiel: Das einfache Teilchenmodell reicht, um Aggregatzustände zu beschreiben. Für chemische Reaktionen versagt es, weil sich damit die Umgruppierung der Atome nicht darstellen lässt → Wechsel zum Daltonschen Atommodell. Für Ionenbildung und Flammenfärbung braucht man wiederum das Kern-Hülle- bzw. Energiestufenmodell.",
+      "katalog_id": "src-a3-5",
+      "schwierigkeit": 1,
+      "ab_einheit": "sl-02"
+    },
+    {
+      "id": "KAT-src-a3-6-B",
+      "level": "B",
+      "kategorie": "K-SICH",
+      "skill": "Wie Chemiker denken und arbeiten",
+      "type": "choice",
+      "prompt": "Nenne die wichtigsten Laborgeräte und ihre Funktion.",
+      "options": [
+        "Sofort mit der Löschdecke (oder vergleichbarem Material) abdecken, alternativ die Notbrause benutzen oder die Person am Boden rollen. Brandwunden mit kaltem Wasser kühlen und keimfrei bedecken, keine Salben oder Cremes.",
+        "Überschrift / Fragestellung und Datum Geräte und Chemikalien mit Gefahrenhinweisen Sicherheitsvorkehrungen Versuchsaufbau (beschriftete Skizze) Durchführung – sachlich, im Passiv Beobachtung – nur, was mit den Sinnen wahrnehmbar ist …",
+        "Kontakt unbedingt vermeiden, Schutzbrille und Schutzhandschuhe tragen. Bei Kontakt Augen und Haut sofort mit viel Wasser spülen. Ätzende Stoffe zerstören Metalle und verätzen Körpergewebe; schwere Augenschäden sind möglich.",
+        "Gerät Verwendung Reagenzglas, -gestell, -halter Kleinversuche; Halter zum Erhitzen Becherglas / Erlenmeyerkolben Ansetzen, Mischen, Erhitzen von Lösungen Bunsen- / Kartuschenbrenner, Dreifuß Erhitzen Trichter mit Filterpapier …"
+      ],
+      "answer": 3,
+      "solution": "Gerät Verwendung Reagenzglas, -gestell, -halter Kleinversuche; Halter zum Erhitzen Becherglas / Erlenmeyerkolben Ansetzen, Mischen, Erhitzen von Lösungen Bunsen- / Kartuschenbrenner, Dreifuß Erhitzen Trichter mit Filterpapier Filtrieren (Trennen von Suspensionen) Rundkolben, Kühlrohr Destillation Messzylinder, Voll-/Messpipette mit Peleusball Volumenmessung – nie mit dem Mund pipettieren Bürette Titration Porzellanschale, Tiegelzange Eindampfen, Glühen Mörser mit Pistill Zerkleinern Kolbenprober, Gaswaschflasche, U-Rohr Gase auffangen und waschen, Elektrolyse Verbrennungslöffel, Magnesiastäbchen Verbrennungen, Flammenfärbung",
+      "katalog_id": "src-a3-6",
+      "schwierigkeit": 1,
+      "ab_einheit": "sl-06"
+    },
+    {
+      "id": "KAT-src-i-1-B",
+      "level": "B",
+      "kategorie": "K-SICH",
+      "skill": "Experimente im Unterricht",
+      "type": "choice",
+      "prompt": "Versuch „Unbekannter Stoff“: Wie identifizierst du ein weißes Pulver, das Gips, Soda oder Zucker sein kann?",
+      "options": [
+        "Herstellung: Rotkohlblätter in schmale Streifen schneiden, ein Becherglas zu einem Drittel damit füllen, 150 mL Wasser zugeben, mindestens eine Minute kochen und die heiße Flüssigkeit durch ein Filterpapier filtrieren.",
+        "Strategie: Man vergleicht die Kenneigenschaften der unbekannten Probe mit denen der drei Vergleichsstoffe – jeweils unter identischen Bedingungen. Löslichkeit in Wasser: Zucker und Soda lösen sich gut, Gips kaum.",
+        "Fragestellung / Beobachtung formulieren. Hypothese aufstellen (überprüfbare Vermutung). Versuchsplanung. Versuchsdurchführung inklusive Versuchsprotokoll. Rückbezug zur Hypothese – wurde sie bestätigt oder widerlegt?",
+        "Reagenzglas mit dem Reagenzglashalter fassen, nie mit der bloßen Hand. Die Öffnung zeigt nie auf Personen – auch nicht auf einen selbst. Das Gesicht nie über ein Gefäß bringen, in dem eine Reaktion abläuft."
+      ],
+      "answer": 1,
+      "solution": "Strategie: Man vergleicht die Kenneigenschaften der unbekannten Probe mit denen der drei Vergleichsstoffe – jeweils unter identischen Bedingungen. Löslichkeit in Wasser: Zucker und Soda lösen sich gut, Gips kaum. Verhalten beim Erhitzen: Zucker schmilzt, karamellisiert, verkohlt schließlich (organisch!). Soda und Gips bleiben weiß. Zugabe verdünnter Säure: Soda (Natriumcarbonat) entwickelt CO 2 – erkennbar am Aufschäumen und über die Kalkwasserprobe. pH der Lösung: Sodalösung reagiert basisch, Zuckerlösung neutral. Regeln: Stoffe nicht anfassen und nicht probieren; pro Versuch nur zwei Spatelspitzen; Kopf von der Brennerflamme fernhalten; Schutzbrille tragen. Anschließend wird die Flasche korrekt beschriftet.",
+      "katalog_id": "src-i-1",
+      "schwierigkeit": 1,
+      "ab_einheit": "sl-02"
+    },
+    {
+      "id": "KAT-src-i-2-C",
+      "level": "C",
+      "kategorie": "K-SICH",
+      "skill": "Experimente im Unterricht",
+      "type": "choice",
+      "prompt": "Versuch „Stoffumwandlungen“: Was beobachtet man beim Verbrennen von Zucker?",
+      "options": [
+        "Durchführung: Methanol, Ethanol, Propanol, Butanol und Cetylalkohol (16 C-Atome) werden je mit 2 cm Wasser und in einem zweiten Ansatz mit 2 cm Benzin versetzt, verschlossen und 30 Sekunden geschüttelt.",
+        "Durchführung: Ein Wasserbad wird auf genau 90 °C erwärmt. In ein Reagenzglas gibt man je 2 cm hoch Alkohol und Carbonsäure; die Lehrkraft ergänzt 1 mL konzentrierte Schwefelsäure als Katalysator.",
+        "Strategie: Man vergleicht die Kenneigenschaften der unbekannten Probe mit denen der drei Vergleichsstoffe – jeweils unter identischen Bedingungen. Löslichkeit in Wasser: Zucker und Soda lösen sich gut, Gips kaum.",
+        "Beobachtung: Der Zucker schmilzt zunächst (physikalischer Vorgang), wird dann braun (Karamellisieren), riecht karamellartig und schließlich brenzlig, schäumt auf und hinterlässt eine schwarze, poröse Masse."
+      ],
+      "answer": 3,
+      "solution": "Beobachtung: Der Zucker schmilzt zunächst (physikalischer Vorgang), wird dann braun (Karamellisieren), riecht karamellartig und schließlich brenzlig, schäumt auf und hinterlässt eine schwarze, poröse Masse. Deutung: Zucker ist ein Kohlenhydrat – der Name weist auf den enthaltenen Kohlenstoff hin. Beim starken Erhitzen wird er zersetzt; zurück bleibt Kohlenstoff, das Wasser entweicht als Dampf. Der Vergleich mit dem Ausgangsstoff (weiß, kristallin, süß, wasserlöslich) zeigt: Es sind neue Stoffe mit neuen Eigenschaften entstanden – eine chemische Reaktion. Sicherheit beim verwandten Versuch „Pharaoschlangen“: Brennspiritus ist leicht entzündbar – nach dem Zünden auf gar keinen Fall nachgießen, Flasche sofort verschließen und wegstellen, nur auf feuerfester, offener Unterlage arbeiten, Schutzbrille tragen, langen Arm halten.",
+      "katalog_id": "src-i-2",
+      "schwierigkeit": 1,
+      "ab_einheit": "es-01"
+    },
+    {
+      "id": "KAT-src-i-3-C",
+      "level": "C",
+      "kategorie": "K-SICH",
+      "skill": "Experimente im Unterricht",
+      "type": "choice",
+      "prompt": "Versuch „Rotkohl als Indikator“: Wie stellt man ihn her und was zeigt er an?",
+      "options": [
+        "Herstellung: Rotkohlblätter in schmale Streifen schneiden, ein Becherglas zu einem Drittel damit füllen, 150 mL Wasser zugeben, mindestens eine Minute kochen und die heiße Flüssigkeit durch ein Filterpapier filtrieren.",
+        "Strategie: Man vergleicht die Kenneigenschaften der unbekannten Probe mit denen der drei Vergleichsstoffe – jeweils unter identischen Bedingungen. Löslichkeit in Wasser: Zucker und Soda lösen sich gut, Gips kaum.",
+        "Beobachtung: Der Zucker schmilzt zunächst (physikalischer Vorgang), wird dann braun (Karamellisieren), riecht karamellartig und schließlich brenzlig, schäumt auf und hinterlässt eine schwarze, poröse Masse.",
+        "Bei der Elektrolyse einer wässrigen Lösung im U-Rohr mit zwei Elektroden und Gleichspannung wandern die Ionen zu den entgegengesetzt geladenen Elektroden. Minuspol (Kathode): Kationen nehmen Elektronen auf → Reduktion."
+      ],
+      "answer": 0,
+      "solution": "Herstellung: Rotkohlblätter in schmale Streifen schneiden, ein Becherglas zu einem Drittel damit füllen, 150 mL Wasser zugeben, mindestens eine Minute kochen und die heiße Flüssigkeit durch ein Filterpapier filtrieren. Beobachtung: Der Farbstoff (Anthocyan) ändert seine Farbe je nach pH-Wert: rot im Sauren, violett im Neutralen, grün bis gelb im Basischen. Deutung: Ein Indikator ist ein Farbstoff, der durch seine Farbe anzeigt, ob eine Lösung sauer, neutral oder basisch reagiert. Getestet werden typischerweise Salzsäure, Natronlauge, Essigessenz, Citronensäure, Bier, Cola, Wein, Vitamin C und Zucker – nur die letzten beiden Proben reagieren nicht sauer bzw. neutral. Sicherheit: Säuren und Laugen sind ätzend – Schutzbrille, bei Abflussreiniger und Natronlauge auch Handschuhe; nach dem Versuch Hände waschen.",
+      "katalog_id": "src-i-3",
+      "schwierigkeit": 1,
+      "ab_einheit": "sl-02"
+    },
+    {
+      "id": "KAT-src-i-4-C",
+      "level": "C",
+      "kategorie": "K-SICH",
+      "skill": "Experimente im Unterricht",
+      "type": "choice",
+      "prompt": "Versuch „Löslichkeit der Alkohole“: Welches Ergebnis erwartest du und wie erklärst du es?",
+      "options": [
+        "Beobachtung: Der Zucker schmilzt zunächst (physikalischer Vorgang), wird dann braun (Karamellisieren), riecht karamellartig und schließlich brenzlig, schäumt auf und hinterlässt eine schwarze, poröse Masse.",
+        "Strategie: Man vergleicht die Kenneigenschaften der unbekannten Probe mit denen der drei Vergleichsstoffe – jeweils unter identischen Bedingungen. Löslichkeit in Wasser: Zucker und Soda lösen sich gut, Gips kaum.",
+        "Durchführung: Methanol, Ethanol, Propanol, Butanol und Cetylalkohol (16 C-Atome) werden je mit 2 cm Wasser und in einem zweiten Ansatz mit 2 cm Benzin versetzt, verschlossen und 30 Sekunden geschüttelt.",
+        "Durchführung: Ein Wasserbad wird auf genau 90 °C erwärmt. In ein Reagenzglas gibt man je 2 cm hoch Alkohol und Carbonsäure; die Lehrkraft ergänzt 1 mL konzentrierte Schwefelsäure als Katalysator."
+      ],
+      "answer": 2,
+      "solution": "Durchführung: Methanol, Ethanol, Propanol, Butanol und Cetylalkohol (16 C-Atome) werden je mit 2 cm Wasser und in einem zweiten Ansatz mit 2 cm Benzin versetzt, verschlossen und 30 Sekunden geschüttelt. Methanol Ethanol Propanol Butanol Cetylalkohol Wasserlöslichkeit nimmt mit der Kettenlänge ab → Benzinlöslichkeit nimmt mit der Kettenlänge zu → Erklärung über die Polarität: Das Sauerstoff-Atom der OH-Gruppe zieht Bindungselektronen zu sich und trägt eine negative Partialladung (δ−), H- und C-Atom eine positive (δ+). Die OH-Gruppe ist daher polar und bildet Wasserstoffbrücken zu Wasser-Molekülen – kurzkettige Alkohole sind hydrophil. Die Kohlenstoffkette ist dagegen unpolar und wirkt als Gegenspieler: Je länger sie ist, desto schlechter die Wasserlöslichkeit und desto besser die Benzin- und Fettlöslichkeit ( lipophil ). Sicherheit: Die Stoffe sind leicht entzündbare Flüssigkeiten, Methanol ist giftig – keine offenen Flammen, im Abzug arbeiten, Dämpfe nicht einatmen, Flaschen sofort verschließen.",
+      "katalog_id": "src-i-4",
+      "schwierigkeit": 1,
+      "ab_einheit": "es-03"
+    },
+    {
+      "id": "KAT-src-i-5-C",
+      "level": "C",
+      "kategorie": "K-SICH",
+      "skill": "Experimente im Unterricht",
+      "type": "choice",
+      "prompt": "Versuch „Aromastoffe herstellen“: Wie synthetisiert man einen Ester und worauf ist zu achten?",
+      "options": [
+        "Beobachtung: Der Zucker schmilzt zunächst (physikalischer Vorgang), wird dann braun (Karamellisieren), riecht karamellartig und schließlich brenzlig, schäumt auf und hinterlässt eine schwarze, poröse Masse.",
+        "Durchführung: Methanol, Ethanol, Propanol, Butanol und Cetylalkohol (16 C-Atome) werden je mit 2 cm Wasser und in einem zweiten Ansatz mit 2 cm Benzin versetzt, verschlossen und 30 Sekunden geschüttelt.",
+        "Durchführung: Ein Wasserbad wird auf genau 90 °C erwärmt. In ein Reagenzglas gibt man je 2 cm hoch Alkohol und Carbonsäure; die Lehrkraft ergänzt 1 mL konzentrierte Schwefelsäure als Katalysator.",
+        "Strategie: Man vergleicht die Kenneigenschaften der unbekannten Probe mit denen der drei Vergleichsstoffe – jeweils unter identischen Bedingungen. Löslichkeit in Wasser: Zucker und Soda lösen sich gut, Gips kaum."
+      ],
+      "answer": 2,
+      "solution": "Durchführung: Ein Wasserbad wird auf genau 90 °C erwärmt. In ein Reagenzglas gibt man je 2 cm hoch Alkohol und Carbonsäure; die Lehrkraft ergänzt 1 mL konzentrierte Schwefelsäure als Katalysator. Nach mindestens 3 Minuten im Wasserbad gibt man 5 cm Wasser zu – der Ester schwimmt oben auf. Der Geruch wird durch Fächeln geprüft. Beobachtung: Es entstehen fruchtig riechende Flüssigkeiten, die sich nicht mit Wasser mischen. Essigsäure + Ethanol --(H 2 SO 4 )--> Essigsäureethylester + Wasser Deutung: Alkansäure und Alkohol reagieren unter Wasserabspaltung (Kondensation) zu einem Ester; Schwefelsäure wirkt als Katalysator und bindet zugleich das entstehende Wasser, verschiebt also das Gleichgewicht zur Produktseite. Verwendung: Ester dienen wegen ihres fruchtigen Geruchs als Aromastoffe und in der Parfümindustrie; Ethansäureethylester ist als Lösungsmittel im Nagellackentferner enthalten. Fette sind Ester langkettiger Alkansäuren mit Glycerin. Sicherheit: Konzentrierte Schwefel- und Essigsäure sind stark ätzend (Schutzbrille und Handschuhe); Edukte und Produkte sind leicht entzündbar – nur im Wasserbad erwärmen, keine offenen Flammen, gut lüften.",
+      "katalog_id": "src-i-5",
+      "schwierigkeit": 1,
+      "ab_einheit": "es-03"
+    },
+    {
+      "id": "KAT-src-i-7-C",
+      "level": "C",
+      "kategorie": "K-SICH",
+      "skill": "Experimente im Unterricht",
+      "type": "choice",
+      "prompt": "Versuch „Elektrolyse“: Was passiert an den Elektroden und woran erkennst du die Produkte?",
+      "options": [
+        "Bei der Elektrolyse einer wässrigen Lösung im U-Rohr mit zwei Elektroden und Gleichspannung wandern die Ionen zu den entgegengesetzt geladenen Elektroden. Minuspol (Kathode): Kationen nehmen Elektronen auf → Reduktion.",
+        "Strategie: Man vergleicht die Kenneigenschaften der unbekannten Probe mit denen der drei Vergleichsstoffe – jeweils unter identischen Bedingungen. Löslichkeit in Wasser: Zucker und Soda lösen sich gut, Gips kaum.",
+        "Beobachtung: Der Zucker schmilzt zunächst (physikalischer Vorgang), wird dann braun (Karamellisieren), riecht karamellartig und schließlich brenzlig, schäumt auf und hinterlässt eine schwarze, poröse Masse.",
+        "Herstellung: Rotkohlblätter in schmale Streifen schneiden, ein Becherglas zu einem Drittel damit füllen, 150 mL Wasser zugeben, mindestens eine Minute kochen und die heiße Flüssigkeit durch ein Filterpapier filtrieren."
+      ],
+      "answer": 0,
+      "solution": "Bei der Elektrolyse einer wässrigen Lösung im U-Rohr mit zwei Elektroden und Gleichspannung wandern die Ionen zu den entgegengesetzt geladenen Elektroden. Minuspol (Kathode): Kationen nehmen Elektronen auf → Reduktion. Bei der Wasserelektrolyse entsteht hier Wasserstoff – nachweisbar mit der Knallgasprobe. Pluspol (Anode): Anionen geben Elektronen ab → Oxidation. Bei der Wasserelektrolyse entsteht Sauerstoff – nachweisbar mit der Glimmspanprobe. 2 H 2 O → 2 H 2 + O 2 Volumenverhältnis H 2: O 2 = 2: 1 Reines Wasser leitet den Strom kaum – man setzt deshalb etwas Säure oder ein Salz als Leitelektrolyt zu. Die Elektrolyse ist ein endothermer Vorgang: Elektrische Energie erzwingt eine nicht freiwillig ablaufende Redoxreaktion.",
+      "katalog_id": "src-i-7",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-02"
+    },
+    {
+      "id": "KAT-src-i-8-C",
+      "level": "C",
+      "kategorie": "K-SICH",
+      "skill": "Experimente im Unterricht",
+      "type": "choice",
+      "prompt": "Versuch „Kupfer und Sauerstoff“: Wie zeigt man das Gesetz von der Erhaltung der Masse?",
+      "options": [
+        "Durchführung: Ein Wasserbad wird auf genau 90 °C erwärmt. In ein Reagenzglas gibt man je 2 cm hoch Alkohol und Carbonsäure; die Lehrkraft ergänzt 1 mL konzentrierte Schwefelsäure als Katalysator.",
+        "Beobachtung: Der Zucker schmilzt zunächst (physikalischer Vorgang), wird dann braun (Karamellisieren), riecht karamellartig und schließlich brenzlig, schäumt auf und hinterlässt eine schwarze, poröse Masse.",
+        "Durchführung: Kupferpulver wird gewogen und im offenen Gefäß erhitzt. Beobachtung: Das rotbraune Kupfer wandelt sich in einen schwarzen Feststoff um; die Masse hat zugenommen.",
+        "Durchführung: Methanol, Ethanol, Propanol, Butanol und Cetylalkohol (16 C-Atome) werden je mit 2 cm Wasser und in einem zweiten Ansatz mit 2 cm Benzin versetzt, verschlossen und 30 Sekunden geschüttelt."
+      ],
+      "answer": 2,
+      "solution": "Durchführung: Kupferpulver wird gewogen und im offenen Gefäß erhitzt. Beobachtung: Das rotbraune Kupfer wandelt sich in einen schwarzen Feststoff um; die Masse hat zugenommen. 2 Cu + O 2 → 2 CuO (Kupfer(II)-oxid) Deutung: Die Massenzunahme entspricht genau der Masse des aufgenommenen Sauerstoffs aus der Luft. Der Massenerhaltungssatz ist nicht verletzt – er lässt sich nur im geschlossenen System direkt überprüfen, weil sonst Stoffe aus der Umgebung aufgenommen oder an sie abgegeben werden. Umkehrung: Erhitzt man Kupferoxid mit einem Reduktionsmittel (z. B. Wasserstoff oder Kohlenstoff), entsteht wieder rotbraunes Kupfer – eine Redoxreaktion.",
+      "katalog_id": "src-i-8",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-02"
+    },
+    {
+      "id": "KAT-src-i-6-C",
+      "level": "C",
+      "kategorie": "K-SICH",
+      "skill": "Experimente im Unterricht",
+      "type": "choice",
+      "prompt": "Versuch „Flammenfarben verraten Elemente“: Beschreibe Durchführung und Auswertung.",
+      "options": [
+        "Bei der Elektrolyse einer wässrigen Lösung im U-Rohr mit zwei Elektroden und Gleichspannung wandern die Ionen zu den entgegengesetzt geladenen Elektroden. Minuspol (Kathode): Kationen nehmen Elektronen auf → Reduktion.",
+        "Strategie: Man vergleicht die Kenneigenschaften der unbekannten Probe mit denen der drei Vergleichsstoffe – jeweils unter identischen Bedingungen. Löslichkeit in Wasser: Zucker und Soda lösen sich gut, Gips kaum.",
+        "Herstellung: Rotkohlblätter in schmale Streifen schneiden, ein Becherglas zu einem Drittel damit füllen, 150 mL Wasser zugeben, mindestens eine Minute kochen und die heiße Flüssigkeit durch ein Filterpapier filtrieren.",
+        "Durchführung (für jede Probe wiederholen): Magnesia- oder Edelstahlstäbchen ausglühen. In Wasser tauchen (Reinigung, damit die Vorratsflaschen nicht verunreinigt werden). In 10 %ige Salzsäure tauchen. Mit sehr wenig Salzprobe benetzen."
+      ],
+      "answer": 3,
+      "solution": "Durchführung (für jede Probe wiederholen): Magnesia- oder Edelstahlstäbchen ausglühen. In Wasser tauchen (Reinigung, damit die Vorratsflaschen nicht verunreinigt werden). In 10 %ige Salzsäure tauchen. Mit sehr wenig Salzprobe benetzen. In die rauschende Brennerflamme halten. Farbe notieren und dem Element zuordnen. Auswertung: Siehe die Farbtabelle in F.2. Die Flammenfärbung weist die Metall-Kationen nach, nicht das Anion – NaCl und Na 2 SO 4 färben beide gelborange. Sicherheit und Entsorgung: 10 %ige Salzsäure verursacht schwere Augenreizungen; einige Salze sind giftig oder gesundheitsschädlich; Schutzbrille und Handschuhe tragen, Raum gut lüften, danach Hände waschen. Reste und Waschwasser in den Behälter für anorganische Schwermetallsalzlösungen; Salzsäure verdünnen, neutralisieren und erst dann in den Abguss. Bariumsalze ggf. im Abzug, Lithiumsalze sind für Schülerversuche nicht zugelassen.",
+      "katalog_id": "src-i-6",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-02"
+    },
+    {
+      "id": "KAT-src-a2-3-C",
+      "level": "C",
+      "kategorie": "K-SICH",
+      "skill": "Gefahrstoffkennzeichnung (GHS)",
+      "type": "choice",
+      "prompt": "Welche Schutzmaßnahmen leiten sich aus dem Piktogramm „Ätzwirkung“ ab?",
+      "options": [
+        "Kontakt unbedingt vermeiden, Schutzbrille und Schutzhandschuhe tragen. Bei Kontakt Augen und Haut sofort mit viel Wasser spülen. Ätzende Stoffe zerstören Metalle und verätzen Körpergewebe; schwere Augenschäden sind möglich.",
+        "H-Sätze ( hazard statements, Gefahrenhinweise) beschreiben die Gefährdungen, die von einem Gefahrstoff ausgehen – z. B. H315 „Verursacht Hautreizungen“.",
+        "Sofort mit der Löschdecke (oder vergleichbarem Material) abdecken, alternativ die Notbrause benutzen oder die Person am Boden rollen. Brandwunden mit kaltem Wasser kühlen und keimfrei bedecken, keine Salben oder Cremes.",
+        "Gerät Verwendung Reagenzglas, -gestell, -halter Kleinversuche; Halter zum Erhitzen Becherglas / Erlenmeyerkolben Ansetzen, Mischen, Erhitzen von Lösungen Bunsen- / Kartuschenbrenner, Dreifuß Erhitzen Trichter mit Filterpapier …"
+      ],
+      "answer": 0,
+      "solution": "Kontakt unbedingt vermeiden, Schutzbrille und Schutzhandschuhe tragen. Bei Kontakt Augen und Haut sofort mit viel Wasser spülen. Ätzende Stoffe zerstören Metalle und verätzen Körpergewebe; schwere Augenschäden sind möglich.",
+      "katalog_id": "src-a2-3",
+      "schwierigkeit": 2,
+      "ab_einheit": "fc-01"
+    },
+    {
+      "id": "KAT-src-a3-1-C",
+      "level": "C",
+      "kategorie": "K-SICH",
+      "skill": "Wie Chemiker denken und arbeiten",
+      "type": "choice",
+      "prompt": "Beschreibe den Ablauf einer hypothesengeleiteten naturwissenschaftlichen Untersuchung.",
+      "options": [
+        "Überschrift / Fragestellung und Datum Geräte und Chemikalien mit Gefahrenhinweisen Sicherheitsvorkehrungen Versuchsaufbau (beschriftete Skizze) Durchführung – sachlich, im Passiv Beobachtung – nur, was mit den Sinnen wahrnehmbar ist …",
+        "Modelle vereinfachen die nicht direkt beobachtbare Teilchenwelt, um Phänomene erklären und Vorhersagen treffen zu können. Jedes Modell hat aber Grenzen und wird nur so lange verwendet, wie es trägt.",
+        "Gerät Verwendung Reagenzglas, -gestell, -halter Kleinversuche; Halter zum Erhitzen Becherglas / Erlenmeyerkolben Ansetzen, Mischen, Erhitzen von Lösungen Bunsen- / Kartuschenbrenner, Dreifuß Erhitzen Trichter mit Filterpapier …",
+        "Fragestellung / Beobachtung formulieren. Hypothese aufstellen (überprüfbare Vermutung). Versuchsplanung. Versuchsdurchführung inklusive Versuchsprotokoll. Rückbezug zur Hypothese – wurde sie bestätigt oder widerlegt?"
+      ],
+      "answer": 3,
+      "solution": "Fragestellung / Beobachtung formulieren. Hypothese aufstellen (überprüfbare Vermutung). Versuchsplanung. Versuchsdurchführung inklusive Versuchsprotokoll. Rückbezug zur Hypothese – wurde sie bestätigt oder widerlegt? Beispiel: Beobachtung – die Mischung verschiedener Farben ergibt Schwarz. Hypothese – schwarze Fineliner beruhen auf einem Farbgemisch. Überprüfung – Chromatographie-Experiment.",
+      "katalog_id": "src-a3-1",
+      "schwierigkeit": 2,
+      "ab_einheit": "sl-02"
+    },
+    {
+      "id": "KAT-src-a3-2-C",
+      "level": "C",
+      "kategorie": "K-SICH",
+      "skill": "Wie Chemiker denken und arbeiten",
+      "type": "choice",
+      "prompt": "Erkläre positive und negative Blindprobe am Beispiel des Chlorid-Nachweises.",
+      "options": [
+        "Positive Blindprobe: Der Nachweis wird durchgeführt, obwohl der gesuchte Stoff sicher anwesend ist – z. B. Silbernitrat-Lösung zu Natriumchlorid-Lösung. Der Nachweis muss anschlagen.",
+        "Stoffebene (makroskopisch): das, was man beobachten und messen kann – Farbe, Geruch, Dichte, Schmelz- und Siedetemperatur; „Wasser siedet“, „der Stoff wird gelb“.",
+        "Modelle vereinfachen die nicht direkt beobachtbare Teilchenwelt, um Phänomene erklären und Vorhersagen treffen zu können. Jedes Modell hat aber Grenzen und wird nur so lange verwendet, wie es trägt.",
+        "Fragestellung / Beobachtung formulieren. Hypothese aufstellen (überprüfbare Vermutung). Versuchsplanung. Versuchsdurchführung inklusive Versuchsprotokoll. Rückbezug zur Hypothese – wurde sie bestätigt oder widerlegt?"
+      ],
+      "answer": 0,
+      "solution": "Positive Blindprobe: Der Nachweis wird durchgeführt, obwohl der gesuchte Stoff sicher anwesend ist – z. B. Silbernitrat-Lösung zu Natriumchlorid-Lösung. Der Nachweis muss anschlagen. Negative Blindprobe: Der Nachweis wird durchgeführt, obwohl der gesuchte Stoff sicher abwesend ist – z. B. Silbernitrat-Lösung zu destilliertem Wasser. Der Nachweis darf nicht anschlagen. Zweck: Die Blindproben sichern die Funktionsfähigkeit der Nachweismethode ab (keine verunreinigten oder veralteten Reagenzien).",
+      "katalog_id": "src-a3-2",
+      "schwierigkeit": 2,
+      "ab_einheit": "ps-02"
+    }
+  ]
+}

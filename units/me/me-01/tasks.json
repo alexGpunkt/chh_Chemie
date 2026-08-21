@@ -173,7 +173,7 @@
         "metalle"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -203,7 +203,7 @@
         "rechnen"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -228,7 +228,7 @@
         "metalle"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -253,7 +253,7 @@
         "metalle"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -284,7 +284,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -318,7 +318,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -352,7 +352,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -393,7 +393,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -420,41 +420,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
-      "id": "ME01-B4-010",
+      "id": "ME01-B4-KAT",
       "path": "B",
       "step": 4,
-      "type": "assign",
-      "prompt": "Ordne jeder Anwendung die entscheidende Eigenschaft zu.",
-      "slots": [
-        "Flugzeugbau",
-        "Stromkabel",
-        "Kochtopfboden"
+      "type": "choice",
+      "prompt": "Erkläre drei typische Eigenschaften eines Metalls auf Teilchenebene.",
+      "options": [
+        "Elektrische Leitfähigkeit: Die Valenzelektronen bewegen sich als „Elektronengas“ frei zwischen den positiv geladenen Atomrümpfen. Verformbarkeit (Duktilität): Das Elektronengas „vermittelt“ zwischen den Atomrümpfen;",
+        "Salze: Ionenbindung – elektrostatische Anziehung zwischen positiv geladenen Kationen und negativ geladenen Anionen, Anordnung im Ionengitter.",
+        "Ein Kristall ist ein Festkörper mit regelmäßiger, sich wiederholender Struktur; seine Bausteine können Atome, Moleküle oder Ionen sein.",
+        "Stoff Summenformel Halbstrukturformel Kennzeichen Propan C 3 H 8 CH 3 –CH 2 –CH 3 nur Einfachbindungen (gesättigt) Prop-1-en C 3 H 6 CH 2 =CH–CH 3 eine C=C-Doppelbindung Prop-1-in C 3 H 4 CH≡C–CH 3 eine C≡C-Dreifachbindung …"
       ],
-      "values": [
-        "geringe Dichte",
-        "hohe elektrische Leitfähigkeit",
-        "hohe Wärmeleitfähigkeit"
-      ],
-      "answer": [
-        0,
-        1,
-        2
-      ],
+      "answer": 0,
       "hints": [
-        "Für jede Anwendung zählt etwas anderes.",
-        "Im Flugzeug zählt das Gewicht.",
-        "Im Topfboden die Wärme."
+        "Prüfe jede Aussage mit dem Abschnitt „Metalle und ihre Eigenschaften“ (PDF-S. 80–83)."
       ],
-      "solution": "Flugzeug → geringe Dichte.\nKabel → elektrische Leitfähigkeit.\nTopfboden → Wärmeleitfähigkeit.",
+      "solution": "Elektrische Leitfähigkeit: Die Valenzelektronen bewegen sich als „Elektronengas“ frei zwischen den positiv geladenen Atomrümpfen. Verformbarkeit (Duktilität): Das Elektronengas „vermittelt“ zwischen den Atomrümpfen; die Schichten können gegeneinander verschoben werden, ohne dass die Bindung zerstört wird. Hohe Schmelztemperatur: starke Anziehungskräfte zwischen Elektronengas und positiven Atomrümpfen (Metallbindung). Weitere: metallischer Glanz und gute Wärmeleitfähigkeit; die elektrische Leitfähigkeit sinkt mit steigender Temperatur.",
       "tags": [
-        "metalle",
-        "bewerten",
-        "bbr"
-      ]
+        "fragenkatalog",
+        "metalle-salze-und-ihre-bindungen",
+        "niveau-b"
+      ],
+      "spiral": [
+        "K-BIND"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-b4-1 · Lehrbuch PDF-S. 80–83"
     },
     {
       "id": "ME01-C2-011",
@@ -504,7 +498,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -545,32 +539,35 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
-      "id": "ME01-C4-014",
+      "id": "ME01-C4-KAT",
       "path": "C",
       "step": 4,
       "type": "choice",
-      "prompt": "Ein Schüler schreibt: „Gold ist das beste Metall.“ Wie bewertest du diese Aussage?",
+      "prompt": "Vergleiche die Bindung zwischen den Teilchen in Salzen und in Metallen.",
       "options": [
-        "Ohne Zweck ist „bestes Metall“ keine sinnvolle Aussage — für einen Glühdraht wäre Gold ungeeignet.",
-        "Richtig — Gold ist am wertvollsten.",
-        "Falsch — Silber ist das beste Metall."
+        "Elektrische Leitfähigkeit: Die Valenzelektronen bewegen sich als „Elektronengas“ frei zwischen den positiv geladenen Atomrümpfen. Verformbarkeit (Duktilität): Das Elektronengas „vermittelt“ zwischen den Atomrümpfen;",
+        "„Ähnliches löst sich in Ähnlichem.“ Entscheidend sind die möglichen Wechselwirkungen zwischen den Teilchen des Stoffs und denen des Lösemittels.",
+        "Salze: Ionenbindung – elektrostatische Anziehung zwischen positiv geladenen Kationen und negativ geladenen Anionen, Anordnung im Ionengitter.",
+        "Ein Kristall ist ein Festkörper mit regelmäßiger, sich wiederholender Struktur; seine Bausteine können Atome, Moleküle oder Ionen sein."
       ],
-      "answer": 0,
+      "answer": 2,
       "hints": [
-        "Wofür soll das Metall verwendet werden?",
-        "Das steht nicht in der Aussage.",
-        "Ohne Zweck lässt sich nicht bewerten."
+        "Prüfe jede Aussage mit dem Abschnitt „Metalle und ihre Eigenschaften“ (PDF-S. 80–83)."
       ],
-      "solution": "Gold ist korrosionsbeständig und gut leitfähig, aber weich, teuer und schmilzt bei 1064 °C. Für Kontakte in der Elektronik ist es hervorragend, für einen Glühdraht unbrauchbar. Bewertungen brauchen ein Kriterium und einen Zweck.",
+      "solution": "Salze: Ionenbindung – elektrostatische Anziehung zwischen positiv geladenen Kationen und negativ geladenen Anionen, Anordnung im Ionengitter. Metalle: Metallbindung – elektrostatische Anziehung zwischen positiv geladenen Atomrümpfen und dem Elektronengas, Anordnung im Metallgitter. Gemeinsam ist beiden: Es handelt sich um elektrostatische Anziehungskräfte, die zu großen Verbänden (Gittern) führen – nicht zu abgegrenzten Molekülen.",
       "tags": [
-        "metalle",
-        "bewerten",
-        "msa"
-      ]
+        "fragenkatalog",
+        "metalle-salze-und-ihre-bindungen",
+        "niveau-c"
+      ],
+      "spiral": [
+        "K-BIND"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-b4-4 · Lehrbuch PDF-S. 80–83"
     }
   ],
   "mitschrift": {
@@ -691,9 +688,10 @@
   "lehrbuch": {
     "kapitel": 7,
     "titel": "Metalle und Redoxreaktionen",
-    "seiten_von": 83,
-    "seiten_bis": 96,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Metallglanz"
+    "seiten_von": 80,
+    "seiten_bis": 83,
+    "abschnitt": "Metalle und ihre Eigenschaften",
+    "bezugswort": "Metalleigenschaft",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

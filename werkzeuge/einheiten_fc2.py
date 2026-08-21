@@ -84,7 +84,7 @@ EINHEITEN.append({
                        "Für welche Eigenschaft brauchst du eine Waage?",
                        "Die Dichte."],
                 solution="Farbe und Glanz sieht man. Für die Dichte braucht man Waage und Messzylinder.",
-                tags=["stoffe"], spiral=["W-STOF"]),
+                tags=["stoffe"], spiral=["K-STOF"]),
 
         aufgabe("FC03-A2-002", "A", 2, "numeric",
                 "Ein Stück Eisen wiegt 79 g und hat ein Volumen von 10 cm³. Wie groß ist die Dichte?",
@@ -95,7 +95,7 @@ EINHEITEN.append({
                 solution="ρ = 79 g : 10 cm³ = 7,9 g/cm³",
                 misconceptions=[fv("dichte_mal_statt_geteilt", 790,
                                    "Du hast multipliziert. Die Dichte ist die Masse <b>geteilt</b> durch das Volumen.")],
-                tags=["stoffe", "dichte"], spiral=["W-STOF"]),
+                tags=["stoffe", "dichte"], spiral=["K-STOF"]),
 
         aufgabe("FC03-A3-003", "A", 3, "choice",
                 "Ethanol schmilzt bei −114 °C und siedet bei 78 °C. In welchem Zustand ist es bei 20 °C?",
@@ -106,7 +106,7 @@ EINHEITEN.append({
                 solution="20 °C liegt über der Schmelztemperatur (−114 °C) und unter der Siedetemperatur (78 °C). Ethanol ist also flüssig.",
                 misconceptions=[fv("zustand_falsch_abgelesen", 2,
                                    "Gasförmig wäre Ethanol erst über 78 °C. Bei 20 °C ist es flüssig.")],
-                tags=["stoffe", "aggregatzustand"], spiral=["W-STOF"]),
+                tags=["stoffe", "aggregatzustand"], spiral=["K-STOF"]),
 
         aufgabe("FC03-A4-004", "A", 4, "numeric",
                 "Ein Würfel aus Aluminium hat 2 cm Kantenlänge. Die Dichte beträgt 2,7 g/cm³. Wie schwer ist er?",
@@ -119,7 +119,7 @@ EINHEITEN.append({
                 solution="V = 2 cm · 2 cm · 2 cm = 8 cm³\nm = 2,7 g/cm³ · 8 cm³ = 21,6 g",
                 misconceptions=[fv("volumen_als_flaeche", 10.8,
                                    "Du hast mit 4 cm² gerechnet. Ein Würfel hat das Volumen a · a · a = 8 cm³.")],
-                tags=["stoffe", "dichte"], spiral=["W-STOF", "W-EINH"]),
+                tags=["stoffe", "dichte"], spiral=["K-STOF", "K-QUANT"]),
 
         aufgabe("FC03-B1-005", "B", 1, "assign",
                 "Ordne jedem Aggregatzustand die passende Beschreibung auf Teilchenebene zu.",
@@ -133,7 +133,7 @@ EINHEITEN.append({
                        "Fest heißt: kein Platzwechsel.",
                        "Gasförmig heißt: große Abstände."],
                 solution="fest → feste Plätze, nur Schwingen.\nflüssig → dicht, aber verschiebbar.\ngasförmig → große Abstände, freie Bewegung.",
-                tags=["stoffe", "teilchen"], spiral=["W-STOF"]),
+                tags=["stoffe", "teilchen"], spiral=["K-STOF"]),
 
         aufgabe("FC03-B2-006", "B", 2, "numeric",
                 "Ein Messzylinder enthält 50 mL Wasser. Nach dem Eintauchen eines Steins zeigt er 68 mL. Der Stein wiegt 45 g. Wie groß ist seine Dichte?",
@@ -146,7 +146,7 @@ EINHEITEN.append({
                                    "Du hast durch 68 mL geteilt. Das Volumen des Steins ist nur die <b>Differenz</b> der Stände."),
                                 fv("dichte_mal_statt_geteilt", 810,
                                    "Du hast multipliziert. ρ = m : V.")],
-                tags=["stoffe", "dichte", "bbr"], spiral=["W-STOF"]),
+                tags=["stoffe", "dichte", "bbr"], spiral=["K-STOF"]),
 
         aufgabe("FC03-B2-007", "B", 2, "choice",
                 "Zwei Proben sehen gleich aus. Probe 1 hat die Dichte 2,7 g/cm³, Probe 2 hat 8,9 g/cm³. Was folgt daraus?",
@@ -161,7 +161,7 @@ EINHEITEN.append({
                 misconceptions=[fv("dichte_groessenabhaengig", 1,
                                    "Die Dichte ist unabhängig von der Menge. Ein großes und ein kleines Stück Aluminium haben dieselbe Dichte.",
                                    "teilchen_traegt_stoffeigenschaft", 1)],
-                tags=["stoffe", "dichte"], spiral=["W-STOF"]),
+                tags=["stoffe", "dichte"], spiral=["K-STOF"]),
 
         aufgabe("FC03-B3-008", "B", 3, "multi",
                 "Ein Metallblock misst 5 cm · 4 cm · 2 cm und wiegt 356 g.",
@@ -175,7 +175,7 @@ EINHEITEN.append({
                        "5 · 4 · 2 = 40 cm³.",
                        "ρ = 356 g : 40 cm³."],
                 solution="V = 5 · 4 · 2 = 40 cm³\nρ = 356 g : 40 cm³ = 8,9 g/cm³ — das ist Kupfer.",
-                tags=["stoffe", "dichte", "bbr"], spiral=["W-STOF", "W-EINH"]),
+                tags=["stoffe", "dichte", "bbr"], spiral=["K-STOF", "K-QUANT"]),
 
         aufgabe("FC03-B3-009", "B", 3, "choice",
                 "Beim Erwärmen von Eis auf 0 °C bleibt die Temperatur eine Zeit lang stehen, obwohl weiter erhitzt wird. Warum?",
@@ -190,7 +190,7 @@ EINHEITEN.append({
                 misconceptions=[fv("energie_nicht_aufgenommen", 2,
                                    "Eis nimmt bei 0 °C sehr wohl Energie auf — sie geht ins Schmelzen, nicht ins Erwärmen.",
                                    "reaktion_und_zustandsaenderung_verwechselt", 2)],
-                tags=["stoffe", "energie", "msa"], spiral=["W-STOF"]),
+                tags=["stoffe", "energie", "msa"], spiral=["K-STOF"]),
 
         aufgabe("FC03-B4-010", "B", 4, "numeric",
                 "Ein Ölfleck von 12 cm³ wiegt 10,2 g. Schwimmt das Öl auf Wasser (1,0 g/cm³)? Gib die Dichte des Öls an.",
@@ -201,7 +201,7 @@ EINHEITEN.append({
                 solution="ρ = 10,2 g : 12 cm³ = 0,85 g/cm³.\nDas ist kleiner als 1,0 g/cm³, also schwimmt das Öl auf dem Wasser.",
                 misconceptions=[fv("dichte_umgedreht", 1.18,
                                    "Du hast Volumen durch Masse geteilt. ρ = m : V, also Masse durch Volumen.")],
-                tags=["stoffe", "dichte", "bbr"], spiral=["W-STOF"]),
+                tags=["stoffe", "dichte", "bbr"], spiral=["K-STOF"]),
 
         aufgabe("FC03-C2-011", "C", 2, "choice",
                 "Ein Schüler sagt: „Beim Schmelzen werden die Teilchen weicher.“ Was ist daran falsch?",
@@ -217,7 +217,7 @@ EINHEITEN.append({
                 misconceptions=[fv("teilchen_wird_groesser", 2,
                                    "Auch das nicht: Die Teilchen werden weder größer noch weicher. Nur ihr Abstand und ihre Beweglichkeit ändern sich.",
                                    "teilchen_traegt_stoffeigenschaft", 3)],
-                tags=["stoffe", "teilchen", "msa"], spiral=["W-STOF"]),
+                tags=["stoffe", "teilchen", "msa"], spiral=["K-STOF"]),
 
         aufgabe("FC03-C3-012", "C", 3, "numeric",
                 "Eine Legierung aus 40 cm³ Kupfer (8,9 g/cm³) und 60 cm³ Zink (7,1 g/cm³) wird hergestellt. Welche mittlere Dichte hat sie? (Volumen bleibt erhalten)",
@@ -228,7 +228,7 @@ EINHEITEN.append({
                 solution="m(Cu) = 40 cm³ · 8,9 g/cm³ = 356 g\nm(Zn) = 60 cm³ · 7,1 g/cm³ = 426 g\nρ = (356 + 426) g : 100 cm³ = 7,82 g/cm³",
                 misconceptions=[fv("ungewichteter_mittelwert", 8,
                                    "Du hast die beiden Dichten einfach gemittelt. Die Volumen sind aber verschieden — es muss gewichtet werden.")],
-                tags=["stoffe", "dichte", "msa"], spiral=["W-STOF"]),
+                tags=["stoffe", "dichte", "msa"], spiral=["K-STOF"]),
 
         aufgabe("FC03-C3-013", "C", 3, "choice",
                 "Wasser hat bei 4 °C seine größte Dichte, Eis eine kleinere als flüssiges Wasser. Welche Folge hat das für einen See im Winter?",
@@ -240,7 +240,7 @@ EINHEITEN.append({
                        "Eis schwimmt.",
                        "Die Eisschicht liegt oben und isoliert."],
                 solution="Weil Eis eine kleinere Dichte hat als flüssiges Wasser, schwimmt es oben. Die Eisdecke wirkt wie eine Isolierschicht — darunter bleibt Wasser flüssig. Diese Dichteanomalie ist der Grund, warum Seen nicht durchfrieren.",
-                tags=["stoffe", "anwenden", "msa"], spiral=["W-STOF"]),
+                tags=["stoffe", "anwenden", "msa"], spiral=["K-STOF"]),
 
         aufgabe("FC03-C4-014", "C", 4, "multi",
                 "Eine unbekannte Probe wiegt 47,3 g. Im Messzylinder steigt der Wasserstand von 25,0 mL auf 30,5 mL.",
@@ -252,7 +252,7 @@ EINHEITEN.append({
                        "30,5 − 25,0 = 5,5 mL.",
                        "ρ = 47,3 : 5,5."],
                 solution="V = 30,5 mL − 25,0 mL = 5,5 mL = 5,5 cm³\nρ = 47,3 g : 5,5 cm³ ≈ 8,6 g/cm³\nDas passt zu Messing oder Kupfer — die Farbe entscheidet.",
-                tags=["stoffe", "dichte", "msa"], spiral=["W-STOF", "W-EINH"])
+                tags=["stoffe", "dichte", "msa"], spiral=["K-STOF", "K-QUANT"])
     ]
 })
 
@@ -334,7 +334,7 @@ EINHEITEN.append({
                        "Wo siehst du zwei Stoffe?",
                        "Sand und Wasser sind zwei Stoffe."],
                 solution="Sand in Wasser sind zwei Stoffe nebeneinander — ein Gemisch. Reines Wasser und reines Kupfer sind Reinstoffe.",
-                tags=["gemische"], spiral=["W-STOF"]),
+                tags=["gemische"], spiral=["K-STOF"]),
 
         aufgabe("FC04-A2-002", "A", 2, "assign",
                 "Ordne jedem Gemisch das passende Trennverfahren zu.",
@@ -348,7 +348,7 @@ EINHEITEN.append({
                 misconceptions=[fv("trennverfahren_verwechselt", 0,
                                    "Gelöstes Salz geht durch jeden Filter hindurch — es ist in Ionen zerlegt und viel kleiner als die Poren.",
                                    "trennverfahren_verwechselt", 3)],
-                tags=["gemische", "trennverfahren"], spiral=["W-STOF"]),
+                tags=["gemische", "trennverfahren"], spiral=["K-STOF"]),
 
         aufgabe("FC04-A3-003", "A", 3, "choice",
                 "Du filtrierst Salzwasser. Was ist im Filterpapier?",
@@ -360,7 +360,7 @@ EINHEITEN.append({
                 misconceptions=[fv("geloestes_filtrierbar", 1,
                                    "Gelöstes Salz lässt sich nicht abfiltrieren. Zum Trennen musst du eindampfen.",
                                    "trennverfahren_verwechselt")],
-                tags=["gemische", "trennverfahren"], spiral=["W-STOF"]),
+                tags=["gemische", "trennverfahren"], spiral=["K-STOF"]),
 
         aufgabe("FC04-A4-004", "A", 4, "numeric",
                 "100 g Salzwasser enthalten 8 g Salz. Wie viel Salz bleibt nach dem vollständigen Eindampfen übrig?",
@@ -372,7 +372,7 @@ EINHEITEN.append({
                 misconceptions=[fv("salz_mit_verdampft", 0,
                                    "Salz verdampft nicht. Es bleibt vollständig als Rückstand zurück.",
                                    "trennverfahren_verwechselt")],
-                tags=["gemische", "rechnen"], spiral=["W-LOES"]),
+                tags=["gemische", "rechnen"], spiral=["K-SL"]),
 
         aufgabe("FC04-B1-005", "B", 1, "assign",
                 "Ordne den Teilen der Destillationsapparatur ihre Aufgabe zu.",
@@ -387,7 +387,7 @@ EINHEITEN.append({
                        "Der Kühler ist das schräge Rohr mit Mantel.",
                        "Die Vorlage steht am Ende."],
                 solution="Kolben → erhitzen.\nKühler → Dampf verflüssigen.\nVorlage → Destillat auffangen.",
-                tags=["gemische", "geraete"], spiral=["W-STOF"]),
+                tags=["gemische", "geraete"], spiral=["K-STOF"]),
 
         aufgabe("FC04-B2-006", "B", 2, "choice",
                 "Worin unterscheiden sich Eindampfen und Destillieren?",
@@ -402,7 +402,7 @@ EINHEITEN.append({
                 misconceptions=[fv("verfahren_gleichgesetzt", 2,
                                    "Der Unterschied ist wesentlich: Beim Destillieren gewinnst du auch das Lösungsmittel zurück.",
                                    "trennverfahren_verwechselt", 2)],
-                tags=["gemische", "trennverfahren", "bbr"], spiral=["W-STOF"]),
+                tags=["gemische", "trennverfahren", "bbr"], spiral=["K-STOF"]),
 
         aufgabe("FC04-B2-007", "B", 2, "choice",
                 "Ein Reinstoff siedet bei einer festen Temperatur, ein Gemisch über einen Bereich. Wie erkennst du daran, ob eine Flüssigkeit rein ist?",
@@ -414,7 +414,7 @@ EINHEITEN.append({
                        "Bleibt sie stehen oder steigt sie?",
                        "Konstante Siedetemperatur = Reinstoff."],
                 solution="Ein Reinstoff siedet bei konstanter Temperatur. Steigt die Temperatur während des Siedens, handelt es sich um ein Gemisch. Farbe und Geschwindigkeit sagen darüber nichts aus.",
-                tags=["gemische", "reinstoff", "bbr"], spiral=["W-STOF"]),
+                tags=["gemische", "reinstoff", "bbr"], spiral=["K-STOF"]),
 
         aufgabe("FC04-B3-008", "B", 3, "numeric",
                 "Aus 250 g Meerwasser bleiben nach dem Eindampfen 8,75 g Salz. Wie viel Prozent Salz enthält das Meerwasser?",
@@ -425,7 +425,7 @@ EINHEITEN.append({
                 solution="8,75 g : 250 g = 0,035 → 3,5 %",
                 misconceptions=[fv("anteil_umgedreht", 2857,
                                    "Du hast das Ganze durch den Teil geteilt. Der Anteil ist Teil : Ganzes.")],
-                tags=["gemische", "rechnen", "bbr"], spiral=["W-LOES"]),
+                tags=["gemische", "rechnen", "bbr"], spiral=["K-SL"]),
 
         aufgabe("FC04-B3-009", "B", 3, "choice",
                 "Ein Gemisch aus Sand, Salz und Wasser soll vollständig getrennt werden. Womit beginnst du?",
@@ -440,7 +440,7 @@ EINHEITEN.append({
                 misconceptions=[fv("reihenfolge_trennung", 1,
                                    "Dann liegen Sand und Salz gemeinsam vor und du musst noch einmal von vorn anfangen. Erst das Ungelöste abtrennen.",
                                    "trennverfahren_verwechselt")],
-                tags=["gemische", "planen", "msa"], spiral=["W-STOF"]),
+                tags=["gemische", "planen", "msa"], spiral=["K-STOF"]),
 
         aufgabe("FC04-B4-010", "B", 4, "choice",
                 "Warum lässt sich Alkohol aus Wein durch Destillation abtrennen?",
@@ -455,7 +455,7 @@ EINHEITEN.append({
                 misconceptions=[fv("dichte_als_grund", 1,
                                    "Die Dichte spielt bei der Destillation keine Rolle. Alkohol und Wasser mischen sich vollständig.",
                                    "trennverfahren_verwechselt")],
-                tags=["gemische", "trennverfahren", "bbr"], spiral=["W-STOF"]),
+                tags=["gemische", "trennverfahren", "bbr"], spiral=["K-STOF"]),
 
         aufgabe("FC04-C2-011", "C", 2, "choice",
                 "Warum lässt sich gelöstes Salz nicht abfiltrieren, feiner Sand aber schon?",
@@ -470,7 +470,7 @@ EINHEITEN.append({
                 misconceptions=[fv("masse_als_kriterium", 2,
                                    "Der Filter trennt nach Größe, nicht nach Masse.",
                                    "trennverfahren_verwechselt", 3)],
-                tags=["gemische", "erklaeren", "msa"], spiral=["W-STOF"]),
+                tags=["gemische", "erklaeren", "msa"], spiral=["K-STOF"]),
 
         aufgabe("FC04-C3-012", "C", 3, "multi",
                 "400 g eines Gemischs aus Sand und Salzwasser werden getrennt. Im Filter bleiben 55 g feuchter Sand, nach dem Trocknen 48 g. Aus dem Filtrat werden 12 g Salz gewonnen.",
@@ -483,7 +483,7 @@ EINHEITEN.append({
                        "Wasser = 400 g − 48 g Sand − 12 g Salz.",
                        "Salzanteil = 12 g : (12 g + 340 g) · 100 %."],
                 solution="Sand trocken: 48 g\nWasser: 400 − 48 − 12 = 340 g\nSalzwasser: 12 + 340 = 352 g\nAnteil: 12 : 352 = 0,0341 → 3,41 %",
-                tags=["gemische", "rechnen", "msa"], spiral=["W-LOES"]),
+                tags=["gemische", "rechnen", "msa"], spiral=["K-SL"]),
 
         aufgabe("FC04-C3-013", "C", 3, "choice",
                 "Zwei Flüssigkeiten sieden bei 78 °C und 80 °C. Warum ist eine einfache Destillation hier problematisch?",
@@ -495,7 +495,7 @@ EINHEITEN.append({
                        "Nur 2 °C.",
                        "Dann ist die Trennung unvollständig."],
                 solution="Bei nur 2 °C Unterschied enthält der Dampf beide Stoffe in nennenswerter Menge — das Destillat ist wieder ein Gemisch. Für solche Fälle braucht es eine Kolonne, die den Vorgang vielfach wiederholt.",
-                tags=["gemische", "bewerten", "msa"], spiral=["W-STOF"]),
+                tags=["gemische", "bewerten", "msa"], spiral=["K-STOF"]),
 
         aufgabe("FC04-C4-014", "C", 4, "choice",
                 "Aus Meerwasser soll Trinkwasser gewonnen werden. Welches Verfahren ist geeignet und warum?",
@@ -513,7 +513,7 @@ EINHEITEN.append({
                                 fv("geloestes_filtrierbar", 2,
                                    "Gelöstes Salz lässt sich nicht abfiltrieren.",
                                    "trennverfahren_verwechselt")],
-                tags=["gemische", "bewerten", "msa"], spiral=["W-STOF"])
+                tags=["gemische", "bewerten", "msa"], spiral=["K-STOF"])
     ]
 })
 

@@ -145,7 +145,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -170,7 +170,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -195,38 +195,35 @@
         "pruefung"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
-      "id": "ES06-A4-004",
+      "id": "ES06-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Was hält ein Seifenteilchen an beiden Enden fest?",
+      "prompt": "Wie werden Ester benannt? Nenne beide gebräuchlichen Systeme.",
       "options": [
-        "Wasser am Kopf, Fett am Schwanz",
-        "nur Wasser",
-        "nur Fett"
+        "Propan < Propan-2-on < Propansäure Propan: unpolares Molekül → nur schwache London-Dispersions-Kräfte. Propan-2-on (Aceton): polare Carbonylgruppe → zusätzlich Dipol-Dipol-Kräfte, aber keine Wasserstoffbrücken (kein H am O).",
+        "Kohlenhydrate sind Verbindungen der allgemeinen Summenformel C n H 2n O n, die eine Carbonylfunktion und mindestens zwei Hydroxygruppen tragen. Monosaccharide (Einfachzucker): ein einziger Kohlenhydratbaustein – Glucose, Fructose.",
+        "IUPAC: Alkohol-Rest als Substituent mit der Endung -yl, Säure-Rest als Stammname mit der Endung -oat → Methylethanoat, Ethylpropanoat. Ältere Schreibweise: „Alkansäurealkylester“ → Ethansäuremethylester, Butansäuremethylester."
       ],
-      "answer": 0,
-      "visual": {
-        "type": "animation",
-        "name": "seife",
-        "stufe": "A"
-      },
+      "answer": 2,
       "hints": [
-        "Zwei Enden, zwei Aufgaben.",
-        "Der Kopf ist geladen.",
-        "Der Schwanz ist unpolar."
+        "Lies den Abschnitt „Ester - Bildung, Eigenschaften und Verwendung“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Der geladene Kopf löst sich im Wasser, der unpolare Schwanz im Fett — so vermittelt die Seife zwischen beiden.",
+      "solution": "IUPAC: Alkohol-Rest als Substituent mit der Endung -yl, Säure-Rest als Stammname mit der Endung -oat → Methylethanoat, Ethylpropanoat. Ältere Schreibweise: „Alkansäurealkylester“ → Ethansäuremethylester, Butansäuremethylester. Ester aus Ethansäure + Methanol: Methylethanoat = Ethansäuremethylester Ester aus Propansäure + Ethanol: Ethylpropanoat = Propansäureethylester Merkhilfe: Der Name beginnt mit dem Alkohol teil und endet mit dem Säure teil.",
       "tags": [
-        "pruefung"
+        "fragenkatalog",
+        "sauerstoffhaltige-organische-verbindungen-und-ester",
+        "niveau-a"
       ],
       "spiral": [
-        "W-LOES"
-      ]
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d4-5 · Lehrbuch PDF-S. 166–169"
     },
     {
       "id": "ES06-B1-005",
@@ -251,7 +248,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -273,7 +270,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -299,7 +296,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -340,8 +337,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -367,34 +364,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
-      "id": "ES06-B4-010",
+      "id": "ES06-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum wäscht Seife in hartem Wasser schlecht?",
+      "prompt": "Formuliere zwei „Je…, desto…“-Regeln zum Schmelzbereich von Fetten und begründe sie auf Teilchenebene.",
       "options": [
-        "Calcium- und Magnesium-Ionen bilden mit den Fettsäureresten unlösliche Kalkseife.",
-        "Hartes Wasser ist zu kalt.",
-        "Hartes Wasser enthält keine Ionen."
+        "Proteine (Eiweiße) sind aus Aminosäuren aufgebaute Makromoleküle – Polypeptide aus hunderten bis tausenden AS. Sie gehören zu den Grundbausteinen aller Zellen.",
+        "Glucose ist eine Aldose (Aldehydgruppe), Fructose eine Ketose (Ketogruppe). Beide haben die Summenformel C 6 H 12 O 6 und sind damit Konstitutionsisomere.",
+        "Alkan < Ester < Alkohol < Carbonsäure Ester sieden höher als Alkane, weil neben London-Dispersions-WW auch schwache Dipol-Dipol-WW an der Estergruppe auftreten.",
+        "Je länger die Fettsäure-Reste, desto höher der Schmelzbereich. Grund: größere Moleküloberfläche → mehr London-Dispersions-Wechselwirkungen zwischen den Fettmolekülen."
       ],
-      "answer": 0,
+      "answer": 3,
       "hints": [
-        "Was ist in hartem Wasser gelöst?",
-        "Calcium- und Magnesium-Ionen.",
-        "Sie fällen die Seife aus."
+        "Prüfe jede Aussage mit dem Abschnitt „Ester - Bildung, Eigenschaften und Verwendung“ (PDF-S. 166–169)."
       ],
-      "solution": "Calcium- und Magnesium-Ionen bilden mit den Fettsäureresten schwerlösliche Salze. Die Seife fällt aus, steht für die Micellbildung nicht mehr zur Verfügung und hinterlässt Ränder.",
+      "solution": "Je länger die Fettsäure-Reste, desto höher der Schmelzbereich. Grund: größere Moleküloberfläche → mehr London-Dispersions-Wechselwirkungen zwischen den Fettmolekülen. Je mehr ungesättigte Fettsäure-Reste, desto niedriger der Schmelzbereich. Grund: Die Z-konfigurierten Doppelbindungen erzeugen einen „Knick“ in der Kette. Die gewinkelten Moleküle lassen sich schlechter dicht packen → weniger Berührungsfläche → schwächere London-Kräfte. Folge: Feste Fette enthalten hohe Anteile langer, gesättigter Fettsäuren; in flüssigen Ölen überwiegen einfach oder mehrfach ungesättigte Fettsäuren. Natürliche Fette haben keinen scharfen Schmelzpunkt, sondern einen Schmelzbereich, weil sie Gemische verschiedener Triglyceride sind.",
       "tags": [
-        "pruefung",
-        "msa"
+        "fragenkatalog",
+        "biomolekuele-und-tenside",
+        "niveau-b"
       ],
       "spiral": [
-        "W-LOES"
-      ]
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d5-2 · Lehrbuch PDF-S. 166–169"
     },
     {
       "id": "ES06-C2-011",
@@ -419,7 +417,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -446,7 +444,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -473,7 +471,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -602,11 +600,28 @@
     }
   ],
   "lehrbuch": {
-    "kapitel": 14,
-    "titel": "Kunststoffe",
-    "seiten_von": 173,
-    "seiten_bis": 183,
+    "kapitel": 13,
+    "titel": "Alkohole und organische Säuren",
+    "seiten_von": 166,
+    "seiten_bis": 169,
+    "abschnitt": "Ester - Bildung, Eigenschaften und Verwendung",
+    "bezugswort": "Veresterung",
     "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Veresterung"
+    "weitere_stellen": [
+      {
+        "kapitel": 14,
+        "titel": "Kunststoffe",
+        "seiten_von": 174,
+        "seiten_bis": 179,
+        "abschnitt": "Polyester und Recycling"
+      },
+      {
+        "kapitel": 15,
+        "titel": "Nahrung, Seife, Waschmittel",
+        "seiten_von": 182,
+        "seiten_bis": 190,
+        "abschnitt": "Fette, Verseifung und Tenside"
+      }
+    ]
   }
 }

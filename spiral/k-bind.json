@@ -1,0 +1,306 @@
+{
+  "kategorie": "K-BIND",
+  "titel": "Bindungen und Stoffstruktur",
+  "hinweis": "Fragen aus dem gelieferten Chemie-Fragenkatalog; jede Frage gehört genau einem Niveau und erscheint erst nach ihrer Einführungs-Einheit.",
+  "fragen": [
+    {
+      "id": "KAT-src-c4-1-A",
+      "level": "A",
+      "kategorie": "K-BIND",
+      "skill": "Wechselwirkungskonzept",
+      "type": "choice",
+      "prompt": "Definiere Elektronegativität und gib die Tendenzen im PSE an.",
+      "options": [
+        "Propan < Ammoniak < Wasser < Natriumchlorid Stoff Wechselwirkung bzw. Bindungstyp Propan nur London-Dispersions-WW (unpolares Molekül) Ammoniak Wasserstoffbrücken (eine je Molekül möglich) Wasser mehrere Wasserstoffbrücken je Molekül …",
+        "Mesomerie: Kann die tatsächliche Elektronenverteilung nicht durch eine einzige Valenzstrichformel, sondern nur durch mehrere Grenzformeln angenähert werden, spricht man von Mesomerie. Der wahre Zustand liegt „zwischen“ den Grenzformeln;",
+        "Die Elektronegativität (EN) ist ein Maß für die Fähigkeit eines Atoms, die Bindungselektronen einer Elektronenpaarbindung an sich zu ziehen. Die Werte stehen im PSE. Zunahme innerhalb einer Periode (nach rechts) – höhere Kernladung."
+      ],
+      "answer": 2,
+      "solution": "Die Elektronegativität (EN) ist ein Maß für die Fähigkeit eines Atoms, die Bindungselektronen einer Elektronenpaarbindung an sich zu ziehen. Die Werte stehen im PSE. Zunahme innerhalb einer Periode (nach rechts) – höhere Kernladung. Abnahme innerhalb einer Hauptgruppe (nach unten) – mehr besetzte Energiestufen, größerer Abstand zum Kern. Das elektronegativste Element ist Fluor. Edelgase werden meist nicht berücksichtigt.",
+      "katalog_id": "src-c4-1",
+      "schwierigkeit": 1,
+      "ab_einheit": "wa-04"
+    },
+    {
+      "id": "KAT-src-c4-6-A",
+      "level": "A",
+      "kategorie": "K-BIND",
+      "skill": "Wechselwirkungskonzept",
+      "type": "choice",
+      "prompt": "Nenne die allgemeine Regel zur Löslichkeit und ordne hydrophilen, lipophilen und amphiphilen Stoffen ein Lösemittel zu.",
+      "options": [
+        "Salze: Ionenbindung – elektrostatische Anziehung zwischen positiv geladenen Kationen und negativ geladenen Anionen, Anordnung im Ionengitter.",
+        "Die beiden C=O-Bindungsdipole sind gleich groß und entgegengesetzt; wegen der linearen Symmetrie heben sie sich auf. CO₂ ist kein permanenter Dipol.",
+        "„Ähnliches löst sich in Ähnlichem.“ Entscheidend sind die möglichen Wechselwirkungen zwischen den Teilchen des Stoffs und denen des Lösemittels."
+      ],
+      "answer": 2,
+      "solution": "„Ähnliches löst sich in Ähnlichem.“ Entscheidend sind die möglichen Wechselwirkungen zwischen den Teilchen des Stoffs und denen des Lösemittels. Hydrophil (= polar, „wasserliebend“): lösen sich gut in Wasser – Salze, Zucker, kurzkettige Alkohole. Lipophil (= unpolar, „fettliebend“, zugleich hydrophob): lösen sich in Benzin, Fetten und Ölen – Alkane, Wachse. Amphiphil: Moleküle mit polarem und unpolarem Abschnitt – mischbar mit beiden Lösemitteltypen. Beispiel: Tenside, Seifen.",
+      "katalog_id": "src-c4-6",
+      "schwierigkeit": 1,
+      "ab_einheit": "es-04"
+    },
+    {
+      "id": "KAT-src-c3-8-A",
+      "level": "A",
+      "kategorie": "K-BIND",
+      "skill": "Molekulare Verbindungen und Molekülstruktur",
+      "type": "choice",
+      "prompt": "Definiere Konstitutionsisomerie und gib ein Konstitutionsisomer zu Butan an.",
+      "options": [
+        "Zwischen Wassermolekülen bilden sich starke Wasserstoffbrücken; bei H₂S dominieren deutlich schwächere Wechselwirkungen.",
+        "E/Z-Isomere unterscheiden sich nur in der Anordnung der Gruppen um eine Doppelbindung, weil diese nicht frei drehbar ist.",
+        "Konstitutionsisomere haben die gleiche Molekülformel, unterscheiden sich aber in der Verknüpfung der Atome im Molekül."
+      ],
+      "answer": 2,
+      "solution": "Konstitutionsisomere haben die gleiche Molekülformel, unterscheiden sich aber in der Verknüpfung der Atome im Molekül. C 4 H 10: Butan CH 3 –CH 2 –CH 2 –CH 3 2-Methylpropan CH 3 –CH(CH 3 )–CH 3 Isomere sind unterschiedliche Stoffe mit unterschiedlichen Eigenschaften – z. B. sinkt die Siedetemperatur mit zunehmendem Verzweigungsgrad: n-Pentan (36 °C) > 2-Methylbutan (28 °C) > 2,2-Dimethylpropan (10 °C) Begründung: Je stärker verzweigt, desto kleiner die Moleküloberfläche, desto schwächer die London-Kräfte.",
+      "katalog_id": "src-c3-8",
+      "schwierigkeit": 1,
+      "ab_einheit": "kw-02"
+    },
+    {
+      "id": "KAT-src-c4-2-A",
+      "level": "A",
+      "kategorie": "K-BIND",
+      "skill": "Wechselwirkungskonzept",
+      "type": "choice",
+      "prompt": "Wie entscheidest du anhand von ΔEN, welcher Bindungstyp vorliegt?",
+      "options": [
+        "ΔEN Bindungstyp Beschreibung Beispiel < 0,4 unpolare (bzw. sehr schwach polare) Elektronenpaarbindung Die Atome teilen sich das bindende Elektronenpaar; der Ladungsschwerpunkt liegt (etwa) in der Mitte.",
+        "Elektrische Leitfähigkeit: Die Valenzelektronen bewegen sich als „Elektronengas“ frei zwischen den positiv geladenen Atomrümpfen. Verformbarkeit (Duktilität): Das Elektronengas „vermittelt“ zwischen den Atomrümpfen;",
+        "Stoff Summenformel Halbstrukturformel Kennzeichen Propan C 3 H 8 CH 3 –CH 2 –CH 3 nur Einfachbindungen (gesättigt) Prop-1-en C 3 H 6 CH 2 =CH–CH 3 eine C=C-Doppelbindung Prop-1-in C 3 H 4 CH≡C–CH 3 eine C≡C-Dreifachbindung …"
+      ],
+      "answer": 0,
+      "solution": "ΔEN Bindungstyp Beschreibung Beispiel < 0,4 unpolare (bzw. sehr schwach polare) Elektronenpaarbindung Die Atome teilen sich das bindende Elektronenpaar; der Ladungsschwerpunkt liegt (etwa) in der Mitte. O 2 (ΔEN = 0) 0,4 – 1,7 polare Elektronenpaarbindung Die Bindungselektronen werden vom elektronegativeren Partner deutlich stärker angezogen → Partialladungen δ+ / δ− HCl (ΔEN ≈ 0,96) > 1,7 Ionenbindung Elektronen werden vollständig übertragen; elektrostatische Anziehung zwischen Kationen und Anionen NaCl (ΔEN ≈ 2,1) Der elektronegativere Bindungspartner erhält die negative Partialladung δ−, der andere δ+. (Manche Schulen verwenden die Grenzen 0,5 und 1,5 – entscheidend ist der Gedankengang.)",
+      "katalog_id": "src-c4-2",
+      "schwierigkeit": 1,
+      "ab_einheit": "wa-04"
+    },
+    {
+      "id": "KAT-src-b4-5-A",
+      "level": "A",
+      "kategorie": "K-BIND",
+      "skill": "Metalle, Salze und ihre Bindungen",
+      "type": "choice",
+      "prompt": "Was ist ein Kristall? Beschreibe den Aufbau eines Salzes auf Teilchenebene.",
+      "options": [
+        "„Ähnliches löst sich in Ähnlichem.“ Entscheidend sind die möglichen Wechselwirkungen zwischen den Teilchen des Stoffs und denen des Lösemittels.",
+        "Salze: Ionenbindung – elektrostatische Anziehung zwischen positiv geladenen Kationen und negativ geladenen Anionen, Anordnung im Ionengitter.",
+        "Ein Kristall ist ein Festkörper mit regelmäßiger, sich wiederholender Struktur; seine Bausteine können Atome, Moleküle oder Ionen sein."
+      ],
+      "answer": 2,
+      "solution": "Ein Kristall ist ein Festkörper mit regelmäßiger, sich wiederholender Struktur; seine Bausteine können Atome, Moleküle oder Ionen sein. Ein Salz ist als Ionengitter aufgebaut: Eine Vielzahl von Kationen und Anionen ist regelmäßig so angeordnet, dass jedes Ion von möglichst vielen entgegengesetzt geladenen Nachbarn umgeben ist. Deshalb gibt es keine „NaCl-Moleküle“ – die Formel NaCl ist eine Verhältnisformel.",
+      "katalog_id": "src-b4-5",
+      "schwierigkeit": 1,
+      "ab_einheit": "sz-02"
+    },
+    {
+      "id": "KAT-src-c3-7-B",
+      "level": "B",
+      "kategorie": "K-BIND",
+      "skill": "Molekulare Verbindungen und Molekülstruktur",
+      "type": "choice",
+      "prompt": "Stelle Propan, Prop-1-en und Prop-1-in als Struktur-, Halbstruktur- und Skelettformel dar.",
+      "options": [
+        "Die Elektronegativität (EN) ist ein Maß für die Fähigkeit eines Atoms, die Bindungselektronen einer Elektronenpaarbindung an sich zu ziehen. Die Werte stehen im PSE. Zunahme innerhalb einer Periode (nach rechts) – höhere Kernladung.",
+        "Ethan C 2 H 6 Ethen C 2 H 4 Ethin C 2 H 2 Bindung Einfachbindung Doppelbindung Dreifachbindung Bindungslänge nimmt ab → Bindungsenergie nimmt zu → Bindungswinkel 109,5° 120° 180° Geometrie tetraedrisch trigonal planar linear …",
+        "Stoff Summenformel Halbstrukturformel Kennzeichen Propan C 3 H 8 CH 3 –CH 2 –CH 3 nur Einfachbindungen (gesättigt) Prop-1-en C 3 H 6 CH 2 =CH–CH 3 eine C=C-Doppelbindung Prop-1-in C 3 H 4 CH≡C–CH 3 eine C≡C-Dreifachbindung …",
+        "Elektrische Leitfähigkeit: Die Valenzelektronen bewegen sich als „Elektronengas“ frei zwischen den positiv geladenen Atomrümpfen. Verformbarkeit (Duktilität): Das Elektronengas „vermittelt“ zwischen den Atomrümpfen;"
+      ],
+      "answer": 2,
+      "solution": "Stoff Summenformel Halbstrukturformel Kennzeichen Propan C 3 H 8 CH 3 –CH 2 –CH 3 nur Einfachbindungen (gesättigt) Prop-1-en C 3 H 6 CH 2 =CH–CH 3 eine C=C-Doppelbindung Prop-1-in C 3 H 4 CH≡C–CH 3 eine C≡C-Dreifachbindung Strukturformel: alle Atome und alle Bindungen werden gezeichnet. Halbstrukturformel: C–H-Bindungen werden zusammengefasst (CH 3, CH 2 ). Skelettformel: nur das Kohlenstoffgerüst als Zickzacklinie; jeder Knick und jedes Ende ist ein C-Atom, H-Atome werden weggelassen.",
+      "katalog_id": "src-c3-7",
+      "schwierigkeit": 1,
+      "ab_einheit": "ga-03"
+    },
+    {
+      "id": "KAT-src-c3-4-B",
+      "level": "B",
+      "kategorie": "K-BIND",
+      "skill": "Molekulare Verbindungen und Molekülstruktur",
+      "type": "choice",
+      "prompt": "Formuliere die wichtigsten Regeln des Elektronenpaarabstoßungsmodells (EPA/VSEPR).",
+      "options": [
+        "Die beiden C=O-Bindungsdipole sind gleich groß und entgegengesetzt; wegen der linearen Symmetrie heben sie sich auf. CO₂ ist kein permanenter Dipol.",
+        "Salze: Ionenbindung – elektrostatische Anziehung zwischen positiv geladenen Kationen und negativ geladenen Anionen, Anordnung im Ionengitter.",
+        "„Ähnliches löst sich in Ähnlichem.“ Entscheidend sind die möglichen Wechselwirkungen zwischen den Teilchen des Stoffs und denen des Lösemittels.",
+        "Die negativ geladenen Elektronenpaare stoßen sich gegenseitig ab. Sie ordnen sich um das Zentralatom so an, dass sie möglichst weit voneinander entfernt sind."
+      ],
+      "answer": 3,
+      "solution": "Die negativ geladenen Elektronenpaare stoßen sich gegenseitig ab. Sie ordnen sich um das Zentralatom so an, dass sie möglichst weit voneinander entfernt sind. Freie (nichtbindende) Elektronenpaare stoßen benachbarte Elektronenpaare etwas stärker ab → die Bindungswinkel werden verzerrt (verkleinert). Mehrfachbindungen werden bei der Ableitung der Molekülgestalt wie Einfachbindungen behandelt (stoßen aber ebenfalls etwas stärker ab). Für die Beschreibung der Molekülgestalt betrachtet man nur die Anordnung der Atome, nicht die der freien Elektronenpaare.",
+      "katalog_id": "src-c3-4",
+      "schwierigkeit": 1,
+      "ab_einheit": "ga-03"
+    },
+    {
+      "id": "KAT-ext-066-B",
+      "level": "B",
+      "kategorie": "K-BIND",
+      "skill": "Molekülbau",
+      "type": "choice",
+      "prompt": "Ordne CH₄, NH₃, H₂O und CO₂ ihren Molekülgeometrien zu.",
+      "options": [
+        "Chlor-Atome besitzen sieben Valenzelektronen; einem Chlor-Atom fehlt also ein Elektron zur Edelgaskonfiguration.",
+        "Zwischen Wassermolekülen bilden sich starke Wasserstoffbrücken; bei H₂S dominieren deutlich schwächere Wechselwirkungen.",
+        "CH₄ tetraedrisch; NH₃ trigonal-pyramidal; H₂O gewinkelt; CO₂ linear.",
+        "Konstitutionsisomere haben die gleiche Molekülformel, unterscheiden sich aber in der Verknüpfung der Atome im Molekül."
+      ],
+      "answer": 2,
+      "solution": "CH₄ tetraedrisch; NH₃ trigonal-pyramidal; H₂O gewinkelt; CO₂ linear.",
+      "katalog_id": "ext-066",
+      "schwierigkeit": 2,
+      "ab_einheit": "ga-03"
+    },
+    {
+      "id": "KAT-ext-068-B",
+      "level": "B",
+      "kategorie": "K-BIND",
+      "skill": "Wechselwirkungen",
+      "type": "choice",
+      "prompt": "Warum siedet Wasser höher als Schwefelwasserstoff H₂S, obwohl H₂S die größere molare Masse besitzt?",
+      "options": [
+        "E/Z-Isomere unterscheiden sich nur in der Anordnung der Gruppen um eine Doppelbindung, weil diese nicht frei drehbar ist.",
+        "Chlor-Atome besitzen sieben Valenzelektronen; einem Chlor-Atom fehlt also ein Elektron zur Edelgaskonfiguration.",
+        "Konstitutionsisomere haben die gleiche Molekülformel, unterscheiden sich aber in der Verknüpfung der Atome im Molekül.",
+        "Zwischen Wassermolekülen bilden sich starke Wasserstoffbrücken; bei H₂S dominieren deutlich schwächere Wechselwirkungen."
+      ],
+      "answer": 3,
+      "solution": "Zwischen Wassermolekülen bilden sich starke Wasserstoffbrücken; bei H₂S dominieren deutlich schwächere Wechselwirkungen.",
+      "katalog_id": "ext-068",
+      "schwierigkeit": 2,
+      "ab_einheit": "wa-04"
+    },
+    {
+      "id": "KAT-ext-067-B",
+      "level": "B",
+      "kategorie": "K-BIND",
+      "skill": "Molekülbau",
+      "type": "choice",
+      "prompt": "„CO₂ besitzt polare Bindungen, deshalb ist das Molekül ein Dipol.“ Erkläre den Fehler.",
+      "options": [
+        "Die beiden C=O-Bindungsdipole sind gleich groß und entgegengesetzt; wegen der linearen Symmetrie heben sie sich auf. CO₂ ist kein permanenter Dipol.",
+        "„Ähnliches löst sich in Ähnlichem.“ Entscheidend sind die möglichen Wechselwirkungen zwischen den Teilchen des Stoffs und denen des Lösemittels.",
+        "Salze: Ionenbindung – elektrostatische Anziehung zwischen positiv geladenen Kationen und negativ geladenen Anionen, Anordnung im Ionengitter.",
+        "Die negativ geladenen Elektronenpaare stoßen sich gegenseitig ab. Sie ordnen sich um das Zentralatom so an, dass sie möglichst weit voneinander entfernt sind."
+      ],
+      "answer": 0,
+      "solution": "Die beiden C=O-Bindungsdipole sind gleich groß und entgegengesetzt; wegen der linearen Symmetrie heben sie sich auf. CO₂ ist kein permanenter Dipol.",
+      "katalog_id": "ext-067",
+      "schwierigkeit": 2,
+      "ab_einheit": "ga-03"
+    },
+    {
+      "id": "KAT-src-c3-2-B",
+      "level": "B",
+      "kategorie": "K-BIND",
+      "skill": "Molekulare Verbindungen und Molekülstruktur",
+      "type": "choice",
+      "prompt": "Erkläre am Chlor-Molekül, wie eine Elektronenpaarbindung zustande kommt.",
+      "options": [
+        "E/Z-Isomere unterscheiden sich nur in der Anordnung der Gruppen um eine Doppelbindung, weil diese nicht frei drehbar ist.",
+        "Chlor-Atome besitzen sieben Valenzelektronen; einem Chlor-Atom fehlt also ein Elektron zur Edelgaskonfiguration.",
+        "Konstitutionsisomere haben die gleiche Molekülformel, unterscheiden sich aber in der Verknüpfung der Atome im Molekül.",
+        "Zwischen Wassermolekülen bilden sich starke Wasserstoffbrücken; bei H₂S dominieren deutlich schwächere Wechselwirkungen."
+      ],
+      "answer": 1,
+      "solution": "Chlor-Atome besitzen sieben Valenzelektronen; einem Chlor-Atom fehlt also ein Elektron zur Edelgaskonfiguration. Durch die Bildung eines gemeinsamen (bindenden) Elektronenpaares können jedem Chlor-Atom formal acht Valenzelektronen zugerechnet werden. |Cl—Cl| → je 1 bindendes und 3 nichtbindende (freie) Elektronenpaare pro Atom ¨ ¨ Bindende Elektronenpaare zählen für beide Atome, freie Elektronenpaare nur für „ihr“ Atom.",
+      "katalog_id": "src-c3-2",
+      "schwierigkeit": 2,
+      "ab_einheit": "ga-03"
+    },
+    {
+      "id": "KAT-src-b4-1-C",
+      "level": "C",
+      "kategorie": "K-BIND",
+      "skill": "Metalle, Salze und ihre Bindungen",
+      "type": "choice",
+      "prompt": "Erkläre drei typische Eigenschaften eines Metalls auf Teilchenebene.",
+      "options": [
+        "Stoff Summenformel Halbstrukturformel Kennzeichen Propan C 3 H 8 CH 3 –CH 2 –CH 3 nur Einfachbindungen (gesättigt) Prop-1-en C 3 H 6 CH 2 =CH–CH 3 eine C=C-Doppelbindung Prop-1-in C 3 H 4 CH≡C–CH 3 eine C≡C-Dreifachbindung …",
+        "Elektrische Leitfähigkeit: Die Valenzelektronen bewegen sich als „Elektronengas“ frei zwischen den positiv geladenen Atomrümpfen. Verformbarkeit (Duktilität): Das Elektronengas „vermittelt“ zwischen den Atomrümpfen;",
+        "Salze: Ionenbindung – elektrostatische Anziehung zwischen positiv geladenen Kationen und negativ geladenen Anionen, Anordnung im Ionengitter.",
+        "Ein Kristall ist ein Festkörper mit regelmäßiger, sich wiederholender Struktur; seine Bausteine können Atome, Moleküle oder Ionen sein."
+      ],
+      "answer": 1,
+      "solution": "Elektrische Leitfähigkeit: Die Valenzelektronen bewegen sich als „Elektronengas“ frei zwischen den positiv geladenen Atomrümpfen. Verformbarkeit (Duktilität): Das Elektronengas „vermittelt“ zwischen den Atomrümpfen; die Schichten können gegeneinander verschoben werden, ohne dass die Bindung zerstört wird. Hohe Schmelztemperatur: starke Anziehungskräfte zwischen Elektronengas und positiven Atomrümpfen (Metallbindung). Weitere: metallischer Glanz und gute Wärmeleitfähigkeit; die elektrische Leitfähigkeit sinkt mit steigender Temperatur.",
+      "katalog_id": "src-b4-1",
+      "schwierigkeit": 2,
+      "ab_einheit": "me-02"
+    },
+    {
+      "id": "KAT-src-c3-9-C",
+      "level": "C",
+      "kategorie": "K-BIND",
+      "skill": "Molekulare Verbindungen und Molekülstruktur",
+      "type": "choice",
+      "prompt": "Erkläre die E/Z-Isomerie und nenne die strukturellen Voraussetzungen.",
+      "options": [
+        "Konstitutionsisomere haben die gleiche Molekülformel, unterscheiden sich aber in der Verknüpfung der Atome im Molekül.",
+        "Die negativ geladenen Elektronenpaare stoßen sich gegenseitig ab. Sie ordnen sich um das Zentralatom so an, dass sie möglichst weit voneinander entfernt sind.",
+        "E/Z-Isomere unterscheiden sich nur in der Anordnung der Gruppen um eine Doppelbindung, weil diese nicht frei drehbar ist.",
+        "Chlor-Atome besitzen sieben Valenzelektronen; einem Chlor-Atom fehlt also ein Elektron zur Edelgaskonfiguration."
+      ],
+      "answer": 2,
+      "solution": "E/Z-Isomere unterscheiden sich nur in der Anordnung der Gruppen um eine Doppelbindung, weil diese nicht frei drehbar ist. Gleiche/vergleichbare Gruppen auf derselben Seite → Z -Isomer („ z usammen“) Gleiche/vergleichbare Gruppen auf entgegengesetzten Seiten → E -Isomer („ e ntgegen“) Zwei Voraussetzungen: (1) eine Doppelbindung, die die freie Drehbarkeit um die C=C-Achse aufhebt, und (2) an beiden C-Atomen der Doppelbindung jeweils zwei unterscheidbare Substituenten. Beispiel: (Z)-But-2-en und (E)-But-2-en existieren. But-1-en hat zwar eine Doppelbindung, aber an C1 zwei H-Atome → keine E/Z-Isomerie. 2-Methylpropan hat gar keine Doppelbindung → keine E/Z-Isomerie.",
+      "katalog_id": "src-c3-9",
+      "schwierigkeit": 2,
+      "ab_einheit": "kw-02"
+    },
+    {
+      "id": "KAT-src-c3-10-C",
+      "level": "C",
+      "kategorie": "K-BIND",
+      "skill": "Molekulare Verbindungen und Molekülstruktur",
+      "type": "choice",
+      "prompt": "Vergleiche die Bindungsverhältnisse von Ethan, Ethen und Ethin.",
+      "options": [
+        "Stoff Summenformel Halbstrukturformel Kennzeichen Propan C 3 H 8 CH 3 –CH 2 –CH 3 nur Einfachbindungen (gesättigt) Prop-1-en C 3 H 6 CH 2 =CH–CH 3 eine C=C-Doppelbindung Prop-1-in C 3 H 4 CH≡C–CH 3 eine C≡C-Dreifachbindung …",
+        "Mesomerie: Kann die tatsächliche Elektronenverteilung nicht durch eine einzige Valenzstrichformel, sondern nur durch mehrere Grenzformeln angenähert werden, spricht man von Mesomerie. Der wahre Zustand liegt „zwischen“ den Grenzformeln;",
+        "Orbitale sind Räume, in denen sich die Elektronen eines Atoms oder Moleküls mit 99 %iger Wahrscheinlichkeit aufhalten. Jedes Orbital kann von maximal zwei Elektronen besetzt werden;",
+        "Ethan C 2 H 6 Ethen C 2 H 4 Ethin C 2 H 2 Bindung Einfachbindung Doppelbindung Dreifachbindung Bindungslänge nimmt ab → Bindungsenergie nimmt zu → Bindungswinkel 109,5° 120° 180° Geometrie tetraedrisch trigonal planar linear …"
+      ],
+      "answer": 3,
+      "solution": "Ethan C 2 H 6 Ethen C 2 H 4 Ethin C 2 H 2 Bindung Einfachbindung Doppelbindung Dreifachbindung Bindungslänge nimmt ab → Bindungsenergie nimmt zu → Bindungswinkel 109,5° 120° 180° Geometrie tetraedrisch trigonal planar linear Elektronendichte zwischen den C-Atomen nimmt zu → Weitere Vertreter: Alkane Propan, Butan …; Alkene Propen, Buten …; Alkine Propin, Butin …",
+      "katalog_id": "src-c3-10",
+      "schwierigkeit": 2,
+      "ab_einheit": "kw-02"
+    },
+    {
+      "id": "KAT-src-b4-4-C",
+      "level": "C",
+      "kategorie": "K-BIND",
+      "skill": "Metalle, Salze und ihre Bindungen",
+      "type": "choice",
+      "prompt": "Vergleiche die Bindung zwischen den Teilchen in Salzen und in Metallen.",
+      "options": [
+        "Elektrische Leitfähigkeit: Die Valenzelektronen bewegen sich als „Elektronengas“ frei zwischen den positiv geladenen Atomrümpfen. Verformbarkeit (Duktilität): Das Elektronengas „vermittelt“ zwischen den Atomrümpfen;",
+        "Ein Kristall ist ein Festkörper mit regelmäßiger, sich wiederholender Struktur; seine Bausteine können Atome, Moleküle oder Ionen sein.",
+        "Salze: Ionenbindung – elektrostatische Anziehung zwischen positiv geladenen Kationen und negativ geladenen Anionen, Anordnung im Ionengitter.",
+        "„Ähnliches löst sich in Ähnlichem.“ Entscheidend sind die möglichen Wechselwirkungen zwischen den Teilchen des Stoffs und denen des Lösemittels."
+      ],
+      "answer": 2,
+      "solution": "Salze: Ionenbindung – elektrostatische Anziehung zwischen positiv geladenen Kationen und negativ geladenen Anionen, Anordnung im Ionengitter. Metalle: Metallbindung – elektrostatische Anziehung zwischen positiv geladenen Atomrümpfen und dem Elektronengas, Anordnung im Metallgitter. Gemeinsam ist beiden: Es handelt sich um elektrostatische Anziehungskräfte, die zu großen Verbänden (Gittern) führen – nicht zu abgegrenzten Molekülen.",
+      "katalog_id": "src-b4-4",
+      "schwierigkeit": 2,
+      "ab_einheit": "me-02"
+    },
+    {
+      "id": "KAT-src-c4-5-C",
+      "level": "C",
+      "kategorie": "K-BIND",
+      "skill": "Wechselwirkungskonzept",
+      "type": "choice",
+      "prompt": "Ordne Ammoniak, Natriumchlorid, Propan und Wasser nach steigender Siedetemperatur und begründe.",
+      "options": [
+        "ΔEN Bindungstyp Beschreibung Beispiel < 0,4 unpolare (bzw. sehr schwach polare) Elektronenpaarbindung Die Atome teilen sich das bindende Elektronenpaar; der Ladungsschwerpunkt liegt (etwa) in der Mitte.",
+        "„Ähnliches löst sich in Ähnlichem.“ Entscheidend sind die möglichen Wechselwirkungen zwischen den Teilchen des Stoffs und denen des Lösemittels.",
+        "Propan < Ammoniak < Wasser < Natriumchlorid Stoff Wechselwirkung bzw. Bindungstyp Propan nur London-Dispersions-WW (unpolares Molekül) Ammoniak Wasserstoffbrücken (eine je Molekül möglich) Wasser mehrere Wasserstoffbrücken je Molekül …",
+        "Die Elektronegativität (EN) ist ein Maß für die Fähigkeit eines Atoms, die Bindungselektronen einer Elektronenpaarbindung an sich zu ziehen. Die Werte stehen im PSE. Zunahme innerhalb einer Periode (nach rechts) – höhere Kernladung."
+      ],
+      "answer": 2,
+      "solution": "Propan < Ammoniak < Wasser < Natriumchlorid Stoff Wechselwirkung bzw. Bindungstyp Propan nur London-Dispersions-WW (unpolares Molekül) Ammoniak Wasserstoffbrücken (eine je Molekül möglich) Wasser mehrere Wasserstoffbrücken je Molekül Natriumchlorid Ionenbindung (kein Molekülgitter!) Grundregel: Je stärker die zwischenmolekularen Wechselwirkungen, desto höher Schmelz- und Siedetemperatur, weil mehr Energie nötig ist, um die Wechselwirkungen zwischen den Teilchen zu überwinden – nicht, um Bindungen innerhalb der Moleküle zu trennen!",
+      "katalog_id": "src-c4-5",
+      "schwierigkeit": 2,
+      "ab_einheit": "wa-04"
+    }
+  ]
+}

@@ -155,7 +155,7 @@
         "neutralisation"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -180,7 +180,7 @@
         "neutralisation"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -205,41 +205,35 @@
         "neutralisation"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
-      "id": "SL06-A4-004",
+      "id": "SL06-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum wird das Reagenzglas bei einer Neutralisation warm?",
+      "prompt": "Formuliere die Neutralisationsgleichungen: Salpetersäure + Aluminiumhydroxid-Lösung und Kohlensäure + Bariumhydroxid-Lösung.",
       "options": [
-        "Die Reaktion ist exotherm.",
-        "Die Säure war warm.",
-        "Der Indikator erwärmt sich."
+        "Acidität ist ein Maß für die Fähigkeit eines Teilchens, als Protonendonator zu reagieren. Carbonsäuren können aufgrund der stark polarisierten O–H-Bindung ein Proton abspalten und reagieren mit Wasser als Säure.",
+        "3 HNO 3 + Al(OH) 3 → Al(NO 3 ) 3 + 3 H 2 O H 2 CO 3 + Ba(OH) 2 → BaCO 3 + 2 H 2 O Vorgehen: Formel des Salzes aus Metall-Kation und Säurerest-Anion über den Ladungsausgleich bilden, dann die Gleichung ausgleichen.",
+        "Säure = Protonendonator; besitzt mindestens ein polar gebundenes Wasserstoff-Atom und kann mindestens ein Proton (H + ) abgeben. Saure Lösung = wässrige Lösung, die Oxonium-Ionen H 3 O + enthält. Base = Protonenakzeptor;"
       ],
-      "answer": 0,
+      "answer": 1,
       "hints": [
-        "Wird Energie frei oder gebraucht?",
-        "Es wird warm — also frei.",
-        "Exotherm."
+        "Lies den Abschnitt „Neutralisation und Titration“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Die Neutralisation ist exotherm — bei der Bildung von Wasser wird Energie frei.",
-      "misconceptions": [
-        {
-          "id": "exo_endo_vertauscht",
-          "value": 1,
-          "feedback": "Die Wärme entsteht bei der Reaktion selbst, nicht durch die Ausgangsstoffe."
-        }
-      ],
+      "solution": "3 HNO 3 + Al(OH) 3 → Al(NO 3 ) 3 + 3 H 2 O H 2 CO 3 + Ba(OH) 2 → BaCO 3 + 2 H 2 O Vorgehen: Formel des Salzes aus Metall-Kation und Säurerest-Anion über den Ladungsausgleich bilden, dann die Gleichung ausgleichen. Die Anzahl der Wasser-Moleküle entspricht der Anzahl übertragener Protonen.",
       "tags": [
-        "neutralisation",
-        "energie"
+        "fragenkatalog",
+        "saeuren-basen-ph-wert-titration",
+        "niveau-a"
       ],
       "spiral": [
-        "W-GLEI"
-      ]
+        "K-SL"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d1-10 · Lehrbuch PDF-S. 132–135"
     },
     {
       "id": "SL06-B1-005",
@@ -264,7 +258,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -298,7 +292,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -322,8 +316,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES",
-        "W-RECH"
+        "K-SL",
+        "K-QUANT"
       ]
     },
     {
@@ -355,7 +349,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -381,39 +375,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
-      "id": "SL06-B4-010",
+      "id": "SL06-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum wird gegen Ende der Titration nur noch tropfenweise zugegeben?",
+      "prompt": "Erläutere die Neutralisation und stelle Summen- und Ionengleichung für Salpetersäure + Kalilauge auf.",
       "options": [
-        "Nahe dem Äquivalenzpunkt ändert schon ein Tropfen den pH-Wert stark.",
-        "Damit die Bürette länger hält.",
-        "Damit die Reaktion langsamer wird."
+        "Acidität ist ein Maß für die Fähigkeit eines Teilchens, als Protonendonator zu reagieren. Carbonsäuren können aufgrund der stark polarisierten O–H-Bindung ein Proton abspalten und reagieren mit Wasser als Säure.",
+        "Säurestärke: Je stärker eine Säure ist, desto leichter gibt sie Protonen an Wasser ab. Bei starken Säuren (HCl, HNO 3, H 2 SO 4 ) protolysieren praktisch alle Säuremoleküle;",
+        "Bei einer Neutralisation reagieren die Oxonium-Ionen einer sauren Lösung mit den Hydroxid-Ionen einer basischen Lösung zu Wasser. Die Anionen der Säure und die Kationen der Base bilden ein Salz.",
+        "3 HNO 3 + Al(OH) 3 → Al(NO 3 ) 3 + 3 H 2 O H 2 CO 3 + Ba(OH) 2 → BaCO 3 + 2 H 2 O Vorgehen: Formel des Salzes aus Metall-Kation und Säurerest-Anion über den Ladungsausgleich bilden, dann die Gleichung ausgleichen."
       ],
-      "answer": 0,
-      "visual": {
-        "type": "animation",
-        "name": "neutralisation",
-        "stufe": "C"
-      },
+      "answer": 2,
       "hints": [
-        "Sieh dir den Verlauf der Titrationskurve an.",
-        "Sie ist dort sehr steil.",
-        "Ein Tropfen entscheidet."
+        "Prüfe jede Aussage mit dem Abschnitt „Neutralisation und Titration“ (PDF-S. 132–135)."
       ],
-      "solution": "Kurz vor dem Äquivalenzpunkt sind fast alle Oxonium-Ionen verbraucht. Ein weiterer Tropfen ändert die Konzentration dann um Größenordnungen — die Kurve verläuft dort fast senkrecht.",
+      "solution": "Bei einer Neutralisation reagieren die Oxonium-Ionen einer sauren Lösung mit den Hydroxid-Ionen einer basischen Lösung zu Wasser. Die Anionen der Säure und die Kationen der Base bilden ein Salz. Allgemein: Säure + Base → Salz + Wasser Kernreaktion: H 3 O + + OH − → 2 H 2 O Summengleichung: HNO 3 (aq) + KOH(aq) → KNO 3 (aq) + H 2 O(l) Ionengleichung: H 3 O + (aq) + NO 3 − (aq) + K + (aq) + OH − (aq) → K + (aq) + NO 3 − (aq) + 2 H 2 O(l)",
       "tags": [
-        "neutralisation",
-        "msa"
+        "fragenkatalog",
+        "saeuren-basen-ph-wert-titration",
+        "niveau-b"
       ],
       "spiral": [
-        "W-LOES"
-      ]
+        "K-SL"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d1-9 · Lehrbuch PDF-S. 132–135"
     },
     {
       "id": "SL06-C2-011",
@@ -438,7 +428,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -480,8 +470,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-LOES"
+        "K-QUANT",
+        "K-SL"
       ]
     },
     {
@@ -507,43 +497,35 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
-      "id": "SL06-C4-014",
+      "id": "SL06-C4-KAT",
       "path": "C",
       "step": 4,
       "type": "choice",
-      "prompt": "Ein Schüler sagt: „Nach der Neutralisation ist nichts mehr da — Säure und Lauge haben sich aufgehoben.“ Wie bewertest du das?",
+      "prompt": "Wie rechnet man eine Titration aus? Nenne die vier Schritte.",
       "options": [
-        "Falsch — die Ionen sind weiterhin vorhanden; sie bilden Wasser und ein gelöstes Salz.",
-        "Richtig, beide sind verschwunden.",
-        "Falsch — es bleibt nur Säure übrig."
+        "Titrationsberechnung Reaktionsgleichung aufstellen (wichtig für das Stoffmengenverhältnis!).",
+        "Ein Ampholyt ist ein Teilchen, das je nach Reaktionspartner sowohl als Protonenakzeptor als auch als Protonendonator reagieren kann.",
+        "Weil Wasser ein Ampholyt ist, können zwei Wasser-Moleküle miteinander reagieren: eines gibt ein Proton ab, das andere nimmt es auf.",
+        "Ein Indikator (lat. indicare = anzeigen) ist ein Farbstoff, der durch seine Farbe anzeigt, ob eine Lösung sauer, neutral oder basisch reagiert."
       ],
       "answer": 0,
       "hints": [
-        "Was passiert beim Eindampfen der neutralisierten Lösung?",
-        "Ein Salz bleibt zurück.",
-        "Also war es die ganze Zeit vorhanden."
+        "Prüfe jede Aussage mit dem Abschnitt „Neutralisation und Titration“ (PDF-S. 132–135)."
       ],
-      "solution": "„Aufheben“ meint nur den pH-Wert. Die Teilchen sind vollständig erhalten: H₃O⁺ und OH⁻ bilden Wasser, die übrigen Ionen bleiben gelöst und lassen sich als Salz gewinnen. Masse geht nicht verloren.",
-      "misconceptions": [
-        {
-          "id": "masse_verschwindet",
-          "value": 1,
-          "feedback": "Beim Eindampfen bleibt das Salz zurück — es war die ganze Zeit da.",
-          "konzeptfehler": "masse_verschwindet"
-        }
-      ],
+      "solution": "Titrationsberechnung Reaktionsgleichung aufstellen (wichtig für das Stoffmengenverhältnis!). Stoffmenge der zugegebenen Maßlösung berechnen: n = c · V Stoffmengenverhältnis aus der Gleichung ablesen und daraus die Stoffmenge der Probe berechnen. Konzentration der Probe berechnen: c = n / V(Probe) Beispiel: 20 mL Salzsäure werden mit 25 mL Natronlauge (c = 0,1 mol/L) titriert. n(NaOH) = 0,1 mol/L · 0,025 L = 2,5 · 10 −3 mol → wegen HCl + NaOH → NaCl + H 2 O gilt n(HCl) = 2,5 · 10 −3 mol → c(HCl) = 2,5 · 10 −3 mol / 0,020 L = 0,125 mol/L. Achtung bei mehrprotonigen Säuren: Für H 2 SO 4 + 2 NaOH gilt n(Säure) = ½ · n(Base).",
       "tags": [
-        "neutralisation",
-        "bewerten",
-        "msa"
+        "fragenkatalog",
+        "saeuren-basen-ph-wert-titration",
+        "niveau-c"
       ],
       "spiral": [
-        "W-GLEI"
-      ]
+        "K-SL"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d1-12 · Lehrbuch PDF-S. 132–135"
     }
   ],
   "mitschrift": {
@@ -684,9 +666,10 @@
   "lehrbuch": {
     "kapitel": 10,
     "titel": "Säuren, Laugen, Salze",
-    "seiten_von": 115,
-    "seiten_bis": 142,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Neutralisation"
+    "seiten_von": 132,
+    "seiten_bis": 135,
+    "abschnitt": "Neutralisation und Titration",
+    "bezugswort": "Neutralisation",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

@@ -153,7 +153,7 @@
         "protolyse"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -186,7 +186,7 @@
         "protolyse"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -211,7 +211,7 @@
         "protolyse"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -237,7 +237,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -271,7 +271,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -301,7 +301,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -335,7 +335,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -370,7 +370,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -403,34 +403,35 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
-      "id": "SL03-B4-010",
+      "id": "SL03-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Was ist der Unterschied zwischen einer Säure und einer sauren Lösung?",
+      "prompt": "Bestimme in NH₃ + H₂O ⇌ NH₄⁺ + OH⁻ die Säure-Base-Paare.",
       "options": [
-        "Die Säure ist der Stoff; die saure Lösung entsteht erst durch Protolyse im Wasser.",
-        "Es ist dasselbe.",
-        "Eine saure Lösung ist verdünnter."
+        "Die pH-Skala ist logarithmisch. pH 2 bedeutet eine 100-fach höhere Oxoniumionenkonzentration als pH 4.",
+        "Weil Wasser ein Ampholyt ist, können zwei Wasser-Moleküle miteinander reagieren: eines gibt ein Proton ab, das andere nimmt es auf.",
+        "Titrationsberechnung Reaktionsgleichung aufstellen (wichtig für das Stoffmengenverhältnis!).",
+        "NH₄⁺/NH₃ und H₂O/OH⁻. NH₃ nimmt ein Proton auf und ist Base; H₂O gibt eines ab und ist Säure."
       ],
-      "answer": 0,
+      "answer": 3,
       "hints": [
-        "Ist reines HCl-Gas eine saure Lösung?",
-        "Nein — es ist ein Gas.",
-        "Erst im Wasser entstehen die Ionen."
+        "Prüfe jede Aussage mit dem Abschnitt „Säuren und saure Lösungen“ (PDF-S. 118–123)."
       ],
-      "solution": "Chlorwasserstoff ist ein Gas und eine Säure. Erst gelöst in Wasser entstehen Oxonium-Ionen — dann liegt eine saure Lösung vor. Die Unterscheidung ist keine Spitzfindigkeit, sondern erklärt den Indikatorversuch.",
+      "solution": "NH₄⁺/NH₃ und H₂O/OH⁻. NH₃ nimmt ein Proton auf und ist Base; H₂O gibt eines ab und ist Säure.",
       "tags": [
-        "protolyse",
-        "msa"
+        "fragenkatalog",
+        "saeure-base",
+        "niveau-b"
       ],
       "spiral": [
-        "W-LOES"
-      ]
+        "K-SL"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-069 · Lehrbuch PDF-S. 118–123"
     },
     {
       "id": "SL03-C2-011",
@@ -455,7 +456,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -481,7 +482,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -520,8 +521,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-LOES"
+        "K-QUANT",
+        "K-SL"
       ]
     },
     {
@@ -548,7 +549,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     }
   ],
@@ -658,9 +659,10 @@
   "lehrbuch": {
     "kapitel": 10,
     "titel": "Säuren, Laugen, Salze",
-    "seiten_von": 115,
-    "seiten_bis": 142,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Protolyse"
+    "seiten_von": 118,
+    "seiten_bis": 123,
+    "abschnitt": "Säuren und saure Lösungen",
+    "bezugswort": "Protolyse",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

@@ -154,7 +154,7 @@
         "formeln"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -179,7 +179,7 @@
         "formeln"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -200,7 +200,7 @@
         "formeln"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -233,7 +233,7 @@
         "formeln"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -273,7 +273,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -295,7 +295,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -321,7 +321,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -353,7 +353,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -379,7 +379,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -413,7 +413,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -439,7 +439,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -502,8 +502,8 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG",
-        "W-RECH"
+        "K-ORG",
+        "K-QUANT"
       ]
     },
     {
@@ -538,7 +538,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     }
   ],
@@ -647,10 +647,11 @@
   ],
   "lehrbuch": {
     "kapitel": 12,
-    "titel": "Der Weg zur organischen Chemie",
-    "seiten_von": 147,
-    "seiten_bis": 162,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Summenformel"
+    "titel": "Kohlenwasserstoffe",
+    "seiten_von": 150,
+    "seiten_bis": 152,
+    "abschnitt": "Formeln der Alkane",
+    "bezugswort": "Strukturformel",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

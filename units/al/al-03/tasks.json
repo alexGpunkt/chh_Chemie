@@ -168,7 +168,7 @@
         "alkohole"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -201,7 +201,7 @@
         "alkohole"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -224,7 +224,7 @@
         "rechnen"
       ],
       "spiral": [
-        "W-EINH"
+        "K-QUANT"
       ]
     },
     {
@@ -249,7 +249,7 @@
         "alkohole"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -275,7 +275,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -301,7 +301,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -327,7 +327,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -353,7 +353,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -388,7 +388,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-EINH"
+        "K-QUANT"
       ]
     },
     {
@@ -415,7 +415,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -449,7 +449,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -476,7 +476,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -503,7 +503,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -538,7 +538,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     }
   ],
@@ -647,10 +647,11 @@
   ],
   "lehrbuch": {
     "kapitel": 13,
-    "titel": "Organische Säuren",
-    "seiten_von": 163,
-    "seiten_bis": 172,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Wasserstoffbrücke"
+    "titel": "Alkohole und organische Säuren",
+    "seiten_von": 161,
+    "seiten_bis": 163,
+    "abschnitt": "Eigenschaften der Alkanole",
+    "bezugswort": "Wasserstoffbrücke",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

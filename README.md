@@ -4,16 +4,15 @@ Differenzierte Lernwege für die Jahrgänge 7 bis 10, Campus Hannah Höch.
 Statische Website, keine Abhängigkeiten, kein Build-Step.
 
 **76 Einheiten à 45 Minuten · 1064 Aufgaben · Hefteintrag je Lernweg.**
-**Warm-up-Pool: 120 Generatoren in 8 Kategorien für „Altes Wissen“ —**
+**Warm-up-Pool: 224 eindeutige Chemiefragen in 9 Kategorien —**
 **kumulativ über die zurückliegenden Reihen, im Unterricht Pflicht.**
-**168 eingebettete Lernvideos mit Zwischenfragen (Lumi),**
+**168 eingebettete Lernvideos mit Schreibauftrag und optionaler Lumi-Fassung,**
 **197 externe Übungen, 228 gedruckte Übungsblätter (je Lernweg eines).**
 **Prüfungstrainer, Taschenrechner, Beameransicht, Kompetenzmatrix, Offline-Betrieb.**
 
-Das Projekt ist das Schwesterprojekt zu `chh_Mathe_Klasse_9` und übernimmt
-dessen Architektur unverändert: dieselbe Aufgaben-Engine, dasselbe
-Warm-up-Prinzip, dieselben Betriebs- und Prüfwerkzeuge. Ausgetauscht sind alle
-fachlichen Schichten — Inhalt, Aufgabenbilder, Animationen, Denkfehler-Kategorien.
+Das Projekt nutzt eine gemeinsame Aufgaben-Engine für differenzierte Lernwege,
+Warm-ups, Übungsblätter und Prüfungen. Sämtliche fachlichen Inhalte,
+Aufgabenbilder, Animationen und Fehlvorstellungskategorien sind chemiespezifisch.
 
 ## Grundlage
 
@@ -145,28 +144,28 @@ aktuellen Thema. Kein Countdown auf dem Schülergerät.
 
 | Code | Titel | Generatoren |
 |---|---|---|
-| `W-STOF` | Stoffe, Eigenschaften, Trennverfahren | 15 |
-| `W-TEIL` | Atombau und Periodensystem | 15 |
-| `W-SYMB` | Symbole und Formeln lesen | 15 |
-| `W-GLEI` | Reaktionsgleichungen | 15 |
-| `W-RECH` | Chemisches Rechnen | 15 |
-| `W-EINH` | Einheiten und Größen | 15 |
-| `W-LOES` | Lösungen, Konzentration, pH | 15 |
-| `W-ORG` | Organische Chemie | 15 |
+| `K-SICH` | Sicher arbeiten | 29 |
+| `K-STOF` | Stoffe und Trennverfahren | 30 |
+| `K-REAK` | Chemische Reaktionen | 43 |
+| `K-ATOM` | Teilchen, Atome und Periodensystem | 22 |
+| `K-BIND` | Bindungen und Stoffstruktur | 16 |
+| `K-REDOX` | Metalle, Redox und Elektrochemie | 15 |
+| `K-QUANT` | Stoffmenge und Stöchiometrie | 28 |
+| `K-SL` | Säuren, Basen und Salze | 15 |
+| `K-ORG` | Organische Chemie | 26 |
 
 ### Kumulativ: nur, was zurückliegt (seit v4)
 
-Maßgeblich ist die **Unterrichtsreihe** der Einheit, zu der aufgewärmt wird.
-Wiederholt wird das Grundwissen **aller** früheren Reihen — was noch nicht dran
-war, kommt nicht dran. Vorher zog das Warm-up aus allen acht Kategorien; in der
-zweiten Schulwoche der siebten Klasse standen deshalb Aufgaben zur organischen
-Chemie auf dem Schirm. Das war kein Wiederholen, sondern Raten.
+Maßgeblich ist die **Einheit**, zu der aufgewärmt wird. Jede Frage trägt eine
+Einführungs-Einheit (`ab_einheit`) und wird erst danach freigeschaltet. So wird
+das Grundwissen aller früheren Einheiten wiederholt, ohne spätere Inhalte
+vorwegzunehmen.
 
 Die zwölf Reihen und das Grundwissen, das jede liefert, stehen in
-`spiral/plan.json` unter `reihen` (erzeugt von
-`werkzeuge/warmup_reihen_bauen.py`). Über jeder Aufgabe steht, aus welcher
-Reihe sie stammt. In der ersten Reihe gibt es nichts Früheres — dort wird
-innerhalb der eigenen Reihe wiederholt. Eine Zusatzregel sorgt dafür, dass
+`spiral/plan.json` unter `reihen`; die konkrete Freigabe wird von
+`werkzeuge/fragenkatalog_einspielen.js` erzeugt. Über jeder Aufgabe steht,
+aus welcher Reihe sie stammt. Nur FC-01 nutzt die eigenen Sicherheitsregeln
+als Einstieg. Eine Zusatzregel sorgt dafür, dass
 nicht immer nur die zuletzt behandelte Reihe gewinnt: Mindestens eine Aufgabe
 kommt aus einer weiter zurückliegenden.
 
@@ -233,7 +232,7 @@ getrackt würde dann „kann Natrium" statt „kann die Ordnungszahl ablesen".
 Getrackt wird die Generator-ID; also muss die Variation in den Generator hinein,
 nicht in seinen Namen.
 
-Alle 120 Generatoren werden vor jedem Push 300-mal durchgerechnet
+Alle 304 Übungsblatt-Generatoren werden vor jedem Push 300-mal durchgerechnet
 (`werkzeuge/uebungsblatt-pruefen.js` und der Prüflauf in `pruefen.js`).
 
 ## Sicherheit im Aufgabenpool
@@ -293,6 +292,11 @@ Lernweg; beim Wechsel wird die Karte neu gebaut. Unterschieden wird über
 kürzere, glattere Stoffliste, C den oberen. Neue Werte kommen dabei nicht dazu —
 gewählt wird nur aus dem, was schon im Generator steht.
 
+Vor den Aufgaben steht jetzt auf jedem Blatt **„Kurz erklärt“**: die Einleitung,
+zwei bis drei Kernaussagen und der Merksatz aus der Lernkarte des gewählten
+Lernwegs. Damit bleibt das Blatt auch ohne geöffnete Anwendung eine fachliche
+Lernunterlage und nicht nur eine Sammlung von Rechenaufgaben.
+
 ```bash
 node werkzeuge/uebungsblatt-pruefen.js   # 304 Generatoren × 300 Proben je Lernweg
 node werkzeuge/uebungsblaetter.js        # erzeugt die 228 PDFs
@@ -336,20 +340,21 @@ Bearbeitungsstufe.
 Die Formelkarte in `pruefung-sets.json` deckt alle vier Jahrgänge ab — von der
 Dichte bis zur Veresterung.
 
-## Lernvideos mit Zwischenfragen (seit v4 eingebettet)
+## Lernvideos mit Schreibauftrag (seit v6 mit zuverlässigem Direktzugang)
 
 **168 Videos** in allen 76 Einheiten, aus fünf freigegebenen Kanälen:
 **musstewissen Chemie**, **Chemie – simpleclub**, **Biologie und Chemie
-Schule**, **Chemistry@home** und **Studyflix**. Gezeigt wird die mit **Lumi**
-angereicherte Fassung: derselbe Film, aber er hält an und stellt
-Zwischenfragen.
+Schule**, **Chemistry@home** und **Studyflix**. Primär öffnet der geprüfte
+Originalfilm auf **YouTube**. Dazu steht ein niveaugerechter Schreibauftrag.
+Die Einbettung über **youtube-nocookie.com** und die mit **Lumi** angereicherte
+Fassung bleiben als optionale Alternativen erhalten.
 
-**Sie laufen in der Seite.** Niemand verlässt die Anwendung mehr. Der Rahmen
-wird trotzdem leer ausgeliefert und trägt nur einen Knopf — die Adresse wird
-erst beim Klick gesetzt. Damit bleibt der gute Grund erhalten, aus dem die
-Videos bis v3 bloße Links waren: Wer nicht zusehen will, löst auch keine
-Anfrage bei einem Dritten aus. `frame-src` nennt `app.lumi.education`
-ausdrücklich, auf allen zehn Seiten identisch.
+**Der Direktlink funktioniert auch bei gesperrter Einbettung.** Einige Kanäle
+untersagen die Wiedergabe in fremden Seiten, obwohl das Video selbst online
+ist. Deshalb ist „Auf YouTube ansehen“ die Hauptaktion. Der optionale Rahmen
+wird leer ausgeliefert und erhält seine Adresse erst beim Klick. Wer nicht
+zusehen will, löst keine Anfrage bei einem Dritten aus. `frame-src` nennt
+`app.lumi.education` und `youtube-nocookie.com` ausdrücklich.
 
 **Je Lernweg genau ein empfohlenes Video.** Das Feld `stufe` ist der
 *Mindest*lernweg (nicht wie das frühere `pfad` eine feste Bindung): `A`
@@ -368,8 +373,8 @@ Aufgabe.
 ```
 
 `dauer_s` ist die echte Laufzeit aus der letzten Zeitmarke des Transkripts und
-die Grundlage des 45-Minuten-Plans. `url` wird nicht mehr aufgerufen — sie
-bleibt als Herkunftsangabe stehen.
+die Grundlage des 45-Minuten-Plans. `url` ist Herkunftsangabe und zugleich der
+zuverlässige Hauptzugang zum Originalfilm.
 
 Ein Kanal ist an drei Stellen einzutragen, und zwar mit Absicht:
 
@@ -381,7 +386,9 @@ Ein Kanal ist an drei Stellen einzutragen, und zwar mit Absicht:
 
 `pruefen.js` hält die drei gegeneinander und prüft zusätzlich, dass Lauf- und
 Einbettadresse auf dieselbe Lumi-Kennung zeigen und dass jede Einheit ein
-Video auf Lernweg A hat.
+Video auf Lernweg A hat. `videos-online-pruefen.js` kontrolliert zusätzlich
+online, ob Originalvideo und Lumi-Zuordnung erreichbar sind und dieselbe
+YouTube-ID verwenden.
 
 **Die Titel sind nicht die YouTube-Titel.** Ein Teil der Kanäle liefert
 automatisch übersetzte Titel; eingetragen ist deshalb, was das Video zeigt.
@@ -447,12 +454,16 @@ Zwei Felder je Einheit, beide in `tasks.json`, beide vom Schema erzwungen.
 
 | | Videos | Feld | Was das Kind tut |
 | --- | --- | --- | --- |
-| mit Lumi | 28 | `protokoll: true`, `lumi` | Das Video hält viermal an: Materialien, Aufbau, Durchführung, Beobachtung — jedes Mal ins Heft |
-| ohne Lumi | 24 | `protokoll: false`, `beobachtung` | Das Video läuft durch; der Auftrag steht **darüber** und wird vorher gelesen |
+| mit Lumi-Alternative | 28 | `protokoll: true`, `lumi` | Der YouTube-Link öffnet den Film; der Protokollauftrag gliedert Materialien, Aufbau, Durchführung und Beobachtung. Lumi bleibt extern verlinkt. |
+| ohne Lumi | 24 | `protokoll: false`, `beobachtung` | Der YouTube-Link öffnet den Film; der Auftrag steht **darüber** und wird vorher gelesen |
 
 Die Anordnung ist der Punkt: Wer erst nach dem Abspann erfährt, worauf zu
 achten war, hat es nicht gesehen. `experimentkarteBauen()` in `engine.js`
 setzt den Auftrag deshalb vor den Rahmen, nicht dahinter.
+
+Auch bei den 168 Erklärvideos ist der YouTube-Direktlink der Hauptweg.
+`youtube-nocookie.com` und Lumi-H5P bleiben als Zusatzangebote verfügbar,
+sind wegen Anbieter- und Playerbeschränkungen aber nicht der einzige Zugang.
 
 `beobachtung` ist dreifach formuliert (`A`, `B`, `C`) nach den Operatoren des
 Lehrbuchs: beschreiben — erklären — begründen und beurteilen.
@@ -607,7 +618,7 @@ Inhalt
   units/index.json          Liste aller Bereiche und Einheiten
   units/sz/sz-03/tasks.json Inhalt einer Einheit
   spiral/plan.json          Intervalle, Verzahnung, Fehlerprofil
-  spiral/w-teil.json        Generatoren einer Wiederholungskategorie
+  spiral/k-atom.json        Fragen einer Chemie-Wiederholungskategorie
   uebungsblaetter/sz.json   Generatoren der gedruckten Blätter (mit stufen A/C)
   pruefung-sets.json        Prüfungssets + Formelkarte
   videos-quellen.csv        alle 1032 Videos der fünf freigegebenen Kanäle
@@ -615,7 +626,7 @@ Inhalt
 Erzeuger (Python, kein Build-Step für die Anwendung)
   werkzeuge/einheiten_basis.py       Konstruktoren für tasks.json
   werkzeuge/einheiten_<bereich>*.py  der Fachinhalt, ein Bereich je Datei
-  werkzeuge/spiral_bauen.py          die 120 Warm-up-Generatoren
+  werkzeuge/fragenkatalog_einspielen.js  Katalogaufgaben und 224 Warm-ups
   werkzeuge/uebungsblaetter_bauen.py die 304 Blatt-Generatoren
   werkzeuge/index_bauen.py           index.html aus units/index.json
 ```
@@ -651,6 +662,7 @@ Einheit kennen — die drei lesen alle denselben Index. `einheit.html` und
 
 ```bash
 node werkzeuge/pruefen.js         # Schema, IDs, Animationen, Cache, CSP, Bilder, Syntax, SQL, Videos
+node werkzeuge/videos-online-pruefen.js # YouTube-Erreichbarkeit und Lumi-Zuordnung
 node werkzeuge/animationen-laden.js  # lädt die Animationsdateien wirklich aus
 node werkzeuge/a11y-pruefen.js    # statisch prüfbare Barrierefreiheit
 node werkzeuge/budget-pruefen.js  # Performancebudget für günstige Smartphones
@@ -705,4 +717,4 @@ Ehrlich benannt, damit es nicht übersehen wird:
 
 Alle Fassungen mit Änderungen und Einschränkungen stehen in `CHANGELOG.md`.
 
-Cache-Version: `chemie710-v4-lumi-warmup-skript`.
+Cache-Version: `chemie710-v6-themenwissen-videos`.

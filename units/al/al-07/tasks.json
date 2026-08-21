@@ -130,7 +130,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -155,7 +155,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -178,7 +178,7 @@
         "rechnen"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -227,7 +227,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -266,7 +266,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -290,7 +290,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -325,7 +325,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -351,35 +351,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
-      "id": "AL07-B4-010",
+      "id": "AL07-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Wie lange dauert der Abbau von 0,8 ‰ bei 0,1 ‰ je Stunde?",
+      "prompt": "Warum sind kurzkettige Alkohole gut wasserlöslich und langkettige nicht?",
       "options": [
-        "8 Stunden",
-        "2 Stunden",
-        "30 Minuten"
+        "CH 3 –COOH + NaOH → CH 3 –COO − Na + + H 2 O Natriumethanoat (Natriumacetat) Reaktionstyp: Protolyse / Neutralisation mit Salzbildung. Die Carbonsäure wirkt als Protonendonator. Warum ist die Carboxygruppe sauer?",
+        "Alkohol-Moleküle besitzen mit der Hydroxygruppe einen polaren (hydrophilen) Molekülabschnitt, der mit Wasser Wasserstoffbrücken bilden kann, und mit dem Kohlenstoffgerüst einen unpolaren (lipophilen) Abschnitt.",
+        "IUPAC: Alkohol-Rest als Substituent mit der Endung -yl, Säure-Rest als Stammname mit der Endung -oat → Methylethanoat, Ethylpropanoat. Ältere Schreibweise: „Alkansäurealkylester“ → Ethansäuremethylester, Butansäuremethylester.",
+        "Propan < Propan-2-on < Propansäure Propan: unpolares Molekül → nur schwache London-Dispersions-Kräfte. Propan-2-on (Aceton): polare Carbonylgruppe → zusätzlich Dipol-Dipol-Kräfte, aber keine Wasserstoffbrücken (kein H am O)."
       ],
-      "answer": 0,
+      "answer": 1,
       "hints": [
-        "0,8 geteilt durch 0,1.",
-        "8.",
-        "8 Stunden."
+        "Prüfe jede Aussage mit dem Abschnitt „Alkanole - Zusammenfassung“ (PDF-S. 159–164)."
       ],
-      "solution": "0,8 ‰ : 0,1 ‰/h = 8 Stunden. Der Abbau lässt sich nicht beschleunigen.",
+      "solution": "Alkohol-Moleküle besitzen mit der Hydroxygruppe einen polaren (hydrophilen) Molekülabschnitt, der mit Wasser Wasserstoffbrücken bilden kann, und mit dem Kohlenstoffgerüst einen unpolaren (lipophilen) Abschnitt. Bei kurzen Ketten (Methanol, Ethanol, Propanol) überwiegt der polare Anteil → gut wasserlöslich, in beliebigem Verhältnis mischbar. Mit zunehmender Kettenlänge wirkt der unpolare Rest als Gegenspieler → die Wasserlöslichkeit nimmt ab, die Benzin- und Fettlöslichkeit nimmt zu (Cetylalkohol mit 16 C-Atomen ist praktisch wasserunlöslich). Die Wasserstoffbrücken zwischen den Alkohol-Molekülen erklären außerdem die im Vergleich zu Alkanen höheren Siedetemperaturen und die höhere Viskosität.",
       "tags": [
-        "pruefung",
-        "bewerten",
-        "bbr"
+        "fragenkatalog",
+        "sauerstoffhaltige-organische-verbindungen-und-ester",
+        "niveau-b"
       ],
       "spiral": [
-        "W-RECH"
-      ]
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d4-1 · Lehrbuch PDF-S. 159–164"
     },
     {
       "id": "AL07-C2-011",
@@ -404,7 +404,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -430,7 +430,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -465,8 +465,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -606,10 +606,11 @@
   ],
   "lehrbuch": {
     "kapitel": 13,
-    "titel": "Organische Säuren",
-    "seiten_von": 163,
-    "seiten_bis": 172,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Hydroxylgruppe"
+    "titel": "Alkohole und organische Säuren",
+    "seiten_von": 159,
+    "seiten_bis": 164,
+    "abschnitt": "Alkanole - Zusammenfassung",
+    "bezugswort": "Hydroxylgruppe",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

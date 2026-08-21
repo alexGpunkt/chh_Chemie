@@ -149,7 +149,7 @@
         "alkane"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -182,7 +182,7 @@
         "alkane"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -203,7 +203,7 @@
         "alkane"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -229,7 +229,7 @@
         "alkane"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -259,7 +259,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -293,7 +293,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -315,7 +315,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -352,7 +352,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -376,43 +376,36 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG",
-        "W-RECH"
+        "K-ORG",
+        "K-QUANT"
       ]
     },
     {
-      "id": "KW02-B4-010",
+      "id": "KW02-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Was bedeutet „gesättigt“ bei einem Kohlenwasserstoff?",
+      "prompt": "Formuliere die allgemeine Summenformel der Alkane und erkläre n.",
       "options": [
-        "Zwischen den C-Atomen bestehen nur Einfachbindungen.",
-        "Der Stoff löst sich nicht mehr.",
-        "Er enthält keinen Wasserstoff mehr."
+        "Die Position der Doppelbindung muss angegeben werden, z. B. But-1-en oder But-2-en; außerdem kann bei But-2-en E/Z-Isomerie auftreten.",
+        "CₙH₂ₙ₊₂; n ist die Anzahl der Kohlenstoffatome im unverzweigten oder verzweigten gesättigten Kohlenwasserstoff.",
+        "Nukleophile Addition an die Carbonylgruppe. Das C-Atom der Carbonylgruppe ist wegen der stark elektronenziehenden Wirkung des Sauerstoff-Atoms (hohe Elektronegativität) positiv polarisiert (δ+).",
+        "Stoffklasse Bindung allgemeine Formel Endung Alkane nur Einfachbindungen – gesättigt C n H 2n+2 -an Alkene mind. eine C=C-Doppelbindung – ungesättigt C n H 2n -en Alkine mind."
       ],
-      "answer": 0,
+      "answer": 1,
       "hints": [
-        "Es geht um die Bindungen im Molekül.",
-        "Alle Bindungen sind einfach.",
-        "Mehr H-Atome passen nicht hinein."
+        "Prüfe jede Aussage mit dem Abschnitt „Homologe Reihe der Alkane“ (PDF-S. 150–152)."
       ],
-      "solution": "Gesättigt heißt: Zwischen den C-Atomen bestehen nur Einfachbindungen, das Molekül trägt die größtmögliche Zahl an H-Atomen. Mit dem Lösen hat der Begriff nichts zu tun.",
-      "misconceptions": [
-        {
-          "id": "funktionelle_gruppe_verwechselt",
-          "value": 1,
-          "feedback": "„Gesättigt“ bezieht sich auf die Bindungen, nicht auf das Lösen.",
-          "konzeptfehler": "funktionelle_gruppe_verwechselt"
-        }
-      ],
+      "solution": "CₙH₂ₙ₊₂; n ist die Anzahl der Kohlenstoffatome im unverzweigten oder verzweigten gesättigten Kohlenwasserstoff.",
       "tags": [
-        "alkane",
-        "msa"
+        "fragenkatalog",
+        "organik",
+        "niveau-b"
       ],
       "spiral": [
-        "W-ORG"
-      ]
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-074 · Lehrbuch PDF-S. 150–152"
     },
     {
       "id": "KW02-C2-011",
@@ -442,7 +435,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -477,8 +470,8 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG",
-        "W-RECH"
+        "K-ORG",
+        "K-QUANT"
       ]
     },
     {
@@ -504,7 +497,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -539,7 +532,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     }
   ],
@@ -664,10 +657,11 @@
   ],
   "lehrbuch": {
     "kapitel": 12,
-    "titel": "Der Weg zur organischen Chemie",
-    "seiten_von": 147,
-    "seiten_bis": 162,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Alkan"
+    "titel": "Kohlenwasserstoffe",
+    "seiten_von": 150,
+    "seiten_bis": 152,
+    "abschnitt": "Homologe Reihe der Alkane",
+    "bezugswort": "Alkan",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

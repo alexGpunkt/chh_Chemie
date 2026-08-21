@@ -289,7 +289,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -323,7 +323,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -395,31 +395,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-EINH"
+        "K-QUANT"
       ]
     },
     {
-      "id": "FC06-B4-010",
+      "id": "FC06-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Eine Löschdecke wird über ein brennendes Kleidungsstück gelegt. Welche Seite des Feuerdreiecks wird entfernt?",
+      "prompt": "Nenne die drei Voraussetzungen des Verbrennungsdreiecks.",
       "options": [
-        "der Sauerstoff",
-        "der Brennstoff",
-        "die Wärme"
+        "Exotherm; Energie wird an die Umgebung abgegeben.",
+        "Eine chemische Reaktion eines Stoffes mit Sauerstoff.",
+        "Brennstoff, Sauerstoff und ausreichende Zünd-/Aktivierungsenergie.",
+        "Sie ist die Mindestenergie, die Teilchen überwinden müssen, damit eine Reaktion starten kann."
       ],
-      "answer": 0,
+      "answer": 2,
       "hints": [
-        "Was hält die Decke ab?",
-        "Sie hält Luft ab.",
-        "Also den Sauerstoff."
+        "Prüfe jede Aussage mit dem Abschnitt „Brände und Brandbekämpfung“ (PDF-S. 43–46)."
       ],
-      "solution": "Die Löschdecke schließt die Luft ab. Ohne Sauerstoff erlischt die Flamme — sie erstickt.",
+      "solution": "Brennstoff, Sauerstoff und ausreichende Zünd-/Aktivierungsenergie.",
       "tags": [
-        "feuer",
-        "loeschen"
-      ]
+        "fragenkatalog",
+        "luft-verbrennung",
+        "niveau-b"
+      ],
+      "spiral": [
+        "K-REAK"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-041 · Lehrbuch PDF-S. 43–46"
     },
     {
       "id": "FC06-C2-011",
@@ -673,9 +677,10 @@
   "lehrbuch": {
     "kapitel": 4,
     "titel": "Luft und Verbrennungen",
-    "seiten_von": 38,
-    "seiten_bis": 57,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Feuerdreieck"
+    "seiten_von": 43,
+    "seiten_bis": 46,
+    "abschnitt": "Brände und Brandbekämpfung",
+    "bezugswort": "Verbrennungsdreieck",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

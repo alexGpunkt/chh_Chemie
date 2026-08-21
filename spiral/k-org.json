@@ -1,0 +1,492 @@
+{
+  "kategorie": "K-ORG",
+  "titel": "Organische Chemie",
+  "hinweis": "Fragen aus dem gelieferten Chemie-Fragenkatalog; jede Frage gehört genau einem Niveau und erscheint erst nach ihrer Einführungs-Einheit.",
+  "fragen": [
+    {
+      "id": "KAT-src-c5-3-A",
+      "level": "A",
+      "kategorie": "K-ORG",
+      "skill": "Funktionelle Gruppen – Einstieg",
+      "type": "choice",
+      "prompt": "Ordne die folgenden Moleküle einer Verbindungsklasse zu und benenne sie: CH 3 CH 2 CH 2 OH, CH 3 CH 2 CH 2 CHO, CH 3 COCH 2 CH 3, CH 3 COOH.",
+      "options": [
+        "Kohlenhydrate sind Verbindungen der allgemeinen Summenformel C n H 2n O n, die eine Carbonylfunktion und mindestens zwei Hydroxygruppen tragen. Monosaccharide (Einfachzucker): ein einziger Kohlenhydratbaustein – Glucose, Fructose.",
+        "Formel Verbindungsklasse funktionelle Gruppe Name CH 3 CH 2 CH 2 OH Alkohol Hydroxygruppe Propan-1-ol CH 3 CH 2 CH 2 CHO Aldehyd Aldehydgruppe Butanal CH 3 COCH 2 CH 3 Keton Ketogruppe Butan-2-on (Butanon) CH 3 COOH Carbonsäure …",
+        "Stoffklasse funktionelle Gruppe allg. Formel Endung Beispiel Alkohol (Alkanol) Hydroxygruppe –OH R–OH -ol Propan-1-ol Aldehyd (Alkanal) Aldehydgruppe –CHO R–CHO -al Butanal Keton (Alkanon) Ketogruppe >C=O R–CO–R' -on Butanon …"
+      ],
+      "answer": 1,
+      "solution": "Formel Verbindungsklasse funktionelle Gruppe Name CH 3 CH 2 CH 2 OH Alkohol Hydroxygruppe Propan-1-ol CH 3 CH 2 CH 2 CHO Aldehyd Aldehydgruppe Butanal CH 3 COCH 2 CH 3 Keton Ketogruppe Butan-2-on (Butanon) CH 3 COOH Carbonsäure Carboxygruppe Ethansäure (Essigsäure)",
+      "katalog_id": "src-c5-3",
+      "schwierigkeit": 1,
+      "ab_einheit": "os-01"
+    },
+    {
+      "id": "KAT-src-d4-3-A",
+      "level": "A",
+      "kategorie": "K-ORG",
+      "skill": "Sauerstoffhaltige organische Verbindungen und Ester",
+      "type": "choice",
+      "prompt": "Nenne die Trivialnamen wichtiger Carbonsäuren und Alkohole.",
+      "options": [
+        "Maltose (Malzzucker) Stärke Bau Disaccharid aus zwei Glucose-Bausteinen Polysaccharid aus mehreren hundert Glucose-Bausteinen Struktur kristallin amorph Löslichkeit wasserlöslich, polar praktisch unlöslich (bildet Kleister) Geschmack …",
+        "Trivialname IUPAC-Name Formel Ameisensäure Methansäure HCOOH Essigsäure Ethansäure CH 3 COOH Buttersäure Butansäure C 3 H 7 COOH Oxalsäure Ethandisäure HOOC–COOH Acrylsäure Propensäure CH 2 =CH–COOH Glycol Ethan-1,2-diol HO–CH 2 –CH 2 …",
+        "Elektrophile Addition (A E ) an die Doppelbindung: H 2 C=CH 2 + Br 2 → H 2 CBr–CH 2 Br (1,2-Dibromethan) Die hohe Elektronendichte der Doppelbindung polarisiert das ankommende Br 2 -Molekül (induzierter Dipol) – es wird zum Elektrophil."
+      ],
+      "answer": 1,
+      "solution": "Trivialname IUPAC-Name Formel Ameisensäure Methansäure HCOOH Essigsäure Ethansäure CH 3 COOH Buttersäure Butansäure C 3 H 7 COOH Oxalsäure Ethandisäure HOOC–COOH Acrylsäure Propensäure CH 2 =CH–COOH Glycol Ethan-1,2-diol HO–CH 2 –CH 2 –OH Glycerin Propan-1,2,3-triol C 3 H 5 (OH) 3 Aceton Propan-2-on (Propanon) CH 3 COCH 3",
+      "katalog_id": "src-d4-3",
+      "schwierigkeit": 1,
+      "ab_einheit": "os-01"
+    },
+    {
+      "id": "KAT-src-d5-3-A",
+      "level": "A",
+      "kategorie": "K-ORG",
+      "skill": "Biomoleküle und Tenside",
+      "type": "choice",
+      "prompt": "Was sind Omega-3-Fettsäuren und essentielle Fettsäuren?",
+      "options": [
+        "Maltose (Malzzucker) Stärke Bau Disaccharid aus zwei Glucose-Bausteinen Polysaccharid aus mehreren hundert Glucose-Bausteinen Struktur kristallin amorph Löslichkeit wasserlöslich, polar praktisch unlöslich (bildet Kleister) Geschmack …",
+        "Radikalische Substitution (S R ) – ein H-Atom wird durch ein Halogen-Atom ersetzt: CH 4 + Cl 2 --(hν)--> CH 3 Cl + HCl Bei Überschuss weiter bis: CH 4 + 4 Cl 2 → CCl 4 + 4 HCl Alkane sind ansonsten reaktionsträge („Paraffine“ = wenig …",
+        "Omega-3-Fettsäuren besitzen – vom hinteren Ende des Moleküls aus gezählt (die von der Carboxygruppe abgewandte Seite) – am dritten Kohlenstoff-Atom eine Doppelbindung. Bei Omega-6-Fettsäuren sitzt sie entsprechend an sechster Stelle."
+      ],
+      "answer": 2,
+      "solution": "Omega-3-Fettsäuren besitzen – vom hinteren Ende des Moleküls aus gezählt (die von der Carboxygruppe abgewandte Seite) – am dritten Kohlenstoff-Atom eine Doppelbindung. Bei Omega-6-Fettsäuren sitzt sie entsprechend an sechster Stelle. Sie zählen zu den essentiellen Fettsäuren: Der menschliche Körper kann sie nicht selbst herstellen, benötigt sie aber zur Produktion wichtiger Körperstoffe – sie müssen mit der Nahrung aufgenommen werden.",
+      "katalog_id": "src-d5-3",
+      "schwierigkeit": 1,
+      "ab_einheit": "es-03"
+    },
+    {
+      "id": "KAT-src-d4-5-A",
+      "level": "A",
+      "kategorie": "K-ORG",
+      "skill": "Sauerstoffhaltige organische Verbindungen und Ester",
+      "type": "choice",
+      "prompt": "Wie werden Ester benannt? Nenne beide gebräuchlichen Systeme.",
+      "options": [
+        "Stoffklasse funktionelle Gruppe allg. Formel Endung Beispiel Alkohol (Alkanol) Hydroxygruppe –OH R–OH -ol Propan-1-ol Aldehyd (Alkanal) Aldehydgruppe –CHO R–CHO -al Butanal Keton (Alkanon) Ketogruppe >C=O R–CO–R' -on Butanon …",
+        "IUPAC: Alkohol-Rest als Substituent mit der Endung -yl, Säure-Rest als Stammname mit der Endung -oat → Methylethanoat, Ethylpropanoat. Ältere Schreibweise: „Alkansäurealkylester“ → Ethansäuremethylester, Butansäuremethylester.",
+        "Propan < Propan-2-on < Propansäure Propan: unpolares Molekül → nur schwache London-Dispersions-Kräfte. Propan-2-on (Aceton): polare Carbonylgruppe → zusätzlich Dipol-Dipol-Kräfte, aber keine Wasserstoffbrücken (kein H am O)."
+      ],
+      "answer": 1,
+      "solution": "IUPAC: Alkohol-Rest als Substituent mit der Endung -yl, Säure-Rest als Stammname mit der Endung -oat → Methylethanoat, Ethylpropanoat. Ältere Schreibweise: „Alkansäurealkylester“ → Ethansäuremethylester, Butansäuremethylester. Ester aus Ethansäure + Methanol: Methylethanoat = Ethansäuremethylester Ester aus Propansäure + Ethanol: Ethylpropanoat = Propansäureethylester Merkhilfe: Der Name beginnt mit dem Alkohol teil und endet mit dem Säure teil.",
+      "katalog_id": "src-d4-5",
+      "schwierigkeit": 1,
+      "ab_einheit": "es-01"
+    },
+    {
+      "id": "KAT-src-c5-2-A",
+      "level": "A",
+      "kategorie": "K-ORG",
+      "skill": "Funktionelle Gruppen – Einstieg",
+      "type": "choice",
+      "prompt": "Welche Prioritäten gelten bei der Benennung, wenn mehrere funktionelle Gruppen vorliegen?",
+      "options": [
+        "Carboxy > Carbonyl (Aldehyd, Keton) > Hydroxy > Doppelbindung > Dreifachbindung > Einfachbindung Die Gruppe mit der höchsten Priorität bestimmt die Namensendung und bekommt die niedrigste Positionsnummer.",
+        "Kohlenhydrate: schnell verfügbare Energielieferanten (Glucose); Speicherstoffe (Stärke, Glykogen); Baustoffe bei Pflanzen (Cellulose). Fette: langsame Energiespeicher (Speicherfett, hoher Energiegehalt);",
+        "Aminocarbonsäuren (kurz: Aminosäuren, AS) sind die Bausteine der Proteine. Sie besitzen an einem zentralen C-Atom eine Carboxygruppe –COOH, eine Aminogruppe –NH 2, ein H-Atom und einen organischen Rest R."
+      ],
+      "answer": 0,
+      "solution": "Carboxy > Carbonyl (Aldehyd, Keton) > Hydroxy > Doppelbindung > Dreifachbindung > Einfachbindung Die Gruppe mit der höchsten Priorität bestimmt die Namensendung und bekommt die niedrigste Positionsnummer. Alle anderen werden als Substituenten mit Vorsilbe und Positionsnummer genannt (Hydroxy-, Oxo-, Methyl-, Ethyl-, Chlor- …). Beispiele: 4-Hydroxybutansäure · But-2-enal · Propan-1,2,3-triol · 3-Hydroxybutan-2-on · 3-Ethyl-2-hydroxy-4-methylpentansäure.",
+      "katalog_id": "src-c5-2",
+      "schwierigkeit": 1,
+      "ab_einheit": "os-01"
+    },
+    {
+      "id": "KAT-src-d5-4-A",
+      "level": "A",
+      "kategorie": "K-ORG",
+      "skill": "Biomoleküle und Tenside",
+      "type": "choice",
+      "prompt": "Was versteht man unter Verseifung? Benenne den Reaktionstyp.",
+      "options": [
+        "Atmosphäre → Biosphäre: Pflanzen binden CO 2 durch Fotosynthese: 6 CO 2 + 6 H 2 O → C 6 H 12 O 6 + 6 O 2 Biosphäre → Atmosphäre: Zellatmung und Verwesung setzen CO 2 wieder frei (Umkehrung der Fotosynthese).",
+        "Verseifung ist die alkalische (baseninduzierte) Hydrolyse eines Fettes. Das Fett wird mit Natron- oder Kalilauge gespalten; es entstehen Glycerin und die Alkalisalze der Fettsäuren – diese nennt man Seifen.",
+        "Carboxy > Carbonyl (Aldehyd, Keton) > Hydroxy > Doppelbindung > Dreifachbindung > Einfachbindung Die Gruppe mit der höchsten Priorität bestimmt die Namensendung und bekommt die niedrigste Positionsnummer."
+      ],
+      "answer": 1,
+      "solution": "Verseifung ist die alkalische (baseninduzierte) Hydrolyse eines Fettes. Das Fett wird mit Natron- oder Kalilauge gespalten; es entstehen Glycerin und die Alkalisalze der Fettsäuren – diese nennt man Seifen. Fett + 3 NaOH → Glycerin + 3 R–COO − Na + (Seife = Natriumsalz einer Fettsäure) Reaktionstyp: baseninduzierte Esterhydrolyse. Im Gegensatz zur säurekatalysierten Hydrolyse verläuft sie nicht als Gleichgewichtsreaktion, weil das Carboxylat-Ion nicht zurückreagiert.",
+      "katalog_id": "src-d5-4",
+      "schwierigkeit": 1,
+      "ab_einheit": "es-04"
+    },
+    {
+      "id": "KAT-src-c5-1-A",
+      "level": "A",
+      "kategorie": "K-ORG",
+      "skill": "Funktionelle Gruppen – Einstieg",
+      "type": "choice",
+      "prompt": "Nenne die wichtigsten funktionellen Gruppen mit Stoffklasse, Namensendung und allgemeiner Formel.",
+      "options": [
+        "IUPAC: Alkohol-Rest als Substituent mit der Endung -yl, Säure-Rest als Stammname mit der Endung -oat → Methylethanoat, Ethylpropanoat. Ältere Schreibweise: „Alkansäurealkylester“ → Ethansäuremethylester, Butansäuremethylester.",
+        "Stoffklasse funktionelle Gruppe allg. Formel Endung Beispiel Alkohol (Alkanol) Hydroxygruppe –OH R–OH -ol Propan-1-ol Aldehyd (Alkanal) Aldehydgruppe –CHO R–CHO -al Butanal Keton (Alkanon) Ketogruppe >C=O R–CO–R' -on Butanon …",
+        "Propan < Propan-2-on < Propansäure Propan: unpolares Molekül → nur schwache London-Dispersions-Kräfte. Propan-2-on (Aceton): polare Carbonylgruppe → zusätzlich Dipol-Dipol-Kräfte, aber keine Wasserstoffbrücken (kein H am O)."
+      ],
+      "answer": 1,
+      "solution": "Stoffklasse funktionelle Gruppe allg. Formel Endung Beispiel Alkohol (Alkanol) Hydroxygruppe –OH R–OH -ol Propan-1-ol Aldehyd (Alkanal) Aldehydgruppe –CHO R–CHO -al Butanal Keton (Alkanon) Ketogruppe >C=O R–CO–R' -on Butanon Carbonsäure Carboxygruppe –COOH R–COOH -säure Ethansäure Ester Estergruppe –COO– R–COO–R' -oat / -ester Methylethanoat Ether Ethergruppe –O– R–O–R' -ether Diethylether Amin Aminogruppe –NH 2 R–NH 2 -amin Methylamin In der Aldehyd-, Keto- und Carboxygruppe taucht die Carbonylgruppe (C=O) als gemeinsamer Bestandteil auf.",
+      "katalog_id": "src-c5-1",
+      "schwierigkeit": 1,
+      "ab_einheit": "es-01"
+    },
+    {
+      "id": "KAT-src-d3-7-A",
+      "level": "A",
+      "kategorie": "K-ORG",
+      "skill": "Kohlenwasserstoffe und Reaktionsmechanismen",
+      "type": "choice",
+      "prompt": "Nenne fünf Produktgruppen, die aus Erdöl hergestellt werden, und drei Probleme der Verbrennung von Erdölprodukten.",
+      "options": [
+        "Produkte: Brenn- und Kraftstoffe (Benzin, Diesel, Heizöl, Flüssiggas) · Kunststoffe (Verpackungen, Kleidung) · Tenside (Waschmittel, Shampoo) · Kosmetika · Pharmaka · Farbstoffe und Lacke · Pestizide.",
+        "Treibhauseffekt: Erwärmung der Atmosphäre durch übermäßige Freisetzung von Treibhausgasen wie CO 2 (aus der Verbrennung fossiler Energieträger) und CH 4 (unverbrannte Erdgasreste, Landwirtschaft).",
+        "Kohlenhydrate: schnell verfügbare Energielieferanten (Glucose); Speicherstoffe (Stärke, Glykogen); Baustoffe bei Pflanzen (Cellulose). Fette: langsame Energiespeicher (Speicherfett, hoher Energiegehalt);"
+      ],
+      "answer": 0,
+      "solution": "Produkte: Brenn- und Kraftstoffe (Benzin, Diesel, Heizöl, Flüssiggas) · Kunststoffe (Verpackungen, Kleidung) · Tenside (Waschmittel, Shampoo) · Kosmetika · Pharmaka · Farbstoffe und Lacke · Pestizide. Probleme: Treibhauseffekt: Verbrennung setzt CO 2 frei → Klimaerwärmung. Umweltverschmutzung durch Förderung, Transport (Tankerunfälle) und Abgase (Ruß, Stickoxide, Schwefeldioxid → saurer Regen). Endlichkeit und Abhängigkeit: fossiler Rohstoff, Abhängigkeit von Monopolen und politisch instabilen Förderstaaten; „zu schade zum Verbrennen“, da wertvoller Rohstoff für die chemische Industrie. Verzögerung des Ausbaus regenerativer Energiequellen.",
+      "katalog_id": "src-d3-7",
+      "schwierigkeit": 1,
+      "ab_einheit": "es-05"
+    },
+    {
+      "id": "KAT-src-d3-8-A",
+      "level": "A",
+      "kategorie": "K-ORG",
+      "skill": "Kohlenwasserstoffe und Reaktionsmechanismen",
+      "type": "choice",
+      "prompt": "Erläutere Treibhauseffekt und Ozonloch – und was Kohlenwasserstoffe damit zu tun haben.",
+      "options": [
+        "Nukleophile Addition an die Carbonylgruppe. Das C-Atom der Carbonylgruppe ist wegen der stark elektronenziehenden Wirkung des Sauerstoff-Atoms (hohe Elektronegativität) positiv polarisiert (δ+).",
+        "Treibhauseffekt: Erwärmung der Atmosphäre durch übermäßige Freisetzung von Treibhausgasen wie CO 2 (aus der Verbrennung fossiler Energieträger) und CH 4 (unverbrannte Erdgasreste, Landwirtschaft).",
+        "Produkte: Brenn- und Kraftstoffe (Benzin, Diesel, Heizöl, Flüssiggas) · Kunststoffe (Verpackungen, Kleidung) · Tenside (Waschmittel, Shampoo) · Kosmetika · Pharmaka · Farbstoffe und Lacke · Pestizide."
+      ],
+      "answer": 1,
+      "solution": "Treibhauseffekt: Erwärmung der Atmosphäre durch übermäßige Freisetzung von Treibhausgasen wie CO 2 (aus der Verbrennung fossiler Energieträger) und CH 4 (unverbrannte Erdgasreste, Landwirtschaft). Diese Gase lassen kurzwellige Sonnenstrahlung durch, absorbieren aber die von der Erde abgestrahlte Wärmestrahlung. Ozonloch: Zerstörung der Ozonschicht durch Chlorfluorkohlenwasserstoffe (FCKW). Dadurch gelangt mehr schädliche UV-Strahlung auf die Erde → erhöhtes Hautkrebsrisiko, Schädigung vieler Lebewesen. Folge: weitgehendes Verbot der FCKW. Wichtig: Treibhauseffekt und Ozonloch sind zwei verschiedene Probleme mit verschiedenen Ursachen – ein häufiger Fehler in Prüfungen.",
+      "katalog_id": "src-d3-8",
+      "schwierigkeit": 1,
+      "ab_einheit": "sl-02"
+    },
+    {
+      "id": "KAT-src-d3-9-B",
+      "level": "B",
+      "kategorie": "K-ORG",
+      "skill": "Kohlenwasserstoffe und Reaktionsmechanismen",
+      "type": "choice",
+      "prompt": "Erläutere den Kohlenstoffkreislauf zwischen Atmosphäre, Lithosphäre und Biosphäre.",
+      "options": [
+        "Atmosphäre → Biosphäre: Pflanzen binden CO 2 durch Fotosynthese: 6 CO 2 + 6 H 2 O → C 6 H 12 O 6 + 6 O 2 Biosphäre → Atmosphäre: Zellatmung und Verwesung setzen CO 2 wieder frei (Umkehrung der Fotosynthese).",
+        "Alkohol-Moleküle besitzen mit der Hydroxygruppe einen polaren (hydrophilen) Molekülabschnitt, der mit Wasser Wasserstoffbrücken bilden kann, und mit dem Kohlenstoffgerüst einen unpolaren (lipophilen) Abschnitt.",
+        "Aminocarbonsäuren (kurz: Aminosäuren, AS) sind die Bausteine der Proteine. Sie besitzen an einem zentralen C-Atom eine Carboxygruppe –COOH, eine Aminogruppe –NH 2, ein H-Atom und einen organischen Rest R.",
+        "Verseifung ist die alkalische (baseninduzierte) Hydrolyse eines Fettes. Das Fett wird mit Natron- oder Kalilauge gespalten; es entstehen Glycerin und die Alkalisalze der Fettsäuren – diese nennt man Seifen."
+      ],
+      "answer": 0,
+      "solution": "Atmosphäre → Biosphäre: Pflanzen binden CO 2 durch Fotosynthese: 6 CO 2 + 6 H 2 O → C 6 H 12 O 6 + 6 O 2 Biosphäre → Atmosphäre: Zellatmung und Verwesung setzen CO 2 wieder frei (Umkehrung der Fotosynthese). Biosphäre → Lithosphäre: Abgestorbene Biomasse wird über Jahrmillionen zu Kohle, Erdöl und Erdgas; im Meer entstehen aus Schalen von Lebewesen Kalkgesteine (CaCO 3 ). Lithosphäre → Atmosphäre: Vulkanismus, Verwitterung – und in großem Maßstab die Verbrennung fossiler Energieträger durch den Menschen. Dieser Weg ist um ein Vielfaches schneller als die natürliche Rückbindung → Anstieg der CO 2 -Konzentration.",
+      "katalog_id": "src-d3-9",
+      "schwierigkeit": 1,
+      "ab_einheit": "sl-02"
+    },
+    {
+      "id": "KAT-src-d4-1-B",
+      "level": "B",
+      "kategorie": "K-ORG",
+      "skill": "Sauerstoffhaltige organische Verbindungen und Ester",
+      "type": "choice",
+      "prompt": "Warum sind kurzkettige Alkohole gut wasserlöslich und langkettige nicht?",
+      "options": [
+        "Verseifung ist die alkalische (baseninduzierte) Hydrolyse eines Fettes. Das Fett wird mit Natron- oder Kalilauge gespalten; es entstehen Glycerin und die Alkalisalze der Fettsäuren – diese nennt man Seifen.",
+        "Alkohol-Moleküle besitzen mit der Hydroxygruppe einen polaren (hydrophilen) Molekülabschnitt, der mit Wasser Wasserstoffbrücken bilden kann, und mit dem Kohlenstoffgerüst einen unpolaren (lipophilen) Abschnitt.",
+        "CH 3 –COOH + NaOH → CH 3 –COO − Na + + H 2 O Natriumethanoat (Natriumacetat) Reaktionstyp: Protolyse / Neutralisation mit Salzbildung. Die Carbonsäure wirkt als Protonendonator. Warum ist die Carboxygruppe sauer?",
+        "Atmosphäre → Biosphäre: Pflanzen binden CO 2 durch Fotosynthese: 6 CO 2 + 6 H 2 O → C 6 H 12 O 6 + 6 O 2 Biosphäre → Atmosphäre: Zellatmung und Verwesung setzen CO 2 wieder frei (Umkehrung der Fotosynthese)."
+      ],
+      "answer": 1,
+      "solution": "Alkohol-Moleküle besitzen mit der Hydroxygruppe einen polaren (hydrophilen) Molekülabschnitt, der mit Wasser Wasserstoffbrücken bilden kann, und mit dem Kohlenstoffgerüst einen unpolaren (lipophilen) Abschnitt. Bei kurzen Ketten (Methanol, Ethanol, Propanol) überwiegt der polare Anteil → gut wasserlöslich, in beliebigem Verhältnis mischbar. Mit zunehmender Kettenlänge wirkt der unpolare Rest als Gegenspieler → die Wasserlöslichkeit nimmt ab, die Benzin- und Fettlöslichkeit nimmt zu (Cetylalkohol mit 16 C-Atomen ist praktisch wasserunlöslich). Die Wasserstoffbrücken zwischen den Alkohol-Molekülen erklären außerdem die im Vergleich zu Alkanen höheren Siedetemperaturen und die höhere Viskosität.",
+      "katalog_id": "src-d4-1",
+      "schwierigkeit": 1,
+      "ab_einheit": "es-03"
+    },
+    {
+      "id": "KAT-src-d5-14-B",
+      "level": "B",
+      "kategorie": "K-ORG",
+      "skill": "Biomoleküle und Tenside",
+      "type": "choice",
+      "prompt": "Nenne für Kohlenhydrate, Fette und Proteine je zwei biologische Funktionen.",
+      "options": [
+        "Kohlenhydrate: schnell verfügbare Energielieferanten (Glucose); Speicherstoffe (Stärke, Glykogen); Baustoffe bei Pflanzen (Cellulose). Fette: langsame Energiespeicher (Speicherfett, hoher Energiegehalt);",
+        "Aminocarbonsäuren (kurz: Aminosäuren, AS) sind die Bausteine der Proteine. Sie besitzen an einem zentralen C-Atom eine Carboxygruppe –COOH, eine Aminogruppe –NH 2, ein H-Atom und einen organischen Rest R.",
+        "Carboxy > Carbonyl (Aldehyd, Keton) > Hydroxy > Doppelbindung > Dreifachbindung > Einfachbindung Die Gruppe mit der höchsten Priorität bestimmt die Namensendung und bekommt die niedrigste Positionsnummer.",
+        "Verseifung ist die alkalische (baseninduzierte) Hydrolyse eines Fettes. Das Fett wird mit Natron- oder Kalilauge gespalten; es entstehen Glycerin und die Alkalisalze der Fettsäuren – diese nennt man Seifen."
+      ],
+      "answer": 0,
+      "solution": "Kohlenhydrate: schnell verfügbare Energielieferanten (Glucose); Speicherstoffe (Stärke, Glykogen); Baustoffe bei Pflanzen (Cellulose). Fette: langsame Energiespeicher (Speicherfett, hoher Energiegehalt); Wärmeisolierung und Polsterung innerer Organe; Baustein der Biomembranen; Träger fettlöslicher Vitamine. Proteine: Baustoffwechsel (Muskeln, Haut, Haare); Enzyme als Biokatalysatoren; Transport (Hämoglobin) und Immunabwehr (Antikörper). Ernährungsregel: Wer sich vielseitig ernährt, deckt Kohlenhydrate, gesättigte und ungesättigte Fette, alle essentiellen Aminosäuren, Vitamine und Mineralstoffe eher ab. Bei einseitiger Kost steigt das Risiko für Fehl- und Mangelernährung.",
+      "katalog_id": "src-d5-14",
+      "schwierigkeit": 1,
+      "ab_einheit": "es-03"
+    },
+    {
+      "id": "KAT-src-d5-6-B",
+      "level": "B",
+      "kategorie": "K-ORG",
+      "skill": "Biomoleküle und Tenside",
+      "type": "choice",
+      "prompt": "Was sind Kohlenhydrate? Wie werden Monosaccharide eingeteilt?",
+      "options": [
+        "Omega-3-Fettsäuren besitzen – vom hinteren Ende des Moleküls aus gezählt (die von der Carboxygruppe abgewandte Seite) – am dritten Kohlenstoff-Atom eine Doppelbindung. Bei Omega-6-Fettsäuren sitzt sie entsprechend an sechster Stelle.",
+        "IUPAC: Alkohol-Rest als Substituent mit der Endung -yl, Säure-Rest als Stammname mit der Endung -oat → Methylethanoat, Ethylpropanoat. Ältere Schreibweise: „Alkansäurealkylester“ → Ethansäuremethylester, Butansäuremethylester.",
+        "Formel Verbindungsklasse funktionelle Gruppe Name CH 3 CH 2 CH 2 OH Alkohol Hydroxygruppe Propan-1-ol CH 3 CH 2 CH 2 CHO Aldehyd Aldehydgruppe Butanal CH 3 COCH 2 CH 3 Keton Ketogruppe Butan-2-on (Butanon) CH 3 COOH Carbonsäure …",
+        "Kohlenhydrate sind Verbindungen der allgemeinen Summenformel C n H 2n O n, die eine Carbonylfunktion und mindestens zwei Hydroxygruppen tragen. Monosaccharide (Einfachzucker): ein einziger Kohlenhydratbaustein – Glucose, Fructose."
+      ],
+      "answer": 3,
+      "solution": "Kohlenhydrate sind Verbindungen der allgemeinen Summenformel C n H 2n O n, die eine Carbonylfunktion und mindestens zwei Hydroxygruppen tragen. Monosaccharide (Einfachzucker): ein einziger Kohlenhydratbaustein – Glucose, Fructose. Disaccharide (Zweifachzucker): entstehen durch Kondensation zweier Monosaccharide – Saccharose, Maltose, Lactose. Polysaccharide (Vielfachzucker): entstehen durch Polykondensation vieler Zuckermoleküle – Stärke, Cellulose, Glykogen. Benennung nach Carbonylfunktion: Aldosen (Aldehydgruppe) und Ketosen (Ketogruppe). Benennung nach C-Zahl: Triosen, Tetrosen, Pentosen, Hexosen, Heptosen – kombinierbar zu Aldohexose, Ketopentose usw.",
+      "katalog_id": "src-d5-6",
+      "schwierigkeit": 1,
+      "ab_einheit": "al-01"
+    },
+    {
+      "id": "KAT-src-d3-1-B",
+      "level": "B",
+      "kategorie": "K-ORG",
+      "skill": "Kohlenwasserstoffe und Reaktionsmechanismen",
+      "type": "choice",
+      "prompt": "Unterscheide Alkane, Alkene und Alkine und gib die allgemeinen Formeln an.",
+      "options": [
+        "Proteine (Eiweiße) sind aus Aminosäuren aufgebaute Makromoleküle – Polypeptide aus hunderten bis tausenden AS. Sie gehören zu den Grundbausteinen aller Zellen.",
+        "Alkan < Ester < Alkohol < Carbonsäure Ester sieden höher als Alkane, weil neben London-Dispersions-WW auch schwache Dipol-Dipol-WW an der Estergruppe auftreten.",
+        "Stoffklasse Bindung allgemeine Formel Endung Alkane nur Einfachbindungen – gesättigt C n H 2n+2 -an Alkene mind. eine C=C-Doppelbindung – ungesättigt C n H 2n -en Alkine mind.",
+        "Je länger die Fettsäure-Reste, desto höher der Schmelzbereich. Grund: größere Moleküloberfläche → mehr London-Dispersions-Wechselwirkungen zwischen den Fettmolekülen."
+      ],
+      "answer": 2,
+      "solution": "Stoffklasse Bindung allgemeine Formel Endung Alkane nur Einfachbindungen – gesättigt C n H 2n+2 -an Alkene mind. eine C=C-Doppelbindung – ungesättigt C n H 2n -en Alkine mind. eine C≡C-Dreifachbindung – ungesättigt C n H 2n−2 -in Cycloalkane ringförmig, gesättigt C n H 2n Cyclo…-an Gesättigt bedeutet: Das Molekül kann keine weiteren Atome mehr aufnehmen (addieren). Ungesättigte Kohlenwasserstoffe können an der Mehrfachbindung addieren.",
+      "katalog_id": "src-d3-1",
+      "schwierigkeit": 1,
+      "ab_einheit": "kw-02"
+    },
+    {
+      "id": "KAT-src-d5-13-B",
+      "level": "B",
+      "kategorie": "K-ORG",
+      "skill": "Biomoleküle und Tenside",
+      "type": "choice",
+      "prompt": "Was sind Proteine? Beschreibe ihre Strukturebenen.",
+      "options": [
+        "Glucose ist eine Aldose (Aldehydgruppe), Fructose eine Ketose (Ketogruppe). Beide haben die Summenformel C 6 H 12 O 6 und sind damit Konstitutionsisomere.",
+        "Je länger die Fettsäure-Reste, desto höher der Schmelzbereich. Grund: größere Moleküloberfläche → mehr London-Dispersions-Wechselwirkungen zwischen den Fettmolekülen.",
+        "Alkan < Ester < Alkohol < Carbonsäure Ester sieden höher als Alkane, weil neben London-Dispersions-WW auch schwache Dipol-Dipol-WW an der Estergruppe auftreten.",
+        "Proteine (Eiweiße) sind aus Aminosäuren aufgebaute Makromoleküle – Polypeptide aus hunderten bis tausenden AS. Sie gehören zu den Grundbausteinen aller Zellen."
+      ],
+      "answer": 3,
+      "solution": "Proteine (Eiweiße) sind aus Aminosäuren aufgebaute Makromoleküle – Polypeptide aus hunderten bis tausenden AS. Sie gehören zu den Grundbausteinen aller Zellen. Die Reihenfolge der Aminosäuren in der Kette bestimmt, um welches Protein es sich handelt. Die Kette faltet sich zu einer bestimmten räumlichen Struktur – gehalten wird sie dabei vor allem durch Wasserstoffbrücken zwischen den Kettenteilen. Nur in dieser Form kann das Protein seine Aufgabe erfüllen. Hitze, starke Säuren, Laugen oder Alkohol zerstören die räumliche Struktur ( Denaturierung ) – das Protein verliert seine Funktion. Beispiel: Eiklar wird beim Braten fest und weiß. Einteilung: Faserproteine (langgestreckt, meist wasserunlöslich – Keratin in Haaren und Nägeln, Muskelfasern) und globuläre Proteine (verknäuelt, meist wasserlöslich – Bluteiweiße, Antikörper). Beim Menschen sind rund 20 verschiedene Aminosäuren als Proteinbausteine bekannt; einige davon sind essentiell und müssen mit der Nahrung aufgenommen werden. Aus so wenigen Bausteinen entsteht durch die unterschiedliche Reihenfolge eine riesige Vielfalt an Proteinen.",
+      "katalog_id": "src-d5-13",
+      "schwierigkeit": 1,
+      "ab_einheit": "es-05"
+    },
+    {
+      "id": "KAT-src-d5-9-B",
+      "level": "B",
+      "kategorie": "K-ORG",
+      "skill": "Biomoleküle und Tenside",
+      "type": "choice",
+      "prompt": "Beschreibe den Aufbau eines Saccharose-Moleküls und den von Stärke.",
+      "options": [
+        "Saccharose ist ein Disaccharid. Das Molekül ist ein Vollacetal aus einem Glucose- und einem Fructose-Baustein, die beide in der Ringform vorliegen.",
+        "Glucose ist eine Aldose (Aldehydgruppe), Fructose eine Ketose (Ketogruppe). Beide haben die Summenformel C 6 H 12 O 6 und sind damit Konstitutionsisomere.",
+        "Elektrophile („elektronenliebend“) sind positiv geladen oder weisen eine starke positive Partialladung auf – sie haben ein Elektronendefizit.",
+        "Proteine (Eiweiße) sind aus Aminosäuren aufgebaute Makromoleküle – Polypeptide aus hunderten bis tausenden AS. Sie gehören zu den Grundbausteinen aller Zellen."
+      ],
+      "answer": 0,
+      "solution": "Saccharose ist ein Disaccharid. Das Molekül ist ein Vollacetal aus einem Glucose- und einem Fructose-Baustein, die beide in der Ringform vorliegen. Da beide „reduzierenden“ Zentren in der Bindung gebunden sind, zeigt Saccharose eine negative Fehling-Probe. Stärke ist ein Polysaccharid, das zu einem hohen Massenanteil aus Amylose besteht. Bei deren Bildung reagieren einige hundert α-Glucose-Moleküle unter Wasserabspaltung ( Polykondensation ); dabei reagiert jeweils die OH-Gruppe am C1-Atom des einen Moleküls mit der am C4-Atom des nächsten (α-1,4-glykosidische Bindung). Das kettenförmige Makromolekül bildet eine schraubenförmige (helicale) Struktur. Nachweis: Stärke färbt sich mit Lugol'scher Lösung (Iod-Kaliumiodid-Lösung) tiefblau.",
+      "katalog_id": "src-d5-9",
+      "schwierigkeit": 1,
+      "ab_einheit": "es-05"
+    },
+    {
+      "id": "KAT-ext-077-B",
+      "level": "B",
+      "kategorie": "K-ORG",
+      "skill": "Ester",
+      "type": "choice",
+      "prompt": "Welche Stoffklassen reagieren bei einer Veresterung und welche kleine Verbindung wird abgespalten?",
+      "options": [
+        "Carbonsäure und Alkohol reagieren zu Ester und Wasser.",
+        "CₙH₂ₙ₊₂; n ist die Anzahl der Kohlenstoffatome im unverzweigten oder verzweigten gesättigten Kohlenwasserstoff.",
+        "Die Position der Doppelbindung muss angegeben werden, z. B. But-1-en oder But-2-en; außerdem kann bei But-2-en E/Z-Isomerie auftreten.",
+        "Elektrophile („elektronenliebend“) sind positiv geladen oder weisen eine starke positive Partialladung auf – sie haben ein Elektronendefizit."
+      ],
+      "answer": 0,
+      "solution": "Carbonsäure und Alkohol reagieren zu Ester und Wasser.",
+      "katalog_id": "ext-077",
+      "schwierigkeit": 2,
+      "ab_einheit": "es-01"
+    },
+    {
+      "id": "KAT-ext-075-C",
+      "level": "C",
+      "kategorie": "K-ORG",
+      "skill": "Organik",
+      "type": "choice",
+      "prompt": "Warum ist „Buten“ als eindeutiger Stoffname nicht ausreichend?",
+      "options": [
+        "CₙH₂ₙ₊₂; n ist die Anzahl der Kohlenstoffatome im unverzweigten oder verzweigten gesättigten Kohlenwasserstoff.",
+        "Saccharose ist ein Disaccharid. Das Molekül ist ein Vollacetal aus einem Glucose- und einem Fructose-Baustein, die beide in der Ringform vorliegen.",
+        "Elektrophile („elektronenliebend“) sind positiv geladen oder weisen eine starke positive Partialladung auf – sie haben ein Elektronendefizit.",
+        "Die Position der Doppelbindung muss angegeben werden, z. B. But-1-en oder But-2-en; außerdem kann bei But-2-en E/Z-Isomerie auftreten."
+      ],
+      "answer": 3,
+      "solution": "Die Position der Doppelbindung muss angegeben werden, z. B. But-1-en oder But-2-en; außerdem kann bei But-2-en E/Z-Isomerie auftreten.",
+      "katalog_id": "ext-075",
+      "schwierigkeit": 2,
+      "ab_einheit": "kw-02"
+    },
+    {
+      "id": "KAT-ext-074-C",
+      "level": "C",
+      "kategorie": "K-ORG",
+      "skill": "Organik",
+      "type": "choice",
+      "prompt": "Formuliere die allgemeine Summenformel der Alkane und erkläre n.",
+      "options": [
+        "CₙH₂ₙ₊₂; n ist die Anzahl der Kohlenstoffatome im unverzweigten oder verzweigten gesättigten Kohlenwasserstoff.",
+        "Saccharose ist ein Disaccharid. Das Molekül ist ein Vollacetal aus einem Glucose- und einem Fructose-Baustein, die beide in der Ringform vorliegen.",
+        "Elektrophile („elektronenliebend“) sind positiv geladen oder weisen eine starke positive Partialladung auf – sie haben ein Elektronendefizit.",
+        "Die Position der Doppelbindung muss angegeben werden, z. B. But-1-en oder But-2-en; außerdem kann bei But-2-en E/Z-Isomerie auftreten."
+      ],
+      "answer": 0,
+      "solution": "CₙH₂ₙ₊₂; n ist die Anzahl der Kohlenstoffatome im unverzweigten oder verzweigten gesättigten Kohlenwasserstoff.",
+      "katalog_id": "ext-074",
+      "schwierigkeit": 2,
+      "ab_einheit": "kw-02"
+    },
+    {
+      "id": "KAT-src-d4-8-C",
+      "level": "C",
+      "kategorie": "K-ORG",
+      "skill": "Sauerstoffhaltige organische Verbindungen und Ester",
+      "type": "choice",
+      "prompt": "Formuliere die Reaktion von Ethansäure mit Natronlauge und erkläre den Reaktionstyp.",
+      "options": [
+        "Propan < Propan-2-on < Propansäure Propan: unpolares Molekül → nur schwache London-Dispersions-Kräfte. Propan-2-on (Aceton): polare Carbonylgruppe → zusätzlich Dipol-Dipol-Kräfte, aber keine Wasserstoffbrücken (kein H am O).",
+        "IUPAC: Alkohol-Rest als Substituent mit der Endung -yl, Säure-Rest als Stammname mit der Endung -oat → Methylethanoat, Ethylpropanoat. Ältere Schreibweise: „Alkansäurealkylester“ → Ethansäuremethylester, Butansäuremethylester.",
+        "Alkohol-Moleküle besitzen mit der Hydroxygruppe einen polaren (hydrophilen) Molekülabschnitt, der mit Wasser Wasserstoffbrücken bilden kann, und mit dem Kohlenstoffgerüst einen unpolaren (lipophilen) Abschnitt.",
+        "CH 3 –COOH + NaOH → CH 3 –COO − Na + + H 2 O Natriumethanoat (Natriumacetat) Reaktionstyp: Protolyse / Neutralisation mit Salzbildung. Die Carbonsäure wirkt als Protonendonator. Warum ist die Carboxygruppe sauer?"
+      ],
+      "answer": 3,
+      "solution": "CH 3 –COOH + NaOH → CH 3 –COO − Na + + H 2 O Natriumethanoat (Natriumacetat) Reaktionstyp: Protolyse / Neutralisation mit Salzbildung. Die Carbonsäure wirkt als Protonendonator. Warum ist die Carboxygruppe sauer? (1) elektronenziehende Wirkung der Carbonylgruppe (−I-Effekt) polarisiert die O–H-Bindung, (2) das entstehende Carboxylat-Anion ist durch Mesomerie (zwei gleichwertige Grenzformeln) stabilisiert. Alltag: Milde organische Säuren als Entkalker: 2 CH 3 COOH + CaCO 3 → Ca 2+ + 2 CH 3 COO − + CO 2 + H 2 O",
+      "katalog_id": "src-d4-8",
+      "schwierigkeit": 2,
+      "ab_einheit": "os-01"
+    },
+    {
+      "id": "KAT-src-d5-11-C",
+      "level": "C",
+      "kategorie": "K-ORG",
+      "skill": "Biomoleküle und Tenside",
+      "type": "choice",
+      "prompt": "Beschreibe den Bau von Aminosäuren und erkläre die Zwitterionenform.",
+      "options": [
+        "Aminocarbonsäuren (kurz: Aminosäuren, AS) sind die Bausteine der Proteine. Sie besitzen an einem zentralen C-Atom eine Carboxygruppe –COOH, eine Aminogruppe –NH 2, ein H-Atom und einen organischen Rest R.",
+        "Verseifung ist die alkalische (baseninduzierte) Hydrolyse eines Fettes. Das Fett wird mit Natron- oder Kalilauge gespalten; es entstehen Glycerin und die Alkalisalze der Fettsäuren – diese nennt man Seifen.",
+        "Kohlenhydrate: schnell verfügbare Energielieferanten (Glucose); Speicherstoffe (Stärke, Glykogen); Baustoffe bei Pflanzen (Cellulose). Fette: langsame Energiespeicher (Speicherfett, hoher Energiegehalt);",
+        "Kohlenhydrate sind Verbindungen der allgemeinen Summenformel C n H 2n O n, die eine Carbonylfunktion und mindestens zwei Hydroxygruppen tragen. Monosaccharide (Einfachzucker): ein einziger Kohlenhydratbaustein – Glucose, Fructose."
+      ],
+      "answer": 0,
+      "solution": "Aminocarbonsäuren (kurz: Aminosäuren, AS) sind die Bausteine der Proteine. Sie besitzen an einem zentralen C-Atom eine Carboxygruppe –COOH, eine Aminogruppe –NH 2, ein H-Atom und einen organischen Rest R. COOH COO − | | H 2 N—C—H ⟶ H 3 N + —C—H | | R R (Neutralform) ( Zwitterion ) Durch intramolekulare Protonenwanderung gibt die Carboxygruppe (Protonendonator) ein Proton an die Aminogruppe (Protonenakzeptor) ab. Aminosäuren liegen deshalb sowohl in wässriger Lösung als auch im Feststoff als Zwitterion vor. Folgen des salzartigen Charakters: relativ gute Wasserlöslichkeit, kristalline Feststoffe mit hohen Schmelztemperaturen (sie zersetzen sich beim Erhitzen, statt zu schmelzen). AS-Zwitterionen sind Ampholyte. Man unterscheidet saure, basische und neutrale Aminosäuren – je nachdem, welchen pH-Wert ihre wässrige Lösung hat.",
+      "katalog_id": "src-d5-11",
+      "schwierigkeit": 2,
+      "ab_einheit": "os-04"
+    },
+    {
+      "id": "KAT-src-d5-10-C",
+      "level": "C",
+      "kategorie": "K-ORG",
+      "skill": "Biomoleküle und Tenside",
+      "type": "choice",
+      "prompt": "Vergleiche Maltose und Stärke hinsichtlich Bau und physikalischen Eigenschaften.",
+      "options": [
+        "Omega-3-Fettsäuren besitzen – vom hinteren Ende des Moleküls aus gezählt (die von der Carboxygruppe abgewandte Seite) – am dritten Kohlenstoff-Atom eine Doppelbindung. Bei Omega-6-Fettsäuren sitzt sie entsprechend an sechster Stelle.",
+        "Maltose (Malzzucker) Stärke Bau Disaccharid aus zwei Glucose-Bausteinen Polysaccharid aus mehreren hundert Glucose-Bausteinen Struktur kristallin amorph Löslichkeit wasserlöslich, polar praktisch unlöslich (bildet Kleister) Geschmack …",
+        "Verseifung ist die alkalische (baseninduzierte) Hydrolyse eines Fettes. Das Fett wird mit Natron- oder Kalilauge gespalten; es entstehen Glycerin und die Alkalisalze der Fettsäuren – diese nennt man Seifen.",
+        "Kohlenhydrate sind Verbindungen der allgemeinen Summenformel C n H 2n O n, die eine Carbonylfunktion und mindestens zwei Hydroxygruppen tragen. Monosaccharide (Einfachzucker): ein einziger Kohlenhydratbaustein – Glucose, Fructose."
+      ],
+      "answer": 1,
+      "solution": "Maltose (Malzzucker) Stärke Bau Disaccharid aus zwei Glucose-Bausteinen Polysaccharid aus mehreren hundert Glucose-Bausteinen Struktur kristallin amorph Löslichkeit wasserlöslich, polar praktisch unlöslich (bildet Kleister) Geschmack süß geschmacklos Rolle Abbauprodukt der Stärke Speicherstoff der Pflanzen",
+      "katalog_id": "src-d5-10",
+      "schwierigkeit": 2,
+      "ab_einheit": "sl-02"
+    },
+    {
+      "id": "KAT-src-d5-8-C",
+      "level": "C",
+      "kategorie": "K-ORG",
+      "skill": "Biomoleküle und Tenside",
+      "type": "choice",
+      "prompt": "Vergleiche Glucose und Fructose. Warum zeigen beide eine positive Fehling-Probe?",
+      "options": [
+        "Glucose ist eine Aldose (Aldehydgruppe), Fructose eine Ketose (Ketogruppe). Beide haben die Summenformel C 6 H 12 O 6 und sind damit Konstitutionsisomere.",
+        "Je länger die Fettsäure-Reste, desto höher der Schmelzbereich. Grund: größere Moleküloberfläche → mehr London-Dispersions-Wechselwirkungen zwischen den Fettmolekülen.",
+        "Saccharose ist ein Disaccharid. Das Molekül ist ein Vollacetal aus einem Glucose- und einem Fructose-Baustein, die beide in der Ringform vorliegen.",
+        "Proteine (Eiweiße) sind aus Aminosäuren aufgebaute Makromoleküle – Polypeptide aus hunderten bis tausenden AS. Sie gehören zu den Grundbausteinen aller Zellen."
+      ],
+      "answer": 0,
+      "solution": "Glucose ist eine Aldose (Aldehydgruppe), Fructose eine Ketose (Ketogruppe). Beide haben die Summenformel C 6 H 12 O 6 und sind damit Konstitutionsisomere. Obwohl Ketone normalerweise nicht mit Fehling-Lösung reagieren, zeigt auch Fructose eine positive Probe: In basischer Lösung können Glucose und Fructose über eine Keto-Enol-Tautomerie (Keto-Enol-Umlagerung) ineinander umgewandelt werden. Die dabei gebildete Aldoseform reagiert mit der Fehling-Lösung.",
+      "katalog_id": "src-d5-8",
+      "schwierigkeit": 2,
+      "ab_einheit": "kw-02"
+    },
+    {
+      "id": "KAT-src-d4-2-C",
+      "level": "C",
+      "kategorie": "K-ORG",
+      "skill": "Sauerstoffhaltige organische Verbindungen und Ester",
+      "type": "choice",
+      "prompt": "Begründe die unterschiedlichen Siedetemperaturen von Propan, Propan-2-on und Propansäure.",
+      "options": [
+        "IUPAC: Alkohol-Rest als Substituent mit der Endung -yl, Säure-Rest als Stammname mit der Endung -oat → Methylethanoat, Ethylpropanoat. Ältere Schreibweise: „Alkansäurealkylester“ → Ethansäuremethylester, Butansäuremethylester.",
+        "Propan < Propan-2-on < Propansäure Propan: unpolares Molekül → nur schwache London-Dispersions-Kräfte. Propan-2-on (Aceton): polare Carbonylgruppe → zusätzlich Dipol-Dipol-Kräfte, aber keine Wasserstoffbrücken (kein H am O).",
+        "CH 3 –COOH + NaOH → CH 3 –COO − Na + + H 2 O Natriumethanoat (Natriumacetat) Reaktionstyp: Protolyse / Neutralisation mit Salzbildung. Die Carbonsäure wirkt als Protonendonator. Warum ist die Carboxygruppe sauer?",
+        "Trivialname IUPAC-Name Formel Ameisensäure Methansäure HCOOH Essigsäure Ethansäure CH 3 COOH Buttersäure Butansäure C 3 H 7 COOH Oxalsäure Ethandisäure HOOC–COOH Acrylsäure Propensäure CH 2 =CH–COOH Glycol Ethan-1,2-diol HO–CH 2 –CH 2 …"
+      ],
+      "answer": 1,
+      "solution": "Propan < Propan-2-on < Propansäure Propan: unpolares Molekül → nur schwache London-Dispersions-Kräfte. Propan-2-on (Aceton): polare Carbonylgruppe → zusätzlich Dipol-Dipol-Kräfte, aber keine Wasserstoffbrücken (kein H am O). Propansäure: stark polare Hydroxygruppe der Carboxygruppe → Wasserstoffbrücken, zusätzlich Dimerisierung über zwei H-Brücken zwischen zwei Carboxygruppen. Unterschiede in der Molekülmasse sind hier vernachlässigbar – entscheidend ist die Art der zwischenmolekularen Wechselwirkung.",
+      "katalog_id": "src-d4-2",
+      "schwierigkeit": 2,
+      "ab_einheit": "os-01"
+    },
+    {
+      "id": "KAT-src-d4-6-C",
+      "level": "C",
+      "kategorie": "K-ORG",
+      "skill": "Sauerstoffhaltige organische Verbindungen und Ester",
+      "type": "choice",
+      "prompt": "Vergleiche die Siedepunkte von Estern mit denen von Alkanen, Alkoholen und Carbonsäuren ähnlicher Molekülmasse.",
+      "options": [
+        "Elektrophile („elektronenliebend“) sind positiv geladen oder weisen eine starke positive Partialladung auf – sie haben ein Elektronendefizit.",
+        "Alkan < Ester < Alkohol < Carbonsäure Ester sieden höher als Alkane, weil neben London-Dispersions-WW auch schwache Dipol-Dipol-WW an der Estergruppe auftreten.",
+        "CH 3 –COOH + NaOH → CH 3 –COO − Na + + H 2 O Natriumethanoat (Natriumacetat) Reaktionstyp: Protolyse / Neutralisation mit Salzbildung. Die Carbonsäure wirkt als Protonendonator. Warum ist die Carboxygruppe sauer?",
+        "Alkohol-Moleküle besitzen mit der Hydroxygruppe einen polaren (hydrophilen) Molekülabschnitt, der mit Wasser Wasserstoffbrücken bilden kann, und mit dem Kohlenstoffgerüst einen unpolaren (lipophilen) Abschnitt."
+      ],
+      "answer": 1,
+      "solution": "Alkan < Ester < Alkohol < Carbonsäure Ester sieden höher als Alkane, weil neben London-Dispersions-WW auch schwache Dipol-Dipol-WW an der Estergruppe auftreten. Ester sieden deutlich niedriger als Alkohole und Carbonsäuren, weil zwischen Ester-Molekülen keine Wasserstoffbrücken möglich sind – der Estergruppe fehlt ein an O gebundenes H-Atom. Anwendung: Ester sind leichtflüchtig und riechen fruchtig – sie werden als Aromastoffe und Lösungsmittel (Nagellackentferner: Ethansäureethylester) verwendet.",
+      "katalog_id": "src-d4-6",
+      "schwierigkeit": 2,
+      "ab_einheit": "es-01"
+    },
+    {
+      "id": "KAT-src-d5-2-C",
+      "level": "C",
+      "kategorie": "K-ORG",
+      "skill": "Biomoleküle und Tenside",
+      "type": "choice",
+      "prompt": "Formuliere zwei „Je…, desto…“-Regeln zum Schmelzbereich von Fetten und begründe sie auf Teilchenebene.",
+      "options": [
+        "Je länger die Fettsäure-Reste, desto höher der Schmelzbereich. Grund: größere Moleküloberfläche → mehr London-Dispersions-Wechselwirkungen zwischen den Fettmolekülen.",
+        "Glucose ist eine Aldose (Aldehydgruppe), Fructose eine Ketose (Ketogruppe). Beide haben die Summenformel C 6 H 12 O 6 und sind damit Konstitutionsisomere.",
+        "Proteine (Eiweiße) sind aus Aminosäuren aufgebaute Makromoleküle – Polypeptide aus hunderten bis tausenden AS. Sie gehören zu den Grundbausteinen aller Zellen.",
+        "Saccharose ist ein Disaccharid. Das Molekül ist ein Vollacetal aus einem Glucose- und einem Fructose-Baustein, die beide in der Ringform vorliegen."
+      ],
+      "answer": 0,
+      "solution": "Je länger die Fettsäure-Reste, desto höher der Schmelzbereich. Grund: größere Moleküloberfläche → mehr London-Dispersions-Wechselwirkungen zwischen den Fettmolekülen. Je mehr ungesättigte Fettsäure-Reste, desto niedriger der Schmelzbereich. Grund: Die Z-konfigurierten Doppelbindungen erzeugen einen „Knick“ in der Kette. Die gewinkelten Moleküle lassen sich schlechter dicht packen → weniger Berührungsfläche → schwächere London-Kräfte. Folge: Feste Fette enthalten hohe Anteile langer, gesättigter Fettsäuren; in flüssigen Ölen überwiegen einfach oder mehrfach ungesättigte Fettsäuren. Natürliche Fette haben keinen scharfen Schmelzpunkt, sondern einen Schmelzbereich, weil sie Gemische verschiedener Triglyceride sind.",
+      "katalog_id": "src-d5-2",
+      "schwierigkeit": 2,
+      "ab_einheit": "es-03"
+    }
+  ]
+}

@@ -140,7 +140,7 @@
         "siedepunkt"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -165,7 +165,7 @@
         "siedepunkt"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -195,7 +195,7 @@
         "siedepunkt"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -218,7 +218,7 @@
         "rechnen"
       ],
       "spiral": [
-        "W-EINH"
+        "K-QUANT"
       ]
     },
     {
@@ -252,7 +252,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -283,7 +283,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -310,7 +310,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -345,7 +345,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-EINH"
+        "K-QUANT"
       ]
     },
     {
@@ -371,34 +371,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
-      "id": "KW05-B4-010",
+      "id": "KW05-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum sind Alkane trotz starker C–H-Bindungen so leicht flüchtig?",
+      "prompt": "Ordne Ammoniak, Natriumchlorid, Propan und Wasser nach steigender Siedetemperatur und begründe.",
       "options": [
-        "Beim Verdampfen werden nur die schwachen Kräfte zwischen den Molekülen überwunden.",
-        "Weil die C–H-Bindung schwach ist.",
-        "Weil Alkane wenig wiegen."
+        "Die Elektronegativität (EN) ist ein Maß für die Fähigkeit eines Atoms, die Bindungselektronen einer Elektronenpaarbindung an sich zu ziehen. Die Werte stehen im PSE. Zunahme innerhalb einer Periode (nach rechts) – höhere Kernladung.",
+        "„Ähnliches löst sich in Ähnlichem.“ Entscheidend sind die möglichen Wechselwirkungen zwischen den Teilchen des Stoffs und denen des Lösemittels.",
+        "ΔEN Bindungstyp Beschreibung Beispiel < 0,4 unpolare (bzw. sehr schwach polare) Elektronenpaarbindung Die Atome teilen sich das bindende Elektronenpaar; der Ladungsschwerpunkt liegt (etwa) in der Mitte.",
+        "Propan < Ammoniak < Wasser < Natriumchlorid Stoff Wechselwirkung bzw. Bindungstyp Propan nur London-Dispersions-WW (unpolares Molekül) Ammoniak Wasserstoffbrücken (eine je Molekül möglich) Wasser mehrere Wasserstoffbrücken je Molekül …"
       ],
-      "answer": 0,
+      "answer": 3,
       "hints": [
-        "Was wird beim Verdampfen überwunden?",
-        "Nicht die Bindungen im Molekül.",
-        "Sondern die Kräfte dazwischen."
+        "Prüfe jede Aussage mit dem Abschnitt „Eigenschaften der Alkane“ (PDF-S. 153–155)."
       ],
-      "solution": "Die Bindungen innerhalb des Moleküls sind stark, spielen beim Verdampfen aber keine Rolle. Überwunden werden nur die schwachen van-der-Waals-Kräfte zwischen den Molekülen.",
+      "solution": "Propan < Ammoniak < Wasser < Natriumchlorid Stoff Wechselwirkung bzw. Bindungstyp Propan nur London-Dispersions-WW (unpolares Molekül) Ammoniak Wasserstoffbrücken (eine je Molekül möglich) Wasser mehrere Wasserstoffbrücken je Molekül Natriumchlorid Ionenbindung (kein Molekülgitter!) Grundregel: Je stärker die zwischenmolekularen Wechselwirkungen, desto höher Schmelz- und Siedetemperatur, weil mehr Energie nötig ist, um die Wechselwirkungen zwischen den Teilchen zu überwinden – nicht, um Bindungen innerhalb der Moleküle zu trennen!",
       "tags": [
-        "siedepunkt",
-        "msa"
+        "fragenkatalog",
+        "wechselwirkungskonzept",
+        "niveau-b"
       ],
       "spiral": [
-        "W-STOF"
-      ]
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-c4-5 · Lehrbuch PDF-S. 153–155"
     },
     {
       "id": "KW05-C2-011",
@@ -423,7 +424,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -457,7 +458,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -484,7 +485,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -519,7 +520,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     }
   ],
@@ -625,10 +626,11 @@
   ],
   "lehrbuch": {
     "kapitel": 12,
-    "titel": "Der Weg zur organischen Chemie",
-    "seiten_von": 147,
-    "seiten_bis": 162,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "van-der-Waals-Kraft"
+    "titel": "Kohlenwasserstoffe",
+    "seiten_von": 153,
+    "seiten_bis": 155,
+    "abschnitt": "Eigenschaften der Alkane",
+    "bezugswort": "van-der-Waals-Kraft",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

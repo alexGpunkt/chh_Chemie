@@ -160,7 +160,7 @@
         "laugen"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -185,7 +185,7 @@
         "laugen"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -210,31 +210,35 @@
         "laugen"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
-      "id": "SL04-A4-004",
+      "id": "SL04-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum ist Natronlauge besonders für die Augen gefährlich?",
+      "prompt": "Nenne die wichtigsten Laugen mit Trivialnamen und Formel.",
       "options": [
-        "Sie wandelt Fett in Seife um und zerstört so das Gewebe.",
-        "Sie ist sehr kalt.",
-        "Sie leuchtet."
+        "Säure Formel Säurerest 1 Säurerest 2 Säurerest 3 Hydrogenchlorid / Salzsäure HCl Cl − Chlorid – – Salpetersäure HNO 3 NO 3 − Nitrat – – Salpetrige Säure HNO 2 NO 2 − Nitrit – – Schwefelsäure H 2 SO 4 HSO 4 − Hydrogensulfat SO 4 2− …",
+        "Säure = Protonendonator; besitzt mindestens ein polar gebundenes Wasserstoff-Atom und kann mindestens ein Proton (H + ) abgeben. Saure Lösung = wässrige Lösung, die Oxonium-Ionen H 3 O + enthält. Base = Protonenakzeptor;",
+        "Trivialname Formel chemischer Name Natronlauge NaOH(aq) Natriumhydroxid-Lösung Kalilauge KOH(aq) Kaliumhydroxid-Lösung Kalkwasser Ca(OH) 2 (aq) Calciumhydroxid-Lösung Ammoniakwasser / Salmiakgeist NH 3 (aq) Ammoniak-Lösung Laugen sind …"
       ],
-      "answer": 0,
+      "answer": 2,
       "hints": [
-        "Warum fühlen sich Laugen seifig an?",
-        "Sie verseifen Fett.",
-        "Das Auge besteht aus empfindlichem Gewebe."
+        "Lies den Abschnitt „Laugen und Basen“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Laugen verseifen Fett — deshalb das seifige Gefühl auf der Haut. Im Auge zerstört das binnen Sekunden Gewebe. Deshalb ist die Schutzbrille bei Laugen besonders wichtig.",
+      "solution": "Trivialname Formel chemischer Name Natronlauge NaOH(aq) Natriumhydroxid-Lösung Kalilauge KOH(aq) Kaliumhydroxid-Lösung Kalkwasser Ca(OH) 2 (aq) Calciumhydroxid-Lösung Ammoniakwasser / Salmiakgeist NH 3 (aq) Ammoniak-Lösung Laugen sind wässrige Hydroxidlösungen. Die korrespondierende Säure zu Ammoniak NH 3 ist das Ammonium-Ion NH 4 +.",
       "tags": [
-        "laugen",
-        "sicherheit"
-      ]
+        "fragenkatalog",
+        "saeuren-basen-ph-wert-titration",
+        "niveau-a"
+      ],
+      "spiral": [
+        "K-SL"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d1-14 · Lehrbuch PDF-S. 125–130"
     },
     {
       "id": "SL04-B1-005",
@@ -267,7 +271,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -301,7 +305,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -344,7 +348,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -370,7 +374,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -394,7 +398,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -420,7 +424,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -446,7 +450,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -487,8 +491,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-SYMB"
+        "K-QUANT",
+        "K-BIND"
       ]
     },
     {
@@ -514,43 +518,35 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
-      "id": "SL04-C4-014",
+      "id": "SL04-C4-KAT",
       "path": "C",
       "step": 4,
       "type": "choice",
-      "prompt": "Ein Schüler sagt: „Basen enthalten immer OH-Gruppen.“ Wie bewertest du das?",
+      "prompt": "Bestimme in NH₃ + H₂O ⇌ NH₄⁺ + OH⁻ die Säure-Base-Paare.",
       "options": [
-        "Falsch — Ammoniak enthält keine OH-Gruppe und ist trotzdem eine Base, weil es Protonen aufnimmt.",
-        "Richtig — ohne OH keine Base.",
-        "Falsch — Basen enthalten nie OH-Gruppen."
+        "Die pH-Skala ist logarithmisch. pH 2 bedeutet eine 100-fach höhere Oxoniumionenkonzentration als pH 4.",
+        "NH₄⁺/NH₃ und H₂O/OH⁻. NH₃ nimmt ein Proton auf und ist Base; H₂O gibt eines ab und ist Säure.",
+        "Titrationsberechnung Reaktionsgleichung aufstellen (wichtig für das Stoffmengenverhältnis!).",
+        "pH = −log(1,0·10⁻³)=3,00."
       ],
-      "answer": 0,
+      "answer": 1,
       "hints": [
-        "Kennst du ein Gegenbeispiel?",
-        "Ammoniak NH₃.",
-        "Es nimmt ein Proton auf."
+        "Prüfe jede Aussage mit dem Abschnitt „Laugen und Basen“ (PDF-S. 125–130)."
       ],
-      "solution": "Der Basenbegriff ist über die Protonenaufnahme definiert, nicht über das Vorhandensein von OH. Ammoniak ist das Standardgegenbeispiel: NH₃ + H₂O ⇌ NH₄⁺ + OH⁻ — das OH stammt aus dem Wasser.",
-      "misconceptions": [
-        {
-          "id": "summenformel_falsch_gelesen",
-          "value": 1,
-          "feedback": "Ammoniak ist eine Base ohne OH-Gruppe. Entscheidend ist die Protonenaufnahme.",
-          "konzeptfehler": "summenformel_falsch_gelesen"
-        }
-      ],
+      "solution": "NH₄⁺/NH₃ und H₂O/OH⁻. NH₃ nimmt ein Proton auf und ist Base; H₂O gibt eines ab und ist Säure.",
       "tags": [
-        "laugen",
-        "bewerten",
-        "msa"
+        "fragenkatalog",
+        "saeure-base",
+        "niveau-c"
       ],
       "spiral": [
-        "W-SYMB"
-      ]
+        "K-SL"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-069 · Lehrbuch PDF-S. 125–130"
     }
   ],
   "mitschrift": {
@@ -681,9 +677,10 @@
   "lehrbuch": {
     "kapitel": 10,
     "titel": "Säuren, Laugen, Salze",
-    "seiten_von": 115,
-    "seiten_bis": 142,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Lauge"
+    "seiten_von": 125,
+    "seiten_bis": 130,
+    "abschnitt": "Laugen und Basen",
+    "bezugswort": "Hydroxid-Ion",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

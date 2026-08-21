@@ -165,7 +165,7 @@
         "pse"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -186,7 +186,7 @@
         "pse"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -228,33 +228,35 @@
         "symbole"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
-      "id": "PS01-A4-004",
+      "id": "PS01-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Ist Eisen ein Metall oder ein Nichtmetall?",
+      "prompt": "Nach welchem Prinzip sind die Elemente im Periodensystem geordnet? Was sind Perioden und Gruppen?",
       "options": [
-        "Metall",
-        "Nichtmetall",
-        "beides"
+        "Die Elemente sind nach steigender Protonenzahl (Ordnungszahl) und nach chemischer Ähnlichkeit geordnet. Periode = waagrechte Zeile; alle Elemente einer Periode haben gleich viele besetzte Energiestufen (Schalen).",
+        "Ein Ion ist ein ein- oder mehratomiges, elektrisch geladenes Teilchen. Es entsteht, wenn ein Atom Elektronen abgibt oder aufnimmt. Kation: positiv geladen (Elektronen abgegeben), z. B. Na +, Al 3+.",
+        "Ein Molekül ist ein Teilchen aus zwei oder mehr aneinander gebundenen Nichtmetallatomen. Elementmolekül: aus gleichen Atomen, z. B. O 2, N 2. Verbindungsmolekül: aus verschiedenen Atomarten, z. B. H 2 O, CO 2."
       ],
       "answer": 0,
       "hints": [
-        "Wo steht Eisen im Periodensystem?",
-        "In der Mitte links.",
-        "Dort stehen die Metalle."
+        "Lies den Abschnitt „Periodensystem, Perioden und Gruppen“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Eisen steht im linken und mittleren Bereich des Periodensystems — dort stehen die Metalle. Es glänzt, leitet Strom und ist verformbar.",
+      "solution": "Die Elemente sind nach steigender Protonenzahl (Ordnungszahl) und nach chemischer Ähnlichkeit geordnet. Periode = waagrechte Zeile; alle Elemente einer Periode haben gleich viele besetzte Energiestufen (Schalen). Periodennummer = Zahl der Schalen. Gruppe = senkrechte Spalte; die Elemente einer Hauptgruppe haben gleich viele Valenzelektronen und daher ähnliche chemische Eigenschaften. Hauptgruppennummer = Zahl der Valenzelektronen.",
       "tags": [
-        "pse"
+        "fragenkatalog",
+        "atombau-und-periodensystem",
+        "niveau-a"
       ],
       "spiral": [
-        "W-TEIL"
-      ]
+        "K-ATOM"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-b3-3 · Lehrbuch PDF-S. 92–96"
     },
     {
       "id": "PS01-B1-005",
@@ -286,7 +288,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -308,7 +310,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -344,7 +346,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -380,7 +382,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -401,7 +403,7 @@
         "pse"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -434,7 +436,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -492,7 +494,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -529,7 +531,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -563,7 +565,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     }
   ],
@@ -681,10 +683,11 @@
   ],
   "lehrbuch": {
     "kapitel": 8,
-    "titel": "Atombau und Ordnung der Elemente",
-    "seiten_von": 97,
-    "seiten_bis": 108,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Periodensystem"
+    "titel": "Elemente und ihre Ordnung",
+    "seiten_von": 92,
+    "seiten_bis": 96,
+    "abschnitt": "Periodensystem, Perioden und Gruppen",
+    "bezugswort": "Periodensystem",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

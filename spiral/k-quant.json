@@ -1,0 +1,530 @@
+{
+  "kategorie": "K-QUANT",
+  "titel": "Stoffmenge und Stöchiometrie",
+  "hinweis": "Fragen aus dem gelieferten Chemie-Fragenkatalog; jede Frage gehört genau einem Niveau und erscheint erst nach ihrer Einführungs-Einheit.",
+  "fragen": [
+    {
+      "id": "KAT-src-h-3-A",
+      "level": "A",
+      "kategorie": "K-QUANT",
+      "skill": "Rechen- und Anwendungsaufgaben",
+      "type": "choice",
+      "prompt": "Wie viel Gramm Natriumhydroxid braucht man für 250 mL Natronlauge der Konzentration 0,2 mol/L?",
+      "options": [
+        "Die Ladung des Oxid-Ions folgt aus der Oktettregel: O 2−. Die Eisenladung ergibt sich dann aus der Verhältnisformel: FeO – Verhältnis 1:1 → Fe 2+ und O 2− → Eisen(II)-oxid Fe 2 O 3 – 3 · (−2) = −6, auf 2 Fe verteilt → Fe 3+ → …",
+        "Reaktionsgleichung in vier Schritten Wortgleichung aufstellen (welche Edukte, welche Produkte?). Formeln ermitteln: Molekülformeln über die Zahlwörter, Verhältnisformeln über den Ladungsausgleich. HOFBrINCl-Elemente als X 2 !",
+        "Geg.: V = 0,250 L; c(NaOH) = 0,2 mol/L; M(NaOH) = 23 + 16 + 1 = 40 g/mol Ges.: m(NaOH) n(NaOH) = c · V = 0,2 mol/L · 0,250 L = 0,05 mol m(NaOH) = n · M = 0,05 mol · 40 g/mol = 2,0 g Antwort: Man benötigt 2,0 g Natriumhydroxid."
+      ],
+      "answer": 2,
+      "solution": "Geg.: V = 0,250 L; c(NaOH) = 0,2 mol/L; M(NaOH) = 23 + 16 + 1 = 40 g/mol Ges.: m(NaOH) n(NaOH) = c · V = 0,2 mol/L · 0,250 L = 0,05 mol m(NaOH) = n · M = 0,05 mol · 40 g/mol = 2,0 g Antwort: Man benötigt 2,0 g Natriumhydroxid.",
+      "katalog_id": "src-h-3",
+      "schwierigkeit": 1,
+      "ab_einheit": "qb-03"
+    },
+    {
+      "id": "KAT-src-b6-7-A",
+      "level": "A",
+      "kategorie": "K-QUANT",
+      "skill": "Quantitative Chemie und Stöchiometrie",
+      "type": "choice",
+      "prompt": "Wie viel Gramm Schwefel braucht man, um 10 g Eisen vollständig zu Eisen(II)-sulfid umzusetzen?",
+      "options": [
+        "Fe + S → FeS 1 mol: 1 mol: 1 mol n(Fe) = m(Fe)/M(Fe) = 10 g / 56 g/mol = 0,178 mol n(S) = 1/1 · n(Fe) = 0,178 mol m(S) = n(S) · M(S) = 0,178 mol · 32 g/mol = 5,7 g Antwort: Man benötigt rund 5,7 g Schwefel, um 10 g Eisen vollständig …",
+        "Es entsteht ein Triglycerid: Glycerin, dessen drei Hydroxygruppen über Esterbindungen mit zwei Stearinsäure-Resten (C 17 H 35 –COOH, gesättigt) und einem Ölsäure-Rest (C 17 H 33 –COOH, einfach ungesättigt, Z-konfiguriert) verknüpft …",
+        "Geg.: m(CO 2 ) = 10 g; M(CO 2 ) = 44 g/mol; V m = 22,4 L/mol Ges.: V(CO 2 ) n(CO 2 ) = m(CO 2 ) / M(CO 2 ) = 10 g / 44 g/mol = 0,23 mol V(CO 2 ) = n(CO 2 ) · V m = 0,23 mol · 22,4 L/mol = 5,2 L Antwort: 10 g Kohlenstoffdioxid nehmen …"
+      ],
+      "answer": 0,
+      "solution": "Fe + S → FeS 1 mol: 1 mol: 1 mol n(Fe) = m(Fe)/M(Fe) = 10 g / 56 g/mol = 0,178 mol n(S) = 1/1 · n(Fe) = 0,178 mol m(S) = n(S) · M(S) = 0,178 mol · 32 g/mol = 5,7 g Antwort: Man benötigt rund 5,7 g Schwefel, um 10 g Eisen vollständig umzusetzen.",
+      "katalog_id": "src-b6-7",
+      "schwierigkeit": 1,
+      "ab_einheit": "qb-01"
+    },
+    {
+      "id": "KAT-src-h-8-A",
+      "level": "A",
+      "kategorie": "K-QUANT",
+      "skill": "Rechen- und Anwendungsaufgaben",
+      "type": "choice",
+      "prompt": "Gib die korrekten Formeln für Kalilauge, Aluminiumhydroxid-Lösung und Magnesiumhydroxid-Lösung an.",
+      "options": [
+        "Valenzstrichformel in neun Schritten Summenformel des Teilchens aufschreiben. Vorhandene Valenzelektronen (VE) aller Atome addieren. Bei Ionen: Ladungszahl bei Anionen addieren, bei Kationen subtrahieren.",
+        "Kalilauge: KOH(aq) Aluminiumhydroxid-Lösung: Al(OH) 3 (aq) Magnesiumhydroxid-Lösung: Mg(OH) 2 (aq) Die Zahl der Hydroxid-Ionen ergibt sich aus der Ladung des Metall-Kations (K +, Al 3+, Mg 2+ ).",
+        "1 u ist definiert als 1/12 der Masse eines 12 C-Atoms; es gilt 1 u ≈ 1,66 · 10 −24 g. Die relative Atommasse gibt an, wie groß die Masse eines Atoms im Verhältnis zu 1 u ist. Sie steht im PSE."
+      ],
+      "answer": 1,
+      "solution": "Kalilauge: KOH(aq) Aluminiumhydroxid-Lösung: Al(OH) 3 (aq) Magnesiumhydroxid-Lösung: Mg(OH) 2 (aq) Die Zahl der Hydroxid-Ionen ergibt sich aus der Ladung des Metall-Kations (K +, Al 3+, Mg 2+ ). Da OH − ein Molekül-Ion ist, steht es bei Index ≥ 2 in Klammern.",
+      "katalog_id": "src-h-8",
+      "schwierigkeit": 1,
+      "ab_einheit": "qb-03"
+    },
+    {
+      "id": "KAT-src-h-7-A",
+      "level": "A",
+      "kategorie": "K-QUANT",
+      "skill": "Rechen- und Anwendungsaufgaben",
+      "type": "choice",
+      "prompt": "Vervollständige: Salzformel – Salzname – enthaltene Ionen.",
+      "options": [
+        "Formel Name Ionen und Verhältnis Li 2 CO 3 Lithiumcarbonat 2 Li + + CO 3 2− NaNO 3 Natriumnitrat Na + + NO 3 − K 2 SO 4 Kaliumsulfat 2 K + + SO 4 2− Mg(H 2 PO 4 ) 2 Magnesiumdihydrogenphosphat Mg 2+ + 2 H 2 PO 4 − Ca(HCO 3 ) 2 …",
+        "Die Ladung des Oxid-Ions folgt aus der Oktettregel: O 2−. Die Eisenladung ergibt sich dann aus der Verhältnisformel: FeO – Verhältnis 1:1 → Fe 2+ und O 2− → Eisen(II)-oxid Fe 2 O 3 – 3 · (−2) = −6, auf 2 Fe verteilt → Fe 3+ → …",
+        "Geg.: V = 0,250 L; c(NaOH) = 0,2 mol/L; M(NaOH) = 23 + 16 + 1 = 40 g/mol Ges.: m(NaOH) n(NaOH) = c · V = 0,2 mol/L · 0,250 L = 0,05 mol m(NaOH) = n · M = 0,05 mol · 40 g/mol = 2,0 g Antwort: Man benötigt 2,0 g Natriumhydroxid."
+      ],
+      "answer": 0,
+      "solution": "Formel Name Ionen und Verhältnis Li 2 CO 3 Lithiumcarbonat 2 Li + + CO 3 2− NaNO 3 Natriumnitrat Na + + NO 3 − K 2 SO 4 Kaliumsulfat 2 K + + SO 4 2− Mg(H 2 PO 4 ) 2 Magnesiumdihydrogenphosphat Mg 2+ + 2 H 2 PO 4 − Ca(HCO 3 ) 2 Calciumhydrogencarbonat Ca 2+ + 2 HCO 3 −",
+      "katalog_id": "src-h-7",
+      "schwierigkeit": 1,
+      "ab_einheit": "sz-02"
+    },
+    {
+      "id": "KAT-src-b6-8-A",
+      "level": "A",
+      "kategorie": "K-QUANT",
+      "skill": "Quantitative Chemie und Stöchiometrie",
+      "type": "choice",
+      "prompt": "Was sind Gehaltsgrößen?",
+      "options": [
+        "2 C 4 H 10 + 13 O 2 → 8 CO 2 + 10 H 2 O 2 mol: 13 mol M(C 4 H 10 ) = 4·12 + 10·1 = 58 g/mol n(C 4 H 10 ) = 330 g / 58 g/mol = 5,69 mol n(O 2 ) = 13/2 · n(C 4 H 10 ) = 6,5 · 5,69 mol = 37,0 mol V(O 2 ) = n · V m = 37,0 mol · 22,4 L/mol …",
+        "Gehaltsgrößen geben an, wie viel gelöster Stoff in einer Lösung enthalten ist: Massenkonzentration β = m(gelöster Stoff)/V(Lösung) in g/L Stoffmengenkonzentration c = n/V in mol/L Massenanteil w in % (Massenprozent), Volumenanteil φ in …",
+        "n(X) = m(X) / M(X) ⟺ m(X) = n(X) · M(X) n(X) = V(X) / V m ⟺ V(X) = n(X) · V m (nur für Gase!) n(X) = N(X) / N A ⟺ N(X) = n(X) · N A n(X) = c(X) · V(Lösung) ⟺ c(X) = n(X) / V(Lösung) V m = 22,4 L/mol (0 °C, 1013 hPa) N A = 6,022 · 10 23 …"
+      ],
+      "answer": 1,
+      "solution": "Gehaltsgrößen geben an, wie viel gelöster Stoff in einer Lösung enthalten ist: Massenkonzentration β = m(gelöster Stoff)/V(Lösung) in g/L Stoffmengenkonzentration c = n/V in mol/L Massenanteil w in % (Massenprozent), Volumenanteil φ in % (Volumenprozent) Beispiel: „10 %ige Salzsäure“ bedeutet 10 g HCl in 100 g Lösung.",
+      "katalog_id": "src-b6-8",
+      "schwierigkeit": 1,
+      "ab_einheit": "qb-01"
+    },
+    {
+      "id": "KAT-src-h-6-A",
+      "level": "A",
+      "kategorie": "K-QUANT",
+      "skill": "Rechen- und Anwendungsaufgaben",
+      "type": "choice",
+      "prompt": "Bestimme die Ionenladung der Eisen-Ionen in FeO und Fe 2 O 3 und nenne je eine Verbindung mit dem Ionenverhältnis 2:1, 1:3 und 2:3.",
+      "options": [
+        "Formel Name Ionen und Verhältnis Li 2 CO 3 Lithiumcarbonat 2 Li + + CO 3 2− NaNO 3 Natriumnitrat Na + + NO 3 − K 2 SO 4 Kaliumsulfat 2 K + + SO 4 2− Mg(H 2 PO 4 ) 2 Magnesiumdihydrogenphosphat Mg 2+ + 2 H 2 PO 4 − Ca(HCO 3 ) 2 …",
+        "Die Ladung des Oxid-Ions folgt aus der Oktettregel: O 2−. Die Eisenladung ergibt sich dann aus der Verhältnisformel: FeO – Verhältnis 1:1 → Fe 2+ und O 2− → Eisen(II)-oxid Fe 2 O 3 – 3 · (−2) = −6, auf 2 Fe verteilt → Fe 3+ → …",
+        "Geg.: V = 0,250 L; c(NaOH) = 0,2 mol/L; M(NaOH) = 23 + 16 + 1 = 40 g/mol Ges.: m(NaOH) n(NaOH) = c · V = 0,2 mol/L · 0,250 L = 0,05 mol m(NaOH) = n · M = 0,05 mol · 40 g/mol = 2,0 g Antwort: Man benötigt 2,0 g Natriumhydroxid."
+      ],
+      "answer": 1,
+      "solution": "Die Ladung des Oxid-Ions folgt aus der Oktettregel: O 2−. Die Eisenladung ergibt sich dann aus der Verhältnisformel: FeO – Verhältnis 1:1 → Fe 2+ und O 2− → Eisen(II)-oxid Fe 2 O 3 – 3 · (−2) = −6, auf 2 Fe verteilt → Fe 3+ → Eisen(III)-oxid Ionenverhältnisse: 2:1 → Li 2 O · 1:3 → Na 3 N (bzw. AlCl 3 ) · 2:3 → Al 2 O 3",
+      "katalog_id": "src-h-6",
+      "schwierigkeit": 1,
+      "ab_einheit": "sz-02"
+    },
+    {
+      "id": "KAT-src-b6-1-A",
+      "level": "A",
+      "kategorie": "K-QUANT",
+      "skill": "Quantitative Chemie und Stöchiometrie",
+      "type": "choice",
+      "prompt": "Gib zu allen Quantitäts- und Umrechnungsgrößen Formelzeichen und Einheit an.",
+      "options": [
+        "Größe Symbol Einheit Zahlenwert Masse m g – Molare Masse M g/mol aus dem PSE ablesbar Stoffmenge n mol – Teilchenzahl N – – Avogadro-Konstante N A 1/mol 6,022 · 10 23 mol −1 Molares Volumen (Gase) V m L/mol 22,4 L/mol bei …",
+        "Reaktionsgleichung in vier Schritten Wortgleichung aufstellen (welche Edukte, welche Produkte?). Formeln ermitteln: Molekülformeln über die Zahlwörter, Verhältnisformeln über den Ladungsausgleich. HOFBrINCl-Elemente als X 2 !",
+        "Geg.: V = 0,250 L; c(NaOH) = 0,2 mol/L; M(NaOH) = 23 + 16 + 1 = 40 g/mol Ges.: m(NaOH) n(NaOH) = c · V = 0,2 mol/L · 0,250 L = 0,05 mol m(NaOH) = n · M = 0,05 mol · 40 g/mol = 2,0 g Antwort: Man benötigt 2,0 g Natriumhydroxid."
+      ],
+      "answer": 0,
+      "solution": "Größe Symbol Einheit Zahlenwert Masse m g – Molare Masse M g/mol aus dem PSE ablesbar Stoffmenge n mol – Teilchenzahl N – – Avogadro-Konstante N A 1/mol 6,022 · 10 23 mol −1 Molares Volumen (Gase) V m L/mol 22,4 L/mol bei Normbedingungen Stoffmengenkonzentration c mol/L – Reaktionsenergie ΔE i kJ – Normbedingungen: 0 °C (273 K) und 1013 hPa. Bei 25 °C beträgt V m = 24,5 L/mol.",
+      "katalog_id": "src-b6-1",
+      "schwierigkeit": 1,
+      "ab_einheit": "qb-01"
+    },
+    {
+      "id": "KAT-src-b6-4-A",
+      "level": "A",
+      "kategorie": "K-QUANT",
+      "skill": "Quantitative Chemie und Stöchiometrie",
+      "type": "choice",
+      "prompt": "Was sind atomare Masseneinheit u und relative Atommasse?",
+      "options": [
+        "Kalilauge: KOH(aq) Aluminiumhydroxid-Lösung: Al(OH) 3 (aq) Magnesiumhydroxid-Lösung: Mg(OH) 2 (aq) Die Zahl der Hydroxid-Ionen ergibt sich aus der Ladung des Metall-Kations (K +, Al 3+, Mg 2+ ).",
+        "1 u ist definiert als 1/12 der Masse eines 12 C-Atoms; es gilt 1 u ≈ 1,66 · 10 −24 g. Die relative Atommasse gibt an, wie groß die Masse eines Atoms im Verhältnis zu 1 u ist. Sie steht im PSE.",
+        "Valenzstrichformel in neun Schritten Summenformel des Teilchens aufschreiben. Vorhandene Valenzelektronen (VE) aller Atome addieren. Bei Ionen: Ladungszahl bei Anionen addieren, bei Kationen subtrahieren."
+      ],
+      "answer": 1,
+      "solution": "1 u ist definiert als 1/12 der Masse eines 12 C-Atoms; es gilt 1 u ≈ 1,66 · 10 −24 g. Die relative Atommasse gibt an, wie groß die Masse eines Atoms im Verhältnis zu 1 u ist. Sie steht im PSE. Die Molekülmasse ist die Summe der Atommassen aller Atome des Moleküls. Beispiele: m a (C) = 12 u → M(C) = 12 g/mol; m(N 2 ) = 28 u → M(N 2 ) = 28 g/mol; M(CO 2 ) = 44 g/mol; M(N 2 O 5 ) = 108 g/mol.",
+      "katalog_id": "src-b6-4",
+      "schwierigkeit": 1,
+      "ab_einheit": "qb-01"
+    },
+    {
+      "id": "KAT-src-b6-3-A",
+      "level": "A",
+      "kategorie": "K-QUANT",
+      "skill": "Quantitative Chemie und Stöchiometrie",
+      "type": "choice",
+      "prompt": "Gib alle Umrechnungsformeln zwischen n, m, V, N und c an.",
+      "options": [
+        "n(X) = m(X) / M(X) ⟺ m(X) = n(X) · M(X) n(X) = V(X) / V m ⟺ V(X) = n(X) · V m (nur für Gase!) n(X) = N(X) / N A ⟺ N(X) = n(X) · N A n(X) = c(X) · V(Lösung) ⟺ c(X) = n(X) / V(Lösung) V m = 22,4 L/mol (0 °C, 1013 hPa) N A = 6,022 · 10 23 …",
+        "Gehaltsgrößen geben an, wie viel gelöster Stoff in einer Lösung enthalten ist: Massenkonzentration β = m(gelöster Stoff)/V(Lösung) in g/L Stoffmengenkonzentration c = n/V in mol/L Massenanteil w in % (Massenprozent), Volumenanteil φ in …",
+        "2 C 4 H 10 + 13 O 2 → 8 CO 2 + 10 H 2 O 2 mol: 13 mol M(C 4 H 10 ) = 4·12 + 10·1 = 58 g/mol n(C 4 H 10 ) = 330 g / 58 g/mol = 5,69 mol n(O 2 ) = 13/2 · n(C 4 H 10 ) = 6,5 · 5,69 mol = 37,0 mol V(O 2 ) = n · V m = 37,0 mol · 22,4 L/mol …"
+      ],
+      "answer": 0,
+      "solution": "n(X) = m(X) / M(X) ⟺ m(X) = n(X) · M(X) n(X) = V(X) / V m ⟺ V(X) = n(X) · V m (nur für Gase!) n(X) = N(X) / N A ⟺ N(X) = n(X) · N A n(X) = c(X) · V(Lösung) ⟺ c(X) = n(X) / V(Lösung) V m = 22,4 L/mol (0 °C, 1013 hPa) N A = 6,022 · 10 23 mol −1 Die Stoffmenge n ist die Drehscheibe: Jede gegebene Größe wird zuerst in mol umgerechnet, dann über das Stoffmengenverhältnis übertragen und erst am Schluss in die gesuchte Größe zurückgerechnet.",
+      "katalog_id": "src-b6-3",
+      "schwierigkeit": 1,
+      "ab_einheit": "qb-01"
+    },
+    {
+      "id": "KAT-src-h-10-B",
+      "level": "B",
+      "kategorie": "K-QUANT",
+      "skill": "Rechen- und Anwendungsaufgaben",
+      "type": "choice",
+      "prompt": "Erstelle die Strukturformel eines Tripeptids aus Alanin (R = –CH 3 ), Serin (R = –CH 2 OH) und Asparaginsäure (R = –CH 2 COOH).",
+      "options": [
+        "Es entsteht ein Triglycerid: Glycerin, dessen drei Hydroxygruppen über Esterbindungen mit zwei Stearinsäure-Resten (C 17 H 35 –COOH, gesättigt) und einem Ölsäure-Rest (C 17 H 33 –COOH, einfach ungesättigt, Z-konfiguriert) verknüpft …",
+        "Formel gegeben │ ├─ Enthält sie ein Metall ? ──── NEIN ──→ Verbindungsmolekül │ → griechische Zahlwörter verwenden │ z. B. N 2 O 7 = Distickstoffheptaoxid │ └─ JA ──→ Salz → keine Zahlwörter! │ ├─ Metall aus einer Hauptgruppe (1.–3.",
+        "O H O H ‖ | ‖ | H 2 N—CH—C——N—CH—C——N—CH—COOH + 2 H 2 O | | | CH 3 CH 2 OH CH 2 COOH Alanin Serin Asparaginsäure Die beiden Peptidbindungen (–CO–NH–) entstehen jeweils durch Kondensation zwischen der Carboxygruppe der einen und der …",
+        "Fe + S → FeS 1 mol: 1 mol: 1 mol n(Fe) = m(Fe)/M(Fe) = 10 g / 56 g/mol = 0,178 mol n(S) = 1/1 · n(Fe) = 0,178 mol m(S) = n(S) · M(S) = 0,178 mol · 32 g/mol = 5,7 g Antwort: Man benötigt rund 5,7 g Schwefel, um 10 g Eisen vollständig …"
+      ],
+      "answer": 2,
+      "solution": "O H O H ‖ | ‖ | H 2 N—CH—C——N—CH—C——N—CH—COOH + 2 H 2 O | | | CH 3 CH 2 OH CH 2 COOH Alanin Serin Asparaginsäure Die beiden Peptidbindungen (–CO–NH–) entstehen jeweils durch Kondensation zwischen der Carboxygruppe der einen und der Aminogruppe der nächsten Aminosäure; dabei werden zwei Wasser-Moleküle abgespalten. Die freie Aminogruppe links heißt N-Terminus, die freie Carboxygruppe rechts C-Terminus. Die Reihenfolge wird stets vom N- zum C-Terminus angegeben: Ala-Ser-Asp.",
+      "katalog_id": "src-h-10",
+      "schwierigkeit": 1,
+      "ab_einheit": "os-04"
+    },
+    {
+      "id": "KAT-src-b6-2-B",
+      "level": "B",
+      "kategorie": "K-QUANT",
+      "skill": "Quantitative Chemie und Stöchiometrie",
+      "type": "choice",
+      "prompt": "Definiere Stoffmenge, Mol, Avogadro-Konstante und molare Masse.",
+      "options": [
+        "Reaktionsgleichung in vier Schritten Wortgleichung aufstellen (welche Edukte, welche Produkte?). Formeln ermitteln: Molekülformeln über die Zahlwörter, Verhältnisformeln über den Ladungsausgleich. HOFBrINCl-Elemente als X 2 !",
+        "Quantitative Auswertung einer Reaktionsgleichung Reaktionsgleichung aufstellen und ausgleichen. Mengenaussage in mol unter die Gleichung schreiben. Gegebene Größe mit richtigem Symbol und Stoffbezug notieren.",
+        "Größe Symbol Einheit Zahlenwert Masse m g – Molare Masse M g/mol aus dem PSE ablesbar Stoffmenge n mol – Teilchenzahl N – – Avogadro-Konstante N A 1/mol 6,022 · 10 23 mol −1 Molares Volumen (Gase) V m L/mol 22,4 L/mol bei …",
+        "Stoffmenge n: Größe zur Beschreibung einer Stoffportion; gibt an, wie viele Teilchen sie enthält. Einheit: mol. 1 mol ist die Stoffmenge einer Portion, die 6,022 · 10 23 Teilchen (Atome, Moleküle oder Ionen) enthält."
+      ],
+      "answer": 3,
+      "solution": "Stoffmenge n: Größe zur Beschreibung einer Stoffportion; gibt an, wie viele Teilchen sie enthält. Einheit: mol. 1 mol ist die Stoffmenge einer Portion, die 6,022 · 10 23 Teilchen (Atome, Moleküle oder Ionen) enthält. Avogadro-Konstante N A = 6,022 · 10 23 mol −1: Umrechnungsgröße zwischen Stoffmenge und Teilchenzahl. Molare Masse M: Masse von 1 mol eines Stoffes in g/mol. Ihr Zahlenwert ist identisch mit der Teilchenmasse in u und lässt sich aus dem PSE ablesen. Wichtig: Die Stoffmenge muss immer auf eine Teilchenart bezogen werden: n(H 2 O), nicht nur n.",
+      "katalog_id": "src-b6-2",
+      "schwierigkeit": 1,
+      "ab_einheit": "qb-01"
+    },
+    {
+      "id": "KAT-src-e-1-B",
+      "level": "B",
+      "kategorie": "K-QUANT",
+      "skill": "Werkzeugkästen – Schritt für Schritt",
+      "type": "choice",
+      "prompt": "Werkzeug: Verhältnisformel eines Salzes aufstellen",
+      "options": [
+        "Geg.: m(H 2 O) = 18 g; M(H 2 O) = 18 g/mol; N A = 6,022·10 23 mol −1 Ges.: N(H 2 O) n(H 2 O) = m / M = 18 g / 18 g/mol = 1 mol N(H 2 O) = n · N A = 1 mol · 6,022·10 23 mol −1 = 6,022·10 23 Antwort: In 18 g Wasser sind etwa 6,022 · 10 …",
+        "Variante 1 – „Kochrezept“ über das kgV (Beispiel: Calciumchlorid) Ionensymbole aufschreiben: Ca 2+ und Cl − Wertigkeit = Ionenladung notieren: Ca zweiwertig, Cl einwertig kgV der Ionenladungen berechnen: 2 · 1 = 2 kgV ÷ Ionenladung = …",
+        "Gehaltsgrößen geben an, wie viel gelöster Stoff in einer Lösung enthalten ist: Massenkonzentration β = m(gelöster Stoff)/V(Lösung) in g/L Stoffmengenkonzentration c = n/V in mol/L Massenanteil w in % (Massenprozent), Volumenanteil φ in …",
+        "Geg.: m(CO 2 ) = 10 g; M(CO 2 ) = 44 g/mol; V m = 22,4 L/mol Ges.: V(CO 2 ) n(CO 2 ) = m(CO 2 ) / M(CO 2 ) = 10 g / 44 g/mol = 0,23 mol V(CO 2 ) = n(CO 2 ) · V m = 0,23 mol · 22,4 L/mol = 5,2 L Antwort: 10 g Kohlenstoffdioxid nehmen …"
+      ],
+      "answer": 1,
+      "solution": "Variante 1 – „Kochrezept“ über das kgV (Beispiel: Calciumchlorid) Ionensymbole aufschreiben: Ca 2+ und Cl − Wertigkeit = Ionenladung notieren: Ca zweiwertig, Cl einwertig kgV der Ionenladungen berechnen: 2 · 1 = 2 kgV ÷ Ionenladung = Index: Ca: 2 ÷ 2 = 1 · Cl: 2 ÷ 1 = 2 Verhältnisformel: CaCl 2 Variante 2 – Kreuzregel (Beispiel: Aluminiumoxid) Elementsymbole anschreiben: Al · O Wertigkeiten darüber schreiben: Al = III, O = II Wertigkeiten „über Kreuz“ als Index notieren → Al 2 O 3 Falls möglich kürzen (z. B. Mg 2 O 2 → MgO) Zwei goldene Regeln: Die Summe aller Ladungen muss null ergeben. An den Zahlenverhältnissen innerhalb eines Molekül-Ions (NH 4 +, SO 3 2− ) darf nichts geändert werden – auch die Ladung nicht. Der Ausgleich erfolgt ausschließlich über die Anzahl der kompletten Ionen (in Klammern!). Beispiele: Ammoniumdichromat = (NH 4 ) 2 Cr 2 O 7 · Natriumphosphat = Na 3 PO 4 · Calciumnitrid = Ca 3 N 2 · Lithiumsulfid = Li 2 S · Eisen(II)-chlorid = FeCl 2 · Magnesiumdihydrogenphosphat = Mg(H 2 PO 4 ) 2",
+      "katalog_id": "src-e-1",
+      "schwierigkeit": 1,
+      "ab_einheit": "sz-02"
+    },
+    {
+      "id": "KAT-src-e-2-B",
+      "level": "B",
+      "kategorie": "K-QUANT",
+      "skill": "Werkzeugkästen – Schritt für Schritt",
+      "type": "choice",
+      "prompt": "Werkzeug: Reaktionsgleichung aufstellen und ausgleichen",
+      "options": [
+        "Die Ladung des Oxid-Ions folgt aus der Oktettregel: O 2−. Die Eisenladung ergibt sich dann aus der Verhältnisformel: FeO – Verhältnis 1:1 → Fe 2+ und O 2− → Eisen(II)-oxid Fe 2 O 3 – 3 · (−2) = −6, auf 2 Fe verteilt → Fe 3+ → …",
+        "Größe Symbol Einheit Zahlenwert Masse m g – Molare Masse M g/mol aus dem PSE ablesbar Stoffmenge n mol – Teilchenzahl N – – Avogadro-Konstante N A 1/mol 6,022 · 10 23 mol −1 Molares Volumen (Gase) V m L/mol 22,4 L/mol bei …",
+        "Reaktionsgleichung in vier Schritten Wortgleichung aufstellen (welche Edukte, welche Produkte?). Formeln ermitteln: Molekülformeln über die Zahlwörter, Verhältnisformeln über den Ladungsausgleich. HOFBrINCl-Elemente als X 2 !",
+        "Geg.: V = 0,250 L; c(NaOH) = 0,2 mol/L; M(NaOH) = 23 + 16 + 1 = 40 g/mol Ges.: m(NaOH) n(NaOH) = c · V = 0,2 mol/L · 0,250 L = 0,05 mol m(NaOH) = n · M = 0,05 mol · 40 g/mol = 2,0 g Antwort: Man benötigt 2,0 g Natriumhydroxid."
+      ],
+      "answer": 2,
+      "solution": "Reaktionsgleichung in vier Schritten Wortgleichung aufstellen (welche Edukte, welche Produkte?). Formeln ermitteln: Molekülformeln über die Zahlwörter, Verhältnisformeln über den Ladungsausgleich. HOFBrINCl-Elemente als X 2 ! Ausgleichen: nur Koeffizienten setzen – Indizes bleiben unverändert. Reihenfolge: erst Metalle, dann Nichtmetalle außer H und O, dann H, zuletzt O. Kontrolle: Atombilanz für jede Sorte, ggf. Zustandssymbole (s), (l), (g), (aq) ergänzen. Typischer Fehler: Um eine Gleichung „passend“ zu machen, wird ein Index geändert (z. B. H 2 O → H 2 O 2 ). Damit ist es aber ein anderer Stoff. Nur Koeffizienten dürfen verändert werden.",
+      "katalog_id": "src-e-2",
+      "schwierigkeit": 1,
+      "ab_einheit": "sz-02"
+    },
+    {
+      "id": "KAT-src-e-3-B",
+      "level": "B",
+      "kategorie": "K-QUANT",
+      "skill": "Werkzeugkästen – Schritt für Schritt",
+      "type": "choice",
+      "prompt": "Werkzeug: Valenzstrichformel von Molekülen und Molekül-Ionen aufstellen",
+      "options": [
+        "Quantitative Auswertung einer Reaktionsgleichung Reaktionsgleichung aufstellen und ausgleichen. Mengenaussage in mol unter die Gleichung schreiben. Gegebene Größe mit richtigem Symbol und Stoffbezug notieren.",
+        "IUPAC-Name in fünf Schritten Hauptkette suchen: die längste zusammenhängende Kohlenstoffkette, die die funktionelle Gruppe höchster Priorität enthält → gibt den Stammnamen (Meth-, Eth-, Prop-, But-, Pent- …).",
+        "Kalilauge: KOH(aq) Aluminiumhydroxid-Lösung: Al(OH) 3 (aq) Magnesiumhydroxid-Lösung: Mg(OH) 2 (aq) Die Zahl der Hydroxid-Ionen ergibt sich aus der Ladung des Metall-Kations (K +, Al 3+, Mg 2+ ).",
+        "Valenzstrichformel in neun Schritten Summenformel des Teilchens aufschreiben. Vorhandene Valenzelektronen (VE) aller Atome addieren. Bei Ionen: Ladungszahl bei Anionen addieren, bei Kationen subtrahieren."
+      ],
+      "answer": 3,
+      "solution": "Valenzstrichformel in neun Schritten Summenformel des Teilchens aufschreiben. Vorhandene Valenzelektronen (VE) aller Atome addieren. Bei Ionen: Ladungszahl bei Anionen addieren, bei Kationen subtrahieren. Benötigte VE ermitteln: 8 pro Atom (Oktett), 2 bei Wasserstoff (Duplett). Bindende Elektronen (BE) = benötigte VE − vorhandene VE. Anzahl der Bindungen = ½ · BE. Nichtbindende Elektronen (NBE) = vorhandene VE − BE. Das Atom mit der größten Wertigkeit zentral anordnen, die übrigen möglichst symmetrisch darum; mit je einem Elektronenpaar verbinden. Übrige bindende Elektronen für Doppel- oder Dreifachbindungen verwenden. NBE verteilen, bis jedes Atom sein Oktett (H: Duplett) erreicht. Falls nötig: Formalladungen bestimmen (VE laut PSE − freie Elektronen − ½ · bindende Elektronen). Beispiel CO 2 Beispiel Carbonat-Ion CO 3 2− vorhanden: C 4 + 2·O 6 = 16 VE vorhanden: C 4 + 3·O 6 + 2 (Ladung) = 24 VE benötigt: C 8 + 2·8 = 24 VE benötigt: C 8 + 3·8 = 32 VE BE = 24 − 16 = 8 → 4 Bindungen BE = 32 − 24 = 8 → 4 Bindungen NBE = 16 − 8 = 8 → 4 freie Paare NBE = 24 − 8 = 16 → 8 freie Paare → O=C=O → eine C=O-Doppel-, zwei C–O-Einfachbindungen (mesomere Grenzformeln, Formalladungen −1)",
+      "katalog_id": "src-e-3",
+      "schwierigkeit": 1,
+      "ab_einheit": "qb-05"
+    },
+    {
+      "id": "KAT-src-e-6-B",
+      "level": "B",
+      "kategorie": "K-QUANT",
+      "skill": "Werkzeugkästen – Schritt für Schritt",
+      "type": "choice",
+      "prompt": "Werkzeug: Verbindungen benennen – der Entscheidungsbaum",
+      "options": [
+        "Formel gegeben │ ├─ Enthält sie ein Metall ? ──── NEIN ──→ Verbindungsmolekül │ → griechische Zahlwörter verwenden │ z. B. N 2 O 7 = Distickstoffheptaoxid │ └─ JA ──→ Salz → keine Zahlwörter! │ ├─ Metall aus einer Hauptgruppe (1.–3.",
+        "Es entsteht ein Triglycerid: Glycerin, dessen drei Hydroxygruppen über Esterbindungen mit zwei Stearinsäure-Resten (C 17 H 35 –COOH, gesättigt) und einem Ölsäure-Rest (C 17 H 33 –COOH, einfach ungesättigt, Z-konfiguriert) verknüpft …",
+        "Fe + S → FeS 1 mol: 1 mol: 1 mol n(Fe) = m(Fe)/M(Fe) = 10 g / 56 g/mol = 0,178 mol n(S) = 1/1 · n(Fe) = 0,178 mol m(S) = n(S) · M(S) = 0,178 mol · 32 g/mol = 5,7 g Antwort: Man benötigt rund 5,7 g Schwefel, um 10 g Eisen vollständig …",
+        "O H O H ‖ | ‖ | H 2 N—CH—C——N—CH—C——N—CH—COOH + 2 H 2 O | | | CH 3 CH 2 OH CH 2 COOH Alanin Serin Asparaginsäure Die beiden Peptidbindungen (–CO–NH–) entstehen jeweils durch Kondensation zwischen der Carboxygruppe der einen und der …"
+      ],
+      "answer": 0,
+      "solution": "Formel gegeben │ ├─ Enthält sie ein Metall ? ──── NEIN ──→ Verbindungsmolekül │ → griechische Zahlwörter verwenden │ z. B. N 2 O 7 = Distickstoffheptaoxid │ └─ JA ──→ Salz → keine Zahlwörter! │ ├─ Metall aus einer Hauptgruppe (1.–3. HG)? │ → Name Metall + Nichtmetall-Stamm + „-id“ │ z. B. MgI 2 = Magnesiumiodid │ ├─ Metall aus einer Nebengruppe ? │ → Ionenladung über den Ladungsausgleich ermitteln │ und in römischen Ziffern angeben │ z. B. Fe 2 O 3 = Eisen(III)-oxid │ └─ Enthält es ein Molekül-Ion ? → Name des Molekül-Ions verwenden (-at, -it, -hydroxid) z. B. BeCO 3 = Berylliumcarbonat, AgNO 3 = Silber(I)-nitrat Übung (Lösungen): C 2 N 5 = Dikohlenstoffpentanitrid · K 2 O = Kaliumoxid · SI 2 = Schwefeldiiodid · Cu 3 N 2 = Kupfer(II)-nitrid · P 4 Br 9 = Tetraphosphornonabromid · S 3 O = Trischwefelmonooxid · BaCl 2 = Bariumchlorid · GaN = Galliumnitrid · AlF 3 = Aluminiumfluorid · CaH 2 = Calciumhydrid · HF = Wasserstoffmonofluorid · CoCl 3 = Cobalt(III)-chlorid · Li 2 CO 3 = Lithiumcarbonat",
+      "katalog_id": "src-e-6",
+      "schwierigkeit": 1,
+      "ab_einheit": "sl-02"
+    },
+    {
+      "id": "KAT-src-e-7-B",
+      "level": "B",
+      "kategorie": "K-QUANT",
+      "skill": "Werkzeugkästen – Schritt für Schritt",
+      "type": "choice",
+      "prompt": "Werkzeug: Organische Verbindungen nach IUPAC benennen",
+      "options": [
+        "Quantitative Auswertung einer Reaktionsgleichung Reaktionsgleichung aufstellen und ausgleichen. Mengenaussage in mol unter die Gleichung schreiben. Gegebene Größe mit richtigem Symbol und Stoffbezug notieren.",
+        "Valenzstrichformel in neun Schritten Summenformel des Teilchens aufschreiben. Vorhandene Valenzelektronen (VE) aller Atome addieren. Bei Ionen: Ladungszahl bei Anionen addieren, bei Kationen subtrahieren.",
+        "Stoffmenge n: Größe zur Beschreibung einer Stoffportion; gibt an, wie viele Teilchen sie enthält. Einheit: mol. 1 mol ist die Stoffmenge einer Portion, die 6,022 · 10 23 Teilchen (Atome, Moleküle oder Ionen) enthält.",
+        "IUPAC-Name in fünf Schritten Hauptkette suchen: die längste zusammenhängende Kohlenstoffkette, die die funktionelle Gruppe höchster Priorität enthält → gibt den Stammnamen (Meth-, Eth-, Prop-, But-, Pent- …)."
+      ],
+      "answer": 3,
+      "solution": "IUPAC-Name in fünf Schritten Hauptkette suchen: die längste zusammenhängende Kohlenstoffkette, die die funktionelle Gruppe höchster Priorität enthält → gibt den Stammnamen (Meth-, Eth-, Prop-, But-, Pent- …). Nummerieren: so, dass die Gruppe mit der höchsten Priorität die niedrigste Nummer bekommt. Endung nach der Hauptgruppe: -an / -en / -in / -ol / -al / -on / -säure. Substituenten mit Position und Vorsilbe (Methyl-, Ethyl-, Chlor-, Hydroxy-, Oxo-) alphabetisch voranstellen; mehrfach vorkommende mit di-, tri-, tetra-. Zusammensetzen: Zahlen mit Bindestrichen, gleiche Zahlen mit Komma. Prioritätenreihe: Carboxy > Carbonyl (Aldehyd, Keton) > Hydroxy > Doppelbindung > Dreifachbindung > Einfachbindung. Beispiele: 3-Ethyl-2-methylhexan · 2,2-Dichlor-3-methyl-4-propylheptan · 3-Methylpent-1-in · (Z)-But-2-en · Buta-1,3-dien · Cyclohexan · 3-Ethyl-2-hydroxy-4-methylpentansäure.",
+      "katalog_id": "src-e-7",
+      "schwierigkeit": 1,
+      "ab_einheit": "os-01"
+    },
+    {
+      "id": "KAT-src-h-12-B",
+      "level": "B",
+      "kategorie": "K-QUANT",
+      "skill": "Rechen- und Anwendungsaufgaben",
+      "type": "choice",
+      "prompt": "Stelle eine vollständige Redoxreaktion zur Unterscheidung von Propanal und Propanon auf.",
+      "options": [
+        "Nur Propanal (Aldehyd) lässt sich zur Carbonsäure oxidieren; Propanon (Keton) nicht. Beide Nachweisreaktionen fallen daher nur bei Propanal positiv aus.",
+        "1. Reaktionsgleichung 2 C 2 H 6 + 7 O 2 → 4 CO 2 + 6 H 2 O 2 mol 7 mol 4 mol 6 mol 2. Stoffmengenverhältnis n(C 2 H 6 ): n(CO 2 ) = 2: 4 = 1: 2 → n(CO 2 ) = 2 · n(C 2 H 6 ) 3.",
+        "Isomerie: Auftreten von Verbindungen mit identischer Summenformel und Molekülmasse, aber unterschiedlichen Strukturformeln und daher unterscheidbaren Stoffeigenschaften.",
+        "HCl ist eine starke Säure → vollständige Protolyse c(H 3 O + ) = c(HCl) = 0,01 mol/L = 10 −2 mol/L pH = − lg (10 −2 ) = 2 Antwort: Die Lösung hat den pH-Wert 2."
+      ],
+      "answer": 0,
+      "solution": "Nur Propanal (Aldehyd) lässt sich zur Carbonsäure oxidieren; Propanon (Keton) nicht. Beide Nachweisreaktionen fallen daher nur bei Propanal positiv aus. Fehling-Probe (rotbrauner Niederschlag von Cu 2 O) Ox: C 2 H 5 CHO + 3 OH − → C 2 H 5 COO − + 2 H 2 O + 2 e − Red: 2 Cu 2+ + 2 e − + 2 OH − → Cu 2 O + H 2 O ────────────────────────────────────────────────── Redox: C 2 H 5 CHO + 2 Cu 2+ + 5 OH − → C 2 H 5 COO − + Cu 2 O + 3 H 2 O Tollens-Probe (Silberspiegel) Red: Ag + + e − → Ag | ·2",
+      "katalog_id": "src-h-12",
+      "schwierigkeit": 1,
+      "ab_einheit": "os-01"
+    },
+    {
+      "id": "KAT-ext-056-B",
+      "level": "B",
+      "kategorie": "K-QUANT",
+      "skill": "Stöchiometrie",
+      "type": "choice",
+      "prompt": "Wie viele Teilchen enthält 0,50 mol eines Stoffes?",
+      "options": [
+        "Nur Propanal (Aldehyd) lässt sich zur Carbonsäure oxidieren; Propanon (Keton) nicht. Beide Nachweisreaktionen fallen daher nur bei Propanal positiv aus.",
+        "n = m/M = 18,0 g / 18,0 g/mol = 1,00 mol.",
+        "N = n·N_A = 0,50·6,022·10²³ ≈ 3,01·10²³ Teilchen.",
+        "HCl ist eine starke Säure → vollständige Protolyse c(H 3 O + ) = c(HCl) = 0,01 mol/L = 10 −2 mol/L pH = − lg (10 −2 ) = 2 Antwort: Die Lösung hat den pH-Wert 2."
+      ],
+      "answer": 2,
+      "solution": "N = n·N_A = 0,50·6,022·10²³ ≈ 3,01·10²³ Teilchen.",
+      "katalog_id": "ext-056",
+      "schwierigkeit": 2,
+      "ab_einheit": "qb-02"
+    },
+    {
+      "id": "KAT-ext-055-B",
+      "level": "B",
+      "kategorie": "K-QUANT",
+      "skill": "Stöchiometrie",
+      "type": "choice",
+      "prompt": "Berechne die Stoffmenge in 18,0 g Wasser. Verwende M(H₂O)=18,0 g/mol.",
+      "options": [
+        "N = n·N_A = 0,50·6,022·10²³ ≈ 3,01·10²³ Teilchen.",
+        "HCl ist eine starke Säure → vollständige Protolyse c(H 3 O + ) = c(HCl) = 0,01 mol/L = 10 −2 mol/L pH = − lg (10 −2 ) = 2 Antwort: Die Lösung hat den pH-Wert 2.",
+        "Nur Propanal (Aldehyd) lässt sich zur Carbonsäure oxidieren; Propanon (Keton) nicht. Beide Nachweisreaktionen fallen daher nur bei Propanal positiv aus.",
+        "n = m/M = 18,0 g / 18,0 g/mol = 1,00 mol."
+      ],
+      "answer": 3,
+      "solution": "n = m/M = 18,0 g / 18,0 g/mol = 1,00 mol.",
+      "katalog_id": "ext-055",
+      "schwierigkeit": 2,
+      "ab_einheit": "qb-02"
+    },
+    {
+      "id": "KAT-src-h-9-C",
+      "level": "C",
+      "kategorie": "K-QUANT",
+      "skill": "Rechen- und Anwendungsaufgaben",
+      "type": "choice",
+      "prompt": "Zeichne ein Fettmolekül mit 2/3 Stearinsäure und 1/3 Ölsäure und schließe auf den Aggregatzustand bei 20 °C.",
+      "options": [
+        "O H O H ‖ | ‖ | H 2 N—CH—C——N—CH—C——N—CH—COOH + 2 H 2 O | | | CH 3 CH 2 OH CH 2 COOH Alanin Serin Asparaginsäure Die beiden Peptidbindungen (–CO–NH–) entstehen jeweils durch Kondensation zwischen der Carboxygruppe der einen und der …",
+        "Es entsteht ein Triglycerid: Glycerin, dessen drei Hydroxygruppen über Esterbindungen mit zwei Stearinsäure-Resten (C 17 H 35 –COOH, gesättigt) und einem Ölsäure-Rest (C 17 H 33 –COOH, einfach ungesättigt, Z-konfiguriert) verknüpft …",
+        "2 C 4 H 10 + 13 O 2 → 8 CO 2 + 10 H 2 O 2 mol: 13 mol M(C 4 H 10 ) = 4·12 + 10·1 = 58 g/mol n(C 4 H 10 ) = 330 g / 58 g/mol = 5,69 mol n(O 2 ) = 13/2 · n(C 4 H 10 ) = 6,5 · 5,69 mol = 37,0 mol V(O 2 ) = n · V m = 37,0 mol · 22,4 L/mol …",
+        "Geg.: m(H 2 O) = 18 g; M(H 2 O) = 18 g/mol; N A = 6,022·10 23 mol −1 Ges.: N(H 2 O) n(H 2 O) = m / M = 18 g / 18 g/mol = 1 mol N(H 2 O) = n · N A = 1 mol · 6,022·10 23 mol −1 = 6,022·10 23 Antwort: In 18 g Wasser sind etwa 6,022 · 10 …"
+      ],
+      "answer": 1,
+      "solution": "Es entsteht ein Triglycerid: Glycerin, dessen drei Hydroxygruppen über Esterbindungen mit zwei Stearinsäure-Resten (C 17 H 35 –COOH, gesättigt) und einem Ölsäure-Rest (C 17 H 33 –COOH, einfach ungesättigt, Z-konfiguriert) verknüpft sind. Aggregatzustand: Das Fett ist bei 20 °C fest bzw. streichfähig. Begründung: Der Anteil gesättigter Fettsäuren überwiegt (2 von 3). Die langen, geraden Ketten lassen sich dicht packen → viele London-Dispersions-Wechselwirkungen → hoher Schmelzbereich. Nur eine Doppelbindung in Z-Konfiguration stört die Packung.",
+      "katalog_id": "src-h-9",
+      "schwierigkeit": 2,
+      "ab_einheit": "es-03"
+    },
+    {
+      "id": "KAT-src-h-1-C",
+      "level": "C",
+      "kategorie": "K-QUANT",
+      "skill": "Rechen- und Anwendungsaufgaben",
+      "type": "choice",
+      "prompt": "Berechne die Teilchenzahl in 18 g Wasser.",
+      "options": [
+        "2 C 4 H 10 + 13 O 2 → 8 CO 2 + 10 H 2 O 2 mol: 13 mol M(C 4 H 10 ) = 4·12 + 10·1 = 58 g/mol n(C 4 H 10 ) = 330 g / 58 g/mol = 5,69 mol n(O 2 ) = 13/2 · n(C 4 H 10 ) = 6,5 · 5,69 mol = 37,0 mol V(O 2 ) = n · V m = 37,0 mol · 22,4 L/mol …",
+        "Geg.: m(H 2 O) = 18 g; M(H 2 O) = 18 g/mol; N A = 6,022·10 23 mol −1 Ges.: N(H 2 O) n(H 2 O) = m / M = 18 g / 18 g/mol = 1 mol N(H 2 O) = n · N A = 1 mol · 6,022·10 23 mol −1 = 6,022·10 23 Antwort: In 18 g Wasser sind etwa 6,022 · 10 …",
+        "Es entsteht ein Triglycerid: Glycerin, dessen drei Hydroxygruppen über Esterbindungen mit zwei Stearinsäure-Resten (C 17 H 35 –COOH, gesättigt) und einem Ölsäure-Rest (C 17 H 33 –COOH, einfach ungesättigt, Z-konfiguriert) verknüpft …",
+        "O H O H ‖ | ‖ | H 2 N—CH—C——N—CH—C——N—CH—COOH + 2 H 2 O | | | CH 3 CH 2 OH CH 2 COOH Alanin Serin Asparaginsäure Die beiden Peptidbindungen (–CO–NH–) entstehen jeweils durch Kondensation zwischen der Carboxygruppe der einen und der …"
+      ],
+      "answer": 1,
+      "solution": "Geg.: m(H 2 O) = 18 g; M(H 2 O) = 18 g/mol; N A = 6,022·10 23 mol −1 Ges.: N(H 2 O) n(H 2 O) = m / M = 18 g / 18 g/mol = 1 mol N(H 2 O) = n · N A = 1 mol · 6,022·10 23 mol −1 = 6,022·10 23 Antwort: In 18 g Wasser sind etwa 6,022 · 10 23 Wasser-Moleküle enthalten.",
+      "katalog_id": "src-h-1",
+      "schwierigkeit": 2,
+      "ab_einheit": "qb-03"
+    },
+    {
+      "id": "KAT-src-h-5-C",
+      "level": "C",
+      "kategorie": "K-QUANT",
+      "skill": "Rechen- und Anwendungsaufgaben",
+      "type": "choice",
+      "prompt": "Berechne den pH-Wert einer Salzsäure mit c = 0,01 mol/L.",
+      "options": [
+        "Nur Propanal (Aldehyd) lässt sich zur Carbonsäure oxidieren; Propanon (Keton) nicht. Beide Nachweisreaktionen fallen daher nur bei Propanal positiv aus.",
+        "HCl ist eine starke Säure → vollständige Protolyse c(H 3 O + ) = c(HCl) = 0,01 mol/L = 10 −2 mol/L pH = − lg (10 −2 ) = 2 Antwort: Die Lösung hat den pH-Wert 2.",
+        "1. Reaktionsgleichung H 2 SO 4 + 2 NaOH → Na 2 SO 4 + 2 H 2 O → n(Säure): n(Base) = 1: 2 2. Stoffmenge der Maßlösung n(NaOH) = c · V = 0,1 mol/L · 0,0320 L = 3,20·10 −3 mol 3.",
+        "Isomerie: Auftreten von Verbindungen mit identischer Summenformel und Molekülmasse, aber unterschiedlichen Strukturformeln und daher unterscheidbaren Stoffeigenschaften."
+      ],
+      "answer": 1,
+      "solution": "HCl ist eine starke Säure → vollständige Protolyse c(H 3 O + ) = c(HCl) = 0,01 mol/L = 10 −2 mol/L pH = − lg (10 −2 ) = 2 Antwort: Die Lösung hat den pH-Wert 2. Zum Vergleich: Verdünnt man diese Lösung um den Faktor 10, steigt der pH-Wert um genau eine Einheit auf 3.",
+      "katalog_id": "src-h-5",
+      "schwierigkeit": 2,
+      "ab_einheit": "sl-03"
+    },
+    {
+      "id": "KAT-src-h-2-C",
+      "level": "C",
+      "kategorie": "K-QUANT",
+      "skill": "Rechen- und Anwendungsaufgaben",
+      "type": "choice",
+      "prompt": "Es werden 330 g Butan vollständig verbrannt. Berechne das dafür nötige Sauerstoffvolumen (Normbedingungen).",
+      "options": [
+        "2 C 4 H 10 + 13 O 2 → 8 CO 2 + 10 H 2 O 2 mol: 13 mol M(C 4 H 10 ) = 4·12 + 10·1 = 58 g/mol n(C 4 H 10 ) = 330 g / 58 g/mol = 5,69 mol n(O 2 ) = 13/2 · n(C 4 H 10 ) = 6,5 · 5,69 mol = 37,0 mol V(O 2 ) = n · V m = 37,0 mol · 22,4 L/mol …",
+        "O H O H ‖ | ‖ | H 2 N—CH—C——N—CH—C——N—CH—COOH + 2 H 2 O | | | CH 3 CH 2 OH CH 2 COOH Alanin Serin Asparaginsäure Die beiden Peptidbindungen (–CO–NH–) entstehen jeweils durch Kondensation zwischen der Carboxygruppe der einen und der …",
+        "Es entsteht ein Triglycerid: Glycerin, dessen drei Hydroxygruppen über Esterbindungen mit zwei Stearinsäure-Resten (C 17 H 35 –COOH, gesättigt) und einem Ölsäure-Rest (C 17 H 33 –COOH, einfach ungesättigt, Z-konfiguriert) verknüpft …",
+        "Geg.: m(H 2 O) = 18 g; M(H 2 O) = 18 g/mol; N A = 6,022·10 23 mol −1 Ges.: N(H 2 O) n(H 2 O) = m / M = 18 g / 18 g/mol = 1 mol N(H 2 O) = n · N A = 1 mol · 6,022·10 23 mol −1 = 6,022·10 23 Antwort: In 18 g Wasser sind etwa 6,022 · 10 …"
+      ],
+      "answer": 0,
+      "solution": "2 C 4 H 10 + 13 O 2 → 8 CO 2 + 10 H 2 O 2 mol: 13 mol M(C 4 H 10 ) = 4·12 + 10·1 = 58 g/mol n(C 4 H 10 ) = 330 g / 58 g/mol = 5,69 mol n(O 2 ) = 13/2 · n(C 4 H 10 ) = 6,5 · 5,69 mol = 37,0 mol V(O 2 ) = n · V m = 37,0 mol · 22,4 L/mol = 829 L Antwort: Für die vollständige Verbrennung von 330 g Butan werden etwa 829 Liter Sauerstoff benötigt (das entspricht etwa 3950 L Luft).",
+      "katalog_id": "src-h-2",
+      "schwierigkeit": 2,
+      "ab_einheit": "qb-03"
+    },
+    {
+      "id": "KAT-src-b6-6-C",
+      "level": "C",
+      "kategorie": "K-QUANT",
+      "skill": "Quantitative Chemie und Stöchiometrie",
+      "type": "choice",
+      "prompt": "Berechne, wie viel Liter CO 2 bei der Verbrennung von 1 kg Ethan entstehen.",
+      "options": [
+        "Stoffmenge n: Größe zur Beschreibung einer Stoffportion; gibt an, wie viele Teilchen sie enthält. Einheit: mol. 1 mol ist die Stoffmenge einer Portion, die 6,022 · 10 23 Teilchen (Atome, Moleküle oder Ionen) enthält.",
+        "1 u ist definiert als 1/12 der Masse eines 12 C-Atoms; es gilt 1 u ≈ 1,66 · 10 −24 g. Die relative Atommasse gibt an, wie groß die Masse eines Atoms im Verhältnis zu 1 u ist. Sie steht im PSE.",
+        "1. Reaktionsgleichung 2 C 2 H 6 + 7 O 2 → 4 CO 2 + 6 H 2 O 2 mol 7 mol 4 mol 6 mol 2. Stoffmengenverhältnis n(C 2 H 6 ): n(CO 2 ) = 2: 4 = 1: 2 → n(CO 2 ) = 2 · n(C 2 H 6 ) 3.",
+        "Größe Symbol Einheit Zahlenwert Masse m g – Molare Masse M g/mol aus dem PSE ablesbar Stoffmenge n mol – Teilchenzahl N – – Avogadro-Konstante N A 1/mol 6,022 · 10 23 mol −1 Molares Volumen (Gase) V m L/mol 22,4 L/mol bei …"
+      ],
+      "answer": 2,
+      "solution": "1. Reaktionsgleichung 2 C 2 H 6 + 7 O 2 → 4 CO 2 + 6 H 2 O 2 mol 7 mol 4 mol 6 mol 2. Stoffmengenverhältnis n(C 2 H 6 ): n(CO 2 ) = 2: 4 = 1: 2 → n(CO 2 ) = 2 · n(C 2 H 6 ) 3. Berechnung n(C 2 H 6 ) = 1000 g / 30 g/mol = 33,3 mol n(CO 2 ) = 2 · 33,3 mol = 66,7 mol V(CO 2 ) = 66,7 mol · 22,4 L/mol = 1494 L Antwort: Bei der Verbrennung von 1 kg Ethan entstehen etwa 1494 Liter Kohlenstoffdioxid.",
+      "katalog_id": "src-b6-6",
+      "schwierigkeit": 2,
+      "ab_einheit": "qb-01"
+    },
+    {
+      "id": "KAT-src-b6-5-C",
+      "level": "C",
+      "kategorie": "K-QUANT",
+      "skill": "Quantitative Chemie und Stöchiometrie",
+      "type": "choice",
+      "prompt": "Berechne das Volumen von 10 g Kohlenstoffdioxid unter Normbedingungen.",
+      "options": [
+        "Fe + S → FeS 1 mol: 1 mol: 1 mol n(Fe) = m(Fe)/M(Fe) = 10 g / 56 g/mol = 0,178 mol n(S) = 1/1 · n(Fe) = 0,178 mol m(S) = n(S) · M(S) = 0,178 mol · 32 g/mol = 5,7 g Antwort: Man benötigt rund 5,7 g Schwefel, um 10 g Eisen vollständig …",
+        "n(X) = m(X) / M(X) ⟺ m(X) = n(X) · M(X) n(X) = V(X) / V m ⟺ V(X) = n(X) · V m (nur für Gase!) n(X) = N(X) / N A ⟺ N(X) = n(X) · N A n(X) = c(X) · V(Lösung) ⟺ c(X) = n(X) / V(Lösung) V m = 22,4 L/mol (0 °C, 1013 hPa) N A = 6,022 · 10 23 …",
+        "Gehaltsgrößen geben an, wie viel gelöster Stoff in einer Lösung enthalten ist: Massenkonzentration β = m(gelöster Stoff)/V(Lösung) in g/L Stoffmengenkonzentration c = n/V in mol/L Massenanteil w in % (Massenprozent), Volumenanteil φ in …",
+        "Geg.: m(CO 2 ) = 10 g; M(CO 2 ) = 44 g/mol; V m = 22,4 L/mol Ges.: V(CO 2 ) n(CO 2 ) = m(CO 2 ) / M(CO 2 ) = 10 g / 44 g/mol = 0,23 mol V(CO 2 ) = n(CO 2 ) · V m = 0,23 mol · 22,4 L/mol = 5,2 L Antwort: 10 g Kohlenstoffdioxid nehmen …"
+      ],
+      "answer": 3,
+      "solution": "Geg.: m(CO 2 ) = 10 g; M(CO 2 ) = 44 g/mol; V m = 22,4 L/mol Ges.: V(CO 2 ) n(CO 2 ) = m(CO 2 ) / M(CO 2 ) = 10 g / 44 g/mol = 0,23 mol V(CO 2 ) = n(CO 2 ) · V m = 0,23 mol · 22,4 L/mol = 5,2 L Antwort: 10 g Kohlenstoffdioxid nehmen unter Normbedingungen ein Volumen von 5,2 L ein. Formalia: Immer alle verwendeten Formeln angeben, den Stoffbezug in Klammern mitschreiben und mit einem Antwortsatz abschließen.",
+      "katalog_id": "src-b6-5",
+      "schwierigkeit": 2,
+      "ab_einheit": "qb-01"
+    },
+    {
+      "id": "KAT-src-h-4-C",
+      "level": "C",
+      "kategorie": "K-QUANT",
+      "skill": "Rechen- und Anwendungsaufgaben",
+      "type": "choice",
+      "prompt": "25,0 mL Schwefelsäure werden mit 32,0 mL Natronlauge (c = 0,1 mol/L) titriert. Berechne die Konzentration der Säure.",
+      "options": [
+        "1. Reaktionsgleichung H 2 SO 4 + 2 NaOH → Na 2 SO 4 + 2 H 2 O → n(Säure): n(Base) = 1: 2 2. Stoffmenge der Maßlösung n(NaOH) = c · V = 0,1 mol/L · 0,0320 L = 3,20·10 −3 mol 3.",
+        "HCl ist eine starke Säure → vollständige Protolyse c(H 3 O + ) = c(HCl) = 0,01 mol/L = 10 −2 mol/L pH = − lg (10 −2 ) = 2 Antwort: Die Lösung hat den pH-Wert 2.",
+        "Isomerie: Auftreten von Verbindungen mit identischer Summenformel und Molekülmasse, aber unterschiedlichen Strukturformeln und daher unterscheidbaren Stoffeigenschaften.",
+        "Kalilauge: KOH(aq) Aluminiumhydroxid-Lösung: Al(OH) 3 (aq) Magnesiumhydroxid-Lösung: Mg(OH) 2 (aq) Die Zahl der Hydroxid-Ionen ergibt sich aus der Ladung des Metall-Kations (K +, Al 3+, Mg 2+ )."
+      ],
+      "answer": 0,
+      "solution": "1. Reaktionsgleichung H 2 SO 4 + 2 NaOH → Na 2 SO 4 + 2 H 2 O → n(Säure): n(Base) = 1: 2 2. Stoffmenge der Maßlösung n(NaOH) = c · V = 0,1 mol/L · 0,0320 L = 3,20·10 −3 mol 3. Stoffmenge der Probe n(H 2 SO 4 ) = ½ · n(NaOH) = 1,60·10 −3 mol 4. Konzentration der Probe c(H 2 SO 4 ) = n / V = 1,60·10 −3 mol / 0,0250 L = 0,064 mol/L Antwort: Die Schwefelsäure hat eine Konzentration von 0,064 mol/L. Achtung: Der Faktor ½ ergibt sich aus der Reaktionsgleichung – Schwefelsäure ist zweiprotonig. Wer ihn vergisst, erhält den doppelten Wert.",
+      "katalog_id": "src-h-4",
+      "schwierigkeit": 2,
+      "ab_einheit": "qb-03"
+    },
+    {
+      "id": "KAT-src-h-11-C",
+      "level": "C",
+      "kategorie": "K-QUANT",
+      "skill": "Rechen- und Anwendungsaufgaben",
+      "type": "choice",
+      "prompt": "Erläutere den Begriff Isomerie mit Hilfe der Strukturformeln von C 5 H 12 und begründe die Unterschiede der Siedetemperaturen.",
+      "options": [
+        "Isomerie: Auftreten von Verbindungen mit identischer Summenformel und Molekülmasse, aber unterschiedlichen Strukturformeln und daher unterscheidbaren Stoffeigenschaften.",
+        "Nur Propanal (Aldehyd) lässt sich zur Carbonsäure oxidieren; Propanon (Keton) nicht. Beide Nachweisreaktionen fallen daher nur bei Propanal positiv aus.",
+        "HCl ist eine starke Säure → vollständige Protolyse c(H 3 O + ) = c(HCl) = 0,01 mol/L = 10 −2 mol/L pH = − lg (10 −2 ) = 2 Antwort: Die Lösung hat den pH-Wert 2.",
+        "1. Reaktionsgleichung H 2 SO 4 + 2 NaOH → Na 2 SO 4 + 2 H 2 O → n(Säure): n(Base) = 1: 2 2. Stoffmenge der Maßlösung n(NaOH) = c · V = 0,1 mol/L · 0,0320 L = 3,20·10 −3 mol 3."
+      ],
+      "answer": 0,
+      "solution": "Isomerie: Auftreten von Verbindungen mit identischer Summenformel und Molekülmasse, aber unterschiedlichen Strukturformeln und daher unterscheidbaren Stoffeigenschaften. C 5 H 12 hat drei Konstitutionsisomere: n-Pentan CH 3 –CH 2 –CH 2 –CH 2 –CH 3 Sdp. 36 °C 2-Methylbutan CH 3 –CH(CH 3 )–CH 2 –CH 3 Sdp. 28 °C 2,2-Dimethylpropan C(CH 3 ) 4 Sdp. 10 °C Begründung: Die Siedetemperatur nimmt mit zunehmendem Verzweigungsgrad ab, weil die Moleküle kugeliger werden. Kleinere Moleküloberfläche → schwächere Van-der-Waals-(London-)Kräfte → weniger Energie nötig, um die Teilchen zu trennen.",
+      "katalog_id": "src-h-11",
+      "schwierigkeit": 2,
+      "ab_einheit": "kw-02"
+    },
+    {
+      "id": "KAT-src-e-5-C",
+      "level": "C",
+      "kategorie": "K-QUANT",
+      "skill": "Werkzeugkästen – Schritt für Schritt",
+      "type": "choice",
+      "prompt": "Werkzeug: Stöchiometrisch rechnen – die neun Schritte",
+      "options": [
+        "Quantitative Auswertung einer Reaktionsgleichung Reaktionsgleichung aufstellen und ausgleichen. Mengenaussage in mol unter die Gleichung schreiben. Gegebene Größe mit richtigem Symbol und Stoffbezug notieren.",
+        "Valenzstrichformel in neun Schritten Summenformel des Teilchens aufschreiben. Vorhandene Valenzelektronen (VE) aller Atome addieren. Bei Ionen: Ladungszahl bei Anionen addieren, bei Kationen subtrahieren.",
+        "IUPAC-Name in fünf Schritten Hauptkette suchen: die längste zusammenhängende Kohlenstoffkette, die die funktionelle Gruppe höchster Priorität enthält → gibt den Stammnamen (Meth-, Eth-, Prop-, But-, Pent- …).",
+        "Reaktionsgleichung in vier Schritten Wortgleichung aufstellen (welche Edukte, welche Produkte?). Formeln ermitteln: Molekülformeln über die Zahlwörter, Verhältnisformeln über den Ladungsausgleich. HOFBrINCl-Elemente als X 2 !"
+      ],
+      "answer": 0,
+      "solution": "Quantitative Auswertung einer Reaktionsgleichung Reaktionsgleichung aufstellen und ausgleichen. Mengenaussage in mol unter die Gleichung schreiben. Gegebene Größe mit richtigem Symbol und Stoffbezug notieren. Gesuchte Größe mit richtigem Symbol notieren. Umrechnen in die Stoffmenge n (über M, V m, N A oder c). Stoffmengenverhältnis aus der Gleichung ablesen. Stoffmenge des gesuchten Stoffs berechnen. Zurückrechnen in die gefragte Größe. Antwortsatz formulieren – mit Einheit und sinnvoller Rundung. Merke: Alle Umrechnungen laufen über die Stoffmenge n. Formeln immer mit Stoffbezug in Klammern schreiben: n(CO 2 ), nicht n.",
+      "katalog_id": "src-e-5",
+      "schwierigkeit": 3,
+      "ab_einheit": "qb-05"
+    }
+  ]
+}

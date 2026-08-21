@@ -148,7 +148,7 @@
         "atombau"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -169,7 +169,7 @@
         "atombau"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -203,7 +203,7 @@
         "atombau"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -233,7 +233,7 @@
         "rechnen"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -264,7 +264,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -309,7 +309,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -344,7 +344,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -375,7 +375,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -408,42 +408,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
-      "id": "PS05-B4-010",
+      "id": "PS05-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Was ändert sich, wenn ein Atom ein Neutron aufnimmt?",
+      "prompt": "Bestimme Protonen-, Neutronen- und Elektronenzahl von ²⁷Al³⁺ (Z=13).",
       "options": [
-        "Nur die Masse — es bleibt dasselbe Element.",
-        "Es wird ein anderes Element.",
-        "Es wird zu einem Ion."
+        "I Alkalimetalle · II Erdalkalimetalle · III Borgruppe · IV Kohlenstoffgruppe · V Stickstoffgruppe · VI Sauerstoffgruppe · VII Halogene · VIII Edelgase. Alkalimetalle (I.",
+        "Valenzelektronen (Außenelektronen) sind die Elektronen der äußersten besetzten Energiestufe. Ihre Anzahl entspricht der Hauptgruppennummer und bestimmt das chemische Verhalten.",
+        "Teilchen p + n 0 e − Begründung 16 O 8 8 8 ungeladenes Atom: e − = p +; N = 16 − 8 23 Na + 11 12 10 ein Elektron abgegeben 35 Cl − 17 18 18 ein Elektron aufgenommen",
+        "13 Protonen, 14 Neutronen, 10 Elektronen."
       ],
-      "answer": 0,
+      "answer": 3,
       "hints": [
-        "Was bestimmt das Element?",
-        "Die Protonenzahl.",
-        "Die bleibt unverändert."
+        "Prüfe jede Aussage mit dem Abschnitt „Protonen, Neutronen, Elektronen und Ordnungszahl“ (PDF-S. 98–101)."
       ],
-      "solution": "Ein zusätzliches Neutron erhöht die Massenzahl. Protonenzahl und Elektronenzahl bleiben gleich — es entsteht ein Isotop desselben Elements, kein Ion und kein anderes Element.",
-      "misconceptions": [
-        {
-          "id": "ordnungszahl_aendert_sich",
-          "value": 1,
-          "feedback": "Ein anderes Element entstünde nur bei einer anderen Protonenzahl.",
-          "konzeptfehler": "ion_und_atom_verwechselt"
-        }
-      ],
+      "solution": "13 Protonen, 14 Neutronen, 10 Elektronen.",
       "tags": [
+        "fragenkatalog",
         "atombau",
-        "msa"
+        "niveau-b"
       ],
       "spiral": [
-        "W-TEIL"
-      ]
+        "K-ATOM"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-061 · Lehrbuch PDF-S. 98–101"
     },
     {
       "id": "PS05-C2-011",
@@ -477,7 +470,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -507,8 +500,8 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL",
-        "W-RECH"
+        "K-ATOM",
+        "K-QUANT"
       ]
     },
     {
@@ -549,35 +542,35 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
-      "id": "PS05-C4-014",
+      "id": "PS05-C4-KAT",
       "path": "C",
       "step": 4,
       "type": "choice",
-      "prompt": "Ein Schüler sagt: „Isotope sind verschiedene Elemente, weil sie verschiedene Massen haben.“ Wie bewertest du das?",
+      "prompt": "Erkläre das vollständige Elementsymbol und die Bedeutung von Ordnungszahl und Massenzahl.",
       "options": [
-        "Falsch — das Element wird durch die Protonenzahl bestimmt, nicht durch die Masse.",
-        "Richtig — verschiedene Masse heißt verschiedenes Element.",
-        "Falsch — Isotope haben gar keine verschiedenen Massen."
+        "Ein Molekül ist ein Teilchen aus zwei oder mehr aneinander gebundenen Nichtmetallatomen. Elementmolekül: aus gleichen Atomen, z. B. O 2, N 2. Verbindungsmolekül: aus verschiedenen Atomarten, z. B. H 2 O, CO 2.",
+        "Ein Ion ist ein ein- oder mehratomiges, elektrisch geladenes Teilchen. Es entsteht, wenn ein Atom Elektronen abgibt oder aufnimmt. Kation: positiv geladen (Elektronen abgegeben), z. B. Na +, Al 3+.",
+        "A X A = Nukleonenzahl (Massenzahl) = Z + N Z Z = Ordnungszahl = Kernladungszahl = Protonenzahl (= Elektronenzahl im Atom) N = Neutronenzahl = A − Z Beispiel: 12 6 C → 6 p +, 6 n 0, 6 e − Die Ordnungszahl legt die Atomart (das Element) …",
+        "Die Elemente sind nach steigender Protonenzahl (Ordnungszahl) und nach chemischer Ähnlichkeit geordnet. Periode = waagrechte Zeile; alle Elemente einer Periode haben gleich viele besetzte Energiestufen (Schalen)."
       ],
-      "answer": 0,
+      "answer": 2,
       "hints": [
-        "Wovon hängt das chemische Verhalten ab?",
-        "Von den Elektronen.",
-        "Und deren Zahl folgt aus der Protonenzahl."
+        "Prüfe jede Aussage mit dem Abschnitt „Protonen, Neutronen, Elektronen und Ordnungszahl“ (PDF-S. 98–101)."
       ],
-      "solution": "Chemisches Verhalten hängt an der Elektronenhülle, und deren Aufbau folgt aus der Protonenzahl. Isotope verhalten sich chemisch gleich und sind deshalb dasselbe Element — trotz verschiedener Masse.",
+      "solution": "A X A = Nukleonenzahl (Massenzahl) = Z + N Z Z = Ordnungszahl = Kernladungszahl = Protonenzahl (= Elektronenzahl im Atom) N = Neutronenzahl = A − Z Beispiel: 12 6 C → 6 p +, 6 n 0, 6 e − Die Ordnungszahl legt die Atomart (das Element) eindeutig fest. Die Massenzahl gibt die gerundete Atommasse in u an.",
       "tags": [
-        "atombau",
-        "bewerten",
-        "msa"
+        "fragenkatalog",
+        "atombau-und-periodensystem",
+        "niveau-c"
       ],
       "spiral": [
-        "W-TEIL"
-      ]
+        "K-ATOM"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-b3-2 · Lehrbuch PDF-S. 98–101"
     }
   ],
   "mitschrift": {
@@ -691,10 +684,11 @@
   ],
   "lehrbuch": {
     "kapitel": 8,
-    "titel": "Atombau und Ordnung der Elemente",
-    "seiten_von": 97,
-    "seiten_bis": 108,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Proton"
+    "titel": "Elemente und ihre Ordnung",
+    "seiten_von": 98,
+    "seiten_bis": 101,
+    "abschnitt": "Protonen, Neutronen, Elektronen und Ordnungszahl",
+    "bezugswort": "Ordnungszahl",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

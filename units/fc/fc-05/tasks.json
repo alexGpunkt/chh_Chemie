@@ -152,7 +152,7 @@
         "reaktion"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -186,7 +186,7 @@
         "reaktion"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -220,40 +220,31 @@
       ]
     },
     {
-      "id": "FC05-A4-004",
+      "id": "FC05-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Zucker wird in Wasser gerührt und verschwindet. Ist das eine chemische Reaktion?",
+      "prompt": "Woran erkennt man, dass eine chemische Reaktion stattgefunden hat?",
       "options": [
-        "Nein — der Zucker ist noch da, nur verteilt.",
-        "Ja — der Zucker ist weg.",
-        "Ja — Wasser und Zucker werden zu etwas Neuem."
+        "Gesetz der konstanten Proportionen (Proust): Die Elemente einer bestimmten chemischen Verbindung liegen stets im gleichen Massenverhältnis vor.",
+        "Nein. Sauerstoff aus der Luft wurde aufgenommen. Betrachtet man das geschlossene Gesamtsystem aus Magnesium plus Sauerstoff, bleibt die Masse erhalten.",
+        "Es entstehen neue Stoffe mit neuen Eigenschaften; mögliche Beobachtungen sind Farbänderung, Gasentwicklung, Temperaturänderung oder Niederschlag."
       ],
-      "answer": 0,
+      "answer": 2,
       "hints": [
-        "Schmeckt das Wasser danach süß?",
-        "Ja — der Zucker ist also noch da.",
-        "Beim Eindampfen kommt er zurück."
+        "Lies den Abschnitt „Chemische Reaktionen und Stoffumwandlung“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Der Zucker ist nicht verschwunden, sondern gelöst. Beim Eindampfen erhält man ihn zurück — es ist keine chemische Reaktion.",
-      "misconceptions": [
-        {
-          "id": "loesen_als_reaktion",
-          "value": 1,
-          "feedback": "Gelöst heißt nicht verschwunden. Das Wasser schmeckt süß, und beim Eindampfen kommt der Zucker zurück.",
-          "konzeptfehler": "reaktion_und_zustandsaenderung_verwechselt",
-          "verweis": {
-            "absatz": 1
-          }
-        }
-      ],
+      "solution": "Es entstehen neue Stoffe mit neuen Eigenschaften; mögliche Beobachtungen sind Farbänderung, Gasentwicklung, Temperaturänderung oder Niederschlag.",
       "tags": [
-        "reaktion"
+        "fragenkatalog",
+        "chemische-reaktion",
+        "niveau-a"
       ],
       "spiral": [
-        "W-STOF"
-      ]
+        "K-REAK"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-027 · Lehrbuch PDF-S. 53–57"
     },
     {
       "id": "FC05-B1-005",
@@ -295,7 +286,7 @@
         "fachsprache"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -332,7 +323,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -397,7 +388,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -428,39 +419,35 @@
         "rechnen"
       ],
       "spiral": [
-        "W-EINH"
+        "K-QUANT"
       ]
     },
     {
-      "id": "FC05-B4-010",
+      "id": "FC05-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum brennt Papier nicht schon bei Zimmertemperatur, obwohl die Verbrennung exotherm ist?",
+      "prompt": "Ordne Schmelzen von Eis, Verbrennen von Holz, Lösen von Zucker und Rosten von Eisen in physikalische oder chemische Vorgänge ein.",
       "options": [
-        "Weil zuerst Aktivierungsenergie zugeführt werden muss.",
-        "Weil Papier bei Zimmertemperatur nicht exotherm reagiert.",
-        "Weil bei Zimmertemperatur kein Sauerstoff da ist."
+        "Physikalisch: Schmelzen, Lösen. Chemisch: Verbrennen, Rosten.",
+        "Eine charakteristische Schmelz- oder Siedetemperatur.",
+        "Unterschiedliche Siedetemperaturen bzw. Flüchtigkeiten der Bestandteile.",
+        "Reinstoffe: Kupfer, destilliertes Wasser. Gemische: Luft, Granit."
       ],
       "answer": 0,
       "hints": [
-        "Was braucht jede Reaktion zum Start?",
-        "Einen Anstoß.",
-        "Der heißt Aktivierungsenergie."
+        "Prüfe jede Aussage mit dem Abschnitt „Chemische Reaktionen und Stoffumwandlung“ (PDF-S. 53–57)."
       ],
-      "solution": "Exotherm sagt nur, dass am Ende Energie frei wird. Zum Start braucht jede Reaktion Aktivierungsenergie — beim Papier ein Streichholz.",
-      "misconceptions": [
-        {
-          "id": "aktivierung_vergessen",
-          "value": 1,
-          "feedback": "Die Reaktion ist exotherm, auch bei Zimmertemperatur. Sie startet nur nicht von selbst."
-        }
-      ],
+      "solution": "Physikalisch: Schmelzen, Lösen. Chemisch: Verbrennen, Rosten.",
       "tags": [
-        "reaktion",
-        "energie",
-        "msa"
-      ]
+        "fragenkatalog",
+        "physikalisch-oder-chemisch",
+        "niveau-b"
+      ],
+      "spiral": [
+        "K-REAK"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-026 · Lehrbuch PDF-S. 53–57"
     },
     {
       "id": "FC05-C2-011",
@@ -497,7 +484,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -571,46 +558,35 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
-      "id": "FC05-C4-014",
+      "id": "FC05-C4-KAT",
       "path": "C",
       "step": 4,
       "type": "choice",
-      "prompt": "Beim Lösen von Kochsalz in Wasser kühlt die Lösung leicht ab. Ein Schüler schließt: „Also ist Lösen eine chemische Reaktion.“ Wie bewertest du das?",
+      "prompt": "Unterscheide chemischen und physikalischen Vorgang.",
       "options": [
-        "Der Schluss ist falsch: Ein Energieumsatz allein macht noch keine chemische Reaktion.",
-        "Der Schluss ist richtig: Energieumsatz beweist eine Reaktion.",
-        "Der Schluss ist richtig, weil Ionen entstehen."
+        "Alle Elemente bestehen aus kleinsten, kugelförmigen, unteilbaren Teilchen, den Atomen. Atome desselben Elements gleichen sich in Masse und Größe; Atome verschiedener Elemente unterscheiden sich darin.",
+        "Chemischer Vorgang: Stoffänderung mit Energiebeteiligung – die Produkte haben andere Kenneigenschaften als die Ausgangsstoffe. Physikalischer Vorgang: Zustandsänderung unter Energiebeteiligung, aber keine Stoffänderung – z. B.",
+        "Exotherm: Energie wird an die Umgebung abgegeben (Wärme, Licht). Die Produkte sind energieärmer als die Edukte → ΔE i < 0 Endotherm: Energie wird aus der Umgebung aufgenommen. Die Produkte sind energiereicher als die Edukte → ΔE i > 0",
+        "Energieerhaltung: Energie kann bei einer chemischen Reaktion weder erzeugt noch vernichtet werden; sie wird nur von einer Energieform in eine andere umgewandelt (z. B. innere Energie → Wärme- und Lichtenergie)."
       ],
-      "answer": 0,
+      "answer": 1,
       "hints": [
-        "Was ist das Kriterium für eine chemische Reaktion?",
-        "Ein neuer Stoff mit neuen Eigenschaften.",
-        "Beim Eindampfen kommt dasselbe Salz zurück."
+        "Prüfe jede Aussage mit dem Abschnitt „Chemische Reaktionen und Stoffumwandlung“ (PDF-S. 53–57)."
       ],
-      "solution": "Auch physikalische Vorgänge setzen Energie um. Entscheidend ist, ob ein neuer Stoff vorliegt — beim Eindampfen erhält man dasselbe Kochsalz zurück. Dass die Ionen in Lösung getrennt vorliegen, ändert daran nichts.",
-      "misconceptions": [
-        {
-          "id": "waerme_als_beweis",
-          "value": 1,
-          "feedback": "Ein Energieumsatz begleitet auch das Lösen und Schmelzen. Beweisend ist nur ein neuer Stoff.",
-          "konzeptfehler": "reaktion_und_zustandsaenderung_verwechselt",
-          "verweis": {
-            "absatz": 0
-          }
-        }
-      ],
+      "solution": "Chemischer Vorgang: Stoffänderung mit Energiebeteiligung – die Produkte haben andere Kenneigenschaften als die Ausgangsstoffe. Physikalischer Vorgang: Zustandsänderung unter Energiebeteiligung, aber keine Stoffänderung – z. B. Schmelzen, Sieden, Lösen von Zucker.",
       "tags": [
-        "reaktion",
-        "bewerten",
-        "msa"
+        "fragenkatalog",
+        "die-chemische-reaktion-und-energetik",
+        "niveau-c"
       ],
       "spiral": [
-        "W-STOF"
-      ]
+        "K-REAK"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-b2-2 · Lehrbuch PDF-S. 53–57"
     }
   ],
   "mitschrift": {
@@ -731,9 +707,10 @@
   "lehrbuch": {
     "kapitel": 5,
     "titel": "Die chemische Reaktion",
-    "seiten_von": 58,
-    "seiten_bis": 65,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "chemische Reaktion"
+    "seiten_von": 53,
+    "seiten_bis": 57,
+    "abschnitt": "Chemische Reaktionen und Stoffumwandlung",
+    "bezugswort": "chemische Reaktion",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

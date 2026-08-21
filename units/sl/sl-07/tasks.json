@@ -146,7 +146,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -171,7 +171,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -196,37 +196,35 @@
         "pruefung"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
-      "id": "SL07-A4-004",
+      "id": "SL07-A4-KAT",
       "path": "A",
       "step": 4,
-      "type": "numeric",
-      "prompt": "Eine Säure mit pH 2 wird zehnfach verdünnt. Welchen pH-Wert hat sie danach?",
-      "answer": 3,
-      "tolerance": 0,
+      "type": "choice",
+      "prompt": "Definiere Säure, saure Lösung, Base und basische Lösung und formuliere die Reaktionen von HCl und NH 3 mit Wasser.",
+      "options": [
+        "Säure = Protonendonator; besitzt mindestens ein polar gebundenes Wasserstoff-Atom und kann mindestens ein Proton (H + ) abgeben. Saure Lösung = wässrige Lösung, die Oxonium-Ionen H 3 O + enthält. Base = Protonenakzeptor;",
+        "3 HNO 3 + Al(OH) 3 → Al(NO 3 ) 3 + 3 H 2 O H 2 CO 3 + Ba(OH) 2 → BaCO 3 + 2 H 2 O Vorgehen: Formel des Salzes aus Metall-Kation und Säurerest-Anion über den Ladungsausgleich bilden, dann die Gleichung ausgleichen.",
+        "Acidität ist ein Maß für die Fähigkeit eines Teilchens, als Protonendonator zu reagieren. Carbonsäuren können aufgrund der stark polarisierten O–H-Bindung ein Proton abspalten und reagieren mit Wasser als Säure."
+      ],
+      "answer": 0,
       "hints": [
-        "Eine Stufe Richtung 7.",
-        "2 + 1.",
-        "3."
+        "Lies den Abschnitt „Säuren, Laugen und Salze - Zusammenfassung“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Zehnfaches Verdünnen verschiebt den pH-Wert um eine Stufe: von 2 auf 3.",
-      "misconceptions": [
-        {
-          "id": "ph_skala_falschrum",
-          "value": 1,
-          "feedback": "Verdünnen macht weniger sauer — der pH-Wert steigt.",
-          "konzeptfehler": "ph_skala_falschrum"
-        }
-      ],
+      "solution": "Säure = Protonendonator; besitzt mindestens ein polar gebundenes Wasserstoff-Atom und kann mindestens ein Proton (H + ) abgeben. Saure Lösung = wässrige Lösung, die Oxonium-Ionen H 3 O + enthält. Base = Protonenakzeptor; besitzt mindestens ein freies Elektronenpaar, ist oft negativ geladen. Basische Lösung / Lauge = wässrige Lösung, die Hydroxid-Ionen OH − enthält. HCl(g) + H 2 O(l) → H 3 O + (aq) + Cl − (aq) Säure saure Lösung NH 3 (g) + H 2 O(l) → NH 4 + (aq) + OH − (aq) Base basische Lösung / Lauge Merke: Nichtmetalloxide reagieren mit Wasser zu Säuren (SO 3 + H 2 O → H 2 SO 4 ), Metalloxide zu Laugen (CaO + H 2 O → Ca(OH) 2 ).",
       "tags": [
-        "pruefung"
+        "fragenkatalog",
+        "saeuren-basen-ph-wert-titration",
+        "niveau-a"
       ],
       "spiral": [
-        "W-LOES"
-      ]
+        "K-SL"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d1-1 · Lehrbuch PDF-S. 115–136"
     },
     {
       "id": "SL07-B1-005",
@@ -251,7 +249,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -275,7 +273,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -309,7 +307,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -342,7 +340,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -373,42 +371,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
-      "id": "SL07-B4-010",
+      "id": "SL07-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum verbraucht Schwefelsäure bei der Titration doppelt so viel Lauge wie Salzsäure gleicher Konzentration?",
+      "prompt": "Formuliere die Neutralisationsgleichungen: Salpetersäure + Aluminiumhydroxid-Lösung und Kohlensäure + Bariumhydroxid-Lösung.",
       "options": [
-        "Sie kann zwei Protonen abgeben.",
-        "Sie ist stärker.",
-        "Sie ist dickflüssiger."
+        "Säure = Protonendonator; besitzt mindestens ein polar gebundenes Wasserstoff-Atom und kann mindestens ein Proton (H + ) abgeben. Saure Lösung = wässrige Lösung, die Oxonium-Ionen H 3 O + enthält. Base = Protonenakzeptor;",
+        "Säure Formel Säurerest 1 Säurerest 2 Säurerest 3 Hydrogenchlorid / Salzsäure HCl Cl − Chlorid – – Salpetersäure HNO 3 NO 3 − Nitrat – – Salpetrige Säure HNO 2 NO 2 − Nitrit – – Schwefelsäure H 2 SO 4 HSO 4 − Hydrogensulfat SO 4 2− …",
+        "3 HNO 3 + Al(OH) 3 → Al(NO 3 ) 3 + 3 H 2 O H 2 CO 3 + Ba(OH) 2 → BaCO 3 + 2 H 2 O Vorgehen: Formel des Salzes aus Metall-Kation und Säurerest-Anion über den Ladungsausgleich bilden, dann die Gleichung ausgleichen.",
+        "Acidität ist ein Maß für die Fähigkeit eines Teilchens, als Protonendonator zu reagieren. Carbonsäuren können aufgrund der stark polarisierten O–H-Bindung ein Proton abspalten und reagieren mit Wasser als Säure."
       ],
-      "answer": 0,
+      "answer": 2,
       "hints": [
-        "Sieh dir die Formel an: H₂SO₄.",
-        "Zwei H-Atome.",
-        "Also zwei Protonen."
+        "Prüfe jede Aussage mit dem Abschnitt „Säuren, Laugen und Salze - Zusammenfassung“ (PDF-S. 115–136)."
       ],
-      "solution": "H₂SO₄ gibt zwei Protonen ab. Jedes braucht ein OH⁻ zur Neutralisation — deshalb der doppelte Laugenverbrauch.",
-      "misconceptions": [
-        {
-          "id": "index_uebersehen",
-          "value": 1,
-          "feedback": "Nicht die Stärke, sondern die Zahl der abgebbaren Protonen entscheidet.",
-          "konzeptfehler": "summenformel_falsch_gelesen"
-        }
-      ],
+      "solution": "3 HNO 3 + Al(OH) 3 → Al(NO 3 ) 3 + 3 H 2 O H 2 CO 3 + Ba(OH) 2 → BaCO 3 + 2 H 2 O Vorgehen: Formel des Salzes aus Metall-Kation und Säurerest-Anion über den Ladungsausgleich bilden, dann die Gleichung ausgleichen. Die Anzahl der Wasser-Moleküle entspricht der Anzahl übertragener Protonen.",
       "tags": [
-        "pruefung",
-        "msa"
+        "fragenkatalog",
+        "saeuren-basen-ph-wert-titration",
+        "niveau-b"
       ],
       "spiral": [
-        "W-SYMB"
-      ]
+        "K-SL"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d1-10 · Lehrbuch PDF-S. 115–136"
     },
     {
       "id": "SL07-C2-011",
@@ -433,7 +424,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -474,8 +465,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-LOES"
+        "K-QUANT",
+        "K-SL"
       ]
     },
     {
@@ -510,7 +501,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -652,8 +643,9 @@
     "kapitel": 10,
     "titel": "Säuren, Laugen, Salze",
     "seiten_von": 115,
-    "seiten_bis": 142,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Protolyse"
+    "seiten_bis": 136,
+    "abschnitt": "Säuren, Laugen und Salze - Zusammenfassung",
+    "bezugswort": "Säure-Base-Reaktion",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

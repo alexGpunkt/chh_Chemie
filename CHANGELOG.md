@@ -1,5 +1,38 @@
 # Änderungen
 
+## v6 — Schriftliches Kernwissen und zuverlässige Videos
+
+Jede der 76 Einheiten zeigt nun dauerhaft einen Abschnitt „Kurz erklärt“.
+Er enthält je Lernweg eine eigene Einleitung, die wichtigsten Aussagen, einen
+Merksatz und das Lernziel. Die 228 Arbeitsblatt-PDFs übernehmen denselben
+niveaugerechten Fachtext vor die Aufgaben; chemische Indizes und Reaktionspfeile
+werden im eingeschränkten PDF-Zeichensatz lesbar umgeschrieben.
+
+Die Lumi-H5P-Einbettung lieferte bei YouTube-Inhalten trotz erreichbarer
+H5P-Seite eine schwarze Videofläche. Ursache ist ein JavaScript-Fehler in der
+extern ausgelieferten H5P-YouTube-Bibliothek. Zusätzlich sperren einzelne
+Anbieter die Wiedergabe ihrer Videos in fremden Seiten. Der geprüfte
+YouTube-Direktlink ist deshalb jetzt die Hauptaktion; YouTube-nocookie und die
+interaktive Lumi-Fassung bleiben als optionale Alternativen erhalten.
+
+## v5 — Lehrbuchgerechte Chemiefragen und neue Warm-ups
+
+Die Lernwege greifen jetzt auf den gelieferten Chemie-Fragenkatalog zurück:
+98 redaktionell geprüfte Aufgaben sind 59 fachlich passenden Einheiten
+zugeordnet. Eine Katalogfrage erscheint innerhalb einer Einheit nur in einem
+Lernweg; wo keine passende Frage vorliegt, bleibt die stärkere Originalaufgabe
+erhalten. Herkunft, Katalog-ID und konkrete PDF-Seiten bleiben nachvollziehbar.
+
+Das Warm-up besteht nun aus 224 eindeutigen Fragen in neun Chemiebereichen.
+Jede Frage gehört genau einem Niveau und besitzt eine Einführungs-Einheit;
+dadurch erscheinen Ester, Titration oder Metallbindung erst, nachdem sie im
+Lehrgang erarbeitet wurden. Auswahlfragen funktionieren mit Tastatur, Touch
+und Screenreader.
+
+Die reproduzierbare Zuordnung liegt unter `fragenkatalog/zuordnung.json`;
+`werkzeuge/fragenkatalog-pruefen.js` kontrolliert Quellen, Lernwege,
+Antworten, Warm-up-Mindestumfang und das Fehlen der alten Mathe-Pools.
+
 ## v4 — Ruhigere Lernoberfläche
 
 Die Einheitsseite führt jetzt sichtbar durch die drei Phasen Verstehen,
@@ -647,4 +680,3 @@ jetzt aus `units/index.json` — zwei Wahrheiten wären eine zu viel gewesen.
   nachzuholen.
 - **Die Aufgaben sind nicht im Unterricht erprobt.** Fachliche Richtigkeit wurde
   beim Schreiben geprüft, die Passung zu einer konkreten Lerngruppe nicht.
-

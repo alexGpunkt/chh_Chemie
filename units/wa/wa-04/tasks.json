@@ -154,7 +154,7 @@
         "dipol"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -192,7 +192,7 @@
         "dipol"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -217,33 +217,35 @@
         "dipol"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
-      "id": "WA04-A4-004",
+      "id": "WA04-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum wird ein Benzinstrahl nicht abgelenkt?",
+      "prompt": "Definiere Elektronegativität und gib die Tendenzen im PSE an.",
       "options": [
-        "Benzinmoleküle sind keine Dipole.",
-        "Benzin ist zu leicht.",
-        "Benzin ist brennbar."
+        "Die Elektronegativität (EN) ist ein Maß für die Fähigkeit eines Atoms, die Bindungselektronen einer Elektronenpaarbindung an sich zu ziehen. Die Werte stehen im PSE. Zunahme innerhalb einer Periode (nach rechts) – höhere Kernladung.",
+        "Mesomerie: Kann die tatsächliche Elektronenverteilung nicht durch eine einzige Valenzstrichformel, sondern nur durch mehrere Grenzformeln angenähert werden, spricht man von Mesomerie. Der wahre Zustand liegt „zwischen“ den Grenzformeln;",
+        "Propan < Ammoniak < Wasser < Natriumchlorid Stoff Wechselwirkung bzw. Bindungstyp Propan nur London-Dispersions-WW (unpolares Molekül) Ammoniak Wasserstoffbrücken (eine je Molekül möglich) Wasser mehrere Wasserstoffbrücken je Molekül …"
       ],
       "answer": 0,
       "hints": [
-        "Wovon hängt die Ablenkung ab?",
-        "Von geladenen Enden.",
-        "Benzin hat keine."
+        "Lies den Abschnitt „Wassermoleküle sind Dipole“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Benzin besteht aus unpolaren Molekülen ohne geladene Enden. Ein geladener Stab wirkt deshalb nicht auf sie.",
+      "solution": "Die Elektronegativität (EN) ist ein Maß für die Fähigkeit eines Atoms, die Bindungselektronen einer Elektronenpaarbindung an sich zu ziehen. Die Werte stehen im PSE. Zunahme innerhalb einer Periode (nach rechts) – höhere Kernladung. Abnahme innerhalb einer Hauptgruppe (nach unten) – mehr besetzte Energiestufen, größerer Abstand zum Kern. Das elektronegativste Element ist Fluor. Edelgase werden meist nicht berücksichtigt.",
       "tags": [
-        "dipol"
+        "fragenkatalog",
+        "wechselwirkungskonzept",
+        "niveau-a"
       ],
       "spiral": [
-        "W-STOF"
-      ]
+        "K-BIND"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-c4-1 · Lehrbuch PDF-S. 108–110"
     },
     {
       "id": "WA04-B1-005",
@@ -276,7 +278,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -311,7 +313,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -345,7 +347,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -384,7 +386,7 @@
         "msa"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -410,7 +412,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -437,7 +439,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -468,7 +470,7 @@
         "msa"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -502,7 +504,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -528,43 +530,35 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
-      "id": "WA04-C4-014",
+      "id": "WA04-C4-KAT",
       "path": "C",
       "step": 4,
       "type": "choice",
-      "prompt": "Ein Schüler folgert: „Ein Molekül mit polaren Bindungen ist immer ein Dipol.“ Wie bewertest du das?",
+      "prompt": "„CO₂ besitzt polare Bindungen, deshalb ist das Molekül ein Dipol.“ Erkläre den Fehler.",
       "options": [
-        "Falsch — CO₂ und CH₄ haben polare Bindungen und sind trotzdem keine Dipole, weil sie symmetrisch gebaut sind.",
-        "Richtig — polare Bindungen ergeben immer einen Dipol.",
-        "Falsch — polare Bindungen gibt es gar nicht."
+        "„Ähnliches löst sich in Ähnlichem.“ Entscheidend sind die möglichen Wechselwirkungen zwischen den Teilchen des Stoffs und denen des Lösemittels.",
+        "CH₄ tetraedrisch; NH₃ trigonal-pyramidal; H₂O gewinkelt; CO₂ linear.",
+        "Die beiden C=O-Bindungsdipole sind gleich groß und entgegengesetzt; wegen der linearen Symmetrie heben sie sich auf. CO₂ ist kein permanenter Dipol.",
+        "Die negativ geladenen Elektronenpaare stoßen sich gegenseitig ab. Sie ordnen sich um das Zentralatom so an, dass sie möglichst weit voneinander entfernt sind."
       ],
-      "answer": 0,
+      "answer": 2,
       "hints": [
-        "Nenne ein Gegenbeispiel.",
-        "Kohlenstoffdioxid.",
-        "Der Bau entscheidet mit."
+        "Prüfe jede Aussage mit dem Abschnitt „Wassermoleküle sind Dipole“ (PDF-S. 108–110)."
       ],
-      "solution": "Polare Bindungen sind notwendig, aber nicht hinreichend. Erst ein unsymmetrischer Bau lässt die Wirkungen sich addieren. CO₂ und CH₄ sind Gegenbeispiele — beide haben polare Bindungen und sind keine Dipole.",
-      "misconceptions": [
-        {
-          "id": "polar_unpolar_vertauscht",
-          "value": 1,
-          "feedback": "Ein Gegenbeispiel genügt zur Widerlegung: CO₂ hat polare Bindungen und ist kein Dipol.",
-          "konzeptfehler": "polar_unpolar_vertauscht"
-        }
-      ],
+      "solution": "Die beiden C=O-Bindungsdipole sind gleich groß und entgegengesetzt; wegen der linearen Symmetrie heben sie sich auf. CO₂ ist kein permanenter Dipol.",
       "tags": [
-        "dipol",
-        "bewerten",
-        "msa"
+        "fragenkatalog",
+        "molekuelbau",
+        "niveau-c"
       ],
       "spiral": [
-        "W-SYMB"
-      ]
+        "K-BIND"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-067 · Lehrbuch PDF-S. 108–110"
     }
   ],
   "mitschrift": {
@@ -679,9 +673,10 @@
   "lehrbuch": {
     "kapitel": 9,
     "titel": "Chemische Bindungen",
-    "seiten_von": 109,
-    "seiten_bis": 114,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Elektronegativität"
+    "seiten_von": 108,
+    "seiten_bis": 110,
+    "abschnitt": "Wassermoleküle sind Dipole",
+    "bezugswort": "Elektronegativität",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

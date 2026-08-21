@@ -154,7 +154,7 @@
         "stoffe"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -184,7 +184,7 @@
         "dichte"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -217,45 +217,34 @@
         "aggregatzustand"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
-      "id": "FC03-A4-004",
+      "id": "FC03-A4-KAT",
       "path": "A",
       "step": 4,
-      "type": "numeric",
-      "prompt": "Ein Würfel aus Aluminium hat 2 cm Kantenlänge. Die Dichte beträgt 2,7 g/cm³. Wie schwer ist er?",
-      "answer": 21.6,
-      "unit_label": "g",
-      "tolerance": 0.05,
-      "visual": {
-        "type": "teilchen",
-        "zustand": "fest",
-        "art": "element",
-        "alt": "Teilchenmodell eines festen Metalls: die Teilchen sitzen auf festen Plätzen."
-      },
+      "type": "choice",
+      "prompt": "Richtig oder falsch: Beim Schmelzen werden die Teilchen selbst flüssig.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ],
+      "answer": 1,
       "hints": [
-        "Erst das Volumen des Würfels: 2 · 2 · 2.",
-        "Das Volumen ist 8 cm³.",
-        "Masse = Dichte · Volumen = 2,7 · 8."
+        "Lies den Abschnitt „Stoffeigenschaften, Teilchen und Zustände“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "V = 2 cm · 2 cm · 2 cm = 8 cm³\nm = 2,7 g/cm³ · 8 cm³ = 21,6 g",
-      "misconceptions": [
-        {
-          "id": "volumen_als_flaeche",
-          "value": 10.8,
-          "feedback": "Du hast mit 4 cm² gerechnet. Ein Würfel hat das Volumen a · a · a = 8 cm³."
-        }
-      ],
+      "solution": "Falsch. Die Teilchen bleiben dieselben; ihre Anordnung und Beweglichkeit ändern sich.",
       "tags": [
-        "stoffe",
-        "dichte"
+        "fragenkatalog",
+        "teilchenmodell",
+        "niveau-a"
       ],
       "spiral": [
-        "W-STOF",
-        "W-EINH"
-      ]
+        "K-STOF"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-014 · Lehrbuch PDF-S. 13–27"
     },
     {
       "id": "FC03-B1-005",
@@ -294,7 +283,7 @@
         "teilchen"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -330,7 +319,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -367,7 +356,7 @@
         "dichte"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -409,8 +398,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF",
-        "W-EINH"
+        "K-STOF",
+        "K-QUANT"
       ]
     },
     {
@@ -448,39 +437,35 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
-      "id": "FC03-B4-010",
+      "id": "FC03-B4-KAT",
       "path": "B",
       "step": 4,
-      "type": "numeric",
-      "prompt": "Ein Ölfleck von 12 cm³ wiegt 10,2 g. Schwimmt das Öl auf Wasser (1,0 g/cm³)? Gib die Dichte des Öls an.",
-      "answer": 0.85,
-      "unit_label": "g/cm³",
-      "tolerance": 0.02,
+      "type": "choice",
+      "prompt": "Erkläre den Unterschied zwischen Masse und Dichte.",
+      "options": [
+        "Stoffe bestehen aus kleinsten Teilchen; zwischen den Teilchen ist Raum; die Teilchen bewegen sich und ziehen sich abhängig vom Abstand an.",
+        "Ein Stoff, der nur aus einer Teilchensorte besteht und charakteristische Stoffeigenschaften besitzt.",
+        "Schmelzen fest→flüssig; Erstarren flüssig→fest; Verdampfen flüssig→gasförmig; Kondensieren gasförmig→flüssig.",
+        "Masse beschreibt die Stoffmenge eines Körpers in g oder kg; Dichte ist Masse pro Volumen und eine Stoffeigenschaft: ρ = m/V."
+      ],
+      "answer": 3,
       "hints": [
-        "ρ = m : V.",
-        "10,2 : 12.",
-        "0,85 g/cm³ — kleiner als 1,0, also schwimmt es."
+        "Prüfe jede Aussage mit dem Abschnitt „Stoffeigenschaften, Teilchen und Zustände“ (PDF-S. 13–27)."
       ],
-      "solution": "ρ = 10,2 g : 12 cm³ = 0,85 g/cm³.\nDas ist kleiner als 1,0 g/cm³, also schwimmt das Öl auf dem Wasser.",
-      "misconceptions": [
-        {
-          "id": "dichte_umgedreht",
-          "value": 1.18,
-          "feedback": "Du hast Volumen durch Masse geteilt. ρ = m : V, also Masse durch Volumen."
-        }
-      ],
+      "solution": "Masse beschreibt die Stoffmenge eines Körpers in g oder kg; Dichte ist Masse pro Volumen und eine Stoffeigenschaft: ρ = m/V.",
       "tags": [
-        "stoffe",
-        "dichte",
-        "bbr"
+        "fragenkatalog",
+        "stoffe-eigenschaften",
+        "niveau-b"
       ],
       "spiral": [
-        "W-STOF"
-      ]
+        "K-STOF"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-010 · Lehrbuch PDF-S. 13–27"
     },
     {
       "id": "FC03-C2-011",
@@ -522,7 +507,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -553,7 +538,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -580,44 +565,35 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
-      "id": "FC03-C4-014",
+      "id": "FC03-C4-KAT",
       "path": "C",
       "step": 4,
-      "type": "multi",
-      "prompt": "Eine unbekannte Probe wiegt 47,3 g. Im Messzylinder steigt der Wasserstand von 25,0 mL auf 30,5 mL.",
-      "fields": [
-        {
-          "label": "Volumen der Probe",
-          "answer": 5.5,
-          "unit_label": "cm³",
-          "tolerance": 0.05
-        },
-        {
-          "label": "Dichte der Probe",
-          "answer": 8.6,
-          "unit_label": "g/cm³",
-          "tolerance": 0.1
-        }
+      "type": "choice",
+      "prompt": "Warum bleibt die Temperatur eines Reinstoffs während des Schmelzens zunächst konstant?",
+      "options": [
+        "Masse beschreibt die Stoffmenge eines Körpers in g oder kg; Dichte ist Masse pro Volumen und eine Stoffeigenschaft: ρ = m/V.",
+        "Die zugeführte Energie wird zum Überwinden von Anziehungskräften zwischen den Teilchen genutzt, nicht zur Erhöhung ihrer mittleren Bewegungsenergie.",
+        "Schmelzen fest→flüssig; Erstarren flüssig→fest; Verdampfen flüssig→gasförmig; Kondensieren gasförmig→flüssig.",
+        "Stoffe bestehen aus kleinsten Teilchen; zwischen den Teilchen ist Raum; die Teilchen bewegen sich und ziehen sich abhängig vom Abstand an."
       ],
+      "answer": 1,
       "hints": [
-        "Das Volumen ist die Differenz der Stände.",
-        "30,5 − 25,0 = 5,5 mL.",
-        "ρ = 47,3 : 5,5."
+        "Prüfe jede Aussage mit dem Abschnitt „Stoffeigenschaften, Teilchen und Zustände“ (PDF-S. 13–27)."
       ],
-      "solution": "V = 30,5 mL − 25,0 mL = 5,5 mL = 5,5 cm³\nρ = 47,3 g : 5,5 cm³ ≈ 8,6 g/cm³\nDas passt zu Messing oder Kupfer — die Farbe entscheidet.",
+      "solution": "Die zugeführte Energie wird zum Überwinden von Anziehungskräften zwischen den Teilchen genutzt, nicht zur Erhöhung ihrer mittleren Bewegungsenergie.",
       "tags": [
-        "stoffe",
-        "dichte",
-        "msa"
+        "fragenkatalog",
+        "aggregatzustaende",
+        "niveau-c"
       ],
       "spiral": [
-        "W-STOF",
-        "W-EINH"
-      ]
+        "K-STOF"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-017 · Lehrbuch PDF-S. 13–27"
     }
   ],
   "mitschrift": {
@@ -780,7 +756,8 @@
     "titel": "Stoffe und Stoffeigenschaften",
     "seiten_von": 13,
     "seiten_bis": 27,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Eigenschaft"
+    "abschnitt": "Stoffeigenschaften, Teilchen und Zustände",
+    "bezugswort": "Stoffeigenschaft",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

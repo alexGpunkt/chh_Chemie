@@ -1,12 +1,11 @@
 {
   "name": "Chemie 7–10 · Campus Hannah Höch",
-  "version": "v4",
-  "cache_version": "chemie710-v4-responsive",
+  "version": "v6",
+  "cache_version": "chemie710-v6-themenwissen-videos",
   "source_commit": null,
   "source_branch": "develop",
   "source_dirty": true,
-  "gebaut_am": "2026-08-20T00:00:00Z",
+  "gebaut_am": "2026-08-21T00:00:00Z",
   "tracking_aktiv": true,
   "einheiten": 76
 }
-

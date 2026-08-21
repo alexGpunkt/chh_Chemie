@@ -147,7 +147,7 @@
         "atombau"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -172,7 +172,7 @@
         "atombau"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -294,7 +294,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -317,7 +317,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-EINH"
+        "K-QUANT"
       ]
     },
     {
@@ -396,7 +396,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-EINH"
+        "K-QUANT"
       ]
     },
     {
@@ -484,7 +484,7 @@
         "msa"
       ],
       "spiral": [
-        "W-EINH"
+        "K-QUANT"
       ]
     },
     {
@@ -511,7 +511,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     }
   ],
@@ -629,10 +629,11 @@
   ],
   "lehrbuch": {
     "kapitel": 8,
-    "titel": "Atombau und Ordnung der Elemente",
+    "titel": "Elemente und ihre Ordnung",
     "seiten_von": 97,
-    "seiten_bis": 108,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Atomkern"
+    "seiten_bis": 99,
+    "abschnitt": "Rutherfords Streuversuch und Kern-Hülle-Modell",
+    "bezugswort": "Atomkern",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

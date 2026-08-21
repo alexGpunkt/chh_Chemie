@@ -127,7 +127,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -152,7 +152,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -181,33 +181,35 @@
         "pruefung"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
-      "id": "OS05-A4-004",
+      "id": "OS05-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Was entsteht aus Essigsäure und Natronlauge?",
+      "prompt": "Nenne die Trivialnamen wichtiger Carbonsäuren und Alkohole.",
       "options": [
-        "Natriumacetat und Wasser",
-        "ein Gas",
-        "ein Alkohol"
+        "Propan < Propan-2-on < Propansäure Propan: unpolares Molekül → nur schwache London-Dispersions-Kräfte. Propan-2-on (Aceton): polare Carbonylgruppe → zusätzlich Dipol-Dipol-Kräfte, aber keine Wasserstoffbrücken (kein H am O).",
+        "IUPAC: Alkohol-Rest als Substituent mit der Endung -yl, Säure-Rest als Stammname mit der Endung -oat → Methylethanoat, Ethylpropanoat. Ältere Schreibweise: „Alkansäurealkylester“ → Ethansäuremethylester, Butansäuremethylester.",
+        "Trivialname IUPAC-Name Formel Ameisensäure Methansäure HCOOH Essigsäure Ethansäure CH 3 COOH Buttersäure Butansäure C 3 H 7 COOH Oxalsäure Ethandisäure HOOC–COOH Acrylsäure Propensäure CH 2 =CH–COOH Glycol Ethan-1,2-diol HO–CH 2 –CH 2 …"
       ],
-      "answer": 0,
+      "answer": 2,
       "hints": [
-        "Es ist eine Neutralisation.",
-        "Salz und Wasser.",
-        "Natriumacetat."
+        "Lies den Abschnitt „Organische Säuren - Zusammenfassung“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "CH₃COOH + NaOH → CH₃COONa + H₂O",
+      "solution": "Trivialname IUPAC-Name Formel Ameisensäure Methansäure HCOOH Essigsäure Ethansäure CH 3 COOH Buttersäure Butansäure C 3 H 7 COOH Oxalsäure Ethandisäure HOOC–COOH Acrylsäure Propensäure CH 2 =CH–COOH Glycol Ethan-1,2-diol HO–CH 2 –CH 2 –OH Glycerin Propan-1,2,3-triol C 3 H 5 (OH) 3 Aceton Propan-2-on (Propanon) CH 3 COCH 3",
       "tags": [
-        "pruefung"
+        "fragenkatalog",
+        "sauerstoffhaltige-organische-verbindungen-und-ester",
+        "niveau-a"
       ],
       "spiral": [
-        "W-GLEI"
-      ]
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d4-3 · Lehrbuch PDF-S. 164–167"
     },
     {
       "id": "OS05-B1-005",
@@ -230,7 +232,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -256,7 +258,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -280,7 +282,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -306,7 +308,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -332,7 +334,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -367,7 +369,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -393,7 +395,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -434,8 +436,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -493,7 +495,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     }
   ],
@@ -599,10 +601,11 @@
   ],
   "lehrbuch": {
     "kapitel": 13,
-    "titel": "Organische Säuren",
-    "seiten_von": 163,
-    "seiten_bis": 172,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Carboxygruppe"
+    "titel": "Alkohole und organische Säuren",
+    "seiten_von": 164,
+    "seiten_bis": 167,
+    "abschnitt": "Organische Säuren - Zusammenfassung",
+    "bezugswort": "Carboxygruppe",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

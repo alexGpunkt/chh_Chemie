@@ -144,7 +144,7 @@
         "hochofen"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -169,7 +169,7 @@
         "hochofen"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -194,7 +194,7 @@
         "hochofen"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -219,7 +219,7 @@
         "hochofen"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -245,7 +245,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -271,7 +271,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -293,7 +293,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -328,8 +328,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES",
-        "W-RECH"
+        "K-SL",
+        "K-QUANT"
       ]
     },
     {
@@ -355,7 +355,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -381,7 +381,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -407,7 +407,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -442,7 +442,7 @@
         "msa"
       ],
       "spiral": [
-        "W-EINH"
+        "K-QUANT"
       ]
     },
     {
@@ -469,7 +469,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -643,9 +643,10 @@
   "lehrbuch": {
     "kapitel": 7,
     "titel": "Metalle und Redoxreaktionen",
-    "seiten_von": 83,
-    "seiten_bis": 96,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Erz"
+    "seiten_von": 87,
+    "seiten_bis": 90,
+    "abschnitt": "Vom Eisenerz zum Stahl",
+    "bezugswort": "Hochofen",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

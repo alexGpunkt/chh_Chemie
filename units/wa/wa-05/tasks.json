@@ -138,7 +138,7 @@
         "loesen"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -168,7 +168,7 @@
         "loesen"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -201,38 +201,34 @@
         "loesen"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
-      "id": "WA05-A4-004",
+      "id": "WA05-A4-KAT",
       "path": "A",
       "step": 4,
-      "type": "numeric",
-      "prompt": "In 200 g Wasser werden 20 g Zucker gelöst. Wie viel Prozent Zucker enthält die Lösung?",
-      "answer": 9.09,
-      "unit_label": "%",
-      "tolerance": 0.2,
+      "type": "choice",
+      "prompt": "Richtig oder falsch: Wenn Zucker in Wasser gelöst wird, ist der Zucker chemisch verschwunden.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ],
+      "answer": 1,
       "hints": [
-        "Das Ganze ist Zucker plus Wasser.",
-        "20 + 200 = 220 g.",
-        "20 : 220."
+        "Lies den Abschnitt „Wasser löst Salze und molekulare Stoffe“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "20 g : 220 g = 0,0909 → 9,09 %",
-      "misconceptions": [
-        {
-          "id": "loesungsmittel_als_ganzes",
-          "value": 10,
-          "feedback": "Du hast nur durch das Wasser geteilt. Der Zucker gehört auch zur Lösung."
-        }
-      ],
+      "solution": "Falsch. Die Zuckerteilchen sind weiterhin vorhanden und nur im Wasser verteilt.",
       "tags": [
-        "loesen",
-        "rechnen"
+        "fragenkatalog",
+        "wasser-loesungen",
+        "niveau-a"
       ],
       "spiral": [
-        "W-LOES"
-      ]
+        "K-STOF"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-044 · Lehrbuch PDF-S. 110–113"
     },
     {
       "id": "WA05-B1-005",
@@ -262,7 +258,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -296,7 +292,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -322,7 +318,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -353,7 +349,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -387,35 +383,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
-      "id": "WA05-B4-010",
+      "id": "WA05-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum lässt sich fettige Kleidung mit Wasser allein nicht reinigen?",
+      "prompt": "Was bedeutet „gesättigte Lösung“?",
       "options": [
-        "Fett ist unpolar und wird von Wasser nicht gelöst — es braucht Seife als Vermittler.",
-        "Wasser ist zu kalt.",
-        "Fett ist schwerer als Wasser."
+        "Bei gegebener Temperatur ist so viel Stoff gelöst, wie maximal möglich; zusätzlicher Stoff bleibt ungelöst.",
+        "Rühren transportiert gesättigte Lösung von der Oberfläche weg und bringt frisches Lösungsmittel an den Feststoff.",
+        "Nebel: Flüssigkeit in Gas; Rauch: Feststoff in Gas; Milch: Emulsion; Messing: feste homogene Legierung.",
+        "Eine kleine Menge eindampfen; bleibt ein fester Rückstand, waren nichtflüchtige Stoffe gelöst."
       ],
       "answer": 0,
       "hints": [
-        "Löst Wasser Fett?",
-        "Nein — beide sind zu verschieden.",
-        "Seife vermittelt zwischen beiden."
+        "Prüfe jede Aussage mit dem Abschnitt „Wasser löst Salze und molekulare Stoffe“ (PDF-S. 110–113)."
       ],
-      "solution": "Wasser ist polar, Fett unpolar — sie lösen einander nicht. Seifenmoleküle haben einen unpolaren und einen polaren Teil und vermitteln deshalb zwischen beiden.",
+      "solution": "Bei gegebener Temperatur ist so viel Stoff gelöst, wie maximal möglich; zusätzlicher Stoff bleibt ungelöst.",
       "tags": [
-        "loesen",
-        "anwenden",
-        "msa"
+        "fragenkatalog",
+        "wasser-loesungen",
+        "niveau-b"
       ],
       "spiral": [
-        "W-LOES"
-      ]
+        "K-STOF"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-045 · Lehrbuch PDF-S. 110–113"
     },
     {
       "id": "WA05-C2-011",
@@ -448,7 +444,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -483,7 +479,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -509,7 +505,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -536,7 +532,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     }
   ],
@@ -688,11 +684,12 @@
     }
   ],
   "lehrbuch": {
-    "kapitel": 6,
-    "titel": "Wasser",
-    "seiten_von": 66,
-    "seiten_bis": 82,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Lösungsmittel"
+    "kapitel": 9,
+    "titel": "Chemische Bindungen",
+    "seiten_von": 110,
+    "seiten_bis": 113,
+    "abschnitt": "Wasser löst Salze und molekulare Stoffe",
+    "bezugswort": "Lösungsmittel",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

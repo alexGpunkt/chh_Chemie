@@ -118,7 +118,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -143,7 +143,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -164,42 +164,35 @@
         "pruefung"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
-      "id": "SZ05-A4-004",
+      "id": "SZ05-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Eine Flamme färbt sich gelb. Welches Ion ist vermutlich enthalten?",
+      "prompt": "Was ist ein Kristall? Beschreibe den Aufbau eines Salzes auf Teilchenebene.",
       "options": [
-        "Natrium",
-        "Kalium",
-        "Kupfer"
+        "Salze: Ionenbindung – elektrostatische Anziehung zwischen positiv geladenen Kationen und negativ geladenen Anionen, Anordnung im Ionengitter.",
+        "Ein Kristall ist ein Festkörper mit regelmäßiger, sich wiederholender Struktur; seine Bausteine können Atome, Moleküle oder Ionen sein.",
+        "Elektrische Leitfähigkeit: Die Valenzelektronen bewegen sich als „Elektronengas“ frei zwischen den positiv geladenen Atomrümpfen. Verformbarkeit (Duktilität): Das Elektronengas „vermittelt“ zwischen den Atomrümpfen;"
       ],
-      "answer": 0,
+      "answer": 1,
       "hints": [
-        "Jedes Metall-Ion färbt anders.",
-        "Gelb gehört zu einem sehr häufigen Ion.",
-        "Natrium."
+        "Lies den Abschnitt „Salze - Bildung, Gitter und Eigenschaften“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Natrium-Ionen färben die Flamme intensiv gelb. Kalium färbt violett, Kupfer grün.",
-      "misconceptions": [
-        {
-          "id": "nachweis_verwechselt",
-          "value": 2,
-          "feedback": "Kupfer färbt grün. Gelb ist typisch für Natrium.",
-          "konzeptfehler": "nachweis_verwechselt"
-        }
-      ],
+      "solution": "Ein Kristall ist ein Festkörper mit regelmäßiger, sich wiederholender Struktur; seine Bausteine können Atome, Moleküle oder Ionen sein. Ein Salz ist als Ionengitter aufgebaut: Eine Vielzahl von Kationen und Anionen ist regelmäßig so angeordnet, dass jedes Ion von möglichst vielen entgegengesetzt geladenen Nachbarn umgeben ist. Deshalb gibt es keine „NaCl-Moleküle“ – die Formel NaCl ist eine Verhältnisformel.",
       "tags": [
-        "pruefung",
-        "nachweise"
+        "fragenkatalog",
+        "metalle-salze-und-ihre-bindungen",
+        "niveau-a"
       ],
       "spiral": [
-        "W-SYMB"
-      ]
+        "K-BIND"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-b4-5 · Lehrbuch PDF-S. 103–113"
     },
     {
       "id": "SZ05-B1-005",
@@ -233,7 +226,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -260,7 +253,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -284,7 +277,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -310,7 +303,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -345,7 +338,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -378,7 +371,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -413,7 +406,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -448,7 +441,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -474,7 +467,7 @@
         "msa"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -508,7 +501,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     }
   ],
@@ -635,11 +628,12 @@
     }
   ],
   "lehrbuch": {
-    "kapitel": 10,
-    "titel": "Säuren, Laugen, Salze",
-    "seiten_von": 115,
-    "seiten_bis": 142,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Verhältnisformel"
+    "kapitel": 9,
+    "titel": "Chemische Bindungen",
+    "seiten_von": 103,
+    "seiten_bis": 113,
+    "abschnitt": "Salze - Bildung, Gitter und Eigenschaften",
+    "bezugswort": "Salz",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

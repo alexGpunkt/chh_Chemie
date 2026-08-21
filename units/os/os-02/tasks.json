@@ -167,7 +167,7 @@
         "carbonsaeuren"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -200,7 +200,7 @@
         "carbonsaeuren"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -229,33 +229,35 @@
         "carbonsaeuren"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
-      "id": "OS02-A4-004",
+      "id": "OS02-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Auf welche Endung enden die Namen der organischen Säuren?",
+      "prompt": "Nenne die Trivialnamen wichtiger Carbonsäuren und Alkohole.",
       "options": [
-        "-säure",
-        "-ol",
-        "-an"
+        "IUPAC: Alkohol-Rest als Substituent mit der Endung -yl, Säure-Rest als Stammname mit der Endung -oat → Methylethanoat, Ethylpropanoat. Ältere Schreibweise: „Alkansäurealkylester“ → Ethansäuremethylester, Butansäuremethylester.",
+        "Propan < Propan-2-on < Propansäure Propan: unpolares Molekül → nur schwache London-Dispersions-Kräfte. Propan-2-on (Aceton): polare Carbonylgruppe → zusätzlich Dipol-Dipol-Kräfte, aber keine Wasserstoffbrücken (kein H am O).",
+        "Trivialname IUPAC-Name Formel Ameisensäure Methansäure HCOOH Essigsäure Ethansäure CH 3 COOH Buttersäure Butansäure C 3 H 7 COOH Oxalsäure Ethandisäure HOOC–COOH Acrylsäure Propensäure CH 2 =CH–COOH Glycol Ethan-1,2-diol HO–CH 2 –CH 2 …"
       ],
-      "answer": 0,
+      "answer": 2,
       "hints": [
-        "Methansäure, Ethansäure …",
-        "Alle enden gleich.",
-        "-säure."
+        "Lies den Abschnitt „Alkansäuren und ihre Benennung“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Organische Säuren enden auf -säure. Alkohole enden auf -ol, Alkane auf -an.",
+      "solution": "Trivialname IUPAC-Name Formel Ameisensäure Methansäure HCOOH Essigsäure Ethansäure CH 3 COOH Buttersäure Butansäure C 3 H 7 COOH Oxalsäure Ethandisäure HOOC–COOH Acrylsäure Propensäure CH 2 =CH–COOH Glycol Ethan-1,2-diol HO–CH 2 –CH 2 –OH Glycerin Propan-1,2,3-triol C 3 H 5 (OH) 3 Aceton Propan-2-on (Propanon) CH 3 COCH 3",
       "tags": [
-        "carbonsaeuren"
+        "fragenkatalog",
+        "sauerstoffhaltige-organische-verbindungen-und-ester",
+        "niveau-a"
       ],
       "spiral": [
-        "W-ORG"
-      ]
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d4-3 · Lehrbuch PDF-S. 164–166"
     },
     {
       "id": "OS02-B1-005",
@@ -278,7 +280,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -312,7 +314,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -348,7 +350,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -371,8 +373,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH",
-        "W-ORG"
+        "K-QUANT",
+        "K-ORG"
       ]
     },
     {
@@ -398,7 +400,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -424,7 +426,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -450,7 +452,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -485,7 +487,7 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -519,7 +521,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -554,7 +556,7 @@
         "msa"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     }
   ],
@@ -663,10 +665,11 @@
   ],
   "lehrbuch": {
     "kapitel": 13,
-    "titel": "Organische Säuren",
-    "seiten_von": 163,
-    "seiten_bis": 172,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Alkansäure"
+    "titel": "Alkohole und organische Säuren",
+    "seiten_von": 164,
+    "seiten_bis": 166,
+    "abschnitt": "Alkansäuren und ihre Benennung",
+    "bezugswort": "Alkansäure",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }
