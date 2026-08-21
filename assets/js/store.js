@@ -310,7 +310,7 @@ function schwierigkeiten(schwelle = 3) {
 function lesarten(s) {
   /* Manche kopieren die Zahl aus dem Aufgabentext — dort steht ein
      typografisches Minus (\u2212), das parseFloat nicht kennt. */
-  const t = String(s).replace(/\u2212/g, '-').replace(/\s|€|%/g, '');
+  const t = String(s).replace(/\u2212/g, '-').replace(/\s|%/g, '');
   if (t.includes(',')) {
     return [parseFloat(t.replace(/\./g, '').replace(',', '.'))];
   }

@@ -154,7 +154,7 @@
         "analyse"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -184,7 +184,7 @@
         "rechnen"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -222,7 +222,7 @@
         "analyse"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -256,7 +256,7 @@
         "synthese"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -280,7 +280,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -337,7 +337,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -373,8 +373,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI",
-        "W-RECH"
+        "K-REAK",
+        "K-QUANT"
       ]
     },
     {
@@ -409,7 +409,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -436,7 +436,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -463,7 +463,7 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -504,7 +504,7 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -570,7 +570,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     }
   ],
@@ -696,9 +696,10 @@
   "lehrbuch": {
     "kapitel": 6,
     "titel": "Wasser",
-    "seiten_von": 66,
-    "seiten_bis": 82,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Analyse"
+    "seiten_von": 76,
+    "seiten_bis": 79,
+    "abschnitt": "Zerlegung und Bildung von Wasser",
+    "bezugswort": "Analyse",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

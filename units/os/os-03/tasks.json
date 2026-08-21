@@ -150,7 +150,7 @@
         "salze"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -184,7 +184,7 @@
         "namen"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -209,7 +209,7 @@
         "salze"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -235,7 +235,7 @@
         "namen"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -261,7 +261,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -287,7 +287,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -313,7 +313,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -349,7 +349,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -373,34 +373,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
-      "id": "OS03-B4-010",
+      "id": "OS03-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum sind Fettsäuren wasserunlöslich, ihre Natriumsalze aber löslich?",
+      "prompt": "Formuliere die Reaktion von Ethansäure mit Natronlauge und erkläre den Reaktionstyp.",
       "options": [
-        "Das Salz liegt als Ion vor; Ionen werden von Wasser hydratisiert.",
-        "Das Salz hat eine kürzere Kette.",
-        "Das Salz enthält mehr Sauerstoff."
+        "Alkohol-Moleküle besitzen mit der Hydroxygruppe einen polaren (hydrophilen) Molekülabschnitt, der mit Wasser Wasserstoffbrücken bilden kann, und mit dem Kohlenstoffgerüst einen unpolaren (lipophilen) Abschnitt.",
+        "IUPAC: Alkohol-Rest als Substituent mit der Endung -yl, Säure-Rest als Stammname mit der Endung -oat → Methylethanoat, Ethylpropanoat. Ältere Schreibweise: „Alkansäurealkylester“ → Ethansäuremethylester, Butansäuremethylester.",
+        "CH 3 –COOH + NaOH → CH 3 –COO − Na + + H 2 O Natriumethanoat (Natriumacetat) Reaktionstyp: Protolyse / Neutralisation mit Salzbildung. Die Carbonsäure wirkt als Protonendonator. Warum ist die Carboxygruppe sauer?",
+        "Propan < Propan-2-on < Propansäure Propan: unpolares Molekül → nur schwache London-Dispersions-Kräfte. Propan-2-on (Aceton): polare Carbonylgruppe → zusätzlich Dipol-Dipol-Kräfte, aber keine Wasserstoffbrücken (kein H am O)."
       ],
-      "answer": 0,
+      "answer": 2,
       "hints": [
-        "Was ändert sich bei der Neutralisation?",
-        "Aus der Carboxygruppe wird ein Ion.",
-        "Ionen ziehen Wassermoleküle an."
+        "Prüfe jede Aussage mit dem Abschnitt „Eigenschaften und Salze der Alkansäuren“ (PDF-S. 164–167)."
       ],
-      "solution": "Das geladene Carboxylat-Ion wird von Wassermolekülen hydratisiert. Die Kette bleibt gleich lang, aber der polare Kopf ist nun geladen — genau darauf beruht die Wirkung der Seifen.",
+      "solution": "CH 3 –COOH + NaOH → CH 3 –COO − Na + + H 2 O Natriumethanoat (Natriumacetat) Reaktionstyp: Protolyse / Neutralisation mit Salzbildung. Die Carbonsäure wirkt als Protonendonator. Warum ist die Carboxygruppe sauer? (1) elektronenziehende Wirkung der Carbonylgruppe (−I-Effekt) polarisiert die O–H-Bindung, (2) das entstehende Carboxylat-Anion ist durch Mesomerie (zwei gleichwertige Grenzformeln) stabilisiert. Alltag: Milde organische Säuren als Entkalker: 2 CH 3 COOH + CaCO 3 → Ca 2+ + 2 CH 3 COO − + CO 2 + H 2 O",
       "tags": [
-        "salze",
-        "msa"
+        "fragenkatalog",
+        "sauerstoffhaltige-organische-verbindungen-und-ester",
+        "niveau-b"
       ],
       "spiral": [
-        "W-LOES"
-      ]
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d4-8 · Lehrbuch PDF-S. 164–167"
     },
     {
       "id": "OS03-C2-011",
@@ -440,8 +441,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -467,7 +468,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -494,7 +495,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -529,7 +530,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     }
   ],
@@ -638,10 +639,11 @@
   ],
   "lehrbuch": {
     "kapitel": 13,
-    "titel": "Organische Säuren",
-    "seiten_von": 163,
-    "seiten_bis": 172,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Carboxylat"
+    "titel": "Alkohole und organische Säuren",
+    "seiten_von": 164,
+    "seiten_bis": 167,
+    "abschnitt": "Eigenschaften und Salze der Alkansäuren",
+    "bezugswort": "Carboxylat",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

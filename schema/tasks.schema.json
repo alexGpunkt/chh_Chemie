@@ -153,7 +153,8 @@
         "kapitel",
         "titel",
         "seiten_von",
-        "seiten_bis"
+        "seiten_bis",
+        "abschnitt"
       ],
       "additionalProperties": false,
       "properties": {
@@ -179,9 +180,30 @@
         "quelle": {
           "type": "string"
         },
+        "abschnitt": {
+          "type": "string",
+          "minLength": 3,
+          "description": "Konkreter Unterabschnitt innerhalb des Kapitels; wird auf der Lehrbuchkarte angezeigt."
+        },
         "bezugswort": {
           "type": "string",
           "description": "Das Fachwort, an dem der Auftrag auf Lernweg B hängt. Den Satz baut engine.js (lehrbuchAuftrag) — die Vorlage steht einmal im Code, nicht 76-mal in den Daten."
+        },
+        "weitere_stellen": {
+          "type": "array",
+          "description": "Zusätzliche konkrete Fundstellen für Querschnitts- und Wiederholungseinheiten.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["kapitel", "titel", "seiten_von", "seiten_bis", "abschnitt"],
+            "properties": {
+              "kapitel": { "type": "integer", "minimum": 1, "maximum": 16 },
+              "titel": { "type": "string", "minLength": 3 },
+              "seiten_von": { "type": "integer", "minimum": 1, "maximum": 232 },
+              "seiten_bis": { "type": "integer", "minimum": 1, "maximum": 232 },
+              "abschnitt": { "type": "string", "minLength": 3 }
+            }
+          }
         }
       }
     },

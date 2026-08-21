@@ -168,7 +168,7 @@
         "alkohole"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -193,7 +193,7 @@
         "alkohole"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -214,7 +214,7 @@
         "alkohole"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -263,7 +263,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -297,7 +297,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -331,7 +331,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -357,7 +357,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -389,7 +389,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -440,7 +440,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -466,7 +466,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -501,33 +501,36 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES",
-        "W-RECH"
+        "K-SL",
+        "K-QUANT"
       ]
     },
     {
-      "id": "AL01-C4-014",
+      "id": "AL01-C4-KAT",
       "path": "C",
       "step": 4,
       "type": "choice",
-      "prompt": "Ein Schüler sagt: „Ethanol ist ungiftig, sonst dürfte man es nicht trinken.“ Wie bewertest du das?",
+      "prompt": "Warum sind kurzkettige Alkohole gut wasserlöslich und langkettige nicht?",
       "options": [
-        "Falsch — Ethanol ist ein Zellgift; entscheidend sind Menge und Geschwindigkeit des Abbaus.",
-        "Richtig, Trinkalkohol ist ungiftig.",
-        "Falsch, Ethanol ist genauso giftig wie Methanol."
+        "Propan < Propan-2-on < Propansäure Propan: unpolares Molekül → nur schwache London-Dispersions-Kräfte. Propan-2-on (Aceton): polare Carbonylgruppe → zusätzlich Dipol-Dipol-Kräfte, aber keine Wasserstoffbrücken (kein H am O).",
+        "CH 3 –COOH + NaOH → CH 3 –COO − Na + + H 2 O Natriumethanoat (Natriumacetat) Reaktionstyp: Protolyse / Neutralisation mit Salzbildung. Die Carbonsäure wirkt als Protonendonator. Warum ist die Carboxygruppe sauer?",
+        "Alkohol-Moleküle besitzen mit der Hydroxygruppe einen polaren (hydrophilen) Molekülabschnitt, der mit Wasser Wasserstoffbrücken bilden kann, und mit dem Kohlenstoffgerüst einen unpolaren (lipophilen) Abschnitt.",
+        "IUPAC: Alkohol-Rest als Substituent mit der Endung -yl, Säure-Rest als Stammname mit der Endung -oat → Methylethanoat, Ethylpropanoat. Ältere Schreibweise: „Alkansäurealkylester“ → Ethansäuremethylester, Butansäuremethylester."
       ],
-      "answer": 0,
+      "answer": 2,
       "hints": [
-        "Warum wirkt Alkohol desinfizierend?",
-        "Weil er Zellen schädigt.",
-        "Auf menschliche Zellen wirkt er ebenso."
+        "Prüfe jede Aussage mit dem Abschnitt „Ethanol und die Hydroxylgruppe“ (PDF-S. 159–161)."
       ],
-      "solution": "Ethanol schädigt Zellen — genau darauf beruht seine desinfizierende Wirkung. Der Körper kann kleine Mengen abbauen, größere führen zu Vergiftungserscheinungen. Die Menge entscheidet, nicht der Stoff allein.",
+      "solution": "Alkohol-Moleküle besitzen mit der Hydroxygruppe einen polaren (hydrophilen) Molekülabschnitt, der mit Wasser Wasserstoffbrücken bilden kann, und mit dem Kohlenstoffgerüst einen unpolaren (lipophilen) Abschnitt. Bei kurzen Ketten (Methanol, Ethanol, Propanol) überwiegt der polare Anteil → gut wasserlöslich, in beliebigem Verhältnis mischbar. Mit zunehmender Kettenlänge wirkt der unpolare Rest als Gegenspieler → die Wasserlöslichkeit nimmt ab, die Benzin- und Fettlöslichkeit nimmt zu (Cetylalkohol mit 16 C-Atomen ist praktisch wasserunlöslich). Die Wasserstoffbrücken zwischen den Alkohol-Molekülen erklären außerdem die im Vergleich zu Alkanen höheren Siedetemperaturen und die höhere Viskosität.",
       "tags": [
-        "alkohole",
-        "bewerten",
-        "msa"
-      ]
+        "fragenkatalog",
+        "sauerstoffhaltige-organische-verbindungen-und-ester",
+        "niveau-c"
+      ],
+      "spiral": [
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d4-1 · Lehrbuch PDF-S. 159–161"
     }
   ],
   "mitschrift": {
@@ -645,10 +648,11 @@
   ],
   "lehrbuch": {
     "kapitel": 13,
-    "titel": "Organische Säuren",
-    "seiten_von": 163,
-    "seiten_bis": 172,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Alkohol"
+    "titel": "Alkohole und organische Säuren",
+    "seiten_von": 159,
+    "seiten_bis": 161,
+    "abschnitt": "Ethanol und die Hydroxylgruppe",
+    "bezugswort": "Alkohol",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

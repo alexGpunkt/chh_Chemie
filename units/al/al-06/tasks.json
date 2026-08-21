@@ -181,7 +181,7 @@
         "gaerung"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -206,7 +206,7 @@
         "gaerung"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -229,7 +229,7 @@
         "rechnen"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -262,7 +262,7 @@
         "gaerung"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -285,7 +285,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -316,8 +316,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES",
-        "W-STOF"
+        "K-SL",
+        "K-STOF"
       ]
     },
     {
@@ -343,7 +343,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -374,7 +374,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -398,7 +398,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -471,8 +471,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-LOES"
+        "K-QUANT",
+        "K-SL"
       ]
     },
     {
@@ -513,8 +513,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -573,7 +573,7 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     }
   ],
@@ -682,10 +682,11 @@
   ],
   "lehrbuch": {
     "kapitel": 13,
-    "titel": "Organische Säuren",
-    "seiten_von": 163,
-    "seiten_bis": 172,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "alkoholische Gärung"
+    "titel": "Alkohole und organische Säuren",
+    "seiten_von": 159,
+    "seiten_bis": 161,
+    "abschnitt": "Alkoholische Gärung und Ethanol",
+    "bezugswort": "alkoholische Gärung",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

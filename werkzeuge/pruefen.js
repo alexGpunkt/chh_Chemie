@@ -868,6 +868,18 @@ try {
   fehler.push('schema/fehlvorstellungen-kategorien.json konnte nicht geprüft werden: ' + e.message);
 }
 
+/* ---------- 20 · Lehrbuch- und Fragenkatalogeinbindung ---------- */
+try {
+  execFileSync(process.execPath, [P('werkzeuge/fragenkatalog-pruefen.js')], {
+    cwd: WURZEL, stdio: 'pipe', encoding: 'utf8'
+  });
+  const katalogAnzahl = (liesJson('fragenkatalog/zuordnung.json').zuordnungen || []).length;
+  melde(`${katalogAnzahl} kuratierte Katalogaufgaben und neun sequenzierte Chemie-Warm-up-Pools geprüft`);
+} catch (e) {
+  const ausgabe = String(e.stdout || e.stderr || e.message).trim();
+  fehler.push('Fragenkatalog-Prüfung fehlgeschlagen: ' + ausgabe);
+}
+
 /* ---------- Ausgabe ---------- */
 meldung.forEach(m => console.log('  ✓ ' + m));
 if (warnung.length) {

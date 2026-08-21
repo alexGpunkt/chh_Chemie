@@ -161,7 +161,7 @@
         "symbole"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -225,35 +225,31 @@
       ]
     },
     {
-      "id": "FC01-A4-004",
+      "id": "FC01-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Im Versuch ist etwas danebengegangen. Auf dem Tisch steht eine geöffnete Flasche mit „entzündbar“, der Gasbrenner brennt noch. Was tust du zuerst?",
+      "prompt": "Welche Handlung ist im Chemiefachraum grundsätzlich verboten?",
       "options": [
-        "Den Brenner ausschalten",
-        "Die Flasche zumachen",
-        "Die Lehrkraft suchen gehen"
+        "Essen und Trinken",
+        "Haare zusammenbinden",
+        "Anweisungen lesen"
       ],
       "answer": 0,
       "hints": [
-        "Was ist die eigentliche Gefahrenquelle?",
-        "Ein entzündbarer Stoff braucht eine Zündquelle.",
-        "Die Flamme muss weg."
+        "Lies den Abschnitt „Sicher experimentieren im Fachraum“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Ein entzündbarer Stoff wird gefährlich, sobald eine Zündquelle da ist. Zuerst kommt der Brenner aus, danach wird die Flasche geschlossen und die Lehrkraft gerufen.",
-      "misconceptions": [
-        {
-          "id": "gefahrenquelle_verkannt",
-          "value": 1,
-          "feedback": "Die Flasche zu schließen ist richtig — aber erst als Zweites. Solange die Flamme brennt, bleibt die Zündquelle da.",
-          "konzeptfehler": "sicherheitsregel_missachtet"
-        }
-      ],
+      "solution": "Essen und Trinken.",
       "tags": [
-        "sicherheit",
-        "transfer"
-      ]
+        "fragenkatalog",
+        "labor-sicherheit",
+        "niveau-a"
+      ],
+      "spiral": [
+        "K-SICH"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-002 · Lehrbuch PDF-S. 8–10"
     },
     {
       "id": "FC01-B1-005",
@@ -380,7 +376,7 @@
         "rechnen"
       ],
       "spiral": [
-        "W-EINH"
+        "K-QUANT"
       ]
     },
     {
@@ -524,8 +520,8 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES",
-        "W-EINH"
+        "K-SL",
+        "K-QUANT"
       ]
     },
     {
@@ -561,36 +557,31 @@
       ]
     },
     {
-      "id": "FC01-C4-014",
+      "id": "FC01-C4-KAT",
       "path": "C",
       "step": 4,
       "type": "choice",
-      "prompt": "Zwei Gruppen streiten: Gruppe 1 will einen Versuch mit konzentrierter Säure durchführen, weil er „eindrucksvoller“ aussieht. Gruppe 2 will die verdünnte Variante. Welche Begründung ist fachlich tragfähig?",
+      "prompt": "Welche Schutzmaßnahmen leiten sich aus dem Piktogramm „Ätzwirkung“ ab?",
       "options": [
-        "Gruppe 2, weil dieselbe Aussage mit geringerer Gefährdung erreichbar ist.",
-        "Gruppe 1, weil ein deutlicher Effekt wichtiger ist als die Sicherheit.",
-        "Gruppe 1, weil verdünnte Säuren gar nicht reagieren."
+        "Fachräume nur in Anwesenheit der Lehrkraft betreten. Schutzbrillenpflicht bei jeder Form von Laborarbeit; lange Haare zusammenbinden, Baumwollkittel tragen, bei ätzenden Stoffen zusätzlich Schutzhandschuhe.",
+        "Kontakt unbedingt vermeiden, Schutzbrille und Schutzhandschuhe tragen. Bei Kontakt Augen und Haut sofort mit viel Wasser spülen. Ätzende Stoffe zerstören Metalle und verätzen Körpergewebe; schwere Augenschäden sind möglich.",
+        "H-Sätze ( hazard statements, Gefahrenhinweise) beschreiben die Gefährdungen, die von einem Gefahrstoff ausgehen – z. B. H315 „Verursacht Hautreizungen“.",
+        "Sofort mit der Löschdecke (oder vergleichbarem Material) abdecken, alternativ die Notbrause benutzen oder die Person am Boden rollen. Brandwunden mit kaltem Wasser kühlen und keimfrei bedecken, keine Salben oder Cremes."
       ],
-      "answer": 0,
+      "answer": 1,
       "hints": [
-        "Welche Frage soll der Versuch beantworten?",
-        "Wenn beide Varianten dieselbe Frage beantworten, entscheidet die Gefährdung.",
-        "Verdünnte Säuren reagieren durchaus, nur langsamer."
+        "Prüfe jede Aussage mit dem Abschnitt „Sicher experimentieren im Fachraum“ (PDF-S. 8–10)."
       ],
-      "solution": "Beantworten zwei Varianten dieselbe Frage, ist die mit der geringeren Gefährdung zu wählen. Genau das verlangt die Ersatzstoffprüfung. Ein „eindrucksvollerer“ Effekt ist kein fachliches Argument.",
-      "misconceptions": [
-        {
-          "id": "effekt_vor_sicherheit",
-          "value": 1,
-          "feedback": "Ein größerer Effekt rechtfertigt keine größere Gefährdung, wenn die Frage auch anders zu beantworten ist.",
-          "konzeptfehler": "sicherheitsregel_missachtet"
-        }
-      ],
+      "solution": "Kontakt unbedingt vermeiden, Schutzbrille und Schutzhandschuhe tragen. Bei Kontakt Augen und Haut sofort mit viel Wasser spülen. Ätzende Stoffe zerstören Metalle und verätzen Körpergewebe; schwere Augenschäden sind möglich.",
       "tags": [
-        "sicherheit",
-        "bewerten",
-        "msa"
-      ]
+        "fragenkatalog",
+        "gefahrstoffkennzeichnung-ghs",
+        "niveau-c"
+      ],
+      "spiral": [
+        "K-SICH"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-a2-3 · Lehrbuch PDF-S. 8–10"
     }
   ],
   "mitschrift": {
@@ -715,8 +706,9 @@
     "kapitel": 1,
     "titel": "Sicherheit im Chemieunterricht",
     "seiten_von": 8,
-    "seiten_bis": 12,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Gefahrensymbol"
+    "seiten_bis": 10,
+    "abschnitt": "Sicher experimentieren im Fachraum",
+    "bezugswort": "Sicherheitsregel",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

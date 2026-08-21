@@ -140,7 +140,7 @@
         "schalen"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -176,7 +176,7 @@
         "schalen"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -197,33 +197,35 @@
         "schalen"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
-      "id": "PS07-A4-004",
+      "id": "PS07-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Welches Atom hat eine volle Außenschale?",
+      "prompt": "Was ist ein Atomrumpf, was sind Valenzelektronen?",
       "options": [
-        "Neon",
-        "Natrium",
-        "Chlor"
+        "Teilchen p + n 0 e − Begründung 16 O 8 8 8 ungeladenes Atom: e − = p +; N = 16 − 8 23 Na + 11 12 10 ein Elektron abgegeben 35 Cl − 17 18 18 ein Elektron aufgenommen",
+        "Valenzelektronen (Außenelektronen) sind die Elektronen der äußersten besetzten Energiestufe. Ihre Anzahl entspricht der Hauptgruppennummer und bestimmt das chemische Verhalten.",
+        "I Alkalimetalle · II Erdalkalimetalle · III Borgruppe · IV Kohlenstoffgruppe · V Stickstoffgruppe · VI Sauerstoffgruppe · VII Halogene · VIII Edelgase. Alkalimetalle (I."
       ],
-      "answer": 0,
+      "answer": 1,
       "hints": [
-        "Volle Außenschale haben die Edelgase.",
-        "Welches der drei ist ein Edelgas?",
-        "Neon."
+        "Lies den Abschnitt „Schalen- und Energiestufenmodell“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Neon ist ein Edelgas und hat 8 Außenelektronen — die Schale ist voll. Deshalb reagiert es kaum.",
+      "solution": "Valenzelektronen (Außenelektronen) sind die Elektronen der äußersten besetzten Energiestufe. Ihre Anzahl entspricht der Hauptgruppennummer und bestimmt das chemische Verhalten. Atomrumpf = das Atom ohne seine Valenzelektronen, also Atomkern plus alle inneren Elektronen. Im Metallgitter sind die Atomrümpfe positiv geladen.",
       "tags": [
-        "schalen"
+        "fragenkatalog",
+        "atombau-energiestufen-periodensystem",
+        "niveau-a"
       ],
       "spiral": [
-        "W-TEIL"
-      ]
+        "K-ATOM"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-c1-7 · Lehrbuch PDF-S. 100–102"
     },
     {
       "id": "PS07-B1-005",
@@ -266,7 +268,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -299,7 +301,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -331,7 +333,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -362,7 +364,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -398,35 +400,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
-      "id": "PS07-B4-010",
+      "id": "PS07-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum reagieren Lithium, Natrium und Kalium alle heftig mit Wasser?",
+      "prompt": "Erkläre das Prinzip der Flammenfärbung mit Hilfe des Energiestufenmodells.",
       "options": [
-        "Alle drei haben ein Außenelektron und geben es leicht ab.",
-        "Alle drei sind Metalle mit gleicher Masse.",
-        "Alle drei stehen in derselben Periode."
+        "A X A = Nukleonenzahl (Massenzahl) = Z + N Z Z = Ordnungszahl = Kernladungszahl = Protonenzahl (= Elektronenzahl im Atom) N = Neutronenzahl = A − Z Beispiel: 12 6 C → 6 p +, 6 n 0, 6 e − Die Ordnungszahl legt die Atomart (das Element) …",
+        "Die Elemente sind nach steigender Protonenzahl (Ordnungszahl) und nach chemischer Ähnlichkeit geordnet. Periode = waagrechte Zeile; alle Elemente einer Periode haben gleich viele besetzte Energiestufen (Schalen).",
+        "Durch das Erhitzen nehmen Elektronen der Atomhülle Energie auf – sie werden „ angeregt “ und besetzen eine höhere Energiestufe. Kehrt das Elektron in seinen Grundzustand zurück, wird die Energiedifferenz als Lichtenergie abgegeben.",
+        "Isotope sind Atome desselben Elements (gleiche Protonenzahl), die sich in ihrer Neutronenzahl und damit in ihrer Atommasse unterscheiden. Sie haben gleiche chemische Eigenschaften, weil diese von der Elektronenhülle bestimmt werden."
       ],
-      "answer": 0,
+      "answer": 2,
       "hints": [
-        "Was haben sie gemeinsam?",
-        "Sie stehen untereinander in Gruppe I.",
-        "Also gleich viele Außenelektronen."
+        "Prüfe jede Aussage mit dem Abschnitt „Schalen- und Energiestufenmodell“ (PDF-S. 100–102)."
       ],
-      "solution": "Alle drei stehen in Hauptgruppe I und besitzen ein Außenelektron, das leicht abgegeben wird. Gleiche Außenelektronenzahl bedeutet ähnliches Reaktionsverhalten.",
+      "solution": "Durch das Erhitzen nehmen Elektronen der Atomhülle Energie auf – sie werden „ angeregt “ und besetzen eine höhere Energiestufe. Kehrt das Elektron in seinen Grundzustand zurück, wird die Energiedifferenz als Lichtenergie abgegeben. Weil jedes Element charakteristische Energiestufen besitzt, gehört zu jedem Element eine bestimmte Energiedifferenz → bestimmte Wellenlänge → bestimmte Flammenfarbe. Deshalb ist die Flammenfärbung ein Nachweis für Alkali- und Erdalkalimetall-Ionen.",
       "tags": [
-        "schalen",
-        "gruppen",
-        "msa"
+        "fragenkatalog",
+        "atombau-energiestufen-periodensystem",
+        "niveau-b"
       ],
       "spiral": [
-        "W-TEIL"
-      ]
+        "K-ATOM"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-c1-2 · Lehrbuch PDF-S. 100–102"
     },
     {
       "id": "PS07-C2-011",
@@ -458,7 +460,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -504,8 +506,8 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL",
-        "W-SYMB"
+        "K-ATOM",
+        "K-BIND"
       ]
     },
     {
@@ -533,31 +535,31 @@
       ]
     },
     {
-      "id": "PS07-C4-014",
+      "id": "PS07-C4-KAT",
       "path": "C",
       "step": 4,
       "type": "choice",
-      "prompt": "Ein Schüler folgert: „Kalium hat 19 Elektronen, also 2 · 8 · 8 · 1. Und Calcium 2 · 8 · 8 · 2. Dann müsste das nächste Element 2 · 8 · 8 · 3 haben.“ Wie bewertest du das?",
+      "prompt": "Ein Element steht in der 3. Periode und 1. Hauptgruppe. Welche Valenzelektronenzahl erwartest du und welches typische Ion bildet es?",
       "options": [
-        "Die Regel trägt bis Calcium; danach beginnt eine Nebengruppe, für die das Modell nicht gemacht ist.",
-        "Die Folgerung stimmt für alle Elemente.",
-        "Die Folgerung ist falsch, weil die dritte Schale nur 8 fasst."
+        "Es besitzt ein Valenzelektron und bildet typischerweise ein einfach positiv geladenes Ion (+1), z. B. Na⁺.",
+        "I Alkalimetalle · II Erdalkalimetalle · III Borgruppe · IV Kohlenstoffgruppe · V Stickstoffgruppe · VI Sauerstoffgruppe · VII Halogene · VIII Edelgase. Alkalimetalle (I.",
+        "Teilchen p + n 0 e − Begründung 16 O 8 8 8 ungeladenes Atom: e − = p +; N = 16 − 8 23 Na + 11 12 10 ein Elektron abgegeben 35 Cl − 17 18 18 ein Elektron aufgenommen",
+        "Valenzelektronen (Außenelektronen) sind die Elektronen der äußersten besetzten Energiestufe. Ihre Anzahl entspricht der Hauptgruppennummer und bestimmt das chemische Verhalten."
       ],
       "answer": 0,
       "hints": [
-        "Welches Element folgt auf Calcium?",
-        "Scandium — ein Nebengruppenelement.",
-        "Dort greift die einfache Regel nicht mehr."
+        "Prüfe jede Aussage mit dem Abschnitt „Schalen- und Energiestufenmodell“ (PDF-S. 100–102)."
       ],
-      "solution": "Bis Calcium ist die Fortsetzung richtig. Danach folgt Scandium, ein Nebengruppenelement: Dort wird eine innere Ebene aufgefüllt statt der Außenschale. Die Schlussfolgerung ist also nicht falsch gedacht, sondern über die Modellgrenze hinaus gezogen.",
+      "solution": "Es besitzt ein Valenzelektron und bildet typischerweise ein einfach positiv geladenes Ion (+1), z. B. Na⁺.",
       "tags": [
-        "schalen",
-        "bewerten",
-        "msa"
+        "fragenkatalog",
+        "periodensystem",
+        "niveau-c"
       ],
       "spiral": [
-        "W-TEIL"
-      ]
+        "K-ATOM"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-058 · Lehrbuch PDF-S. 100–102"
     }
   ],
   "mitschrift": {
@@ -697,10 +699,11 @@
   ],
   "lehrbuch": {
     "kapitel": 8,
-    "titel": "Atombau und Ordnung der Elemente",
-    "seiten_von": 97,
-    "seiten_bis": 108,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Schale"
+    "titel": "Elemente und ihre Ordnung",
+    "seiten_von": 100,
+    "seiten_bis": 102,
+    "abschnitt": "Schalen- und Energiestufenmodell",
+    "bezugswort": "Außenelektron",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

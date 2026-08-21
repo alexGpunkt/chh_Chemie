@@ -165,7 +165,7 @@
         "umwelt"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -190,7 +190,7 @@
         "umwelt"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -215,7 +215,7 @@
         "umwelt"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -241,7 +241,7 @@
         "edelgase"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -274,7 +274,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -331,7 +331,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -363,7 +363,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-EINH"
+        "K-QUANT"
       ]
     },
     {
@@ -397,7 +397,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -424,7 +424,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -483,8 +483,8 @@
         "msa"
       ],
       "spiral": [
-        "W-EINH",
-        "W-LOES"
+        "K-QUANT",
+        "K-SL"
       ]
     },
     {
@@ -678,9 +678,10 @@
   "lehrbuch": {
     "kapitel": 4,
     "titel": "Luft und Verbrennungen",
-    "seiten_von": 38,
-    "seiten_bis": 57,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Treibhausgas"
+    "seiten_von": 47,
+    "seiten_bis": 50,
+    "abschnitt": "Luftverschmutzung und Treibhauseffekt",
+    "bezugswort": "Treibhausgas",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

@@ -2,13 +2,13 @@
    sw.js · Offline-Betrieb
 
    Das Schul-WLAN fällt aus, der Unterricht nicht.
-   76 Einheiten, 8 Warm-up-Pools und die Programmdateien liegen vollständig im Cache.
+   76 Einheiten, 9 Warm-up-Pools und die Programmdateien liegen vollständig im Cache.
 
    WICHTIG: Nach jeder inhaltlichen Änderung VERSION hochzählen.
    Sonst sehen die Geräte weiter die alte Fassung.
    ============================================================ */
 
-const VERSION = 'chemie710-v4-responsive';
+const VERSION = 'chemie710-v5-lehrbuchfragen';
 
 /* ---------- Was NICHT ins Offlinepaket gehört ----------
    Bis v2 lud jedes Schülergerät bei der Installation auch das
@@ -153,14 +153,15 @@ const EINHEITEN = [
 ];
 
 const SPIRAL = [
-  'spiral/w-stof.json',
-  'spiral/w-teil.json',
-  'spiral/w-symb.json',
-  'spiral/w-glei.json',
-  'spiral/w-rech.json',
-  'spiral/w-einh.json',
-  'spiral/w-loes.json',
-  'spiral/w-org.json'
+  'spiral/k-sich.json',
+  'spiral/k-stof.json',
+  'spiral/k-reak.json',
+  'spiral/k-atom.json',
+  'spiral/k-bind.json',
+  'spiral/k-redox.json',
+  'spiral/k-quant.json',
+  'spiral/k-sl.json',
+  'spiral/k-org.json'
 ];
 
 const ALLES = [...SCHALE, ...EINHEITEN, ...SPIRAL];
@@ -242,4 +243,3 @@ self.addEventListener('fetch', e => {
     }
   })());
 });
-

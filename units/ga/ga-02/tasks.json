@@ -163,7 +163,7 @@
         "nachweise"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -197,7 +197,7 @@
         "nachweise"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -222,7 +222,7 @@
         "nachweise"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -311,7 +311,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -395,30 +395,31 @@
       ]
     },
     {
-      "id": "GA02-B4-010",
+      "id": "GA02-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum beschlägt bei der Knallgasprobe die Innenwand des Reagenzglases?",
+      "prompt": "Beschreibe die Nachweise für Sauerstoff, Wasserstoff und Kohlenstoffdioxid.",
       "options": [
-        "Es entsteht Wasser, das an der kühleren Wand kondensiert.",
-        "Das Glas schmilzt an.",
-        "Der Wasserstoff wird flüssig."
+        "Der verfügbare Sauerstoff wird verbraucht; sinkt seine Konzentration ausreichend, kann die Verbrennung nicht weiterlaufen.",
+        "Nachweis für Name Durchführung Beobachtung Sauerstoff O 2 Glimmspanprobe Ein glimmender Holzspan wird in das Gas gehalten Der Span glimmt auf bzw.",
+        "Fällungsreaktion mit Silbernitrat. Durchführung: Die Probe wird in Wasser gelöst und mit Silbernitrat-Lösung (AgNO 3 (aq)) versetzt.",
+        "Beide sind Nachweisreaktionen für Aldehyde. Der Aldehyd wirkt als Reduktionsmittel und wird dabei selbst zur Carbonsäure oxidiert."
       ],
-      "answer": 0,
+      "answer": 1,
       "hints": [
-        "Was entsteht bei der Reaktion?",
-        "Wasser.",
-        "Es schlägt sich an der kühlen Wand nieder."
+        "Prüfe jede Aussage mit dem Abschnitt „Sauerstoff und Gasnachweise“ (PDF-S. 38–42)."
       ],
-      "solution": "2 H₂ + O₂ → 2 H₂O. Das entstehende Wasser kondensiert an der kühleren Glaswand — ein zusätzlicher Beleg für das Produkt.",
+      "solution": "Nachweis für Name Durchführung Beobachtung Sauerstoff O 2 Glimmspanprobe Ein glimmender Holzspan wird in das Gas gehalten Der Span glimmt auf bzw. entflammt Wasserstoff H 2 Knallgasprobe Das aufgefangene Gas (mit Luft) wird an einer Flamme entzündet Pfeifen oder Knall („Plopp“) Kohlenstoffdioxid CO 2 Kalkwasserprobe Das Gas wird in Kalkwasser (Calciumhydroxid-Lösung) eingeleitet Weißer Niederschlag / milchige Trübung durch schwerlösliches Calciumcarbonat Knallgasreaktion: 2 H 2 (g) + O 2 (g) → 2 H 2 O(g) Kalkwasserprobe: CO 2 (g) + Ca(OH) 2 (aq) → CaCO 3 (s) + H 2 O(l)",
       "tags": [
-        "nachweise",
-        "bbr"
+        "fragenkatalog",
+        "nachweisreaktionen",
+        "niveau-b"
       ],
       "spiral": [
-        "W-GLEI"
-      ]
+        "K-REAK"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-f-1 · Lehrbuch PDF-S. 38–42"
     },
     {
       "id": "GA02-C2-011",
@@ -443,7 +444,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -517,8 +518,8 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI",
-        "W-RECH"
+        "K-REAK",
+        "K-QUANT"
       ]
     },
     {
@@ -679,8 +680,9 @@
     "kapitel": 4,
     "titel": "Luft und Verbrennungen",
     "seiten_von": 38,
-    "seiten_bis": 57,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Nachweis"
+    "seiten_bis": 42,
+    "abschnitt": "Sauerstoff und Gasnachweise",
+    "bezugswort": "Nachweisreaktion",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

@@ -151,7 +151,7 @@
         "salze"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -176,7 +176,7 @@
         "salze"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -214,31 +214,35 @@
         "salze"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
-      "id": "SZ02-A4-004",
+      "id": "SZ02-A4-KAT",
       "path": "A",
       "step": 4,
-      "type": "numeric",
-      "prompt": "Kochsalz schmilzt bei 801 °C, Eis bei 0 °C. Wie groß ist der Unterschied?",
-      "answer": 801,
-      "unit_label": "°C",
-      "tolerance": 0,
-      "hints": [
-        "801 − 0.",
-        "Der Unterschied ist die Differenz.",
-        "801 °C."
+      "type": "choice",
+      "prompt": "Was ist ein Kristall? Beschreibe den Aufbau eines Salzes auf Teilchenebene.",
+      "options": [
+        "Ein Kristall ist ein Festkörper mit regelmäßiger, sich wiederholender Struktur; seine Bausteine können Atome, Moleküle oder Ionen sein.",
+        "„Ähnliches löst sich in Ähnlichem.“ Entscheidend sind die möglichen Wechselwirkungen zwischen den Teilchen des Stoffs und denen des Lösemittels.",
+        "Salze: Ionenbindung – elektrostatische Anziehung zwischen positiv geladenen Kationen und negativ geladenen Anionen, Anordnung im Ionengitter."
       ],
-      "solution": "801 °C − 0 °C = 801 °C. Der große Unterschied zeigt, wie stark die Anziehung im Ionengitter ist.",
+      "answer": 0,
+      "hints": [
+        "Lies den Abschnitt „Ionenbindung und Ionengitter“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
+      ],
+      "solution": "Ein Kristall ist ein Festkörper mit regelmäßiger, sich wiederholender Struktur; seine Bausteine können Atome, Moleküle oder Ionen sein. Ein Salz ist als Ionengitter aufgebaut: Eine Vielzahl von Kationen und Anionen ist regelmäßig so angeordnet, dass jedes Ion von möglichst vielen entgegengesetzt geladenen Nachbarn umgeben ist. Deshalb gibt es keine „NaCl-Moleküle“ – die Formel NaCl ist eine Verhältnisformel.",
       "tags": [
-        "salze",
-        "rechnen"
+        "fragenkatalog",
+        "metalle-salze-und-ihre-bindungen",
+        "niveau-a"
       ],
       "spiral": [
-        "W-EINH"
-      ]
+        "K-BIND"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-b4-5 · Lehrbuch PDF-S. 103–106"
     },
     {
       "id": "SZ02-B1-005",
@@ -268,7 +272,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -294,7 +298,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -325,7 +329,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -351,7 +355,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -373,7 +377,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -410,7 +414,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -436,7 +440,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -462,7 +466,7 @@
         "msa"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -496,7 +500,7 @@
         "msa"
       ],
       "spiral": [
-        "W-EINH"
+        "K-QUANT"
       ]
     },
     {
@@ -531,7 +535,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     }
   ],
@@ -647,9 +651,10 @@
   "lehrbuch": {
     "kapitel": 9,
     "titel": "Chemische Bindungen",
-    "seiten_von": 109,
-    "seiten_bis": 114,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Ionengitter"
+    "seiten_von": 103,
+    "seiten_bis": 106,
+    "abschnitt": "Ionenbindung und Ionengitter",
+    "bezugswort": "Ionengitter",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

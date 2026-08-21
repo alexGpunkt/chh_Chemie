@@ -160,7 +160,7 @@
         "molmasse"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -182,7 +182,7 @@
         "molmasse"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -204,39 +204,35 @@
         "molmasse"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
-      "id": "QB01-A4-004",
+      "id": "QB01-A4-KAT",
       "path": "A",
       "step": 4,
-      "type": "numeric",
-      "prompt": "Wie groß ist M(CH₄)? (C = 12, H = 1 g/mol)",
-      "answer": 16,
-      "unit_label": "g/mol",
-      "tolerance": 0,
+      "type": "choice",
+      "prompt": "Was sind atomare Masseneinheit u und relative Atommasse?",
+      "options": [
+        "1 u ist definiert als 1/12 der Masse eines 12 C-Atoms; es gilt 1 u ≈ 1,66 · 10 −24 g. Die relative Atommasse gibt an, wie groß die Masse eines Atoms im Verhältnis zu 1 u ist. Sie steht im PSE.",
+        "1. Reaktionsgleichung 2 C 2 H 6 + 7 O 2 → 4 CO 2 + 6 H 2 O 2 mol 7 mol 4 mol 6 mol 2. Stoffmengenverhältnis n(C 2 H 6 ): n(CO 2 ) = 2: 4 = 1: 2 → n(CO 2 ) = 2 · n(C 2 H 6 ) 3.",
+        "Stoffmenge n: Größe zur Beschreibung einer Stoffportion; gibt an, wie viele Teilchen sie enthält. Einheit: mol. 1 mol ist die Stoffmenge einer Portion, die 6,022 · 10 23 Teilchen (Atome, Moleküle oder Ionen) enthält."
+      ],
+      "answer": 0,
       "hints": [
-        "Ein C und vier H.",
-        "12 + 4 · 1.",
-        "16 g/mol."
+        "Lies den Abschnitt „Teilchenmengen und molare Masse“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "M(CH₄) = 12 + 4 = 16 g/mol",
-      "misconceptions": [
-        {
-          "id": "index_uebersehen",
-          "value": 13,
-          "feedback": "Der Index 4 gilt für den Wasserstoff: 4 · 1 = 4.",
-          "konzeptfehler": "summenformel_falsch_gelesen"
-        }
-      ],
+      "solution": "1 u ist definiert als 1/12 der Masse eines 12 C-Atoms; es gilt 1 u ≈ 1,66 · 10 −24 g. Die relative Atommasse gibt an, wie groß die Masse eines Atoms im Verhältnis zu 1 u ist. Sie steht im PSE. Die Molekülmasse ist die Summe der Atommassen aller Atome des Moleküls. Beispiele: m a (C) = 12 u → M(C) = 12 g/mol; m(N 2 ) = 28 u → M(N 2 ) = 28 g/mol; M(CO 2 ) = 44 g/mol; M(N 2 O 5 ) = 108 g/mol.",
       "tags": [
-        "molmasse"
+        "fragenkatalog",
+        "quantitative-chemie-und-stoechiometrie",
+        "niveau-a"
       ],
       "spiral": [
-        "W-RECH",
-        "W-ORG"
-      ]
+        "K-QUANT"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-b6-4 · Lehrbuch PDF-S. 60–62"
     },
     {
       "id": "QB01-B1-005",
@@ -258,7 +254,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -289,8 +285,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH",
-        "W-SYMB"
+        "K-QUANT",
+        "K-BIND"
       ]
     },
     {
@@ -313,7 +309,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -353,7 +349,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -384,7 +380,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -408,7 +404,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -450,8 +446,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-SYMB"
+        "K-QUANT",
+        "K-BIND"
       ]
     },
     {
@@ -485,7 +481,7 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -517,8 +513,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-SYMB"
+        "K-QUANT",
+        "K-BIND"
       ]
     },
     {
@@ -553,7 +549,7 @@
         "msa"
       ],
       "spiral": [
-        "W-EINH"
+        "K-QUANT"
       ]
     }
   ],
@@ -663,9 +659,10 @@
   "lehrbuch": {
     "kapitel": 5,
     "titel": "Die chemische Reaktion",
-    "seiten_von": 58,
-    "seiten_bis": 65,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Atommasse"
+    "seiten_von": 60,
+    "seiten_bis": 62,
+    "abschnitt": "Teilchenmengen und molare Masse",
+    "bezugswort": "molare Masse",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

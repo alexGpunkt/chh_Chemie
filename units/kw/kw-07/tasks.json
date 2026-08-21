@@ -124,7 +124,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -149,7 +149,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -174,7 +174,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -204,7 +204,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -226,7 +226,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -252,7 +252,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -274,7 +274,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -315,8 +315,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -344,31 +344,31 @@
       ]
     },
     {
-      "id": "KW07-B4-010",
+      "id": "KW07-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Welche Antwort auf „Erkläre, warum Octan bei Zimmertemperatur flüssig ist“ ist vollständig?",
+      "prompt": "Formuliere die allgemeine Summenformel der Alkane und erkläre n.",
       "options": [
-        "Die acht C-Atome bieten große Kontaktfläche; die van-der-Waals-Kräfte sind so stark, dass der Siedepunkt bei 126 °C liegt.",
-        "Weil es acht C-Atome hat.",
-        "Weil es Benzin ist."
+        "CₙH₂ₙ₊₂; n ist die Anzahl der Kohlenstoffatome im unverzweigten oder verzweigten gesättigten Kohlenwasserstoff.",
+        "Stoffklasse Bindung allgemeine Formel Endung Alkane nur Einfachbindungen – gesättigt C n H 2n+2 -an Alkene mind. eine C=C-Doppelbindung – ungesättigt C n H 2n -en Alkine mind.",
+        "Die Position der Doppelbindung muss angegeben werden, z. B. But-1-en oder But-2-en; außerdem kann bei But-2-en E/Z-Isomerie auftreten.",
+        "Nukleophile Addition an die Carbonylgruppe. Das C-Atom der Carbonylgruppe ist wegen der stark elektronenziehenden Wirkung des Sauerstoff-Atoms (hohe Elektronegativität) positiv polarisiert (δ+)."
       ],
       "answer": 0,
       "hints": [
-        "„Erkläre“ verlangt eine Ursache.",
-        "Die Kettenlänge allein ist nur eine Angabe.",
-        "Die Ursache sind die Anziehungskräfte."
+        "Prüfe jede Aussage mit dem Abschnitt „Kohlenwasserstoffe - Zusammenfassung“ (PDF-S. 147–158)."
       ],
-      "solution": "Antwort 2 nennt nur eine Tatsache, Antwort 3 gar keine Ursache. Vollständig ist die Kette: Kettenlänge → Kontaktfläche → van-der-Waals-Kräfte → Siedetemperatur.",
+      "solution": "CₙH₂ₙ₊₂; n ist die Anzahl der Kohlenstoffatome im unverzweigten oder verzweigten gesättigten Kohlenwasserstoff.",
       "tags": [
-        "pruefung",
-        "operatoren",
-        "bbr"
+        "fragenkatalog",
+        "organik",
+        "niveau-b"
       ],
       "spiral": [
-        "W-ORG"
-      ]
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-074 · Lehrbuch PDF-S. 147–158"
     },
     {
       "id": "KW07-C2-011",
@@ -393,7 +393,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -434,8 +434,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -470,32 +470,35 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
-      "id": "KW07-C4-014",
+      "id": "KW07-C4-KAT",
       "path": "C",
       "step": 4,
       "type": "choice",
-      "prompt": "Bewerte: „Erdgas ist ein sauberer Brennstoff.“",
+      "prompt": "Erläutere Treibhauseffekt und Ozonloch – und was Kohlenwasserstoffe damit zu tun haben.",
       "options": [
-        "Bezogen auf Ruß und Schwefel ja, bezogen auf CO₂ nur im Vergleich zu Kohle — kohlenstofffrei ist es nicht.",
-        "Richtig, Erdgas verbrennt rückstandsfrei.",
-        "Falsch, Erdgas ist der schmutzigste Brennstoff."
+        "Nukleophile Addition an die Carbonylgruppe. Das C-Atom der Carbonylgruppe ist wegen der stark elektronenziehenden Wirkung des Sauerstoff-Atoms (hohe Elektronegativität) positiv polarisiert (δ+).",
+        "Treibhauseffekt: Erwärmung der Atmosphäre durch übermäßige Freisetzung von Treibhausgasen wie CO 2 (aus der Verbrennung fossiler Energieträger) und CH 4 (unverbrannte Erdgasreste, Landwirtschaft).",
+        "Atmosphäre → Biosphäre: Pflanzen binden CO 2 durch Fotosynthese: 6 CO 2 + 6 H 2 O → C 6 H 12 O 6 + 6 O 2 Biosphäre → Atmosphäre: Zellatmung und Verwesung setzen CO 2 wieder frei (Umkehrung der Fotosynthese).",
+        "Produkte: Brenn- und Kraftstoffe (Benzin, Diesel, Heizöl, Flüssiggas) · Kunststoffe (Verpackungen, Kleidung) · Tenside (Waschmittel, Shampoo) · Kosmetika · Pharmaka · Farbstoffe und Lacke · Pestizide."
       ],
-      "answer": 0,
+      "answer": 1,
       "hints": [
-        "Was entsteht bei jeder Verbrennung von CH₄?",
-        "CO₂ und Wasser.",
-        "Also ist eine Bewertung nur mit Kriterium möglich."
+        "Prüfe jede Aussage mit dem Abschnitt „Kohlenwasserstoffe - Zusammenfassung“ (PDF-S. 147–158)."
       ],
-      "solution": "Erdgas verbrennt ohne Ruß und Schwefeldioxid und setzt je Energieeinheit weniger CO₂ frei als Kohle. Kohlenstofffrei ist es nicht — bei jeder Verbrennung entsteht CO₂. „Sauber“ ist ohne Kriterium keine Aussage.",
+      "solution": "Treibhauseffekt: Erwärmung der Atmosphäre durch übermäßige Freisetzung von Treibhausgasen wie CO 2 (aus der Verbrennung fossiler Energieträger) und CH 4 (unverbrannte Erdgasreste, Landwirtschaft). Diese Gase lassen kurzwellige Sonnenstrahlung durch, absorbieren aber die von der Erde abgestrahlte Wärmestrahlung. Ozonloch: Zerstörung der Ozonschicht durch Chlorfluorkohlenwasserstoffe (FCKW). Dadurch gelangt mehr schädliche UV-Strahlung auf die Erde → erhöhtes Hautkrebsrisiko, Schädigung vieler Lebewesen. Folge: weitgehendes Verbot der FCKW. Wichtig: Treibhauseffekt und Ozonloch sind zwei verschiedene Probleme mit verschiedenen Ursachen – ein häufiger Fehler in Prüfungen.",
       "tags": [
-        "pruefung",
-        "bewerten",
-        "msa"
-      ]
+        "fragenkatalog",
+        "kohlenwasserstoffe-und-reaktionsmechanismen",
+        "niveau-c"
+      ],
+      "spiral": [
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d3-8 · Lehrbuch PDF-S. 147–158"
     }
   ],
   "mitschrift": {
@@ -618,10 +621,11 @@
   ],
   "lehrbuch": {
     "kapitel": 12,
-    "titel": "Der Weg zur organischen Chemie",
+    "titel": "Kohlenwasserstoffe",
     "seiten_von": 147,
-    "seiten_bis": 162,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "homologe Reihe"
+    "seiten_bis": 158,
+    "abschnitt": "Kohlenwasserstoffe - Zusammenfassung",
+    "bezugswort": "homologe Reihe",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

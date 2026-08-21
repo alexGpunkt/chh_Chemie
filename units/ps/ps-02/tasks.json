@@ -133,7 +133,7 @@
         "modelle"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -169,7 +169,7 @@
         "modelle"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -203,30 +203,35 @@
         "modelle"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
-      "id": "PS02-A4-004",
+      "id": "PS02-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Was ist ein Nachteil jedes Modells?",
+      "prompt": "Nenne drei Grundannahmen des einfachen Teilchenmodells.",
       "options": [
-        "Es lässt etwas weg.",
-        "Es ist zu teuer.",
-        "Es ist zu groß."
+        "Stoffe bestehen aus kleinsten Teilchen; zwischen den Teilchen ist Raum; die Teilchen bewegen sich und ziehen sich abhängig vom Abstand an.",
+        "Falsch. Die Teilchen bleiben dieselben; ihre Anordnung und Beweglichkeit ändern sich.",
+        "Duftteilchen bewegen sich ständig zufällig und verteilen sich durch Zusammenstöße allmählich im Raum."
       ],
       "answer": 0,
       "hints": [
-        "Ein Modell ist einfacher als die Wirklichkeit.",
-        "Etwas fehlt also immer.",
-        "Es lässt etwas weg."
+        "Lies den Abschnitt „Teilchenmodell und Modellvorstellungen“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Jedes Modell vereinfacht und lässt dabei etwas weg. Genau das macht es brauchbar — und begrenzt es zugleich.",
+      "solution": "Stoffe bestehen aus kleinsten Teilchen; zwischen den Teilchen ist Raum; die Teilchen bewegen sich und ziehen sich abhängig vom Abstand an.",
       "tags": [
-        "modelle"
-      ]
+        "fragenkatalog",
+        "teilchenmodell",
+        "niveau-a"
+      ],
+      "spiral": [
+        "K-ATOM"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-012 · Lehrbuch PDF-S. 23–27"
     },
     {
       "id": "PS02-B1-005",
@@ -274,7 +279,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -357,27 +362,31 @@
       ]
     },
     {
-      "id": "PS02-B4-010",
+      "id": "PS02-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Ein Modell des Sonnensystems wird für den Atombau benutzt. Wo führt der Vergleich in die Irre?",
+      "prompt": "Erkläre die Diffusion eines Parfümgeruchs im Raum mit dem Teilchenmodell.",
       "options": [
-        "Planeten ziehen sich durch Schwerkraft an, Elektronen werden elektrisch angezogen — und Elektronen haben keine festen Bahnen.",
-        "Planeten sind größer als Elektronen.",
-        "Das Sonnensystem ist älter als das Atom."
+        "Nebel: Flüssigkeit in Gas; Rauch: Feststoff in Gas; Milch: Emulsion; Messing: feste homogene Legierung.",
+        "Duftteilchen bewegen sich ständig zufällig und verteilen sich durch Zusammenstöße allmählich im Raum.",
+        "Falsch. Die Teilchen bleiben dieselben; ihre Anordnung und Beweglichkeit ändern sich.",
+        "Stoffe bestehen aus kleinsten Teilchen; zwischen den Teilchen ist Raum; die Teilchen bewegen sich und ziehen sich abhängig vom Abstand an."
       ],
-      "answer": 0,
+      "answer": 1,
       "hints": [
-        "Welche Kraft wirkt jeweils?",
-        "Schwerkraft gegen elektrische Anziehung.",
-        "Und Bahnen gibt es beim Atom nicht."
+        "Prüfe jede Aussage mit dem Abschnitt „Teilchenmodell und Modellvorstellungen“ (PDF-S. 23–27)."
       ],
-      "solution": "Der Vergleich trägt für die Vorstellung „schwerer Kern, leichte Hülle“. Er versagt bei der Art der Kraft und bei der Vorstellung fester Bahnen — Elektronen haben keine.",
+      "solution": "Duftteilchen bewegen sich ständig zufällig und verteilen sich durch Zusammenstöße allmählich im Raum.",
       "tags": [
-        "modelle",
-        "msa"
-      ]
+        "fragenkatalog",
+        "teilchenmodell",
+        "niveau-b"
+      ],
+      "spiral": [
+        "K-ATOM"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-015 · Lehrbuch PDF-S. 23–27"
     },
     {
       "id": "PS02-C2-011",
@@ -402,7 +411,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -458,32 +467,35 @@
         "msa"
       ],
       "spiral": [
-        "W-EINH"
+        "K-QUANT"
       ]
     },
     {
-      "id": "PS02-C4-014",
+      "id": "PS02-C4-KAT",
       "path": "C",
       "step": 4,
       "type": "choice",
-      "prompt": "Zwei Gruppen streiten, ob das Schalenmodell oder das Kugelmodell „besser“ ist. Wie löst du den Streit fachlich auf?",
+      "prompt": "Beschreibe den Ablauf einer hypothesengeleiteten naturwissenschaftlichen Untersuchung.",
       "options": [
-        "Die Frage ist falsch gestellt — es kommt darauf an, welche Frage beantwortet werden soll.",
-        "Das Schalenmodell ist neuer und deshalb besser.",
-        "Das Kugelmodell ist einfacher und deshalb besser."
+        "Gerät Verwendung Reagenzglas, -gestell, -halter Kleinversuche; Halter zum Erhitzen Becherglas / Erlenmeyerkolben Ansetzen, Mischen, Erhitzen von Lösungen Bunsen- / Kartuschenbrenner, Dreifuß Erhitzen Trichter mit Filterpapier …",
+        "Überschrift / Fragestellung und Datum Geräte und Chemikalien mit Gefahrenhinweisen Sicherheitsvorkehrungen Versuchsaufbau (beschriftete Skizze) Durchführung – sachlich, im Passiv Beobachtung – nur, was mit den Sinnen wahrnehmbar ist …",
+        "Fragestellung / Beobachtung formulieren. Hypothese aufstellen (überprüfbare Vermutung). Versuchsplanung. Versuchsdurchführung inklusive Versuchsprotokoll. Rückbezug zur Hypothese – wurde sie bestätigt oder widerlegt?",
+        "Modelle vereinfachen die nicht direkt beobachtbare Teilchenwelt, um Phänomene erklären und Vorhersagen treffen zu können. Jedes Modell hat aber Grenzen und wird nur so lange verwendet, wie es trägt."
       ],
-      "answer": 0,
+      "answer": 2,
       "hints": [
-        "Kann man Modelle unabhängig von der Fragestellung vergleichen?",
-        "Nein.",
-        "Erst die Frage, dann das Modell."
+        "Prüfe jede Aussage mit dem Abschnitt „Teilchenmodell und Modellvorstellungen“ (PDF-S. 23–27)."
       ],
-      "solution": "Für Aggregatzustände ist das Kugelmodell geeigneter, für Ionenladungen das Schalenmodell. Modelle lassen sich nur bezogen auf eine Fragestellung vergleichen — „besser“ ohne Frage ist keine sinnvolle Aussage.",
+      "solution": "Fragestellung / Beobachtung formulieren. Hypothese aufstellen (überprüfbare Vermutung). Versuchsplanung. Versuchsdurchführung inklusive Versuchsprotokoll. Rückbezug zur Hypothese – wurde sie bestätigt oder widerlegt? Beispiel: Beobachtung – die Mischung verschiedener Farben ergibt Schwarz. Hypothese – schwarze Fineliner beruhen auf einem Farbgemisch. Überprüfung – Chromatographie-Experiment.",
       "tags": [
-        "modelle",
-        "bewerten",
-        "msa"
-      ]
+        "fragenkatalog",
+        "wie-chemiker-denken-und-arbeiten",
+        "niveau-c"
+      ],
+      "spiral": [
+        "K-ATOM"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-a3-1 · Lehrbuch PDF-S. 23–27"
     }
   ],
   "mitschrift": {
@@ -589,9 +601,10 @@
   "lehrbuch": {
     "kapitel": 2,
     "titel": "Stoffe und Stoffeigenschaften",
-    "seiten_von": 13,
+    "seiten_von": 23,
     "seiten_bis": 27,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Modell"
+    "abschnitt": "Teilchenmodell und Modellvorstellungen",
+    "bezugswort": "Modell",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

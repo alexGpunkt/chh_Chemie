@@ -741,7 +741,7 @@ function beispielBlock(bsp) {
    Vorrang hat die Angabe der fachlichen Autorenschaft in der tasks.json:
 
      "beispiel": { "schritte": [...],
-                   "luecke": { "schritt": 2, "wert": 60, "einheit": "€" } }
+                   "luecke": { "schritt": 2, "wert": 60, "einheit": "g" } }
 
    Damit entscheidet nicht mehr eine Zeichenkettenregel, welcher Wert
    ergänzt werden soll. Fehlt das Feld, greift wie bisher die Heuristik auf
@@ -773,8 +773,8 @@ function lueckeBestimmen(bsp) {
     : null;
 }
 
-/* Trennt die letzte Zahl einer Zeile ab — funktioniert bei „= 15 cm²"
-   genauso wie bei „· 8   8 Brötchen → 3,20 €". */
+/* Trennt die letzte Zahl einer Zeile ab — funktioniert bei „= 15 g"
+   genauso wie bei „n = m : M = 0,25 mol". */
 function letzteZahlTrennen(zeile) {
   const treffer = [...String(zeile).matchAll(/[−-]?\d[\d.,]*/g)];
   if (!treffer.length) return null;
@@ -1021,8 +1021,8 @@ function regexSicher(text) {
    das Wort selbst. Jetzt lässt sich jedes markierte Wort antippen und
    erklärt sich in einem Satz. Die Sätze stehen in der tasks.json:
 
-     "wortspeicher": ["der Grundwert", …],
-     "worterklaerungen": { "Grundwert": "Das Ganze. Der Grundwert sind 100 %." }
+     "wortspeicher": ["die Stoffmenge", …],
+     "worterklaerungen": { "Stoffmenge": "Sie gibt die Teilchenmenge in Mol an." }
 
    Fehlt eine Erklärung, bleibt es beim reinen Hervorheben. */
 function worterklaerung(kern) {
@@ -1104,8 +1104,8 @@ function numerischesFeld(t) {
   return zeile;
 }
 
-/* Mehrere Zahlenfelder — für Tabellen (Zinsen Jahr für Jahr) und
-   Umwandlungen (Bruch → Dezimalzahl → Prozent). */
+/* Mehrere Zahlenfelder — etwa für Messwerttabellen und mehrschrittige
+   stöchiometrische Rechnungen. */
 function mehrfachFelder(t) {
   const wrap = el('div', 'felder');
   t.fields.forEach((f, i) => {
@@ -2547,20 +2547,23 @@ function lehrbuchAuftrag(lb) {
      jene Funktion maskiert Auszeichnungen, sodass <b> als Text erschiene.
      Die eingesetzten Werte werden deshalb hier einzeln maskiert. */
   const kap = `Kapitel ${htmlSicher(lb.kapitel)} „${htmlSicher(lb.titel)}“ `
-    + `(S. ${htmlSicher(lb.seiten_von)}–${htmlSicher(lb.seiten_bis)})`;
+    + `(PDF-S. ${htmlSicher(lb.seiten_von)}–${htmlSicher(lb.seiten_bis)})`;
   const thema = htmlSicher(S.daten.title);
   const wort = htmlSicher(lb.bezugswort || S.daten.title);
+  const abschnitt = htmlSicher(lb.abschnitt || S.daten.title);
   if (S.pfad === 'A') {
-    return `Schlag im Lehrbuch ${kap} auf. <b>Schreibe</b> den Merksatz zum Thema `
-      + `„${thema}“ ab und <b>nenne</b> drei Fachwörter, die dort vorkommen.`;
+    return `Lies im Lehrbuch ${kap} den Abschnitt „${abschnitt}“. `
+      + `<b>Markiere</b> drei wichtige Aussagen und <b>formuliere</b> daraus einen `
+      + `eigenen Merksatz zum Thema „${thema}“.`;
   }
   if (S.pfad === 'B') {
-    return `Lies im Lehrbuch ${kap}. <b>Fasse</b> den Abschnitt zu „${thema}“ in `
-      + `fünf Sätzen zusammen und <b>erkläre</b> dabei „${wort}“ in eigenen Worten.`;
+    return `Lies im Lehrbuch ${kap} den Abschnitt „${abschnitt}“. <b>Fasse</b> `
+      + `seine Kernaussage in drei bis fünf Sätzen zusammen und <b>erkläre</b> `
+      + `„${wort}“ an einem Beispiel aus der Einheit.`;
   }
-  return `Bearbeite im Lehrbuch ${kap} einen der dort gestellten Arbeitsaufträge `
-    + `mit den Operatoren <i>Begründe</i>, <i>Beurteile</i> oder <i>Vergleiche</i>. `
-    + `<b>Begründe</b> anschließend schriftlich, was dein Ergebnis mit „${thema}“ zu tun hat.`;
+  return `Nutze im Lehrbuch ${kap} den Abschnitt „${abschnitt}“ als Quelle. `
+    + `<b>Begründe</b> das C-Lernziel der Einheit schriftlich mit mindestens zwei `
+    + `konkreten Aussagen aus dem Abschnitt und einem passenden Fachbegriff.`;
 }
 
 function lehrbuchkarteBauen() {
@@ -2583,6 +2586,15 @@ function lehrbuchkarteBauen() {
   zeile.append(el('b', null, lb.titel));
   zeile.append(el('span', 'lehrbuch-seiten', `S. ${lb.seiten_von}–${lb.seiten_bis}`));
   inhalt.append(zeile);
+  if (lb.abschnitt) inhalt.append(el('p', 'lehrbuch-abschnitt', `Abschnitt: ${lb.abschnitt}`));
+
+  for (const stelle of (lb.weitere_stellen || [])) {
+    const extra = el('div', 'lehrbuch-zeile lehrbuch-zeile-zusatz');
+    extra.append(el('span', 'lehrbuch-kapitel', 'Zusätzlich · Kapitel ' + stelle.kapitel));
+    extra.append(el('b', null, stelle.abschnitt || stelle.titel));
+    extra.append(el('span', 'lehrbuch-seiten', `S. ${stelle.seiten_von}–${stelle.seiten_bis}`));
+    inhalt.append(extra);
+  }
 
   const auftrag = el('div', 'lehrbuch-auftrag');
   auftrag.innerHTML = lehrbuchAuftrag(lb);
@@ -2645,4 +2657,3 @@ document.addEventListener('focusout', () => {
    nachgeladen wurde — der Prüfungstrainer lädt engine.js dynamisch. */
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start);
 else start();
-

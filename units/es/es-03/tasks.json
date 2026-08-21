@@ -137,7 +137,7 @@
         "fette"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -158,7 +158,7 @@
         "fette"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -183,33 +183,35 @@
         "fette"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
-      "id": "ES03-A4-004",
+      "id": "ES03-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Löst sich Fett in Wasser?",
+      "prompt": "Was sind Omega-3-Fettsäuren und essentielle Fettsäuren?",
       "options": [
-        "Nein, Fett ist unpolar.",
-        "Ja, gut.",
-        "Nur bei Wärme."
+        "Trivialname IUPAC-Name Formel Ameisensäure Methansäure HCOOH Essigsäure Ethansäure CH 3 COOH Buttersäure Butansäure C 3 H 7 COOH Oxalsäure Ethandisäure HOOC–COOH Acrylsäure Propensäure CH 2 =CH–COOH Glycol Ethan-1,2-diol HO–CH 2 –CH 2 …",
+        "Omega-3-Fettsäuren besitzen – vom hinteren Ende des Moleküls aus gezählt (die von der Carboxygruppe abgewandte Seite) – am dritten Kohlenstoff-Atom eine Doppelbindung. Bei Omega-6-Fettsäuren sitzt sie entsprechend an sechster Stelle.",
+        "Maltose (Malzzucker) Stärke Bau Disaccharid aus zwei Glucose-Bausteinen Polysaccharid aus mehreren hundert Glucose-Bausteinen Struktur kristallin amorph Löslichkeit wasserlöslich, polar praktisch unlöslich (bildet Kleister) Geschmack …"
       ],
-      "answer": 0,
+      "answer": 1,
       "hints": [
-        "Gleiches löst sich in Gleichem.",
-        "Wasser ist polar.",
-        "Fett nicht."
+        "Lies den Abschnitt „Fette als Bestandteile unserer Nahrung“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Fette bestehen aus langen unpolaren Ketten und lösen sich nicht in polarem Wasser — wohl aber in Benzin.",
+      "solution": "Omega-3-Fettsäuren besitzen – vom hinteren Ende des Moleküls aus gezählt (die von der Carboxygruppe abgewandte Seite) – am dritten Kohlenstoff-Atom eine Doppelbindung. Bei Omega-6-Fettsäuren sitzt sie entsprechend an sechster Stelle. Sie zählen zu den essentiellen Fettsäuren: Der menschliche Körper kann sie nicht selbst herstellen, benötigt sie aber zur Produktion wichtiger Körperstoffe – sie müssen mit der Nahrung aufgenommen werden.",
       "tags": [
-        "fette"
+        "fragenkatalog",
+        "biomolekuele-und-tenside",
+        "niveau-a"
       ],
       "spiral": [
-        "W-LOES"
-      ]
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d5-3 · Lehrbuch PDF-S. 182–186"
     },
     {
       "id": "ES03-B1-005",
@@ -234,7 +236,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -268,7 +270,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -294,7 +296,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -329,7 +331,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -355,34 +357,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
-      "id": "ES03-B4-010",
+      "id": "ES03-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum lässt sich Fett mit Benzin, aber nicht mit Wasser vom Geschirr lösen?",
+      "prompt": "Formuliere zwei „Je…, desto…“-Regeln zum Schmelzbereich von Fetten und begründe sie auf Teilchenebene.",
       "options": [
-        "Benzin ist wie Fett unpolar, Wasser dagegen polar.",
-        "Benzin ist wärmer.",
-        "Benzin reagiert mit dem Fett."
+        "Je länger die Fettsäure-Reste, desto höher der Schmelzbereich. Grund: größere Moleküloberfläche → mehr London-Dispersions-Wechselwirkungen zwischen den Fettmolekülen.",
+        "Proteine (Eiweiße) sind aus Aminosäuren aufgebaute Makromoleküle – Polypeptide aus hunderten bis tausenden AS. Sie gehören zu den Grundbausteinen aller Zellen.",
+        "Alkan < Ester < Alkohol < Carbonsäure Ester sieden höher als Alkane, weil neben London-Dispersions-WW auch schwache Dipol-Dipol-WW an der Estergruppe auftreten.",
+        "Glucose ist eine Aldose (Aldehydgruppe), Fructose eine Ketose (Ketogruppe). Beide haben die Summenformel C 6 H 12 O 6 und sind damit Konstitutionsisomere."
       ],
       "answer": 0,
       "hints": [
-        "Gleiches löst sich in Gleichem.",
-        "Fett ist unpolar.",
-        "Benzin auch."
+        "Prüfe jede Aussage mit dem Abschnitt „Fette als Bestandteile unserer Nahrung“ (PDF-S. 182–186)."
       ],
-      "solution": "Fett und Benzin sind beide unpolar und mischen sich vollständig. Wasser ist polar — deshalb braucht es dort Seife als Vermittler.",
+      "solution": "Je länger die Fettsäure-Reste, desto höher der Schmelzbereich. Grund: größere Moleküloberfläche → mehr London-Dispersions-Wechselwirkungen zwischen den Fettmolekülen. Je mehr ungesättigte Fettsäure-Reste, desto niedriger der Schmelzbereich. Grund: Die Z-konfigurierten Doppelbindungen erzeugen einen „Knick“ in der Kette. Die gewinkelten Moleküle lassen sich schlechter dicht packen → weniger Berührungsfläche → schwächere London-Kräfte. Folge: Feste Fette enthalten hohe Anteile langer, gesättigter Fettsäuren; in flüssigen Ölen überwiegen einfach oder mehrfach ungesättigte Fettsäuren. Natürliche Fette haben keinen scharfen Schmelzpunkt, sondern einen Schmelzbereich, weil sie Gemische verschiedener Triglyceride sind.",
       "tags": [
-        "fette",
-        "bbr"
+        "fragenkatalog",
+        "biomolekuele-und-tenside",
+        "niveau-b"
       ],
       "spiral": [
-        "W-LOES"
-      ]
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d5-2 · Lehrbuch PDF-S. 182–186"
     },
     {
       "id": "ES03-C2-011",
@@ -470,8 +473,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -604,10 +607,11 @@
   ],
   "lehrbuch": {
     "kapitel": 15,
-    "titel": "Naturstoffe",
-    "seiten_von": 184,
-    "seiten_bis": 193,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Fett"
+    "titel": "Nahrung, Seife, Waschmittel",
+    "seiten_von": 182,
+    "seiten_bis": 186,
+    "abschnitt": "Fette als Bestandteile unserer Nahrung",
+    "bezugswort": "Fett",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

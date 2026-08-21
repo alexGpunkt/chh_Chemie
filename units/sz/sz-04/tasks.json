@@ -179,7 +179,7 @@
         "loeslichkeit"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -204,7 +204,7 @@
         "loeslichkeit"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -238,34 +238,35 @@
         "leitfaehigkeit"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
-      "id": "SZ04-A4-004",
+      "id": "SZ04-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Eine heiße gesättigte Lösung kühlt langsam ab. Was passiert?",
+      "prompt": "Was ist ein Kristall? Beschreibe den Aufbau eines Salzes auf Teilchenebene.",
       "options": [
-        "Es bilden sich Kristalle.",
-        "Die Lösung wird trüb und bleibt so.",
-        "Nichts."
+        "„Ähnliches löst sich in Ähnlichem.“ Entscheidend sind die möglichen Wechselwirkungen zwischen den Teilchen des Stoffs und denen des Lösemittels.",
+        "Salze: Ionenbindung – elektrostatische Anziehung zwischen positiv geladenen Kationen und negativ geladenen Anionen, Anordnung im Ionengitter.",
+        "Ein Kristall ist ein Festkörper mit regelmäßiger, sich wiederholender Struktur; seine Bausteine können Atome, Moleküle oder Ionen sein."
       ],
-      "answer": 0,
+      "answer": 2,
       "hints": [
-        "Bei Kälte löst sich weniger.",
-        "Was passiert mit dem Überschuss?",
-        "Er kristallisiert aus."
+        "Lies den Abschnitt „Eigenschaften und Lösen von Salzen“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Beim Abkühlen sinkt die Löslichkeit. Das überschüssige Salz kristallisiert aus — langsam abgekühlt entstehen große Kristalle.",
+      "solution": "Ein Kristall ist ein Festkörper mit regelmäßiger, sich wiederholender Struktur; seine Bausteine können Atome, Moleküle oder Ionen sein. Ein Salz ist als Ionengitter aufgebaut: Eine Vielzahl von Kationen und Anionen ist regelmäßig so angeordnet, dass jedes Ion von möglichst vielen entgegengesetzt geladenen Nachbarn umgeben ist. Deshalb gibt es keine „NaCl-Moleküle“ – die Formel NaCl ist eine Verhältnisformel.",
       "tags": [
-        "loeslichkeit",
-        "kristalle"
+        "fragenkatalog",
+        "metalle-salze-und-ihre-bindungen",
+        "niveau-a"
       ],
       "spiral": [
-        "W-LOES"
-      ]
+        "K-BIND"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-b4-5 · Lehrbuch PDF-S. 104–113"
     },
     {
       "id": "SZ04-B1-005",
@@ -295,7 +296,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -322,7 +323,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -353,7 +354,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -380,7 +381,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -406,7 +407,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -447,7 +448,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -474,7 +475,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -509,7 +510,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -550,7 +551,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -577,7 +578,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     }
   ],
@@ -711,11 +712,12 @@
     }
   ],
   "lehrbuch": {
-    "kapitel": 10,
-    "titel": "Säuren, Laugen, Salze",
-    "seiten_von": 115,
-    "seiten_bis": 142,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Löslichkeit"
+    "kapitel": 9,
+    "titel": "Chemische Bindungen",
+    "seiten_von": 104,
+    "seiten_bis": 113,
+    "abschnitt": "Eigenschaften und Lösen von Salzen",
+    "bezugswort": "Löslichkeit",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

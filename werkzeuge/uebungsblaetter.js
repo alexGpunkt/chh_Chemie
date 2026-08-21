@@ -73,7 +73,7 @@ function mischen(liste, zufall) {
 }
 
 function zahlText(wert, einheit) {
-  const text = einheit === '€' ? ausdruck.fmtGeld(wert) : ausdruck.fmt(wert);
+  const text = ausdruck.fmt(wert);
   return einheit ? `${text} ${einheit}` : text;
 }
 

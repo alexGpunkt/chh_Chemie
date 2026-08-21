@@ -2,8 +2,7 @@
    zeichnen.js · Aufgabenbilder Chemie
 
    Alle Bilder sind Inline-SVG. Warum nicht PhET, Molview oder ein
-   Applet je Aufgabe? Aus denselben drei Gründen, aus denen das
-   Mathematikprojekt kein GeoGebra einbettet:
+   Applet je Aufgabe? Dagegen sprechen drei Gründe:
 
    1. Fremde IDs und Adressen verschwinden. Was heute lädt, ist in zwei
       Schuljahren ein leerer Kasten.

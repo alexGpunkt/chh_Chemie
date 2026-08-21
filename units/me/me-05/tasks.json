@@ -165,7 +165,7 @@
         "redox"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -195,7 +195,7 @@
         "redox"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -228,7 +228,7 @@
         "redox"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -253,7 +253,7 @@
         "redox"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -287,7 +287,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -309,7 +309,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -343,7 +343,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -375,7 +375,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -401,42 +401,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
-      "id": "ME05-B4-010",
+      "id": "ME05-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Ein Schüler sagt: „Das Oxidationsmittel wird oxidiert.“ Stimmt das?",
+      "prompt": "Formuliere für Zn + Cu²⁺ → Zn²⁺ + Cu die Oxidations- und Reduktions-Teilgleichung.",
       "options": [
-        "Nein — es nimmt Elektronen auf und wird selbst reduziert.",
-        "Ja, deshalb heißt es so.",
-        "Nur bei Metallen."
+        "Oxidation: Zn → Zn²⁺ + 2 e⁻. Reduktion: Cu²⁺ + 2 e⁻ → Cu.",
+        "Eine Batterie nutzt eine freiwillig ablaufende Redoxreaktion zur Stromerzeugung: chemische Energie wird in elektrische Energie umgewandelt.",
+        "CO₂: +IV; CO: +II; CH₄: −IV.",
+        "Nein. Kupfer ist edler als Zink und gibt Elektronen nicht freiwillig an Zn²⁺ ab."
       ],
       "answer": 0,
       "hints": [
-        "Was tut ein Oxidationsmittel mit dem Partner?",
-        "Es oxidiert ihn.",
-        "Dafür muss es selbst Elektronen aufnehmen."
+        "Prüfe jede Aussage mit dem Abschnitt „Oxidation und Reduktion“ (PDF-S. 83–86)."
       ],
-      "solution": "Der Name beschreibt die Wirkung auf den Partner, nicht das eigene Schicksal. Ein Oxidationsmittel oxidiert den anderen — indem es dessen Elektronen aufnimmt und dabei selbst reduziert wird.",
-      "misconceptions": [
-        {
-          "id": "oxidation_reduktion_vertauscht",
-          "value": 1,
-          "feedback": "Der Name nennt die Wirkung auf den Partner. Das Mittel selbst wird reduziert.",
-          "konzeptfehler": "oxidation_reduktion_vertauscht"
-        }
-      ],
+      "solution": "Oxidation: Zn → Zn²⁺ + 2 e⁻. Reduktion: Cu²⁺ + 2 e⁻ → Cu.",
       "tags": [
+        "fragenkatalog",
         "redox",
-        "msa"
+        "niveau-b"
       ],
       "spiral": [
-        "W-GLEI"
-      ]
+        "K-REDOX"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-063 · Lehrbuch PDF-S. 83–86"
     },
     {
       "id": "ME05-C2-011",
@@ -472,7 +465,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -498,7 +491,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -532,7 +525,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -567,7 +560,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     }
   ],
@@ -714,8 +707,9 @@
     "kapitel": 7,
     "titel": "Metalle und Redoxreaktionen",
     "seiten_von": 83,
-    "seiten_bis": 96,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Oxidation"
+    "seiten_bis": 86,
+    "abschnitt": "Oxidation und Reduktion",
+    "bezugswort": "Elektronenübergang",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

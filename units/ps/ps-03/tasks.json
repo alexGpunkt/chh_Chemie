@@ -135,7 +135,7 @@
         "geschichte"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -160,7 +160,7 @@
         "modelle"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -193,7 +193,7 @@
         "modelle"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -249,7 +249,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -275,7 +275,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -306,7 +306,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -332,7 +332,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -363,7 +363,7 @@
         "rechnen"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -413,7 +413,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -447,7 +447,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -488,7 +488,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -617,11 +617,12 @@
     }
   ],
   "lehrbuch": {
-    "kapitel": 8,
-    "titel": "Atombau und Ordnung der Elemente",
-    "seiten_von": 97,
-    "seiten_bis": 108,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Atom"
+    "kapitel": 5,
+    "titel": "Die chemische Reaktion",
+    "seiten_von": 52,
+    "seiten_bis": 57,
+    "abschnitt": "Daltons Atom-Molekül-Modell",
+    "bezugswort": "Dalton",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

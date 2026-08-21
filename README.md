@@ -4,16 +4,15 @@ Differenzierte Lernwege für die Jahrgänge 7 bis 10, Campus Hannah Höch.
 Statische Website, keine Abhängigkeiten, kein Build-Step.
 
 **76 Einheiten à 45 Minuten · 1064 Aufgaben · Hefteintrag je Lernweg.**
-**Warm-up-Pool: 120 Generatoren in 8 Kategorien für „Altes Wissen“ —**
+**Warm-up-Pool: 224 eindeutige Chemiefragen in 9 Kategorien —**
 **kumulativ über die zurückliegenden Reihen, im Unterricht Pflicht.**
 **168 eingebettete Lernvideos mit Zwischenfragen (Lumi),**
 **197 externe Übungen, 228 gedruckte Übungsblätter (je Lernweg eines).**
 **Prüfungstrainer, Taschenrechner, Beameransicht, Kompetenzmatrix, Offline-Betrieb.**
 
-Das Projekt ist das Schwesterprojekt zu `chh_Mathe_Klasse_9` und übernimmt
-dessen Architektur unverändert: dieselbe Aufgaben-Engine, dasselbe
-Warm-up-Prinzip, dieselben Betriebs- und Prüfwerkzeuge. Ausgetauscht sind alle
-fachlichen Schichten — Inhalt, Aufgabenbilder, Animationen, Denkfehler-Kategorien.
+Das Projekt nutzt eine gemeinsame Aufgaben-Engine für differenzierte Lernwege,
+Warm-ups, Übungsblätter und Prüfungen. Sämtliche fachlichen Inhalte,
+Aufgabenbilder, Animationen und Fehlvorstellungskategorien sind chemiespezifisch.
 
 ## Grundlage
 
@@ -145,28 +144,28 @@ aktuellen Thema. Kein Countdown auf dem Schülergerät.
 
 | Code | Titel | Generatoren |
 |---|---|---|
-| `W-STOF` | Stoffe, Eigenschaften, Trennverfahren | 15 |
-| `W-TEIL` | Atombau und Periodensystem | 15 |
-| `W-SYMB` | Symbole und Formeln lesen | 15 |
-| `W-GLEI` | Reaktionsgleichungen | 15 |
-| `W-RECH` | Chemisches Rechnen | 15 |
-| `W-EINH` | Einheiten und Größen | 15 |
-| `W-LOES` | Lösungen, Konzentration, pH | 15 |
-| `W-ORG` | Organische Chemie | 15 |
+| `K-SICH` | Sicher arbeiten | 29 |
+| `K-STOF` | Stoffe und Trennverfahren | 30 |
+| `K-REAK` | Chemische Reaktionen | 43 |
+| `K-ATOM` | Teilchen, Atome und Periodensystem | 22 |
+| `K-BIND` | Bindungen und Stoffstruktur | 16 |
+| `K-REDOX` | Metalle, Redox und Elektrochemie | 15 |
+| `K-QUANT` | Stoffmenge und Stöchiometrie | 28 |
+| `K-SL` | Säuren, Basen und Salze | 15 |
+| `K-ORG` | Organische Chemie | 26 |
 
 ### Kumulativ: nur, was zurückliegt (seit v4)
 
-Maßgeblich ist die **Unterrichtsreihe** der Einheit, zu der aufgewärmt wird.
-Wiederholt wird das Grundwissen **aller** früheren Reihen — was noch nicht dran
-war, kommt nicht dran. Vorher zog das Warm-up aus allen acht Kategorien; in der
-zweiten Schulwoche der siebten Klasse standen deshalb Aufgaben zur organischen
-Chemie auf dem Schirm. Das war kein Wiederholen, sondern Raten.
+Maßgeblich ist die **Einheit**, zu der aufgewärmt wird. Jede Frage trägt eine
+Einführungs-Einheit (`ab_einheit`) und wird erst danach freigeschaltet. So wird
+das Grundwissen aller früheren Einheiten wiederholt, ohne spätere Inhalte
+vorwegzunehmen.
 
 Die zwölf Reihen und das Grundwissen, das jede liefert, stehen in
-`spiral/plan.json` unter `reihen` (erzeugt von
-`werkzeuge/warmup_reihen_bauen.py`). Über jeder Aufgabe steht, aus welcher
-Reihe sie stammt. In der ersten Reihe gibt es nichts Früheres — dort wird
-innerhalb der eigenen Reihe wiederholt. Eine Zusatzregel sorgt dafür, dass
+`spiral/plan.json` unter `reihen`; die konkrete Freigabe wird von
+`werkzeuge/fragenkatalog_einspielen.js` erzeugt. Über jeder Aufgabe steht,
+aus welcher Reihe sie stammt. Nur FC-01 nutzt die eigenen Sicherheitsregeln
+als Einstieg. Eine Zusatzregel sorgt dafür, dass
 nicht immer nur die zuletzt behandelte Reihe gewinnt: Mindestens eine Aufgabe
 kommt aus einer weiter zurückliegenden.
 
@@ -233,7 +232,7 @@ getrackt würde dann „kann Natrium" statt „kann die Ordnungszahl ablesen".
 Getrackt wird die Generator-ID; also muss die Variation in den Generator hinein,
 nicht in seinen Namen.
 
-Alle 120 Generatoren werden vor jedem Push 300-mal durchgerechnet
+Alle 304 Übungsblatt-Generatoren werden vor jedem Push 300-mal durchgerechnet
 (`werkzeuge/uebungsblatt-pruefen.js` und der Prüflauf in `pruefen.js`).
 
 ## Sicherheit im Aufgabenpool
@@ -607,7 +606,7 @@ Inhalt
   units/index.json          Liste aller Bereiche und Einheiten
   units/sz/sz-03/tasks.json Inhalt einer Einheit
   spiral/plan.json          Intervalle, Verzahnung, Fehlerprofil
-  spiral/w-teil.json        Generatoren einer Wiederholungskategorie
+  spiral/k-atom.json        Fragen einer Chemie-Wiederholungskategorie
   uebungsblaetter/sz.json   Generatoren der gedruckten Blätter (mit stufen A/C)
   pruefung-sets.json        Prüfungssets + Formelkarte
   videos-quellen.csv        alle 1032 Videos der fünf freigegebenen Kanäle
@@ -615,7 +614,7 @@ Inhalt
 Erzeuger (Python, kein Build-Step für die Anwendung)
   werkzeuge/einheiten_basis.py       Konstruktoren für tasks.json
   werkzeuge/einheiten_<bereich>*.py  der Fachinhalt, ein Bereich je Datei
-  werkzeuge/spiral_bauen.py          die 120 Warm-up-Generatoren
+  werkzeuge/fragenkatalog_einspielen.js  Katalogaufgaben und 224 Warm-ups
   werkzeuge/uebungsblaetter_bauen.py die 304 Blatt-Generatoren
   werkzeuge/index_bauen.py           index.html aus units/index.json
 ```

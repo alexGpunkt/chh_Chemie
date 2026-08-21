@@ -165,7 +165,7 @@
         "bindung"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -186,7 +186,7 @@
         "bindung"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -215,7 +215,7 @@
         "bindung"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -245,7 +245,7 @@
         "bindung"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -280,7 +280,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -315,7 +315,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -346,7 +346,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -377,7 +377,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -399,34 +399,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
-      "id": "GA03-B4-010",
+      "id": "GA03-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum bilden Edelgase keine Moleküle?",
+      "prompt": "Erkläre am Chlor-Molekül, wie eine Elektronenpaarbindung zustande kommt.",
       "options": [
-        "Ihre Außenschale ist bereits voll — es fehlt nichts.",
-        "Sie sind zu schwer.",
-        "Sie sind zu selten."
+        "E/Z-Isomere unterscheiden sich nur in der Anordnung der Gruppen um eine Doppelbindung, weil diese nicht frei drehbar ist.",
+        "„Ähnliches löst sich in Ähnlichem.“ Entscheidend sind die möglichen Wechselwirkungen zwischen den Teilchen des Stoffs und denen des Lösemittels.",
+        "Konstitutionsisomere haben die gleiche Molekülformel, unterscheiden sich aber in der Verknüpfung der Atome im Molekül.",
+        "Chlor-Atome besitzen sieben Valenzelektronen; einem Chlor-Atom fehlt also ein Elektron zur Edelgaskonfiguration."
       ],
-      "answer": 0,
+      "answer": 3,
       "hints": [
-        "Wann bildet ein Atom eine Bindung?",
-        "Wenn ihm Elektronen fehlen.",
-        "Edelgasen fehlt nichts."
+        "Prüfe jede Aussage mit dem Abschnitt „Atombindung und Elektronenpaarbindung“ (PDF-S. 106–109)."
       ],
-      "solution": "Edelgase haben bereits acht Außenelektronen. Es fehlt ihnen nichts, also bilden sie keine Bindungen und kommen als einzelne Atome vor.",
+      "solution": "Chlor-Atome besitzen sieben Valenzelektronen; einem Chlor-Atom fehlt also ein Elektron zur Edelgaskonfiguration. Durch die Bildung eines gemeinsamen (bindenden) Elektronenpaares können jedem Chlor-Atom formal acht Valenzelektronen zugerechnet werden. |Cl—Cl| → je 1 bindendes und 3 nichtbindende (freie) Elektronenpaare pro Atom ¨ ¨ Bindende Elektronenpaare zählen für beide Atome, freie Elektronenpaare nur für „ihr“ Atom.",
       "tags": [
-        "bindung",
-        "msa"
+        "fragenkatalog",
+        "molekulare-verbindungen-und-molekuelstruktur",
+        "niveau-b"
       ],
       "spiral": [
-        "W-TEIL"
-      ]
+        "K-BIND"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-c3-2 · Lehrbuch PDF-S. 106–109"
     },
     {
       "id": "GA03-C2-011",
@@ -465,7 +466,7 @@
         "msa"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -507,7 +508,7 @@
         "msa"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -542,7 +543,7 @@
         "msa"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -569,7 +570,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     }
   ],
@@ -691,9 +692,10 @@
   "lehrbuch": {
     "kapitel": 9,
     "titel": "Chemische Bindungen",
-    "seiten_von": 109,
-    "seiten_bis": 114,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Elektronenpaarbindung"
+    "seiten_von": 106,
+    "seiten_bis": 109,
+    "abschnitt": "Atombindung und Elektronenpaarbindung",
+    "bezugswort": "Elektronenpaarbindung",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

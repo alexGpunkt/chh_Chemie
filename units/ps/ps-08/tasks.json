@@ -162,7 +162,7 @@
         "familien"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -196,7 +196,7 @@
         "familien"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -221,33 +221,35 @@
         "familien"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
-      "id": "PS08-A4-004",
+      "id": "PS08-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum reagieren Edelgase fast nicht?",
+      "prompt": "Nenne die Namen der Hauptgruppen des gekürzten PSE und die typischen Ionen der ersten beiden und letzten beiden Hauptgruppen.",
       "options": [
-        "Ihre Außenschale ist bereits voll.",
-        "Sie sind zu leicht.",
-        "Sie sind zu selten."
+        "Teilchen p + n 0 e − Begründung 16 O 8 8 8 ungeladenes Atom: e − = p +; N = 16 − 8 23 Na + 11 12 10 ein Elektron abgegeben 35 Cl − 17 18 18 ein Elektron aufgenommen",
+        "Valenzelektronen (Außenelektronen) sind die Elektronen der äußersten besetzten Energiestufe. Ihre Anzahl entspricht der Hauptgruppennummer und bestimmt das chemische Verhalten.",
+        "I Alkalimetalle · II Erdalkalimetalle · III Borgruppe · IV Kohlenstoffgruppe · V Stickstoffgruppe · VI Sauerstoffgruppe · VII Halogene · VIII Edelgase. Alkalimetalle (I."
       ],
-      "answer": 0,
+      "answer": 2,
       "hints": [
-        "Was streben Atome an?",
-        "Eine volle Außenschale.",
-        "Edelgase haben sie schon."
+        "Lies den Abschnitt „Elementfamilien und Ordnung im Periodensystem“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Edelgase haben eine volle Außenschale und müssen weder abgeben noch aufnehmen. Deshalb reagieren sie kaum.",
+      "solution": "I Alkalimetalle · II Erdalkalimetalle · III Borgruppe · IV Kohlenstoffgruppe · V Stickstoffgruppe · VI Sauerstoffgruppe · VII Halogene · VIII Edelgase. Alkalimetalle (I. HG): sehr reaktiv, bilden einfach positive Kationen (Li +, Na +, K + ). Erdalkalimetalle (II. HG): bilden zweifach positive Kationen (Mg 2+, Ca 2+ ). Halogene (VII. HG): zweiatomige, sehr reaktive Nichtmetalle; bilden einfach negative Anionen (F −, Cl −, Br −, I − ), Namensendung -id. Edelgase (VIII. HG): atomare Gase mit vollbesetzter äußerer Schale, reaktionsträge.",
       "tags": [
-        "familien"
+        "fragenkatalog",
+        "atombau-und-periodensystem",
+        "niveau-a"
       ],
       "spiral": [
-        "W-TEIL"
-      ]
+        "K-ATOM"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-b3-5 · Lehrbuch PDF-S. 92–102"
     },
     {
       "id": "PS08-B1-005",
@@ -281,7 +283,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -314,7 +316,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -340,7 +342,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -376,7 +378,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -458,7 +460,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -496,7 +498,7 @@
         "msa"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -524,28 +526,31 @@
       ]
     },
     {
-      "id": "PS08-C4-014",
+      "id": "PS08-C4-KAT",
       "path": "C",
       "step": 4,
       "type": "choice",
-      "prompt": "Ein Schüler behauptet: „Weil Kalium heftiger reagiert als Natrium, ist Kalium auch ein besseres Metall.“ Wie bewertest du diese Aussage?",
+      "prompt": "Ein Element steht in der 3. Periode und 1. Hauptgruppe. Welche Valenzelektronenzahl erwartest du und welches typische Ion bildet es?",
       "options": [
-        "„Besser“ ist ohne Zweck keine sinnvolle Aussage — für einen Stromleiter zählt anderes als für eine Reaktion.",
-        "Richtig — heftigere Reaktion heißt besseres Metall.",
-        "Falsch — Natrium reagiert in Wirklichkeit heftiger."
+        "Teilchen p + n 0 e − Begründung 16 O 8 8 8 ungeladenes Atom: e − = p +; N = 16 − 8 23 Na + 11 12 10 ein Elektron abgegeben 35 Cl − 17 18 18 ein Elektron aufgenommen",
+        "I Alkalimetalle · II Erdalkalimetalle · III Borgruppe · IV Kohlenstoffgruppe · V Stickstoffgruppe · VI Sauerstoffgruppe · VII Halogene · VIII Edelgase. Alkalimetalle (I.",
+        "Valenzelektronen (Außenelektronen) sind die Elektronen der äußersten besetzten Energiestufe. Ihre Anzahl entspricht der Hauptgruppennummer und bestimmt das chemische Verhalten.",
+        "Es besitzt ein Valenzelektron und bildet typischerweise ein einfach positiv geladenes Ion (+1), z. B. Na⁺."
       ],
-      "answer": 0,
+      "answer": 3,
       "hints": [
-        "Wozu soll das Metall taugen?",
-        "Das steht nicht in der Aussage.",
-        "Ohne Zweck lässt sich „besser“ nicht beurteilen."
+        "Prüfe jede Aussage mit dem Abschnitt „Elementfamilien und Ordnung im Periodensystem“ (PDF-S. 92–102)."
       ],
-      "solution": "Reaktionsfähigkeit ist eine Eigenschaft, keine Wertung. Für eine Batterie kann sie erwünscht sein, für ein Bauteil wäre sie ein Ausschlusskriterium. Bewertungen brauchen einen Zweck — das ist der Kern des Kompetenzbereichs Bewerten.",
+      "solution": "Es besitzt ein Valenzelektron und bildet typischerweise ein einfach positiv geladenes Ion (+1), z. B. Na⁺.",
       "tags": [
-        "familien",
-        "bewerten",
-        "msa"
-      ]
+        "fragenkatalog",
+        "periodensystem",
+        "niveau-c"
+      ],
+      "spiral": [
+        "K-ATOM"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-058 · Lehrbuch PDF-S. 92–102"
     }
   ],
   "mitschrift": {
@@ -718,10 +723,11 @@
   ],
   "lehrbuch": {
     "kapitel": 8,
-    "titel": "Atombau und Ordnung der Elemente",
-    "seiten_von": 97,
-    "seiten_bis": 108,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Alkalimetalle"
+    "titel": "Elemente und ihre Ordnung",
+    "seiten_von": 92,
+    "seiten_bis": 102,
+    "abschnitt": "Elementfamilien und Ordnung im Periodensystem",
+    "bezugswort": "Elementfamilie",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

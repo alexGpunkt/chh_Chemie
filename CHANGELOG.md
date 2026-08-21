@@ -1,5 +1,23 @@
 # Änderungen
 
+## v5 — Lehrbuchgerechte Chemiefragen und neue Warm-ups
+
+Die Lernwege greifen jetzt auf den gelieferten Chemie-Fragenkatalog zurück:
+98 redaktionell geprüfte Aufgaben sind 59 fachlich passenden Einheiten
+zugeordnet. Eine Katalogfrage erscheint innerhalb einer Einheit nur in einem
+Lernweg; wo keine passende Frage vorliegt, bleibt die stärkere Originalaufgabe
+erhalten. Herkunft, Katalog-ID und konkrete PDF-Seiten bleiben nachvollziehbar.
+
+Das Warm-up besteht nun aus 224 eindeutigen Fragen in neun Chemiebereichen.
+Jede Frage gehört genau einem Niveau und besitzt eine Einführungs-Einheit;
+dadurch erscheinen Ester, Titration oder Metallbindung erst, nachdem sie im
+Lehrgang erarbeitet wurden. Auswahlfragen funktionieren mit Tastatur, Touch
+und Screenreader.
+
+Die reproduzierbare Zuordnung liegt unter `fragenkatalog/zuordnung.json`;
+`werkzeuge/fragenkatalog-pruefen.js` kontrolliert Quellen, Lernwege,
+Antworten, Warm-up-Mindestumfang und das Fehlen der alten Mathe-Pools.
+
 ## v4 — Ruhigere Lernoberfläche
 
 Die Einheitsseite führt jetzt sichtbar durch die drei Phasen Verstehen,
@@ -647,4 +665,3 @@ jetzt aus `units/index.json` — zwei Wahrheiten wären eine zu viel gewesen.
   nachzuholen.
 - **Die Aufgaben sind nicht im Unterricht erprobt.** Fachliche Richtigkeit wurde
   beim Schreiben geprüft, die Passung zu einer konkreten Lerngruppe nicht.
-

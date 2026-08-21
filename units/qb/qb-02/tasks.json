@@ -152,7 +152,7 @@
         "mol"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -174,7 +174,7 @@
         "mol"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -204,46 +204,35 @@
         "rechnen"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
-      "id": "QB02-A4-004",
+      "id": "QB02-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "1 mol Eisen und 1 mol Schwefel — was ist gleich?",
+      "prompt": "Definiere Stoffmenge, Mol, Avogadro-Konstante und molare Masse.",
       "options": [
-        "die Teilchenzahl",
-        "die Masse",
-        "das Volumen"
+        "Größe Symbol Einheit Zahlenwert Masse m g – Molare Masse M g/mol aus dem PSE ablesbar Stoffmenge n mol – Teilchenzahl N – – Avogadro-Konstante N A 1/mol 6,022 · 10 23 mol −1 Molares Volumen (Gase) V m L/mol 22,4 L/mol bei …",
+        "Stoffmenge n: Größe zur Beschreibung einer Stoffportion; gibt an, wie viele Teilchen sie enthält. Einheit: mol. 1 mol ist die Stoffmenge einer Portion, die 6,022 · 10 23 Teilchen (Atome, Moleküle oder Ionen) enthält.",
+        "Fe + S → FeS 1 mol: 1 mol: 1 mol n(Fe) = m(Fe)/M(Fe) = 10 g / 56 g/mol = 0,178 mol n(S) = 1/1 · n(Fe) = 0,178 mol m(S) = n(S) · M(S) = 0,178 mol · 32 g/mol = 5,7 g Antwort: Man benötigt rund 5,7 g Schwefel, um 10 g Eisen vollständig …"
       ],
-      "answer": 0,
-      "visual": {
-        "type": "animation",
-        "name": "mol",
-        "stufe": "A"
-      },
+      "answer": 1,
       "hints": [
-        "Ein Mol ist immer dieselbe Anzahl.",
-        "Die Atome sind aber verschieden schwer.",
-        "Gleich ist die Anzahl."
+        "Lies den Abschnitt „Stoffmenge und Mol“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Ein Mol bedeutet immer dieselbe Teilchenzahl. Weil Eisen- und Schwefelatome verschieden schwer sind, sind die Massen verschieden: 56 g gegen 32 g.",
-      "misconceptions": [
-        {
-          "id": "teilchen_traegt_stoffeigenschaft",
-          "value": 1,
-          "feedback": "1 mol Eisen wiegt 56 g, 1 mol Schwefel 32 g. Gleich ist nur die Anzahl.",
-          "konzeptfehler": "teilchen_traegt_stoffeigenschaft"
-        }
-      ],
+      "solution": "Stoffmenge n: Größe zur Beschreibung einer Stoffportion; gibt an, wie viele Teilchen sie enthält. Einheit: mol. 1 mol ist die Stoffmenge einer Portion, die 6,022 · 10 23 Teilchen (Atome, Moleküle oder Ionen) enthält. Avogadro-Konstante N A = 6,022 · 10 23 mol −1: Umrechnungsgröße zwischen Stoffmenge und Teilchenzahl. Molare Masse M: Masse von 1 mol eines Stoffes in g/mol. Ihr Zahlenwert ist identisch mit der Teilchenmasse in u und lässt sich aus dem PSE ablesen. Wichtig: Die Stoffmenge muss immer auf eine Teilchenart bezogen werden: n(H 2 O), nicht nur n.",
       "tags": [
-        "mol"
+        "fragenkatalog",
+        "quantitative-chemie-und-stoechiometrie",
+        "niveau-a"
       ],
       "spiral": [
-        "W-RECH"
-      ]
+        "K-QUANT"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-b6-2 · Lehrbuch PDF-S. 60–62"
     },
     {
       "id": "QB02-B1-005",
@@ -273,7 +262,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -297,7 +286,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -320,7 +309,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -354,7 +343,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -386,34 +375,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
-      "id": "QB02-B4-010",
+      "id": "QB02-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum ist die molare Masse zahlengleich zur Atommasse aus dem Periodensystem?",
+      "prompt": "Berechne die Stoffmenge in 18,0 g Wasser. Verwende M(H₂O)=18,0 g/mol.",
       "options": [
-        "Das Mol wurde genau so definiert.",
-        "Das ist Zufall.",
-        "Weil Gramm und atomare Masseneinheit dasselbe sind."
+        "1. Reaktionsgleichung 2 C 2 H 6 + 7 O 2 → 4 CO 2 + 6 H 2 O 2 mol 7 mol 4 mol 6 mol 2. Stoffmengenverhältnis n(C 2 H 6 ): n(CO 2 ) = 2: 4 = 1: 2 → n(CO 2 ) = 2 · n(C 2 H 6 ) 3.",
+        "1 u ist definiert als 1/12 der Masse eines 12 C-Atoms; es gilt 1 u ≈ 1,66 · 10 −24 g. Die relative Atommasse gibt an, wie groß die Masse eines Atoms im Verhältnis zu 1 u ist. Sie steht im PSE.",
+        "N = n·N_A = 0,50·6,022·10²³ ≈ 3,01·10²³ Teilchen.",
+        "n = m/M = 18,0 g / 18,0 g/mol = 1,00 mol."
       ],
-      "answer": 0,
+      "answer": 3,
       "hints": [
-        "Wurde das so festgelegt oder ergibt es sich?",
-        "Es wurde festgelegt.",
-        "Genau deshalb ist die Umrechnung so einfach."
+        "Prüfe jede Aussage mit dem Abschnitt „Stoffmenge und Mol“ (PDF-S. 60–62)."
       ],
-      "solution": "Die Stoffmenge Mol ist genau so definiert, dass die relative Atommasse zahlengleich zur molaren Masse in g/mol ist. Das erlaubt es, direkt aus dem Periodensystem in eine Wägung zu übersetzen.",
+      "solution": "n = m/M = 18,0 g / 18,0 g/mol = 1,00 mol.",
       "tags": [
-        "mol",
-        "msa"
+        "fragenkatalog",
+        "stoechiometrie",
+        "niveau-b"
       ],
       "spiral": [
-        "W-RECH"
-      ]
+        "K-QUANT"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-055 · Lehrbuch PDF-S. 60–62"
     },
     {
       "id": "QB02-C2-011",
@@ -438,8 +428,8 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI",
-        "W-RECH"
+        "K-REAK",
+        "K-QUANT"
       ]
     },
     {
@@ -478,7 +468,7 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -501,43 +491,35 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
-      "id": "QB02-C4-014",
+      "id": "QB02-C4-KAT",
       "path": "C",
       "step": 4,
       "type": "choice",
-      "prompt": "Ein Schüler sagt: „1 mol ist eine Masse.“ Wie korrigierst du?",
+      "prompt": "Wie viele Teilchen enthält 0,50 mol eines Stoffes?",
       "options": [
-        "Mol ist die Einheit der Stoffmenge und zählt Teilchen; die zugehörige Masse hängt vom Stoff ab.",
-        "Richtig, 1 mol sind immer 18 g.",
-        "Mol ist eine Volumeneinheit."
+        "n = m/M = 18,0 g / 18,0 g/mol = 1,00 mol.",
+        "1 u ist definiert als 1/12 der Masse eines 12 C-Atoms; es gilt 1 u ≈ 1,66 · 10 −24 g. Die relative Atommasse gibt an, wie groß die Masse eines Atoms im Verhältnis zu 1 u ist. Sie steht im PSE.",
+        "N = n·N_A = 0,50·6,022·10²³ ≈ 3,01·10²³ Teilchen.",
+        "1. Reaktionsgleichung 2 C 2 H 6 + 7 O 2 → 4 CO 2 + 6 H 2 O 2 mol 7 mol 4 mol 6 mol 2. Stoffmengenverhältnis n(C 2 H 6 ): n(CO 2 ) = 2: 4 = 1: 2 → n(CO 2 ) = 2 · n(C 2 H 6 ) 3."
       ],
-      "answer": 0,
+      "answer": 2,
       "hints": [
-        "Wiegt 1 mol Eisen genauso viel wie 1 mol Wasser?",
-        "Nein — 56 g gegen 18 g.",
-        "Gleich ist nur die Teilchenzahl."
+        "Prüfe jede Aussage mit dem Abschnitt „Stoffmenge und Mol“ (PDF-S. 60–62)."
       ],
-      "solution": "Mol ist die Einheit der Stoffmenge, nicht der Masse. 1 mol Wasser wiegt 18 g, 1 mol Eisen 56 g — die Teilchenzahl ist in beiden Fällen dieselbe.",
-      "misconceptions": [
-        {
-          "id": "groesse_und_einheit_verwechselt",
-          "value": 1,
-          "feedback": "18 g gelten für Wasser. Für andere Stoffe hat 1 mol eine andere Masse.",
-          "konzeptfehler": "groesse_und_einheit_verwechselt"
-        }
-      ],
+      "solution": "N = n·N_A = 0,50·6,022·10²³ ≈ 3,01·10²³ Teilchen.",
       "tags": [
-        "mol",
-        "bewerten",
-        "msa"
+        "fragenkatalog",
+        "stoechiometrie",
+        "niveau-c"
       ],
       "spiral": [
-        "W-EINH"
-      ]
+        "K-QUANT"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-056 · Lehrbuch PDF-S. 60–62"
     }
   ],
   "mitschrift": {
@@ -646,9 +628,10 @@
   "lehrbuch": {
     "kapitel": 5,
     "titel": "Die chemische Reaktion",
-    "seiten_von": 58,
-    "seiten_bis": 65,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Stoffmenge"
+    "seiten_von": 60,
+    "seiten_bis": 62,
+    "abschnitt": "Stoffmenge und Mol",
+    "bezugswort": "Stoffmenge",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

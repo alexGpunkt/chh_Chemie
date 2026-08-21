@@ -204,34 +204,31 @@
       ]
     },
     {
-      "id": "FC02-A4-004",
+      "id": "FC02-A4-KAT",
       "path": "A",
       "step": 4,
-      "type": "numeric",
-      "prompt": "Die rauschende Flamme ist etwa 1400 °C heiß, die leuchtende etwa 600 °C. Um wie viel Grad ist die rauschende heißer?",
-      "answer": 800,
-      "unit_label": "°C",
-      "tolerance": 0,
+      "type": "choice",
+      "prompt": "Ordne Reagenzglas, Becherglas, Messzylinder und Trichter jeweils einer typischen Verwendung zu.",
+      "options": [
+        "Reagenzglas: Kleinversuche; Becherglas: Mischen/Erhitzen; Messzylinder: Volumen messen; Trichter: Filtrieren/Umfüllen.",
+        "Sie schützt die Augen vor Spritzern, Splittern und reizenden oder ätzenden Stoffen.",
+        "Stoffebene (makroskopisch): das, was man beobachten und messen kann – Farbe, Geruch, Dichte, Schmelz- und Siedetemperatur; „Wasser siedet“, „der Stoff wird gelb“."
+      ],
+      "answer": 0,
       "hints": [
-        "Der Unterschied ist eine Differenz.",
-        "1400 minus 600.",
-        "800 °C."
+        "Lies den Abschnitt „Gasbrenner und Laborgeräte“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "1400 °C − 600 °C = 800 °C",
-      "misconceptions": [
-        {
-          "id": "addiert_statt_subtrahiert",
-          "value": 2000,
-          "feedback": "Du hast addiert. Gefragt ist der Unterschied — also die Differenz."
-        }
-      ],
+      "solution": "Reagenzglas: Kleinversuche; Becherglas: Mischen/Erhitzen; Messzylinder: Volumen messen; Trichter: Filtrieren/Umfüllen.",
       "tags": [
-        "brenner",
-        "rechnen"
+        "fragenkatalog",
+        "laborgeraete",
+        "niveau-a"
       ],
       "spiral": [
-        "W-EINH"
-      ]
+        "K-SICH"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-005 · Lehrbuch PDF-S. 10–12"
     },
     {
       "id": "FC02-B1-005",
@@ -355,7 +352,7 @@
         "rechnen"
       ],
       "spiral": [
-        "W-EINH"
+        "K-QUANT"
       ]
     },
     {
@@ -391,27 +388,31 @@
       ]
     },
     {
-      "id": "FC02-B4-010",
+      "id": "FC02-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Ein Schüler stellt fest: „Wenn ich den Luftring öffne, wird die Flamme leiser.“ Stimmt das?",
+      "prompt": "Bringe die Schritte beim sicheren Entzünden eines Bunsenbrenners in eine sinnvolle Reihenfolge.",
       "options": [
-        "Nein — sie wird lauter, deshalb heißt sie rauschende Flamme.",
-        "Ja — mehr Luft dämpft das Geräusch.",
-        "Das hängt vom Brennertyp ab."
+        "Reagenzglas: Kleinversuche; Becherglas: Mischen/Erhitzen; Messzylinder: Volumen messen; Trichter: Filtrieren/Umfüllen.",
+        "Schutzbrille/Haare sichern → Luftzufuhr schließen → Zündquelle entzünden → Gas öffnen → Luftzufuhr für rauschende Flamme öffnen.",
+        "Sie schützt die Augen vor Spritzern, Splittern und reizenden oder ätzenden Stoffen.",
+        "Stoffebene (makroskopisch): das, was man beobachten und messen kann – Farbe, Geruch, Dichte, Schmelz- und Siedetemperatur; „Wasser siedet“, „der Stoff wird gelb“."
       ],
-      "answer": 0,
+      "answer": 1,
       "hints": [
-        "Wie heißt die Flamme bei offener Luftzufuhr?",
-        "Der Name verrät das Geräusch.",
-        "Rauschende Flamme."
+        "Prüfe jede Aussage mit dem Abschnitt „Gasbrenner und Laborgeräte“ (PDF-S. 10–12)."
       ],
-      "solution": "Bei geöffneter Luftzufuhr strömt das Gas-Luft-Gemisch schneller und die Flamme rauscht hörbar. Genau daher der Name.",
+      "solution": "Schutzbrille/Haare sichern → Luftzufuhr schließen → Zündquelle entzünden → Gas öffnen → Luftzufuhr für rauschende Flamme öffnen.",
       "tags": [
-        "brenner",
-        "beobachten"
-      ]
+        "fragenkatalog",
+        "labor-sicherheit",
+        "niveau-b"
+      ],
+      "spiral": [
+        "K-SICH"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-004 · Lehrbuch PDF-S. 10–12"
     },
     {
       "id": "FC02-C2-011",
@@ -518,7 +519,7 @@
         "msa"
       ],
       "spiral": [
-        "W-EINH"
+        "K-QUANT"
       ]
     },
     {
@@ -652,9 +653,10 @@
   "lehrbuch": {
     "kapitel": 1,
     "titel": "Sicherheit im Chemieunterricht",
-    "seiten_von": 8,
+    "seiten_von": 10,
     "seiten_bis": 12,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Gasbrenner"
+    "abschnitt": "Gasbrenner und Laborgeräte",
+    "bezugswort": "Gasbrenner",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

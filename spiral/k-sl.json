@@ -1,0 +1,287 @@
+{
+  "kategorie": "K-SL",
+  "titel": "Säuren, Basen und Salze",
+  "hinweis": "Fragen aus dem gelieferten Chemie-Fragenkatalog; jede Frage gehört genau einem Niveau und erscheint erst nach ihrer Einführungs-Einheit.",
+  "fragen": [
+    {
+      "id": "KAT-src-d1-4-A",
+      "level": "A",
+      "kategorie": "K-SL",
+      "skill": "Säuren, Basen, pH-Wert, Titration",
+      "type": "choice",
+      "prompt": "Was ist ein Indikator? Nenne drei Indikatoren mit ihren Farben.",
+      "options": [
+        "Ein Indikator (lat. indicare = anzeigen) ist ein Farbstoff, der durch seine Farbe anzeigt, ob eine Lösung sauer, neutral oder basisch reagiert.",
+        "Eine Protolyse (Säure-Base-Reaktion) ist eine Reaktion mit Protonenübertragung zwischen einem Protonendonator (Säure) und einem Protonenakzeptor (Base).",
+        "Ein Ampholyt ist ein Teilchen, das je nach Reaktionspartner sowohl als Protonenakzeptor als auch als Protonendonator reagieren kann."
+      ],
+      "answer": 0,
+      "solution": "Ein Indikator (lat. indicare = anzeigen) ist ein Farbstoff, der durch seine Farbe anzeigt, ob eine Lösung sauer, neutral oder basisch reagiert. Indikator sauer neutral alkalisch Bromthymolblau gelb grün blau Phenolphthalein farblos farblos pink Lackmus rot violett blau Rotkohlsaft rot violett grün/gelb",
+      "katalog_id": "src-d1-4",
+      "schwierigkeit": 1,
+      "ab_einheit": "sl-02"
+    },
+    {
+      "id": "KAT-src-d1-14-A",
+      "level": "A",
+      "kategorie": "K-SL",
+      "skill": "Säuren, Basen, pH-Wert, Titration",
+      "type": "choice",
+      "prompt": "Nenne die wichtigsten Laugen mit Trivialnamen und Formel.",
+      "options": [
+        "Säure Formel Säurerest 1 Säurerest 2 Säurerest 3 Hydrogenchlorid / Salzsäure HCl Cl − Chlorid – – Salpetersäure HNO 3 NO 3 − Nitrat – – Salpetrige Säure HNO 2 NO 2 − Nitrit – – Schwefelsäure H 2 SO 4 HSO 4 − Hydrogensulfat SO 4 2− …",
+        "Trivialname Formel chemischer Name Natronlauge NaOH(aq) Natriumhydroxid-Lösung Kalilauge KOH(aq) Kaliumhydroxid-Lösung Kalkwasser Ca(OH) 2 (aq) Calciumhydroxid-Lösung Ammoniakwasser / Salmiakgeist NH 3 (aq) Ammoniak-Lösung Laugen sind …",
+        "Säure = Protonendonator; besitzt mindestens ein polar gebundenes Wasserstoff-Atom und kann mindestens ein Proton (H + ) abgeben. Saure Lösung = wässrige Lösung, die Oxonium-Ionen H 3 O + enthält. Base = Protonenakzeptor;"
+      ],
+      "answer": 1,
+      "solution": "Trivialname Formel chemischer Name Natronlauge NaOH(aq) Natriumhydroxid-Lösung Kalilauge KOH(aq) Kaliumhydroxid-Lösung Kalkwasser Ca(OH) 2 (aq) Calciumhydroxid-Lösung Ammoniakwasser / Salmiakgeist NH 3 (aq) Ammoniak-Lösung Laugen sind wässrige Hydroxidlösungen. Die korrespondierende Säure zu Ammoniak NH 3 ist das Ammonium-Ion NH 4 +.",
+      "katalog_id": "src-d1-14",
+      "schwierigkeit": 1,
+      "ab_einheit": "sl-02"
+    },
+    {
+      "id": "KAT-src-d1-6-A",
+      "level": "A",
+      "kategorie": "K-SL",
+      "skill": "Säuren, Basen, pH-Wert, Titration",
+      "type": "choice",
+      "prompt": "Was ist die Autoprotolyse des Wassers?",
+      "options": [
+        "Weil Wasser ein Ampholyt ist, können zwei Wasser-Moleküle miteinander reagieren: eines gibt ein Proton ab, das andere nimmt es auf.",
+        "Ein Ampholyt ist ein Teilchen, das je nach Reaktionspartner sowohl als Protonenakzeptor als auch als Protonendonator reagieren kann.",
+        "Ein Indikator (lat. indicare = anzeigen) ist ein Farbstoff, der durch seine Farbe anzeigt, ob eine Lösung sauer, neutral oder basisch reagiert."
+      ],
+      "answer": 0,
+      "solution": "Weil Wasser ein Ampholyt ist, können zwei Wasser-Moleküle miteinander reagieren: eines gibt ein Proton ab, das andere nimmt es auf. Die gebildeten Ionen reagieren schnell wieder zurück – es liegt ein Gleichgewicht vor, das weit auf der Eduktseite liegt. H 2 O + H 2 O ⇌ H 3 O + + OH − In reinem Wasser (25 °C): c(H 3 O + ) = c(OH − ) = 10 −7 mol/L → pH = 7",
+      "katalog_id": "src-d1-6",
+      "schwierigkeit": 1,
+      "ab_einheit": "sl-03"
+    },
+    {
+      "id": "KAT-src-d1-13-A",
+      "level": "A",
+      "kategorie": "K-SL",
+      "skill": "Säuren, Basen, pH-Wert, Titration",
+      "type": "choice",
+      "prompt": "Nenne die wichtigsten Säuren mit Formel und zugehörigen Säurerest-Anionen.",
+      "options": [
+        "Säure Formel Säurerest 1 Säurerest 2 Säurerest 3 Hydrogenchlorid / Salzsäure HCl Cl − Chlorid – – Salpetersäure HNO 3 NO 3 − Nitrat – – Salpetrige Säure HNO 2 NO 2 − Nitrit – – Schwefelsäure H 2 SO 4 HSO 4 − Hydrogensulfat SO 4 2− …",
+        "Trivialname Formel chemischer Name Natronlauge NaOH(aq) Natriumhydroxid-Lösung Kalilauge KOH(aq) Kaliumhydroxid-Lösung Kalkwasser Ca(OH) 2 (aq) Calciumhydroxid-Lösung Ammoniakwasser / Salmiakgeist NH 3 (aq) Ammoniak-Lösung Laugen sind …",
+        "Säure = Protonendonator; besitzt mindestens ein polar gebundenes Wasserstoff-Atom und kann mindestens ein Proton (H + ) abgeben. Saure Lösung = wässrige Lösung, die Oxonium-Ionen H 3 O + enthält. Base = Protonenakzeptor;"
+      ],
+      "answer": 0,
+      "solution": "Säure Formel Säurerest 1 Säurerest 2 Säurerest 3 Hydrogenchlorid / Salzsäure HCl Cl − Chlorid – – Salpetersäure HNO 3 NO 3 − Nitrat – – Salpetrige Säure HNO 2 NO 2 − Nitrit – – Schwefelsäure H 2 SO 4 HSO 4 − Hydrogensulfat SO 4 2− Sulfat – Schweflige Säure H 2 SO 3 HSO 3 − Hydrogensulfit SO 3 2− Sulfit – Kohlensäure H 2 CO 3 HCO 3 − Hydrogencarbonat CO 3 2− Carbonat – Phosphorsäure H 3 PO 4 H 2 PO 4 − Dihydrogenphosphat HPO 4 2− Hydrogenphosphat PO 4 3− Phosphat Ethansäure (Essigsäure) CH 3 COOH CH 3 COO − Ethanoat (Acetat) – – Fluor-/Brom-/Iodwasserstoffsäure HF / HBr / HI F − / Br − / I − – – Schwefelwasserstoff H 2 S HS − S 2− Sulfid –",
+      "katalog_id": "src-d1-13",
+      "schwierigkeit": 1,
+      "ab_einheit": "os-01"
+    },
+    {
+      "id": "KAT-src-d1-2-A",
+      "level": "A",
+      "kategorie": "K-SL",
+      "skill": "Säuren, Basen, pH-Wert, Titration",
+      "type": "choice",
+      "prompt": "Definiere Protolyse und benenne bei der vollständigen Protolyse von Schwefelsäure die korrespondierenden Paare.",
+      "options": [
+        "Eine Protolyse (Säure-Base-Reaktion) ist eine Reaktion mit Protonenübertragung zwischen einem Protonendonator (Säure) und einem Protonenakzeptor (Base).",
+        "Ein Indikator (lat. indicare = anzeigen) ist ein Farbstoff, der durch seine Farbe anzeigt, ob eine Lösung sauer, neutral oder basisch reagiert.",
+        "Säurestärke: Je stärker eine Säure ist, desto leichter gibt sie Protonen an Wasser ab. Bei starken Säuren (HCl, HNO 3, H 2 SO 4 ) protolysieren praktisch alle Säuremoleküle;"
+      ],
+      "answer": 0,
+      "solution": "Eine Protolyse (Säure-Base-Reaktion) ist eine Reaktion mit Protonenübertragung zwischen einem Protonendonator (Säure) und einem Protonenakzeptor (Base). Sie ist reversibel: Aus einem Protonendonator entsteht ein Protonenakzeptor und umgekehrt. H 2 SO 4 (l) + 2 H 2 O(l) ⇌ SO 4 2− (aq) + 2 H 3 O + (aq) Säure 1 Base 2 Base 1 Säure 2 Produkte: SO 4 2− = Sulfat-Anion, H 3 O + = Oxonium-Ion. Korrespondierende Säure-Base-Paare unterscheiden sich um genau ein Proton: HA/A − und B/BH +. Hier: H 2 SO 4 /SO 4 2− (über die Zwischenstufe HSO 4 − ) und H 2 O/H 3 O +.",
+      "katalog_id": "src-d1-2",
+      "schwierigkeit": 1,
+      "ab_einheit": "sl-03"
+    },
+    {
+      "id": "KAT-src-d1-7-B",
+      "level": "B",
+      "kategorie": "K-SL",
+      "skill": "Säuren, Basen, pH-Wert, Titration",
+      "type": "choice",
+      "prompt": "Was bedeutet Säurestärke? Was unterscheidet eine starke von einer konzentrierten Säure?",
+      "options": [
+        "Bei einer Neutralisation reagieren die Oxonium-Ionen einer sauren Lösung mit den Hydroxid-Ionen einer basischen Lösung zu Wasser. Die Anionen der Säure und die Kationen der Base bilden ein Salz.",
+        "Ein Indikator (lat. indicare = anzeigen) ist ein Farbstoff, der durch seine Farbe anzeigt, ob eine Lösung sauer, neutral oder basisch reagiert.",
+        "Eine Protolyse (Säure-Base-Reaktion) ist eine Reaktion mit Protonenübertragung zwischen einem Protonendonator (Säure) und einem Protonenakzeptor (Base).",
+        "Säurestärke: Je stärker eine Säure ist, desto leichter gibt sie Protonen an Wasser ab. Bei starken Säuren (HCl, HNO 3, H 2 SO 4 ) protolysieren praktisch alle Säuremoleküle;"
+      ],
+      "answer": 3,
+      "solution": "Säurestärke: Je stärker eine Säure ist, desto leichter gibt sie Protonen an Wasser ab. Bei starken Säuren (HCl, HNO 3, H 2 SO 4 ) protolysieren praktisch alle Säuremoleküle; bei schwachen Säuren (Essigsäure, Kohlensäure) nur ein kleiner Teil – es stellt sich ein Gleichgewicht ein. Wichtige Unterscheidung: stark/schwach beschreibt den Grad der Protolyse (eine Stoffeigenschaft), konzentriert/verdünnt beschreibt nur die Menge Säure pro Volumen Lösung. Es gibt verdünnte starke Säuren und konzentrierte schwache Säuren.",
+      "katalog_id": "src-d1-7",
+      "schwierigkeit": 1,
+      "ab_einheit": "os-01"
+    },
+    {
+      "id": "KAT-src-d1-10-B",
+      "level": "B",
+      "kategorie": "K-SL",
+      "skill": "Säuren, Basen, pH-Wert, Titration",
+      "type": "choice",
+      "prompt": "Formuliere die Neutralisationsgleichungen: Salpetersäure + Aluminiumhydroxid-Lösung und Kohlensäure + Bariumhydroxid-Lösung.",
+      "options": [
+        "Acidität ist ein Maß für die Fähigkeit eines Teilchens, als Protonendonator zu reagieren. Carbonsäuren können aufgrund der stark polarisierten O–H-Bindung ein Proton abspalten und reagieren mit Wasser als Säure.",
+        "Bei einer Neutralisation reagieren die Oxonium-Ionen einer sauren Lösung mit den Hydroxid-Ionen einer basischen Lösung zu Wasser. Die Anionen der Säure und die Kationen der Base bilden ein Salz.",
+        "Säure = Protonendonator; besitzt mindestens ein polar gebundenes Wasserstoff-Atom und kann mindestens ein Proton (H + ) abgeben. Saure Lösung = wässrige Lösung, die Oxonium-Ionen H 3 O + enthält. Base = Protonenakzeptor;",
+        "3 HNO 3 + Al(OH) 3 → Al(NO 3 ) 3 + 3 H 2 O H 2 CO 3 + Ba(OH) 2 → BaCO 3 + 2 H 2 O Vorgehen: Formel des Salzes aus Metall-Kation und Säurerest-Anion über den Ladungsausgleich bilden, dann die Gleichung ausgleichen."
+      ],
+      "answer": 3,
+      "solution": "3 HNO 3 + Al(OH) 3 → Al(NO 3 ) 3 + 3 H 2 O H 2 CO 3 + Ba(OH) 2 → BaCO 3 + 2 H 2 O Vorgehen: Formel des Salzes aus Metall-Kation und Säurerest-Anion über den Ladungsausgleich bilden, dann die Gleichung ausgleichen. Die Anzahl der Wasser-Moleküle entspricht der Anzahl übertragener Protonen.",
+      "katalog_id": "src-d1-10",
+      "schwierigkeit": 1,
+      "ab_einheit": "sl-02"
+    },
+    {
+      "id": "KAT-src-d1-9-B",
+      "level": "B",
+      "kategorie": "K-SL",
+      "skill": "Säuren, Basen, pH-Wert, Titration",
+      "type": "choice",
+      "prompt": "Erläutere die Neutralisation und stelle Summen- und Ionengleichung für Salpetersäure + Kalilauge auf.",
+      "options": [
+        "Acidität ist ein Maß für die Fähigkeit eines Teilchens, als Protonendonator zu reagieren. Carbonsäuren können aufgrund der stark polarisierten O–H-Bindung ein Proton abspalten und reagieren mit Wasser als Säure.",
+        "Säurestärke: Je stärker eine Säure ist, desto leichter gibt sie Protonen an Wasser ab. Bei starken Säuren (HCl, HNO 3, H 2 SO 4 ) protolysieren praktisch alle Säuremoleküle;",
+        "Bei einer Neutralisation reagieren die Oxonium-Ionen einer sauren Lösung mit den Hydroxid-Ionen einer basischen Lösung zu Wasser. Die Anionen der Säure und die Kationen der Base bilden ein Salz.",
+        "3 HNO 3 + Al(OH) 3 → Al(NO 3 ) 3 + 3 H 2 O H 2 CO 3 + Ba(OH) 2 → BaCO 3 + 2 H 2 O Vorgehen: Formel des Salzes aus Metall-Kation und Säurerest-Anion über den Ladungsausgleich bilden, dann die Gleichung ausgleichen."
+      ],
+      "answer": 2,
+      "solution": "Bei einer Neutralisation reagieren die Oxonium-Ionen einer sauren Lösung mit den Hydroxid-Ionen einer basischen Lösung zu Wasser. Die Anionen der Säure und die Kationen der Base bilden ein Salz. Allgemein: Säure + Base → Salz + Wasser Kernreaktion: H 3 O + + OH − → 2 H 2 O Summengleichung: HNO 3 (aq) + KOH(aq) → KNO 3 (aq) + H 2 O(l) Ionengleichung: H 3 O + (aq) + NO 3 − (aq) + K + (aq) + OH − (aq) → K + (aq) + NO 3 − (aq) + 2 H 2 O(l)",
+      "katalog_id": "src-d1-9",
+      "schwierigkeit": 1,
+      "ab_einheit": "sl-02"
+    },
+    {
+      "id": "KAT-src-d1-1-B",
+      "level": "B",
+      "kategorie": "K-SL",
+      "skill": "Säuren, Basen, pH-Wert, Titration",
+      "type": "choice",
+      "prompt": "Definiere Säure, saure Lösung, Base und basische Lösung und formuliere die Reaktionen von HCl und NH 3 mit Wasser.",
+      "options": [
+        "3 HNO 3 + Al(OH) 3 → Al(NO 3 ) 3 + 3 H 2 O H 2 CO 3 + Ba(OH) 2 → BaCO 3 + 2 H 2 O Vorgehen: Formel des Salzes aus Metall-Kation und Säurerest-Anion über den Ladungsausgleich bilden, dann die Gleichung ausgleichen.",
+        "Säure Formel Säurerest 1 Säurerest 2 Säurerest 3 Hydrogenchlorid / Salzsäure HCl Cl − Chlorid – – Salpetersäure HNO 3 NO 3 − Nitrat – – Salpetrige Säure HNO 2 NO 2 − Nitrit – – Schwefelsäure H 2 SO 4 HSO 4 − Hydrogensulfat SO 4 2− …",
+        "Säure = Protonendonator; besitzt mindestens ein polar gebundenes Wasserstoff-Atom und kann mindestens ein Proton (H + ) abgeben. Saure Lösung = wässrige Lösung, die Oxonium-Ionen H 3 O + enthält. Base = Protonenakzeptor;",
+        "Acidität ist ein Maß für die Fähigkeit eines Teilchens, als Protonendonator zu reagieren. Carbonsäuren können aufgrund der stark polarisierten O–H-Bindung ein Proton abspalten und reagieren mit Wasser als Säure."
+      ],
+      "answer": 2,
+      "solution": "Säure = Protonendonator; besitzt mindestens ein polar gebundenes Wasserstoff-Atom und kann mindestens ein Proton (H + ) abgeben. Saure Lösung = wässrige Lösung, die Oxonium-Ionen H 3 O + enthält. Base = Protonenakzeptor; besitzt mindestens ein freies Elektronenpaar, ist oft negativ geladen. Basische Lösung / Lauge = wässrige Lösung, die Hydroxid-Ionen OH − enthält. HCl(g) + H 2 O(l) → H 3 O + (aq) + Cl − (aq) Säure saure Lösung NH 3 (g) + H 2 O(l) → NH 4 + (aq) + OH − (aq) Base basische Lösung / Lauge Merke: Nichtmetalloxide reagieren mit Wasser zu Säuren (SO 3 + H 2 O → H 2 SO 4 ), Metalloxide zu Laugen (CaO + H 2 O → Ca(OH) 2 ).",
+      "katalog_id": "src-d1-1",
+      "schwierigkeit": 1,
+      "ab_einheit": "sl-02"
+    },
+    {
+      "id": "KAT-ext-070-B",
+      "level": "B",
+      "kategorie": "K-SL",
+      "skill": "Säure-Base",
+      "type": "choice",
+      "prompt": "Eine starke einprotonige Säure hat c(H₃O⁺)=1,0·10⁻³ mol/L. Bestimme den pH-Wert.",
+      "options": [
+        "pH = −log(1,0·10⁻³)=3,00.",
+        "Titrationsberechnung Reaktionsgleichung aufstellen (wichtig für das Stoffmengenverhältnis!).",
+        "NH₄⁺/NH₃ und H₂O/OH⁻. NH₃ nimmt ein Proton auf und ist Base; H₂O gibt eines ab und ist Säure.",
+        "Die pH-Skala ist logarithmisch. pH 2 bedeutet eine 100-fach höhere Oxoniumionenkonzentration als pH 4."
+      ],
+      "answer": 0,
+      "solution": "pH = −log(1,0·10⁻³)=3,00.",
+      "katalog_id": "ext-070",
+      "schwierigkeit": 2,
+      "ab_einheit": "sl-02"
+    },
+    {
+      "id": "KAT-ext-069-C",
+      "level": "C",
+      "kategorie": "K-SL",
+      "skill": "Säure-Base",
+      "type": "choice",
+      "prompt": "Bestimme in NH₃ + H₂O ⇌ NH₄⁺ + OH⁻ die Säure-Base-Paare.",
+      "options": [
+        "pH = −log(1,0·10⁻³)=3,00.",
+        "Titrationsberechnung Reaktionsgleichung aufstellen (wichtig für das Stoffmengenverhältnis!).",
+        "Die pH-Skala ist logarithmisch. pH 2 bedeutet eine 100-fach höhere Oxoniumionenkonzentration als pH 4.",
+        "NH₄⁺/NH₃ und H₂O/OH⁻. NH₃ nimmt ein Proton auf und ist Base; H₂O gibt eines ab und ist Säure."
+      ],
+      "answer": 3,
+      "solution": "NH₄⁺/NH₃ und H₂O/OH⁻. NH₃ nimmt ein Proton auf und ist Base; H₂O gibt eines ab und ist Säure.",
+      "katalog_id": "ext-069",
+      "schwierigkeit": 2,
+      "ab_einheit": "sl-03"
+    },
+    {
+      "id": "KAT-src-d1-5-C",
+      "level": "C",
+      "kategorie": "K-SL",
+      "skill": "Säuren, Basen, pH-Wert, Titration",
+      "type": "choice",
+      "prompt": "Erkläre den Begriff Ampholyt an konkreten Beispielen.",
+      "options": [
+        "Ein Indikator (lat. indicare = anzeigen) ist ein Farbstoff, der durch seine Farbe anzeigt, ob eine Lösung sauer, neutral oder basisch reagiert.",
+        "Eine Protolyse (Säure-Base-Reaktion) ist eine Reaktion mit Protonenübertragung zwischen einem Protonendonator (Säure) und einem Protonenakzeptor (Base).",
+        "Ein Ampholyt ist ein Teilchen, das je nach Reaktionspartner sowohl als Protonenakzeptor als auch als Protonendonator reagieren kann.",
+        "Weil Wasser ein Ampholyt ist, können zwei Wasser-Moleküle miteinander reagieren: eines gibt ein Proton ab, das andere nimmt es auf."
+      ],
+      "answer": 2,
+      "solution": "Ein Ampholyt ist ein Teilchen, das je nach Reaktionspartner sowohl als Protonenakzeptor als auch als Protonendonator reagieren kann. Das wichtigste Beispiel ist Wasser: HCl(g) + H 2 O(l) → Cl − (aq) + H 3 O + (aq) H 2 O als Protonenakzeptor NH 3 (g) + H 2 O(l) → NH 4 + (aq) + OH − (aq) H 2 O als Protonendonator Weitere Ampholyte: HS −, HSO 4 −, HSO 3 −, HCO 3 −, H 2 PO 4 −, HPO 4 2− sowie Aminosäuren im Zwitterion-Zustand.",
+      "katalog_id": "src-d1-5",
+      "schwierigkeit": 2,
+      "ab_einheit": "os-04"
+    },
+    {
+      "id": "KAT-ext-071-C",
+      "level": "C",
+      "kategorie": "K-SL",
+      "skill": "Säure-Base",
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „pH 2 ist nur doppelt so sauer wie pH 4.“ Korrigiere.",
+      "options": [
+        "Die pH-Skala ist logarithmisch. pH 2 bedeutet eine 100-fach höhere Oxoniumionenkonzentration als pH 4.",
+        "NH₄⁺/NH₃ und H₂O/OH⁻. NH₃ nimmt ein Proton auf und ist Base; H₂O gibt eines ab und ist Säure.",
+        "pH = −log(1,0·10⁻³)=3,00.",
+        "Titrationsberechnung Reaktionsgleichung aufstellen (wichtig für das Stoffmengenverhältnis!)."
+      ],
+      "answer": 0,
+      "solution": "Die pH-Skala ist logarithmisch. pH 2 bedeutet eine 100-fach höhere Oxoniumionenkonzentration als pH 4.",
+      "katalog_id": "ext-071",
+      "schwierigkeit": 2,
+      "ab_einheit": "sl-02"
+    },
+    {
+      "id": "KAT-src-d1-8-C",
+      "level": "C",
+      "kategorie": "K-SL",
+      "skill": "Säuren, Basen, pH-Wert, Titration",
+      "type": "choice",
+      "prompt": "Definiere Acidität und vergleiche die Acidität eines Carbonsäure- mit der eines Alkohol-Moleküls.",
+      "options": [
+        "Säure = Protonendonator; besitzt mindestens ein polar gebundenes Wasserstoff-Atom und kann mindestens ein Proton (H + ) abgeben. Saure Lösung = wässrige Lösung, die Oxonium-Ionen H 3 O + enthält. Base = Protonenakzeptor;",
+        "Bei einer Neutralisation reagieren die Oxonium-Ionen einer sauren Lösung mit den Hydroxid-Ionen einer basischen Lösung zu Wasser. Die Anionen der Säure und die Kationen der Base bilden ein Salz.",
+        "3 HNO 3 + Al(OH) 3 → Al(NO 3 ) 3 + 3 H 2 O H 2 CO 3 + Ba(OH) 2 → BaCO 3 + 2 H 2 O Vorgehen: Formel des Salzes aus Metall-Kation und Säurerest-Anion über den Ladungsausgleich bilden, dann die Gleichung ausgleichen.",
+        "Acidität ist ein Maß für die Fähigkeit eines Teilchens, als Protonendonator zu reagieren. Carbonsäuren können aufgrund der stark polarisierten O–H-Bindung ein Proton abspalten und reagieren mit Wasser als Säure."
+      ],
+      "answer": 3,
+      "solution": "Acidität ist ein Maß für die Fähigkeit eines Teilchens, als Protonendonator zu reagieren. Carbonsäuren können aufgrund der stark polarisierten O–H-Bindung ein Proton abspalten und reagieren mit Wasser als Säure. Zwei Gründe für die vergleichsweise hohe Acidität: Die starke Polarität der O–H-Bindung (verstärkt durch den elektronenziehenden −I-Effekt der Carbonylgruppe). Die Stabilität des Carboxylat-Ions: Die negative Ladung ist durch Mesomerie auf beide Sauerstoff-Atome verteilt. Bei Alkoholen ist die O–H-Bindung deutlich weniger polarisiert und das entstehende Alkoholat-Ion ist nicht mesomeriestabilisiert – Alkohol-Moleküle reagieren in Wasser nicht als Säuren.",
+      "katalog_id": "src-d1-8",
+      "schwierigkeit": 2,
+      "ab_einheit": "os-01"
+    },
+    {
+      "id": "KAT-src-d1-12-C",
+      "level": "C",
+      "kategorie": "K-SL",
+      "skill": "Säuren, Basen, pH-Wert, Titration",
+      "type": "choice",
+      "prompt": "Wie rechnet man eine Titration aus? Nenne die vier Schritte.",
+      "options": [
+        "Titrationsberechnung Reaktionsgleichung aufstellen (wichtig für das Stoffmengenverhältnis!).",
+        "Weil Wasser ein Ampholyt ist, können zwei Wasser-Moleküle miteinander reagieren: eines gibt ein Proton ab, das andere nimmt es auf.",
+        "Ein Ampholyt ist ein Teilchen, das je nach Reaktionspartner sowohl als Protonenakzeptor als auch als Protonendonator reagieren kann.",
+        "Ein Indikator (lat. indicare = anzeigen) ist ein Farbstoff, der durch seine Farbe anzeigt, ob eine Lösung sauer, neutral oder basisch reagiert."
+      ],
+      "answer": 0,
+      "solution": "Titrationsberechnung Reaktionsgleichung aufstellen (wichtig für das Stoffmengenverhältnis!). Stoffmenge der zugegebenen Maßlösung berechnen: n = c · V Stoffmengenverhältnis aus der Gleichung ablesen und daraus die Stoffmenge der Probe berechnen. Konzentration der Probe berechnen: c = n / V(Probe) Beispiel: 20 mL Salzsäure werden mit 25 mL Natronlauge (c = 0,1 mol/L) titriert. n(NaOH) = 0,1 mol/L · 0,025 L = 2,5 · 10 −3 mol → wegen HCl + NaOH → NaCl + H 2 O gilt n(HCl) = 2,5 · 10 −3 mol → c(HCl) = 2,5 · 10 −3 mol / 0,020 L = 0,125 mol/L. Achtung bei mehrprotonigen Säuren: Für H 2 SO 4 + 2 NaOH gilt n(Säure) = ½ · n(Base).",
+      "katalog_id": "src-d1-12",
+      "schwierigkeit": 3,
+      "ab_einheit": "sl-06"
+    }
+  ]
+}

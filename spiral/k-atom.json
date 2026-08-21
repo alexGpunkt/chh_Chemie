@@ -1,0 +1,418 @@
+{
+  "kategorie": "K-ATOM",
+  "titel": "Teilchen, Atome und Periodensystem",
+  "hinweis": "Fragen aus dem gelieferten Chemie-Fragenkatalog; jede Frage gehört genau einem Niveau und erscheint erst nach ihrer Einführungs-Einheit.",
+  "fragen": [
+    {
+      "id": "KAT-ext-050-A",
+      "level": "A",
+      "kategorie": "K-ATOM",
+      "skill": "Elemente & Verbindungen",
+      "type": "choice",
+      "prompt": "Welche Aussage über ein Elementsymbol ist richtig?",
+      "options": [
+        "Es bezeichnet immer ein Molekül",
+        "Es bezeichnet eine bestimmte Atomsorte",
+        "Es gibt die Dichte an"
+      ],
+      "answer": 1,
+      "solution": "Es bezeichnet eine bestimmte Atomsorte.",
+      "katalog_id": "ext-050",
+      "schwierigkeit": 1,
+      "ab_einheit": "ps-03"
+    },
+    {
+      "id": "KAT-ext-047-A",
+      "level": "A",
+      "kategorie": "K-ATOM",
+      "skill": "Elemente & Verbindungen",
+      "type": "choice",
+      "prompt": "Was ist ein chemisches Element?",
+      "options": [
+        "Ein Reinstoff, dessen Atome alle dieselbe Protonenzahl besitzen.",
+        "Elemente: Sauerstoff, Kupfer. Verbindungen: Wasser, Kohlenstoffdioxid.",
+        "Ein Wasserteilchen besteht aus zwei Wasserstoffatomen und einem Sauerstoffatom."
+      ],
+      "answer": 0,
+      "solution": "Ein Reinstoff, dessen Atome alle dieselbe Protonenzahl besitzen.",
+      "katalog_id": "ext-047",
+      "schwierigkeit": 1,
+      "ab_einheit": "ps-03"
+    },
+    {
+      "id": "KAT-ext-049-A",
+      "level": "A",
+      "kategorie": "K-ATOM",
+      "skill": "Elemente & Verbindungen",
+      "type": "choice",
+      "prompt": "Ordne Sauerstoff, Wasser, Kupfer und Kohlenstoffdioxid als Element oder Verbindung ein.",
+      "options": [
+        "Elemente: Sauerstoff, Kupfer. Verbindungen: Wasser, Kohlenstoffdioxid.",
+        "Ein Reinstoff, dessen Atome alle dieselbe Protonenzahl besitzen.",
+        "Ein Wasserteilchen besteht aus zwei Wasserstoffatomen und einem Sauerstoffatom."
+      ],
+      "answer": 0,
+      "solution": "Elemente: Sauerstoff, Kupfer. Verbindungen: Wasser, Kohlenstoffdioxid.",
+      "katalog_id": "ext-049",
+      "schwierigkeit": 1,
+      "ab_einheit": "ps-03"
+    },
+    {
+      "id": "KAT-ext-048-A",
+      "level": "A",
+      "kategorie": "K-ATOM",
+      "skill": "Elemente & Verbindungen",
+      "type": "choice",
+      "prompt": "Was ist eine chemische Verbindung?",
+      "options": [
+        "Indizes statt Koeffizienten verändert, um eine Gleichung auszugleichen. Stoffbezug fehlt: „n = 2 mol“ statt „n(CO 2 ) = 2 mol“.",
+        "Es besitzt ein Valenzelektron und bildet typischerweise ein einfach positiv geladenes Ion (+1), z. B. Na⁺.",
+        "Ein Reinstoff aus mindestens zwei Elementsorten, deren Atome in einem festen Verhältnis chemisch miteinander verbunden sind."
+      ],
+      "answer": 2,
+      "solution": "Ein Reinstoff aus mindestens zwei Elementsorten, deren Atome in einem festen Verhältnis chemisch miteinander verbunden sind.",
+      "katalog_id": "ext-048",
+      "schwierigkeit": 1,
+      "ab_einheit": "ps-03"
+    },
+    {
+      "id": "KAT-src-c1-3-A",
+      "level": "A",
+      "kategorie": "K-ATOM",
+      "skill": "Atombau, Energiestufen, Periodensystem",
+      "type": "choice",
+      "prompt": "Gib die Anzahl der Protonen, Neutronen und Elektronen an für 16 O, 23 Na + und 35 Cl −.",
+      "options": [
+        "Wasser ist eine chemische Verbindung; seine Elemente sind chemisch gebunden und lassen sich nur durch eine chemische Reaktion, z. B. Elektrolyse, trennen.",
+        "I Alkalimetalle · II Erdalkalimetalle · III Borgruppe · IV Kohlenstoffgruppe · V Stickstoffgruppe · VI Sauerstoffgruppe · VII Halogene · VIII Edelgase. Alkalimetalle (I.",
+        "Teilchen p + n 0 e − Begründung 16 O 8 8 8 ungeladenes Atom: e − = p +; N = 16 − 8 23 Na + 11 12 10 ein Elektron abgegeben 35 Cl − 17 18 18 ein Elektron aufgenommen"
+      ],
+      "answer": 2,
+      "solution": "Teilchen p + n 0 e − Begründung 16 O 8 8 8 ungeladenes Atom: e − = p +; N = 16 − 8 23 Na + 11 12 10 ein Elektron abgegeben 35 Cl − 17 18 18 ein Elektron aufgenommen",
+      "katalog_id": "src-c1-3",
+      "schwierigkeit": 1,
+      "ab_einheit": "ps-07"
+    },
+    {
+      "id": "KAT-src-g-1-A",
+      "level": "A",
+      "kategorie": "K-ATOM",
+      "skill": "Nachschlagetabellen",
+      "type": "choice",
+      "prompt": "Liste der wichtigen Kationen (Grundwissen!)",
+      "options": [
+        "Ion Name Ion Name F − Fluorid-Ion NO 3 − Nitrat-Ion Cl − Chlorid-Ion NO 2 − Nitrit-Ion Br − Bromid-Ion SO 4 2− Sulfat-Ion I − Iodid-Ion HSO 4 − Hydrogensulfat-Ion O 2− Oxid-Ion SO 3 2− Sulfit-Ion S 2− Sulfid-Ion HSO 3 − …",
+        "Ion Name Ion Name Na + Natrium-Ion Ag + Silber-Ion K + Kalium-Ion Zn 2+ Zink-Ion Li + Lithium-Ion Pb 2+ Blei(II)-Ion Mg 2+ Magnesium-Ion Fe 2+ / Fe 3+ Eisen(II)- / Eisen(III)-Ion Ca 2+ Calcium-Ion Cu + / Cu 2+ Kupfer(I)- / …",
+        "1 2 3 4 5 6 7 8 9 10 mono di tri tetra penta hexa hepta octa nona deca Stammnamen für Anionen: Sauerstoff → -oxid · Schwefel → -sulfid · Fluor → -fluorid · Chlor → -chlorid · Brom → -bromid · Iod → -iodid · Stickstoff → -nitrid · …"
+      ],
+      "answer": 1,
+      "solution": "Ion Name Ion Name Na + Natrium-Ion Ag + Silber-Ion K + Kalium-Ion Zn 2+ Zink-Ion Li + Lithium-Ion Pb 2+ Blei(II)-Ion Mg 2+ Magnesium-Ion Fe 2+ / Fe 3+ Eisen(II)- / Eisen(III)-Ion Ca 2+ Calcium-Ion Cu + / Cu 2+ Kupfer(I)- / Kupfer(II)-Ion Ba 2+ Barium-Ion NH 4 + Ammonium-Ion Al 3+ Aluminium-Ion H 3 O + Oxonium-Ion",
+      "katalog_id": "src-g-1",
+      "schwierigkeit": 1,
+      "ab_einheit": "ps-01"
+    },
+    {
+      "id": "KAT-src-c1-7-A",
+      "level": "A",
+      "kategorie": "K-ATOM",
+      "skill": "Atombau, Energiestufen, Periodensystem",
+      "type": "choice",
+      "prompt": "Was ist ein Atomrumpf, was sind Valenzelektronen?",
+      "options": [
+        "Valenzelektronen (Außenelektronen) sind die Elektronen der äußersten besetzten Energiestufe. Ihre Anzahl entspricht der Hauptgruppennummer und bestimmt das chemische Verhalten.",
+        "Teilchen p + n 0 e − Begründung 16 O 8 8 8 ungeladenes Atom: e − = p +; N = 16 − 8 23 Na + 11 12 10 ein Elektron abgegeben 35 Cl − 17 18 18 ein Elektron aufgenommen",
+        "I Alkalimetalle · II Erdalkalimetalle · III Borgruppe · IV Kohlenstoffgruppe · V Stickstoffgruppe · VI Sauerstoffgruppe · VII Halogene · VIII Edelgase. Alkalimetalle (I."
+      ],
+      "answer": 0,
+      "solution": "Valenzelektronen (Außenelektronen) sind die Elektronen der äußersten besetzten Energiestufe. Ihre Anzahl entspricht der Hauptgruppennummer und bestimmt das chemische Verhalten. Atomrumpf = das Atom ohne seine Valenzelektronen, also Atomkern plus alle inneren Elektronen. Im Metallgitter sind die Atomrümpfe positiv geladen.",
+      "katalog_id": "src-c1-7",
+      "schwierigkeit": 1,
+      "ab_einheit": "ps-07"
+    },
+    {
+      "id": "KAT-src-b3-3-B",
+      "level": "B",
+      "kategorie": "K-ATOM",
+      "skill": "Atombau und Periodensystem",
+      "type": "choice",
+      "prompt": "Nach welchem Prinzip sind die Elemente im Periodensystem geordnet? Was sind Perioden und Gruppen?",
+      "options": [
+        "Ion Name Ion Name Na + Natrium-Ion Ag + Silber-Ion K + Kalium-Ion Zn 2+ Zink-Ion Li + Lithium-Ion Pb 2+ Blei(II)-Ion Mg 2+ Magnesium-Ion Fe 2+ / Fe 3+ Eisen(II)- / Eisen(III)-Ion Ca 2+ Calcium-Ion Cu + / Cu 2+ Kupfer(I)- / …",
+        "Die Elemente sind nach steigender Protonenzahl (Ordnungszahl) und nach chemischer Ähnlichkeit geordnet. Periode = waagrechte Zeile; alle Elemente einer Periode haben gleich viele besetzte Energiestufen (Schalen).",
+        "Ein Molekül ist ein Teilchen aus zwei oder mehr aneinander gebundenen Nichtmetallatomen. Elementmolekül: aus gleichen Atomen, z. B. O 2, N 2. Verbindungsmolekül: aus verschiedenen Atomarten, z. B. H 2 O, CO 2.",
+        "Ion Name Ion Name F − Fluorid-Ion NO 3 − Nitrat-Ion Cl − Chlorid-Ion NO 2 − Nitrit-Ion Br − Bromid-Ion SO 4 2− Sulfat-Ion I − Iodid-Ion HSO 4 − Hydrogensulfat-Ion O 2− Oxid-Ion SO 3 2− Sulfit-Ion S 2− Sulfid-Ion HSO 3 − …"
+      ],
+      "answer": 1,
+      "solution": "Die Elemente sind nach steigender Protonenzahl (Ordnungszahl) und nach chemischer Ähnlichkeit geordnet. Periode = waagrechte Zeile; alle Elemente einer Periode haben gleich viele besetzte Energiestufen (Schalen). Periodennummer = Zahl der Schalen. Gruppe = senkrechte Spalte; die Elemente einer Hauptgruppe haben gleich viele Valenzelektronen und daher ähnliche chemische Eigenschaften. Hauptgruppennummer = Zahl der Valenzelektronen.",
+      "katalog_id": "src-b3-3",
+      "schwierigkeit": 1,
+      "ab_einheit": "ps-05"
+    },
+    {
+      "id": "KAT-src-b3-5-B",
+      "level": "B",
+      "kategorie": "K-ATOM",
+      "skill": "Atombau und Periodensystem",
+      "type": "choice",
+      "prompt": "Nenne die Namen der Hauptgruppen des gekürzten PSE und die typischen Ionen der ersten beiden und letzten beiden Hauptgruppen.",
+      "options": [
+        "Teilchen p + n 0 e − Begründung 16 O 8 8 8 ungeladenes Atom: e − = p +; N = 16 − 8 23 Na + 11 12 10 ein Elektron abgegeben 35 Cl − 17 18 18 ein Elektron aufgenommen",
+        "Wasser ist eine chemische Verbindung; seine Elemente sind chemisch gebunden und lassen sich nur durch eine chemische Reaktion, z. B. Elektrolyse, trennen.",
+        "Valenzelektronen (Außenelektronen) sind die Elektronen der äußersten besetzten Energiestufe. Ihre Anzahl entspricht der Hauptgruppennummer und bestimmt das chemische Verhalten.",
+        "I Alkalimetalle · II Erdalkalimetalle · III Borgruppe · IV Kohlenstoffgruppe · V Stickstoffgruppe · VI Sauerstoffgruppe · VII Halogene · VIII Edelgase. Alkalimetalle (I."
+      ],
+      "answer": 3,
+      "solution": "I Alkalimetalle · II Erdalkalimetalle · III Borgruppe · IV Kohlenstoffgruppe · V Stickstoffgruppe · VI Sauerstoffgruppe · VII Halogene · VIII Edelgase. Alkalimetalle (I. HG): sehr reaktiv, bilden einfach positive Kationen (Li +, Na +, K + ). Erdalkalimetalle (II. HG): bilden zweifach positive Kationen (Mg 2+, Ca 2+ ). Halogene (VII. HG): zweiatomige, sehr reaktive Nichtmetalle; bilden einfach negative Anionen (F −, Cl −, Br −, I − ), Namensendung -id. Edelgase (VIII. HG): atomare Gase mit vollbesetzter äußerer Schale, reaktionsträge.",
+      "katalog_id": "src-b3-5",
+      "schwierigkeit": 1,
+      "ab_einheit": "ps-05"
+    },
+    {
+      "id": "KAT-src-c1-4-B",
+      "level": "B",
+      "kategorie": "K-ATOM",
+      "skill": "Atombau, Energiestufen, Periodensystem",
+      "type": "choice",
+      "prompt": "Definiere den Begriff Isotop.",
+      "options": [
+        "1 2 3 4 5 6 7 8 9 10 mono di tri tetra penta hexa hepta octa nona deca Stammnamen für Anionen: Sauerstoff → -oxid · Schwefel → -sulfid · Fluor → -fluorid · Chlor → -chlorid · Brom → -bromid · Iod → -iodid · Stickstoff → -nitrid · …",
+        "A X A = Nukleonenzahl (Massenzahl) = Z + N Z Z = Ordnungszahl = Kernladungszahl = Protonenzahl (= Elektronenzahl im Atom) N = Neutronenzahl = A − Z Beispiel: 12 6 C → 6 p +, 6 n 0, 6 e − Die Ordnungszahl legt die Atomart (das Element) …",
+        "Durch das Erhitzen nehmen Elektronen der Atomhülle Energie auf – sie werden „ angeregt “ und besetzen eine höhere Energiestufe. Kehrt das Elektron in seinen Grundzustand zurück, wird die Energiedifferenz als Lichtenergie abgegeben.",
+        "Isotope sind Atome desselben Elements (gleiche Protonenzahl), die sich in ihrer Neutronenzahl und damit in ihrer Atommasse unterscheiden. Sie haben gleiche chemische Eigenschaften, weil diese von der Elektronenhülle bestimmt werden."
+      ],
+      "answer": 3,
+      "solution": "Isotope sind Atome desselben Elements (gleiche Protonenzahl), die sich in ihrer Neutronenzahl und damit in ihrer Atommasse unterscheiden. Sie haben gleiche chemische Eigenschaften, weil diese von der Elektronenhülle bestimmt werden. Beispiele: 12 C, 13 C, 14 C; 1 H (Protium), 2 H (Deuterium, D), 3 H (Tritium, T). Die Anzahl natürlicher Isotope ist für jede Atomart charakteristisch; die im PSE angegebene Atommasse ist ein gewichteter Mittelwert aller natürlichen Isotope – deshalb ist sie meist nicht ganzzahlig.",
+      "katalog_id": "src-c1-4",
+      "schwierigkeit": 1,
+      "ab_einheit": "ps-07"
+    },
+    {
+      "id": "KAT-src-g-3-B",
+      "level": "B",
+      "kategorie": "K-ATOM",
+      "skill": "Nachschlagetabellen",
+      "type": "choice",
+      "prompt": "Konstanten, Größen und Formeln auf einen Blick",
+      "options": [
+        "A X A = Nukleonenzahl (Massenzahl) = Z + N Z Z = Ordnungszahl = Kernladungszahl = Protonenzahl (= Elektronenzahl im Atom) N = Neutronenzahl = A − Z Beispiel: 12 6 C → 6 p +, 6 n 0, 6 e − Die Ordnungszahl legt die Atomart (das Element) …",
+        "Isotope sind Atome desselben Elements (gleiche Protonenzahl), die sich in ihrer Neutronenzahl und damit in ihrer Atommasse unterscheiden. Sie haben gleiche chemische Eigenschaften, weil diese von der Elektronenhülle bestimmt werden.",
+        "Durch das Erhitzen nehmen Elektronen der Atomhülle Energie auf – sie werden „ angeregt “ und besetzen eine höhere Energiestufe. Kehrt das Elektron in seinen Grundzustand zurück, wird die Energiedifferenz als Lichtenergie abgegeben.",
+        "Konstanten N A = 6,022 · 10 23 mol −1 1 u = 1,66 · 10 −24 g V m = 22,4 L/mol (0 °C, 1013 hPa) V m = 24,5 L/mol (25 °C) Quantitative Chemie – alles läuft über die Stoffmenge n n = m / M m = n · M M aus dem Periodensystem n = V / V m V = …"
+      ],
+      "answer": 3,
+      "solution": "Konstanten N A = 6,022 · 10 23 mol −1 1 u = 1,66 · 10 −24 g V m = 22,4 L/mol (0 °C, 1013 hPa) V m = 24,5 L/mol (25 °C) Quantitative Chemie – alles läuft über die Stoffmenge n n = m / M m = n · M M aus dem Periodensystem n = V / V m V = n · V m (nur für Gase) n = N / N A N = n · N A c = n / V n = c · V (V = Volumen der Lösung) Energetik ΔE i = E i (Produkte) − E i (Edukte) exotherm: ΔE i < 0 endotherm: ΔE i > 0 Säuren und Basen pH = − lg { c(H 3 O + ) } saure Lösung pH < 7 · neutrale Lösung pH = 7 · basische Lösung pH > 7 Neutralisation: H 3 O + + OH − → 2 H 2 O Titration 1. n(Maßlösung) = c · V 2. Stoffmengenverhältnis aus der Reaktionsgleichung ablesen 3. c(Probe) = n(Probe) / V(Probe)",
+      "katalog_id": "src-g-3",
+      "schwierigkeit": 1,
+      "ab_einheit": "sl-06"
+    },
+    {
+      "id": "KAT-src-g-4-B",
+      "level": "B",
+      "kategorie": "K-ATOM",
+      "skill": "Nachschlagetabellen",
+      "type": "choice",
+      "prompt": "Zahlwörter, Endungen und Bindungswinkel",
+      "options": [
+        "1 2 3 4 5 6 7 8 9 10 mono di tri tetra penta hexa hepta octa nona deca Stammnamen für Anionen: Sauerstoff → -oxid · Schwefel → -sulfid · Fluor → -fluorid · Chlor → -chlorid · Brom → -bromid · Iod → -iodid · Stickstoff → -nitrid · …",
+        "Isotope sind Atome desselben Elements (gleiche Protonenzahl), die sich in ihrer Neutronenzahl und damit in ihrer Atommasse unterscheiden. Sie haben gleiche chemische Eigenschaften, weil diese von der Elektronenhülle bestimmt werden.",
+        "Durch das Erhitzen nehmen Elektronen der Atomhülle Energie auf – sie werden „ angeregt “ und besetzen eine höhere Energiestufe. Kehrt das Elektron in seinen Grundzustand zurück, wird die Energiedifferenz als Lichtenergie abgegeben.",
+        "A X A = Nukleonenzahl (Massenzahl) = Z + N Z Z = Ordnungszahl = Kernladungszahl = Protonenzahl (= Elektronenzahl im Atom) N = Neutronenzahl = A − Z Beispiel: 12 6 C → 6 p +, 6 n 0, 6 e − Die Ordnungszahl legt die Atomart (das Element) …"
+      ],
+      "answer": 0,
+      "solution": "1 2 3 4 5 6 7 8 9 10 mono di tri tetra penta hexa hepta octa nona deca Stammnamen für Anionen: Sauerstoff → -oxid · Schwefel → -sulfid · Fluor → -fluorid · Chlor → -chlorid · Brom → -bromid · Iod → -iodid · Stickstoff → -nitrid · Phosphor → -phosphid · Kohlenstoff → -carbid · Wasserstoff → -hydrid. Elektronenpaare Geometrie Winkel Beispiel 2 linear 180° CO 2, C 2 H 2 3 trigonal planar 120° BH 3, C 2 H 4, Carbonylgruppe 4 tetraedrisch 109,5° CH 4, Alkane 4 (1 frei) trigonal pyramidal 107° NH 3 4 (2 frei) gewinkelt 104,5° H 2 O 6 oktaedrisch 90° SF 6",
+      "katalog_id": "src-g-4",
+      "schwierigkeit": 1,
+      "ab_einheit": "sl-02"
+    },
+    {
+      "id": "KAT-src-g-5-B",
+      "level": "B",
+      "kategorie": "K-ATOM",
+      "skill": "Nachschlagetabellen",
+      "type": "choice",
+      "prompt": "Die häufigsten Fehler in Chemie-Schulaufgaben",
+      "options": [
+        "Ein Reinstoff aus mindestens zwei Elementsorten, deren Atome in einem festen Verhältnis chemisch miteinander verbunden sind.",
+        "Indizes statt Koeffizienten verändert, um eine Gleichung auszugleichen. Stoffbezug fehlt: „n = 2 mol“ statt „n(CO 2 ) = 2 mol“.",
+        "Wasser ist eine chemische Verbindung; seine Elemente sind chemisch gebunden und lassen sich nur durch eine chemische Reaktion, z. B. Elektrolyse, trennen.",
+        "Es besitzt ein Valenzelektron und bildet typischerweise ein einfach positiv geladenes Ion (+1), z. B. Na⁺."
+      ],
+      "answer": 1,
+      "solution": "Indizes statt Koeffizienten verändert, um eine Gleichung auszugleichen. Stoffbezug fehlt: „n = 2 mol“ statt „n(CO 2 ) = 2 mol“. Stoff- und Teilchenebene vermischt: „das Molekül schmilzt“, „beim Sieden werden Bindungen zerstört“ – beim Sieden werden nur zwischenmolekulare Wechselwirkungen überwunden. Beobachtung und Deutung vermischt: „es entsteht Kohlenstoffdioxid“ ist keine Beobachtung, sondern eine Deutung. polare Bindung = Dipol-Molekül gleichgesetzt – die Molekülgestalt entscheidet (CO 2 !). stark ≠ konzentriert bei Säuren. Katalysator verschiebt das Gleichgewicht – tut er nicht; er beschleunigt nur dessen Einstellung. Reaktionsgleichung ohne Zustandssymbole, obwohl sie verlangt sind. Wertigkeit bei Nebengruppenmetallen vergessen: „Eisenoxid“ statt „Eisen(III)-oxid“. Antwortsatz und Einheit fehlen bei Rechenaufgaben. Operatoren missachtet: „Nenne“ verlangt eine Aufzählung, „Erkläre“/„Begründe“ verlangt eine Ursache-Wirkungs-Kette, „Vergleiche“ verlangt Gemeinsamkeiten und Unterschiede mit Kriterium.",
+      "katalog_id": "src-g-5",
+      "schwierigkeit": 1,
+      "ab_einheit": "ps-01"
+    },
+    {
+      "id": "KAT-src-b3-7-B",
+      "level": "B",
+      "kategorie": "K-ATOM",
+      "skill": "Atombau und Periodensystem",
+      "type": "choice",
+      "prompt": "Was ist ein Molekül? Unterscheide Element- und Verbindungsmolekül und nenne die HOFBrINCl-Regel.",
+      "options": [
+        "Ein Ion ist ein ein- oder mehratomiges, elektrisch geladenes Teilchen. Es entsteht, wenn ein Atom Elektronen abgibt oder aufnimmt. Kation: positiv geladen (Elektronen abgegeben), z. B. Na +, Al 3+.",
+        "Ein Molekül ist ein Teilchen aus zwei oder mehr aneinander gebundenen Nichtmetallatomen. Elementmolekül: aus gleichen Atomen, z. B. O 2, N 2. Verbindungsmolekül: aus verschiedenen Atomarten, z. B. H 2 O, CO 2.",
+        "Die Elemente sind nach steigender Protonenzahl (Ordnungszahl) und nach chemischer Ähnlichkeit geordnet. Periode = waagrechte Zeile; alle Elemente einer Periode haben gleich viele besetzte Energiestufen (Schalen).",
+        "Ion Name Ion Name F − Fluorid-Ion NO 3 − Nitrat-Ion Cl − Chlorid-Ion NO 2 − Nitrit-Ion Br − Bromid-Ion SO 4 2− Sulfat-Ion I − Iodid-Ion HSO 4 − Hydrogensulfat-Ion O 2− Oxid-Ion SO 3 2− Sulfit-Ion S 2− Sulfid-Ion HSO 3 − …"
+      ],
+      "answer": 1,
+      "solution": "Ein Molekül ist ein Teilchen aus zwei oder mehr aneinander gebundenen Nichtmetallatomen. Elementmolekül: aus gleichen Atomen, z. B. O 2, N 2. Verbindungsmolekül: aus verschiedenen Atomarten, z. B. H 2 O, CO 2. HOFBrINCl-Regel: Die Elemente H, O, F, Br, I, N, Cl kommen als zweiatomige Elementmoleküle vor: H 2, O 2, F 2, Br 2, I 2, N 2, Cl 2 – nur diese tragen im Elementzustand den Index 2.",
+      "katalog_id": "src-b3-7",
+      "schwierigkeit": 1,
+      "ab_einheit": "ps-05"
+    },
+    {
+      "id": "KAT-src-b3-6-B",
+      "level": "B",
+      "kategorie": "K-ATOM",
+      "skill": "Atombau und Periodensystem",
+      "type": "choice",
+      "prompt": "Was ist ein Ion? Unterscheide Kation, Anion und Molekül-Ion.",
+      "options": [
+        "Ein Molekül ist ein Teilchen aus zwei oder mehr aneinander gebundenen Nichtmetallatomen. Elementmolekül: aus gleichen Atomen, z. B. O 2, N 2. Verbindungsmolekül: aus verschiedenen Atomarten, z. B. H 2 O, CO 2.",
+        "Die Ionisierungsenergie ist die Energie, die aufgewendet werden muss, um ein Elektron aus der Atomhülle zu entfernen. Ihr Betrag hängt von der Anziehungskraft zwischen Atomkern und Elektron ab.",
+        "Ein Ion ist ein ein- oder mehratomiges, elektrisch geladenes Teilchen. Es entsteht, wenn ein Atom Elektronen abgibt oder aufnimmt. Kation: positiv geladen (Elektronen abgegeben), z. B. Na +, Al 3+.",
+        "Die Elemente sind nach steigender Protonenzahl (Ordnungszahl) und nach chemischer Ähnlichkeit geordnet. Periode = waagrechte Zeile; alle Elemente einer Periode haben gleich viele besetzte Energiestufen (Schalen)."
+      ],
+      "answer": 2,
+      "solution": "Ein Ion ist ein ein- oder mehratomiges, elektrisch geladenes Teilchen. Es entsteht, wenn ein Atom Elektronen abgibt oder aufnimmt. Kation: positiv geladen (Elektronen abgegeben), z. B. Na +, Al 3+. Anion: negativ geladen (Elektronen aufgenommen), z. B. Cl −, O 2−. Molekül-Ion: mehratomiges, geladenes Teilchen, z. B. SO 4 2−, NH 4 +. Die Ionenladung entspricht der Anzahl der abgegebenen bzw. aufgenommenen Elektronen.",
+      "katalog_id": "src-b3-6",
+      "schwierigkeit": 1,
+      "ab_einheit": "ps-05"
+    },
+    {
+      "id": "KAT-src-c1-5-C",
+      "level": "C",
+      "kategorie": "K-ATOM",
+      "skill": "Atombau, Energiestufen, Periodensystem",
+      "type": "choice",
+      "prompt": "Definiere die Ionisierungsenergie und beschreibe ihre Tendenzen im PSE.",
+      "options": [
+        "Durch das Erhitzen nehmen Elektronen der Atomhülle Energie auf – sie werden „ angeregt “ und besetzen eine höhere Energiestufe. Kehrt das Elektron in seinen Grundzustand zurück, wird die Energiedifferenz als Lichtenergie abgegeben.",
+        "Die Ionisierungsenergie ist die Energie, die aufgewendet werden muss, um ein Elektron aus der Atomhülle zu entfernen. Ihr Betrag hängt von der Anziehungskraft zwischen Atomkern und Elektron ab.",
+        "Valenzelektronen (Außenelektronen) sind die Elektronen der äußersten besetzten Energiestufe. Ihre Anzahl entspricht der Hauptgruppennummer und bestimmt das chemische Verhalten.",
+        "Teilchen p + n 0 e − Begründung 16 O 8 8 8 ungeladenes Atom: e − = p +; N = 16 − 8 23 Na + 11 12 10 ein Elektron abgegeben 35 Cl − 17 18 18 ein Elektron aufgenommen"
+      ],
+      "answer": 1,
+      "solution": "Die Ionisierungsenergie ist die Energie, die aufgewendet werden muss, um ein Elektron aus der Atomhülle zu entfernen. Ihr Betrag hängt von der Anziehungskraft zwischen Atomkern und Elektron ab. Innerhalb einer Periode (nach rechts): steigt sie, weil die Kernladungszahl zunimmt und die Elektronen stärker angezogen werden. Innerhalb einer Hauptgruppe (nach unten): sinkt sie, weil der Abstand zwischen Kern und Valenzelektron größer wird. Folge: Alkalimetalle geben ihr Valenzelektron besonders leicht ab – die Reaktivität nimmt in der I. Hauptgruppe nach unten zu.",
+      "katalog_id": "src-c1-5",
+      "schwierigkeit": 1,
+      "ab_einheit": "ps-07"
+    },
+    {
+      "id": "KAT-ext-061-C",
+      "level": "C",
+      "kategorie": "K-ATOM",
+      "skill": "Atombau",
+      "type": "choice",
+      "prompt": "Bestimme Protonen-, Neutronen- und Elektronenzahl von ²⁷Al³⁺ (Z=13).",
+      "options": [
+        "Elemente: Sauerstoff, Kupfer. Verbindungen: Wasser, Kohlenstoffdioxid.",
+        "13 Protonen, 14 Neutronen, 10 Elektronen.",
+        "Es bezeichnet eine bestimmte Atomsorte.",
+        "Ein Reinstoff, dessen Atome alle dieselbe Protonenzahl besitzen."
+      ],
+      "answer": 1,
+      "solution": "13 Protonen, 14 Neutronen, 10 Elektronen.",
+      "katalog_id": "ext-061",
+      "schwierigkeit": 2,
+      "ab_einheit": "ps-03"
+    },
+    {
+      "id": "KAT-ext-051-C",
+      "level": "C",
+      "kategorie": "K-ATOM",
+      "skill": "Elemente & Verbindungen",
+      "type": "choice",
+      "prompt": "Was bedeutet die Formel H₂O auf Teilchenebene?",
+      "options": [
+        "Ein Reinstoff, dessen Atome alle dieselbe Protonenzahl besitzen.",
+        "Elemente: Sauerstoff, Kupfer. Verbindungen: Wasser, Kohlenstoffdioxid.",
+        "Ein Wasserteilchen besteht aus zwei Wasserstoffatomen und einem Sauerstoffatom.",
+        "Es bezeichnet eine bestimmte Atomsorte."
+      ],
+      "answer": 2,
+      "solution": "Ein Wasserteilchen besteht aus zwei Wasserstoffatomen und einem Sauerstoffatom.",
+      "katalog_id": "ext-051",
+      "schwierigkeit": 2,
+      "ab_einheit": "ps-03"
+    },
+    {
+      "id": "KAT-ext-058-C",
+      "level": "C",
+      "kategorie": "K-ATOM",
+      "skill": "Periodensystem",
+      "type": "choice",
+      "prompt": "Ein Element steht in der 3. Periode und 1. Hauptgruppe. Welche Valenzelektronenzahl erwartest du und welches typische Ion bildet es?",
+      "options": [
+        "Ein Wasserteilchen besteht aus zwei Wasserstoffatomen und einem Sauerstoffatom.",
+        "Es besitzt ein Valenzelektron und bildet typischerweise ein einfach positiv geladenes Ion (+1), z. B. Na⁺.",
+        "Ein Reinstoff aus mindestens zwei Elementsorten, deren Atome in einem festen Verhältnis chemisch miteinander verbunden sind.",
+        "Indizes statt Koeffizienten verändert, um eine Gleichung auszugleichen. Stoffbezug fehlt: „n = 2 mol“ statt „n(CO 2 ) = 2 mol“."
+      ],
+      "answer": 1,
+      "solution": "Es besitzt ein Valenzelektron und bildet typischerweise ein einfach positiv geladenes Ion (+1), z. B. Na⁺.",
+      "katalog_id": "ext-058",
+      "schwierigkeit": 2,
+      "ab_einheit": "ps-01"
+    },
+    {
+      "id": "KAT-ext-052-C",
+      "level": "C",
+      "kategorie": "K-ATOM",
+      "skill": "Elemente & Verbindungen",
+      "type": "choice",
+      "prompt": "Warum kann man Wasser nicht durch Filtration in Wasserstoff und Sauerstoff trennen?",
+      "options": [
+        "Ein Reinstoff aus mindestens zwei Elementsorten, deren Atome in einem festen Verhältnis chemisch miteinander verbunden sind.",
+        "Ein Wasserteilchen besteht aus zwei Wasserstoffatomen und einem Sauerstoffatom.",
+        "Elemente: Sauerstoff, Kupfer. Verbindungen: Wasser, Kohlenstoffdioxid.",
+        "Wasser ist eine chemische Verbindung; seine Elemente sind chemisch gebunden und lassen sich nur durch eine chemische Reaktion, z. B. Elektrolyse, trennen."
+      ],
+      "answer": 3,
+      "solution": "Wasser ist eine chemische Verbindung; seine Elemente sind chemisch gebunden und lassen sich nur durch eine chemische Reaktion, z. B. Elektrolyse, trennen.",
+      "katalog_id": "ext-052",
+      "schwierigkeit": 2,
+      "ab_einheit": "ps-03"
+    },
+    {
+      "id": "KAT-src-b3-2-C",
+      "level": "C",
+      "kategorie": "K-ATOM",
+      "skill": "Atombau und Periodensystem",
+      "type": "choice",
+      "prompt": "Erkläre das vollständige Elementsymbol und die Bedeutung von Ordnungszahl und Massenzahl.",
+      "options": [
+        "Die Elemente sind nach steigender Protonenzahl (Ordnungszahl) und nach chemischer Ähnlichkeit geordnet. Periode = waagrechte Zeile; alle Elemente einer Periode haben gleich viele besetzte Energiestufen (Schalen).",
+        "Ein Molekül ist ein Teilchen aus zwei oder mehr aneinander gebundenen Nichtmetallatomen. Elementmolekül: aus gleichen Atomen, z. B. O 2, N 2. Verbindungsmolekül: aus verschiedenen Atomarten, z. B. H 2 O, CO 2.",
+        "Ein Ion ist ein ein- oder mehratomiges, elektrisch geladenes Teilchen. Es entsteht, wenn ein Atom Elektronen abgibt oder aufnimmt. Kation: positiv geladen (Elektronen abgegeben), z. B. Na +, Al 3+.",
+        "A X A = Nukleonenzahl (Massenzahl) = Z + N Z Z = Ordnungszahl = Kernladungszahl = Protonenzahl (= Elektronenzahl im Atom) N = Neutronenzahl = A − Z Beispiel: 12 6 C → 6 p +, 6 n 0, 6 e − Die Ordnungszahl legt die Atomart (das Element) …"
+      ],
+      "answer": 3,
+      "solution": "A X A = Nukleonenzahl (Massenzahl) = Z + N Z Z = Ordnungszahl = Kernladungszahl = Protonenzahl (= Elektronenzahl im Atom) N = Neutronenzahl = A − Z Beispiel: 12 6 C → 6 p +, 6 n 0, 6 e − Die Ordnungszahl legt die Atomart (das Element) eindeutig fest. Die Massenzahl gibt die gerundete Atommasse in u an.",
+      "katalog_id": "src-b3-2",
+      "schwierigkeit": 2,
+      "ab_einheit": "ps-05"
+    },
+    {
+      "id": "KAT-src-c1-2-C",
+      "level": "C",
+      "kategorie": "K-ATOM",
+      "skill": "Atombau, Energiestufen, Periodensystem",
+      "type": "choice",
+      "prompt": "Erkläre das Prinzip der Flammenfärbung mit Hilfe des Energiestufenmodells.",
+      "options": [
+        "Durch das Erhitzen nehmen Elektronen der Atomhülle Energie auf – sie werden „ angeregt “ und besetzen eine höhere Energiestufe. Kehrt das Elektron in seinen Grundzustand zurück, wird die Energiedifferenz als Lichtenergie abgegeben.",
+        "Valenzelektronen (Außenelektronen) sind die Elektronen der äußersten besetzten Energiestufe. Ihre Anzahl entspricht der Hauptgruppennummer und bestimmt das chemische Verhalten.",
+        "Die Ionisierungsenergie ist die Energie, die aufgewendet werden muss, um ein Elektron aus der Atomhülle zu entfernen. Ihr Betrag hängt von der Anziehungskraft zwischen Atomkern und Elektron ab.",
+        "Isotope sind Atome desselben Elements (gleiche Protonenzahl), die sich in ihrer Neutronenzahl und damit in ihrer Atommasse unterscheiden. Sie haben gleiche chemische Eigenschaften, weil diese von der Elektronenhülle bestimmt werden."
+      ],
+      "answer": 0,
+      "solution": "Durch das Erhitzen nehmen Elektronen der Atomhülle Energie auf – sie werden „ angeregt “ und besetzen eine höhere Energiestufe. Kehrt das Elektron in seinen Grundzustand zurück, wird die Energiedifferenz als Lichtenergie abgegeben. Weil jedes Element charakteristische Energiestufen besitzt, gehört zu jedem Element eine bestimmte Energiedifferenz → bestimmte Wellenlänge → bestimmte Flammenfarbe. Deshalb ist die Flammenfärbung ein Nachweis für Alkali- und Erdalkalimetall-Ionen.",
+      "katalog_id": "src-c1-2",
+      "schwierigkeit": 2,
+      "ab_einheit": "ps-07"
+    }
+  ]
+}

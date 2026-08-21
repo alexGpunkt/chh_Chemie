@@ -160,7 +160,7 @@
         "ph"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -181,7 +181,7 @@
         "ph"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -215,46 +215,35 @@
         "ph"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
-      "id": "SL02-A4-004",
+      "id": "SL02-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Welche Farbe zeigt Universalindikator bei pH 10?",
+      "prompt": "Was ist ein Indikator? Nenne drei Indikatoren mit ihren Farben.",
       "options": [
-        "blau",
-        "rot",
-        "grün"
+        "Ein Indikator (lat. indicare = anzeigen) ist ein Farbstoff, der durch seine Farbe anzeigt, ob eine Lösung sauer, neutral oder basisch reagiert.",
+        "Eine Protolyse (Säure-Base-Reaktion) ist eine Reaktion mit Protonenübertragung zwischen einem Protonendonator (Säure) und einem Protonenakzeptor (Base).",
+        "Ein Ampholyt ist ein Teilchen, das je nach Reaktionspartner sowohl als Protonenakzeptor als auch als Protonendonator reagieren kann."
       ],
       "answer": 0,
-      "visual": {
-        "type": "animation",
-        "name": "phwert",
-        "stufe": "A"
-      },
       "hints": [
-        "pH 10 ist alkalisch.",
-        "Alkalisch ist rechts auf der Skala.",
-        "Dort ist es blau."
+        "Lies den Abschnitt „Indikatoren und pH-Wert“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "pH 10 ist alkalisch — der Indikator färbt sich blau.",
-      "misconceptions": [
-        {
-          "id": "indikator_vertauscht",
-          "value": 1,
-          "feedback": "Rot zeigt eine saure Lösung an.",
-          "konzeptfehler": "saeure_lauge_vertauscht"
-        }
-      ],
+      "solution": "Ein Indikator (lat. indicare = anzeigen) ist ein Farbstoff, der durch seine Farbe anzeigt, ob eine Lösung sauer, neutral oder basisch reagiert. Indikator sauer neutral alkalisch Bromthymolblau gelb grün blau Phenolphthalein farblos farblos pink Lackmus rot violett blau Rotkohlsaft rot violett grün/gelb",
       "tags": [
-        "ph"
+        "fragenkatalog",
+        "saeuren-basen-ph-wert-titration",
+        "niveau-a"
       ],
       "spiral": [
-        "W-LOES"
-      ]
+        "K-SL"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d1-4 · Lehrbuch PDF-S. 115–118"
     },
     {
       "id": "SL02-B1-005",
@@ -287,7 +276,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -322,7 +311,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -352,7 +341,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -374,7 +363,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -400,34 +389,35 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
-      "id": "SL02-B4-010",
+      "id": "SL02-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum eignet sich Rotkohlsaft als Indikator?",
+      "prompt": "Ein Schüler sagt: „pH 2 ist nur doppelt so sauer wie pH 4.“ Korrigiere.",
       "options": [
-        "Sein Farbstoff wechselt über den ganzen pH-Bereich mehrfach die Farbe.",
-        "Er ist besonders sauer.",
-        "Er ist billig."
+        "NH₄⁺/NH₃ und H₂O/OH⁻. NH₃ nimmt ein Proton auf und ist Base; H₂O gibt eines ab und ist Säure.",
+        "Weil Wasser ein Ampholyt ist, können zwei Wasser-Moleküle miteinander reagieren: eines gibt ein Proton ab, das andere nimmt es auf.",
+        "Die pH-Skala ist logarithmisch. pH 2 bedeutet eine 100-fach höhere Oxoniumionenkonzentration als pH 4.",
+        "Titrationsberechnung Reaktionsgleichung aufstellen (wichtig für das Stoffmengenverhältnis!)."
       ],
-      "answer": 0,
+      "answer": 2,
       "hints": [
-        "Was macht einen guten Indikator aus?",
-        "Er muss die Farbe wechseln.",
-        "Rotkohl tut das mehrfach."
+        "Prüfe jede Aussage mit dem Abschnitt „Indikatoren und pH-Wert“ (PDF-S. 115–118)."
       ],
-      "solution": "Der Farbstoff im Rotkohl durchläuft von sauer bis alkalisch mehrere Farben — von rot über violett und blau bis grün. Damit lässt sich der pH-Bereich grob ablesen.",
+      "solution": "Die pH-Skala ist logarithmisch. pH 2 bedeutet eine 100-fach höhere Oxoniumionenkonzentration als pH 4.",
       "tags": [
-        "ph",
-        "bbr"
+        "fragenkatalog",
+        "saeure-base",
+        "niveau-b"
       ],
       "spiral": [
-        "W-LOES"
-      ]
+        "K-SL"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-071 · Lehrbuch PDF-S. 115–118"
     },
     {
       "id": "SL02-C2-011",
@@ -460,7 +450,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -497,7 +487,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -525,31 +515,31 @@
       ]
     },
     {
-      "id": "SL02-C4-014",
+      "id": "SL02-C4-KAT",
       "path": "C",
       "step": 4,
       "type": "choice",
-      "prompt": "Ein Schüler sagt: „pH 6 und pH 8 sind fast gleich, beide liegen nahe bei 7.“ Wie bewertest du das?",
+      "prompt": "Eine starke einprotonige Säure hat c(H₃O⁺)=1,0·10⁻³ mol/L. Bestimme den pH-Wert.",
       "options": [
-        "Die Werte liegen zahlenmäßig nahe, unterscheiden sich in der Konzentration aber um den Faktor 100.",
-        "Richtig, beide sind praktisch neutral.",
-        "Falsch, pH 6 ist alkalisch."
+        "Titrationsberechnung Reaktionsgleichung aufstellen (wichtig für das Stoffmengenverhältnis!).",
+        "pH = −log(1,0·10⁻³)=3,00.",
+        "NH₄⁺/NH₃ und H₂O/OH⁻. NH₃ nimmt ein Proton auf und ist Base; H₂O gibt eines ab und ist Säure.",
+        "Die pH-Skala ist logarithmisch. pH 2 bedeutet eine 100-fach höhere Oxoniumionenkonzentration als pH 4."
       ],
-      "answer": 0,
+      "answer": 1,
       "hints": [
-        "Wie viele Stufen liegen zwischen 6 und 8?",
-        "Zwei.",
-        "Also der Faktor 100."
+        "Prüfe jede Aussage mit dem Abschnitt „Indikatoren und pH-Wert“ (PDF-S. 115–118)."
       ],
-      "solution": "Zwei Stufen bedeuten den Faktor 100. Die eine Lösung ist sauer, die andere alkalisch. Die scheinbare Nähe auf der Skala täuscht — genau das ist die Eigenart einer logarithmischen Skala.",
+      "solution": "pH = −log(1,0·10⁻³)=3,00.",
       "tags": [
-        "ph",
-        "bewerten",
-        "msa"
+        "fragenkatalog",
+        "saeure-base",
+        "niveau-c"
       ],
       "spiral": [
-        "W-LOES"
-      ]
+        "K-SL"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-070 · Lehrbuch PDF-S. 115–118"
     }
   ],
   "mitschrift": {
@@ -691,8 +681,9 @@
     "kapitel": 10,
     "titel": "Säuren, Laugen, Salze",
     "seiten_von": 115,
-    "seiten_bis": 142,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Indikator"
+    "seiten_bis": 118,
+    "abschnitt": "Indikatoren und pH-Wert",
+    "bezugswort": "Indikator",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

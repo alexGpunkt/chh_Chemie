@@ -136,7 +136,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -194,33 +194,35 @@
         "rechnen"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
-      "id": "GA05-A4-004",
+      "id": "GA05-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Ein Gas lässt einen glimmenden Span erlöschen und trübt Kalkwasser. Welches Gas ist es?",
+      "prompt": "Welches Gas unterstützt Verbrennungen besonders?",
       "options": [
-        "Kohlenstoffdioxid",
         "Sauerstoff",
-        "Wasserstoff"
+        "Kohlenstoffdioxid",
+        "Argon"
       ],
       "answer": 0,
       "hints": [
-        "Zwei Hinweise zusammennehmen.",
-        "Trübung heißt CO₂.",
-        "Und CO₂ unterhält keine Verbrennung."
+        "Lies den Abschnitt „Luft, Gase und Verbrennungen - Zusammenfassung“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Beide Befunde zusammen ergeben Kohlenstoffdioxid: Es unterhält die Verbrennung nicht und trübt Kalkwasser.",
+      "solution": "Sauerstoff.",
       "tags": [
-        "pruefung"
+        "fragenkatalog",
+        "luft-verbrennung",
+        "niveau-a"
       ],
       "spiral": [
-        "W-GLEI"
-      ]
+        "K-REAK"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-037 · Lehrbuch PDF-S. 38–50"
     },
     {
       "id": "GA05-B1-005",
@@ -251,7 +253,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -286,7 +288,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -312,7 +314,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -371,34 +373,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
-      "id": "GA05-B4-010",
+      "id": "GA05-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum ist Luft trotz 78 % Stickstoff atembar?",
+      "prompt": "Nenne die drei Voraussetzungen des Verbrennungsdreiecks.",
       "options": [
-        "Stickstoff ist reaktionsträge und stört nicht; die 21 % Sauerstoff genügen.",
-        "Der Körper nutzt auch den Stickstoff.",
-        "Beim Einatmen wird Stickstoff herausgefiltert."
+        "Eine chemische Reaktion eines Stoffes mit Sauerstoff.",
+        "Falsch. Bei chemischen Reaktionen werden Atome nur neu angeordnet.",
+        "Brennstoff, Sauerstoff und ausreichende Zünd-/Aktivierungsenergie.",
+        "Edukte sind Ausgangsstoffe einer Reaktion; Produkte sind die neu entstandenen Stoffe."
       ],
-      "answer": 0,
+      "answer": 2,
       "hints": [
-        "Was macht der Körper mit dem Stickstoff?",
-        "Nichts — er wird wieder ausgeatmet.",
-        "Gebraucht wird nur der Sauerstoff."
+        "Prüfe jede Aussage mit dem Abschnitt „Luft, Gase und Verbrennungen - Zusammenfassung“ (PDF-S. 38–50)."
       ],
-      "solution": "Stickstoff wird unverändert wieder ausgeatmet, er ist reaktionsträge. Die 21 % Sauerstoff genügen für die Atmung — reiner Sauerstoff wäre über längere Zeit sogar schädlich.",
+      "solution": "Brennstoff, Sauerstoff und ausreichende Zünd-/Aktivierungsenergie.",
       "tags": [
-        "pruefung",
-        "msa"
+        "fragenkatalog",
+        "luft-verbrennung",
+        "niveau-b"
       ],
       "spiral": [
-        "W-STOF"
-      ]
+        "K-REAK"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-041 · Lehrbuch PDF-S. 38–50"
     },
     {
       "id": "GA05-C2-011",
@@ -423,7 +426,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -463,7 +466,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -491,28 +494,31 @@
       ]
     },
     {
-      "id": "GA05-C4-014",
+      "id": "GA05-C4-KAT",
       "path": "C",
       "step": 4,
       "type": "choice",
-      "prompt": "Eine Prüfungsaufgabe lautet: „Erkläre, warum die Zusammensetzung der Luft weitgehend konstant bleibt.“ Welche Antwort trägt am weitesten?",
+      "prompt": "Eine Waage zeigt nach dem Verbrennen von Magnesium an der Luft mehr Masse. Widerspricht das der Massenerhaltung?",
       "options": [
-        "Verbrauch und Nachlieferung stehen im Gleichgewicht: Pflanzen setzen Sauerstoff frei, Atmung und Verbrennung verbrauchen ihn.",
-        "Weil Luft ein Gemisch ist.",
-        "Weil Stickstoff nicht reagiert."
+        "Eine mögliche ausgeglichene Darstellung ist A₂ + B₂ → 2 AB; vor und nach der Reaktion müssen gleich viele A- und B-Atome vorhanden sein.",
+        "Die Zahl und Art der Atome bleibt gleich; deshalb ist die Gesamtmasse vor und nach der Reaktion gleich.",
+        "Es entstehen neue Stoffe mit neuen Eigenschaften; mögliche Beobachtungen sind Farbänderung, Gasentwicklung, Temperaturänderung oder Niederschlag.",
+        "Nein. Sauerstoff aus der Luft wurde aufgenommen. Betrachtet man das geschlossene Gesamtsystem aus Magnesium plus Sauerstoff, bleibt die Masse erhalten."
       ],
-      "answer": 0,
+      "answer": 3,
       "hints": [
-        "Warum bleibt der Sauerstoffanteil trotz ständigen Verbrauchs gleich?",
-        "Weil er nachgeliefert wird.",
-        "Es ist ein Gleichgewicht."
+        "Prüfe jede Aussage mit dem Abschnitt „Luft, Gase und Verbrennungen - Zusammenfassung“ (PDF-S. 38–50)."
       ],
-      "solution": "„Erkläre“ verlangt eine Ursache. Antwort 2 ist eine Einordnung, Antwort 3 erklärt nur einen Bestandteil. Nur Antwort 1 nennt den Grund: ein Gleichgewicht zwischen Verbrauch und Nachlieferung.",
+      "solution": "Nein. Sauerstoff aus der Luft wurde aufgenommen. Betrachtet man das geschlossene Gesamtsystem aus Magnesium plus Sauerstoff, bleibt die Masse erhalten.",
       "tags": [
-        "pruefung",
-        "operatoren",
-        "msa"
-      ]
+        "fragenkatalog",
+        "chemische-reaktion",
+        "niveau-c"
+      ],
+      "spiral": [
+        "K-REAK"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-054 · Lehrbuch PDF-S. 38–50"
     }
   ],
   "mitschrift": {
@@ -629,8 +635,9 @@
     "kapitel": 4,
     "titel": "Luft und Verbrennungen",
     "seiten_von": 38,
-    "seiten_bis": 57,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Nachweis"
+    "seiten_bis": 50,
+    "abschnitt": "Luft, Gase und Verbrennungen - Zusammenfassung",
+    "bezugswort": "Gasnachweis",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

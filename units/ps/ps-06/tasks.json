@@ -152,7 +152,7 @@
         "atommasse"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -173,7 +173,7 @@
         "atommasse"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -203,40 +203,36 @@
         "rechnen"
       ],
       "spiral": [
-        "W-SYMB",
-        "W-RECH"
+        "K-BIND",
+        "K-QUANT"
       ]
     },
     {
-      "id": "PS06-A4-004",
+      "id": "PS06-A4-KAT",
       "path": "A",
       "step": 4,
-      "type": "numeric",
-      "prompt": "Wie groß ist die Masse von Kohlenstoffdioxid CO₂? (C = 12, O = 16)",
-      "answer": 44,
-      "tolerance": 0,
+      "type": "choice",
+      "prompt": "Definiere den Begriff Isotop.",
+      "options": [
+        "Durch das Erhitzen nehmen Elektronen der Atomhülle Energie auf – sie werden „ angeregt “ und besetzen eine höhere Energiestufe. Kehrt das Elektron in seinen Grundzustand zurück, wird die Energiedifferenz als Lichtenergie abgegeben.",
+        "Isotope sind Atome desselben Elements (gleiche Protonenzahl), die sich in ihrer Neutronenzahl und damit in ihrer Atommasse unterscheiden. Sie haben gleiche chemische Eigenschaften, weil diese von der Elektronenhülle bestimmt werden.",
+        "1 2 3 4 5 6 7 8 9 10 mono di tri tetra penta hexa hepta octa nona deca Stammnamen für Anionen: Sauerstoff → -oxid · Schwefel → -sulfid · Fluor → -fluorid · Chlor → -chlorid · Brom → -bromid · Iod → -iodid · Stickstoff → -nitrid · …"
+      ],
+      "answer": 1,
       "hints": [
-        "Ein C und zwei O.",
-        "12 + 2 · 16.",
-        "12 + 32."
+        "Lies den Abschnitt „Isotope und relative Atommasse“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "12 + 2 · 16 = 12 + 32 = 44",
-      "misconceptions": [
-        {
-          "id": "index_uebersehen",
-          "value": 28,
-          "feedback": "Der Index 2 gilt für den Sauerstoff: 2 · 16 = 32.",
-          "konzeptfehler": "summenformel_falsch_gelesen"
-        }
-      ],
+      "solution": "Isotope sind Atome desselben Elements (gleiche Protonenzahl), die sich in ihrer Neutronenzahl und damit in ihrer Atommasse unterscheiden. Sie haben gleiche chemische Eigenschaften, weil diese von der Elektronenhülle bestimmt werden. Beispiele: 12 C, 13 C, 14 C; 1 H (Protium), 2 H (Deuterium, D), 3 H (Tritium, T). Die Anzahl natürlicher Isotope ist für jede Atomart charakteristisch; die im PSE angegebene Atommasse ist ein gewichteter Mittelwert aller natürlichen Isotope – deshalb ist sie meist nicht ganzzahlig.",
       "tags": [
-        "atommasse",
-        "rechnen"
+        "fragenkatalog",
+        "atombau-energiestufen-periodensystem",
+        "niveau-a"
       ],
       "spiral": [
-        "W-SYMB",
-        "W-RECH"
-      ]
+        "K-ATOM"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-c1-4 · Lehrbuch PDF-S. 100–102"
     },
     {
       "id": "PS06-B1-005",
@@ -266,8 +262,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB",
-        "W-RECH"
+        "K-BIND",
+        "K-QUANT"
       ]
     },
     {
@@ -290,8 +286,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB",
-        "W-RECH"
+        "K-BIND",
+        "K-QUANT"
       ]
     },
     {
@@ -322,7 +318,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -360,8 +356,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB",
-        "W-RECH"
+        "K-BIND",
+        "K-QUANT"
       ]
     },
     {
@@ -392,7 +388,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -418,7 +414,7 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -488,8 +484,8 @@
         "msa"
       ],
       "spiral": [
-        "W-SYMB",
-        "W-RECH"
+        "K-BIND",
+        "K-QUANT"
       ]
     },
     {
@@ -515,7 +511,7 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -550,7 +546,7 @@
         "msa"
       ],
       "spiral": [
-        "W-EINH"
+        "K-QUANT"
       ]
     }
   ],
@@ -659,10 +655,11 @@
   ],
   "lehrbuch": {
     "kapitel": 8,
-    "titel": "Atombau und Ordnung der Elemente",
-    "seiten_von": 97,
-    "seiten_bis": 108,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Atommasse"
+    "titel": "Elemente und ihre Ordnung",
+    "seiten_von": 100,
+    "seiten_bis": 102,
+    "abschnitt": "Isotope und relative Atommasse",
+    "bezugswort": "Atommasse",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

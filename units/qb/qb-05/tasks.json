@@ -128,7 +128,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -150,7 +150,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -172,38 +172,35 @@
         "pruefung"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
-      "id": "QB05-A4-004",
+      "id": "QB05-A4-KAT",
       "path": "A",
       "step": 4,
-      "type": "numeric",
-      "prompt": "Berechnet wurden 40 g Produkt, gewonnen wurden 34 g. Wie hoch ist die Ausbeute?",
-      "answer": 85,
-      "unit_label": "%",
-      "tolerance": 0.5,
+      "type": "choice",
+      "prompt": "Werkzeug: Reaktionsgleichung aufstellen und ausgleichen",
+      "options": [
+        "Geg.: V = 0,250 L; c(NaOH) = 0,2 mol/L; M(NaOH) = 23 + 16 + 1 = 40 g/mol Ges.: m(NaOH) n(NaOH) = c · V = 0,2 mol/L · 0,250 L = 0,05 mol m(NaOH) = n · M = 0,05 mol · 40 g/mol = 2,0 g Antwort: Man benötigt 2,0 g Natriumhydroxid.",
+        "Die Ladung des Oxid-Ions folgt aus der Oktettregel: O 2−. Die Eisenladung ergibt sich dann aus der Verhältnisformel: FeO – Verhältnis 1:1 → Fe 2+ und O 2− → Eisen(II)-oxid Fe 2 O 3 – 3 · (−2) = −6, auf 2 Fe verteilt → Fe 3+ → …",
+        "Reaktionsgleichung in vier Schritten Wortgleichung aufstellen (welche Edukte, welche Produkte?). Formeln ermitteln: Molekülformeln über die Zahlwörter, Verhältnisformeln über den Ladungsausgleich. HOFBrINCl-Elemente als X 2 !"
+      ],
+      "answer": 2,
       "hints": [
-        "Ausbeute = tatsächlich : berechnet.",
-        "34 : 40.",
-        "Mal 100."
+        "Lies den Abschnitt „Reaktionsgleichungen und stöchiometrische Berechnungen“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "34 g : 40 g = 0,85 → 85 %",
-      "misconceptions": [
-        {
-          "id": "anteil_umgedreht",
-          "value": 117.6,
-          "feedback": "Ausbeute = tatsächlich geteilt durch berechnet. Sie kann nicht über 100 % liegen."
-        }
-      ],
+      "solution": "Reaktionsgleichung in vier Schritten Wortgleichung aufstellen (welche Edukte, welche Produkte?). Formeln ermitteln: Molekülformeln über die Zahlwörter, Verhältnisformeln über den Ladungsausgleich. HOFBrINCl-Elemente als X 2 ! Ausgleichen: nur Koeffizienten setzen – Indizes bleiben unverändert. Reihenfolge: erst Metalle, dann Nichtmetalle außer H und O, dann H, zuletzt O. Kontrolle: Atombilanz für jede Sorte, ggf. Zustandssymbole (s), (l), (g), (aq) ergänzen. Typischer Fehler: Um eine Gleichung „passend“ zu machen, wird ein Index geändert (z. B. H 2 O → H 2 O 2 ). Damit ist es aber ein anderer Stoff. Nur Koeffizienten dürfen verändert werden.",
       "tags": [
-        "pruefung",
-        "rechnen"
+        "fragenkatalog",
+        "werkzeugkaesten-schritt-fuer-schritt",
+        "niveau-a"
       ],
       "spiral": [
-        "W-RECH"
-      ]
+        "K-QUANT"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-e-2 · Lehrbuch PDF-S. 58–65"
     },
     {
       "id": "QB05-B1-005",
@@ -236,8 +233,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -267,8 +264,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -291,8 +288,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -332,8 +329,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -367,32 +364,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
-      "id": "QB05-B4-010",
+      "id": "QB05-B4-KAT",
       "path": "B",
       "step": 4,
-      "type": "numeric",
-      "prompt": "Berechnet wurden 12,5 g Produkt. Die Ausbeute beträgt 80 %. Wie viel wurde tatsächlich gewonnen?",
-      "answer": 10,
-      "unit_label": "g",
-      "tolerance": 0.2,
-      "hints": [
-        "80 % von 12,5 g.",
-        "12,5 · 0,8.",
-        "10 g."
+      "type": "choice",
+      "prompt": "Werkzeug: Stöchiometrisch rechnen – die neun Schritte",
+      "options": [
+        "Quantitative Auswertung einer Reaktionsgleichung Reaktionsgleichung aufstellen und ausgleichen. Mengenaussage in mol unter die Gleichung schreiben. Gegebene Größe mit richtigem Symbol und Stoffbezug notieren.",
+        "Valenzstrichformel in neun Schritten Summenformel des Teilchens aufschreiben. Vorhandene Valenzelektronen (VE) aller Atome addieren. Bei Ionen: Ladungszahl bei Anionen addieren, bei Kationen subtrahieren.",
+        "Kalilauge: KOH(aq) Aluminiumhydroxid-Lösung: Al(OH) 3 (aq) Magnesiumhydroxid-Lösung: Mg(OH) 2 (aq) Die Zahl der Hydroxid-Ionen ergibt sich aus der Ladung des Metall-Kations (K +, Al 3+, Mg 2+ ).",
+        "IUPAC-Name in fünf Schritten Hauptkette suchen: die längste zusammenhängende Kohlenstoffkette, die die funktionelle Gruppe höchster Priorität enthält → gibt den Stammnamen (Meth-, Eth-, Prop-, But-, Pent- …)."
       ],
-      "solution": "12,5 g · 0,80 = 10 g",
+      "answer": 0,
+      "hints": [
+        "Prüfe jede Aussage mit dem Abschnitt „Reaktionsgleichungen und stöchiometrische Berechnungen“ (PDF-S. 58–65)."
+      ],
+      "solution": "Quantitative Auswertung einer Reaktionsgleichung Reaktionsgleichung aufstellen und ausgleichen. Mengenaussage in mol unter die Gleichung schreiben. Gegebene Größe mit richtigem Symbol und Stoffbezug notieren. Gesuchte Größe mit richtigem Symbol notieren. Umrechnen in die Stoffmenge n (über M, V m, N A oder c). Stoffmengenverhältnis aus der Gleichung ablesen. Stoffmenge des gesuchten Stoffs berechnen. Zurückrechnen in die gefragte Größe. Antwortsatz formulieren – mit Einheit und sinnvoller Rundung. Merke: Alle Umrechnungen laufen über die Stoffmenge n. Formeln immer mit Stoffbezug in Klammern schreiben: n(CO 2 ), nicht n.",
       "tags": [
-        "pruefung",
-        "rechnen",
-        "bbr"
+        "fragenkatalog",
+        "werkzeugkaesten-schritt-fuer-schritt",
+        "niveau-b"
       ],
       "spiral": [
-        "W-LOES"
-      ]
+        "K-QUANT"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-e-5 · Lehrbuch PDF-S. 58–65"
     },
     {
       "id": "QB05-C2-011",
@@ -424,8 +424,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -465,8 +465,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -501,7 +501,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -528,7 +528,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     }
   ],
@@ -637,7 +637,8 @@
     "titel": "Die chemische Reaktion",
     "seiten_von": 58,
     "seiten_bis": 65,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Stöchiometrie"
+    "abschnitt": "Reaktionsgleichungen und stöchiometrische Berechnungen",
+    "bezugswort": "Stöchiometrie",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

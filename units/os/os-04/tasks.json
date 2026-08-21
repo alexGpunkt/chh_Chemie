@@ -154,7 +154,7 @@
         "fruchtsaeuren"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -179,7 +179,7 @@
         "fruchtsaeuren"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -200,7 +200,7 @@
         "fruchtsaeuren"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -233,7 +233,7 @@
         "fruchtsaeuren"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -259,7 +259,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -286,7 +286,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -312,7 +312,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -347,7 +347,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -373,7 +373,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -399,7 +399,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -425,7 +425,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -451,7 +451,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -475,35 +475,35 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
-      "id": "OS04-C4-014",
+      "id": "OS04-C4-KAT",
       "path": "C",
       "step": 4,
       "type": "choice",
-      "prompt": "Ein Schüler sagt: „Fruchtsäuren sind natürlich, also gut für die Zähne.“ Wie bewertest du das?",
+      "prompt": "Beschreibe den Bau von Aminosäuren und erkläre die Zwitterionenform.",
       "options": [
-        "Falsch — Fruchtsäuren greifen den Zahnschmelz an, unabhängig von ihrer Herkunft.",
-        "Richtig.",
-        "Falsch — Fruchtsäuren haben keine Wirkung auf Zähne."
+        "Verseifung ist die alkalische (baseninduzierte) Hydrolyse eines Fettes. Das Fett wird mit Natron- oder Kalilauge gespalten; es entstehen Glycerin und die Alkalisalze der Fettsäuren – diese nennt man Seifen.",
+        "Kohlenhydrate: schnell verfügbare Energielieferanten (Glucose); Speicherstoffe (Stärke, Glykogen); Baustoffe bei Pflanzen (Cellulose). Fette: langsame Energiespeicher (Speicherfett, hoher Energiegehalt);",
+        "Aminocarbonsäuren (kurz: Aminosäuren, AS) sind die Bausteine der Proteine. Sie besitzen an einem zentralen C-Atom eine Carboxygruppe –COOH, eine Aminogruppe –NH 2, ein H-Atom und einen organischen Rest R.",
+        "Kohlenhydrate sind Verbindungen der allgemeinen Summenformel C n H 2n O n, die eine Carbonylfunktion und mindestens zwei Hydroxygruppen tragen. Monosaccharide (Einfachzucker): ein einziger Kohlenhydratbaustein – Glucose, Fructose."
       ],
-      "answer": 0,
+      "answer": 2,
       "hints": [
-        "Was macht eine Säure mit Kalk?",
-        "Sie löst ihn.",
-        "Zahnschmelz enthält Calciumverbindungen."
+        "Prüfe jede Aussage mit dem Abschnitt „Aminosäuren und Eiweiße“ (PDF-S. 184–186)."
       ],
-      "solution": "Zahnschmelz besteht überwiegend aus Calciumverbindungen und wird von jeder Säure angegriffen — die Herkunft spielt keine Rolle. Deshalb die Empfehlung, nach saurem Obst zu warten, bevor die Zähne geputzt werden.",
+      "solution": "Aminocarbonsäuren (kurz: Aminosäuren, AS) sind die Bausteine der Proteine. Sie besitzen an einem zentralen C-Atom eine Carboxygruppe –COOH, eine Aminogruppe –NH 2, ein H-Atom und einen organischen Rest R. COOH COO − | | H 2 N—C—H ⟶ H 3 N + —C—H | | R R (Neutralform) ( Zwitterion ) Durch intramolekulare Protonenwanderung gibt die Carboxygruppe (Protonendonator) ein Proton an die Aminogruppe (Protonenakzeptor) ab. Aminosäuren liegen deshalb sowohl in wässriger Lösung als auch im Feststoff als Zwitterion vor. Folgen des salzartigen Charakters: relativ gute Wasserlöslichkeit, kristalline Feststoffe mit hohen Schmelztemperaturen (sie zersetzen sich beim Erhitzen, statt zu schmelzen). AS-Zwitterionen sind Ampholyte. Man unterscheidet saure, basische und neutrale Aminosäuren – je nachdem, welchen pH-Wert ihre wässrige Lösung hat.",
       "tags": [
-        "fruchtsaeuren",
-        "bewerten",
-        "msa"
+        "fragenkatalog",
+        "biomolekuele-und-tenside",
+        "niveau-c"
       ],
       "spiral": [
-        "W-LOES"
-      ]
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d5-11 · Lehrbuch PDF-S. 184–186"
     }
   ],
   "mitschrift": {
@@ -611,10 +611,20 @@
   ],
   "lehrbuch": {
     "kapitel": 15,
-    "titel": "Naturstoffe",
+    "titel": "Nahrung, Seife, Waschmittel",
     "seiten_von": 184,
-    "seiten_bis": 193,
+    "seiten_bis": 186,
+    "abschnitt": "Aminosäuren und Eiweiße",
+    "bezugswort": "Aminosäure",
     "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Hydroxycarbonsäure"
+    "weitere_stellen": [
+      {
+        "kapitel": 13,
+        "titel": "Alkohole und organische Säuren",
+        "seiten_von": 164,
+        "seiten_bis": 166,
+        "abschnitt": "Frucht- und Dicarbonsäuren"
+      }
+    ]
   }
 }

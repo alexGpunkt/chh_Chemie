@@ -148,7 +148,7 @@
         "redox"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -173,7 +173,7 @@
         "redox"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -203,7 +203,7 @@
         "redox"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -228,7 +228,7 @@
         "redox"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -254,7 +254,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -288,7 +288,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -315,7 +315,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -350,7 +350,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -377,43 +377,35 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
-      "id": "ME03-B4-010",
+      "id": "ME03-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum korrodiert Aluminium trotz seiner Unedelkeit kaum?",
+      "prompt": "Ein Kupferblech wird in Zinksulfatlösung gelegt. Erwartest du eine Reaktion? Begründe mit der Spannungsreihe.",
       "options": [
-        "Es bildet eine dichte, festhaftende Oxidschicht, die das Metall darunter schützt.",
-        "Aluminium ist in Wirklichkeit edel.",
-        "Aluminium reagiert nicht mit Sauerstoff."
+        "CO₂: +IV; CO: +II; CH₄: −IV.",
+        "Eine Batterie nutzt eine freiwillig ablaufende Redoxreaktion zur Stromerzeugung: chemische Energie wird in elektrische Energie umgewandelt.",
+        "Oxidation: Zn → Zn²⁺ + 2 e⁻. Reduktion: Cu²⁺ + 2 e⁻ → Cu.",
+        "Nein. Kupfer ist edler als Zink und gibt Elektronen nicht freiwillig an Zn²⁺ ab."
       ],
-      "answer": 0,
+      "answer": 3,
       "hints": [
-        "Aluminium reagiert sehr wohl mit Sauerstoff.",
-        "Was passiert mit dem entstandenen Oxid?",
-        "Es bleibt als dichte Schicht liegen."
+        "Prüfe jede Aussage mit dem Abschnitt „Edle und unedle Metalle“ (PDF-S. 80–85)."
       ],
-      "solution": "Aluminium reagiert sofort mit Sauerstoff — die entstehende Oxidschicht ist aber dicht und haftet fest. Sie schützt das Metall darunter. Rost auf Eisen ist dagegen porös und blättert ab.",
-      "misconceptions": [
-        {
-          "id": "edel_unedel_verwechselt",
-          "value": 1,
-          "feedback": "Aluminium ist unedel. Es schützt sich durch seine eigene Oxidschicht.",
-          "konzeptfehler": "oxidation_reduktion_vertauscht"
-        }
-      ],
+      "solution": "Nein. Kupfer ist edler als Zink und gibt Elektronen nicht freiwillig an Zn²⁺ ab.",
       "tags": [
+        "fragenkatalog",
         "redox",
-        "korrosion",
-        "msa"
+        "niveau-b"
       ],
       "spiral": [
-        "W-GLEI"
-      ]
+        "K-REDOX"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-064 · Lehrbuch PDF-S. 80–85"
     },
     {
       "id": "ME03-C2-011",
@@ -438,7 +430,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -464,7 +456,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -491,7 +483,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -526,7 +518,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     }
   ],
@@ -648,9 +640,10 @@
   "lehrbuch": {
     "kapitel": 7,
     "titel": "Metalle und Redoxreaktionen",
-    "seiten_von": 83,
-    "seiten_bis": 96,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "edel"
+    "seiten_von": 80,
+    "seiten_bis": 85,
+    "abschnitt": "Edle und unedle Metalle",
+    "bezugswort": "Redoxreihe",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

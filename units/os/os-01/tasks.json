@@ -168,7 +168,7 @@
         "carbonsaeuren"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -193,7 +193,7 @@
         "carbonsaeuren"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -218,33 +218,35 @@
         "carbonsaeuren"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
-      "id": "OS01-A4-004",
+      "id": "OS01-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Wie färbt sich Indikatorpapier in Essigsäure?",
+      "prompt": "Nenne die Trivialnamen wichtiger Carbonsäuren und Alkohole.",
       "options": [
-        "rot",
-        "blau",
-        "grün"
+        "Trivialname IUPAC-Name Formel Ameisensäure Methansäure HCOOH Essigsäure Ethansäure CH 3 COOH Buttersäure Butansäure C 3 H 7 COOH Oxalsäure Ethandisäure HOOC–COOH Acrylsäure Propensäure CH 2 =CH–COOH Glycol Ethan-1,2-diol HO–CH 2 –CH 2 …",
+        "IUPAC: Alkohol-Rest als Substituent mit der Endung -yl, Säure-Rest als Stammname mit der Endung -oat → Methylethanoat, Ethylpropanoat. Ältere Schreibweise: „Alkansäurealkylester“ → Ethansäuremethylester, Butansäuremethylester.",
+        "Formel Verbindungsklasse funktionelle Gruppe Name CH 3 CH 2 CH 2 OH Alkohol Hydroxygruppe Propan-1-ol CH 3 CH 2 CH 2 CHO Aldehyd Aldehydgruppe Butanal CH 3 COCH 2 CH 3 Keton Ketogruppe Butan-2-on (Butanon) CH 3 COOH Carbonsäure …"
       ],
       "answer": 0,
       "hints": [
-        "Essigsäure ist eine Säure.",
-        "Säuren färben rot.",
-        "Rot."
+        "Lies den Abschnitt „Organische Säuren im Alltag“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Essigsäure reagiert sauer — der Indikator wird rot.",
+      "solution": "Trivialname IUPAC-Name Formel Ameisensäure Methansäure HCOOH Essigsäure Ethansäure CH 3 COOH Buttersäure Butansäure C 3 H 7 COOH Oxalsäure Ethandisäure HOOC–COOH Acrylsäure Propensäure CH 2 =CH–COOH Glycol Ethan-1,2-diol HO–CH 2 –CH 2 –OH Glycerin Propan-1,2,3-triol C 3 H 5 (OH) 3 Aceton Propan-2-on (Propanon) CH 3 COCH 3",
       "tags": [
-        "carbonsaeuren"
+        "fragenkatalog",
+        "sauerstoffhaltige-organische-verbindungen-und-ester",
+        "niveau-a"
       ],
       "spiral": [
-        "W-LOES"
-      ]
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d4-3 · Lehrbuch PDF-S. 164–166"
     },
     {
       "id": "OS01-B1-005",
@@ -277,7 +279,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -310,7 +312,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -344,7 +346,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -379,7 +381,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -411,7 +413,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -462,7 +464,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -489,7 +491,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -515,32 +517,35 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
-      "id": "OS01-C4-014",
+      "id": "OS01-C4-KAT",
       "path": "C",
       "step": 4,
       "type": "choice",
-      "prompt": "Ein Schüler sagt: „Citronensäure ist natürlich, also ungefährlich.“ Wie bewertest du das?",
+      "prompt": "Begründe die unterschiedlichen Siedetemperaturen von Propan, Propan-2-on und Propansäure.",
       "options": [
-        "Der Schluss ist unzulässig — auch natürliche Säuren greifen in konzentrierter Form Haut und Zahnschmelz an.",
-        "Richtig.",
-        "Falsch — Citronensäure ist hochgiftig."
+        "Propan < Propan-2-on < Propansäure Propan: unpolares Molekül → nur schwache London-Dispersions-Kräfte. Propan-2-on (Aceton): polare Carbonylgruppe → zusätzlich Dipol-Dipol-Kräfte, aber keine Wasserstoffbrücken (kein H am O).",
+        "Trivialname IUPAC-Name Formel Ameisensäure Methansäure HCOOH Essigsäure Ethansäure CH 3 COOH Buttersäure Butansäure C 3 H 7 COOH Oxalsäure Ethandisäure HOOC–COOH Acrylsäure Propensäure CH 2 =CH–COOH Glycol Ethan-1,2-diol HO–CH 2 –CH 2 …",
+        "CH 3 –COOH + NaOH → CH 3 –COO − Na + + H 2 O Natriumethanoat (Natriumacetat) Reaktionstyp: Protolyse / Neutralisation mit Salzbildung. Die Carbonsäure wirkt als Protonendonator. Warum ist die Carboxygruppe sauer?",
+        "IUPAC: Alkohol-Rest als Substituent mit der Endung -yl, Säure-Rest als Stammname mit der Endung -oat → Methylethanoat, Ethylpropanoat. Ältere Schreibweise: „Alkansäurealkylester“ → Ethansäuremethylester, Butansäuremethylester."
       ],
       "answer": 0,
       "hints": [
-        "Ist natürlich gleich harmlos?",
-        "Nein.",
-        "Auch Citronensäure greift Zahnschmelz an."
+        "Prüfe jede Aussage mit dem Abschnitt „Organische Säuren im Alltag“ (PDF-S. 164–166)."
       ],
-      "solution": "Die Herkunft sagt nichts über die Wirkung. Konzentrierte Citronensäure reizt die Haut und greift Zahnschmelz an — deshalb die Empfehlung, nach saurem Obst nicht sofort die Zähne zu putzen. Die Menge entscheidet.",
+      "solution": "Propan < Propan-2-on < Propansäure Propan: unpolares Molekül → nur schwache London-Dispersions-Kräfte. Propan-2-on (Aceton): polare Carbonylgruppe → zusätzlich Dipol-Dipol-Kräfte, aber keine Wasserstoffbrücken (kein H am O). Propansäure: stark polare Hydroxygruppe der Carboxygruppe → Wasserstoffbrücken, zusätzlich Dimerisierung über zwei H-Brücken zwischen zwei Carboxygruppen. Unterschiede in der Molekülmasse sind hier vernachlässigbar – entscheidend ist die Art der zwischenmolekularen Wechselwirkung.",
       "tags": [
-        "carbonsaeuren",
-        "bewerten",
-        "msa"
-      ]
+        "fragenkatalog",
+        "sauerstoffhaltige-organische-verbindungen-und-ester",
+        "niveau-c"
+      ],
+      "spiral": [
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d4-2 · Lehrbuch PDF-S. 164–166"
     }
   ],
   "mitschrift": {
@@ -664,10 +669,11 @@
   ],
   "lehrbuch": {
     "kapitel": 13,
-    "titel": "Organische Säuren",
-    "seiten_von": 163,
-    "seiten_bis": 172,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Carboxygruppe"
+    "titel": "Alkohole und organische Säuren",
+    "seiten_von": 164,
+    "seiten_bis": 166,
+    "abschnitt": "Organische Säuren im Alltag",
+    "bezugswort": "Carboxygruppe",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

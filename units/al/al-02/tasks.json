@@ -149,7 +149,7 @@
         "alkanole"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -174,7 +174,7 @@
         "alkanole"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -195,7 +195,7 @@
         "alkanole"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -220,7 +220,7 @@
         "alkanole"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -252,7 +252,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -294,7 +294,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -324,7 +324,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -365,7 +365,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -399,7 +399,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -422,8 +422,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH",
-        "W-ORG"
+        "K-QUANT",
+        "K-ORG"
       ]
     },
     {
@@ -449,7 +449,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -471,7 +471,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -530,7 +530,7 @@
         "msa"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     }
   ],
@@ -639,10 +639,11 @@
   ],
   "lehrbuch": {
     "kapitel": 13,
-    "titel": "Organische Säuren",
-    "seiten_von": 163,
-    "seiten_bis": 172,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Alkanol"
+    "titel": "Alkohole und organische Säuren",
+    "seiten_von": 160,
+    "seiten_bis": 162,
+    "abschnitt": "Homologe Reihe der Alkanole",
+    "bezugswort": "Alkanol",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

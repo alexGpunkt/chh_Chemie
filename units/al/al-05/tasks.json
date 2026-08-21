@@ -160,7 +160,7 @@
         "oxidation"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -185,7 +185,7 @@
         "oxidation"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -211,7 +211,7 @@
         "nachweise"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -236,7 +236,7 @@
         "oxidation"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -277,7 +277,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -316,7 +316,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -351,7 +351,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -382,7 +382,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -416,7 +416,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -442,7 +442,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -469,7 +469,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -495,7 +495,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -530,42 +530,35 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
-      "id": "AL05-C4-014",
+      "id": "AL05-C4-KAT",
       "path": "C",
       "step": 4,
       "type": "choice",
-      "prompt": "Ein Schüler sagt: „Alle Alkohole werden zu Säuren oxidiert.“ Wie bewertest du das?",
+      "prompt": "Welche Produkte entstehen durch Oxidation bzw. Reduktion von Ethanol, Propan-2-ol, Butanal und Propansäure?",
       "options": [
-        "Falsch — nur primäre; sekundäre enden beim Alkanon, tertiäre reagieren gar nicht.",
-        "Richtig.",
-        "Falsch — kein Alkohol wird zu einer Säure."
+        "Die Oxidationszahl (OZ) gibt die Ladung an, die ein Atom hätte, wenn man alle Bindungselektronen dem elektronegativeren Partner zuordnet. Sie wird mit römischen Ziffern und Vorzeichen über das Elementsymbol geschrieben.",
+        "+II +III Ox: Fe 2+ → Fe 3+ + e − | · 5 +VII +II Red: MnO 4 − + 5 e − + 8 H 3 O + → Mn 2+ + 12 H 2 O | · 1 ──────────────────────────────────────────────────────── Redox: 5 Fe 2+ + MnO 4 − + 8 H 3 O + → 5 Fe 3+ + Mn 2+ + 12 H 2 O …",
+        "Reaktionstyp übertragenes Teilchen Donator Akzeptor Säure-Base-Reaktion (Protolyse) Protonen H + Säure Base Redoxreaktion Elektronen e − Reduktionsmittel Oxidationsmittel Beide folgen demselben Donator-Akzeptor-Prinzip: Ein Teilchen …",
+        "Ausgangsstoff Oxidation Reduktion Ethanol (prim. Alkohol) → Ethanal (Aldehyd) → Ethansäure (Carbonsäure) – Propan-2-ol (sek. Alkohol) → Propan-2-on (Keton) – Butanal (Aldehyd) → Butansäure (Carbonsäure) → Butan-1-ol (prim."
       ],
-      "answer": 0,
+      "answer": 3,
       "hints": [
-        "Was passiert bei sekundären Alkoholen?",
-        "Sie enden beim Alkanon.",
-        "Und tertiäre reagieren nicht."
+        "Prüfe jede Aussage mit dem Abschnitt „Oxidation von Alkanolen“ (PDF-S. 163–164)."
       ],
-      "solution": "Nur primäre Alkohole durchlaufen die vollständige Reihe bis zur Säure. Sekundäre enden beim Alkanon, tertiäre lassen sich gar nicht oxidieren. Der Bau entscheidet über den Reaktionsweg.",
-      "misconceptions": [
-        {
-          "id": "verallgemeinert",
-          "value": 1,
-          "feedback": "Der Weg zur Säure gilt nur für primäre Alkohole."
-        }
-      ],
+      "solution": "Ausgangsstoff Oxidation Reduktion Ethanol (prim. Alkohol) → Ethanal (Aldehyd) → Ethansäure (Carbonsäure) – Propan-2-ol (sek. Alkohol) → Propan-2-on (Keton) – Butanal (Aldehyd) → Butansäure (Carbonsäure) → Butan-1-ol (prim. Alkohol) Propansäure (Carbonsäure) – → Propanal → Propan-1-ol Oxidationsreihe: Alkohol → Aldehyd → Carbonsäure ←────── Reduktion ──────→",
       "tags": [
-        "oxidation",
-        "bewerten",
-        "msa"
+        "fragenkatalog",
+        "redoxreaktionen-mit-oxidationszahlen",
+        "niveau-c"
       ],
       "spiral": [
-        "W-ORG"
-      ]
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d2-8 · Lehrbuch PDF-S. 163–164"
     }
   ],
   "mitschrift": {
@@ -695,10 +688,11 @@
   ],
   "lehrbuch": {
     "kapitel": 13,
-    "titel": "Organische Säuren",
+    "titel": "Alkohole und organische Säuren",
     "seiten_von": 163,
-    "seiten_bis": 172,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "primär"
+    "seiten_bis": 164,
+    "abschnitt": "Oxidation von Alkanolen",
+    "bezugswort": "primärer Alkohol",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

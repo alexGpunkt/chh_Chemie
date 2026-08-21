@@ -162,7 +162,7 @@
         "isomerie"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -183,7 +183,7 @@
         "isomerie"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -209,29 +209,35 @@
         "namen"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
-      "id": "KW04-A4-004",
+      "id": "KW04-A4-KAT",
       "path": "A",
       "step": 4,
-      "type": "numeric",
-      "prompt": "Wie viele Isomere hat das Alkan mit 5 C-Atomen?",
-      "answer": 3,
-      "tolerance": 0,
-      "hints": [
-        "Gerade Kette, einfach verzweigt, doppelt verzweigt.",
-        "Drei Möglichkeiten.",
-        "3."
+      "type": "choice",
+      "prompt": "Definiere Konstitutionsisomerie und gib ein Konstitutionsisomer zu Butan an.",
+      "options": [
+        "Konstitutionsisomere haben die gleiche Molekülformel, unterscheiden sich aber in der Verknüpfung der Atome im Molekül.",
+        "Chlor-Atome besitzen sieben Valenzelektronen; einem Chlor-Atom fehlt also ein Elektron zur Edelgaskonfiguration.",
+        "E/Z-Isomere unterscheiden sich nur in der Anordnung der Gruppen um eine Doppelbindung, weil diese nicht frei drehbar ist."
       ],
-      "solution": "C₅H₁₂ hat drei Isomere: Pentan, 2-Methylbutan und 2,2-Dimethylpropan.",
+      "answer": 0,
+      "hints": [
+        "Lies den Abschnitt „Isomerie und Benennung der Alkane“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
+      ],
+      "solution": "Konstitutionsisomere haben die gleiche Molekülformel, unterscheiden sich aber in der Verknüpfung der Atome im Molekül. C 4 H 10: Butan CH 3 –CH 2 –CH 2 –CH 3 2-Methylpropan CH 3 –CH(CH 3 )–CH 3 Isomere sind unterschiedliche Stoffe mit unterschiedlichen Eigenschaften – z. B. sinkt die Siedetemperatur mit zunehmendem Verzweigungsgrad: n-Pentan (36 °C) > 2-Methylbutan (28 °C) > 2,2-Dimethylpropan (10 °C) Begründung: Je stärker verzweigt, desto kleiner die Moleküloberfläche, desto schwächer die London-Kräfte.",
       "tags": [
-        "isomerie"
+        "fragenkatalog",
+        "molekulare-verbindungen-und-molekuelstruktur",
+        "niveau-a"
       ],
       "spiral": [
-        "W-ORG"
-      ]
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-c3-8 · Lehrbuch PDF-S. 152–153"
     },
     {
       "id": "KW04-B1-005",
@@ -265,7 +271,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -300,7 +306,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -346,7 +352,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -385,7 +391,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -411,7 +417,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -461,7 +467,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -496,7 +502,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -531,7 +537,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     }
   ],
@@ -640,10 +646,11 @@
   ],
   "lehrbuch": {
     "kapitel": 12,
-    "titel": "Der Weg zur organischen Chemie",
-    "seiten_von": 147,
-    "seiten_bis": 162,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Isomer"
+    "titel": "Kohlenwasserstoffe",
+    "seiten_von": 152,
+    "seiten_bis": 153,
+    "abschnitt": "Isomerie und Benennung der Alkane",
+    "bezugswort": "Konstitutionsisomer",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }

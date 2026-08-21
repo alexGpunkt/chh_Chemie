@@ -143,7 +143,7 @@
         "ionen"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -176,7 +176,7 @@
         "ionen"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -210,42 +210,35 @@
         "ionen"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
-      "id": "SZ01-A4-004",
+      "id": "SZ01-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Wie heißt das Ion, das aus einem Chloratom entsteht?",
+      "prompt": "Was ist ein Ion? Unterscheide Kation, Anion und Molekül-Ion.",
       "options": [
-        "Chlorid-Ion",
-        "Chlor-Ion",
-        "Chlorat-Ion"
+        "Die Ionisierungsenergie ist die Energie, die aufgewendet werden muss, um ein Elektron aus der Atomhülle zu entfernen. Ihr Betrag hängt von der Anziehungskraft zwischen Atomkern und Elektron ab.",
+        "Ein Ion ist ein ein- oder mehratomiges, elektrisch geladenes Teilchen. Es entsteht, wenn ein Atom Elektronen abgibt oder aufnimmt. Kation: positiv geladen (Elektronen abgegeben), z. B. Na +, Al 3+.",
+        "Ein Molekül ist ein Teilchen aus zwei oder mehr aneinander gebundenen Nichtmetallatomen. Elementmolekül: aus gleichen Atomen, z. B. O 2, N 2. Verbindungsmolekül: aus verschiedenen Atomarten, z. B. H 2 O, CO 2."
       ],
-      "answer": 0,
+      "answer": 1,
       "hints": [
-        "Der Name ändert sich.",
-        "Er endet auf -id.",
-        "Chlorid."
+        "Lies den Abschnitt „Bildung von Ionen“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Aus Chlor wird das Chlorid-Ion Cl⁻. Nichtmetall-Anionen enden auf -id.",
-      "misconceptions": [
-        {
-          "id": "nomenklatur_falsch",
-          "value": 1,
-          "feedback": "Anionen der Nichtmetalle bekommen die Endung -id: Chlorid, Oxid, Sulfid.",
-          "konzeptfehler": "nomenklatur_falsch"
-        }
-      ],
+      "solution": "Ein Ion ist ein ein- oder mehratomiges, elektrisch geladenes Teilchen. Es entsteht, wenn ein Atom Elektronen abgibt oder aufnimmt. Kation: positiv geladen (Elektronen abgegeben), z. B. Na +, Al 3+. Anion: negativ geladen (Elektronen aufgenommen), z. B. Cl −, O 2−. Molekül-Ion: mehratomiges, geladenes Teilchen, z. B. SO 4 2−, NH 4 +. Die Ionenladung entspricht der Anzahl der abgegebenen bzw. aufgenommenen Elektronen.",
       "tags": [
-        "ionen",
-        "namen"
+        "fragenkatalog",
+        "atombau-und-periodensystem",
+        "niveau-a"
       ],
       "spiral": [
-        "W-SYMB"
-      ]
+        "K-BIND"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-b3-6 · Lehrbuch PDF-S. 103–105"
     },
     {
       "id": "SZ01-B1-005",
@@ -278,7 +271,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -315,7 +308,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -354,7 +347,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -390,7 +383,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -424,7 +417,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -458,7 +451,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -484,7 +477,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -521,7 +514,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -547,7 +540,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -582,7 +575,7 @@
         "msa"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     }
   ],
@@ -692,9 +685,10 @@
   "lehrbuch": {
     "kapitel": 9,
     "titel": "Chemische Bindungen",
-    "seiten_von": 109,
-    "seiten_bis": 114,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Ion"
+    "seiten_von": 103,
+    "seiten_bis": 105,
+    "abschnitt": "Bildung von Ionen",
+    "bezugswort": "Ion",
+    "quelle": "Lehrbuch_Chemie.pdf"
   }
 }
