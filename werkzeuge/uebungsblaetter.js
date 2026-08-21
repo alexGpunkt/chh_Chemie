@@ -26,7 +26,7 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
-const { PDF } = require('./pdf.js');
+const { PDF, umbrechen } = require('./pdf.js');
 const ausdruck = require('../assets/js/ausdruck.js');
 
 const WURZEL = path.resolve(__dirname, '..');
@@ -139,7 +139,33 @@ const ABSCHLUSS = {
     + `die meisten Fehlerquellen enthält, und begründe deine Wahl mit dem, was du über „${t}" weißt.`,
 };
 
-function blattBauen(bereich, einheitId, blatt, einheitTitel, stufe, lehrbuch) {
+function kurzErklaertBauen(doc, lernkarte, stufe) {
+  if (!lernkarte) return;
+  const punkte = (lernkarte.erklaerung || []).slice(0, stufe === 'A' ? 2 : 3);
+  const teile = [];
+  if (lernkarte.hinfuehrung) teile.push(lernkarte.hinfuehrung);
+  punkte.forEach(punkt => teile.push('• ' + punkt));
+  if (lernkarte.merke) teile.push('Merke: ' + lernkarte.merke);
+  if (!teile.length) return;
+
+  const groesse = stufe === 'A' ? 9.8 : 9.3;
+  const abstand = 2.6;
+  const innenbreite = doc.nutzbreite - 20;
+  const zeilen = teile.reduce((summe, text) =>
+    summe + umbrechen(text, innenbreite, groesse, false).length, 0);
+  const hoehe = zeilen * (groesse + abstand) + 18;
+
+  doc.platzPruefen(hoehe + 34);
+  doc.text(`Kurz erklärt · ${lernkarte.titel || 'Das Wichtigste zum Thema'}`,
+    { groesse: 11, fett: true, abstand: 5 });
+  doc.rahmen(hoehe, { fuellung: [0.95, 0.97, 0.98] });
+  const oben = doc.y;
+  doc.y -= 9;
+  doc.text(teile.join('\n'), { groesse, abstand, x: doc.rand + 10 });
+  doc.y = oben - hoehe - 13;
+}
+
+function blattBauen(bereich, einheitId, blatt, einheitTitel, stufe, einheitsdaten) {
   /* Eigene Saat je Lernweg: Sonst stünden auf dem A- und dem B-Blatt
      dieselben Zahlen, und der Wechsel des Lernwegs brächte nichts Neues. */
   const saat = saatAus('chemie710-uebungsblatt-' + einheitId + '-' + stufe);
@@ -163,6 +189,7 @@ function blattBauen(bereich, einheitId, blatt, einheitTitel, stufe, lehrbuch) {
   /* Der Lehrbuchbezug gehört auf das Papier und nicht nur auf den Bildschirm:
      Das Blatt wird zu Hause bearbeitet, dort steht das Buch daneben und der
      Rechner womöglich nicht. */
+  const lehrbuch = einheitsdaten && einheitsdaten.lehrbuch;
   if (lehrbuch && lehrbuch.kapitel) {
     doc.text(`Im Lehrbuch: Kapitel ${lehrbuch.kapitel} — ${lehrbuch.titel}, S. `
       + `${lehrbuch.seiten_von}–${lehrbuch.seiten_bis}. Schlage nach, wenn du nicht weiterkommst.`,
@@ -177,6 +204,11 @@ function blattBauen(bereich, einheitId, blatt, einheitTitel, stufe, lehrbuch) {
     doc.text(blatt.auftrag, { groesse: 10, abstand: 2, x: doc.rand + 10 });
     doc.y = merk - hoehe - 14;
   }
+
+  /* Der schriftliche Fachinhalt gehört vor die Aufgaben. Er stammt aus
+     derselben niveaudifferenzierten Lernkarte wie die Anwendung und ist
+     deshalb auf A bewusst kürzer und sprachlich direkter als auf B/C. */
+  kurzErklaertBauen(doc, einheitsdaten?.lernkarten?.[stufe], stufe);
 
   /* ---------- Aufgaben ---------- */
   aufgaben.forEach((aufgabe, i) => {
@@ -247,10 +279,10 @@ function blattBauen(bereich, einheitId, blatt, einheitTitel, stufe, lehrbuch) {
 /* Der Lehrbuchbezug steht in der Einheit selbst (tasks.json), nicht im
    Aufgabenpool des Blattes: Er gilt für die ganze Einheit, das Blatt ist
    nur einer ihrer Teile. */
-function lehrbuchVon(ordner) {
+function einheitsdatenVon(ordner) {
   try {
-    return JSON.parse(fs.readFileSync(path.join(ordner, 'tasks.json'), 'utf8')).lehrbuch || null;
-  } catch (e) { return null; }
+    return JSON.parse(fs.readFileSync(path.join(ordner, 'tasks.json'), 'utf8'));
+  } catch (e) { return {}; }
 }
 
 const index = JSON.parse(fs.readFileSync(path.join(WURZEL, 'units', 'index.json'), 'utf8'));
@@ -279,7 +311,7 @@ for (const datei of fs.readdirSync(ORDNER).filter(f => f.endsWith('.json')).sort
         process.exit(1);
       }
       const { pdf, aufgaben } = blattBauen(bereich, einheitId, blatt, titel.get(einheitId) || '',
-        stufe, lehrbuchVon(ordner));
+        stufe, einheitsdatenVon(ordner));
       fs.writeFileSync(path.join(ordner, `uebungsblatt-${stufe.toLowerCase()}.pdf`), pdf);
       geschrieben++;
       aufgabenGesamt += aufgaben.length;

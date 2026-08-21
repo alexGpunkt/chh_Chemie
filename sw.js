@@ -8,7 +8,7 @@
    Sonst sehen die Geräte weiter die alte Fassung.
    ============================================================ */
 
-const VERSION = 'chemie710-v5-lehrbuchfragen';
+const VERSION = 'chemie710-v6-themenwissen-videos';
 
 /* ---------- Was NICHT ins Offlinepaket gehört ----------
    Bis v2 lud jedes Schülergerät bei der Installation auch das

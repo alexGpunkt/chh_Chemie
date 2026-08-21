@@ -159,6 +159,34 @@ for (const f of einheiten) {
   }
 }
 
+/* ---------- 5b · Schriftlicher Einstieg auf allen drei Lernwegen ----------
+   Die Anwendung und die PDFs bauen ihren Nachschlagebereich aus diesen
+   Lernkarten. Deshalb genügt nicht, dass das Objekt formal existiert: Die
+   Einführung muss lesbar, niveaugerecht umfangreich und je Pfad eigenständig
+   formuliert sein. */
+let einleitungstexte = 0;
+for (const f of einheiten) {
+  const d = geladen.get(f);
+  const texte = [];
+  for (const p of ['A', 'B', 'C']) {
+    const lk = (d.lernkarten || {})[p] || {};
+    const intro = String(lk.hinfuehrung || '').trim();
+    const minimum = { A: 20, B: 40, C: 45 }[p];
+    if (intro.length < minimum) {
+      fehler.push(`${f}: Einleitung ${p} ist zu knapp (${intro.length} Zeichen, mindestens ${minimum})`);
+    }
+    if (!lk.titel || !Array.isArray(lk.erklaerung) || lk.erklaerung.length < 2 || !lk.merke) {
+      fehler.push(`${f}: schriftlicher Themenblock ${p} ist unvollständig`);
+    }
+    texte.push(intro.toLocaleLowerCase('de-DE').replace(/\s+/g, ' '));
+    einleitungstexte++;
+  }
+  if (new Set(texte).size !== 3) {
+    fehler.push(`${f}: Einleitungstexte A, B und C müssen verschieden sein`);
+  }
+}
+melde(`${einleitungstexte} niveaugerechte Einleitungstexte für 76 Einheiten geprüft`);
+
 /* ---------- 6 · Absatzverweise zeigen auf einen vorhandenen Absatz ---------- */
 for (const f of einheiten) {
   const d = geladen.get(f);

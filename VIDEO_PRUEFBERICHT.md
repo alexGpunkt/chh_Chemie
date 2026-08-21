@@ -1,8 +1,27 @@
-# Prüfbericht: Lernvideos mit Lumi-Lernaktivitäten
+# Prüfbericht: Lernvideos und optionale Lumi-Lernaktivitäten
 
-Stand der Umstellung von verlinkten YouTube-Videos auf die mit Lumi
-angereicherten, eingebetteten Fassungen — und was die Prüfung gegen die
-Transkripte ergeben hat.
+Stand der fachlichen und technischen Prüfung der Lernvideos. Der geprüfte
+YouTube-Direktlink ist seit v6 der Hauptzugang; `youtube-nocookie.com` und die
+mit Lumi angereicherten Fassungen bleiben als freiwillige Alternativen erhalten.
+
+## Technischer Wiedergabebefund (v6)
+
+Der von der Anwendung zuvor verwendete Lumi-Rahmen liefert zwar HTTP 200 und
+eine vollständige H5P-Konfiguration, zeigt beim Abspielen aber nur eine schwarze
+Fläche. Im Browser ist die Ursache reproduzierbar: Die externe Bibliothek
+`H5P.Video-1.6/scripts/youtube.js` bricht beim Erzeugen des YouTube-Players mit
+`TypeError: Cannot set properties of undefined (setting 'style')` ab. Der Fehler
+liegt in der extern ausgelieferten H5P-Laufzeit und kann nicht zuverlässig aus
+diesem statischen GitHub-Pages-Projekt behoben werden.
+
+Darum zeigt `engine.js` den geprüften YouTube-Direktlink als Hauptaktion. Eine
+`youtube-nocookie.com/embed/…`-Einbettung kann zusätzlich versucht werden und
+wird erst nach einem Klick geladen. Das ist nötig, weil der Browser-Stichprobentest
+für beide FC-01-Videos eine vom Anbieter gesperrte Einbettung meldet, obwohl die
+Originalvideos online sind. Der H5P-Link bleibt sichtbar, ist aber nicht mehr
+der einzige Zugang zum Film. `node werkzeuge/videos-online-pruefen.js`
+kontrolliert sämtliche Originalvideos und Lumi-Zuordnungen; ein erfolgreicher
+HTTP-Test ersetzt den zusätzlichen Wiedergabetest im Browser nicht.
 
 ## Was geprüft wurde
 

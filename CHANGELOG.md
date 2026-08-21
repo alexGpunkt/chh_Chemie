@@ -1,5 +1,20 @@
 # Änderungen
 
+## v6 — Schriftliches Kernwissen und zuverlässige Videos
+
+Jede der 76 Einheiten zeigt nun dauerhaft einen Abschnitt „Kurz erklärt“.
+Er enthält je Lernweg eine eigene Einleitung, die wichtigsten Aussagen, einen
+Merksatz und das Lernziel. Die 228 Arbeitsblatt-PDFs übernehmen denselben
+niveaugerechten Fachtext vor die Aufgaben; chemische Indizes und Reaktionspfeile
+werden im eingeschränkten PDF-Zeichensatz lesbar umgeschrieben.
+
+Die Lumi-H5P-Einbettung lieferte bei YouTube-Inhalten trotz erreichbarer
+H5P-Seite eine schwarze Videofläche. Ursache ist ein JavaScript-Fehler in der
+extern ausgelieferten H5P-YouTube-Bibliothek. Zusätzlich sperren einzelne
+Anbieter die Wiedergabe ihrer Videos in fremden Seiten. Der geprüfte
+YouTube-Direktlink ist deshalb jetzt die Hauptaktion; YouTube-nocookie und die
+interaktive Lumi-Fassung bleiben als optionale Alternativen erhalten.
+
 ## v5 — Lehrbuchgerechte Chemiefragen und neue Warm-ups
 
 Die Lernwege greifen jetzt auf den gelieferten Chemie-Fragenkatalog zurück:

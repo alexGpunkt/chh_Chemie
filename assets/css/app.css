@@ -1312,6 +1312,75 @@ input.zahl-feld.lk-luecke-feld { flex: 1 1 120px; height: 46px; font-size: 18px;
 
 
 /* ============================================================
+   Schriftliches Kernwissen je Lernweg
+   ============================================================ */
+.themeninfo {
+  max-width: 688px;
+  margin: 6px auto 18px;
+  padding: clamp(18px, 3vw, 26px);
+  background: var(--paper-hi);
+  border: 1px solid var(--linie);
+  border-top: 5px solid var(--pfad);
+  border-radius: 16px;
+  box-shadow: 0 12px 32px -24px rgba(21,35,58,.5), 0 2px 8px rgba(21,35,58,.07);
+}
+.themeninfo[hidden] { display: none; }
+.themeninfo-kopf { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 10px; }
+.themeninfo-stufe {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--pfad);
+  font: 700 12px/1.35 var(--f-num);
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
+.themeninfo-titel {
+  margin: 0;
+  font-family: var(--f-display);
+  font-size: clamp(21px, 3vw, 27px);
+  line-height: 1.2;
+}
+.themeninfo-einleitung {
+  margin: 0 0 14px;
+  padding: 12px 14px;
+  background: var(--pfad-bg);
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.55;
+}
+.themeninfo-punkte {
+  margin: 0;
+  padding-left: 1.3rem;
+  display: grid;
+  gap: 9px;
+}
+.themeninfo-punkte li { padding-left: 4px; font-size: 16px; line-height: 1.6; }
+.themeninfo-punkte li::marker { color: var(--pfad); }
+.themeninfo-merke {
+  margin-top: 16px;
+  padding: 12px 14px;
+  background: var(--merk-bg);
+  border-left: 4px solid var(--merk-linie);
+  border-radius: 0 9px 9px 0;
+  color: var(--merk-text);
+  font-size: 16px;
+  line-height: 1.55;
+}
+.themeninfo-ziel { margin: 13px 0 0; color: var(--ink-soft); font-size: 14px; line-height: 1.5; }
+
+@media (max-width: 720px) {
+  .themeninfo { margin-left: 16px; margin-right: 16px; padding: 18px; }
+  .themeninfo-einleitung { font-size: 16px; }
+  .themeninfo-punkte li { font-size: 15px; }
+}
+
+@media print {
+  .themeninfo { display: block !important; box-shadow: none; border-color: #777; }
+}
+
+
+/* ============================================================
    Übungsblatt und Lernsperre  (V30)
    ============================================================ */
 .blattkarte {
@@ -1375,6 +1444,12 @@ input.zahl-feld.lk-luecke-feld { flex: 1 1 120px; height: 46px; font-size: 18px;
 .video-platzhalter {
   margin: 0; max-width: 40ch; font-size: 14px; line-height: 1.5; color: var(--ink-soft);
 }
+.video-aktionen {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;
+  width: min(100%, 560px);
+}
+.video-aktionen .btn { text-decoration: none; }
+.video-direkt { min-width: min(100%, 230px); }
 .video-frame { width: 100%; height: 100%; border: 0; display: block; }
 
 .video-notiz {
@@ -1382,7 +1457,7 @@ input.zahl-feld.lk-luecke-feld { flex: 1 1 120px; height: 46px; font-size: 18px;
   background: var(--merk-bg); border-left: 3px solid var(--merk-linie);
   border-radius: 0 6px 6px 0; color: var(--merk-text);
 }
-.video-extern { font-size: 13px; }
+.video-extern { display: inline-block; margin: 4px 16px 0 0; font-size: 13px; }
 
 /* Das empfohlene Video trägt links die Farbe des Lernwegs — so ist auf
    einen Blick klar, welches gemeint ist. */

@@ -6,7 +6,7 @@ Statische Website, keine Abhängigkeiten, kein Build-Step.
 **76 Einheiten à 45 Minuten · 1064 Aufgaben · Hefteintrag je Lernweg.**
 **Warm-up-Pool: 224 eindeutige Chemiefragen in 9 Kategorien —**
 **kumulativ über die zurückliegenden Reihen, im Unterricht Pflicht.**
-**168 eingebettete Lernvideos mit Zwischenfragen (Lumi),**
+**168 eingebettete Lernvideos mit Schreibauftrag und optionaler Lumi-Fassung,**
 **197 externe Übungen, 228 gedruckte Übungsblätter (je Lernweg eines).**
 **Prüfungstrainer, Taschenrechner, Beameransicht, Kompetenzmatrix, Offline-Betrieb.**
 
@@ -292,6 +292,11 @@ Lernweg; beim Wechsel wird die Karte neu gebaut. Unterschieden wird über
 kürzere, glattere Stoffliste, C den oberen. Neue Werte kommen dabei nicht dazu —
 gewählt wird nur aus dem, was schon im Generator steht.
 
+Vor den Aufgaben steht jetzt auf jedem Blatt **„Kurz erklärt“**: die Einleitung,
+zwei bis drei Kernaussagen und der Merksatz aus der Lernkarte des gewählten
+Lernwegs. Damit bleibt das Blatt auch ohne geöffnete Anwendung eine fachliche
+Lernunterlage und nicht nur eine Sammlung von Rechenaufgaben.
+
 ```bash
 node werkzeuge/uebungsblatt-pruefen.js   # 304 Generatoren × 300 Proben je Lernweg
 node werkzeuge/uebungsblaetter.js        # erzeugt die 228 PDFs
@@ -335,20 +340,21 @@ Bearbeitungsstufe.
 Die Formelkarte in `pruefung-sets.json` deckt alle vier Jahrgänge ab — von der
 Dichte bis zur Veresterung.
 
-## Lernvideos mit Zwischenfragen (seit v4 eingebettet)
+## Lernvideos mit Schreibauftrag (seit v6 mit zuverlässigem Direktzugang)
 
 **168 Videos** in allen 76 Einheiten, aus fünf freigegebenen Kanälen:
 **musstewissen Chemie**, **Chemie – simpleclub**, **Biologie und Chemie
-Schule**, **Chemistry@home** und **Studyflix**. Gezeigt wird die mit **Lumi**
-angereicherte Fassung: derselbe Film, aber er hält an und stellt
-Zwischenfragen.
+Schule**, **Chemistry@home** und **Studyflix**. Primär öffnet der geprüfte
+Originalfilm auf **YouTube**. Dazu steht ein niveaugerechter Schreibauftrag.
+Die Einbettung über **youtube-nocookie.com** und die mit **Lumi** angereicherte
+Fassung bleiben als optionale Alternativen erhalten.
 
-**Sie laufen in der Seite.** Niemand verlässt die Anwendung mehr. Der Rahmen
-wird trotzdem leer ausgeliefert und trägt nur einen Knopf — die Adresse wird
-erst beim Klick gesetzt. Damit bleibt der gute Grund erhalten, aus dem die
-Videos bis v3 bloße Links waren: Wer nicht zusehen will, löst auch keine
-Anfrage bei einem Dritten aus. `frame-src` nennt `app.lumi.education`
-ausdrücklich, auf allen zehn Seiten identisch.
+**Der Direktlink funktioniert auch bei gesperrter Einbettung.** Einige Kanäle
+untersagen die Wiedergabe in fremden Seiten, obwohl das Video selbst online
+ist. Deshalb ist „Auf YouTube ansehen“ die Hauptaktion. Der optionale Rahmen
+wird leer ausgeliefert und erhält seine Adresse erst beim Klick. Wer nicht
+zusehen will, löst keine Anfrage bei einem Dritten aus. `frame-src` nennt
+`app.lumi.education` und `youtube-nocookie.com` ausdrücklich.
 
 **Je Lernweg genau ein empfohlenes Video.** Das Feld `stufe` ist der
 *Mindest*lernweg (nicht wie das frühere `pfad` eine feste Bindung): `A`
@@ -367,8 +373,8 @@ Aufgabe.
 ```
 
 `dauer_s` ist die echte Laufzeit aus der letzten Zeitmarke des Transkripts und
-die Grundlage des 45-Minuten-Plans. `url` wird nicht mehr aufgerufen — sie
-bleibt als Herkunftsangabe stehen.
+die Grundlage des 45-Minuten-Plans. `url` ist Herkunftsangabe und zugleich der
+zuverlässige Hauptzugang zum Originalfilm.
 
 Ein Kanal ist an drei Stellen einzutragen, und zwar mit Absicht:
 
@@ -380,7 +386,9 @@ Ein Kanal ist an drei Stellen einzutragen, und zwar mit Absicht:
 
 `pruefen.js` hält die drei gegeneinander und prüft zusätzlich, dass Lauf- und
 Einbettadresse auf dieselbe Lumi-Kennung zeigen und dass jede Einheit ein
-Video auf Lernweg A hat.
+Video auf Lernweg A hat. `videos-online-pruefen.js` kontrolliert zusätzlich
+online, ob Originalvideo und Lumi-Zuordnung erreichbar sind und dieselbe
+YouTube-ID verwenden.
 
 **Die Titel sind nicht die YouTube-Titel.** Ein Teil der Kanäle liefert
 automatisch übersetzte Titel; eingetragen ist deshalb, was das Video zeigt.
@@ -446,12 +454,16 @@ Zwei Felder je Einheit, beide in `tasks.json`, beide vom Schema erzwungen.
 
 | | Videos | Feld | Was das Kind tut |
 | --- | --- | --- | --- |
-| mit Lumi | 28 | `protokoll: true`, `lumi` | Das Video hält viermal an: Materialien, Aufbau, Durchführung, Beobachtung — jedes Mal ins Heft |
-| ohne Lumi | 24 | `protokoll: false`, `beobachtung` | Das Video läuft durch; der Auftrag steht **darüber** und wird vorher gelesen |
+| mit Lumi-Alternative | 28 | `protokoll: true`, `lumi` | Der YouTube-Link öffnet den Film; der Protokollauftrag gliedert Materialien, Aufbau, Durchführung und Beobachtung. Lumi bleibt extern verlinkt. |
+| ohne Lumi | 24 | `protokoll: false`, `beobachtung` | Der YouTube-Link öffnet den Film; der Auftrag steht **darüber** und wird vorher gelesen |
 
 Die Anordnung ist der Punkt: Wer erst nach dem Abspann erfährt, worauf zu
 achten war, hat es nicht gesehen. `experimentkarteBauen()` in `engine.js`
 setzt den Auftrag deshalb vor den Rahmen, nicht dahinter.
+
+Auch bei den 168 Erklärvideos ist der YouTube-Direktlink der Hauptweg.
+`youtube-nocookie.com` und Lumi-H5P bleiben als Zusatzangebote verfügbar,
+sind wegen Anbieter- und Playerbeschränkungen aber nicht der einzige Zugang.
 
 `beobachtung` ist dreifach formuliert (`A`, `B`, `C`) nach den Operatoren des
 Lehrbuchs: beschreiben — erklären — begründen und beurteilen.
@@ -650,6 +662,7 @@ Einheit kennen — die drei lesen alle denselben Index. `einheit.html` und
 
 ```bash
 node werkzeuge/pruefen.js         # Schema, IDs, Animationen, Cache, CSP, Bilder, Syntax, SQL, Videos
+node werkzeuge/videos-online-pruefen.js # YouTube-Erreichbarkeit und Lumi-Zuordnung
 node werkzeuge/animationen-laden.js  # lädt die Animationsdateien wirklich aus
 node werkzeuge/a11y-pruefen.js    # statisch prüfbare Barrierefreiheit
 node werkzeuge/budget-pruefen.js  # Performancebudget für günstige Smartphones
@@ -704,4 +717,4 @@ Ehrlich benannt, damit es nicht übersehen wird:
 
 Alle Fassungen mit Änderungen und Einschränkungen stehen in `CHANGELOG.md`.
 
-Cache-Version: `chemie710-v4-lumi-warmup-skript`.
+Cache-Version: `chemie710-v6-themenwissen-videos`.
