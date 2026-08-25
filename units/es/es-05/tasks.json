@@ -618,5 +618,27 @@
     "abschnitt": "Polyester, Makromoleküle und Recycling",
     "bezugswort": "Makromolekül",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "ES05-A1-001",
+        "ES05-A2-002",
+        "ES05-A4-004"
+      ],
+      "B": [
+        "ES05-B1-005",
+        "ES05-B2-007",
+        "ES05-B4-010"
+      ],
+      "C": [
+        "ES05-C2-011",
+        "ES05-C3-012",
+        "ES05-C4-014"
+      ]
+    }
   }
 }

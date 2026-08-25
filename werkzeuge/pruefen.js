@@ -129,6 +129,37 @@ for (const f of einheiten) {
 }
 melde(`${gesehen.size} Aufgaben-IDs, alle eindeutig`);
 
+/* ---------- 3b · Abschlussquiz ----------
+   Drei feste Fragen je Lernweg, ausschließlich aus derselben Einheit und
+   demselben Niveau. Nur so ist ein gespeichertes Ergebnis fachlich und
+   technisch einem eindeutigen Fragenstand zuzuordnen. */
+let quizfragen = 0;
+for (const f of einheiten) {
+  const d = geladen.get(f);
+  const quiz = d.abschlussquiz || {};
+  if (!Number.isInteger(quiz.version) || quiz.version < 1) {
+    fehler.push(`${f}: Abschlussquiz hat keine gültige Version`);
+  }
+  if (quiz.anzahl !== 3) fehler.push(`${f}: Abschlussquiz muss genau drei Fragen haben`);
+  const pool = new Map((d.tasks || []).map(t => [t.id, t]));
+  for (const pfad of ['A', 'B', 'C']) {
+    const ids = quiz.frage_ids?.[pfad] || [];
+    if (ids.length !== 3 || new Set(ids).size !== 3) {
+      fehler.push(`${f}: Abschlussquiz ${pfad} braucht drei verschiedene Fragen`);
+      continue;
+    }
+    const aufgaben = ids.map(id => pool.get(id));
+    for (let i = 0; i < ids.length; i++) {
+      if (!aufgaben[i]) fehler.push(`${f}: Quizfrage ${ids[i]} existiert nicht`);
+      else if (aufgaben[i].path !== pfad) fehler.push(`${f}: Quizfrage ${ids[i]} gehört zu Pfad ${aufgaben[i].path}, nicht ${pfad}`);
+    }
+    const stufen = new Set(aufgaben.filter(Boolean).map(t => t.step));
+    if (stufen.size < 2) fehler.push(`${f}: Abschlussquiz ${pfad} prüft nur eine Anforderungsstufe`);
+    quizfragen += ids.length;
+  }
+}
+melde(`${quizfragen} einheiten- und niveaubezogene Abschlussquizfragen geprüft`);
+
 /* ---------- 4 · Auswahlindizes im gültigen Bereich ---------- */
 for (const f of einheiten) {
   for (const t of geladen.get(f).tasks || []) {

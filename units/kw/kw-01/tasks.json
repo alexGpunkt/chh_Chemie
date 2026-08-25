@@ -623,5 +623,27 @@
     "abschnitt": "Der Weg zur organischen Chemie",
     "bezugswort": "organisch",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "KW01-A1-001",
+        "KW01-A2-002",
+        "KW01-A4-004"
+      ],
+      "B": [
+        "KW01-B1-005",
+        "KW01-B2-007",
+        "KW01-B4-010"
+      ],
+      "C": [
+        "KW01-C2-011",
+        "KW01-C3-012",
+        "KW01-C4-014"
+      ]
+    }
   }
 }

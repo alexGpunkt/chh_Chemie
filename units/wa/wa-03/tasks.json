@@ -632,5 +632,27 @@
     "abschnitt": "Von der Wort- zur Reaktionsgleichung",
     "bezugswort": "Reaktionsgleichung",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "WA03-A1-001",
+        "WA03-A2-002",
+        "WA03-A4-004"
+      ],
+      "B": [
+        "WA03-B1-005",
+        "WA03-B2-007",
+        "WA03-B4-KAT"
+      ],
+      "C": [
+        "WA03-C2-011",
+        "WA03-C3-012",
+        "WA03-C4-014"
+      ]
+    }
   }
 }

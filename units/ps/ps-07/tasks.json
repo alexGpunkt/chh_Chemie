@@ -705,5 +705,27 @@
     "abschnitt": "Schalen- und Energiestufenmodell",
     "bezugswort": "Außenelektron",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "PS07-A1-001",
+        "PS07-A2-002",
+        "PS07-A4-KAT"
+      ],
+      "B": [
+        "PS07-B1-005",
+        "PS07-B2-007",
+        "PS07-B4-KAT"
+      ],
+      "C": [
+        "PS07-C2-011",
+        "PS07-C3-012",
+        "PS07-C4-KAT"
+      ]
+    }
   }
 }

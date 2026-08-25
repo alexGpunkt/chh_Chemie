@@ -689,5 +689,27 @@
     "abschnitt": "Periodensystem, Perioden und Gruppen",
     "bezugswort": "Periodensystem",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "PS01-A1-001",
+        "PS01-A2-002",
+        "PS01-A4-KAT"
+      ],
+      "B": [
+        "PS01-B1-005",
+        "PS01-B2-007",
+        "PS01-B4-010"
+      ],
+      "C": [
+        "PS01-C2-011",
+        "PS01-C3-012",
+        "PS01-C4-014"
+      ]
+    }
   }
 }

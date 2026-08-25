@@ -607,5 +607,27 @@
     "abschnitt": "Organische Säuren - Zusammenfassung",
     "bezugswort": "Carboxygruppe",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "OS05-A1-001",
+        "OS05-A2-002",
+        "OS05-A4-KAT"
+      ],
+      "B": [
+        "OS05-B1-005",
+        "OS05-B2-007",
+        "OS05-B4-010"
+      ],
+      "C": [
+        "OS05-C2-011",
+        "OS05-C3-012",
+        "OS05-C4-014"
+      ]
+    }
   }
 }

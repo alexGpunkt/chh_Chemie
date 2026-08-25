@@ -623,5 +623,27 @@
         "abschnitt": "Fette, Verseifung und Tenside"
       }
     ]
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "ES06-A1-001",
+        "ES06-A2-002",
+        "ES06-A4-KAT"
+      ],
+      "B": [
+        "ES06-B1-005",
+        "ES06-B2-007",
+        "ES06-B4-KAT"
+      ],
+      "C": [
+        "ES06-C2-011",
+        "ES06-C3-012",
+        "ES06-C4-014"
+      ]
+    }
   }
 }

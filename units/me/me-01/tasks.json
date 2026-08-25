@@ -693,5 +693,27 @@
     "abschnitt": "Metalle und ihre Eigenschaften",
     "bezugswort": "Metalleigenschaft",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "ME01-A1-001",
+        "ME01-A2-002",
+        "ME01-A4-004"
+      ],
+      "B": [
+        "ME01-B1-005",
+        "ME01-B2-007",
+        "ME01-B4-KAT"
+      ],
+      "C": [
+        "ME01-C2-011",
+        "ME01-C3-012",
+        "ME01-C4-KAT"
+      ]
+    }
   }
 }

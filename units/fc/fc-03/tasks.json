@@ -759,5 +759,27 @@
     "abschnitt": "Stoffeigenschaften, Teilchen und Zustände",
     "bezugswort": "Stoffeigenschaft",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "FC03-A1-001",
+        "FC03-A2-002",
+        "FC03-A4-KAT"
+      ],
+      "B": [
+        "FC03-B1-005",
+        "FC03-B2-007",
+        "FC03-B4-KAT"
+      ],
+      "C": [
+        "FC03-C2-011",
+        "FC03-C3-012",
+        "FC03-C4-KAT"
+      ]
+    }
   }
 }

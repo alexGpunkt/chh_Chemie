@@ -616,5 +616,27 @@
     "abschnitt": "Metalle und Redoxreaktionen - Zusammenfassung",
     "bezugswort": "Redoxreaktion",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "ME07-A1-001",
+        "ME07-A2-002",
+        "ME07-A4-004"
+      ],
+      "B": [
+        "ME07-B1-005",
+        "ME07-B2-007",
+        "ME07-B4-KAT"
+      ],
+      "C": [
+        "ME07-C2-011",
+        "ME07-C3-012",
+        "ME07-C4-014"
+      ]
+    }
   }
 }

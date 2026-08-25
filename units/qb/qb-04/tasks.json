@@ -631,5 +631,27 @@
     "abschnitt": "Molares Volumen von Gasen",
     "bezugswort": "molares Volumen",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "QB04-A1-001",
+        "QB04-A2-002",
+        "QB04-A4-KAT"
+      ],
+      "B": [
+        "QB04-B1-005",
+        "QB04-B2-007",
+        "QB04-B4-010"
+      ],
+      "C": [
+        "QB04-C2-011",
+        "QB04-C3-012",
+        "QB04-C4-KAT"
+      ]
+    }
   }
 }

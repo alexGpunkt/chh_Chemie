@@ -684,5 +684,27 @@
     "abschnitt": "Esterbildung und Esternamen",
     "bezugswort": "Veresterung",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "ES01-A1-001",
+        "ES01-A2-002",
+        "ES01-A4-KAT"
+      ],
+      "B": [
+        "ES01-B1-005",
+        "ES01-B2-007",
+        "ES01-B4-KAT"
+      ],
+      "C": [
+        "ES01-C2-011",
+        "ES01-C3-012",
+        "ES01-C4-014"
+      ]
+    }
   }
 }

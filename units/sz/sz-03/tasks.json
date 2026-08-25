@@ -229,7 +229,7 @@
       "spiral": [
         "K-BIND"
       ],
-      "herkunft": "Chemie-Fragenkatalog src-b5-1 · Lehrbuch PDF-S. 103–106"
+      "herkunft": "Chemie-Fragenkatalog src-b5-1 · Lehrbuch PDF-S. 106–107"
     },
     {
       "id": "SZ03-B1-005",
@@ -544,7 +544,7 @@
       ],
       "answer": 2,
       "hints": [
-        "Prüfe jede Aussage mit dem Abschnitt „Ionenladungen und Verhältnisformeln“ (PDF-S. 103–106)."
+        "Prüfe jede Aussage mit dem Abschnitt „Ionenladungen und Verhältnisformeln“ (PDF-S. 106–107)."
       ],
       "solution": "Ein Salz ist nach außen elektrisch neutral – die Summe der positiven und negativen Ladungen ist gleich. Man bestimmt zuerst die (bekannte) Anionenladung und rechnet die Kationenladung aus. Cu 2 O 3: Oxid-Ion ist O 2− → 3 · (−2) = −6 → auf 2 Kupfer-Ionen verteilt → je +3 → Kupfer(III)-oxid. FeF: Fluorid ist F −, Verhältnis 1:1 → Fe muss +1 sein → Eisen(I)-fluorid. Cu 2 (SO 4 ) 3: Sulfat ist SO 4 2− → 3 · (−2) = −6 → 2 Cu je +3 → Kupfer(III)-sulfat.",
       "tags": [
@@ -555,7 +555,7 @@
       "spiral": [
         "K-BIND"
       ],
-      "herkunft": "Chemie-Fragenkatalog src-b5-5 · Lehrbuch PDF-S. 103–106"
+      "herkunft": "Chemie-Fragenkatalog src-b5-5 · Lehrbuch PDF-S. 106–107"
     }
   ],
   "mitschrift": {
@@ -664,10 +664,32 @@
   "lehrbuch": {
     "kapitel": 9,
     "titel": "Chemische Bindungen",
-    "seiten_von": 103,
-    "seiten_bis": 106,
+    "seiten_von": 106,
+    "seiten_bis": 107,
     "abschnitt": "Ionenladungen und Verhältnisformeln",
     "bezugswort": "Verhältnisformel",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "SZ03-A1-001",
+        "SZ03-A2-002",
+        "SZ03-A4-KAT"
+      ],
+      "B": [
+        "SZ03-B1-005",
+        "SZ03-B2-007",
+        "SZ03-B4-010"
+      ],
+      "C": [
+        "SZ03-C2-011",
+        "SZ03-C3-012",
+        "SZ03-C4-KAT"
+      ]
+    }
   }
 }

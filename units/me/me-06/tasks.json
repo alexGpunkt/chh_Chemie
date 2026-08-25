@@ -648,5 +648,27 @@
     "abschnitt": "Vom Eisenerz zum Stahl",
     "bezugswort": "Hochofen",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "ME06-A1-001",
+        "ME06-A2-002",
+        "ME06-A4-004"
+      ],
+      "B": [
+        "ME06-B1-005",
+        "ME06-B2-007",
+        "ME06-B4-010"
+      ],
+      "C": [
+        "ME06-C2-011",
+        "ME06-C3-012",
+        "ME06-C4-014"
+      ]
+    }
   }
 }

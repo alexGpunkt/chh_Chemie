@@ -690,5 +690,27 @@
     "abschnitt": "Protonen, Neutronen, Elektronen und Ordnungszahl",
     "bezugswort": "Ordnungszahl",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "PS05-A1-001",
+        "PS05-A2-002",
+        "PS05-A4-004"
+      ],
+      "B": [
+        "PS05-B1-005",
+        "PS05-B2-007",
+        "PS05-B4-KAT"
+      ],
+      "C": [
+        "PS05-C2-011",
+        "PS05-C3-012",
+        "PS05-C4-KAT"
+      ]
+    }
   }
 }

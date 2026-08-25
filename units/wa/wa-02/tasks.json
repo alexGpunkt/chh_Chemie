@@ -701,5 +701,27 @@
     "abschnitt": "Zerlegung und Bildung von Wasser",
     "bezugswort": "Analyse",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "WA02-A1-001",
+        "WA02-A2-002",
+        "WA02-A4-004"
+      ],
+      "B": [
+        "WA02-B1-005",
+        "WA02-B2-007",
+        "WA02-B4-010"
+      ],
+      "C": [
+        "WA02-C2-011",
+        "WA02-C3-012",
+        "WA02-C4-014"
+      ]
+    }
   }
 }

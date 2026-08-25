@@ -654,5 +654,27 @@
     "abschnitt": "Ethanol und die Hydroxylgruppe",
     "bezugswort": "Alkohol",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "AL01-A1-001",
+        "AL01-A2-002",
+        "AL01-A4-004"
+      ],
+      "B": [
+        "AL01-B1-005",
+        "AL01-B2-007",
+        "AL01-B4-010"
+      ],
+      "C": [
+        "AL01-C2-011",
+        "AL01-C3-012",
+        "AL01-C4-KAT"
+      ]
+    }
   }
 }

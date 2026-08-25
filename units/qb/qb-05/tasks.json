@@ -640,5 +640,27 @@
     "abschnitt": "Reaktionsgleichungen und stöchiometrische Berechnungen",
     "bezugswort": "Stöchiometrie",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "QB05-A1-001",
+        "QB05-A2-002",
+        "QB05-A4-KAT"
+      ],
+      "B": [
+        "QB05-B1-005",
+        "QB05-B2-007",
+        "QB05-B4-KAT"
+      ],
+      "C": [
+        "QB05-C2-011",
+        "QB05-C3-012",
+        "QB05-C4-014"
+      ]
+    }
   }
 }

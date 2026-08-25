@@ -658,5 +658,27 @@
     "abschnitt": "Gasbrenner und Laborgeräte",
     "bezugswort": "Gasbrenner",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "FC02-A1-001",
+        "FC02-A2-002",
+        "FC02-A4-KAT"
+      ],
+      "B": [
+        "FC02-B1-005",
+        "FC02-B2-007",
+        "FC02-B4-KAT"
+      ],
+      "C": [
+        "FC02-C2-011",
+        "FC02-C3-012",
+        "FC02-C4-014"
+      ]
+    }
   }
 }

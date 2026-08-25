@@ -719,5 +719,27 @@
     "abschnitt": "Eigenschaften und Lösen von Salzen",
     "bezugswort": "Löslichkeit",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "SZ04-A1-001",
+        "SZ04-A2-002",
+        "SZ04-A4-KAT"
+      ],
+      "B": [
+        "SZ04-B1-005",
+        "SZ04-B2-007",
+        "SZ04-B4-010"
+      ],
+      "C": [
+        "SZ04-C2-011",
+        "SZ04-C3-012",
+        "SZ04-C4-014"
+      ]
+    }
   }
 }

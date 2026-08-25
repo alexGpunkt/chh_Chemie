@@ -678,5 +678,27 @@
     "abschnitt": "Wassermoleküle sind Dipole",
     "bezugswort": "Elektronegativität",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "WA04-A1-001",
+        "WA04-A2-002",
+        "WA04-A4-KAT"
+      ],
+      "B": [
+        "WA04-B1-005",
+        "WA04-B2-007",
+        "WA04-B4-010"
+      ],
+      "C": [
+        "WA04-C2-011",
+        "WA04-C3-012",
+        "WA04-C4-KAT"
+      ]
+    }
   }
 }

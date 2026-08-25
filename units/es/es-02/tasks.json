@@ -598,5 +598,27 @@
     "abschnitt": "Ester als Duft- und Aromastoffe",
     "bezugswort": "Aromastoff",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "ES02-A1-001",
+        "ES02-A2-002",
+        "ES02-A4-004"
+      ],
+      "B": [
+        "ES02-B1-005",
+        "ES02-B2-007",
+        "ES02-B4-010"
+      ],
+      "C": [
+        "ES02-C2-011",
+        "ES02-C3-012",
+        "ES02-C4-014"
+      ]
+    }
   }
 }

@@ -685,5 +685,27 @@
     "abschnitt": "Indikatoren und pH-Wert",
     "bezugswort": "Indikator",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "SL02-A1-001",
+        "SL02-A2-002",
+        "SL02-A4-KAT"
+      ],
+      "B": [
+        "SL02-B1-005",
+        "SL02-B2-007",
+        "SL02-B4-KAT"
+      ],
+      "C": [
+        "SL02-C2-011",
+        "SL02-C3-012",
+        "SL02-C4-KAT"
+      ]
+    }
   }
 }

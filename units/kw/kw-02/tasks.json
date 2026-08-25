@@ -663,5 +663,27 @@
     "abschnitt": "Homologe Reihe der Alkane",
     "bezugswort": "Alkan",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "KW02-A1-001",
+        "KW02-A2-002",
+        "KW02-A4-004"
+      ],
+      "B": [
+        "KW02-B1-005",
+        "KW02-B2-007",
+        "KW02-B4-KAT"
+      ],
+      "C": [
+        "KW02-C2-011",
+        "KW02-C3-012",
+        "KW02-C4-014"
+      ]
+    }
   }
 }

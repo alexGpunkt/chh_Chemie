@@ -645,5 +645,27 @@
     "abschnitt": "Edle und unedle Metalle",
     "bezugswort": "Redoxreihe",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "ME03-A1-001",
+        "ME03-A2-002",
+        "ME03-A4-004"
+      ],
+      "B": [
+        "ME03-B1-005",
+        "ME03-B2-007",
+        "ME03-B4-KAT"
+      ],
+      "C": [
+        "ME03-C2-011",
+        "ME03-C3-012",
+        "ME03-C4-014"
+      ]
+    }
   }
 }

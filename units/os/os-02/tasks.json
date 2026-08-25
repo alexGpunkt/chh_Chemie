@@ -671,5 +671,27 @@
     "abschnitt": "Alkansäuren und ihre Benennung",
     "bezugswort": "Alkansäure",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "OS02-A1-001",
+        "OS02-A2-002",
+        "OS02-A4-KAT"
+      ],
+      "B": [
+        "OS02-B1-005",
+        "OS02-B2-007",
+        "OS02-B4-010"
+      ],
+      "C": [
+        "OS02-C2-011",
+        "OS02-C3-012",
+        "OS02-C4-014"
+      ]
+    }
   }
 }

@@ -682,5 +682,27 @@
     "abschnitt": "Laugen und Basen",
     "bezugswort": "Hydroxid-Ion",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "SL04-A1-001",
+        "SL04-A2-002",
+        "SL04-A4-KAT"
+      ],
+      "B": [
+        "SL04-B1-005",
+        "SL04-B2-007",
+        "SL04-B4-010"
+      ],
+      "C": [
+        "SL04-C2-011",
+        "SL04-C3-012",
+        "SL04-C4-KAT"
+      ]
+    }
   }
 }

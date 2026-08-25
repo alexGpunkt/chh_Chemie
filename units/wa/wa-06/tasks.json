@@ -611,5 +611,27 @@
     "abschnitt": "Eigenschaften, Zerlegung und Bildung des Wassers",
     "bezugswort": "Wasser",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "WA06-A1-001",
+        "WA06-A2-002",
+        "WA06-A4-KAT"
+      ],
+      "B": [
+        "WA06-B1-005",
+        "WA06-B2-007",
+        "WA06-B4-KAT"
+      ],
+      "C": [
+        "WA06-C2-011",
+        "WA06-C3-012",
+        "WA06-C4-014"
+      ]
+    }
   }
 }

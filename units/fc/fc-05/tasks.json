@@ -712,5 +712,27 @@
     "abschnitt": "Chemische Reaktionen und Stoffumwandlung",
     "bezugswort": "chemische Reaktion",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "FC05-A1-001",
+        "FC05-A2-002",
+        "FC05-A4-KAT"
+      ],
+      "B": [
+        "FC05-B1-005",
+        "FC05-B2-007",
+        "FC05-B4-KAT"
+      ],
+      "C": [
+        "FC05-C2-011",
+        "FC05-C3-012",
+        "FC05-C4-KAT"
+      ]
+    }
   }
 }

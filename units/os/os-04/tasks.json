@@ -626,5 +626,27 @@
         "abschnitt": "Frucht- und Dicarbonsäuren"
       }
     ]
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "OS04-A1-001",
+        "OS04-A2-002",
+        "OS04-A4-004"
+      ],
+      "B": [
+        "OS04-B1-005",
+        "OS04-B2-007",
+        "OS04-B4-010"
+      ],
+      "C": [
+        "OS04-C2-011",
+        "OS04-C3-012",
+        "OS04-C4-KAT"
+      ]
+    }
   }
 }

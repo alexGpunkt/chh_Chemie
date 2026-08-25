@@ -35,6 +35,21 @@
       <button id="refresh" type="button">Aktualisieren</button>
     </section>
 
+    <section class="panel" id="quizPanel">
+      <div class="panelHead"><div><h2>Einheitenquiz und Bewertungsgrundlage</h2><span>Je Einheit drei Fragen aus dem gerade bearbeiteten Lernweg</span></div></div>
+      <p class="modusHinweis">
+        Nur der erste Quizversuch im aktiven Bewertungsmodus wird gewertet. Weitere Versuche
+        bleiben als Übung sichtbar. Die Gesamtnote entsteht aus allen gewerteten Quizfragen im
+        gewählten Zeitraum; ein einzelnes Drei-Fragen-Quiz ist dafür zu grob und wird deshalb
+        nicht allein in eine Note umgerechnet. Die Ergebnisse sind eine Grundlage, nicht die
+        automatische Zeugnisnote.
+      </p>
+      <h3>Zusammenfassung</h3>
+      <div class="tableWrap"><table><thead><tr><th>Name</th><th>gewertete Quizze</th><th>Aufgaben</th><th>Quote</th><th>Gesamtnote</th><th>zuletzt</th></tr></thead><tbody id="quizBewertungBody"></tbody></table></div>
+      <h3>Letzte Abgaben</h3>
+      <div class="tableWrap"><table><thead><tr><th>Zeit</th><th>Name</th><th>Einheit</th><th>Pfad</th><th>Versuch</th><th>Ergebnis</th><th>Status</th></tr></thead><tbody id="quizVersucheBody"></tbody></table></div>
+    </section>
+
     <section class="panel">
       <div class="panelHead"><div><h2>Freigabeliste</h2><span>Nur aktive Einträge können sich anmelden.</span></div></div>
       <form id="studentForm" class="rosterForm">

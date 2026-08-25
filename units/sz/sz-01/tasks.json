@@ -238,7 +238,7 @@
       "spiral": [
         "K-BIND"
       ],
-      "herkunft": "Chemie-Fragenkatalog src-b3-6 · Lehrbuch PDF-S. 103–105"
+      "herkunft": "Chemie-Fragenkatalog src-b3-6 · Lehrbuch PDF-S. 106–107"
     },
     {
       "id": "SZ01-B1-005",
@@ -685,10 +685,32 @@
   "lehrbuch": {
     "kapitel": 9,
     "titel": "Chemische Bindungen",
-    "seiten_von": 103,
-    "seiten_bis": 105,
+    "seiten_von": 106,
+    "seiten_bis": 107,
     "abschnitt": "Bildung von Ionen",
     "bezugswort": "Ion",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "SZ01-A1-001",
+        "SZ01-A2-002",
+        "SZ01-A4-KAT"
+      ],
+      "B": [
+        "SZ01-B1-005",
+        "SZ01-B2-007",
+        "SZ01-B4-010"
+      ],
+      "C": [
+        "SZ01-C2-011",
+        "SZ01-C3-012",
+        "SZ01-C4-014"
+      ]
+    }
   }
 }

@@ -3,7 +3,7 @@
 Differenzierte Lernwege für die Jahrgänge 7 bis 10, Campus Hannah Höch.
 Statische Website, keine Abhängigkeiten, kein Build-Step.
 
-**76 Einheiten à 45 Minuten · 1064 Aufgaben · Hefteintrag je Lernweg.**
+**76 Einheiten à 45 Minuten · 1064 Lernaufgaben · 228 Einheitenquizze · Hefteintrag je Lernweg.**
 **Warm-up-Pool: 224 eindeutige Chemiefragen in 9 Kategorien —**
 **kumulativ über die zurückliegenden Reihen, im Unterricht Pflicht.**
 **168 eingebettete Lernvideos mit Schreibauftrag und optionaler Lumi-Fassung,**
@@ -46,6 +46,13 @@ Bereich schließt mit einer Einheit, die anwendet und auf die Prüfung vorbereit
 Jede Einheit: 4 Aufgaben Basis · 6 Standard · 4 Vertiefung, jeweils über die
 Stufen Einstieg → Geführt → Frei → Transfer. Alle mit gestuften Tipps,
 vollständigem Lösungsweg und hinterlegten Fehlvorstellungen.
+
+Jeder Lernweg endet zusätzlich mit einem versionierten Drei-Fragen-Quiz. Die
+Fragen stammen ausschließlich aus der aktuellen Einheit und Niveaustufe. Der
+Punktestand wird nicht vom Browser behauptet, sondern in Supabase aus den
+übermittelten Antworten geprüft. Nur der erste Versuch im von der Lehrkraft
+gestarteten Bewertungsmodus wird gewertet; Wiederholungen bleiben Übung. Im
+Dashboard wird eine Note erst über mehrere gewertete Quizze gebildet.
 
 ## Die vier roten Fäden
 
@@ -717,4 +724,4 @@ Ehrlich benannt, damit es nicht übersehen wird:
 
 Alle Fassungen mit Änderungen und Einschränkungen stehen in `CHANGELOG.md`.
 
-Cache-Version: `chemie710-v6-themenwissen-videos`.
+Cache-Version: `chemie710-v7-einheitenquiz`.

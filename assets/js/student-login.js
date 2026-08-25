@@ -229,6 +229,12 @@
     return tokenRefreshPromise;
   }
 
+  async function request(name, body = {}) {
+    const token = await ensureToken();
+    if (!token) throw new Error('Für diese Abgabe ist eine gültige Schüleranmeldung nötig.');
+    return rpc(name, body, token);
+  }
+
   function addStyles() {
     if (document.querySelector('#chemie710-login-style')) return;
     const style = document.createElement('style');
@@ -508,7 +514,8 @@
     },
     validate: validateStudent,
     token: tokenLesen,
-    ensureToken
+    ensureToken,
+    request
   };
 
   if (document.readyState === 'loading') {

@@ -612,5 +612,27 @@
     "abschnitt": "Alkanole - Zusammenfassung",
     "bezugswort": "Hydroxylgruppe",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "AL07-A1-001",
+        "AL07-A2-002",
+        "AL07-A4-004"
+      ],
+      "B": [
+        "AL07-B1-005",
+        "AL07-B2-007",
+        "AL07-B4-KAT"
+      ],
+      "C": [
+        "AL07-C2-011",
+        "AL07-C3-012",
+        "AL07-C4-014"
+      ]
+    }
   }
 }

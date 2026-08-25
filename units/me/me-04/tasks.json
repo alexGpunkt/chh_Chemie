@@ -664,5 +664,27 @@
     "abschnitt": "Gebrauchsmetalle und Legierungen",
     "bezugswort": "Legierung",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "ME04-A1-001",
+        "ME04-A2-002",
+        "ME04-A4-004"
+      ],
+      "B": [
+        "ME04-B1-005",
+        "ME04-B2-007",
+        "ME04-B4-010"
+      ],
+      "C": [
+        "ME04-C2-011",
+        "ME04-C3-012",
+        "ME04-C4-014"
+      ]
+    }
   }
 }

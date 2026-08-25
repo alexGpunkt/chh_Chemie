@@ -678,5 +678,27 @@
     "abschnitt": "Saure Lösungen und sicherer Umgang",
     "bezugswort": "Säure",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "SL01-A1-001",
+        "SL01-A2-002",
+        "SL01-A4-004"
+      ],
+      "B": [
+        "SL01-B1-005",
+        "SL01-B2-007",
+        "SL01-B4-010"
+      ],
+      "C": [
+        "SL01-C2-011",
+        "SL01-C3-012",
+        "SL01-C4-014"
+      ]
+    }
   }
 }

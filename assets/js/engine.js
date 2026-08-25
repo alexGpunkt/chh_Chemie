@@ -51,7 +51,11 @@ const S = {
   /* Laufender Aufgabenstand, der nach einem Neuladen auf genau dieselbe
      Aufgabe zurückgespielt wird (Versuche, Tipps, Zeit und Sitzungs-ID). */
   aufgabenStandWartet: null,
-  letzteFehlvorstellung: null
+  letzteFehlvorstellung: null,
+  /* Das Einheitenquiz ist vom Üben getrennt. Sein Ergebnis entsteht erst
+     nach einer vollständigen Abgabe und wird mit der Quizversion gespeichert. */
+  quizErgebnis: null,
+  quizStart: 0
 };
 
 /* Datensparsame Schnittstelle für den Diagnoseexport. Der vollständige
@@ -188,6 +192,7 @@ function standSpeichern() {
       letzte_fehlvorstellung: schonGeloest || amEnde ? null : S.letzteFehlvorstellung,
       selbst: S.selbst,
       fertig: [...S.fertig],
+      quiz_ergebnis: S.quizErgebnis,
       entwurf: schonGeloest || amEnde ? null : entwurfLesen()
     });
   } catch (error) {
@@ -462,6 +467,8 @@ function pfadSetzen(p, stand, ziel) {
   S.entwurfWartet = null;
   S.aufgabenStandWartet = null;
   S.letzteFehlvorstellung = null;
+  S.quizErgebnis = null;
+  S.quizStart = 0;
   S.aufgabe = null;
   S.taskSession = null;
   /* Über alle Aufgaben, nicht nur die aktuelle Reihe: die Objekte werden
@@ -495,6 +502,7 @@ function pfadSetzen(p, stand, ziel) {
     S.selbst = stand.selbst || null;
     S.fertig = new Set(stand.fertig || []);
     S.tippsInsgesamt = stand.tipps_insgesamt | 0;
+    S.quizErgebnis = stand.quiz_ergebnis || null;
     S.entwurfWartet = null;
     const aktuelle = S.reihe[S.index];
     if (aktuelle && (!stand.aufgabe || stand.aufgabe === aktuelle.id)) {
@@ -601,6 +609,40 @@ function themeninfoBauen() {
     const merke = el('div', 'themeninfo-merke');
     merke.innerHTML = '<b>Merke:</b> ' + markiereWorte(lk.merke);
     box.append(merke);
+  }
+
+  /* Der Buchbezug steht direkt am Erklärtext und nicht nur in einer späteren
+     Klappkarte. So weiß besonders Pfad A vor dem Üben, wo nachgelesen wird. */
+  const lb = S.daten?.lehrbuch;
+  if (lb) {
+    const quelle = el('div', 'themeninfo-quelle');
+    quelle.innerHTML = `<b>Nachlesen:</b> ${htmlSicher(lb.quelle || 'Lehrbuch_Chemie.pdf')}, `
+      + `PDF-S. ${htmlSicher(lb.seiten_von)}–${htmlSicher(lb.seiten_bis)}, `
+      + `Abschnitt „${htmlSicher(lb.abschnitt || lb.titel)}“.`;
+    const oeffnen = el('button', 'themeninfo-buchknopf', 'Leseauftrag anzeigen');
+    oeffnen.type = 'button';
+    oeffnen.addEventListener('click', () => {
+      const karte = $('#lehrbuchkarte');
+      if (!karte) return;
+      karte.open = true;
+      karte.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    });
+    quelle.append(oeffnen);
+    box.append(quelle);
+  }
+
+  const arbeitsweg = {
+    A: ['Lies immer nur einen Erklärungssatz.', 'Sieh dir danach das Beispiel an oder sprich den Satz in eigenen Worten.', 'Schlage die angegebene Lehrbuchstelle auf und markiere drei wichtige Wörter.', 'Bearbeite die Aufgaben. Zum Schluss folgen drei Quizfragen ohne Tipps.'],
+    B: ['Lies Erklärung und Lehrbuchabschnitt vollständig.', 'Fasse den Zusammenhang in drei bis fünf eigenen Sätzen zusammen.', 'Prüfe ihn am Beispiel und bearbeite anschließend die Aufgaben.', 'Das Abschlussquiz prüft nur Inhalte dieses Lernwegs.'],
+    C: ['Ordne die Erklärungen in Ursache, Beobachtung und Folgerung.', 'Belege deine Begründung mit zwei Aussagen aus der angegebenen Lehrbuchstelle.', 'Übertrage den Zusammenhang auf die Aufgaben und begründe deine Entscheidungen fachsprachlich.', 'Das Abschlussquiz schließt den Lernweg mit drei Fragen ab.']
+  }[S.pfad];
+  if (arbeitsweg) {
+    const hilfe = el('details', 'themeninfo-arbeitsweg');
+    hilfe.append(el('summary', null, 'So kannst du das Thema selbstständig erarbeiten'));
+    const liste = el('ol');
+    arbeitsweg.forEach(schritt => liste.append(el('li', null, schritt)));
+    hilfe.append(liste);
+    box.append(hilfe);
   }
 
   const ziel = S.daten?.can_do?.[S.pfad];
@@ -1607,8 +1649,227 @@ function einstufungStarten(pfad) {
   aufgabeZeigen();
 }
 
+/* ---------- Einheitenquiz ----------
+   Drei Fragen, alle aus der gerade bearbeiteten Einheit und demselben
+   Lernweg. Es gibt keine Tipps und nur eine gemeinsame Abgabe. Dadurch ist
+   das Ergebnis von der Lernhilfe getrennt und im Dashboard nachvollziehbar. */
+function quizAufgaben() {
+  const quiz = S.daten.abschlussquiz;
+  const ids = quiz?.frage_ids?.[S.pfad] || [];
+  const pool = new Map((S.daten.tasks || []).map(t => [t.id, t]));
+  return ids.map(id => pool.get(id)).filter(t => t && t.path === S.pfad);
+}
+
+function quizEingabe(t, nr) {
+  const wrap = el('div', 'quiz-eingabe');
+  if (t.type === 'choice') {
+    const gruppe = el('fieldset', 'quiz-optionen');
+    gruppe.append(el('legend', 'sr-only', `Antwort zu Frage ${nr}`));
+    t.options.forEach((option, i) => {
+      const label = el('label', 'quiz-option');
+      const input = document.createElement('input');
+      input.type = 'radio';
+      input.name = `quiz-${nr}`;
+      input.value = String(i);
+      label.append(input, el('span', null, option));
+      gruppe.append(label);
+    });
+    wrap.append(gruppe);
+  } else if (t.type === 'numeric') {
+    const zeile = el('label', 'quiz-zahl');
+    zeile.append(el('span', 'sr-only', `Antwort zu Frage ${nr}`));
+    const input = el('input', 'zahl-feld');
+    input.type = 'text'; input.inputMode = 'decimal'; input.autocomplete = 'off';
+    zeile.append(input);
+    if (t.unit_label) zeile.append(el('span', 'einheit-label', t.unit_label));
+    wrap.append(zeile);
+  } else if (t.type === 'multi') {
+    t.fields.forEach((feld, i) => {
+      const label = el('label', 'quiz-mehrfach');
+      label.append(el('span', null, feld.label));
+      const input = el('input', 'zahl-feld');
+      input.type = 'text'; input.inputMode = 'decimal'; input.autocomplete = 'off';
+      input.dataset.feld = String(i);
+      label.append(input);
+      if (feld.unit_label) label.append(el('span', 'einheit-label', feld.unit_label));
+      wrap.append(label);
+    });
+  } else if (t.type === 'assign') {
+    t.slots.forEach((slot, i) => {
+      const label = el('label', 'quiz-zuordnung');
+      label.append(el('span', null, slot));
+      const select = document.createElement('select');
+      select.dataset.slot = String(i);
+      const leer = document.createElement('option');
+      leer.value = ''; leer.textContent = 'Bitte wählen';
+      select.append(leer);
+      t.values.forEach((wert, vi) => {
+        const option = document.createElement('option');
+        option.value = String(vi); option.textContent = wert;
+        select.append(option);
+      });
+      label.append(select);
+      wrap.append(label);
+    });
+  }
+  return wrap;
+}
+
+function quizWertLesen(block, t) {
+  if (t.type === 'choice') {
+    const input = block.querySelector('input[type="radio"]:checked');
+    return input ? Number(input.value) : null;
+  }
+  if (t.type === 'numeric') {
+    const roh = block.querySelector('.zahl-feld')?.value.trim() || '';
+    const zahl = lesarten(roh).find(z => !Number.isNaN(z));
+    return roh && Number.isFinite(zahl) ? zahl : null;
+  }
+  if (t.type === 'multi') {
+    const werte = [...block.querySelectorAll('.zahl-feld')].map(input => {
+      const roh = input.value.trim();
+      return roh ? lesarten(roh).find(z => !Number.isNaN(z)) : null;
+    });
+    return werte.every(Number.isFinite) ? werte : null;
+  }
+  if (t.type === 'assign') {
+    const werte = [...block.querySelectorAll('select')].map(select =>
+      select.value === '' ? null : Number(select.value));
+    return werte.every(Number.isInteger) ? werte : null;
+  }
+  return null;
+}
+
+function quizZeigen() {
+  lernphaseSetzen('sichern');
+  const b = $('#buehne');
+  buehneLeeren(b);
+  const aufgaben = quizAufgaben();
+  if (aufgaben.length !== 3) {
+    const karte = el('div', 'karte');
+    karte.append(el('h2', 'frage', 'Das Abschlussquiz ist noch nicht vollständig eingerichtet.'));
+    karte.append(el('p', null, 'Bitte melde der Lehrkraft die Einheit ' + S.daten.unit + ' und den Lernweg ' + S.pfad + '.'));
+    b.append(karte);
+    return;
+  }
+
+  S.quizStart = Date.now();
+  Tracker.track('quiz_gestartet', {
+    unit: S.daten.unit, path: S.pfad,
+    quiz_version: S.daten.abschlussquiz.version,
+    fragen: aufgaben.map(t => t.id)
+  });
+
+  const karte = el('div', 'karte quiz-karte');
+  karte.append(el('span', 'stufe-pill', `Abschlussquiz · Pfad ${S.pfad}`));
+  karte.append(el('h2', 'frage', 'Was ist aus dieser Einheit hängen geblieben?'));
+  karte.append(el('p', 'quiz-hinweis', S.daten.abschlussquiz.hinweis));
+
+  aufgaben.forEach((t, index) => {
+    const block = el('section', 'quiz-frage');
+    block.dataset.task = t.id;
+    block.append(el('h3', null, `Frage ${index + 1} von 3`));
+    const prompt = el('p', 'quiz-prompt');
+    prompt.innerHTML = markiereWorte(t.prompt);
+    block.append(prompt, quizEingabe(t, index + 1));
+    karte.append(block);
+  });
+
+  const rueck = el('div'); rueck.id = 'quiz-rueck';
+  const aktionen = el('div', 'aktionen');
+  const abgeben = el('button', 'btn btn-haupt', 'Quiz abgeben');
+  abgeben.type = 'button';
+  abgeben.addEventListener('click', () => quizAbgeben(aufgaben, abgeben));
+  aktionen.append(abgeben);
+  karte.append(rueck, aktionen);
+  b.append(karte);
+}
+
+async function quizAbgeben(aufgaben, knopf) {
+  const bloecke = [...document.querySelectorAll('.quiz-frage')];
+  const antworten = aufgaben.map((t, i) => ({ id: t.id, wert: quizWertLesen(bloecke[i], t) }));
+  const unvollstaendig = antworten.findIndex(a => a.wert == null);
+  const rueck = $('#quiz-rueck');
+  rueck.replaceChildren();
+  if (unvollstaendig >= 0) {
+    const meldung = el('div', 'rueck nope', `Bitte beantworte noch Frage ${unvollstaendig + 1}.`);
+    rueck.append(meldung);
+    bloecke[unvollstaendig]?.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    return;
+  }
+
+  knopf.disabled = true;
+  knopf.textContent = 'Wird sicher gespeichert …';
+  try {
+    const login = window.Chemie710StudentLogin;
+    if (!login || typeof login.request !== 'function') {
+      throw new Error('Die sichere Schüleranmeldung ist nicht verfügbar.');
+    }
+    const ergebnis = await login.request('chemie710_quiz_abgeben', {
+      p_unit: S.daten.unit,
+      p_pfad: S.pfad,
+      p_quiz_version: S.daten.abschlussquiz.version,
+      p_antworten: antworten,
+      p_dauer_s: Math.round((Date.now() - S.quizStart) / 1000)
+    });
+    if (!ergebnis || !Number.isFinite(Number(ergebnis.richtig))) {
+      throw new Error('Die Datenbank hat kein gültiges Ergebnis zurückgegeben.');
+    }
+
+    S.quizErgebnis = {
+      version: S.daten.abschlussquiz.version,
+      richtig: Number(ergebnis.richtig),
+      aufgaben: Number(ergebnis.aufgaben),
+      versuch: Number(ergebnis.versuch),
+      pflicht: ergebnis.pflicht === true,
+      gewertet: ergebnis.gewertet === true,
+      ergebnis_id: ergebnis.ergebnis_id
+    };
+    standSpeichern();
+    Tracker.track('quiz_abgegeben', {
+      unit: S.daten.unit, path: S.pfad,
+      quiz_version: S.quizErgebnis.version,
+      richtig: S.quizErgebnis.richtig,
+      aufgaben: S.quizErgebnis.aufgaben,
+      versuch: S.quizErgebnis.versuch,
+      pflicht: S.quizErgebnis.pflicht,
+      gewertet: S.quizErgebnis.gewertet
+    });
+
+    bloecke.forEach(block => block.querySelectorAll('input,select').forEach(feld => { feld.disabled = true; }));
+    const status = S.quizErgebnis.gewertet
+      ? 'Dieser erste Versuch wurde im Bewertungsmodus als Bewertungsgrundlage gespeichert.'
+      : (S.quizErgebnis.pflicht
+          ? 'Das Ergebnis ist gespeichert. Weil schon ein Versuch gewertet wurde, zählt dieser als Übung.'
+          : 'Das Ergebnis ist gespeichert. Im Übungsmodus zählt es nicht zur Note.');
+    const box = el('div', 'quiz-ergebnis');
+    box.innerHTML = `<strong>${S.quizErgebnis.richtig} von ${S.quizErgebnis.aufgaben} richtig.</strong><p>${status}</p>`;
+    rueck.append(box);
+    knopf.textContent = 'Auswertung und Abschluss ansehen';
+    knopf.disabled = false;
+    knopf.replaceWith(knopf.cloneNode(true));
+    const weiter = $('.quiz-karte .aktionen .btn-haupt');
+    weiter.addEventListener('click', () => abschlussFazit());
+  } catch (error) {
+    const box = el('div', 'rueck nope');
+    box.innerHTML = '<b>Noch nicht gespeichert.</b> ' + htmlSicher(error.message)
+      + ' Prüfe die Internetverbindung und versuche es erneut.';
+    rueck.append(box);
+    knopf.disabled = false;
+    knopf.textContent = 'Erneut abgeben';
+  }
+}
+
 /* ---------- Abschluss ---------- */
 function abschluss() {
+  if (!S.daten.pruefung && !S.einstufung && S.daten.abschlussquiz && !S.quizErgebnis) {
+    quizZeigen();
+    return;
+  }
+  abschlussFazit();
+}
+
+function abschlussFazit() {
   lernphaseSetzen('sichern');
   const b = $('#buehne');
   const karte = el('div', 'karte');

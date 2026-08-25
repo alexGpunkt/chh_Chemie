@@ -242,7 +242,7 @@
       "spiral": [
         "K-BIND"
       ],
-      "herkunft": "Chemie-Fragenkatalog src-b4-5 · Lehrbuch PDF-S. 103–106"
+      "herkunft": "Chemie-Fragenkatalog src-b4-5 · Lehrbuch PDF-S. 106–107"
     },
     {
       "id": "SZ02-B1-005",
@@ -651,10 +651,32 @@
   "lehrbuch": {
     "kapitel": 9,
     "titel": "Chemische Bindungen",
-    "seiten_von": 103,
-    "seiten_bis": 106,
+    "seiten_von": 106,
+    "seiten_bis": 107,
     "abschnitt": "Ionenbindung und Ionengitter",
     "bezugswort": "Ionengitter",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "SZ02-A1-001",
+        "SZ02-A2-002",
+        "SZ02-A4-KAT"
+      ],
+      "B": [
+        "SZ02-B1-005",
+        "SZ02-B2-007",
+        "SZ02-B4-010"
+      ],
+      "C": [
+        "SZ02-C2-011",
+        "SZ02-C3-012",
+        "SZ02-C4-014"
+      ]
+    }
   }
 }

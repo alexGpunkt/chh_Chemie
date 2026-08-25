@@ -759,5 +759,27 @@
     "abschnitt": "Verbrennungen und Oxide",
     "bezugswort": "Oxid",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "FC07-A1-001",
+        "FC07-A2-002",
+        "FC07-A4-KAT"
+      ],
+      "B": [
+        "FC07-B1-005",
+        "FC07-B2-007",
+        "FC07-B4-010"
+      ],
+      "C": [
+        "FC07-C2-011",
+        "FC07-C3-012",
+        "FC07-C4-014"
+      ]
+    }
   }
 }

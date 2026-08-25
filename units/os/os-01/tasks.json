@@ -675,5 +675,27 @@
     "abschnitt": "Organische Säuren im Alltag",
     "bezugswort": "Carboxygruppe",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "OS01-A1-001",
+        "OS01-A2-002",
+        "OS01-A4-KAT"
+      ],
+      "B": [
+        "OS01-B1-005",
+        "OS01-B2-007",
+        "OS01-B4-010"
+      ],
+      "C": [
+        "OS01-C2-011",
+        "OS01-C3-012",
+        "OS01-C4-KAT"
+      ]
+    }
   }
 }

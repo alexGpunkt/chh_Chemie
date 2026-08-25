@@ -1,5 +1,27 @@
 # Änderungen
 
+## v7 — Selbstständiger Lernweg, Einheitenquiz und Bewertungsübersicht
+
+Alle 76 Einheiten nennen die konkrete Fundstelle in `Lehrbuch_Chemie.pdf`
+jetzt direkt am schriftlichen Kernwissen. Ein niveaugerechter Arbeitsweg führt
+auf A in kurzen Schritten, auf B über Zusammenfassen und Erklären und auf C
+über Belegen und Begründen durch die selbstständige Erarbeitung. Vier
+offensichtlich zu weit verschobene PDF-Seitenbereiche wurden anhand des
+bereitgestellten Lehrbuchs berichtigt.
+
+Am Ende jedes Lernwegs steht ein fest versioniertes Quiz mit drei Fragen aus
+genau dieser Einheit und Niveaustufe. Die Datenbank prüft die Antworten selbst,
+speichert jeden Versuch und wertet nur den ersten Versuch im aktiven
+Bewertungsmodus. Weitere Abgaben bleiben als Übung sichtbar. Das
+Lehrerdashboard zeigt Einzelabgaben sowie eine über mehrere gewertete Quizze
+gebildete Gesamtquote und Note; ein einzelnes Drei-Fragen-Quiz wird ausdrücklich
+nicht allein in eine Note umgerechnet.
+
+Das Supabase-Modul schützt Lösungsschlüssel und Ergebnisse mit RLS und
+funktionsgebundenen Rechten. Quizdaten sind Bestandteil des personenbezogenen
+Exports und werden beim Löschen einer Person über den Fremdschlüssel mit
+entfernt.
+
 ## v6 — Schriftliches Kernwissen und zuverlässige Videos
 
 Jede der 76 Einheiten zeigt nun dauerhaft einen Abschnitt „Kurz erklärt“.

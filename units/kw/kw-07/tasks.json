@@ -627,5 +627,27 @@
     "abschnitt": "Kohlenwasserstoffe - Zusammenfassung",
     "bezugswort": "homologe Reihe",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "KW07-A1-001",
+        "KW07-A2-002",
+        "KW07-A4-004"
+      ],
+      "B": [
+        "KW07-B1-005",
+        "KW07-B2-007",
+        "KW07-B4-KAT"
+      ],
+      "C": [
+        "KW07-C2-011",
+        "KW07-C3-012",
+        "KW07-C4-KAT"
+      ]
+    }
   }
 }

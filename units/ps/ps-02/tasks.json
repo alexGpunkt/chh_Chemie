@@ -606,5 +606,27 @@
     "abschnitt": "Teilchenmodell und Modellvorstellungen",
     "bezugswort": "Modell",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "PS02-A1-001",
+        "PS02-A2-002",
+        "PS02-A4-KAT"
+      ],
+      "B": [
+        "PS02-B1-005",
+        "PS02-B2-007",
+        "PS02-B4-KAT"
+      ],
+      "C": [
+        "PS02-C2-011",
+        "PS02-C3-012",
+        "PS02-C4-KAT"
+      ]
+    }
   }
 }

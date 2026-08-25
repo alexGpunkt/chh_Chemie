@@ -664,5 +664,27 @@
     "abschnitt": "Teilchenmengen und molare Masse",
     "bezugswort": "molare Masse",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "QB01-A1-001",
+        "QB01-A2-002",
+        "QB01-A4-KAT"
+      ],
+      "B": [
+        "QB01-B1-005",
+        "QB01-B2-007",
+        "QB01-B4-010"
+      ],
+      "C": [
+        "QB01-C2-011",
+        "QB01-C3-012",
+        "QB01-C4-014"
+      ]
+    }
   }
 }

@@ -12,7 +12,8 @@
     "can_do",
     "lernkarten",
     "formelkarte",
-    "tasks"
+    "tasks",
+    "abschlussquiz"
   ],
   "additionalProperties": false,
   "properties": {
@@ -265,6 +266,35 @@
         "$ref": "#/$defs/aufgabe"
       }
     },
+    "abschlussquiz": {
+      "type": "object",
+      "description": "Drei feste, einheiten- und niveaubezogene Fragen am Ende des Lernwegs. Die Version bindet gespeicherte Ergebnisse an einen nachvollziehbaren Fragenstand.",
+      "required": ["version", "anzahl", "frage_ids"],
+      "additionalProperties": false,
+      "properties": {
+        "version": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "anzahl": {
+          "const": 3
+        },
+        "hinweis": {
+          "type": "string",
+          "minLength": 10
+        },
+        "frage_ids": {
+          "type": "object",
+          "required": ["A", "B", "C"],
+          "additionalProperties": false,
+          "properties": {
+            "A": { "$ref": "#/$defs/quizfragen" },
+            "B": { "$ref": "#/$defs/quizfragen" },
+            "C": { "$ref": "#/$defs/quizfragen" }
+          }
+        }
+      }
+    },
     "pruefung": {
       "type": [
         "object",
@@ -287,6 +317,16 @@
     }
   },
   "$defs": {
+    "quizfragen": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 3
+      }
+    },
     "lernkarte": {
       "type": "object",
       "required": [

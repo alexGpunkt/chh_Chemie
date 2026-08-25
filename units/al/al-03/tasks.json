@@ -653,5 +653,27 @@
     "abschnitt": "Eigenschaften der Alkanole",
     "bezugswort": "Wasserstoffbrücke",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "AL03-A1-001",
+        "AL03-A2-002",
+        "AL03-A4-004"
+      ],
+      "B": [
+        "AL03-B1-005",
+        "AL03-B2-007",
+        "AL03-B4-010"
+      ],
+      "C": [
+        "AL03-C2-011",
+        "AL03-C3-012",
+        "AL03-C4-014"
+      ]
+    }
   }
 }

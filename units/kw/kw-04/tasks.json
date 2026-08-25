@@ -652,5 +652,27 @@
     "abschnitt": "Isomerie und Benennung der Alkane",
     "bezugswort": "Konstitutionsisomer",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "KW04-A1-001",
+        "KW04-A2-002",
+        "KW04-A4-KAT"
+      ],
+      "B": [
+        "KW04-B1-005",
+        "KW04-B2-007",
+        "KW04-B4-010"
+      ],
+      "C": [
+        "KW04-C2-011",
+        "KW04-C3-012",
+        "KW04-C4-014"
+      ]
+    }
   }
 }

@@ -688,5 +688,27 @@
     "abschnitt": "Alkoholische Gärung und Ethanol",
     "bezugswort": "alkoholische Gärung",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "AL06-A1-001",
+        "AL06-A2-002",
+        "AL06-A4-004"
+      ],
+      "B": [
+        "AL06-B1-005",
+        "AL06-B2-007",
+        "AL06-B4-010"
+      ],
+      "C": [
+        "AL06-C2-011",
+        "AL06-C3-012",
+        "AL06-C4-014"
+      ]
+    }
   }
 }

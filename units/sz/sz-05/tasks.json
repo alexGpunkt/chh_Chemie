@@ -635,5 +635,27 @@
     "abschnitt": "Salze - Bildung, Gitter und Eigenschaften",
     "bezugswort": "Salz",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "SZ05-A1-001",
+        "SZ05-A2-002",
+        "SZ05-A4-KAT"
+      ],
+      "B": [
+        "SZ05-B1-005",
+        "SZ05-B2-007",
+        "SZ05-B4-010"
+      ],
+      "C": [
+        "SZ05-C2-011",
+        "SZ05-C3-012",
+        "SZ05-C4-014"
+      ]
+    }
   }
 }

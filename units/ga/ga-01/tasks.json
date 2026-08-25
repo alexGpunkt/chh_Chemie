@@ -710,5 +710,27 @@
     "abschnitt": "Zusammensetzung der Luft",
     "bezugswort": "Luftzusammensetzung",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "GA01-A1-001",
+        "GA01-A2-002",
+        "GA01-A4-KAT"
+      ],
+      "B": [
+        "GA01-B1-005",
+        "GA01-B2-007",
+        "GA01-B4-010"
+      ],
+      "C": [
+        "GA01-C2-011",
+        "GA01-C3-012",
+        "GA01-C4-014"
+      ]
+    }
   }
 }

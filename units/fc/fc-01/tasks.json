@@ -710,5 +710,27 @@
     "abschnitt": "Sicher experimentieren im Fachraum",
     "bezugswort": "Sicherheitsregel",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "FC01-A1-001",
+        "FC01-A2-002",
+        "FC01-A4-KAT"
+      ],
+      "B": [
+        "FC01-B1-005",
+        "FC01-B2-007",
+        "FC01-B4-010"
+      ],
+      "C": [
+        "FC01-C2-011",
+        "FC01-C3-012",
+        "FC01-C4-KAT"
+      ]
+    }
   }
 }

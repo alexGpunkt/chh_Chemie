@@ -647,5 +647,27 @@
     "abschnitt": "Säuren, Laugen und Salze - Zusammenfassung",
     "bezugswort": "Säure-Base-Reaktion",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "SL07-A1-001",
+        "SL07-A2-002",
+        "SL07-A4-KAT"
+      ],
+      "B": [
+        "SL07-B1-005",
+        "SL07-B2-007",
+        "SL07-B4-KAT"
+      ],
+      "C": [
+        "SL07-C2-011",
+        "SL07-C3-012",
+        "SL07-C4-014"
+      ]
+    }
   }
 }

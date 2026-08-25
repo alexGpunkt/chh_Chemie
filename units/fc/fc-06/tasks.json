@@ -682,5 +682,27 @@
     "abschnitt": "Brände und Brandbekämpfung",
     "bezugswort": "Verbrennungsdreieck",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "FC06-A1-001",
+        "FC06-A2-002",
+        "FC06-A4-004"
+      ],
+      "B": [
+        "FC06-B1-005",
+        "FC06-B2-007",
+        "FC06-B4-KAT"
+      ],
+      "C": [
+        "FC06-C2-011",
+        "FC06-C3-012",
+        "FC06-C4-014"
+      ]
+    }
   }
 }

@@ -613,5 +613,27 @@
     "abschnitt": "Fette als Bestandteile unserer Nahrung",
     "bezugswort": "Fett",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "ES03-A1-001",
+        "ES03-A2-002",
+        "ES03-A4-KAT"
+      ],
+      "B": [
+        "ES03-B1-005",
+        "ES03-B2-007",
+        "ES03-B4-KAT"
+      ],
+      "C": [
+        "ES03-C2-011",
+        "ES03-C3-012",
+        "ES03-C4-014"
+      ]
+    }
   }
 }

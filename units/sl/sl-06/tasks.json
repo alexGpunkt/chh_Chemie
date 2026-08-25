@@ -671,5 +671,27 @@
     "abschnitt": "Neutralisation und Titration",
     "bezugswort": "Neutralisation",
     "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "SL06-A1-001",
+        "SL06-A2-002",
+        "SL06-A4-KAT"
+      ],
+      "B": [
+        "SL06-B1-005",
+        "SL06-B2-007",
+        "SL06-B4-KAT"
+      ],
+      "C": [
+        "SL06-C2-011",
+        "SL06-C3-012",
+        "SL06-C4-KAT"
+      ]
+    }
   }
 }
