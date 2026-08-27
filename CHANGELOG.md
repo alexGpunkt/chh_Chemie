@@ -1,5 +1,24 @@
 # Änderungen
 
+## v8 — Vollständiger RLP-Textabgleich und Sicherheitsunterweisung
+
+Ein neuer automatischer RLP-Abgleich prüft die verbindlichen Inhalte der zwölf
+Themenfelder 3.1 bis 3.12 auf jedem Lernweg ausschließlich in schriftlichen
+Erklärquellen. Dabei gefundene Lücken wurden geschlossen, unter anderem bei
+Wassernachweis, Salzbildung und -verwendung, Sauerstoffaffinität,
+Stoffmengenkonzentration, Reaktionen von Säuren mit Metallen und Carbonaten,
+ungesättigten Kohlenwasserstoffen, Alkoholherstellung, Essigherstellung und
+Estergruppe. Vier unpassend importierte Auswahlaufgaben im Bereich
+„Quantitative Betrachtungen“ besitzen jetzt kurze, fachlich plausible
+Antwortalternativen.
+
+FC-01 ist zu einer fünfteiligen, eigenständig lesbaren Sicherheitsunterweisung
+ausgebaut. Sie umfasst Vorbereitung, alle neun GHS-Piktogramme samt H-/P-Sätzen,
+sicheres Arbeiten, Notfallmaßnahmen und Nachbereitung. Vor dem Aufgabenstart
+müssen fünf Kernaussagen bestätigt werden; der Text bleibt danach erreichbar.
+Die Anwendung stellt ausdrücklich klar, dass Gefährdungsbeurteilung,
+Mengenfestlegung und Versuchsfreigabe Aufgaben der Lehrkraft bleiben.
+
 ## v7 — Selbstständiger Lernweg, Einheitenquiz und Bewertungsübersicht
 
 Alle 76 Einheiten nennen die konkrete Fundstelle in `Lehrbuch_Chemie.pdf`

@@ -16,14 +16,18 @@
     "die Verbrennung",
     "das Erdöl",
     "die Fraktion"
+    ,"die Doppelbindung"
+    ,"das Waschbenzin"
   ],
   "worterklaerungen": {
-    "Fraktion": "Ein Bereich von Kohlenwasserstoffen mit ähnlichen Siedetemperaturen."
+    "Fraktion": "Ein Bereich von Kohlenwasserstoffen mit ähnlichen Siedetemperaturen.",
+    "Doppelbindung": "Zwei gemeinsam genutzte Elektronenpaare zwischen zwei Atomen; sie macht Alkene reaktiver als Alkane.",
+    "Waschbenzin": "Ein Gemisch flüssiger Alkane, das unpolare Fettflecken lösen kann und leicht entzündbar ist."
   },
   "can_do": {
-    "A": "Ich stelle Alkanformeln auf und benenne die Glieder der Reihe.",
-    "B": "Ich verbinde Bau, Eigenschaften und Reaktionen der Alkane.",
-    "C": "Ich begründe Eigenschaften aus dem Molekülbau und bewerte Anwendungen."
+    "A": "Ich unterscheide Alkane, Alkene und Alkine und nenne eine Verwendung als Lösungsmittel.",
+    "B": "Ich verbinde Bau, Eigenschaften, Reaktionen und Verwendung gesättigter und ungesättigter Kohlenwasserstoffe.",
+    "C": "Ich begründe Eigenschaften aus dem Molekülbau und bewerte Erdölprodukte als Brenn- und Lösungsmittel."
   },
   "lernkarten": {
     "A": {
@@ -31,7 +35,9 @@
       "hinfuehrung": "In dieser Stunde kommt alles zusammen.",
       "erklaerung": [
         "CₙH₂ₙ₊₂ ist die Formel aller Alkane.",
-        "Längere Ketten sieden später."
+        "Längere Ketten sieden später.",
+        "Alkane haben nur Einfachbindungen. Alkene haben eine Doppelbindung, Alkine eine Dreifachbindung.",
+        "Flüssige Alkane lösen Fett, sind aber leicht entzündbar. Waschbenzin wird deshalb nur ohne offene Flamme verwendet."
       ],
       "merke": "Erst lesen, was gefragt ist. Dann antworten.",
       "visual": {
@@ -47,6 +53,8 @@
         "Bau: Kohlenstoff ist vierbindig und bindet an sich selbst — daraus folgen homologe Reihe und Isomerie.",
         "Eigenschaften: Zwischen den unpolaren Molekülen wirken van-der-Waals-Kräfte, die mit der Kontaktfläche wachsen.",
         "Reaktion: Alkane sind reaktionsträge, verbrennen aber vollständig zu CO₂ und H₂O."
+        ,"Ungesättigte Kohlenwasserstoffe: Alkene und Alkine besitzen Mehrfachbindungen und reagieren leichter, zum Beispiel bei Additionen."
+        ,"Alkane als Lösungsmittel: Unpolare Alkane lösen unpolare Stoffe wie Fette. Sie lösen sich kaum in Wasser und sind leicht entzündbar."
       ],
       "merke": "Vom Bau zu den Kräften, von den Kräften zu den Eigenschaften.",
       "visual": {
@@ -63,6 +71,8 @@
         "In der fraktionierten Destillation trennen sich die Fraktionen nach Siedetemperatur — also nach Kettenlänge.",
         "Beim Cracken werden lange Ketten in kürzere gespalten, weil die Nachfrage nach Benzin größer ist als der Anteil in der Rohölfraktion.",
         "Alkane sind reaktionsträge — deshalb werden sie fast ausschließlich verbrannt oder erst über weitere Schritte in reaktivere Stoffe umgewandelt."
+        ,"Mehrfachbindungen eröffnen Reaktionswege wie Addition und Polymerisation. Das ist der strukturelle Unterschied zwischen gesättigten und ungesättigten Kohlenwasserstoffen."
+        ,"Als Lösungsmittel sind Alkane wirksam, aber flüchtig und entzündbar. Eine Bewertung berücksichtigt Reinigungswirkung, Gesundheits- und Brandgefahr sowie Entsorgung."
       ],
       "merke": "Erdölverarbeitung ist angewandte Siedepunktlehre.",
       "visual": {
@@ -83,6 +93,8 @@
       "Längere Ketten sieden später — größere Kontaktfläche.",
       "Isomere: gleiche Summenformel, anderer Bau.",
       "Ausgleichen: erst C, dann H, zuletzt O."
+      ,"Alkene: mindestens C=C · Alkine: mindestens C≡C · beide ungesättigt."
+      ,"Gleiches löst sich in Gleichem: unpolare Alkane lösen unpolare Fette."
     ]
   },
   "videos": [

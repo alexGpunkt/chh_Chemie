@@ -31,7 +31,9 @@
       "hinfuehrung": "Organische Säuren haben eine besondere Gruppe.",
       "erklaerung": [
         "Sie heißt Carboxygruppe: –COOH.",
-        "Essig und Zitronensaft enthalten sie."
+        "Essig und Zitronensaft enthalten sie.",
+        "Organische Säuren enthalten Kohlenstoff und eine Carboxygruppe; anorganische Säuren wie Salzsäure besitzen keine Carboxygruppe.",
+        "Eigenschaften bestimmen die Verwendung: Verdünnte Essigsäure riecht stechend und wird in Haushaltsessig zum Würzen und Konservieren verwendet."
       ],
       "merke": "–COOH kennzeichnet eine organische Säure.",
       "beispiel": {
@@ -60,7 +62,8 @@
         "Dadurch kann das Proton an ein Wassermolekül abgegeben werden: R–COOH + H₂O ⇌ R–COO⁻ + H₃O⁺.",
         "Der Alkohol hat diese Nachbarschaft nicht — deshalb reagiert er neutral.",
         "Organische Säuren sind schwache Säuren: Nur ein kleiner Teil der Moleküle gibt sein Proton ab. Deshalb der Gleichgewichtspfeil.",
-        "Wichtige Vertreter: Methansäure (Ameisensäure), Ethansäure (Essigsäure), Citronensäure, Milchsäure."
+        "Wichtige Vertreter: Methansäure (Ameisensäure), Ethansäure (Essigsäure), Citronensäure, Milchsäure.",
+        "Organische Säuren enthalten eine Carboxygruppe; anorganische Säuren wie Salzsäure nicht. Ihre Eigenschaften erklären die Verwendung, etwa Essigsäure als Konservierungsmittel und Citronensäure als Entkalker."
       ],
       "merke": "Die Doppelbindung am Nachbaratom macht aus der OH-Gruppe eine Säuregruppe.",
       "visual": {

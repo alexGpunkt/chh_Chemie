@@ -16,9 +16,11 @@
     "die Reduktion",
     "die Korrosion",
     "die Bewertung"
+    ,"die Sauerstoffaffinität"
   ],
   "worterklaerungen": {
-    "Bewertung": "Ein Urteil, das ein Kriterium nennt und begründet."
+    "Bewertung": "Ein Urteil, das ein Kriterium nennt und begründet.",
+    "Sauerstoffaffinität": "Die Neigung eines Stoffes, mit Sauerstoff zu reagieren."
   },
   "can_do": {
     "A": "Ich beantworte gemischte Aufgaben zu Metallen sicher.",
@@ -31,7 +33,9 @@
       "hinfuehrung": "In dieser Stunde kommt alles zusammen.",
       "erklaerung": [
         "Metalle leiten und sind verformbar.",
-        "Unedle Metalle reagieren leicht."
+        "Unedle Metalle reagieren leicht.",
+        "Die Eigenschaften bestimmen die Verwendung: Kupfer leitet Strom, Aluminium ist leicht, Stahl ist belastbar.",
+        "Bei der Metallgewinnung wird einem Metalloxid Sauerstoff entzogen."
       ],
       "merke": "Erst lesen, was gefragt ist. Dann antworten.",
       "visual": {
@@ -46,7 +50,9 @@
       "erklaerung": [
         "Bindung: positive Rümpfe im Elektronengas — daraus folgen Leitfähigkeit, Glanz und Verformbarkeit.",
         "Reaktivität: die Redoxreihe sagt vorher, welche Reaktion abläuft und welcher Korrosionsschutz wirkt.",
-        "Gewinnung: Erze enthalten Metalloxide; die Reduktion entzieht den Sauerstoff."
+        "Gewinnung: Erze enthalten Metalloxide; die Reduktion entzieht den Sauerstoff.",
+        "Sauerstoffaffinität: Unedle Metalle besitzen meist eine größere Affinität zu Sauerstoff als edle. Ein Metall mit größerer Affinität kann einem Metalloxid den Sauerstoff entziehen.",
+        "Reaktionsgleichungen bilden die Stoff- und Mengenverhältnisse ab, zum Beispiel Fe₂O₃ + 3 CO → 2 Fe + 3 CO₂."
       ],
       "merke": "Bindung erklärt Eigenschaften, Redoxreihe erklärt Reaktionen.",
       "visual": {
@@ -60,6 +66,7 @@
       "hinfuehrung": "Bei Metallen wird häufig bewertet: Welches Material, welcher Schutz, welches Verfahren? Ohne Kriterium ist jede Antwort beliebig.",
       "erklaerung": [
         "Materialwahl: Welche Eigenschaft entscheidet für diesen Zweck? Dichte, Leitfähigkeit, Härte oder Beständigkeit?",
+        "Eigenschaft und Verwendung müssen zusammenpassen; eine Legierung wird gewählt, wenn die Kombination ihrer Eigenschaften günstiger ist als bei einem reinen Metall.",
         "Korrosionsschutz: Wirkt er auch bei Beschädigung? Nur ein unedleres Metall tut das.",
         "Verfahren: Welche Stoffe und welche Energie werden gebraucht, und was entsteht dabei?",
         "Eine gute Bewertung nennt zuerst das Kriterium, wendet es an und urteilt dann."
@@ -82,6 +89,7 @@
       "Metallgitter: positive Rümpfe im Elektronengas.",
       "Oxidation = Elektronenabgabe, Reduktion = Elektronenaufnahme.",
       "Opferanode: ein unedleres Metall schützt das edlere."
+      ,"Sauerstoffaffinität ordnet, welcher Stoff Sauerstoff leichter bindet."
     ]
   },
   "videos": [

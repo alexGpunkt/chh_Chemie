@@ -110,6 +110,9 @@
         }
       }
     },
+    "sicherheitskurs": {
+      "$ref": "#/$defs/sicherheitskurs"
+    },
     "formelkarte": {
       "type": "object",
       "additionalProperties": false,
@@ -317,6 +320,56 @@
     }
   },
   "$defs": {
+    "sicherheitskurs": {
+      "type": "object",
+      "description": "Geführte, schriftliche Sicherheitsunterweisung. Sie vermittelt Regeln selbstständig, erteilt aber keine Freigabe für praktische Versuche.",
+      "required": [
+        "grenze",
+        "abschnitte",
+        "checkliste"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "grenze": {
+          "type": "string",
+          "minLength": 40
+        },
+        "abschnitte": {
+          "type": "array",
+          "minItems": 4,
+          "items": {
+            "type": "object",
+            "required": [
+              "titel",
+              "punkte"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "titel": {
+                "type": "string",
+                "minLength": 5
+              },
+              "punkte": {
+                "type": "array",
+                "minItems": 2,
+                "items": {
+                  "type": "string",
+                  "minLength": 20
+                }
+              }
+            }
+          }
+        },
+        "checkliste": {
+          "type": "array",
+          "minItems": 4,
+          "items": {
+            "type": "string",
+            "minLength": 20
+          }
+        }
+      }
+    },
     "quizfragen": {
       "type": "array",
       "minItems": 3,

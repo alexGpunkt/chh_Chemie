@@ -32,7 +32,8 @@
       "hinfuehrung": "Die Elektronen sitzen auf Schalen.",
       "erklaerung": [
         "Die erste Schale fasst 2 Elektronen.",
-        "Die zweite fasst 8. Die dritte auch 8."
+        "Die zweite fasst 8. Die dritte auch 8.",
+        "In der Lewis-Schreibweise werden nur die Außenelektronen als Punkte um das Elementsymbol gezeichnet."
       ],
       "merke": "Erst die innere Schale füllen, dann die nächste.",
       "beispiel": {
@@ -79,7 +80,8 @@
         "Ein bis drei Außenelektronen: Abgeben ist kürzer. Es entstehen positiv geladene Ionen. Das tun die Metalle.",
         "Fünf bis sieben Außenelektronen: Aufnehmen ist kürzer. Es entstehen negativ geladene Ionen. Das tun die Nichtmetalle.",
         "Acht Außenelektronen: Der Zustand ist bereits erreicht. Deshalb reagieren Edelgase kaum.",
-        "Damit ist die Ionenladung aus der Hauptgruppennummer vorhersagbar — und die Verhältnisformel eines Salzes ebenso."
+        "Damit ist die Ionenladung aus der Hauptgruppennummer vorhersagbar — und die Verhältnisformel eines Salzes ebenso.",
+        "Die Lewis-Schreibweise macht diese Außenelektronen als Punkte am Elementsymbol sichtbar und hilft dadurch, Elektronenabgabe, Elektronenaufnahme und Bindungsbildung vorherzusagen."
       ],
       "merke": "Ein bis drei abgeben, fünf bis sieben aufnehmen — jeweils der kürzere Weg zur vollen Schale.",
       "visual": {

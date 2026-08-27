@@ -611,6 +611,16 @@ function themeninfoBauen() {
     box.append(merke);
   }
 
+  /* FC-01 bleibt auch während der Aufgaben als vollständige Unterweisung
+     erreichbar. Der kompakte Bereich enthält dieselben Daten wie der
+     geführte Einstieg; so entstehen keine widersprüchlichen Fassungen. */
+  if (S.daten?.sicherheitskurs) {
+    const sicherheit = el('details', 'sicherheitskurs-kompakt');
+    sicherheit.append(el('summary', null, 'Sicherheitsunterweisung jederzeit nachlesen'));
+    sicherheit.append(sicherheitskursBlock(false).element);
+    box.append(sicherheit);
+  }
+
   /* Der Buchbezug steht direkt am Erklärtext und nicht nur in einer späteren
      Klappkarte. So weiß besonders Pfad A vor dem Üben, wo nachgelesen wird. */
   const lb = S.daten?.lehrbuch;
@@ -662,6 +672,66 @@ function lernphaseSetzen(phase) {
     if (aktiv) schritt.setAttribute('aria-current', 'step');
     else schritt.removeAttribute('aria-current');
   });
+}
+
+/* Schriftliche Sicherheitsunterweisung für FC-01. Die fünf Bestätigungen
+   sind kein Zertifikat und keine Versuchsfreigabe. Sie verlangsamen nur den
+   Übergang zu den Aufgaben so weit, dass die zentralen Regeln bewusst zur
+   Kenntnis genommen werden. */
+function sicherheitskursBlock(mitCheckliste) {
+  const kurs = S.daten?.sicherheitskurs;
+  const element = el('section', 'sicherheitskurs');
+  const checkboxes = [];
+  let status = null;
+  if (!kurs) return { element, checkboxes, status };
+
+  sicherheitskursBlock.naechsteId = (sicherheitskursBlock.naechsteId || 0) + 1;
+  const titelId = `sicherheitskurs-titel-${sicherheitskursBlock.naechsteId}`;
+  element.setAttribute('aria-labelledby', titelId);
+  const titel = el('h3', 'sicherheitskurs-titel', 'Deine Sicherheitsunterweisung');
+  titel.id = titelId;
+  element.append(titel);
+
+  const grenze = el('p', 'sicherheitskurs-grenze');
+  grenze.innerHTML = '<b>Wichtig:</b> ' + markiereWorte(kurs.grenze);
+  element.append(grenze);
+
+  const abschnitte = el('div', 'sicherheitskurs-abschnitte');
+  (kurs.abschnitte || []).forEach((abschnitt, index) => {
+    const details = el('details', 'sicherheitsabschnitt');
+    if (index === 0) details.open = true;
+    details.append(el('summary', null, abschnitt.titel));
+    const liste = el('ul');
+    (abschnitt.punkte || []).forEach(punkt => {
+      const li = el('li');
+      li.innerHTML = markiereWorte(punkt);
+      liste.append(li);
+    });
+    details.append(liste);
+    abschnitte.append(details);
+  });
+  element.append(abschnitte);
+
+  if (mitCheckliste && (kurs.checkliste || []).length) {
+    const feld = el('fieldset', 'sicherheitscheck');
+    feld.append(el('legend', null, 'Bevor du die Aufgaben startest'));
+    feld.append(el('p', 'sicherheitscheck-hinweis', 'Bestätige jeden Punkt erst, wenn du ihn verstanden hast. Frage bei Unsicherheit die Lehrkraft.'));
+    kurs.checkliste.forEach(text => {
+      const label = el('label');
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkbox.className = 'sicherheitscheck-feld';
+      label.append(checkbox, el('span', null, text));
+      feld.append(label);
+      checkboxes.push(checkbox);
+    });
+    status = el('p', 'sicherheitscheck-status', `Noch ${checkboxes.length} Punkte bestätigen.`);
+    status.setAttribute('aria-live', 'polite');
+    feld.append(status);
+    element.append(feld);
+  }
+
+  return { element, checkboxes, status };
 }
 
 function lernkarteZeigen(modus, ziel) {
@@ -717,6 +787,12 @@ function lernkarteZeigen(modus, ziel) {
     sprungziele.merke = m;
   }
 
+  let sicherheitscheck = null;
+  if (S.daten.sicherheitskurs) {
+    sicherheitscheck = sicherheitskursBlock(modus === 'start');
+    karte.append(sicherheitscheck.element);
+  }
+
   /* Selbsteinschätzung vor den Aufgaben — am Ende wird sie mit dem
      tatsächlichen Ergebnis verglichen. Wer sich unterschätzt hat, soll das
      schwarz auf weiß sehen; das ist oft der eigentliche Zugewinn. */
@@ -731,6 +807,18 @@ function lernkarteZeigen(modus, ziel) {
     if (modus === 'wieder') aufgabeZurueckholen();
     else aufgabeZeigen();
   });
+  if (modus === 'start' && sicherheitscheck?.checkboxes.length) {
+    const statusAktualisieren = () => {
+      const offen = sicherheitscheck.checkboxes.filter(feld => !feld.checked).length;
+      los.disabled = offen > 0;
+      sicherheitscheck.status.textContent = offen
+        ? `Noch ${offen} ${offen === 1 ? 'Punkt' : 'Punkte'} bestätigen.`
+        : 'Alle Punkte bestätigt. Du kannst jetzt die Übungsaufgaben starten.';
+      sicherheitscheck.status.classList.toggle('ist-fertig', offen === 0);
+    };
+    sicherheitscheck.checkboxes.forEach(feld => feld.addEventListener('change', statusAktualisieren));
+    statusAktualisieren();
+  }
   akt.append(los);
 
   /* Auf einen anderen Pfad wechseln, ohne erst durch die Aufgaben zu müssen. */
@@ -2305,6 +2393,10 @@ function blattkarteBauen() {
   const stufe = String(S.pfad || 'B').toLowerCase();
   link.href = `units/${bereich}/${id}/uebungsblatt-${stufe}.pdf`;
   link.removeAttribute('download');
+  const hinweis = $('#blattkarte-hinweis');
+  if (hinweis) hinweis.textContent = id === 'fc-01'
+    ? 'Lies die Sicherheitsbereiche und bearbeite die Fallaufgaben schriftlich. Die Selbstkontrolle steht am Ende des Blattes.'
+    : 'Gleiches Thema, andere Aufgaben. Ausdrucken oder ins Heft übertragen — und dann schriftlich bearbeiten. Die Lösungen zur Selbstkontrolle stehen unten auf dem Blatt.';
   karte.hidden = false;
 
   /* Die Karte wird bei jedem Lernwegwechsel neu gebaut. Ohne diese Sperre

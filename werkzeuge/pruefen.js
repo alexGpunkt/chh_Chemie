@@ -119,6 +119,19 @@ try {
   fehler.push('units/index.json konnte nicht geprüft werden: ' + e.message);
 }
 
+/* ---------- 2c · Schriftliche RLP-Abdeckung ----------
+   Aufgaben und Lösungen zählen hier absichtlich nicht. Für selbstständiges
+   Lernen muss jeder verbindliche Inhalt vor dem Üben in Lernkarte,
+   Wortspeicher oder gemeinsamer Merkkarte stehen — auf jedem Lernweg. */
+try {
+  const { pruefeRlpText } = require('./rlp-textpruefung');
+  const rlp = pruefeRlpText(WURZEL);
+  rlp.fehler.forEach(text => fehler.push(text));
+  melde(`${rlp.themenfelder} RLP-Themenfelder auf A, B und C schriftlich geprüft (${rlp.pruefungen} Inhaltsprüfungen)`);
+} catch (e) {
+  fehler.push('RLP-Textprüfung konnte nicht ausgeführt werden: ' + e.message);
+}
+
 /* ---------- 3 · Aufgaben-IDs eindeutig ---------- */
 const gesehen = new Map();
 for (const f of einheiten) {

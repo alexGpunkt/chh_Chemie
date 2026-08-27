@@ -14,16 +14,18 @@
     "die Ausbeute",
     "der Überschuss",
     "die Bilanz"
+    ,"die Stoffmengenkonzentration"
   ],
   "worterklaerungen": {
     "Stöchiometrie": "Das Rechnen mit Mengen in chemischen Reaktionen.",
     "Ausbeute": "Wie viel Produkt tatsächlich gewonnen wurde, verglichen mit der Rechnung.",
-    "Überschuss": "Der Teil eines Edukts, der nicht reagieren kann, weil der Partner ausgeht."
+    "Überschuss": "Der Teil eines Edukts, der nicht reagieren kann, weil der Partner ausgeht.",
+    "Stoffmengenkonzentration": "Die Stoffmenge des gelösten Stoffes pro Volumen der Lösung: c = n : V, meist in mol/L."
   },
   "can_do": {
-    "A": "Ich rechne einfache Aufgaben mit n = m : M.",
-    "B": "Ich berechne Produktmassen über das Stoffmengenverhältnis der Gleichung.",
-    "C": "Ich berücksichtige Überschuss und Ausbeute und beurteile Ergebnisse auf Plausibilität."
+    "A": "Ich rechne mit n = m : M und bestimme die Stoffmenge in einem Liter Lösung.",
+    "B": "Ich berechne Produktmassen und Stoffmengenkonzentrationen über die passenden Stoffmengenverhältnisse.",
+    "C": "Ich berücksichtige Konzentration, Überschuss und Ausbeute und beurteile Ergebnisse auf Plausibilität."
   },
   "lernkarten": {
     "A": {
@@ -31,7 +33,8 @@
       "hinfuehrung": "Bei jeder Aufgabe geht es über die Stoffmenge.",
       "erklaerung": [
         "Erst die Masse in mol umrechnen.",
-        "Dann mit der Gleichung weiterrechnen."
+        "Dann mit der Gleichung weiterrechnen.",
+        "Bei Lösungen bedeutet c = n : V: Stoffmenge in mol durch Lösungsvolumen in Liter. Beispiel: 0,20 mol in 1,0 L ergeben 0,20 mol/L."
       ],
       "merke": "Masse → Stoffmenge → Gleichung → Stoffmenge → Masse.",
       "visual": {
@@ -48,6 +51,7 @@
         "2. Gegebene Masse in Stoffmenge umrechnen: n = m : M.",
         "3. Über die Koeffizienten zur Stoffmenge des gesuchten Stoffes.",
         "4. Zurück zur Masse oder zum Volumen: m = n · M bzw. V = n · 22,4 L/mol.",
+        "Für Lösungen gilt c = n : V. Deshalb ist n = c · V; das Volumen wird in Liter eingesetzt.",
         "Am Ende Einheit und Größenordnung prüfen."
       ],
       "merke": "Ohne ausgeglichene Gleichung fehlt das Verhältnis — Schritt 1 ist nicht optional.",
@@ -63,6 +67,7 @@
       "erklaerung": [
         "Überschuss: Ist ein Edukt im Überschuss, bestimmt der andere Stoff, wie viel Produkt entstehen kann. Erst prüfen, welcher Stoff zuerst ausgeht.",
         "Ausbeute: tatsächliche Produktmasse geteilt durch die berechnete, in Prozent. Sie liegt praktisch immer unter 100 %.",
+        "Bei Lösungen verbindet c = n : V die Stoffmenge mit dem Volumen. Erst c · V liefert die eingesetzte Stoffmenge; danach entscheidet die Reaktionsgleichung über das Verhältnis.",
         "Ursachen für Verluste: unvollständige Reaktion, Rückstände im Gefäß, Nebenreaktionen.",
         "Eine Ausbeute über 100 % ist ein Hinweis auf einen Fehler — meist auf Feuchtigkeit im Produkt."
       ],
@@ -79,6 +84,7 @@
       "n = m : M",
       "m = n · M",
       "V = n · 22,4 L/mol",
+      "c = n : V · n = c · V",
       "Ausbeute = m(tatsächlich) : m(berechnet) · 100 %"
     ],
     "saetze": [
@@ -86,6 +92,7 @@
       "Ohne ausgeglichene Gleichung kein Stoffmengenverhältnis.",
       "Der Stoff, der zuerst ausgeht, begrenzt die Ausbeute.",
       "Am Ende Einheit und Größenordnung prüfen."
+      ,"Bei c in mol/L muss V in Liter eingesetzt werden."
     ]
   },
   "videos": [
@@ -182,9 +189,9 @@
       "type": "choice",
       "prompt": "Werkzeug: Reaktionsgleichung aufstellen und ausgleichen",
       "options": [
-        "Geg.: V = 0,250 L; c(NaOH) = 0,2 mol/L; M(NaOH) = 23 + 16 + 1 = 40 g/mol Ges.: m(NaOH) n(NaOH) = c · V = 0,2 mol/L · 0,250 L = 0,05 mol m(NaOH) = n · M = 0,05 mol · 40 g/mol = 2,0 g Antwort: Man benötigt 2,0 g Natriumhydroxid.",
-        "Die Ladung des Oxid-Ions folgt aus der Oktettregel: O 2−. Die Eisenladung ergibt sich dann aus der Verhältnisformel: FeO – Verhältnis 1:1 → Fe 2+ und O 2− → Eisen(II)-oxid Fe 2 O 3 – 3 · (−2) = −6, auf 2 Fe verteilt → Fe 3+ → …",
-        "Reaktionsgleichung in vier Schritten Wortgleichung aufstellen (welche Edukte, welche Produkte?). Formeln ermitteln: Molekülformeln über die Zahlwörter, Verhältnisformeln über den Ladungsausgleich. HOFBrINCl-Elemente als X 2 !"
+        "Zuerst beliebige Formeln notieren und danach die tiefgestellten Indizes so verändern, bis links und rechts gleich viele Zeichen stehen.",
+        "Nur die Namen der Stoffe aufschreiben; Formeln und Teilchenzahlen werden für eine Reaktionsgleichung nicht benötigt.",
+        "Wortgleichung aufstellen, korrekte Formeln ermitteln, nur Koeffizienten zum Ausgleichen setzen und anschließend jede Atomsorte kontrollieren."
       ],
       "answer": 2,
       "hints": [
@@ -374,10 +381,10 @@
       "type": "choice",
       "prompt": "Werkzeug: Stöchiometrisch rechnen – die neun Schritte",
       "options": [
-        "Quantitative Auswertung einer Reaktionsgleichung Reaktionsgleichung aufstellen und ausgleichen. Mengenaussage in mol unter die Gleichung schreiben. Gegebene Größe mit richtigem Symbol und Stoffbezug notieren.",
-        "Valenzstrichformel in neun Schritten Summenformel des Teilchens aufschreiben. Vorhandene Valenzelektronen (VE) aller Atome addieren. Bei Ionen: Ladungszahl bei Anionen addieren, bei Kationen subtrahieren.",
-        "Kalilauge: KOH(aq) Aluminiumhydroxid-Lösung: Al(OH) 3 (aq) Magnesiumhydroxid-Lösung: Mg(OH) 2 (aq) Die Zahl der Hydroxid-Ionen ergibt sich aus der Ladung des Metall-Kations (K +, Al 3+, Mg 2+ ).",
-        "IUPAC-Name in fünf Schritten Hauptkette suchen: die längste zusammenhängende Kohlenstoffkette, die die funktionelle Gruppe höchster Priorität enthält → gibt den Stammnamen (Meth-, Eth-, Prop-, But-, Pent- …)."
+        "Reaktionsgleichung ausgleichen, Gegebenes und Gesuchtes notieren, in Stoffmenge umrechnen, das molare Verhältnis anwenden, zurückrechnen und mit Einheit antworten.",
+        "Alle gegebenen Massen direkt addieren und die Summe als Produktmasse angeben; die Reaktionsgleichung wird erst danach geprüft.",
+        "Nur die molaren Massen vergleichen; Stoffmengenverhältnis, Einheiten und Stoffbezug spielen für das Ergebnis keine Rolle.",
+        "Zuerst das Ergebnis schätzen, anschließend alle Koeffizienten der Reaktionsgleichung mit demselben Faktor multiplizieren."
       ],
       "answer": 0,
       "hints": [

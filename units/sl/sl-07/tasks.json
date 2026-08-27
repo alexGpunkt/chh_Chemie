@@ -16,9 +16,11 @@
     "die Titration",
     "das Salz",
     "der Indikator"
+    ,"das Carbonat"
   ],
   "worterklaerungen": {
-    "Titration": "Ein Messverfahren zur Bestimmung einer unbekannten Konzentration."
+    "Titration": "Ein Messverfahren zur Bestimmung einer unbekannten Konzentration.",
+    "Carbonat": "Ein Salz mit dem Carbonat-Ion CO₃²⁻; mit Säure entsteht unter anderem Kohlenstoffdioxid."
   },
   "can_do": {
     "A": "Ich ordne pH-Werte, Indikatorfarben und Stoffe sicher zu.",
@@ -31,7 +33,9 @@
       "hinfuehrung": "In dieser Stunde kommt alles zusammen.",
       "erklaerung": [
         "H₃O⁺ macht sauer, OH⁻ macht alkalisch.",
-        "Zusammen ergeben sie Wasser."
+        "Zusammen ergeben sie Wasser.",
+        "Saure Lösungen reagieren mit vielen unedlen Metallen: Es entsteht Wasserstoff.",
+        "Mit Carbonaten wie Kalk entsteht Kohlenstoffdioxid — deshalb schäumt Entkalker."
       ],
       "merke": "Erst lesen, was gefragt ist. Dann antworten.",
       "visual": {
@@ -47,6 +51,7 @@
         "Protolyse: Säuren geben Protonen ab, Basen nehmen sie auf. Das Wasser ist immer beteiligt.",
         "pH-Skala: Sie misst die Konzentration der Oxonium-Ionen. Eine Stufe ist der Faktor 10.",
         "Neutralisation: H₃O⁺ + OH⁻ → 2 H₂O. Die übrigen Ionen bilden das Salz."
+        ,"Weitere typische Reaktionen: Säure + unedles Metall → Salz + Wasserstoff; Säure + Carbonat → Salz + Wasser + Kohlenstoffdioxid."
       ],
       "merke": "Protonenübertragung erklärt alles — von der Indikatorfarbe bis zur Titration.",
       "visual": {
@@ -63,6 +68,7 @@
         "Die pH-Skala linear lesen: Zwischen pH 3 und pH 5 liegt der Faktor 100, nicht 2.",
         "Säure und saure Lösung gleichsetzen: Ohne Wasser keine Oxonium-Ionen.",
         "Bei der Titration die Protonenzahl vergessen: Eine zweiprotonige Säure verbraucht doppelt so viel Lauge."
+        ,"Produkte verwechseln: Bei Metallen wird Wasserstoff frei, bei Carbonaten Kohlenstoffdioxid. Gasnachweis und Reaktionsgleichung müssen zusammenpassen."
       ],
       "merke": "Stärke ist nicht Konzentration. Eine pH-Stufe ist ein Faktor 10.",
       "visual": {
@@ -77,6 +83,8 @@
       "HCl + H₂O → H₃O⁺ + Cl⁻",
       "H₃O⁺ + OH⁻ → 2 H₂O",
       "Säure + Lauge → Salz + Wasser",
+      "Säure + unedles Metall → Salz + H₂",
+      "Säure + Carbonat → Salz + H₂O + CO₂",
       "c₁ · V₁ = c₂ · V₂"
     ],
     "saetze": [

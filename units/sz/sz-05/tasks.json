@@ -16,14 +16,18 @@
     "die Flammenfärbung",
     "der Nachweis",
     "die Fällungsreaktion"
+    ,"das Vorkommen"
+    ,"die Salzbildung"
   ],
   "worterklaerungen": {
-    "Flammenfärbung": "Manche Metall-Ionen färben eine Flamme charakteristisch."
+    "Flammenfärbung": "Manche Metall-Ionen färben eine Flamme charakteristisch.",
+    "Vorkommen": "Der Ort oder die Form, in der ein Stoff in Natur und Alltag zu finden ist.",
+    "Salzbildung": "Eine chemische Reaktion, bei der positiv und negativ geladene Ionen zu einer Ionensubstanz zusammentreten."
   },
   "can_do": {
-    "A": "Ich stelle einfache Salzformeln auf und nenne Eigenschaften von Salzen.",
-    "B": "Ich verbinde Formel, Gitter und Eigenschaften und werte Nachweise aus.",
-    "C": "Ich begründe Eigenschaften der Salze aus dem Gitteraufbau und bewerte Aussagen."
+    "A": "Ich stelle einfache Salzformeln auf und nenne Bildung, Vorkommen, Verwendung und Eigenschaften.",
+    "B": "Ich verbinde Salzbildung, Formel, Gitter, Eigenschaften, Verwendung und Nachweise.",
+    "C": "Ich begründe Eigenschaften und Verwendungen der Salze aus dem Gitteraufbau und bewerte Folgen ihres Einsatzes."
   },
   "lernkarten": {
     "A": {
@@ -31,7 +35,9 @@
       "hinfuehrung": "Salze bestehen aus Ionen.",
       "erklaerung": [
         "Die Ladungen gleichen sich aus.",
-        "Salze sind hart, spröde und hochschmelzend."
+        "Salze sind hart, spröde und hochschmelzend.",
+        "Salze entstehen aus positiven und negativen Ionen. Man findet sie zum Beispiel in Gestein, Meerwasser und Lebensmitteln.",
+        "Kochsalz würzt und konserviert; andere Salze werden als Dünger, Baustoff oder Streusalz verwendet."
       ],
       "merke": "Ladungssumme null — daraus folgt die Formel.",
       "visual": {
@@ -47,6 +53,8 @@
         "Flammenfärbung: Natrium gelb, Kalium violett, Calcium ziegelrot, Kupfer grün.",
         "Fällungsreaktionen: Chlorid-Ionen ergeben mit Silber-Ionen einen weißen Niederschlag, Sulfat-Ionen mit Barium-Ionen einen weißen.",
         "Leitfähigkeit zeigt, dass überhaupt Ionen vorliegen — welche, sagt sie nicht.",
+        "Salze können durch Reaktion geeigneter Elemente, durch Neutralisation oder durch Fällung gebildet werden. Beim Aufbau des Ionengitters wird häufig Energie frei.",
+        "Vorkommen und Verwendung hängen von den Eigenschaften ab: Natriumchlorid aus Steinsalz oder Meerwasser dient als Speise- und Industriesalz; andere Salze werden gezielt als Dünger oder Baustoff eingesetzt.",
         "Wie immer gilt: Ein Nachweis ist nur so viel wert wie seine Eindeutigkeit."
       ],
       "merke": "Flammenfärbung zeigt Metall-Ionen, Fällung zeigt Säurerest-Ionen.",
@@ -63,6 +71,7 @@
         "Warum spröde? Weil beim Verschieben gleiche Ladungen aufeinandertreffen.",
         "Warum hochschmelzend? Weil die Anziehung zwischen den Ionen stark ist.",
         "Warum erst gelöst leitfähig? Weil die Ionen erst dann beweglich sind.",
+        "Bei einer Bewertung gehören Nutzen und Folge zusammen: Streusalz erhöht die Verkehrssicherheit, kann aber Pflanzen, Böden, Gewässer und Fahrzeuge belasten.",
         "Jede dieser Antworten beginnt beim Bau und endet bei der beobachtbaren Eigenschaft."
       ],
       "merke": "Vom Aufbau zur Eigenschaft — nie umgekehrt.",
@@ -82,6 +91,7 @@
       "Salze: hart, spröde, hochschmelzend.",
       "Leitfähig erst gelöst oder geschmolzen.",
       "Flammenfärbung: Na gelb · K violett · Ca ziegelrot · Cu grün."
+      ,"Salzbildung: Kationen und Anionen bilden eine insgesamt ungeladene Ionensubstanz."
     ]
   },
   "videos": [

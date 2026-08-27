@@ -165,7 +165,109 @@ function kurzErklaertBauen(doc, lernkarte, stufe) {
   doc.y = oben - hoehe - 13;
 }
 
+/* FC-01 ist keine Rechenstunde. Das alte Blatt ließ Prozente von
+   Chemikalienmengen bestimmen und prüfte damit Mathematik statt sicheres
+   Handeln. Der Sonderfall erzeugt deshalb ein echtes Unterweisungsblatt mit
+   vollständigem Nachschlagetext, Situationen und schriftlicher Begründung. */
+function sicherheitsblattBauen(einheitId, einheitTitel, stufe, einheitsdaten) {
+  const doc = new PDF();
+  const kurs = einheitsdaten.sicherheitskurs || {};
+  const lernkarte = einheitsdaten.lernkarten?.[stufe];
+  const fragen = {
+    A: [
+      'Du kommst in den Chemieraum. Schreibe vier Dinge auf, die du vor dem Start prüfst oder vorbereitest.',
+      'Eine Flasche trägt die Piktogramme „entzündbar“ und „ätzend“. Was liest du zusätzlich, und was darfst du noch nicht tun?',
+      'Ein Stoff spritzt in ein Auge. Beschreibe die richtige Reihenfolge der Sofortmaßnahmen.',
+      'Erkläre in einem Satz, warum dieses bearbeitete Blatt noch keine Erlaubnis zum Experimentieren ist.'
+    ],
+    B: [
+      'Erkläre, welche unterschiedlichen Informationen Piktogramm, Signalwort, H-Satz und P-Satz liefern.',
+      'Ein Gefäß kippt um und daneben liegt zerbrochenes Glas. Beschreibe dein Handeln und begründe, was du nicht selbst tust.',
+      'Formuliere einen Notfallplan für Stoffkontakt mit Haut oder Auge und für einen Räumungsalarm.',
+      'Ordne die Aufgaben zu: Was entscheidet die Lehrkraft, und was müssen Lernende vor, während und nach dem Versuch tun?'
+    ],
+    C: [
+      'Bewerte die Aussage: „Das Piktogramm reicht aus, um die Schutzmaßnahme festzulegen.“ Begründe mit dem Aufbau eines Gefahrstoffetiketts.',
+      'Eine Gruppe will Stoffmenge und Aufbau eigenmächtig ändern, um schneller fertig zu werden. Analysiere die Risiken und formuliere das korrekte Vorgehen.',
+      'Entwirf eine begründete Handlungsfolge für Gasfreisetzung mit gleichzeitigem Augenreiz bei einer Person.',
+      'Trenne in einer Tabelle: Gefährdungsbeurteilung, Ersatzstoffprüfung, Freigabe, Regelbefolgung, Störungsmeldung und Entsorgung – Aufgabe der Lehrkraft oder der Lernenden?'
+    ]
+  }[stufe];
+  const loesungen = {
+    A: [
+      'Zum Beispiel: Wege freihalten, geschlossene Schuhe, Haare zusammen, Schutzbrille, Notfalleinrichtungen finden, Anleitung lesen und Freigabe abwarten.',
+      'Signalwort sowie H- und P-Sätze lesen; Betriebsanweisung und Lehrkraft beachten; die Flasche nicht eigenmächtig anfassen oder öffnen.',
+      'Sofort melden, unverzüglich die Augendusche benutzen und mindestens 10 Minuten beziehungsweise nach Notfallplan spülen.',
+      'Nur die Lehrkraft darf nach Prüfung des konkreten Versuchs den Start freigeben.'
+    ],
+    B: [
+      'Piktogramm: Gefahrenart; Signalwort: Schweregrad; H-Satz: konkrete Gefahr; P-Satz: Schutz- und Notfallmaßnahme.',
+      'Abstand halten, andere warnen, Lehrkraft informieren; Stoff und Scherben wegen unbekannter Gefahr nicht selbst beseitigen.',
+      'Stoffkontakt: melden, sofort und lange spülen; Räumung: Anweisung befolgen, Fluchtweg nutzen, zur Sammelstelle gehen.',
+      'Lehrkraft: Gefährdungsbeurteilung, Mengen, Aufbau, Freigabe. Lernende: lesen, Regeln einhalten, nichts verändern, melden und nach Anweisung entsorgen.'
+    ],
+    C: [
+      'Die Aussage ist falsch: Erst Piktogramm, Signalwort, H-/P-Sätze, Betriebsanweisung und konkrete Gefährdungsbeurteilung ergeben das Vorgehen.',
+      'Änderungen können Exposition, Reaktionsgeschwindigkeit oder Produktmenge erhöhen. Arbeit stoppen, Vorschlag melden und nur einen neu freigegebenen Auftrag ausführen.',
+      'Eigenschutz, Arbeit stoppen, warnen und Lehrkraft alarmieren; Person aus dem Gefahrenbereich, Auge sofort spülen; Raum nur nach Anweisung räumen und Sammelstelle aufsuchen.',
+      'Lehrkraft: Gefährdungsbeurteilung, Ersatzstoffprüfung, Freigabe und Entsorgungsweg. Lernende: Regeln befolgen, Störungen melden und nach Anweisung entsorgen.'
+    ]
+  }[stufe];
+
+  doc.text(`${einheitId.toUpperCase()} · ${einheitTitel}`, { groesse: 16, fett: true, abstand: 2 });
+  doc.text(`Sicherheitsunterweisung und Fallarbeit · Stufe ${stufe} (${STUFE_NAME[stufe]})`,
+    { groesse: 11, abstand: 10 });
+  doc.linie(doc.rand, doc.y + 4, doc.breite - doc.rand, doc.y + 4, 1);
+  doc.luecke(14);
+  doc.text('Name: ______________________________     Klasse: ____________     Datum: ______________',
+    { groesse: 10, abstand: 12 });
+  const lehrbuch = einheitsdaten.lehrbuch;
+  if (lehrbuch) doc.text(`Im Lehrbuch: ${lehrbuch.titel}, PDF-S. ${lehrbuch.seiten_von}–${lehrbuch.seiten_bis}.`,
+    { groesse: 9.5, abstand: 10, farbe: [0.35, 0.35, 0.35] });
+  kurzErklaertBauen(doc, lernkarte, stufe);
+
+  const grenze = 'Wichtig: ' + (kurs.grenze || 'Praktische Versuche beginnen nur nach Freigabe durch die Lehrkraft.');
+  doc.platzPruefen(doc.hoeheVon(grenze, 10, true, 3) + 26);
+  doc.rahmen(doc.hoeheVon(grenze, 10, true, 3) + 16, { fuellung: [1, 0.95, 0.92] });
+  const grenzeOben = doc.y;
+  doc.y -= 9;
+  doc.text(grenze, { groesse: 10, fett: true, abstand: 3, x: doc.rand + 10 });
+  doc.y = grenzeOben - doc.hoeheVon(grenze, 10, true, 3) - 28;
+
+  doc.text('Die fünf Sicherheitsbereiche', { groesse: 12, fett: true, abstand: 6 });
+  for (const abschnitt of kurs.abschnitte || []) {
+    const text = (abschnitt.punkte || []).map(p => '• ' + p).join('\n');
+    const hoehe = doc.hoeheVon(text, 9.2, false, 2.5) + 28;
+    doc.platzPruefen(hoehe);
+    doc.text(abschnitt.titel, { groesse: 10.5, fett: true, abstand: 3 });
+    doc.text(text, { groesse: 9.2, abstand: 2.5 });
+    doc.luecke(7);
+  }
+
+  doc.platzPruefen(80);
+  doc.text('Fallaufgaben', { groesse: 13, fett: true, abstand: 5 });
+  fragen.forEach((frage, i) => {
+    doc.platzPruefen(140);
+    doc.text(`Aufgabe ${i + 1}`, { groesse: 11, fett: true, abstand: 3 });
+    doc.text(frage, { groesse: 11, abstand: 4 });
+    doc.schreibfeld(stufe === 'C' ? 112 : 90);
+    doc.luecke(14);
+  });
+
+  doc.platzPruefen(120);
+  doc.text('Selbstkontrolle – erst nach der Bearbeitung lesen', { groesse: 11, fett: true, abstand: 5 });
+  loesungen.forEach((loesung, i) => doc.text(`${i + 1}. ${loesung}`,
+    { groesse: 9.3, abstand: 3, farbe: [0.35, 0.35, 0.35] }));
+  return {
+    pdf: doc.bauen(`${einheitId.toUpperCase()} Sicherheitsunterweisung Stufe ${stufe}`),
+    aufgaben: fragen.map((prompt, i) => ({ prompt, solution: loesungen[i] }))
+  };
+}
+
 function blattBauen(bereich, einheitId, blatt, einheitTitel, stufe, einheitsdaten) {
+  if (einheitId === 'fc-01') {
+    return sicherheitsblattBauen(einheitId, einheitTitel, stufe, einheitsdaten);
+  }
   /* Eigene Saat je Lernweg: Sonst stünden auf dem A- und dem B-Blatt
      dieselben Zahlen, und der Wechsel des Lernwegs brächte nichts Neues. */
   const saat = saatAus('chemie710-uebungsblatt-' + einheitId + '-' + stufe);

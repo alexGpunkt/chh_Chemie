@@ -8,7 +8,7 @@
    Sonst sehen die Geräte weiter die alte Fassung.
    ============================================================ */
 
-const VERSION = 'chemie710-v7-einheitenquiz';
+const VERSION = 'chemie710-v8-rlp-sicherheit';
 
 /* ---------- Was NICHT ins Offlinepaket gehört ----------
    Bis v2 lud jedes Schülergerät bei der Installation auch das

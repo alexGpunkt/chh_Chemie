@@ -14,16 +14,18 @@
     "der Dipol",
     "die Hydrathülle",
     "die Elektrolyse",
+    "der Wassernachweis",
     "die Dichteanomalie",
     "die Schlussfolgerung"
   ],
   "worterklaerungen": {
-    "Schlussfolgerung": "Der Satz, der aus Beobachtung und Wissen das Ergebnis zieht."
+    "Schlussfolgerung": "Der Satz, der aus Beobachtung und Wissen das Ergebnis zieht.",
+    "Wassernachweis": "Eine Probe, die durch einen eindeutigen Farbumschlag zeigt, dass Wasser vorhanden ist."
   },
   "can_do": {
-    "A": "Ich beantworte gemischte Aufgaben zum Thema Wasser sicher.",
-    "B": "Ich verbinde Molekülbau, Eigenschaften und Reaktionen des Wassers miteinander.",
-    "C": "Ich begründe Eigenschaften des Wassers aus seinem Bau und bewerte Aussagen dazu."
+    "A": "Ich beschreibe Wasser, seine Zerlegung und einen sicheren Wassernachweis.",
+    "B": "Ich verbinde Molekülbau, Eigenschaften, Reaktionen und Wassernachweise miteinander.",
+    "C": "Ich begründe Eigenschaften des Wassers aus seinem Bau und bewerte die Aussagekraft eines Nachweises."
   },
   "lernkarten": {
     "A": {
@@ -32,7 +34,8 @@
       "erklaerung": [
         "Wasser besteht aus H und O.",
         "Wasser ist ein Dipol.",
-        "Eis schwimmt."
+        "Eis schwimmt.",
+        "Watesmo-Papier färbt sich bei Wasser blau. Das ist ein Wassernachweis."
       ],
       "merke": "Erst lesen, was gefragt ist. Dann antworten.",
       "visual": {
@@ -47,7 +50,8 @@
       "erklaerung": [
         "Zusammensetzung: Wasser ist eine Verbindung aus H und O im Verhältnis 2 : 1 — nachweisbar durch Elektrolyse.",
         "Bau: Das Molekül ist gewinkelt und trägt Teilladungen. Es ist ein Dipol.",
-        "Folgen: Aus dem Dipolcharakter ergeben sich Löseverhalten, hohe Siedetemperatur und Dichteanomalie."
+        "Folgen: Aus dem Dipolcharakter ergeben sich Löseverhalten, hohe Siedetemperatur und Dichteanomalie.",
+        "Nachweis: Watesmo-Papier wird bei Wasser blau; wasserfreies Kupfersulfat wird von weiß zu blau. Eine Vergleichsprobe zeigt, ob der Farbumschlag wirklich von Wasser kommt."
       ],
       "merke": "Zusammensetzung → Bau → Eigenschaften. In dieser Richtung wird begründet.",
       "visual": {
@@ -62,6 +66,7 @@
       "erklaerung": [
         "Richtig: Der gewinkelte Bau erzeugt Teilladungen, deshalb ist Wasser ein Dipol, deshalb löst es Ionen.",
         "Falsch: Wasser löst Ionen, deshalb ist es ein Dipol. Die Beobachtung ist der Beleg, nicht die Ursache.",
+        "Ein Wassernachweis belegt nur, dass Wasser vorhanden ist. Er sagt weder, woher es stammt, noch ob die Probe reines Wasser enthält.",
         "Bei Vergleichsaufgaben immer beide Seiten nennen: Was ist gleich, was ist verschieden?",
         "Bei Bewertungsaufgaben zuerst das Kriterium nennen."
       ],
@@ -84,6 +89,7 @@
       "Gleiches löst sich in Gleichem.",
       "Größte Dichte bei 4 °C; Eis schwimmt.",
       "Nur Koeffizienten ändern, nie die Indizes."
+      ,"Watesmo-Papier: Farbumschlag zu blau bedeutet Wasser vorhanden."
     ]
   },
   "videos": [

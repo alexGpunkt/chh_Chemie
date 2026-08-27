@@ -15,9 +15,11 @@
     "das Carboxylat",
     "die Neutralisation",
     "die Aminosäure"
+    ,"die Essigherstellung"
   ],
   "worterklaerungen": {
-    "Struktur-Eigenschafts-Konzept": "Aus dem Bau folgen die Eigenschaften."
+    "Struktur-Eigenschafts-Konzept": "Aus dem Bau folgen die Eigenschaften.",
+    "Essigherstellung": "Essigsäurebakterien oxidieren Ethanol mit Sauerstoff zu Ethansäure und Wasser."
   },
   "can_do": {
     "A": "Ich benenne Carbonsäuren und erkenne die Carboxygruppe.",
@@ -30,7 +32,9 @@
       "hinfuehrung": "In dieser Stunde kommt alles zusammen.",
       "erklaerung": [
         "–COOH ist die funktionelle Gruppe.",
-        "Die Salze enden auf -at."
+        "Die Salze enden auf -at.",
+        "Ethansäure entsteht bei der Essigherstellung aus Ethanol und Sauerstoff.",
+        "Allgemein entstehen Alkansäuren durch Oxidation geeigneter Alkanale; diese können zuvor aus primären Alkanolen entstehen."
       ],
       "merke": "Erst lesen, was gefragt ist. Dann antworten.",
       "visual": {
@@ -46,6 +50,7 @@
         "Bau: Die Carboxygruppe gibt ein Proton ab — anders als die Hydroxylgruppe des Alkohols.",
         "Reihe: CₙH₂ₙ₊₁COOH, Endung -säure, Trivialnamen daneben.",
         "Reaktion: Mit Laugen entstehen Salze, mit Alkoholen Ester."
+        ,"Herstellung: primärer Alkanol → Alkanal → Alkansäure. Bei Essig oxidieren Bakterien Ethanol mit Sauerstoff zu Ethansäure und Wasser."
       ],
       "merke": "Die funktionelle Gruppe bestimmt das Reaktionsverhalten.",
       "visual": {
@@ -62,6 +67,7 @@
         "Stärke und Konzentration verwechseln: Auch konzentrierte Essigsäure bleibt eine schwache Säure.",
         "Von natürlicher Herkunft auf Unbedenklichkeit schließen.",
         "Alkohol und Säure verwechseln: Die OH-Gruppe allein macht noch nicht sauer."
+        ,"Essigherstellung ist keine Gärung zu Ethanol, sondern dessen anschließende Oxidation durch Essigsäurebakterien bei Sauerstoffzufuhr."
       ],
       "merke": "Das C der Carboxygruppe zählt mit. Stärke ist nicht Konzentration.",
       "visual": {
@@ -82,6 +88,8 @@
       "Organische Säuren sind schwache Säuren.",
       "Aus -säure wird -at.",
       "Das C-Atom der Carboxygruppe zählt zur Kette."
+      ,"Herstellung: primärer Alkanol → Alkanal → Alkansäure."
+      ,"Essig: C₂H₅OH + O₂ → CH₃COOH + H₂O."
     ]
   },
   "videos": [

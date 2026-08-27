@@ -17,9 +17,13 @@
     "tertiär",
     "die Wasserstoffbrücke",
     "die Gärung"
+    ,"das Lösungsmittel"
+    ,"die Herstellung"
   ],
   "worterklaerungen": {
-    "Struktur-Eigenschafts-Konzept": "Aus dem Bau eines Moleküls lassen sich seine Eigenschaften ableiten."
+    "Struktur-Eigenschafts-Konzept": "Aus dem Bau eines Moleküls lassen sich seine Eigenschaften ableiten.",
+    "Lösungsmittel": "Eine Flüssigkeit, in der sich andere Stoffe verteilen; Alkohole können je nach Kettenlänge polare und unpolare Stoffe lösen.",
+    "Herstellung": "Ethanol entsteht biologisch durch Gärung oder technisch aus Ethen; Methanol wird technisch vor allem aus Synthesegas hergestellt."
   },
   "can_do": {
     "A": "Ich benenne Alkohole und erkenne die Hydroxylgruppe sicher.",
@@ -32,7 +36,9 @@
       "hinfuehrung": "In dieser Stunde kommt alles zusammen.",
       "erklaerung": [
         "–OH ist die funktionelle Gruppe.",
-        "Kurze Ketten lösen sich in Wasser."
+        "Kurze Ketten lösen sich in Wasser.",
+        "Ethanol entsteht bei der Gärung von Zucker. Methanol wird technisch aus Gasen hergestellt und ist stark giftig.",
+        "Ethanol kann Wasser und manche Fette lösen. Deshalb steckt es zum Beispiel in Desinfektions- und Reinigungsmitteln."
       ],
       "merke": "Erst lesen, was gefragt ist. Dann antworten.",
       "visual": {
@@ -48,6 +54,8 @@
         "Bau: polare OH-Gruppe plus unpolarer Rest. Ihr Verhältnis bestimmt Löslichkeit und Siedepunkt.",
         "Reihe: CₙH₂ₙ₊₁OH, Endung -ol, ab drei C-Atomen mit Positionsangabe.",
         "Reaktion: primär → Alkanal → Säure, sekundär → Alkanon, tertiär → nichts."
+        ,"Herstellung: Gärung liefert Ethanol aus Glucose; technisch kann Ethanol auch aus Ethen und Wasser entstehen. Methanol wird aus Synthesegas hergestellt."
+        ,"Lösungsmittel: Die polare OH-Gruppe und der unpolare Alkylrest erklären, warum kurze Alkanole sowohl Wasser als auch viele organische Stoffe lösen."
       ],
       "merke": "Struktur bestimmt Eigenschaften — und auch das Reaktionsverhalten.",
       "visual": {
@@ -64,6 +72,8 @@
         "Reaktionsverhalten: Zähle die C-Nachbarn am OH-tragenden Atom — daraus folgt das Oxidationsprodukt.",
         "Bewertung: Aussagen über die Wirkung von Alkohol brauchen Angaben zu Menge und Zeit. „Ungiftig“ oder „harmlos“ sind ohne diese Angaben keine Aussagen.",
         "Ähnlicher Bau erlaubt keinen Schluss auf ähnliche Wirkung — Methanol und Ethanol, Glycol und Glycerin sind die Beispiele dafür."
+        ,"Herstellungsweg und Reinheit gehören zur Bewertung: Gärprodukte enthalten Wasser und Begleitstoffe; technische Synthesen benötigen Rohstoffe, Energie und Aufarbeitung."
+        ,"Die Eignung als Lösungsmittel folgt aus dem Bau, die sichere Verwendung zusätzlich aus Flüchtigkeit, Entzündbarkeit und gesundheitlicher Wirkung."
       ],
       "merke": "Aus dem Bau folgen Eigenschaften — aus der Ähnlichkeit folgt keine Wirkung.",
       "visual": {
@@ -85,6 +95,8 @@
       "Bis Propanol mit Wasser mischbar, ab Butanol abnehmend.",
       "Primär, sekundär, tertiär: Zahl der C-Nachbarn am OH-C-Atom.",
       "Abbau im Blut: rund 0,1 bis 0,15 ‰ je Stunde."
+      ,"Gärung: C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂."
+      ,"Kurze Alkanole verbinden polaren und unpolaren Molekülteil und wirken deshalb als Lösungsmittel."
     ]
   },
   "videos": [

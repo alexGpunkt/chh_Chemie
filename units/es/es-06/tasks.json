@@ -16,9 +16,11 @@
     "der Polyester",
     "die Kondensationsreaktion",
     "das Gleichgewicht"
+    ,"die Estergruppe"
   ],
   "worterklaerungen": {
-    "Kondensationsreaktion": "Zwei Moleküle verbinden sich unter Abspaltung eines kleinen Moleküls, meist Wasser."
+    "Kondensationsreaktion": "Zwei Moleküle verbinden sich unter Abspaltung eines kleinen Moleküls, meist Wasser.",
+    "Estergruppe": "Die Atomgruppe –COO– zwischen Säurerest und Alkoholrest; sie kennzeichnet Ester."
   },
   "can_do": {
     "A": "Ich benenne Ester und weiß, woraus sie entstehen.",
@@ -31,7 +33,8 @@
       "hinfuehrung": "In dieser Stunde kommt alles zusammen.",
       "erklaerung": [
         "Säure plus Alkohol ergibt Ester und Wasser.",
-        "Fette und Kunststoffe sind ebenfalls Ester."
+        "Die Estergruppe sieht so aus: –COO–. Links liegt der Säurerest, rechts der Alkoholrest.",
+        "Fette und manche Kunststoffe enthalten ebenfalls Estergruppen."
       ],
       "merke": "Erst lesen, was gefragt ist. Dann antworten.",
       "visual": {
@@ -45,6 +48,7 @@
       "hinfuehrung": "Der gesamte Bereich beruht auf einer einzigen Reaktion — der Veresterung. Alles Weitere ist ihre Anwendung in verschiedenem Maßstab.",
       "erklaerung": [
         "Ein Alkohol und eine Säure: Es entsteht ein einzelnes Estermolekül — ein Aromastoff oder Lösungsmittel.",
+        "Struktur: Die Gruppe R–COO–R' verbindet Säurerest und Alkoholrest. An dieser Estergruppe kann die Hydrolyse das Molekül wieder spalten.",
         "Glycerin mit drei OH-Gruppen und drei Fettsäuren: Es entsteht ein Fett.",
         "Ein Fett mit Lauge gespalten: Es entstehen Glycerin und Seife.",
         "Bausteine mit je zwei funktionellen Gruppen: Es entsteht ein Polyester.",
@@ -64,6 +68,7 @@
         "Stoff und Teilchen: Was man sieht, wird auf der Teilchenebene gedeutet — vom Aggregatzustand bis zur Micelle.",
         "Struktur und Eigenschaft: Der Bau bestimmt die Eigenschaften — vom Ionengitter über den Wasserdipol bis zur Kettenlänge im Polyester.",
         "Chemische Reaktion: Es geht kein Atom verloren — von der Massenerhaltung bis zur Polykondensation.",
+        "Struktur der Ester: Die Carbonylgruppe C=O und das benachbarte O bilden gemeinsam die Estergruppe –COO–. Ihre Polarität und die Größe der Reste beeinflussen Löslichkeit und Siedetemperatur.",
         "Energie: Jede Reaktion setzt Energie um — von der Verbrennung bis zum Katalysator.",
         "Und über allem: Eine Bewertung braucht ein Kriterium, eine Begründung eine Ursache und ein Modell die Kenntnis seiner Grenzen."
       ],
@@ -86,6 +91,7 @@
       "Verseifung ist ihre Umkehrung mit Lauge.",
       "Fette sind Ester aus Glycerin und drei Fettsäuren.",
       "Für einen Polyester braucht jeder Baustein zwei funktionelle Gruppen."
+      ,"Estergruppe: R–COO–R'."
     ]
   },
   "videos": [

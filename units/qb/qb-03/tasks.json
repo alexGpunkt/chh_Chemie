@@ -210,8 +210,8 @@
       "type": "choice",
       "prompt": "Definiere Stoffmenge, Mol, Avogadro-Konstante und molare Masse.",
       "options": [
-        "Geg.: V = 0,250 L; c(NaOH) = 0,2 mol/L; M(NaOH) = 23 + 16 + 1 = 40 g/mol Ges.: m(NaOH) n(NaOH) = c · V = 0,2 mol/L · 0,250 L = 0,05 mol m(NaOH) = n · M = 0,05 mol · 40 g/mol = 2,0 g Antwort: Man benötigt 2,0 g Natriumhydroxid.",
-        "Größe Symbol Einheit Zahlenwert Masse m g – Molare Masse M g/mol aus dem PSE ablesbar Stoffmenge n mol – Teilchenzahl N – – Avogadro-Konstante N A 1/mol 6,022 · 10 23 mol −1 Molares Volumen (Gase) V m L/mol 22,4 L/mol bei …",
+        "Die Stoffmenge ist die Masse einer Probe in Gramm. Ein Mol ist immer genau ein Gramm, und die molare Masse gibt das Volumen an.",
+        "Die Stoffmenge beschreibt die Konzentration einer Lösung. Ein Mol entspricht einem Liter, und die Avogadro-Konstante ist die Dichte.",
         "Stoffmenge n: Größe zur Beschreibung einer Stoffportion; gibt an, wie viele Teilchen sie enthält. Einheit: mol. 1 mol ist die Stoffmenge einer Portion, die 6,022 · 10 23 Teilchen (Atome, Moleküle oder Ionen) enthält."
       ],
       "answer": 2,
@@ -368,9 +368,9 @@
       "prompt": "Berechne die Stoffmenge in 18,0 g Wasser. Verwende M(H₂O)=18,0 g/mol.",
       "options": [
         "n = m/M = 18,0 g / 18,0 g/mol = 1,00 mol.",
-        "HCl ist eine starke Säure → vollständige Protolyse c(H 3 O + ) = c(HCl) = 0,01 mol/L = 10 −2 mol/L pH = − lg (10 −2 ) = 2 Antwort: Die Lösung hat den pH-Wert 2.",
-        "Nur Propanal (Aldehyd) lässt sich zur Carbonsäure oxidieren; Propanon (Keton) nicht. Beide Nachweisreaktionen fallen daher nur bei Propanal positiv aus.",
-        "N = n·N_A = 0,50·6,022·10²³ ≈ 3,01·10²³ Teilchen."
+        "n = m · M = 18,0 g · 18,0 g/mol = 324 mol.",
+        "n = M/m = 18,0 g/mol : 18,0 g = 1,00 g.",
+        "n = m/M = 18,0 g : 18,0 g/mol = 0,50 mol."
       ],
       "answer": 0,
       "hints": [

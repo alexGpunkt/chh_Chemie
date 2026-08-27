@@ -1809,3 +1809,105 @@ body .heft-text { font-size: 16px; }
   body .zeitplan-kopf span,
   body .zeitplan-leiste { display: none; }
 }
+
+/* FC-01 · geführte Sicherheitsunterweisung. Große Ziele, kurze Abschnitte
+   und eine einspaltige mobile Darstellung unterstützen auch Lernende mit
+   geringer Lesesicherheit. */
+body .sicherheitskurs {
+  margin-top: 24px;
+  padding: clamp(16px, 3vw, 22px);
+  border: 2px solid #d7a522;
+  border-radius: 16px;
+  background: #fffaf0;
+  color: #192538;
+}
+body .sicherheitskurs-titel {
+  margin: 0 0 12px;
+  font-size: clamp(20px, 3.5vw, 24px);
+}
+body .sicherheitskurs-grenze {
+  margin: 0 0 16px;
+  padding: 13px 15px;
+  border-left: 5px solid #bf3d2f;
+  border-radius: 8px;
+  background: #fff0ed;
+  line-height: 1.55;
+}
+body .sicherheitskurs-abschnitte { display: grid; gap: 9px; }
+body .sicherheitsabschnitt {
+  overflow: clip;
+  border: 1px solid #cbd4df;
+  border-radius: 11px;
+  background: #fff;
+}
+body .sicherheitsabschnitt summary {
+  min-height: 50px;
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 800;
+  line-height: 1.35;
+}
+body .sicherheitsabschnitt[open] summary { border-bottom: 1px solid #dce2e9; }
+body .sicherheitsabschnitt ul {
+  margin: 0;
+  padding: 14px 18px 16px 2.2rem;
+  display: grid;
+  gap: 9px;
+}
+body .sicherheitsabschnitt li { line-height: 1.55; }
+body .sicherheitscheck {
+  margin: 18px 0 0;
+  padding: 16px;
+  border: 2px solid #426d9b;
+  border-radius: 12px;
+  background: #f3f8fd;
+}
+body .sicherheitscheck legend { padding: 0 7px; font-weight: 900; font-size: 18px; }
+body .sicherheitscheck-hinweis { margin: 0 0 12px; line-height: 1.5; }
+body .sicherheitscheck label {
+  min-height: 48px;
+  padding: 9px 5px;
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  gap: 10px;
+  align-items: start;
+  cursor: pointer;
+  line-height: 1.45;
+}
+body .sicherheitscheck-feld { width: 24px; height: 24px; margin: 0; accent-color: #25633c; }
+body .sicherheitscheck-status { margin: 10px 0 0; font-weight: 800; color: #8a341f; }
+body .sicherheitscheck-status.ist-fertig { color: #25633c; }
+body .sicherheitskurs-kompakt {
+  margin-top: 14px;
+  border: 1px solid #d7a522;
+  border-radius: 11px;
+  background: #fffaf0;
+}
+body .sicherheitskurs-kompakt > summary {
+  min-height: 50px;
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 800;
+}
+body .sicherheitskurs-kompakt > .sicherheitskurs { margin: 0; border: 0; border-top: 1px solid #ead18d; border-radius: 0 0 11px 11px; }
+body .btn:disabled { cursor: not-allowed; opacity: .55; }
+
+@media (max-width: 560px) {
+  body .sicherheitskurs { margin-top: 18px; padding: 14px; }
+  body .sicherheitskurs-grenze { padding: 12px; }
+  body .sicherheitsabschnitt summary { min-height: 54px; padding: 13px 12px; }
+  body .sicherheitsabschnitt ul { padding: 13px 12px 15px 1.9rem; }
+  body .sicherheitscheck { padding: 13px 11px; }
+  body .sicherheitscheck label { grid-template-columns: 28px 1fr; }
+}
+
+@media print {
+  body .sicherheitskurs-kompakt { display: block; }
+  body .sicherheitskurs-kompakt > summary { display: none; }
+  body .sicherheitsabschnitt { break-inside: avoid; }
+  body .sicherheitscheck { display: none; }
+}

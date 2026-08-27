@@ -34,7 +34,8 @@
       "hinfuehrung": "Bei manchen Reaktionen wandern Elektronen von einem Teilchen zum anderen.",
       "erklaerung": [
         "Wer abgibt, wird oxidiert.",
-        "Wer aufnimmt, wird reduziert."
+        "Wer aufnimmt, wird reduziert.",
+        "Die Reaktionsgleichung zeigt beide Vorgänge zusammen, zum Beispiel Fe + CuSO₄ → FeSO₄ + Cu."
       ],
       "merke": "Abgeben = Oxidation. Aufnehmen = Reduktion.",
       "beispiel": {
@@ -76,7 +77,7 @@
         "Reduktion getrennt aufschreiben: Cu²⁺ + 2 e⁻ → Cu",
         "Die Zahl der abgegebenen und aufgenommenen Elektronen muss gleich sein. Stimmt sie nicht, werden die Teilgleichungen passend vervielfacht.",
         "Beispiel: Al → Al³⁺ + 3 e⁻ und Cu²⁺ + 2 e⁻ → Cu. Kleinstes gemeinsames Vielfaches von 3 und 2 ist 6 — also 2 Al und 3 Cu²⁺.",
-        "Zum Schluss werden beide Hälften addiert; die Elektronen kürzen sich heraus."
+        "Zum Schluss werden beide Hälften zur vollständigen Reaktionsgleichung addiert; die Elektronen kürzen sich heraus."
       ],
       "merke": "Abgegebene und aufgenommene Elektronen müssen gleich viele sein.",
       "visual": {

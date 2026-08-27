@@ -27,6 +27,10 @@ Zwei Dokumente bestimmen den Aufbau:
 Die zwölf Lernbereiche entsprechen eins zu eins den zwölf Unterrichtsreihen.
 Die Zahl der Einheiten je Bereich folgt den Stundenzahlen des SchiC; jeder
 Bereich schließt mit einer Einheit, die anwendet und auf die Prüfung vorbereitet.
+Der nach Themenfeld und Lernweg prüfbare Befund steht in
+[`RLP-ABGLEICH.md`](RLP-ABGLEICH.md). Er belegt die schriftliche Abdeckung,
+ersetzt aber nicht die praktisch zu erwerbende Experimentierkompetenz und die
+schulische Sicherheitsbelehrung durch eine Lehrkraft.
 
 | Bereich | Titel | Klasse | Themenfeld | Einheiten | Aufgaben |
 |---|---|---|---|---|---|
@@ -724,4 +728,4 @@ Ehrlich benannt, damit es nicht übersehen wird:
 
 Alle Fassungen mit Änderungen und Einschränkungen stehen in `CHANGELOG.md`.
 
-Cache-Version: `chemie710-v7-einheitenquiz`.
+Cache-Version: `chemie710-v8-rlp-sicherheit`.
