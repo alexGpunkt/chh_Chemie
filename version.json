@@ -1,12 +1,11 @@
 {
   "name": "Chemie 7–10 · Campus Hannah Höch",
-  "version": "v4",
-  "cache_version": "chemie710-v4-responsive",
+  "version": "v10",
+  "cache_version": "chemie710-v10-schuelerarbeitsblaetter",
   "source_commit": null,
-  "source_branch": "develop",
+  "source_branch": "codex/chemie-lehrbuch-v5",
   "source_dirty": true,
-  "gebaut_am": "2026-08-20T00:00:00Z",
+  "gebaut_am": "2026-09-01T00:00:00Z",
   "tracking_aktiv": true,
   "einheiten": 76
 }
-

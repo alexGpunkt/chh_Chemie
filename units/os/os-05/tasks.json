@@ -15,9 +15,11 @@
     "das Carboxylat",
     "die Neutralisation",
     "die Aminosäure"
+    ,"die Essigherstellung"
   ],
   "worterklaerungen": {
-    "Struktur-Eigenschafts-Konzept": "Aus dem Bau folgen die Eigenschaften."
+    "Struktur-Eigenschafts-Konzept": "Aus dem Bau folgen die Eigenschaften.",
+    "Essigherstellung": "Essigsäurebakterien oxidieren Ethanol mit Sauerstoff zu Ethansäure und Wasser."
   },
   "can_do": {
     "A": "Ich benenne Carbonsäuren und erkenne die Carboxygruppe.",
@@ -30,7 +32,9 @@
       "hinfuehrung": "In dieser Stunde kommt alles zusammen.",
       "erklaerung": [
         "–COOH ist die funktionelle Gruppe.",
-        "Die Salze enden auf -at."
+        "Die Salze enden auf -at.",
+        "Ethansäure entsteht bei der Essigherstellung aus Ethanol und Sauerstoff.",
+        "Allgemein entstehen Alkansäuren durch Oxidation geeigneter Alkanale; diese können zuvor aus primären Alkanolen entstehen."
       ],
       "merke": "Erst lesen, was gefragt ist. Dann antworten.",
       "visual": {
@@ -46,6 +50,7 @@
         "Bau: Die Carboxygruppe gibt ein Proton ab — anders als die Hydroxylgruppe des Alkohols.",
         "Reihe: CₙH₂ₙ₊₁COOH, Endung -säure, Trivialnamen daneben.",
         "Reaktion: Mit Laugen entstehen Salze, mit Alkoholen Ester."
+        ,"Herstellung: primärer Alkanol → Alkanal → Alkansäure. Bei Essig oxidieren Bakterien Ethanol mit Sauerstoff zu Ethansäure und Wasser."
       ],
       "merke": "Die funktionelle Gruppe bestimmt das Reaktionsverhalten.",
       "visual": {
@@ -62,6 +67,7 @@
         "Stärke und Konzentration verwechseln: Auch konzentrierte Essigsäure bleibt eine schwache Säure.",
         "Von natürlicher Herkunft auf Unbedenklichkeit schließen.",
         "Alkohol und Säure verwechseln: Die OH-Gruppe allein macht noch nicht sauer."
+        ,"Essigherstellung ist keine Gärung zu Ethanol, sondern dessen anschließende Oxidation durch Essigsäurebakterien bei Sauerstoffzufuhr."
       ],
       "merke": "Das C der Carboxygruppe zählt mit. Stärke ist nicht Konzentration.",
       "visual": {
@@ -82,6 +88,8 @@
       "Organische Säuren sind schwache Säuren.",
       "Aus -säure wird -at.",
       "Das C-Atom der Carboxygruppe zählt zur Kette."
+      ,"Herstellung: primärer Alkanol → Alkanal → Alkansäure."
+      ,"Essig: C₂H₅OH + O₂ → CH₃COOH + H₂O."
     ]
   },
   "videos": [
@@ -127,7 +135,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -152,7 +160,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -181,33 +189,35 @@
         "pruefung"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
-      "id": "OS05-A4-004",
+      "id": "OS05-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Was entsteht aus Essigsäure und Natronlauge?",
+      "prompt": "Nenne die Trivialnamen wichtiger Carbonsäuren und Alkohole.",
       "options": [
-        "Natriumacetat und Wasser",
-        "ein Gas",
-        "ein Alkohol"
+        "Propan < Propan-2-on < Propansäure Propan: unpolares Molekül → nur schwache London-Dispersions-Kräfte. Propan-2-on (Aceton): polare Carbonylgruppe → zusätzlich Dipol-Dipol-Kräfte, aber keine Wasserstoffbrücken (kein H am O).",
+        "IUPAC: Alkohol-Rest als Substituent mit der Endung -yl, Säure-Rest als Stammname mit der Endung -oat → Methylethanoat, Ethylpropanoat. Ältere Schreibweise: „Alkansäurealkylester“ → Ethansäuremethylester, Butansäuremethylester.",
+        "Trivialname IUPAC-Name Formel Ameisensäure Methansäure HCOOH Essigsäure Ethansäure CH 3 COOH Buttersäure Butansäure C 3 H 7 COOH Oxalsäure Ethandisäure HOOC–COOH Acrylsäure Propensäure CH 2 =CH–COOH Glycol Ethan-1,2-diol HO–CH 2 –CH 2 …"
       ],
-      "answer": 0,
+      "answer": 2,
       "hints": [
-        "Es ist eine Neutralisation.",
-        "Salz und Wasser.",
-        "Natriumacetat."
+        "Lies den Abschnitt „Organische Säuren - Zusammenfassung“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "CH₃COOH + NaOH → CH₃COONa + H₂O",
+      "solution": "Trivialname IUPAC-Name Formel Ameisensäure Methansäure HCOOH Essigsäure Ethansäure CH 3 COOH Buttersäure Butansäure C 3 H 7 COOH Oxalsäure Ethandisäure HOOC–COOH Acrylsäure Propensäure CH 2 =CH–COOH Glycol Ethan-1,2-diol HO–CH 2 –CH 2 –OH Glycerin Propan-1,2,3-triol C 3 H 5 (OH) 3 Aceton Propan-2-on (Propanon) CH 3 COCH 3",
       "tags": [
-        "pruefung"
+        "fragenkatalog",
+        "sauerstoffhaltige-organische-verbindungen-und-ester",
+        "niveau-a"
       ],
       "spiral": [
-        "W-GLEI"
-      ]
+        "K-ORG"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-d4-3 · Lehrbuch PDF-S. 164–167"
     },
     {
       "id": "OS05-B1-005",
@@ -230,7 +240,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -256,7 +266,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -280,7 +290,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -306,7 +316,7 @@
         "msa"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -332,7 +342,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -367,7 +377,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -393,7 +403,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -434,8 +444,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -493,7 +503,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     }
   ],
@@ -599,10 +609,33 @@
   ],
   "lehrbuch": {
     "kapitel": 13,
-    "titel": "Organische Säuren",
-    "seiten_von": 163,
-    "seiten_bis": 172,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Carboxygruppe"
+    "titel": "Alkohole und organische Säuren",
+    "seiten_von": 164,
+    "seiten_bis": 167,
+    "abschnitt": "Organische Säuren - Zusammenfassung",
+    "bezugswort": "Carboxygruppe",
+    "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "OS05-A1-001",
+        "OS05-A2-002",
+        "OS05-A4-KAT"
+      ],
+      "B": [
+        "OS05-B1-005",
+        "OS05-B2-007",
+        "OS05-B4-010"
+      ],
+      "C": [
+        "OS05-C2-011",
+        "OS05-C3-012",
+        "OS05-C4-014"
+      ]
+    }
   }
 }

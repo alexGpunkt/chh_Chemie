@@ -153,7 +153,7 @@
         "saeuren"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -191,7 +191,7 @@
         "saeuren"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -247,7 +247,7 @@
         "saeuren"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -281,7 +281,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -307,7 +307,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -375,7 +375,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -423,7 +423,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -474,7 +474,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -515,7 +515,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -674,8 +674,31 @@
     "kapitel": 10,
     "titel": "Säuren, Laugen, Salze",
     "seiten_von": 115,
-    "seiten_bis": 142,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Säure"
+    "seiten_bis": 121,
+    "abschnitt": "Saure Lösungen und sicherer Umgang",
+    "bezugswort": "Säure",
+    "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "SL01-A1-001",
+        "SL01-A2-002",
+        "SL01-A4-004"
+      ],
+      "B": [
+        "SL01-B1-005",
+        "SL01-B2-007",
+        "SL01-B4-010"
+      ],
+      "C": [
+        "SL01-C2-011",
+        "SL01-C3-012",
+        "SL01-C4-014"
+      ]
+    }
   }
 }

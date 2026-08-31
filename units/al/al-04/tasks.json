@@ -151,7 +151,7 @@
         "mehrwertig"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -176,7 +176,7 @@
         "mehrwertig"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -201,7 +201,7 @@
         "mehrwertig"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -226,7 +226,7 @@
         "mehrwertig"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -252,7 +252,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -278,7 +278,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -350,7 +350,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -376,7 +376,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -459,8 +459,8 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES",
-        "W-STOF"
+        "K-SL",
+        "K-STOF"
       ]
     },
     {
@@ -593,10 +593,33 @@
   ],
   "lehrbuch": {
     "kapitel": 13,
-    "titel": "Organische Säuren",
-    "seiten_von": 163,
-    "seiten_bis": 172,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "mehrwertig"
+    "titel": "Alkohole und organische Säuren",
+    "seiten_von": 162,
+    "seiten_bis": 163,
+    "abschnitt": "Alkanole mit mehreren OH-Gruppen",
+    "bezugswort": "mehrwertiger Alkohol",
+    "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "AL04-A1-001",
+        "AL04-A2-002",
+        "AL04-A4-004"
+      ],
+      "B": [
+        "AL04-B1-005",
+        "AL04-B2-007",
+        "AL04-B4-010"
+      ],
+      "C": [
+        "AL04-C2-011",
+        "AL04-C3-012",
+        "AL04-C4-014"
+      ]
+    }
   }
 }

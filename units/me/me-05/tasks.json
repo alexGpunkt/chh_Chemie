@@ -34,7 +34,8 @@
       "hinfuehrung": "Bei manchen Reaktionen wandern Elektronen von einem Teilchen zum anderen.",
       "erklaerung": [
         "Wer abgibt, wird oxidiert.",
-        "Wer aufnimmt, wird reduziert."
+        "Wer aufnimmt, wird reduziert.",
+        "Die Reaktionsgleichung zeigt beide Vorgänge zusammen, zum Beispiel Fe + CuSO₄ → FeSO₄ + Cu."
       ],
       "merke": "Abgeben = Oxidation. Aufnehmen = Reduktion.",
       "beispiel": {
@@ -76,7 +77,7 @@
         "Reduktion getrennt aufschreiben: Cu²⁺ + 2 e⁻ → Cu",
         "Die Zahl der abgegebenen und aufgenommenen Elektronen muss gleich sein. Stimmt sie nicht, werden die Teilgleichungen passend vervielfacht.",
         "Beispiel: Al → Al³⁺ + 3 e⁻ und Cu²⁺ + 2 e⁻ → Cu. Kleinstes gemeinsames Vielfaches von 3 und 2 ist 6 — also 2 Al und 3 Cu²⁺.",
-        "Zum Schluss werden beide Hälften addiert; die Elektronen kürzen sich heraus."
+        "Zum Schluss werden beide Hälften zur vollständigen Reaktionsgleichung addiert; die Elektronen kürzen sich heraus."
       ],
       "merke": "Abgegebene und aufgenommene Elektronen müssen gleich viele sein.",
       "visual": {
@@ -165,7 +166,7 @@
         "redox"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -195,7 +196,7 @@
         "redox"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -228,7 +229,7 @@
         "redox"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -253,7 +254,7 @@
         "redox"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -287,7 +288,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -309,7 +310,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -343,7 +344,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -375,7 +376,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -401,42 +402,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
-      "id": "ME05-B4-010",
+      "id": "ME05-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Ein Schüler sagt: „Das Oxidationsmittel wird oxidiert.“ Stimmt das?",
+      "prompt": "Formuliere für Zn + Cu²⁺ → Zn²⁺ + Cu die Oxidations- und Reduktions-Teilgleichung.",
       "options": [
-        "Nein — es nimmt Elektronen auf und wird selbst reduziert.",
-        "Ja, deshalb heißt es so.",
-        "Nur bei Metallen."
+        "Oxidation: Zn → Zn²⁺ + 2 e⁻. Reduktion: Cu²⁺ + 2 e⁻ → Cu.",
+        "Eine Batterie nutzt eine freiwillig ablaufende Redoxreaktion zur Stromerzeugung: chemische Energie wird in elektrische Energie umgewandelt.",
+        "CO₂: +IV; CO: +II; CH₄: −IV.",
+        "Nein. Kupfer ist edler als Zink und gibt Elektronen nicht freiwillig an Zn²⁺ ab."
       ],
       "answer": 0,
       "hints": [
-        "Was tut ein Oxidationsmittel mit dem Partner?",
-        "Es oxidiert ihn.",
-        "Dafür muss es selbst Elektronen aufnehmen."
+        "Prüfe jede Aussage mit dem Abschnitt „Oxidation und Reduktion“ (PDF-S. 83–86)."
       ],
-      "solution": "Der Name beschreibt die Wirkung auf den Partner, nicht das eigene Schicksal. Ein Oxidationsmittel oxidiert den anderen — indem es dessen Elektronen aufnimmt und dabei selbst reduziert wird.",
-      "misconceptions": [
-        {
-          "id": "oxidation_reduktion_vertauscht",
-          "value": 1,
-          "feedback": "Der Name nennt die Wirkung auf den Partner. Das Mittel selbst wird reduziert.",
-          "konzeptfehler": "oxidation_reduktion_vertauscht"
-        }
-      ],
+      "solution": "Oxidation: Zn → Zn²⁺ + 2 e⁻. Reduktion: Cu²⁺ + 2 e⁻ → Cu.",
       "tags": [
+        "fragenkatalog",
         "redox",
-        "msa"
+        "niveau-b"
       ],
       "spiral": [
-        "W-GLEI"
-      ]
+        "K-REDOX"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-063 · Lehrbuch PDF-S. 83–86"
     },
     {
       "id": "ME05-C2-011",
@@ -472,7 +466,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -498,7 +492,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -532,7 +526,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -567,7 +561,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     }
   ],
@@ -714,8 +708,31 @@
     "kapitel": 7,
     "titel": "Metalle und Redoxreaktionen",
     "seiten_von": 83,
-    "seiten_bis": 96,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Oxidation"
+    "seiten_bis": 86,
+    "abschnitt": "Oxidation und Reduktion",
+    "bezugswort": "Elektronenübergang",
+    "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "ME05-A1-001",
+        "ME05-A2-002",
+        "ME05-A4-004"
+      ],
+      "B": [
+        "ME05-B1-005",
+        "ME05-B2-007",
+        "ME05-B4-KAT"
+      ],
+      "C": [
+        "ME05-C2-011",
+        "ME05-C3-012",
+        "ME05-C4-014"
+      ]
+    }
   }
 }

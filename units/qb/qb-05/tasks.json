@@ -14,16 +14,18 @@
     "die Ausbeute",
     "der Überschuss",
     "die Bilanz"
+    ,"die Stoffmengenkonzentration"
   ],
   "worterklaerungen": {
     "Stöchiometrie": "Das Rechnen mit Mengen in chemischen Reaktionen.",
     "Ausbeute": "Wie viel Produkt tatsächlich gewonnen wurde, verglichen mit der Rechnung.",
-    "Überschuss": "Der Teil eines Edukts, der nicht reagieren kann, weil der Partner ausgeht."
+    "Überschuss": "Der Teil eines Edukts, der nicht reagieren kann, weil der Partner ausgeht.",
+    "Stoffmengenkonzentration": "Die Stoffmenge des gelösten Stoffes pro Volumen der Lösung: c = n : V, meist in mol/L."
   },
   "can_do": {
-    "A": "Ich rechne einfache Aufgaben mit n = m : M.",
-    "B": "Ich berechne Produktmassen über das Stoffmengenverhältnis der Gleichung.",
-    "C": "Ich berücksichtige Überschuss und Ausbeute und beurteile Ergebnisse auf Plausibilität."
+    "A": "Ich rechne mit n = m : M und bestimme die Stoffmenge in einem Liter Lösung.",
+    "B": "Ich berechne Produktmassen und Stoffmengenkonzentrationen über die passenden Stoffmengenverhältnisse.",
+    "C": "Ich berücksichtige Konzentration, Überschuss und Ausbeute und beurteile Ergebnisse auf Plausibilität."
   },
   "lernkarten": {
     "A": {
@@ -31,7 +33,8 @@
       "hinfuehrung": "Bei jeder Aufgabe geht es über die Stoffmenge.",
       "erklaerung": [
         "Erst die Masse in mol umrechnen.",
-        "Dann mit der Gleichung weiterrechnen."
+        "Dann mit der Gleichung weiterrechnen.",
+        "Bei Lösungen bedeutet c = n : V: Stoffmenge in mol durch Lösungsvolumen in Liter. Beispiel: 0,20 mol in 1,0 L ergeben 0,20 mol/L."
       ],
       "merke": "Masse → Stoffmenge → Gleichung → Stoffmenge → Masse.",
       "visual": {
@@ -48,6 +51,7 @@
         "2. Gegebene Masse in Stoffmenge umrechnen: n = m : M.",
         "3. Über die Koeffizienten zur Stoffmenge des gesuchten Stoffes.",
         "4. Zurück zur Masse oder zum Volumen: m = n · M bzw. V = n · 22,4 L/mol.",
+        "Für Lösungen gilt c = n : V. Deshalb ist n = c · V; das Volumen wird in Liter eingesetzt.",
         "Am Ende Einheit und Größenordnung prüfen."
       ],
       "merke": "Ohne ausgeglichene Gleichung fehlt das Verhältnis — Schritt 1 ist nicht optional.",
@@ -63,6 +67,7 @@
       "erklaerung": [
         "Überschuss: Ist ein Edukt im Überschuss, bestimmt der andere Stoff, wie viel Produkt entstehen kann. Erst prüfen, welcher Stoff zuerst ausgeht.",
         "Ausbeute: tatsächliche Produktmasse geteilt durch die berechnete, in Prozent. Sie liegt praktisch immer unter 100 %.",
+        "Bei Lösungen verbindet c = n : V die Stoffmenge mit dem Volumen. Erst c · V liefert die eingesetzte Stoffmenge; danach entscheidet die Reaktionsgleichung über das Verhältnis.",
         "Ursachen für Verluste: unvollständige Reaktion, Rückstände im Gefäß, Nebenreaktionen.",
         "Eine Ausbeute über 100 % ist ein Hinweis auf einen Fehler — meist auf Feuchtigkeit im Produkt."
       ],
@@ -79,6 +84,7 @@
       "n = m : M",
       "m = n · M",
       "V = n · 22,4 L/mol",
+      "c = n : V · n = c · V",
       "Ausbeute = m(tatsächlich) : m(berechnet) · 100 %"
     ],
     "saetze": [
@@ -86,6 +92,7 @@
       "Ohne ausgeglichene Gleichung kein Stoffmengenverhältnis.",
       "Der Stoff, der zuerst ausgeht, begrenzt die Ausbeute.",
       "Am Ende Einheit und Größenordnung prüfen."
+      ,"Bei c in mol/L muss V in Liter eingesetzt werden."
     ]
   },
   "videos": [
@@ -128,7 +135,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -150,7 +157,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -172,38 +179,35 @@
         "pruefung"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
-      "id": "QB05-A4-004",
+      "id": "QB05-A4-KAT",
       "path": "A",
       "step": 4,
-      "type": "numeric",
-      "prompt": "Berechnet wurden 40 g Produkt, gewonnen wurden 34 g. Wie hoch ist die Ausbeute?",
-      "answer": 85,
-      "unit_label": "%",
-      "tolerance": 0.5,
+      "type": "choice",
+      "prompt": "Werkzeug: Reaktionsgleichung aufstellen und ausgleichen",
+      "options": [
+        "Zuerst beliebige Formeln notieren und danach die tiefgestellten Indizes so verändern, bis links und rechts gleich viele Zeichen stehen.",
+        "Nur die Namen der Stoffe aufschreiben; Formeln und Teilchenzahlen werden für eine Reaktionsgleichung nicht benötigt.",
+        "Wortgleichung aufstellen, korrekte Formeln ermitteln, nur Koeffizienten zum Ausgleichen setzen und anschließend jede Atomsorte kontrollieren."
+      ],
+      "answer": 2,
       "hints": [
-        "Ausbeute = tatsächlich : berechnet.",
-        "34 : 40.",
-        "Mal 100."
+        "Lies den Abschnitt „Reaktionsgleichungen und stöchiometrische Berechnungen“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "34 g : 40 g = 0,85 → 85 %",
-      "misconceptions": [
-        {
-          "id": "anteil_umgedreht",
-          "value": 117.6,
-          "feedback": "Ausbeute = tatsächlich geteilt durch berechnet. Sie kann nicht über 100 % liegen."
-        }
-      ],
+      "solution": "Reaktionsgleichung in vier Schritten Wortgleichung aufstellen (welche Edukte, welche Produkte?). Formeln ermitteln: Molekülformeln über die Zahlwörter, Verhältnisformeln über den Ladungsausgleich. HOFBrINCl-Elemente als X 2 ! Ausgleichen: nur Koeffizienten setzen – Indizes bleiben unverändert. Reihenfolge: erst Metalle, dann Nichtmetalle außer H und O, dann H, zuletzt O. Kontrolle: Atombilanz für jede Sorte, ggf. Zustandssymbole (s), (l), (g), (aq) ergänzen. Typischer Fehler: Um eine Gleichung „passend“ zu machen, wird ein Index geändert (z. B. H 2 O → H 2 O 2 ). Damit ist es aber ein anderer Stoff. Nur Koeffizienten dürfen verändert werden.",
       "tags": [
-        "pruefung",
-        "rechnen"
+        "fragenkatalog",
+        "werkzeugkaesten-schritt-fuer-schritt",
+        "niveau-a"
       ],
       "spiral": [
-        "W-RECH"
-      ]
+        "K-QUANT"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-e-2 · Lehrbuch PDF-S. 58–65"
     },
     {
       "id": "QB05-B1-005",
@@ -236,8 +240,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -267,8 +271,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -291,8 +295,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -332,8 +336,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -367,32 +371,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
-      "id": "QB05-B4-010",
+      "id": "QB05-B4-KAT",
       "path": "B",
       "step": 4,
-      "type": "numeric",
-      "prompt": "Berechnet wurden 12,5 g Produkt. Die Ausbeute beträgt 80 %. Wie viel wurde tatsächlich gewonnen?",
-      "answer": 10,
-      "unit_label": "g",
-      "tolerance": 0.2,
-      "hints": [
-        "80 % von 12,5 g.",
-        "12,5 · 0,8.",
-        "10 g."
+      "type": "choice",
+      "prompt": "Werkzeug: Stöchiometrisch rechnen – die neun Schritte",
+      "options": [
+        "Reaktionsgleichung ausgleichen, Gegebenes und Gesuchtes notieren, in Stoffmenge umrechnen, das molare Verhältnis anwenden, zurückrechnen und mit Einheit antworten.",
+        "Alle gegebenen Massen direkt addieren und die Summe als Produktmasse angeben; die Reaktionsgleichung wird erst danach geprüft.",
+        "Nur die molaren Massen vergleichen; Stoffmengenverhältnis, Einheiten und Stoffbezug spielen für das Ergebnis keine Rolle.",
+        "Zuerst das Ergebnis schätzen, anschließend alle Koeffizienten der Reaktionsgleichung mit demselben Faktor multiplizieren."
       ],
-      "solution": "12,5 g · 0,80 = 10 g",
+      "answer": 0,
+      "hints": [
+        "Prüfe jede Aussage mit dem Abschnitt „Reaktionsgleichungen und stöchiometrische Berechnungen“ (PDF-S. 58–65)."
+      ],
+      "solution": "Quantitative Auswertung einer Reaktionsgleichung Reaktionsgleichung aufstellen und ausgleichen. Mengenaussage in mol unter die Gleichung schreiben. Gegebene Größe mit richtigem Symbol und Stoffbezug notieren. Gesuchte Größe mit richtigem Symbol notieren. Umrechnen in die Stoffmenge n (über M, V m, N A oder c). Stoffmengenverhältnis aus der Gleichung ablesen. Stoffmenge des gesuchten Stoffs berechnen. Zurückrechnen in die gefragte Größe. Antwortsatz formulieren – mit Einheit und sinnvoller Rundung. Merke: Alle Umrechnungen laufen über die Stoffmenge n. Formeln immer mit Stoffbezug in Klammern schreiben: n(CO 2 ), nicht n.",
       "tags": [
-        "pruefung",
-        "rechnen",
-        "bbr"
+        "fragenkatalog",
+        "werkzeugkaesten-schritt-fuer-schritt",
+        "niveau-b"
       ],
       "spiral": [
-        "W-LOES"
-      ]
+        "K-QUANT"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-e-5 · Lehrbuch PDF-S. 58–65"
     },
     {
       "id": "QB05-C2-011",
@@ -424,8 +431,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -465,8 +472,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -501,7 +508,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -528,7 +535,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     }
   ],
@@ -637,7 +644,30 @@
     "titel": "Die chemische Reaktion",
     "seiten_von": 58,
     "seiten_bis": 65,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Stöchiometrie"
+    "abschnitt": "Reaktionsgleichungen und stöchiometrische Berechnungen",
+    "bezugswort": "Stöchiometrie",
+    "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "QB05-A1-001",
+        "QB05-A2-002",
+        "QB05-A4-KAT"
+      ],
+      "B": [
+        "QB05-B1-005",
+        "QB05-B2-007",
+        "QB05-B4-KAT"
+      ],
+      "C": [
+        "QB05-C2-011",
+        "QB05-C3-012",
+        "QB05-C4-014"
+      ]
+    }
   }
 }

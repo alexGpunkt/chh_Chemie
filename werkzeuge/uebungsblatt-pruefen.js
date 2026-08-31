@@ -38,12 +38,11 @@ const hinweis = [];
 let generatoren = 0;
 let einheiten = 0;
 
-/* Ohne Einheit sind manche Ergebnisse sachlich immer positiv (Preise,
-   Längen, Anzahlen). Ein negatives Ergebnis wäre dort ein Rechenfehler
+/* Bei manchen chemischen Größen sind Ergebnisse sachlich immer positiv.
+   Ein negatives Ergebnis wäre dort ein Rechenfehler
    im Generator, kein gültiger Zufall. */
-const NIE_NEGATIV = ['€', '%', 'kg', 'l', 'h', 'Tage', 'Kinder', 'Bäume', 'Kisten',
-  'Packungen', 'Personen', 'Mitglieder', 'cm', 'cm²', 'cm³', 'm', 'm²', 'm³',
-  'dm³', 'mm', 'km', 'Liter', 'g', 'Minuten', 'Stück'];
+const NIE_NEGATIV = ['%', 'kg', 'l', 'h', 'cm', 'cm²', 'cm³', 'm', 'm²', 'm³',
+  'dm³', 'mm', 'km', 'Liter', 'g', 'mol', 'g/mol', 'mol/l', 'Minuten'];
 
 function pruefeGenerator(bereich, einheit, gen) {
   generatoren++;
@@ -91,7 +90,7 @@ function pruefeStufe(basis, gen, stufe) {
     const roh = werteAus(wirksam.answer, a.vars);
     if (Number.isFinite(roh)) {
       if (wirksam.gerundet) {
-        /* Manche Aufgaben werden sachlich gerundet — Zinsen auf Cent etwa.
+        /* Manche Mess- und Stoffmengenaufgaben werden sachlich gerundet.
            Dann muss der Aufgabentext das sagen, und die Rundung darf nicht
            auf der Kippe stehen: Bei genau …,xx5 rundet nicht jedes Kind
            gleich, und die gedruckte Lösung stimmt für die Hälfte nicht. */

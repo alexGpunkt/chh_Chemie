@@ -16,14 +16,18 @@
     "die Flammenfärbung",
     "der Nachweis",
     "die Fällungsreaktion"
+    ,"das Vorkommen"
+    ,"die Salzbildung"
   ],
   "worterklaerungen": {
-    "Flammenfärbung": "Manche Metall-Ionen färben eine Flamme charakteristisch."
+    "Flammenfärbung": "Manche Metall-Ionen färben eine Flamme charakteristisch.",
+    "Vorkommen": "Der Ort oder die Form, in der ein Stoff in Natur und Alltag zu finden ist.",
+    "Salzbildung": "Eine chemische Reaktion, bei der positiv und negativ geladene Ionen zu einer Ionensubstanz zusammentreten."
   },
   "can_do": {
-    "A": "Ich stelle einfache Salzformeln auf und nenne Eigenschaften von Salzen.",
-    "B": "Ich verbinde Formel, Gitter und Eigenschaften und werte Nachweise aus.",
-    "C": "Ich begründe Eigenschaften der Salze aus dem Gitteraufbau und bewerte Aussagen."
+    "A": "Ich stelle einfache Salzformeln auf und nenne Bildung, Vorkommen, Verwendung und Eigenschaften.",
+    "B": "Ich verbinde Salzbildung, Formel, Gitter, Eigenschaften, Verwendung und Nachweise.",
+    "C": "Ich begründe Eigenschaften und Verwendungen der Salze aus dem Gitteraufbau und bewerte Folgen ihres Einsatzes."
   },
   "lernkarten": {
     "A": {
@@ -31,7 +35,9 @@
       "hinfuehrung": "Salze bestehen aus Ionen.",
       "erklaerung": [
         "Die Ladungen gleichen sich aus.",
-        "Salze sind hart, spröde und hochschmelzend."
+        "Salze sind hart, spröde und hochschmelzend.",
+        "Salze entstehen aus positiven und negativen Ionen. Man findet sie zum Beispiel in Gestein, Meerwasser und Lebensmitteln.",
+        "Kochsalz würzt und konserviert; andere Salze werden als Dünger, Baustoff oder Streusalz verwendet."
       ],
       "merke": "Ladungssumme null — daraus folgt die Formel.",
       "visual": {
@@ -47,6 +53,8 @@
         "Flammenfärbung: Natrium gelb, Kalium violett, Calcium ziegelrot, Kupfer grün.",
         "Fällungsreaktionen: Chlorid-Ionen ergeben mit Silber-Ionen einen weißen Niederschlag, Sulfat-Ionen mit Barium-Ionen einen weißen.",
         "Leitfähigkeit zeigt, dass überhaupt Ionen vorliegen — welche, sagt sie nicht.",
+        "Salze können durch Reaktion geeigneter Elemente, durch Neutralisation oder durch Fällung gebildet werden. Beim Aufbau des Ionengitters wird häufig Energie frei.",
+        "Vorkommen und Verwendung hängen von den Eigenschaften ab: Natriumchlorid aus Steinsalz oder Meerwasser dient als Speise- und Industriesalz; andere Salze werden gezielt als Dünger oder Baustoff eingesetzt.",
         "Wie immer gilt: Ein Nachweis ist nur so viel wert wie seine Eindeutigkeit."
       ],
       "merke": "Flammenfärbung zeigt Metall-Ionen, Fällung zeigt Säurerest-Ionen.",
@@ -63,6 +71,7 @@
         "Warum spröde? Weil beim Verschieben gleiche Ladungen aufeinandertreffen.",
         "Warum hochschmelzend? Weil die Anziehung zwischen den Ionen stark ist.",
         "Warum erst gelöst leitfähig? Weil die Ionen erst dann beweglich sind.",
+        "Bei einer Bewertung gehören Nutzen und Folge zusammen: Streusalz erhöht die Verkehrssicherheit, kann aber Pflanzen, Böden, Gewässer und Fahrzeuge belasten.",
         "Jede dieser Antworten beginnt beim Bau und endet bei der beobachtbaren Eigenschaft."
       ],
       "merke": "Vom Aufbau zur Eigenschaft — nie umgekehrt.",
@@ -82,6 +91,7 @@
       "Salze: hart, spröde, hochschmelzend.",
       "Leitfähig erst gelöst oder geschmolzen.",
       "Flammenfärbung: Na gelb · K violett · Ca ziegelrot · Cu grün."
+      ,"Salzbildung: Kationen und Anionen bilden eine insgesamt ungeladene Ionensubstanz."
     ]
   },
   "videos": [
@@ -118,7 +128,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -143,7 +153,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -164,42 +174,35 @@
         "pruefung"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
-      "id": "SZ05-A4-004",
+      "id": "SZ05-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Eine Flamme färbt sich gelb. Welches Ion ist vermutlich enthalten?",
+      "prompt": "Was ist ein Kristall? Beschreibe den Aufbau eines Salzes auf Teilchenebene.",
       "options": [
-        "Natrium",
-        "Kalium",
-        "Kupfer"
+        "Salze: Ionenbindung – elektrostatische Anziehung zwischen positiv geladenen Kationen und negativ geladenen Anionen, Anordnung im Ionengitter.",
+        "Ein Kristall ist ein Festkörper mit regelmäßiger, sich wiederholender Struktur; seine Bausteine können Atome, Moleküle oder Ionen sein.",
+        "Elektrische Leitfähigkeit: Die Valenzelektronen bewegen sich als „Elektronengas“ frei zwischen den positiv geladenen Atomrümpfen. Verformbarkeit (Duktilität): Das Elektronengas „vermittelt“ zwischen den Atomrümpfen;"
       ],
-      "answer": 0,
+      "answer": 1,
       "hints": [
-        "Jedes Metall-Ion färbt anders.",
-        "Gelb gehört zu einem sehr häufigen Ion.",
-        "Natrium."
+        "Lies den Abschnitt „Salze - Bildung, Gitter und Eigenschaften“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Natrium-Ionen färben die Flamme intensiv gelb. Kalium färbt violett, Kupfer grün.",
-      "misconceptions": [
-        {
-          "id": "nachweis_verwechselt",
-          "value": 2,
-          "feedback": "Kupfer färbt grün. Gelb ist typisch für Natrium.",
-          "konzeptfehler": "nachweis_verwechselt"
-        }
-      ],
+      "solution": "Ein Kristall ist ein Festkörper mit regelmäßiger, sich wiederholender Struktur; seine Bausteine können Atome, Moleküle oder Ionen sein. Ein Salz ist als Ionengitter aufgebaut: Eine Vielzahl von Kationen und Anionen ist regelmäßig so angeordnet, dass jedes Ion von möglichst vielen entgegengesetzt geladenen Nachbarn umgeben ist. Deshalb gibt es keine „NaCl-Moleküle“ – die Formel NaCl ist eine Verhältnisformel.",
       "tags": [
-        "pruefung",
-        "nachweise"
+        "fragenkatalog",
+        "metalle-salze-und-ihre-bindungen",
+        "niveau-a"
       ],
       "spiral": [
-        "W-SYMB"
-      ]
+        "K-BIND"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-b4-5 · Lehrbuch PDF-S. 103–113"
     },
     {
       "id": "SZ05-B1-005",
@@ -233,7 +236,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -260,7 +263,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -284,7 +287,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -310,7 +313,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -345,7 +348,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -378,7 +381,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -413,7 +416,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -448,7 +451,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -474,7 +477,7 @@
         "msa"
       ],
       "spiral": [
-        "W-SYMB"
+        "K-BIND"
       ]
     },
     {
@@ -508,7 +511,7 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     }
   ],
@@ -635,11 +638,34 @@
     }
   ],
   "lehrbuch": {
-    "kapitel": 10,
-    "titel": "Säuren, Laugen, Salze",
-    "seiten_von": 115,
-    "seiten_bis": 142,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Verhältnisformel"
+    "kapitel": 9,
+    "titel": "Chemische Bindungen",
+    "seiten_von": 103,
+    "seiten_bis": 113,
+    "abschnitt": "Salze - Bildung, Gitter und Eigenschaften",
+    "bezugswort": "Salz",
+    "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "SZ05-A1-001",
+        "SZ05-A2-002",
+        "SZ05-A4-KAT"
+      ],
+      "B": [
+        "SZ05-B1-005",
+        "SZ05-B2-007",
+        "SZ05-B4-010"
+      ],
+      "C": [
+        "SZ05-C2-011",
+        "SZ05-C3-012",
+        "SZ05-C4-014"
+      ]
+    }
   }
 }

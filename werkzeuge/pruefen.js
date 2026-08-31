@@ -119,6 +119,19 @@ try {
   fehler.push('units/index.json konnte nicht geprüft werden: ' + e.message);
 }
 
+/* ---------- 2c · Schriftliche RLP-Abdeckung ----------
+   Aufgaben und Lösungen zählen hier absichtlich nicht. Für selbstständiges
+   Lernen muss jeder verbindliche Inhalt vor dem Üben in Lernkarte,
+   Wortspeicher oder gemeinsamer Merkkarte stehen — auf jedem Lernweg. */
+try {
+  const { pruefeRlpText } = require('./rlp-textpruefung');
+  const rlp = pruefeRlpText(WURZEL);
+  rlp.fehler.forEach(text => fehler.push(text));
+  melde(`${rlp.themenfelder} RLP-Themenfelder auf A, B und C schriftlich geprüft (${rlp.pruefungen} Inhaltsprüfungen)`);
+} catch (e) {
+  fehler.push('RLP-Textprüfung konnte nicht ausgeführt werden: ' + e.message);
+}
+
 /* ---------- 3 · Aufgaben-IDs eindeutig ---------- */
 const gesehen = new Map();
 for (const f of einheiten) {
@@ -128,6 +141,37 @@ for (const f of einheiten) {
   }
 }
 melde(`${gesehen.size} Aufgaben-IDs, alle eindeutig`);
+
+/* ---------- 3b · Abschlussquiz ----------
+   Drei feste Fragen je Lernweg, ausschließlich aus derselben Einheit und
+   demselben Niveau. Nur so ist ein gespeichertes Ergebnis fachlich und
+   technisch einem eindeutigen Fragenstand zuzuordnen. */
+let quizfragen = 0;
+for (const f of einheiten) {
+  const d = geladen.get(f);
+  const quiz = d.abschlussquiz || {};
+  if (!Number.isInteger(quiz.version) || quiz.version < 1) {
+    fehler.push(`${f}: Abschlussquiz hat keine gültige Version`);
+  }
+  if (quiz.anzahl !== 3) fehler.push(`${f}: Abschlussquiz muss genau drei Fragen haben`);
+  const pool = new Map((d.tasks || []).map(t => [t.id, t]));
+  for (const pfad of ['A', 'B', 'C']) {
+    const ids = quiz.frage_ids?.[pfad] || [];
+    if (ids.length !== 3 || new Set(ids).size !== 3) {
+      fehler.push(`${f}: Abschlussquiz ${pfad} braucht drei verschiedene Fragen`);
+      continue;
+    }
+    const aufgaben = ids.map(id => pool.get(id));
+    for (let i = 0; i < ids.length; i++) {
+      if (!aufgaben[i]) fehler.push(`${f}: Quizfrage ${ids[i]} existiert nicht`);
+      else if (aufgaben[i].path !== pfad) fehler.push(`${f}: Quizfrage ${ids[i]} gehört zu Pfad ${aufgaben[i].path}, nicht ${pfad}`);
+    }
+    const stufen = new Set(aufgaben.filter(Boolean).map(t => t.step));
+    if (stufen.size < 2) fehler.push(`${f}: Abschlussquiz ${pfad} prüft nur eine Anforderungsstufe`);
+    quizfragen += ids.length;
+  }
+}
+melde(`${quizfragen} einheiten- und niveaubezogene Abschlussquizfragen geprüft`);
 
 /* ---------- 4 · Auswahlindizes im gültigen Bereich ---------- */
 for (const f of einheiten) {
@@ -158,6 +202,34 @@ for (const f of einheiten) {
     if (L.schritt >= n) fehler.push(`${f} · ${pfad}: luecke.schritt ${L.schritt}, es gibt nur ${n} Schritte`);
   }
 }
+
+/* ---------- 5b · Schriftlicher Einstieg auf allen drei Lernwegen ----------
+   Die Anwendung und die PDFs bauen ihren Nachschlagebereich aus diesen
+   Lernkarten. Deshalb genügt nicht, dass das Objekt formal existiert: Die
+   Einführung muss lesbar, niveaugerecht umfangreich und je Pfad eigenständig
+   formuliert sein. */
+let einleitungstexte = 0;
+for (const f of einheiten) {
+  const d = geladen.get(f);
+  const texte = [];
+  for (const p of ['A', 'B', 'C']) {
+    const lk = (d.lernkarten || {})[p] || {};
+    const intro = String(lk.hinfuehrung || '').trim();
+    const minimum = { A: 20, B: 40, C: 45 }[p];
+    if (intro.length < minimum) {
+      fehler.push(`${f}: Einleitung ${p} ist zu knapp (${intro.length} Zeichen, mindestens ${minimum})`);
+    }
+    if (!lk.titel || !Array.isArray(lk.erklaerung) || lk.erklaerung.length < 2 || !lk.merke) {
+      fehler.push(`${f}: schriftlicher Themenblock ${p} ist unvollständig`);
+    }
+    texte.push(intro.toLocaleLowerCase('de-DE').replace(/\s+/g, ' '));
+    einleitungstexte++;
+  }
+  if (new Set(texte).size !== 3) {
+    fehler.push(`${f}: Einleitungstexte A, B und C müssen verschieden sein`);
+  }
+}
+melde(`${einleitungstexte} niveaugerechte Einleitungstexte für 76 Einheiten geprüft`);
 
 /* ---------- 6 · Absatzverweise zeigen auf einen vorhandenen Absatz ---------- */
 for (const f of einheiten) {
@@ -866,6 +938,18 @@ try {
   melde(`${alleIds.size} Fehlvorstellungen gegen ${kategorien.length} Kategorien geprüft (${offen.length} offen)`);
 } catch (e) {
   fehler.push('schema/fehlvorstellungen-kategorien.json konnte nicht geprüft werden: ' + e.message);
+}
+
+/* ---------- 20 · Lehrbuch- und Fragenkatalogeinbindung ---------- */
+try {
+  execFileSync(process.execPath, [P('werkzeuge/fragenkatalog-pruefen.js')], {
+    cwd: WURZEL, stdio: 'pipe', encoding: 'utf8'
+  });
+  const katalogAnzahl = (liesJson('fragenkatalog/zuordnung.json').zuordnungen || []).length;
+  melde(`${katalogAnzahl} kuratierte Katalogaufgaben und neun sequenzierte Chemie-Warm-up-Pools geprüft`);
+} catch (e) {
+  const ausgabe = String(e.stdout || e.stderr || e.message).trim();
+  fehler.push('Fragenkatalog-Prüfung fehlgeschlagen: ' + ausgabe);
 }
 
 /* ---------- Ausgabe ---------- */

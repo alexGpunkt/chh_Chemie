@@ -115,6 +115,26 @@ Anwendung in eine Bewertung eingehen:
   darf sie sehen — das ist kein Zugeständnis, sondern der Zweck des
   Auskunftsrechts.
 
+Seit V7 kommen die Abschlussquizze je Einheit hinzu:
+
+| Tabelle | Inhalt | Frist |
+|---|---|---|
+| `chemie710_quiz_ergebnisse` | Person, Einheit, Lernweg, Quizversion, Versuch, drei Fragen-IDs, abgegebene Antworten, Punktzahl, Dauer sowie Pflicht-/Wertungsstatus | **ein Schuljahr**; beim Löschen der Person sofort mitgelöscht |
+
+Der Lösungsschlüssel liegt getrennt in `chemie710_quiz_schluessel`. Diese
+Tabelle hat weder für `anon` noch für `authenticated` direkte Leserechte. Die
+Schüleranwendung sendet ihre Antworten an `chemie710_quiz_abgeben`; erst die
+Datenbank vergleicht und berechnet die Punktzahl. Ein frei behaupteter
+Browserwert wird nicht gespeichert.
+
+Gewertet wird nur der erste Versuch derselben Einheit, Niveaustufe und
+Quizversion im aktiven Bewertungsmodus. Alle weiteren Versuche sind als Übung
+gekennzeichnet. Eine Note wird im Dashboard erst aus der Summe mehrerer
+gewerteter Einheitenquizze gebildet. Ein einzelnes Quiz mit drei Fragen ist
+keine hinreichend feine oder belastbare Notengrundlage. Die Daten stehen im
+personenbezogenen Export; `ON DELETE CASCADE` entfernt sie zusammen mit dem
+Schülerdatensatz.
+
 ### 1.2b Verweise auf fremde Seiten (Übungen und Erklärvideos)
 
 Jede Einheit kann auf externe Übungen verweisen und bindet ein Erklärvideo

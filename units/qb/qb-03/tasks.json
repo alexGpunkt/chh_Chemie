@@ -149,7 +149,7 @@
         "stoffmenge"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -178,7 +178,7 @@
         "stoffmenge"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -200,30 +200,35 @@
         "stoffmenge"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
-      "id": "QB03-A4-004",
+      "id": "QB03-A4-KAT",
       "path": "A",
       "step": 4,
-      "type": "numeric",
-      "prompt": "Wie viel mol sind 100 g Calciumcarbonat? (M = 100 g/mol)",
-      "answer": 1,
-      "unit_label": "mol",
-      "tolerance": 0.01,
-      "hints": [
-        "n = m : M.",
-        "100 : 100.",
-        "1 mol."
+      "type": "choice",
+      "prompt": "Definiere Stoffmenge, Mol, Avogadro-Konstante und molare Masse.",
+      "options": [
+        "Die Stoffmenge ist die Masse einer Probe in Gramm. Ein Mol ist immer genau ein Gramm, und die molare Masse gibt das Volumen an.",
+        "Die Stoffmenge beschreibt die Konzentration einer Lösung. Ein Mol entspricht einem Liter, und die Avogadro-Konstante ist die Dichte.",
+        "Stoffmenge n: Größe zur Beschreibung einer Stoffportion; gibt an, wie viele Teilchen sie enthält. Einheit: mol. 1 mol ist die Stoffmenge einer Portion, die 6,022 · 10 23 Teilchen (Atome, Moleküle oder Ionen) enthält."
       ],
-      "solution": "n = 100 g : 100 g/mol = 1 mol",
+      "answer": 2,
+      "hints": [
+        "Lies den Abschnitt „Rechnen mit Stoffmenge und molarer Masse“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
+      ],
+      "solution": "Stoffmenge n: Größe zur Beschreibung einer Stoffportion; gibt an, wie viele Teilchen sie enthält. Einheit: mol. 1 mol ist die Stoffmenge einer Portion, die 6,022 · 10 23 Teilchen (Atome, Moleküle oder Ionen) enthält. Avogadro-Konstante N A = 6,022 · 10 23 mol −1: Umrechnungsgröße zwischen Stoffmenge und Teilchenzahl. Molare Masse M: Masse von 1 mol eines Stoffes in g/mol. Ihr Zahlenwert ist identisch mit der Teilchenmasse in u und lässt sich aus dem PSE ablesen. Wichtig: Die Stoffmenge muss immer auf eine Teilchenart bezogen werden: n(H 2 O), nicht nur n.",
       "tags": [
-        "stoffmenge"
+        "fragenkatalog",
+        "quantitative-chemie-und-stoechiometrie",
+        "niveau-a"
       ],
       "spiral": [
-        "W-RECH"
-      ]
+        "K-QUANT"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-b6-2 · Lehrbuch PDF-S. 60–62"
     },
     {
       "id": "QB03-B1-005",
@@ -245,7 +250,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -268,7 +273,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -291,7 +296,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -325,8 +330,8 @@
         "bbr"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -352,38 +357,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-EINH"
+        "K-QUANT"
       ]
     },
     {
-      "id": "QB03-B4-010",
+      "id": "QB03-B4-KAT",
       "path": "B",
       "step": 4,
-      "type": "numeric",
-      "prompt": "Wie viel Gramm wiegen 0,05 mol Kupfersulfat? (M = 160 g/mol)",
-      "answer": 8,
-      "unit_label": "g",
-      "tolerance": 0.1,
+      "type": "choice",
+      "prompt": "Berechne die Stoffmenge in 18,0 g Wasser. Verwende M(H₂O)=18,0 g/mol.",
+      "options": [
+        "n = m/M = 18,0 g / 18,0 g/mol = 1,00 mol.",
+        "n = m · M = 18,0 g · 18,0 g/mol = 324 mol.",
+        "n = M/m = 18,0 g/mol : 18,0 g = 1,00 g.",
+        "n = m/M = 18,0 g : 18,0 g/mol = 0,50 mol."
+      ],
+      "answer": 0,
       "hints": [
-        "m = n · M.",
-        "0,05 · 160.",
-        "8 g."
+        "Prüfe jede Aussage mit dem Abschnitt „Rechnen mit Stoffmenge und molarer Masse“ (PDF-S. 60–62)."
       ],
-      "solution": "m = 0,05 mol · 160 g/mol = 8 g",
-      "misconceptions": [
-        {
-          "id": "mol_geteilt_statt_mal",
-          "value": 3200,
-          "feedback": "Aus Stoffmenge und molarer Masse wird die Masse durch Multiplizieren."
-        }
-      ],
+      "solution": "n = m/M = 18,0 g / 18,0 g/mol = 1,00 mol.",
       "tags": [
-        "stoffmenge",
-        "bbr"
+        "fragenkatalog",
+        "stoechiometrie",
+        "niveau-b"
       ],
       "spiral": [
-        "W-RECH"
-      ]
+        "K-QUANT"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-055 · Lehrbuch PDF-S. 60–62"
     },
     {
       "id": "QB03-C2-011",
@@ -422,8 +424,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -453,8 +455,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -494,8 +496,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     },
     {
@@ -529,8 +531,8 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH",
-        "W-GLEI"
+        "K-QUANT",
+        "K-REAK"
       ]
     }
   ],
@@ -644,9 +646,32 @@
   "lehrbuch": {
     "kapitel": 5,
     "titel": "Die chemische Reaktion",
-    "seiten_von": 58,
-    "seiten_bis": 65,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Stoffmenge"
+    "seiten_von": 60,
+    "seiten_bis": 62,
+    "abschnitt": "Rechnen mit Stoffmenge und molarer Masse",
+    "bezugswort": "n = m : M",
+    "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "QB03-A1-001",
+        "QB03-A2-002",
+        "QB03-A4-KAT"
+      ],
+      "B": [
+        "QB03-B1-005",
+        "QB03-B2-007",
+        "QB03-B4-KAT"
+      ],
+      "C": [
+        "QB03-C2-011",
+        "QB03-C3-012",
+        "QB03-C4-014"
+      ]
+    }
   }
 }

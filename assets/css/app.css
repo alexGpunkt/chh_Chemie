@@ -1312,6 +1312,136 @@ input.zahl-feld.lk-luecke-feld { flex: 1 1 120px; height: 46px; font-size: 18px;
 
 
 /* ============================================================
+   Schriftliches Kernwissen je Lernweg
+   ============================================================ */
+.themeninfo {
+  max-width: 688px;
+  margin: 6px auto 18px;
+  padding: clamp(18px, 3vw, 26px);
+  background: var(--paper-hi);
+  border: 1px solid var(--linie);
+  border-top: 5px solid var(--pfad);
+  border-radius: 16px;
+  box-shadow: 0 12px 32px -24px rgba(21,35,58,.5), 0 2px 8px rgba(21,35,58,.07);
+}
+.themeninfo[hidden] { display: none; }
+.themeninfo-kopf { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 10px; }
+.themeninfo-stufe {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--pfad);
+  font: 700 12px/1.35 var(--f-num);
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
+.themeninfo-titel {
+  margin: 0;
+  font-family: var(--f-display);
+  font-size: clamp(21px, 3vw, 27px);
+  line-height: 1.2;
+}
+.themeninfo-einleitung {
+  margin: 0 0 14px;
+  padding: 12px 14px;
+  background: var(--pfad-bg);
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.55;
+}
+.themeninfo-punkte {
+  margin: 0;
+  padding-left: 1.3rem;
+  display: grid;
+  gap: 9px;
+}
+.themeninfo-punkte li { padding-left: 4px; font-size: 16px; line-height: 1.6; }
+.themeninfo-punkte li::marker { color: var(--pfad); }
+.themeninfo-merke {
+  margin-top: 16px;
+  padding: 12px 14px;
+  background: var(--merk-bg);
+  border-left: 4px solid var(--merk-linie);
+  border-radius: 0 9px 9px 0;
+  color: var(--merk-text);
+  font-size: 16px;
+  line-height: 1.55;
+}
+.themeninfo-ziel { margin: 13px 0 0; color: var(--ink-soft); font-size: 14px; line-height: 1.5; }
+.themeninfo-quelle {
+  margin-top: 14px; padding: 11px 13px;
+  border: 1px solid #cbb9df; border-radius: 9px;
+  background: #f7f2fc; color: var(--ink); font-size: 14px; line-height: 1.5;
+}
+.themeninfo-buchknopf {
+  display: block; margin-top: 8px; min-height: 40px; padding: 7px 11px;
+  border: 1px solid #6B3FA0; border-radius: 8px; background: #fff;
+  color: #563080; font: 700 14px/1.3 var(--f-body); cursor: pointer;
+}
+.themeninfo-buchknopf:focus-visible { outline: 3px solid var(--fokus); outline-offset: 2px; }
+.themeninfo-arbeitsweg {
+  margin-top: 14px; border: 1px solid var(--linie); border-radius: 9px;
+  background: var(--paper); overflow: hidden;
+}
+.themeninfo-arbeitsweg summary { padding: 11px 13px; font-weight: 800; cursor: pointer; }
+.themeninfo-arbeitsweg ol { margin: 0; padding: 0 18px 14px 2.2rem; display: grid; gap: 7px; }
+.themeninfo-arbeitsweg li { line-height: 1.5; }
+
+@media (max-width: 720px) {
+  .themeninfo { margin-left: 16px; margin-right: 16px; padding: 18px; }
+  .themeninfo-einleitung { font-size: 16px; }
+  .themeninfo-punkte li { font-size: 15px; }
+}
+
+@media print {
+  .themeninfo { display: block !important; box-shadow: none; border-color: #777; }
+}
+
+/* ============================================================
+   Abschlussquiz je Einheit
+   ============================================================ */
+.quiz-karte { display: grid; gap: 14px; }
+.quiz-hinweis {
+  margin: -6px 0 2px; padding: 11px 13px; border-radius: 9px;
+  background: var(--pfad-bg); color: var(--ink); line-height: 1.5;
+}
+.quiz-frage {
+  padding: 15px; border: 1px solid var(--linie); border-radius: 12px;
+  background: var(--paper);
+}
+.quiz-frage h3 {
+  margin: 0 0 7px; color: var(--pfad);
+  font: 800 13px/1.3 var(--f-num); text-transform: uppercase; letter-spacing: .04em;
+}
+.quiz-prompt { margin: 0 0 12px; font-size: 17px; line-height: 1.5; }
+.quiz-optionen { display: grid; gap: 8px; margin: 0; padding: 0; border: 0; }
+.quiz-option {
+  display: grid; grid-template-columns: 24px minmax(0,1fr); align-items: center; gap: 8px;
+  min-height: 48px; padding: 10px 12px; border: 2px solid var(--linie-kraeftig);
+  border-radius: 9px; background: var(--paper-hi); cursor: pointer;
+}
+.quiz-option:has(input:checked) { border-color: var(--pfad); background: var(--pfad-bg); font-weight: 700; }
+.quiz-option input { width: 20px; height: 20px; accent-color: var(--pfad); }
+.quiz-zahl { display: flex; align-items: center; gap: 8px; }
+.quiz-mehrfach, .quiz-zuordnung { display: grid; grid-template-columns: minmax(110px,1fr) minmax(140px,1fr) auto; align-items: center; gap: 9px; margin-top: 9px; }
+.quiz-zuordnung select {
+  min-height: 46px; padding: 8px 10px; border: 2px solid var(--linie-kraeftig);
+  border-radius: 9px; background: var(--paper-hi); color: var(--ink); font: inherit;
+}
+.quiz-ergebnis {
+  padding: 14px; border-left: 5px solid var(--ok); border-radius: 0 10px 10px 0;
+  background: var(--ok-bg); color: var(--ink);
+}
+.quiz-ergebnis strong { font-size: 20px; }
+.quiz-ergebnis p { margin: 7px 0 0; line-height: 1.5; }
+
+@media (max-width: 560px) {
+  .quiz-frage { padding: 12px; }
+  .quiz-mehrfach, .quiz-zuordnung { grid-template-columns: 1fr; }
+}
+
+
+/* ============================================================
    Übungsblatt und Lernsperre  (V30)
    ============================================================ */
 .blattkarte {
@@ -1375,6 +1505,12 @@ input.zahl-feld.lk-luecke-feld { flex: 1 1 120px; height: 46px; font-size: 18px;
 .video-platzhalter {
   margin: 0; max-width: 40ch; font-size: 14px; line-height: 1.5; color: var(--ink-soft);
 }
+.video-aktionen {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px;
+  width: min(100%, 560px);
+}
+.video-aktionen .btn { text-decoration: none; }
+.video-direkt { min-width: min(100%, 230px); }
 .video-frame { width: 100%; height: 100%; border: 0; display: block; }
 
 .video-notiz {
@@ -1382,7 +1518,7 @@ input.zahl-feld.lk-luecke-feld { flex: 1 1 120px; height: 46px; font-size: 18px;
   background: var(--merk-bg); border-left: 3px solid var(--merk-linie);
   border-radius: 0 6px 6px 0; color: var(--merk-text);
 }
-.video-extern { font-size: 13px; }
+.video-extern { display: inline-block; margin: 4px 16px 0 0; font-size: 13px; }
 
 /* Das empfohlene Video trägt links die Farbe des Lernwegs — so ist auf
    einen Blick klar, welches gemeint ist. */
@@ -1519,6 +1655,30 @@ input.zahl-feld.lk-luecke-feld { flex: 1 1 120px; height: 46px; font-size: 18px;
   margin: 12px 0 4px; padding: 9px 12px; font-size: 14px; line-height: 1.5;
   background: var(--flaeche); border-radius: 8px; color: var(--ink-soft);
 }
+
+.warmup-auswahl {
+  display: grid; gap: 10px; margin: 18px 0;
+}
+.warmup-option {
+  display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 10px;
+  align-items: start; width: 100%; min-height: 60px; padding: 10px 14px;
+  border: 2px solid var(--linie); border-radius: 12px;
+  background: var(--papier); color: var(--ink); text-align: left;
+  font: inherit; line-height: 1.45; cursor: pointer;
+}
+.warmup-option > span {
+  display: grid; place-items: center; width: 44px; height: 44px;
+  border-radius: 50%; background: var(--flaeche); color: var(--ink-soft);
+  font-weight: 800;
+}
+.warmup-option:hover { border-color: var(--pfad); }
+.warmup-option.gewaehlt {
+  border-color: var(--pfad); background: var(--pfad-bg);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--pfad) 18%, transparent);
+}
+.warmup-option.gewaehlt > span { background: var(--pfad); color: #fff; }
+.warmup-option:focus-visible { outline: 3px solid var(--fokus); outline-offset: 2px; }
+.warmup-option:disabled { cursor: default; opacity: .82; }
 .warmup-gewertet {
   background: var(--merk-bg); border-left: 3px solid var(--merk-linie);
   border-radius: 0 8px 8px 0; color: var(--merk-text);
@@ -1531,6 +1691,7 @@ input.zahl-feld.lk-luecke-feld { flex: 1 1 120px; height: 46px; font-size: 18px;
 @media (max-width: 720px) {
   .warmup-herkunft { margin-left: 16px; margin-right: 16px; }
   .warmup-reihe { flex-basis: 100%; margin-left: 0; white-space: normal; }
+  .warmup-option { grid-template-columns: 46px minmax(0, 1fr); padding: 9px 10px; }
 }
 
 /* ============================================================
@@ -1557,6 +1718,47 @@ input.zahl-feld.lk-luecke-feld { flex: 1 1 120px; height: 46px; font-size: 18px;
 .versuch-auftrag b { display: block; margin-bottom: 3px; }
 
 .lehrbuchkarte { border-left-color: #6B3FA0; }
+.materialkarte { border-left-color: #B85C00; }
+.material-hinweis {
+  margin: 4px 0 14px;
+  color: var(--ink-muted);
+  font-size: 14px;
+  line-height: 1.55;
+}
+.material-liste {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+.material-eintrag {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 13px 14px;
+  border: 1px solid var(--linie);
+  border-radius: 12px;
+  background: var(--flaeche);
+}
+.material-text { flex: 1 1 260px; min-width: 0; }
+.material-text strong {
+  display: block;
+  margin-bottom: 3px;
+  font-family: var(--f-display);
+  font-size: 15px;
+}
+.material-text span {
+  display: block;
+  color: var(--ink-soft);
+  font-size: 13px;
+  line-height: 1.45;
+}
+.material-link { flex: 0 0 auto; text-align: center; }
+@media (max-width: 720px) {
+  .material-eintrag { align-items: stretch; flex-direction: column; }
+  .material-link { width: 100%; }
+}
 .lehrbuch-zeile {
   display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap;
   margin: 12px 0 8px; padding-bottom: 7px; border-bottom: 1px solid var(--linie);
@@ -1568,6 +1770,12 @@ input.zahl-feld.lk-luecke-feld { flex: 1 1 120px; height: 46px; font-size: 18px;
 }
 .lehrbuch-seiten {
   margin-left: auto; font-family: var(--f-num); font-size: 12px; color: var(--ink-faint);
+}
+.lehrbuch-abschnitt {
+  margin: -2px 0 10px; color: var(--ink-muted); font-size: 14px; line-height: 1.45;
+}
+.lehrbuch-zeile-zusatz {
+  margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--linie);
 }
 .lehrbuch-auftrag { font-size: 15px; line-height: 1.6; }
 .lehrbuch-quelle { margin: 9px 0 0; font-size: 12px; color: var(--ink-faint); }
@@ -1643,3 +1851,104 @@ body .heft-text { font-size: 16px; }
   body .zeitplan-leiste { display: none; }
 }
 
+/* FC-01 · geführte Sicherheitsunterweisung. Große Ziele, kurze Abschnitte
+   und eine einspaltige mobile Darstellung unterstützen auch Lernende mit
+   geringer Lesesicherheit. */
+body .sicherheitskurs {
+  margin-top: 24px;
+  padding: clamp(16px, 3vw, 22px);
+  border: 2px solid #d7a522;
+  border-radius: 16px;
+  background: #fffaf0;
+  color: #192538;
+}
+body .sicherheitskurs-titel {
+  margin: 0 0 12px;
+  font-size: clamp(20px, 3.5vw, 24px);
+}
+body .sicherheitskurs-grenze {
+  margin: 0 0 16px;
+  padding: 13px 15px;
+  border-left: 5px solid #bf3d2f;
+  border-radius: 8px;
+  background: #fff0ed;
+  line-height: 1.55;
+}
+body .sicherheitskurs-abschnitte { display: grid; gap: 9px; }
+body .sicherheitsabschnitt {
+  overflow: clip;
+  border: 1px solid #cbd4df;
+  border-radius: 11px;
+  background: #fff;
+}
+body .sicherheitsabschnitt summary {
+  min-height: 50px;
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 800;
+  line-height: 1.35;
+}
+body .sicherheitsabschnitt[open] summary { border-bottom: 1px solid #dce2e9; }
+body .sicherheitsabschnitt ul {
+  margin: 0;
+  padding: 14px 18px 16px 2.2rem;
+  display: grid;
+  gap: 9px;
+}
+body .sicherheitsabschnitt li { line-height: 1.55; }
+body .sicherheitscheck {
+  margin: 18px 0 0;
+  padding: 16px;
+  border: 2px solid #426d9b;
+  border-radius: 12px;
+  background: #f3f8fd;
+}
+body .sicherheitscheck legend { padding: 0 7px; font-weight: 900; font-size: 18px; }
+body .sicherheitscheck-hinweis { margin: 0 0 12px; line-height: 1.5; }
+body .sicherheitscheck label {
+  min-height: 48px;
+  padding: 9px 5px;
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  gap: 10px;
+  align-items: start;
+  cursor: pointer;
+  line-height: 1.45;
+}
+body .sicherheitscheck-feld { width: 24px; height: 24px; margin: 0; accent-color: #25633c; }
+body .sicherheitscheck-status { margin: 10px 0 0; font-weight: 800; color: #8a341f; }
+body .sicherheitscheck-status.ist-fertig { color: #25633c; }
+body .sicherheitskurs-kompakt {
+  margin-top: 14px;
+  border: 1px solid #d7a522;
+  border-radius: 11px;
+  background: #fffaf0;
+}
+body .sicherheitskurs-kompakt > summary {
+  min-height: 50px;
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 800;
+}
+body .sicherheitskurs-kompakt > .sicherheitskurs { margin: 0; border: 0; border-top: 1px solid #ead18d; border-radius: 0 0 11px 11px; }
+body .btn:disabled { cursor: not-allowed; opacity: .55; }
+
+@media (max-width: 560px) {
+  body .sicherheitskurs { margin-top: 18px; padding: 14px; }
+  body .sicherheitskurs-grenze { padding: 12px; }
+  body .sicherheitsabschnitt summary { min-height: 54px; padding: 13px 12px; }
+  body .sicherheitsabschnitt ul { padding: 13px 12px 15px 1.9rem; }
+  body .sicherheitscheck { padding: 13px 11px; }
+  body .sicherheitscheck label { grid-template-columns: 28px 1fr; }
+}
+
+@media print {
+  body .sicherheitskurs-kompakt { display: block; }
+  body .sicherheitskurs-kompakt > summary { display: none; }
+  body .sicherheitsabschnitt { break-inside: avoid; }
+  body .sicherheitscheck { display: none; }
+}

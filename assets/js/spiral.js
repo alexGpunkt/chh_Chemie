@@ -55,7 +55,8 @@ const SP = {
   kategorieReihe: {}, // Kategoriecode → Reihe, in der sie erarbeitet wurde
   /* Pflichtlauf im Unterricht? Wird beim Start aus dem Lernmodus gelesen. */
   pflicht: false,
-  gemeldet: false
+  gemeldet: false,
+  auswahl: null
 };
 
 /* ============================================================
@@ -148,6 +149,16 @@ function quellenBestimmen() {
 
   const erlaubt = new Set();
   SP.kategorieReihe = {};
+  /* In der ersten Reihe gibt es noch keine frühere Reihe. Dann darf das
+     Warm-up trotzdem nicht den gesamten Jahresstoff vorwegnehmen: Es nutzt
+     nur die Chemiekategorie, die zur gerade geöffneten Einheit gehört. */
+  if (!frueher.length && SP.einheit && SP.plan.verzahnung[SP.einheit]) {
+    for (const k of SP.plan.verzahnung[SP.einheit]) {
+      erlaubt.add(k);
+      SP.kategorieReihe[k] = SP.aktuelleReihe;
+    }
+    return erlaubt;
+  }
   for (const r of SP.quellenReihen) {
     for (const k of r.grundwissen || []) {
       erlaubt.add(k);
@@ -181,6 +192,27 @@ function boostKategorien() {
   return { boost, gruende };
 }
 
+function warmupSchonErarbeitet(g) {
+  if (!g.ab_einheit || !SP.plan) return false;
+  const reihen = SP.plan.reihen || [];
+  const folge = reihen.flatMap(r => r.einheiten || []);
+  const quelle = folge.indexOf(g.ab_einheit);
+  if (quelle < 0) return false;
+
+  if (SP.einheit) {
+    const aktuell = folge.indexOf(String(SP.einheit).toLowerCase());
+    if (aktuell < 0) return false;
+    /* Die allererste Einheit darf ihre Sicherheitsregeln als Einstieg
+       nutzen. Danach erscheint ausschließlich Stoff aus früheren Einheiten. */
+    return aktuell === 0 ? quelle === 0 : quelle < aktuell;
+  }
+
+  /* Beim freien Üben ist nur die weiteste Reihe bekannt. Dann werden alle
+     Fragen bis zu dieser Reihe zugelassen, aber niemals spätere Inhalte. */
+  const quellReihe = reiheZuEinheit(g.ab_einheit);
+  return !!quellReihe && !!SP.aktuelleReihe && quellReihe.nummer <= SP.aktuelleReihe.nummer;
+}
+
 function waehle(anzahl = 5) {
   const jetzt = Date.now();
   const k = kartei();
@@ -194,6 +226,7 @@ function waehle(anzahl = 5) {
     if (erlaubt && !erlaubt.has(kat.kategorie)) continue;
     for (const g of kat.generatoren) {
       if (g.level !== SP.level) continue;
+      if (!warmupSchonErarbeitet(g)) continue;
       const e = k[g.id];
       let punkte = Math.random() * 2;                       // Losentscheid bei Gleichstand
       if (!e) punkte += 20;                                 // noch nie dran
@@ -264,7 +297,7 @@ async function starte() {
       /* Die Dateien sind deutsch beschriftet (kategorie/generatoren). Bis
          V30 las diese Stelle die englischen Namen und warf bei jedem Start
          eine Ausnahme — das Warm-up lud nie. */
-      const liste = d.generatoren || d.generators || [];
+      const liste = d.fragen || d.generatoren || d.generators || [];
       const kat = d.kategorie || d.category;
       liste.forEach(g => { g.kategorie = kat; });
       SP.kategorien[kat] = { kategorie: kat, titel: d.titel || d.title || kat, generatoren: liste };
@@ -301,7 +334,7 @@ async function starte() {
   const gewuenscht = SP.pflicht
     ? 5
     : Math.min(8, Math.max(1, parseInt(p.get('n'), 10) || 5));
-  SP.reihe = waehle(gewuenscht).map(g => baue(g, SP.level));
+  SP.reihe = waehle(gewuenscht).map(materialisiere);
   if (!SP.reihe.length) {
     $$('#buehne').innerHTML = `<div class="karte"><p class="frage">Für Pfad ${SP.level}
       sind aus den zurückliegenden Reihen noch keine Wiederholungsaufgaben
@@ -310,6 +343,27 @@ async function starte() {
   }
   kopfBeschriften();
   zeige();
+}
+
+/* Katalogfragen sind bereits konkrete Auswahlaufgaben. Zahlenaufgaben aus
+   den gedruckten Chemieblättern bleiben als Generatorformat unterstützt. */
+function materialisiere(g) {
+  if (g.type === 'choice') {
+    return {
+      ...g,
+      id: g.id,
+      genId: g.id,
+      tolerance: 0,
+      misconceptions: []
+    };
+  }
+  return baue(g, SP.level);
+}
+
+function esc(text) {
+  return String(text == null ? '' : text)
+    .replaceAll('&', '&amp;').replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 }
 
 /* Der Kopf sagt, worum es geht: welche Reihen wiederholt werden und ob der
@@ -355,6 +409,7 @@ function zeige() {
   const a = SP.reihe[SP.index];
   SP.aufgabe = a;
   SP.versuche = 0;
+  SP.auswahl = null;
   SP.start = Date.now();
   Tracker.setContext({ unit: 'WARMUP', path: SP.level, task: a.id, progress: Math.round(SP.index / (SP.reihe.length || 1) * 100) });
   Tracker.track('task_view', {
@@ -374,13 +429,19 @@ function zeige() {
 
   const karte = document.createElement('div');
   karte.className = 'karte';
+  const eingabe = a.type === 'choice'
+    ? `<div class="warmup-auswahl" role="group" aria-label="Antwort auswählen">
+        ${a.options.map((option, index) => `<button type="button" class="warmup-option"
+          data-index="${index}" aria-pressed="false"><span>${String.fromCharCode(65 + index)}</span>${esc(option)}</button>`).join('')}
+       </div>`
+    : `<div class="eingabe-zeile">
+        <input class="zahl-feld" type="text" inputmode="decimal" enterkeyhint="done"
+               autocomplete="off" aria-label="Ergebnis eingeben">
+        ${a.unit_label ? `<span class="einheit-label">${esc(a.unit_label)}</span>` : ''}
+       </div>`;
   karte.innerHTML = `
-    <p class="frage">${a.prompt}</p>
-    <div class="eingabe-zeile">
-      <input class="zahl-feld" type="text" inputmode="decimal" enterkeyhint="done"
-             autocomplete="off" aria-label="Ergebnis eingeben">
-      ${a.unit_label ? `<span class="einheit-label">${a.unit_label}</span>` : ''}
-    </div>
+    <p class="frage">${esc(a.prompt)}</p>
+    ${eingabe}
     <div class="aktionen">
       <button class="btn btn-haupt" id="pruefen">Prüfen</button>
       ${a.hint ? '<button class="btn btn-neben" id="tipp">Tipp</button>' : ''}
@@ -389,12 +450,34 @@ function zeige() {
   b.append(karte);
 
   $$('#pruefen').addEventListener('click', pruefe);
-  $$('.zahl-feld').addEventListener('keydown', e => { if (e.key === 'Enter') pruefe(); });
+  if ($$('.zahl-feld')) {
+    $$('.zahl-feld').addEventListener('keydown', e => { if (e.key === 'Enter') pruefe(); });
+  }
+  b.querySelectorAll('.warmup-option').forEach(button => {
+    button.addEventListener('click', () => {
+      if (button.disabled) return;
+      SP.auswahl = Number(button.dataset.index);
+      b.querySelectorAll('.warmup-option').forEach(other => {
+        const aktiv = other === button;
+        other.classList.toggle('gewaehlt', aktiv);
+        other.setAttribute('aria-pressed', aktiv ? 'true' : 'false');
+      });
+    });
+    /* Native Buttons lassen sich bereits per Tastatur bedienen. Der
+       explizite Handler hält das Verhalten auch in vereinfachten
+       Schulbrowsern und eingebetteten WebViews zuverlässig. */
+    button.addEventListener('keydown', event => {
+      if (event.key !== 'Enter' && event.key !== ' ') return;
+      event.preventDefault();
+      button.click();
+    });
+  });
   if ($$('#tipp')) $$('#tipp').addEventListener('click', () => {
     melde('tipp', `<b>Tipp:</b> ${a.hint}`);
     $$('#tipp').disabled = true;
   });
-  $$('.zahl-feld').focus({ preventScroll: true });
+  const fokus = $$('.zahl-feld') || b.querySelector('.warmup-option');
+  if (fokus) fokus.focus({ preventScroll: true });
 }
 
 function melde(art, html) {
@@ -406,19 +489,24 @@ function melde(art, html) {
 
 function pruefe() {
   const a = SP.aufgabe;
-  const roh = $$('.zahl-feld').value.trim();
-  if (roh === '') return;
-  SP.versuche++;
-
-  const k = lesarten(roh).filter(z => !Number.isNaN(z));
-  if (!k.length) { melde('nope', 'Das ist keine Zahl. Schreib nur das Ergebnis.'); return; }
-
-  const richtig = k.some(z => Math.abs(z - a.answer) <= a.tolerance);
+  let richtig = false;
   let mis = null;
-  if (!richtig) {
-    for (const z of k) {
-      const m = a.misconceptions.find(m => Math.abs(z - m.value) <= a.tolerance);
-      if (m) { mis = m; break; }
+  if (a.type === 'choice') {
+    if (!Number.isInteger(SP.auswahl)) return;
+    SP.versuche++;
+    richtig = SP.auswahl === a.answer;
+  } else {
+    const roh = $$('.zahl-feld').value.trim();
+    if (roh === '') return;
+    SP.versuche++;
+    const k = lesarten(roh).filter(z => !Number.isNaN(z));
+    if (!k.length) { melde('nope', 'Das ist keine Zahl. Schreib nur das Ergebnis.'); return; }
+    richtig = k.some(z => Math.abs(z - a.answer) <= a.tolerance);
+    if (!richtig) {
+      for (const z of k) {
+        const m = a.misconceptions.find(m => Math.abs(z - m.value) <= a.tolerance);
+        if (m) { mis = m; break; }
+      }
     }
   }
   if (mis) merkeFehler(mis.id);
@@ -434,7 +522,7 @@ function pruefe() {
   if (richtig) {
     if (SP.versuche === 1) SP.richtig++;
     notiere(a.genId, SP.versuche === 1);
-    melde('ok', '<b>Richtig.</b>' + (a.solution ? `<div class="rechenweg">${a.solution}</div>` : ''));
+    melde('ok', '<b>Richtig.</b>' + (a.solution ? `<div class="rechenweg">${esc(a.solution)}</div>` : ''));
     weiterKnopf();
     return;
   }
@@ -444,9 +532,9 @@ function pruefe() {
 
   if (SP.versuche >= 2) {
     notiere(a.genId, false);
-    const wert = a.unit_label === '€' ? fmtGeld(a.answer) : fmt(a.answer);
-    melde('tipp', `<b>Die Lösung:</b> ${wert} ${a.unit_label}` +
-      (a.solution ? `<div class="rechenweg">${a.solution}</div>` : ''));
+    const wert = a.type === 'choice' ? a.options[a.answer] : fmt(a.answer);
+    melde('tipp', `<b>Die Lösung:</b> ${esc(wert)} ${a.type === 'choice' ? '' : esc(a.unit_label)}` +
+      (a.solution ? `<div class="rechenweg">${esc(a.solution)}</div>` : ''));
     weiterKnopf();
   }
 }
@@ -460,7 +548,8 @@ function weiterKnopf() {
   alt.replaceWith(neu);
   neu.addEventListener('click', () => { SP.index++; zeige(); });
   if ($$('#tipp')) $$('#tipp').disabled = true;
-  $$('.zahl-feld').disabled = true;
+  if ($$('.zahl-feld')) $$('.zahl-feld').disabled = true;
+  document.querySelectorAll('.warmup-option').forEach(button => { button.disabled = true; });
   neu.focus();
 }
 
@@ -514,7 +603,7 @@ function fertig() {
   b.append(karte);
 
   if ($$('#nochmal')) $$('#nochmal').addEventListener('click', () => {
-    SP.reihe = waehle(5).map(g => baue(g, SP.level));
+    SP.reihe = waehle(5).map(materialisiere);
     SP.index = 0; SP.richtig = 0; SP.beginn = Date.now(); SP.gemeldet = false;
     zeige();
   });

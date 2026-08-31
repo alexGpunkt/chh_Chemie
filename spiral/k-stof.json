@@ -1,0 +1,565 @@
+{
+  "kategorie": "K-STOF",
+  "titel": "Stoffe und Trennverfahren",
+  "hinweis": "Fragen aus dem gelieferten Chemie-Fragenkatalog; jede Frage gehört genau einem Niveau und erscheint erst nach ihrer Einführungs-Einheit.",
+  "fragen": [
+    {
+      "id": "KAT-ext-021-A",
+      "level": "A",
+      "kategorie": "K-STOF",
+      "skill": "Trennverfahren",
+      "type": "choice",
+      "prompt": "Welches Trennverfahren eignet sich für Sand und Wasser?",
+      "options": [
+        "ρ = 54 g / 20 cm³ = 2,7 g/cm³.",
+        "Filtration.",
+        "Sand in Wasser."
+      ],
+      "answer": 1,
+      "solution": "Filtration.",
+      "katalog_id": "ext-021",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-04"
+    },
+    {
+      "id": "KAT-ext-020-A",
+      "level": "A",
+      "kategorie": "K-STOF",
+      "skill": "Stoffgemische",
+      "type": "choice",
+      "prompt": "Welches Gemisch ist eine Suspension?",
+      "options": [
+        "Salz in Wasser",
+        "Sand in Wasser",
+        "Alkohol in Wasser"
+      ],
+      "answer": 1,
+      "solution": "Sand in Wasser.",
+      "katalog_id": "ext-020",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-04"
+    },
+    {
+      "id": "KAT-ext-008-A",
+      "level": "A",
+      "kategorie": "K-STOF",
+      "skill": "Stoffe & Eigenschaften",
+      "type": "choice",
+      "prompt": "Welche Eigenschaft eignet sich besonders zur Identifikation eines Reinstoffs?",
+      "options": [
+        "Gefäßform",
+        "Schmelz- oder Siedetemperatur",
+        "Position im Raum"
+      ],
+      "answer": 1,
+      "solution": "Eine charakteristische Schmelz- oder Siedetemperatur.",
+      "katalog_id": "ext-008",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-03"
+    },
+    {
+      "id": "KAT-ext-026-A",
+      "level": "A",
+      "kategorie": "K-STOF",
+      "skill": "Physikalisch oder chemisch",
+      "type": "choice",
+      "prompt": "Ordne Schmelzen von Eis, Verbrennen von Holz, Lösen von Zucker und Rosten von Eisen in physikalische oder chemische Vorgänge ein.",
+      "options": [
+        "Physikalisch: Schmelzen, Lösen. Chemisch: Verbrennen, Rosten.",
+        "Reinstoffe: Kupfer, destilliertes Wasser. Gemische: Luft, Granit.",
+        "Eine charakteristische Schmelz- oder Siedetemperatur."
+      ],
+      "answer": 0,
+      "solution": "Physikalisch: Schmelzen, Lösen. Chemisch: Verbrennen, Rosten.",
+      "katalog_id": "ext-026",
+      "schwierigkeit": 1,
+      "ab_einheit": "sl-02"
+    },
+    {
+      "id": "KAT-ext-009-A",
+      "level": "A",
+      "kategorie": "K-STOF",
+      "skill": "Stoffe & Eigenschaften",
+      "type": "choice",
+      "prompt": "Ordne Kupfer, Luft, destilliertes Wasser und Granit in Reinstoff oder Gemisch ein.",
+      "options": [
+        "Physikalisch: Schmelzen, Lösen. Chemisch: Verbrennen, Rosten.",
+        "Unterschiedliche Siedetemperaturen bzw. Flüchtigkeiten der Bestandteile.",
+        "Reinstoffe: Kupfer, destilliertes Wasser. Gemische: Luft, Granit."
+      ],
+      "answer": 2,
+      "solution": "Reinstoffe: Kupfer, destilliertes Wasser. Gemische: Luft, Granit.",
+      "katalog_id": "ext-009",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-03"
+    },
+    {
+      "id": "KAT-ext-044-A",
+      "level": "A",
+      "kategorie": "K-STOF",
+      "skill": "Wasser & Lösungen",
+      "type": "choice",
+      "prompt": "Richtig oder falsch: Wenn Zucker in Wasser gelöst wird, ist der Zucker chemisch verschwunden.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ],
+      "answer": 1,
+      "solution": "Falsch. Die Zuckerteilchen sind weiterhin vorhanden und nur im Wasser verteilt.",
+      "katalog_id": "ext-044",
+      "schwierigkeit": 1,
+      "ab_einheit": "wa-05"
+    },
+    {
+      "id": "KAT-ext-014-A",
+      "level": "A",
+      "kategorie": "K-STOF",
+      "skill": "Teilchenmodell",
+      "type": "choice",
+      "prompt": "Richtig oder falsch: Beim Schmelzen werden die Teilchen selbst flüssig.",
+      "options": [
+        "Richtig",
+        "Falsch"
+      ],
+      "answer": 1,
+      "solution": "Falsch. Die Teilchen bleiben dieselben; ihre Anordnung und Beweglichkeit ändern sich.",
+      "katalog_id": "ext-014",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-03"
+    },
+    {
+      "id": "KAT-ext-007-A",
+      "level": "A",
+      "kategorie": "K-STOF",
+      "skill": "Stoffe & Eigenschaften",
+      "type": "choice",
+      "prompt": "Was ist ein Reinstoff?",
+      "options": [
+        "Duftteilchen bewegen sich ständig zufällig und verteilen sich durch Zusammenstöße allmählich im Raum.",
+        "Ein Stoff, der nur aus einer Teilchensorte besteht und charakteristische Stoffeigenschaften besitzt.",
+        "Nebel: Flüssigkeit in Gas; Rauch: Feststoff in Gas; Milch: Emulsion; Messing: feste homogene Legierung."
+      ],
+      "answer": 1,
+      "solution": "Ein Stoff, der nur aus einer Teilchensorte besteht und charakteristische Stoffeigenschaften besitzt.",
+      "katalog_id": "ext-007",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-03"
+    },
+    {
+      "id": "KAT-ext-019-A",
+      "level": "A",
+      "kategorie": "K-STOF",
+      "skill": "Stoffgemische",
+      "type": "choice",
+      "prompt": "Ordne Nebel, Rauch, Milch und Messing den Gemischtypen zu.",
+      "options": [
+        "Nebel: Flüssigkeit in Gas; Rauch: Feststoff in Gas; Milch: Emulsion; Messing: feste homogene Legierung.",
+        "Duftteilchen bewegen sich ständig zufällig und verteilen sich durch Zusammenstöße allmählich im Raum.",
+        "Bei gegebener Temperatur ist so viel Stoff gelöst, wie maximal möglich; zusätzlicher Stoff bleibt ungelöst."
+      ],
+      "answer": 0,
+      "solution": "Nebel: Flüssigkeit in Gas; Rauch: Feststoff in Gas; Milch: Emulsion; Messing: feste homogene Legierung.",
+      "katalog_id": "ext-019",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-04"
+    },
+    {
+      "id": "KAT-ext-016-A",
+      "level": "A",
+      "kategorie": "K-STOF",
+      "skill": "Aggregatzustände",
+      "type": "choice",
+      "prompt": "Ordne Schmelzen, Erstarren, Verdampfen und Kondensieren den Zustandsänderungen zu.",
+      "options": [
+        "Rühren transportiert gesättigte Lösung von der Oberfläche weg und bringt frisches Lösungsmittel an den Feststoff.",
+        "Schmelzen fest→flüssig; Erstarren flüssig→fest; Verdampfen flüssig→gasförmig; Kondensieren gasförmig→flüssig.",
+        "Bei gegebener Temperatur ist so viel Stoff gelöst, wie maximal möglich; zusätzlicher Stoff bleibt ungelöst."
+      ],
+      "answer": 1,
+      "solution": "Schmelzen fest→flüssig; Erstarren flüssig→fest; Verdampfen flüssig→gasförmig; Kondensieren gasförmig→flüssig.",
+      "katalog_id": "ext-016",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-03"
+    },
+    {
+      "id": "KAT-ext-042-B",
+      "level": "B",
+      "kategorie": "K-STOF",
+      "skill": "Wasser & Lösungen",
+      "type": "choice",
+      "prompt": "Was ist ein Lösungsmittel und was ein gelöster Stoff?",
+      "options": [
+        "Das Lösungsmittel ist der mengenmäßig meist größere Stoff, in dem sich ein anderer Stoff verteilt; dieser ist der gelöste Stoff.",
+        "Masse beschreibt die Stoffmenge eines Körpers in g oder kg; Dichte ist Masse pro Volumen und eine Stoffeigenschaft: ρ = m/V.",
+        "Stoffe bestehen aus kleinsten Teilchen; zwischen den Teilchen ist Raum; die Teilchen bewegen sich und ziehen sich abhängig vom Abstand an.",
+        "Rühren transportiert gesättigte Lösung von der Oberfläche weg und bringt frisches Lösungsmittel an den Feststoff."
+      ],
+      "answer": 0,
+      "solution": "Das Lösungsmittel ist der mengenmäßig meist größere Stoff, in dem sich ein anderer Stoff verteilt; dieser ist der gelöste Stoff.",
+      "katalog_id": "ext-042",
+      "schwierigkeit": 1,
+      "ab_einheit": "wa-05"
+    },
+    {
+      "id": "KAT-ext-012-B",
+      "level": "B",
+      "kategorie": "K-STOF",
+      "skill": "Teilchenmodell",
+      "type": "choice",
+      "prompt": "Nenne drei Grundannahmen des einfachen Teilchenmodells.",
+      "options": [
+        "Die zugeführte Energie wird zum Überwinden von Anziehungskräften zwischen den Teilchen genutzt, nicht zur Erhöhung ihrer mittleren Bewegungsenergie.",
+        "Bei der Destillation findet eine physikalische Trennung aufgrund unterschiedlicher Siedetemperaturen statt; Wasser wird dabei nicht chemisch zerlegt.",
+        "Das Lösungsmittel ist der mengenmäßig meist größere Stoff, in dem sich ein anderer Stoff verteilt; dieser ist der gelöste Stoff.",
+        "Stoffe bestehen aus kleinsten Teilchen; zwischen den Teilchen ist Raum; die Teilchen bewegen sich und ziehen sich abhängig vom Abstand an."
+      ],
+      "answer": 3,
+      "solution": "Stoffe bestehen aus kleinsten Teilchen; zwischen den Teilchen ist Raum; die Teilchen bewegen sich und ziehen sich abhängig vom Abstand an.",
+      "katalog_id": "ext-012",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-03"
+    },
+    {
+      "id": "KAT-src-b1-9-B",
+      "level": "B",
+      "kategorie": "K-STOF",
+      "skill": "Stoffe, Gemische, Trennverfahren",
+      "type": "choice",
+      "prompt": "Woraus besteht Luft?",
+      "options": [
+        "Luft ist ein homogenes Gasgemisch aus ca. 78 % Stickstoff, 21 % Sauerstoff, 1 % Edelgase (v. a. Argon) sowie Kohlenstoffdioxid, Wasserdampf und weiteren Gasen in Spuren.",
+        "Bei der Destillation findet eine physikalische Trennung aufgrund unterschiedlicher Siedetemperaturen statt; Wasser wird dabei nicht chemisch zerlegt.",
+        "Die Löslichkeit gibt an, in welchem Umfang ein Reinstoff in einem bestimmten Lösemittel gelöst werden kann – meist in g Stoff pro 100 g Lösemittel bei einer angegebenen Temperatur.",
+        "Schmelztemperatur, Siedetemperatur, Dichte, Löslichkeit, elektrische Leitfähigkeit, Wärmeleitfähigkeit, magnetische Eigenschaften – dazu Farbe, Geruch, Härte, Verformbarkeit."
+      ],
+      "answer": 0,
+      "solution": "Luft ist ein homogenes Gasgemisch aus ca. 78 % Stickstoff, 21 % Sauerstoff, 1 % Edelgase (v. a. Argon) sowie Kohlenstoffdioxid, Wasserdampf und weiteren Gasen in Spuren.",
+      "katalog_id": "src-b1-9",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-04"
+    },
+    {
+      "id": "KAT-src-b1-2-B",
+      "level": "B",
+      "kategorie": "K-STOF",
+      "skill": "Stoffe, Gemische, Trennverfahren",
+      "type": "choice",
+      "prompt": "Nenne die Aussagen des einfachen Teilchenmodells.",
+      "options": [
+        "Chemie ist die Lehre vom Aufbau und den Eigenschaften der Stoffe und von deren Umwandlung (Stoffänderungen). Sie ist eine Experimentalwissenschaft: Erkenntnisse werden aus Versuchen gewonnen und in Modellen gedeutet.",
+        "Alle Stoffe bestehen aus kleinsten Teilchen. Die Teilchen sind ständig in Bewegung. Zwischen den Teilchen wirken Anziehungskräfte. Teilchen verschiedener Stoffe unterscheiden sich in Masse und Größe (Form).",
+        "Diffusion: Bestreben gelöster und gasförmiger Stoffe, sich aufgrund der Teilchenbewegung im verfügbaren Raum gleichmäßig zu verteilen. Adsorption: Anlagerung von Teilchen an die Oberfläche eines porösen Feststoffs (z. B. Aktivkohle).",
+        "Die Löslichkeit gibt an, in welchem Umfang ein Reinstoff in einem bestimmten Lösemittel gelöst werden kann – meist in g Stoff pro 100 g Lösemittel bei einer angegebenen Temperatur."
+      ],
+      "answer": 1,
+      "solution": "Alle Stoffe bestehen aus kleinsten Teilchen. Die Teilchen sind ständig in Bewegung. Zwischen den Teilchen wirken Anziehungskräfte. Teilchen verschiedener Stoffe unterscheiden sich in Masse und Größe (Form).",
+      "katalog_id": "src-b1-2",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-04"
+    },
+    {
+      "id": "KAT-src-b1-1-B",
+      "level": "B",
+      "kategorie": "K-STOF",
+      "skill": "Stoffe, Gemische, Trennverfahren",
+      "type": "choice",
+      "prompt": "Womit befasst sich die Chemie?",
+      "options": [
+        "Diffusion: Bestreben gelöster und gasförmiger Stoffe, sich aufgrund der Teilchenbewegung im verfügbaren Raum gleichmäßig zu verteilen. Adsorption: Anlagerung von Teilchen an die Oberfläche eines porösen Feststoffs (z. B. Aktivkohle).",
+        "Gemisch Typ Bestandteile Beispiel Lösung homogen fest/flüssig/gasförmig in flüssig Zuckerwasser, Salzwasser Legierung homogen fest in fest (Metalle) Messing, Amalgam Gasgemisch homogen gasförmig in gasförmig Luft Suspension heterogen …",
+        "Chemie ist die Lehre vom Aufbau und den Eigenschaften der Stoffe und von deren Umwandlung (Stoffänderungen). Sie ist eine Experimentalwissenschaft: Erkenntnisse werden aus Versuchen gewonnen und in Modellen gedeutet.",
+        "Alle Stoffe bestehen aus kleinsten Teilchen. Die Teilchen sind ständig in Bewegung. Zwischen den Teilchen wirken Anziehungskräfte. Teilchen verschiedener Stoffe unterscheiden sich in Masse und Größe (Form)."
+      ],
+      "answer": 2,
+      "solution": "Chemie ist die Lehre vom Aufbau und den Eigenschaften der Stoffe und von deren Umwandlung (Stoffänderungen). Sie ist eine Experimentalwissenschaft: Erkenntnisse werden aus Versuchen gewonnen und in Modellen gedeutet.",
+      "katalog_id": "src-b1-1",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-04"
+    },
+    {
+      "id": "KAT-src-b1-10-B",
+      "level": "B",
+      "kategorie": "K-STOF",
+      "skill": "Stoffe, Gemische, Trennverfahren",
+      "type": "choice",
+      "prompt": "Was gibt die Löslichkeit an?",
+      "options": [
+        "Die Löslichkeit gibt an, in welchem Umfang ein Reinstoff in einem bestimmten Lösemittel gelöst werden kann – meist in g Stoff pro 100 g Lösemittel bei einer angegebenen Temperatur.",
+        "Alle Stoffe bestehen aus kleinsten Teilchen. Die Teilchen sind ständig in Bewegung. Zwischen den Teilchen wirken Anziehungskräfte. Teilchen verschiedener Stoffe unterscheiden sich in Masse und Größe (Form).",
+        "Luft ist ein homogenes Gasgemisch aus ca. 78 % Stickstoff, 21 % Sauerstoff, 1 % Edelgase (v. a. Argon) sowie Kohlenstoffdioxid, Wasserdampf und weiteren Gasen in Spuren.",
+        "Schmelztemperatur, Siedetemperatur, Dichte, Löslichkeit, elektrische Leitfähigkeit, Wärmeleitfähigkeit, magnetische Eigenschaften – dazu Farbe, Geruch, Härte, Verformbarkeit."
+      ],
+      "answer": 0,
+      "solution": "Die Löslichkeit gibt an, in welchem Umfang ein Reinstoff in einem bestimmten Lösemittel gelöst werden kann – meist in g Stoff pro 100 g Lösemittel bei einer angegebenen Temperatur. Bei Feststoffen steigt sie mit der Temperatur meist an, bei Gasen sinkt sie.",
+      "katalog_id": "src-b1-10",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-04"
+    },
+    {
+      "id": "KAT-src-b1-4-B",
+      "level": "B",
+      "kategorie": "K-STOF",
+      "skill": "Stoffe, Gemische, Trennverfahren",
+      "type": "choice",
+      "prompt": "Nenne mindestens sechs Kenneigenschaften von Stoffen.",
+      "options": [
+        "Die Löslichkeit gibt an, in welchem Umfang ein Reinstoff in einem bestimmten Lösemittel gelöst werden kann – meist in g Stoff pro 100 g Lösemittel bei einer angegebenen Temperatur.",
+        "Bei der Destillation findet eine physikalische Trennung aufgrund unterschiedlicher Siedetemperaturen statt; Wasser wird dabei nicht chemisch zerlegt.",
+        "Luft ist ein homogenes Gasgemisch aus ca. 78 % Stickstoff, 21 % Sauerstoff, 1 % Edelgase (v. a. Argon) sowie Kohlenstoffdioxid, Wasserdampf und weiteren Gasen in Spuren.",
+        "Schmelztemperatur, Siedetemperatur, Dichte, Löslichkeit, elektrische Leitfähigkeit, Wärmeleitfähigkeit, magnetische Eigenschaften – dazu Farbe, Geruch, Härte, Verformbarkeit."
+      ],
+      "answer": 3,
+      "solution": "Schmelztemperatur, Siedetemperatur, Dichte, Löslichkeit, elektrische Leitfähigkeit, Wärmeleitfähigkeit, magnetische Eigenschaften – dazu Farbe, Geruch, Härte, Verformbarkeit. Kenneigenschaften sind bei gleichem Druck und gleicher Temperatur für einen Reinstoff immer gleich und dienen deshalb zu seiner Identifizierung.",
+      "katalog_id": "src-b1-4",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-04"
+    },
+    {
+      "id": "KAT-src-b1-6-B",
+      "level": "B",
+      "kategorie": "K-STOF",
+      "skill": "Stoffe, Gemische, Trennverfahren",
+      "type": "choice",
+      "prompt": "Charakterisiere die wichtigsten Stoffgemische und nenne je ein Beispiel.",
+      "options": [
+        "Diffusion: Bestreben gelöster und gasförmiger Stoffe, sich aufgrund der Teilchenbewegung im verfügbaren Raum gleichmäßig zu verteilen. Adsorption: Anlagerung von Teilchen an die Oberfläche eines porösen Feststoffs (z. B. Aktivkohle).",
+        "Gemisch Typ Bestandteile Beispiel Lösung homogen fest/flüssig/gasförmig in flüssig Zuckerwasser, Salzwasser Legierung homogen fest in fest (Metalle) Messing, Amalgam Gasgemisch homogen gasförmig in gasförmig Luft Suspension heterogen …",
+        "Alle Stoffe bestehen aus kleinsten Teilchen. Die Teilchen sind ständig in Bewegung. Zwischen den Teilchen wirken Anziehungskräfte. Teilchen verschiedener Stoffe unterscheiden sich in Masse und Größe (Form).",
+        "Chemie ist die Lehre vom Aufbau und den Eigenschaften der Stoffe und von deren Umwandlung (Stoffänderungen). Sie ist eine Experimentalwissenschaft: Erkenntnisse werden aus Versuchen gewonnen und in Modellen gedeutet."
+      ],
+      "answer": 1,
+      "solution": "Gemisch Typ Bestandteile Beispiel Lösung homogen fest/flüssig/gasförmig in flüssig Zuckerwasser, Salzwasser Legierung homogen fest in fest (Metalle) Messing, Amalgam Gasgemisch homogen gasförmig in gasförmig Luft Suspension heterogen fest in flüssig Schlamm, trübes Kalkwasser Emulsion heterogen flüssig in flüssig Milch Rauch heterogen fest in gasförmig Zigarettenrauch Nebel heterogen flüssig in gasförmig Nebel, Sprühnebel Gemenge heterogen fest in fest Müsli, Granit homogen = einphasig, einheitliches Aussehen; heterogen = mehrphasig, uneinheitliches Aussehen.",
+      "katalog_id": "src-b1-6",
+      "schwierigkeit": 1,
+      "ab_einheit": "sl-02"
+    },
+    {
+      "id": "KAT-src-b1-8-B",
+      "level": "B",
+      "kategorie": "K-STOF",
+      "skill": "Stoffe, Gemische, Trennverfahren",
+      "type": "choice",
+      "prompt": "Definiere Diffusion, Adsorption, Absorption und Sublimation.",
+      "options": [
+        "Gemisch Typ Bestandteile Beispiel Lösung homogen fest/flüssig/gasförmig in flüssig Zuckerwasser, Salzwasser Legierung homogen fest in fest (Metalle) Messing, Amalgam Gasgemisch homogen gasförmig in gasförmig Luft Suspension heterogen …",
+        "Chemie ist die Lehre vom Aufbau und den Eigenschaften der Stoffe und von deren Umwandlung (Stoffänderungen). Sie ist eine Experimentalwissenschaft: Erkenntnisse werden aus Versuchen gewonnen und in Modellen gedeutet.",
+        "Alle Stoffe bestehen aus kleinsten Teilchen. Die Teilchen sind ständig in Bewegung. Zwischen den Teilchen wirken Anziehungskräfte. Teilchen verschiedener Stoffe unterscheiden sich in Masse und Größe (Form).",
+        "Diffusion: Bestreben gelöster und gasförmiger Stoffe, sich aufgrund der Teilchenbewegung im verfügbaren Raum gleichmäßig zu verteilen. Adsorption: Anlagerung von Teilchen an die Oberfläche eines porösen Feststoffs (z. B. Aktivkohle)."
+      ],
+      "answer": 3,
+      "solution": "Diffusion: Bestreben gelöster und gasförmiger Stoffe, sich aufgrund der Teilchenbewegung im verfügbaren Raum gleichmäßig zu verteilen. Adsorption: Anlagerung von Teilchen an die Oberfläche eines porösen Feststoffs (z. B. Aktivkohle). Absorption: Aufnahme von Energie aus elektromagnetischer Strahlung (Licht, Röntgen-, Mikrowellenstrahlung) – bzw. allgemein die Aufnahme eines Stoffs in das Innere eines anderen. Sublimation: direkter Übergang vom festen in den gasförmigen Zustand (z. B. Iod, Trockeneis).",
+      "katalog_id": "src-b1-8",
+      "schwierigkeit": 1,
+      "ab_einheit": "fc-04"
+    },
+    {
+      "id": "KAT-ext-018-B",
+      "level": "B",
+      "kategorie": "K-STOF",
+      "skill": "Stoffgemische",
+      "type": "choice",
+      "prompt": "Ist Salzwasser homogen oder heterogen? Begründe.",
+      "options": [
+        "Falsch. Die Teilchen bleiben dieselben; ihre Anordnung und Beweglichkeit ändern sich.",
+        "Homogen: Die Bestandteile sind gleichmäßig verteilt und nicht als getrennte Phasen erkennbar.",
+        "Eine kleine Menge eindampfen; bleibt ein fester Rückstand, waren nichtflüchtige Stoffe gelöst.",
+        "Ein Stoff, der nur aus einer Teilchensorte besteht und charakteristische Stoffeigenschaften besitzt."
+      ],
+      "answer": 1,
+      "solution": "Homogen: Die Bestandteile sind gleichmäßig verteilt und nicht als getrennte Phasen erkennbar.",
+      "katalog_id": "ext-018",
+      "schwierigkeit": 1,
+      "ab_einheit": "sl-02"
+    },
+    {
+      "id": "KAT-ext-024-C",
+      "level": "C",
+      "kategorie": "K-STOF",
+      "skill": "Trennverfahren",
+      "type": "choice",
+      "prompt": "Wie kann man Kochsalz aus einer Kochsalzlösung zurückgewinnen?",
+      "options": [
+        "Eine charakteristische Schmelz- oder Siedetemperatur.",
+        "Durch Eindampfen bzw. Kristallisation des Wassers.",
+        "Unterschiedliche Siedetemperaturen bzw. Flüchtigkeiten der Bestandteile.",
+        "Filtration."
+      ],
+      "answer": 1,
+      "solution": "Durch Eindampfen bzw. Kristallisation des Wassers.",
+      "katalog_id": "ext-024",
+      "schwierigkeit": 2,
+      "ab_einheit": "fc-04"
+    },
+    {
+      "id": "KAT-ext-022-C",
+      "level": "C",
+      "kategorie": "K-STOF",
+      "skill": "Trennverfahren",
+      "type": "choice",
+      "prompt": "Welche Stoffeigenschaft wird bei einer Destillation zur Trennung genutzt?",
+      "options": [
+        "Durch Eindampfen bzw. Kristallisation des Wassers.",
+        "Falsch. Die Zuckerteilchen sind weiterhin vorhanden und nur im Wasser verteilt.",
+        "Filtration.",
+        "Unterschiedliche Siedetemperaturen bzw. Flüchtigkeiten der Bestandteile."
+      ],
+      "answer": 3,
+      "solution": "Unterschiedliche Siedetemperaturen bzw. Flüchtigkeiten der Bestandteile.",
+      "katalog_id": "ext-022",
+      "schwierigkeit": 2,
+      "ab_einheit": "fc-04"
+    },
+    {
+      "id": "KAT-ext-046-C",
+      "level": "C",
+      "kategorie": "K-STOF",
+      "skill": "Wasser & Lösungen",
+      "type": "choice",
+      "prompt": "Wie kann man experimentell prüfen, ob eine klare Flüssigkeit gelöste Feststoffe enthält?",
+      "options": [
+        "Bei gegebener Temperatur ist so viel Stoff gelöst, wie maximal möglich; zusätzlicher Stoff bleibt ungelöst.",
+        "Eine kleine Menge eindampfen; bleibt ein fester Rückstand, waren nichtflüchtige Stoffe gelöst.",
+        "Rühren transportiert gesättigte Lösung von der Oberfläche weg und bringt frisches Lösungsmittel an den Feststoff.",
+        "Falsch. Die Zuckerteilchen sind weiterhin vorhanden und nur im Wasser verteilt."
+      ],
+      "answer": 1,
+      "solution": "Eine kleine Menge eindampfen; bleibt ein fester Rückstand, waren nichtflüchtige Stoffe gelöst.",
+      "katalog_id": "ext-046",
+      "schwierigkeit": 2,
+      "ab_einheit": "es-01"
+    },
+    {
+      "id": "KAT-ext-045-C",
+      "level": "C",
+      "kategorie": "K-STOF",
+      "skill": "Wasser & Lösungen",
+      "type": "choice",
+      "prompt": "Was bedeutet „gesättigte Lösung“?",
+      "options": [
+        "Eine kleine Menge eindampfen; bleibt ein fester Rückstand, waren nichtflüchtige Stoffe gelöst.",
+        "Das Lösungsmittel ist der mengenmäßig meist größere Stoff, in dem sich ein anderer Stoff verteilt; dieser ist der gelöste Stoff.",
+        "Bei gegebener Temperatur ist so viel Stoff gelöst, wie maximal möglich; zusätzlicher Stoff bleibt ungelöst.",
+        "Rühren transportiert gesättigte Lösung von der Oberfläche weg und bringt frisches Lösungsmittel an den Feststoff."
+      ],
+      "answer": 2,
+      "solution": "Bei gegebener Temperatur ist so viel Stoff gelöst, wie maximal möglich; zusätzlicher Stoff bleibt ungelöst.",
+      "katalog_id": "ext-045",
+      "schwierigkeit": 2,
+      "ab_einheit": "wa-05"
+    },
+    {
+      "id": "KAT-ext-043-C",
+      "level": "C",
+      "kategorie": "K-STOF",
+      "skill": "Wasser & Lösungen",
+      "type": "choice",
+      "prompt": "Warum beschleunigt Rühren meist das Lösen eines Feststoffs in Wasser?",
+      "options": [
+        "Rühren transportiert gesättigte Lösung von der Oberfläche weg und bringt frisches Lösungsmittel an den Feststoff.",
+        "Das Lösungsmittel ist der mengenmäßig meist größere Stoff, in dem sich ein anderer Stoff verteilt; dieser ist der gelöste Stoff.",
+        "Bei gegebener Temperatur ist so viel Stoff gelöst, wie maximal möglich; zusätzlicher Stoff bleibt ungelöst.",
+        "Eine kleine Menge eindampfen; bleibt ein fester Rückstand, waren nichtflüchtige Stoffe gelöst."
+      ],
+      "answer": 0,
+      "solution": "Rühren transportiert gesättigte Lösung von der Oberfläche weg und bringt frisches Lösungsmittel an den Feststoff.",
+      "katalog_id": "ext-043",
+      "schwierigkeit": 2,
+      "ab_einheit": "wa-05"
+    },
+    {
+      "id": "KAT-ext-017-C",
+      "level": "C",
+      "kategorie": "K-STOF",
+      "skill": "Aggregatzustände",
+      "type": "choice",
+      "prompt": "Warum bleibt die Temperatur eines Reinstoffs während des Schmelzens zunächst konstant?",
+      "options": [
+        "Bei der Destillation findet eine physikalische Trennung aufgrund unterschiedlicher Siedetemperaturen statt; Wasser wird dabei nicht chemisch zerlegt.",
+        "Stoffe bestehen aus kleinsten Teilchen; zwischen den Teilchen ist Raum; die Teilchen bewegen sich und ziehen sich abhängig vom Abstand an.",
+        "Schmelzen fest→flüssig; Erstarren flüssig→fest; Verdampfen flüssig→gasförmig; Kondensieren gasförmig→flüssig.",
+        "Die zugeführte Energie wird zum Überwinden von Anziehungskräften zwischen den Teilchen genutzt, nicht zur Erhöhung ihrer mittleren Bewegungsenergie."
+      ],
+      "answer": 3,
+      "solution": "Die zugeführte Energie wird zum Überwinden von Anziehungskräften zwischen den Teilchen genutzt, nicht zur Erhöhung ihrer mittleren Bewegungsenergie.",
+      "katalog_id": "ext-017",
+      "schwierigkeit": 2,
+      "ab_einheit": "fc-03"
+    },
+    {
+      "id": "KAT-ext-011-C",
+      "level": "C",
+      "kategorie": "K-STOF",
+      "skill": "Stoffe & Eigenschaften",
+      "type": "choice",
+      "prompt": "Ein Körper hat eine Masse von 54 g und ein Volumen von 20 cm³. Berechne seine Dichte.",
+      "options": [
+        "Eine charakteristische Schmelz- oder Siedetemperatur.",
+        "ρ = 54 g / 20 cm³ = 2,7 g/cm³.",
+        "Ein Stoff, der nur aus einer Teilchensorte besteht und charakteristische Stoffeigenschaften besitzt.",
+        "Reinstoffe: Kupfer, destilliertes Wasser. Gemische: Luft, Granit."
+      ],
+      "answer": 1,
+      "solution": "ρ = 54 g / 20 cm³ = 2,7 g/cm³.",
+      "katalog_id": "ext-011",
+      "schwierigkeit": 2,
+      "ab_einheit": "fc-03"
+    },
+    {
+      "id": "KAT-ext-015-C",
+      "level": "C",
+      "kategorie": "K-STOF",
+      "skill": "Teilchenmodell",
+      "type": "choice",
+      "prompt": "Erkläre die Diffusion eines Parfümgeruchs im Raum mit dem Teilchenmodell.",
+      "options": [
+        "Falsch. Die Teilchen bleiben dieselben; ihre Anordnung und Beweglichkeit ändern sich.",
+        "Duftteilchen bewegen sich ständig zufällig und verteilen sich durch Zusammenstöße allmählich im Raum.",
+        "Ein Stoff, der nur aus einer Teilchensorte besteht und charakteristische Stoffeigenschaften besitzt.",
+        "Stoffe bestehen aus kleinsten Teilchen; zwischen den Teilchen ist Raum; die Teilchen bewegen sich und ziehen sich abhängig vom Abstand an."
+      ],
+      "answer": 1,
+      "solution": "Duftteilchen bewegen sich ständig zufällig und verteilen sich durch Zusammenstöße allmählich im Raum.",
+      "katalog_id": "ext-015",
+      "schwierigkeit": 2,
+      "ab_einheit": "fc-03"
+    },
+    {
+      "id": "KAT-ext-010-C",
+      "level": "C",
+      "kategorie": "K-STOF",
+      "skill": "Stoffe & Eigenschaften",
+      "type": "choice",
+      "prompt": "Erkläre den Unterschied zwischen Masse und Dichte.",
+      "options": [
+        "Masse beschreibt die Stoffmenge eines Körpers in g oder kg; Dichte ist Masse pro Volumen und eine Stoffeigenschaft: ρ = m/V.",
+        "Reinstoffe: Kupfer, destilliertes Wasser. Gemische: Luft, Granit.",
+        "Ein Stoff, der nur aus einer Teilchensorte besteht und charakteristische Stoffeigenschaften besitzt.",
+        "Eine charakteristische Schmelz- oder Siedetemperatur."
+      ],
+      "answer": 0,
+      "solution": "Masse beschreibt die Stoffmenge eines Körpers in g oder kg; Dichte ist Masse pro Volumen und eine Stoffeigenschaft: ρ = m/V.",
+      "katalog_id": "ext-010",
+      "schwierigkeit": 2,
+      "ab_einheit": "fc-03"
+    },
+    {
+      "id": "KAT-ext-053-C",
+      "level": "C",
+      "kategorie": "K-STOF",
+      "skill": "Stoffe & Trennverfahren",
+      "type": "choice",
+      "prompt": "Ein Schüler sagt: „Beim Destillieren wird Wasser chemisch zerlegt.“ Korrigiere die Aussage.",
+      "options": [
+        "Die zugeführte Energie wird zum Überwinden von Anziehungskräften zwischen den Teilchen genutzt, nicht zur Erhöhung ihrer mittleren Bewegungsenergie.",
+        "Stoffe bestehen aus kleinsten Teilchen; zwischen den Teilchen ist Raum; die Teilchen bewegen sich und ziehen sich abhängig vom Abstand an.",
+        "Luft ist ein homogenes Gasgemisch aus ca. 78 % Stickstoff, 21 % Sauerstoff, 1 % Edelgase (v. a. Argon) sowie Kohlenstoffdioxid, Wasserdampf und weiteren Gasen in Spuren.",
+        "Bei der Destillation findet eine physikalische Trennung aufgrund unterschiedlicher Siedetemperaturen statt; Wasser wird dabei nicht chemisch zerlegt."
+      ],
+      "answer": 3,
+      "solution": "Bei der Destillation findet eine physikalische Trennung aufgrund unterschiedlicher Siedetemperaturen statt; Wasser wird dabei nicht chemisch zerlegt.",
+      "katalog_id": "ext-053",
+      "schwierigkeit": 2,
+      "ab_einheit": "sl-02"
+    }
+  ]
+}

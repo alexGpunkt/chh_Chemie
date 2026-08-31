@@ -140,7 +140,7 @@ EINHEITEN.append({
                 misconceptions=[fv("riechen_erlaubt", 1,
                                    "Riechen ist im Chemieraum nie der erste Schritt. Bei ätzenden Stoffen kann schon der Dampf die Atemwege schädigen.",
                                    "sicherheitsregel_missachtet", 0)],
-                tags=["sicherheit", "symbole"], spiral=["W-STOF"]),
+                tags=["sicherheit", "symbole"], spiral=["K-STOF"]),
 
         aufgabe("FC01-A2-002", "A", 2, "assign",
                 "Ordne jedem Gefahrensymbol die richtige Maßnahme zu.",
@@ -230,7 +230,7 @@ EINHEITEN.append({
                 solution="20 mL : 4 = 5 mL. Weniger Stoff heißt weniger Gefahr und weniger Abfall — genau darum geht es bei der Ersatzstoffprüfung.",
                 misconceptions=[fv("anteil_umgedreht", 80,
                                    "Du hast mit 4 multipliziert. Ein Viertel bedeutet teilen, nicht malnehmen.")],
-                tags=["sicherheit", "rechnen"], spiral=["W-EINH"]),
+                tags=["sicherheit", "rechnen"], spiral=["K-QUANT"]),
 
         aufgabe("FC01-B3-009", "B", 3, "choice",
                 "Ein Schüler will prüfen, wie ein Stoff riecht. Wie geht er richtig vor?",
@@ -286,7 +286,7 @@ EINHEITEN.append({
                        "8 % von 250 g und 2 % von 50 g einzeln ausrechnen.",
                        "Einsparung = (20 − 1) : 20 · 100 %."],
                 solution="vorher: 250 g · 0,08 = 20 g\nnachher: 50 g · 0,02 = 1 g\nEinsparung: (20 − 1) : 20 = 0,95 → 95 %",
-                tags=["sicherheit", "rechnen", "msa"], spiral=["W-LOES", "W-EINH"]),
+                tags=["sicherheit", "rechnen", "msa"], spiral=["K-SL", "K-QUANT"]),
 
         aufgabe("FC01-C3-013", "C", 3, "choice",
                 "Ein Schülerversuch soll Chlorgas erzeugen. Welche Begründung spricht am stärksten für die Microscale-Variante mit wenigen Millilitern?",
@@ -436,7 +436,7 @@ EINHEITEN.append({
                 solution="1400 °C − 600 °C = 800 °C",
                 misconceptions=[fv("addiert_statt_subtrahiert", 2000,
                                    "Du hast addiert. Gefragt ist der Unterschied — also die Differenz.")],
-                tags=["brenner", "rechnen"], spiral=["W-EINH"]),
+                tags=["brenner", "rechnen"], spiral=["K-QUANT"]),
 
         aufgabe("FC02-B1-005", "B", 1, "assign",
                 "Ordne jedem Bauteil des Brenners seine Aufgabe zu.",
@@ -489,7 +489,7 @@ EINHEITEN.append({
                 solution="0,6 L/min · 90 min = 54 L",
                 misconceptions=[fv("geteilt_statt_mal", 150,
                                    "Du hast geteilt. Aus Verbrauch je Minute und Zeit wird die Gesamtmenge durch Multiplizieren.")],
-                tags=["brenner", "rechnen"], spiral=["W-EINH"]),
+                tags=["brenner", "rechnen"], spiral=["K-QUANT"]),
 
         aufgabe("FC02-B3-009", "B", 3, "choice",
                 "Der Brenner brennt plötzlich mit kleiner Flamme direkt am Rohrfuß und das Rohr wird heiß. Was ist passiert und was tust du?",
@@ -559,7 +559,7 @@ EINHEITEN.append({
                        "Beides einzeln ausrechnen.",
                        "Mehrverbrauch = (10,8 − 4,8) : 4,8 · 100 %."],
                 solution="rauschend: 0,9 · 12 = 10,8 L\nleuchtend: 0,4 · 12 = 4,8 L\nMehrverbrauch: (10,8 − 4,8) : 4,8 = 1,25 → 125 %",
-                tags=["brenner", "rechnen", "msa"], spiral=["W-EINH"]),
+                tags=["brenner", "rechnen", "msa"], spiral=["K-QUANT"]),
 
         aufgabe("FC02-C4-014", "C", 4, "choice",
                 "Eine Gruppe erhitzt zehn Minuten mit der leuchtenden Flamme und wundert sich, dass das Wasser nicht siedet. Welche Erklärung trifft zu?",

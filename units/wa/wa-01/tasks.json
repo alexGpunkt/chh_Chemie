@@ -29,7 +29,7 @@
   "lernkarten": {
     "A": {
       "titel": "Wasser ist besonders",
-      "hinfuehrung": "Wasser verhält sich anders als die meisten Stoffe.",
+      "hinfuehrung": "Wasser hat besondere Eigenschaften und verhält sich anders als die meisten Stoffe.",
       "erklaerung": [
         "Eis schwimmt oben.",
         "Wasser siedet bei 100 °C und schmilzt bei 0 °C."
@@ -187,7 +187,7 @@
         "wasser"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -212,7 +212,7 @@
         "wasser"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -235,8 +235,8 @@
         "rechnen"
       ],
       "spiral": [
-        "W-STOF",
-        "W-EINH"
+        "K-STOF",
+        "K-QUANT"
       ]
     },
     {
@@ -261,7 +261,7 @@
         "wasser"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -320,7 +320,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -346,7 +346,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -377,7 +377,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -411,7 +411,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -438,7 +438,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -464,7 +464,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -502,7 +502,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -543,7 +543,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -570,7 +570,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -597,7 +597,7 @@
         "msa"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     }
   ],
@@ -713,9 +713,32 @@
   "lehrbuch": {
     "kapitel": 6,
     "titel": "Wasser",
-    "seiten_von": 66,
-    "seiten_bis": 82,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Dichteanomalie"
+    "seiten_von": 73,
+    "seiten_bis": 76,
+    "abschnitt": "Eigenschaften und Anomalien des Wassers",
+    "bezugswort": "Dichteanomalie",
+    "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "WA01-A1-001",
+        "WA01-A2-002",
+        "WA01-A4-004"
+      ],
+      "B": [
+        "WA01-B1-005",
+        "WA01-B2-007",
+        "WA01-B4-010"
+      ],
+      "C": [
+        "WA01-C2-011",
+        "WA01-C3-012",
+        "WA01-C4-014"
+      ]
+    }
   }
 }

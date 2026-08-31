@@ -51,7 +51,11 @@ const S = {
   /* Laufender Aufgabenstand, der nach einem Neuladen auf genau dieselbe
      Aufgabe zurückgespielt wird (Versuche, Tipps, Zeit und Sitzungs-ID). */
   aufgabenStandWartet: null,
-  letzteFehlvorstellung: null
+  letzteFehlvorstellung: null,
+  /* Das Einheitenquiz ist vom Üben getrennt. Sein Ergebnis entsteht erst
+     nach einer vollständigen Abgabe und wird mit der Quizversion gespeichert. */
+  quizErgebnis: null,
+  quizStart: 0
 };
 
 /* Datensparsame Schnittstelle für den Diagnoseexport. Der vollständige
@@ -188,6 +192,7 @@ function standSpeichern() {
       letzte_fehlvorstellung: schonGeloest || amEnde ? null : S.letzteFehlvorstellung,
       selbst: S.selbst,
       fertig: [...S.fertig],
+      quiz_ergebnis: S.quizErgebnis,
       entwurf: schonGeloest || amEnde ? null : entwurfLesen()
     });
   } catch (error) {
@@ -303,9 +308,11 @@ async function start() {
   Tracker.setContext({ page: S.daten.pruefung ? 'pruefung' : 'einheit', unit: S.daten.unit, path: S.pfad });
   kopfBauen();
   formelkarteBauen();
+  themeninfoBauen();
   uebungskarteBauen();
   videokarteBauen();
   blattkarteBauen();
+  materialkarteBauen();
   zeitplanBauen();
   mitschriftkarteBauen();
   experimentkarteBauen();
@@ -323,7 +330,7 @@ async function start() {
       Lernmodus.starten(S.daten.unit ? String(S.daten.unit).toLowerCase() : null)
     ).then(() => {
       const id = String(S.daten.unit || '').toLowerCase();
-      const verbergen = () => ['#uebungskarte', '#videokarte', '#heftkarte', '#zeitplan', '#blattkarte',
+      const verbergen = () => ['#themeninfo', '#uebungskarte', '#videokarte', '#heftkarte', '#zeitplan', '#blattkarte', '#materialkarte',
          '#versuchskarte', '#lehrbuchkarte']
         .forEach(w => document.querySelector(w)?.setAttribute('hidden', ''));
 
@@ -435,8 +442,10 @@ function pfadSetzen(p, stand, ziel) {
      Wechsel von B auf A weiter das B-Blatt, die für den Basisweg
      ausgeblendeten Sammlungen und einen zu langen Hefteintrag. */
   videokarteBauen();
+  themeninfoBauen();
   uebungskarteBauen();
   blattkarteBauen();
+  materialkarteBauen();
   zeitplanBauen();
   mitschriftkarteBauen();
   experimentkarteBauen();
@@ -460,6 +469,8 @@ function pfadSetzen(p, stand, ziel) {
   S.entwurfWartet = null;
   S.aufgabenStandWartet = null;
   S.letzteFehlvorstellung = null;
+  S.quizErgebnis = null;
+  S.quizStart = 0;
   S.aufgabe = null;
   S.taskSession = null;
   /* Über alle Aufgaben, nicht nur die aktuelle Reihe: die Objekte werden
@@ -493,6 +504,7 @@ function pfadSetzen(p, stand, ziel) {
     S.selbst = stand.selbst || null;
     S.fertig = new Set(stand.fertig || []);
     S.tippsInsgesamt = stand.tipps_insgesamt | 0;
+    S.quizErgebnis = stand.quiz_ergebnis || null;
     S.entwurfWartet = null;
     const aktuelle = S.reihe[S.index];
     if (aktuelle && (!stand.aufgabe || stand.aufgabe === aktuelle.id)) {
@@ -553,6 +565,106 @@ function pfadSetzen(p, stand, ziel) {
                       Aufgabe zurück, ohne den Fortschritt zu verlieren. */
 const NIVEAU = { A: 'Basis', B: 'Standard', C: 'Vertiefung' };
 
+/* Die Lernkarte ist der geführte Einstieg. Sobald die Aufgaben beginnen,
+   darf ihr Fachtext aber nicht verschwinden. Diese zweite, kompakte Fassung
+   bleibt unter dem Arbeitsbereich sichtbar und wird beim Wechsel des
+   Lernwegs aus denselben geprüften Daten neu gebaut. Damit besitzt jede der
+   76 Einheiten auf A, B und C einen schriftlichen Nachschlagebereich, ohne
+   denselben Inhalt ein zweites Mal in den JSON-Dateien zu pflegen. */
+function themeninfoBauen() {
+  const box = $('#themeninfo');
+  if (!box) return;
+  const lk = S.daten?.lernkarten?.[S.pfad];
+  if (!lk || S.daten.pruefung) {
+    box.hidden = true;
+    box.replaceChildren();
+    return;
+  }
+
+  box.replaceChildren();
+  box.hidden = false;
+
+  const kopf = el('div', 'themeninfo-kopf');
+  const text = el('div');
+  text.append(el('span', 'themeninfo-stufe', `Kurz erklärt · Pfad ${S.pfad} · ${NIVEAU[S.pfad] || ''}`));
+  const titel = el('h2', 'themeninfo-titel', lk.titel || S.daten.title);
+  titel.id = 'themeninfo-titel';
+  text.append(titel);
+  kopf.append(text);
+  box.append(kopf);
+
+  if (lk.hinfuehrung) {
+    const intro = el('p', 'themeninfo-einleitung');
+    intro.innerHTML = markiereWorte(lk.hinfuehrung);
+    box.append(intro);
+  }
+
+  const punkte = el('ul', 'themeninfo-punkte');
+  (lk.erklaerung || []).forEach(absatz => {
+    const li = el('li');
+    li.innerHTML = markiereWorte(absatz);
+    punkte.append(li);
+  });
+  if (punkte.children.length) box.append(punkte);
+
+  if (lk.merke) {
+    const merke = el('div', 'themeninfo-merke');
+    merke.innerHTML = '<b>Merke:</b> ' + markiereWorte(lk.merke);
+    box.append(merke);
+  }
+
+  /* FC-01 bleibt auch während der Aufgaben als vollständige Unterweisung
+     erreichbar. Der kompakte Bereich enthält dieselben Daten wie der
+     geführte Einstieg; so entstehen keine widersprüchlichen Fassungen. */
+  if (S.daten?.sicherheitskurs) {
+    const sicherheit = el('details', 'sicherheitskurs-kompakt');
+    sicherheit.append(el('summary', null, 'Sicherheitsunterweisung jederzeit nachlesen'));
+    sicherheit.append(sicherheitskursBlock(false).element);
+    box.append(sicherheit);
+  }
+
+  /* Der Buchbezug steht direkt am Erklärtext und nicht nur in einer späteren
+     Klappkarte. So weiß besonders Pfad A vor dem Üben, wo nachgelesen wird. */
+  const lb = S.daten?.lehrbuch;
+  if (lb) {
+    const quelle = el('div', 'themeninfo-quelle');
+    quelle.innerHTML = `<b>Nachlesen:</b> ${htmlSicher(lb.quelle || 'Lehrbuch_Chemie.pdf')}, `
+      + `PDF-S. ${htmlSicher(lb.seiten_von)}–${htmlSicher(lb.seiten_bis)}, `
+      + `Abschnitt „${htmlSicher(lb.abschnitt || lb.titel)}“.`;
+    const oeffnen = el('button', 'themeninfo-buchknopf', 'Leseauftrag anzeigen');
+    oeffnen.type = 'button';
+    oeffnen.addEventListener('click', () => {
+      const karte = $('#lehrbuchkarte');
+      if (!karte) return;
+      karte.open = true;
+      karte.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    });
+    quelle.append(oeffnen);
+    box.append(quelle);
+  }
+
+  const arbeitsweg = {
+    A: ['Lies immer nur einen Erklärungssatz.', 'Sieh dir danach das Beispiel an oder sprich den Satz in eigenen Worten.', 'Schlage die angegebene Lehrbuchstelle auf und markiere drei wichtige Wörter.', 'Bearbeite die Aufgaben. Zum Schluss folgen drei Quizfragen ohne Tipps.'],
+    B: ['Lies Erklärung und Lehrbuchabschnitt vollständig.', 'Fasse den Zusammenhang in drei bis fünf eigenen Sätzen zusammen.', 'Prüfe ihn am Beispiel und bearbeite anschließend die Aufgaben.', 'Das Abschlussquiz prüft nur Inhalte dieses Lernwegs.'],
+    C: ['Ordne die Erklärungen in Ursache, Beobachtung und Folgerung.', 'Belege deine Begründung mit zwei Aussagen aus der angegebenen Lehrbuchstelle.', 'Übertrage den Zusammenhang auf die Aufgaben und begründe deine Entscheidungen fachsprachlich.', 'Das Abschlussquiz schließt den Lernweg mit drei Fragen ab.']
+  }[S.pfad];
+  if (arbeitsweg) {
+    const hilfe = el('details', 'themeninfo-arbeitsweg');
+    hilfe.append(el('summary', null, 'So kannst du das Thema selbstständig erarbeiten'));
+    const liste = el('ol');
+    arbeitsweg.forEach(schritt => liste.append(el('li', null, schritt)));
+    hilfe.append(liste);
+    box.append(hilfe);
+  }
+
+  const ziel = S.daten?.can_do?.[S.pfad];
+  if (ziel) {
+    const z = el('p', 'themeninfo-ziel');
+    z.innerHTML = '<b>Dein Ziel:</b> ' + markiereWorte(ziel);
+    box.append(z);
+  }
+}
+
 function lernphaseSetzen(phase) {
   const reise = document.querySelector('#lernreise');
   if (!reise) return;
@@ -562,6 +674,66 @@ function lernphaseSetzen(phase) {
     if (aktiv) schritt.setAttribute('aria-current', 'step');
     else schritt.removeAttribute('aria-current');
   });
+}
+
+/* Schriftliche Sicherheitsunterweisung für FC-01. Die fünf Bestätigungen
+   sind kein Zertifikat und keine Versuchsfreigabe. Sie verlangsamen nur den
+   Übergang zu den Aufgaben so weit, dass die zentralen Regeln bewusst zur
+   Kenntnis genommen werden. */
+function sicherheitskursBlock(mitCheckliste) {
+  const kurs = S.daten?.sicherheitskurs;
+  const element = el('section', 'sicherheitskurs');
+  const checkboxes = [];
+  let status = null;
+  if (!kurs) return { element, checkboxes, status };
+
+  sicherheitskursBlock.naechsteId = (sicherheitskursBlock.naechsteId || 0) + 1;
+  const titelId = `sicherheitskurs-titel-${sicherheitskursBlock.naechsteId}`;
+  element.setAttribute('aria-labelledby', titelId);
+  const titel = el('h3', 'sicherheitskurs-titel', 'Deine Sicherheitsunterweisung');
+  titel.id = titelId;
+  element.append(titel);
+
+  const grenze = el('p', 'sicherheitskurs-grenze');
+  grenze.innerHTML = '<b>Wichtig:</b> ' + markiereWorte(kurs.grenze);
+  element.append(grenze);
+
+  const abschnitte = el('div', 'sicherheitskurs-abschnitte');
+  (kurs.abschnitte || []).forEach((abschnitt, index) => {
+    const details = el('details', 'sicherheitsabschnitt');
+    if (index === 0) details.open = true;
+    details.append(el('summary', null, abschnitt.titel));
+    const liste = el('ul');
+    (abschnitt.punkte || []).forEach(punkt => {
+      const li = el('li');
+      li.innerHTML = markiereWorte(punkt);
+      liste.append(li);
+    });
+    details.append(liste);
+    abschnitte.append(details);
+  });
+  element.append(abschnitte);
+
+  if (mitCheckliste && (kurs.checkliste || []).length) {
+    const feld = el('fieldset', 'sicherheitscheck');
+    feld.append(el('legend', null, 'Bevor du die Aufgaben startest'));
+    feld.append(el('p', 'sicherheitscheck-hinweis', 'Bestätige jeden Punkt erst, wenn du ihn verstanden hast. Frage bei Unsicherheit die Lehrkraft.'));
+    kurs.checkliste.forEach(text => {
+      const label = el('label');
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkbox.className = 'sicherheitscheck-feld';
+      label.append(checkbox, el('span', null, text));
+      feld.append(label);
+      checkboxes.push(checkbox);
+    });
+    status = el('p', 'sicherheitscheck-status', `Noch ${checkboxes.length} Punkte bestätigen.`);
+    status.setAttribute('aria-live', 'polite');
+    feld.append(status);
+    element.append(feld);
+  }
+
+  return { element, checkboxes, status };
 }
 
 function lernkarteZeigen(modus, ziel) {
@@ -617,6 +789,12 @@ function lernkarteZeigen(modus, ziel) {
     sprungziele.merke = m;
   }
 
+  let sicherheitscheck = null;
+  if (S.daten.sicherheitskurs) {
+    sicherheitscheck = sicherheitskursBlock(modus === 'start');
+    karte.append(sicherheitscheck.element);
+  }
+
   /* Selbsteinschätzung vor den Aufgaben — am Ende wird sie mit dem
      tatsächlichen Ergebnis verglichen. Wer sich unterschätzt hat, soll das
      schwarz auf weiß sehen; das ist oft der eigentliche Zugewinn. */
@@ -631,6 +809,18 @@ function lernkarteZeigen(modus, ziel) {
     if (modus === 'wieder') aufgabeZurueckholen();
     else aufgabeZeigen();
   });
+  if (modus === 'start' && sicherheitscheck?.checkboxes.length) {
+    const statusAktualisieren = () => {
+      const offen = sicherheitscheck.checkboxes.filter(feld => !feld.checked).length;
+      los.disabled = offen > 0;
+      sicherheitscheck.status.textContent = offen
+        ? `Noch ${offen} ${offen === 1 ? 'Punkt' : 'Punkte'} bestätigen.`
+        : 'Alle Punkte bestätigt. Du kannst jetzt die Übungsaufgaben starten.';
+      sicherheitscheck.status.classList.toggle('ist-fertig', offen === 0);
+    };
+    sicherheitscheck.checkboxes.forEach(feld => feld.addEventListener('change', statusAktualisieren));
+    statusAktualisieren();
+  }
   akt.append(los);
 
   /* Auf einen anderen Pfad wechseln, ohne erst durch die Aufgaben zu müssen. */
@@ -741,7 +931,7 @@ function beispielBlock(bsp) {
    Vorrang hat die Angabe der fachlichen Autorenschaft in der tasks.json:
 
      "beispiel": { "schritte": [...],
-                   "luecke": { "schritt": 2, "wert": 60, "einheit": "€" } }
+                   "luecke": { "schritt": 2, "wert": 60, "einheit": "g" } }
 
    Damit entscheidet nicht mehr eine Zeichenkettenregel, welcher Wert
    ergänzt werden soll. Fehlt das Feld, greift wie bisher die Heuristik auf
@@ -773,8 +963,8 @@ function lueckeBestimmen(bsp) {
     : null;
 }
 
-/* Trennt die letzte Zahl einer Zeile ab — funktioniert bei „= 15 cm²"
-   genauso wie bei „· 8   8 Brötchen → 3,20 €". */
+/* Trennt die letzte Zahl einer Zeile ab — funktioniert bei „= 15 g"
+   genauso wie bei „n = m : M = 0,25 mol". */
 function letzteZahlTrennen(zeile) {
   const treffer = [...String(zeile).matchAll(/[−-]?\d[\d.,]*/g)];
   if (!treffer.length) return null;
@@ -1021,8 +1211,8 @@ function regexSicher(text) {
    das Wort selbst. Jetzt lässt sich jedes markierte Wort antippen und
    erklärt sich in einem Satz. Die Sätze stehen in der tasks.json:
 
-     "wortspeicher": ["der Grundwert", …],
-     "worterklaerungen": { "Grundwert": "Das Ganze. Der Grundwert sind 100 %." }
+     "wortspeicher": ["die Stoffmenge", …],
+     "worterklaerungen": { "Stoffmenge": "Sie gibt die Teilchenmenge in Mol an." }
 
    Fehlt eine Erklärung, bleibt es beim reinen Hervorheben. */
 function worterklaerung(kern) {
@@ -1104,8 +1294,8 @@ function numerischesFeld(t) {
   return zeile;
 }
 
-/* Mehrere Zahlenfelder — für Tabellen (Zinsen Jahr für Jahr) und
-   Umwandlungen (Bruch → Dezimalzahl → Prozent). */
+/* Mehrere Zahlenfelder — etwa für Messwerttabellen und mehrschrittige
+   stöchiometrische Rechnungen. */
 function mehrfachFelder(t) {
   const wrap = el('div', 'felder');
   t.fields.forEach((f, i) => {
@@ -1549,8 +1739,227 @@ function einstufungStarten(pfad) {
   aufgabeZeigen();
 }
 
+/* ---------- Einheitenquiz ----------
+   Drei Fragen, alle aus der gerade bearbeiteten Einheit und demselben
+   Lernweg. Es gibt keine Tipps und nur eine gemeinsame Abgabe. Dadurch ist
+   das Ergebnis von der Lernhilfe getrennt und im Dashboard nachvollziehbar. */
+function quizAufgaben() {
+  const quiz = S.daten.abschlussquiz;
+  const ids = quiz?.frage_ids?.[S.pfad] || [];
+  const pool = new Map((S.daten.tasks || []).map(t => [t.id, t]));
+  return ids.map(id => pool.get(id)).filter(t => t && t.path === S.pfad);
+}
+
+function quizEingabe(t, nr) {
+  const wrap = el('div', 'quiz-eingabe');
+  if (t.type === 'choice') {
+    const gruppe = el('fieldset', 'quiz-optionen');
+    gruppe.append(el('legend', 'sr-only', `Antwort zu Frage ${nr}`));
+    t.options.forEach((option, i) => {
+      const label = el('label', 'quiz-option');
+      const input = document.createElement('input');
+      input.type = 'radio';
+      input.name = `quiz-${nr}`;
+      input.value = String(i);
+      label.append(input, el('span', null, option));
+      gruppe.append(label);
+    });
+    wrap.append(gruppe);
+  } else if (t.type === 'numeric') {
+    const zeile = el('label', 'quiz-zahl');
+    zeile.append(el('span', 'sr-only', `Antwort zu Frage ${nr}`));
+    const input = el('input', 'zahl-feld');
+    input.type = 'text'; input.inputMode = 'decimal'; input.autocomplete = 'off';
+    zeile.append(input);
+    if (t.unit_label) zeile.append(el('span', 'einheit-label', t.unit_label));
+    wrap.append(zeile);
+  } else if (t.type === 'multi') {
+    t.fields.forEach((feld, i) => {
+      const label = el('label', 'quiz-mehrfach');
+      label.append(el('span', null, feld.label));
+      const input = el('input', 'zahl-feld');
+      input.type = 'text'; input.inputMode = 'decimal'; input.autocomplete = 'off';
+      input.dataset.feld = String(i);
+      label.append(input);
+      if (feld.unit_label) label.append(el('span', 'einheit-label', feld.unit_label));
+      wrap.append(label);
+    });
+  } else if (t.type === 'assign') {
+    t.slots.forEach((slot, i) => {
+      const label = el('label', 'quiz-zuordnung');
+      label.append(el('span', null, slot));
+      const select = document.createElement('select');
+      select.dataset.slot = String(i);
+      const leer = document.createElement('option');
+      leer.value = ''; leer.textContent = 'Bitte wählen';
+      select.append(leer);
+      t.values.forEach((wert, vi) => {
+        const option = document.createElement('option');
+        option.value = String(vi); option.textContent = wert;
+        select.append(option);
+      });
+      label.append(select);
+      wrap.append(label);
+    });
+  }
+  return wrap;
+}
+
+function quizWertLesen(block, t) {
+  if (t.type === 'choice') {
+    const input = block.querySelector('input[type="radio"]:checked');
+    return input ? Number(input.value) : null;
+  }
+  if (t.type === 'numeric') {
+    const roh = block.querySelector('.zahl-feld')?.value.trim() || '';
+    const zahl = lesarten(roh).find(z => !Number.isNaN(z));
+    return roh && Number.isFinite(zahl) ? zahl : null;
+  }
+  if (t.type === 'multi') {
+    const werte = [...block.querySelectorAll('.zahl-feld')].map(input => {
+      const roh = input.value.trim();
+      return roh ? lesarten(roh).find(z => !Number.isNaN(z)) : null;
+    });
+    return werte.every(Number.isFinite) ? werte : null;
+  }
+  if (t.type === 'assign') {
+    const werte = [...block.querySelectorAll('select')].map(select =>
+      select.value === '' ? null : Number(select.value));
+    return werte.every(Number.isInteger) ? werte : null;
+  }
+  return null;
+}
+
+function quizZeigen() {
+  lernphaseSetzen('sichern');
+  const b = $('#buehne');
+  buehneLeeren(b);
+  const aufgaben = quizAufgaben();
+  if (aufgaben.length !== 3) {
+    const karte = el('div', 'karte');
+    karte.append(el('h2', 'frage', 'Das Abschlussquiz ist noch nicht vollständig eingerichtet.'));
+    karte.append(el('p', null, 'Bitte melde der Lehrkraft die Einheit ' + S.daten.unit + ' und den Lernweg ' + S.pfad + '.'));
+    b.append(karte);
+    return;
+  }
+
+  S.quizStart = Date.now();
+  Tracker.track('quiz_gestartet', {
+    unit: S.daten.unit, path: S.pfad,
+    quiz_version: S.daten.abschlussquiz.version,
+    fragen: aufgaben.map(t => t.id)
+  });
+
+  const karte = el('div', 'karte quiz-karte');
+  karte.append(el('span', 'stufe-pill', `Abschlussquiz · Pfad ${S.pfad}`));
+  karte.append(el('h2', 'frage', 'Was ist aus dieser Einheit hängen geblieben?'));
+  karte.append(el('p', 'quiz-hinweis', S.daten.abschlussquiz.hinweis));
+
+  aufgaben.forEach((t, index) => {
+    const block = el('section', 'quiz-frage');
+    block.dataset.task = t.id;
+    block.append(el('h3', null, `Frage ${index + 1} von 3`));
+    const prompt = el('p', 'quiz-prompt');
+    prompt.innerHTML = markiereWorte(t.prompt);
+    block.append(prompt, quizEingabe(t, index + 1));
+    karte.append(block);
+  });
+
+  const rueck = el('div'); rueck.id = 'quiz-rueck';
+  const aktionen = el('div', 'aktionen');
+  const abgeben = el('button', 'btn btn-haupt', 'Quiz abgeben');
+  abgeben.type = 'button';
+  abgeben.addEventListener('click', () => quizAbgeben(aufgaben, abgeben));
+  aktionen.append(abgeben);
+  karte.append(rueck, aktionen);
+  b.append(karte);
+}
+
+async function quizAbgeben(aufgaben, knopf) {
+  const bloecke = [...document.querySelectorAll('.quiz-frage')];
+  const antworten = aufgaben.map((t, i) => ({ id: t.id, wert: quizWertLesen(bloecke[i], t) }));
+  const unvollstaendig = antworten.findIndex(a => a.wert == null);
+  const rueck = $('#quiz-rueck');
+  rueck.replaceChildren();
+  if (unvollstaendig >= 0) {
+    const meldung = el('div', 'rueck nope', `Bitte beantworte noch Frage ${unvollstaendig + 1}.`);
+    rueck.append(meldung);
+    bloecke[unvollstaendig]?.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    return;
+  }
+
+  knopf.disabled = true;
+  knopf.textContent = 'Wird sicher gespeichert …';
+  try {
+    const login = window.Chemie710StudentLogin;
+    if (!login || typeof login.request !== 'function') {
+      throw new Error('Die sichere Schüleranmeldung ist nicht verfügbar.');
+    }
+    const ergebnis = await login.request('chemie710_quiz_abgeben', {
+      p_unit: S.daten.unit,
+      p_pfad: S.pfad,
+      p_quiz_version: S.daten.abschlussquiz.version,
+      p_antworten: antworten,
+      p_dauer_s: Math.round((Date.now() - S.quizStart) / 1000)
+    });
+    if (!ergebnis || !Number.isFinite(Number(ergebnis.richtig))) {
+      throw new Error('Die Datenbank hat kein gültiges Ergebnis zurückgegeben.');
+    }
+
+    S.quizErgebnis = {
+      version: S.daten.abschlussquiz.version,
+      richtig: Number(ergebnis.richtig),
+      aufgaben: Number(ergebnis.aufgaben),
+      versuch: Number(ergebnis.versuch),
+      pflicht: ergebnis.pflicht === true,
+      gewertet: ergebnis.gewertet === true,
+      ergebnis_id: ergebnis.ergebnis_id
+    };
+    standSpeichern();
+    Tracker.track('quiz_abgegeben', {
+      unit: S.daten.unit, path: S.pfad,
+      quiz_version: S.quizErgebnis.version,
+      richtig: S.quizErgebnis.richtig,
+      aufgaben: S.quizErgebnis.aufgaben,
+      versuch: S.quizErgebnis.versuch,
+      pflicht: S.quizErgebnis.pflicht,
+      gewertet: S.quizErgebnis.gewertet
+    });
+
+    bloecke.forEach(block => block.querySelectorAll('input,select').forEach(feld => { feld.disabled = true; }));
+    const status = S.quizErgebnis.gewertet
+      ? 'Dieser erste Versuch wurde im Bewertungsmodus als Bewertungsgrundlage gespeichert.'
+      : (S.quizErgebnis.pflicht
+          ? 'Das Ergebnis ist gespeichert. Weil schon ein Versuch gewertet wurde, zählt dieser als Übung.'
+          : 'Das Ergebnis ist gespeichert. Im Übungsmodus zählt es nicht zur Note.');
+    const box = el('div', 'quiz-ergebnis');
+    box.innerHTML = `<strong>${S.quizErgebnis.richtig} von ${S.quizErgebnis.aufgaben} richtig.</strong><p>${status}</p>`;
+    rueck.append(box);
+    knopf.textContent = 'Auswertung und Abschluss ansehen';
+    knopf.disabled = false;
+    knopf.replaceWith(knopf.cloneNode(true));
+    const weiter = $('.quiz-karte .aktionen .btn-haupt');
+    weiter.addEventListener('click', () => abschlussFazit());
+  } catch (error) {
+    const box = el('div', 'rueck nope');
+    box.innerHTML = '<b>Noch nicht gespeichert.</b> ' + htmlSicher(error.message)
+      + ' Prüfe die Internetverbindung und versuche es erneut.';
+    rueck.append(box);
+    knopf.disabled = false;
+    knopf.textContent = 'Erneut abgeben';
+  }
+}
+
 /* ---------- Abschluss ---------- */
 function abschluss() {
+  if (!S.daten.pruefung && !S.einstufung && S.daten.abschlussquiz && !S.quizErgebnis) {
+    quizZeigen();
+    return;
+  }
+  abschlussFazit();
+}
+
+function abschlussFazit() {
   lernphaseSetzen('sichern');
   const b = $('#buehne');
   const karte = el('div', 'karte');
@@ -1986,6 +2395,10 @@ function blattkarteBauen() {
   const stufe = String(S.pfad || 'B').toLowerCase();
   link.href = `units/${bereich}/${id}/uebungsblatt-${stufe}.pdf`;
   link.removeAttribute('download');
+  const hinweis = $('#blattkarte-hinweis');
+  if (hinweis) hinweis.textContent = id === 'fc-01'
+    ? 'Lies die Sicherheitsbereiche und bearbeite die Fallaufgaben schriftlich. Die Selbstkontrolle steht am Ende des Blattes.'
+    : 'Gleiches Thema, andere Aufgaben. Ausdrucken oder ins Heft übertragen — und dann schriftlich bearbeiten. Die Lösungen zur Selbstkontrolle stehen unten auf dem Blatt.';
   karte.hidden = false;
 
   /* Die Karte wird bei jedem Lernwegwechsel neu gebaut. Ohne diese Sperre
@@ -1997,6 +2410,150 @@ function blattkarteBauen() {
       Tracker.track('uebungsblatt_geoeffnet', { unit: id, path: S.pfad });
     });
   }
+}
+
+
+/* ---------- Ergänzende Arbeitsblätter: Säuren, Basen, Salzbildung ----------
+   Das bereitgestellte Heft enthält 102 gescannte Seiten. Eine lange, gleiche
+   Linkliste in jeder Einheit wäre für lernschwächere Schülerinnen und Schüler
+   unübersichtlich. Deshalb führt jede Karte direkt zu den Seiten, die fachlich
+   zur geöffneten Einheit gehören. PDF-Seiten sind bewusst angegeben, weil die
+   gedruckten Seitenzahlen des Scans davon abweichen. */
+const ZUSATZMATERIAL_NACH_EINHEIT = {
+  'sl-01': {
+    datei: 'materialien/arbeitsblaetter/sl-01-saeuren-alltag-sicherheit.pdf',
+    blaetter: [
+      ['Säuren im Alltag', 1, 1, 'Säuren in Lebensmitteln und Haushaltsprodukten erkennen.'],
+      ['Sicher mit Säuren arbeiten', 2, 3, 'Ätzwirkung, Gefahrensymbole sowie konzentrierte und verdünnte Lösungen.'],
+      ['Eigenschaften von Säuren', 4, 7, 'Indikator, Leitfähigkeit und Reaktionen saurer Lösungen.']
+    ]
+  },
+  'sl-02': {
+    datei: 'materialien/arbeitsblaetter/sl-02-indikatoren-ph.pdf',
+    blaetter: [
+      ['Säure und Lauge vergleichen', 1, 1, 'Stoffklassen, Ionen und Indikatorfarben gegenüberstellen.'],
+      ['pH-Werte im Alltag', 2, 2, 'Alltagsstoffe untersuchen und auf der pH-Skala einordnen.']
+    ]
+  },
+  'sl-03': {
+    datei: 'materialien/arbeitsblaetter/sl-03-saure-loesungen-protolyse.pdf',
+    blaetter: [
+      ['Zusammensetzung von Säuren', 1, 1, 'Wasserstoff-Ionen und Säurerest-Ionen zuordnen.'],
+      ['Säuren nach Brønsted', 2, 2, 'Protonendonator und Protonenübertragung erarbeiten.'],
+      ['Reaktionen saurer Lösungen', 3, 4, 'Reaktionen mit Metallen und Metalloxiden formulieren.']
+    ]
+  },
+  'sl-04': {
+    datei: 'materialien/arbeitsblaetter/sl-04-laugen-basen.pdf',
+    blaetter: [
+      ['Alkalische Lösungen im Alltag', 1, 1, 'Vorkommen und Verwendung alkalischer Lösungen entdecken.'],
+      ['Ionen in alkalischen Lösungen', 2, 2, 'Metall-Ionen und Hydroxid-Ionen richtig zuordnen.'],
+      ['Eigenschaften alkalischer Lösungen', 3, 3, 'Indikator, Leitfähigkeit und Ätzwirkung untersuchen.'],
+      ['Sicher mit Hydroxiden und Laugen', 4, 6, 'Gefahrensymbole, Schutzmaßnahmen und Metallhydroxide.'],
+      ['Natronlauge im Alltag', 7, 7, 'Verwendungen erklären und fachlich einordnen.']
+    ]
+  },
+  'sl-05': {
+    datei: 'materialien/arbeitsblaetter/sl-05-saeuren-laugen-aus-oxiden.pdf',
+    blaetter: [
+      ['Wie eine Säure entsteht', 1, 1, 'Nichtmetalloxid und Wasser als Weg zur sauren Lösung.'],
+      ['Wie eine alkalische Lösung entsteht', 2, 2, 'Metalloxid und Wasser als Weg zur alkalischen Lösung.']
+    ]
+  },
+  'sl-06': {
+    datei: 'materialien/arbeitsblaetter/sl-06-neutralisation-salzbildung.pdf',
+    blaetter: [
+      ['Neutralisation', 1, 1, 'Säure und Lauge reagieren zu Wasser und Salz.'],
+      ['Salzlösungen herstellen', 2, 4, 'Salzbildung über Metall, Metalloxid, Hydroxid und Neutralisation.']
+    ]
+  },
+  'sl-07': {
+    datei: 'materialien/arbeitsblaetter/sl-07-pruefungstraining-saeuren-laugen.pdf',
+    blaetter: [
+      ['Säuren und Laugen ordnen und vergleichen', 1, 2, 'Wissen strukturieren und Gemeinsamkeiten sowie Unterschiede sichern.'],
+      ['Abschlusskontrolle Säuren und Laugen', 3, 3, 'Aussagen prüfen, Fehler finden und berichtigen.']
+    ]
+  },
+  'sz-01': {
+    datei: 'materialien/arbeitsblaetter/sz-01-ionenbildung.pdf',
+    blaetter: [
+      ['Ionenbindung', 1, 1, 'Elektronenübergang und Bildung von Natrium- und Chlorid-Ionen.'],
+      ['Ionen und ihre Ladungen', 2, 2, 'Ionenladungen aus dem Atombau ableiten.']
+    ]
+  },
+  'sz-02': {
+    datei: 'materialien/arbeitsblaetter/sz-02-ionengitter.pdf',
+    blaetter: [
+      ['Von Ionen zum Ionengitter', 1, 1, 'Anziehung entgegengesetzt geladener Ionen und Gitterbildung.']
+    ]
+  },
+  'sz-03': {
+    datei: 'materialien/arbeitsblaetter/sz-03-ionenladungen-verhaeltnisformeln.pdf',
+    blaetter: [
+      ['Ionen und ihre Ladungen', 1, 1, 'Ladungen bestimmen und als Grundlage für Verhältnisformeln nutzen.']
+    ]
+  },
+  'sz-04': {
+    datei: 'materialien/arbeitsblaetter/sz-04-salz-und-salzloesung.pdf',
+    blaetter: [
+      ['Festes Salz und Salzlösung vergleichen', 1, 1, 'Teilchenbeweglichkeit, Leitfähigkeit und Eindampfen untersuchen.']
+    ]
+  },
+  'sz-05': {
+    datei: 'materialien/arbeitsblaetter/sz-05-salzbildung-pruefungstraining.pdf',
+    blaetter: [
+      ['Wege der Salzbildung', 1, 3, 'Mehrere Herstellungswege für Salzlösungen anwenden.'],
+      ['Ionenbindung und Ionenladungen', 4, 5, 'Salzbildung auf Teilchenebene erklären.'],
+      ['Metallchloride als Salze', 6, 7, 'Eigenschaften und Verwendung ausgewählter Salze recherchieren.']
+    ]
+  }
+};
+
+function materialkarteBauen() {
+  const box = $('#materialkarte');
+  const inhalt = $('#material-inhalt');
+  if (!box || !inhalt) return;
+
+  const id = String(S.daten.unit || '').toLowerCase();
+  const paket = ZUSATZMATERIAL_NACH_EINHEIT[id];
+  const materialien = paket?.blaetter || [];
+  inhalt.replaceChildren();
+  if (!materialien.length || S.daten.pruefung) {
+    box.hidden = true;
+    return;
+  }
+
+  box.hidden = false;
+  const summary = box.querySelector('summary');
+  if (summary) summary.textContent = `Weitere Arbeitsblätter zum Thema · ${materialien.length}`;
+
+  inhalt.append(el('p', 'material-hinweis',
+    'Wähle das Arbeitsblatt, das zu deinem aktuellen Lernschritt passt. Die Auszüge enthalten nur Schülerseiten - keine methodischen Hinweise oder Lösungsseiten.'));
+
+  const liste = el('ul', 'material-liste');
+  materialien.forEach(([titel, von, bis, hinweis]) => {
+    const eintrag = el('li', 'material-eintrag');
+    const text = el('div', 'material-text');
+    text.append(el('strong', null, titel));
+    text.append(el('span', null, hinweis));
+    eintrag.append(text);
+
+    const link = el('a', 'btn btn-neben material-link', von === bis
+      ? `PDF-Seite ${von} öffnen`
+      : `PDF-Seiten ${von}–${bis} öffnen`);
+    link.href = `${paket.datei}#page=${von}`;
+    link.target = '_blank';
+    link.rel = 'noopener';
+    link.addEventListener('click', () => Tracker.track('zusatzarbeitsblatt_geoeffnet', {
+      unit: id,
+      titel,
+      seite_von: von,
+      seite_bis: bis
+    }));
+    eintrag.append(link);
+    liste.append(eintrag);
+  });
+  inhalt.append(liste);
 }
 
 
@@ -2013,11 +2570,11 @@ function blattkarteBauen() {
 
    Die Minuten sind je Lernweg verschieden: Auf C ist mehr zu schreiben und
    weniger Zeit für die Aufgaben, auf A umgekehrt. Die Videominute ist die
-   echte Laufzeit plus Zuschlag für die Zwischenfragen — geraten wird
+   echte Laufzeit plus Zuschlag für Schreibpausen — geraten wird
    hier nichts. */
 const ZEITPLAN_PHASEN = [
   ['lernkarte', 'Erklärung lesen'],
-  ['video', 'Video mit Zwischenfragen'],
+  ['video', 'Video mit Schreibauftrag'],
   ['aufgaben', 'Aufgaben bearbeiten'],
   ['mitschrift', 'Hefteintrag schreiben'],
   ['blatt', 'Übungsblatt von Hand']
@@ -2302,12 +2859,11 @@ function mitschriftStand() {
    heraus, der Film lief ohne jede Rückfrage durch, und was danach hängen
    blieb, wusste niemand.
 
-   Beides ist jetzt gelöst. Gezeigt wird die mit Lumi angereicherte Fassung
-   desselben Films: Sie hält an und stellt Zwischenfragen. Sie läuft in
-   einem Rahmen auf dieser Seite — niemand muss die Anwendung verlassen.
-   Und sie wird erst geladen, wenn jemand auf „Video starten" drückt. Der
-   Klick bleibt damit die Entscheidung des Kindes, genau wie der Link es
-   war; nur führt er nicht mehr weg.
+   Die frühere Lumi-H5P-Einbettung liefert bei YouTube-Filmen zeitweise nur
+   eine schwarze Fläche. Deshalb startet in der Seite jetzt zuverlässig die
+   cookiefreie YouTube-Fassung. Die interaktive Lumi-Fassung bleibt als
+   optionale externe Alternative verlinkt. Geladen wird weiterhin erst nach
+   einem bewussten Klick.
 
    Das Feld "stufe" ist der Mindestlernweg, nicht eine feste Bindung: Ein
    Video mit stufe "C" erscheint nur auf C, eines mit "A" auf allen drei
@@ -2329,17 +2885,14 @@ const VIDEOQUELLEN = {
   'Chemistry@home': { key: 'chemistryathome', label: 'Chemistry@home' },
   Studyflix: { key: 'studyflix', label: 'Studyflix' }
 };
-const VIDEO_MUSTER = /^https:\/\/www\.youtube\.com\/watch\?v=[A-Za-z0-9_-]{11}$/;
-/* Nur diese eine Adressform wird in einen Rahmen geladen. Die Content-
-   Security-Policy der Seite lässt ohnehin nur app.lumi.education zu; hier
-   steht dieselbe Regel noch einmal im Code, damit eine versehentlich in
-   eine tasks.json geratene Fremdadresse gar nicht erst bis dorthin kommt. */
-const LUMI_EMBED_MUSTER = /^https:\/\/app\.lumi\.education\/api\/v1\/run\/[A-Za-z0-9_-]{4,32}\/embed$/;
+const VIDEO_ID_MUSTER = /^https:\/\/www\.youtube\.com\/watch\?v=([A-Za-z0-9_-]{11})$/;
 const LUMI_RUN_MUSTER = /^https:\/\/app\.lumi\.education\/run\/[A-Za-z0-9_-]{4,32}$/;
-/* Die zweite erlaubte Einbettadresse: der cookiefreie Auslieferungsweg
-   von YouTube. Nur er wird für Versuchsvideos ohne Lumi-Fassung geladen. */
-const YT_EMBED_MUSTER = /^https:\/\/www\.youtube-nocookie\.com\/embed\/[A-Za-z0-9_-]{11}$/;
 const STUFEN_RANG = { A: 0, B: 1, C: 2 };
+
+function youtubeNocookieAdresse(url) {
+  const treffer = String(url || '').match(VIDEO_ID_MUSTER);
+  return treffer ? `https://www.youtube-nocookie.com/embed/${treffer[1]}?rel=0` : null;
+}
 
 function minSek(sekunden) {
   const s = Math.max(0, Math.round(Number(sekunden) || 0));
@@ -2356,21 +2909,23 @@ function videosFuerPfad() {
   for (const eintrag of liste) {
     const titel = String(eintrag?.titel || '').trim();
     const quelle = VIDEOQUELLEN[eintrag?.quelle];
-    const embed = String(eintrag?.embed || '');
+    const direkt = youtubeNocookieAdresse(eintrag?.url);
     const stufe = eintrag?.stufe || 'A';
-    if (!titel || !quelle || !VIDEO_MUSTER.test(String(eintrag?.url || ''))) continue;
-    if (!LUMI_EMBED_MUSTER.test(embed) || gesehen.has(embed)) continue;
+    if (!titel || !quelle || !direkt) continue;
+    if (gesehen.has(direkt)) continue;
     if ((STUFEN_RANG[stufe] ?? 0) > (STUFEN_RANG[S.pfad] ?? 1)) continue;
-    gesehen.add(embed);
-    gueltig.push({ ...eintrag, titel, quelle, stufe });
+    gesehen.add(direkt);
+    gueltig.push({ ...eintrag, titel, quelle, stufe, direkt });
   }
   gueltig.sort((a, b) => (STUFEN_RANG[b.stufe] ?? 0) - (STUFEN_RANG[a.stufe] ?? 0));
   return gueltig;
 }
 
-/* Ein Block je Video: Kopfzeile, Rahmen mit Startknopf, Mitschreibhinweis.
-   Der Rahmen bleibt leer, bis jemand startet — vorher geht keine Anfrage
-   an einen fremden Server. */
+/* Ein Block je Video: Kopfzeile, verlässlicher Direktlink, optionaler Rahmen
+   und Mitschreibhinweis. Einige Kanäle untersagen die Wiedergabe in fremden
+   Seiten, obwohl das Video selbst online ist. Darum ist YouTube der Hauptweg;
+   die Einbettung wird nur auf ausdrücklichen Wunsch versucht. Vorher geht
+   keine Anfrage an einen fremden Server. */
 function videoBlock(eintrag, empfohlen) {
   const block = el('div', 'video-block' + (empfohlen ? ' video-empfohlen' : ''));
 
@@ -2381,21 +2936,31 @@ function videoBlock(eintrag, empfohlen) {
   block.append(kopf);
 
   const rahmen = el('div', 'video-rahmen');
-  const start = el('button', 'btn btn-haupt video-start', '▶ Video starten');
+  const start = el('button', 'btn btn-neben video-start', 'In dieser Seite versuchen');
   start.type = 'button';
   const hinweis = el('p', 'video-platzhalter',
-    'Das Video hält zwischendurch an und stellt dir eine Frage. '
-    + 'Es läuft hier in der Seite — du musst nichts anderes öffnen.');
-  rahmen.append(hinweis, start);
+    'Öffne das Video auf YouTube. Halte es selbst an, wenn du einen wichtigen '
+    + 'Satz notierst. Die Einbettung funktioniert nicht bei jedem Anbieter.');
+  const aktionen = el('div', 'video-aktionen');
+  const original = el('a', 'btn btn-haupt video-direkt', '▶ Auf YouTube ansehen');
+  original.href = eintrag.url;
+  original.target = '_blank';
+  original.rel = 'noopener noreferrer';
+  original.addEventListener('click', () => Tracker.track('video_open', {
+    provider: eintrag.quelle.key, title: eintrag.titel,
+    unit: S.daten.unit, path: S.pfad, form: 'youtube_tab'
+  }));
+  aktionen.append(original, start);
+  rahmen.append(hinweis, aktionen);
 
   start.addEventListener('click', () => {
     const rahmenFenster = document.createElement('iframe');
     rahmenFenster.className = 'video-frame';
-    rahmenFenster.src = eintrag.embed;
+    rahmenFenster.src = eintrag.direkt;
     rahmenFenster.title = 'Lernvideo: ' + eintrag.titel;
     rahmenFenster.loading = 'lazy';
-    rahmenFenster.allow = 'fullscreen';
-    rahmenFenster.referrerPolicy = 'no-referrer';
+    rahmenFenster.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen';
+    rahmenFenster.referrerPolicy = 'strict-origin-when-cross-origin';
     rahmen.replaceChildren(rahmenFenster);
     Tracker.track('video_start', {
       provider: eintrag.quelle.key,
@@ -2405,7 +2970,7 @@ function videoBlock(eintrag, empfohlen) {
       stufe: eintrag.stufe,
       empfohlen,
       dauer_s: eintrag.dauer_s || null,
-      form: 'lumi_embed'
+      form: 'youtube_nocookie'
     });
     /* Ein laufendes Video ist Arbeit, auch wenn niemand tippt. Ohne diese
        Meldung fiele die Lernzeitzählung genau dann aus, wenn zugesehen
@@ -2415,12 +2980,12 @@ function videoBlock(eintrag, empfohlen) {
   block.append(rahmen);
 
   const notiz = el('p', 'video-notiz');
-  notiz.innerHTML = '<b>Stift bereitlegen:</b> Was im Video als Merksatz erscheint, '
-    + 'gehört gleich in dein Heft. Halte das Video an, wenn du schreibst.';
+  notiz.innerHTML = '<b>Stift bereitlegen:</b> Notiere drei wichtige Aussagen und '
+    + 'formuliere danach einen eigenen Merksatz. Halte das Video an, wenn du schreibst.';
   block.append(notiz);
 
   if (LUMI_RUN_MUSTER.test(String(eintrag.lumi || ''))) {
-    const a = el('a', 'ua-link video-extern', 'Falls der Rahmen leer bleibt: in eigenem Fenster öffnen');
+    const a = el('a', 'ua-link video-extern', 'Interaktive H5P-Fassung öffnen (externer Dienst)');
     a.href = eintrag.lumi;
     a.target = '_blank';
     a.rel = 'noopener noreferrer';
@@ -2458,8 +3023,7 @@ function experimentkarteBauen() {
   const liste = Array.isArray(S.daten.experimente) ? S.daten.experimente : [];
   const passend = liste.filter(v =>
     (STUFEN_RANG[v?.stufe] ?? 0) <= (STUFEN_RANG[S.pfad] ?? 1)
-    && (LUMI_EMBED_MUSTER.test(String(v?.embed || ''))
-        || YT_EMBED_MUSTER.test(String(v?.embed || ''))));
+    && youtubeNocookieAdresse(v?.url));
 
   inhalt.replaceChildren();
   if (!passend.length || S.daten.pruefung) { box.hidden = true; return; }
@@ -2473,8 +3037,8 @@ function experimentkarteBauen() {
   }
 
   inhalt.append(el('p', 'ua-hinweis',
-    'Diese Versuche laufen in der Seite. Leg dein Heft daneben — was du '
-    + 'siehst, gehört ins Versuchsprotokoll.'));
+    'Öffne den Versuch auf YouTube und leg dein Heft daneben — was du siehst, '
+    + 'gehört ins Versuchsprotokoll. Die Einbettung ist nur eine Zusatzoption.'));
 
   passend.forEach(v => {
     const block = el('div', 'versuch-block');
@@ -2482,15 +3046,15 @@ function experimentkarteBauen() {
     const zeile = el('div', 'video-kopf');
     zeile.append(el('span', 'ua-q ua-q-versuch', 'Versuch'));
     zeile.append(el('b', 'video-titel', v.titel));
-    zeile.append(el('span', 'video-dauer', v.protokoll ? 'hält an' : 'Film'));
+    zeile.append(el('span', 'video-dauer', 'Film'));
     block.append(zeile);
 
     /* Der Auftrag steht VOR dem Rahmen — das ist der ganze Punkt. */
     const auftrag = el('div', 'versuch-auftrag');
     if (v.protokoll) {
-      auftrag.innerHTML = '<b>Versuchsprotokoll:</b> Das Video hält an fünf Stellen an '
-        + 'und sagt dir, was ins Heft gehört — Materialien, Aufbau, Durchführung '
-        + 'und Beobachtung. Lege vorher eine Überschrift an.';
+      auftrag.innerHTML = '<b>Versuchsprotokoll:</b> Halte den Film selbst an und gliedere '
+        + 'deinen Eintrag in Materialien, Aufbau, Durchführung und Beobachtung. '
+        + 'Lege vor dem Start eine Überschrift an.';
     } else {
       const text = (v.beobachtung || {})[S.pfad];
       if (!text) return;
@@ -2500,26 +3064,43 @@ function experimentkarteBauen() {
     block.append(auftrag);
 
     const rahmen = el('div', 'video-rahmen');
-    const start = el('button', 'btn btn-haupt video-start', '▶ Versuch starten');
+    const start = el('button', 'btn btn-neben video-start', 'In dieser Seite versuchen');
     start.type = 'button';
-    rahmen.append(el('p', 'video-platzhalter', v.rolle || ''), start);
+    const aktionen = el('div', 'video-aktionen');
+    const original = el('a', 'btn btn-haupt video-direkt', '▶ Auf YouTube ansehen');
+    original.href = v.url;
+    original.target = '_blank';
+    original.rel = 'noopener noreferrer';
+    original.addEventListener('click', () => Tracker.track('versuch_open', {
+      unit: S.daten.unit, path: S.pfad, title: v.titel,
+      stufe: v.stufe, protokoll: !!v.protokoll, form: 'youtube_tab'
+    }));
+    aktionen.append(original, start);
+    rahmen.append(el('p', 'video-platzhalter', v.rolle || ''), aktionen);
     start.addEventListener('click', () => {
       const f = document.createElement('iframe');
       f.className = 'video-frame';
-      f.src = v.embed;
+      f.src = youtubeNocookieAdresse(v.url);
       f.title = 'Versuchsvideo: ' + v.titel;
       f.loading = 'lazy';
-      f.allow = 'fullscreen';
-      f.referrerPolicy = 'no-referrer';
+      f.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen';
+      f.referrerPolicy = 'strict-origin-when-cross-origin';
       rahmen.replaceChildren(f);
       Tracker.track('versuch_start', {
         unit: S.daten.unit, path: S.pfad, title: v.titel,
         stufe: v.stufe, protokoll: !!v.protokoll,
-        form: v.protokoll ? 'lumi_embed' : 'youtube_nocookie'
+        form: 'youtube_nocookie'
       });
       try { window.Lernmodus?.aktivitaet?.('extern-auf'); } catch { /* optional */ }
     });
     block.append(rahmen);
+    if (LUMI_RUN_MUSTER.test(String(v.lumi || ''))) {
+      const interaktiv = el('a', 'ua-link video-extern', 'Interaktive H5P-Fassung öffnen (externer Dienst)');
+      interaktiv.href = v.lumi;
+      interaktiv.target = '_blank';
+      interaktiv.rel = 'noopener noreferrer';
+      block.append(interaktiv);
+    }
     inhalt.append(block);
   });
 }
@@ -2547,20 +3128,23 @@ function lehrbuchAuftrag(lb) {
      jene Funktion maskiert Auszeichnungen, sodass <b> als Text erschiene.
      Die eingesetzten Werte werden deshalb hier einzeln maskiert. */
   const kap = `Kapitel ${htmlSicher(lb.kapitel)} „${htmlSicher(lb.titel)}“ `
-    + `(S. ${htmlSicher(lb.seiten_von)}–${htmlSicher(lb.seiten_bis)})`;
+    + `(PDF-S. ${htmlSicher(lb.seiten_von)}–${htmlSicher(lb.seiten_bis)})`;
   const thema = htmlSicher(S.daten.title);
   const wort = htmlSicher(lb.bezugswort || S.daten.title);
+  const abschnitt = htmlSicher(lb.abschnitt || S.daten.title);
   if (S.pfad === 'A') {
-    return `Schlag im Lehrbuch ${kap} auf. <b>Schreibe</b> den Merksatz zum Thema `
-      + `„${thema}“ ab und <b>nenne</b> drei Fachwörter, die dort vorkommen.`;
+    return `Lies im Lehrbuch ${kap} den Abschnitt „${abschnitt}“. `
+      + `<b>Markiere</b> drei wichtige Aussagen und <b>formuliere</b> daraus einen `
+      + `eigenen Merksatz zum Thema „${thema}“.`;
   }
   if (S.pfad === 'B') {
-    return `Lies im Lehrbuch ${kap}. <b>Fasse</b> den Abschnitt zu „${thema}“ in `
-      + `fünf Sätzen zusammen und <b>erkläre</b> dabei „${wort}“ in eigenen Worten.`;
+    return `Lies im Lehrbuch ${kap} den Abschnitt „${abschnitt}“. <b>Fasse</b> `
+      + `seine Kernaussage in drei bis fünf Sätzen zusammen und <b>erkläre</b> `
+      + `„${wort}“ an einem Beispiel aus der Einheit.`;
   }
-  return `Bearbeite im Lehrbuch ${kap} einen der dort gestellten Arbeitsaufträge `
-    + `mit den Operatoren <i>Begründe</i>, <i>Beurteile</i> oder <i>Vergleiche</i>. `
-    + `<b>Begründe</b> anschließend schriftlich, was dein Ergebnis mit „${thema}“ zu tun hat.`;
+  return `Nutze im Lehrbuch ${kap} den Abschnitt „${abschnitt}“ als Quelle. `
+    + `<b>Begründe</b> das C-Lernziel der Einheit schriftlich mit mindestens zwei `
+    + `konkreten Aussagen aus dem Abschnitt und einem passenden Fachbegriff.`;
 }
 
 function lehrbuchkarteBauen() {
@@ -2583,6 +3167,15 @@ function lehrbuchkarteBauen() {
   zeile.append(el('b', null, lb.titel));
   zeile.append(el('span', 'lehrbuch-seiten', `S. ${lb.seiten_von}–${lb.seiten_bis}`));
   inhalt.append(zeile);
+  if (lb.abschnitt) inhalt.append(el('p', 'lehrbuch-abschnitt', `Abschnitt: ${lb.abschnitt}`));
+
+  for (const stelle of (lb.weitere_stellen || [])) {
+    const extra = el('div', 'lehrbuch-zeile lehrbuch-zeile-zusatz');
+    extra.append(el('span', 'lehrbuch-kapitel', 'Zusätzlich · Kapitel ' + stelle.kapitel));
+    extra.append(el('b', null, stelle.abschnitt || stelle.titel));
+    extra.append(el('span', 'lehrbuch-seiten', `S. ${stelle.seiten_von}–${stelle.seiten_bis}`));
+    inhalt.append(extra);
+  }
 
   const auftrag = el('div', 'lehrbuch-auftrag');
   auftrag.innerHTML = lehrbuchAuftrag(lb);
@@ -2606,13 +3199,13 @@ function videokarteBauen() {
   const kopf = box.querySelector('summary');
   if (kopf) {
     const dauer = gueltig[0].dauer_s ? ` · ${Math.round(gueltig[0].dauer_s / 60)} min` : '';
-    kopf.textContent = `Erklärvideo · hält an und fragt nach${dauer}`;
+    kopf.textContent = `Erklärvideo · mit Schreibauftrag${dauer}`;
   }
 
   inhalt.append(el('p', 'ua-hinweis',
-    'Das Video ist für deinen Lernweg ausgewählt und mit Fragen versehen. '
-    + 'Es läuft in dieser Seite; dafür brauchst du Internet. Beantworte die '
-    + 'Zwischenfragen — sie sind der halbe Grund, warum es hier steht.'));
+    'Das Video ist für deinen Lernweg ausgewählt. Es läuft direkt in dieser '
+    + 'Seite; dafür brauchst du Internet. Notiere die Kernaussagen und prüfe '
+    + 'sie anschließend am schriftlichen Abschnitt „Kurz erklärt“.'));
 
   inhalt.append(videoBlock(gueltig[0], true));
 
@@ -2645,4 +3238,3 @@ document.addEventListener('focusout', () => {
    nachgeladen wurde — der Prüfungstrainer lädt engine.js dynamisch. */
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start);
 else start();
-

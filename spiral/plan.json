@@ -1,15 +1,16 @@
 {
-  "_hinweis": "Datei steuert das Warm-up. Kein Code muss angefasst werden.",
-  "_warmup": "Das Warm-up wiederholt das Grundwissen ALLER zurueckliegenden Reihen. Massgeblich ist die Reihe der gerade bearbeiteten Einheit: Alles, was in frueheren Reihen erarbeitet wurde, ist Wiederholungsstoff; was noch nicht dran war, kommt nicht vor. In der ersten Reihe gibt es nichts Frueheres - dort wiederholt das Warm-up innerhalb der eigenen Reihe.",
+  "_hinweis": "Das Warm-up wiederholt ausschließlich Chemiefragen aus dem gelieferten Katalog und folgt der Lehrbuchreihenfolge.",
+  "_warmup": "Jede Frage besitzt eine Einführungs-Einheit (ab_einheit) und wird erst in späteren Einheiten freigeschaltet. Nur FC-01 nutzt die eigenen Sicherheitsregeln als Einstieg.",
   "kategorien": [
-    "W-STOF",
-    "W-TEIL",
-    "W-SYMB",
-    "W-GLEI",
-    "W-RECH",
-    "W-EINH",
-    "W-LOES",
-    "W-ORG"
+    "K-SICH",
+    "K-STOF",
+    "K-REAK",
+    "K-ATOM",
+    "K-BIND",
+    "K-REDOX",
+    "K-QUANT",
+    "K-SL",
+    "K-ORG"
   ],
   "reihen": [
     {
@@ -28,8 +29,9 @@
         "fc-08"
       ],
       "grundwissen": [
-        "W-STOF",
-        "W-EINH"
+        "K-SICH",
+        "K-STOF",
+        "K-REAK"
       ]
     },
     {
@@ -48,8 +50,7 @@
         "ps-08"
       ],
       "grundwissen": [
-        "W-TEIL",
-        "W-SYMB"
+        "K-ATOM"
       ]
     },
     {
@@ -65,7 +66,8 @@
         "ga-05"
       ],
       "grundwissen": [
-        "W-GLEI"
+        "K-REAK",
+        "K-BIND"
       ]
     },
     {
@@ -82,8 +84,9 @@
         "wa-06"
       ],
       "grundwissen": [
-        "W-GLEI",
-        "W-TEIL"
+        "K-STOF",
+        "K-BIND",
+        "K-REAK"
       ]
     },
     {
@@ -99,8 +102,8 @@
         "sz-05"
       ],
       "grundwissen": [
-        "W-SYMB",
-        "W-LOES"
+        "K-BIND",
+        "K-SL"
       ]
     },
     {
@@ -118,8 +121,8 @@
         "me-07"
       ],
       "grundwissen": [
-        "W-GLEI",
-        "W-RECH"
+        "K-REDOX",
+        "K-BIND"
       ]
     },
     {
@@ -135,8 +138,7 @@
         "qb-05"
       ],
       "grundwissen": [
-        "W-RECH",
-        "W-EINH"
+        "K-QUANT"
       ]
     },
     {
@@ -154,7 +156,7 @@
         "sl-07"
       ],
       "grundwissen": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -172,7 +174,7 @@
         "kw-07"
       ],
       "grundwissen": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -190,7 +192,7 @@
         "al-07"
       ],
       "grundwissen": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -206,7 +208,7 @@
         "os-05"
       ],
       "grundwissen": [
-        "W-ORG"
+        "K-ORG"
       ]
     },
     {
@@ -223,7 +225,7 @@
         "es-06"
       ],
       "grundwissen": [
-        "W-ORG"
+        "K-ORG"
       ]
     }
   ],
@@ -238,347 +240,286 @@
   ],
   "verzahnung": {
     "fc-01": [
-      "W-EINH"
+      "K-SICH"
     ],
     "fc-02": [
-      "W-EINH"
+      "K-SICH"
     ],
     "fc-03": [
-      "W-STOF",
-      "W-EINH"
+      "K-STOF"
     ],
     "fc-04": [
-      "W-STOF",
-      "W-LOES"
+      "K-STOF"
     ],
     "fc-05": [
-      "W-STOF"
+      "K-REAK"
     ],
     "fc-06": [
-      "W-STOF"
+      "K-REAK"
     ],
     "fc-07": [
-      "W-SYMB",
-      "W-GLEI"
+      "K-REAK"
     ],
     "fc-08": [
-      "W-GLEI",
-      "W-SYMB"
+      "K-REAK"
     ],
     "ps-01": [
-      "W-TEIL"
+      "K-ATOM"
     ],
     "ps-02": [
-      "W-TEIL"
+      "K-ATOM"
     ],
     "ps-03": [
-      "W-TEIL"
+      "K-ATOM"
     ],
     "ps-04": [
-      "W-TEIL"
+      "K-ATOM"
     ],
     "ps-05": [
-      "W-TEIL",
-      "W-SYMB"
+      "K-ATOM"
     ],
     "ps-06": [
-      "W-TEIL",
-      "W-RECH"
+      "K-ATOM"
     ],
     "ps-07": [
-      "W-TEIL"
+      "K-ATOM"
     ],
     "ps-08": [
-      "W-TEIL",
-      "W-SYMB"
+      "K-ATOM"
     ],
     "ga-01": [
-      "W-STOF",
-      "W-EINH"
+      "K-REAK"
     ],
     "ga-02": [
-      "W-GLEI",
-      "W-SYMB"
+      "K-REAK"
     ],
     "ga-03": [
-      "W-TEIL",
-      "W-SYMB"
+      "K-BIND"
     ],
     "ga-04": [
-      "W-LOES",
-      "W-EINH"
+      "K-REAK"
     ],
     "ga-05": [
-      "W-SYMB",
-      "W-GLEI"
+      "K-REAK"
     ],
     "wa-01": [
-      "W-STOF",
-      "W-EINH"
+      "K-STOF"
     ],
     "wa-02": [
-      "W-GLEI",
-      "W-EINH"
+      "K-REAK"
     ],
     "wa-03": [
-      "W-GLEI",
-      "W-SYMB"
+      "K-REAK"
     ],
     "wa-04": [
-      "W-TEIL",
-      "W-SYMB"
+      "K-BIND"
     ],
     "wa-05": [
-      "W-LOES",
-      "W-STOF"
+      "K-STOF"
     ],
     "wa-06": [
-      "W-GLEI",
-      "W-LOES"
+      "K-REAK"
     ],
     "sz-01": [
-      "W-TEIL"
+      "K-BIND"
     ],
     "sz-02": [
-      "W-TEIL",
-      "W-STOF"
+      "K-BIND"
     ],
     "sz-03": [
-      "W-SYMB",
-      "W-TEIL"
+      "K-BIND"
     ],
     "sz-04": [
-      "W-LOES",
-      "W-EINH"
+      "K-BIND"
     ],
     "sz-05": [
-      "W-SYMB",
-      "W-LOES"
+      "K-BIND"
     ],
     "me-01": [
-      "W-STOF",
-      "W-EINH"
+      "K-BIND"
     ],
     "me-02": [
-      "W-TEIL",
-      "W-STOF"
+      "K-BIND"
     ],
     "me-03": [
-      "W-GLEI"
+      "K-REDOX"
     ],
     "me-04": [
-      "W-STOF",
-      "W-LOES"
+      "K-BIND"
     ],
     "me-05": [
-      "W-GLEI",
-      "W-TEIL"
+      "K-REDOX"
     ],
     "me-06": [
-      "W-GLEI",
-      "W-RECH"
+      "K-REDOX"
     ],
     "me-07": [
-      "W-GLEI",
-      "W-RECH"
+      "K-REDOX"
     ],
     "qb-01": [
-      "W-SYMB",
-      "W-RECH"
+      "K-QUANT"
     ],
     "qb-02": [
-      "W-RECH",
-      "W-EINH"
+      "K-QUANT"
     ],
     "qb-03": [
-      "W-RECH",
-      "W-EINH"
+      "K-QUANT"
     ],
     "qb-04": [
-      "W-RECH",
-      "W-EINH"
+      "K-QUANT"
     ],
     "qb-05": [
-      "W-RECH",
-      "W-GLEI"
+      "K-QUANT"
     ],
     "sl-01": [
-      "W-LOES",
-      "W-STOF"
+      "K-SL"
     ],
     "sl-02": [
-      "W-LOES"
+      "K-SL"
     ],
     "sl-03": [
-      "W-SYMB",
-      "W-LOES"
+      "K-SL"
     ],
     "sl-04": [
-      "W-SYMB",
-      "W-LOES"
+      "K-SL"
     ],
     "sl-05": [
-      "W-GLEI",
-      "W-SYMB"
+      "K-SL"
     ],
     "sl-06": [
-      "W-GLEI",
-      "W-LOES"
+      "K-SL"
     ],
     "sl-07": [
-      "W-LOES",
-      "W-RECH"
+      "K-SL"
     ],
     "kw-01": [
-      "W-STOF",
-      "W-SYMB"
+      "K-ORG"
     ],
     "kw-02": [
-      "W-ORG",
-      "W-SYMB"
+      "K-ORG"
     ],
     "kw-03": [
-      "W-ORG",
-      "W-SYMB"
+      "K-ORG"
     ],
     "kw-04": [
-      "W-ORG"
+      "K-ORG"
     ],
     "kw-05": [
-      "W-ORG",
-      "W-STOF"
+      "K-ORG"
     ],
     "kw-06": [
-      "W-ORG",
-      "W-GLEI"
+      "K-ORG"
     ],
     "kw-07": [
-      "W-ORG",
-      "W-GLEI"
+      "K-ORG"
     ],
     "al-01": [
-      "W-ORG",
-      "W-STOF"
+      "K-ORG"
     ],
     "al-02": [
-      "W-ORG"
+      "K-ORG"
     ],
     "al-03": [
-      "W-ORG",
-      "W-LOES"
+      "K-ORG"
     ],
     "al-04": [
-      "W-ORG",
-      "W-LOES"
+      "K-ORG"
     ],
     "al-05": [
-      "W-ORG",
-      "W-GLEI"
+      "K-ORG"
     ],
     "al-06": [
-      "W-LOES",
-      "W-RECH"
+      "K-ORG"
     ],
     "al-07": [
-      "W-ORG",
-      "W-RECH"
+      "K-ORG"
     ],
     "os-01": [
-      "W-ORG",
-      "W-LOES"
+      "K-ORG"
     ],
     "os-02": [
-      "W-ORG"
+      "K-ORG"
     ],
     "os-03": [
-      "W-ORG",
-      "W-LOES"
+      "K-ORG"
     ],
     "os-04": [
-      "W-ORG",
-      "W-SYMB"
+      "K-ORG"
     ],
     "os-05": [
-      "W-ORG",
-      "W-RECH"
+      "K-ORG"
     ],
     "es-01": [
-      "W-ORG",
-      "W-GLEI"
+      "K-ORG"
     ],
     "es-02": [
-      "W-ORG",
-      "W-STOF"
+      "K-ORG"
     ],
     "es-03": [
-      "W-ORG",
-      "W-RECH"
+      "K-ORG"
     ],
     "es-04": [
-      "W-ORG",
-      "W-LOES"
+      "K-ORG"
     ],
     "es-05": [
-      "W-ORG",
-      "W-SYMB"
+      "K-ORG"
     ],
     "es-06": [
-      "W-ORG",
-      "W-GLEI"
+      "K-ORG"
     ]
   },
   "fehlerprofil": {
-    "dichte_geteilt_statt_mal": "W-STOF",
-    "dichte_mal_statt_geteilt": "W-STOF",
-    "volumen_als_flaeche": "W-STOF",
-    "anteil_umgedreht": "W-STOF",
-    "loesungsmittel_als_ganzes": "W-LOES",
-    "rest_statt_anteil": "W-STOF",
-    "anteil_statt_rest": "W-LOES",
-    "anteil_statt_ganzes": "W-RECH",
-    "salz_mit_verdampft": "W-LOES",
-    "teilchen_traegt_stoffeigenschaft": "W-STOF",
-    "reaktion_und_zustandsaenderung_verwechselt": "W-STOF",
-    "trennverfahren_verwechselt": "W-STOF",
-    "sicherheitsregel_missachtet": "W-STOF",
-    "elektronen_mitgezaehlt": "W-TEIL",
-    "massenzahl_als_neutronen": "W-TEIL",
-    "ladung_falsch_herum": "W-TEIL",
-    "ordnungszahl_aendert_sich": "W-TEIL",
-    "ungewichteter_mittelwert": "W-TEIL",
-    "ion_und_atom_verwechselt": "W-TEIL",
-    "ladung_unvollstaendig": "W-TEIL",
-    "schale_falsch_gefuellt": "W-TEIL",
-    "bindungsart_verwechselt": "W-TEIL",
-    "index_uebersehen": "W-SYMB",
-    "koeffizient_ignoriert": "W-SYMB",
-    "koeffizient_addiert": "W-SYMB",
-    "klammer_ignoriert": "W-SYMB",
-    "kristallwasser_vergessen": "W-SYMB",
-    "formel_ohne_plus_zwei": "W-SYMB",
-    "summenformel_falsch_gelesen": "W-SYMB",
-    "symbol_verwechselt": "W-SYMB",
-    "masse_verschwindet": "W-GLEI",
-    "index_statt_koeffizient": "W-GLEI",
-    "edukt_produkt_vertauscht": "W-GLEI",
-    "verhaeltnis_umgedreht": "W-GLEI",
-    "masse_direkt_uebertragen": "W-RECH",
-    "oxidation_reduktion_vertauscht": "W-GLEI",
-    "nachweis_verwechselt": "W-GLEI",
-    "mol_geteilt_statt_mal": "W-RECH",
-    "mol_mal_statt_geteilt": "W-RECH",
-    "groesse_und_einheit_verwechselt": "W-EINH",
-    "molare_masse_falsch_bestimmt": "W-RECH",
-    "faktor_falsch": "W-EINH",
-    "kelvin_subtrahiert": "W-EINH",
-    "ph_skala_falschrum": "W-LOES",
-    "verduennen_falsch_herum": "W-LOES",
-    "saeure_lauge_vertauscht": "W-LOES",
-    "polar_unpolar_vertauscht": "W-LOES",
-    "h_nicht_halbiert": "W-ORG",
-    "kohlenstoff_verloren": "W-ORG",
-    "isomer_als_gleicher_stoff": "W-ORG",
-    "funktionelle_gruppe_verwechselt": "W-ORG",
-    "nomenklatur_falsch": "W-ORG"
+    "dichte_geteilt_statt_mal": "K-STOF",
+    "dichte_mal_statt_geteilt": "K-STOF",
+    "volumen_als_flaeche": "K-STOF",
+    "anteil_umgedreht": "K-STOF",
+    "loesungsmittel_als_ganzes": "K-SL",
+    "rest_statt_anteil": "K-STOF",
+    "anteil_statt_rest": "K-SL",
+    "anteil_statt_ganzes": "K-QUANT",
+    "salz_mit_verdampft": "K-SL",
+    "teilchen_traegt_stoffeigenschaft": "K-STOF",
+    "reaktion_und_zustandsaenderung_verwechselt": "K-STOF",
+    "trennverfahren_verwechselt": "K-STOF",
+    "sicherheitsregel_missachtet": "K-STOF",
+    "elektronen_mitgezaehlt": "K-ATOM",
+    "massenzahl_als_neutronen": "K-ATOM",
+    "ladung_falsch_herum": "K-ATOM",
+    "ordnungszahl_aendert_sich": "K-ATOM",
+    "ungewichteter_mittelwert": "K-ATOM",
+    "ion_und_atom_verwechselt": "K-ATOM",
+    "ladung_unvollstaendig": "K-ATOM",
+    "schale_falsch_gefuellt": "K-ATOM",
+    "bindungsart_verwechselt": "K-ATOM",
+    "index_uebersehen": "K-BIND",
+    "koeffizient_ignoriert": "K-BIND",
+    "koeffizient_addiert": "K-BIND",
+    "klammer_ignoriert": "K-BIND",
+    "kristallwasser_vergessen": "K-BIND",
+    "formel_ohne_plus_zwei": "K-BIND",
+    "summenformel_falsch_gelesen": "K-BIND",
+    "symbol_verwechselt": "K-BIND",
+    "masse_verschwindet": "K-REAK",
+    "index_statt_koeffizient": "K-REAK",
+    "edukt_produkt_vertauscht": "K-REAK",
+    "verhaeltnis_umgedreht": "K-REAK",
+    "masse_direkt_uebertragen": "K-QUANT",
+    "oxidation_reduktion_vertauscht": "K-REAK",
+    "nachweis_verwechselt": "K-REAK",
+    "mol_geteilt_statt_mal": "K-QUANT",
+    "mol_mal_statt_geteilt": "K-QUANT",
+    "groesse_und_einheit_verwechselt": "K-QUANT",
+    "molare_masse_falsch_bestimmt": "K-QUANT",
+    "faktor_falsch": "K-QUANT",
+    "kelvin_subtrahiert": "K-QUANT",
+    "ph_skala_falschrum": "K-SL",
+    "verduennen_falsch_herum": "K-SL",
+    "saeure_lauge_vertauscht": "K-SL",
+    "polar_unpolar_vertauscht": "K-SL",
+    "h_nicht_halbiert": "K-ORG",
+    "kohlenstoff_verloren": "K-ORG",
+    "isomer_als_gleicher_stoff": "K-ORG",
+    "funktionelle_gruppe_verwechselt": "K-ORG",
+    "nomenklatur_falsch": "K-ORG"
   }
 }

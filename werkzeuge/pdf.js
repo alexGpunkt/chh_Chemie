@@ -27,8 +27,24 @@ const UMSCHRIFT = [
   [/−/g, '-'],         // typografisches Minus
   [/≤/g, '<='],
   [/≥/g, '>='],
+  [/⇌/g, '<=>'],
+  [/↔/g, '<->'],
+  [/⟶/g, '->'],
+  [/₀/g, '0'], [/₁/g, '1'], [/₂/g, '2'], [/₃/g, '3'], [/₄/g, '4'],
+  [/₅/g, '5'], [/₆/g, '6'], [/₇/g, '7'], [/₈/g, '8'], [/₉/g, '9'],
+  [/₊/g, '+'], [/₋/g, '-'], [/ₙ/g, 'n'],
+  [/⁰/g, '0'], [/¹/g, '1'], [/⁴/g, '4'], [/⁵/g, '5'], [/⁶/g, '6'],
+  [/⁷/g, '7'], [/⁸/g, '8'], [/⁹/g, '9'], [/⁺/g, '+'], [/⁻/g, '-'],
+  [/δ/g, 'delta'], [/Δ/g, 'Delta'], [/α/g, 'alpha'], [/β/g, 'beta'],
+  [/γ/g, 'gamma'], [/λ/g, 'lambda'], [/ρ/g, 'rho'],
   [/·/g, '·']     // · bleibt
 ];
+
+function umschreiben(text) {
+  let s = String(text);
+  for (const [muster, ersatz] of UMSCHRIFT) s = s.replace(muster, ersatz);
+  return s;
+}
 
 /* WinAnsi weicht oberhalb von 127 von Unicode ab. Nur die Zeichen, die in
    diesem Projekt tatsächlich vorkommen. */
@@ -39,8 +55,7 @@ const WINANSI = new Map([
 ]);
 
 function nachWinAnsi(text) {
-  let s = String(text);
-  for (const [muster, ersatz] of UMSCHRIFT) s = s.replace(muster, ersatz);
+  const s = umschreiben(text);
   const bytes = [];
   for (const zeichen of s) {
     const code = zeichen.codePointAt(0);
@@ -94,7 +109,7 @@ function zeichenbreite(zeichen, fett) {
 
 function textbreite(text, groesse, fett) {
   let summe = 0;
-  for (const z of String(text)) summe += zeichenbreite(z, fett);
+  for (const z of umschreiben(text)) summe += zeichenbreite(z, fett);
   return summe * groesse / 1000;
 }
 

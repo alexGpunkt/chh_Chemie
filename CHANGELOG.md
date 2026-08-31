@@ -1,5 +1,79 @@
 # Änderungen
 
+## v8 — Vollständiger RLP-Textabgleich und Sicherheitsunterweisung
+
+Ein neuer automatischer RLP-Abgleich prüft die verbindlichen Inhalte der zwölf
+Themenfelder 3.1 bis 3.12 auf jedem Lernweg ausschließlich in schriftlichen
+Erklärquellen. Dabei gefundene Lücken wurden geschlossen, unter anderem bei
+Wassernachweis, Salzbildung und -verwendung, Sauerstoffaffinität,
+Stoffmengenkonzentration, Reaktionen von Säuren mit Metallen und Carbonaten,
+ungesättigten Kohlenwasserstoffen, Alkoholherstellung, Essigherstellung und
+Estergruppe. Vier unpassend importierte Auswahlaufgaben im Bereich
+„Quantitative Betrachtungen“ besitzen jetzt kurze, fachlich plausible
+Antwortalternativen.
+
+FC-01 ist zu einer fünfteiligen, eigenständig lesbaren Sicherheitsunterweisung
+ausgebaut. Sie umfasst Vorbereitung, alle neun GHS-Piktogramme samt H-/P-Sätzen,
+sicheres Arbeiten, Notfallmaßnahmen und Nachbereitung. Vor dem Aufgabenstart
+müssen fünf Kernaussagen bestätigt werden; der Text bleibt danach erreichbar.
+Die Anwendung stellt ausdrücklich klar, dass Gefährdungsbeurteilung,
+Mengenfestlegung und Versuchsfreigabe Aufgaben der Lehrkraft bleiben.
+
+## v7 — Selbstständiger Lernweg, Einheitenquiz und Bewertungsübersicht
+
+Alle 76 Einheiten nennen die konkrete Fundstelle in `Lehrbuch_Chemie.pdf`
+jetzt direkt am schriftlichen Kernwissen. Ein niveaugerechter Arbeitsweg führt
+auf A in kurzen Schritten, auf B über Zusammenfassen und Erklären und auf C
+über Belegen und Begründen durch die selbstständige Erarbeitung. Vier
+offensichtlich zu weit verschobene PDF-Seitenbereiche wurden anhand des
+bereitgestellten Lehrbuchs berichtigt.
+
+Am Ende jedes Lernwegs steht ein fest versioniertes Quiz mit drei Fragen aus
+genau dieser Einheit und Niveaustufe. Die Datenbank prüft die Antworten selbst,
+speichert jeden Versuch und wertet nur den ersten Versuch im aktiven
+Bewertungsmodus. Weitere Abgaben bleiben als Übung sichtbar. Das
+Lehrerdashboard zeigt Einzelabgaben sowie eine über mehrere gewertete Quizze
+gebildete Gesamtquote und Note; ein einzelnes Drei-Fragen-Quiz wird ausdrücklich
+nicht allein in eine Note umgerechnet.
+
+Das Supabase-Modul schützt Lösungsschlüssel und Ergebnisse mit RLS und
+funktionsgebundenen Rechten. Quizdaten sind Bestandteil des personenbezogenen
+Exports und werden beim Löschen einer Person über den Fremdschlüssel mit
+entfernt.
+
+## v6 — Schriftliches Kernwissen und zuverlässige Videos
+
+Jede der 76 Einheiten zeigt nun dauerhaft einen Abschnitt „Kurz erklärt“.
+Er enthält je Lernweg eine eigene Einleitung, die wichtigsten Aussagen, einen
+Merksatz und das Lernziel. Die 228 Arbeitsblatt-PDFs übernehmen denselben
+niveaugerechten Fachtext vor die Aufgaben; chemische Indizes und Reaktionspfeile
+werden im eingeschränkten PDF-Zeichensatz lesbar umgeschrieben.
+
+Die Lumi-H5P-Einbettung lieferte bei YouTube-Inhalten trotz erreichbarer
+H5P-Seite eine schwarze Videofläche. Ursache ist ein JavaScript-Fehler in der
+extern ausgelieferten H5P-YouTube-Bibliothek. Zusätzlich sperren einzelne
+Anbieter die Wiedergabe ihrer Videos in fremden Seiten. Der geprüfte
+YouTube-Direktlink ist deshalb jetzt die Hauptaktion; YouTube-nocookie und die
+interaktive Lumi-Fassung bleiben als optionale Alternativen erhalten.
+
+## v5 — Lehrbuchgerechte Chemiefragen und neue Warm-ups
+
+Die Lernwege greifen jetzt auf den gelieferten Chemie-Fragenkatalog zurück:
+98 redaktionell geprüfte Aufgaben sind 59 fachlich passenden Einheiten
+zugeordnet. Eine Katalogfrage erscheint innerhalb einer Einheit nur in einem
+Lernweg; wo keine passende Frage vorliegt, bleibt die stärkere Originalaufgabe
+erhalten. Herkunft, Katalog-ID und konkrete PDF-Seiten bleiben nachvollziehbar.
+
+Das Warm-up besteht nun aus 224 eindeutigen Fragen in neun Chemiebereichen.
+Jede Frage gehört genau einem Niveau und besitzt eine Einführungs-Einheit;
+dadurch erscheinen Ester, Titration oder Metallbindung erst, nachdem sie im
+Lehrgang erarbeitet wurden. Auswahlfragen funktionieren mit Tastatur, Touch
+und Screenreader.
+
+Die reproduzierbare Zuordnung liegt unter `fragenkatalog/zuordnung.json`;
+`werkzeuge/fragenkatalog-pruefen.js` kontrolliert Quellen, Lernwege,
+Antworten, Warm-up-Mindestumfang und das Fehlen der alten Mathe-Pools.
+
 ## v4 — Ruhigere Lernoberfläche
 
 Die Einheitsseite führt jetzt sichtbar durch die drei Phasen Verstehen,
@@ -648,3 +722,9 @@ jetzt aus `units/index.json` — zwei Wahrheiten wären eine zu viel gewesen.
 - **Die Aufgaben sind nicht im Unterricht erprobt.** Fachliche Richtigkeit wurde
   beim Schreiben geprüft, die Passung zu einer konkreten Lerngruppe nicht.
 
+## v10 - Zusatzarbeitsblätter zu Säuren, Basen und Salzbildung
+
+- Das bereitgestellte OCR-Arbeitsheft ist in zwölf einheitsspezifische Schülerauszüge aufgeteilt; methodische Hinweise und Lösungsseiten werden nicht veröffentlicht.
+- Die Einheiten SL-01 bis SL-07 und SZ-01 bis SZ-05 verlinken nur die jeweils fachlich passenden PDF-Seiten.
+- Die neue Materialkarte ist für Smartphone, Tablet und Desktop responsiv und erklärt die abweichenden PDF-/Buchseitenzahlen.
+- Der Offline-Cache wurde auf `chemie710-v10-schuelerarbeitsblaetter` erhöht.

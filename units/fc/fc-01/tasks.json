@@ -9,9 +9,10 @@
   ],
   "klasse": 7,
   "sicherheit": [
-    "Im Chemieraum wird nichts angefasst, gerochen oder geschmeckt, bevor die Lehrkraft es sagt.",
-    "Schutzbrille auf, sobald erhitzt wird oder eine Chemikalie offen steht — auch beim Zusehen.",
-    "Lange Haare zusammenbinden, Jacken und Taschen weg vom Arbeitsplatz."
+    "Versuche beginnen erst nach der Freigabe durch die Lehrkraft. Die digitale Sicherheitsunterweisung allein erlaubt kein selbstständiges Experimentieren.",
+    "Schutzbrille tragen, lange Haare zusammenbinden, geschlossene Schuhe anziehen und Taschen sowie Jacken aus den Laufwegen entfernen.",
+    "Im Chemieraum wird nicht gegessen, getrunken oder probiert. An Stoffen wird nur gerochen, wenn die Lehrkraft es ausdrücklich anordnet und die sichere Technik erklärt.",
+    "Unfälle, verschüttete Stoffe, Glasbruch und Beschwerden sofort der Lehrkraft melden — auch wenn zunächst nichts zu sehen ist."
   ],
   "wortspeicher": [
     "das Gefahrensymbol",
@@ -21,89 +22,154 @@
     "die Schutzbrille",
     "die Betriebsanweisung",
     "der Abzug",
-    "die Augendusche"
+    "die Augendusche",
+    "das Signalwort",
+    "der H-Satz",
+    "der P-Satz",
+    "die Sammelstelle"
   ],
   "worterklaerungen": {
     "Gefahrensymbol": "Ein rot umrandetes Bild auf der Flasche. Es sagt, welche Gefahr von dem Stoff ausgeht.",
     "ätzend": "Der Stoff zerstört Haut und Augen. Er greift auch Metall an.",
     "entzündbar": "Der Stoff fängt leicht Feuer.",
     "Abzug": "Ein Glaskasten mit Absaugung. Darin bleiben giftige Dämpfe.",
-    "Betriebsanweisung": "Ein Blatt, das für einen bestimmten Stoff sagt, was zu tun und zu lassen ist."
+    "Betriebsanweisung": "Ein Blatt, das für einen bestimmten Stoff Gefahren, Schutzmaßnahmen, Erste Hilfe und Entsorgung festlegt.",
+    "Signalwort": "Auf dem Etikett steht „Gefahr“ bei schweren oder „Achtung“ bei weniger schweren Gefahren.",
+    "H-Satz": "Ein Gefahrenhinweis. Er beschreibt, welche Gefahr von einem Stoff ausgeht.",
+    "P-Satz": "Ein Sicherheitshinweis. Er beschreibt, wie man sich schützt und im Notfall handelt.",
+    "Sammelstelle": "Der vereinbarte Ort außerhalb des Gebäudes, an dem sich die Lerngruppe nach einer Räumung trifft."
   },
   "can_do": {
-    "A": "Ich erkenne die wichtigsten Gefahrensymbole und weiß, was ich dann tun muss.",
-    "B": "Ich ordne Gefahrensymbole den passenden Schutzmaßnahmen zu und begründe sie.",
-    "C": "Ich lese eine Betriebsanweisung und leite daraus das Vorgehen für einen Versuch ab."
+    "A": "Ich beachte die Grundregeln, erkenne Gefahrensymbole und weiß, wen ich im Notfall sofort informiere.",
+    "B": "Ich lese Etikett und Betriebsanweisung, ordne Gefahren passende Schutzmaßnahmen zu und handle in einer Notsituation richtig.",
+    "C": "Ich werte eine Betriebsanweisung aus und begründe Schutzmaßnahmen, ohne Aufgaben der Lehrkraft selbst zu übernehmen."
   },
   "lernkarten": {
     "A": {
-      "titel": "Die Zeichen auf der Flasche",
-      "hinfuehrung": "Auf jeder Flasche steht ein Zeichen.",
+      "titel": "Sicher arbeiten – Schritt für Schritt",
+      "hinfuehrung": "Im Chemieraum schützt dich eine feste Reihenfolge: vorbereiten, lesen, fragen, erst nach Freigabe arbeiten und am Ende richtig aufräumen.",
       "erklaerung": [
-        "Das Zeichen sagt dir die Gefahr.",
-        "Lies es, bevor du die Flasche anfasst."
+        "Vor dem Start: Schutzbrille aufsetzen, lange Haare zusammenbinden, geschlossene Schuhe tragen und den Arbeitsplatz freiräumen. Finde Ausgang, Sammelstelle, Not-Aus, Augendusche und Notdusche.",
+        "Auf dem Etikett zeigen Gefahrensymbole die Gefahr. Lies auch Signalwort sowie H- und P-Sätze. Fasse eine Chemikalie erst an, wenn die Lehrkraft den Auftrag freigegeben hat.",
+        "Bei einem Unfall gilt: STOPP – Abstand halten – Lehrkraft sofort informieren. Verschüttete Stoffe und Glasscherben räumst du nicht selbst weg."
       ],
-      "merke": "Erst das Zeichen lesen. Dann handeln.",
+      "merke": "Erst lesen und fragen, dann nach Freigabe handeln. Im Notfall sofort melden.",
       "beispiel": {
         "titel": "Ein Beispiel",
         "aufgabe": "Auf einer Flasche siehst du das Zeichen für „ätzend“.",
         "schritte": [
           "Der Stoff greift Haut und Augen an.",
-          "Ich setze die Schutzbrille auf.",
-          "Ich ziehe Handschuhe an."
+          "Ich fasse die Flasche nicht an und informiere die Lehrkraft.",
+          "Ich lese Etikett und Arbeitsauftrag. Schutzbrille und weitere Schutzmaßnahmen werden vor der Freigabe vorbereitet."
         ],
-        "ergebnis": "Schutzbrille und Handschuhe."
+        "ergebnis": "Nicht eigenmächtig handeln: lesen, Schutz vorbereiten, Freigabe abwarten."
       }
     },
     "B": {
-      "titel": "Gefahrensymbole und was sie verlangen",
-      "hinfuehrung": "Die neun GHS-Symbole sind rot umrandete Rauten. Jedes steht für eine bestimmte Art von Gefahr, und jedes verlangt eine bestimmte Vorsichtsmaßnahme.",
+      "titel": "Vom Etikett zur sicheren Handlung",
+      "hinfuehrung": "Ein Etikett enthält Gefahrensymbole, das Signalwort „Gefahr“ oder „Achtung“ sowie H-Sätze und P-Sätze. Erst alle Angaben zusammen ergeben die passende Schutzmaßnahme.",
       "erklaerung": [
-        "Ätzend: Schutzbrille und Handschuhe, niemals ohne Aufsicht umfüllen.",
-        "Entzündbar: kein offenes Feuer in der Nähe, Brenner vorher ausschalten.",
-        "Gesundheitsschädlich und giftig: nur im Abzug arbeiten, nicht daran riechen."
+        "Die neun GHS-Piktogramme heißen: explosiv, entzündbar, oxidierend, Gas unter Druck, ätzend, akut giftig, gesundheitsschädlich oder reizend, ernste Gesundheitsgefahr und umweltgefährlich.",
+        "Beispiele: Bei „entzündbar“ bleiben Zündquellen aus. Bei „ätzend“ werden Augen und Haut geschützt. Bei Gesundheitsgefahren entscheidet die Betriebsanweisung, ob zum Beispiel im Abzug gearbeitet werden muss.",
+        "Während der Arbeit: nie essen, trinken, probieren oder mit dem Mund pipettieren; Gefäßöffnungen von Menschen weg richten; nur kleine freigegebene Mengen verwenden und jede Störung sofort melden."
       ],
-      "merke": "Das Symbol nennt die Gefahr — die Schutzmaßnahme folgt daraus.",
+      "merke": "Piktogramm plus Signalwort plus H- und P-Sätze lesen – dann die Betriebsanweisung befolgen.",
       "beispiel": {
         "titel": "Vom Symbol zur Handlung",
         "aufgabe": "Eine Flasche trägt die Symbole „entzündbar“ und „gesundheitsschädlich“.",
         "schritte": [
           "Entzündbar → Brenner aus, kein offenes Feuer.",
-          "Gesundheitsschädlich → im Abzug arbeiten.",
-          "Beide Maßnahmen gelten gleichzeitig."
+          "Gesundheitsschädlich → H- und P-Sätze sowie Betriebsanweisung lesen; nicht eigenmächtig riechen.",
+          "Beide Gefahren und alle vorgeschriebenen Maßnahmen gelten gleichzeitig."
         ],
-        "ergebnis": "Brenner aus und im Abzug arbeiten."
+        "ergebnis": "Zündquellen aus; weitere Maßnahmen aus Etikett, Betriebsanweisung und Lehrkraft befolgen."
       }
     },
     "C": {
       "titel": "Von der Betriebsanweisung zum Vorgehen",
-      "hinfuehrung": "Eine Betriebsanweisung nennt für einen Stoff die Gefahren, die Schutzmaßnahmen, das Verhalten im Gefahrfall und die Entsorgung. Sie ist damit die Anleitung für den ganzen Versuch — nicht nur für den Moment des Umfüllens.",
+      "hinfuehrung": "Eine Betriebsanweisung nennt Gefahren, Schutzmaßnahmen, Verhalten im Gefahrfall, Erste Hilfe und Entsorgung. Sie ergänzt den Versuchsauftrag, ersetzt aber weder die Gefährdungsbeurteilung noch die Freigabe durch die Lehrkraft.",
       "erklaerung": [
-        "Vor dem Versuch: Welche Gefahren nennt sie? Welche Schutzausrüstung verlangt sie?",
-        "Während des Versuchs: Wo steht die kleinste Menge, mit der der Versuch noch gelingt? Weniger Stoff heißt weniger Gefahr — das ist der Sinn der Ersatzstoffprüfung.",
-        "Nach dem Versuch: In welchen Behälter gehört der Rest? Ausguss ist fast nie die Antwort."
+        "Vor dem Versuch prüfst du Arbeitsauftrag und Betriebsanweisung: Stoffe, Gefahren, Schutzmaßnahmen, erlaubte Arbeitsschritte, Notfallmaßnahmen und Entsorgungsweg. Unklarheiten werden vor dem Start geklärt.",
+        "Die Lehrkraft führt Gefährdungsbeurteilung, Ersatzstoffprüfung und Mengenfestlegung durch. Schülerinnen und Schüler verändern Stoff, Konzentration, Menge oder Aufbau niemals eigenmächtig.",
+        "Nach dem Versuch werden Reste nur nach Anweisung entsorgt, Chemikalien nie in Vorratsgefäße zurückgefüllt und Hände sowie Arbeitsplatz gereinigt. Die Schutzbrille wird zuletzt abgesetzt."
       ],
-      "merke": "Die Betriebsanweisung wird vor dem Versuch gelesen, nicht danach.",
+      "merke": "Risiko beurteilen ist Aufgabe der Lehrkraft; Regeln verstehen, einhalten und Störungen melden ist Aufgabe der Lernenden.",
       "beispiel": {
         "titel": "Eine Anweisung auswerten",
         "aufgabe": "„Natronlauge, ätzend. Schutzbrille. Nicht in den Ausguss. Bei Hautkontakt 10 Minuten spülen.“",
         "schritte": [
           "Gefahr: ätzend → Brille auf, bevor die Flasche geöffnet wird.",
-          "Gefahrfall: 10 Minuten spülen — nicht 10 Sekunden.",
+          "Gefahrfall: sofort melden und mindestens 10 Minuten spülen — nicht 10 Sekunden.",
           "Entsorgung: Sammelbehälter, nicht Ausguss."
         ],
         "ergebnis": "Brille, Spülzeit, Sammelbehälter."
       }
     }
   },
+  "sicherheitskurs": {
+    "grenze": "Du kannst diese Unterweisung selbstständig bearbeiten. Sie erlaubt dir aber keinen Versuch ohne Lehrkraft. Experimentiere erst, wenn die Lehrkraft den konkreten Aufbau geprüft und den Start freigegeben hat.",
+    "abschnitte": [
+      {
+        "titel": "1. Vor dem Experiment",
+        "punkte": [
+          "Betritt den Fachraum nur mit Erlaubnis. Stelle Taschen und Jacken so ab, dass Fluchtwege frei bleiben.",
+          "Trage geschlossene Schuhe. Binde lange Haare zusammen. Setze die Schutzbrille auf, sobald die Lehrkraft es verlangt oder offen mit Chemikalien beziehungsweise Wärme gearbeitet wird.",
+          "Zeige auf Ausgang, Sammelstelle, Not-Aus, Feuerlöscher, Löschdecke, Notdusche, Augendusche und Erste-Hilfe-Material. Frage nach, wenn du eine Einrichtung nicht findest.",
+          "Lies Versuchsanleitung, Etikett und Betriebsanweisung vollständig. Beginne erst nach ausdrücklicher Freigabe."
+        ]
+      },
+      {
+        "titel": "2. Gefahrstoffetiketten verstehen",
+        "punkte": [
+          "Die neun GHS-Piktogramme heißen: explosiv, entzündbar, oxidierend, Gas unter Druck, ätzend, akut giftig, gesundheitsschädlich oder reizend, ernste Gesundheitsgefahr und umweltgefährlich.",
+          "Das Signalwort unterscheidet den Schweregrad: „Gefahr“ kennzeichnet schwerere, „Achtung“ weniger schwere Gefahren.",
+          "H-Sätze beschreiben Gefahren. P-Sätze nennen Vorsichts- und Notfallmaßnahmen. Ein Piktogramm allein reicht deshalb nicht für eine sichere Entscheidung.",
+          "Befolge die Schutzmaßnahmen der Betriebsanweisung. Zusätzliche Schutzausrüstung oder Arbeiten im Abzug werden von der Lehrkraft festgelegt."
+        ]
+      },
+      {
+        "titel": "3. Während des Experiments",
+        "punkte": [
+          "Im Fachraum wird nicht gegessen, getrunken, gekaut, geschminkt oder probiert. Pipettiere niemals mit dem Mund.",
+          "Rieche nur nach ausdrücklicher Anweisung und nur mit der erklärten Zufächeltechnik. Halte Gefäßöffnungen und Reagenzgläser von Menschen weg.",
+          "Nutze nur die freigegebenen Stoffe, Mengen und Geräte. Verändere den Aufbau nicht und lasse Flammen oder laufende Versuche nie unbeaufsichtigt.",
+          "Melde Verschütten, Glasbruch, ungewöhnliche Gerüche, Beschwerden und jeden Unfall sofort. Räume Gefahrstoffe und Glasscherben nicht selbst weg."
+        ]
+      },
+      {
+        "titel": "4. Im Notfall",
+        "punkte": [
+          "STOPP – Abstand halten – warnen – Lehrkraft informieren. Eigenschutz geht vor Hilfeleistung.",
+          "Bei Stoffen im Auge oder auf der Haut: sofort melden und unverzüglich mit Augen- oder Notdusche spülen. Spüle mindestens 10 Minuten beziehungsweise so lange, wie es der schulische Notfallplan vorgibt.",
+          "Bei verschluckten Stoffen: Mund ausspülen, wenn die Person bei Bewusstsein ist, und sofort die Lehrkraft informieren. Kein Erbrechen auslösen und nichts eigenmächtig verabreichen.",
+          "Bei Feuer, Gasfreisetzung oder Räumungsalarm: Anweisung befolgen, den Raum über den Fluchtweg verlassen und zur Sammelstelle gehen. Not-Aus oder Löschmittel nur nach Einweisung und ohne Eigengefährdung benutzen."
+        ]
+      },
+      {
+        "titel": "5. Nach dem Experiment",
+        "punkte": [
+          "Entsorge Reste ausschließlich in den genannten Behälter. Gib entnommene Chemikalien niemals in das Vorratsgefäß zurück.",
+          "Schließe Gefäße, stelle Geräte nach Anweisung ab und reinige Arbeitsplatz sowie Hände. Die Schutzbrille setzt du zuletzt ab.",
+          "Melde auch kleine Schäden, fehlende Beschriftungen und beinahe geschehene Unfälle. So kann die Ursache beseitigt werden."
+        ]
+      }
+    ],
+    "checkliste": [
+      "Ich weiß, dass diese Unterweisung keine Erlaubnis zum selbstständigen Experimentieren ist.",
+      "Ich kann Ausgang, Sammelstelle und die Notfalleinrichtungen im Fachraum zeigen.",
+      "Ich lese Piktogramm, Signalwort sowie H- und P-Sätze und befolge die Betriebsanweisung.",
+      "Ich beginne erst nach Freigabe und verändere Stoffe, Mengen oder Aufbau nicht eigenmächtig.",
+      "Ich melde Unfall, Beschwerden, Verschütten und Glasbruch sofort der Lehrkraft."
+    ]
+  },
   "formelkarte": {
     "formeln": [],
     "saetze": [
-      "Erst lesen, dann handeln: Symbol → Gefahr → Schutzmaßnahme.",
-      "Bei Hautkontakt mit Ätzendem: mindestens 10 Minuten mit Wasser spülen.",
+      "Etikett vollständig lesen: Piktogramm + Signalwort + H-Sätze + P-Sätze.",
+      "Bei Haut- oder Augenkontakt: sofort melden und mindestens 10 Minuten beziehungsweise nach schulischem Notfallplan spülen.",
       "Erst das Wasser, dann die Säure — sonst geschieht das Ungeheure.",
-      "Reste gehören in den Sammelbehälter, nicht in den Ausguss.",
-      "Im Zweifel: nicht anfassen, sondern fragen."
+      "Reste nur nach Anweisung entsorgen und nie ins Vorratsgefäß zurückgeben.",
+      "Im Zweifel: nicht anfassen, Abstand halten und die Lehrkraft fragen."
     ]
   },
   "videos": [
@@ -161,7 +227,7 @@
         "symbole"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -225,35 +291,31 @@
       ]
     },
     {
-      "id": "FC01-A4-004",
+      "id": "FC01-A4-KAT",
       "path": "A",
       "step": 4,
       "type": "choice",
-      "prompt": "Im Versuch ist etwas danebengegangen. Auf dem Tisch steht eine geöffnete Flasche mit „entzündbar“, der Gasbrenner brennt noch. Was tust du zuerst?",
+      "prompt": "Welche Handlung ist im Chemiefachraum grundsätzlich verboten?",
       "options": [
-        "Den Brenner ausschalten",
-        "Die Flasche zumachen",
-        "Die Lehrkraft suchen gehen"
+        "Essen und Trinken",
+        "Haare zusammenbinden",
+        "Anweisungen lesen"
       ],
       "answer": 0,
       "hints": [
-        "Was ist die eigentliche Gefahrenquelle?",
-        "Ein entzündbarer Stoff braucht eine Zündquelle.",
-        "Die Flamme muss weg."
+        "Lies den Abschnitt „Sicher experimentieren im Fachraum“.",
+        "Streiche Antworten, die nicht genau zur Frage passen."
       ],
-      "solution": "Ein entzündbarer Stoff wird gefährlich, sobald eine Zündquelle da ist. Zuerst kommt der Brenner aus, danach wird die Flasche geschlossen und die Lehrkraft gerufen.",
-      "misconceptions": [
-        {
-          "id": "gefahrenquelle_verkannt",
-          "value": 1,
-          "feedback": "Die Flasche zu schließen ist richtig — aber erst als Zweites. Solange die Flamme brennt, bleibt die Zündquelle da.",
-          "konzeptfehler": "sicherheitsregel_missachtet"
-        }
-      ],
+      "solution": "Essen und Trinken.",
       "tags": [
-        "sicherheit",
-        "transfer"
-      ]
+        "fragenkatalog",
+        "labor-sicherheit",
+        "niveau-a"
+      ],
+      "spiral": [
+        "K-SICH"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-002 · Lehrbuch PDF-S. 8–10"
     },
     {
       "id": "FC01-B1-005",
@@ -292,7 +354,7 @@
       "values": [
         "Augendusche, mindestens 10 Minuten spülen",
         "Löschdecke oder Notdusche, nicht wegrennen",
-        "Lehrkraft sofort informieren, nichts zu trinken geben"
+        "Mund ausspülen, Lehrkraft sofort informieren, nichts eigenmächtig verabreichen"
       ],
       "answer": [
         0,
@@ -302,14 +364,14 @@
       "hints": [
         "Jede Situation hat eine eigene Einrichtung im Raum.",
         "Beim Brand macht Weglaufen die Flamme größer.",
-        "Bei Verschlucken wird nichts auf eigene Faust gegeben."
+        "Bei Verschlucken: Mund ausspülen, melden und nichts auf eigene Faust geben."
       ],
-      "solution": "Auge → Augendusche, mindestens 10 Minuten.\nKleidung brennt → Löschdecke oder Notdusche; Rennen fächelt die Flamme an.\nVerschluckt → sofort die Lehrkraft, nichts eigenmächtig verabreichen.",
+      "solution": "Auge → sofort melden und Augendusche, mindestens 10 Minuten beziehungsweise nach Notfallplan spülen.\nKleidung brennt → Lehrkraft alarmieren, Löschdecke oder Notdusche; nicht wegrennen.\nVerschluckt → bei Bewusstsein Mund ausspülen, sofort die Lehrkraft informieren, kein Erbrechen auslösen und nichts eigenmächtig verabreichen.",
       "misconceptions": [
         {
           "id": "wasser_bei_verschlucken",
           "value": 2,
-          "feedback": "Etwas zu trinken zu geben kann die Sache verschlimmern. Bei Verschlucken gilt: sofort die Lehrkraft.",
+          "feedback": "Nach dem Ausspülen wird nichts eigenmächtig gegeben und kein Erbrechen ausgelöst. Sofort die Lehrkraft informieren.",
           "konzeptfehler": "sicherheitsregel_missachtet"
         }
       ],
@@ -358,7 +420,7 @@
       "path": "B",
       "step": 3,
       "type": "numeric",
-      "prompt": "Ein Versuch verlangt 20 mL einer Lösung. Die Ersatzstoffprüfung ergibt, dass er auch mit einem Viertel der Menge gelingt. Wie viele Milliliter werden dann eingesetzt?",
+      "prompt": "Die Lehrkraft hat bei der Gefährdungsbeurteilung festgelegt: Statt 20 mL genügen ein Viertel der Menge. Wie viele Milliliter stehen dann im freigegebenen Arbeitsauftrag?",
       "answer": 5,
       "unit_label": "mL",
       "tolerance": 0,
@@ -367,7 +429,7 @@
         "20 : 4.",
         "5 mL."
       ],
-      "solution": "20 mL : 4 = 5 mL. Weniger Stoff heißt weniger Gefahr und weniger Abfall — genau darum geht es bei der Ersatzstoffprüfung.",
+      "solution": "20 mL : 4 = 5 mL. Weniger Stoff bedeutet meist weniger Gefahr und Abfall. Ersatzstoffprüfung und Mengenfestlegung übernimmt die Lehrkraft; Lernende halten sich an den freigegebenen Arbeitsauftrag.",
       "misconceptions": [
         {
           "id": "anteil_umgedreht",
@@ -380,7 +442,7 @@
         "rechnen"
       ],
       "spiral": [
-        "W-EINH"
+        "K-QUANT"
       ]
     },
     {
@@ -524,8 +586,8 @@
         "msa"
       ],
       "spiral": [
-        "W-LOES",
-        "W-EINH"
+        "K-SL",
+        "K-QUANT"
       ]
     },
     {
@@ -533,7 +595,7 @@
       "path": "C",
       "step": 3,
       "type": "choice",
-      "prompt": "Ein Schülerversuch soll Chlorgas erzeugen. Welche Begründung spricht am stärksten für die Microscale-Variante mit wenigen Millilitern?",
+      "prompt": "Eine Lehrkraft beurteilt eine geplante Demonstration, bei der Chlorgas entstehen kann. Welche Begründung spricht am stärksten für eine geschlossene Microscale-Variante mit sehr kleinen Mengen?",
       "options": [
         "Weniger Stoff bedeutet weniger freigesetztes Gas und damit eine kleinere Gefährdung.",
         "Kleine Geräte sind billiger in der Anschaffung.",
@@ -545,7 +607,7 @@
         "Es geht um die Gefährdung, nicht um Kosten oder Zeit.",
         "Weniger Ausgangsstoff heißt weniger Produkt."
       ],
-      "solution": "Aus weniger Ausgangsstoff entsteht weniger Chlor. Die Gefährdung sinkt unmittelbar mit der eingesetzten Menge — das ist der Kern der Ersatzstoffprüfung. Kosten und Zeit sind willkommene Nebeneffekte, aber nicht der Grund.",
+      "solution": "Aus weniger Ausgangsstoff kann weniger Chlor entstehen. Ein geschlossener Aufbau und die sehr kleine Menge verringern die mögliche Freisetzung. Ob der Versuch zulässig ist und wie er durchgeführt wird, entscheidet ausschließlich die Lehrkraft nach Gefährdungsbeurteilung; Lernende erzeugen Chlorgas nicht eigenständig.",
       "misconceptions": [
         {
           "id": "nebeneffekt_als_grund",
@@ -561,36 +623,31 @@
       ]
     },
     {
-      "id": "FC01-C4-014",
+      "id": "FC01-C4-KAT",
       "path": "C",
       "step": 4,
       "type": "choice",
-      "prompt": "Zwei Gruppen streiten: Gruppe 1 will einen Versuch mit konzentrierter Säure durchführen, weil er „eindrucksvoller“ aussieht. Gruppe 2 will die verdünnte Variante. Welche Begründung ist fachlich tragfähig?",
+      "prompt": "Welche Schutzmaßnahmen leiten sich aus dem Piktogramm „Ätzwirkung“ ab?",
       "options": [
-        "Gruppe 2, weil dieselbe Aussage mit geringerer Gefährdung erreichbar ist.",
-        "Gruppe 1, weil ein deutlicher Effekt wichtiger ist als die Sicherheit.",
-        "Gruppe 1, weil verdünnte Säuren gar nicht reagieren."
+        "Fachräume nur in Anwesenheit der Lehrkraft betreten. Schutzbrillenpflicht bei jeder Form von Laborarbeit; lange Haare zusammenbinden, Baumwollkittel tragen, bei ätzenden Stoffen zusätzlich Schutzhandschuhe.",
+        "Kontakt unbedingt vermeiden, Schutzbrille und Schutzhandschuhe tragen. Bei Kontakt Augen und Haut sofort mit viel Wasser spülen. Ätzende Stoffe zerstören Metalle und verätzen Körpergewebe; schwere Augenschäden sind möglich.",
+        "H-Sätze ( hazard statements, Gefahrenhinweise) beschreiben die Gefährdungen, die von einem Gefahrstoff ausgehen – z. B. H315 „Verursacht Hautreizungen“.",
+        "Sofort mit der Löschdecke (oder vergleichbarem Material) abdecken, alternativ die Notbrause benutzen oder die Person am Boden rollen. Brandwunden mit kaltem Wasser kühlen und keimfrei bedecken, keine Salben oder Cremes."
       ],
-      "answer": 0,
+      "answer": 1,
       "hints": [
-        "Welche Frage soll der Versuch beantworten?",
-        "Wenn beide Varianten dieselbe Frage beantworten, entscheidet die Gefährdung.",
-        "Verdünnte Säuren reagieren durchaus, nur langsamer."
+        "Prüfe jede Aussage mit dem Abschnitt „Sicher experimentieren im Fachraum“ (PDF-S. 8–10)."
       ],
-      "solution": "Beantworten zwei Varianten dieselbe Frage, ist die mit der geringeren Gefährdung zu wählen. Genau das verlangt die Ersatzstoffprüfung. Ein „eindrucksvollerer“ Effekt ist kein fachliches Argument.",
-      "misconceptions": [
-        {
-          "id": "effekt_vor_sicherheit",
-          "value": 1,
-          "feedback": "Ein größerer Effekt rechtfertigt keine größere Gefährdung, wenn die Frage auch anders zu beantworten ist.",
-          "konzeptfehler": "sicherheitsregel_missachtet"
-        }
-      ],
+      "solution": "Kontakt unbedingt vermeiden, Schutzbrille und Schutzhandschuhe tragen. Bei Kontakt Augen und Haut sofort mit viel Wasser spülen. Ätzende Stoffe zerstören Metalle und verätzen Körpergewebe; schwere Augenschäden sind möglich.",
       "tags": [
-        "sicherheit",
-        "bewerten",
-        "msa"
-      ]
+        "fragenkatalog",
+        "gefahrstoffkennzeichnung-ghs",
+        "niveau-c"
+      ],
+      "spiral": [
+        "K-SICH"
+      ],
+      "herkunft": "Chemie-Fragenkatalog src-a2-3 · Lehrbuch PDF-S. 8–10"
     }
   ],
   "mitschrift": {
@@ -664,23 +721,23 @@
     "gesamt_min": 45,
     "_hinweis": "Ohne Warm-up. Die Videozeit ist die tatsaechliche Laufzeit zuzueglich Zuschlag fuer die Zwischenfragen.",
     "A": {
-      "lernkarte": 5,
+      "lernkarte": 8,
       "video": 9,
-      "aufgaben": 20,
+      "aufgaben": 17,
       "mitschrift": 5,
       "blatt": 6
     },
     "B": {
-      "lernkarte": 6,
+      "lernkarte": 10,
       "video": 9,
-      "aufgaben": 18,
+      "aufgaben": 14,
       "mitschrift": 6,
       "blatt": 6
     },
     "C": {
-      "lernkarte": 7,
+      "lernkarte": 10,
       "video": 9,
-      "aufgaben": 15,
+      "aufgaben": 12,
       "mitschrift": 8,
       "blatt": 6
     }
@@ -715,8 +772,31 @@
     "kapitel": 1,
     "titel": "Sicherheit im Chemieunterricht",
     "seiten_von": 8,
-    "seiten_bis": 12,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Gefahrensymbol"
+    "seiten_bis": 10,
+    "abschnitt": "Sicher experimentieren im Fachraum",
+    "bezugswort": "Sicherheitsregel",
+    "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "FC01-A1-001",
+        "FC01-A2-002",
+        "FC01-A4-KAT"
+      ],
+      "B": [
+        "FC01-B1-005",
+        "FC01-B2-007",
+        "FC01-B4-010"
+      ],
+      "C": [
+        "FC01-C2-011",
+        "FC01-C3-012",
+        "FC01-C4-KAT"
+      ]
+    }
   }
 }

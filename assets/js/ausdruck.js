@@ -158,22 +158,13 @@ function fmt(x) {
   return (rest ? mitTrenner + ',' + rest : mitTrenner).replace('-', '\u2212');
 }
 
-/* Vorzeichenbehaftetes Anhängen: aus b = −1 wird "− 1", aus b = 3 wird "+ 3".
-   Damit steht in keiner Aufgabe mehr "y = 2x + -1". */
+/* Vorzeichenbehaftetes Anhängen, etwa für Oxidationszahlen. */
 function fmtVorzeichen(x) {
   return (x < 0 ? '\u2212 ' : '+ ') + fmt(Math.abs(x));
 }
 
-/* Geld hat immer zwei Nachkommastellen. "3,6 €" liest sich falsch. */
-function fmtGeld(x) {
-  const s = Math.abs(x).toFixed(2).replace('.', ',');
-  const [ganz, rest] = s.split(',');
-  return (x < 0 ? '-' : '') + ganz.replace(/\B(?=(\d{3})+(?!\d))/g, ' ') + ',' + rest;
-}
-
-/* Platzhalter dürfen rechnen: {G} genauso wie {100-p} oder {1+p/100}.
-   Mit :€ als Zusatz wird als Geldbetrag formatiert — {pa:€} → "3,60".
-   Das spart Hilfsvariablen in jedem Generator. */
+/* Platzhalter dürfen rechnen: {m} genauso wie {m/M}.
+   Mit :± wird ein Vorzeichen fachgerecht gesetzt. */
 /* {name$} setzt dagegen einen TEXT ein, keinen Rechenwert. Chemie braucht
    das: „Welche Ordnungszahl hat Natrium (Na)?“ ist eine Zahlenaufgabe mit
    einem Stoffnamen darin. Ohne Texte müsste jeder Generator entweder auf
@@ -185,10 +176,9 @@ function fuelle(vorlage, vars, texte) {
   return String(vorlage)
     .replace(/\{([A-Za-z_][A-Za-z0-9_]*)\$\}/g, (ganz, name) =>
       (texte && name in texte) ? texte[name] : ganz)
-    .replace(/\{([^{}:$]+)(?::(€|\u00b1))?\}/g, (ganz, ausdruck, flagge) => {
+    .replace(/\{([^{}:$]+)(?::(\u00b1))?\}/g, (ganz, ausdruck, flagge) => {
     try {
       const w = werteAus(ausdruck, vars);
-      if (flagge === '€') return fmtGeld(w);
       if (flagge === '\u00b1') return fmtVorzeichen(w);
       return fmt(w);
     } catch { return ganz; }
@@ -291,6 +281,6 @@ function baue(gen, stufe) {
    das der eine oder andere nicht versteht. */
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
-    tokenisiere, werteAus, fmt, fmtVorzeichen, fmtGeld, fuelle, zufallVar, zufallZeile, baue, fuerStufe
+    tokenisiere, werteAus, fmt, fmtVorzeichen, fuelle, zufallVar, zufallZeile, baue, fuerStufe
   };
 }

@@ -16,9 +16,11 @@
     "die Reduktion",
     "die Korrosion",
     "die Bewertung"
+    ,"die Sauerstoffaffinität"
   ],
   "worterklaerungen": {
-    "Bewertung": "Ein Urteil, das ein Kriterium nennt und begründet."
+    "Bewertung": "Ein Urteil, das ein Kriterium nennt und begründet.",
+    "Sauerstoffaffinität": "Die Neigung eines Stoffes, mit Sauerstoff zu reagieren."
   },
   "can_do": {
     "A": "Ich beantworte gemischte Aufgaben zu Metallen sicher.",
@@ -31,7 +33,9 @@
       "hinfuehrung": "In dieser Stunde kommt alles zusammen.",
       "erklaerung": [
         "Metalle leiten und sind verformbar.",
-        "Unedle Metalle reagieren leicht."
+        "Unedle Metalle reagieren leicht.",
+        "Die Eigenschaften bestimmen die Verwendung: Kupfer leitet Strom, Aluminium ist leicht, Stahl ist belastbar.",
+        "Bei der Metallgewinnung wird einem Metalloxid Sauerstoff entzogen."
       ],
       "merke": "Erst lesen, was gefragt ist. Dann antworten.",
       "visual": {
@@ -46,7 +50,9 @@
       "erklaerung": [
         "Bindung: positive Rümpfe im Elektronengas — daraus folgen Leitfähigkeit, Glanz und Verformbarkeit.",
         "Reaktivität: die Redoxreihe sagt vorher, welche Reaktion abläuft und welcher Korrosionsschutz wirkt.",
-        "Gewinnung: Erze enthalten Metalloxide; die Reduktion entzieht den Sauerstoff."
+        "Gewinnung: Erze enthalten Metalloxide; die Reduktion entzieht den Sauerstoff.",
+        "Sauerstoffaffinität: Unedle Metalle besitzen meist eine größere Affinität zu Sauerstoff als edle. Ein Metall mit größerer Affinität kann einem Metalloxid den Sauerstoff entziehen.",
+        "Reaktionsgleichungen bilden die Stoff- und Mengenverhältnisse ab, zum Beispiel Fe₂O₃ + 3 CO → 2 Fe + 3 CO₂."
       ],
       "merke": "Bindung erklärt Eigenschaften, Redoxreihe erklärt Reaktionen.",
       "visual": {
@@ -60,6 +66,7 @@
       "hinfuehrung": "Bei Metallen wird häufig bewertet: Welches Material, welcher Schutz, welches Verfahren? Ohne Kriterium ist jede Antwort beliebig.",
       "erklaerung": [
         "Materialwahl: Welche Eigenschaft entscheidet für diesen Zweck? Dichte, Leitfähigkeit, Härte oder Beständigkeit?",
+        "Eigenschaft und Verwendung müssen zusammenpassen; eine Legierung wird gewählt, wenn die Kombination ihrer Eigenschaften günstiger ist als bei einem reinen Metall.",
         "Korrosionsschutz: Wirkt er auch bei Beschädigung? Nur ein unedleres Metall tut das.",
         "Verfahren: Welche Stoffe und welche Energie werden gebraucht, und was entsteht dabei?",
         "Eine gute Bewertung nennt zuerst das Kriterium, wendet es an und urteilt dann."
@@ -82,6 +89,7 @@
       "Metallgitter: positive Rümpfe im Elektronengas.",
       "Oxidation = Elektronenabgabe, Reduktion = Elektronenaufnahme.",
       "Opferanode: ein unedleres Metall schützt das edlere."
+      ,"Sauerstoffaffinität ordnet, welcher Stoff Sauerstoff leichter bindet."
     ]
   },
   "videos": [
@@ -127,7 +135,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -152,7 +160,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -175,7 +183,7 @@
         "rechnen"
       ],
       "spiral": [
-        "W-LOES"
+        "K-SL"
       ]
     },
     {
@@ -205,7 +213,7 @@
         "pruefung"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -231,7 +239,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
@@ -266,7 +274,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -293,7 +301,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -334,7 +342,7 @@
         "bbr"
       ],
       "spiral": [
-        "W-STOF"
+        "K-STOF"
       ]
     },
     {
@@ -361,34 +369,35 @@
         "bbr"
       ],
       "spiral": [
-        "W-TEIL"
+        "K-ATOM"
       ]
     },
     {
-      "id": "ME07-B4-010",
+      "id": "ME07-B4-KAT",
       "path": "B",
       "step": 4,
       "type": "choice",
-      "prompt": "Warum liegt Eisen in der Natur als Erz vor, Gold aber als Metall?",
+      "prompt": "Formuliere für Zn + Cu²⁺ → Zn²⁺ + Cu die Oxidations- und Reduktions-Teilgleichung.",
       "options": [
-        "Eisen ist unedel und reagiert mit Sauerstoff; Gold ist so edel, dass es kaum Verbindungen bildet.",
-        "Gold ist seltener.",
-        "Eisen wird von Bakterien zersetzt."
+        "Oxidation: Zn → Zn²⁺ + 2 e⁻. Reduktion: Cu²⁺ + 2 e⁻ → Cu.",
+        "CO₂: +IV; CO: +II; CH₄: −IV.",
+        "Nein. Kupfer ist edler als Zink und gibt Elektronen nicht freiwillig an Zn²⁺ ab.",
+        "0 +III −I +I +VII −II 0 +III +IV −II +VI −II O 2 AlCl 3 KMnO 4 Mg Fe 3+ SO 2 Cr 2 O 7 2− Rechenweg KMnO 4: K = +I, 4 O = 4 · (−II) = −VIII. Summe muss 0 sein → Mn = +VII. Rechenweg Cr 2 O 7 2−: 7 O = −XIV;"
       ],
       "answer": 0,
       "hints": [
-        "Wie reagieren unedle Metalle über lange Zeit?",
-        "Sie verbinden sich mit Sauerstoff.",
-        "Gold tut das nicht."
+        "Prüfe jede Aussage mit dem Abschnitt „Metalle und Redoxreaktionen - Zusammenfassung“ (PDF-S. 80–90)."
       ],
-      "solution": "Unedle Metalle reagieren über geologische Zeiträume vollständig zu Oxiden. Gold ist so edel, dass es gediegen vorkommt — deshalb war es früher bekannt als Eisen.",
+      "solution": "Oxidation: Zn → Zn²⁺ + 2 e⁻. Reduktion: Cu²⁺ + 2 e⁻ → Cu.",
       "tags": [
-        "pruefung",
-        "msa"
+        "fragenkatalog",
+        "redox",
+        "niveau-b"
       ],
       "spiral": [
-        "W-GLEI"
-      ]
+        "K-REDOX"
+      ],
+      "herkunft": "Chemie-Fragenkatalog ext-063 · Lehrbuch PDF-S. 80–90"
     },
     {
       "id": "ME07-C2-011",
@@ -452,7 +461,7 @@
         "msa"
       ],
       "spiral": [
-        "W-RECH"
+        "K-QUANT"
       ]
     },
     {
@@ -479,7 +488,7 @@
         "msa"
       ],
       "spiral": [
-        "W-GLEI"
+        "K-REAK"
       ]
     },
     {
@@ -610,9 +619,32 @@
   "lehrbuch": {
     "kapitel": 7,
     "titel": "Metalle und Redoxreaktionen",
-    "seiten_von": 83,
-    "seiten_bis": 96,
-    "quelle": "Lehrbuch_Chemie.pdf",
-    "bezugswort": "Redoxreihe"
+    "seiten_von": 80,
+    "seiten_bis": 90,
+    "abschnitt": "Metalle und Redoxreaktionen - Zusammenfassung",
+    "bezugswort": "Redoxreaktion",
+    "quelle": "Lehrbuch_Chemie.pdf"
+  },
+  "abschlussquiz": {
+    "version": 1,
+    "anzahl": 3,
+    "hinweis": "Beantworte alle drei Fragen ohne Tipps. Erst nach dem Abgeben siehst du dein Ergebnis.",
+    "frage_ids": {
+      "A": [
+        "ME07-A1-001",
+        "ME07-A2-002",
+        "ME07-A4-004"
+      ],
+      "B": [
+        "ME07-B1-005",
+        "ME07-B2-007",
+        "ME07-B4-KAT"
+      ],
+      "C": [
+        "ME07-C2-011",
+        "ME07-C3-012",
+        "ME07-C4-014"
+      ]
+    }
   }
 }

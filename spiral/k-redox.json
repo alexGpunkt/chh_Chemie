@@ -1,0 +1,287 @@
+{
+  "kategorie": "K-REDOX",
+  "titel": "Metalle, Redox und Elektrochemie",
+  "hinweis": "Fragen aus dem gelieferten Chemie-Fragenkatalog; jede Frage gehört genau einem Niveau und erscheint erst nach ihrer Einführungs-Einheit.",
+  "fragen": [
+    {
+      "id": "KAT-src-d2-8-A",
+      "level": "A",
+      "kategorie": "K-REDOX",
+      "skill": "Redoxreaktionen mit Oxidationszahlen",
+      "type": "choice",
+      "prompt": "Welche Produkte entstehen durch Oxidation bzw. Reduktion von Ethanol, Propan-2-ol, Butanal und Propansäure?",
+      "options": [
+        "+II +III Ox: Fe 2+ → Fe 3+ + e − | · 5 +VII +II Red: MnO 4 − + 5 e − + 8 H 3 O + → Mn 2+ + 12 H 2 O | · 1 ──────────────────────────────────────────────────────── Redox: 5 Fe 2+ + MnO 4 − + 8 H 3 O + → 5 Fe 3+ + Mn 2+ + 12 H 2 O …",
+        "Die Oxidationszahl (OZ) gibt die Ladung an, die ein Atom hätte, wenn man alle Bindungselektronen dem elektronegativeren Partner zuordnet. Sie wird mit römischen Ziffern und Vorzeichen über das Elementsymbol geschrieben.",
+        "Ausgangsstoff Oxidation Reduktion Ethanol (prim. Alkohol) → Ethanal (Aldehyd) → Ethansäure (Carbonsäure) – Propan-2-ol (sek. Alkohol) → Propan-2-on (Keton) – Butanal (Aldehyd) → Butansäure (Carbonsäure) → Butan-1-ol (prim."
+      ],
+      "answer": 2,
+      "solution": "Ausgangsstoff Oxidation Reduktion Ethanol (prim. Alkohol) → Ethanal (Aldehyd) → Ethansäure (Carbonsäure) – Propan-2-ol (sek. Alkohol) → Propan-2-on (Keton) – Butanal (Aldehyd) → Butansäure (Carbonsäure) → Butan-1-ol (prim. Alkohol) Propansäure (Carbonsäure) – → Propanal → Propan-1-ol Oxidationsreihe: Alkohol → Aldehyd → Carbonsäure ←────── Reduktion ──────→",
+      "katalog_id": "src-d2-8",
+      "schwierigkeit": 1,
+      "ab_einheit": "os-01"
+    },
+    {
+      "id": "KAT-src-c2-6-A",
+      "level": "A",
+      "kategorie": "K-REDOX",
+      "skill": "Elektronenübergänge: Redoxreaktionen und Elektrochemie",
+      "type": "choice",
+      "prompt": "Erläutere die Anordnung der Metalle in der Redoxreihe.",
+      "options": [
+        "Salzbildung aus den Elementen Elektronengeber und -nehmer bestimmen: Metalle (niedrige Ionisierungsenergie) geben ab, Nichtmetalle (hohe Elektronenaffinität) nehmen auf.",
+        "Je unedler ein Metall ist, desto leichter lassen sich seine Atome oxidieren (Elektronen abgeben). Je edler ein Metall ist, desto leichter lassen sich seine Kationen reduzieren.",
+        "Redoxreaktionen sind Reaktionen mit Elektronenübergängen: Eine Oxidation (Elektronenabgabe) läuft immer gekoppelt mit einer Reduktion (Elektronenaufnahme) ab."
+      ],
+      "answer": 1,
+      "solution": "Je unedler ein Metall ist, desto leichter lassen sich seine Atome oxidieren (Elektronen abgeben). Je edler ein Metall ist, desto leichter lassen sich seine Kationen reduzieren. Regel: Ein Metall reagiert mit einer Metallsalzlösung nur dann, wenn es unedler ist als das Metall, dessen Ionen in der Lösung vorliegen. Die Elektronen fließen stets vom unedleren zum edleren Element. Beispiel: Ein Eisennagel in Kupfersulfat-Lösung überzieht sich mit Kupfer: Fe + Cu 2+ → Fe 2+ + Cu. Umgekehrt passiert mit einem Kupferblech in Eisensulfat-Lösung nichts. Auch die Reaktion unedler Metalle mit verdünnten Säuren unter Wasserstoffentwicklung folgt dieser Reihe; edle Metalle (Cu, Ag, Au) reagieren nicht.",
+      "katalog_id": "src-c2-6",
+      "schwierigkeit": 1,
+      "ab_einheit": "me-05"
+    },
+    {
+      "id": "KAT-src-c2-8-A",
+      "level": "A",
+      "kategorie": "K-REDOX",
+      "skill": "Elektronenübergänge: Redoxreaktionen und Elektrochemie",
+      "type": "choice",
+      "prompt": "Was ist Korrosion und wie kann man sie verhindern?",
+      "options": [
+        "0 +III −I +I +VII −II 0 +III +IV −II +VI −II O 2 AlCl 3 KMnO 4 Mg Fe 3+ SO 2 Cr 2 O 7 2− Rechenweg KMnO 4: K = +I, 4 O = 4 · (−II) = −VIII. Summe muss 0 sein → Mn = +VII. Rechenweg Cr 2 O 7 2−: 7 O = −XIV;",
+        "Die Gitterenergie ΔE Gitt ist die Energie, die frei wird, wenn sich Kationen und Anionen zu einem regelmäßigen Ionengitter anordnen. Im Gitter ziehen sich die entgegengesetzt geladenen Ionen gegenseitig an.",
+        "Korrosion ist die Zerstörung eines Metalls durch eine Redoxreaktion mit Stoffen aus der Umgebung. Beim Rosten von Eisen sind Sauerstoff und Wasser nötig; das Eisen wird oxidiert, Sauerstoff reduziert."
+      ],
+      "answer": 2,
+      "solution": "Korrosion ist die Zerstörung eines Metalls durch eine Redoxreaktion mit Stoffen aus der Umgebung. Beim Rosten von Eisen sind Sauerstoff und Wasser nötig; das Eisen wird oxidiert, Sauerstoff reduziert. Schutzmaßnahmen: Passiver Schutz: Beschichten mit Lack, Öl, Kunststoff oder einem edleren Metall (Verzinnen) – wirkt nur, solange die Schicht unbeschädigt ist. Aktiver Schutz (Opferanode): Kontakt mit einem unedleren Metall (Zink, Magnesium). Dieses wird bevorzugt oxidiert und schützt das Eisen auch bei beschädigter Schicht (Verzinken, Schiffsrümpfe). Legieren: z. B. Edelstahl mit Chrom, das eine dichte Oxidschicht bildet.",
+      "katalog_id": "src-c2-8",
+      "schwierigkeit": 1,
+      "ab_einheit": "es-05"
+    },
+    {
+      "id": "KAT-src-d2-3-A",
+      "level": "A",
+      "kategorie": "K-REDOX",
+      "skill": "Redoxreaktionen mit Oxidationszahlen",
+      "type": "choice",
+      "prompt": "Erläutere die Teilschritte zur Erstellung einer Redoxgleichung.",
+      "options": [
+        "Die Gitterenergie ΔE Gitt ist die Energie, die frei wird, wenn sich Kationen und Anionen zu einem regelmäßigen Ionengitter anordnen. Im Gitter ziehen sich die entgegengesetzt geladenen Ionen gegenseitig an.",
+        "Redoxgleichung – Schritt für Schritt Redoxpaare aufstellen (Edukt- und Produktteilchen), Oxidation und Reduktion in getrennte Teilgleichungen. Oxidationszahlen ermitteln – für die Atome, deren OZ sich ändert.",
+        "0 +III −I +I +VII −II 0 +III +IV −II +VI −II O 2 AlCl 3 KMnO 4 Mg Fe 3+ SO 2 Cr 2 O 7 2− Rechenweg KMnO 4: K = +I, 4 O = 4 · (−II) = −VIII. Summe muss 0 sein → Mn = +VII. Rechenweg Cr 2 O 7 2−: 7 O = −XIV;"
+      ],
+      "answer": 1,
+      "solution": "Redoxgleichung – Schritt für Schritt Redoxpaare aufstellen (Edukt- und Produktteilchen), Oxidation und Reduktion in getrennte Teilgleichungen. Oxidationszahlen ermitteln – für die Atome, deren OZ sich ändert. Atombilanz der Atome mit OZ-Änderung (Koeffizienten). Elektronenbilanz: Aus der OZ-Differenz ergibt sich die Zahl abgegebener bzw. aufgenommener Elektronen. Ladungsausgleich mit H 3 O + (saures Milieu) bzw. OH − (basisches Milieu). Stoffbilanz mit H 2 O ausgleichen. Teilgleichungen multiplizieren, bis abgegebene = aufgenommene Elektronen (kgV). Addieren zur Gesamtgleichung und kürzen.",
+      "katalog_id": "src-d2-3",
+      "schwierigkeit": 1,
+      "ab_einheit": "me-05"
+    },
+    {
+      "id": "KAT-src-d2-5-A",
+      "level": "A",
+      "kategorie": "K-REDOX",
+      "skill": "Redoxreaktionen mit Oxidationszahlen",
+      "type": "choice",
+      "prompt": "Stelle die Redoxgleichung für Cu + HNO 3 → Cu 2+ + NO 2 auf.",
+      "options": [
+        "Reaktionstyp übertragenes Teilchen Donator Akzeptor Säure-Base-Reaktion (Protolyse) Protonen H + Säure Base Redoxreaktion Elektronen e − Reduktionsmittel Oxidationsmittel Beide folgen demselben Donator-Akzeptor-Prinzip: Ein Teilchen …",
+        "+II +III Ox: Fe 2+ → Fe 3+ + e − | · 5 +VII +II Red: MnO 4 − + 5 e − + 8 H 3 O + → Mn 2+ + 12 H 2 O | · 1 ──────────────────────────────────────────────────────── Redox: 5 Fe 2+ + MnO 4 − + 8 H 3 O + → 5 Fe 3+ + Mn 2+ + 12 H 2 O …",
+        "+I +V −II +IV −II 0 +II Red: HNO 3 + e − + H 3 O + → NO 2 + 2 H 2 O Ox: Cu → Cu 2+ + 2 e − | · 2 ──────────────────────────────────────────────────────── Redox: Cu + 2 HNO 3 + 2 H 3 O + → Cu 2+ + 2 NO 2 + 4 H 2 O Kupfer ist ein edles …"
+      ],
+      "answer": 2,
+      "solution": "+I +V −II +IV −II 0 +II Red: HNO 3 + e − + H 3 O + → NO 2 + 2 H 2 O Ox: Cu → Cu 2+ + 2 e − | · 2 ──────────────────────────────────────────────────────── Redox: Cu + 2 HNO 3 + 2 H 3 O + → Cu 2+ + 2 NO 2 + 4 H 2 O Kupfer ist ein edles Metall und wird von nicht-oxidierenden Säuren nicht angegriffen – wohl aber von oxidierender Salpetersäure, weil dort das Nitrat-Ion (nicht H + ) als Oxidationsmittel wirkt.",
+      "katalog_id": "src-d2-5",
+      "schwierigkeit": 1,
+      "ab_einheit": "me-05"
+    },
+    {
+      "id": "KAT-src-c2-4-B",
+      "level": "B",
+      "kategorie": "K-REDOX",
+      "skill": "Elektronenübergänge: Redoxreaktionen und Elektrochemie",
+      "type": "choice",
+      "prompt": "Stelle die Salzbildungsgleichung aus Teilgleichungen auf – Vorgehen in drei Schritten.",
+      "options": [
+        "Je unedler ein Metall ist, desto leichter lassen sich seine Atome oxidieren (Elektronen abgeben). Je edler ein Metall ist, desto leichter lassen sich seine Kationen reduzieren.",
+        "Eine Batterie nutzt eine freiwillig ablaufende Redoxreaktion zur Stromerzeugung: chemische Energie wird in elektrische Energie umgewandelt.",
+        "Salzbildung aus den Elementen Elektronengeber und -nehmer bestimmen: Metalle (niedrige Ionisierungsenergie) geben ab, Nichtmetalle (hohe Elektronenaffinität) nehmen auf.",
+        "Redoxreaktionen sind Reaktionen mit Elektronenübergängen: Eine Oxidation (Elektronenabgabe) läuft immer gekoppelt mit einer Reduktion (Elektronenaufnahme) ab."
+      ],
+      "answer": 2,
+      "solution": "Salzbildung aus den Elementen Elektronengeber und -nehmer bestimmen: Metalle (niedrige Ionisierungsenergie) geben ab, Nichtmetalle (hohe Elektronenaffinität) nehmen auf. Teilgleichungen aufstellen: Oxidation: Na → Na + + e − Reduktion: Cl 2 + 2 e − → 2 Cl − Elektronen angleichen (kgV) und addieren: 2 Na + Cl 2 → 2 Na + + 2 Cl − bzw. 2 NaCl Die Elektrolysegleichung ist die Umkehrung: Teilgleichungen umdrehen → 2 Na + + 2 Cl − → 2 Na + Cl 2",
+      "katalog_id": "src-c2-4",
+      "schwierigkeit": 1,
+      "ab_einheit": "me-05"
+    },
+    {
+      "id": "KAT-src-c2-7-B",
+      "level": "B",
+      "kategorie": "K-REDOX",
+      "skill": "Elektronenübergänge: Redoxreaktionen und Elektrochemie",
+      "type": "choice",
+      "prompt": "Beschreibe das Grundprinzip einer Batterie und nenne ein Beispiel.",
+      "options": [
+        "Eine Batterie nutzt eine freiwillig ablaufende Redoxreaktion zur Stromerzeugung: chemische Energie wird in elektrische Energie umgewandelt.",
+        "Salzbildung aus den Elementen Elektronengeber und -nehmer bestimmen: Metalle (niedrige Ionisierungsenergie) geben ab, Nichtmetalle (hohe Elektronenaffinität) nehmen auf.",
+        "Je unedler ein Metall ist, desto leichter lassen sich seine Atome oxidieren (Elektronen abgeben). Je edler ein Metall ist, desto leichter lassen sich seine Kationen reduzieren.",
+        "Redoxreaktionen sind Reaktionen mit Elektronenübergängen: Eine Oxidation (Elektronenabgabe) läuft immer gekoppelt mit einer Reduktion (Elektronenaufnahme) ab."
+      ],
+      "answer": 0,
+      "solution": "Eine Batterie nutzt eine freiwillig ablaufende Redoxreaktion zur Stromerzeugung: chemische Energie wird in elektrische Energie umgewandelt. Entscheidend ist die räumliche Trennung von Oxidation und Reduktion (zwei Halbzellen, verbunden über Elektrolytbrücke/Membran). Die Elektronen müssen dadurch über einen äußeren Leiter fließen → Stromfluss. Beispiele: Daniell-Element (Zink/Zinksulfat gegen Kupfer/Kupfersulfat), Zink-Iod-Batterie. Ein Akkumulator ist eine wiederaufladbare Batterie: Die Redoxreaktion ist umkehrbar; beim Laden erzwingt eine externe Spannungsquelle die Rückreaktion (Elektrolyse). Eine Brennstoffzelle erzeugt Strom aus der kontinuierlich zugeführten Reaktion von Wasserstoff mit Sauerstoff zu Wasser.",
+      "katalog_id": "src-c2-7",
+      "schwierigkeit": 1,
+      "ab_einheit": "me-05"
+    },
+    {
+      "id": "KAT-ext-073-B",
+      "level": "B",
+      "kategorie": "K-REDOX",
+      "skill": "Redox",
+      "type": "choice",
+      "prompt": "Bestimme die Oxidationszahl von Kohlenstoff in CO₂, CO und CH₄.",
+      "options": [
+        "CO₂: +IV; CO: +II; CH₄: −IV.",
+        "Nein. Kupfer ist edler als Zink und gibt Elektronen nicht freiwillig an Zn²⁺ ab.",
+        "Eine Batterie nutzt eine freiwillig ablaufende Redoxreaktion zur Stromerzeugung: chemische Energie wird in elektrische Energie umgewandelt.",
+        "Oxidation: Zn → Zn²⁺ + 2 e⁻. Reduktion: Cu²⁺ + 2 e⁻ → Cu."
+      ],
+      "answer": 0,
+      "solution": "CO₂: +IV; CO: +II; CH₄: −IV.",
+      "katalog_id": "ext-073",
+      "schwierigkeit": 2,
+      "ab_einheit": "me-05"
+    },
+    {
+      "id": "KAT-ext-063-B",
+      "level": "B",
+      "kategorie": "K-REDOX",
+      "skill": "Redox",
+      "type": "choice",
+      "prompt": "Formuliere für Zn + Cu²⁺ → Zn²⁺ + Cu die Oxidations- und Reduktions-Teilgleichung.",
+      "options": [
+        "Eine Batterie nutzt eine freiwillig ablaufende Redoxreaktion zur Stromerzeugung: chemische Energie wird in elektrische Energie umgewandelt.",
+        "Oxidation: Zn → Zn²⁺ + 2 e⁻. Reduktion: Cu²⁺ + 2 e⁻ → Cu.",
+        "Nein. Kupfer ist edler als Zink und gibt Elektronen nicht freiwillig an Zn²⁺ ab.",
+        "CO₂: +IV; CO: +II; CH₄: −IV."
+      ],
+      "answer": 1,
+      "solution": "Oxidation: Zn → Zn²⁺ + 2 e⁻. Reduktion: Cu²⁺ + 2 e⁻ → Cu.",
+      "katalog_id": "ext-063",
+      "schwierigkeit": 2,
+      "ab_einheit": "me-03"
+    },
+    {
+      "id": "KAT-src-c2-3-B",
+      "level": "B",
+      "kategorie": "K-REDOX",
+      "skill": "Elektronenübergänge: Redoxreaktionen und Elektrochemie",
+      "type": "choice",
+      "prompt": "Definiere den Begriff Gitterenergie und erkläre ihre Bedeutung.",
+      "options": [
+        "Die Gitterenergie ΔE Gitt ist die Energie, die frei wird, wenn sich Kationen und Anionen zu einem regelmäßigen Ionengitter anordnen. Im Gitter ziehen sich die entgegengesetzt geladenen Ionen gegenseitig an.",
+        "0 +III −I +I +VII −II 0 +III +IV −II +VI −II O 2 AlCl 3 KMnO 4 Mg Fe 3+ SO 2 Cr 2 O 7 2− Rechenweg KMnO 4: K = +I, 4 O = 4 · (−II) = −VIII. Summe muss 0 sein → Mn = +VII. Rechenweg Cr 2 O 7 2−: 7 O = −XIV;",
+        "Korrosion ist die Zerstörung eines Metalls durch eine Redoxreaktion mit Stoffen aus der Umgebung. Beim Rosten von Eisen sind Sauerstoff und Wasser nötig; das Eisen wird oxidiert, Sauerstoff reduziert.",
+        "Redoxgleichung – Schritt für Schritt Redoxpaare aufstellen (Edukt- und Produktteilchen), Oxidation und Reduktion in getrennte Teilgleichungen. Oxidationszahlen ermitteln – für die Atome, deren OZ sich ändert."
+      ],
+      "answer": 0,
+      "solution": "Die Gitterenergie ΔE Gitt ist die Energie, die frei wird, wenn sich Kationen und Anionen zu einem regelmäßigen Ionengitter anordnen. Im Gitter ziehen sich die entgegengesetzt geladenen Ionen gegenseitig an. Die Gitterenergie ist die Triebkraft der Salzbildung: Obwohl das Abgeben von Elektronen (Ionisierung) Energie kostet, ist die Gesamtreaktion exotherm, weil beim Gitteraufbau sehr viel mehr Energie frei wird.",
+      "katalog_id": "src-c2-3",
+      "schwierigkeit": 2,
+      "ab_einheit": "sz-02"
+    },
+    {
+      "id": "KAT-src-c2-1-C",
+      "level": "C",
+      "kategorie": "K-REDOX",
+      "skill": "Elektronenübergänge: Redoxreaktionen und Elektrochemie",
+      "type": "choice",
+      "prompt": "Erkläre das Grundprinzip von Redoxreaktionen am Beispiel der Bildung von Magnesiumchlorid.",
+      "options": [
+        "Salzbildung aus den Elementen Elektronengeber und -nehmer bestimmen: Metalle (niedrige Ionisierungsenergie) geben ab, Nichtmetalle (hohe Elektronenaffinität) nehmen auf.",
+        "Je unedler ein Metall ist, desto leichter lassen sich seine Atome oxidieren (Elektronen abgeben). Je edler ein Metall ist, desto leichter lassen sich seine Kationen reduzieren.",
+        "Eine Batterie nutzt eine freiwillig ablaufende Redoxreaktion zur Stromerzeugung: chemische Energie wird in elektrische Energie umgewandelt.",
+        "Redoxreaktionen sind Reaktionen mit Elektronenübergängen: Eine Oxidation (Elektronenabgabe) läuft immer gekoppelt mit einer Reduktion (Elektronenaufnahme) ab."
+      ],
+      "answer": 3,
+      "solution": "Redoxreaktionen sind Reaktionen mit Elektronenübergängen: Eine Oxidation (Elektronenabgabe) läuft immer gekoppelt mit einer Reduktion (Elektronenaufnahme) ab. Bei der Salzbildung werden Atome zu Ionen und erreichen dadurch Edelgaskonfiguration. Ox: Mg → Mg 2+ + 2 e − (Elektronenabgabe) Red: Cl 2 + 2 e − → 2 Cl − (Elektronenaufnahme) ───────────────────────────────────── Redox: Mg + Cl 2 → Mg 2+ + 2 Cl − Verhältnisformel: MgCl 2",
+      "katalog_id": "src-c2-1",
+      "schwierigkeit": 2,
+      "ab_einheit": "sz-02"
+    },
+    {
+      "id": "KAT-src-d2-6-C",
+      "level": "C",
+      "kategorie": "K-REDOX",
+      "skill": "Redoxreaktionen mit Oxidationszahlen",
+      "type": "choice",
+      "prompt": "Vergleiche Säure-Base-Reaktionen und Redoxreaktionen.",
+      "options": [
+        "Ausgangsstoff Oxidation Reduktion Ethanol (prim. Alkohol) → Ethanal (Aldehyd) → Ethansäure (Carbonsäure) – Propan-2-ol (sek. Alkohol) → Propan-2-on (Keton) – Butanal (Aldehyd) → Butansäure (Carbonsäure) → Butan-1-ol (prim.",
+        "Reaktionstyp übertragenes Teilchen Donator Akzeptor Säure-Base-Reaktion (Protolyse) Protonen H + Säure Base Redoxreaktion Elektronen e − Reduktionsmittel Oxidationsmittel Beide folgen demselben Donator-Akzeptor-Prinzip: Ein Teilchen …",
+        "+I +V −II +IV −II 0 +II Red: HNO 3 + e − + H 3 O + → NO 2 + 2 H 2 O Ox: Cu → Cu 2+ + 2 e − | · 2 ──────────────────────────────────────────────────────── Redox: Cu + 2 HNO 3 + 2 H 3 O + → Cu 2+ + 2 NO 2 + 4 H 2 O Kupfer ist ein edles …",
+        "+II +III Ox: Fe 2+ → Fe 3+ + e − | · 5 +VII +II Red: MnO 4 − + 5 e − + 8 H 3 O + → Mn 2+ + 12 H 2 O | · 1 ──────────────────────────────────────────────────────── Redox: 5 Fe 2+ + MnO 4 − + 8 H 3 O + → 5 Fe 3+ + Mn 2+ + 12 H 2 O …"
+      ],
+      "answer": 1,
+      "solution": "Reaktionstyp übertragenes Teilchen Donator Akzeptor Säure-Base-Reaktion (Protolyse) Protonen H + Säure Base Redoxreaktion Elektronen e − Reduktionsmittel Oxidationsmittel Beide folgen demselben Donator-Akzeptor-Prinzip: Ein Teilchen wird von einem Partner auf den anderen übertragen; beide Teilreaktionen laufen zwangsläufig gekoppelt ab.",
+      "katalog_id": "src-d2-6",
+      "schwierigkeit": 2,
+      "ab_einheit": "sl-03"
+    },
+    {
+      "id": "KAT-src-d2-2-C",
+      "level": "C",
+      "kategorie": "K-REDOX",
+      "skill": "Redoxreaktionen mit Oxidationszahlen",
+      "type": "choice",
+      "prompt": "Bestimme die Oxidationszahlen in O 2, AlCl 3, KMnO 4, Mg, Fe 3+, SO 2 und Cr 2 O 7 2−.",
+      "options": [
+        "Ausgangsstoff Oxidation Reduktion Ethanol (prim. Alkohol) → Ethanal (Aldehyd) → Ethansäure (Carbonsäure) – Propan-2-ol (sek. Alkohol) → Propan-2-on (Keton) – Butanal (Aldehyd) → Butansäure (Carbonsäure) → Butan-1-ol (prim.",
+        "0 +III −I +I +VII −II 0 +III +IV −II +VI −II O 2 AlCl 3 KMnO 4 Mg Fe 3+ SO 2 Cr 2 O 7 2− Rechenweg KMnO 4: K = +I, 4 O = 4 · (−II) = −VIII. Summe muss 0 sein → Mn = +VII. Rechenweg Cr 2 O 7 2−: 7 O = −XIV;",
+        "Redoxgleichung – Schritt für Schritt Redoxpaare aufstellen (Edukt- und Produktteilchen), Oxidation und Reduktion in getrennte Teilgleichungen. Oxidationszahlen ermitteln – für die Atome, deren OZ sich ändert.",
+        "Die Oxidationszahl (OZ) gibt die Ladung an, die ein Atom hätte, wenn man alle Bindungselektronen dem elektronegativeren Partner zuordnet. Sie wird mit römischen Ziffern und Vorzeichen über das Elementsymbol geschrieben."
+      ],
+      "answer": 1,
+      "solution": "0 +III −I +I +VII −II 0 +III +IV −II +VI −II O 2 AlCl 3 KMnO 4 Mg Fe 3+ SO 2 Cr 2 O 7 2− Rechenweg KMnO 4: K = +I, 4 O = 4 · (−II) = −VIII. Summe muss 0 sein → Mn = +VII. Rechenweg Cr 2 O 7 2−: 7 O = −XIV; Summe muss −2 sein → 2 Cr = +XII → je Cr = +VI.",
+      "katalog_id": "src-d2-2",
+      "schwierigkeit": 3,
+      "ab_einheit": "me-05"
+    },
+    {
+      "id": "KAT-src-d2-1-C",
+      "level": "C",
+      "kategorie": "K-REDOX",
+      "skill": "Redoxreaktionen mit Oxidationszahlen",
+      "type": "choice",
+      "prompt": "Was ist eine Oxidationszahl? Nenne die Regeln zu ihrer Bestimmung.",
+      "options": [
+        "Die Oxidationszahl (OZ) gibt die Ladung an, die ein Atom hätte, wenn man alle Bindungselektronen dem elektronegativeren Partner zuordnet. Sie wird mit römischen Ziffern und Vorzeichen über das Elementsymbol geschrieben.",
+        "+II +III Ox: Fe 2+ → Fe 3+ + e − | · 5 +VII +II Red: MnO 4 − + 5 e − + 8 H 3 O + → Mn 2+ + 12 H 2 O | · 1 ──────────────────────────────────────────────────────── Redox: 5 Fe 2+ + MnO 4 − + 8 H 3 O + → 5 Fe 3+ + Mn 2+ + 12 H 2 O …",
+        "Redoxgleichung – Schritt für Schritt Redoxpaare aufstellen (Edukt- und Produktteilchen), Oxidation und Reduktion in getrennte Teilgleichungen. Oxidationszahlen ermitteln – für die Atome, deren OZ sich ändert.",
+        "Ausgangsstoff Oxidation Reduktion Ethanol (prim. Alkohol) → Ethanal (Aldehyd) → Ethansäure (Carbonsäure) – Propan-2-ol (sek. Alkohol) → Propan-2-on (Keton) – Butanal (Aldehyd) → Butansäure (Carbonsäure) → Butan-1-ol (prim."
+      ],
+      "answer": 0,
+      "solution": "Die Oxidationszahl (OZ) gibt die Ladung an, die ein Atom hätte, wenn man alle Bindungselektronen dem elektronegativeren Partner zuordnet. Sie wird mit römischen Ziffern und Vorzeichen über das Elementsymbol geschrieben. Atome in Elementen (Cl 2, Na, S): OZ = 0 In einatomigen Ionen: OZ = Ionenladung (Na + → +I; O 2− → −II) Metalle erhalten stets positive Oxidationszahlen Fluor: immer −I Wasserstoff: in der Regel +I (in Metallhydriden −I) Sauerstoff: in der Regel −II (in Peroxiden −I, in OF 2 +II) Cl, Br, I: meist −I Summe aller OZ in einem Molekül = 0, in einem Molekül-Ion = Ionenladung, in einem Salz = 0 Die Regeln gelten in dieser Reihenfolge – eine spätere Regel greift nur, wenn keine frühere widerspricht.",
+      "katalog_id": "src-d2-1",
+      "schwierigkeit": 3,
+      "ab_einheit": "me-05"
+    },
+    {
+      "id": "KAT-ext-064-C",
+      "level": "C",
+      "kategorie": "K-REDOX",
+      "skill": "Redox",
+      "type": "choice",
+      "prompt": "Ein Kupferblech wird in Zinksulfatlösung gelegt. Erwartest du eine Reaktion? Begründe mit der Spannungsreihe.",
+      "options": [
+        "Oxidation: Zn → Zn²⁺ + 2 e⁻. Reduktion: Cu²⁺ + 2 e⁻ → Cu.",
+        "Eine Batterie nutzt eine freiwillig ablaufende Redoxreaktion zur Stromerzeugung: chemische Energie wird in elektrische Energie umgewandelt.",
+        "CO₂: +IV; CO: +II; CH₄: −IV.",
+        "Nein. Kupfer ist edler als Zink und gibt Elektronen nicht freiwillig an Zn²⁺ ab."
+      ],
+      "answer": 3,
+      "solution": "Nein. Kupfer ist edler als Zink und gibt Elektronen nicht freiwillig an Zn²⁺ ab.",
+      "katalog_id": "ext-064",
+      "schwierigkeit": 3,
+      "ab_einheit": "me-03"
+    }
+  ]
+}

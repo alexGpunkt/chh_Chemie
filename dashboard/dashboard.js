@@ -328,6 +328,39 @@ async function bewertungsartAendern(event){
   }
 }
 
+/* ---------- Einheitenquiz ----------
+   Einzelversuche bleiben sichtbar; benotet wird die Summe der gewerteten
+   Fragen. Drei Fragen allein wären für eine sechsstufige Notenskala zu grob. */
+async function loadQuiz(){
+  const bewertung=$('#quizBewertungBody'),versuche=$('#quizVersucheBody');
+  if(!bewertung||!versuche)return;
+  const cls=$('#classFilter').value.trim();
+  const tage=Number($('#warmupTage')?.value)||180;
+  try{
+    const [summen,details]=await Promise.all([
+      request(rest()+'rpc/chemie710_quiz_bewertung',{method:'POST',
+        body:JSON.stringify({p_klasse:cls||null,p_tage:tage})}),
+      request(rest()+'rpc/chemie710_quiz_uebersicht',{method:'POST',
+        body:JSON.stringify({p_klasse:cls||null,p_tage:tage})})
+    ]);
+    const prozent=v=>v==null?'–':Math.round(Number(v)*100)+' %';
+    bewertung.innerHTML=(summen||[]).length?(summen||[]).map(z=>{
+      const note=z.note==null?'–':`<b class="note note-${z.note}">${z.note}</b>`;
+      return `<tr><td>${esc(z.name)}</td><td>${z.quizze||0}</td><td>${z.richtig||0}/${z.aufgaben||0}</td><td>${prozent(z.quote)}</td><td>${note}</td><td>${z.letzter_lauf?ago(z.letzter_lauf):'–'}</td></tr>`;
+    }).join(''):'<tr><td colspan="6" class="muted">Keine Lernenden in dieser Lerngruppe.</td></tr>';
+
+    versuche.innerHTML=(details||[]).length?(details||[]).slice(0,50).map(z=>{
+      const status=z.gewertet?'<span class="badge good">gewertet</span>'
+        :(z.pflicht?'<span class="badge">weiterer Pflichtversuch</span>':'<span class="badge">Übung</span>');
+      return `<tr><td>${new Date(z.erstellt_at).toLocaleString('de-DE',{dateStyle:'short',timeStyle:'short'})}</td><td>${esc(z.name)}</td><td>${esc(z.unit)}</td><td>${esc(z.pfad)}</td><td>${z.versuch}</td><td><b>${z.richtig}/${z.aufgaben}</b> · ${prozent(z.quote)}</td><td>${status}</td></tr>`;
+    }).join(''):'<tr><td colspan="7" class="muted">Noch keine Einheitenquizze abgegeben.</td></tr>';
+  }catch(e){
+    const text='<tr><td colspan="7" class="muted">Einheitenquiz nicht abrufbar — Supabase-Migration ausführen.</td></tr>';
+    versuche.innerHTML=text;
+    bewertung.innerHTML='<tr><td colspan="6" class="muted">Bewertungsübersicht nicht verfügbar.</td></tr>';
+  }
+}
+
 /* ---------- Betrieb und Datenpflege ----------
    Zwei Fragen, die im Unterrichtsalltag untergehen und dann im falschen
    Moment auffallen: Welche Fassung läuft auf den Geräten? Und löscht der
@@ -443,7 +476,7 @@ function renderRoster(rows){letzteRoster=rows||[];$('#rosterBody').innerHTML=row
 async function addStudent(event){event.preventDefault();const login=normalizeLogin($('#studentLogin').value),display=$('#studentDisplay').value.trim(),cls=$('#studentClass').value.trim();if(!validLogin(login)){rosterMessage('Benutzername muss nachname.vorname entsprechen.',true);return}try{await request(rest()+'chemie710_students',{method:'POST',headers:{Prefer:'return=minimal'},body:JSON.stringify({login_name:login,display_name:display,class_code:cls,active:true})});event.target.reset();$('#studentClass').value=$('#classFilter').value.trim();rosterMessage('Schüler wurde freigeschaltet.');await loadRoster()}catch(e){rosterMessage('Hinzufügen fehlgeschlagen: '+e.message,true)}}
 async function rosterClick(event){const toggle=event.target.closest('[data-toggle]'),del=event.target.closest('[data-delete]');try{if(toggle){const active=toggle.dataset.active==='true';await request(rest()+'chemie710_students?id=eq.'+encodeURIComponent(toggle.dataset.toggle),{method:'PATCH',headers:{Prefer:'return=minimal'},body:JSON.stringify({active:!active})});rosterMessage(active?'Zugang wurde gesperrt.':'Zugang wurde freigegeben.')}else if(del){if(!confirm('Diesen Eintrag wirklich löschen?'))return;await request(rest()+'chemie710_students?id=eq.'+encodeURIComponent(del.dataset.delete),{method:'DELETE',headers:{Prefer:'return=minimal'}});rosterMessage('Eintrag wurde gelöscht.')}else return;await loadRoster()}catch(e){rosterMessage('Änderung fehlgeschlagen: '+e.message,true)}}
 
-async function loadDashboard(){const mins=Number($('#range').value),since=new Date(Date.now()-mins*60000).toISOString(),cls=$('#classFilter').value.trim(),cq=cls?'&class_code=eq.'+encodeURIComponent(cls):'';const [progress,events]=await Promise.all([request(rest()+'chemie710_progress?select=*&updated_at=gte.'+encodeURIComponent(since)+cq+'&order=updated_at.desc&limit=500'),request(rest()+'chemie710_events?select=*&ts=gte.'+encodeURIComponent(since)+cq+'&order=ts.desc&limit=2000')]);render(progress||[],events||[]);loadFreigaben(progress||[],events||[]);loadLernzeit();loadWarmup()}
+async function loadDashboard(){const mins=Number($('#range').value),since=new Date(Date.now()-mins*60000).toISOString(),cls=$('#classFilter').value.trim(),cq=cls?'&class_code=eq.'+encodeURIComponent(cls):'';const [progress,events]=await Promise.all([request(rest()+'chemie710_progress?select=*&updated_at=gte.'+encodeURIComponent(since)+cq+'&order=updated_at.desc&limit=500'),request(rest()+'chemie710_events?select=*&ts=gte.'+encodeURIComponent(since)+cq+'&order=ts.desc&limit=2000')]);render(progress||[],events||[]);loadFreigaben(progress||[],events||[]);loadLernzeit();loadWarmup();loadQuiz()}
 function zeitwert(e){const t=new Date(e?.ts||e?.updated_at||0).getTime();return Number.isFinite(t)?t:0}
 function sichereDauer(v){const n=Number(v);return Number.isFinite(n)&&n>0?Math.min(n,12*60*60*1000):null}
 
@@ -894,7 +927,7 @@ function start(){stop();timer=setInterval(()=>{
 function stop(){if(timer){clearInterval(timer);timer=null}}
 
 $('#teacherLogin').addEventListener('submit',async e=>{e.preventDefault();const err=$('#loginError');err.hidden=true;try{await signIn($('#teacherEmail').value.trim(),$('#teacherPassword').value);await appOeffnen()}catch(x){err.textContent='Anmeldung fehlgeschlagen: '+x.message;err.hidden=false}});
-$('#logout').addEventListener('click',signOut);$('#refresh').addEventListener('click',()=>{loadAll();loadOps()});$('#range').addEventListener('change',loadAll);$('#classFilter').addEventListener('change',()=>{ $('#studentClass').value=$('#classFilter').value.trim();loadAll()});$('#studentForm').addEventListener('submit',addStudent);$('#freigabeBody').addEventListener('click',freigabeKlick);$('#modusBewertung').addEventListener('click',()=>setzeModus('bewertung'));$('#modusUebung').addEventListener('click',()=>setzeModus('uebung'));$('#rosterBody').addEventListener('click',rosterClick);$('#warmupBody')?.addEventListener('change',bewertungsartAendern);$('#warmupTage')?.addEventListener('change',loadWarmup);document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&session)loadAll()});
+$('#logout').addEventListener('click',signOut);$('#refresh').addEventListener('click',()=>{loadAll();loadOps()});$('#range').addEventListener('change',loadAll);$('#classFilter').addEventListener('change',()=>{ $('#studentClass').value=$('#classFilter').value.trim();loadAll()});$('#studentForm').addEventListener('submit',addStudent);$('#freigabeBody').addEventListener('click',freigabeKlick);$('#modusBewertung').addEventListener('click',()=>setzeModus('bewertung'));$('#modusUebung').addEventListener('click',()=>setzeModus('uebung'));$('#rosterBody').addEventListener('click',rosterClick);$('#warmupBody')?.addEventListener('change',bewertungsartAendern);$('#warmupTage')?.addEventListener('change',()=>{loadWarmup();loadQuiz()});document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&session)loadAll()});
 /* Grenzwerte gelten sofort: Wer sie im Unterricht nachjustiert, will das
    Ergebnis auf der Leinwand sehen und nicht erst nach dem nächsten Abruf. */
 ['#pingMaxFehler','#pingMaxSekunden','#beamerBezug'].forEach(feld=>{

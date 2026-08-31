@@ -66,16 +66,28 @@
   <main id="buehne"><p class="lade">Aufgaben werden geladen …</p></main>
 </div>
 
+<!-- Dauerhaft sichtbarer Lesetext. Die Lernkarte im Aufgabenbereich führt
+     in den Lernweg ein; diese Karte bleibt auch während der Übungen als
+     fachlicher Nachschlagebereich erhalten. -->
+<section class="themeninfo" id="themeninfo" aria-labelledby="themeninfo-titel" hidden></section>
+
 <section class="blattkarte" id="blattkarte" hidden>
   <div class="blattkarte-text">
     <strong>Jetzt von Hand: Übungsblatt zu dieser Einheit</strong>
-    <span id="blattkarte-hinweis">Gleiches Thema, andere Aufgaben. Ausdrucken oder ins Heft übertragen — und dann schriftlich rechnen. Die Lösungen zur Selbstkontrolle stehen unten auf dem Blatt.</span>
+    <span id="blattkarte-hinweis">Gleiches Thema, andere Aufgaben. Ausdrucken oder ins Heft übertragen — und dann schriftlich bearbeiten. Die Lösungen zur Selbstkontrolle stehen unten auf dem Blatt.</span>
   </div>
   <a class="btn btn-haupt" id="blattkarte-link" href="#" target="_blank" rel="noopener">Übungsblatt öffnen (PDF)</a>
 </section>
 
+<!-- Ergänzende Arbeitsblätter aus dem bereitgestellten Säuren-/Basen-Heft.
+     Die Engine zeigt pro Einheit nur die fachlich passenden Seiten an. -->
+<details class="uebungskarte materialkarte" id="materialkarte" hidden>
+  <summary>Weitere Arbeitsblätter zum Thema</summary>
+  <div class="uebung-inhalt" id="material-inhalt"></div>
+</details>
+
 <details class="uebungskarte videokarte" id="videokarte" hidden>
-  <summary>Erklärvideo · hält an und fragt nach</summary>
+  <summary>Erklärvideo · mit Schreibauftrag</summary>
   <div class="uebung-inhalt" id="video-inhalt"></div>
 </details>
 
@@ -123,4 +135,3 @@
 <script src="assets/js/buch.js"></script>
 </body>
 </html>
-
