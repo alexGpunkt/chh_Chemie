@@ -1718,6 +1718,47 @@ input.zahl-feld.lk-luecke-feld { flex: 1 1 120px; height: 46px; font-size: 18px;
 .versuch-auftrag b { display: block; margin-bottom: 3px; }
 
 .lehrbuchkarte { border-left-color: #6B3FA0; }
+.materialkarte { border-left-color: #B85C00; }
+.material-hinweis {
+  margin: 4px 0 14px;
+  color: var(--ink-muted);
+  font-size: 14px;
+  line-height: 1.55;
+}
+.material-liste {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+.material-eintrag {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 13px 14px;
+  border: 1px solid var(--linie);
+  border-radius: 12px;
+  background: var(--flaeche);
+}
+.material-text { flex: 1 1 260px; min-width: 0; }
+.material-text strong {
+  display: block;
+  margin-bottom: 3px;
+  font-family: var(--f-display);
+  font-size: 15px;
+}
+.material-text span {
+  display: block;
+  color: var(--ink-soft);
+  font-size: 13px;
+  line-height: 1.45;
+}
+.material-link { flex: 0 0 auto; text-align: center; }
+@media (max-width: 720px) {
+  .material-eintrag { align-items: stretch; flex-direction: column; }
+  .material-link { width: 100%; }
+}
 .lehrbuch-zeile {
   display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap;
   margin: 12px 0 8px; padding-bottom: 7px; border-bottom: 1px solid var(--linie);

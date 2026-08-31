@@ -312,6 +312,7 @@ async function start() {
   uebungskarteBauen();
   videokarteBauen();
   blattkarteBauen();
+  materialkarteBauen();
   zeitplanBauen();
   mitschriftkarteBauen();
   experimentkarteBauen();
@@ -329,7 +330,7 @@ async function start() {
       Lernmodus.starten(S.daten.unit ? String(S.daten.unit).toLowerCase() : null)
     ).then(() => {
       const id = String(S.daten.unit || '').toLowerCase();
-      const verbergen = () => ['#themeninfo', '#uebungskarte', '#videokarte', '#heftkarte', '#zeitplan', '#blattkarte',
+      const verbergen = () => ['#themeninfo', '#uebungskarte', '#videokarte', '#heftkarte', '#zeitplan', '#blattkarte', '#materialkarte',
          '#versuchskarte', '#lehrbuchkarte']
         .forEach(w => document.querySelector(w)?.setAttribute('hidden', ''));
 
@@ -444,6 +445,7 @@ function pfadSetzen(p, stand, ziel) {
   themeninfoBauen();
   uebungskarteBauen();
   blattkarteBauen();
+  materialkarteBauen();
   zeitplanBauen();
   mitschriftkarteBauen();
   experimentkarteBauen();
@@ -2408,6 +2410,114 @@ function blattkarteBauen() {
       Tracker.track('uebungsblatt_geoeffnet', { unit: id, path: S.pfad });
     });
   }
+}
+
+
+/* ---------- Ergänzende Arbeitsblätter: Säuren, Basen, Salzbildung ----------
+   Das bereitgestellte Heft enthält 102 gescannte Seiten. Eine lange, gleiche
+   Linkliste in jeder Einheit wäre für lernschwächere Schülerinnen und Schüler
+   unübersichtlich. Deshalb führt jede Karte direkt zu den Seiten, die fachlich
+   zur geöffneten Einheit gehören. PDF-Seiten sind bewusst angegeben, weil die
+   gedruckten Seitenzahlen des Scans davon abweichen. */
+const ZUSATZMATERIAL_DATEI = 'materialien/arbeitsblaetter-saeuren-basen-salzbildung.pdf';
+const ZUSATZMATERIAL_NACH_EINHEIT = {
+  'sl-01': [
+    ['Säuren im Alltag', 3, 4, 'Säuren in Lebensmitteln und Haushaltsprodukten erkennen.'],
+    ['Sicher mit Säuren arbeiten', 9, 12, 'Ätzwirkung, Gefahrensymbole sowie konzentrierte und verdünnte Lösungen.'],
+    ['Eigenschaften von Säuren', 13, 18, 'Indikator, Leitfähigkeit und Reaktionen saurer Lösungen.']
+  ],
+  'sl-02': [
+    ['Säure und Lauge vergleichen', 53, 54, 'Stoffklassen, Ionen und Indikatorfarben gegenüberstellen.'],
+    ['pH-Werte im Alltag', 57, 58, 'Alltagsstoffe untersuchen und auf der pH-Skala einordnen.']
+  ],
+  'sl-03': [
+    ['Zusammensetzung von Säuren', 5, 6, 'Wasserstoff-Ionen und Säurerest-Ionen zuordnen.'],
+    ['Säuren nach Brønsted', 7, 8, 'Protonendonator und Protonenübertragung erarbeiten.'],
+    ['Reaktionen saurer Lösungen', 19, 22, 'Reaktionen mit Metallen und Metalloxiden formulieren.']
+  ],
+  'sl-04': [
+    ['Alkalische Lösungen im Alltag', 33, 34, 'Vorkommen und Verwendung alkalischer Lösungen entdecken.'],
+    ['Ionen in alkalischen Lösungen', 35, 36, 'Metall-Ionen und Hydroxid-Ionen richtig zuordnen.'],
+    ['Eigenschaften alkalischer Lösungen', 39, 40, 'Indikator, Leitfähigkeit und Ätzwirkung untersuchen.'],
+    ['Sicher mit Hydroxiden und Laugen', 43, 48, 'Gefahrensymbole, Schutzmaßnahmen und Metallhydroxide.'],
+    ['Natronlauge im Alltag', 49, 50, 'Verwendungen erklären und fachlich einordnen.']
+  ],
+  'sl-05': [
+    ['Wie eine Säure entsteht', 23, 24, 'Nichtmetalloxid und Wasser als Weg zur sauren Lösung.'],
+    ['Wie eine alkalische Lösung entsteht', 41, 42, 'Metalloxid und Wasser als Weg zur alkalischen Lösung.']
+  ],
+  'sl-06': [
+    ['Neutralisation', 55, 56, 'Säure und Lauge reagieren zu Wasser und Salz.'],
+    ['Salzlösungen herstellen', 91, 94, 'Salzbildung über Metall, Metalloxid, Hydroxid und Neutralisation.']
+  ],
+  'sl-07': [
+    ['Säuren und Laugen ordnen und vergleichen', 51, 54, 'Wissen strukturieren und Gemeinsamkeiten sowie Unterschiede sichern.'],
+    ['Abschlusskontrolle Säuren und Laugen', 59, 60, 'Aussagen prüfen, Fehler finden und berichtigen.']
+  ],
+  'sz-01': [
+    ['Ionenbindung', 95, 96, 'Elektronenübergang und Bildung von Natrium- und Chlorid-Ionen.'],
+    ['Ionen und ihre Ladungen', 97, 98, 'Ionenladungen aus dem Atombau ableiten.']
+  ],
+  'sz-02': [
+    ['Von Ionen zum Ionengitter', 95, 96, 'Anziehung entgegengesetzt geladener Ionen und Gitterbildung.']
+  ],
+  'sz-03': [
+    ['Ionen und ihre Ladungen', 97, 98, 'Ladungen bestimmen und als Grundlage für Verhältnisformeln nutzen.']
+  ],
+  'sz-04': [
+    ['Festes Salz und Salzlösung vergleichen', 73, 74, 'Teilchenbeweglichkeit, Leitfähigkeit und Eindampfen untersuchen.']
+  ],
+  'sz-05': [
+    ['Wege der Salzbildung', 91, 94, 'Mehrere Herstellungswege für Salzlösungen anwenden.'],
+    ['Ionenbindung und Ionenladungen', 95, 98, 'Salzbildung auf Teilchenebene erklären.'],
+    ['Metallchloride als Salze', 99, 102, 'Eigenschaften und Verwendung ausgewählter Salze recherchieren.']
+  ]
+};
+
+function materialkarteBauen() {
+  const box = $('#materialkarte');
+  const inhalt = $('#material-inhalt');
+  if (!box || !inhalt) return;
+
+  const id = String(S.daten.unit || '').toLowerCase();
+  const materialien = ZUSATZMATERIAL_NACH_EINHEIT[id] || [];
+  inhalt.replaceChildren();
+  if (!materialien.length || S.daten.pruefung) {
+    box.hidden = true;
+    return;
+  }
+
+  box.hidden = false;
+  const summary = box.querySelector('summary');
+  if (summary) summary.textContent = `Weitere Arbeitsblätter zum Thema · ${materialien.length}`;
+
+  inhalt.append(el('p', 'material-hinweis',
+    'Wähle das Arbeitsblatt, das zu deinem aktuellen Lernschritt passt. Die PDF öffnet sich direkt auf der angegebenen Seite; die gedruckte Seitenzahl im Foto kann abweichen.'));
+
+  const liste = el('ul', 'material-liste');
+  materialien.forEach(([titel, von, bis, hinweis]) => {
+    const eintrag = el('li', 'material-eintrag');
+    const text = el('div', 'material-text');
+    text.append(el('strong', null, titel));
+    text.append(el('span', null, hinweis));
+    eintrag.append(text);
+
+    const link = el('a', 'btn btn-neben material-link', von === bis
+      ? `PDF-Seite ${von} öffnen`
+      : `PDF-Seiten ${von}–${bis} öffnen`);
+    link.href = `${ZUSATZMATERIAL_DATEI}#page=${von}`;
+    link.target = '_blank';
+    link.rel = 'noopener';
+    link.addEventListener('click', () => Tracker.track('zusatzarbeitsblatt_geoeffnet', {
+      unit: id,
+      titel,
+      seite_von: von,
+      seite_bis: bis
+    }));
+    eintrag.append(link);
+    liste.append(eintrag);
+  });
+  inhalt.append(liste);
 }
 
 

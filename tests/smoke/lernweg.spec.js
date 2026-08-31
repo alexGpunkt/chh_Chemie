@@ -128,6 +128,26 @@ test('Buchnavigation blättert weiter', async ({ page }) => {
   await expect(page.locator('#code')).toContainText('PZ-06');
 });
 
+test('Zusatzarbeitsblätter führen zu den fachlich passenden PDF-Seiten', async ({ page, request }) => {
+  await page.goto('/einheit.html?u=sl-06&p=B');
+
+  const karte = page.locator('#materialkarte');
+  await expect(karte).toBeVisible();
+  await karte.locator('summary').click();
+  await expect(karte.locator('.material-eintrag')).toHaveCount(2);
+  await expect(karte.locator('.material-link').nth(0)).toHaveAttribute('href', /#page=55$/);
+  await expect(karte.locator('.material-link').nth(1)).toHaveAttribute('href', /#page=91$/);
+
+  const pdf = await request.get('/materialien/arbeitsblaetter-saeuren-basen-salzbildung.pdf');
+  expect(pdf.ok()).toBeTruthy();
+  expect(pdf.headers()['content-type']).toContain('application/pdf');
+
+  await page.goto('/einheit.html?u=sz-01&p=A');
+  await expect(page.locator('#materialkarte')).toBeVisible();
+  await page.locator('#materialkarte summary').click();
+  await expect(page.locator('#materialkarte .material-link').first()).toHaveAttribute('href', /#page=95$/);
+});
+
 test('Inhaltsverzeichnis zeigt den Lernstatus', async ({ page }) => {
   await page.goto('/einheit.html?u=pz-05');
   await page.locator('#buchMitte').click();

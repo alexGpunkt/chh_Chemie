@@ -1,11 +1,11 @@
 {
   "name": "Chemie 7–10 · Campus Hannah Höch",
-  "version": "v8",
-  "cache_version": "chemie710-v8-rlp-sicherheit",
+  "version": "v9",
+  "cache_version": "chemie710-v9-zusatzarbeitsblaetter",
   "source_commit": null,
   "source_branch": "codex/chemie-lehrbuch-v5",
   "source_dirty": true,
-  "gebaut_am": "2026-08-27T00:00:00Z",
+  "gebaut_am": "2026-09-01T00:00:00Z",
   "tracking_aktiv": true,
   "einheiten": 76
 }

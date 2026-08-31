@@ -3,6 +3,7 @@
 tests/node_modules/
 tests/test-results/
 tests/playwright-report/
+tmp/
 
 # Betriebssystem/Editor
 .DS_Store

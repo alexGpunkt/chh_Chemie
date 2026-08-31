@@ -721,3 +721,10 @@ jetzt aus `units/index.json` — zwei Wahrheiten wären eine zu viel gewesen.
   nachzuholen.
 - **Die Aufgaben sind nicht im Unterricht erprobt.** Fachliche Richtigkeit wurde
   beim Schreiben geprüft, die Passung zu einer konkreten Lerngruppe nicht.
+
+## v9 - Zusatzarbeitsblätter zu Säuren, Basen und Salzbildung
+
+- Das bereitgestellte OCR-Arbeitsheft ist als ergänzendes PDF eingebunden.
+- Die Einheiten SL-01 bis SL-07 und SZ-01 bis SZ-05 verlinken nur die jeweils fachlich passenden PDF-Seiten.
+- Die neue Materialkarte ist für Smartphone, Tablet und Desktop responsiv und erklärt die abweichenden PDF-/Buchseitenzahlen.
+- Der Offline-Cache wurde auf `chemie710-v9-zusatzarbeitsblaetter` erhöht.
