@@ -2419,59 +2419,94 @@ function blattkarteBauen() {
    unübersichtlich. Deshalb führt jede Karte direkt zu den Seiten, die fachlich
    zur geöffneten Einheit gehören. PDF-Seiten sind bewusst angegeben, weil die
    gedruckten Seitenzahlen des Scans davon abweichen. */
-const ZUSATZMATERIAL_DATEI = 'materialien/arbeitsblaetter-saeuren-basen-salzbildung.pdf';
 const ZUSATZMATERIAL_NACH_EINHEIT = {
-  'sl-01': [
-    ['Säuren im Alltag', 3, 4, 'Säuren in Lebensmitteln und Haushaltsprodukten erkennen.'],
-    ['Sicher mit Säuren arbeiten', 9, 12, 'Ätzwirkung, Gefahrensymbole sowie konzentrierte und verdünnte Lösungen.'],
-    ['Eigenschaften von Säuren', 13, 18, 'Indikator, Leitfähigkeit und Reaktionen saurer Lösungen.']
-  ],
-  'sl-02': [
-    ['Säure und Lauge vergleichen', 53, 54, 'Stoffklassen, Ionen und Indikatorfarben gegenüberstellen.'],
-    ['pH-Werte im Alltag', 57, 58, 'Alltagsstoffe untersuchen und auf der pH-Skala einordnen.']
-  ],
-  'sl-03': [
-    ['Zusammensetzung von Säuren', 5, 6, 'Wasserstoff-Ionen und Säurerest-Ionen zuordnen.'],
-    ['Säuren nach Brønsted', 7, 8, 'Protonendonator und Protonenübertragung erarbeiten.'],
-    ['Reaktionen saurer Lösungen', 19, 22, 'Reaktionen mit Metallen und Metalloxiden formulieren.']
-  ],
-  'sl-04': [
-    ['Alkalische Lösungen im Alltag', 33, 34, 'Vorkommen und Verwendung alkalischer Lösungen entdecken.'],
-    ['Ionen in alkalischen Lösungen', 35, 36, 'Metall-Ionen und Hydroxid-Ionen richtig zuordnen.'],
-    ['Eigenschaften alkalischer Lösungen', 39, 40, 'Indikator, Leitfähigkeit und Ätzwirkung untersuchen.'],
-    ['Sicher mit Hydroxiden und Laugen', 43, 48, 'Gefahrensymbole, Schutzmaßnahmen und Metallhydroxide.'],
-    ['Natronlauge im Alltag', 49, 50, 'Verwendungen erklären und fachlich einordnen.']
-  ],
-  'sl-05': [
-    ['Wie eine Säure entsteht', 23, 24, 'Nichtmetalloxid und Wasser als Weg zur sauren Lösung.'],
-    ['Wie eine alkalische Lösung entsteht', 41, 42, 'Metalloxid und Wasser als Weg zur alkalischen Lösung.']
-  ],
-  'sl-06': [
-    ['Neutralisation', 55, 56, 'Säure und Lauge reagieren zu Wasser und Salz.'],
-    ['Salzlösungen herstellen', 91, 94, 'Salzbildung über Metall, Metalloxid, Hydroxid und Neutralisation.']
-  ],
-  'sl-07': [
-    ['Säuren und Laugen ordnen und vergleichen', 51, 54, 'Wissen strukturieren und Gemeinsamkeiten sowie Unterschiede sichern.'],
-    ['Abschlusskontrolle Säuren und Laugen', 59, 60, 'Aussagen prüfen, Fehler finden und berichtigen.']
-  ],
-  'sz-01': [
-    ['Ionenbindung', 95, 96, 'Elektronenübergang und Bildung von Natrium- und Chlorid-Ionen.'],
-    ['Ionen und ihre Ladungen', 97, 98, 'Ionenladungen aus dem Atombau ableiten.']
-  ],
-  'sz-02': [
-    ['Von Ionen zum Ionengitter', 95, 96, 'Anziehung entgegengesetzt geladener Ionen und Gitterbildung.']
-  ],
-  'sz-03': [
-    ['Ionen und ihre Ladungen', 97, 98, 'Ladungen bestimmen und als Grundlage für Verhältnisformeln nutzen.']
-  ],
-  'sz-04': [
-    ['Festes Salz und Salzlösung vergleichen', 73, 74, 'Teilchenbeweglichkeit, Leitfähigkeit und Eindampfen untersuchen.']
-  ],
-  'sz-05': [
-    ['Wege der Salzbildung', 91, 94, 'Mehrere Herstellungswege für Salzlösungen anwenden.'],
-    ['Ionenbindung und Ionenladungen', 95, 98, 'Salzbildung auf Teilchenebene erklären.'],
-    ['Metallchloride als Salze', 99, 102, 'Eigenschaften und Verwendung ausgewählter Salze recherchieren.']
-  ]
+  'sl-01': {
+    datei: 'materialien/arbeitsblaetter/sl-01-saeuren-alltag-sicherheit.pdf',
+    blaetter: [
+      ['Säuren im Alltag', 1, 1, 'Säuren in Lebensmitteln und Haushaltsprodukten erkennen.'],
+      ['Sicher mit Säuren arbeiten', 2, 3, 'Ätzwirkung, Gefahrensymbole sowie konzentrierte und verdünnte Lösungen.'],
+      ['Eigenschaften von Säuren', 4, 7, 'Indikator, Leitfähigkeit und Reaktionen saurer Lösungen.']
+    ]
+  },
+  'sl-02': {
+    datei: 'materialien/arbeitsblaetter/sl-02-indikatoren-ph.pdf',
+    blaetter: [
+      ['Säure und Lauge vergleichen', 1, 1, 'Stoffklassen, Ionen und Indikatorfarben gegenüberstellen.'],
+      ['pH-Werte im Alltag', 2, 2, 'Alltagsstoffe untersuchen und auf der pH-Skala einordnen.']
+    ]
+  },
+  'sl-03': {
+    datei: 'materialien/arbeitsblaetter/sl-03-saure-loesungen-protolyse.pdf',
+    blaetter: [
+      ['Zusammensetzung von Säuren', 1, 1, 'Wasserstoff-Ionen und Säurerest-Ionen zuordnen.'],
+      ['Säuren nach Brønsted', 2, 2, 'Protonendonator und Protonenübertragung erarbeiten.'],
+      ['Reaktionen saurer Lösungen', 3, 4, 'Reaktionen mit Metallen und Metalloxiden formulieren.']
+    ]
+  },
+  'sl-04': {
+    datei: 'materialien/arbeitsblaetter/sl-04-laugen-basen.pdf',
+    blaetter: [
+      ['Alkalische Lösungen im Alltag', 1, 1, 'Vorkommen und Verwendung alkalischer Lösungen entdecken.'],
+      ['Ionen in alkalischen Lösungen', 2, 2, 'Metall-Ionen und Hydroxid-Ionen richtig zuordnen.'],
+      ['Eigenschaften alkalischer Lösungen', 3, 3, 'Indikator, Leitfähigkeit und Ätzwirkung untersuchen.'],
+      ['Sicher mit Hydroxiden und Laugen', 4, 6, 'Gefahrensymbole, Schutzmaßnahmen und Metallhydroxide.'],
+      ['Natronlauge im Alltag', 7, 7, 'Verwendungen erklären und fachlich einordnen.']
+    ]
+  },
+  'sl-05': {
+    datei: 'materialien/arbeitsblaetter/sl-05-saeuren-laugen-aus-oxiden.pdf',
+    blaetter: [
+      ['Wie eine Säure entsteht', 1, 1, 'Nichtmetalloxid und Wasser als Weg zur sauren Lösung.'],
+      ['Wie eine alkalische Lösung entsteht', 2, 2, 'Metalloxid und Wasser als Weg zur alkalischen Lösung.']
+    ]
+  },
+  'sl-06': {
+    datei: 'materialien/arbeitsblaetter/sl-06-neutralisation-salzbildung.pdf',
+    blaetter: [
+      ['Neutralisation', 1, 1, 'Säure und Lauge reagieren zu Wasser und Salz.'],
+      ['Salzlösungen herstellen', 2, 4, 'Salzbildung über Metall, Metalloxid, Hydroxid und Neutralisation.']
+    ]
+  },
+  'sl-07': {
+    datei: 'materialien/arbeitsblaetter/sl-07-pruefungstraining-saeuren-laugen.pdf',
+    blaetter: [
+      ['Säuren und Laugen ordnen und vergleichen', 1, 2, 'Wissen strukturieren und Gemeinsamkeiten sowie Unterschiede sichern.'],
+      ['Abschlusskontrolle Säuren und Laugen', 3, 3, 'Aussagen prüfen, Fehler finden und berichtigen.']
+    ]
+  },
+  'sz-01': {
+    datei: 'materialien/arbeitsblaetter/sz-01-ionenbildung.pdf',
+    blaetter: [
+      ['Ionenbindung', 1, 1, 'Elektronenübergang und Bildung von Natrium- und Chlorid-Ionen.'],
+      ['Ionen und ihre Ladungen', 2, 2, 'Ionenladungen aus dem Atombau ableiten.']
+    ]
+  },
+  'sz-02': {
+    datei: 'materialien/arbeitsblaetter/sz-02-ionengitter.pdf',
+    blaetter: [
+      ['Von Ionen zum Ionengitter', 1, 1, 'Anziehung entgegengesetzt geladener Ionen und Gitterbildung.']
+    ]
+  },
+  'sz-03': {
+    datei: 'materialien/arbeitsblaetter/sz-03-ionenladungen-verhaeltnisformeln.pdf',
+    blaetter: [
+      ['Ionen und ihre Ladungen', 1, 1, 'Ladungen bestimmen und als Grundlage für Verhältnisformeln nutzen.']
+    ]
+  },
+  'sz-04': {
+    datei: 'materialien/arbeitsblaetter/sz-04-salz-und-salzloesung.pdf',
+    blaetter: [
+      ['Festes Salz und Salzlösung vergleichen', 1, 1, 'Teilchenbeweglichkeit, Leitfähigkeit und Eindampfen untersuchen.']
+    ]
+  },
+  'sz-05': {
+    datei: 'materialien/arbeitsblaetter/sz-05-salzbildung-pruefungstraining.pdf',
+    blaetter: [
+      ['Wege der Salzbildung', 1, 3, 'Mehrere Herstellungswege für Salzlösungen anwenden.'],
+      ['Ionenbindung und Ionenladungen', 4, 5, 'Salzbildung auf Teilchenebene erklären.'],
+      ['Metallchloride als Salze', 6, 7, 'Eigenschaften und Verwendung ausgewählter Salze recherchieren.']
+    ]
+  }
 };
 
 function materialkarteBauen() {
@@ -2480,7 +2515,8 @@ function materialkarteBauen() {
   if (!box || !inhalt) return;
 
   const id = String(S.daten.unit || '').toLowerCase();
-  const materialien = ZUSATZMATERIAL_NACH_EINHEIT[id] || [];
+  const paket = ZUSATZMATERIAL_NACH_EINHEIT[id];
+  const materialien = paket?.blaetter || [];
   inhalt.replaceChildren();
   if (!materialien.length || S.daten.pruefung) {
     box.hidden = true;
@@ -2492,7 +2528,7 @@ function materialkarteBauen() {
   if (summary) summary.textContent = `Weitere Arbeitsblätter zum Thema · ${materialien.length}`;
 
   inhalt.append(el('p', 'material-hinweis',
-    'Wähle das Arbeitsblatt, das zu deinem aktuellen Lernschritt passt. Die PDF öffnet sich direkt auf der angegebenen Seite; die gedruckte Seitenzahl im Foto kann abweichen.'));
+    'Wähle das Arbeitsblatt, das zu deinem aktuellen Lernschritt passt. Die Auszüge enthalten nur Schülerseiten - keine methodischen Hinweise oder Lösungsseiten.'));
 
   const liste = el('ul', 'material-liste');
   materialien.forEach(([titel, von, bis, hinweis]) => {
@@ -2505,7 +2541,7 @@ function materialkarteBauen() {
     const link = el('a', 'btn btn-neben material-link', von === bis
       ? `PDF-Seite ${von} öffnen`
       : `PDF-Seiten ${von}–${bis} öffnen`);
-    link.href = `${ZUSATZMATERIAL_DATEI}#page=${von}`;
+    link.href = `${paket.datei}#page=${von}`;
     link.target = '_blank';
     link.rel = 'noopener';
     link.addEventListener('click', () => Tracker.track('zusatzarbeitsblatt_geoeffnet', {

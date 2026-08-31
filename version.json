@@ -1,7 +1,7 @@
 {
   "name": "Chemie 7–10 · Campus Hannah Höch",
-  "version": "v9",
-  "cache_version": "chemie710-v9-zusatzarbeitsblaetter",
+  "version": "v10",
+  "cache_version": "chemie710-v10-schuelerarbeitsblaetter",
   "source_commit": null,
   "source_branch": "codex/chemie-lehrbuch-v5",
   "source_dirty": true,
